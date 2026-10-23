@@ -25,11 +25,11 @@ def _output(item_id, judgments: dict, severity="major"):
     has_v = any(j == VIOLATED for j in judgments.values())
     return {
         "item_id": item_id, "evaluable": True, "evaluable_note": None,
-        "errors": [{"id": "E001", "src_span": "x", "tgt_span": "y", "description": "d"}] if has_v else [],
+        "errors": [{"id": "E001", "src_span": "x", "tgt_span": "y", "description": "가짜 오류 설명입니다"}] if has_v else [],
         "axes": {ax: {"judgment": judgments[ax],
                       "severity": severity if judgments[ax] == VIOLATED else None,
                       "error_ids": ["E001"] if judgments[ax] == VIOLATED else [],
-                      "reason": "근거"} for ax in AXES},
+                      "reason": "근거 문장입니다 (테스트)"} for ax in AXES},
     }
 
 
@@ -123,7 +123,7 @@ def test_rater_as_engine_matches_baseline_direction():
 def test_validate_catches_errors():
     out = _output("P001", {ax: "보존" for ax in AXES})
     assert validate(out, "P001") == ([], [])
-    out["axes"]["Deontic"] = {"judgment": VIOLATED, "severity": None, "error_ids": ["E009"], "reason": "r"}
+    out["axes"]["Deontic"] = {"judgment": VIOLATED, "severity": None, "error_ids": ["E009"], "reason": "축 근거 문장 (테스트)"}
     errs, _ = validate(out, "P001")
     assert any("심각도" in e for e in errs) and any("E009" in e for e in errs)
 
@@ -139,10 +139,10 @@ def test_unevaluable_requires_all_hold():
 
 def test_sheet_rows_multi_error():
     out = _output("P001", {ax: "보존" for ax in AXES})
-    out["errors"] = [{"id": "E001", "src_span": "a", "tgt_span": "가", "description": ""},
-                     {"id": "E002", "src_span": "b", "tgt_span": "나", "description": ""}]
+    out["errors"] = [{"id": "E001", "src_span": "a", "tgt_span": "가", "description": "가짜 오류 설명입니다"},
+                     {"id": "E002", "src_span": "b", "tgt_span": "나", "description": "가짜 오류 설명입니다"}]
     out["axes"]["Semantic"] = {"judgment": VIOLATED, "severity": "major",
-                               "error_ids": ["E001", "E002"], "reason": "r"}
+                               "error_ids": ["E001", "E002"], "reason": "축 근거 문장 (테스트)"}
     row = to_sheet_rows(out)[0]
     assert row["error_ids"] == "E001, E002"
     assert row["src_span"] == "E001: a / E002: b"  # 가이드라인 9절 형식

@@ -31,9 +31,9 @@ def _judge(item_id: str, policy: str) -> dict:
         g = GOLD[(item_id, ax)]
         v = g["violated"] if policy == "majority" else g["n_violated"] >= 1
         axes[ax] = {"judgment": VIOLATED if v else "보존", "severity": "major" if v else None,
-                    "error_ids": ["E001"] if v else [], "reason": "가짜 근거"}
+                    "error_ids": ["E001"] if v else [], "reason": "가짜 근거 문장입니다"}
         if v and not errors:
-            errors = [{"id": "E001", "src_span": "s", "tgt_span": "t", "description": "d"}]
+            errors = [{"id": "E001", "src_span": "s", "tgt_span": "t", "description": "가짜 오류 설명입니다"}]
     return {"item_id": item_id, "evaluable": True, "evaluable_note": None, "errors": errors, "axes": axes}
 
 
@@ -96,13 +96,29 @@ def _items():
 
 def test_sync_run_and_resume(tmp_path):
     c = FakeClient(fail_once={"P010"})
-    out = RN.run(_items(), "claude-haiku-5-5", "v0", "t1", True, tmp_path, client=c)
+    out = RN.run(_items(), "claude-haiku-5-5", "v0", "t1", True, tmp_path, client=c, retries=0)
     recs = RN.latest_records(out)
     assert not RN._ok(recs["P010"]) and RN._ok(recs["P002"])
     RN.run(_items(), "claude-haiku-5-5", "v0", "t1", True, tmp_path, client=c)  # 재실행
     assert c.calls.count("P010") == 2 and c.calls.count("P002") == 1  # 실패분만 다시 부름
     assert all(RN._ok(r) for r in RN.latest_records(out).values())
     assert (out / "engine_sheet.csv").exists()
+
+
+def test_auto_retry_and_concurrency(tmp_path):
+    c = FakeClient(fail_once={"P010"})
+    out = RN.run(_items(), "claude-haiku-5-5", "v0", "t3", True, tmp_path, client=c, workers=4)
+    assert c.calls.count("P010") == 2  # 같은 실행 안에서 자동 재시도
+    assert all(RN._ok(r) for r in RN.latest_records(out).values())
+
+
+def test_placeholder_reason_is_format_error():
+    from bridgecore.schema import validate
+    out = _judge("P002", "majority")
+    out["axes"]["Textual"]["reason"] = "placeholder"
+    assert any("자리표시" in e for e in validate(out, "P002")[0])
+    out["axes"]["Textual"]["reason"] = "x"
+    assert any("자리표시" in e for e in validate(out, "P002")[0])
 
 
 def test_rerun_with_other_prompt_refused(tmp_path):

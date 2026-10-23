@@ -209,11 +209,18 @@ def _gen_kwargs(args):
     return {"effort": None if args.effort == "default" else args.effort, "thinking": not args.no_thinking}
 
 
+def _sync_kwargs(args):
+    return {"workers": args.workers}
+
+
 def cmd_run(args):
     from .runner import run, submit_batch
     items = _items_from_source(_items_source(args))
     sel = _select_items(items, args)
-    (submit_batch if args.batch else run)(sel, **_runner_kwargs(args))
+    if args.batch:
+        submit_batch(sel, **_runner_kwargs(args))
+    else:
+        run(sel, **_runner_kwargs(args), **_sync_kwargs(args))
 
 
 def cmd_collect(args):
@@ -252,7 +259,7 @@ def cmd_cascade(args):
         if args.live:
             print(f"2차 Batch가 끝나면 collect 하세요. 수집 후 자동으로 병합합니다 → {cascade_out}")
         return
-    stage2 = run(items, **kw)
+    stage2 = run(items, **kw, **_sync_kwargs(args))
     if args.live:
         merge_cascade(screen, stage2, cascade_out, on)
 
@@ -290,6 +297,7 @@ def _model_args(s, default_model):
     s.add_argument("--effort", choices=["low", "medium", "high", "default"], default="medium",
                    help="사고 깊이 (default = 모델 기본값)")
     s.add_argument("--no-thinking", action="store_true", help="적응형 사고 끄기")
+    s.add_argument("--workers", type=int, default=1, help="동기 실행 시 동시 호출 수")
     s.add_argument("--live", action="store_true", help="실제 API 호출 (없으면 드라이런)")
     s.add_argument("--batch", action="store_true", help="Message Batches로 제출 (결과는 collect)")
 

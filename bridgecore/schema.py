@@ -22,6 +22,16 @@ from .constants import AXES, HOLD, JUDGMENTS, NA, SEVERITIES, VIOLATED
 
 ERROR_ID_RE = re.compile(r"^E\d{3}$")
 
+# 근거 칸을 자리표시로 채운 경우 (실측: Sonnet 5.5가 40문항 중 2문항에서 "x", "placeholder" 출력)
+_PLACEHOLDERS = {"x", "placeholder", "...", "…", "-", "--", "n/a", "na", "todo", "tbd", "none", "null",
+                 "reason", "description", "근거", "이유", "없음"}
+MIN_REASON_CHARS = 8
+
+
+def is_placeholder(text) -> bool:
+    t = (text or "").strip()
+    return t.lower().strip(".") in _PLACEHOLDERS or len(t) < MIN_REASON_CHARS
+
 _JUDGMENT_ALIASES = {
     "na": NA, "n/a": NA, "n.a.": NA, "해당없음": NA, "해당 없음": NA,
     "보류": HOLD, "판단 보류": HOLD,
@@ -125,6 +135,8 @@ def validate(out: dict, item_id: str | None = None) -> tuple[list[str], list[str
         error_ids.append(eid)
         if not (e.get("src_span") or e.get("tgt_span")):
             warns.append(f"{eid}: 근거 구간이 비어 있음")
+        if is_placeholder(e.get("description")):
+            errs.append(f"{eid}: 오류 설명이 비었거나 자리표시 {e.get('description')!r}")
     expected = [f"E{i:03d}" for i in range(1, len(error_ids) + 1)]
     if error_ids and error_ids != expected:
         warns.append(f"오류 ID가 E001부터 차례대로가 아님: {error_ids}")
@@ -141,8 +153,9 @@ def validate(out: dict, item_id: str | None = None) -> tuple[list[str], list[str
         j, sev, ids = a.get("judgment"), a.get("severity"), a.get("error_ids") or []
         if j not in JUDGMENTS:
             errs.append(f"{ax}: 판정값 오류 {j!r}")
-        if not (isinstance(a.get("reason"), str) and a["reason"].strip()):
-            errs.append(f"{ax}: 근거(reason) 없음")  # 라벨 복사 방지: 모든 축 근거 필수
+        if not isinstance(a.get("reason"), str) or is_placeholder(a["reason"]):
+            # 라벨 복사 방지: 모든 축 근거 필수
+            errs.append(f"{ax}: 근거(reason)가 비었거나 자리표시 {a.get('reason')!r}")
         if j == VIOLATED:
             if sev not in SEVERITIES:
                 errs.append(f"{ax}: 훼손인데 심각도 없음/오류 {sev!r}")

@@ -1,0 +1,541 @@
+{
+  "meta": {
+    "created": "2026-10-23T16:04:31",
+    "model": "claude-sonnet-5-5",
+    "prompt_version": "v0",
+    "screen": false,
+    "prompt_fingerprint": "3968050c0c40",
+    "max_tokens": 16000,
+    "effort": "medium",
+    "thinking": "adaptive",
+    "live": true,
+    "items": [
+      "P003",
+      "P004",
+      "P005",
+      "P006",
+      "P007",
+      "P008",
+      "P009",
+      "P011",
+      "P012",
+      "P013",
+      "P014",
+      "P016",
+      "P021",
+      "P022",
+      "P023",
+      "P024",
+      "P025",
+      "P026",
+      "P029",
+      "P031",
+      "P032",
+      "P034",
+      "P035",
+      "P036",
+      "P038",
+      "P039",
+      "P040",
+      "P042",
+      "P043",
+      "P045",
+      "P046",
+      "P048",
+      "P049",
+      "P050",
+      "P052",
+      "P053",
+      "P054",
+      "P056",
+      "P057",
+      "P059"
+    ],
+    "items_source": "pilot"
+  },
+  "split": "dev",
+  "scores": {
+    "Semantic": {
+      "n": 40,
+      "gold_violated": 17,
+      "strict": {
+        "tp": 15,
+        "fp": 3,
+        "fn": 2,
+        "precision": 0.8333333333333334,
+        "recall": 0.8823529411764706,
+        "f1": 0.8571428571428571
+      },
+      "lenient": {
+        "tp": 15,
+        "fp": 3,
+        "fn": 2,
+        "precision": 0.8333333333333334,
+        "recall": 0.8823529411764706,
+        "f1": 0.8571428571428571
+      },
+      "recall_ci95": [
+        0.6566315750229009,
+        0.967120919987079
+      ],
+      "recall_count": "17건 중 15건",
+      "hold": 0,
+      "hold_rate": 0.0,
+      "missing_or_format_error": 0,
+      "label4_acc": 0.8974358974358975,
+      "label4_n": 39,
+      "severity_exact": 0.5333333333333333,
+      "severity_within1": 1.0,
+      "severity_n": 15
+    },
+    "Textual": {
+      "n": 40,
+      "gold_violated": 3,
+      "strict": {
+        "tp": 3,
+        "fp": 7,
+        "fn": 0,
+        "precision": 0.3,
+        "recall": 1.0,
+        "f1": 0.46153846153846156
+      },
+      "lenient": {
+        "tp": 3,
+        "fp": 7,
+        "fn": 0,
+        "precision": 0.3,
+        "recall": 1.0,
+        "f1": 0.46153846153846156
+      },
+      "recall_ci95": [
+        0.43849391955098227,
+        1.0
+      ],
+      "recall_count": "3건 중 3건",
+      "hold": 0,
+      "hold_rate": 0.0,
+      "missing_or_format_error": 0,
+      "label4_acc": 0.825,
+      "label4_n": 40,
+      "severity_exact": 0.3333333333333333,
+      "severity_within1": 1.0,
+      "severity_n": 3
+    },
+    "Context": {
+      "n": 40,
+      "gold_violated": 2,
+      "strict": {
+        "tp": 2,
+        "fp": 10,
+        "fn": 0,
+        "precision": 0.16666666666666666,
+        "recall": 1.0,
+        "f1": 0.2857142857142857
+      },
+      "lenient": {
+        "tp": 2,
+        "fp": 10,
+        "fn": 0,
+        "precision": 0.16666666666666666,
+        "recall": 1.0,
+        "f1": 0.2857142857142857
+      },
+      "recall_ci95": [
+        0.34237195288961925,
+        1.0
+      ],
+      "recall_count": "2건 중 2건",
+      "hold": 0,
+      "hold_rate": 0.0,
+      "missing_or_format_error": 0,
+      "label4_acc": 0.75,
+      "label4_n": 40,
+      "severity_exact": 0.5,
+      "severity_within1": 1.0,
+      "severity_n": 2
+    },
+    "Deontic": {
+      "n": 40,
+      "gold_violated": 2,
+      "strict": {
+        "tp": 2,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "f1": 0.8
+      },
+      "lenient": {
+        "tp": 2,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "f1": 0.8
+      },
+      "recall_ci95": [
+        0.34237195288961925,
+        1.0
+      ],
+      "recall_count": "2건 중 2건",
+      "hold": 0,
+      "hold_rate": 0.0,
+      "missing_or_format_error": 0,
+      "label4_acc": 0.972972972972973,
+      "label4_n": 37,
+      "severity_exact": 1.0,
+      "severity_within1": 1.0,
+      "severity_n": 2
+    },
+    "Register": {
+      "n": 40,
+      "gold_violated": 1,
+      "strict": {
+        "tp": 1,
+        "fp": 2,
+        "fn": 0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "f1": 0.5
+      },
+      "lenient": {
+        "tp": 1,
+        "fp": 3,
+        "fn": 0,
+        "precision": 0.25,
+        "recall": 1.0,
+        "f1": 0.4
+      },
+      "recall_ci95": [
+        0.20654329147389294,
+        1.0
+      ],
+      "recall_count": "1건 중 1건",
+      "hold": 1,
+      "hold_rate": 0.025,
+      "missing_or_format_error": 0,
+      "label4_acc": 0.9,
+      "label4_n": 40,
+      "severity_exact": 1.0,
+      "severity_within1": 1.0,
+      "severity_n": 1
+    },
+    "Cultural": {
+      "n": 40,
+      "gold_violated": 2,
+      "strict": {
+        "tp": 1,
+        "fp": 3,
+        "fn": 1,
+        "precision": 0.25,
+        "recall": 0.5,
+        "f1": 0.3333333333333333
+      },
+      "lenient": {
+        "tp": 1,
+        "fp": 3,
+        "fn": 1,
+        "precision": 0.25,
+        "recall": 0.5,
+        "f1": 0.3333333333333333
+      },
+      "recall_ci95": [
+        0.09452865480086614,
+        0.9054713451991339
+      ],
+      "recall_count": "2건 중 1건",
+      "hold": 0,
+      "hold_rate": 0.0,
+      "missing_or_format_error": 0,
+      "label4_acc": 0.8648648648648649,
+      "label4_n": 37,
+      "severity_exact": 0.0,
+      "severity_within1": 1.0,
+      "severity_n": 1
+    },
+    "ALL": {
+      "n": 240,
+      "gold_violated": 27,
+      "strict": {
+        "tp": 24,
+        "fp": 26,
+        "fn": 3,
+        "precision": 0.48,
+        "recall": 0.8888888888888888,
+        "f1": 0.6233766233766234
+      },
+      "lenient": {
+        "tp": 24,
+        "fp": 27,
+        "fn": 3,
+        "precision": 0.47058823529411764,
+        "recall": 0.8888888888888888,
+        "f1": 0.6153846153846154
+      },
+      "recall_ci95": [
+        0.7194181745602705,
+        0.9614803521050127
+      ],
+      "recall_count": "27건 중 24건",
+      "hold": 1,
+      "hold_rate": 0.004166666666666667,
+      "missing_or_format_error": 0,
+      "label4_acc": 0.8669527896995708,
+      "label4_n": 233,
+      "severity_exact": 0.5416666666666666,
+      "severity_within1": 1.0,
+      "severity_n": 24
+    }
+  },
+  "baseline": {
+    "Semantic": {
+      "pairwise_f1": {
+        "R001-R002": 0.5384615384615384,
+        "R001-R003": 0.8648648648648649,
+        "R002-R003": 0.5517241379310345
+      },
+      "mean_pairwise_f1": 0.6516835137524793,
+      "fleiss_kappa": 0.4712103407755581
+    },
+    "Textual": {
+      "pairwise_f1": {
+        "R001-R002": 0.0,
+        "R001-R003": 0.4,
+        "R002-R003": 0.25
+      },
+      "mean_pairwise_f1": 0.21666666666666667,
+      "fleiss_kappa": 0.16666666666666627
+    },
+    "Context": {
+      "pairwise_f1": {
+        "R001-R002": 0.0,
+        "R001-R003": 0.5,
+        "R002-R003": 0.5
+      },
+      "mean_pairwise_f1": 0.3333333333333333,
+      "fleiss_kappa": 0.2982456140350885
+    },
+    "Deontic": {
+      "pairwise_f1": {
+        "R001-R002": 0.3333333333333333,
+        "R001-R003": 0.5,
+        "R002-R003": 0.25
+      },
+      "mean_pairwise_f1": 0.3611111111111111,
+      "fleiss_kappa": 0.29941618015012583
+    },
+    "Register": {
+      "pairwise_f1": {
+        "R001-R002": 0.0,
+        "R001-R003": 0.0,
+        "R002-R003": 0.6666666666666666
+      },
+      "mean_pairwise_f1": 0.2222222222222222,
+      "fleiss_kappa": 0.3162393162393151
+    },
+    "Cultural": {
+      "pairwise_f1": {
+        "R001-R002": 0.0,
+        "R001-R003": 0.3076923076923077,
+        "R002-R003": 0.0
+      },
+      "mean_pairwise_f1": 0.10256410256410257,
+      "fleiss_kappa": 0.05104241552839731
+    },
+    "ALL": {
+      "pairwise_f1": {
+        "R001-R002": 0.34782608695652173,
+        "R001-R003": 0.6301369863013698,
+        "R002-R003": 0.38095238095238093
+      },
+      "mean_pairwise_f1": 0.45297181807009085,
+      "fleiss_kappa": 0.39621586680410215
+    }
+  },
+  "cost": {
+    "by_model": {
+      "claude-sonnet-5-5": {
+        "calls": 42,
+        "input_tokens": 36418,
+        "output_tokens": 30104,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 379890
+      }
+    },
+    "usd": 0.41186499999999987,
+    "n_items": 40,
+    "usd_per_item": 0.010296624999999997
+  },
+  "format_checks": {
+    "P003": {
+      "errors": [],
+      "warnings": []
+    },
+    "P011": {
+      "errors": [],
+      "warnings": []
+    },
+    "P012": {
+      "errors": [],
+      "warnings": []
+    },
+    "P004": {
+      "errors": [],
+      "warnings": []
+    },
+    "P005": {
+      "errors": [],
+      "warnings": []
+    },
+    "P008": {
+      "errors": [],
+      "warnings": []
+    },
+    "P007": {
+      "errors": [],
+      "warnings": [
+        "E004: 어느 축에도 연결되지 않은 오류"
+      ]
+    },
+    "P006": {
+      "errors": [],
+      "warnings": []
+    },
+    "P013": {
+      "errors": [],
+      "warnings": []
+    },
+    "P014": {
+      "errors": [],
+      "warnings": []
+    },
+    "P009": {
+      "errors": [],
+      "warnings": []
+    },
+    "P021": {
+      "errors": [],
+      "warnings": []
+    },
+    "P026": {
+      "errors": [],
+      "warnings": [
+        "E001: 어느 축에도 연결되지 않은 오류"
+      ]
+    },
+    "P016": {
+      "errors": [],
+      "warnings": []
+    },
+    "P029": {
+      "errors": [],
+      "warnings": []
+    },
+    "P023": {
+      "errors": [],
+      "warnings": []
+    },
+    "P022": {
+      "errors": [],
+      "warnings": []
+    },
+    "P032": {
+      "errors": [],
+      "warnings": []
+    },
+    "P024": {
+      "errors": [],
+      "warnings": [
+        "E004: 어느 축에도 연결되지 않은 오류"
+      ]
+    },
+    "P025": {
+      "errors": [],
+      "warnings": []
+    },
+    "P031": {
+      "errors": [],
+      "warnings": []
+    },
+    "P038": {
+      "errors": [],
+      "warnings": []
+    },
+    "P036": {
+      "errors": [],
+      "warnings": []
+    },
+    "P034": {
+      "errors": [],
+      "warnings": []
+    },
+    "P035": {
+      "errors": [],
+      "warnings": []
+    },
+    "P042": {
+      "errors": [],
+      "warnings": []
+    },
+    "P039": {
+      "errors": [],
+      "warnings": []
+    },
+    "P048": {
+      "errors": [],
+      "warnings": []
+    },
+    "P043": {
+      "errors": [],
+      "warnings": []
+    },
+    "P040": {
+      "errors": [],
+      "warnings": []
+    },
+    "P045": {
+      "errors": [],
+      "warnings": [
+        "E001: 어느 축에도 연결되지 않은 오류"
+      ]
+    },
+    "P046": {
+      "errors": [],
+      "warnings": []
+    },
+    "P050": {
+      "errors": [],
+      "warnings": [
+        "E002: 어느 축에도 연결되지 않은 오류"
+      ]
+    },
+    "P049": {
+      "errors": [],
+      "warnings": []
+    },
+    "P054": {
+      "errors": [],
+      "warnings": []
+    },
+    "P052": {
+      "errors": [],
+      "warnings": []
+    },
+    "P059": {
+      "errors": [],
+      "warnings": []
+    },
+    "P056": {
+      "errors": [],
+      "warnings": []
+    },
+    "P053": {
+      "errors": [],
+      "warnings": []
+    },
+    "P057": {
+      "errors": [],
+      "warnings": []
+    }
+  }
+}

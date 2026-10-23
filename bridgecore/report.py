@@ -55,9 +55,13 @@ def _cost(calls: list[dict], n_items: int) -> dict | None:
 
 
 def _calls_for_run(run_dir: Path, meta: dict, recs: dict, item_ids: set) -> list[dict]:
+    if meta.get("type") == "cascade":
+        rows = [r for iid, r in recs.items() if iid in item_ids]
+    else:
+        # 재시도 호출도 비용이 들었으므로 마지막 결과만이 아니라 모든 호출 기록을 센다
+        rows = [r for r in read_jsonl(run_dir / "outputs.jsonl") if r["item_id"] in item_ids]
     calls = [{"model": r.get("model") or meta["model"], "usage": r.get("usage"),
-              "via_batch": r.get("via_batch", False)}
-             for iid, r in recs.items() if iid in item_ids]
+              "via_batch": r.get("via_batch", False)} for r in rows]
     s1 = run_dir / "stage1_usage.json"
     if meta.get("type") == "cascade" and s1.exists():
         # 2차로 넘어간 문항은 1차 호출 비용도 들었다 (1차 결과를 그대로 쓴 문항은 위에 이미 포함)

@@ -106,6 +106,9 @@ def process_response(item_id: str, resp, model: str, seconds: float | None = Non
         errs.append("모델이 응답을 거절함 (stop_reason=refusal)")
     u = _get(resp, "usage")
     usage = {k: (_get(u, k) or 0) for k in USAGE_KEYS} if u is not None else None
+    if usage is not None:
+        # 사고 토큰은 output_tokens에 포함되어 과금됨. 비용 분석용으로 따로 기록
+        usage["thinking_tokens"] = _get(_get(u, "output_tokens_details"), "thinking_tokens") or 0
     return {"item_id": item_id, "model": _get(resp, "model") or model, "output": output,
             "usage": usage, "stop_reason": stop, "seconds": seconds,
             "errors": errs, "warnings": warns}
@@ -122,7 +125,11 @@ def _append(out_dir: Path, rec: dict) -> None:
 
 
 def _ok(rec: dict | None) -> bool:
-    return bool(rec and rec.get("output") and not rec.get("errors"))
+    """성공 여부. 저장된 errors뿐 아니라 현재 검증 기준으로도 다시 확인한다
+    (검증을 강화하면 예전에 통과한 출력도 다시 부르게 된다)."""
+    if not (rec and rec.get("output") and not rec.get("errors")):
+        return False
+    return not validate(rec["output"], rec["item_id"])[0]
 
 
 def finalize(out_dir: Path) -> dict:
@@ -199,9 +206,29 @@ def _dry_run_note(reqs: list[dict]) -> None:
 
 
 # ---------- 동기 실행 ----------
+def _call_one(client, iid: str, req: dict, model: str, out: Path) -> dict:
+    t0 = time.time()
+    try:
+        resp = client.messages.create(**req)
+    except Exception as e:  # API 오류도 기록하고 다음 문항으로
+        return error_record(iid, model, f"API 오류 {e.__class__.__name__}: {e}")
+    (out / "raw" / f"{iid}.json").write_text(_dump(resp), encoding="utf-8")
+    return process_response(iid, resp, model, round(time.time() - t0, 1))
+
+
+def _log(rec: dict) -> None:
+    u = rec.get("usage") or {}
+    status = ("형식오류 " + "; ".join(rec["errors"])) if rec["errors"] else "ok"
+    print(f"  {rec['item_id']}: {status} · in {u.get('input_tokens')} / cache_read "
+          f"{u.get('cache_read_input_tokens')} / out {u.get('output_tokens')} "
+          f"(사고 {u.get('thinking_tokens', 0)}) · {rec.get('seconds')}s", flush=True)
+
+
 def run(items: list[dict], model: str, version: str, run_name: str | None, live: bool,
         out_root: Path, max_tokens: int = 16000, screen: bool = False, client=None,
-        extra_meta: dict | None = None, effort: str | None = "medium", thinking: bool = True) -> Path:
+        extra_meta: dict | None = None, effort: str | None = "medium", thinking: bool = True,
+        workers: int = 1, retries: int = 1) -> Path:
+    """workers>1이면 동시에 호출한다. 프롬프트 캐시가 먼저 만들어지도록 첫 문항은 혼자 부른다."""
     out, reqs = prepare_run(items, model, version, run_name, live, out_root, max_tokens, screen,
                             extra_meta, effort, thinking)
     if not live:
@@ -209,25 +236,41 @@ def run(items: list[dict], model: str, version: str, run_name: str | None, live:
         return out
     client = client or get_client()
     prev = latest_records(out)
-    for it, req in zip(items, reqs):
-        iid = it["item_id"]
-        if _ok(prev.get(iid)):
-            continue
-        t0 = time.time()
-        try:
-            resp = client.messages.create(**req)
-        except Exception as e:  # API 오류도 기록하고 다음 문항으로
-            rec = error_record(iid, model, f"API 오류 {e.__class__.__name__}: {e}")
-            _append(out, rec)
-            print(f"  {iid}: {rec['errors'][0]}")
-            continue
-        (out / "raw" / f"{iid}.json").write_text(_dump(resp), encoding="utf-8")
-        rec = process_response(iid, resp, model, round(time.time() - t0, 1))
+    todo = [(it["item_id"], r) for it, r in zip(items, reqs) if not _ok(prev.get(it["item_id"]))]
+    if todo:
+        first = todo[0]
+        rec = _call_one(client, *first, model, out)
         _append(out, rec)
-        u = rec["usage"] or {}
-        print(f"  {iid}: {'형식오류 ' + '; '.join(rec['errors']) if rec['errors'] else 'ok'} · "
-              f"in {u.get('input_tokens')} / cache_read {u.get('cache_read_input_tokens')} / "
-              f"out {u.get('output_tokens')}")
+        _log(rec)
+        rest = todo[1:]
+        if workers > 1 and rest:
+            import threading
+            from concurrent.futures import ThreadPoolExecutor, as_completed
+            lock = threading.Lock()
+            with ThreadPoolExecutor(max_workers=workers) as ex:
+                futs = [ex.submit(_call_one, client, iid, req, model, out) for iid, req in rest]
+                for fu in as_completed(futs):
+                    rec = fu.result()
+                    with lock:
+                        _append(out, rec)
+                        _log(rec)
+        else:
+            for iid, req in rest:
+                rec = _call_one(client, iid, req, model, out)
+                _append(out, rec)
+                _log(rec)
+    # 형식 오류·API 오류 문항은 한 번 더 부른다 (근거 자리표시, JSON 잘림 등은 재호출로 대개 해결)
+    for attempt in range(retries):
+        cur = latest_records(out)
+        again = [(it["item_id"], r) for it, r in zip(items, reqs) if not _ok(cur.get(it["item_id"]))]
+        if not again:
+            break
+        print(f"재시도 {attempt + 1}회차: {len(again)}문항 {[i for i, _ in again][:10]}")
+        for iid, req in again:
+            rec = _call_one(client, iid, req, model, out)
+            rec["attempt"] = attempt + 2
+            _append(out, rec)
+            _log(rec)
     _print_summary(out, finalize(out))
     return out
 
