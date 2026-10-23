@@ -39,7 +39,8 @@ def _judge(item_id: str, policy: str) -> dict:
 
 def _message(item_id: str, model: str, policy: str) -> dict:
     return {"model": model, "stop_reason": "tool_use",
-            "content": [{"type": "tool_use", "name": "submit_judgment", "input": _judge(item_id, policy)}],
+            "content": [{"type": "thinking", "thinking": "", "signature": "x"},  # 사고 블록은 건너뛰어야 함
+                        {"type": "text", "text": json.dumps(_judge(item_id, policy), ensure_ascii=False)}],
             "usage": {"input_tokens": 1500, "output_tokens": 900,
                       "cache_creation_input_tokens": 0, "cache_read_input_tokens": 5000}}
 
@@ -171,3 +172,51 @@ def test_score_run_on_cascade(tmp_path):
     md = path.read_text(encoding="utf-8")
     assert "2단계: 재판정" in md
     assert "| ALL |" in md
+
+
+def test_request_shape_for_claude_5_5():
+    """Sonnet 5.5: 도구 강제·temperature 금지 → 구조화 출력. 사고 끄기 값은 모델별로 다름"""
+    from bridgecore.prompt import build_request
+    from bridgecore.schema import JSON_SCHEMA
+    r = build_request(ITEMS["P036"], "claude-sonnet-5-5", thinking=False, effort="low")
+    assert "tool_choice" not in r and "tools" not in r and "temperature" not in r
+    assert r["output_config"] == {"format": {"type": "json_schema", "schema": JSON_SCHEMA}, "effort": "low"}
+    assert r["thinking"] == {"type": "between_tools"}
+    assert build_request(ITEMS["P036"], "claude-haiku-5-5", thinking=False)["thinking"] == {"type": "disabled"}
+    assert "thinking" not in build_request(ITEMS["P036"], "claude-haiku-5-5")
+
+
+def test_schema_follows_structured_output_rules():
+    from bridgecore.schema import JSON_SCHEMA
+
+    def walk(node, unions=[0]):
+        if isinstance(node, dict):
+            if node.get("type") == "object":
+                assert node.get("additionalProperties") is False
+                assert set(node["required"]) == set(node["properties"])
+            if isinstance(node.get("type"), list) or "anyOf" in node:
+                unions[0] += 1
+            for v in node.values():
+                walk(v, unions)
+        elif isinstance(node, list):
+            for v in node:
+                walk(v, unions)
+        return unions[0]
+    assert walk(JSON_SCHEMA) <= 16
+
+
+def test_refusal_and_truncation_are_errors():
+    msg = _message("P002", "claude-haiku-5-5", "majority")
+    rec = RN.process_response("P002", {**msg, "stop_reason": "refusal"}, "claude-haiku-5-5")
+    assert not RN._ok(rec)
+    bad = {**msg, "content": [{"type": "text", "text": '{"item_id": "P002", "evaluable": tr'}],
+           "stop_reason": "max_tokens"}
+    rec = RN.process_response("P002", bad, "claude-haiku-5-5")
+    assert any("JSON" in e for e in rec["errors"]) and any("max_tokens" in e for e in rec["errors"])
+
+
+def test_paragraph_only_item():
+    from bridgecore.prompt import PARAGRAPH_ONLY_NOTE, user_text
+    it = {**ITEMS["P036"], "tgt": ""}
+    text = user_text(it)
+    assert PARAGRAPH_ONLY_NOTE in text and "(빈 출력)" not in text

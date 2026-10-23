@@ -155,11 +155,14 @@ def cmd_prompt(args):
 
 def load_items_file(path: str) -> list[dict]:
     """파일럿 외 문항(본검수·책)을 jsonl로 받는다. 한 줄 = 문항 하나.
-    필수: item_id, src, tgt / 선택: doc_info, brief, src_paragraph, tgt_paragraph, figure(engine/ 기준 경로)"""
+    필수: item_id, src, 그리고 tgt(번역 문장) 또는 tgt_paragraph(문단 전체 번역)
+    선택: doc_info, brief, src_paragraph, figure(engine/ 기준 경로)"""
     rows = read_jsonl(path)
-    bad = [i for i, r in enumerate(rows, 1) if not all(r.get(k) for k in ("item_id", "src")) or "tgt" not in r]
+    # tgt(번역 문장)가 없으면 tgt_paragraph(문단 전체 번역)는 있어야 한다 → 엔진이 대응 구간을 직접 찾음
+    bad = [i for i, r in enumerate(rows, 1) if not all(r.get(k) for k in ("item_id", "src"))
+           or not ((r.get("tgt") or "").strip() or (r.get("tgt_paragraph") or "").strip())]
     if bad:
-        sys.exit(f"{path}: item_id·src·tgt가 없는 줄 {bad[:10]}")
+        sys.exit(f"{path}: item_id·src, 그리고 tgt 또는 tgt_paragraph가 없는 줄 {bad[:10]}")
     ids = [r["item_id"] for r in rows]
     if len(ids) != len(set(ids)):
         sys.exit(f"{path}: 중복된 item_id가 있습니다.")
@@ -198,7 +201,12 @@ def _select_items(items, args):
 def _runner_kwargs(args, extra_meta=None):
     return dict(model=args.model, version=args.version, run_name=args.name, live=args.live,
                 out_root=ROOT / "runs", max_tokens=args.max_tokens, screen=args.screen,
-                extra_meta={"items_source": _items_source(args), **(extra_meta or {})})
+                extra_meta={"items_source": _items_source(args), **(extra_meta or {})},
+                **_gen_kwargs(args))
+
+
+def _gen_kwargs(args):
+    return {"effort": None if args.effort == "default" else args.effort, "thinking": not args.no_thinking}
 
 
 def cmd_run(args):
@@ -237,7 +245,8 @@ def cmd_cascade(args):
     extra = {"items_source": m1.get("items_source", "pilot"), "cascade_of": str(screen),
              "cascade_out": str(cascade_out), "escalate_on": list(on)}
     kw = dict(model=args.model, version=args.version, run_name=args.name, live=args.live,
-              out_root=ROOT / "runs", max_tokens=args.max_tokens, screen=False, extra_meta=extra)
+              out_root=ROOT / "runs", max_tokens=args.max_tokens, screen=False, extra_meta=extra,
+              **_gen_kwargs(args))
     if args.batch:
         submit_batch(items, **kw)
         if args.live:
@@ -277,7 +286,10 @@ def cmd_baseline(args):
 def _model_args(s, default_model):
     s.add_argument("--model", default=default_model)
     s.add_argument("--version", default="v0"); s.add_argument("--name")
-    s.add_argument("--max-tokens", type=int, default=4000)
+    s.add_argument("--max-tokens", type=int, default=16000, help="사고 토큰 포함 상한")
+    s.add_argument("--effort", choices=["low", "medium", "high", "default"], default="medium",
+                   help="사고 깊이 (default = 모델 기본값)")
+    s.add_argument("--no-thinking", action="store_true", help="적응형 사고 끄기")
     s.add_argument("--live", action="store_true", help="실제 API 호출 (없으면 드라이런)")
     s.add_argument("--batch", action="store_true", help="Message Batches로 제출 (결과는 collect)")
 

@@ -23,6 +23,7 @@ python -m bridgecore.cli run --split dev                    # 드라이런: 요�
 python -m bridgecore.cli run --split dev --live             # 실제 호출 (기본 모델 claude-haiku-5-5)
 python -m bridgecore.cli run --split dev --live --model claude-sonnet-5-5
 python -m bridgecore.cli run --items P007,P036 --live --name try_numbers   # 몇 문항만
+python -m bridgecore.cli run --split dev --live --effort low --no-thinking --name dev_haiku_fast  # 사고 끄고 싸게
 
 python -m bridgecore.cli score runs/<실행폴더> --split dev   # → reports/<실행>_dev.md + _cases.csv
 python -m pytest -q
@@ -57,7 +58,8 @@ python -m bridgecore.cli compare runs/dev_screen runs/dev_sonnet
 ```bash
 python -m bridgecore.cli run --items-file data/book.jsonl --live --batch --screen --name book_screen
 ```
-한 줄에 문항 하나인 jsonl. 필수 `item_id`·`src`·`tgt`, 선택 `doc_info`·`brief`·`src_paragraph`·`tgt_paragraph`·`figure`.
+한 줄에 문항 하나인 jsonl. 필수 `item_id`·`src`, 그리고 `tgt`(번역 문장) 또는 `tgt_paragraph`(문단 전체 번역). 선택 `doc_info`·`brief`·`src_paragraph`·`figure`.
+`tgt`가 비어 있으면 엔진이 문단 전체 번역에서 대응 구간을 직접 찾는다 (숫자 검사는 문단 단위로).
 사람 정답이 없는 문항은 `score` 에서 자동으로 빠진다.
 
 확인용 20문항은 `--split holdout --i-know-holdout`일 때만 실행된다 (마지막 1회).
@@ -72,12 +74,12 @@ python -m bridgecore.cli run --items-file data/book.jsonl --live --batch --scree
 | `bridgecore/scoring.py` | 축별 P/R/F1, 보류 2가지 처리, 신뢰구간, 사람 간 기준선 |
 | `bridgecore/split.py` | 장르 × 드문 축 훼손 층화 분할 |
 | `bridgecore/rules.py` | 숫자 일치 힌트, 목표언어 미생성 필터, 규범 표현 힌트 |
-| `bridgecore/prompt.py` | 시스템 프롬프트(캐시) + 문항 메시지 + 강제 도구 호출 |
+| `bridgecore/prompt.py` | 시스템 프롬프트(캐시) + 문항 메시지 + 구조화 출력·effort·사고 설정 |
 | `bridgecore/runner.py` | 드라이런/동기 실행/Batch 제출·수집, 2단계 선별·병합, 재시작 시 실패분만 재실행 |
 | `bridgecore/compare.py` | 선별 실행이 기준 실행·사람 정답 대비 놓치는 훼손 비교 |
 | `prompts/v0/system.md` | 프롬프트 v0 (가이드라인 2026-10-07판 요약 + EX01·EX02) |
 | `prompts/v0/screen_addendum.md` | 1차 선별 모드 추가문 (놓치지 않게 넉넉히 표시) |
-| `prices.json` | 모델 단가·Batch 배율 (공식 가격표 확인 후 직접 입력 — 비어 있으면 비용 계산 안 함) |
+| `prices.json` | 모델 단가·Batch 배율 (공식 문서 2026-10-23 기준) |
 | `data/raw/` | 원본 엑셀·가이드라인 (깃 제외) |
 | `data/processed/` | 빌드 결과 (깃 제외, `split_pilot.json`만 포함) |
 | `runs/`, `reports/` | 실행 결과, 채점 리포트 |
@@ -91,8 +93,15 @@ python -m bridgecore.cli run --items-file data/book.jsonl --live --batch --scree
 - 형식 오류 문항: 6축 비훼손으로 채점하고 건수 따로 보고
 - 드문 축: 재현율 95% 윌슨 구간과 "n건 중 k건" 함께 표기
 
+## 요청 방식 (Claude 5.5 세대)
+
+- 출력은 구조화 출력 `output_config.format` (json_schema)으로 받는다. Sonnet 5.5가 도구 호출 강제를 거부하기 때문
+- `temperature`는 보내지 않는다 (Sonnet 5.5는 400 오류)
+- 적응형 사고가 기본으로 켜져 있다. `--effort low|medium|high|default`(기본 medium), `--no-thinking`으로 조절. 사고 토큰은 `--max-tokens`(기본 16,000) 안에 포함되고 출력 요금이 붙는다
+- 근거: Claude Platform Docs의 Sonnet 5.5·Haiku 5.5 개요와 "What's new", 구조화 출력 문서 (2026-10-23 확인)
+
 ## 엔진 버전 기록
 
 실행마다 `runs/<이름>/meta.json`에 날짜·모델·프롬프트 버전·프롬프트 해시가 남는다.
-해시는 시스템 프롬프트·선별 추가문·도구 스키마·문항 틀·규칙 코드(`rules.py`)를 모두 포함한다.
+해시는 시스템 프롬프트·선별 추가문·출력 스키마·문항 틀·규칙 코드(`rules.py`)를 포함하고, 모델·effort·사고 설정은 meta.json에 따로 남는다.
 버전을 고정할 때 이 해시를 PROJECT_NOTES 개발일지에 적는다.

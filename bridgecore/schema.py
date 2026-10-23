@@ -28,8 +28,15 @@ _JUDGMENT_ALIASES = {
     "preserved": "보존", "violated": VIOLATED, "hold": HOLD,
 }
 
+# 구조화 출력(output_config.format, type=json_schema)용 스키마.
+# 제약(공식 문서): 모든 object는 additionalProperties=false, 숫자·길이 제약 불가,
+# 유니언 타입(type 배열·anyOf) 합계 16개 이하 — 여기서는 evaluable_note 1개.
+# 속성 순서대로 생성되므로 errors(오류 먼저) → axes(축별 판정) 순서를 지킨다.
+_ERROR_ID = {"type": "string", "pattern": "^E\\d{3}$"}
+
 JSON_SCHEMA = {
     "type": "object",
+    "additionalProperties": False,
     "required": ["item_id", "evaluable", "evaluable_note", "errors", "axes"],
     "properties": {
         "item_id": {"type": "string"},
@@ -39,9 +46,10 @@ JSON_SCHEMA = {
             "type": "array",
             "items": {
                 "type": "object",
+                "additionalProperties": False,
                 "required": ["id", "src_span", "tgt_span", "description"],
                 "properties": {
-                    "id": {"type": "string"},
+                    "id": _ERROR_ID,
                     "src_span": {"type": "string"},
                     "tgt_span": {"type": "string"},
                     "description": {"type": "string"},
@@ -50,15 +58,17 @@ JSON_SCHEMA = {
         },
         "axes": {
             "type": "object",
+            "additionalProperties": False,
             "required": AXES,
             "properties": {
                 ax: {
                     "type": "object",
+                    "additionalProperties": False,
                     "required": ["judgment", "severity", "error_ids", "reason"],
                     "properties": {
                         "judgment": {"enum": JUDGMENTS},
                         "severity": {"enum": SEVERITIES + [None]},
-                        "error_ids": {"type": "array", "items": {"type": "string"}},
+                        "error_ids": {"type": "array", "items": _ERROR_ID},
                         "reason": {"type": "string"},
                     },
                 }

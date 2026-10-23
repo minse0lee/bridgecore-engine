@@ -1,6 +1,6 @@
 {
-  "_note": "USD / 100만 토큰. 공식 가격표(https://docs.claude.com 의 Pricing)에서 확인해 직접 입력하세요. 하나라도 null이면 리포트에서 비용을 계산하지 않습니다. batch_multiplier는 Batch 요금 배율(예: 50% 할인이면 0.5)로, Batch 결과의 비용 계산에만 쓰입니다.",
-  "batch_multiplier": null,
-  "claude-haiku-5-5": {"input": null, "output": null, "cache_write": null, "cache_read": null},
-  "claude-sonnet-5-5": {"input": null, "output": null, "cache_write": null, "cache_read": null}
+  "_note": "USD / 100만 토큰. 출처: Claude Platform Docs 모델 개요 (platform.claude.com/docs/en/models/haiku-5-5/overview, .../sonnet-5-5/overview), 2026-10-23 확인. Haiku 5.5는 프롬프트 10만 토큰 이하 구간 단가(이 엔진의 요청은 모두 이 구간). cache_write는 5분 캐시 쓰기. batch_multiplier: Batch API 입력·출력 50% 할인.",
+  "batch_multiplier": 0.5,
+  "claude-haiku-5-5": {"input": 0.10, "output": 0.50, "cache_write": 0.125, "cache_read": 0.01},
+  "claude-sonnet-5-5": {"input": 2.00, "output": 10.00, "cache_write": 2.50, "cache_read": 0.10}
 }

@@ -23,7 +23,8 @@ from pathlib import Path
 
 from .constants import AXES, HOLD, VIOLATED
 from .io_utils import read_json, read_jsonl, write_csv, write_json
-from .prompt import TOOL_NAME, build_request, prompt_fingerprint
+from .prompt import build_request, prompt_fingerprint
+from .schema import parse_json_output
 from .schema import normalize, to_sheet_rows, validate
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -83,14 +84,26 @@ def _dump(resp) -> str:
 
 def process_response(item_id: str, resp, model: str, seconds: float | None = None) -> dict:
     """API 응답(Message) → outputs.jsonl 레코드. 동기·Batch 공통."""
+    # 구조화 출력: JSON은 text 블록에 온다. 사고(thinking) 블록은 건너뛴다.
     content = _get(resp, "content") or []
-    block = next((b for b in content
-                  if _get(b, "type") == "tool_use" and _get(b, "name") == TOOL_NAME), None)
-    output = normalize(dict(_get(block, "input"))) if block is not None else None
-    errs, warns = validate(output, item_id) if output else (["도구 호출 없음"], [])
+    texts = [_get(b, "text") or "" for b in content if _get(b, "type") == "text"]
     stop = _get(resp, "stop_reason")
+    output, errs = None, []
+    if texts:
+        try:
+            output = normalize(parse_json_output("".join(texts)))
+        except (ValueError, json.JSONDecodeError) as e:
+            errs.append(f"JSON 파싱 실패: {e}")
+    else:
+        errs.append("text 블록 없음")
+    warns: list[str] = []
+    if output is not None:
+        e2, warns = validate(output, item_id)
+        errs += e2
     if stop == "max_tokens":
-        errs.append("max_tokens에서 잘림")
+        errs.append("max_tokens에서 잘림 (사고 토큰 포함) — --max-tokens를 늘리거나 effort를 낮추세요")
+    elif stop == "refusal":
+        errs.append("모델이 응답을 거절함 (stop_reason=refusal)")
     u = _get(resp, "usage")
     usage = {k: (_get(u, k) or 0) for k in USAGE_KEYS} if u is not None else None
     return {"item_id": item_id, "model": _get(resp, "model") or model, "output": output,
@@ -139,8 +152,9 @@ def _print_summary(out_dir: Path, s: dict) -> None:
 
 # ---------- 준비 ----------
 def prepare_run(items: list[dict], model: str, version: str, run_name: str | None, live: bool,
-                out_root: Path, max_tokens: int = 4000, screen: bool = False,
-                extra_meta: dict | None = None) -> tuple[Path, list[dict]]:
+                out_root: Path, max_tokens: int = 16000, screen: bool = False,
+                extra_meta: dict | None = None, effort: str | None = "medium",
+                thinking: bool = True) -> tuple[Path, list[dict]]:
     stamp = dt.datetime.now().strftime("%Y%m%d")
     name = run_name or f"{stamp}_{version}{'_screen' if screen else ''}_{model}{'' if live else '_dryrun'}"
     out = Path(out_root) / name
@@ -149,25 +163,28 @@ def prepare_run(items: list[dict], model: str, version: str, run_name: str | Non
         "created": dt.datetime.now().isoformat(timespec="seconds"),
         "model": model, "prompt_version": version, "screen": screen,
         "prompt_fingerprint": prompt_fingerprint(version, screen),
-        "max_tokens": max_tokens, "temperature": 0, "live": live,
+        "max_tokens": max_tokens, "effort": effort, "thinking": "adaptive" if thinking else "off",
+        "live": live,
         "items": [i["item_id"] for i in items], **(extra_meta or {}),
     }
     meta_path = out / "meta.json"
     if meta_path.exists():
         old = read_json(meta_path)
-        if (old["model"], old["prompt_fingerprint"]) != (model, meta["prompt_fingerprint"]):
-            sys.exit(f"같은 실행 이름에 다른 모델/프롬프트가 섞입니다: {name}. --name을 바꾸세요.")
+        keys = ("model", "prompt_fingerprint", "effort", "thinking")
+        if tuple(old.get(k) for k in keys) != tuple(meta[k] for k in keys):
+            sys.exit(f"같은 실행 이름에 다른 모델/프롬프트/effort/thinking 설정이 섞입니다: {name}. --name을 바꾸세요.")
         meta["created"] = old["created"]
         meta["items"] = list(dict.fromkeys(old["items"] + meta["items"]))
     write_json(meta_path, meta)
-    reqs = [build_request(it, model, version, max_tokens, screen) for it in items]
+    reqs = [build_request(it, model, version, max_tokens, screen, effort, thinking) for it in items]
     with (out / "requests.jsonl").open("w", encoding="utf-8") as f:
         for it, r in zip(items, reqs):
             f.write(json.dumps({"item_id": it["item_id"], "request": _strip_images(r)},
                                ensure_ascii=False) + "\n")
     print(f"실행 폴더: {out}")
     print(f"문항 {len(items)}개 · 모델 {model} · 프롬프트 {version}"
-          f"{' +선별' if screen else ''} ({meta['prompt_fingerprint']})")
+          f"{' +선별' if screen else ''} ({meta['prompt_fingerprint']}) · effort {effort or '모델 기본'}"
+          f" · 사고 {'켜짐' if thinking else '꺼짐'}")
     return out, reqs
 
 
@@ -183,9 +200,10 @@ def _dry_run_note(reqs: list[dict]) -> None:
 
 # ---------- 동기 실행 ----------
 def run(items: list[dict], model: str, version: str, run_name: str | None, live: bool,
-        out_root: Path, max_tokens: int = 4000, screen: bool = False, client=None,
-        extra_meta: dict | None = None) -> Path:
-    out, reqs = prepare_run(items, model, version, run_name, live, out_root, max_tokens, screen, extra_meta)
+        out_root: Path, max_tokens: int = 16000, screen: bool = False, client=None,
+        extra_meta: dict | None = None, effort: str | None = "medium", thinking: bool = True) -> Path:
+    out, reqs = prepare_run(items, model, version, run_name, live, out_root, max_tokens, screen,
+                            extra_meta, effort, thinking)
     if not live:
         _dry_run_note(reqs)
         return out
@@ -216,12 +234,13 @@ def run(items: list[dict], model: str, version: str, run_name: str | None, live:
 
 # ---------- Batch ----------
 def submit_batch(items: list[dict], model: str, version: str, run_name: str | None, live: bool,
-                 out_root: Path, max_tokens: int = 4000, screen: bool = False, client=None,
-                 extra_meta: dict | None = None) -> Path:
+                 out_root: Path, max_tokens: int = 16000, screen: bool = False, client=None,
+                 extra_meta: dict | None = None, effort: str | None = "medium",
+                 thinking: bool = True) -> Path:
     """Message Batches로 제출만 하고 끝난다. 결과는 collect로 받는다.
     이미 성공한 문항은 제출하지 않는다 (실패분만 다시 제출할 때 같은 --name 사용)."""
     out, reqs = prepare_run(items, model, version, run_name, live, out_root, max_tokens, screen,
-                            {**(extra_meta or {}), "mode": "batch"})
+                            {**(extra_meta or {}), "mode": "batch"}, effort, thinking)
     if not live:
         _dry_run_note(reqs)
         print("Batch 제출: --live --batch")
