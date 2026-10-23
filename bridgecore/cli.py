@@ -278,6 +278,19 @@ def cmd_compare(args):
                  tuple(args.escalate_on.split(",")))
 
 
+def cmd_agree(args):
+    from .experiments import run_agreement
+    gold = G.build_gold(load_all()[1])
+    run_agreement(Path(args.run_a), Path(args.run_b), gold, REPORTS)
+
+
+def cmd_sweep(args):
+    from .experiments import screen_sweep
+    gold = G.build_gold(load_all()[1])
+    screen_sweep([Path(x) for x in args.screens], Path(args.stage2_ref), gold,
+                 read_json(ROOT / "prices.json"), REPORTS, baselines=[Path(x) for x in args.baseline or []])
+
+
 def cmd_score(args):
     from .report import score_run
     items, ratings = load_all()
@@ -337,6 +350,14 @@ def main(argv=None):
     s.add_argument("screen_run"); s.add_argument("ref_run")
     s.add_argument("--escalate-on", default="violated,hold")
     s.set_defaults(fn=cmd_compare)
+
+    s = sub.add_parser("agree", help="같은 설정 두 실행의 판정 일치도")
+    s.add_argument("run_a"); s.add_argument("run_b"); s.set_defaults(fn=cmd_agree)
+
+    s = sub.add_parser("sweep", help="선별 설정별 2단계 결과·비용 (2차는 기준 실행 재사용)")
+    s.add_argument("stage2_ref"); s.add_argument("screens", nargs="+")
+    s.add_argument("--baseline", nargs="*")
+    s.set_defaults(fn=cmd_sweep)
 
     s = sub.add_parser("score"); s.add_argument("run_dir")
     s.add_argument("--split", choices=["dev", "holdout", "all"], default="all")
