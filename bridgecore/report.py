@@ -8,6 +8,7 @@ from pathlib import Path
 from . import gold as G
 from .constants import AXES
 from .io_utils import fmt, read_json, read_jsonl, write_csv, write_json
+from .runner import latest_records
 from .scoring import human_baseline, predictions_from_outputs, score
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -19,25 +20,51 @@ def _split_ids(split: str):
     return read_json(ROOT / "data" / "processed" / "split_pilot.json")[split]
 
 
-def _cost(recs: list[dict], model: str) -> dict | None:
+def _cost(calls: list[dict], n_items: int) -> dict | None:
+    """calls: [{model, usage, via_batch}] — 2단계면 1차·2차 호출을 모두 넣는다.
+    prices.json에 해당 모델 단가가 하나라도 비어 있으면 None."""
     prices_path = ROOT / "prices.json"
     if not prices_path.exists():
         return None
-    p = read_json(prices_path).get(model) or {}
-    if any(p.get(k) is None for k in ("input", "output", "cache_write", "cache_read")):
-        return None
-    tot = {"input_tokens": 0, "output_tokens": 0, "cache_creation_input_tokens": 0,
-           "cache_read_input_tokens": 0}
-    n = 0
-    for r in recs:
-        if r.get("usage"):
-            n += 1
-            for k in tot:
-                tot[k] += r["usage"][k]
-    usd = (tot["input_tokens"] * p["input"] + tot["output_tokens"] * p["output"]
-           + tot["cache_creation_input_tokens"] * p["cache_write"]
-           + tot["cache_read_input_tokens"] * p["cache_read"]) / 1e6
-    return {"tokens": tot, "n_calls": n, "usd": usd, "usd_per_item": usd / n if n else None}
+    prices = read_json(prices_path)
+    batch_mult = prices.get("batch_multiplier")
+    keys = ("input_tokens", "output_tokens", "cache_creation_input_tokens", "cache_read_input_tokens")
+    by_model: dict[str, dict] = {}
+    usd = 0.0
+    for c in calls:
+        u = c.get("usage")
+        if not u:
+            continue
+        # 응답의 모델명에 날짜 접미사가 붙을 수 있어 접두사로도 찾는다
+        p = prices.get(c["model"]) or next(
+            (v for k, v in prices.items() if isinstance(v, dict) and c["model"].startswith(k)), {})
+        if any(p.get(k) is None for k in ("input", "output", "cache_write", "cache_read")):
+            return None
+        if c.get("via_batch") and batch_mult is None:
+            return None
+        mult = batch_mult if c.get("via_batch") else 1.0
+        usd += mult * (u["input_tokens"] * p["input"] + u["output_tokens"] * p["output"]
+                       + u["cache_creation_input_tokens"] * p["cache_write"]
+                       + u["cache_read_input_tokens"] * p["cache_read"]) / 1e6
+        m = by_model.setdefault(c["model"], {"calls": 0, **{k: 0 for k in keys}})
+        m["calls"] += 1
+        for k in keys:
+            m[k] += u[k]
+    return {"by_model": by_model, "usd": usd, "n_items": n_items,
+            "usd_per_item": usd / n_items if n_items else None}
+
+
+def _calls_for_run(run_dir: Path, meta: dict, recs: dict, item_ids: set) -> list[dict]:
+    calls = [{"model": r.get("model") or meta["model"], "usage": r.get("usage"),
+              "via_batch": r.get("via_batch", False)}
+             for iid, r in recs.items() if iid in item_ids]
+    s1 = run_dir / "stage1_usage.json"
+    if meta.get("type") == "cascade" and s1.exists():
+        # 2차로 넘어간 문항은 1차 호출 비용도 들었다 (1차 결과를 그대로 쓴 문항은 위에 이미 포함)
+        for iid, u in read_json(s1).items():
+            if iid in item_ids and recs.get(iid, {}).get("stage") == 2:
+                calls.append({"model": u["model"], "usage": u["usage"], "via_batch": u.get("via_batch", False)})
+    return calls
 
 
 def _axis_table(per_axis: dict) -> list[str]:
@@ -69,15 +96,20 @@ def _baseline_table(bl: dict) -> list[str]:
 
 def score_run(run_dir: Path, items, ratings, reports_dir: Path, split: str = "all") -> Path:
     meta = read_json(run_dir / "meta.json")
-    recs = read_jsonl(run_dir / "outputs.jsonl")
+    recs = latest_records(run_dir)
     ids = _split_ids(split)
-    run_items = set(meta["items"]) if ids is None else set(meta["items"]) & set(ids)
-    outputs = {r["item_id"]: r["output"] for r in recs if r["item_id"] in run_items}
     gold = G.build_gold(ratings)
+    gold_items = {k[0] for k in gold}
+    run_items = set(meta["items"]) if ids is None else set(meta["items"]) & set(ids)
+    no_gold = sorted(run_items - gold_items)
+    run_items &= gold_items  # 사람 정답이 있는 문항만 채점 (본검수·책 문항은 정답이 생긴 뒤)
+    if not run_items:
+        raise SystemExit(f"채점할 문항이 없습니다 (정답 없는 문항 {len(no_gold)}개).")
+    outputs = {iid: r.get("output") for iid, r in recs.items() if iid in run_items}
     preds, checks = predictions_from_outputs(outputs)
     res = score(gold, preds, sorted(run_items))
     bl = human_baseline(ratings, sorted(run_items))
-    cost = _cost([r for r in recs if r["item_id"] in run_items], meta["model"])
+    cost = _cost(_calls_for_run(run_dir, meta, recs, run_items), len(run_items))
 
     by_id = {it["item_id"]: it for it in items}
     for c in res["cases"]:
@@ -104,6 +136,9 @@ def score_run(run_dir: Path, items, ratings, reports_dir: Path, split: str = "al
         f"(해시 `{meta['prompt_fingerprint']}`) · 문항 {len(run_items)}개",
         f"- 정답: 3명 다수결 임시 정답 (채점 규칙 v1, `bridgecore/gold.py`). 파일럿은 합의 전이라 골든셋이 아님",
         f"- 형식 오류 문항: {len(fmt_err)}개 {fmt_err if fmt_err else ''} (6축 비훼손으로 처리) · 경고 {n_warn}건",
+        *([f"- 2단계: 재판정 {sum(1 for i in run_items if recs.get(i, {}).get('escalate_reason'))}/{len(run_items)}문항"
+           f" · 2차 결과 사용 {sum(1 for i in run_items if recs.get(i, {}).get('stage') == 2)}"] if meta.get("type") == "cascade" else []),
+        *([f"- 정답 없어 채점에서 뺀 문항: {len(no_gold)}개"] if no_gold else []),
         "",
         "## 축별 성능 (훼손 대 나머지, 보류=비훼손이 주 지표)",
         "",
@@ -118,8 +153,10 @@ def score_run(run_dir: Path, items, ratings, reports_dir: Path, split: str = "al
     ]
     if cost:
         md += ["## 비용 (prices.json 단가 기준)", "",
-               f"- 호출 {cost['n_calls']}회 · 총 ${cost['usd']:.4f} · 문항당 ${cost['usd_per_item']:.5f}",
-               f"- 토큰: {cost['tokens']}", ""]
+               f"- 총 ${cost['usd']:.4f} · 문항당 ${cost['usd_per_item']:.5f} (책 1만 문장이면 약 ${cost['usd_per_item'] * 10000:.0f})",
+               *[f"- {m}: 호출 {v['calls']}회 · 입력 {v['input_tokens']:,} · 캐시 쓰기 "
+                 f"{v['cache_creation_input_tokens']:,} · 캐시 읽기 {v['cache_read_input_tokens']:,} · "
+                 f"출력 {v['output_tokens']:,}" for m, v in cost["by_model"].items()], ""]
     else:
         md += ["## 비용", "", "- `prices.json`에 이 모델 단가가 비어 있어 계산하지 않음. 토큰 합계는 scores.json 참고.", ""]
     md += [f"## 틀린 칸 목록: `{tag}_cases.csv` ({len(res['cases'])}건 — FP·FN·보류, 엔진 이유와 사람 이유 나란히)"]

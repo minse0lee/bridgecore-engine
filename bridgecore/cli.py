@@ -4,7 +4,11 @@
   split     파일럿 개발용/확인용 분할 → data/processed/split_pilot.json (이미 있으면 거부)
   rules     규칙(숫자 검사·한글 비율) 결과 → data/processed/rules_pilot.csv
   prompt    문항 하나의 프롬프트를 화면에 출력 (API 호출 없음)
-  run       엔진 실행 (기본 드라이런: 요청만 저장. --live 일 때만 API 호출)
+  run       엔진 실행 (기본 드라이런. --live 일 때만 API 호출, --batch면 Batch 제출, --screen이면 선별 모드)
+  collect   Batch 결과 수집 (2단계 2차 Batch면 수집 후 자동 병합)
+  cascade   선별 실행에서 훼손·보류 문항만 2차 모델로 재판정 → 병합
+  merge     선별·2차 실행 수동 병합
+  compare   선별이 기준 실행(예: Sonnet 전체) 대비 놓치는 훼손 비교
   score     엔진 출력 채점 → reports/
   baseline  사람 간 기준선 → reports/
 """
@@ -145,26 +149,113 @@ def cmd_prompt(args):
         print(c["text"] if c["type"] == "text" else f"[이미지 {c['source']['media_type']}]")
 
 
+def load_items_file(path: str) -> list[dict]:
+    """파일럿 외 문항(본검수·책)을 jsonl로 받는다. 한 줄 = 문항 하나.
+    필수: item_id, src, tgt / 선택: doc_info, brief, src_paragraph, tgt_paragraph, figure(engine/ 기준 경로)"""
+    rows = read_jsonl(path)
+    bad = [i for i, r in enumerate(rows, 1) if not all(r.get(k) for k in ("item_id", "src")) or "tgt" not in r]
+    if bad:
+        sys.exit(f"{path}: item_id·src·tgt가 없는 줄 {bad[:10]}")
+    ids = [r["item_id"] for r in rows]
+    if len(ids) != len(set(ids)):
+        sys.exit(f"{path}: 중복된 item_id가 있습니다.")
+    return rows
+
+
+def _items_source(args) -> str:
+    return str(Path(args.items_file).resolve()) if getattr(args, "items_file", None) else "pilot"
+
+
+def _items_from_source(source: str) -> list[dict]:
+    return load_items_file(source) if source != "pilot" else load_all()[0]
+
+
 def _select_items(items, args):
     if args.items:
         want = set(args.items.split(","))
-        return [i for i in items if i["item_id"] in want]
+        sel = [i for i in items if i["item_id"] in want]
+        if missing := want - {i["item_id"] for i in sel}:
+            sys.exit(f"없는 문항: {sorted(missing)}")
+        return sel
     if args.split:
+        if args.items_file:
+            sys.exit("--split은 파일럿 전용입니다. --items-file과 함께 쓰지 마세요.")
         sp = read_json(PROC / "split_pilot.json")
         if args.split == "holdout" and not args.i_know_holdout:
             sys.exit("확인용 20문항은 마지막에 한 번만 씁니다 (PROJECT_NOTES 9절). "
                      "정말 실행하려면 --i-know-holdout 을 붙이세요.")
         want = set(sp[args.split])
         return [i for i in items if i["item_id"] in want]
-    sys.exit("--split dev|holdout 또는 --items P001,P002 를 지정하세요.")
+    if args.items_file:
+        return items
+    sys.exit("--split dev|holdout, --items P001,P002, 또는 --items-file 을 지정하세요.")
+
+
+def _runner_kwargs(args, extra_meta=None):
+    return dict(model=args.model, version=args.version, run_name=args.name, live=args.live,
+                out_root=ROOT / "runs", max_tokens=args.max_tokens, screen=args.screen,
+                extra_meta={"items_source": _items_source(args), **(extra_meta or {})})
 
 
 def cmd_run(args):
-    from .runner import run
-    items, _ = load_all()
+    from .runner import run, submit_batch
+    items = _items_from_source(_items_source(args))
     sel = _select_items(items, args)
-    run(sel, model=args.model, version=args.version, run_name=args.name, live=args.live,
-        out_root=ROOT / "runs", max_tokens=args.max_tokens)
+    (submit_batch if args.batch else run)(sel, **_runner_kwargs(args))
+
+
+def cmd_collect(args):
+    from .runner import collect_batch, merge_cascade
+    out = Path(args.run_dir)
+    if collect_batch(out):
+        meta = read_json(out / "meta.json")
+        if meta.get("cascade_of"):
+            merge_cascade(Path(meta["cascade_of"]), out, Path(meta["cascade_out"]),
+                          tuple(meta["escalate_on"]))
+
+
+def cmd_cascade(args):
+    """선별 실행 결과에서 훼손·보류 문항만 골라 2차 모델로 재판정하고 병합한다."""
+    from .io_utils import write_csv
+    from .runner import escalation_list, merge_cascade, run, submit_batch
+    screen = Path(args.screen_run)
+    m1 = read_json(screen / "meta.json")
+    if not m1.get("screen"):
+        print("⚠ 선별 모드(--screen)로 돌린 실행이 아닙니다. 그대로 진행합니다.")
+    on = tuple(args.escalate_on.split(","))
+    esc = escalation_list(screen, on)
+    write_csv(screen / "escalations.csv", esc)
+    ids = {r["item_id"] for r in esc if r["escalate"]}
+    items = [i for i in _items_from_source(m1.get("items_source", "pilot")) if i["item_id"] in ids]
+    print(f"재판정 대상 {len(items)}/{len(esc)}문항 (기준: {', '.join(on)}) → {screen / 'escalations.csv'}")
+    args.name = args.name or f"{screen.name}__stage2_{args.model}"
+    cascade_out = ROOT / "runs" / f"{screen.name}__cascade"
+    extra = {"items_source": m1.get("items_source", "pilot"), "cascade_of": str(screen),
+             "cascade_out": str(cascade_out), "escalate_on": list(on)}
+    kw = dict(model=args.model, version=args.version, run_name=args.name, live=args.live,
+              out_root=ROOT / "runs", max_tokens=args.max_tokens, screen=False, extra_meta=extra)
+    if args.batch:
+        submit_batch(items, **kw)
+        if args.live:
+            print(f"2차 Batch가 끝나면 collect 하세요. 수집 후 자동으로 병합합니다 → {cascade_out}")
+        return
+    stage2 = run(items, **kw)
+    if args.live:
+        merge_cascade(screen, stage2, cascade_out, on)
+
+
+def cmd_merge(args):
+    from .runner import merge_cascade
+    screen, stage2 = Path(args.screen_run), Path(args.stage2_run)
+    out = Path(args.out) if args.out else ROOT / "runs" / f"{screen.name}__cascade"
+    merge_cascade(screen, stage2, out, tuple(args.escalate_on.split(",")))
+
+
+def cmd_compare(args):
+    from .compare import compare_runs
+    gold = G.build_gold(load_all()[1]) if (PROC / "ratings.jsonl").exists() else None
+    compare_runs(Path(args.screen_run), Path(args.ref_run), gold, REPORTS,
+                 tuple(args.escalate_on.split(",")))
 
 
 def cmd_score(args):
@@ -179,6 +270,14 @@ def cmd_baseline(args):
     baseline_report(items, ratings, REPORTS)
 
 
+def _model_args(s, default_model):
+    s.add_argument("--model", default=default_model)
+    s.add_argument("--version", default="v0"); s.add_argument("--name")
+    s.add_argument("--max-tokens", type=int, default=4000)
+    s.add_argument("--live", action="store_true", help="실제 API 호출 (없으면 드라이런)")
+    s.add_argument("--batch", action="store_true", help="Message Batches로 제출 (결과는 collect)")
+
+
 def main(argv=None):
     p = argparse.ArgumentParser(prog="bridgecore")
     sub = p.add_subparsers(dest="cmd", required=True)
@@ -187,14 +286,34 @@ def main(argv=None):
     sub.add_parser("rules").set_defaults(fn=cmd_rules)
     s = sub.add_parser("prompt"); s.add_argument("item"); s.add_argument("--version", default="v0")
     s.set_defaults(fn=cmd_prompt)
+
     s = sub.add_parser("run")
     s.add_argument("--split", choices=["dev", "holdout"]); s.add_argument("--items")
-    s.add_argument("--model", default="claude-haiku-5-5")
-    s.add_argument("--version", default="v0"); s.add_argument("--name")
-    s.add_argument("--max-tokens", type=int, default=4000)
-    s.add_argument("--live", action="store_true", help="실제 API 호출 (없으면 드라이런)")
+    s.add_argument("--items-file", help="파일럿 외 문항 jsonl (본검수·책)")
+    s.add_argument("--screen", action="store_true", help="1차 선별 모드 (넉넉하게 표시)")
     s.add_argument("--i-know-holdout", action="store_true")
+    _model_args(s, "claude-haiku-5-5")
     s.set_defaults(fn=cmd_run)
+
+    s = sub.add_parser("collect", help="Batch 결과 수집"); s.add_argument("run_dir")
+    s.set_defaults(fn=cmd_collect)
+
+    s = sub.add_parser("cascade", help="선별 실행 → 2차 재판정 → 병합")
+    s.add_argument("screen_run")
+    s.add_argument("--escalate-on", default="violated,hold", help="violated,hold 중 선택")
+    _model_args(s, "claude-sonnet-5-5")
+    s.set_defaults(fn=cmd_cascade)
+
+    s = sub.add_parser("merge", help="선별 실행과 2차 실행을 수동 병합")
+    s.add_argument("screen_run"); s.add_argument("stage2_run"); s.add_argument("--out")
+    s.add_argument("--escalate-on", default="violated,hold")
+    s.set_defaults(fn=cmd_merge)
+
+    s = sub.add_parser("compare", help="선별이 기준 실행 대비 얼마나 놓치는지")
+    s.add_argument("screen_run"); s.add_argument("ref_run")
+    s.add_argument("--escalate-on", default="violated,hold")
+    s.set_defaults(fn=cmd_compare)
+
     s = sub.add_parser("score"); s.add_argument("run_dir")
     s.add_argument("--split", choices=["dev", "holdout", "all"], default="all")
     s.set_defaults(fn=cmd_score)

@@ -49,15 +49,24 @@ USER_TEMPLATE = """다음 문항을 평가 지침에 따라 판정하고 submit_
 {figure_note}{hints}"""
 
 
-def system_text(version: str = "v0") -> str:
-    return (PROMPTS / version / "system.md").read_text(encoding="utf-8")
+def system_text(version: str = "v0", screen: bool = False) -> str:
+    """screen=True면 1차 선별용 추가문(screen_addendum.md)을 뒤에 붙인다 (넉넉하게 표시)."""
+    text = (PROMPTS / version / "system.md").read_text(encoding="utf-8")
+    if screen:
+        add = PROMPTS / version / "screen_addendum.md"
+        if not add.exists():
+            raise FileNotFoundError(f"선별용 추가문이 없습니다: {add}")
+        text += add.read_text(encoding="utf-8")
+    return text
 
 
-def prompt_fingerprint(version: str = "v0") -> str:
-    """개발일지용: 시스템 프롬프트 + 도구 스키마 해시 (엔진 버전 고정 기록)."""
-    h = hashlib.sha256(system_text(version).encode("utf-8"))
+def prompt_fingerprint(version: str = "v0", screen: bool = False) -> str:
+    """개발일지용: 시스템 프롬프트 + 도구 스키마 + 문항 틀 + 규칙 코드 해시 (엔진 버전 고정 기록)."""
+    h = hashlib.sha256(system_text(version, screen).encode("utf-8"))
     h.update(repr(TOOL).encode("utf-8"))
     h.update(USER_TEMPLATE.encode("utf-8"))
+    # 힌트 문장은 rules.py가 만들므로 규칙 코드가 바뀌어도 해시가 바뀌게 한다
+    h.update((Path(__file__).parent / "rules.py").read_bytes())
     return h.hexdigest()[:12]
 
 
@@ -78,8 +87,9 @@ def user_text(item: dict) -> str:
     )
 
 
-def build_messages(item: dict, version: str = "v0") -> tuple[list[dict], list[dict]]:
-    system = [{"type": "text", "text": system_text(version),
+def build_messages(item: dict, version: str = "v0",
+                   screen: bool = False) -> tuple[list[dict], list[dict]]:
+    system = [{"type": "text", "text": system_text(version, screen),
                "cache_control": {"type": "ephemeral"}}]
     content = []
     fig = item.get("figure")
@@ -93,9 +103,10 @@ def build_messages(item: dict, version: str = "v0") -> tuple[list[dict], list[di
     return system, [{"role": "user", "content": content}]
 
 
-def build_request(item: dict, model: str, version: str = "v0", max_tokens: int = 4000) -> dict:
+def build_request(item: dict, model: str, version: str = "v0", max_tokens: int = 4000,
+                  screen: bool = False) -> dict:
     """messages.create / Message Batches에 그대로 넣을 수 있는 요청 본문."""
-    system, messages = build_messages(item, version)
+    system, messages = build_messages(item, version, screen)
     return {
         "model": model,
         "max_tokens": max_tokens,

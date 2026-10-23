@@ -1,5 +1,6 @@
 {
-  "_note": "USD / 100만 토큰. 공식 가격표(https://docs.claude.com 의 Pricing)에서 확인해 직접 입력하세요. 하나라도 null이면 리포트에서 비용을 계산하지 않습니다. Batch를 쓰면 별도 할인이 적용됩니다.",
+  "_note": "USD / 100만 토큰. 공식 가격표(https://docs.claude.com 의 Pricing)에서 확인해 직접 입력하세요. 하나라도 null이면 리포트에서 비용을 계산하지 않습니다. batch_multiplier는 Batch 요금 배율(예: 50% 할인이면 0.5)로, Batch 결과의 비용 계산에만 쓰입니다.",
+  "batch_multiplier": null,
   "claude-haiku-5-5": {"input": null, "output": null, "cache_write": null, "cache_read": null},
   "claude-sonnet-5-5": {"input": null, "output": null, "cache_write": null, "cache_read": null}
 }

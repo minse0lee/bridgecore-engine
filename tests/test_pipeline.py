@@ -167,3 +167,9 @@ def test_pilot_number_flags():
     items, _ = _data()
     flagged = sorted(i["item_id"] for i in items if run_rules(i)["number_check"]["mismatch"])
     assert flagged == ["P007", "P036"]
+
+
+def test_deontic_longest_match():
+    from bridgecore.rules import deontic_keywords
+    assert deontic_keywords("You must not open the door.") == ["must not"]
+    assert deontic_keywords("It may not exceed $30.") == ["may not"]

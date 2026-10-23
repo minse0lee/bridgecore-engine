@@ -187,10 +187,13 @@ def target_language_missing(tgt: str, threshold: float = 0.3) -> bool:
 
 
 # ---------- 규범 표현 ----------
-_DEONTIC_RE = re.compile(
-    r"\b(must|mustn't|shall|should|ought to|may not|may|can't|cannot|can|need(?:s)? to|"
-    r"have to|has to|required?|requires|permitted|allowed|prohibited|forbidden|"
-    r"eligible|entitled|obligat\w+|mandat\w+|do not|don't|never)\b", re.I)
+_DEONTIC_TERMS = [
+    "must not", "mustn't", "must", "shall not", "shall", "should not", "shouldn't", "should",
+    "ought to", "may not", "may", "cannot", "can't", "can", "needs to", "need to", "have to", "has to",
+    "required", "require", "requires", "permitted", "allowed", "prohibited", "forbidden",
+    "eligible", "entitled", r"obligat\w+", r"mandat\w+", "do not", "don't", "never"]
+# 긴 표현부터 맞춰야 "must not"이 "must"로 잘리지 않는다
+_DEONTIC_RE = re.compile(r"\b(" + "|".join(sorted(_DEONTIC_TERMS, key=len, reverse=True)) + r")\b", re.I)
 
 
 def deontic_keywords(src: str) -> list[str]:

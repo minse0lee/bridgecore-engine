@@ -28,6 +28,38 @@ python -m bridgecore.cli score runs/<실행폴더> --split dev   # → reports/<
 python -m pytest -q
 ```
 
+### Batch (요금 할인, 결과는 나중에 수집)
+
+```bash
+python -m bridgecore.cli run --split dev --live --batch --name dev_haiku_b
+python -m bridgecore.cli collect runs/dev_haiku_b        # 끝났으면 결과 수집, 아니면 상태만 표시
+# 실패한 문항만 다시: 같은 --name 으로 run --batch --live 재실행 → collect
+```
+
+### 2단계: Haiku 선별 → Sonnet 재판정
+
+```bash
+python -m bridgecore.cli run --split dev --live --screen --name dev_screen      # 1차: 넉넉하게 표시
+python -m bridgecore.cli cascade runs/dev_screen --live                          # 훼손·보류 문항만 Sonnet → 자동 병합
+python -m bridgecore.cli score runs/dev_screen__cascade --split dev              # 2단계 최종 결과 채점 (비용은 1·2차 합산)
+
+# 선별이 얼마나 놓치는지: 같은 문항을 Sonnet 전체로 돌린 실행과 비교
+python -m bridgecore.cli run --split dev --live --model claude-sonnet-5-5 --name dev_sonnet
+python -m bridgecore.cli compare runs/dev_screen runs/dev_sonnet
+```
+
+- 재판정 기준 기본값은 훼손·판단보류 (`--escalate-on violated` 로 훼손만). 선별 실패·형식 오류·평가 불가 문항은 항상 넘긴다
+- `cascade --batch --live` 로 2차도 Batch 가능. 2차 `collect` 가 끝나면 자동 병합
+- 선별 모드는 `prompts/v0/screen_addendum.md` 를 시스템 프롬프트 뒤에 붙인다 (해시도 달라짐)
+
+### 파일럿 외 문항 (본검수·책)
+
+```bash
+python -m bridgecore.cli run --items-file data/book.jsonl --live --batch --screen --name book_screen
+```
+한 줄에 문항 하나인 jsonl. 필수 `item_id`·`src`·`tgt`, 선택 `doc_info`·`brief`·`src_paragraph`·`tgt_paragraph`·`figure`.
+사람 정답이 없는 문항은 `score` 에서 자동으로 빠진다.
+
 확인용 20문항은 `--split holdout --i-know-holdout`일 때만 실행된다 (마지막 1회).
 
 ## 폴더
@@ -41,9 +73,11 @@ python -m pytest -q
 | `bridgecore/split.py` | 장르 × 드문 축 훼손 층화 분할 |
 | `bridgecore/rules.py` | 숫자 일치 힌트, 목표언어 미생성 필터, 규범 표현 힌트 |
 | `bridgecore/prompt.py` | 시스템 프롬프트(캐시) + 문항 메시지 + 강제 도구 호출 |
-| `bridgecore/runner.py` | 드라이런/실행, 재시작 시 이어서, 토큰 기록 |
+| `bridgecore/runner.py` | 드라이런/동기 실행/Batch 제출·수집, 2단계 선별·병합, 재시작 시 실패분만 재실행 |
+| `bridgecore/compare.py` | 선별 실행이 기준 실행·사람 정답 대비 놓치는 훼손 비교 |
 | `prompts/v0/system.md` | 프롬프트 v0 (가이드라인 2026-10-07판 요약 + EX01·EX02) |
-| `prices.json` | 모델 단가 (공식 가격표 확인 후 직접 입력 — 비어 있으면 비용 계산 안 함) |
+| `prompts/v0/screen_addendum.md` | 1차 선별 모드 추가문 (놓치지 않게 넉넉히 표시) |
+| `prices.json` | 모델 단가·Batch 배율 (공식 가격표 확인 후 직접 입력 — 비어 있으면 비용 계산 안 함) |
 | `data/raw/` | 원본 엑셀·가이드라인 (깃 제외) |
 | `data/processed/` | 빌드 결과 (깃 제외, `split_pilot.json`만 포함) |
 | `runs/`, `reports/` | 실행 결과, 채점 리포트 |
@@ -60,4 +94,5 @@ python -m pytest -q
 ## 엔진 버전 기록
 
 실행마다 `runs/<이름>/meta.json`에 날짜·모델·프롬프트 버전·프롬프트 해시가 남는다.
+해시는 시스템 프롬프트·선별 추가문·도구 스키마·문항 틀·규칙 코드(`rules.py`)를 모두 포함한다.
 버전을 고정할 때 이 해시를 PROJECT_NOTES 개발일지에 적는다.
