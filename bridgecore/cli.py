@@ -67,6 +67,10 @@ def cmd_build(args):
         ratings += rs
         ops += L.load_ops(f)
         print(f"  {Path(f).name}: 평가자 {rs[0]['rater_id'] if rs else '?'} · {len(rs)}행")
+    corr = L.apply_corrections(ratings, ROOT / "data" / "corrections.csv")
+    for c in corr:
+        print(f"  수정 {'반영' if c['applied'] else '미반영'}: {c['rater_id']} {c['item_id']} {c['axis']} "
+              f"{c['field']} {c['old']!r}→{c['new']!r} ({c['source']}) {c['note']}")
     write_jsonl(PROC / "ratings.jsonl", ratings)
     write_csv(PROC / "ratings.csv", ratings,
               ["rater_id", "item_id", "axis", "judgment", "severity", "error_ids",

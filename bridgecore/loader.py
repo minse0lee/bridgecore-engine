@@ -142,6 +142,35 @@ def load_ops(xlsx: str | Path) -> list[dict]:
     return out
 
 
+def apply_corrections(rows: list[dict], path: str | Path) -> list[dict]:
+    """평가자에게 확인받은 수정 사항(data/corrections.csv)을 반영한다. 원본 엑셀은 건드리지 않는다.
+    old 값이 현재 값과 다르면 반영하지 않고 경고한다 (원본이 이미 바뀐 경우)."""
+    import csv
+    path = Path(path)
+    if not path.exists():
+        return []
+    index = {(r["rater_id"], r["item_id"], r["axis"]): r for r in rows}
+    log = []
+    with path.open(encoding="utf-8-sig") as f:
+        for c in csv.DictReader(f):
+            key = (c["rater_id"], c["item_id"], c["axis"])
+            r = index.get(key)
+            field = c["field"]
+            if r is None or field not in EVAL_COLS:
+                log.append({**c, "applied": False, "note": "대상 행/열 없음"})
+                continue
+            cur = r.get(field) or ""
+            if cur != (c["old"] or ""):
+                log.append({**c, "applied": False, "note": f"현재 값 {cur!r}가 old와 다름"})
+                continue
+            r[field] = c["new"] or None
+            if field == "error_ids":
+                r["error_id_list"] = ERROR_ID_RE.findall(r["error_ids"] or "")
+            r.setdefault("corrected", []).append(field)
+            log.append({**c, "applied": True, "note": ""})
+    return log
+
+
 def check_ratings(rows: list[dict], expected_items: list[str]) -> list[dict]:
     """가이드라인 3절·10쪽 '제출 전 확인' 규칙 위반을 찾는다. 수정은 하지 않는다."""
     issues = []
