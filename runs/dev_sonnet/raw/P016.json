@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgJk5Q3cLMakm9kx4GPMN",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P016\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"son\",\"tgt_span\":\"아들아\",\"description\":\"선장이 젊은 남자를 친근하게 부르는 호칭 'son'을 친족 관계의 '아들'로 직역해, 친부자 관계처럼 읽힐 수 있음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"호칭 'son'(젊은이)이 '아들아'로 옮겨져 실제 친족 관계가 있는 듯한 의미가 더해졌으나, 이스터 섬이라는 핵심 정보는 유지되어 부수적 변화에 그칩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'That's Easter Island'가 '저건 이스터 섬이야'로 대상을 가리키는 구조가 유지되고 호칭도 뒤에 같은 위치에 놓입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"선장이 눈앞의 섬을 알려 주며 주의를 끄는 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장은 평서문으로 의무·허용·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"선장이 젊은 선원에게 쓰는 허물없는 호칭이 가족 간 호칭인 '아들아'로 바뀌어 인물 사이의 관계 표지가 달라졌으나, 반말의 친근하고 위계적인 어조는 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"이스터 섬이라는 지명을 그대로 옮겼고 다른 문화적 지시 대상으로 바꾸지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 9045,
+    "inference_geo": "global",
+    "input_tokens": 539,
+    "output_tokens": 743,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

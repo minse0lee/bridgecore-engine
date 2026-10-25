@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgJk6fcGr4w4cwKwhnpGB",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P053\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I must not cry\",\"tgt_span\":\"나는 울지 않아도 됩니다\",\"description\":\"must not(울어서는 안 된다는 금지·자제 의무)이 '울지 않아도 됩니다'(불필요·허용)로 바뀌어 의미가 반전됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"'울면 안 된다'는 자기 억제가 '울지 않아도 된다'는 불필요로 바뀌어, 화자가 울음을 참아야 한다는 핵심 의미와 뒤의 'And yet'과의 대조가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"'And yet'이 이끄는 대조(울면 안 되는데도 눈물이 넘침)가 번역에서는 '울지 않아도 되지만 눈물이 흐른다'는 어색한 대조로 바뀌어 앞뒤 논리 연결이 약해졌습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"간호사가 억누르려 해도 억누르지 못하는 슬픔을 기도로 토로하는 기능이, 울어도 괜찮다는 안도 섞인 진술처럼 읽혀 약해졌습니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"must not의 금지(자기에게 부과한 울음 금지)가 '-지 않아도 됩니다'라는 불필요·면제로 바뀌어 규범 범주가 달라졌습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"주님께 올리는 기도의 경건한 어조가 '~습니다' 체로 적절히 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'O Lord'를 '오, 주님'으로 옮겨 기독교 기도의 문화적 지시가 유지됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 9045,
+    "inference_geo": "global",
+    "input_tokens": 835,
+    "output_tokens": 800,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

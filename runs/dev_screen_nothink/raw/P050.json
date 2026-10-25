@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgJkdZ7DDeDi2sLd5j9QJ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\": \"P050\", \"evaluable\": true, \"evaluable_note\": null, \"errors\": [{\"id\": \"E001\", \"src_span\": \"Use local resources\", \"tgt_span\": \"로컬 리소스를 사용하여 … 볼 수 있습니다\", \"description\": \"학습 지시(명령형)가 가능 여부를 안내하는 서술로 바뀌어 학습 행동의 요구 강도가 약화됨\"}], \"axes\": {\"Semantic\": {\"judgment\": \"보존\", \"severity\": null, \"error_ids\": [], \"reason\": \"리소스 사용, 생식계 구조 관찰이라는 행위와 대상이 그대로 유지됩니다.\"}, \"Textual\": {\"judgment\": \"보존\", \"severity\": null, \"error_ids\": [], \"reason\": \"단일 문장으로 정보 연결이나 강조 구조에 영향이 없습니다.\"}, \"Context\": {\"judgment\": \"훼손\", \"severity\": \"minor\", \"error_ids\": [\"E001\"], \"reason\": \"원문은 학습자에게 구조를 보라고 지시하는 학습 과제 기능인데, 번역은 볼 수 있다는 가능성 안내로 읽혀 지시 기능이 약해졌습니다.\"}, \"Deontic\": {\"judgment\": \"N/A\", \"severity\": null, \"error_ids\": [], \"reason\": \"학습 활동 수행 지시이며 제출 의무·기한·금지 등 별도 규범 조건이 없어 규범 평가 대상이 아닙니다.\"}, \"Register\": {\"judgment\": \"보존\", \"severity\": null, \"error_ids\": [], \"reason\": \"교재의 공식적 안내체가 유지됩니다.\"}, \"Cultural\": {\"judgment\": \"N/A\", \"severity\": null, \"error_ids\": [], \"reason\": \"문화 고유의 제도·관습·단위가 포함되어 있지 않습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-haiku-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 9326,
+    "inference_geo": "global",
+    "input_tokens": 557,
+    "output_tokens": 635,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

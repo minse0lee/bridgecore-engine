@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgJk6X2LkDaRC5jGUZ8Js",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P049\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"this should show you that this ship isn't as good as you think it is!\",\"tgt_span\":\"이것은 당신이 생각하는 것만큼 이 배가 좋지 않다는 것을 보여줄 것이다!\",\"description\":\"'should show'의 기대·개연('~할 것이다/보여줄 것이다' 정도의 가능성)을 단정적 미래 '보여줄 것이다'로 옮겨 확실성이 다소 강해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"should가 나타내는 기대·추정의 정도가 '보여줄 것이다'로 다소 단정적이 되었으나 핵심 내용(이 배가 생각만큼 좋지 않음을 보여줌)은 유지되어 부수적 차이입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'It said plainly'의 It(눈빛)과 이탤릭으로 표시된 속마음 인용 구조가 '그것은 분명히 말했다. _…_'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"눈빛으로 불에게 배의 결함을 암시하는 서술 기능과 인물의 속마음 표현이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 should는 의무가 아니라 추정·기대를 나타내므로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문의 평서체와 인물 간 대등한 관계에 맞는 '당신' 사용이 허용 범위 안에서 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 9045,
+    "inference_geo": "global",
+    "input_tokens": 720,
+    "output_tokens": 757,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

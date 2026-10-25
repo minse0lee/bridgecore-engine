@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgJkFMsRaYSeVkxCaPYdx",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P036\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the past fortnight\",\"tgt_span\":\"지난 15일 동안\",\"description\":\"fortnight(2주=14일)가 '15일'로 바뀌어 기간의 수치가 달라짐\"},{\"id\":\"E002\",\"src_span\":\"it was difficult to realize he was not now living some wild, improbable dream\",\"tgt_span\":\"그는 이제 어떤 야만적이고 믿을 수 없는 꿈을 꾸고 있지 않다는 것을 깨닫기 어려웠다\",\"description\":\"'지금 꿈속에 사는 것이 아님을 실감하기 어렵다'는 뜻이 '꿈을 꾸고 있지 않다는 것을 깨닫기 어렵다'로 옮겨져, 현실감이 없다는 함의가 흐려짐. 'wild'가 '야만적인'으로 옮겨져 '터무니없는'이라는 뜻과 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"2주가 15일로 바뀌어 기간이 달라졌고, 'wild'가 '야만적인'으로 옮겨졌지만 사건의 전개와 인물의 비현실감이라는 핵심 내용은 이해할 수 있어 부수적인 오류입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"두 절의 병렬 연결과 'it'이 가리키는 내용이 유지되며 정보 구조가 크게 달라지지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물의 내면 상태를 서술하는 기능은 유지되며, 꿈 같은 비현실감이 전달됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 같은 규범 의미가 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 본문의 서술체가 유지되며 관계나 격식에서 달라진 부분이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다. 'fortnight'의 수치 변경은 Semantic에서 판정했습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 9045,
+    "inference_geo": "global",
+    "input_tokens": 1299,
+    "output_tokens": 912,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

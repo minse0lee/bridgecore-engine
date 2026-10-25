@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgJkEthHtWRw7csahfLkb",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P007\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"three or four feet\",\"tgt_span\":\"3 ~ 4 피트 ( 1 ~ 2 미터 )\",\"description\":\"원문에 없는 미터 환산 병기가 첨가됨. 환산 값은 대체로 정확하나(약 0.9~1.2미터) 원문에 없는 정보임.\"},{\"id\":\"E002\",\"src_span\":\"there were times when the hump in his back became greater than ever before\",\"tgt_span\":\"그의 등의 혹이 그 어느 때보다도 커지고\",\"description\":\"'때때로(there were times when)'라는 간헐성이 사라져 혹이 계속 커진 것처럼 읽힘.\"},{\"id\":\"E003\",\"src_span\":\"in fits of weeping\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"발작적으로 울 때라는 표현이 누락되어 눈물이 흐르는 상황 설명이 빠짐.\"},{\"id\":\"E004\",\"src_span\":\"When it was noted\",\"tgt_span\":\"관찰했을 때\",\"description\":\"수동형이라 행위자가 불특정인데 '관찰했을 때'로 옮겨 행위자가 암묵적으로 폴 버니언으로 읽힘. 의미 변화는 경미함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\",\"E003\"],\"reason\":\"혹이 커지는 것이 일부 시점에만 일어난다는 한정이 사라지고 '발작적 울음' 표현이 빠졌으나, 강의 수위 변화와 눈물에 의한 범람이라는 핵심 의미는 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"수위 관찰, 황소 감시, 발견 내용, 눈물로 인한 범람의 인과 연결이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"베이브의 증상과 강 범람의 원인을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술체 '-했다'가 유지되고 관계상 문제될 호칭 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"피트에 미터 환산을 병기했을 뿐 원 단위를 유지하고 잘못 대체하지 않았으며, 환산도 대체로 정확하여 이해를 돕는 정도입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 9045,
+    "inference_geo": "global",
+    "input_tokens": 1534,
+    "output_tokens": 1000,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

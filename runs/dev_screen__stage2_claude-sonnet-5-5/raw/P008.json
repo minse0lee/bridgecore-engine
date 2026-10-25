@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgJkEtf4LjTxvfx456Dti",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P008\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"It is now known that\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"'이제는 ~로 알려져 있다'는 새로운 연구 지식을 나타내는 표현이 번역문에서 빠져, 기존 통념을 수정하는 근거라는 시간적 대비가 사라짐\"},{\"id\":\"E002\",\"src_span\":\"many children with ADHD do not grow out of it\",\"tgt_span\":\"ADHD를 앓고 있는 많은 어린이들은 성장하지 못한다\",\"description\":\"'증상에서 벗어나지 않는다(성인기까지 지속된다)'는 의미가 '성장하지 못한다'로 바뀌어 신체적·발달적 성장 실패로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"ADHD가 성인기까지 지속된다는 핵심 내용이 어린이가 성장하지 못한다는 뜻으로 바뀌었고, 'now known'의 시간적 의미도 빠졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"'it'이 가리키는 ADHD 증상·질환이라는 지시 관계가 사라져, 앞 문장의 '어린이에게만 국한되지 않는다'와의 논리적 연결이 약해집니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"기존 통념을 수정하고 ADHD가 성인기까지 이어짐을 알리는 설명 기능이 달라져, 독자가 어린이의 발달 문제로 오해할 수 있습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"may는 가능성, do not은 사실 서술이어서 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학습자료의 평서 설명체('~한다')가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 9045,
+    "inference_geo": "global",
+    "input_tokens": 1333,
+    "output_tokens": 854,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

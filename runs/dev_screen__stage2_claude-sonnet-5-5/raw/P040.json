@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgJkFamofuCpZmAMC8hC5",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P040\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"guttered\",\"tgt_span\":\"그의 귀에 구멍\",\"description\":\"'guttered'(촛불·등불이 깜박이다 사그라들다)가 '구멍'이라는 무관한 명사로 오역되어 동사 행위가 사라지고 의미가 달라짐\"},{\"id\":\"E002\",\"src_span\":\"The lantern like a secret fear, Whispered and guttered at his ear.\",\"tgt_span\":\"비밀스러운 두려움처럼 랜턴, 속삭이고 그의 귀에 구멍.\",\"description\":\"주어-서술어 구조가 무너짐. 랜턴이 속삭이고 깜박였다는 문장 구조가 '랜턴, 속삭이고 … 구멍' 같은 나열로 바뀌어 시적 비유(랜턴이 두려움처럼 속삭임)의 연결이 불분명해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"랜턴이 깜박였다는 핵심 행위가 '귀에 구멍'이라는 엉뚱한 내용으로 바뀌어 인물 곁 장면의 의미가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\"],\"reason\":\"'랜턴'이 주어로 기능하지 못하고 서술어가 끊겨 비유 '두려움처럼'이 어떤 행위를 수식하는지 연결이 무너졌습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"시에서 랜턴의 속삭임과 깜박임으로 불안한 분위기를 묘사하는 서술 기능이 불완전하게 전달됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"시적 묘사 문장으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"문장 종결이 끊긴 명사형 나열이라 시의 어조·격식을 판단하기 어렵고 시 전체의 문체 기준 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 9045,
+    "inference_geo": "global",
+    "input_tokens": 499,
+    "output_tokens": 896,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

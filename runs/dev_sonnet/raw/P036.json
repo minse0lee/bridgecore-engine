@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgJk5w9tBdxaVwdDcBJbW",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P036\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the past fortnight\",\"tgt_span\":\"지난 15일 동안\",\"description\":\"fortnight(2주, 14일)를 15일로 옮겨 기간의 수치가 달라짐\"},{\"id\":\"E002\",\"src_span\":\"it was difficult to realize he was not now living some wild, improbable dream\",\"tgt_span\":\"그는 이제 어떤 야만적이고 믿을 수 없는 꿈을 꾸고 있지 않다는 것을 깨닫기 어려웠다\",\"description\":\"'지금 꿈을 꾸고 있지 않다는 것을 실감하기 어렵다'는 뜻이 직역에 가까워 읽으면 '꿈을 꾸고 있지 않음을 깨닫기 어렵다'로 읽힘. 다만 원문 구조를 따른 것으로 의미는 대체로 유지되며, wild를 '야만적'으로 옮겨 '황당한/엉뚱한' 뜻이 다소 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"fortnight(14일)가 15일로 바뀌어 수량이 어긋났고, wild가 '야만적'으로 옮겨져 뉘앙스가 달라졌으나 서사의 핵심 이해는 크게 바뀌지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"놀라움이 마음에 자리잡았다는 절과 꿈 같다는 실감의 어려움이 연결 관계 그대로 이어집니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물의 내면 상태를 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 심리 서술로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 본문의 서술체 '-었다'가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 9045,
+    "inference_geo": "global",
+    "input_tokens": 1299,
+    "output_tokens": 857,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

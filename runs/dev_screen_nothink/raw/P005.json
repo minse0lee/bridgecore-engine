@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgJkccgzDhhtRCPzwLKvr",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\": \"P005\", \"evaluable\": true, \"evaluable_note\": null, \"errors\": [{\"id\": \"E001\", \"src_span\": \"Use your Federal Student Aid PIN\", \"tgt_span\": \"연방 학자금 대출 PIN을 사용하여 … 얻을 수 있습니다\", \"description\": \"명령형 지시(Use)가 가능 여부 안내('~할 수 있습니다')로 바뀌어 행동 요구의 강도가 달라짐\"}], \"axes\": {\"Semantic\": {\"judgment\": \"보존\", \"severity\": null, \"error_ids\": [], \"reason\": \"PIN 사용, 대출 기록 접근, 서비스사 연락처 획득의 행위·대상이 모두 유지됩니다.\"}, \"Textual\": {\"judgment\": \"보존\", \"severity\": null, \"error_ids\": [], \"reason\": \"단일 문장 안의 목적 연결(접근하고 얻는 구조)이 유지됩니다.\"}, \"Context\": {\"judgment\": \"훼손\", \"severity\": \"minor\", \"error_ids\": [\"E001\"], \"reason\": \"안내문이 독자에게 특정 절차를 직접 지시하던 기능이 선택 가능성 안내로 약화되었습니다.\"}, \"Deontic\": {\"judgment\": \"N/A\", \"severity\": null, \"error_ids\": [], \"reason\": \"원문에 의무·금지·기한 등 규범적 조건이 명시되어 있지 않아 규범 평가 대상이 없습니다.\"}, \"Register\": {\"judgment\": \"보존\", \"severity\": null, \"error_ids\": [], \"reason\": \"공식 안내문의 격식체가 '~습니다' 안내체로 유지됩니다.\"}, \"Cultural\": {\"judgment\": \"N/A\", \"severity\": null, \"error_ids\": [], \"reason\": \"문화 고유의 제도·관습·단위 표현이 없습니다. PIN과 연방 학자금 명칭은 원문을 그대로 옮겼습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-haiku-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 9326,
+    "inference_geo": "global",
+    "input_tokens": 762,
+    "output_tokens": 668,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

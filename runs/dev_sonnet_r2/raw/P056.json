@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgJkeDggnsMwUPq1zeA9x",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P056\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Each student awarded a scholarship\",\"tgt_span\":\"장학금을 수여하는 각 학생은\",\"description\":\"수동 관계(장학금을 수여받은 학생)가 '장학금을 수여하는 학생'으로 바뀌어 학생이 수여 주체처럼 읽힘\"},{\"id\":\"E002\",\"src_span\":\"a stipend of $1,500\",\"tgt_span\":\"$1,500의 장학금\",\"description\":\"stipend(생활비 성격의 지급금)가 scholarship과 같은 '장학금'으로 옮겨져 장학금 수여와 지급금의 구분이 사라짐\"},{\"id\":\"E003\",\"src_span\":\"the academic year of study\",\"tgt_span\":\"장학금이 수여되는 연도\",\"description\":\"'academic year of study'(학업 학년도)가 일반 '연도'로 옮겨져 학업 기간 한정이 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"장학금을 받는 학생이 '수여하는' 주체로 바뀌어 행위자 관계가 달라졌고, stipend가 장학금으로, 학업 학년도가 단순 연도로 바뀌었습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"각 학생이 장학금 수여 학년도에 대해 지급금을 받는다는 문장 내 연결 구조는 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장학금 수혜자에게 지급되는 금액을 안내하는 설명 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"지급 사실을 서술하는 문장이며 의무·허가·금지 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 안내문에 맞는 '~습니다' 격식체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"달러 금액을 그대로 유지했고 한국 제도로 바꾸지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 9045,
+    "inference_geo": "global",
+    "input_tokens": 623,
+    "output_tokens": 839,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

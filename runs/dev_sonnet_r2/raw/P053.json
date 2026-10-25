@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgJkeA5eWL1uWDU8okLn6",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P053\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I must not cry\",\"tgt_span\":\"나는 울지 않아도 됩니다\",\"description\":\"'울어서는 안 된다'는 금지·자제의 의무가 '울지 않아도 된다'는 불필요·허용으로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"Such floods of scalding tears That they will never dry\",\"tgt_span\":\"절대 말라지지 않을 뜨거운 눈물이 흐르고 있습니다\",\"description\":\"'눈물의 홍수(floods)'라는 많은 양과 '마르지 않을 것'이라는 강조가 단순한 '뜨거운 눈물이 흐르고 있다'로 약화되고, 눈에 '담겨 있다(contain)'는 표현도 흐름으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"'울어서는 안 된다'가 '울지 않아도 된다'로 바뀌어 화자의 자기 억제 내용이 달라졌고, 눈물의 홍수 같은 양의 표현도 약해졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"'And yet'의 대조는 '울면 안 되지만 눈물이 넘친다'는 갈등인데, 번역은 '울지 않아도 된다'여서 '그러나'의 대조 논리가 어색해집니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"간호사가 울음을 참아야 한다고 기도하며 슬픔을 토로하는 발화 기능이 약해져, 의무와 감정의 긴장이 사라진 채 울 필요가 없다는 안도처럼 읽힙니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"must not이 나타내는 금지(자기 억제)의 의무가 '울지 않아도 됩니다'라는 불필요·허용으로 바뀌어 규범 범주가 달라졌습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"주님께 드리는 기도의 경건한 '~습니다' 어조가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'주님'은 기독교 기도의 대상을 통상적으로 옮긴 것이고 문화적 지시 대상은 왜곡되지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 9045,
+    "inference_geo": "global",
+    "input_tokens": 835,
+    "output_tokens": 949,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

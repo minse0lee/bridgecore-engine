@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgJk6PWPWtixLaud5hGfC",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P046\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"What a superior attitude, thought Clyde!\",\"tgt_span\":\"클라이드는 이것이 얼마나 우월한 태도인가 생각했다.\",\"description\":\"감탄문의 감탄 어조가 약해지고, 클라이드의 시선에서 나온 직접 사고가 평서적 간접 서술로 바뀜. 감탄과 빈정거림이 거의 사라짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"클라이드가 그 태도를 우월하다고 생각한다는 내용(인물, 대상, 생각 행위)이 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'이것'이 앞 문맥의 태도를 가리키고 클라이드가 생각의 주체인 관계도 유지됩니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"원문은 클라이드가 속으로 감탄하며 빈정대는 내면 반응인데, 번역은 '얼마나 …인가 생각했다'로 밋밋하게 서술해 감탄·빈정거림 기능이 약해졌습니다. 다만 핵심 이해를 바꾸지는 않습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 본문의 서술체 '-했다'가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유 요소가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 9045,
+    "inference_geo": "global",
+    "input_tokens": 661,
+    "output_tokens": 695,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

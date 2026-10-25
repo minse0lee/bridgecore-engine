@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgJk6B8FbjNSRDNjRpKCg",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P040\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"guttered at his ear\",\"tgt_span\":\"그의 귀에 구멍\",\"description\":\"'guttered'(불꽃이 가물거리다)가 '구멍'이라는 무관한 명사로 옮겨져 랜턴 불꽃의 동작이 사라지고 의미가 바뀜\"},{\"id\":\"E002\",\"src_span\":\"The lantern like a secret fear, Whispered\",\"tgt_span\":\"비밀스러운 두려움처럼 랜턴, 속삭이고\",\"description\":\"'랜턴'이 주어로 기능하지 못하고 조사 없이 나열되어, 랜턴이 속삭인다는 주어-서술어 관계가 불분명함\"},{\"id\":\"E003\",\"src_span\":\"Whispered and guttered at his ear\",\"tgt_span\":\"속삭이고 그의 귀에 구멍\",\"description\":\"두 번째 서술어가 문법적 서술어 없이 끝나 'whispered and guttered'의 병렬 구조가 무너짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"랜턴 불꽃이 귓가에서 가물거렸다는 행위가 '귀에 구멍'으로 바뀌어 핵심 서술 내용이 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\",\"E003\"],\"reason\":\"주어 '랜턴'과 서술어 '속삭이고'의 관계, 'whispered and guttered'의 병렬 구조가 유지되지 않아 문장 구조를 따라 읽기 어렵습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E003\"],\"reason\":\"불안한 분위기 속에서 랜턴 불꽃이 인물 곁에서 속삭이듯 가물거리는 묘사 기능이 '귀에 구멍'으로 단절되어 전달되지 않습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"시의 묘사 문장으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"번역문이 종결어미 없는 단편적 표현이라 시적 어조를 판정하기 어려우며, 원하는 시적 문체 기준 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 9045,
+    "inference_geo": "global",
+    "input_tokens": 499,
+    "output_tokens": 945,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

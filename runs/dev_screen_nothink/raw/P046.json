@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgJkdVDoSUgE1qQdEK5Gd",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P046\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"What a superior attitude, thought Clyde!\",\"tgt_span\":\"클라이드는 이것이 얼마나 우월한 태도인가 생각했다.\",\"description\":\"원문은 감탄문(직접 내면 독백)인데 번역문은 서술형 의문문 간접화되어 감탄의 어조와 독백 형식이 약화됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"우월한 태도라는 평가 내용과 주체(클라이드)가 동일하게 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞 문장들과의 연결과 인물 시점의 서술 흐름이 유지됩니다.\"},\"Context\":{\"judgment\": \"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"클라이드의 내면 독백이 간접 서술로 바뀌어 감탄적 반응과 인물의 즉각적 심리 표출 기능이 다소 약해졌습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범적 의무·허용·금지 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술체 문어 문체가 원문의 서술 관계와 일치합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-haiku-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 9326,
+    "inference_geo": "global",
+    "input_tokens": 661,
+    "output_tokens": 594,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

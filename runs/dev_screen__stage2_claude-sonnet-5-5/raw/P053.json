@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgJkFo4z9us37dDE1e9S3",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P053\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I must not cry\",\"tgt_span\":\"나는 울지 않아도 됩니다\",\"description\":\"금지·자제의 must not(울어서는 안 된다)이 불필요함을 뜻하는 '울지 않아도 됩니다'(허용·면제)로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"Such floods of scalding tears That they will never dry\",\"tgt_span\":\"절대 말라지지 않을 뜨거운 눈물이 흐르고 있습니다\",\"description\":\"눈물이 '홍수'처럼 넘치는 정도의 표현(floods)이 빠져 규모와 강도가 약화됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"'울어서는 안 된다'가 '울지 않아도 된다'로 바뀌어 화자의 내적 상태가 반대 방향으로 달라졌고, 눈물의 '홍수' 규모도 약해졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"울지 말아야 한다는 자제와 And yet(그러나)로 이어지는 눈물의 대비 구조가, '울지 않아도 됩니다'로 바뀌어 대조가 성립하지 않고 '그러나'의 논리가 어긋났습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"울음을 참아야 한다고 스스로 다짐하며 기도하는 간절한 발화 기능이, 울지 않아도 된다는 평온한 안도의 진술로 읽혀 기도의 정서가 달라졌습니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"must not의 금지 의무가 '않아도 됩니다'라는 불필요·허용으로 범주가 바뀌었습니다. 이 구절은 추론이 아닌 자기 규율을 나타내는 규범 의미입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"주님께 드리는 기도의 경건한 어조와 '~습니다' 체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Lord에 대한 기도라는 종교적 지시 대상이 '주님'으로 적절히 유지됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 9045,
+    "inference_geo": "global",
+    "input_tokens": 835,
+    "output_tokens": 912,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

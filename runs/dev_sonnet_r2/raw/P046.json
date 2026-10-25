@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgJkdrcRWevbC9sZawVju",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P046\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"What a superior attitude, thought Clyde!\",\"tgt_span\":\"클라이드는 이것이 얼마나 우월한 태도인가 생각했다.\",\"description\":\"클라이드의 감탄 섞인 인식(자유간접화법의 감탄문)이 '~인가 생각했다'라는 평서적 의문형 서술로 바뀌어 감탄의 어조와 강조가 약해짐. 또한 '이것이'가 첨가되어 평가 대상이 불분명해짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"클라이드가 상대의 태도를 우월하다고 생각한다는 인물·행위·내용이 유지됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"What a ~, thought Clyde!의 감탄 초점과 강조가 '얼마나 ~인가 생각했다'로 바뀌어 약해졌으나, 지시 대상과 앞 문장과의 연결은 대체로 유지됩니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"클라이드의 반발과 빈정거림이 섞인 감탄이라는 서술 기능이 단순한 생각 서술로 약해졌으나, 인물의 내적 반응이라는 큰 기능은 남아 있습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 내면의 서술이며 화자·청자 간 높임이나 호칭 관계가 문제되지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 9045,
+    "inference_geo": "global",
+    "input_tokens": 661,
+    "output_tokens": 763,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

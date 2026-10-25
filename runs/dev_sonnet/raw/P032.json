@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgJkNx9PNQXTMMtuSsqak",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P032\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"offering programs that are less than an academic year in length and lead to a certificate or other nondegree recognized credential\",\"tgt_span\":\"학년 길이보다 짧은 프로그램을 제공하고 인증서 또는 기타 학위가 인정되지 않는 자격증을 제공함으로써\",\"description\":\"'학위 외의 인정된 자격(nondegree recognized credential)'이 '학위가 인정되지 않는 자격증'으로 바뀌었고, 프로그램이 인증서로 이어진다(lead to)는 관계가 프로그램과 자격증을 각각 제공한다는 구조로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"학위가 아닌 인정된 자격이라는 뜻이 '학위가 인정되지 않는 자격증'으로 바뀌어 자격 요건의 내용이 달라졌고, 프로그램이 자격으로 이어진다는 관계도 자격증을 제공한다는 뜻으로 바뀌었습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"'lead to'가 두 동사('제공하고 … 제공함으로써')의 병렬로 바뀌어 프로그램과 자격 사이의 종속 관계가 흐려졌고, 'nondegree'의 수식 범위도 달라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"고등교육기관이 직업교육기관 자격도 가질 수 있다는 설명 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"can은 의무나 허가가 아니라 자격 취득의 가능성을 나타내므로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내문의 설명체 '~습니다'가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"미국 제도 용어를 한국 제도로 대체하지 않았고, 별도로 판정할 문화 고유 요소도 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 9045,
+    "inference_geo": "global",
+    "input_tokens": 995,
+    "output_tokens": 851,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgJke4EAeKsaavzFxccoq",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P052\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“Think for a minute you can put that kind of a game over on me?”\",\"tgt_span\":\"“나한테 그런 게임을 걸 수 있다고 생각해봐.”\",\"description\":\"분노에 찬 수사의문문(어떻게 감히 그런 수작이 통할 거라 생각하느냐는 힐난)이 '생각해봐'라는 평서형 요청/명령으로 바뀌어 질문·힐난 기능이 사라짐\"},{\"id\":\"E002\",\"src_span\":\"Think for a minute you can put that kind of a game over on me?\",\"tgt_span\":\"생각해봐.\",\"description\":\"'생각해 보라고 요구하는 것'으로 바뀌어, 상대가 그렇게 생각했다는 비난의 전제가 사라지고 화자의 지시로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\"],\"reason\":\"'그런 수작이 통한다고 생각하느냐'는 질문 내용이 '그렇게 생각해보라'는 지시로 바뀌어 행위와 명제 관계가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞 문장의 '바보냐'에 이어 상대를 몰아붙이는 연결은 문장 순서상 유지되며 지시 대상 혼동은 없습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"화난 화자가 상대를 꾸짖는 수사적 의문이 단순한 요청·명령 같은 발화로 바뀌어 힐난 기능이 약해지고 어색한 지시로 읽힙니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"can은 가능성의 의미이고 '생각해봐'도 규범적 의무·허가가 아니라 수사적 표현이므로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화난 인물이 상대에게 거칠게 말하는 반말 투가 유지되어 관계와 태도에 큰 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 9045,
+    "inference_geo": "global",
+    "input_tokens": 635,
+    "output_tokens": 901,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgJk6XD17bh9fjxDX5Rxf",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P050\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Use local resources to view structures of the reproductive system.\",\"tgt_span\":\"로컬 리소스를 사용하여 생식계의 구조를 볼 수 있습니다.\",\"description\":\"학습 활동을 수행하라는 지시(명령형)가 '볼 수 있습니다'라는 가능·안내 서술로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"local resources\",\"tgt_span\":\"로컬 리소스\",\"description\":\"'local resources'를 '로컬 리소스'로 음차하여 학습자가 활용할 지역·현지 자료(교내·인근 자료)라는 의미가 흐려짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"자원을 사용해 생식계의 구조를 본다는 행위·대상·목적이 유지됩니다. '로컬 리소스'는 어색하지만 해석 가능한 차용어입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"수단(로컬 리소스)과 목적(구조 보기)의 연결이 유지됩니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"학습자에게 자료를 찾아 구조를 보라고 지시하는 활동 기능이 '볼 수 있습니다'라는 가능 안내로 바뀌어 수행 지시로 읽히지 않습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"학습 활동 수행 지시이며 제출 의무·기한·금지 등 별도의 규범 조건이 없어 Deontic은 평가하지 않고 지시 기능은 Context에서 판정합니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재 본문에 맞는 '~습니다' 격식체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 9045,
+    "inference_geo": "global",
+    "input_tokens": 557,
+    "output_tokens": 795,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

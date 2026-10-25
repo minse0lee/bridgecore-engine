@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgJkdoTAdEZyADF1k3Agy",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P045\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the waste side of a marked line\",\"tgt_span\":\"표시된 선의 폐기물 쪽으로\",\"description\":\"'waste side'(제거될 재료 쪽, 버려지는 쪽)를 '폐기물 쪽'으로 직역해 '폐기물'이라는 별개 대상이 있는 것처럼 읽힘. 다만 'travel on'을 '이동해야 합니다'로 옮겨 톱날 커프가 해당 쪽에 위치해 지나가야 한다는 취지는 대체로 전달됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"'waste side'가 '폐기물 쪽'으로 옮겨져 제거될 재료 쪽이라는 의미가 흐려졌으나, 선의 한쪽이라는 핵심 위치 관계와 정확한 치수라는 목적은 유지되어 부수적 오류입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"목적(정확한 최종 치수)과 방법(커프가 항상 폐기물 쪽)의 연결과 '항상'의 강조가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"정확한 치수를 위한 톱질 요령을 설명·지도하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"should always를 '항상 ~해야 합니다'로 옮겨 권고 강도가 통상적 대응으로 유지됩니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재의 설명체 '~합니다'가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 9045,
+    "inference_geo": "global",
+    "input_tokens": 806,
+    "output_tokens": 748,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

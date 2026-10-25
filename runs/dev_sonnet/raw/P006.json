@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgJk4uFkop9V6JiyEQEcE",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P006\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"No One Would Have Suspected Him of Ever Having Washed a Buggy\",\"tgt_span\":\"아무도 그가 버그리를 세척했다고 의심하지 않았을 것입니다.\",\"description\":\"'의심하지 않았을 것이다'는 세차했다고 믿었을 것이라는 반대 의미가 되고, 원문은 그가 마차를 씻은 적이 있다고 아무도 짐작하지 못했을 것이라는 뜻이다. 또한 'ever'(한 번이라도)가 빠졌다.\"},{\"id\":\"E002\",\"src_span\":\"a Buggy\",\"tgt_span\":\"버그리\",\"description\":\"마차(buggy)를 뜻하는 단어가 '버그리'라는 의미 불명의 음차로 옮겨져 대상 이해가 어렵다.\"},{\"id\":\"E003\",\"src_span\":\"No One Would Have Suspected Him of Ever Having Washed a Buggy\",\"tgt_span\":\"의심하지 않았을 것입니다.\",\"description\":\"그림 설명 캡션의 문어체 서술이 '-ㅂ니다' 체로 옮겨져 출판물 캡션의 어조와 약간 어긋난다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"'아무도 의심하지 않았다'는 원문과 달리 그가 세차를 했다고 믿었다는 뜻이 되어 핵심 의미가 반전되고, 'ever'가 사라지며 buggy는 '버그리'로 의미가 불명확해졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"캡션이 짧은 단일 문장으로 이어지며 '아무도…않았을 것'이라는 부정 주어 구조와 주제 연결은 유지됩니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"인물이 마차를 씻을 사람으로 보이지 않는다는 유머러스한 서술 기능이, 번역에서는 그가 세차했다고 믿었다는 뜻으로 읽혀 그림 캡션의 기능이 약해집니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 캡션입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"소설 삽화 캡션이 소설 서술체가 아닌 '-ㅂ니다' 안내체로 옮겨져 격식 수준이 다소 어긋납니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"당시 미국의 경량 마차인 buggy가 '버그리'라는 의미 불명의 음차로 옮겨져 시대적 문화 지시 대상이 한국어 독자에게 전달되지 않습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 9045,
+    "inference_geo": "global",
+    "input_tokens": 855,
+    "output_tokens": 1106,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

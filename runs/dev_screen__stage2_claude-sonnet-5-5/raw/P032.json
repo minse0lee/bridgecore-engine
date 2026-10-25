@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgJkFGftdH2FXcp4yhRWP",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P032\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"offering programs that are less than an academic year in length and lead to a certificate or other nondegree recognized credential\",\"tgt_span\":\"학년 길이보다 짧은 프로그램을 제공하고 인증서 또는 기타 학위가 인정되지 않는 자격증을 제공함으로써\",\"description\":\"'학위가 아닌 인정된 자격(nondegree recognized credential)'이 '학위가 인정되지 않는 자격증'으로 바뀌고, 프로그램이 인증서로 이어진다는 관계가 자격증을 별도로 '제공'한다는 것으로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"an academic year in length\",\"tgt_span\":\"학년 길이보다 짧은\",\"description\":\"'academic year'가 미국 학사 제도상의 기준 단위인데 '학년'으로 옮겨 제도적 기준 용어로서 모호해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"프로그램이 비학위의 인정된 자격으로 이어진다는 내용이 '학위가 인정되지 않는 자격증'을 제공한다는 뜻으로 바뀌어, 자격 요건의 대상 의미가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"'lead to'로 프로그램과 자격을 잇는 관계가 사라지고 프로그램과 자격증을 병렬로 제공하는 구조가 되었으며, 'nondegree'가 수식하는 대상(credential)이 '인정되지 않는'으로 잘못 연결되었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기관이 중등 후 직업교육기관으로도 인정될 수 있다는 제도 설명 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"possible/can은 규범이 아니라 자격 충족의 가능성을 나타내므로 의무·허가의 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내문의 설명체 '~습니다'가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"미국 학사 제도의 기준 단위인 academic year를 '학년'으로 옮겨 제도적 기준의 의미가 약해졌으나, 한국 제도로 대체하지는 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 9045,
+    "inference_geo": "global",
+    "input_tokens": 995,
+    "output_tokens": 972,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgJkcZCeFEcKExmUYT9qJ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P009\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"keep the others from this control panel\",\"tgt_span\":\"다른 사람이 다른 30 분 동안이 컨트롤 패널에서 유지할 수있다면\",\"description\":\"'다른 사람들을 패널에서 떼어 놓다(접근 차단)'가 '다른 사람이 패널에서 유지할 수 있다'로 바뀌어 행위 주체와 대상, 행위가 뒤바뀌고 접근 차단 의미가 사라짐\"},{\"id\":\"E002\",\"src_span\":\"for another half hour\",\"tgt_span\":\"다른 30 분 동안이\",\"description\":\"'30분 더'가 '다른 30분'으로 옮겨지고 조사 '이'가 붙어 추가 시간의 의미가 흐려지고 구문이 깨짐\"},{\"id\":\"E003\",\"src_span\":\"the battle would be won\",\"tgt_span\":\"전투가 승리했다\",\"description\":\"가정에 따른 미래 결과(would be won)가 과거 사실 '승리했다'로 바뀌어 조건적 결과가 확정된 과거로 읽힘\"},{\"id\":\"E004\",\"src_span\":\"the computer could operate on his equations fully\",\"tgt_span\":\"컴퓨터는 완전히 자신의 방정식을 작동할 수 있으며\",\"description\":\"컴퓨터가 그의 방정식으로 작동한다는 의미가 방정식을 작동한다는 의미로 바뀌고, 'his'가 '자신의'로 옮겨져 지시 대상이 모호해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\",\"E004\"],\"reason\":\"다른 사람들을 패널에서 막는 행위가 '유지할 수 있다'로 바뀌어 핵심 행위가 달라졌고, 추가 30분과 가정적 결과의 시제도 어긋나 조건과 결과 내용이 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\",\"E004\"],\"reason\":\"If 조건절과 주절의 조건-결과 연결이 깨져 '승리했다'가 확정 사실처럼 읽히고, '30 분 동안이 컨트롤 패널에서'의 구문 붕괴와 '자신의'의 지시 모호성으로 논리 관계가 불분명해졌습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E003\"],\"reason\":\"서술에서 주인공이 시간을 벌어야 승리할 수 있다는 긴장과 조건 설정 기능이 약해지고, 이미 승리한 것처럼 읽혀 서사적 기능이 달라졌습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장은 서사 속 가정 서술이며 의무·허용·금지 같은 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 특정한 화자·청자 관계에 따른 높임이나 호칭이 평가할 현상으로 나타나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 9045,
+    "inference_geo": "global",
+    "input_tokens": 782,
+    "output_tokens": 1230,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

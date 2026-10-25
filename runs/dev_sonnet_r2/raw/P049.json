@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgJkdxGz7jWaizjD2m6WX",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P049\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"this should show you that this ship isn't as good as you think it is!\",\"tgt_span\":\"이것은 당신이 생각하는 것만큼 이 배가 좋지 않다는 것을 보여줄 것이다!\",\"description\":\"'should show'의 개연적 추정을 '보여줄 것이다'라는 단정에 가까운 미래 서술로 옮겨 확실성이 다소 강해짐. 사소한 뉘앙스 차이임.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"should의 '~할 터이다'라는 개연성 표현이 '보여줄 것이다'로 옮겨져 확실성 정도가 약간 달라졌으나, 핵심 내용은 유지되어 부수적인 차이입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'It'이 눈빛을 가리키는 지시 관계와 이탤릭으로 표시된 속뜻 인용 구조가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"눈빛이 말없이 전하는 메시지를 서술하는 기능과 스킵이 불에게 보내는 도발의 함축이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 should는 의무가 아니라 추정·개연성을 나타내므로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문의 '~다' 체와 속마음 표현의 어조가 문맥에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 9045,
+    "inference_geo": "global",
+    "input_tokens": 720,
+    "output_tokens": 724,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

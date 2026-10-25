@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgJk4uHExAt5F6WWLrm1J",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P008\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"It is now known that\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"'이제는 ~로 알려져 있다'는 새로운 연구 결과 인식을 나타내는 표현이 번역에서 빠짐\"},{\"id\":\"E002\",\"src_span\":\"many children with ADHD do not grow out of it\",\"tgt_span\":\"ADHD를 앓고 있는 많은 어린이들은 성장하지 못한다\",\"description\":\"'ADHD에서 벗어나지(자라서 없어지지) 않는다'는 뜻이 '성장하지 못한다'로 바뀌어 신체·발달 성장 자체의 실패처럼 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"핵심 명제인 '많은 아이가 ADHD를 극복하지 못하고 지속된다'가 '아이들이 성장하지 못한다'로 바뀌어 질환의 지속이라는 내용이 사라지고 의미가 왜곡되었으며, '이제 알려져 있다'도 빠졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"'it'이 가리키는 ADHD가 '성장하지 못한다'에서 목적어로 이어지지 않아 앞 절과의 대조(증상은 변해도 질환은 지속)가 약해집니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"'이제는 알려져 있다'로 이전 통념을 수정하는 설명 기능이 사라져 앞 문장과의 대비가 약해졌습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"may는 가능성, do not은 사실 서술이어서 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학습자료의 평서체 설명문 격식이 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 9045,
+    "inference_geo": "global",
+    "input_tokens": 1333,
+    "output_tokens": 840,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

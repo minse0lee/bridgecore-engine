@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgJk5Y44ejVXFrUPPTgeR",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P024\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"along with the TD and the Scene Designer, the schedule, color palette, and techniques\",\"tgt_span\":\"TD와 장면 디자이너, 일정, 색상 팔레트, 그리고 풍경 페인팅에 필요한 기술과 함께\",\"description\":\"'TD·장면 디자이너와 함께'가 '일정·팔레트·기술'을 만드는 공동 작업자 관계에서, 일정·팔레트·기술까지 모두 '함께'의 대상으로 나열되어 창조·개발의 목적어(산출물)가 사라짐. 공동 작업자와 산출물이 구분되지 않음\"},{\"id\":\"E002\",\"src_span\":\"Scenic Charge Artist / the charge artist\",\"tgt_span\":\"충전 아티스트\",\"description\":\"charge artist(책임 담당 도장 미술가)가 '충전'(전기 충전 등)으로 오역되어 직무명이 달라짐\"},{\"id\":\"E003\",\"src_span\":\"the Scene Designer\",\"tgt_span\":\"장면 디자이너\",\"description\":\"무대 미술가(scene designer)를 '장면 디자이너'로 옮겨 직무명이 부정확함\"},{\"id\":\"E004\",\"src_span\":\"It is the charge artist who\",\"tgt_span\":\"그것은 … 충전 아티스트입니다\",\"description\":\"분열문의 초점 구조는 유지되나 '그것은'이 지시어처럼 읽혀 어색함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"일정·색상 팔레트·기술이 만들어지는 대상이 아니라 TD·디자이너와 나란히 나열된 동반자처럼 되어 누가 무엇을 만드는지 달라졌고, charge artist가 '충전 아티스트'로 오역되었습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"along with 구와 목적어 나열의 경계가 무너져 'TD·디자이너'와 '일정·팔레트·기술'이 한 목록으로 묶이는 등 문장 내 논리 관계가 훼손되었습니다. 강조 구문의 초점은 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"차지 아티스트의 역할을 설명하는 교재 서술 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재의 설명체('~입니다')가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 문장에 없습니다. 직무명 오역만으로 Cultural을 적용하지 않습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 9045,
+    "inference_geo": "global",
+    "input_tokens": 1180,
+    "output_tokens": 1100,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

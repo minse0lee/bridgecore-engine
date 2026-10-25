@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgJkdbhESjFxNw5gjP99E",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\": \"P052\", \"evaluable\": true, \"evaluable_note\": null, \"errors\": [{\"id\": \"E001\", \"src_span\": \"Think for a minute you can put that kind of a game over on me?\", \"tgt_span\": \"나한테 그런 게임을 걸 수 있다고 생각해봐.\", \"description\": \"원문의 수사적 질문(반문)이 번역에서 명령형 제안으로 바뀌어 발화 기능과 화자의 태도가 달라짐. 또한 'for a minute'(잠깐)의 뉘앙스가 누락됨\"}], \"axes\": {\"Semantic\": {\"judgment\": \"훼손\", \"severity\": \"minor\", \"error_ids\": [\"E001\"], \"reason\": \"'잠깐'(for a minute)의 시간적 한정이 누락되고, '나한테 그런 게임을 걸 수 있다'는 명제 내용 자체는 유지됩니다.\"}, \"Textual\": {\"judgment\": \"보존\", \"severity\": null, \"error_ids\": [], \"reason\": \"앞 문장 대화에 이어지는 연결과 문단 내 위치가 유지됩니다.\"}, \"Context\": {\"judgment\": \"훼손\", \"severity\": \"major\", \"error_ids\": [\"E001\"], \"reason\": \"원문은 상대의 어리석음을 몰아붙이는 반문(네가 감히 나를 속일 수 있다고 생각하느냐는 힐난)인데, 번역은 '생각해봐'라는 권유형 제안으로 바뀌어 분노·비난의 발화 기능이 약화되었습니다.\"}, \"Deontic\": {\"judgment\": \"N/A\", \"severity\": null, \"error_ids\": [], \"reason\": \"can은 능력·가능성의 의미이며 의무·허가·금지의 규범 의미가 없습니다.\"}, \"Register\": {\"judgment\": \"보존\", \"severity\": null, \"error_ids\": [], \"reason\": \"반말체 대화 어조가 원문의 격의 없는 화자 관계와 맞게 유지됩니다.\"}, \"Cultural\": {\"judgment\": \"N/A\", \"severity\": null, \"error_ids\": [], \"reason\": \"문화·제도 고유의 지시 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-haiku-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 9326,
+    "inference_geo": "global",
+    "input_tokens": 635,
+    "output_tokens": 744,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
