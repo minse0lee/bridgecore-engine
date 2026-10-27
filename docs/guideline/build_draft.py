@@ -230,7 +230,7 @@ judq = table(TMPL, W3, ['평가축', '평가 대상(없으면 N/A)', '판단 질
     ['Semantic',
      '평가대상 문장이 표현한 내용 전체',
      ['① 인물·대상·행위·수량·시간·부정·조건·인과·확실성 중 원문과 달라진 항목을 특정할 수 있습니까? 예 → 훼손',
-      '② 달라진 것이 평가어의 정도나 어감뿐입니까? 예 → 보존 (예: overbearing → "압도적인"). 단, 추측·가능성이 단정으로 바뀌는 등 확실성이 달라졌으면 ①에 해당하므로 훼손입니다.',
+      '② 달라진 것이 평가어의 정도나 어감뿐입니까? 예 → 보존 (예: harsh → "엄격한"). 단, 추측·가능성이 단정으로 바뀌는 등 확실성이 달라졌으면 ①에 해당하므로 훼손입니다.',
       '표현 방식이나 어순이 달라도 같은 사태를 기술하면 보존입니다.']],
     ['Textual',
      '지시 표현(대명사·소유 관계), 문장 간 연결, 초점·범위 표현',
@@ -284,7 +284,7 @@ add_rows(B[48], [4320, 5904], [
 deon = table(TMPL, [3300, 4124, 2800], ['문장 유형', '설명용 원문', 'Deontic'], [
     ['자격·요건을 정하는 문장', 'Only full-time students qualify for the grant.', '적용'],
     ['받을 권리·지급을 정하는 문장', 'Each recipient receives $500 per semester.', '적용'],
-    ['독자에게 하는 조언·권고 (규범적 근거가 있는 행동 지침)', 'It is important that parents review the school rules.', '적용'],
+    ['독자에게 하는 조언·권고 (규범적 근거가 있는 행동 지침)', 'Visitors are advised to check in at the front desk.', '적용'],
     ['문학·대화 속이라도 화자가 스스로나 상대에게 의무·금지를 거는 문장', '"I must not tell anyone," she whispered.', '적용'],
     ['규정을 설명하는 계산 예시나 사례 서술', 'In this example, the student took 12 credits in the fall.', 'N/A'],
     ['대화 속 제안·선택 질문, 개인적 부탁이나 바람', '"Shall we leave now?"', 'N/A'],
