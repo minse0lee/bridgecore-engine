@@ -64,6 +64,19 @@ python -m bridgecore.cli run --items-file data/book.jsonl --live --batch --scree
 
 확인용 20문항은 `--split holdout --i-know-holdout`일 때만 실행된다 (마지막 1회).
 
+### PoC 보고서 (정답 없이 엔진 결과를 읽는 용도)
+
+```bash
+python -m bridgecore.cli poc runs/book_screen__cascade --title "OOO 번역 검증 결과" --note "1~3장, 2단계 Batch"
+#  → reports/<실행>_poc.html          요약·축별 건수·문장별 오류(구간 강조, 심각도, 근거), 축·심각도 필터
+#  → reports/<실행>_poc_review.xlsx   검토자용: 엔진 표시가 맞나(맞음/틀림/애매)·놓친 오류·검토 시간
+#  → reports/<실행>_poc_summary.json
+python -m bridgecore.cli poc-tally reports/<실행>_poc_review.xlsx   # 검토 끝난 엑셀 → 정밀도·놓친 오류 집계
+```
+- 문항은 실행 때 쓴 것(meta.json의 items_source)을 다시 읽는다. 다르면 `--items-file`
+- 파일럿 실행에 확인용 문항이 들어 있으면 거부한다 (`--allow-holdout`으로 풀 수 있음)
+- 비용은 실행 기록으로 계산하고, 실시간 호출이었으면 Batch 환산 비용도 함께 적는다
+
 ## 폴더
 
 | 경로 | 내용 |
@@ -77,6 +90,7 @@ python -m bridgecore.cli run --items-file data/book.jsonl --live --batch --scree
 | `bridgecore/prompt.py` | 시스템 프롬프트(캐시) + 문항 메시지 + 구조화 출력·effort·사고 설정 |
 | `bridgecore/runner.py` | 드라이런/동기 실행/Batch 제출·수집, 2단계 선별·병합, 재시작 시 실패분만 재실행 |
 | `bridgecore/compare.py` | 선별 실행이 기준 실행·사람 정답 대비 놓치는 훼손 비교 |
+| `bridgecore/poc_report.py` | 정답 없는 PoC 보고서(HTML)·검토용 엑셀 생성, 검토 결과 집계 |
 | `prompts/v0/system.md` | 프롬프트 v0 (가이드라인 2026-10-07판 요약 + EX01·EX02) |
 | `prompts/v0/screen_addendum.md` | 1차 선별 모드 추가문 (놓치지 않게 넉넉히 표시) |
 | `prices.json` | 모델 단가·Batch 배율 (공식 문서 2026-10-23 기준) |

@@ -1,0 +1,57 @@
+{
+  "n": 40,
+  "n_ok": 40,
+  "n_flagged": 18,
+  "n_held_only": 0,
+  "n_clean": 22,
+  "n_not_evaluable": 0,
+  "n_no_output": 0,
+  "by_max_sev": {
+    "major": 14,
+    "minor": 4
+  },
+  "per_axis": {
+    "Semantic": {
+      "보존": 24,
+      "훼손": 16,
+      "major": 12,
+      "minor": 4
+    },
+    "Textual": {
+      "보존": 32,
+      "훼손": 8,
+      "minor": 4,
+      "major": 4
+    },
+    "Context": {
+      "보존": 31,
+      "훼손": 9,
+      "minor": 3,
+      "major": 6
+    },
+    "Deontic": {
+      "N/A": 34,
+      "보존": 2,
+      "훼손": 4,
+      "minor": 1,
+      "major": 3
+    },
+    "Register": {
+      "보존": 37,
+      "판단보류": 2,
+      "훼손": 1,
+      "minor": 1
+    },
+    "Cultural": {
+      "N/A": 27,
+      "훼손": 4,
+      "major": 2,
+      "minor": 2,
+      "보존": 9
+    }
+  },
+  "cost_usd": 0.27217960500000005,
+  "run": "dev_screen__cascade",
+  "model": "claude-haiku-5-5→claude-sonnet-5-5",
+  "prompt_version": "v0"
+}

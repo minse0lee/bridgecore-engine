@@ -11,6 +11,8 @@
   compare   선별이 기준 실행(예: Sonnet 전체) 대비 놓치는 훼손 비교
   score     엔진 출력 채점 → reports/
   baseline  사람 간 기준선 → reports/
+  poc       정답 없이 읽는 PoC 보고서(HTML)와 검토용 엑셀 → reports/
+  poc-tally 검토가 끝난 PoC 엑셀 집계 (엔진 표시 정확도·놓친 오류)
 """
 from __future__ import annotations
 
@@ -297,6 +299,34 @@ def cmd_score(args):
     score_run(Path(args.run_dir), items, ratings, REPORTS, split=args.split)
 
 
+def cmd_poc(args):
+    from .poc_report import make_poc_report
+    run_dir = Path(args.run_dir)
+    meta = read_json(run_dir / "meta.json")
+    source = str(Path(args.items_file).resolve()) if args.items_file else meta.get("items_source", "pilot")
+    items = _items_from_source(source)
+    if source == "pilot" and not args.allow_holdout:
+        held = set(read_json(PROC / "split_pilot.json")["holdout"]) & set(meta.get("items") or [])
+        if held:
+            sys.exit(f"이 실행에 확인용 문항 {len(held)}개가 들어 있습니다. 시연·배포용 보고서에 확인용 문항을 "
+                     "넣지 않으려면 개발용 실행을 쓰세요. 그래도 만들려면 --allow-holdout.")
+    make_poc_report(run_dir, items, REPORTS, title=args.title, note=args.note, name=args.name)
+
+
+def cmd_poc_tally(args):
+    from .poc_report import tally_review
+    res = tally_review(Path(args.xlsx))
+    out = Path(args.xlsx).with_suffix(".tally.json")
+    write_json(out, res)
+    t = res["flags_total"]
+    fmt_p = lambda x: "-" if x is None else f"{x:.2f}"
+    print(f"훼손 표시 {t['맞음'] + t['틀림'] + t['애매'] + t['미입력']}칸: 맞음 {t['맞음']} · 틀림 {t['틀림']} · "
+          f"애매 {t['애매']} · 미입력 {t['미입력']}  → 정밀도 {fmt_p(t['precision_lenient'])} "
+          f"(애매를 틀림으로 치면 {fmt_p(t['precision_strict'])})")
+    print(f"놓친 오류가 있는 문장 {res['n_items_with_missed']}/{res['n_items']} · 축별 {res['missed_by_axis']}")
+    print(f"→ {out}")
+
+
 def cmd_baseline(args):
     from .report import baseline_report
     items, ratings = load_all()
@@ -363,6 +393,13 @@ def main(argv=None):
     s.add_argument("--split", choices=["dev", "holdout", "all"], default="all")
     s.set_defaults(fn=cmd_score)
     sub.add_parser("baseline").set_defaults(fn=cmd_baseline)
+    s = sub.add_parser("poc"); s.add_argument("run_dir")
+    s.add_argument("--items-file", help="실행 때 쓴 문항 jsonl (기본: meta.json의 items_source)")
+    s.add_argument("--title"); s.add_argument("--note", help="보고서 맨 위 안내에 넣을 한 줄")
+    s.add_argument("--name", help="출력 파일 이름 앞부분 (기본: 실행 폴더 이름)")
+    s.add_argument("--allow-holdout", action="store_true")
+    s.set_defaults(fn=cmd_poc)
+    s = sub.add_parser("poc-tally"); s.add_argument("xlsx"); s.set_defaults(fn=cmd_poc_tally)
     args = p.parse_args(argv)
     args.fn(args)
 
