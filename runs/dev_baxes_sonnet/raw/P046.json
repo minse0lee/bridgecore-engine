@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgYcLEsVg8Y5r4oBYjwv1",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P046\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"What a superior attitude, thought Clyde!\",\"tgt_span\":\"클라이드는 이것이 얼마나 우월한 태도인가 생각했다.\",\"description\":\"감탄문과 클라이드의 감탄 어조(느낌표)가 평서형 서술로 약해졌고, 원문의 '감탄하며 생각한' 효과가 사라졌다. 'superior attitude'가 클라이드가 본 상대의 우월한 태도라는 점이 불명확하다.\"},{\"id\":\"E002\",\"src_span\":\"What a superior attitude, thought Clyde!\",\"tgt_span\":\"클라이드는 이것이 얼마나 우월한 태도인가 생각했다.\",\"description\":\"원문은 'thought Clyde'가 삽입된 자유간접 형태로 클라이드의 감탄이 먼저 나오는데, 번역은 서술문 어순으로 바뀌어 강조 구조가 약해졌다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"클라이드가 어떤 태도를 우월하다고 생각했다는 핵심 명제는 유지된다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"감탄문 초점과 삽입된 'thought Clyde'의 구조가 평범한 종속 서술로 바뀌어 강조가 약해졌다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"클라이드의 감탄·빈정거림이 담긴 발화 기능이 평서형 보고로 약화되었다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"당위나 허용 표현이 없다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"클라이드의 비꼬는 듯한 태도와 감정적 어조가 중립적 서술로 평탄해졌다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 특유의 요소가 없다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 3260,
+    "inference_geo": "global",
+    "input_tokens": 661,
+    "output_tokens": 803,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

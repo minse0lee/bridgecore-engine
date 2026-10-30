@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgYcJSn3mWQnVsJe5WTFK",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P024\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"along with the TD and the Scene Designer, the schedule, color palette, and techniques\",\"tgt_span\":\"TD와 장면 디자이너, 일정, 색상 팔레트, 그리고 풍경 페인팅에 필요한 기술과 함께\",\"description\":\"'along with'의 대상이 TD·디자이너뿐인데, 번역은 일정·팔레트·기술까지 함께 나열해 공동 작업자와 창작 대상(목적어)이 구분되지 않는다. 일정·팔레트·기술이 창조·개발의 목적어라는 구조가 사라지고 '일정, 팔레트, 기술과 함께'로 읽힌다.\"},{\"id\":\"E002\",\"src_span\":\"charge artist\",\"tgt_span\":\"충전 아티스트\",\"description\":\"'charge artist'(책임 도장 담당 미술가)를 '충전'으로 직역해 직무 용어가 전달되지 않는다.\"},{\"id\":\"E003\",\"src_span\":\"Scene Designer\",\"tgt_span\":\"장면 디자이너\",\"description\":\"무대미술가(scenic/scene designer)를 '장면 디자이너'로 옮겨 용어가 부정확하다.\"},{\"id\":\"E004\",\"src_span\":\"It is the charge artist who\",\"tgt_span\":\"그것은 ... 충전 아티스트입니다\",\"description\":\"분열문의 강조를 '그것은 ~입니다'로 어색하게 옮기고, 문장 종결이 '-입니다'로 앞뒤 문체와 어긋난다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"일정·팔레트·기술이 만들어지는 대상이라는 의미가 흐려지고, 직무 용어('충전 아티스트', '장면 디자이너')도 부정확하다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E004\"],\"reason\":\"목적어와 'along with' 구성 요소가 뒤섞여 문장 구조가 무너지고, 분열문의 강조도 제대로 살리지 못했다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재에서 역할을 설명하는 기능 자체는 유지된다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허용 표현이 없다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E004\"],\"reason\":\"주변 문장은 '-다'체인데 이 문장만 '-입니다'로 쓰여 교재 문체가 일관되지 않는다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\",\"E003\"],\"reason\":\"무대 제작 분야의 직무 명칭이 현지 관행에 맞게 옮겨지지 않아 독자가 직무를 알아보기 어렵다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 3260,
+    "inference_geo": "global",
+    "input_tokens": 1180,
+    "output_tokens": 1072,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

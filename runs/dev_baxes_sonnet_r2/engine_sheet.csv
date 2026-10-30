@@ -1,0 +1,241 @@
+﻿item_id,axis,judgment,severity,error_ids,src_span,tgt_span,reason
+P003,Semantic,보존,,,,,"각 항목, 문제 설명, 수정 제안의 내용이 모두 정확히 옮겨졌다."
+P003,Textual,보존,,,,,'각 항목에 대해' 뒤에 두 가지 과제를 병렬로 이은 구조가 원문과 같다.
+P003,Context,보존,,,,,학습자에게 활동을 지시하는 워크시트 기능이 그대로 유지된다.
+P003,Deontic,보존,,,,,명령문이 '~하십시오'로 옮겨져 두 과제를 수행하라는 지시 강도가 같다.
+P003,Register,보존,,,,,교재 지시문에 맞는 격식체 '~하십시오'를 썼다.
+P003,Cultural,N/A,,,,,문화나 제도에 특화된 요소가 없다.
+P007,Semantic,훼손,minor,"E001, E002",E001: there were times when the hump in his back became greater than ever before / E002: three or four feet above its normal level,E001: 그의 등의 혹이 그 어느 때보다도 커지고 / E002: 3 ~ 4 피트 ( 1 ~ 2 미터 ) 정상 수준보다 높아지고,"'때때로(there were times when)' 한정이 빠져 혹이 항상 커진 것처럼 읽히고, 원문에 없는 미터 환산이 첨가되었으며 수치도 부정확하다."
+P007,Textual,보존,,,,,시간절과 두 개의 발견 내용이 원문의 연결 구조대로 유지되었다.
+P007,Context,보존,,,,,서사 속에서 베이브의 상태를 발견하는 장면이라는 기능이 유지되었다.
+P007,Deontic,N/A,,,,,의무나 허가와 관련된 내용이 없다.
+P007,Register,보존,,,,,서술체 어조가 유지되었다.
+P007,Cultural,보존,,,,,"피트 단위에 미터 환산을 병기해 이해를 돕고, 문화적 의미 손실은 없다."
+P004,Semantic,훼손,major,E001,the Council and the regents,위원회와 섭정들,regents를 '섭정들'로 옮겨 기관 구성원의 지시 대상이 달라졌다. 나머지 내용은 정확하다.
+P004,Textual,보존,,,,,한 문장 구조와 인용 발화 틀이 유지되었고 'charges ... preferred by'의 연결도 자연스럽게 옮겨졌다.
+P004,Context,보존,,,,,회의 개회를 알리는 공식 선언이라는 발화 기능이 유지되었다.
+P004,Deontic,N/A,,,,,의무나 허용을 나타내는 표현이 없고 회의 목적을 알리는 진술이다.
+P004,Register,보존,,,,,'신사 여러분'과 '-ㅂ니다' 체로 총장의 격식 있는 공식 어조가 유지되었다.
+P004,Cultural,훼손,major,E001,the Council and the regents,위원회와 섭정들,"미국 대학의 평의회·이사회라는 제도를 '위원회', '섭정'으로 옮겨 제도적 의미가 왜곡되었고 독자는 군주제 관련 직위로 오해할 수 있다."
+P005,Semantic,훼손,major,"E001, E002",E001: Federal Student Aid PIN / E002: loan servicer,E001: 연방 학자금 대출 PIN / E002: 대출 서비스,PIN 명칭이 대출로 한정되고 loan servicer가 '대출 서비스'로 바뀌어 대상과 담당 주체가 달라짐.
+P005,Textual,보존,,,,,하나의 문장 안에서 수단-목적 및 두 동작의 병렬 구조가 유지됨.
+P005,Context,보존,,,,,기록 조회와 연락처 확인 방법을 안내하는 기능이 유지됨.
+P005,Deontic,훼손,minor,E003,Use your Federal Student Aid PIN to access,사용하여 ... 얻을 수 있습니다,지시형이 가능형으로 바뀌어 안내의 방향이 약해졌으나 의무·권한 관계가 크게 바뀌지는 않음.
+P005,Register,보존,,,,,안내문에 맞는 정중한 합쇼체로 유지됨.
+P005,Cultural,훼손,minor,"E001, E002",E001: Federal Student Aid PIN / E002: loan servicer,E001: 연방 학자금 대출 PIN / E002: 대출 서비스,미국 연방 학생 재정 지원 제도의 명칭과 대출 관리 업체 개념이 흐려져 제도 이해에 지장을 줌.
+P006,Semantic,훼손,major,"E001, E002, E003",E001: No One Would Have Suspected Him of Ever Having Washed a Buggy / E002: a Buggy / E003: Washed,E001: 아무도 그가 버그리를 세척했다고 의심하지 않았을 것입니다. / E002: 버그리 / E003: 세척했다고,"'버그리' 오음차와 '세척', '의심하지 않았을 것'으로 인해 마차를 씻은 적이 있으리라고는 아무도 생각하지 못했을 것이라는 의미가 흐려졌다."
+P006,Textual,보존,,,,,짧은 캡션 구조가 그대로 유지되었다.
+P006,Context,훼손,minor,E001,No One Would Have Suspected Him of Ever Having Washed a Buggy,아무도 그가 버그리를 세척했다고 의심하지 않았을 것입니다.,인물의 말쑥한 차림을 암시하는 삽화 캡션의 아이러니 기능이 약해졌다.
+P006,Deontic,N/A,,,,,당위나 허용 표현이 없다.
+P006,Register,훼손,minor,"E004, E003",E004: No One Would Have Suspected Him / E003: Washed,E004: 의심하지 않았을 것입니다. / E003: 세척했다고,'-ㅂ니다' 종결과 '세척' 같은 한자어가 서사 캡션의 어조와 어울리지 않는다.
+P006,Cultural,훼손,minor,E002,a Buggy,버그리,당시 마차인 buggy를 알 수 없는 '버그리'로 옮겨 독자가 문화적 대상을 이해하기 어렵다.
+P008,Semantic,훼손,major,E001,do not grow out of it,성장하지 못한다,"""grow out of it""을 ""성장하지 못한다""로 옮겨 ADHD가 성인기까지 지속된다는 핵심 의미가 사라지고 다른 뜻이 되었다."
+P008,Textual,훼손,minor,E002,It is now known that,대응 구간 없음(누락),"""It is now known""이 빠져 앞 문장의 과거 통념과 현재 지식이 대비되는 연결이 약해졌다."
+P008,Context,훼손,minor,"E001, E002",E001: do not grow out of it / E002: It is now known that,E001: 성장하지 못한다 / E002: 대응 구간 없음(누락),"최신 연구에 근거해 통념을 바로잡는 설명 기능이 약해졌고, 오역 때문에 독자가 내용을 잘못 이해하게 된다."
+P008,Deontic,N/A,,,,,may와 do not은 가능성·사실을 나타내며 규범 의미가 없다.
+P008,Register,보존,,,,,학습자료의 평서체 설명 문체가 유지되었다.
+P008,Cultural,N/A,,,,,문화·제도 특유의 요소가 없다.
+P011,Semantic,보존,,,,,목적을 밝힐 수 없다는 것과 위험이 없다는 내용이 그대로 옮겨졌다.
+P011,Textual,보존,,,,,'~으나'로 대조 구조를 유지했고 정보 순서도 같다.
+P011,Context,보존,,,,,목적은 밝히지 않으면서 상대를 안심시키는 발화 기능이 유지된다.
+P011,Deontic,N/A,,,,,'can not give'는 의무나 허락이 아니라 말할 수 없다는 능력·가능의 뜻이어서 규범 의미가 없다.
+P011,Register,보존,,,,,'너'와 '~을 것이다'의 평어체가 위압적이고 격식 있는 화자의 태도에 맞고 문단 번역과도 일관된다.
+P011,Cultural,N/A,,,,,문화나 제도와 관련된 요소가 없다.
+P012,Semantic,보존,,,,,"예외 조건, 동의 없는 PII 공개, FERPA가 요구하지 않는다는 내용이 모두 정확히 옮겨졌다."
+P012,Textual,보존,,,,,'~할 수 있지만 ~요구되지는 않습니다'로 원문의 대조 구조가 유지되었다.
+P012,Context,보존,,,,,제도를 설명하는 안내 기능이 그대로 유지되었다.
+P012,Deontic,보존,,,,,허용(permitted→공개할 수 있다)과 비의무(not required→요구되지는 않는다)의 구분이 유지되었고 주체도 학교로 같다.
+P012,Register,보존,,,,,안내문에 맞는 격식체 '-습니다'를 사용해 원문의 공식적 어조와 맞는다.
+P012,Cultural,보존,,,,,"FERPA, PII 등 미국 제도 용어를 한국 제도로 대체하지 않고 그대로 두었다."
+P009,Semantic,훼손,critical,"E001, E002, E003",E001: keep the others from this control panel / E002: another half hour / E003: the computer could operate on his equations fully,E001: 다른 사람이 다른 30 분 동안이 컨트롤 패널에서 유지할 수있다면 / E002: 다른 30 분 / E003: 컴퓨터는 완전히 자신의 방정식을 작동할 수 있으며,"핵심 동사구 'keep ... from'을 오역해 누가 무엇을 막는지가 뒤바뀌었고, 시간·방정식 관련 의미도 어긋남."
+P009,Textual,훼손,major,"E001, E004",E001: keep the others from this control panel / E004: the battle would be won,E001: 다른 사람이 다른 30 분 동안이 컨트롤 패널에서 유지할 수있다면 / E004: 전투가 승리했다,"조건절과 결과절의 논리 연결이 깨져 문장이 비문이 되었고, 결과절이 사실 서술처럼 읽힘."
+P009,Context,훼손,major,"E001, E004",E001: keep the others from this control panel / E004: the battle would be won,E001: 다른 사람이 다른 30 분 동안이 컨트롤 패널에서 유지할 수있다면 / E004: 전투가 승리했다,주인공이 계획을 지키려 하는 긴박한 조건 상황이라는 서사 기능이 전달되지 않음.
+P009,Deontic,훼손,minor,"E001, E004",E001: keep the others from this control panel / E004: the battle would be won,E001: 다른 사람이 다른 30 분 동안이 컨트롤 패널에서 유지할 수있다면 / E004: 전투가 승리했다,could/would가 나타내는 가능·가정 양태가 '있다면 ... 승리했다'로 약화되거나 사실화됨.
+P009,Register,보존,,,,,서술문의 중립적 어조에는 큰 변화가 없음.
+P009,Cultural,N/A,,,,,문화 특수 요소가 없음.
+P014,Semantic,보존,,,,,"34 CFR 682.100이 title 34, part 682, section 100을 가리킨다는 의미가 정확히 전달됨. 'title'을 '제목'으로 옮긴 것은 관행(편)과 다소 다르나 의미 훼손은 아님."
+P014,Textual,보존,,,,,'따라서'로 앞 문장과의 연결을 유지하고 예시 구조도 동일함.
+P014,Context,보존,,,,,인용 방식을 예시로 설명하는 안내 기능이 유지됨.
+P014,Deontic,N/A,,,,,평가 문장은 의무·권한을 담지 않은 설명문임.
+P014,Register,보존,,,,,규정 안내문에 맞는 평서형 격식체를 유지함.
+P014,Cultural,보존,,,,,미국 CFR 인용 체계를 그대로 두어 한국 제도로 대체하지 않았고 이해에 문제 없음.
+P013,Semantic,훼손,minor,E002,drills,드릴,'드릴'을 음차하고 'work'를 '작동하다'로 직역해 '효과가 없다'는 의미가 어색하지만 핵심 내용은 전달된다.
+P013,Textual,보존,,,,,then/now의 대조와 세미콜론 병렬 구조가 유지된다.
+P013,Context,보존,,,,,앞선 주장을 단정적으로 뒷받침하는 발화 기능이 유지된다.
+P013,Deontic,N/A,,,,,의무나 허용을 나타내는 표현이 없다.
+P013,Register,훼손,minor,E001,Those drills didn’t work then; they don’t work now.,그 드릴은 그때 작동하지 않았다; 그들은 지금 작동하지 않습니다.,한 문장 안에서 평서체와 합쇼체가 섞여 교재 문체가 일관되지 않는다.
+P013,Cultural,N/A,,,,,문화·제도적 특수 요소가 이 문장에는 없다.
+P016,Semantic,훼손,minor,E001,son,아들아,'son'이 호칭인데 '아들아'로 직역되어 친아들이라는 의미가 덧붙을 수 있다.
+P016,Textual,보존,,,,,문장 구조와 감탄 강조가 유지되었다.
+P016,Context,보존,,,,,안경(망원경)을 건네며 섬을 알려 주는 발화 기능이 유지된다.
+P016,Deontic,N/A,,,,,이 문장에는 의무나 허용 표현이 없다.
+P016,Register,훼손,minor,E001,son,아들아,선장이 젊은이에게 쓰는 격의 없는 호칭이 '아들아'로 바뀌어 부자 관계처럼 들리고 어조가 달라진다.
+P016,Cultural,보존,,,,,이스터 섬은 고유명사로 적절히 옮겼고 다른 문화 요소는 없다.
+P021,Semantic,훼손,minor,E001,Sherman marched his troops,셔먼은 ... 행군하여,'his troops'가 빠져 행군 주체가 셔먼 개인처럼 읽히나 전체 사건은 이해 가능함.
+P021,Textual,훼손,minor,E002,while he went back to Savannah,사바나로 돌아갔다,'while'의 대조·동시 관계가 '-고'로 평탄해져 두 사건의 연결이 약해짐.
+P021,Context,보존,,,,,군사 이동을 서술하는 기능은 그대로 유지됨.
+P021,Deontic,N/A,,,,,의무나 허가 표현이 없는 서술문임.
+P021,Register,보존,,,,,회고록의 평서체 서술 어조가 유지됨.
+P021,Cultural,보존,,,,,지명이 음역되어 독자가 이해할 수 있고 문화적 쟁점은 없음.
+P023,Semantic,보존,,,,,그가 우정의 따뜻한 표현을 많이 하고 떠났다는 핵심 의미는 전달된다.
+P023,Textual,훼손,minor,E001,"He left me, then, with many cordial expressions of friendship.","그는 나에게, 그때, 우정의 많은 따뜻한 표현과 함께 떠났다.","'then'을 '그때'로 옮겨 앞 내용을 잇는 접속 기능이 약해지고, 쉼표 위치와 수식 구조가 직역투로 어색하다."
+P023,Context,보존,,,,,서술자가 상대와의 작별 장면을 전하는 서술 기능은 유지된다.
+P023,Deontic,N/A,,,,,의무·허용 등 당위 표현이 없다.
+P023,Register,보존,,,,,서술문 평서체(-았다)로 회고적 서술 어조가 유지되고 '따뜻한'으로 cordial의 태도도 전달된다.
+P023,Cultural,N/A,,,,,문화·제도적 함의가 특별히 없다.
+P022,Semantic,훼손,minor,E001,_Or shall I?_,_아니면 내가 해야 하나요?_,'내가 말할까?'라는 제안의 의미가 '내가 해야 하나?'라는 의무 질문으로 약간 바뀌었다.
+P022,Textual,보존,,,,,앞 질문과 '아니면'으로 연결되는 선택 구조와 이탤릭 강조가 유지되었다.
+P022,Context,훼손,major,E001,_Or shall I?_,_아니면 내가 해야 하나요?_,"원문은 상대에게 압박을 주는 암묵적 위협인데, 번역은 억울함이나 망설임을 묻는 질문처럼 읽혀 발화 기능이 달라졌다."
+P022,Deontic,훼손,minor,E001,_Or shall I?_,_아니면 내가 해야 하나요?_,화자의 의지·제안인 'shall I'가 의무를 뜻하는 '해야 하나요'로 바뀌어 당위의 방향이 달라졌다.
+P022,Register,보존,,,,,친구 사이의 편지에 어울리는 어조와 정중한 의문형 문체가 크게 어긋나지 않는다.
+P022,Cultural,N/A,,,,,이 문장에는 문화 특수적 요소가 없다.
+P025,Semantic,보존,,,,,언론 분리 전략과 가정에서 원치 않는 언론 관심을 받을 수 있는 가족 지원이라는 내용이 모두 정확히 옮겨졌습니다.
+P025,Textual,보존,,,,,'여기에는 ~이 포함됩니다'와 두 항목의 병렬 구조가 원문과 같게 유지되었습니다.
+P025,Context,보존,,,,,앞 문장을 이어받아 포함 내용을 설명하는 안내문의 기능이 유지되었습니다.
+P025,Deontic,N/A,,,,,"'may'는 가능성(원치 않는 관심을 받을 수 있음)을 나타내며 의무·허가의 뜻이 아니고, 이 문장에는 달리 규범 표현이 없습니다."
+P025,Register,보존,,,,,'-합니다' 체의 격식 있는 안내문 어조가 적절합니다.
+P025,Cultural,N/A,,,,,이 문장에는 문화나 제도에 특유한 요소가 없어 따로 평가할 것이 없습니다.
+P029,Semantic,훼손,minor,E001,week after week,주마다,"핵심 사실(서명은 늘었으나 행동은 개선 안 됨, 교사 보고)은 전달되나 '주마다'로 반복·지속의 뉘앙스가 약해졌다."
+P029,Textual,보존,,,,,양보 구조와 '불행하게도' 강조 및 정보 순서가 유지되었다.
+P029,Context,보존,,,,,사례 속 진행 상황을 서술하는 기능이 유지된다.
+P029,Deontic,N/A,,,,,의무·허가 표현이 없다.
+P029,Register,보존,,,,,서술체 '-했습니다'로 안내문의 중립적 격식이 유지된다.
+P029,Cultural,N/A,,,,,문화·제도 특수 요소가 없다.
+P024,Semantic,훼손,major,"E001, E002, E003","E001: along with the TD and the Scene Designer, the schedule, color palette, and techniques / E002: charge artist / E003: Scene Designer","E001: TD와 장면 디자이너, 일정, 색상 팔레트, 그리고 풍경 페인팅에 필요한 기술과 함께 / E002: 충전 아티스트 / E003: 장면 디자이너","일정·팔레트·기술이 만들어지는 대상이라는 의미가 흐려지고, 직무 용어('충전 아티스트', '장면 디자이너')도 부정확하다."
+P024,Textual,훼손,major,"E001, E004","E001: along with the TD and the Scene Designer, the schedule, color palette, and techniques / E004: It is the charge artist who","E001: TD와 장면 디자이너, 일정, 색상 팔레트, 그리고 풍경 페인팅에 필요한 기술과 함께 / E004: 그것은 ... 충전 아티스트입니다","목적어와 'along with' 구성 요소가 뒤섞여 문장 구조가 무너지고, 분열문의 강조도 제대로 살리지 못했다."
+P024,Context,보존,,,,,교재에서 역할을 설명하는 기능 자체는 유지된다.
+P024,Deontic,N/A,,,,,의무·허용 표현이 없다.
+P024,Register,훼손,minor,E004,It is the charge artist who,그것은 ... 충전 아티스트입니다,주변 문장은 '-다'체인데 이 문장만 '-입니다'로 쓰여 교재 문체가 일관되지 않는다.
+P024,Cultural,훼손,minor,"E002, E003",E002: charge artist / E003: Scene Designer,E002: 충전 아티스트 / E003: 장면 디자이너,무대 제작 분야의 직무 명칭이 현지 관행에 맞게 옮겨지지 않아 독자가 직무를 알아보기 어렵다.
+P026,Semantic,훼손,minor,E001,I think you have time to fill me in on some of the details.,나에게 몇 가지 세부사항을 알려줄 시간이 있다고 생각한다.,'you have time'의 주어 '당신'이 누락되어 시간이 있는 주체가 모호해졌으나 핵심 내용은 대체로 전달된다.
+P026,Textual,보존,,,,,한 문장으로 정보 구조와 연결이 유지되었다.
+P026,Context,훼손,minor,E001,I think you have time to fill me in on some of the details.,나에게 몇 가지 세부사항을 알려줄 시간이 있다고 생각한다.,상대에게 설명을 부탁하는 완곡한 요청 기능이 주어 누락으로 단순한 자기 생각 서술처럼 약해졌다.
+P026,Deontic,N/A,,,,,의무·허가를 다루는 규범적 내용이 없다.
+P026,Register,훼손,minor,E002,I think you have time to fill me in on some of the details.,생각한다,장군의 말투가 '-ㄴ다' 문어체로 되어 앞뒤 발화의 어체와 맞지 않고 부하에게 하는 대화 말투가 살지 않았다.
+P026,Cultural,N/A,,,,,문화·제도 관련 요소가 없다.
+P031,Semantic,훼손,major,"E001, E002",E001: let alone support / E002: prepared to comprehend,E001: 대응 구간 없음(누락) / E002: 이해하기 위해 항상 준비되어 있지는 않습니다,지원(support)이라는 핵심 내용이 누락되었고 준비의 대상 표현도 어색하게 바뀌었다.
+P031,Textual,훼손,minor,E001,let alone support,대응 구간 없음(누락),let alone가 만드는 이해에서 지원으로의 점층 강조 구조가 사라졌다.
+P031,Context,보존,,,,,학교의 준비 부족을 지적하는 안내문의 문제 제기 기능은 유지된다.
+P031,Deontic,N/A,,,,,의무나 허용 관련 내용이 없다.
+P031,Register,보존,,,,,격식 있는 안내문체(-ㅂ니다)가 유지된다.
+P031,Cultural,N/A,,,,,문화·제도 특수 요소가 없다.
+P034,Semantic,보존,,,,,"8온스, 50~80칼로리, 14~17그램 탄수화물, 대부분 단당류라는 수치와 내용이 모두 정확히 옮겨졌다."
+P034,Textual,보존,,,,,한 문장 안에서 열거와 부연('대부분 단당류') 구조가 자연스럽게 유지되었다.
+P034,Context,보존,,,,,교재의 설명문이라는 서술 기능이 그대로 유지되었다.
+P034,Deontic,N/A,,,,,의무나 허용 표현이 없는 사실 서술문이다.
+P034,Register,보존,,,,,교재에 맞는 평서 '-이다' 문어체가 쓰였고 원문의 중립적 태도와 일치한다.
+P034,Cultural,N/A,,,,,문화나 제도에 특화된 요소가 없다. 온스 같은 단위는 그대로 옮겨도 이해에 지장이 없다.
+P035,Semantic,보존,,,,,"비디오 내용, 대상 국가, 크리스마스 축하 방식 등 핵심 의미가 모두 유지됨."
+P035,Textual,보존,,,,,관계절 구조와 괄호 표기가 자연스럽게 옮겨져 정보 연결이 유지됨.
+P035,Context,보존,,,,,비디오를 보고 들으라는 학습 활동 지시 기능이 유지됨.
+P035,Deontic,보존,,,,,명령형 지시가 '-하세요'로 동일한 의무 강도로 전달됨.
+P035,Register,보존,,,,,교재의 지시문에 맞는 정중한 해요체 명령형을 사용함.
+P035,Cultural,보존,,,,,Navidad를 원어로 병기해 학습 맥락과 문화 정보가 유지됨.
+P032,Semantic,훼손,major,"E001, E002",E001: postsecondary vocational institution / E002: nondegree recognized credential,E001: 중등 직업 교육 기관 / E002: 학위가 인정되지 않는 자격증,"postsecondary를 '중등'으로 잘못 옮겨 기관 유형이 바뀌었고, nondegree recognized credential의 의미도 왜곡됨."
+P032,Textual,훼손,minor,E003,programs that are less than an academic year in length and lead to a certificate or other nondegree recognized credential,학년 길이보다 짧은 프로그램을 제공하고 인증서 또는 기타 학위가 인정되지 않는 자격증을 제공함으로써,프로그램이 자격으로 이어진다는 연결이 '제공하고…제공함'의 병렬로 바뀌어 정보 구조가 흐트러짐.
+P032,Context,보존,,,,,기관 자격 요건을 설명하는 안내 기능은 유지됨.
+P032,Deontic,보존,,,,,'it is possible ... can qualify'는 가능성 표현이며 '갖출 수도 있습니다'로 가능성이 유지됨.
+P032,Register,보존,,,,,격식 있는 안내문체 '-습니다'가 적절히 유지됨.
+P032,Cultural,훼손,major,E001,postsecondary vocational institution,중등 직업 교육 기관,미국 제도의 기관 유형인 postsecondary vocational institution을 '중등 직업 교육 기관'으로 옮겨 제도적 의미가 잘못 전달됨.
+P036,Semantic,훼손,minor,"E001, E002","E001: fortnight / E002: it was difficult to realize he was not now living some wild, improbable dream",E001: 15일 / E002: 그는 이제 어떤 야만적이고 믿을 수 없는 꿈을 꾸고 있지 않다는 것을 깨닫기 어려웠다,fortnight를 15일로 바꾸고 wild를 '야만적'으로 옮겨 세부 의미가 어긋났으나 전체 취지는 유지됨.
+P036,Textual,보존,,,,,두 절의 연결과 정보 순서가 원문과 같게 유지됨.
+P036,Context,보존,,,,,인물의 내면 상태를 묘사하는 서술 기능은 유지됨.
+P036,Deontic,N/A,,,,,의무나 허용을 나타내는 내용이 없음.
+P036,Register,보존,,,,,서술체 문어 어조가 유지됨.
+P036,Cultural,N/A,,,,,문화·제도 관련 요소가 없음.
+P038,Semantic,보존,,,,,"인물, 상자 번호, 300만 개 일자리, 전년도, 원수치 사용 등 핵심 내용이 모두 유지되었다."
+P038,Textual,보존,,,,,"'also'가 '도'로, 대시 뒤 보충 설명이 관형절로 자연스럽게 통합되어 정보 연결이 유지된다."
+P038,Context,보존,,,,,교재에서 예시를 제시하여 설명하는 기능이 그대로 유지된다.
+P038,Deontic,N/A,,,,,의무나 허용 표현이 없는 서술 문장이다.
+P038,Register,보존,,,,,교재 본문에 맞는 '-했습니다' 격식체를 사용했다.
+P038,Cultural,N/A,,,,,문화·제도적으로 특별히 평가할 요소가 없다.
+P039,Semantic,훼손,major,"E001, E002",E001: that must be stopped / E002: the effusion,E001: 막아야 할 액체 축적에 기여하는 지속적인 출혈 / E002: 액체 축적,"멈춰야 할 대상이 출혈이 아니라 액체 축적으로 읽혀 핵심 의미가 바뀌고, effusion도 일반어로 바뀌었습니다."
+P039,Textual,훼손,minor,E001,that must be stopped,막아야 할 액체 축적에 기여하는 지속적인 출혈,관계절 수식 구조가 바뀌어 'bleeding ... must be stopped'의 결속이 흐려졌습니다.
+P039,Context,보존,,,,,교재의 설명 기능은 유지되었습니다.
+P039,Deontic,훼손,major,E001,that must be stopped,막아야 할 액체 축적에 기여하는 지속적인 출혈,'must be stopped'의 의무 대상이 출혈에서 액체 축적으로 옮겨져 무엇을 막아야 하는지가 달라졌습니다.
+P039,Register,보존,,,,,교재의 평서 설명체 격식이 유지되었습니다.
+P039,Cultural,N/A,,,,,문화·제도 특수 요소가 없습니다.
+P040,Semantic,훼손,critical,"E001, E003",E001: guttered / E003: Whispered and guttered at his ear,E001: 그의 귀에 구멍 / E003: 속삭이고 그의 귀에 구멍,'guttered'를 '구멍'으로 오역해 랜턴 불꽃이 가물거린다는 핵심 의미가 사라졌다.
+P040,Textual,훼손,major,E002,"The lantern like a secret fear, Whispered and guttered at his ear.","비밀스러운 두려움처럼 랜턴, 속삭이고 그의 귀에 구멍.",직유와 두 동사의 병렬 구조가 깨지고 문장이 미완결로 끝났다.
+P040,Context,훼손,major,E003,Whispered and guttered at his ear,속삭이고 그의 귀에 구멍,불안감을 불러일으키는 시적 묘사의 기능이 이해 불가능한 표현 때문에 전달되지 않는다.
+P040,Deontic,N/A,,,,,서술적 시구라 당위나 허용을 다루는 내용이 없다.
+P040,Register,훼손,minor,E002,"The lantern like a secret fear, Whispered and guttered at his ear.","비밀스러운 두려움처럼 랜턴, 속삭이고 그의 귀에 구멍.",문학적 서술 어조가 어색한 번역투 나열로 바뀌어 시의 격조가 떨어진다.
+P040,Cultural,N/A,,,,,문화나 제도에 관련된 요소가 없다.
+P042,Semantic,훼손,minor,"E001, E002",E001: continue to dominate / E002: prospective students,E001: 지배하고 있습니다 / E002: 잠재 학생들,'continue'의 지속 의미가 빠지고 'prospective students'가 어색한 직역이지만 핵심 내용은 전달됨.
+P042,Textual,보존,,,,,단일 문장 구조와 정보 연결이 유지됨.
+P042,Context,보존,,,,,현황을 설명하는 도입 기능이 유지됨.
+P042,Deontic,N/A,,,,,의무·허용 표현이 없음.
+P042,Register,보존,,,,,교재 본문에 맞는 평서 격식체 '-습니다'를 사용함.
+P042,Cultural,N/A,,,,,문화·제도 특수 요소가 없음.
+P043,Semantic,보존,,,,,누가 폴란드 출신의 작은 사람을 잡았는지 묻는 명제 내용은 그대로 전달되었다.
+P043,Textual,보존,,,,,단일 의문문 구조와 'yet'의 '아직'이 유지되어 정보 연결과 강조에 변화가 없다.
+P043,Context,보존,,,,,체포 여부를 묻는 질문이라는 발화 기능이 유지되었다.
+P043,Deontic,N/A,,,,,의무나 허용을 나타내는 표현이 없다.
+P043,Register,훼손,major,E001,runt Polack,꼬마 폴란드인,화자의 경멸적이고 거친 태도를 담은 'runt Polack'이 '꼬마 폴란드인'이라는 순하고 중립적인 표현이 되어 태도가 약화되었다.
+P043,Cultural,훼손,minor,E001,runt Polack,꼬마 폴란드인,'Polack'이 가진 민족 비하 멸칭의 성격이 사라져 당시의 민족 편견이 독자에게 전달되지 않는다.
+P045,Semantic,훼손,minor,E001,the waste side of a marked line,표시된 선의 폐기물 쪽으로,'waste side'를 '폐기물 쪽'으로 직역해 버려질 재료 쪽이라는 의미가 덜 분명하지만 핵심 내용은 전달된다.
+P045,Textual,보존,,,,,"목적 구문과 주절의 연결, 강조 부사 '항상'이 유지되었다."
+P045,Context,보존,,,,,교재에서 절단 요령을 설명하는 기능이 그대로 유지되었다.
+P045,Deontic,보존,,,,,'should always'가 '항상 ~해야 합니다'로 같은 강도의 권고로 옮겨졌다.
+P045,Register,보존,,,,,교재에 맞는 합니다체 격식 문체가 유지되었다.
+P045,Cultural,N/A,,,,,문화·제도적 요소가 없다.
+P048,Semantic,보존,,,,,"날짜, 장소, 사건, 시간 관계가 모두 정확히 전달되었다."
+P048,Textual,보존,,,,,어순은 바뀌었지만 정보 연결과 시간 관계 구조가 자연스럽게 유지되었다.
+P048,Context,보존,,,,,사실을 서술하는 교재 설명 기능이 그대로 유지되었다.
+P048,Deontic,N/A,,,,,의무나 허용 표현이 없는 사실 서술문이다.
+P048,Register,보존,,,,,교재의 객관적 서술체 '-하였다'가 적절하게 유지되었다.
+P048,Cultural,보존,,,,,미국 의회 합동 회의와 진주만 공격은 한국어 독자가 이해할 수 있게 번역되었다.
+P046,Semantic,보존,,,,,'우월한 태도'와 '클라이드가 생각했다'는 핵심 의미가 그대로 전달된다.
+P046,Textual,훼손,minor,E001,"What a superior attitude, thought Clyde!",클라이드는 이것이 얼마나 우월한 태도인가 생각했다.,감탄문의 강조와 삽입된 'thought Clyde' 구조가 평서문으로 평평해져 감탄의 강세가 약해졌다.
+P046,Context,보존,,,,,클라이드가 상대의 태도에 반응하는 내적 발화라는 기능은 유지된다.
+P046,Deontic,N/A,,,,,당위나 허용 표현이 없다.
+P046,Register,보존,,,,,서술문체의 격식과 인물의 태도에 큰 변화가 없다.
+P046,Cultural,N/A,,,,,문화·제도 특유의 요소가 없다.
+P049,Semantic,보존,,,,,눈빛이 전하는 내용(이 배가 생각만큼 좋지 않다)이 핵심 의미 면에서 전달됨.
+P049,Textual,훼손,minor,E001,"It said plainly, _this should show you that this ship isn't as good as you think it is!_",그것은 분명히 말했다. _이것은 당신이 생각하는 것만큼 이 배가 좋지 않다는 것을 보여줄 것이다!_,'그것'의 선행어(눈빛)가 문장 분할로 흐려져 연결이 다소 약해짐.
+P049,Context,보존,,,,,눈빛으로 무언의 도발·지적을 하는 발화 기능은 유지됨.
+P049,Deontic,N/A,,,,,'should'는 추론의 의미이며 당위 표현이 아님.
+P049,Register,훼손,minor,E001,"It said plainly, _this should show you that this ship isn't as good as you think it is!_",그것은 분명히 말했다. _이것은 당신이 생각하는 것만큼 이 배가 좋지 않다는 것을 보여줄 것이다!_,스킵이 불에게 속으로 던지는 말로서 '당신'과 평서체가 다소 딱딱하고 거리감이 있음.
+P049,Cultural,N/A,,,,,문화·제도적 요소가 없음.
+P050,Semantic,훼손,minor,E002,local resources,로컬 리소스,'local resources'를 '로컬 리소스'로 음차해 지역에서 이용 가능한 자료라는 의미가 흐려졌으나 핵심 내용은 전달됨.
+P050,Textual,보존,,,,,단일 문장으로 정보 구조와 연결이 유지됨.
+P050,Context,훼손,major,E001,Use local resources to view structures of the reproductive system.,로컬 리소스를 사용하여 생식계의 구조를 볼 수 있습니다.,학습 활동을 지시하는 발화 기능이 가능성을 서술하는 평서문으로 바뀌어 지시 기능이 약화됨.
+P050,Deontic,훼손,major,E001,Use local resources to view structures of the reproductive system.,로컬 리소스를 사용하여 생식계의 구조를 볼 수 있습니다.,의무적 지시가 '~할 수 있습니다'라는 허용·가능으로 바뀌어 학습 행동 조건이 달라짐.
+P050,Register,보존,,,,,합쇼체로 교재에 무난한 격식을 유지함.
+P050,Cultural,N/A,,,,,문화·제도적으로 특별히 평가할 요소가 없음.
+P052,Semantic,훼손,major,"E001, E002",E001: Think for a minute you can put that kind of a game over on me? / E002: put that kind of a game over on me,E001: 나한테 그런 게임을 걸 수 있다고 생각해봐. / E002: 그런 게임을 걸 수 있다고,‘나를 속일 수 있다고 생각하느냐’는 뜻이 ‘게임을 걸 수 있다고 생각해봐’로 바뀌어 핵심 의미가 왜곡되었다.
+P052,Textual,훼손,minor,E001,Think for a minute you can put that kind of a game over on me?,나한테 그런 게임을 걸 수 있다고 생각해봐.,앞 문장의 분노 어조와 이어지는 반문 구조가 끊겨 강조 흐름이 약해졌다.
+P052,Context,훼손,major,E001,Think for a minute you can put that kind of a game over on me?,나한테 그런 게임을 걸 수 있다고 생각해봐.,상대를 질책하는 반문 발화가 단순한 지시처럼 읽혀 발화 기능이 달라졌다.
+P052,Deontic,N/A,,,,,‘can’은 가능성·능력의 뜻이며 규범적 의미가 없다.
+P052,Register,훼손,minor,E001,Think for a minute you can put that kind of a game over on me?,나한테 그런 게임을 걸 수 있다고 생각해봐.,화자가 격분하여 윽박지르는 태도가 평이한 명령 어조로 약화되었다.
+P052,Cultural,훼손,minor,E002,put that kind of a game over on me,그런 게임을 걸 수 있다고,‘put a game over on’이라는 영어 관용 표현을 직역해 한국어 독자가 ‘속임수’의 함의를 파악하기 어렵다.
+P054,Semantic,훼손,minor,E001,9 hours of regular coursework,9시간의 정규과목,"'hours'를 학점 개념 없이 '시간'으로 옮겨 약간 부정확하지만 핵심 내용(정규 9, 보충 제외)은 전달된다."
+P054,Textual,보존,,,,,"'마찬가지로', '~했지만'으로 대조와 연결 구조가 유지된다."
+P054,Context,보존,,,,,예시를 설명하는 안내 기능이 그대로 유지된다.
+P054,Deontic,보존,,,,,'제외된다'는 계산 규칙이 원문과 같은 의미로 전달된다.
+P054,Register,보존,,,,,안내문에 맞는 평서 존대체 '-ㅂ니다'가 유지된다.
+P054,Cultural,보존,,,,,미국 제도 용어를 한국 제도로 바꾸지 않았고 문화적 왜곡이 없다.
+P053,Semantic,훼손,major,"E001, E002",E001: I must not cry / E002: And yet mine eyes contain Such floods of scalding tears That they will never dry,E001: 나는 울지 않아도 됩니다 / E002: 그러나 나의 눈에는 절대 말라지지 않을 뜨거운 눈물이 흐르고 있습니다,"금지('must not')가 불필요함으로 뒤집혔고, 눈물의 양과 상태 표현도 약해졌다."
+P053,Textual,훼손,minor,E003,"I must not cry, And yet","나는 울지 않아도 됩니다, 그러나",'울면 안 된다 / 그러나 눈물이 넘친다'는 대조 연결이 어긋나 논리 흐름이 약해졌다.
+P053,Context,훼손,minor,E001,I must not cry,나는 울지 않아도 됩니다,"간호사가 울음을 억누르려 애쓰며 기도하는 기능이 약해졌고, 자제 대신 단순한 진술처럼 읽힌다."
+P053,Deontic,훼손,major,E001,I must not cry,나는 울지 않아도 됩니다,'must not'의 금지 의무가 '않아도 됩니다'(불필요/허용)로 바뀌어 당위의 방향이 달라졌다.
+P053,Register,보존,,,,,주님께 드리는 기도의 경건한 합쇼체가 유지되었다.
+P053,Cultural,보존,,,,,"기독교 기도 호칭 'O Lord'가 '오, 주님'으로 적절히 옮겨졌다."
+P056,Semantic,훼손,major,"E001, E002, E003","E001: Each student awarded a scholarship / E002: a stipend of $1,500 / E003: academic year of study","E001: 장학금을 수여하는 각 학생은 / E002: $1,500의 장학금 / E003: 장학금이 수여되는 연도",'수여하는'으로 행위 주체가 뒤바뀌고 stipend가 장학금으로 합쳐졌으며 학사연도가 단순 연도로 축약됨.
+P056,Textual,훼손,minor,E002,"a stipend of $1,500","$1,500의 장학금",scholarship과 stipend의 구분이 사라져 '장학금…장학금'으로 반복되고 정보 관계가 흐려짐.
+P056,Context,보존,,,,,지급 조건을 알리는 안내 기능은 유지됨.
+P056,Deontic,훼손,major,E001,Each student awarded a scholarship,장학금을 수여하는 각 학생은,누가 장학금을 받는 자격이 있는지가 '수여하는 학생'으로 바뀌어 수혜 주체가 왜곡됨.
+P056,Register,보존,,,,,'-ㅂ니다' 체의 안내문 격식이 적절함.
+P056,Cultural,보존,,,,,문화·제도 특유의 요소가 크게 손상되지 않았고 달러 표기도 유지됨.
+P057,Semantic,훼손,major,E001,state funding mandates that colleges and universities create threat assessment teams,주 정부가 대학에 위협 평가 팀을 구성하도록 지원한다,'mandates'(의무화)가 '지원한다'로 바뀌어 주 정부가 의무를 부과한다는 핵심 명제가 지원 제공으로 달라졌다.
+P057,Textual,보존,,,,,한 문장 구조와 'In some cases'의 한정 기능이 유지되어 정보 연결과 강조에 변화가 없다.
+P057,Context,보존,,,,,제도 현황을 알리는 안내문의 서술 기능은 유지된다.
+P057,Deontic,훼손,major,E001,state funding mandates that colleges and universities create threat assessment teams,주 정부가 대학에 위협 평가 팀을 구성하도록 지원한다,대학에 팀 구성을 의무화하는 규범이 '지원'이라는 호의적 서술로 바뀌어 의무가 사라졌다.
+P057,Register,보존,,,,,격식 있는 안내문체가 유지된다.
+P057,Cultural,훼손,minor,E001,state funding mandates that colleges and universities create threat assessment teams,주 정부가 대학에 위협 평가 팀을 구성하도록 지원한다,주 재정 지원과 연계된 의무화라는 미국 제도 맥락이 단순 지원으로 읽혀 제도 이해가 다소 흐려진다.
+P059,Semantic,보존,,,,,긍정 응답과 프란시스가 대답했다는 내용이 그대로 옮겨졌다.
+P059,Textual,보존,,,,,대화문과 서술 태그의 구조가 유지되었고 뒤 문장과의 연결도 자연스럽다.
+P059,Context,보존,,,,,질문에 대한 긍정 응답이라는 발화 기능이 유지된다.
+P059,Deontic,N/A,,,,,의무나 허용 표현이 없다.
+P059,Register,보존,,,,,'그렇습니다'는 다소 격식 있으나 정황상 공식적 대답으로 자연스럽고 관계를 왜곡하지 않는다.
+P059,Cultural,N/A,,,,,문화·제도 관련 요소가 없다.

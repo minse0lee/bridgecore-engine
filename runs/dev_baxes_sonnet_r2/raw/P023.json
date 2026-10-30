@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgYcJAu4njs9gRWq3HHyV",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P023\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"He left me, then, with many cordial expressions of friendship.\",\"tgt_span\":\"그는 나에게, 그때, 우정의 많은 따뜻한 표현과 함께 떠났다.\",\"description\":\"축자역으로 어색함: 'left me'가 '나에게 떠났다'로 옮겨져 문법적으로 부자연스럽고, 'then'이 '그때'(시점)로 옮겨져 '그러고 나서/그리하여'의 추론·연결 기능이 약해짐. 'many cordial expressions of friendship'도 '우정의 많은 따뜻한 표현'으로 어색함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"그가 우정의 따뜻한 표현을 많이 하고 떠났다는 핵심 의미는 전달된다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"'then'을 '그때'로 옮겨 앞 내용을 잇는 접속 기능이 약해지고, 쉼표 위치와 수식 구조가 직역투로 어색하다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자가 상대와의 작별 장면을 전하는 서술 기능은 유지된다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허용 등 당위 표현이 없다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문 평서체(-았다)로 회고적 서술 어조가 유지되고 '따뜻한'으로 cordial의 태도도 전달된다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도적 함의가 특별히 없다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 3260,
+    "inference_geo": "global",
+    "input_tokens": 495,
+    "output_tokens": 708,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

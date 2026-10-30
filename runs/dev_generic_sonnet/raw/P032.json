@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgYcEHyMxYgxKHK6kEns7",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"postsecondary vocational institution\",\"tgt_span\":\"중등 직업 교육 기관\",\"description\":\"'postsecondary'는 고등학교 이후(중등후) 교육을 뜻하는데 '중등'(secondary)으로 번역해 의미가 반대로 바뀌었다. '중등 후 직업 교육 기관'이어야 한다.\",\"severity\":\"major\"},{\"src_span\":\"nondegree recognized credential\",\"tgt_span\":\"학위가 인정되지 않는 자격증\",\"description\":\"'nondegree recognized credential'은 '학위가 아닌 인정된 자격'인데, '학위가 인정되지 않는 자격증'으로 번역해 인정 대상이 잘못 연결되었다.\",\"severity\":\"major\"},{\"src_span\":\"programs that are less than an academic year in length\",\"tgt_span\":\"학년 길이보다 짧은 프로그램\",\"description\":\"'academic year'를 '학년'으로 옮겨 어색하며, 한 학사연도보다 짧은 프로그램이라는 규정 용어가 모호해졌다.\",\"severity\":\"minor\"},{\"src_span\":\"lead to a certificate or other nondegree recognized credential\",\"tgt_span\":\"인증서 또는 기타 학위가 인정되지 않는 자격증을 제공함으로써\",\"description\":\"'lead to'(수료 시 이어지는)를 '제공'으로 바꾸어 프로그램과 자격의 관계가 달라졌다. 또한 'certificate'를 '인증서'로 옮겨 이수증/수료증 의미가 흐려졌다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 820,
+    "output_tokens": 556,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

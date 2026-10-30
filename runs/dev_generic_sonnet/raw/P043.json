@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgYcEkmfiygMs4B3ALksV",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"the runt Polack\",\"tgt_span\":\"꼬마 폴란드인\",\"description\":\"\\\"runt\\\"는 '왜소한 놈, 못난 꼬마'라는 경멸적 어감이고 \\\"Polack\\\"은 폴란드인을 비하하는 말이다. 번역은 '꼬마 폴란드인'으로 중립화해 화자의 멸시와 인종 비하 뉘앙스가 사라졌다.\",\"severity\":\"major\"},{\"src_span\":\"Have they caught the runt Polack yet?\",\"tgt_span\":\"그들이 아직 꼬마 폴란드인을 잡았나?\",\"description\":\"\\\"yet\\\"의 완료 의미('아직 ~했느냐')를 살리지 못한 어색한 표현이다. '아직 잡았나?'는 부자연스럽다. '벌써/아직 잡았어?'와 같이 고쳐야 한다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 416,
+    "output_tokens": 327,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

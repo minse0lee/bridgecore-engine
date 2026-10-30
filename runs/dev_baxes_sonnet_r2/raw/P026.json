@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgYcJc8NQ1FW4UYUdX7Pd",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P026\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I think you have time to fill me in on some of the details.\",\"tgt_span\":\"나에게 몇 가지 세부사항을 알려줄 시간이 있다고 생각한다.\",\"description\":\"원문은 장군이 상대에게 '당신은 시간이 있을 것이다'라며 설명을 요청하는 완곡한 간접 요구인데, 번역은 주어 'you'가 빠져 누가 시간이 있는지 불명확하고 요청의 기능이 약해졌다.\"},{\"id\":\"E002\",\"src_span\":\"I think you have time to fill me in on some of the details.\",\"tgt_span\":\"생각한다\",\"description\":\"장군의 대화체 발화인데 문어체 평서 '-ㄴ다'로 옮겨 앞 문장의 반말('-었어')과 어체가 불일치하고 어색하다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"'you have time'의 주어 '당신'이 누락되어 시간이 있는 주체가 모호해졌으나 핵심 내용은 대체로 전달된다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"한 문장으로 정보 구조와 연결이 유지되었다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"상대에게 설명을 부탁하는 완곡한 요청 기능이 주어 누락으로 단순한 자기 생각 서술처럼 약해졌다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가를 다루는 규범적 내용이 없다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"장군의 말투가 '-ㄴ다' 문어체로 되어 앞뒤 발화의 어체와 맞지 않고 부하에게 하는 대화 말투가 살지 않았다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 관련 요소가 없다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 3260,
+    "inference_geo": "global",
+    "input_tokens": 661,
+    "output_tokens": 800,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

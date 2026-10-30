@@ -64,6 +64,14 @@ python -m bridgecore.cli run --items-file data/book.jsonl --live --batch --scree
 
 확인용 20문항은 `--split holdout --i-know-holdout`일 때만 실행된다 (마지막 1회).
 
+### 가이드라인 효과 비교 (같은 모델, 프롬프트만 바꿈)
+
+```bash
+python -m bridgecore.cli generic --split dev --live --name dev_generic_sonnet          # 일반 "오류 찾기" 프롬프트
+python -m bridgecore.cli run --split dev --version b_axes --live --name dev_baxes_sonnet # 축 이름만 준 프롬프트
+python -m bridgecore.cli effect                                                          # → reports/guideline_effect_dev.md
+```
+
 ### PoC 보고서 (정답 없이 엔진 결과를 읽는 용도)
 
 ```bash
@@ -90,6 +98,8 @@ python -m bridgecore.cli poc-tally reports/<실행>_poc_review.xlsx   # 검토 �
 | `bridgecore/prompt.py` | 시스템 프롬프트(캐시) + 문항 메시지 + 구조화 출력·effort·사고 설정 |
 | `bridgecore/runner.py` | 드라이런/동기 실행/Batch 제출·수집, 2단계 선별·병합, 재시작 시 실패분만 재실행 |
 | `bridgecore/compare.py` | 선별 실행이 기준 실행·사람 정답 대비 놓치는 훼손 비교 |
+| `bridgecore/baseline.py`, `guideline_effect.py` | 비교 기준선(일반 프롬프트)과 가이드라인 효과 비교(문장·축 단위, 쌍 부트스트랩) |
+| `prompts/b_axes/system.md` | 비교용: 6축 이름·판정값만 있는 프롬프트 |
 | `bridgecore/poc_report.py` | 정답 없는 PoC 보고서(HTML)·검토용 엑셀 생성, 검토 결과 집계 |
 | `prompts/v0/system.md` | 프롬프트 v0 (가이드라인 2026-10-07판 요약 + EX01·EX02) |
 | `prompts/v0/screen_addendum.md` | 1차 선별 모드 추가문 (놓치지 않게 넉넉히 표시) |

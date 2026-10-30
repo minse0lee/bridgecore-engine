@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgYcLPY9JBcdQMTTLsJZi",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P053\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I must not cry\",\"tgt_span\":\"나는 울지 않아도 됩니다\",\"description\":\"'must not'(울어서는 안 된다는 자기 금지)를 '울지 않아도 됩니다'(울지 않아도 된다는 허용)로 번역해 의미와 당위 방향을 뒤집음.\"},{\"id\":\"E002\",\"src_span\":\"And yet mine eyes contain Such floods of scalding tears That they will never dry\",\"tgt_span\":\"그러나 나의 눈에는 절대 말라지지 않을 뜨거운 눈물이 흐르고 있습니다\",\"description\":\"'floods of tears'(홍수 같은 눈물)의 양과 'contain'(눈에 가득 고여 있음)이 약화되어 '흐르고 있다'로 바뀜. 'such...that' 구조도 흐려짐. 부차적 오류.\"},{\"id\":\"E003\",\"src_span\":\"I must not cry, And yet\",\"tgt_span\":\"나는 울지 않아도 됩니다, 그러나\",\"description\":\"'울면 안 된다, 그러나 눈물이 넘친다'는 대조 구조가 '울지 않아도 된다, 그러나 눈물이 흐른다'로 바뀌어 논리적 대조가 무너짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"금지('must not')가 불필요함으로 뒤집혔고, 눈물의 양과 상태 표현도 약해졌다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"'울면 안 된다 / 그러나 눈물이 넘친다'는 대조 연결이 어긋나 논리 흐름이 약해졌다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"간호사가 울음을 억누르려 애쓰며 기도하는 기능이 약해졌고, 자제 대신 단순한 진술처럼 읽힌다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"'must not'의 금지 의무가 '않아도 됩니다'(불필요/허용)로 바뀌어 당위의 방향이 달라졌다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"주님께 드리는 기도의 경건한 합쇼체가 유지되었다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기독교 기도 호칭 'O Lord'가 '오, 주님'으로 적절히 옮겨졌다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 3260,
+    "inference_geo": "global",
+    "input_tokens": 835,
+    "output_tokens": 986,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

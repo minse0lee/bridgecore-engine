@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgYcJafa6CodRQJ1Xhz81",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"guttered at his ear\",\"tgt_span\":\"그의 귀에 구멍\",\"description\":\"'guttered'(불꽃이 가물거리다/흔들리며 꺼질 듯하다)를 '구멍'으로 오역했다. 명사처럼 처리해 의미가 전혀 다르고, 랜턴 불꽃의 묘사가 사라졌다.\",\"severity\":\"critical\"},{\"src_span\":\"The lantern like a secret fear, Whispered and guttered\",\"tgt_span\":\"비밀스러운 두려움처럼 랜턴, 속삭이고\",\"description\":\"문장 구조가 깨졌다. 'The lantern'이 주어인데 조사가 없고 어순이 어색하며, 'whispered'가 종결되지 않아 문장이 성립하지 않는다. 직유 구조도 불분명하다.\",\"severity\":\"major\"},{\"src_span\":\"Whispered and guttered\",\"tgt_span\":\"속삭이고\",\"description\":\"두 동사 중 'guttered'에 해당하는 동사가 번역에서 빠졌다. 병렬 구조와 시적 이미지가 손실되었다.\",\"severity\":\"major\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 429,
+    "output_tokens": 404,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgYcGU39Mb8UKewptTorr",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P003\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"문제 설명과 수정 제안이라는 두 과제가 원문과 같은 의미로 번역되었다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"문장 구조와 'and'로 연결된 두 동작의 순서가 자연스러운 한국어 어순으로 유지되었다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학습자에게 지시하는 발화 기능(과제 수행 지시)이 그대로 유지되었다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"각 항목에 대해 문제를 설명하고 수정을 제안해야 한다는 의무 조건이 동일하다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-하십시오' 체의 공손한 지시 어조가 원문의 교육 지시 태도와 맞는다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도적 의미가 개입하지 않는 일반 학습 지시 문장이다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-haiku-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 3260
+    },
+    "cache_creation_input_tokens": 3260,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 553,
+    "output_tokens": 489,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

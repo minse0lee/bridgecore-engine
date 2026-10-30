@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgYcLsvhADARJ1hpqJ2gc",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P059\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"\\\"Yes,\\\"\",\"tgt_span\":\"\\\"그렇습니다.\\\"\",\"description\":\"Frances의 'Yes'를 격식체 '그렇습니다'로 옮겼다. 원문은 중립적 긍정이며, 17세기 영국 법정·심문 맥락에서 높임 응답으로 읽힐 여지가 있어 허용 범위로 볼 수 있다. 다만 어조가 다소 딱딱하다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"긍정 응답과 프란시스가 대답했다는 내용이 그대로 옮겨졌다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화문과 서술 태그의 구조가 유지되었고 뒤 문장과의 연결도 자연스럽다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"질문에 대한 긍정 응답이라는 발화 기능이 유지된다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무나 허용 표현이 없다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그렇습니다'는 다소 격식 있으나 정황상 공식적 대답으로 자연스럽고 관계를 왜곡하지 않는다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 관련 요소가 없다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 3260,
+    "inference_geo": "global",
+    "input_tokens": 586,
+    "output_tokens": 606,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

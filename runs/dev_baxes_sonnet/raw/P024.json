@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgYcJc2B2HgYHFhDmELaq",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P024\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"along with the TD and the Scene Designer, the schedule, color palette, and techniques\",\"tgt_span\":\"TD와 장면 디자이너, 일정, 색상 팔레트, 그리고 풍경 페인팅에 필요한 기술과 함께\",\"description\":\"'TD, 장면 디자이너와 함께'가 창조 대상(일정·팔레트·기술)과 한 목록으로 묶여, 협업 주체와 창조 대상의 구분이 무너지고 문장 구조가 붕괴됨. 일정·팔레트·기술이 '함께' 대상처럼 읽힘.\"},{\"id\":\"E002\",\"src_span\":\"It is the charge artist who creates and develops\",\"tgt_span\":\"그것은 ... 충전 아티스트입니다\",\"description\":\"분열문(강조 구문)이 '그것은 ~ 충전 아티스트입니다'로 어색하게 옮겨졌고, 창조·개발의 대상(목적어)이 동사 앞에 없어 문장이 불완전함.\"},{\"id\":\"E003\",\"src_span\":\"Scenic Charge Artist / charge artist\",\"tgt_span\":\"충전 아티스트\",\"description\":\"charge artist(도장 책임자)를 '충전'으로 직역하여 직책 의미가 전달되지 않음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E003\"],\"reason\":\"협업 대상과 창조 대상이 뒤섞여 누가 무엇을 만드는지 불분명하고, 'charge artist'가 '충전 아티스트'로 오역됨.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"분열문 강조와 목적어-동사 연결이 깨져 정보 구조가 붕괴됨.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재의 직무 설명이라는 기능은 대체로 유지됨.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가 표현이 없음.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재 설명문 어조가 유지됨.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"무대 제작 직무명이 이해 불가능한 '충전'으로 옮겨져 직무 개념 이해가 어려움.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 3260,
+    "inference_geo": "global",
+    "input_tokens": 1180,
+    "output_tokens": 917,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

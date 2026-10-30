@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgYcH4mCTAXKtW2Uz7KAt",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P004\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the Council and the regents\",\"tgt_span\":\"위원회와 섭정들의\",\"description\":\"대학 평의회(Council)를 '위원회'로, 대학 이사회 격인 regents를 군주 대리 통치자를 뜻하는 '섭정'으로 옮겨 제도적 의미가 왜곡됨. 대학 거버넌스 기관이 아니라 왕정의 섭정으로 읽힘.\"},{\"id\":\"E002\",\"src_span\":\"charges against Professor Max Gottlieb preferred by his dean and by myself\",\"tgt_span\":\"막스 고틀리프 교수에 대한 학장과 제가 제기한 혐의\",\"description\":\"'his dean'(그의 학장)의 소유 관계가 사라져 고틀리프 소속 학장임이 드러나지 않음. 경미한 정보 손실.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"regents를 '섭정들'로 옮겨 기관 지칭이 틀렸고 Council도 '위원회'로 모호해졌으며, 'his dean'의 소유 관계도 빠짐.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"발화 도입, 목적 서술, 혐의 제기 주체의 구조가 원문과 같게 유지됨.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"회의 개회를 알리는 공식 발표라는 발화 기능이 유지됨.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무나 허용을 나타내는 표현이 없음. 회의 목적 진술은 규범 표현이 아님.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"총장의 격식 있는 공식 발언이 '합니다'체로 적절히 유지됨.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"미국 대학의 regents(이사회)를 '섭정'으로 옮겨 대학 거버넌스 제도가 왕정 용어로 오인될 수 있음.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 3260,
+    "inference_geo": "global",
+    "input_tokens": 678,
+    "output_tokens": 830,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

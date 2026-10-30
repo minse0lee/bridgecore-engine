@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgYcDtaShcPNr6BWE3LnT",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"He left me, then, with many cordial expressions of friendship.\",\"tgt_span\":\"그는 나에게, 그때, 우정의 많은 따뜻한 표현과 함께 떠났다.\",\"description\":\"영어 어순을 그대로 옮겨 어색하다. '우정의 많은 따뜻한 표현'은 수식 관계가 부자연스럽고, '나에게 떠났다'는 'left me'를 잘못 옮긴 조사 사용이다. '나를 떠났다'로 오해될 수도 있고 '나와 헤어졌다'가 자연스럽다.\",\"severity\":\"major\"},{\"src_span\":\"then\",\"tgt_span\":\"그때\",\"description\":\"'then'은 시간 부사가 아니라 '그리하여, 그렇게 해서'라는 서사 연결 기능을 하는데, '그때'로 옮겨 의미가 어긋난다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 425,
+    "output_tokens": 324,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

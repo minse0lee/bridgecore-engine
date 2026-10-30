@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgYcJC9V59e5iY2n3F4oe",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P022\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"_Or shall I?_\",\"tgt_span\":\"_아니면 내가 해야 하나요?_\",\"description\":\"'shall I?'는 화자가 직접 말하겠다는 위협성 제안·최후통첩인데, '내가 해야 하나요?'는 의무를 묻는 질문처럼 읽혀 화자의 의지와 압박이 약해지고 방향이 바뀐다. 다만 이탤릭 강조는 유지되었다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"'내가 말할까?'라는 제안의 의미가 '내가 해야 하나?'라는 의무 질문으로 약간 바뀌었다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞 질문과 '아니면'으로 연결되는 선택 구조와 이탤릭 강조가 유지되었다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"원문은 상대에게 압박을 주는 암묵적 위협인데, 번역은 억울함이나 망설임을 묻는 질문처럼 읽혀 발화 기능이 달라졌다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"화자의 의지·제안인 'shall I'가 의무를 뜻하는 '해야 하나요'로 바뀌어 당위의 방향이 달라졌다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"친구 사이의 편지에 어울리는 어조와 정중한 의문형 문체가 크게 어긋나지 않는다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화 특수적 요소가 없다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 3260,
+    "inference_geo": "global",
+    "input_tokens": 676,
+    "output_tokens": 718,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

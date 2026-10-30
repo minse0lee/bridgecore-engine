@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgYcEKi3Gvqvq8JUsgHBa",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"native speakers of Spanish\",\"tgt_span\":\"스페인어 원어민이\",\"description\":\"원문은 복수(native speakers)인데 번역문은 단수처럼 읽혀 수 정보가 흐려짐. '원어민들이'가 더 정확함. 또한 아르헨티나와 멕시코 각각의 화자임을 고려하면 복수 표기가 적절함.\",\"severity\":\"minor\"},{\"src_span\":\"celebrate Christmas\",\"tgt_span\":\"크리스마스 ( Navidad )를 어떻게 축하하는지\",\"description\":\"'celebrate Christmas'는 '크리스마스를 보내다/기념하다'가 자연스러운데 '축하하다'는 어색한 직역임. 풍습을 말하는 맥락과 맞지 않음.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 629,
+    "output_tokens": 293,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

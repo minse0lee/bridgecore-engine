@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgYcLBaogRwHQcVm7qtSk",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P050\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Use local resources to view structures of the reproductive system.\",\"tgt_span\":\"로컬 리소스를 사용하여 생식계의 구조를 볼 수 있습니다.\",\"description\":\"학습 지시(명령문)가 가능·평서문(~할 수 있습니다)으로 바뀌어 학습자가 수행해야 할 행동 지시가 사라짐.\"},{\"id\":\"E002\",\"src_span\":\"local resources\",\"tgt_span\":\"로컬 리소스\",\"description\":\"교육 상황의 '지역 자료(학교·지역에서 이용 가능한 자료)'를 '로컬 리소스'로 음차해 의미가 불명확함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"'local resources'를 '로컬 리소스'로 음차해 지역에서 이용 가능한 자료라는 의미가 흐려졌으나 핵심 내용은 전달됨.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"단일 문장으로 정보 구조와 연결이 유지됨.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"학습 활동을 지시하는 발화 기능이 가능성을 서술하는 평서문으로 바뀌어 지시 기능이 약화됨.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"의무적 지시가 '~할 수 있습니다'라는 허용·가능으로 바뀌어 학습 행동 조건이 달라짐.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"합쇼체로 교재에 무난한 격식을 유지함.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도적으로 특별히 평가할 요소가 없음.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 3260,
+    "inference_geo": "global",
+    "input_tokens": 557,
+    "output_tokens": 733,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

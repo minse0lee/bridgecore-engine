@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgYcLk5v9b1dWErnkiUJa",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P057\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"state funding mandates that colleges and universities create threat assessment teams\",\"tgt_span\":\"주 정부가 대학에 위협 평가 팀을 구성하도록 지원한다\",\"description\":\"'state funding mandates'는 주 재정 지원 조건으로 대학에 위협 평가 팀 구성을 의무화한다는 뜻인데, 번역은 주 정부가 구성을 '지원한다'고 옮겨 의무 부과를 지원 제공으로 바꿨다. 의무의 주체와 성격이 달라졌다.\"},{\"id\":\"E002\",\"src_span\":\"colleges and universities\",\"tgt_span\":\"대학\",\"description\":\"'colleges and universities'를 '대학'으로 합쳐 옮겼다. 의미 차이는 미미하다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"'mandates'(의무화)가 '지원한다'로 바뀌어 주 정부가 의무를 부과한다는 핵심 명제가 지원 제공으로 달라졌다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"한 문장 구조와 'In some cases'의 한정 기능이 유지되어 정보 연결과 강조에 변화가 없다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"제도 현황을 알리는 안내문의 서술 기능은 유지된다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"대학에 팀 구성을 의무화하는 규범이 '지원'이라는 호의적 서술로 바뀌어 의무가 사라졌다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"격식 있는 안내문체가 유지된다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"주 재정 지원과 연계된 의무화라는 미국 제도 맥락이 단순 지원으로 읽혀 제도 이해가 다소 흐려진다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 3260,
+    "inference_geo": "global",
+    "input_tokens": 897,
+    "output_tokens": 801,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

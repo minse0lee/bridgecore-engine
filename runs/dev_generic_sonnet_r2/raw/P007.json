@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgYcGdC4VNvuh94usDt6w",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"there were times when the hump in his back became greater than ever before\",\"tgt_span\":\"그의 등의 혹이 그 어느 때보다도 커지고\",\"description\":\"'때때로(there were times when)'라는 한정이 빠져, 혹이 항상 계속 커진 것처럼 읽힘.\",\"severity\":\"minor\"},{\"src_span\":\"in fits of weeping\",\"tgt_span\":\"자주 흘러나와\",\"description\":\"울음 발작('in fits of weeping') 상황이 번역에서 누락됨. 'often'만 반영되어 눈물이 흐르는 원인이 사라짐.\",\"severity\":\"minor\"},{\"src_span\":\"When it was noted that\",\"tgt_span\":\"관찰했을 때\",\"description\":\"수동형 'it was noted'의 주체가 불분명한 점이 반영되지 않고, 누군가 관찰한 것으로 읽힘. 또한 'would suddenly rise'의 반복 양상이 약함.\",\"severity\":\"minor\"},{\"src_span\":\"three or four feet above its normal level\",\"tgt_span\":\"3 ~ 4 피트 ( 1 ~ 2 미터 ) 정상 수준보다 높아지고\",\"description\":\"괄호 안 환산이 원문에 없는 추가 정보이며, 3~4피트는 약 0.9~1.2미터라 '1~2미터'는 부정확함. 어순도 어색함.\",\"severity\":\"major\"},{\"src_span\":\"torrents of tears\",\"tgt_span\":\"눈물의 홍수가\",\"description\":\"'torrents'(급류처럼 쏟아지는 눈물)를 '홍수'로 옮겨 의미가 달라지고, 뒤의 '강을 범람시키는'과 중복됨.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 1335,
+    "output_tokens": 601,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

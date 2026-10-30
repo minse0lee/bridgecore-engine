@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgYcLTTnLTehrAZGJgWhH",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P054\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the student took 9 hours of regular coursework each semester\",\"tgt_span\":\"학생이 각 학기에 9시간의 정규과목을 수강했지만\",\"description\":\"원문의 'took'은 실제 수강을 의미하며 번역도 일치하나, 그림 예시 3에서는 첫 학기 3시간 보충+9시간 정규, 다음 학기 6시간 보충+9시간 정규로 학기별 총 시간이 다르므로 '각 학기에 9시간'은 정규과목 기준으로 맞음. 오류 아님으로 판단하기 어려움 — 아래 E001은 무오류 처리 불필요.\"},{\"id\":\"E002\",\"src_span\":\"while the remedial work is excluded\",\"tgt_span\":\"보충 과목은 제외됩니다\",\"description\":\"'remedial work'를 '보충 과목'으로 옮겼으나 원문 그림은 'remedial work'이며 'work'는 과목 외 학습 활동을 가리킬 수 있어 '보충 과목'으로 좁힌 것은 사소한 어휘 차이로 의미 훼손은 아님.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"정규 9시간은 계산에 포함되고 보충 작업은 제외된다는 핵심 의미가 원문과 일치한다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'마찬가지로'와 '지만'으로 원문의 대비 관계가 유지되어 문장 연결이 보존된다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"예시 3을 들어 제외 규칙을 설명하는 발화 기능이 그대로 유지된다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무나 권한을 규정하는 표현이 없으며 제외된다는 조건 서술이 그대로 전달된다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"안내문에 맞는 평서체 격식이 유지된다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"미국 펠 그랜트 제도 맥락을 한국 제도로 바꾸지 않고 그대로 옮겼다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-haiku-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 3260,
+    "inference_geo": "global",
+    "input_tokens": 1946,
+    "output_tokens": 878,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

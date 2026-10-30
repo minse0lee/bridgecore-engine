@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgYcJ5TeeC69ZQK9a8v26",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P021\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Sherman marched his troops\",\"tgt_span\":\"셔먼은 ... 행군하여\",\"description\":\"'his troops'(부대를 행군시켰다)의 목적어가 번역되지 않아 셔먼 자신이 행군한 것처럼 읽힘. 지휘관이 부대를 이동시켰다는 구도가 약해짐.\"},{\"id\":\"E002\",\"src_span\":\"while he went back to Savannah\",\"tgt_span\":\"사바나로 돌아갔다\",\"description\":\"'while'이 나타내는 동시성(부대는 야영, 그동안 셔먼은 사바나로 감)이 연결어미 '-고'로 약해져 순차 동작처럼 읽힘.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"'his troops'가 빠져 행군 주체가 셔먼 개인처럼 읽히나 전체 사건은 이해 가능함.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"'while'의 대조·동시 관계가 '-고'로 평탄해져 두 사건의 연결이 약해짐.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"군사 이동을 서술하는 기능은 그대로 유지됨.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무나 허가 표현이 없는 서술문임.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"회고록의 평서체 서술 어조가 유지됨.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지명이 음역되어 독자가 이해할 수 있고 문화적 쟁점은 없음.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 3260,
+    "inference_geo": "global",
+    "input_tokens": 688,
+    "output_tokens": 695,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

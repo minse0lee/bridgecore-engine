@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgYcJxxm3uVjCZLwZfmVq",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P032\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"postsecondary vocational institution\",\"tgt_span\":\"중등 직업 교육 기관\",\"description\":\"postsecondary(중등 이후)를 '중등'으로 옮겨 기관 유형이 정반대로 바뀜. 제도상 용어는 '중등 후 직업교육기관'이어야 함.\"},{\"id\":\"E002\",\"src_span\":\"nondegree recognized credential\",\"tgt_span\":\"학위가 인정되지 않는 자격증\",\"description\":\"'학위가 아닌, 인정된 자격'을 '학위가 인정되지 않는 자격증'으로 옮겨 수식 관계가 바뀌고, 자격증이 인정되지 않는다는 뜻으로 읽힘.\"},{\"id\":\"E003\",\"src_span\":\"programs that are less than an academic year in length and lead to a certificate or other nondegree recognized credential\",\"tgt_span\":\"학년 길이보다 짧은 프로그램을 제공하고 인증서 또는 기타 학위가 인정되지 않는 자격증을 제공함으로써\",\"description\":\"프로그램이 자격으로 이어진다는 관계(lead to)가 '자격증을 제공하다'로 바뀌고, 두 조건이 별개 제공 행위처럼 나열됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"postsecondary를 '중등'으로 잘못 옮겨 기관 유형이 바뀌었고, nondegree recognized credential의 의미도 왜곡됨.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"프로그램이 자격으로 이어진다는 연결이 '제공하고…제공함'의 병렬로 바뀌어 정보 구조가 흐트러짐.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기관 자격 요건을 설명하는 안내 기능은 유지됨.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'it is possible ... can qualify'는 가능성 표현이며 '갖출 수도 있습니다'로 가능성이 유지됨.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"격식 있는 안내문체 '-습니다'가 적절히 유지됨.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"미국 제도의 기관 유형인 postsecondary vocational institution을 '중등 직업 교육 기관'으로 옮겨 제도적 의미가 잘못 전달됨.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 3260,
+    "inference_geo": "global",
+    "input_tokens": 995,
+    "output_tokens": 981,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

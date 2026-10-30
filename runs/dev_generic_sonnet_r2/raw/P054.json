@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgYcKSyEr1m5yVwAJQBc1",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"9 hours of regular coursework\",\"tgt_span\":\"9시간의 정규과목\",\"description\":\"원문과 그림의 credit hours는 학점 단위의 수업 이수 시간인데, '9시간'으로 옮겨 시간 수업과 학점 개념이 혼동됩니다. '9학점' 또는 '9 크레딧 시간'이 더 정확합니다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 1876,
+    "output_tokens": 154,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

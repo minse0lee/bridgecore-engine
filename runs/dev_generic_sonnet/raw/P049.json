@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgYcEyQC1S6nvnk5a3T9A",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"this should show you that this ship isn't as good as you think it is!\",\"tgt_span\":\"이것은 당신이 생각하는 것만큼 이 배가 좋지 않다는 것을 보여줄 것이다!\",\"description\":\"\\\"should show you\\\"는 \\\"이걸 보면 알 수 있을 거야\\\"라는 뜻의 완곡한 추정인데, \\\"보여줄 것이다\\\"로 옮겨 단정적인 미래 서술이 됐다. 시선으로 전하는 속마음이라는 구어적 어조도 사라졌고, 주어 \\\"이것\\\"이 무엇을 가리키는지 어색하다.\",\"severity\":\"minor\"},{\"src_span\":\"It said plainly,\",\"tgt_span\":\"그것은 분명히 말했다.\",\"description\":\"눈빛이 \\\"말했다\\\"는 비유를 직역해 어색하다. \\\"그의 눈빛은 분명히 이렇게 말하고 있었다\\\"처럼 주어를 분명히 하고 문장을 이어야 자연스럽다. 문장을 마침표로 끊어 뒤의 인용과 연결이 약해졌다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 545,
+    "output_tokens": 407,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

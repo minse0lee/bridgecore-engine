@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgYcH1U1hwjBcAwGrWvkZ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"Those drills\",\"tgt_span\":\"그 드릴은\",\"description\":\"'drills'(반복 연습)를 '드릴'로 음역해 학습 맥락에서 부자연스럽다. '문법 연습'이나 '반복 훈련'으로 옮기는 것이 적절하다.\",\"severity\":\"minor\"},{\"src_span\":\"didn’t work then; they don’t work now\",\"tgt_span\":\"그 드릴은 그때 작동하지 않았다; 그들은 지금 작동하지 않습니다.\",\"description\":\"종결어미가 '-았다'(평서체)와 '-ㅂ니다'(합쇼체)로 섞여 일관성이 없다. 또한 'work'를 '작동하다'로 옮겨 '효과가 있다'는 뜻이 어색하게 전달되고, 두 번째 절의 '그들은'은 불필요하게 직역한 표현이다.\",\"severity\":\"major\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 1045,
+    "output_tokens": 327,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgYcK6MWVhA61z2DUkHu6",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P031\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"let alone support\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"'이해는커녕 지원은 말할 것도 없다'는 뜻의 let alone support가 번역되지 않았다. 지원 준비 부족이라는 내용과, 이해조차 어렵다는 점층적 강조가 사라졌다.\"},{\"id\":\"E002\",\"src_span\":\"prepared to comprehend\",\"tgt_span\":\"이해하기 위해 항상 준비되어 있지는 않습니다\",\"description\":\"'이해할 준비가 되어 있다'를 '이해하기 위해 준비되어 있다'로 옮겨 목적 관계로 바뀌었다. 이해할 역량이 부족하다는 뜻이 이해를 위한 준비 여부로 약간 어긋났다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"support(지원)에 관한 내용이 누락되어 원문 명제의 절반이 빠졌고, '이해할 준비'도 '이해하기 위한 준비'로 어긋났다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"let alone가 만드는 '이해조차 어려운데 지원은 더 어렵다'는 점층 구조와 강조가 사라졌다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학교의 준비 부족을 지적하는 안내문의 발화 기능은 유지된다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무나 허가, 조건을 나타내는 표현이 없다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"격식 있는 안내문 어조인 '-ㅂ니다'체가 유지된다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"제도나 문화에 특수한 요소가 없다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 3260,
+    "inference_geo": "global",
+    "input_tokens": 965,
+    "output_tokens": 769,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgYcDFp6nRY3gunJqik3P",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"keep the others from this control panel\",\"tgt_span\":\"다른 사람이 다른 30 분 동안이 컨트롤 패널에서 유지할 수있다면\",\"description\":\"주어와 목적어 관계가 뒤바뀌고 'keep A from B'(A를 B에 접근하지 못하게 하다)의 의미가 사라졌다. '다른 사람이 ... 유지할 수 있다'로 옮겨 뜻이 왜곡되었고, 조사 '이'와 '다른'이 어색하게 반복되었다.\",\"severity\":\"critical\"},{\"src_span\":\"for another half hour\",\"tgt_span\":\"다른 30 분 동안이\",\"description\":\"'another half hour'(앞으로 30분 더)를 '다른 30 분'으로 오역했다. '이'가 앞말에 붙어 '동안이'가 되어 '이 컨트롤 패널'과의 경계도 깨졌다.\",\"severity\":\"major\"},{\"src_span\":\"the battle would be won\",\"tgt_span\":\"전투가 승리했다\",\"description\":\"가정에 따른 미래적 결과(would be won)를 과거 확정형 '승리했다'로 옮겼다. 또한 '전투가 승리했다'는 '전투에서 승리했다' 또는 '전투에 승리할 것이다'로 써야 자연스럽다.\",\"severity\":\"major\"},{\"src_span\":\"the computer could operate on his equations fully\",\"tgt_span\":\"컴퓨터는 완전히 자신의 방정식을 작동할 수 있으며\",\"description\":\"'his equations'를 '자신의'라고 옮겨 컴퓨터의 방정식처럼 읽히며, 'operate on'(처리하다)을 '작동하다'로 옮겨 부자연스럽다. '그의 방정식을 바탕으로 완전히 작동할 수 있다'가 적절하다.\",\"severity\":\"major\"},{\"src_span\":\"If he could keep the others from this control panel for another half hour, the computer could operate on his equations fully, and the battle would be won.\",\"tgt_span\":\"그는 다른 사람이 다른 30 분 동안이 컨트롤 패널에서 유지할 수있다면, 컴퓨터는 완전히 자신의 방정식을 작동할 수 있으며, 전투가 승리했다.\",\"description\":\"전체적으로 직역투 기계번역 문장으로 문법과 띄어쓰기가 어색하다('30 분', '수있다면'). 가독성이 크게 떨어진다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 712,
+    "output_tokens": 866,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

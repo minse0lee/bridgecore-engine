@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgYcK6wDySGz9VkkXtsS2",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"this should show you that this ship isn't as good as you think it is!\",\"tgt_span\":\"이것은 당신이 생각하는 것만큼 이 배가 좋지 않다는 것을 보여줄 것이다!\",\"description\":\"\\\"this should show you\\\"는 '이 일로 알게 되겠지'라는 가벼운 추측·암시를 담은 표현인데, 번역문은 \\\"~보여줄 것이다\\\"로 단정적으로 옮겼다. 또한 \\\"should\\\"의 뉘앙스가 사라졌고, 눈빛이 건네는 말투(예: \\\"이제 알겠지\\\")로 자연스럽게 옮기지 못했다. 직접 화법의 어조도 어색하다.\",\"severity\":\"minor\"},{\"src_span\":\"It said plainly,\",\"tgt_span\":\"그것은 분명히 말했다.\",\"description\":\"\\\"It\\\"은 앞 문장의 \\\"glance\\\"(눈빛)를 가리키는데, 번역문에서는 \\\"그것\\\"이 무엇을 가리키는지 불분명해 직역투로 읽힌다. 눈빛이 '말한다'는 비유도 \\\"눈빛은 분명히 이렇게 말하고 있었다\\\"처럼 자연스럽게 옮기지 못했다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 545,
+    "output_tokens": 454,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

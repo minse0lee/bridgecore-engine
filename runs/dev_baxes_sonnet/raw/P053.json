@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgYcLgmEAcxHggpmbMMQL",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P053\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I must not cry\",\"tgt_span\":\"나는 울지 않아도 됩니다\",\"description\":\"'must not'(울어서는 안 된다는 자기 금지)을 '울지 않아도 됩니다'(불필요·허용)로 번역해 의미와 당위 방향이 뒤바뀜.\"},{\"id\":\"E002\",\"src_span\":\"And yet mine eyes contain Such floods of scalding tears\",\"tgt_span\":\"나의 눈에는 절대 말라지지 않을 뜨거운 눈물이 흐르고 있습니다\",\"description\":\"'floods'(홍수 같은 눈물)의 과장 이미지가 약해지고, 'such ... that' 결과 구문이 약화됨. 눈물이 흐르는 것으로 바뀌어 'contain'의 뜻도 달라짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"'울어서는 안 된다'가 '울지 않아도 된다'로 바뀌어 핵심 의미가 반전되었고, 눈물의 홍수 이미지도 약해졌다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"'and yet'의 대조가 '울지 않아도 됨 vs 눈물이 흐름'으로 어긋나고 'such...that' 결과 구조가 약해졌다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"간호사가 주님께 올리는 기도라는 발화 기능은 유지되었다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"'must not cry'의 자기 금지 의무가 '울지 않아도 된다'는 불필요·허용으로 바뀌었다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"주님께 올리는 존대 합니다체 기도 어조가 유지되었다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기도 형식과 'O Lord' 호칭이 '오, 주님'으로 적절히 옮겨졌다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 3260,
+    "inference_geo": "global",
+    "input_tokens": 835,
+    "output_tokens": 831,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

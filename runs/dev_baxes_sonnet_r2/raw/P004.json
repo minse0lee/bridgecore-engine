@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgYcGzopXaF198zuRPQUS",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P004\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the Council and the regents\",\"tgt_span\":\"위원회와 섭정들\",\"description\":\"대학 평의회(Council)를 '위원회'로, 대학 이사회 격인 regents를 '섭정들'로 옮겼다. 'regents'는 대학 이사(평의원)이고 '섭정'은 군주를 대신해 통치하는 사람이라 제도적 의미가 달라져 독자가 오해할 수 있다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"regents를 '섭정들'로 옮겨 기관 구성원의 지시 대상이 달라졌다. 나머지 내용은 정확하다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"한 문장 구조와 인용 발화 틀이 유지되었고 'charges ... preferred by'의 연결도 자연스럽게 옮겨졌다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"회의 개회를 알리는 공식 선언이라는 발화 기능이 유지되었다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무나 허용을 나타내는 표현이 없고 회의 목적을 알리는 진술이다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'신사 여러분'과 '-ㅂ니다' 체로 총장의 격식 있는 공식 어조가 유지되었다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"미국 대학의 평의회·이사회라는 제도를 '위원회', '섭정'으로 옮겨 제도적 의미가 왜곡되었고 독자는 군주제 관련 직위로 오해할 수 있다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 3260,
+    "inference_geo": "global",
+    "input_tokens": 678,
+    "output_tokens": 719,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

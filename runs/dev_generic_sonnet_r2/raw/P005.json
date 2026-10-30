@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgYcGUCpE5Vs484LQjF6M",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"Federal Student Aid PIN\",\"tgt_span\":\"연방 학자금 대출 PIN\",\"description\":\"\\\"Federal Student Aid PIN\\\"은 연방 학생 재정지원(Federal Student Aid) PIN인데, 이를 '연방 학자금 대출 PIN'으로 옮겨 PIN의 명칭과 범위(대출에 한정되지 않음)가 달라졌습니다.\",\"severity\":\"major\"},{\"src_span\":\"your loan servicer\",\"tgt_span\":\"대출 서비스\",\"description\":\"'loan servicer'는 대출 관리(서비스) 업체/담당 기관인데, '대출 서비스'로 옮겨 담당 주체가 사라지고 서비스 자체를 가리키는 말이 되었습니다.\",\"severity\":\"major\"},{\"src_span\":\"Use your\",\"tgt_span\":\"사용하여 ... 얻을 수 있습니다\",\"description\":\"원문은 명령형 안내문(~하십시오)인데, 번역문은 '~할 수 있습니다'라는 가능 표현으로 바뀌어 어조와 지시 성격이 달라졌습니다.\",\"severity\":\"minor\"},{\"src_span\":\"access\",\"tgt_span\":\"액세스하고\",\"description\":\"'access'를 '액세스'로 음차해 안내문 문체에 덜 자연스럽습니다. '열람/조회'가 더 적절합니다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 692,
+    "output_tokens": 495,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

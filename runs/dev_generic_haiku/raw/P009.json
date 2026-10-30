@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgYcGkNACY73Zx2EoFozy",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"If he could keep the others from this control panel for another half hour\",\"tgt_span\":\"그는 다른 사람이 다른 30 분 동안이 컨트롤 패널에서 유지할 수있다면\",\"description\":\"가정문의 주어와 동사 구조가 뒤바뀌었다. 원문은 '그가 다른 사람들을 이 제어판에서 떼어 놓을 수 있다면'이라는 뜻인데, 번역은 '다른 사람이 ... 유지할 수 있다면'으로 주체와 행위가 잘못 옮겨졌다. 'keep ... from'은 '막다/못 가게 하다'의 의미이다.\",\"severity\":\"critical\"},{\"src_span\":\"for another half hour\",\"tgt_span\":\"다른 30 분 동안\",\"description\":\"'another half hour'는 '30분 더'(추가로 반 시간)를 뜻하는데, '다른 30 분 동안'은 어색하고 의미도 불분명하다. 또한 'half hour'를 '30 분'으로 숫자화한 것은 자연스럽지 않으며 '반 시간' 또는 '30분 더'가 적절하다.\",\"severity\":\"minor\"},{\"src_span\":\"the computer could operate on his equations fully\",\"tgt_span\":\"컴퓨터는 완전히 자신의 방정식을 작동할 수 있으며\",\"description\":\"'operate on his equations'는 '그의 방정식에 따라 작동하다'의 뜻인데, '자신의 방정식을 작동하다'는 의미가 어긋난다. 또한 'fully'의 수식 위치가 부자연스럽다. '컴퓨터가 그의 방정식에 따라 온전히 작동할 수 있고'로 옮겨야 한다.\",\"severity\":\"major\"},{\"src_span\":\"and the battle would be won\",\"tgt_span\":\"전투가 승리했다\",\"description\":\"가정법 조건문의 귀결이므로 '전투는 이길 것이다'(would be won)로 옮겨야 한다. 과거형 '승리했다'는 가정의 의미와 시제를 잘못 전달한다.\",\"severity\":\"critical\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-haiku-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 712,
+    "output_tokens": 734,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

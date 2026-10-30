@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgYcCyPe1eG1Ls2CpXCBF",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"Federal Student Aid PIN\",\"tgt_span\":\"연방 학자금 대출 PIN\",\"description\":\"\\\"Federal Student Aid PIN\\\"은 연방 학생 재정 지원(Federal Student Aid)의 PIN인데, '연방 학자금 대출 PIN'으로 옮겨 대출 전용 PIN처럼 보이게 했다. 명칭의 범위가 달라졌다.\",\"severity\":\"major\"},{\"src_span\":\"loan servicer\",\"tgt_span\":\"대출 서비스\",\"description\":\"\\\"loan servicer\\\"는 대출을 관리하고 상환금을 받는 대출 관리 기관(업체)을 뜻한다. '대출 서비스'라고 하면 기관이 아니라 서비스 자체를 가리켜 담당 주체가 모호해진다.\",\"severity\":\"major\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 618
+    },
+    "cache_creation_input_tokens": 618,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 692,
+    "output_tokens": 300,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

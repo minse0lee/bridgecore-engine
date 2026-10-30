@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgYcKpt7b6xPDEHiDP5nE",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P040\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"guttered\",\"tgt_span\":\"그의 귀에 구멍\",\"description\":\"'guttered'(불꽃이 가물거리다)를 '구멍'이라는 무관한 명사로 오역함. 불꽃이 흔들리며 꺼져 가는 이미지가 사라지고 의미 없는 표현이 됨.\"},{\"id\":\"E002\",\"src_span\":\"The lantern like a secret fear, Whispered and guttered at his ear.\",\"tgt_span\":\"비밀스러운 두려움처럼 랜턴, 속삭이고 그의 귀에 구멍.\",\"description\":\"문장이 완결되지 않고 어순이 비문법적임. 'like a secret fear'가 lantern을 수식하는 관계와 'Whispered and guttered'의 서술 구조가 무너져 한국어로 읽히지 않음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"'guttered'를 '구멍'으로 오역해 랜턴 불꽃이 가물거리는 핵심 의미가 사라짐.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\"],\"reason\":\"주어-서술 관계가 무너진 비문이며 두 동사의 병렬과 비유의 연결이 파악되지 않음.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"시에서 랜턴을 두려움에 빗대어 분위기를 만드는 기능이 비문 때문에 제대로 전달되지 않음.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"묘사 문장이라 당위나 허용 관계가 없음.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 청자 사이의 관계나 격식이 두드러지지 않는 서술 시구임.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도적 함의가 없음.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 3260,
+    "inference_geo": "global",
+    "input_tokens": 499,
+    "output_tokens": 776,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

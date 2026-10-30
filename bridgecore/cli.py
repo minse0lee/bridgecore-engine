@@ -11,6 +11,8 @@
   compare   선별이 기준 실행(예: Sonnet 전체) 대비 놓치는 훼손 비교
   score     엔진 출력 채점 → reports/
   baseline  사람 간 기준선 → reports/
+  generic   비교 실험 기준선: 가이드라인 없이 "번역 오류를 찾아라"만 시키는 일반 LLM 판정
+  effect    가이드라인 효과 비교 (엔진 v0 vs 일반 프롬프트·축 이름만) → reports/guideline_effect_dev.md
   poc       정답 없이 읽는 PoC 보고서(HTML)와 검토용 엑셀 → reports/
   poc-tally 검토가 끝난 PoC 엑셀 집계 (엔진 표시 정확도·놓친 오류)
 """
@@ -299,6 +301,38 @@ def cmd_score(args):
     score_run(Path(args.run_dir), items, ratings, REPORTS, split=args.split)
 
 
+def cmd_generic(args):
+    from .baseline import run_generic
+    items = _items_from_source(_items_source(args))
+    sel = _select_items(items, args)
+    name = args.name or f"{args.split or 'items'}_generic_{args.model}"
+    run_generic(sel, args.model, name, ROOT / "runs", args.live, workers=args.workers,
+                effort=None if args.effort == "default" else args.effort,
+                extra_meta={"items_source": _items_source(args)})
+
+
+def cmd_effect(args):
+    from .guideline_effect import run_comparison
+    ids = read_json(PROC / "split_pilot.json")["dev"]
+    gold = G.build_gold(load_all()[1])
+    R = ROOT / "runs"
+    fam = {
+        "엔진 v0 2단계": ("engine", "Haiku→Sonnet", ["dev_screen__cascade"]),
+        "엔진 v0 (Sonnet)": ("engine", "Sonnet 5.5", ["dev_sonnet", "dev_sonnet_r2"]),
+        "엔진 v0 (Haiku)": ("engine", "Haiku 5.5", ["dev_haiku", "dev_haiku_r2"]),
+        "축 이름만 (Sonnet)": ("engine", "Sonnet 5.5", ["dev_baxes_sonnet", "dev_baxes_sonnet_r2"]),
+        "축 이름만 (Haiku)": ("engine", "Haiku 5.5", ["dev_baxes_haiku", "dev_baxes_haiku_r2"]),
+        "일반 프롬프트 (Sonnet)": ("generic", "Sonnet 5.5", ["dev_generic_sonnet", "dev_generic_sonnet_r2"]),
+        "일반 프롬프트 (Haiku)": ("generic", "Haiku 5.5", ["dev_generic_haiku", "dev_generic_haiku_r2"]),
+    }
+    families = {}
+    for name, (kind, model, runs) in fam.items():
+        have = [R / r for r in runs if (R / r / "outputs.jsonl").exists()]
+        if have:
+            families[name] = {"kind": kind, "model": model, "runs": have}
+    run_comparison(families, gold, ids, REPORTS)
+
+
 def cmd_poc(args):
     from .poc_report import make_poc_report
     run_dir = Path(args.run_dir)
@@ -393,6 +427,14 @@ def main(argv=None):
     s.add_argument("--split", choices=["dev", "holdout", "all"], default="all")
     s.set_defaults(fn=cmd_score)
     sub.add_parser("baseline").set_defaults(fn=cmd_baseline)
+    s = sub.add_parser("generic")
+    s.add_argument("--split", choices=["dev", "holdout"]); s.add_argument("--items"); s.add_argument("--items-file")
+    s.add_argument("--i-know-holdout", action="store_true")
+    s.add_argument("--model", default="claude-sonnet-5-5"); s.add_argument("--name")
+    s.add_argument("--effort", choices=["low", "medium", "high", "default"], default="medium")
+    s.add_argument("--workers", type=int, default=4); s.add_argument("--live", action="store_true")
+    s.set_defaults(fn=cmd_generic)
+    sub.add_parser("effect").set_defaults(fn=cmd_effect)
     s = sub.add_parser("poc"); s.add_argument("run_dir")
     s.add_argument("--items-file", help="실행 때 쓴 문항 jsonl (기본: meta.json의 items_source)")
     s.add_argument("--title"); s.add_argument("--note", help="보고서 맨 위 안내에 넣을 한 줄")

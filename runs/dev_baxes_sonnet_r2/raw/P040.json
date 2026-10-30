@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgYcKTNYRGiT2qiv9bnAP",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P040\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"guttered\",\"tgt_span\":\"그의 귀에 구멍\",\"description\":\"'guttered'(불꽃이 가물거리다)를 '구멍'으로 오역했고, 동사가 아닌 명사로 처리해 의미가 사라졌다.\"},{\"id\":\"E002\",\"src_span\":\"The lantern like a secret fear, Whispered and guttered at his ear.\",\"tgt_span\":\"비밀스러운 두려움처럼 랜턴, 속삭이고 그의 귀에 구멍.\",\"description\":\"문장이 완결되지 않고 조사와 어미가 없어 주어-서술어 관계와 직유 구조가 무너졌다. 'lantern'이 속삭이는 주체라는 관계도 드러나지 않는다.\"},{\"id\":\"E003\",\"src_span\":\"Whispered and guttered at his ear\",\"tgt_span\":\"속삭이고 그의 귀에 구멍\",\"description\":\"속삭임과 가물거림이 귓가에서 일어나는 장면이 전달되지 않는다. 시적 이미지가 이해할 수 없는 표현이 되었다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"critical\",\"error_ids\":[\"E001\",\"E003\"],\"reason\":\"'guttered'를 '구멍'으로 오역해 랜턴 불꽃이 가물거린다는 핵심 의미가 사라졌다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\"],\"reason\":\"직유와 두 동사의 병렬 구조가 깨지고 문장이 미완결로 끝났다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E003\"],\"reason\":\"불안감을 불러일으키는 시적 묘사의 기능이 이해 불가능한 표현 때문에 전달되지 않는다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술적 시구라 당위나 허용을 다루는 내용이 없다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"문학적 서술 어조가 어색한 번역투 나열로 바뀌어 시의 격조가 떨어진다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화나 제도에 관련된 요소가 없다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 3260,
+    "inference_geo": "global",
+    "input_tokens": 499,
+    "output_tokens": 875,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

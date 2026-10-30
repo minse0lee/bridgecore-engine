@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgYcHWt5zE2UJQRNUew6q",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P009\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"keep the others from this control panel\",\"tgt_span\":\"다른 사람이 다른 30 분 동안이 컨트롤 패널에서 유지할 수있다면\",\"description\":\"'others'가 주어가 되고 'keep A from B'(막다)의 의미가 사라져 '유지할 수 있다'로 왜곡됨. 누가 누구를 막는지 불분명함.\"},{\"id\":\"E002\",\"src_span\":\"another half hour\",\"tgt_span\":\"다른 30 분\",\"description\":\"'another'를 '다른'으로 오역해 '추가로 30분'의 의미가 사라지고, 'others'의 '다른'과 중복되어 혼란을 줌.\"},{\"id\":\"E003\",\"src_span\":\"the battle would be won\",\"tgt_span\":\"전투가 승리했다\",\"description\":\"가정적 결과('이길 것이다')가 과거 사실('승리했다')로 바뀌고, '전투가 승리했다'도 어색함.\"},{\"id\":\"E004\",\"src_span\":\"the computer could operate on his equations fully\",\"tgt_span\":\"컴퓨터는 완전히 자신의 방정식을 작동할 수 있으며\",\"description\":\"'his equations'가 '자신의'로 옮겨져 컴퓨터의 것처럼 읽히고, 'operate on'(방정식을 처리하다)이 '작동하다'로 부정확함.\"},{\"id\":\"E005\",\"src_span\":\"If he could ... the computer could ... and the battle would be won\",\"tgt_span\":\"컨트롤 패널에서 유지할 수있다면, 컴퓨터는 ... 할 수 있으며, 전투가 승리했다\",\"description\":\"조건-결과 연쇄가 흐트러지고 문장이 비문에 가까우며 띄어쓰기 오류('수있다면', '동안이')도 있음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"critical\",\"error_ids\":[\"E001\",\"E002\",\"E003\",\"E004\"],\"reason\":\"'막다'가 '유지하다'로, 'another half hour'가 '다른 30분'으로 바뀌고 결과 시제도 틀려 핵심 의미가 크게 왜곡됨.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E005\"],\"reason\":\"조건절과 결과절의 연결이 무너지고 문장이 비문이라 논리 흐름을 따라가기 어려움.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E003\",\"E005\"],\"reason\":\"승리를 위한 마지막 계획의 긴장감 있는 가정이 이미 일어난 사실처럼 읽혀 서사 기능이 훼손됨.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E003\"],\"reason\":\"'could/would'의 가능성·가정 양상이 사실 서술로 바뀌어 양태가 약해짐.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문으로 화자·청자 간 격식·관계 요소가 두드러지지 않음.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도적 요소가 없음.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 3260,
+    "inference_geo": "global",
+    "input_tokens": 782,
+    "output_tokens": 1157,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

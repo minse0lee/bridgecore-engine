@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgYcLF7PWf2o9ZpjVZGet",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P052\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Think for a minute you can put that kind of a game over on me?\",\"tgt_span\":\"나한테 그런 게임을 걸 수 있다고 생각해봐.\",\"description\":\"수사적 의문문(‘내가 그렇게 속아 넘어갈 거라 생각하느냐?’)을 명령문(‘생각해봐’)으로 옮겨 질문이 명령으로 바뀌고 분노·반문의 발화 기능이 사라졌다.\"},{\"id\":\"E002\",\"src_span\":\"put that kind of a game over on me\",\"tgt_span\":\"그런 게임을 걸 수 있다고\",\"description\":\"‘put a game over on’은 ‘속이다, 수작을 부리다’라는 관용 표현인데 ‘게임을 걸다’로 직역해 뜻이 불분명하다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"‘나를 속일 수 있다고 생각하느냐’는 뜻이 ‘게임을 걸 수 있다고 생각해봐’로 바뀌어 핵심 의미가 왜곡되었다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"앞 문장의 분노 어조와 이어지는 반문 구조가 끊겨 강조 흐름이 약해졌다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"상대를 질책하는 반문 발화가 단순한 지시처럼 읽혀 발화 기능이 달라졌다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"‘can’은 가능성·능력의 뜻이며 규범적 의미가 없다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"화자가 격분하여 윽박지르는 태도가 평이한 명령 어조로 약화되었다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"‘put a game over on’이라는 영어 관용 표현을 직역해 한국어 독자가 ‘속임수’의 함의를 파악하기 어렵다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 3260,
+    "inference_geo": "global",
+    "input_tokens": 635,
+    "output_tokens": 846,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

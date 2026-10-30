@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgYcGUD5FY5nX1BXHbfWx",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"the regents\",\"tgt_span\":\"섭정들\",\"description\":\"대학 이사회 구성원을 뜻하는 'regents'를 '섭정'으로 오역했다. 군주를 대신해 통치하는 섭정은 대학 맥락에 맞지 않으며 '이사들'이나 '평의원들'이 적절하다.\",\"severity\":\"major\"},{\"src_span\":\"the Council\",\"tgt_span\":\"위원회\",\"description\":\"대학 평의회를 가리키는 'the Council'을 일반적인 '위원회'로 옮겨 기관의 성격이 흐려졌다. 그러나 이는 대학 맥락에서 허용될 수 있는 수준이다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 608,
+    "output_tokens": 254,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

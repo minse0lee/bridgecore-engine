@@ -103,3 +103,16 @@ def test_make_report_and_tally_roundtrip(tmp_path):
     assert t["n_items"] == 5 and t["n_items_with_missed"] == 1
     assert t["missed_by_axis"] == {"Semantic": 1, "Cultural": 1}
     assert t["time_log"][0]["검토자"] == "R001"
+
+
+# ---------- 가이드라인 효과 비교 ----------
+def test_generic_validate_and_prf():
+    from bridgecore.baseline import validate
+    from bridgecore.guideline_effect import _prf, bootstrap_diff
+    assert validate({"errors": []}) == []
+    assert validate({"errors": [{"src_span": "a", "tgt_span": "b", "description": "의미가 바뀜", "severity": "big"}]})
+    gold = {"A": True, "B": False, "C": True, "D": False}
+    m = _prf({"A": True, "B": True, "C": False, "D": False}, gold, list(gold))
+    assert (m["tp"], m["fp"], m["fn"]) == (1, 1, 1) and abs(m["f1"] - 0.5) < 1e-9
+    obs, lo, hi, _ = bootstrap_diff([dict(gold)], [{"A": True, "B": True, "C": False, "D": False}], gold, list(gold), n=200)
+    assert abs(obs - 0.5) < 1e-9 and lo <= obs <= hi

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgYcJpVWtwrDJ5gmYzhyP",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P031\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"let alone support\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"'이해는커녕 지원은 말할 것도 없다'는 뜻의 let alone support 구문이 번역에서 빠졌다. 학교가 이해조차 준비되지 않았으므로 지원은 더 어렵다는 점층적 함의도 사라졌다.\"},{\"id\":\"E002\",\"src_span\":\"prepared to comprehend\",\"tgt_span\":\"이해하기 위해 항상 준비되어 있지는 않습니다\",\"description\":\"'이해할 준비가 되어 있다'는 뜻이 '이해하기 위해 준비되어 있다'로 바뀌어 목적 관계로 읽혀 어색하다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"지원(support)이라는 핵심 내용이 누락되었고 준비의 대상 표현도 어색하게 바뀌었다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"let alone가 만드는 이해에서 지원으로의 점층 강조 구조가 사라졌다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학교의 준비 부족을 지적하는 안내문의 문제 제기 기능은 유지된다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무나 허용 관련 내용이 없다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"격식 있는 안내문체(-ㅂ니다)가 유지된다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 특수 요소가 없다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 3260,
+    "inference_geo": "global",
+    "input_tokens": 965,
+    "output_tokens": 698,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

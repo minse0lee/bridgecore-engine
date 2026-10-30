@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgYcHRDm1Xy49qFrNq4yZ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P009\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"keep the others from this control panel\",\"tgt_span\":\"다른 사람이 다른 30 분 동안이 컨트롤 패널에서 유지할 수있다면\",\"description\":\"'others'가 주어가 되고 'keep A from B'(접근을 막다) 구문이 '유지할 수 있다'로 오역되어 행위자와 의미가 뒤바뀜. 그는 다른 사람들을 패널에서 막는다는 뜻이 사라짐.\"},{\"id\":\"E002\",\"src_span\":\"another half hour\",\"tgt_span\":\"다른 30 분\",\"description\":\"'another half hour'(앞으로 30분 더)가 '다른 30분'으로 오역되고 'half'가 숫자 30으로 바뀌어 '추가 시간' 의미가 흐려짐.\"},{\"id\":\"E003\",\"src_span\":\"the computer could operate on his equations fully\",\"tgt_span\":\"컴퓨터는 완전히 자신의 방정식을 작동할 수 있으며\",\"description\":\"'his equations'가 '자신의'로 옮겨져 컴퓨터의 방정식처럼 읽히고, 'operate on'(처리하다)이 '작동하다'로 어색하게 번역됨.\"},{\"id\":\"E004\",\"src_span\":\"the battle would be won\",\"tgt_span\":\"전투가 승리했다\",\"description\":\"가정 조건의 결과인 'would be won'(승리하게 될 것이다)이 과거 사실 '승리했다'로 번역되어 조건·가정 구조와 시제가 훼손됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"critical\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"핵심 동사구 'keep ... from'을 오역해 누가 무엇을 막는지가 뒤바뀌었고, 시간·방정식 관련 의미도 어긋남.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E004\"],\"reason\":\"조건절과 결과절의 논리 연결이 깨져 문장이 비문이 되었고, 결과절이 사실 서술처럼 읽힘.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E004\"],\"reason\":\"주인공이 계획을 지키려 하는 긴박한 조건 상황이라는 서사 기능이 전달되지 않음.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E004\"],\"reason\":\"could/would가 나타내는 가능·가정 양태가 '있다면 ... 승리했다'로 약화되거나 사실화됨.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 중립적 어조에는 큰 변화가 없음.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 특수 요소가 없음.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 3260,
+    "inference_geo": "global",
+    "input_tokens": 782,
+    "output_tokens": 1053,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

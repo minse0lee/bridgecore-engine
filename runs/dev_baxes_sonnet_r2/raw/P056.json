@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgYcLak5s2QxSrLMUYwRB",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P056\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Each student awarded a scholarship\",\"tgt_span\":\"장학금을 수여하는 각 학생은\",\"description\":\"'awarded'(수여받은, 수동)가 '수여하는'(능동)으로 번역되어 학생이 장학금을 주는 주체로 읽힘. 수혜자와 수여자의 관계가 뒤바뀜.\"},{\"id\":\"E002\",\"src_span\":\"a stipend of $1,500\",\"tgt_span\":\"$1,500의 장학금\",\"description\":\"stipend(생활비 지원금/수당)를 scholarship과 같은 '장학금'으로 옮겨 두 개념의 구분이 사라지고 동어반복이 됨.\"},{\"id\":\"E003\",\"src_span\":\"academic year of study\",\"tgt_span\":\"장학금이 수여되는 연도\",\"description\":\"'academic year of study'(학업 학년도)가 단순 '연도'로 축약되어 학사연도의 의미가 약해짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"'수여하는'으로 행위 주체가 뒤바뀌고 stipend가 장학금으로 합쳐졌으며 학사연도가 단순 연도로 축약됨.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"scholarship과 stipend의 구분이 사라져 '장학금…장학금'으로 반복되고 정보 관계가 흐려짐.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지급 조건을 알리는 안내 기능은 유지됨.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"누가 장학금을 받는 자격이 있는지가 '수여하는 학생'으로 바뀌어 수혜 주체가 왜곡됨.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-ㅂ니다' 체의 안내문 격식이 적절함.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 특유의 요소가 크게 손상되지 않았고 달러 표기도 유지됨.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 3260,
+    "inference_geo": "global",
+    "input_tokens": 623,
+    "output_tokens": 846,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

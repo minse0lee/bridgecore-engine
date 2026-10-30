@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgYcKKhBpQemrYgs6gXqj",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P038\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"made use of a raw number as well—three million jobs added in the previous year\",\"tgt_span\":\"전년도에 추가된 300만 개의 일자리에 대해서도 원수치를 사용했습니다\",\"description\":\"원문은 원수치 '300만 개 일자리 추가'를 제시한 것이지만, 번역은 '일자리에 대해 원수치를 사용했다'로 바꿔 수치의 내용이 어색해졌다. 다만 의미 전달에는 큰 지장이 없는 경미한 문제다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물, 상자 번호, 300만 개 일자리, 전년도, 원수치 사용 등 핵심 내용이 모두 유지되었다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'also'가 '도'로, 대시 뒤 보충 설명이 관형절로 자연스럽게 통합되어 정보 연결이 유지된다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재에서 예시를 제시하여 설명하는 기능이 그대로 유지된다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무나 허용 표현이 없는 서술 문장이다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재 본문에 맞는 '-했습니다' 격식체를 사용했다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도적으로 특별히 평가할 요소가 없다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 3260,
+    "inference_geo": "global",
+    "input_tokens": 1063,
+    "output_tokens": 653,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

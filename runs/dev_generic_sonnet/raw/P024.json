@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgYcDwkwQHnFrHB7VJvEg",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"the schedule, color palette, and techniques necessary for painting the scenery\",\"tgt_span\":\"TD와 장면 디자이너, 일정, 색상 팔레트, 그리고 풍경 페인팅에 필요한 기술과 함께 창조하고 개발하는\",\"description\":\"'along with the TD and the Scene Designer'가 일정·팔레트·기술과 같은 나열 항목처럼 번역되어 문장 구조가 무너졌다. 창조·개발의 대상(일정, 팔레트, 기술)과 함께 작업하는 사람(TD, 디자이너)의 관계가 불분명해 의미가 왜곡됐다. 'creates and develops'의 목적어가 빠진 채 어순이 뒤섞였다.\",\"severity\":\"major\"},{\"src_span\":\"charge artist\",\"tgt_span\":\"충전 아티스트\",\"description\":\"'charge'를 '충전'(배터리 충전 등)으로 직역했다. 'Scenic Charge Artist'는 무대 도장 책임자를 뜻하는 직책이므로 '책임 아티스트' 또는 '도장 책임자' 등으로 옮겨야 한다.\",\"severity\":\"major\"},{\"src_span\":\"Scene Designer\",\"tgt_span\":\"장면 디자이너\",\"description\":\"무대 분야 용어인 'Scene Designer'를 '장면 디자이너'로 직역했다. '무대 디자이너'가 적절하다.\",\"severity\":\"minor\"},{\"src_span\":\"It is the charge artist who\",\"tgt_span\":\"그것은 ... 충전 아티스트입니다\",\"description\":\"강조 분열문을 '그것은 ~입니다'로 직역해 어색하다. 또한 주변 문장의 '~이다' 평서체와 달리 '~입니다' 문체가 섞여 일관성이 없다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 1110,
+    "output_tokens": 644,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

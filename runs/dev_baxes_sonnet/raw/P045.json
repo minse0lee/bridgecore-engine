@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgYcKywp75c9kfRwVi6nw",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P045\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the waste side of a marked line\",\"tgt_span\":\"표시된 선의 폐기물 쪽\",\"description\":\"'waste side'는 잘려 나가 버려질 재료 쪽이라는 목공 용어인데 '폐기물 쪽'으로 직역해 의미가 불분명하다. '버리는 쪽(폐재 쪽)' 등이 더 적절하다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"'waste side'를 '폐기물 쪽'으로 직역해 버려질 재료 쪽이라는 의미가 약간 흐려졌으나 대체로 이해 가능하다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"목적절과 주절의 연결, 'always'의 강조가 그대로 유지되었다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학습자에게 올바른 절단 방법을 안내하는 설명·지시 기능이 유지되었다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'should always'가 '항상 ~해야 합니다'로 같은 강도의 권고·의무로 옮겨졌다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재에 맞는 합니다체 격식이 유지되었다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도적으로 특화된 요소가 없다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 3260,
+    "inference_geo": "global",
+    "input_tokens": 806,
+    "output_tokens": 616,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

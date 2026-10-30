@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgYcLXKTTMZpwgfKc5irY",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P054\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"9 hours of regular coursework\",\"tgt_span\":\"9시간의 정규과목\",\"description\":\"'hours'는 학점 시간(credit hours)인데 '9시간'으로 옮겨 실제 수업 시간처럼 읽힐 수 있다. 다만 문맥상 큰 오해는 아니다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"'hours'를 학점 개념 없이 '시간'으로 옮겨 약간 부정확하지만 핵심 내용(정규 9, 보충 제외)은 전달된다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'마찬가지로', '~했지만'으로 대조와 연결 구조가 유지된다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"예시를 설명하는 안내 기능이 그대로 유지된다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'제외된다'는 계산 규칙이 원문과 같은 의미로 전달된다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"안내문에 맞는 평서 존대체 '-ㅂ니다'가 유지된다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"미국 제도 용어를 한국 제도로 바꾸지 않았고 문화적 왜곡이 없다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 3260,
+    "inference_geo": "global",
+    "input_tokens": 1946,
+    "output_tokens": 598,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

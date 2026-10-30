@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgYcEcJw3vmaYwJgVLaV6",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"contributing to the effusion that must be stopped\",\"tgt_span\":\"막아야 할 액체 축적에 기여하는 지속적인 출혈\",\"description\":\"관계절 수식 관계가 잘못됨. 원문에서 'that must be stopped'는 출혈(bleeding)을 수식하는데, 번역문에서는 '막아야 할'이 '액체 축적'을 수식하는 것처럼 읽혀 의미가 왜곡됨. 멈춰야 할 대상은 출혈임.\",\"severity\":\"major\"},{\"src_span\":\"the effusion\",\"tgt_span\":\"액체 축적\",\"description\":\"'effusion'(삼출액/흉막삼출)을 '액체 축적'으로 옮겨 앞 문장의 '흉막액'과 용어가 일치하지 않고 의학 용어로서 부정확함.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 1387,
+    "output_tokens": 309,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

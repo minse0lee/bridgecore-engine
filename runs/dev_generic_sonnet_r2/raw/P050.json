@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgYcK8XxsE8BPakwR7Yk6",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"Use local resources to view structures of the reproductive system.\",\"tgt_span\":\"로컬 리소스를 사용하여 생식계의 구조를 볼 수 있습니다.\",\"description\":\"원문은 학습자에게 자료를 사용해 보라고 지시하는 명령문인데, 번역문은 가능을 나타내는 평서문('볼 수 있습니다')으로 바뀌어 학습 지시가 사라졌다.\",\"severity\":\"major\"},{\"src_span\":\"local resources\",\"tgt_span\":\"로컬 리소스\",\"description\":\"'local resources'는 학습자가 속한 지역이나 소속 기관에서 이용할 수 있는 자료(교내 모형, 표본, 도서관 자료 등)를 뜻하는데, '로컬 리소스'로 음차해 컴퓨터 로컬 저장소처럼 읽힐 수 있고 자연스럽지 않다. '지역 자료'나 '주변에서 이용할 수 있는 자료' 등이 적절하다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 487,
+    "output_tokens": 367,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

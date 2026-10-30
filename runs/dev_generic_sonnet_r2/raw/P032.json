@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgYcJCyLrUnC9V1K6cH7A",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"postsecondary vocational institution\",\"tgt_span\":\"중등 직업 교육 기관\",\"description\":\"'postsecondary'는 고등학교 졸업 이후 단계(중등 이후)를 뜻하는데 '중등'으로 옮겨 정반대 의미가 되었습니다. '중등 후 직업 교육 기관' 또는 '고등학교 졸업 후 직업 교육 기관'이어야 합니다.\",\"severity\":\"major\"},{\"src_span\":\"nondegree recognized credential\",\"tgt_span\":\"학위가 인정되지 않는 자격증\",\"description\":\"'nondegree'는 '학위 과정이 아닌'이라는 뜻이고 'recognized'는 '공인된'을 뜻합니다. 번역문은 '학위가 인정되지 않는 자격증'이라 하여 수식 관계가 틀렸고 의미가 왜곡되었습니다. '학위가 아닌 공인된 자격'이어야 합니다.\",\"severity\":\"major\"},{\"src_span\":\"less than an academic year in length\",\"tgt_span\":\"학년 길이보다 짧은 프로그램\",\"description\":\"'academic year'는 미국 학사 규정상 정해진 '학사 연도' 기준 기간인데 '학년 길이'로 옮겨 부자연스럽고 모호합니다.\",\"severity\":\"minor\"},{\"src_span\":\"a certificate or other nondegree recognized credential\",\"tgt_span\":\"인증서 또는 기타 학위가 인정되지 않는 자격증을 제공함으로써\",\"description\":\"'lead to'(~로 이어지는)를 '제공함으로써'로 옮겨 프로그램이 수료증/자격으로 이어진다는 관계가 사라졌습니다. 또 'certificate'를 '인증서'로 옮긴 것도 어색합니다. '수료증'이 자연스럽습니다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 820,
+    "output_tokens": 657,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
