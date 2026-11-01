@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgcYSv4uQn45viJ6kgFq4",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P030\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"(then giving Washington the benefit of her doubts of climate)\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"부인이 당시 워싱턴에 머물며 그곳 기후에 대한 의구심을 접어 두고 있었다는 삽입 설명이 통째로 누락됨\"},{\"id\":\"E002\",\"src_span\":\"perfectly correct visiting card\",\"tgt_span\":\"완전히 정확한 명함\",\"description\":\"사교 관습에 맞는 격식을 갖춘 명함이라는 뜻의 correct가 '정확한'으로 옮겨져 사실의 정확성처럼 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"부인이 워싱턴에 머물며 기후에 대한 의구심을 접어 두고 있었다는 부가 정보가 빠졌고, correct가 '정확한'으로 옮겨졌으나 핵심 사건(명함을 받고 놀람)은 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Notwithstanding 연결과 명함에 새겨진 내용을 소개하는 구조가 유지됩니다. 삽입구의 누락은 내용 변화로 Semantic에서 다룹니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"사교 예법에 맞는 명함이 뜻밖이었다는 서술의 아이러니 기능이 '정확한 명함'에서는 약해져 놀람의 이유가 덜 분명합니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 평서체 문어체가 유지되고 '씨' 호칭도 명함의 Mr.에 대응합니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"격식에 맞는 방문용 명함이라는 사교 관습상의 의미가 '정확한'으로 바뀌어 관습적 함의가 약해졌습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 9045,
+    "inference_geo": "global",
+    "input_tokens": 757,
+    "output_tokens": 875,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

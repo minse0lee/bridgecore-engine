@@ -37,7 +37,7 @@ def compare_versions(pairs: dict[str, tuple[list[Path], list[Path]]], gold: dict
     """pairs: {구성 이름: ([이전 버전 실행들], [새 버전 실행들])}"""
     f = lambda x: "-" if x is None else f"{x:.2f}"
     lines = [f"# 프롬프트 버전 비교 ({name})", "",
-             f"- 정답: {_gold_desc(gold)}. 개발용 40문항 × 6축 = 240칸",
+             f"- 정답: {_gold_desc(gold)}. {len(ids)}문항 × 6축 = {len(ids) * 6}칸",
              "- 반복 실행이 있으면 평균. 오탐(FP)·놓침(FN)은 칸 수", ""]
     case_rows = []
     for label, (old_runs, new_runs) in pairs.items():

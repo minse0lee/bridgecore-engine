@@ -1,10 +1,10 @@
 {
-  "id": "msg_011CgcYRj6pEo3yuhNh3JvB6",
+  "id": "msg_011CgcYUD3t4Fje7BHa7mdPS",
   "container": null,
   "content": [
     {
       "citations": null,
-      "text": "{\"item_id\":\"P015\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Let your child take a short break\",\"tgt_span\":\"귀하의 자녀가 짧은 휴식을 취할 수 있습니다\",\"description\":\"\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"\"}, \"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"\"}}}",
+      "text": "{\"item_id\":\"P015\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Let your child take a short break\",\"tgt_span\":\"귀하의 자녀가 짧은 휴식을 취할 수 있습니다\",\"description\":\"부모에게 휴식을 허용하라고 하는 지시가 자녀가 휴식을 취할 수 있다는 가능성 설명으로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"keeping her mind on an assignment\",\"tgt_span\":\"그녀의 마음을 지키는 데\",\"description\":\"과제에 집중하기가 '마음을 지키는' 것으로 바뀌어 과제 대상이 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: '과제에 집중하기 어려움'이 '그녀의 마음을 지키는 데 어려움'으로 바뀌어 휴식이 필요한 조건이 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: 번역문에서 '그녀'가 누구인지 불분명하며, 조건절의 주어가 '자녀'와 분리되어 가리키는 대상이 알기 어렵게 되었습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"부모에게 자녀에게 휴식을 허용하라는 권고·지시 → 자녀가 휴식을 취할 수 있다는 가능성 설명.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2: 부모에게 허용하라는 규범적 권고가 사라지고, 규범을 받는 주체(부모)도 자녀로 바뀌어 단순 가능성처럼 읽힙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'귀하'와 '-ㅂ니다' 안내체로 공식적인 안내문 격식이 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
       "type": "text"
     }
   ],
@@ -24,7 +24,7 @@
     "cache_read_input_tokens": 14219,
     "inference_geo": "global",
     "input_tokens": 645,
-    "output_tokens": 314,
+    "output_tokens": 841,
     "output_tokens_details": {
       "thinking_tokens": 0
     },

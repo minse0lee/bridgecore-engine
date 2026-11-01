@@ -1,10 +1,10 @@
 {
-  "id": "msg_011CgcYSjUB2pxViiJkTwpHN",
+  "id": "msg_011CgcYU256CdDYZ5SUdzeq5",
   "container": null,
   "content": [
     {
       "citations": null,
-      "text": "{\"item_id\":\"P015\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Let your child take a short break\",\"tgt_span\":\"귀하의 자녀가 짧은 휴식을 취할 수 있습니다\",\"description\":\"x\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"x\"}, \"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"x\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"x\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"x\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"x\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"x\"}}}",
+      "text": "{\"item_id\":\"P015\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Let your child take a short break\",\"tgt_span\":\"귀하의 자녀가 짧은 휴식을 취할 수 있습니다\",\"description\":\"부모에게 자녀가 쉬게 하라는 권고(Let)가 자녀가 휴식을 취할 수 있다는 단순 가능·허용 서술로 바뀌어 부모의 행동 지시가 사라짐\"},{\"id\":\"E002\",\"src_span\":\"if she is having trouble keeping her mind on an assignment\",\"tgt_span\":\"그녀는 그녀의 마음을 지키는 데 어려움이 있다면\",\"description\":\"'keeping her mind on'(과제에 집중하다)이 '마음을 지키다'로 오역되고 과제(an assignment)가 누락되어 집중 곤란이라는 조건이 달라짐\"},{\"id\":\"E003\",\"src_span\":\"if she is having trouble…\",\"tgt_span\":\"그녀는 그녀의 마음을 지키는 데 어려움이 있다면 귀하의 자녀가\",\"description\":\"조건절의 주어 'she'가 '그녀는'으로 직역되고 주절 주어와 분리되어 자녀를 가리키는 지시 관계가 불분명해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"'집중하기 어려움'이 '마음을 지키는 어려움'으로 바뀌고 과제가 빠졌으며, 부모가 쉬게 해 준다는 행위가 자녀가 쉴 수 있다는 서술로 바뀌었습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"조건절의 '그녀'와 주절의 '귀하의 자녀'가 같은 대상이라는 지시 연결이 번역문에서 분명하지 않습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"자녀가 힘들어할 때 쉬게 하라고 부모에게 권하는 안내 기능이 단순한 가능 서술로 약해졌습니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"부모에게 휴식을 허용하라는 규범적 권고(Let)가 부모의 역할 없이 자녀의 가능성('취할 수 있습니다')으로 바뀌어 권고 주체와 내용이 사라졌습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"부모를 '귀하'로 부르고 '-습니다'체를 써서 안내문의 공손한 격식이 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
       "type": "text"
     }
   ],
@@ -24,7 +24,7 @@
     "cache_read_input_tokens": 9045,
     "inference_geo": "global",
     "input_tokens": 645,
-    "output_tokens": 327,
+    "output_tokens": 1068,
     "output_tokens_details": {
       "thinking_tokens": 0
     },

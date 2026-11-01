@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgcYTANNmSEyz2XANVygx",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P037\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"overbearing\",\"tgt_span\":\"압도적으로\",\"description\":\"'overbearing'은 '고압적이고 강요하는 듯한, 지나치게 권위적인'이라는 부정적 뜻인데, '압도적으로'는 '규모나 힘이 압도하는' 뜻이라 이론이 주는 인상의 성격이 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"'overbearing'(고압적·강요하는 듯함)이 '압도적'(압도하는 규모·힘)으로 옮겨져 이론에 대한 부정적 인상의 성격이 달라졌지만, 이론이 부담스럽게 보일 수 있다는 큰 흐름은 남아 있습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'다른 경우에'가 앞 문장과의 병렬 연결을 유지하며 주어와 서술 구조도 같습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"이론이 학습자에게 어떻게 보일 수 있는지 설명하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"may seem의 may는 가능성을 나타내며 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재의 설명체가 '~습니다'로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 9045,
+    "inference_geo": "global",
+    "input_tokens": 969,
+    "output_tokens": 673,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
