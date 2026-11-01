@@ -84,7 +84,7 @@ def run_comparison(families: dict[str, dict], gold: dict, ids: list[str], report
     """families: {이름: {"kind": "engine"|"generic", "runs": [Path, ...], "note": str}}"""
     sg = sentence_gold(gold, ids)
     n_pos = sum(sg.values())
-    lines = ["# 가이드라인 효과 비교 (개발용 40문항, 프롬프트 v0·v1)", "",
+    lines = ["# 가이드라인 효과 비교 (개발용 40문항, 프롬프트 v0·v1·v1.1)", "",
              f"- 정답: 평가자 3명 다수결 임시 정답 (합의 전). 문장 단위 정답 = 여섯 축 중 하나라도 다수결 훼손 → "
              f"{len(ids)}문장 중 {n_pos}문장이 훼손, {len(ids) - n_pos}문장이 훼손 없음",
              "- 모든 방식이 같은 모델·같은 문항 정보(문서정보·평가조건·문단 문맥·그림)를 받는다. 바뀌는 것은 시스템 프롬프트뿐",
@@ -122,6 +122,7 @@ def run_comparison(families: dict[str, dict], gold: dict, ids: list[str], report
     lines += ["## 2. 차이의 신뢰구간 (문장 단위 F1, 쌍 부트스트랩 5,000회)", "",
               "| 비교 | 차이 | 95% 구간 | 차이가 0 이하인 비율 |", "|---|---|---|---|"]
     pairs = [(a, b) for a, b in [
+        ("엔진 v1.1 (Sonnet)", "엔진 v0 (Sonnet)"), ("엔진 v1.1 2단계", "엔진 v0 2단계"),
         ("엔진 v1 (Sonnet)", "엔진 v0 (Sonnet)"), ("엔진 v1 (Haiku)", "엔진 v0 (Haiku)"),
         ("엔진 v1 2단계", "엔진 v0 2단계"), ("엔진 v1 (Sonnet)", "일반 프롬프트 (Sonnet)"),
         ("엔진 v0 (Sonnet)", "일반 프롬프트 (Sonnet)"), ("엔진 v0 (Haiku)", "일반 프롬프트 (Haiku)"),
@@ -178,7 +179,9 @@ def run_comparison(families: dict[str, dict], gold: dict, ids: list[str], report
             f.append(2 * tp / (2 * tp + fp + fn) if tp + fp + fn else 0)
         return sum(f) / len(f)
 
-    ax_pairs = [(a, b) for a, b in [("엔진 v1 (Sonnet)", "엔진 v0 (Sonnet)"), ("엔진 v1 (Haiku)", "엔진 v0 (Haiku)"),
+    ax_pairs = [(a, b) for a, b in [("엔진 v1.1 (Sonnet)", "엔진 v0 (Sonnet)"), ("엔진 v1.1 (Sonnet)", "엔진 v1 (Sonnet)"),
+                                     ("엔진 v1.1 2단계", "엔진 v0 2단계"), ("엔진 v1.1 (Haiku)", "엔진 v0 (Haiku)"),
+                                     ("엔진 v1 (Sonnet)", "엔진 v0 (Sonnet)"), ("엔진 v1 (Haiku)", "엔진 v0 (Haiku)"),
                                      ("엔진 v1 2단계", "엔진 v0 2단계"), ("엔진 v0 (Sonnet)", "축 이름만 (Sonnet)"), ("엔진 v0 (Haiku)", "축 이름만 (Haiku)")]
                 if a in cell_preds and b in cell_preds]
     if ax_pairs:

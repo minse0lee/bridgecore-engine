@@ -318,6 +318,9 @@ def cmd_effect(args):
     gold = G.build_gold(load_all()[1])
     R = ROOT / "runs"
     fam = {
+        "엔진 v1.1 2단계": ("engine", "Haiku→Sonnet", ["dev_v1_1_screen__cascade"]),
+        "엔진 v1.1 (Sonnet)": ("engine", "Sonnet 5.5", ["dev_v1_1_sonnet", "dev_v1_1_sonnet_r2"]),
+        "엔진 v1.1 (Haiku)": ("engine", "Haiku 5.5", ["dev_v1_1_haiku", "dev_v1_1_haiku_r2"]),
         "엔진 v1 2단계": ("engine", "Haiku→Sonnet", ["dev_v1_screen__cascade"]),
         "엔진 v1 (Sonnet)": ("engine", "Sonnet 5.5", ["dev_v1_sonnet", "dev_v1_sonnet_r2"]),
         "엔진 v1 (Haiku)": ("engine", "Haiku 5.5", ["dev_v1_haiku", "dev_v1_haiku_r2"]),
@@ -343,11 +346,15 @@ def cmd_vcompare(args):
     gold = G.build_gold(load_all()[1])
     R = ROOT / "runs"
     pick = lambda names: [R / n for n in names if (R / n / "outputs.jsonl").exists()]
-    pairs = {
-        "2단계 (Haiku 선별 → Sonnet)": (pick(["dev_screen__cascade"]), pick(["dev_v1_screen__cascade"])),
-        "Sonnet 단독": (pick(["dev_sonnet", "dev_sonnet_r2"]), pick(["dev_v1_sonnet", "dev_v1_sonnet_r2"])),
-        "Haiku 단독": (pick(["dev_haiku", "dev_haiku_r2"]), pick(["dev_v1_haiku", "dev_v1_haiku_r2"])),
-    }
+
+    def runs(v):
+        p = "dev_" if v == "v0" else f"dev_{v}_"
+        casc = "dev_screen__cascade" if v == "v0" else f"dev_{v}_screen__cascade"
+        return {"2단계 (Haiku 선별 → Sonnet)": pick([casc]),
+                "Sonnet 단독": pick([p + "sonnet", p + "sonnet_r2"]),
+                "Haiku 단독": pick([p + "haiku", p + "haiku_r2"])}
+    o, n = runs(args.old), runs(args.new)
+    pairs = {k: (o[k], n[k]) for k in o}
     # 수안님이 기준 확인(D1~D8, 11/1)에서 판정을 확정한 개발용 칸 — 민감도 확인용
     T = True
     overrides = {("P049", "Semantic"): T, ("P046", "Context"): T, ("P039", "Textual"): T,
@@ -355,7 +362,8 @@ def cmd_vcompare(args):
                  ("P045", "Semantic"): T, ("P045", "Deontic"): T, ("P014", "Cultural"): T,
                  ("P043", "Cultural"): T, ("P050", "Semantic"): False, ("P053", "Context"): False,
                  ("P006", "Cultural"): False, ("P007", "Cultural"): False}
-    compare_versions({k: v for k, v in pairs.items() if v[0] and v[1]}, gold, ids, REPORTS, overrides=overrides)
+    compare_versions({k: v for k, v in pairs.items() if v[0] and v[1]}, gold, ids, REPORTS,
+                     name=f"{args.new}_vs_{args.old}_dev", overrides=overrides)
 
 
 def cmd_poc(args):
@@ -460,7 +468,8 @@ def main(argv=None):
     s.add_argument("--workers", type=int, default=4); s.add_argument("--live", action="store_true")
     s.set_defaults(fn=cmd_generic)
     sub.add_parser("effect").set_defaults(fn=cmd_effect)
-    sub.add_parser("vcompare").set_defaults(fn=cmd_vcompare)
+    s = sub.add_parser("vcompare"); s.add_argument("--old", default="v0"); s.add_argument("--new", default="v1")
+    s.set_defaults(fn=cmd_vcompare)
     s = sub.add_parser("poc"); s.add_argument("run_dir")
     s.add_argument("--items-file", help="실행 때 쓴 문항 jsonl (기본: meta.json의 items_source)")
     s.add_argument("--title"); s.add_argument("--note", help="보고서 맨 위 안내에 넣을 한 줄")
