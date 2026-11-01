@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgbqaZY5BubFaRcWaoupt",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P031\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"comprehend—let alone support—the difficulties and experiences\",\"tgt_span\":\"이해하기 위해\",\"description\":\"'let alone support'(이해는커녕 지원은 더더욱)가 번역문에 대응 구간 없이 누락되어 지원 준비 부족이 사라지고, '이해하기 위해'라는 목적 표현이 되어 준비 부족의 대상이 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 학교가 난민 학생의 어려움을 이해하는 것은 물론 지원할 준비도 안 되어 있다는 'support' 내용이 빠져, 번역문만 읽으면 이해에 대한 준비 부족만 말하는 것으로 읽힙니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3: let alone이 만드는 '이해도 못 하는데 지원은 더욱 못 한다'는 초점·범위 관계가 사라졌습니다. 질문 2: 'However'는 '그러나'로 대조 연결이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학교의 준비 부족을 설명하는 진술 → 같은 설명 기능으로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없고 현황을 서술하는 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식적인 안내문의 '~습니다' 체가 유지되어 독자 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"판정할 문화 고유의 제도·단위·관습이 없고 인용 표기만 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 965,
+    "output_tokens": 757,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

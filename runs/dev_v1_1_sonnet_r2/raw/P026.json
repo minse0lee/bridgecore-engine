@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgbqaRHycmzsDZUE6x4wk",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P026\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"you have time to fill me in on some of the details\",\"tgt_span\":\"나에게 몇 가지 세부사항을 알려줄 시간이 있다고 생각한다\",\"description\":\"주어 'you'가 번역문에서 드러나지 않아 시간이 있는 사람이 불명확해지고, 'some of the details'가 '몇 가지 세부사항'으로 옮겨졌으나 의미 변화는 없음. 다만 주어 생략은 한국어에서 자연스러워 의미 오류가 아님.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'나에게 알려줄 시간이 있다고 생각한다'는 문맥상 상대(당신)가 시간이 있다는 뜻으로 읽히며, 인물·행위·대상·확실성(I think)이 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'나에게'가 화자 me를 가리키고 생략된 주어 you는 문맥상 복원되어 지시 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"완곡하게 설명을 요청하는 발화 → 설명을 요청하는 발화. 시간이 있다고 말하며 알려 달라는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 개인적 부탁이며 의무·허가·금지를 정하는 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"장군이 보고자(부하로 보임)에게 하는 말로 번역문은 반말 평서체('~한다')인데, 장군과 상대의 관계(상하 여부, 친밀도) 확인이 필요합니다. 같은 문단 번역이 '~어'와 '~한다'를 섞어 쓰고 있어 일관된 기준을 판단하기 어렵습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 661,
+    "output_tokens": 850,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgbqhCMYqRSKAc7rcoyVx",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P053\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I must not cry\",\"tgt_span\":\"나는 울지 않아도 됩니다\",\"description\":\"자기 금지(must not)가 비의무(-않아도 된다)로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"floods of scalding tears\",\"tgt_span\":\"뜨거운 눈물이 흐르고 있습니다\",\"description\":\"'floods of'(홍수 같은 많은 양)가 번역에서 빠져 눈물의 양과 규모가 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1(수량): 'floods of'의 엄청난 양이 번역에서 빠져 눈물의 양 표현이 사라졌으나, 눈물이 마르지 않는다는 핵심 사실은 남아 minor입니다. must not의 변화는 Deontic에서만 다룹니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'And yet'가 '그러나'로 대조 관계를 유지하고, 지시 대상과 초점 표현도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기도 속 화자의 고백·탄식 → 고백·탄식. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 화자가 스스로에게 거는 금지(must not cry)가 '울지 않아도 됩니다'라는 비의무로 바뀌어 규범 범주가 달라졌고, 독자가 화자의 억제 의지를 반대로 이해하게 됩니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"주님께 드리는 기도에서 '~습니다' 격식체와 '주님' 호칭이 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'O Lord'(주님)는 일반적인 기도 호칭이며, 별도로 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 835,
+    "output_tokens": 837,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgbqbdKoWtvBQgWqMwsbG",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P049\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"this should show you\",\"tgt_span\":\"이것은 당신이 … 보여줄 것이다\",\"description\":\"예상의 should('~할 것이다/~일 것이다')를 '보여줄 것이다'로 옮겨 확실성이 단정에 가깝게 약간 달라졌으나, 핵심 사실은 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"눈빛이 전하는 내용(이 일이 배가 생각만큼 좋지 않음을 보여준다)이 유지됩니다. should를 '~것이다'로 옮긴 것은 예상의 통상적 대응이며 확실성의 의미 있는 변화로 보기 어렵습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"this가 가리키는 대상과 'you'(당신), 'as good as you think'의 비교 관계가 유지되어 지시·연결·초점 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"눈빛에 담긴 속마음을 서술하는 기능 → 눈빛에 담긴 속마음을 서술하는 기능으로 같은 종류입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 should는 예상을 나타내며 의무·허가·금지 같은 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"스킵이 불에게 보내는 속마음을 서술하는 평서체가 서술 상황에 맞고, 비꼬거나 자신하는 태도도 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 720,
+    "output_tokens": 732,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

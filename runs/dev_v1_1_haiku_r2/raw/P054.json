@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgbqdADhPssa3C5tXu86k",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P054\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the remedial work is excluded\",\"tgt_span\":\"보충 과목은 제외됩니다\",\"description\":\"원문의 remedial work(보충 활동)를 '보충 과목'(과목/수업)으로 옮겨 그림의 remedial work(3시간·6시간 상당)가 과목 단위로 읽힐 수 있으나, 제외된다는 핵심 내용과 대상은 유지됨. 실질적 의미 차이는 크지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"9시간 정규과목, 학기별 반복, 보충 활동 제외라는 사태가 원문과 같습니다. remedial work를 '과목'으로 옮긴 것은 용어 선택 차이로 제외 대상과 제외 결과는 동일합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"마찬가지로(Similarly)와 while의 대조·병렬 관계가 '~지만'으로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"예시 설명 → 예시 설명. 사례를 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범적 의무·허가·금지 표현이 없는 사례 서술이며 계산 예시이므로 N/A입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내문의 '~습니다' 격식체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학기·시간 단위와 학기제 구조를 그대로 유지하고 한국 학제로 대체하지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-haiku-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1946,
+    "output_tokens": 704,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

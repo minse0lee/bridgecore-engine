@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgbqac7c8WTHEP8AFZaNE",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P032\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"postsecondary vocational institution\",\"tgt_span\":\"중등 직업 교육 기관\",\"description\":\"postsecondary(중등 이후, 고등 교육 이후 단계)가 '중등'으로 옮겨져 교육 단계가 반대로 바뀜. 미국 제도상의 기관 분류명이 잘못 전달됨\"},{\"id\":\"E002\",\"src_span\":\"lead to a certificate or other nondegree recognized credential\",\"tgt_span\":\"인증서 또는 기타 학위가 인정되지 않는 자격증을 제공함으로써\",\"description\":\"'학위가 아닌 인정된 자격'이 '학위가 인정되지 않는 자격증'으로 읽혀 nondegree 수식 관계가 바뀜. '이어지는(lead to)'이 '제공'으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(대상): postsecondary가 '중등'으로 바뀌어 기관 유형이 달라졌고, 학위 아닌 인정된 자격이 '학위가 인정되지 않는 자격증'으로 읽혀 대상이 달라졌습니다. 독자가 기관 유형 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Although가 '-지만'으로 대조 관계를 유지하고, by offering은 '-함으로써'로 방법 관계를 유지하며 also는 '-ㄹ 수도'로 초점이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"제도 설명 → 제도 설명. 기관 자격 가능성을 설명하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"can은 기관이 자격을 갖출 수 있는 가능성을 설명할 뿐 의무·허가·금지를 정하는 규범 표현이 아니라 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내문의 '-습니다' 설명체가 유지되어 독자 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2: 미국 제도의 기관 분류인 postsecondary vocational institution이 '중등 직업 교육 기관'으로 옮겨져 한국의 중등 직업학교 같은 다른 제도로 읽히므로 제도적 의미가 전달되지 않습니다. 학교·교육기관의 자격 분류를 이해해야 하는 독자에게 영향을 줍니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 995,
+    "output_tokens": 1043,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgbqccmMC7Pamp7LPCNbx",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P031\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"comprehend—let alone support—the difficulties and experiences\",\"tgt_span\":\"난민 학생들의 어려움과 경험을 이해하기 위해\",\"description\":\"'let alone support'(지원은 말할 것도 없고)가 번역에서 누락되어 '지원'이 사라지고, 이해보다 지원이 더 어렵다는 초점 관계도 사라짐. 또한 'prepared to comprehend'가 '이해하기 위해 준비되어'로 옮겨져 목적 관계처럼 읽힘.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 교육자들이 준비되어 있지 않은 대상 중 '지원(support)'이 빠져, 이해조차 못 하는 수준이라는 내용이 이해 준비 부족만 말하는 것으로 달라져 요지가 바뀝니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(초점·범위): let alone가 만드는 '이해는커녕 지원은 더더욱'이라는 점층적 초점 구조가 사라졌습니다. 'However'→'그러나'의 대조 연결은 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"현황 설명 → 현황 설명. 학교의 준비 부족을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없고 준비 상태를 서술하는 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내문의 '~습니다' 서술체가 유지되어 독자 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"판정할 문화 고유의 제도·단위·관습이 없고 인용 표기만 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 965,
+    "output_tokens": 797,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

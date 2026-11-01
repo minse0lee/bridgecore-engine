@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgbqgp7LE5sVEUw18psft",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P046\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"What a superior attitude, thought Clyde!\",\"tgt_span\":\"클라이드는 이것이 얼마나 우월한 태도인가 생각했다.\",\"description\":\"인물(상대)의 우월한 태도에 대한 클라이드의 감탄(반응)이 '얼마나 ~인가 생각했다'로 옮겨져 감탄 어조가 약해지고 서술 형식이 되었으나 내용은 유지됨(의미 변화 없음)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"클라이드가 상대의 우월한 태도에 대해 생각했다는 내용(인물·행위·대상)이 유지됩니다. 'this'가 'attitude'로 명시된 정도의 차이일 뿐입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'이것'이 앞 문장들에서 서술된 상대의 태도를 가리키는 지시 관계가 유지되고 연결 관계 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물의 속마음을 드러내는 감탄·평가 서술 → 인물의 속마음을 드러내는 평가 서술. 같은 종류의 기능입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 지문의 '-했다' 서술체가 유지되며 우월한 태도에 대한 클라이드의 빈정대는 태도도 '얼마나 우월한 태도인가'로 남아 있습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 661,
+    "output_tokens": 750,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

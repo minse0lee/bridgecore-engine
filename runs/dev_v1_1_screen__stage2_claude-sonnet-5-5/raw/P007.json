@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgbqfRbikErgYH9MV5eYt",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P007\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"there were times when the hump in his back became greater than ever before\",\"tgt_span\":\"그의 등의 혹이 그 어느 때보다도 커지고\",\"description\":\"'때때로(there were times when) 혹이 더 커졌다'는 간헐적 시간 한정이 사라지고 혹이 계속 커지는 것으로 읽힘\"},{\"id\":\"E002\",\"src_span\":\"in fits of weeping\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"'울음의 발작 중에'라는 울음 발작 상황 표현이 누락됨\"},{\"id\":\"E003\",\"src_span\":\"three or four feet\",\"tgt_span\":\"3 ~ 4 피트 ( 1 ~ 2 미터 )\",\"description\":\"원문에 없는 미터 환산 병기가 첨가됨. 환산값은 대략 맞아 의미는 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(시간·행위): '혹이 커진 때가 있었다'는 간헐성이 사라지고 '울음 발작 중'이라는 상황이 누락됐으나, 핵심 사건(강 수위 변동, 혹 커짐, 눈물로 범람)은 유지되어 요지는 크게 다르지 않습니다. 환산 병기(E003)는 의미를 바꾸지 않아 훼손 근거로 보지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-했을 때'의 시간 연결과 '강을 범람시키는 것'이라는 결과 관계가 유지되고 지시·초점 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사 진행(관찰과 발견 서술) → 서사 진행. 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문 문어체('-했다')가 유지되며 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"피트 단위를 유지하고 미터 환산을 병기했으며 수치도 3~4피트가 약 1~2미터로 정확해 같은 단위 체계로 이해 가능합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1534,
+    "output_tokens": 958,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

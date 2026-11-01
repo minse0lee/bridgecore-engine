@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgbqbY34VpafPTLDfdpNV",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P034\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"mostly in the form of simple sugars\",\"tgt_span\":\"대부분 단당류이다\",\"description\":\"원문은 탄수화물이 주로 단순당의 형태로 제공된다는 한정절인데, 번역은 '대부분 단당류이다'로 옮겨 주어가 탄수화물에서 불분명하게 바뀌었으나 '단순당'과 '단당류'는 같은 대상이므로 실질 내용 차이는 없음. 오류 목록에서 제외하는 것이 맞음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"칼로리 범위, 탄수화물 범위, 단순당 형태라는 내용이 모두 유지되며 '단당류'는 simple sugars의 통상적 대응입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"mostly가 대부분으로 옮겨져 범위 한정이 유지되고 지시·연결 관계의 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"영양 정보 설명 → 영양 정보 설명으로 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범적 의무·허가·자격 표현이 없는 사실 설명 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재의 평서형 설명체가 유지되며 독자 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"제도·단위 고유 대상은 있으나 온스·칼로리·그램은 통상적 대응이며 제도적 의미 문제가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-haiku-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1031,
+    "output_tokens": 697,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
