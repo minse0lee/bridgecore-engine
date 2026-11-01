@@ -356,7 +356,7 @@ def cmd_effect(args):
         have = [R / r for r in runs if (R / r / "outputs.jsonl").exists()]
         if have:
             families[name] = {"kind": kind, "model": model, "runs": have}
-    run_comparison(families, gold, ids, REPORTS, name=f"guideline_effect_{args.split}_{args.gold}")
+    run_comparison(families, gold, ids, REPORTS, report_name=f"guideline_effect_{args.split}_{args.gold}")
 
 
 def cmd_vcompare(args):

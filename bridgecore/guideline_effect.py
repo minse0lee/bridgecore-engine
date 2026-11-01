@@ -89,7 +89,7 @@ def bootstrap_diff(fam_a: list[dict], fam_b: list[dict], gold: dict, ids: list[s
 
 
 def run_comparison(families: dict[str, dict], gold: dict, ids: list[str], reports_dir: Path,
-                   name: str = "guideline_effect_dev") -> Path:
+                   report_name: str = "guideline_effect_dev") -> Path:
     """families: {이름: {"kind": "engine"|"generic", "runs": [Path, ...], "note": str}}"""
     sg = sentence_gold(gold, ids)
     n_pos = sum(sg.values())
@@ -226,15 +226,15 @@ def run_comparison(families: dict[str, dict], gold: dict, ids: list[str], report
         lines += [f"**{name}** — 심각도 분포 {dict(sev)}", ""] + ex + [""]
 
     lines += ["## 읽는 법·한계", "",
-              "- 정답이 가이드라인 기준으로 판정한 사람 다수결이다. 일반 프롬프트는 가이드라인이 오류로 치지 않는 것"
+              "- 정답이 가이드라인 기준으로 판정한 사람 판정(다수결 또는 합의)이다. 일반 프롬프트는 가이드라인이 오류로 치지 않는 것"
               "(어색함·번역투 등)도 오류로 적을 수 있어 정밀도에서 불리하다. 이 비교는 '가이드라인 기준의 훼손을 "
               "얼마나 맞게 찾는가'를 재는 것이고, 그게 이 엔진의 목표다",
-              "- 40문항, 임시 정답이라 차이가 작으면 우연과 구분할 수 없다. 같은 설정 반복 간 흔들림도 함께 볼 것",
+              f"- {len(ids)}문항뿐이라 차이가 작으면 우연과 구분할 수 없다. 같은 설정 반복 간 흔들림도 함께 볼 것",
               "- 'major 이상만 표시로 셀 때'는 결과를 본 뒤 정한 기준이라 사후 비교다. 미리 정한 비교는 '오류를 하나라도 표시'다",
               "- 다수결 정답이 놓친 실제 오류가 있을 수 있다. 예: P013·P039는 다수결로는 훼손이 아니지만 수안님 확인에서 훼손으로 정리됐다 → 이런 칸의 표시는 오탐으로 집계된다",
               "- 형식 오류로 출력이 없는 문항은 '표시 없음'으로 셌다 (축 이름만 Sonnet 한 실행의 P007)",
-              "- 확인용 20문항은 쓰지 않았다"]
-    path = reports_dir / f"{name}.md"
+              ("- 확인용 20문항은 쓰지 않았다" if len(ids) != 20 else "- 확인용 20문항: 프롬프트를 고정한 뒤 한 번만 실행한 결과다. 이 결과를 보고 프롬프트를 다시 고치지 않는다")]
+    path = reports_dir / f"{report_name}.md"
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
     print("\n".join(lines))
     return path

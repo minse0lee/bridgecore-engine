@@ -69,7 +69,7 @@ python -m bridgecore.cli run --items-file data/book.jsonl --live --batch --scree
 ```bash
 python -m bridgecore.cli generic --split dev --live --name dev_generic_sonnet          # 일반 "오류 찾기" 프롬프트
 python -m bridgecore.cli run --split dev --version b_axes --live --name dev_baxes_sonnet # 축 이름만 준 프롬프트
-python -m bridgecore.cli effect                                                          # → reports/guideline_effect_dev.md
+python -m bridgecore.cli effect --split dev --gold consensus                            # → reports/guideline_effect_<split>_<gold>.md
 ```
 
 ### PoC 보고서 (정답 없이 엔진 결과를 읽는 용도)
