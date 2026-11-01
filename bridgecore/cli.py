@@ -44,6 +44,17 @@ def _rater_files():
     return files
 
 
+CONSENSUS_XLSX = RAW / "브릿지코어_파일럿평가_합의본_2026-11-01.xlsx"
+
+
+def get_gold(kind: str = "consensus"):
+    """kind: consensus(평가자 합의, 2026-11-01~) | majority(합의 전 다수결 임시 정답)"""
+    ratings = load_all()[1]
+    if kind == "majority":
+        return G.build_gold(ratings)
+    return G.build_gold_consensus(ratings, G.load_consensus(CONSENSUS_XLSX))
+
+
 def load_all():
     items = read_jsonl(PROC / "items.jsonl")
     ratings = read_jsonl(PROC / "ratings.jsonl")
@@ -314,8 +325,8 @@ def cmd_generic(args):
 
 def cmd_effect(args):
     from .guideline_effect import run_comparison
-    ids = read_json(PROC / "split_pilot.json")["dev"]
-    gold = G.build_gold(load_all()[1])
+    ids = read_json(PROC / "split_pilot.json")[args.split]
+    gold = get_gold(args.gold)
     R = ROOT / "runs"
     fam = {
         "엔진 v1.1 2단계": ("engine", "Haiku→Sonnet", ["dev_v1_1_screen__cascade"]),
@@ -332,18 +343,26 @@ def cmd_effect(args):
         "일반 프롬프트 (Sonnet)": ("generic", "Sonnet 5.5", ["dev_generic_sonnet", "dev_generic_sonnet_r2"]),
         "일반 프롬프트 (Haiku)": ("generic", "Haiku 5.5", ["dev_generic_haiku", "dev_generic_haiku_r2"]),
     }
+    if args.split == "holdout":
+        fam = {
+            "엔진 v1.1 2단계": ("engine", "Haiku→Sonnet", ["ho_v1_1_screen__cascade"]),
+            "엔진 v1.1 (Sonnet)": ("engine", "Sonnet 5.5", ["ho_v1_1_sonnet", "ho_v1_1_sonnet_r2"]),
+            "엔진 v0 2단계": ("engine", "Haiku→Sonnet", ["ho_v0_screen__cascade"]),
+            "엔진 v0 (Sonnet)": ("engine", "Sonnet 5.5", ["ho_v0_sonnet", "ho_v0_sonnet_r2"]),
+            "일반 프롬프트 (Sonnet)": ("generic", "Sonnet 5.5", ["ho_generic_sonnet", "ho_generic_sonnet_r2"]),
+        }
     families = {}
     for name, (kind, model, runs) in fam.items():
         have = [R / r for r in runs if (R / r / "outputs.jsonl").exists()]
         if have:
             families[name] = {"kind": kind, "model": model, "runs": have}
-    run_comparison(families, gold, ids, REPORTS)
+    run_comparison(families, gold, ids, REPORTS, name=f"guideline_effect_{args.split}_{args.gold}")
 
 
 def cmd_vcompare(args):
     from .version_compare import compare_versions
     ids = read_json(PROC / "split_pilot.json")["dev"]
-    gold = G.build_gold(load_all()[1])
+    gold = get_gold(args.gold)
     R = ROOT / "runs"
     pick = lambda names: [R / n for n in names if (R / n / "outputs.jsonl").exists()]
 
@@ -363,7 +382,8 @@ def cmd_vcompare(args):
                  ("P043", "Cultural"): T, ("P050", "Semantic"): False, ("P053", "Context"): False,
                  ("P006", "Cultural"): False, ("P007", "Cultural"): False}
     compare_versions({k: v for k, v in pairs.items() if v[0] and v[1]}, gold, ids, REPORTS,
-                     name=f"{args.new}_vs_{args.old}_dev", overrides=overrides)
+                     name=f"{args.new}_vs_{args.old}_dev_{args.gold}",
+                     overrides=overrides if args.gold == "majority" else None)
 
 
 def cmd_poc(args):
@@ -467,8 +487,10 @@ def main(argv=None):
     s.add_argument("--effort", choices=["low", "medium", "high", "default"], default="medium")
     s.add_argument("--workers", type=int, default=4); s.add_argument("--live", action="store_true")
     s.set_defaults(fn=cmd_generic)
-    sub.add_parser("effect").set_defaults(fn=cmd_effect)
+    s = sub.add_parser("effect"); s.add_argument("--gold", choices=["consensus", "majority"], default="consensus")
+    s.add_argument("--split", choices=["dev", "holdout"], default="dev"); s.set_defaults(fn=cmd_effect)
     s = sub.add_parser("vcompare"); s.add_argument("--old", default="v0"); s.add_argument("--new", default="v1")
+    s.add_argument("--gold", choices=["consensus", "majority"], default="consensus")
     s.set_defaults(fn=cmd_vcompare)
     s = sub.add_parser("poc"); s.add_argument("run_dir")
     s.add_argument("--items-file", help="실행 때 쓴 문항 jsonl (기본: meta.json의 items_source)")

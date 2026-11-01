@@ -86,3 +86,34 @@ def gold_rows(gold: dict) -> list[dict]:
 
 
 __all__ = ["build_gold", "gold_summary", "gold_rows", "SEVERITIES"]
+
+
+# ---------------------------------------------------------------- 합의 정답
+def load_consensus(xlsx_path) -> dict[tuple[str, str], dict]:
+    """합의본 엑셀(평가 시트 I·J·K·L열)에서 {(문항ID, 축): {final, severity, change_reason, opinion}}."""
+    import re
+    from openpyxl import load_workbook
+    ws = load_workbook(xlsx_path, data_only=True)["평가"]
+    out = {}
+    for r in ws.iter_rows(min_row=9, values_only=True):
+        if not r or not r[0] or not re.fullmatch(r"P\d{3}", str(r[0])):
+            continue
+        out[(r[0], r[1])] = {"final": r[8], "severity": r[9], "change_reason": r[10], "opinion": r[11]}
+    return out
+
+
+def build_gold_consensus(ratings: list[dict], consensus: dict) -> dict[tuple[str, str], dict]:
+    """다수결 정답 구조를 그대로 두고 이진·심각도·4범주 정답만 합의 최종판정으로 바꾼다.
+    합의 최종판정이 판단보류(합의 불가 포함)인 칸은 채점 규칙 v1과 같이 비훼손으로 세고 consensus_hold=True로 표시."""
+    gold = build_gold(ratings)
+    missing = [k for k in gold if k not in consensus or not consensus[k]["final"]]
+    if missing:
+        raise ValueError(f"합의 최종판정이 없는 칸 {len(missing)}개: {missing[:5]}")
+    for k, g in gold.items():
+        c = consensus[k]
+        g["majority_violated"] = g["violated"]
+        g["violated"] = c["final"] == VIOLATED
+        g["severity"] = c["severity"] if g["violated"] else None
+        g["label4"] = c["final"]
+        g["consensus_hold"] = c["final"] == "판단보류"
+    return gold

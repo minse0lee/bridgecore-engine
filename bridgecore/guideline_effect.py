@@ -22,6 +22,14 @@ from .scoring import predictions_from_outputs, score
 MAJOR_UP = {"major", "critical"}
 
 
+def _gold_desc(gold: dict) -> str:
+    g = next(iter(gold.values()))
+    if "majority_violated" in g:
+        n = sum(1 for v in gold.values() if v.get("consensus_hold"))
+        return f"평가자 3명 합의 최종판정 (2026-11-01 합의본, 합의 불가·판단보류 {n}칸은 비훼손으로 셈)"
+    return "평가자 3명 다수결 임시 정답 (합의 전)"
+
+
 def _prf(pred: dict, gold: dict, ids: list[str]) -> dict:
     tp = sum(1 for i in ids if pred.get(i) and gold[i])
     fp = sum(1 for i in ids if pred.get(i) and not gold[i])
@@ -80,12 +88,13 @@ def bootstrap_diff(fam_a: list[dict], fam_b: list[dict], gold: dict, ids: list[s
     return obs, diffs[int(0.025 * n)], diffs[int(0.975 * n) - 1], sum(d <= 0 for d in diffs) / n
 
 
-def run_comparison(families: dict[str, dict], gold: dict, ids: list[str], reports_dir: Path) -> Path:
+def run_comparison(families: dict[str, dict], gold: dict, ids: list[str], reports_dir: Path,
+                   name: str = "guideline_effect_dev") -> Path:
     """families: {이름: {"kind": "engine"|"generic", "runs": [Path, ...], "note": str}}"""
     sg = sentence_gold(gold, ids)
     n_pos = sum(sg.values())
-    lines = ["# 가이드라인 효과 비교 (개발용 40문항, 프롬프트 v0·v1·v1.1)", "",
-             f"- 정답: 평가자 3명 다수결 임시 정답 (합의 전). 문장 단위 정답 = 여섯 축 중 하나라도 다수결 훼손 → "
+    lines = [f"# 가이드라인 효과 비교 ({len(ids)}문항, 프롬프트 v0·v1·v1.1)", "",
+             f"- 정답: {_gold_desc(gold)}. 문장 단위 정답 = 여섯 축 중 하나라도 훼손 → "
              f"{len(ids)}문장 중 {n_pos}문장이 훼손, {len(ids) - n_pos}문장이 훼손 없음",
              "- 모든 방식이 같은 모델·같은 문항 정보(문서정보·평가조건·문단 문맥·그림)를 받는다. 바뀌는 것은 시스템 프롬프트뿐",
              "- 같은 설정을 두 번 돌려 평균을 냈다 (괄호 안은 1회·2회 값)", ""]
@@ -123,6 +132,7 @@ def run_comparison(families: dict[str, dict], gold: dict, ids: list[str], report
               "| 비교 | 차이 | 95% 구간 | 차이가 0 이하인 비율 |", "|---|---|---|---|"]
     pairs = [(a, b) for a, b in [
         ("엔진 v1.1 (Sonnet)", "엔진 v0 (Sonnet)"), ("엔진 v1.1 2단계", "엔진 v0 2단계"),
+        ("엔진 v1.1 (Sonnet)", "일반 프롬프트 (Sonnet)"), ("엔진 v1.1 2단계", "일반 프롬프트 (Sonnet)"),
         ("엔진 v1 (Sonnet)", "엔진 v0 (Sonnet)"), ("엔진 v1 (Haiku)", "엔진 v0 (Haiku)"),
         ("엔진 v1 2단계", "엔진 v0 2단계"), ("엔진 v1 (Sonnet)", "일반 프롬프트 (Sonnet)"),
         ("엔진 v0 (Sonnet)", "일반 프롬프트 (Sonnet)"), ("엔진 v0 (Haiku)", "일반 프롬프트 (Haiku)"),
@@ -224,7 +234,7 @@ def run_comparison(families: dict[str, dict], gold: dict, ids: list[str], report
               "- 다수결 정답이 놓친 실제 오류가 있을 수 있다. 예: P013·P039는 다수결로는 훼손이 아니지만 수안님 확인에서 훼손으로 정리됐다 → 이런 칸의 표시는 오탐으로 집계된다",
               "- 형식 오류로 출력이 없는 문항은 '표시 없음'으로 셌다 (축 이름만 Sonnet 한 실행의 P007)",
               "- 확인용 20문항은 쓰지 않았다"]
-    path = reports_dir / "guideline_effect_dev.md"
+    path = reports_dir / f"{name}.md"
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
     print("\n".join(lines))
     return path

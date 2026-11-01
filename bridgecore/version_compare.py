@@ -10,6 +10,7 @@ from pathlib import Path
 from .constants import AXES, VIOLATED
 from .io_utils import write_csv
 from .runner import latest_records
+from .guideline_effect import _gold_desc
 from .scoring import predictions_from_outputs, score
 
 
@@ -36,7 +37,7 @@ def compare_versions(pairs: dict[str, tuple[list[Path], list[Path]]], gold: dict
     """pairs: {구성 이름: ([이전 버전 실행들], [새 버전 실행들])}"""
     f = lambda x: "-" if x is None else f"{x:.2f}"
     lines = [f"# 프롬프트 버전 비교 ({name})", "",
-             "- 정답: 평가자 3명 다수결 임시 정답 (합의 전). 개발용 40문항 × 6축 = 240칸",
+             f"- 정답: {_gold_desc(gold)}. 개발용 40문항 × 6축 = 240칸",
              "- 반복 실행이 있으면 평균. 오탐(FP)·놓침(FN)은 칸 수", ""]
     case_rows = []
     for label, (old_runs, new_runs) in pairs.items():
@@ -85,7 +86,7 @@ def compare_versions(pairs: dict[str, tuple[list[Path], list[Path]]], gold: dict
         lines.append("")
     lines += ["## 한계", "",
               "- 개발용 40문항은 v1을 만들 때 오류 유형을 참고한 문항이라 점수가 낙관적일 수 있다. 처음 보는 문항에서의 성능은 확인용 20문항으로 본다",
-              "- 정답이 합의 전 다수결이다. 합의 결과가 오면 다시 채점한다",
+              "- 합의 정답도 판정이 갈렸던 칸은 사실상 한 사람이 초안을 정한 뒤 합본한 결과다",
               "- 같은 설정 반복 간 전체 F1이 ±0.05쯤 흔들린다. 그보다 작은 차이는 우연과 구분할 수 없다"]
     path = reports_dir / f"{name}.md"
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
