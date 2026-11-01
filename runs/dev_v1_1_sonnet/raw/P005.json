@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgbqYwMgeb11qAr4WyNDF",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P005\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Federal Student Aid PIN\",\"tgt_span\":\"연방 학자금 대출 PIN\",\"description\":\"'Federal Student Aid'(연방 학생 재정 지원)가 '연방 학자금 대출'로 바뀌어 PIN 명칭의 범위가 대출로 좁아짐\"},{\"id\":\"E002\",\"src_span\":\"your loan servicer\",\"tgt_span\":\"대출 서비스\",\"description\":\"대출 관리 업체(loan servicer)가 일반적인 '대출 서비스'로 바뀌어 연락 대상이 업체에서 서비스로 달라짐\"},{\"id\":\"E003\",\"src_span\":\"Use your Federal Student Aid PIN to access\",\"tgt_span\":\"PIN을 사용하여 … 얻을 수 있습니다\",\"description\":\"사용 지시(명령형)가 가능 설명('~할 수 있습니다')으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(대상): 'Federal Student Aid PIN'이 '대출 PIN'으로, 'loan servicer'가 '대출 서비스'로 바뀌어 대상이 달라졌으나, 핵심 행위(PIN으로 기록 접근·연락처 확인)는 유지되고 독자가 행동을 다르게 이해할 정도는 아니어서 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현이 바뀌지 않았고 'to access and obtain' 병렬 구조도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"웹사이트 이용 방법 안내 → 이용 방법 안내. 선택 가능한 방법을 안내하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"선택 가능한 이용 방법 안내이며 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내문의 '~습니다' 체가 유지되어 독자와의 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"기관명 NSLDS와 PIN은 본 문장에 나오지 않거나 그대로 쓰였고, 별도로 판정할 문화 고유의 제도·단위 표기가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 762,
+    "output_tokens": 967,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

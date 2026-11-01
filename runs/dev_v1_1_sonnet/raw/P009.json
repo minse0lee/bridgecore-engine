@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgbqZPjC7ebHsPwq6q6tU",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P009\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"keep the others from this control panel for another half hour\",\"tgt_span\":\"다른 사람이 다른 30 분 동안이 컨트롤 패널에서 유지할 수있다면\",\"description\":\"'다른 사람들을 패널에서 떼어놓다'가 '다른 사람이 패널에서 유지할 수 있다'로 바뀌어 막는 행위자와 대상이 뒤바뀜. 'another half hour(추가 30분)'도 '다른 30분'으로 옮겨짐\"},{\"id\":\"E002\",\"src_span\":\"the battle would be won\",\"tgt_span\":\"전투가 승리했다\",\"description\":\"가정적 미래 결과(would be won)가 완료된 사실('승리했다')로 바뀌어 확실성이 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 그가 다른 사람들을 패널에서 막는다는 내용이 다른 사람이 패널에 머문다는 식으로 행위자·행위가 바뀌었고, 조건부 결과가 이미 일어난 사실로 바뀌었습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 'keep A from B'의 조건 관계가 깨져 '다른 사람이 ~ 유지할 수있다면'이 되어, 조건절의 주어와 목적어 관계 및 연결이 달라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사적 상황 설명 → 서사적 상황 설명. 서술 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사 속 가정 서술이며 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"3인칭 서술문으로 화자·청자 간 관계에 따른 높임이나 호칭이 문제되지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 782,
+    "output_tokens": 852,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

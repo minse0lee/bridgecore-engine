@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgbqYvExMACV3AhgSVRXd",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P007\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"there were times when the hump in his back became greater than ever before\",\"tgt_span\":\"그의 등의 혹이 그 어느 때보다도 커지고\",\"description\":\"'때때로(there were times when)' 한정이 사라져 혹이 늘 커진 것처럼 읽힘. 빈도 정보 누락\"},{\"id\":\"E002\",\"src_span\":\"in fits of weeping\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"발작적으로 울 때라는 상황 한정 누락\"},{\"id\":\"E003\",\"src_span\":\"three or four feet\",\"tgt_span\":\"3 ~ 4 피트 ( 1 ~ 2 미터 )\",\"description\":\"원문에 없는 미터 환산 첨가. 3~4피트는 약 0.9~1.2미터이므로 '1~2미터'는 부정확\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: '때때로' 한정과 '발작적 울음' 상황이 빠졌고, 부정확한 미터 환산(1~2미터)이 첨가되었으나 핵심 사건(수위 변동, 혹과 눈물로 인한 범람)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그의'가 베이브를 가리키는 지시 관계와 시간·인과(눈물이 강을 범람시킴) 연결이 유지되며 초점 표현의 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사 진술 → 서사 진술. 사건을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 평서체('-했다')가 유지되며 별도의 관계·호칭 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"피트 단위가 유지되고 미터 병기가 덧붙었으나 단위·제도가 다른 것으로 바뀌지 않았습니다. 환산 수치 오류는 Semantic에서만 판정합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1534,
+    "output_tokens": 911,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

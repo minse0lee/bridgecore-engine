@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgbqYvEDKiKP9pTfWv2Yv",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P004\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the regents\",\"tgt_span\":\"섭정들\",\"description\":\"대학 이사회 구성원을 뜻하는 regents(평의원·이사)를 '섭정들'로 옮겨 군주 대리 통치자라는 다른 대상·제도로 오역함\"},{\"id\":\"E002\",\"src_span\":\"the Council\",\"tgt_span\":\"위원회\",\"description\":\"대학 평의회(Council)를 일반어 '위원회'로 옮겨 제도적 명칭이 흐려짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상): regents(대학 이사·평의원)가 '섭정들'로 바뀌어 회의 참석 주체가 다른 대상으로 읽혀 요지 이해가 달라집니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'학장과 제가'가 charges를 제기한 주체로 이어지고 지시·연결·초점 관계가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"회의 목적 공식 발표 → 회의 목적 공식 발표로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"회의 목적을 알리는 서술로 의무·허가·금지를 정하는 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"총장이 회의 참석자에게 공식적으로 말하는 격식이 '신사 여러분', '~습니다'로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1·2: regents가 '섭정들'로 오역되어 다른 제도를 가리키고, Council도 일반어 '위원회'로 옮겨져 한국어 독자가 대학 지배기구라는 제도적 의미를 이해하기 어렵습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 678,
+    "output_tokens": 786,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
