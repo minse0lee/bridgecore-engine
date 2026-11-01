@@ -13,6 +13,7 @@
   baseline  사람 간 기준선 → reports/
   generic   비교 실험 기준선: 가이드라인 없이 "번역 오류를 찾아라"만 시키는 일반 LLM 판정
   effect    가이드라인 효과 비교 (엔진 v0 vs 일반 프롬프트·축 이름만) → reports/guideline_effect_dev.md
+  vcompare  프롬프트 v0 → v1 축별 비교와 판정이 바뀐 칸 → reports/v1_vs_v0_dev.md
   poc       정답 없이 읽는 PoC 보고서(HTML)와 검토용 엑셀 → reports/
   poc-tally 검토가 끝난 PoC 엑셀 집계 (엔진 표시 정확도·놓친 오류)
 """
@@ -317,6 +318,9 @@ def cmd_effect(args):
     gold = G.build_gold(load_all()[1])
     R = ROOT / "runs"
     fam = {
+        "엔진 v1 2단계": ("engine", "Haiku→Sonnet", ["dev_v1_screen__cascade"]),
+        "엔진 v1 (Sonnet)": ("engine", "Sonnet 5.5", ["dev_v1_sonnet", "dev_v1_sonnet_r2"]),
+        "엔진 v1 (Haiku)": ("engine", "Haiku 5.5", ["dev_v1_haiku", "dev_v1_haiku_r2"]),
         "엔진 v0 2단계": ("engine", "Haiku→Sonnet", ["dev_screen__cascade"]),
         "엔진 v0 (Sonnet)": ("engine", "Sonnet 5.5", ["dev_sonnet", "dev_sonnet_r2"]),
         "엔진 v0 (Haiku)": ("engine", "Haiku 5.5", ["dev_haiku", "dev_haiku_r2"]),
@@ -331,6 +335,20 @@ def cmd_effect(args):
         if have:
             families[name] = {"kind": kind, "model": model, "runs": have}
     run_comparison(families, gold, ids, REPORTS)
+
+
+def cmd_vcompare(args):
+    from .version_compare import compare_versions
+    ids = read_json(PROC / "split_pilot.json")["dev"]
+    gold = G.build_gold(load_all()[1])
+    R = ROOT / "runs"
+    pick = lambda names: [R / n for n in names if (R / n / "outputs.jsonl").exists()]
+    pairs = {
+        "2단계 (Haiku 선별 → Sonnet)": (pick(["dev_screen__cascade"]), pick(["dev_v1_screen__cascade"])),
+        "Sonnet 단독": (pick(["dev_sonnet", "dev_sonnet_r2"]), pick(["dev_v1_sonnet", "dev_v1_sonnet_r2"])),
+        "Haiku 단독": (pick(["dev_haiku", "dev_haiku_r2"]), pick(["dev_v1_haiku", "dev_v1_haiku_r2"])),
+    }
+    compare_versions({k: v for k, v in pairs.items() if v[0] and v[1]}, gold, ids, REPORTS)
 
 
 def cmd_poc(args):
@@ -435,6 +453,7 @@ def main(argv=None):
     s.add_argument("--workers", type=int, default=4); s.add_argument("--live", action="store_true")
     s.set_defaults(fn=cmd_generic)
     sub.add_parser("effect").set_defaults(fn=cmd_effect)
+    sub.add_parser("vcompare").set_defaults(fn=cmd_vcompare)
     s = sub.add_parser("poc"); s.add_argument("run_dir")
     s.add_argument("--items-file", help="실행 때 쓴 문항 jsonl (기본: meta.json의 items_source)")
     s.add_argument("--title"); s.add_argument("--note", help="보고서 맨 위 안내에 넣을 한 줄")
