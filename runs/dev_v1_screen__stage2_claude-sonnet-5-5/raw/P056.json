@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgbpVm9KNqKZsHy6PRZ21",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P056\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Each student awarded a scholarship\",\"tgt_span\":\"장학금을 수여하는 각 학생은\",\"description\":\"장학금을 받는 학생이 장학금을 수여하는 주체로 읽힘(수동 분사 'awarded'를 능동으로 옮김)\"},{\"id\":\"E002\",\"src_span\":\"receives a stipend of $1,500\",\"tgt_span\":\"$1,500의 장학금을 받습니다\",\"description\":\"stipend(생활비 지급액)를 scholarship과 같은 '장학금'으로 옮겨 두 개념의 구분이 사라짐\"},{\"id\":\"E003\",\"src_span\":\"for the academic year of study\",\"tgt_span\":\"장학금이 수여되는 연도에 대해\",\"description\":\"academic year of study(학업 학년도)가 일반 '연도'로 바뀌어 학년도 단위가 불분명해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(인물·행위): 장학금을 받은 학생이 수여하는 주체로 읽혀 누가 무엇을 하는지가 달라졌고, stipend가 장학금으로 옮겨져 지급 대상 개념도 달라졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현이 바뀌지 않았고, 장학금이 수여되는 해라는 관계절의 연결도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지급 내용 설명 → 지급 내용 설명. 문장의 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(주체): 받을 권리·지급을 정하는 문장에서 수령 주체가 장학금을 받는 학생에서 수여하는 주체로 읽혀 권리의 대상이 달라졌습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내체 '~습니다'가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 2: 미국 교육 제도의 단위인 academic year(학년도)가 일반 어휘 '연도'로 옮겨져 학년도라는 제도적 의미가 약해졌습니다. 금액 $1,500은 유지되어 독자가 이해하는 데 큰 지장은 없어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 13717,
+    "inference_geo": "global",
+    "input_tokens": 623,
+    "output_tokens": 970,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

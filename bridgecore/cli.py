@@ -348,7 +348,14 @@ def cmd_vcompare(args):
         "Sonnet 단독": (pick(["dev_sonnet", "dev_sonnet_r2"]), pick(["dev_v1_sonnet", "dev_v1_sonnet_r2"])),
         "Haiku 단독": (pick(["dev_haiku", "dev_haiku_r2"]), pick(["dev_v1_haiku", "dev_v1_haiku_r2"])),
     }
-    compare_versions({k: v for k, v in pairs.items() if v[0] and v[1]}, gold, ids, REPORTS)
+    # 수안님이 기준 확인(D1~D8, 11/1)에서 판정을 확정한 개발용 칸 — 민감도 확인용
+    T = True
+    overrides = {("P049", "Semantic"): T, ("P046", "Context"): T, ("P039", "Textual"): T,
+                 ("P013", "Semantic"): T, ("P013", "Textual"): T, ("P034", "Semantic"): T,
+                 ("P045", "Semantic"): T, ("P045", "Deontic"): T, ("P014", "Cultural"): T,
+                 ("P043", "Cultural"): T, ("P050", "Semantic"): False, ("P053", "Context"): False,
+                 ("P006", "Cultural"): False, ("P007", "Cultural"): False}
+    compare_versions({k: v for k, v in pairs.items() if v[0] and v[1]}, gold, ids, REPORTS, overrides=overrides)
 
 
 def cmd_poc(args):

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgbpQ3wh64qEf1MzDWmwV",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P040\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"guttered at his ear\",\"tgt_span\":\"그의 귀에 구멍\",\"description\":\"guttered(불꽃이 가물거리며 흔들리다)가 '구멍'이라는 무관한 명사로 오역되어 랜턴 불꽃의 행위가 사라지고 동사 서술이 끊김\"},{\"id\":\"E002\",\"src_span\":\"The lantern like a secret fear, Whispered\",\"tgt_span\":\"비밀스러운 두려움처럼 랜턴, 속삭이고\",\"description\":\"랜턴이 속삭인다는 주어-서술 관계가 조사 없이 나열되어 속삭이는 주체가 불분명하고, 직유가 랜턴의 속삭임을 수식하는 관계도 흐려짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위): guttered(가물거리다)가 '구멍'으로 바뀌어 랜턴이 귀에서 속삭이고 가물거린다는 내용이 사라졌고, 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1·2: 랜턴이 주어로서 속삭인다는 관계와 직유의 수식 관계가 불분명해졌으나 대체로 추정 가능합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"시적 묘사 → 시적 묘사. 장면을 묘사하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 시 구절입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자·청자 관계가 드러나는 높임이나 호칭이 없는 서술 시구입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 13717,
+    "inference_geo": "global",
+    "input_tokens": 499,
+    "output_tokens": 798,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgbpUqyWGqZP5utHnY6eK",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P032\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"postsecondary vocational institution\",\"tgt_span\":\"중등 직업 교육 기관\",\"description\":\"postsecondary(중등 이후, 고등후)가 '중등'으로 오역되어 교육 단계가 반대로 읽힘\"},{\"id\":\"E002\",\"src_span\":\"programs that are less than an academic year in length and lead to a certificate or other nondegree recognized credential\",\"tgt_span\":\"학년 길이보다 짧은 프로그램을 제공하고 인증서 또는 기타 학위가 인정되지 않는 자격증을 제공함으로써\",\"description\":\"학위가 아닌 인정된 자격(nondegree recognized credential)이 '학위가 인정되지 않는 자격증'으로 바뀌고, 프로그램이 인증서로 이어진다는 관계가 '인증서를 제공'으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: postsecondary가 '중등'으로 바뀌어 기관 유형이 달라졌고, '학위가 아닌 인정된 자격'이 '학위가 인정되지 않는 자격증'으로 바뀌어 독자가 자격 요건을 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1·2: 프로그램이 인증서로 이어진다는 관계가 프로그램과 인증서를 둘 다 제공한다는 병렬로 바뀌고, nondegree가 수식하는 대상이 달라졌습니다. 양보 연결(Although→'~지만')은 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"제도 설명 → 제도 설명. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"can은 의무·허가가 아닌 가능성을 나타내며 자격 요건을 새로 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내문의 '~습니다' 격식체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2: 미국 제도 용어 postsecondary vocational institution(중등 이후 직업 교육 기관)이 '중등 직업 교육 기관'으로 옮겨져 한국의 중등 단계 기관으로 읽히며 제도적 의미가 전달되지 않습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 13717,
+    "inference_geo": "global",
+    "input_tokens": 995,
+    "output_tokens": 994,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

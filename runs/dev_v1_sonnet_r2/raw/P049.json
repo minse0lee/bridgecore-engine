@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgbpQk3CrSpeuAbMxSPqm",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P049\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"this should show you\",\"tgt_span\":\"이것은 당신이 … 보여줄 것이다\",\"description\":\"should(기대·예상, '~일 텐데/~할 것이다')를 단정적인 미래형 '~것이다'로 옮겨 확실성이 약간 높아짐. 다만 '~것이다'는 추측으로도 읽히므로 영향은 미미함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"눈빛이 분명히 전하는 말, 이 일이 배가 생각만큼 좋지 않음을 보여준다는 내용, 대상(당신)이 모두 유지됩니다. should의 예상 의미는 '~것이다'로 통상 대응되어 확실성 변화로 보기 어렵습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'this', 'you', 'it'의 지시 대상과 'as good as you think'의 비교 구조가 유지되며 초점 표현의 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"눈빛에 담긴 무언의 메시지를 서술(조롱성 암시) → 같은 서술 기능으로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"should는 규범이 아니라 예상·기대의 의미이고 의무·허가·금지를 정하는 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"눈빛으로 전하는 생각을 옮기는 서술이며 '당신'과 평서체가 문맥상 큰 문제가 없고 화자의 도전적 태도도 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 13717,
+    "inference_geo": "global",
+    "input_tokens": 720,
+    "output_tokens": 742,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

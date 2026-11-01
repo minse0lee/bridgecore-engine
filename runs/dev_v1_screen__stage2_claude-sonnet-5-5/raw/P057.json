@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgbpWFkmXnvasfSMwuYA5",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P057\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"state funding mandates that colleges and universities create threat assessment teams\",\"tgt_span\":\"주 정부가 대학에 위협 평가 팀을 구성하도록 지원한다\",\"description\":\"주(州) 지원금이 대학에 위협 평가 팀 구성을 의무화한다는 내용이, 주 정부가 구성을 지원한다는 내용으로 바뀜. 의무 부과가 지원으로 바뀌고 행위 주체도 funding에서 주 정부로 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무화에서 지원으로 바뀐 범주 변화는 Deontic에서만 판정하며, 같은 변화를 Semantic에는 중복 기록하지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 관계, 연결 관계, 초점 표현에 해당하는 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"제도 설명 → 제도 설명. 문장이 정보를 설명하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2: 대학에 팀 구성을 요구하는 의무가 주 정부의 지원 제공으로 바뀌어 의무 범주가 사라졌고, 규범을 받는 주체(대학)와 의무의 내용도 달라졌습니다. 독자는 대학의 의무를 다르게 이해하게 됩니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내문의 평서체가 유지되며 관계나 태도 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 13717,
+    "inference_geo": "global",
+    "input_tokens": 897,
+    "output_tokens": 768,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

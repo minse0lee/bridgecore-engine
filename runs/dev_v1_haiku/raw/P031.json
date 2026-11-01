@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgbpPwcSC3MBKXCAnrCTS",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\": \"P031\", \"evaluable\": true, \"evaluable_note\": null, \"errors\": [{\"id\": \"E001\", \"src_span\": \"let alone support\", \"tgt_span\": \"대응 구간 없음(누락)\", \"description\": \"'let alone support'(지원하기는 말할 것도 없고)가 번역에서 빠짐\"}], \"axes\": {\"Semantic\": {\"judgment\": \"훼손\", \"severity\": \"minor\", \"error_ids\": [\"E001\"], \"reason\": \"판단 질문 1(내용 누락): 학교·교육자가 이해하기조차 어렵다는 것에 더해 지원하기는 더 어렵다는 내용이 빠졌습니다. 다만 핵심 사실(준비 부족)은 유지되어 요지 차이는 크지 않으므로 minor입니다.\"}, \"Textual\": {\"judgment\": \"훼손\", \"severity\": \"minor\", \"error_ids\": [\"E001\"], \"reason\": \"판단 질문 3(초점·범위): 'let alone'이 만드는 비교·강조 관계(이해 < 지원)가 사라졌습니다. 내용 누락이 초점 관계까지 바꾼 경우이므로 Textual에도 기록합니다.\"}, \"Context\": {\"judgment\": \"보존\", \"severity\": null, \"error_ids\": [], \"reason\": \"학술 설명 → 학술 설명. 준비 부족을 서술하는 기능이 유지됩니다.\"}, \"Deontic\": {\"judgment\": \"N/A\", \"severity\": null, \"error_ids\": [], \"reason\": \"자격·의무·허가를 정하는 규범 표현이 없고 현황을 서술하는 문장입니다.\"}, \"Register\": {\"judgment\": \"보존\", \"severity\": null, \"error_ids\": [], \"reason\": \"학술 문헌의 공식적 서술체가 유지됩니다.\"}, \"Cultural\": {\"judgment\": \"N/A\", \"severity\": null, \"error_ids\": [], \"reason\": \"이 문장에는 제도 고유의 단위·편제·관습 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-haiku-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 13717,
+    "inference_geo": "global",
+    "input_tokens": 965,
+    "output_tokens": 692,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

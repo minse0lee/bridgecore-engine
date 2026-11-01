@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgbpMrHQNxsKaa5JvgeTy",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P007\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"three or four feet\",\"tgt_span\":\"3 ~ 4 피트 ( 1 ~ 2 미터 )\",\"description\":\"원문에 없는 미터 환산값(1~2미터)이 첨가됨. 환산이 대략적으로 맞아 의미는 달라지지 않고 피트 단위도 유지됨.\"},{\"id\":\"E002\",\"src_span\":\"there were times when the hump in his back became greater than ever before\",\"tgt_span\":\"그의 등의 혹이 그 어느 때보다도 커지고\",\"description\":\"'때로(there were times when)'라는 간헐성이 사라져 혹이 계속 커진 것처럼 읽힘.\"},{\"id\":\"E003\",\"src_span\":\"Paul Bunyan set a close watch on the blue ox and discovered that\",\"tgt_span\":\"폴 버니언은 푸른 황소를 자세히 지켜보았고 , … 발견했다\",\"description\":\"발견 내용이 두 종속절이었는데 '지켜보았고'로 끊고 '발견했다'로 이어져 문장 구조가 약간 바뀜. 뜻은 유지되어 오류로 보기 어려움.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1(시간·빈도): '혹이 더 커진 때가 있었다'는 간헐성이 '커지고'로 바뀌어 빈도가 달라졌으나 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'~했을 때'의 시간 관계, 'thus flooding'의 결과 관계('범람시키는')가 유지되고 지시·초점 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사 서술 → 서사 서술. 사건을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사 본문의 평서 서술체가 유지되며 관계상 특별한 높임·호칭 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"피트 단위를 그대로 유지하고 미터 환산을 병기했으며 대략적으로 정확하여 다른 단위·제도로 바꾸거나 오해하게 하지 않습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 13717,
+    "inference_geo": "global",
+    "input_tokens": 1534,
+    "output_tokens": 972,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

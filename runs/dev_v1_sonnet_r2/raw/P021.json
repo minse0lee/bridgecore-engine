@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgbpNtMCr3NyvpVLmZj3Y",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P021\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Sherman marched his troops\",\"tgt_span\":\"셔먼은 골즈보로에서 맨체스터까지 행군하여\",\"description\":\"셔먼이 부대를 행군시킨 것이 셔먼 자신이 행군한 것으로 읽혀, 행군한 주체(부대)가 빠짐\"},{\"id\":\"E002\",\"src_span\":\"while he went back to Savannah\",\"tgt_span\":\"사바나로 돌아갔다\",\"description\":\"'while'이 나타내는 부대 야영과 셔먼의 사바나 복귀 사이의 동시성이 번역에서 순차 관계로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위자·참여자): 셔먼이 부대를 행군시켰다는 내용이 셔먼 혼자 행군한 것처럼 읽혀 부대가 빠졌으나, 지명과 진영·복귀 등 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2(연결 관계): 'while'의 동시 관계가 '-고 … 돌아갔다'의 순차 관계로 바뀌어, 부대는 진영에 있고 셔먼은 돌아갔다는 대조적 동시성이 약해졌습니다. 다만 핵심 사실은 유지되어 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"역사 서술 → 역사 서술. 사건을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"회고록의 서술체가 '~했다' 평서체로 자연스럽게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명·지명만 있고 별도로 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 13717,
+    "inference_geo": "global",
+    "input_tokens": 688,
+    "output_tokens": 838,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

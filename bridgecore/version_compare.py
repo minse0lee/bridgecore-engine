@@ -32,7 +32,7 @@ def _axis_table(runs: list[Path], gold: dict, ids: list[str]) -> dict:
 
 
 def compare_versions(pairs: dict[str, tuple[list[Path], list[Path]]], gold: dict, ids: list[str],
-                     reports_dir: Path, name: str = "v1_vs_v0_dev") -> Path:
+                     reports_dir: Path, name: str = "v1_vs_v0_dev", overrides: dict | None = None) -> Path:
     """pairs: {구성 이름: ([이전 버전 실행들], [새 버전 실행들])}"""
     f = lambda x: "-" if x is None else f"{x:.2f}"
     lines = [f"# 프롬프트 버전 비교 ({name})", "",
@@ -70,6 +70,19 @@ def compare_versions(pairs: dict[str, tuple[list[Path], list[Path]]], gold: dict
                                   "이전": po[(i, ax)]["judgment"], "새": pn[(i, ax)]["judgment"],
                                   "결과": "고쳐짐" if right_new else "새로 틀림", "새 근거": reason})
         lines += [f"판정이 바뀐 칸(1회차끼리): 고쳐짐 {fixed} · 새로 틀림 {broke}", ""]
+    if overrides:
+        adj = {k: dict(v) for k, v in gold.items()}
+        for k, val in overrides.items():
+            adj[k]["violated"] = val
+        lines += ["## 참고: 수안님 확정 판정을 반영한 정답으로 다시 채점", "",
+                  "다수결 정답 중 수안님이 11/1까지 기준 확인에서 판정을 확정한 칸만 바꿨다 (한 사람 판정이라 주 지표가 아니라 민감도 확인용). "
+                  f"바꾼 칸 {len(overrides)}개: " + ", ".join(f"{i} {a}→{'훼손' if v else '아님'}" for (i, a), v in overrides.items()), "",
+                  "| 구성 | 이전 전체 P/R/F1 | 새 전체 P/R/F1 | F1 변화 |", "|---|---|---|---|"]
+        for label, (old_runs, new_runs) in pairs.items():
+            a, b = _axis_table(old_runs, adj, ids)["ALL"], _axis_table(new_runs, adj, ids)["ALL"]
+            lines.append(f"| {label} | {f(a['p'])}/{f(a['r'])}/{f(a['f1'])} | {f(b['p'])}/{f(b['r'])}/{f(b['f1'])} | "
+                         f"{b['f1'] - a['f1']:+.2f} |")
+        lines.append("")
     lines += ["## 한계", "",
               "- 개발용 40문항은 v1을 만들 때 오류 유형을 참고한 문항이라 점수가 낙관적일 수 있다. 처음 보는 문항에서의 성능은 확인용 20문항으로 본다",
               "- 정답이 합의 전 다수결이다. 합의 결과가 오면 다시 채점한다",

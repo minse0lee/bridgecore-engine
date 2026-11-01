@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgbpNfRL1vSqfKkabJRrs",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P014\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"title 34, part 682, section 100\",\"tgt_span\":\"제목 34, 부분 682, 섹션 100\",\"description\":\"CFR 편제 단위(title, part, section)를 '제목', '부분', '섹션'이라는 일반 어휘로 옮겨 법령 편제 용어(편·부·절/조)의 제도적 의미가 전달되지 않음. 번호는 유지되어 원 자료를 찾을 수 있음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"34 CFR 682.100이 title 34, part 682, section 100을 가리킨다는 내용과 번호가 모두 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Thus가 '따라서'로 앞 문장의 인용 방식 설명을 이어받는 결과 연결이 유지되고 지시 관계도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인용 표기 예시 설명 → 인용 표기 예시 설명. 기능이 동일합니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장은 표기 예시를 설명할 뿐 의무·허가·금지 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 안내에 맞는 '-습니다' 설명체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: CFR의 편제 단위 title·part·section을 '제목·부분·섹션'이라는 일반 어휘로 옮겨 법령 편제의 제도적 의미가 충분히 전달되지 않습니다. 다만 번호가 그대로 남아 원 자료를 찾을 수 있어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 13717,
+    "inference_geo": "global",
+    "input_tokens": 658,
+    "output_tokens": 757,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

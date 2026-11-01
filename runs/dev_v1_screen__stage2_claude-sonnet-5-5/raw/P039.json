@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgbpV35jtyTDuwti4dNEQ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P039\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"contributing to the effusion that must be stopped\",\"tgt_span\":\"막아야 할 액체 축적에 기여하는 지속적인 출혈\",\"description\":\"관계절 'that must be stopped'의 선행사가 출혈(bleeding)인데, 번역문에서는 '막아야 할'이 액체 축적(effusion)을 수식하여 멈춰야 할 대상이 출혈에서 액체 축적으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상·행위): 멈춰야 할 대상이 지속적인 출혈에서 액체 축적(삼출액)으로 바뀌어 요지가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(지시·수식 관계): 관계절 'that must be stopped'이 수식하는 대상이 bleeding에서 effusion으로 바뀌었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"의학적 상황 설명 → 의학적 상황 설명. 설명 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'must be stopped'는 출혈을 멈춰야 한다는 치료상 필수 조치로 읽혀 규범 의미일 수 있으나, 의학 교재의 서술 설명인지 지켜야 할 지침인지 해석이 갈리고 번역에서는 대상이 바뀌어 비교가 어렵습니다. 이 문장을 규범 표현으로 볼지에 대한 기준 확인이 필요합니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재의 설명체 '-ㄹ 수 있습니다'가 유지되어 관계와 격식에 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 13717,
+    "inference_geo": "global",
+    "input_tokens": 1564,
+    "output_tokens": 812,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

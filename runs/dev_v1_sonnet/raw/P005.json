@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgbpMrX3a2QuA81TVpqME",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P005\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Federal Student Aid PIN\",\"tgt_span\":\"연방 학자금 대출 PIN\",\"description\":\"'연방 학자금 지원(Federal Student Aid)' PIN이 '연방 학자금 대출' PIN으로 바뀌어 대출 외 지원 전체를 포괄하는 PIN의 범위가 좁아짐\"},{\"id\":\"E002\",\"src_span\":\"contact information on your loan servicer\",\"tgt_span\":\"대출 서비스에 대한 연락처 정보\",\"description\":\"대출 관리 기관(loan servicer)이 '대출 서비스'로 옮겨져 연락 대상이 기관이 아닌 서비스로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(대상): Federal Student Aid PIN이 '대출 PIN'으로, loan servicer가 '대출 서비스'로 바뀌었으나 PIN 사용과 기록 조회라는 핵심 행위는 유지되고 사이트 주소 등으로 원 자료를 찾을 수 있어 요지와 행동 이해에 큰 차이가 없습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계가 유지되며 '사용하여 ~하고 ~얻을 수 있습니다'로 목적 연결이 남아 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"이용 방법 안내 → 이용 방법 안내. 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"선택 가능한 웹사이트 이용 방법 안내이며 의무·허가·금지 규범이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내문에 맞는 '~습니다' 체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·단위·표기가 없습니다. 기관명은 문장에 나타나지 않고 PIN·loan servicer는 일반 용어 범위입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 13717,
+    "inference_geo": "global",
+    "input_tokens": 762,
+    "output_tokens": 879,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

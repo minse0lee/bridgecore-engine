@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgbpNKaUhN4AKWbDHwaA6",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P009\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"keep the others from this control panel\",\"tgt_span\":\"다른 사람이 다른 30 분 동안이 컨트롤 패널에서 유지할 수있다면\",\"description\":\"'다른 사람들을 패널에서 떼어놓다(접근 차단)'가 '다른 사람이 패널에서 유지할 수 있다'로 바뀌어 행위자와 행위가 뒤바뀌고 접근 차단의 의미가 사라짐\"},{\"id\":\"E002\",\"src_span\":\"another half hour\",\"tgt_span\":\"다른 30 분\",\"description\":\"'another half hour(추가 30분)'가 '다른 30분'으로 옮겨져 추가 시간의 의미가 흐려짐\"},{\"id\":\"E003\",\"src_span\":\"the battle would be won\",\"tgt_span\":\"전투가 승리했다\",\"description\":\"가정된 미래 결과(would be won)가 이미 일어난 사실('승리했다')로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 다른 사람들을 패널에서 막는 행위가 사라지고 행위자가 뒤바뀌었으며, 가정적 결과가 완료된 사실로 바뀌어 요지를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E003\"],\"reason\":\"판단 질문 2: 'If … 그러면 …' 조건 관계가 '유지할 수있다면 … 승리했다'로 흐트러지고 'keep A from B'의 관계가 깨져 주체·대상 연결이 무너졌습니다. 또한 'the others'가 막아야 할 대상에서 행위 주체로 바뀌었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 소설 본문에서 상황을 서술하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 가정 설명이며 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"3인칭 서술문으로 화자·청자 관계를 나타내는 높임·호칭 표현이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 13717,
+    "inference_geo": "global",
+    "input_tokens": 782,
+    "output_tokens": 954,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

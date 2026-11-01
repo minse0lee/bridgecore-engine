@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgbpUbKwVWmHosTmf8YCm",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P024\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"along with the TD and the Scene Designer, the schedule, color palette, and techniques\",\"tgt_span\":\"TD와 장면 디자이너, 일정, 색상 팔레트, 그리고 풍경 페인팅에 필요한 기술과 함께 창조하고 개발하는\",\"description\":\"창조·개발의 대상(일정, 색상 팔레트, 기술)이 함께 일하는 대상 목록(TD, 디자이너)에 합쳐져, 대상이 'with' 대상이 되고 동사의 목적어가 사라짐\"},{\"id\":\"E002\",\"src_span\":\"Scenic Charge Artist / charge artist\",\"tgt_span\":\"충전 아티스트\",\"description\":\"charge artist(책임 담당 도장 미술 감독)를 '충전'으로 오역해 직책의 의미가 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 무엇을 만들고 개발하는지(일정·팔레트·기술)가 함께 일하는 대상으로 바뀌어 행위 대상이 달라졌고, 'charge artist'도 '충전 아티스트'로 오역되어 직책이 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 'along with'의 동반 관계가 TD·디자이너·일정·팔레트·기술의 병렬 나열로 묶여 목적어와 동반자의 구조가 바뀌었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"역할 설명 → 역할 설명. 설명 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가를 정하는 표현이 없는 역할 설명입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재 설명문 어조가 유지되며 관계에 맞지 않는 높임·호칭이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없는 문장입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 13717,
+    "inference_geo": "global",
+    "input_tokens": 1180,
+    "output_tokens": 859,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

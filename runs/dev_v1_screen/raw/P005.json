@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgbpMiHhb9AU9z7A4NejQ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P005\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Use your Federal Student Aid PIN\",\"tgt_span\":\"연방 학자금 대출 PIN을 사용하여 … 얻을 수 있습니다\",\"description\":\"명령형 안내(사용하라)가 '사용할 수 있습니다'의 가능형으로 바뀌었으나, 웹사이트 이용 방법을 안내하는 문장으로 여러 방법 중 하나를 제시하는 것이므로 Deontic 적용 대상이 아닙니다. 발화 기능 측면에서 지시가 가능성 안내로 바뀌어 Context 훼손 여부를 검토해야 합니다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"PIN 사용, 학자금 대출 기록 접근, 대출 서비스 연락처 획득이라는 행위·대상·참여자가 모두 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 대명사나 연결어, 초점 표현이 없으며 'and'로 이어진 두 행위의 관계가 '~하고'로 유지됩니다.\"},\"Context\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[\"E001\"],\"reason\":\"원문은 웹사이트 이용 방법을 안내하는 명령형으로 읽히나, 번역은 '~할 수 있습니다'로 가능성 안내가 되어 발화 기능이 지시에서 가능성 설명으로 바뀌었는지 판단하려면 원문이 상대에게 실제 행동을 요구하는 것인지에 대한 문맥 확인이 필요합니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"웹사이트 이용 방법을 안내하는 문장으로 선택 가능한 방법을 제시하므로 규범적 의무·허가 대상이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내문의 격식 있는 '~습니다' 종결이 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"연방 학자금 대출 PIN과 Federal Student Aid 등 제도 용어가 원문과 같은 제도 대상으로 옮겨졌습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-haiku-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 13999,
+    "inference_geo": "global",
+    "input_tokens": 762,
+    "output_tokens": 888,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
