@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgcYPL9PPsQfAAAgSVxAd",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"Let your child take a short break\",\"tgt_span\":\"귀하의 자녀가 짧은 휴식을 취할 수 있습니다\",\"description\":\"부모에게 자녀가 쉬게 '하라'는 권고(명령/권유)를 '취할 수 있습니다'라는 가능·허용 서술로 바꿔 행동 지침의 성격을 훼손함. 또한 조건절과 주절의 어순이 뒤섞여 문장이 어색함.\",\"severity\":\"major\"},{\"src_span\":\"she is having trouble keeping her mind on an assignment\",\"tgt_span\":\"그녀는 그녀의 마음을 지키는 데 어려움이 있다면\",\"description\":\"'keeping her mind on'은 '과제에 집중하다'인데 '마음을 지키다'로 오역해 과제라는 대상이 빠지고 의미가 달라짐. 'she'는 앞의 '자녀'를 가리키는데 '그녀는 그녀의'로 직역해 부자연스럽고 주어가 자녀와 분리되어 보임.\",\"severity\":\"major\"},{\"src_span\":\"Let your child take a short break if she is having trouble\",\"tgt_span\":\"그녀는 그녀의 마음을 지키는 데 어려움이 있다면 귀하의 자녀가 짧은 휴식을 취할 수 있습니다.\",\"description\":\"문장 구조가 비문에 가까워 조건(자녀가 집중하기 어려울 때)과 지시(쉬게 하라)의 관계가 불명확하고 읽기 어려움.\",\"severity\":\"major\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 618
+    },
+    "cache_creation_input_tokens": 618,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 575,
+    "output_tokens": 548,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

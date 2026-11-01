@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgcYQDgECzF1xZGgpbsy3",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"to--er--look beyond\",\"tgt_span\":\"기꺼이 새로운 길을 열고\",\"description\":\"망설이는 추임새 'er'가 번역에서 빠졌다. 말을 고르며 머뭇거리는 화자의 어조가 사라졌다.\",\"severity\":\"minor\"},{\"src_span\":\"by breaking new ground, as it were--participating in pioneering enterprises\",\"tgt_span\":\"새로운 길을 열고 선구적인 사업에 참여함으로써\",\"description\":\"'as it were'(말하자면)의 완곡한 어조가 빠졌다. 'breaking new ground'와 'participating in pioneering enterprises'의 부연·동격 관계도 '열고 ~ 참여함으로써'라는 병렬 구조로 바뀌어 의미가 흐려졌다.\",\"severity\":\"minor\"},{\"src_span\":\"you might be willing, like Mr. Thompson, to--er--look beyond the more accepted channels of finance\",\"tgt_span\":\"기꺼이 새로운 길을 열고 ... 금융의 더 널리 받아들여진 경로를 넘어서 볼 수 있을지도 모릅니다\",\"description\":\"'기꺼이'가 'look beyond'가 아니라 '새로운 길을 열고'에 붙어 있다. 그 결과 'willing to look beyond'의 구조가 어긋났고 'might be willing'(기꺼이 ~할 마음이 있을지도)의 뜻도 흐려졌다. 번역문은 어순이 뒤섞여 부자연스럽고 읽기 어렵다.\",\"severity\":\"major\"},{\"src_span\":\"look beyond the more accepted channels of finance\",\"tgt_span\":\"금융의 더 널리 받아들여진 경로를 넘어서 볼 수 있을지도 모릅니다\",\"description\":\"직역투이다. '더 널리 받아들여진 경로를 넘어서 보다'는 '통상적인 금융 수단 너머로 눈을 돌리다'에 해당하는 자연스러운 표현이 아니다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 723,
+    "output_tokens": 719,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

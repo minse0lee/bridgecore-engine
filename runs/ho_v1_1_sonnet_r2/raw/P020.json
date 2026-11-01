@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgcYQDEgAcMZ1yfRGPA5J",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P020\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"they fall, then they go up again in June and July\",\"tgt_span\":\"겨울에 높아지고, 6월과 7월에 다시 올라가서\",\"description\":\"겨울 이후 값이 떨어지는 단계(they fall)가 빠져, 높아짐→하락→6·7월 재상승의 3단계 패턴이 높아짐→재상승으로 줄어듦. 이에 따라 '다시 올라가서'의 '다시'가 가리키는 변화도 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위·시간 변화): 겨울 이후 값이 떨어지는 단계가 누락되어, 번역문만 읽으면 계절 패턴의 요지를 다르게 이해하게 됩니다. 원문은 겨울 높음→하락→6·7월 상승→연말 하락의 순서입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현 중 바뀐 것이 없습니다. 누락은 Semantic에서만 판정하며, 시간 순서 연결도 '-고', '-서'로 남아 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학습자에게 패턴에 주목하도록 하는 지시 → 같은 주목 지시. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"학습 활동 지시(Notice that)이며 의무·허가·금지 같은 규범 표현이 없습니다. 기능은 Context에서 판정합니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재의 공식 안내체인 '-십시오'가 독자 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다. 월 이름은 일반 시간 표현입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 686,
+    "output_tokens": 794,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

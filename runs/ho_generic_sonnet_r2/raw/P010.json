@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgcYPLD6WCATu4vQrYpH3",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"“Where is your niece?”\",\"tgt_span\":\"사람들이 추론으로 말하는 말버러에서는 흔치 않은 직설로 그는 슬레이터 부인에게 물었다.\",\"description\":\"원문의 직접 인용 질문 \\\"Where is your niece?\\\"(당신 조카는 어디 있습니까?)가 번역문에서 통째로 빠져 있어, 그가 무엇을 물었는지 알 수 없고 '직설'이라는 서술의 근거도 사라진다.\",\"severity\":\"major\"},{\"src_span\":\"people talked by inference\",\"tgt_span\":\"사람들이 추론으로 말하는\",\"description\":\"'inference'를 '추론'으로 직역해 어색하다. 사람들이 직접 말하지 않고 넌지시 암시하며 돌려 말한다는 뜻이 제대로 전달되지 않는다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 618
+    },
+    "cache_creation_input_tokens": 618,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 543,
+    "output_tokens": 320,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

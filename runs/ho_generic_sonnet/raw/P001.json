@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgcYPLEb8hmsUaiaXRDc4",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"Miss March\",\"tgt_span\":\"마치 선생님\",\"description\":\"'Miss March'는 미혼 여성에 대한 호칭인 '미스 마치' 또는 '마치 양'으로 옮겨야 하는데, '선생님'으로 번역해 호칭의 뉘앙스가 달라지고 직업(교사)을 가리키는 것처럼 읽힌다.\",\"severity\":\"minor\"},{\"src_span\":\"You assure me\",\"tgt_span\":\"확신하십니까\",\"description\":\"'assure'는 상대가 자신에게 '보증하다/장담하다'라는 뜻인데, 번역은 '확신하십니까'로 옮겨 상대의 확신 여부를 묻는 말이 되었다. 의미가 약간 어긋난다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 618
+    },
+    "cache_creation_input_tokens": 618,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 552,
+    "output_tokens": 285,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

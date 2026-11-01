@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgcYPf8dqKcGn1Qf9Uevq",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P017\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"these parts\",\"tgt_span\":\"이 부분\",\"description\":\"'지역·고장'을 뜻하는 these parts를 '이 부분'으로 옮겨 장소 의미가 사라지고 추상적 부분처럼 읽힘\"},{\"id\":\"E002\",\"src_span\":\"I did not crave any flying experiences\",\"tgt_span\":\"나는 어떤 비행 경험을 갈망하지 않았다\",\"description\":\"any(어떤 것도 ~않다)의 전면 부정이 '어떤 비행 경험을'로 옮겨져 일부 경험만 부정하는 듯 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"떠나려는 대상이 '이 지역'에서 '이 부분'으로 바뀌어 장소 의미가 흐려졌습니다. any의 전면 부정도 약해졌지만 핵심 줄거리는 이해할 수 있어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"But as much as ~, I did not ~의 양보·대조 연결이 '그러나 ~ 만큼, ~ 않았다'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 떠나고 싶지만 비행은 원치 않았다는 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허용·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술의 평서체 '~않았다'가 유지됩니다. 구어적 어조는 이 문장에서 두드러지지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 9045,
+    "inference_geo": "global",
+    "input_tokens": 705,
+    "output_tokens": 780,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

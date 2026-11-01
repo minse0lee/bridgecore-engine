@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgcYQasC12xftUnFm1tnM",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P030\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"(then giving Washington the benefit of her doubts of climate)\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"당시 부인이 워싱턴 기후에 대한 의구심을 눌러주고 있었다는 삽입절이 번역에서 통째로 빠짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 부인이 당시 워싱턴에 머물며 기후에 대한 의구심을 접어두고 있었다는 부가 정보가 누락되었지만, 명함을 받고 놀랐다는 핵심 사건은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Notwithstanding의 양보 관계('불구하고')와 whereon의 지시('그 명함에는')가 유지되며, 누락은 지시·연결·초점 관계를 바꾸지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사 진술 → 서사 진술. 사건을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문의 평서체('-었다')와 'Mrs.'의 '부인', 'Mr.'의 '씨' 호칭이 유지되어 관계와 태도가 맞습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"방문용 명함(visiting card)을 '명함'으로, Mr.를 '씨'로 옮겨 같은 대상을 가리키며 한국어 독자가 이해할 수 있고, M.C.는 원어 표기를 유지했습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 757,
+    "output_tokens": 759,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

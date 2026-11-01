@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgcYQw6rgfaNCvQXbbt5E",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P027\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"종이·전자 FAFSA 모두, 2012년 1월 1일 이전, 2012-13학년도, 접수되지 않음이 모두 유지됩니다. '제출된'은 원문에 없지만 문맥상 접수 시점 제한과 같은 의미입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학년도와 날짜 조건, 부정 범위가 '2012-13학년도에는 … 접수되지 않습니다'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조기 신청이 접수되지 않는다는 절차 안내 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조기 제출분은 접수되지 않는다는 제도상 제한이 '접수되지 않습니다'로 유지됩니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내문의 '~습니다' 체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"FAFSA와 미국 학년도·날짜 기준이 한국 제도로 바뀌지 않고 그대로 유지됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 9045,
+    "inference_geo": "global",
+    "input_tokens": 696,
+    "output_tokens": 550,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

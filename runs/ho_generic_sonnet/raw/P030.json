@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgcYQ1MKK8N2qKGHV8Qug",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"(then giving Washington the benefit of her doubts of climate)\",\"tgt_span\":\"캐리스우드 부인은 어느 날\",\"description\":\"괄호 삽입절이 통째로 누락되었다. 당시 워싱턴에 기후에 대한 의구심을 접어 두고 머물던 부인의 상황을 전하는 정보가 번역문에 없다.\",\"severity\":\"major\"},{\"src_span\":\"a perfectly correct visiting card\",\"tgt_span\":\"완전히 정확한 명함\",\"description\":\"'correct'는 사교 예절에 맞는 격식을 갖춘 명함이라는 뜻인데 '정확한'으로 옮겨 의미가 어색하고 부정확하다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 687,
+    "output_tokens": 264,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

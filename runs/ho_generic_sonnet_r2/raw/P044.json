@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgcYQGbbBQ9RB9sYVrjSu",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"While interactive models do a better job\",\"tgt_span\":\"더 잘 통합하는 동안,\",\"description\":\"\\\"While\\\"은 양보(~하긴 하지만, ~인 반면)의 의미인데 시간적 의미의 \\\"동안\\\"으로 옮겨 논리 관계가 왜곡되고 어색합니다.\",\"severity\":\"major\"},{\"src_span\":\"many have argued\",\"tgt_span\":\"주장한다\",\"description\":\"현재완료(~해 왔다)가 단순 현재로 번역되어 시제·상(相)이 달라졌습니다.\",\"severity\":\"minor\"},{\"src_span\":\"they still do not adequately recognize\",\"tgt_span\":\"그들이 여전히\",\"description\":\"\\\"그들\\\"은 상호작용 모델을 가리키지만 앞의 \\\"많은 사람들\\\"을 가리키는 것처럼 읽혀 지시 대상이 모호합니다. 직역투입니다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 1351,
+    "output_tokens": 333,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

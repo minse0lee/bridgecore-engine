@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgcYQjmiX7GWJmJ3dkq6B",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P037\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"overbearing\",\"tgt_span\":\"압도적으로\",\"description\":\"'overbearing'은 이론이 독단적·고압적·강압적으로 느껴진다는 부정적 뉘앙스인데, '압도적'은 규모나 힘이 매우 크다는 뜻이어서 의미가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"'overbearing'(독단적·강압적)이 '압도적'으로 옮겨져 이론에 대한 부정적 인상의 성격이 달라졌지만, 문장의 나머지 내용과 학습 이해의 큰 틀은 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'다른 경우에'가 앞 문장의 'seem overly philosophical'과 대비되는 또 다른 경우라는 연결을 유지합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"이론이 때로 부담스럽게 보일 수 있다고 설명하는 서술 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장의 may seem은 가능성을 나타내며 의무·허용·금지 같은 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재 설명문에 맞는 '~습니다' 격식체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 9045,
+    "inference_geo": "global",
+    "input_tokens": 969,
+    "output_tokens": 673,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

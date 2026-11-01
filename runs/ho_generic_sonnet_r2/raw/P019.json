@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgcYPjMPKcr2GUSwPTpfV",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"Our Mother looked up across the top of the letter.\",\"tgt_span\":\"어머니께서는 편지의 맨 위를 쳐다보셨습니다.\",\"description\":\"'looked up across the top of the letter'는 편지 위쪽 너머로 고개를 들어 바라보았다는 뜻인데, '편지의 맨 위를 쳐다보셨다'로 옮겨 편지 윗부분을 보았다는 뜻이 되어 동작과 방향이 달라졌다.\",\"severity\":\"major\"},{\"src_span\":\"she looked\",\"tgt_span\":\"그녀가 쳐다보신\",\"description\":\"화자의 어머니(Our Mother)를 가리키는데 앞 문장에서는 '어머니께서는'이라 하고 여기서는 '그녀'로 옮겨 어색하다. 또 '그녀'와 '-신' 높임이 함께 쓰여 호칭 일관성이 깨진다.\",\"severity\":\"minor\"},{\"src_span\":\"my Father\",\"tgt_span\":\"저의 아버지\",\"description\":\"원문은 'Our Mother'와 'my Father'가 가족 내 호칭으로 쓰이는데, 번역에서 소유 표현이 '어머니'(무소유)와 '저의 아버지'로 일관되지 않다. 또한 '아버지'에 대한 높임 표현이 빠졌다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 438,
+    "output_tokens": 485,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
