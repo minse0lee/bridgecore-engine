@@ -116,3 +116,12 @@ def test_generic_validate_and_prf():
     assert (m["tp"], m["fp"], m["fn"]) == (1, 1, 1) and abs(m["f1"] - 0.5) < 1e-9
     obs, lo, hi, _ = bootstrap_diff([dict(gold)], [{"A": True, "B": True, "C": False, "D": False}], gold, list(gold), n=200)
     assert abs(obs - 0.5) < 1e-9 and lo <= obs <= hi
+
+
+def test_humanize_reason():
+    from bridgecore.poc_report import humanize_reason as h
+    assert h("Semantic", "판단 질문 1: 행위가 바뀜") == "[내용 변화] 행위가 바뀜"
+    assert h("Textual", "판단 질문 2(연결 관계): 순서가 바뀜") == "[연결 관계 변화] 순서가 바뀜"
+    assert h("Cultural", "판단 질문 1·2: 제도") == "[대상·제도 / 제도적 의미] 제도"
+    assert h("Semantic", "이는 판단 질문 1에 해당합니다.") == "이는 내용 변화에 해당합니다."
+    assert h("Context", "질문 없음") == "질문 없음"

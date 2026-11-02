@@ -8,6 +8,7 @@
 from __future__ import annotations
 
 import html
+import re
 from collections import Counter
 from datetime import datetime
 from pathlib import Path
@@ -29,6 +30,36 @@ AXIS_DESC = {
 }
 SEV_KO = {"minor": "경미", "major": "중대", "critical": "치명"}
 REVIEW_CHOICES = ["맞음", "틀림", "애매"]
+
+
+# 엔진 근거의 "판단 질문 N"(가이드라인 2절 번호)을 읽는 사람이 알 수 있는 말로 바꾼다. 판정 자체는 바꾸지 않는다.
+QUESTION_LABELS = {
+    "Semantic": {"1": "내용 변화", "2": "평가·확실성 변화"},
+    "Textual": {"1": "지시 대상 변화", "2": "연결 관계 변화", "3": "초점·범위 변화"},
+    "Context": {"1": "발화 기능 변화", "2": "강도·말투만 다름"},
+    "Deontic": {"1": "의무·허가·금지 변화", "2": "주체·조건·범위 변화"},
+    "Register": {"1": "높임·격식", "2": "호칭", "3": "화자 태도"},
+    "Cultural": {"1": "대상·제도", "2": "제도적 의미", "3": "날짜·통화·단위 표기"},
+}
+_Q_RE = re.compile(r"판단 ?질문\s*([0-9](?:\s*[·,및와]\s*[0-9])*)(?:\s*\(([^)]{1,40})\))?(\s*에 해당합니다)?\s*[:：]?\s*")
+
+
+def humanize_reason(axis: str, text: str | None) -> str:
+    if not text:
+        return ""
+    labels = QUESTION_LABELS.get(axis, {})
+
+    def sub(m):
+        nums = re.findall(r"[0-9]", m.group(1))
+        if m.group(2):
+            words = m.group(2).strip()
+            label = words if words.endswith(("변화", "의미", "표기", "다름")) else f"{words} 변화"
+        else:
+            label = " / ".join(labels.get(n, f"질문 {n}") for n in nums)
+        if m.group(3):
+            return f"{label}에 해당합니다"
+        return f"[{label}] "
+    return _Q_RE.sub(sub, text).strip()
 
 
 # ───────────────────────── 집계 ─────────────────────────
@@ -268,7 +299,7 @@ def _card(r: dict) -> str:
     for a in r["flagged"] + r["held"]:
         ax = out["axes"][a]
         badge = _sev_badge(ax.get("severity")) if ax["judgment"] == VIOLATED else '<span class="badge hold">판단보류</span>'
-        body.append(f'<div class="axrow"><div class="ax">{AXIS_KO[a]} {badge}</div><div>{e(ax.get("reason") or "")}</div></div>')
+        body.append(f'<div class="axrow"><div class="ax">{AXIS_KO[a]} {badge}</div><div>{e(humanize_reason(a, ax.get("reason")))}</div></div>')
 
     if out and r["status"] == "ok" and not r["flagged"] and not r["held"]:
         body.append('<p class="meta">여섯 축 모두 보존 또는 해당 없음(N/A)으로 판정했습니다.</p>')
@@ -402,7 +433,7 @@ def write_review_xlsx(rows: list[dict], path: Path, info: dict) -> Path:
                               for eid in (ax.get("error_ids") or []) if eid in err_by_id)
             ws.append([row["item"]["item_id"], row["item"].get("src", ""), row["item"].get("tgt", ""),
                        AXIS_KO[a], ax["judgment"], SEV_KO.get(ax.get("severity"), ""), spans,
-                       ax.get("reason", ""), None, None, None, None])
+                       humanize_reason(a, ax.get("reason")), None, None, None, None])
     _finish_sheet(ws, widths, input_cols=[9, 10, 11, 12], head_fill=head_fill, input_fill=input_fill, wrap=wrap)
     n = ws.max_row
     if n >= 2:
