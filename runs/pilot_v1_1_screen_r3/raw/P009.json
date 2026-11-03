@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgg3mxvD9ViQqQTmGo92Q",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P009\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"If he could keep the others from this control panel\",\"tgt_span\":\"그는 다른 사람이 다른 30 분 동안이 컨트롤 패널에서 유지할 수있다면\",\"description\":\"'others'를 막는 행위자(he)와 막는 대상(the others)이 뒤바뀌어, 다른 사람들이 그를 패널에서 떼어 놓는 것으로 읽히게 됨. 조건문의 의미가 달라짐\"},{\"id\":\"E002\",\"src_span\":\"the computer could operate on his equations fully, and the battle would be won.\",\"tgt_span\":\"컴퓨터는 완전히 자신의 방정식을 작동할 수 있으며, 전투가 승리했다.\",\"description\":\"'would be won'(가정·결과)이 과거 단정 '승리했다'로 바뀌어 확실성이 달라짐. '자신의 방정식'의 지시 대상도 불분명해짐\"},{\"id\":\"E003\",\"src_span\":\"for another half hour\",\"tgt_span\":\"다른 30 분 동안\",\"description\":\"'half hour'가 '30 분'으로 옮겨진 것 자체는 통상적 대응이나, 번역문 전체의 조건 구조 훼손 속에서 시간 조건이 '다른 사람이' 구간과 뒤섞임. 별도 오류로 보지 않으므로 목록에서 제외해야 하나, 참고용으로 기록\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"행위자와 대상이 뒤바뀌었고(누가 누구를 막는지), 조건절이 결과 가정에서 확정 사실로 바뀌어 사건의 내용이 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: '자신의 방정식'의 소유 대상이 불분명해져 지시 관계가 흐려졌고, 조건-결과 연결이 시간 관계로 바뀌어 연결 관계가 달라졌습니다.\"},\"Context\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"원문은 조건부 가정 서술이고 번역은 단정 서술이라 기능 변화가 있으나, 작품 내 서술 맥락과 화자 시점을 확인해야 발화 기능 차이를 확정할 수 있습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화문이 아닌 서술문으로 화자와 청자의 높임 관계가 드러나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유 대상이 없고 시간 단위 '30 분'은 숫자 대응 수준의 문제입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-haiku-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14501,
+    "inference_geo": "global",
+    "input_tokens": 782,
+    "output_tokens": 1106,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

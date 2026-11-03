@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgg3qGUjov3zKP9NTY5Zo",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P044\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"While interactive models do a better job incorporating influence from a receiver than do linear models\",\"tgt_span\":\"상호작용 모델이 선형 모델보다 수신자의 영향을 더 잘 통합하는 동안\",\"description\":\"양보 관계(While…)가 '동안'이라는 시간 관계로 옮겨졌으나, 대조·양보의 의미는 남아 있고 한국어로 재구성됨. 오류로 보지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상호작용 모델이 수신자 영향을 더 잘 통합한다는 비교 내용과 많은 사람들이 여전히 수신자 역할을 충분히 인식하지 못한다고 주장한다는 내용이 모두 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'While…, many have argued that…' 의 대조 관계가 '동안'과 '그러나' 없이 문장 내 대비로 남아 있고, 지시 대상과 초점 표현에도 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개념 설명·비판적 논의 제시 → 개념 설명·비판적 논의 제시. 발화 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"평가대상 문장에는 의무·허가·금지나 규범적 권고가 없고, 'do not'은 '충분히 인식하지 못한다'는 평서적 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재의 평서체 서술이 '~한다'로 일관되게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 제도·단위·관습 등 문화 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-haiku-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14501,
+    "inference_geo": "global",
+    "input_tokens": 1527,
+    "output_tokens": 754,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
