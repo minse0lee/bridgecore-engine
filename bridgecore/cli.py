@@ -386,6 +386,22 @@ def cmd_vcompare(args):
                      overrides=overrides if args.gold == "majority" else None)
 
 
+def cmd_rescore(args):
+    from .revised_gold import rescore
+    sp = read_json(PROC / "split_pilot.json")
+    R = ROOT / "runs"
+    c = lambda kind, dev, ho: {"kind": kind, "dev": [R / x for x in dev], "holdout": [R / x for x in ho]}
+    configs = {
+        "엔진 v1.1 (Sonnet)": c("engine", ["dev_v1_1_sonnet", "dev_v1_1_sonnet_r2"], ["ho_v1_1_sonnet", "ho_v1_1_sonnet_r2"]),
+        "엔진 v1.1 2단계": c("engine", ["dev_v1_1_screen__cascade"], ["ho_v1_1_screen__cascade"]),
+        "엔진 v1.1 (Haiku)": c("engine", ["dev_v1_1_haiku", "dev_v1_1_haiku_r2"], []),
+        "엔진 v0 (Sonnet)": c("engine", ["dev_sonnet", "dev_sonnet_r2"], ["ho_v0_sonnet", "ho_v0_sonnet_r2"]),
+        "엔진 v0 2단계": c("engine", ["dev_screen__cascade"], ["ho_v0_screen__cascade"]),
+        "일반 프롬프트 (Sonnet)": c("generic", ["dev_generic_sonnet", "dev_generic_sonnet_r2"], ["ho_generic_sonnet", "ho_generic_sonnet_r2"]),
+    }
+    rescore(configs, get_gold("consensus"), {"dev": sp["dev"], "holdout": sp["holdout"]}, REPORTS)
+
+
 def cmd_poc(args):
     from .poc_report import make_poc_report
     run_dir = Path(args.run_dir)
@@ -489,6 +505,7 @@ def main(argv=None):
     s.set_defaults(fn=cmd_generic)
     s = sub.add_parser("effect"); s.add_argument("--gold", choices=["consensus", "majority"], default="consensus")
     s.add_argument("--split", choices=["dev", "holdout"], default="dev"); s.set_defaults(fn=cmd_effect)
+    sub.add_parser("rescore", help="수정 가이드라인 18칸 반영 정답으로 재채점").set_defaults(fn=cmd_rescore)
     s = sub.add_parser("vcompare"); s.add_argument("--old", default="v0"); s.add_argument("--new", default="v1")
     s.add_argument("--gold", choices=["consensus", "majority"], default="consensus")
     s.set_defaults(fn=cmd_vcompare)
