@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgfikD9Cjrpw9r6db1MKg",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P052\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Think for a minute you can put that kind of a game over on me?\",\"tgt_span\":\"나한테 그런 게임을 걸 수 있다고 생각해봐.\",\"description\":\"화자가 상대를 꾸짖는 반어적 수사의문('내게 그런 수작이 통할 거라 생각하느냐?')이 '그렇게 생각해보라'는 명령문으로 바뀜. 의문형이 사라지고 질책의 의미가 상대에게 가정을 해 보라는 지시로 읽힘.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 원문은 '그런 수작을 내게 부릴 수 있다고 생각하느냐'는 상대의 생각을 따지는 말이지만, 번역문은 그렇게 생각해 보라는 요구로 읽혀 행위(묻기 → 생각해보라고 하기)가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 표현, 연결 관계, 초점 표현에 해당하는 변화가 없습니다. 'that kind of a game'은 '그런 게임'으로 옮겨져 있고, 이 문장에는 별도로 판정할 연결 변화가 없습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"질책하는 수사의문(어림없다는 뜻의 추궁) → 상대에게 생각해 보라는 지시. 앞 문장의 질책 흐름과 달리 발화 기능이 다른 종류로 바뀌었습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"can은 가능성·능력의 뜻이며, 소설 속 화자의 질책에는 의무·허가·금지 같은 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화난 화자가 상대에게 하는 거친 반말이 '-해봐'로 유지되며, 관계와 태도를 바꾸는 호칭 변화는 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15260,
+    "inference_geo": "global",
+    "input_tokens": 635,
+    "output_tokens": 893,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

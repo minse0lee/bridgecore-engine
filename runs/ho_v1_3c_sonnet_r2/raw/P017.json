@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgfio5VRPUqNCJUZN1t1w",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P017\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"these parts\",\"tgt_span\":\"이 부분\",\"description\":\"'parts'는 '이 지역·이 일대'를 뜻하는데 '이 부분'으로 옮겨 장소가 아닌 일부분·부분 일반으로 읽힘. 떠나려는 대상이 지역에서 모호한 '부분'으로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"as much as I desired to leave these parts, I did not crave any flying experiences\",\"tgt_span\":\"내가이 부분을 떠나고 싶은 만큼, 나는 어떤 비행 경험을 갈망하지 않았다\",\"description\":\"'as much as'를 양보('떠나고 싶긴 했지만')가 아닌 비교·정도('~만큼')로 옮겨 '그만큼 비행을 갈망하지 않았다'는 정도 비교로 읽힘. 대조 관계가 흐려짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상): 'these parts'(이 지역)가 '이 부분'으로 옮겨져 떠나려는 대상이 장소가 아닌 막연한 '부분'으로 읽혀 원문 내용이 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2(연결 관계): 'as much as'의 양보 관계가 '-만큼' 비교 구문으로 바뀌어, 떠나고 싶음과 비행 불원 사이의 대조가 정도 비교로 읽힙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 심정 서술 → 심정 서술. 발화 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술의 평서체('-않았다')가 유지되어 관계·태도에 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15260,
+    "inference_geo": "global",
+    "input_tokens": 705,
+    "output_tokens": 893,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

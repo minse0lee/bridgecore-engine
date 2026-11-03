@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgfiYJQPCg9z7a8G2idyB",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P024\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"along with the TD and the Scene Designer, the schedule, color palette, and techniques\",\"tgt_span\":\"TD와 장면 디자이너, 일정, 색상 팔레트, 그리고 풍경 페인팅에 필요한 기술과 함께 창조하고 개발하는\",\"description\":\"창조·개발의 대상(일정, 색상 팔레트, 기술)과 함께 일하는 협업자(TD, 장면 디자이너)가 구분되지 않고 모두 '함께'의 대상으로 나열되어, 충전 아티스트가 일정·팔레트·기술을 만든다는 내용이 사라짐\"},{\"id\":\"E002\",\"src_span\":\"charge artist\",\"tgt_span\":\"충전 아티스트\",\"description\":\"Scenic Charge Artist(무대 도색 책임자)의 charge를 '충전'으로 옮겨 직책명이 한국어 독자에게 전기 충전 관련 직무처럼 읽힘\"},{\"id\":\"E003\",\"src_span\":\"It is the charge artist who\",\"tgt_span\":\"그것은 … 충전 아티스트입니다\",\"description\":\"분열문의 'It'이 '그것'으로 옮겨져 충전 아티스트가 사람이 아닌 것으로 읽히고 초점 구조가 어색함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 일정·팔레트·기술이 창조·개발의 대상이 아니라 TD·디자이너와 나란히 놓인 협업자로 읽혀 누가 무엇을 만드는지가 달라졌고, '충전 아티스트'라는 직책명도 다른 대상으로 읽힙니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E003\"],\"reason\":\"판단 질문 1·3: 'along with' 삽입구의 범위가 깨져 대상 목록이 협업자 목록으로 묶이고, 'It is … who' 분열문의 초점이 '그것은 …입니다'로 약해져 지시·초점 관계가 달라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"역할 설명 → 역할 설명. 직무를 설명하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없는 역할 설명 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재의 설명체가 유지되며 관계에 맞는 격식입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다. 직책명 오역은 Semantic에서 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15115,
+    "inference_geo": "global",
+    "input_tokens": 1180,
+    "output_tokens": 1069,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

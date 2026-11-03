@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgfiZS9zCe5E3ZAihVrJr",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P049\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"this should show you\",\"tgt_span\":\"이것은 당신이 생각하는 것만큼 … 보여줄 것이다\",\"description\": \"should(예상·기대)가 '~할 것이다'(단정적 미래)로 바뀌어 확실성이 높아짐. 핵심 사실은 유지되어 minor\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2(확실성): 예상의 should가 '보여줄 것이다'로 단정에 가깝게 읽혀 확실성이 달라졌으나, 핵심 사실(이 일이 배가 기대만큼 좋지 않음을 보여줌)은 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'이것', '당신', '이 배' 등 지시 대상이 유지되고 비교·연결 관계도 남아 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"눈빛이 전하는 메시지를 서술 → 눈빛이 전하는 메시지를 서술. 상대에게 상황을 깨우치려는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 should는 예상의 뜻이며 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"스킵이 불에게 속으로 전하는 말로, 평서체 서술과 '당신' 호칭이 관계·태도를 크게 바꾸지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15115,
+    "inference_geo": "global",
+    "input_tokens": 720,
+    "output_tokens": 713,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgfii2KH1Aa7YkKVb4fuZ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P008\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"many children with ADHD do not grow out of it\",\"tgt_span\":\"ADHD를 앓고 있는 많은 어린이들은 성장하지 못한다\",\"description\":\"'grow out of it'(자라면서 증상이 없어짐)이 '성장하지 못한다'로 옮겨져, 성장 자체를 못 한다는 뜻으로 읽힘. ADHD가 성장해도 지속된다는 원래 의미가 달라짐\"},{\"id\":\"E002\",\"src_span\":\"It is now known that\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"'이제는 알려져 있다'는 표현이 누락되어 최신 연구로 밝혀진 사실이라는 정보가 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'grow out of it'이 '성장하지 못한다'로 옮겨져 한국어 독자는 신체적·발달적 성장 실패로 이해하며, 증상이 지속된다는 요지가 달라졌고 'now known'도 누락되었습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"while에 해당하는 대조 관계가 '-지만'으로 유지되고 지시·초점 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사실·연구 결과 설명 → 사실·연구 결과 설명으로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"may는 가능성, do not은 사실 서술이며 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학습자료의 설명체 '-다'가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15260,
+    "inference_geo": "global",
+    "input_tokens": 1333,
+    "output_tokens": 773,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgfiZ9foHEvQ2wPX1fB9n",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P043\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the runt Polack\",\"tgt_span\":\"꼬마 폴란드인\",\"description\":\"'runt'(왜소한 놈이라는 경멸조)와 'Polack'(폴란드인 비칭)이 '꼬마'와 중립적 '폴란드인'으로 바뀌어 화자의 경멸·민족 비하 표현이 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"판단 질문 1·2: 그들, 아직, 잡았는지 묻는 내용과 대상(왜소한 폴란드인)이 유지되고 달라진 것은 평가어 정도뿐입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그들'이 원문 they처럼 불특정 무리를 가리키며 yet도 '아직'으로 유지되어 지시·연결·초점이 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"체포 여부를 묻는 질문 → 체포 여부를 묻는 질문으로 같은 기능입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 질문입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3: 'runt Polack'에 담긴 화자의 경멸·비하 태도가 '꼬마 폴란드인'으로 사라져 중립적·유아적 어감으로 약해졌습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 'Polack'이라는 폴란드인 비칭의 민족 비하라는 문화적 의미가 중립적 '폴란드인'으로 바뀌어 한국어 독자에게 전달되지 않으며, 평가조건이 문화 함의 변경을 불허합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15115,
+    "inference_geo": "global",
+    "input_tokens": 486,
+    "output_tokens": 781,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgfiZ7WZxXAuQvFMhqnQS",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P043\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the runt Polack\",\"tgt_span\":\"꼬마 폴란드인\",\"description\":\"'runt'(왜소한 놈이라는 경멸)와 'Polack'(폴란드인 비칭)이 '꼬마'와 중립적인 '폴란드인'으로 바뀌어 비하·경멸의 태도와 민족 비칭의 문화적 의미가 사라짐\"},{\"id\":\"E002\",\"src_span\":\"Have they caught\",\"tgt_span\":\"그들이 아직 … 잡았나?\",\"description\":\"발화 속 'they'가 '그들'로 옮겨져 한국어에서 사람을 가리키는 것으로 읽히지만, 원문에서도 사람(추적자)을 가리키므로 의미 변화는 없음. 오류로 보지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'runt'(왜소함을 얕잡는 표현)가 '꼬마'로 바뀌어 대상 묘사가 달라졌으나, 잡았는지를 묻는 핵심 사실과 대상은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'they'가 '그들'로 사람을 가리켜 지시 대상이 같고 yet은 '아직'으로 옮겨져 연결·초점이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"수색 경과를 묻는 질문 → 수색 경과를 묻는 질문. 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 질문 문장입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3: 화자의 경멸적 태도를 담은 'runt Polack'이 '꼬마 폴란드인'으로 순화되어 비하하는 태도가 크게 약해졌고, 평가조건이 관계·태도 변경을 불허합니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 'Polack'이라는 폴란드인 비칭이 중립적인 '폴란드인'으로 바뀌어 민족 비하라는 문화적 의미가 전달되지 않으며, 평가조건이 문화 함의 변경을 불허합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15115,
+    "inference_geo": "global",
+    "input_tokens": 486,
+    "output_tokens": 959,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

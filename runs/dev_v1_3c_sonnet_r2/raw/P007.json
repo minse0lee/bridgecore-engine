@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgfii4VG3bWCMc7W4Lhdu",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P007\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"three or four feet\",\"tgt_span\":\"3 ~ 4 피트 ( 1 ~ 2 미터 )\",\"description\":\"원문에 없는 미터 환산 병기가 첨가됨. 3~4피트는 약 0.9~1.2미터이므로 '1~2미터'는 부정확한 수치로 수량이 달라져 보임\"},{\"id\":\"E002\",\"src_span\":\"it was noted that\",\"tgt_span\":\"관찰했을 때\",\"description\":\"'(사람들이) 알아차렸다'는 비인칭 수동이 '관찰했다'로 바뀌어 행위자가 불분명해지고 문맥상 폴 버니언이 관찰한 것으로 읽힐 수 있음. 다만 큰 의미 변화는 아님\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(수량): 원문에 없는 '1~2미터' 환산이 첨가되었고 3~4피트의 실제 환산값(약 1미터 안팎)과 달라 수량 정보가 부정확해졌으나, 원래의 3~4피트가 그대로 남아 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-했을 때'로 시간 연결이 유지되고 '발견했다'의 두 대상(혹, 눈물)도 병렬로 이어지며 지시 대상이 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사 서술 → 서사 서술. 사건을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 본문의 평서 서술체(-다)가 유지되며 화자·청자 관계에 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"피트 단위를 그대로 유지하고 미터 환산을 병기했을 뿐 다른 제도나 단위로 대체하지 않았습니다. 환산 수치의 부정확성은 Semantic에서만 판정합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15260,
+    "inference_geo": "global",
+    "input_tokens": 1534,
+    "output_tokens": 903,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

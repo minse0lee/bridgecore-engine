@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgfioaZeKwvtE8FS7h1pD",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P030\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"(then giving Washington the benefit of her doubts of climate)\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"부인이 당시 워싱턴의 기후에 대한 의구심을 접어 두고 있었다는 괄호 삽입 설명이 번역문에서 통째로 빠짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 괄호 속 부가 정보(당시 워싱턴 기후에 대한 부인의 의구심)가 누락되었으나, 명함을 받고 놀랐다는 핵심 사건과 인물·명함 내용은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Notwithstanding'이 '불에도 불구하고'로, 'whereon'이 '그 명함에는'으로 옮겨져 지시·연결 관계가 유지되며, 누락은 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 인물이 명함을 받고 놀란 사건을 전하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"출판물 서술체 '-었다'가 유지되며 명함의 'Mr.'도 '씨'로 옮겨져 관계·태도에 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"명함, 'Mr.' 호칭(씨), 'M.C.' 표기를 그대로 유지하여 대상이 같고 다른 제도로 바꾸지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15260,
+    "inference_geo": "global",
+    "input_tokens": 757,
+    "output_tokens": 751,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

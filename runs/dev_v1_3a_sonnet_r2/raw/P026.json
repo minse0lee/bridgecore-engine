@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgfiYJtfGLzTurrHA5BxT",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P026\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I think you have time to fill me in\",\"tgt_span\":\"나에게 몇 가지 세부사항을 알려줄 시간이 있다고 생각한다\",\"description\":\"'you have time'의 주어 '당신'이 번역문에서 빠져 '나에게 … 알려줄 시간이 있다'로만 읽힘. 다만 '알려줄' 행위자가 청자임은 문맥상 어느 정도 유추되며, 시간이 있는 사람이 화자로 읽힐 여지가 있음. 또한 완곡한 요청 기능이 약해짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"판단 질문 1: 알려줄 시간이 있다고 생각한다는 내용, 세부사항, 청자가 알려주는 행위가 한국어 독자에게도 동일하게 이해되어 달라진 항목이 없습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 표현·연결·초점 표현에 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장군이 상대에게 세부 설명을 은근히 요구함 → 동일하게 설명을 요구하는 진술. 같은 종류의 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"개인적 요청·바람으로, 의무·허가·금지 같은 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"장군과 청자(보고자)의 관계와 그에 맞는 말투가 문장만으로는 확정되지 않아, 이 '-한다' 평서체가 적절한지 판단하려면 청자의 지위·관계 정보가 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15115,
+    "inference_geo": "global",
+    "input_tokens": 661,
+    "output_tokens": 781,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

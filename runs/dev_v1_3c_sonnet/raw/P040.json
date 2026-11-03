@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgfijfaAkabW76pxCm29z",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P040\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"guttered at his ear\",\"tgt_span\":\"그의 귀에 구멍\",\"description\":\"'guttered'(불꽃이 깜박이다/촛농이 흘러내리다)가 '구멍'이라는 무관한 명사로 오역되어 랜턴의 동작이 사라지고 '귀에 구멍'이라는 다른 내용이 됨\"},{\"id\":\"E002\",\"src_span\":\"The lantern like a secret fear, Whispered\",\"tgt_span\":\"비밀스러운 두려움처럼 랜턴, 속삭이고\",\"description\":\"서술어 'Whispered'의 주어가 랜턴임이 분명하지 않고 비유 관계('랜턴이 두려움처럼')가 어순상 불분명함. 다만 랜턴이 속삭인다는 관계는 복원 가능함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위): 랜턴의 깜박임(guttered)이 '귀에 구멍'이라는 다른 대상·상태로 바뀌어 한국어 독자가 시의 이미지와 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'속삭이고'가 앞의 서술과 이어지는 구조는 남아 있고, 지시·연결·초점 관계의 변화는 질문 1~3 모두 해당하지 않습니다. 어순의 어색함만으로는 훼손이 아닙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"시적 묘사·서술 → 시적 묘사·서술. 발화 기능 종류는 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 시적 묘사입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 청자의 관계에 따른 높임·호칭·격식이 드러나는 표현이 없는 서정적 서술입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15260,
+    "inference_geo": "global",
+    "input_tokens": 499,
+    "output_tokens": 869,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

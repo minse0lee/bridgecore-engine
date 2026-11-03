@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgfiaPmtijKfw2kFBHFsk",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P049\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"this should show you\",\"tgt_span\":\"이것은 당신이 … 보여줄 것이다\",\"description\":\"예상의 should(\\\"~할 것이다/~해야 할 텐데\\\")를 단정적 미래 '보여줄 것이다'로 옮겨 확실성이 다소 강해짐. 핵심 사실은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2(확실성): 예상·기대의 should가 단정에 가까운 '보여줄 것이다'로 바뀌어 확실성이 약간 달라졌으나, 핵심 사실(이 배가 생각만큼 좋지 않음을 보여준다)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'이것'이 앞선 사건을 가리키는 지시 관계와 'It said'의 '그것'이 눈빛을 가리키는 관계가 유지되며, 연결·초점 표현의 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"눈빛에 담긴 무언의 메시지 전달(서술) → 눈빛에 담긴 메시지 전달(서술). 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"should는 예상·기대의 뜻이며 의무·허가·금지·권고를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"스킵이 불에게 속으로 전하는 말로, 번역의 '당신'과 평서체는 소설 서술체로서 관계를 해치지 않으며 어색함만으로는 훼손이 아닙니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15115,
+    "inference_geo": "global",
+    "input_tokens": 720,
+    "output_tokens": 781,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

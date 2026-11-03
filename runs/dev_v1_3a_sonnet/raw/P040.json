@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgfiZ1LVSiT9tU97MbMfz",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P040\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"guttered\",\"tgt_span\":\"구멍\",\"description\":\"guttered(등불이 깜박이다 꺼질 듯 흔들리다)가 '구멍'이라는 무관한 명사로 오역되어 랜턴의 행위가 사라짐\"},{\"id\":\"E002\",\"src_span\":\"at his ear\",\"tgt_span\":\"그의 귀에 구멍\",\"description\":\"'그의 귀에'가 '구멍'과 결합해 귀에 구멍이 있다는 뜻으로 읽혀, 귀 가까이에서 속삭인다는 위치 관계가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(행위·대상): 랜턴이 귀 곁에서 속삭이고 깜박였다는 내용이 '그의 귀에 구멍'으로 바뀌어 한국어 독자는 랜턴의 두 번째 행위와 장면을 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'his'가 가리키는 인물과 비유 관계는 번역에서도 유지되며 연결 관계와 초점 표현에 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"시적 장면 묘사 → 시적 장면 묘사. 발화 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 시적 묘사입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"시적 서술 문체이며 높임·호칭 관계가 문제 되지 않고 화자 태도의 변화도 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15115,
+    "inference_geo": "global",
+    "input_tokens": 499,
+    "output_tokens": 769,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

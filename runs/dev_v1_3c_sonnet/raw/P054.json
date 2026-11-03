@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgfikPt8Mcn5wGm5uixUo",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P054\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"9 hours of regular coursework\",\"tgt_span\":\"9시간의 정규과목\",\"description\":\"학점 단위인 credit hours(9 regular credit hours)를 '시간'으로 옮겨 한국어 독자에게는 수업 시간 9시간으로 읽힘. 학점 단위가 아니라 시간 단위로 전달됨\"},{\"id\":\"E002\",\"src_span\":\"while the remedial work is excluded\",\"tgt_span\":\"하지만, 보충 과목은 제외됩니다\",\"description\":\"'while'의 병렬 관계가 '~했지만'의 양보·대조로 바뀌었고, 제외 대상이 '보충 과목'이라고만 되어 '계산에서 제외'된다는 맥락이 불분명함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(수량·단위): credit hours를 '시간'으로 옮겨 한국어 독자는 학점이 아닌 수업 시간으로 이해합니다. 다만 9와 정규과목이라는 핵심 수치·대상은 유지되고 문서 맥락에서 원 자료를 확인할 수 있어 요지 변화는 크지 않아 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'마찬가지로'가 앞 예와의 유사 관계를 유지하고, while을 '-했지만'으로 옮긴 것도 대조 관계가 남아 있어 질문 1~3 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"계산 예시 설명 → 계산 예시 설명. 설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"계산 사례를 서술하는 문장이며 의무·허가·금지 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내문에 맞는 '~습니다' 설명체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"credit hours의 '시간' 오역은 용어 오역으로 Semantic에서만 기록하므로, 이 축에서 별도로 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15260,
+    "inference_geo": "global",
+    "input_tokens": 1946,
+    "output_tokens": 897,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

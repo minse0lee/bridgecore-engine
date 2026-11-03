@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgfiYwiTbPRfq3bvun4Zv",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P040\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"guttered\",\"tgt_span\":\"구멍\",\"description\":\"등불이 바람에 흔들리며 깜빡이다 꺼질 듯 타는 동작(guttered)이 '구멍'이라는 명사로 바뀌어, 행위가 사라지고 무관한 대상이 들어감\"},{\"id\":\"E002\",\"src_span\":\"Whispered and guttered at his ear\",\"tgt_span\":\"속삭이고 그의 귀에 구멍\",\"description\":\"'그의 귀에 구멍'이 되어 랜턴이 그의 귀 곁에서 속삭이고 깜빡였다는 위치·행위 관계가 귀에 구멍이 있다는 말로 읽혀 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: guttered(깜빡이며 타다)가 '구멍'으로 바뀌고 at his ear가 '그의 귀에 구멍'이 되어 랜턴의 행위와 위치가 한국어 독자에게 다른 뜻으로 읽힙니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'처럼' 비유 구조와 '랜턴'이 속삭인 주체라는 관계, 두 동사의 병렬은 어색하지만 지시·연결·초점이 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"시적 묘사 서술 → 시적 묘사 서술. 장면을 묘사하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"시의 묘사 문장이라 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"시의 서술 문장이고 화자·청자 사이의 높임·호칭 관계가 드러나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15115,
+    "inference_geo": "global",
+    "input_tokens": 499,
+    "output_tokens": 835,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

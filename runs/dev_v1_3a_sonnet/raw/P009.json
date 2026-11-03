@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgfidjPSTEgjGiYi2zQyk",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P009\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"If he could keep the others from this control panel\",\"tgt_span\":\"그는 다른 사람이 다른 30 분 동안이 컨트롤 패널에서 유지할 수있다면\",\"description\":\"'다른 사람들을 패널에 접근하지 못하게 막다'가 '다른 사람이 패널에서 (무엇을) 유지할 수 있다면'으로 바뀌어 행위자(그)와 대상(others)의 관계가 뒤바뀌고 '막다'라는 행위가 사라짐\"},{\"id\":\"E002\",\"src_span\":\"for another half hour\",\"tgt_span\":\"다른 30 분 동안\",\"description\":\"another half hour(추가 30분)가 '다른 30분'으로 옮겨져 '추가' 의미가 사라짐\"},{\"id\":\"E003\",\"src_span\":\"the battle would be won\",\"tgt_span\":\"전투가 승리했다\",\"description\":\"가정적 미래 결과(승리하게 될 것)가 이미 일어난 과거 사실 '승리했다'로 바뀌고 '이겨질 것이다'의 확실성·시제가 달라짐\"},{\"id\":\"E004\",\"src_span\":\"the computer could operate on his equations fully\",\"tgt_span\":\"컴퓨터는 완전히 자신의 방정식을 작동할 수 있으며\",\"description\":\"컴퓨터가 그의 방정식에 따라 작동한다는 의미가 방정식을 작동시킨다는 의미로 바뀌고 '자신의'가 컴퓨터 자신의 것으로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\",\"E004\"],\"reason\":\"판단 질문 1: 다른 사람들을 패널에서 막는 행위가 다른 사람이 유지하는 것으로 바뀌어 누가 무엇을 하는지가 달라졌고, 추가 30분과 결과의 시제·확실성도 달라져 요지를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E004\"],\"reason\":\"판단 질문 1: '자신의 방정식'이 한국어에서 주어인 컴퓨터를 가리키는 것으로 읽혀 his(Ruy)의 소유 관계가 바뀌었습니다. 조건-결과 연결은 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 설명 → 서술 설명. 인물의 계획과 기대를 서술하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 조건문으로 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 청자의 관계나 높임·호칭이 드러나는 서술이 아니라 평가할 대상이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 없고, 30분은 숫자·시간 단위가 그대로 유지됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15115,
+    "inference_geo": "global",
+    "input_tokens": 782,
+    "output_tokens": 1176,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgfionL5XJVFJ49KWvTrj",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P044\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"While interactive models do a better job incorporating influence from a receiver than do linear models, many have argued\",\"tgt_span\":\"상호작용 모델이 선형 모델보다 수신자의 영향을 더 잘 통합하는 동안, 많은 사람들은\",\"description\":\"양보(While = 비록 ~이지만)가 시간 관계('~하는 동안')로 바뀌어 대조 관계가 사라짐\"},{\"id\":\"E002\",\"src_span\":\"they still do not adequately recognize\",\"tgt_span\":\"그들이 여전히 … 충분히 인식하지 못한다고\",\"description\":\"'그들'이 한국어에서 앞의 '많은 사람들'을 가리키는 것으로 읽혀, 지시 대상인 상호작용 모델이 사람으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1(인물·대상): '그들'이 앞의 '많은 사람들'을 받는 것으로 읽혀, 수신자의 역할을 충분히 인식하지 못하는 주체가 모델에서 주장하는 사람들로 바뀌어 문장의 요지가 달라집니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: '그들'의 지시 대상이 모델에서 사람으로 바뀌었습니다. 판단 질문 2: 양보 관계가 '~하는 동안'이라는 시간 관계로 바뀌었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학술적 설명 → 학술적 설명. 비판 견해를 소개하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"do not은 규범 의미가 아니라 사실·평가를 서술하는 표현이므로 평가할 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학습자료의 '~한다' 평서체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15260,
+    "inference_geo": "global",
+    "input_tokens": 1527,
+    "output_tokens": 867,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

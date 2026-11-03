@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgfijGb3vxNQZ9W2zNxsP",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P032\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"postsecondary vocational institution\",\"tgt_span\":\"중등 직업 교육 기관\",\"description\":\"postsecondary(중등 이후, 고등교육 단계)를 '중등'으로 옮겨 중등교육 단계 기관으로 읽히게 함. 미국 제도상 기관 유형이 달라짐\"},{\"id\":\"E002\",\"src_span\":\"lead to a certificate or other nondegree recognized credential\",\"tgt_span\":\"인증서 또는 기타 학위가 인정되지 않는 자격증을 제공함\",\"description\":\"'학위가 아닌 인정된 자격'이 '학위가 인정되지 않는 자격증'으로 읽혀 nondegree의 수식 범위가 바뀌고, 프로그램이 자격으로 이어진다는 관계가 기관이 자격증을 제공한다는 것으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: postsecondary가 '중등'으로 바뀌어 기관 유형이 달라졌고, nondegree recognized credential이 '학위가 인정되지 않는 자격증'으로 읽혀 대상 범위가 달라져 요지를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Although의 양보 관계('다르지만')와 by offering의 수단 관계('제공함으로써')가 유지되어 질문 1·2·3 모두 해당하지 않습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기관 자격 요건 설명 → 기관 자격 요건 설명. 발화 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"can은 의무·허가가 아니라 기관이 자격을 갖출 수 있는 가능성을 서술하므로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내문에 맞는 '-습니다' 격식체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2: postsecondary vocational institution(중등 이후 직업 교육 기관)이 '중등 직업 교육 기관'으로 옮겨져 한국어 독자가 중등교육 단계의 다른 제도·기관 유형으로 이해하게 됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15260,
+    "inference_geo": "global",
+    "input_tokens": 995,
+    "output_tokens": 958,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

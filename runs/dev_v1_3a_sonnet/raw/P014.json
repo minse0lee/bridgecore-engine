@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgfiXwRpX1oKPQaGPaDmi",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P014\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"title 34, part 682, section 100\",\"tgt_span\":\"제목 34, 부분 682, 섹션 100\",\"description\":\"법령 편제 단위 title/part/section을 '제목/부분/섹션'이라는 일반 어휘로 옮겨, 한국어 독자에게 CFR의 편(title)·부(part)·조(section)라는 제도적 편제 의미가 전달되지 않음. 번호가 그대로 남아 원 자료를 찾을 수는 있음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상·범위): '제목'은 한국어에서 글의 표제로 읽히고 '부분'도 일반 어휘여서 편제 단위를 다른 대상으로 이해하게 합니다. 다만 번호 34, 682, 100이 유지되어 원 자료를 찾을 수 있어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'따라서'가 앞 문장의 인용 방식에 대한 예시·결과 연결을 유지하고, 지시나 초점 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인용 표기 예시 설명 → 인용 표기 예시 설명. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장은 인용 번호의 의미를 설명하는 예시이며 의무·허가·금지 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 안내에 맞는 '~합니다' 격식체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(제도 의미 이해): 법령 편제 단위인 title/part/section을 '제목/부분/섹션'이라는 일반 어휘로 옮겨 제도적 의미가 전달되지 않습니다. 번호가 유지되어 원 자료 탐색은 가능하므로 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15115,
+    "inference_geo": "global",
+    "input_tokens": 658,
+    "output_tokens": 839,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

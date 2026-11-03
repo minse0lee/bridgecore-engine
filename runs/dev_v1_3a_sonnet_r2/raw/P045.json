@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgfiZ9rxp1fskTarUCoEd",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P045\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"on the waste side of a marked line\",\"tgt_span\":\"표시된 선의 폐기물 쪽으로 이동해야 합니다\",\"description\":\"위치를 나타내는 'on the waste side'(폐기물 쪽 위에서 지나감)가 방향·목적지를 나타내는 '폐기물 쪽으로 이동'으로 바뀌어, 한국어 독자는 커프가 선을 넘어 폐기물 쪽으로 움직이는 동작으로 읽을 수 있음. 또한 'waste'(자투리·버려질 재료)를 '폐기물'로 옮겨 작업 중 버려질 재료 쪽이라는 의미가 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위의 위치·대상): 선의 버려질 재료 쪽에 톱날 절단 폭이 위치해야 한다는 뜻이 '폐기물 쪽으로 이동'이라는 방향 동작과 '폐기물'이라는 다른 대상으로 읽혀 작업 방법 이해가 달라집니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'정확한 최종 치수를 위해'라는 목적 관계와 '항상'의 범위가 유지되고 지시 관계도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"작업 원칙 안내 → 작업 원칙 안내. 안내 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"항상 지켜야 정확한 치수가 나오는 작업 원칙을 should always가 '항상 …해야 합니다'로 대응하여 의무 강도가 유지됩니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재의 설명체가 '~습니다' 체로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15115,
+    "inference_geo": "global",
+    "input_tokens": 806,
+    "output_tokens": 848,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

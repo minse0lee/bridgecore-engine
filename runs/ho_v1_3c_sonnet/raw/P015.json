@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgfiqS7haohGzt6JjjBKQ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P015\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Let your child take a short break\",\"tgt_span\":\"귀하의 자녀가 짧은 휴식을 취할 수 있습니다\",\"description\":\"부모에게 자녀가 쉬게 하라고 하는 지시가 자녀가 쉴 수 있다는 가능성·평서 설명으로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"keeping her mind on an assignment\",\"tgt_span\":\"그녀의 마음을 지키는 데\",\"description\":\"과제에 주의를 집중하는 것이 '마음을 지키는' 것으로 바뀌어 과제 집중 어려움이라는 내용이 사라짐\"},{\"id\":\"E003\",\"src_span\":\"if she is having trouble\",\"tgt_span\":\"그녀는 그녀의 마음을 지키는 데 어려움이 있다면 귀하의 자녀가\",\"description\":\"'she'가 '귀하의 자녀'와 별개의 '그녀'처럼 읽혀 조건절 주어가 자녀와 분리됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: keeping her mind on an assignment(과제에 집중)가 '마음을 지키는' 것으로 옮겨져, 한국어 독자는 과제 집중 문제임을 알 수 없어 조건의 내용이 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 1: 조건절의 'she'가 '그녀는'으로 독립되고 '귀하의 자녀가'가 다시 나와, 한국어 독자에게 '그녀'가 자녀와 다른 인물로 읽힐 수 있어 지시 관계가 흐려집니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"원문 기능: 부모에게 자녀를 쉬게 하라는 지시·권고 → 번역 기능: 자녀가 쉴 수 있다는 가능성 설명.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"원문 Let은 자녀에게 휴식을 허용하라는 권고로, 번역도 '쉴 수 있다'는 허용을 담아 허가 범주가 유지됩니다. 주체 변화는 Context와 Textual에서 판정합니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'귀하'와 '-ㅂ니다'로 공식 안내문의 부모 대상 격식이 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15260,
+    "inference_geo": "global",
+    "input_tokens": 645,
+    "output_tokens": 1037,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgfiZc8GnRJXKhv6jzFoG",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P053\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I must not cry\",\"tgt_span\":\"나는 울지 않아도 됩니다\",\"description\":\"화자가 스스로 거는 금지(must not)가 비의무(-않아도 됩니다)로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"floods of scalding tears\",\"tgt_span\":\"뜨거운 눈물이 흐르고 있습니다\",\"description\":\"눈이 '담고 있다(contain)'는 표현과 '홍수 같은 많은 양(floods)'이 사라져, 눈물이 이미 흐르고 있다는 서술로 바뀌고 수량 강조가 빠짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: 눈이 눈물의 홍수를 머금고 있다는 내용이 '뜨거운 눈물이 흐르고 있다'로 바뀌어 수량(floods) 정도가 약해졌지만 눈물이 마르지 않는다는 핵심 사실은 유지되어 minor입니다. must not의 변화는 Deontic에만 기록합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 'must not cry, And yet'의 대조 관계에서 '울어서는 안 된다'가 '울지 않아도 된다'로 바뀌어 '그러나'가 이어지는 논리가 성립하지 않습니다. 울어서는 안 되지만 눈물이 흐른다는 대조가 무너졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기도 속에서 자신의 슬픔을 토로하는 서술 → 같은 기도 속 슬픔 토로. 발화 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 화자가 스스로에게 거는 금지(must not cry)가 '울지 않아도 됩니다'로 비의무·허용에 가깝게 바뀌어 규범 범주가 달라졌습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기도에서 '주님'께 '~습니다'체로 말하는 격식이 관계에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15115,
+    "inference_geo": "global",
+    "input_tokens": 835,
+    "output_tokens": 953,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

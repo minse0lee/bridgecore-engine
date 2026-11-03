@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgfikTsVAZ3CMfWcePYW7",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P056\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Each student awarded a scholarship\",\"tgt_span\":\"장학금을 수여하는 각 학생\",\"description\":\"장학금을 수여받는 학생이 '장학금을 수여하는' 학생으로 읽혀 수혜자·수여자 관계가 뒤바뀜(능동 표현)\"},{\"id\":\"E002\",\"src_span\":\"a stipend of $1,500\",\"tgt_span\":\"$1,500의 장학금\",\"description\":\"stipend(생활비 지원금)를 '장학금'으로 옮겨 scholarship과 구분이 사라지고 다른 대상으로 읽힘\"},{\"id\":\"E003\",\"src_span\":\"the academic year of study\",\"tgt_span\":\"장학금이 수여되는 연도\",\"description\":\"academic year(학년도)를 일반 '연도'로 옮겨 학업 기간이라는 한정이 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 장학금을 받는 학생이 수여하는 주체로 읽히고, stipend가 장학금으로 바뀌어 지급 대상의 구분이 사라졌으며 학년도가 연도로 바뀌어 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계는 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지급 규정 설명 → 지급 규정 설명. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1·2: 지급을 정하는 문장에서 받을 권리를 가진 주체(학생)가 수여하는 쪽으로 읽히고 지급 항목이 장학금으로 바뀌어 권리의 주체와 내용이 달라졌습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내체 '~습니다'가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"달러 금액을 그대로 유지하고 다른 제도로 대체하지 않았습니다. 제도 용어 오역은 Semantic에서만 기록합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15260,
+    "inference_geo": "global",
+    "input_tokens": 623,
+    "output_tokens": 902,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

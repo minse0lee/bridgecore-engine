@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgfiXtF5Dhck5XyeL6bUR",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P014\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"title 34, part 682, section 100\",\"tgt_span\":\"제목 34, 부분 682, 섹션 100\",\"description\":\"CFR 편제 단위인 title·part·section을 '제목', '부분', '섹션'이라는 일반 어휘로 옮겨, 법령 편제(편·부·조) 단위라는 제도적 의미가 한국어 독자에게 전달되지 않음. 식별 번호는 그대로 남음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"34 CFR 682.100이 가리키는 title 34, part 682, section 100이라는 번호와 지시 관계가 동일하며, 단위 용어는 번호와 함께 읽으면 같은 대상을 가리킵니다. 용어의 제도적 의미 문제는 Cultural에서 판정합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Thus'가 '따라서'로 앞 문장의 인용 방법에서 예시로 이어지는 연결을 유지하고, 지시·초점 관계도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인용 표기 예시 설명 → 인용 표기 예시 설명. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장은 인용 번호가 무엇을 가리키는지 설명하는 예시이며 의무·허가·금지 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 안내문의 공식적인 '~합니다' 설명체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 미국 연방규정집의 편제 단위 title·part·section을 '제목·부분·섹션'이라는 일반 어휘로 옮겨 법령 편제 단위라는 제도적 의미가 전달되지 않습니다. 다만 34, 682, 100 등 식별 번호가 그대로 남아 원 자료를 찾을 수 있어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15115,
+    "inference_geo": "global",
+    "input_tokens": 658,
+    "output_tokens": 854,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
