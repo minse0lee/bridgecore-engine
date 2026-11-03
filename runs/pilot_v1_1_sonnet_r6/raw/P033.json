@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgg3VDSNJRp2dfwPWwztb",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P033\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"many of their resources\",\"tgt_span\":\"IFEA의 다양한 자료\",\"description\":\"수량 표현 many(많은)가 '다양한'(종류)으로 바뀌고, their가 IFEA로 명시됨. 수량이 종류로 바뀐 것은 수량 변화에 해당함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(수량): many resources가 '다양한 자료'로 바뀌어 수량이 종류로 바뀌었으나, 회원가입이 있어야 자료를 이용할 수 있다는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"their가 IFEA를 가리키는 관계가 번역에서 명시되어 유지되며, 연결·초점 표현의 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"자료 이용 조건 설명 → 자료 이용 조건 설명으로 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"자료 이용을 위한 회원 자격 요건(is required)이 '회원가입이 필요합니다'로 유지되어 요구가 선택 사항으로 바뀌지 않았습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재의 공식적 설명체 '~합니다'가 유지되어 독자 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 910,
+    "output_tokens": 690,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

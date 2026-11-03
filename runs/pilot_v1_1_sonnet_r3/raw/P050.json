@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgg3WbmZzgqwABtMqPFaY",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P050\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Use local resources to view structures of the reproductive system.\",\"tgt_span\":\"로컬 리소스를 사용하여 생식계의 구조를 볼 수 있습니다.\",\"description\":\"학습 활동 지시(명령형)가 가능성·능력 서술('볼 수 있습니다')로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지역 자료를 사용해 생식계 구조를 본다는 행위·대상·수단이 동일합니다. 지시가 가능성 서술로 바뀐 것은 Context에서만 판정합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"목적을 나타내는 'to view'가 '-하여 …볼 수'로 수단-목적 관계를 유지하며, 지시·초점 표현의 변화도 없습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 학습 활동 지시 → 가능성 설명. 평가조건이 학습 행동 조건 변경 불허를 명시했는데, 독자가 직접 자료를 찾아 보라는 지시가 보는 것이 가능하다는 서술로 읽힙니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"학습 활동 지시이며 의무·금지 등 규범 표현이 아니므로 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재 본문의 '~습니다' 설명체가 학습자료 독자 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 557,
+    "output_tokens": 708,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

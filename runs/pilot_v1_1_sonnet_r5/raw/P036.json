@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgg3VXWoZSAMjmepgMV2R",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P036\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the past fortnight\",\"tgt_span\":\"지난 15일 동안\",\"description\":\"fortnight(14일, 2주)가 '15일'로 잘못 옮겨져 기간 수치가 달라짐\"},{\"id\":\"E002\",\"src_span\":\"it was difficult to realize he was not now living some wild, improbable dream\",\"tgt_span\":\"그는 이제 어떤 야만적이고 믿을 수 없는 꿈을 꾸고 있지 않다는 것을 깨닫기 어려웠다\",\"description\":\"'지금 꿈을 꾸고 있지 않다는 것을 실감하기 어렵다'는 뜻은 유지되나 'realize'를 '깨닫다'로 옮겨 다소 어색함. 의미 변화는 없어 오류로 보지 않으나 참고로 기록함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(시간·수량): fortnight(14일)가 '15일'로 바뀌어 기간 수치가 달라졌습니다. 서사 요지에는 영향이 작아 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'and'로 이어진 두 절의 병렬 연결과 '그의 마음'의 지시 관계가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물의 심리 서술 → 인물의 심리 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"3인칭 소설 서술체('-었다')가 유지되며 화자·청자 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기간 수치 오류는 Semantic에만 기록하며, 기간 단위 체계를 다른 제도로 바꾼 것은 아니므로 Cultural 훼손 근거가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1299,
+    "output_tokens": 840,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgg3UqAffpmXA1sFTBsoa",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P027\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"종이 또는 전자 FAFSA, 2012년 1월 1일 이전, 2012-13학년도, 접수되지 않음이 모두 유지됩니다. '제출된'은 원문 prior to의 대상 시점을 풀어 쓴 통상적 표현입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현의 변화가 없고, 'No ... or'는 '종이 또는 전자 ... 접수되지 않습니다'로 범위가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"접수 제한 안내 → 접수 제한 안내. 설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장은 신청서 접수 불가라는 제도 규정을 정하며, 기한 전 제출분은 접수되지 않는다는 제한이 그대로 유지됩니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내문의 '~습니다' 체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"FAFSA를 그대로 두고 미국 학년도 표기와 날짜를 한국어 날짜 표기로 정확히 옮겼으며, 한국 제도로 대체하지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 696,
+    "output_tokens": 607,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

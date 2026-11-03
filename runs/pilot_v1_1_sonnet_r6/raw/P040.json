@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgg3Vq6xuzpDYrpE5RJNR",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P040\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"guttered\",\"tgt_span\":\"구멍\",\"description\":\"'(불꽃이) 깜박이며 사그라들다'라는 동작이 '구멍'이라는 무관한 명사로 오역됨\"},{\"id\":\"E002\",\"src_span\":\"Whispered and guttered at his ear\",\"tgt_span\":\"속삭이고 그의 귀에 구멍\",\"description\":\"'그의 귀에 속삭였다'는 랜턴의 행위가 '귀에 구멍'이라는 다른 내용으로 바뀜. 서술 구조가 흐트러져 랜턴이 속삭이는 주체임이 분명하지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(행위): guttered(불꽃이 깜박이다)가 '구멍'으로 오역되어 랜턴의 행위가 달라졌고, 독자가 시의 이미지를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'like a secret fear' 비유의 대상은 랜턴으로 유지되고 지시·연결·초점 관계는 바뀌지 않았습니다. 구조의 어색함은 훼손 사유가 아닙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사(서술) → 장면 묘사(서술). 서술의 기능 종류는 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"시의 묘사 문장으로 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"시적 서술의 화자·독자 관계와 격식에 대한 변화가 없고 높임이나 호칭 문제도 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위 등 별도로 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 499,
+    "output_tokens": 804,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

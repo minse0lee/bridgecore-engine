@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgg3Vdh7tG2Ctpf9mEyXm",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P039\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"contributing to the effusion that must be stopped\",\"tgt_span\":\"막아야 할 액체 축적에 기여하는 지속적인 출혈\",\"description\":\"'멈춰야 하는 대상'인 출혈(bleeding)이 '액체 축적(effusion)'을 수식하는 관계절로 바뀌어, 막아야 할 것이 출혈이 아니라 액체 축적으로 읽힘\"},{\"id\":\"E002\",\"src_span\":\"the effusion\",\"tgt_span\":\"액체 축적\",\"description\":\"effusion(삼출액·액체 저류)을 '액체 축적'으로 옮겨 앞 문장의 흉막액 삼출이라는 의학 용어가 일반 표현으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상·행위): 원문에서 멈춰야 할 대상은 지속적인 출혈인데, 번역문은 '막아야 할' 것이 액체 축적으로 읽혀 행위 대상이 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(지시·수식 관계): 'that must be stopped'가 수식하는 선행어가 bleeding에서 effusion으로 바뀌었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"임상 상황 설명 → 임상 상황 설명. 가능성을 설명하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(대상): 반드시 멈춰야 하는 치료 원칙의 대상이 출혈에서 액체 축적으로 바뀌었습니다. 다만 '막아야 할'로 의무 자체는 유지됩니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재의 설명체 '~있을 수 있습니다'가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1564,
+    "output_tokens": 845,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

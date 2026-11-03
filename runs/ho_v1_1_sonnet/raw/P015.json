@@ -1,10 +1,10 @@
 {
-  "id": "msg_011CgcYTmt3qUZ2QLouXCKoS",
+  "id": "msg_011Cgg3ZUHSf4GhMdEVysKv8",
   "container": null,
   "content": [
     {
       "citations": null,
-      "text": "{\"item_id\":\"P015\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Let your child take a short break\",\"tgt_span\":\"귀하의 자녀가 짧은 휴식을 취할 수 있습니다\",\"description\":\"\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"x\"}, \"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"x\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"x\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"x\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"x\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"x\"}}}",
+      "text": "{\"item_id\":\"P015\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Let your child take a short break\",\"tgt_span\":\"귀하의 자녀가 짧은 휴식을 취할 수 있습니다\",\"description\":\"부모에게 자녀가 쉬도록 허용하라는 지시(Let)가 자녀가 휴식을 취할 수 있다는 가능성 진술로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"keeping her mind on an assignment\",\"tgt_span\":\"그녀의 마음을 지키는 데\",\"description\":\"'과제에 집중하다'가 '마음을 지키다'로 오역되어 과제(assignment)가 빠지고 의미가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: '과제에 집중하기 어려움'이 '마음을 지키는 데 어려움'으로 바뀌어 어려움의 대상이 달라지고 과제가 누락되어 요지를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: '그녀는'과 '그녀의'가 문장 앞에 놓여 she가 child를 가리킨다는 관계가 불분명해지고, 조건절과 주절의 대응이 흐트러졌습니다. 다만 '귀하의 자녀' 뒤에서 조건 관계는 어느 정도 남아 있어 minor입니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"부모에게 자녀가 쉬도록 하라는 지시 → 자녀가 쉴 수 있다는 가능성 설명으로 바뀌어 행동을 이끄는 기능이 사라졌습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"원문은 부모에게 선택 가능한 대응 방법을 안내하는 문장으로 반드시 지킬 규범이 아니어서 규범 표현이 없습니다. 기능 변화는 Context에서 판정합니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"안내문의 독자 대상 '귀하'와 '~습니다' 공식 안내체가 유지되어 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화·제도 고유의 대상이 없습니다.\"}}}",
       "type": "text"
     }
   ],
@@ -24,7 +24,7 @@
     "cache_read_input_tokens": 14219,
     "inference_geo": "global",
     "input_tokens": 645,
-    "output_tokens": 326,
+    "output_tokens": 941,
     "output_tokens_details": {
       "thinking_tokens": 0
     },

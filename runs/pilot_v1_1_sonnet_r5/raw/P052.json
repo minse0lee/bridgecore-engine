@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgg3WeTHgN159KTFkNBW8",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P052\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Think for a minute you can put that kind of a game over on me?\",\"tgt_span\":\"나한테 그런 게임을 걸 수 있다고 생각해봐.\",\"description\":\"화자를 꾸짖는 반어적 수사의문(\\\"감히 그렇게 생각하느냐?\\\")이 \\\"그렇게 생각해 보라\\\"는 평서형 명령으로 바뀌어 질책 기능과 의문 형식이 사라짐. 그 결과 원문의 비난 의도가 번역문에서는 상대에게 생각해 보라고 요구하는 말로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"나에게 그런 수작을 부릴 수 있다고 생각한다는 내용(행위자·대상·가능성)은 유지되며, 형식과 기능 변화는 Context에서 다룹니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현(only, even 등)이 없고, 대명사 '나한테'도 화자를 올바르게 가리킵니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 분노에 찬 질책성 수사의문 → 상대에게 생각해 보라는 명령/제안으로 기능이 바뀌었습니다. 번역문만 읽으면 화자의 질책이 아니라 사고 요청으로 이해되어 발화 의도가 달라집니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"can은 가능성·능력의 뜻이며 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 상대를 격하게 몰아붙이는 거친 반말 대화로, 번역의 '생각해봐' 반말체도 관계에 어긋나지 않으며 비난 어조 약화는 Context에서 다룹니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 635,
+    "output_tokens": 862,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgg3VnKnGdXByhoi3WNAV",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P040\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"guttered at his ear\",\"tgt_span\":\"그의 귀에 구멍\",\"description\":\"'guttered'(불빛이 깜박이다/가물거리다)가 '구멍'이라는 무관한 명사로 오역되어 랜턴의 행위가 사라지고, 'Whispered and guttered'의 두 번째 서술이 의미 없는 말이 됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위): 랜턴이 귓가에서 깜박였다는 행위가 '귀에 구멍'이라는 다른 내용으로 바뀌어 독자가 장면의 요지를 다르게 이해합니다. 나머지(랜턴, 비밀스러운 두려움 비유, 속삭임)는 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'like a secret fear' 비유가 랜턴에 붙는 관계와 'his'가 '그의'로 이어지는 지시는 유지되어 질문 1~3 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"시적 장면 묘사 → 시적 장면 묘사. 서술 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"시의 묘사 문장으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 간 관계에서 드러나는 높임·호칭·태도가 없는 서술 문장입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 499,
+    "output_tokens": 707,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

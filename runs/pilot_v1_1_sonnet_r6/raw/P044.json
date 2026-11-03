@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgg3WBr9EFd3eBDQW8KxF",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P044\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"While interactive models do a better job incorporating influence from a receiver than do linear models\",\"tgt_span\":\"상호작용 모델이 선형 모델보다 수신자의 영향을 더 잘 통합하는 동안\",\"description\":\"양보(While = although)를 시간 표현 '-는 동안'으로 옮겨 대조·양보 관계가 시간 동시성으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상호작용 모델이 수신자 영향을 더 잘 통합한다는 내용, 많은 이가 수신자 역할 인식이 부족하다고 주장한다는 내용, 수량·부정·확실성이 모두 유지됩니다. 연결어 문제는 Textual에서 판정합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(연결 관계): 양보 'While'이 '-는 동안'이라는 시간 관계로 읽혀 대조·양보 관계가 바뀌었습니다. 다만 두 내용이 함께 제시되어 요지는 크게 달라지지 않고 학습 행동에도 영향이 없어 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학문적 논의 설명 → 학문적 논의 설명. 설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"do not adequately recognize는 모델의 한계에 대한 서술일 뿐 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재의 평서적 학술 설명체('-한다')가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도에 고유한 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1527,
+    "output_tokens": 764,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

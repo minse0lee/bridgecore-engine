@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgg3VBGtZjB3mn8CDbrbp",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P031\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"comprehend—let alone support—the difficulties and experiences of refugee students\",\"tgt_span\":\"난민 학생들의 어려움과 경험을 이해하기 위해\",\"description\":\"let alone support(지원은 말할 것도 없고)에 해당하는 내용이 누락되어 '이해'만 남음. 또한 '이해하기 위해 준비'로 목적 구문이 되어 '이해할 준비도 안 되어 있다'는 의미가 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위): 교육자가 난민 학생을 '지원'하는 행위가 번역에서 빠졌고, 이해할 준비조차 부족하다는 내용이 이해를 위한 준비 여부로 달라졌습니다. 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(초점·범위): let alone이 만드는 '이해도 지원도 아닌 이해조차 안 됨'이라는 초점 관계가 사라져 이해만 남았습니다. 누락으로 인해 초점 표현까지 사라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"현황 설명 → 현황 설명. 학교의 준비 부족을 서술하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없는 현황 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내문에 맞는 '~습니다' 설명체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 없고 인용 표기만 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 965,
+    "output_tokens": 771,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

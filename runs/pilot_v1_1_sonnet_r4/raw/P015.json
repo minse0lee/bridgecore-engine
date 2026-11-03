@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgg3TtXnz8vCdea1ZidiG",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P015\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Let your child take a short break\",\"tgt_span\":\"귀하의 자녀가 짧은 휴식을 취할 수 있습니다\",\"description\":\"부모에게 자녀가 쉬게 하라는 지시(허락하라)가 자녀가 휴식을 취할 수 있다는 가능성 서술로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"keeping her mind on an assignment\",\"tgt_span\":\"그녀의 마음을 지키는 데\",\"description\":\"과제에 집중하는 것이 '마음을 지키는' 것으로 오역되어 과제라는 대상이 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: '과제에 집중하기 어려움'이 '마음을 지키는 데 어려움'으로 바뀌어 어려움의 내용과 assignment 대상이 사라졌고, 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 번역문에 주어 '그녀는'과 '귀하의 자녀'가 나란히 나와 she가 your child를 가리킨다는 지시 관계가 분리되어 같은 인물인지 알기 어려워졌습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"부모에게 휴식을 허락하라는 지시·권고 → 자녀가 휴식을 취할 수 있다는 가능성 설명.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"자녀 학습 지도에 관한 선택적 조언으로, 의무·금지·자격을 정하는 규범 표현이 아니므로 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"안내문의 독자에게 '귀하'와 '-습니다'를 써서 격식 있는 안내체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 645,
+    "output_tokens": 856,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

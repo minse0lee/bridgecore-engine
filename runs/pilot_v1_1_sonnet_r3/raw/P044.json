@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgg3WBqPuWLHAJdGBshtj",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P044\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"While interactive models do a better job incorporating influence from a receiver than do linear models\",\"tgt_span\":\"상호작용 모델이 선형 모델보다 수신자의 영향을 더 잘 통합하는 동안\",\"description\":\"양보(While = although)를 시간 관계('~하는 동안')로 옮겨 대조 관계가 시간 동시성으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상호작용 모델이 더 낫지만 여전히 수신자 역할을 충분히 인식하지 못한다는 비판 내용, 주체, 비교, 부정이 모두 유지됩니다. '그들이'는 모델을 가리켜 의미 변화가 없습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(연결 관계): While의 양보·대조 관계가 '~하는 동안'이라는 시간 관계로 바뀌었습니다. 다만 뒤 절의 '여전히'와 문맥으로 대조 의미를 추론할 수 있고 핵심 주장은 유지되어 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학술적 설명·비판 소개 → 학술적 설명·비판 소개. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'do not adequately recognize'는 규범이 아닌 사실 서술의 부정이므로 의무·허가·금지 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재의 평서 설명체('~한다')가 유지되며 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없는 이론 설명 문장입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1527,
+    "output_tokens": 758,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

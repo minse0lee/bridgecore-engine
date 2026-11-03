@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgg3U5dXo5vZ7Cf65WS2C",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P017\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"leave these parts\",\"tgt_span\":\"이 부분을 떠나고 싶은\",\"description\":\"'parts'(지역·이 근방)를 '부분'으로 옮겨 떠나려는 장소가 '지역'이 아닌 추상적 부분으로 읽힘. 다만 행위(떠나고 싶다)와 대비 구조는 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'these parts'(이 지역)가 '이 부분'으로 바뀌어 떠나려는 대상이 달라졌습니다. 그러나 떠나고 싶다는 욕구와 비행 경험을 원하지 않았다는 요지는 유지되어 독자가 문장 요지를 다르게 이해하지는 않으므로 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'But as much as … did not'의 양보·대조 관계가 '그러나 … 만큼, … 않았다'로 유지되며 지시·초점 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 심정 서술 → 서술자의 심정 서술. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술의 평서체('~않았다')가 유지되며 관계상 문제 될 높임·호칭이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 705,
+    "output_tokens": 731,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

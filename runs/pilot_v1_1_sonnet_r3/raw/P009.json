@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgg3TRbYXp6MtSa9btW4D",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P009\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"If he could keep the others from this control panel for another half hour\",\"tgt_span\":\"그는 다른 사람이 다른 30 분 동안이 컨트롤 패널에서 유지할 수있다면\",\"description\":\"'다른 사람들을 컨트롤 패널에서 떼어 놓다'가 '다른 사람이 패널에서 유지할 수 있다'로 바뀌어 행위자와 대상이 뒤섞이고 'keep from' 행위가 사라짐. 'another half hour'(추가 30분)도 '다른 30 분'으로 오역됨\"},{\"id\":\"E002\",\"src_span\":\"the battle would be won\",\"tgt_span\":\"전투가 승리했다\",\"description\":\"가정적 미래('승리하게 될 것')가 과거 단정('승리했다')으로 바뀌어 확실성과 시제가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(행위·참여자·시간·확실성): 주인공이 다른 사람들을 패널에서 막는다는 내용이 다른 사람이 패널에서 유지한다는 뜻으로 바뀌었고, 전투 승리도 조건부 미래에서 이미 일어난 일로 바뀌어 요지가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2(연결 관계): 'If … would be won'의 조건-결과 관계가 '-다면 … 승리했다'로 결과가 이미 일어난 과거 사실로 읽혀 조건 관계가 무너졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문 → 서술문. 인물의 계획·전망을 서술하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술 속 가정적 전망이며 의무·허가·금지 같은 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"3인칭 서술문으로 화자·청자 사이의 높임·호칭 관계를 평가할 대상이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 782,
+    "output_tokens": 918,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgg3TxmHL6W2mjzz8dpi1",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P015\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Let your child take a short break\",\"tgt_span\":\"귀하의 자녀가 짧은 휴식을 취할 수 있습니다\",\"description\":\"부모에게 자녀가 쉬도록 허락하라는 권고·지시가 자녀가 쉴 수 있다는 가능성 서술로 바뀌고 부모의 행위(허락)가 사라짐\"},{\"id\":\"E002\",\"src_span\":\"keeping her mind on an assignment\",\"tgt_span\":\"그녀의 마음을 지키는 데\",\"description\":\"'과제에 집중하다'가 '마음을 지키다'로 오역되어 과제라는 대상이 빠지고 의미가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 부모가 쉬게 허락한다는 행위가 사라지고, '과제에 집중하기 어려움'이 '마음을 지키기 어려움'으로 바뀌어 번역문만 읽은 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조건 연결 'if'가 '-다면'으로 유지됩니다. 대명사 '그녀'의 중복은 어색할 뿐 지시 대상은 자녀로 읽혀 변화가 없습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"부모에게 행동을 권하는 지침 → 자녀가 쉴 수 있다는 가능성 설명. 부모를 행동하도록 이끄는 기능이 사라졌습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"원문은 여러 방법 중 하나를 안내하는 조언이며 의무·허가·금지 등 규범을 정하는 표현이 아니므로 기능 변화는 Context에서 판정합니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"부모 독자에게 '귀하'와 '-ㅂ니다' 안내체를 쓰는 공식 안내문 어조가 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 645,
+    "output_tokens": 903,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

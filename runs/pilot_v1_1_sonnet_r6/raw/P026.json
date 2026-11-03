@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgg3Up6fq9g218WVU4AhT",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P026\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I think you have time to fill me in on some of the details.\",\"tgt_span\":\"나에게 몇 가지 세부사항을 알려줄 시간이 있다고 생각한다.\",\"description\":\"주어 'you'가 번역문에 드러나지 않아 '시간이 있는' 주체가 불명확해짐. 문맥상 청자로 읽을 수 있어 의미·기능은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"생각(think), 청자가 시간이 있음, 세부사항을 알려줌, 일부(some)가 모두 유지됩니다. 주어 생략은 한국어에서 통상적이고 문맥상 청자로 읽힙니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'나에게'와 '알려줄'로 me와 you의 관계가 유지되며 연결·초점 표현의 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장군이 상대에게 설명을 간접적으로 요구함 → 같은 간접 요구 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 개인적 발화입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장군이 부하에게 말하는 상황에서 평서 반말체('-ㄴ다')가 유지되어 상하 관계에 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 661,
+    "output_tokens": 685,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

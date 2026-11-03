@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgg3WcH5ah7nLCbpv2LNn",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P052\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Think for a minute you can put that kind of a game over on me?\",\"tgt_span\":\"나한테 그런 게임을 걸 수 있다고 생각해봐.\",\"description\":\"화자가 상대를 질책하는 반어적 수사의문문('감히 ~라고 생각하느냐?')이 상대에게 생각해 보라고 권하는 명령문으로 바뀜. 'for a minute'의 '한순간이라도'라는 뜻도 사라짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"나에게 그런 속임수를 쓸 수 있다고 생각한다는 내용(행위자·대상·행위)은 유지됩니다. 의문문이 명령문으로 바뀐 문제는 Context에서 판정하므로 Semantic에는 기록하지 않습니다.\"},\"Textual\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'for a minute'의 범위 표현이 번역에서 사라진 점이 초점·범위 변화인지 판단하기 어렵습니다. 한순간이라도 그렇게 생각하느냐는 강조 어구의 누락으로 볼 수도 있어 해석 확인이 필요합니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 질책·위협하는 수사의문문 → 생각해 보라는 지시(명령). 원문은 직전 문장의 분노를 이어 상대를 꾸짖는 말인데, 번역문은 상대에게 가정을 해 보라고 시키는 말로 읽혀 발화 기능의 종류가 달라졌습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"can은 능력·가능성의 뜻이고 규범 의미가 없는 대화 속 질책이므로 평가할 대상이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 상대를 격분하여 몰아세우는 상황인데, 번역문의 반말체 '-해봐'는 그 관계에 맞는 말투로 읽힙니다. 상대를 깔보는 태도도 크게 약해지지 않았습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 635,
+    "output_tokens": 928,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgg3ViQPgcYPbGT5tVzAQ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P039\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"contributing to the effusion that must be stopped\",\"tgt_span\":\"막아야 할 액체 축적에 기여하는 지속적인 출혈\",\"description\":\"멈춰야 하는 대상인 출혈(bleeding)이 액체 축적(effusion)으로 바뀌고, 출혈이 액체 축적에 기여한다는 관계가 '막아야 할 액체 축적'이 출혈을 수식하는 구조로 읽혀 달라짐\"},{\"id\":\"E002\",\"src_span\":\"the effusion\",\"tgt_span\":\"액체 축적\",\"description\":\"effusion(삼출·저류액)을 '액체 축적'으로 옮겨 흉막액 삼출이라는 의학 용어의 지시가 약해짐. 다만 앞 문장 맥락상 같은 현상을 가리킴\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상·행위): 원문은 멈춰야 할 것이 출혈인데, 번역문은 '막아야 할'이 '액체 축적'을 수식해 막아야 할 대상이 액체 축적으로 읽혀 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(지시·수식 관계): 관계절 'that must be stopped'가 수식하는 대상이 bleeding에서 effusion으로 바뀌어 지시 관계가 달라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"의학적 상황 설명 → 의학적 상황 설명. 가능성을 설명하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(대상): 치료 중 반드시 멈춰야 하는 대상이 출혈에서 액체 축적으로 바뀌어 요구되는 처치의 대상이 달라졌습니다. 'must be stopped'는 처치 필요를 규범적으로 제시하는 표현이며, 의무 강도 자체는 '막아야 할'로 유지됩니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재 설명문의 서술체가 유지되고 관계·태도 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1564,
+    "output_tokens": 975,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

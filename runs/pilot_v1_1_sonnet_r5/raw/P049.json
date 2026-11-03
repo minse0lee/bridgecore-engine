@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgg3WU3E95fmV8EGw4Pxq",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P049\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"this should show you\",\"tgt_span\":\"이것은 당신이 … 보여줄 것이다\",\"description\":\"예상의 should('보여줄 것이다')는 추측의 뜻을 유지하므로 오류가 아님. 단 'should show'가 '~일 것이다'로 옮겨져 확실성이 단정에 가까워졌으나 핵심 사실은 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"눈빛이 분명히 전한 말, 이 일이 배가 생각만큼 좋지 않음을 보여준다는 내용이 모두 유지됩니다. 'should'를 '~일 것이다'로 옮긴 것은 통상적 대응입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'this'가 앞선 상황을 가리키는 '이것'으로, 'you'가 Bull을 가리키는 '당신'으로 유지되고 as…as 비교 구조도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"눈빛에 담긴 무언의 메시지 서술(설명) → 같은 서술. 이탤릭 인용 형식도 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 should는 예상을 나타내며 의무·허가·금지 같은 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"속으로 하는 말에서 '당신'이라는 호칭과 평서체가 쓰였으나 관계를 바꾸거나 태도를 약화시키지 않아 훼손 근거가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 720,
+    "output_tokens": 751,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

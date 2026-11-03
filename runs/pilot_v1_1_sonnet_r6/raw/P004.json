@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgg3SypWHuWDDepMXVuCr",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P004\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the Council and the regents\",\"tgt_span\":\"위원회와 섭정들\",\"description\":\"대학 이사·평의 기관인 regents(이사회/평의원)를 '섭정'(군주를 대신해 통치하는 사람)으로 옮겨 제도적 의미가 전달되지 않음. Council도 '위원회'로 일반화됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: regents가 대학 관리 기구의 구성원이 아니라 '섭정'이라는 전혀 다른 대상으로 바뀌었습니다. 다만 총장, 교수, 혐의 심의 합동회의라는 요지는 유지되어 독자가 문장의 요지나 행동을 다르게 이해하지는 않으므로 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'학장과 제가 제기한'이 his dean과 myself의 공동 제기 관계를 유지하며 지시·연결·초점 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"회의 개회 선언·안내 → 회의 개회 선언·안내. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"회의의 목적을 알리는 서술이며 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"총장이 회의 참석자들에게 하는 공식 발표이며 '신사 여러분', '~습니다' 체로 격식이 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 미국 대학의 이사회(regents)라는 제도 용어를 '섭정'이라는 군주제 용어로 옮겨 한국어 독자가 제도적 의미를 이해할 수 없습니다. 인명과 직함이 남아 있어 상황 파악은 가능하므로 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 678,
+    "output_tokens": 836,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

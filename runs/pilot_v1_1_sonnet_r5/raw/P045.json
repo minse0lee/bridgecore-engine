@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgg3WDA2kwuzUQyKPaDvv",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P045\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the waste side of a marked line\",\"tgt_span\":\"표시된 선의 폐기물 쪽으로\",\"description\":\"waste side(잘려 나가는 버리는 쪽)를 '폐기물 쪽'으로 옮겨 어색하지만, 톱날이 선의 버려질 쪽을 지난다는 뜻은 해석 가능하여 의미 변화는 아님(참고용 기록).\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"정확한 치수를 위해 커프가 항상 표시선의 버릴 쪽으로 지나간다는 내용이 유지됩니다. '폐기물 쪽'은 어색하지만 같은 대상을 가리킵니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'정확한 최종 치수를 위해'라는 목적 관계와 '톱날의 커프'의 소유 관계가 유지되고 초점 표현의 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"작업 원칙 설명 → 작업 원칙 설명. 톱질 방법을 안내하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"always가 붙은 should를 '항상 ~해야 합니다'로 옮겨 정확한 치수를 위해 지켜야 할 작업 원칙의 강도가 통상적 대응으로 유지됩니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재 본문에 맞는 '~합니다' 설명체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 806,
+    "output_tokens": 736,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

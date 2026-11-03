@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgg3TX8w2tr64qnCC9MeQ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P010\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“Where is your niece?”\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"질문 내용 “Where is your niece?”(당신 조카는 어디 있습니까?)가 번역문에서 누락되어 '무엇을 물었는지'가 전달되지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 인용된 질문의 내용(슬레이터 부인의 조카가 어디 있는지)이 빠져 독자가 무엇을 물었는지 알 수 없게 되어 문장의 요지가 달라집니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계는 유지됩니다. 'with a directness …' 수식 관계가 보존되고 질문 누락은 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문(질문 행위와 그 직설성 서술) → 서술문. 질문했다는 사실을 서술하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 문어체 서술과 '슬레이터 부인'이라는 호칭이 유지됩니다. 질문 누락으로 인한 직접 발화 어조는 내용 누락이므로 Semantic에서 다룹니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명·지명(말버러) 외에 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 613,
+    "output_tokens": 711,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

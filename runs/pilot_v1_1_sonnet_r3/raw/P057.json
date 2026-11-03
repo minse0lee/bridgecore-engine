@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgg3XBKgAaFuXCQRT8kMu",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P057\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"state funding mandates that colleges and universities create threat assessment teams\",\"tgt_span\":\"주 정부가 대학에 위협 평가 팀을 구성하도록 지원한다\",\"description\":\"'mandates'(의무화한다)가 '지원한다'로 바뀌어 의무 부과가 지원 행위로 바뀜. 또한 'state funding'(주 재정 지원)이 주체인 '주 정부'로 바뀌고 'colleges and universities'가 '대학'으로 합쳐짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 주 재정 지원 조건이 대학에 팀 구성을 의무화한다는 내용이 주 정부가 구성을 '지원한다'는 다른 행위로 바뀌어 규정이 하는 일이 달라졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계는 바뀌지 않았고 문제는 내용 변화에 한정됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"제도 설명 → 제도 설명. 설명 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 대학이 위협 평가 팀을 구성해야 한다는 의무가 번역문에서는 지원 행위로 읽혀 의무가 사라졌습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 설명체가 유지되며 관계·태도 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"주 정부와 대학이라는 미국 제도 대상은 다른 제도로 대체되지 않았고 의미 변화는 Semantic에서 판정합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 897,
+    "output_tokens": 756,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

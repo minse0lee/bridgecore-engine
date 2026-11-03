@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgg3We6xWNVvy3F3cCBip",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P053\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I must not cry\",\"tgt_span\":\"나는 울지 않아도 됩니다\",\"description\":\"must not(자기 금지)이 '울지 않아도 됩니다'(비의무)로 바뀌어 규범 범주가 금지에서 비의무로 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"우는 행위, 멈추지 않는 뜨거운 눈물, 비처럼 부드럽게 앞으로의 모든 해에 걸쳐 흐른다는 내용이 유지됩니다. must not의 변화는 규범 범주 변화라 Deontic에서만 기록합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그러나'가 And yet의 대조 관계를 유지하고 '말라지지 않을'과 '내려오며'의 수식 관계도 원문과 같습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기도 속 화자의 내적 토로 → 기도 속 화자의 내적 토로. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 화자가 스스로에게 거는 금지(must not cry)가 '울지 않아도 됩니다'라는 비의무로 바뀌어 범주가 달라졌고, 울음을 참아야 한다는 갈등이 사라져 시의 요지가 다르게 읽힙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"신에게 올리는 기도에서 '주님'과 '~습니다'체로 경건한 격식이 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상은 없습니다. 'O Lord' 호칭은 '주님'으로 통상 대응됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 835,
+    "output_tokens": 767,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

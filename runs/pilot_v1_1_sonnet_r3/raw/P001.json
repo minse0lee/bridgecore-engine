@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgg3SbrAndgFcLpbWXMvz",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P001\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Miss March\",\"tgt_span\":\"마치 선생님\",\"description\":\"Miss March(미혼 여성에 대한 호칭)가 '선생님'으로 옮겨져 원문에 없는 직업적 역할이 덧붙여짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"확인을 구하는 주체, 젊은이가 화자를 조롱하려 했는지 여부, 부정이 모두 유지됩니다. 호칭 변화는 Register에서 판정합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'나'와 '그 젊은이'의 지시 관계와 확신 대상 절의 구조가 유지되어 질문 1·2·3 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"확인을 구하는 질문 → 확인을 구하는 질문. 상대에게 확신을 확인하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 소설 속 확인 질문입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: Miss March를 '마치 선생님'으로 옮겨 원문에 없는 교사·전문직 역할이 덧붙었습니다. 정중한 존대 태도 자체는 유지되어 minor입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명과 일반 호칭 외에 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 14219
+    },
+    "cache_creation_input_tokens": 14219,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 622,
+    "output_tokens": 682,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

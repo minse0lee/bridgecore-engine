@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgg3UpLYpPfiSvmK3YfgS",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P027\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"종이 또는 전자 FAFSA, 2012년 1월 1일 이전, 2012-13학년도, 접수 불가라는 내용이 모두 동일합니다. '제출된'은 의미를 바꾸지 않는 보충입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기한(prior to)과 학년도(for)의 범위 관계가 유지되고 지시·연결·초점 표현에 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"접수 규정 안내 → 접수 규정 안내. 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"2012년 1월 1일 이전 신청서는 접수되지 않는다는 제한(조건·범위)이 '접수되지 않습니다'로 유지됩니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내문에 맞는 '~습니다' 체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"FAFSA를 원어 약어 그대로 두었고 학년도와 날짜 표기는 한국어 로케일에 맞게 정확히 옮겼으며 한국 제도로 대체하지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 696,
+    "output_tokens": 578,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgg3WEyfrmjxYSQMMFHSk",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P045\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the waste side of a marked line\",\"tgt_span\":\"표시된 선의 폐기물 쪽으로\",\"description\":\"'waste side'(잘라내어 버려지는 재료 쪽)를 '폐기물 쪽'으로 옮겨 어색하지만, 버려질 쪽이라는 의미는 대체로 유지됨(오류로 보기 어려워 참고용 기록)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"정확한 치수를 위해 톱날의 커프가 항상 표시선의 버려지는 쪽을 지나야 한다는 내용이 유지됩니다. '폐기물 쪽'은 어색하지만 같은 사태를 가리킵니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'정확한 최종 치수를 위해'라는 목적 관계와 '항상'의 범위가 그대로 유지되고, 지시 대상 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"작업 원칙 안내 → 작업 원칙 안내. 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"always가 붙은 should의 작업 원칙이 '항상 … 이동해야 합니다'로 통상적으로 대응되어 강도와 조건이 유지됩니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재 본문의 '~합니다' 설명체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없는 기술 설명 문장입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 806,
+    "output_tokens": 700,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
