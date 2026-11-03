@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgfhyyed9AU45LMCzktUZ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"SD21\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"must return\",\"tgt_span\":\"반납하는 경우가 많습니다\",\"description\":\"반납 의무(must)가 '반납하는 경우가 많다'는 빈도·경향 서술로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"all library books\",\"tgt_span\":\"도서관 책\",\"description\":\"'all'(전부)에 해당하는 수량 표현이 누락됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 반납해야 한다는 규정이 반납하는 경우가 많다는 빈도 서술로 바뀌었고, all(모든 책)도 빠져 독자가 문장의 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현이 바뀌지 않았고, 'by June 1'의 기한은 '6월 1일까지'로 유지됩니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 규정 안내(반납 지시) → 일반적 경향 설명으로 바뀌어 행동하도록 이끄는 기능이 사라졌습니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: must의 반납 의무가 '경우가 많다'는 빈도 서술로 바뀌어 의무가 사라지고 선택 사항처럼 읽힙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'~습니다' 안내체가 기관 안내문의 격식에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 514,
+    "output_tokens": 748,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

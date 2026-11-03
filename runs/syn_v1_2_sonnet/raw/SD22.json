@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgfhwQ5UahbPH98Ve812c",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"SD22\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Drivers should yield to pedestrians at crosswalks.\",\"tgt_span\":\"운전자는 횡단보도에서 보행자에게 양보하곤 합니다.\",\"description\":\"규범적 권고·의무(should yield)가 '양보하곤 합니다'라는 습관적 행위 서술로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 양보해야 한다는 규범 내용이 운전자가 양보하곤 한다는 습관·사실 서술로 바뀌어 문장이 말하는 행위의 성격이 달라졌고, 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 대상, 연결 관계, 초점 표현이 모두 문제없이 유지되었고 이 문장에는 달라진 항목이 없습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 운전자에게 양보하도록 이끄는 규범적 권고 → 습관을 서술하는 설명으로 발화 기능이 바뀌었습니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: should가 나타내는 규범적 권고가 '양보하곤 합니다'로 바뀌어 요구가 사라지고 이미 하는 일로 읽히며, 독자가 해야 할 행동을 다르게 이해합니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내문에 맞는 '~습니다' 체가 유지되어 관계에 맞는 격식입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 표현이 없어 평가할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 520,
+    "output_tokens": 766,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

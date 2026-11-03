@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgfhwztj28757wNaNn9Qq",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"SD21\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Students must return all library books\",\"tgt_span\":\"학생들은 … 도서관 책을 반납하는 경우가 많습니다\",\"description\":\"반납해야 한다는 의무가 반납하는 경우가 많다는 빈도 서술로 바뀜. 'all' 누락 및 'by June 1' 기한 조건이 '6월 1일까지'에 남아 있으나 행위 내용이 달라짐\"},{\"id\":\"E002\",\"src_span\":\"all\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"all library books의 'all'이 번역에서 누락되어 반납 대상의 범위가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(행위): 학생이 반납해야 하는 행위가 반납하는 경우가 많다는 사실 서술로 바뀌었고, 반납 대상의 전체 범위(all)가 빠져 독자가 요지를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 표현이나 연결 관계, 초점·범위 표현에서 대상이 바뀌거나 사라진 부분은 없습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"원문 규정 지시(반납 요구) → 빈도 서술(반납 경향 설명). 행동을 이끄는 기능이 사라져 발화 기능의 종류가 바뀌었습니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(범주): must의 의무가 사실 서술로 바뀌어 의무 범주가 사라졌고, 반납 기한을 지켜야 하는 조건과 행동 주체의 의무가 독자에게 전달되지 않습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내문의 '~습니다' 종결이 유지되어 관계에 맞는 격식이 보존됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"도서관 반납과 날짜 표기 외에 별도로 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-haiku-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14501,
+    "inference_geo": "global",
+    "input_tokens": 514,
+    "output_tokens": 890,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

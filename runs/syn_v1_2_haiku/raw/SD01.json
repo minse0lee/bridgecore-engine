@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgfhujumuiA5mzDSLHTTd",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\": \"SD01\", \"evaluable\": true, \"evaluable_note\": null, \"errors\": [], \"axes\": {\"Semantic\": {\"judgment\": \"보존\", \"severity\": null, \"error_ids\": [], \"reason\": \"학생이 현장학습 전에 동의서를 제출한다는 주체, 행위, 대상, 시점이 원문과 동일합니다.\"}, \"Textual\": {\"judgment\": \"N/A\", \"severity\": null, \"error_ids\": [], \"reason\": \"지시 표현, 문장 간 연결, 초점 표현이 없는 단일 문장입니다.\"}, \"Context\": {\"judgment\": \"보존\", \"severity\": null, \"error_ids\": [], \"reason\": \"제출 의무를 알리는 규정 안내 → 제출 의무를 알리는 규정 안내로 기능이 같습니다.\"}, \"Deontic\": {\"judgment\": \"보존\", \"severity\": null, \"error_ids\": [], \"reason\": \"must의 의무가 '-해야 합니다'로 유지되고, 주체(학생)와 시점 조건도 바뀌지 않았습니다. 규정상 필수 제출 요건이므로 Deontic 적용 대상입니다.\"}, \"Register\": {\"judgment\": \"보존\", \"severity\": null, \"error_ids\": [], \"reason\": \"학교 규정 안내의 공식적인 '~습니다' 안내체가 유지되어 수신자 관계에 맞습니다.\"}, \"Cultural\": {\"judgment\": \"N/A\", \"severity\": null, \"error_ids\": [], \"reason\": \"현장학습과 동의서는 일반 어휘이며 특정 제도나 단위에 고유한 문화적 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-haiku-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 14219
+    },
+    "cache_creation_input_tokens": 14219,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 504,
+    "output_tokens": 568,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

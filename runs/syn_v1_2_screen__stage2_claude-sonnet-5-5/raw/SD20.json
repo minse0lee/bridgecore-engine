@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgfi4FxkxEAKjS9jDoCzP",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"SD20\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Never leave a burning candle unattended.\",\"tgt_span\":\"켜 놓은 촛불을 지켜보지 않고 자리를 비워도 됩니다.\",\"description\":\"금지(절대 방치하지 말 것)가 허가(자리를 비워도 됨)로 뒤바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"켜진 촛불, 지켜보지 않고 자리를 비우는 행위 등 내용 요소는 유지되며, 금지가 허가로 바뀐 변화는 Deontic에서만 판정합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 관계, 연결 관계, 초점 표현에서 바뀐 점이 없습니다. never의 금지는 Deontic에서 다룹니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"안전 경고·금지 지시 → 허용 안내. 행동을 하지 말라고 이끄는 기능이 행동을 해도 된다는 허가 안내로 바뀌어 발화 기능의 종류가 달라졌습니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 반드시 지켜야 할 안전 규칙인 Never(금지)가 '비워도 됩니다'(허가)로 범주가 바뀌어 독자가 정반대로 행동하게 됩니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'~습니다' 안내체로 공식 안내문의 격식에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 656,
+    "output_tokens": 718,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

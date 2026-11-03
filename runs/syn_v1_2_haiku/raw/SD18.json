@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgfhwQfwXkkbQD7VbVyky",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\": \"SD18\", \"evaluable\": true, \"evaluable_note\": null, \"errors\": [{\"id\": \"E001\", \"src_span\": \"Students are required to complete the safety training.\", \"tgt_span\": \"학생들은 원하면 안전 교육을 이수할 수 있습니다.\", \"description\": \"필수 이수 의무가 선택 가능한 이수 허가로 바뀌었고, '원하면' 조건이 추가됨\"}], \"axes\": {\"Semantic\": {\"judgment\": \"훼손\", \"severity\": \"major\", \"error_ids\": [\"E001\"], \"reason\": \"판단 질문 1(행위·조건): 학생이 안전 교육을 이수해야 한다는 행위 요구가 원하면 이수할 수 있다는 선택 행위로 바뀌어 행위의 성격과 조건이 달라졌습니다.\"}, \"Textual\": {\"judgment\": \"보존\", \"severity\": null, \"error_ids\": [], \"reason\": \"지시 대상(학생들, 안전 교육)과 문장 간 연결 관계는 변하지 않았고 초점·범위 표현도 없습니다.\"}, \"Context\": {\"judgment\": \"훼손\", \"severity\": \"major\", \"error_ids\": [\"E001\"], \"reason\": \"필수 이수 요구(규정 안내) → 선택 가능성 안내. 독자에게 이수를 요구하는 발화 기능이 가능성 설명으로 바뀌었습니다.\"}, \"Deontic\": {\"judgment\": \"훼손\", \"severity\": \"major\", \"error_ids\": [\"E001\"], \"reason\": \"판단 질문 1(범주): 'are required'의 의무가 '수 있습니다'의 허가로 바뀌어 의무가 선택 사항으로 읽힙니다. 판단 질문 2(조건): '원하면'이라는 새 조건이 추가되어 규범 적용 조건이 달라졌습니다.\"}, \"Register\": {\"judgment\": \"보존\", \"severity\": null, \"error_ids\": [], \"reason\": \"공식 안내문의 '~습니다' 종결체가 유지되어 관계와 격식에 변화가 없습니다.\"}, \"Cultural\": {\"judgment\": \"N/A\", \"severity\": null, \"error_ids\": [], \"reason\": \"이 문장에는 문화·제도 고유의 대상이나 단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-haiku-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 656,
+    "output_tokens": 787,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

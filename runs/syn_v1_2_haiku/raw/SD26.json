@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgfhxGg1JGAE3gX67kxue",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"SD26\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Only faculty members\",\"tgt_span\":\"교수진을 포함해 누구나\",\"description\":\"'only'에 의한 자격 제한이 '교수진을 포함해 누구나'로 뒤집혀 예약 허용 주체의 범위가 전체 구성원으로 확대됨\"},{\"id\":\"E002\",\"src_span\":\"may reserve\",\"tgt_span\":\"예약할 수 있습니다\",\"description\":\"허가 대상이 교수진으로 한정된 규정이 누구에게나 허가된 것으로 바뀜 (허가 범위·주체 변경)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(참여자): 예약 가능한 행위자가 교수진으로 한정되었으나 번역에서는 누구나로 확대되어 행위자 집합이 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(초점·범위): 'only'의 범위 한정 표현이 '포함해 누구나'로 바뀌어 초점·범위 표현이 원문과 반대 방향으로 작동합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 안내 → 규정 안내. 예약 가능 여부를 안내하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 2(주체·범위): 허가의 수혜 주체가 교수진에서 누구나로 바뀌어 평가조건이 금지한 담당 주체·적용 범위 변경이 생겼습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내체('~습니다')가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 제도 고유의 단위·편제·표기가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-haiku-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 514,
+    "output_tokens": 781,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

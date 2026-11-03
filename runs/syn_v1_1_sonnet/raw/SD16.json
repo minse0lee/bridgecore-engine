@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgfhvvQKvXCotsB7otwKB",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"SD16\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Visitors must wear a badge at all times.\",\"tgt_span\":\"방문객은 항상 배지를 착용하는 것이 좋습니다.\",\"description\":\"must(의무)가 '-하는 것이 좋습니다'(권고)로 바뀌어 의무가 권고로 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"방문객, 항상, 배지 착용이라는 행위자·행위·대상·시간이 동일하며, 의무 강도 변화는 Deontic에서만 판정합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 관계, 연결 관계, 초점·범위 표현에서 바뀐 것이 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"배지 착용을 이끄는 규정 안내 → 배지 착용을 권하는 안내. 행동하도록 이끄는 같은 종류의 기능입니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: must가 요구하는 의무가 '좋습니다'라는 권고로 읽혀 선택 사항이 되었습니다. 평가조건이 의무 변경을 불허하며, 독자가 해야 할 행동을 다르게 이해하게 됩니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내문에 맞는 '-습니다' 안내체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도에 고유한 판정 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 502,
+    "output_tokens": 677,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

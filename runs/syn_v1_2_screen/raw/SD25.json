@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgfhxV7NQTzFMQWwE2BfU",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"SD25\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"only if they have finished the test\",\"tgt_span\":\"시험을 마치지 않았더라도\",\"description\":\"'시험을 마친 경우에만' 나갈 수 있다는 조건이 '시험을 마치지 않았더라도' 나갈 수 있다는 양보 조건으로 뒤집힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"critical\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(조건): 'only if' 조건이 부정되어 허용 조건이 시험 미완료 시에도 적용되는 것으로 바뀌었습니다. 독자가 조기 퇴실 조건을 정반대로 이해하게 되므로 major 이상이며, 학습자가 시험 규정을 잘못 알아 불이익을 받을 수 있어 major로 둡니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(연결 관계): 'only if'의 한정·조건 관계가 '~더라도'의 양보 관계로 바뀌어 연결 관계가 달라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 안내 → 규정 안내. 허용 조건을 알려 주는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2(범주·조건): 'may ... only if'의 퇴실 허가 조건이 시험 완료라는 요건 없이 허용되는 것으로 바뀌어 허가의 조건과 범위가 달라졌습니다. 평가조건이 조건 변경을 불허하므로 훼손입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내체 '~습니다'가 유지되어 수신자와의 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"제도 고유 대상이나 단위·날짜 표기가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-haiku-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14501,
+    "inference_geo": "global",
+    "input_tokens": 520,
+    "output_tokens": 802,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

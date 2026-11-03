@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgfhz1evEo1UnAUSBt3Pq",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"SD19\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"need not notify\",\"tgt_span\":\"반드시 사무실에 알려야 합니다\",\"description\":\"비의무(need not)가 의무(must notify)로 바뀌어 규범의 범주가 반전됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"행위자·대상·시간 등 사실 내용은 같고, 달라진 것은 규범 범주뿐이므로 Deontic에서만 판정합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계에 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"안내 → 안내. 행동을 이끄는 발화 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'need not'(의무 없음)이 '반드시 알려야 합니다'(의무)로 바뀌어 의무 범주가 반전되었습니다. 독자는 퇴거 전 사무실 통보가 필요 없다는 조건을 잘못 이해하게 됩니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-haiku-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 407,
+    "output_tokens": 595,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgfhwMGo4G6B3q9tR136Q",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"SD23\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"You must keep the receipt to get a refund.\",\"tgt_span\":\"환불받을 때 영수증이 있으면 편리합니다.\",\"description\":\"환불을 받으려면 영수증을 보관해야 한다는 의무·조건이 '영수증이 있으면 편리하다'는 편의 서술로 바뀜. 보관하라는 행위와 필수 조건이 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위·조건): 영수증을 '보관한다'는 행위가 '있으면 편리하다'는 상태 서술로 바뀌었고, 환불 조건이 편의 사항으로 달라졌습니다. 독자가 문장의 요지를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(연결 관계): 환불을 받기 위한 필요조건(to get a refund)이 '환불받을 때 … 있으면 편리하다'는 단순 상황·이점 관계로 바뀌어 목적·조건 연결이 달라졌습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"원문 기능 → 번역 기능: 영수증을 보관하도록 이끄는 지시 → 영수증이 있으면 편리하다는 단순 설명. 행동을 이끄는 기능이 사라졌습니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: must의 의무가 '편리합니다'라는 선택적 이점 서술로 바뀌어 요구가 선택 사항으로 읽힙니다. 환불 조건으로서의 필수성이 사라졌습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내체 '~습니다'가 유지되어 기관과 수신자의 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 494,
+    "output_tokens": 854,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

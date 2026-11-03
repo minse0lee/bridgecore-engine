@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgfhzkLDQ5DAoS7QmiZHh",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"SD26\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Only faculty members may reserve the seminar room.\",\"tgt_span\":\"교수진을 포함해 누구나 세미나실을 예약할 수 있습니다.\",\"description\":\"예약 자격이 교수진으로 한정된다는 내용이 교수진을 포함한 누구나 예약할 수 있다는 내용으로 바뀌어 자격 제한이 사라지고 허용 대상이 확대됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물·수량): 예약 가능한 사람이 교수진뿐에서 '누구나'로 바뀌어 누가 예약할 수 있는지가 달라졌고, 독자가 문장의 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(초점·범위): only가 교수진에 한정하는 초점이 사라지고 '교수진을 포함해 누구나'로 범위가 전체로 확대되었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 안내 → 규정 안내. 세미나실 예약 자격을 알리는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(주체·범위): 예약 허가 대상이 교수진으로 제한된 것에서 모든 사람으로 바뀌어 평가조건이 금지한 권한·담당 주체 변경이 생겼습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내문에 맞는 '~습니다' 안내체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 514,
+    "output_tokens": 766,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

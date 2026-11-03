@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgfhw2aQ7coc3LUiXGuCx",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"SD18\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Students are required to complete the safety training.\",\"tgt_span\":\"학생들은 원하면 안전 교육을 이수할 수 있습니다.\",\"description\":\"안전 교육 이수 의무('are required')가 '원하면 … 수 있습니다'라는 임의적 허가로 바뀌고, 원문에 없는 조건('원하면')이 첨가됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(조건): 원문에 없는 '원하면'이라는 조건이 더해지고 의무 사항이 희망자만 이수하는 것으로 읽혀 독자가 문장의 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계는 바뀌지 않았고 '원하면'은 첨가된 내용이므로 Semantic에서 판정합니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"원문 기능 → 번역 기능: 이수를 요구하는 규정 안내 → 선택 가능성 안내. 행동하도록 이끄는 기능이 사라지고 이수 여부가 학생 선택에 달린 것으로 읽힙니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 원문은 필수 이수를 요구하는 의무인데 번역문은 '원하면 … 수 있습니다'로 선택 사항이 되어 의무가 허가로 바뀌었습니다. 평가조건이 의무·조건 변경을 금지합니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내문의 '~습니다' 체가 유지되어 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 656,
+    "output_tokens": 780,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

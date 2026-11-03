@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgfhwJDVxmY5LqJdsE5mZ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"SD16\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Visitors must wear a badge at all times.\",\"tgt_span\":\"방문객은 항상 배지를 착용하는 것이 좋습니다.\",\"description\":\"must(의무)가 '-하는 것이 좋습니다'(권고)로 바뀌어 의무의 강도가 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"방문객, 배지 착용, 항상이라는 행위·대상·시간이 원문과 같습니다. 규범의 강도 차이는 Deontic에서 판정합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"단일 문장으로 지시·연결·초점 관계에 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"착용을 요구·안내하는 기능 → 착용을 권하는 안내 기능으로 같은 종류의 행동 유도이므로 보존입니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 방문객이 반드시 지켜야 할 의무(must)가 권고(좋습니다)로 바뀌어 규범의 범주·강도가 달라졌습니다. 출입 규정상 배지 미착용 시 제재가 따를 수 있어 독자가 행동 조건을 선택 사항으로 오해하게 됩니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내체('-습니다')가 유지되어 관계에 맞는 격식입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화·제도 고유의 대상이나 단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-haiku-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14501,
+    "inference_geo": "global",
+    "input_tokens": 502,
+    "output_tokens": 702,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

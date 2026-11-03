@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgfhxsD99YN6aigPV84bC",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\": \"SD28\", \"evaluable\": true, \"evaluable_note\": null, \"errors\": [], \"axes\": {\"Semantic\": {\"judgment\": \"보존\", \"severity\": null, \"error_ids\": [], \"reason\": \"여행이 길었고 상대가 피곤할 것이라는 추론 내용이 동일하게 표현되어 있습니다.\"}, \"Textual\": {\"judgment\": \"보존\", \"severity\": null, \"error_ids\": [], \"reason\": \"원문의 원인(긴 여행)과 결과(피곤함)의 관계가 '~이니'로 유지되며 지시·초점 표현도 없습니다.\"}, \"Context\": {\"judgment\": \"보존\", \"severity\": null, \"error_ids\": [], \"reason\": \"상대의 상황을 짐작해 공감하는 말하기 기능 → 상대의 상황을 짐작해 공감하는 말하기 기능으로 동일합니다.\"}, \"Deontic\": {\"judgment\": \"N/A\", \"severity\": null, \"error_ids\": [], \"reason\": \"must는 '피곤할 것이다'라는 추론의 의미로 규범 의미가 없어 Deontic 평가 대상이 아닙니다.\"}, \"Register\": {\"judgment\": \"보존\", \"severity\": null, \"error_ids\": [], \"reason\": \"'-겠어요'의 존대 종결로 대화 상대에 대한 공손하고 공감적인 태도가 유지됩니다.\"}, \"Cultural\": {\"judgment\": \"N/A\", \"severity\": null, \"error_ids\": [], \"reason\": \"문화 고유의 제도·관습·단위가 나타나지 않습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-haiku-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14501,
+    "inference_geo": "global",
+    "input_tokens": 504,
+    "output_tokens": 548,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

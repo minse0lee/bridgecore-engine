@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgfhvq3Ndu8MBpxx515i9",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"SD11\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"must not use their phones during the exam\",\"tgt_span\":\"시험 중에 휴대전화를 사용하지 않아도 됩니다\",\"description\":\"금지(must not)가 비의무(않아도 된다)로 바뀌어 학생의 휴대전화 사용 금지가 선택 사항으로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"행위자(학생), 대상(휴대전화), 시점(시험 중)과 사용하지 않는 행위가 원문과 같습니다. 규범의 범주 변화는 Semantic이 아니라 Deontic에서 판정합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계를 바꾸는 대명사나 연결어가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 안내 → 규정 안내. 시험 중 휴대전화 사용을 하지 않도록 안내하는 기능이 유지되는 것으로 보나, 금지가 비의무로 바뀐 것은 Deontic에서 판정합니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(범주): 금지(must not)가 '않아도 된다'의 비의무로 바뀌어 규범 범주가 달라졌고, 독자가 휴대전화를 사용해도 된다고 오해할 수 있습니다. 행동 주체와 대상은 같으나 요구 내용이 달라져 major입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학교 규정 안내의 공식적 '~습니다' 체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 제도 고유의 단위·제도명·관습 표현이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-haiku-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 658,
+    "output_tokens": 761,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

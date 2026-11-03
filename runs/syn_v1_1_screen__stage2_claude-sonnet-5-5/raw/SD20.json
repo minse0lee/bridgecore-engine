@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgfi2H5vD2MmX6nZhHr3G",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"SD20\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Never leave a burning candle unattended.\",\"tgt_span\":\"켜 놓은 촛불을 지켜보지 않고 자리를 비워도 됩니다.\",\"description\":\"금지 명령(Never leave … unattended)이 허용('비워도 됩니다')으로 바뀌어 금지와 반대되는 내용이 됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(부정·행위): 원문의 'Never leave'(절대 비우지 말라)가 '자리를 비워도 됩니다'로 뒤집혀, 독자가 요지를 반대로 이해하게 됩니다. 단순한 조동사 강도 변화가 아니라 부정의 방향이 달라진 변화이므로 Semantic에도 기록합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 표현, 연결 관계, 초점·범위 표현에는 변화가 없습니다. 부정 표현의 변화는 Semantic과 Deontic에서 다룹니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 안전 행동을 금지하는 경고·지시 → 허용하는 안내로 발화 기능이 바뀌었습니다. 독자를 행동하지 않도록 이끄는 기능이 반대 방향의 허용으로 뒤집혔습니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 반드시 지켜야 할 안전 금지(never)가 허가('-해도 됩니다')로 바뀌어 범주가 금지에서 허용으로 달라졌습니다. 평가조건이 의무·권한·조건 변경을 불허합니다. 평가조건에 실제 안전 지침이라는 명시가 없어 critical은 아니고 major로 봅니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내체('-ㅂ니다')가 기관 안내문의 관계에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 516,
+    "output_tokens": 905,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

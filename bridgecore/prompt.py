@@ -20,6 +20,7 @@ import json
 import mimetypes
 from pathlib import Path
 
+from . import deontic_rule
 from .rules import hints_text, run_rules
 from .schema import JSON_SCHEMA
 
@@ -68,6 +69,13 @@ def system_text(version: str = "v0", screen: bool = False) -> str:
     return text
 
 
+def rules_config(version: str) -> dict:
+    """prompts/<version>/rules.json — 버전별로 켜는 추가 규칙 (없으면 기본 힌트만).
+    예: {"deontic_category": true} → Deontic 범주 대응 규칙 힌트 추가 (v1.2~)"""
+    f = PROMPTS / version / "rules.json"
+    return json.loads(f.read_text(encoding="utf-8")) if f.exists() else {}
+
+
 def prompt_fingerprint(version: str = "v0", screen: bool = False) -> str:
     """개발일지용: 시스템 프롬프트 + 출력 스키마 + 문항 틀 + 규칙 코드 해시 (엔진 버전 고정 기록).
     모델·effort·thinking은 meta.json에 따로 기록된다."""
@@ -77,6 +85,12 @@ def prompt_fingerprint(version: str = "v0", screen: bool = False) -> str:
     h.update(PARAGRAPH_ONLY_NOTE.encode("utf-8"))
     # 힌트 문장은 rules.py가 만들므로 규칙 코드가 바뀌어도 해시가 바뀌게 한다
     h.update((Path(__file__).parent / "rules.py").read_bytes())
+    # 추가 규칙은 켠 버전에서만 해시에 넣는다 (이전 버전 해시가 바뀌지 않게)
+    cfg = rules_config(version)
+    if cfg:
+        h.update(json.dumps(cfg, sort_keys=True).encode("utf-8"))
+        if cfg.get("deontic_category"):
+            h.update((Path(__file__).parent / "deontic_rule.py").read_bytes())
     return h.hexdigest()[:12]
 
 
@@ -84,7 +98,7 @@ def paragraph_only(item: dict) -> bool:
     return not (item.get("tgt") or "").strip() and bool((item.get("tgt_paragraph") or "").strip())
 
 
-def user_text(item: dict) -> str:
+def user_text(item: dict, version: str = "v0") -> str:
     para = paragraph_only(item)
     if para:
         # 문장 짝이 없으면 문단 단위로 숫자를 비교한다 (다른 문장의 숫자가 섞이지 않게)
@@ -94,6 +108,12 @@ def user_text(item: dict) -> str:
     else:
         rules = run_rules(item)
     hint = hints_text(rules)
+    if rules_config(version).get("deontic_category"):
+        src = item.get("src_paragraph") if para else item.get("src")
+        tgt = item.get("tgt_paragraph") if para else item.get("tgt")
+        extra = deontic_rule.hint_lines(deontic_rule.check(src or "", tgt or ""))
+        if extra:
+            hint = "\n".join(([hint] if hint else []) + extra)
     return USER_TEMPLATE.format(
         item_id=item["item_id"],
         doc_info=item.get("doc_info") or "(없음)",
@@ -120,7 +140,7 @@ def build_messages(item: dict, version: str = "v0",
         content.append({"type": "image", "source": {
             "type": "base64", "media_type": media,
             "data": base64.b64encode(path.read_bytes()).decode("ascii")}})
-    content.append({"type": "text", "text": user_text(item)})
+    content.append({"type": "text", "text": user_text(item, version)})
     return system, [{"role": "user", "content": content}]
 
 

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgfhvtcfm1KsRMm8qsRFQ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\": \"SD11\", \"evaluable\": true, \"evaluable_note\": null, \"errors\": [{\"id\": \"E001\", \"src_span\": \"must not use their phones\", \"tgt_span\": \"사용하지 않아도 됩니다\", \"description\": \"금지(must not)가 비의무(불필요)로 바뀌어 휴대전화 사용 금지가 선택 사항으로 읽힘\"}], \"axes\": {\"Semantic\": {\"judgment\": \"훼손\", \"severity\": \"major\", \"error_ids\": [\"E001\"], \"reason\": \"판단 질문 1(조건·확실성·행위 규범): 휴대전화를 사용하지 않는 행위의 대상·행위는 같으나, 사용하지 말아야 한다는 금지 내용이 사용하지 않아도 된다는 허용 내용으로 바뀌어 독자가 이해하는 요지가 달라졌습니다.\"}, \"Textual\": {\"judgment\": \"보존\", \"severity\": null, \"error_ids\": [], \"reason\": \"지시 표현, 문장 간 연결, 초점·범위 표현의 변화가 없습니다.\"}, \"Context\": {\"judgment\": \"보존\", \"severity\": null, \"error_ids\": [], \"reason\": \"규정 안내(금지 고지) → 규정 안내(사용 불필요 고지)로 발화 기능의 종류는 같습니다. 행동 지시 기능이 같은 범주로 남아 있으므로 훼손이 아닙니다.\"}, \"Deontic\": {\"judgment\": \"훼손\", \"severity\": \"major\", \"error_ids\": [\"E001\"], \"reason\": \"판단 질문 1(범주): must not(금지)이 '사용하지 않아도 됩니다'(비의무)로 바뀌어 의무 범주가 금지에서 비의무로 달라졌습니다. 시험 중 휴대전화 사용 금지는 학생의 행동 조건에 해당하므로 규범 판정 대상입니다.\"}, \"Register\": {\"judgment\": \"보존\", \"severity\": null, \"error_ids\": [], \"reason\": \"공식 안내문의 '~습니다' 종결이 유지되어 관계에 맞는 격식입니다.\"}, \"Cultural\": {\"judgment\": \"N/A\", \"severity\": null, \"error_ids\": [], \"reason\": \"문화·제도 고유의 대상이나 단위, 날짜·통화 표기가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-haiku-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 513,
+    "output_tokens": 805,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

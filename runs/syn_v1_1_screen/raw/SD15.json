@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgfhzMdDWJ3GKr9C2ptMA",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"SD15\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Pets are prohibited in the residence halls.\",\"tgt_span\":\"기숙사에서는 반려동물을 키워도 됩니다.\",\"description\":\"반려동물 사육 금지(prohibited)가 사육 허용으로 뒤바뀜. 규범의 방향과 범주가 반전됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"critical\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 기숙사 내 반려동물 사육의 금지가 허용으로 바뀌어 행위에 대한 내용 자체가 반대가 되었습니다. 독자가 기숙사에서 반려동물을 키워도 된다고 이해하게 되므로 요지가 완전히 달라집니다.\"},\"Textual\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 표현, 문장 간 연결, 초점 표현이 없는 단문이라 평가 대상이 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 안내 → 규정 안내. 기숙사 규정을 알리는 발화 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 금지(prohibited)가 허용('-해도 됩니다')으로 바뀌어 규범의 범주가 반전되었습니다. 규범을 받는 주체(학생·거주자)에 대한 금지가 사라져 독자의 행동 조건이 달라집니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내문의 격식 있는 종결어미('-습니다')가 유지되며 관계에 맞는 어조입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"제도 고유의 용어나 단위가 없는 일반 생활 규정 문장이라 평가할 문화적 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-haiku-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14501,
+    "inference_geo": "global",
+    "input_tokens": 501,
+    "output_tokens": 771,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
