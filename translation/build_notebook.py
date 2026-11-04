@@ -17,19 +17,23 @@ md("""# MADLAD-400 10B 영→한 LoRA — 시험 학습
 **준비**
 1. 런타임 → 런타임 유형 변경 → **A100**, **고용량 RAM 켜기**(80GB A100). 시작하면 오른쪽 위 리소스 패널에서 *시간당 컴퓨팅 단위*를 확인해 아래 `CU_PER_HOUR`에 적기
 2. 구글 드라이브에 폴더 `MyDrive/bridgecore_mt/aihub/`를 만들고 `학습데이터.zip`, `검증데이터.zip`을 올리기 (AI Hub 원본 압축 그대로)
-3. 위에서부터 차례로 실행
+3. **설치 셀(①)만 먼저 실행 → 메뉴 '런타임 → 세션 다시 시작' → 그다음 셀부터 차례로 실행**. torch가 깨졌다면(`NameError: name 'adadelta'` 같은 오류) '런타임 → 연결 해제 및 삭제'로 새 런타임을 받은 뒤 이 순서로 다시
 
 **순서**: 환경 기록 → 데이터 분할 저장(한 번만) → 모델 불러오기 → 기본 모델 번역 속도 → LoRA 짧은 학습(시간·메모리 측정) → 전체 학습 추정
+"""),
+code("""# ① 맨 먼저 이 셀만 실행 (torch를 불러오기 전에 설치해야 함)
+# Colab에 깔린 torch 버전을 고정한 채 설치한다. 고정하지 않으면 pip가 torch를 덮어써서 import torch가 깨질 수 있다
+!pip list --format=freeze | grep -E '^(torch|torchvision|torchaudio)==' > /content/torch_pin.txt
+!cat /content/torch_pin.txt
+!pip -q install -c /content/torch_pin.txt transformers peft accelerate sentencepiece sacrebleu protobuf
+# Colab 기본 torchao(구버전)가 있으면 최신 peft가 LoRA를 붙일 때 ImportError를 낸다. 이 학습에선 안 쓰므로 지운다
+!pip -q uninstall -y torchao
+# ② 설치가 끝나면 메뉴 '런타임 → 세션 다시 시작' 후, 이 셀은 건너뛰고 다음 셀부터 실행
 """),
 code("""!nvidia-smi --query-gpu=name,memory.total,driver_version --format=csv
 import torch
 print("torch", torch.__version__, "| CUDA", torch.version.cuda, "| bf16 지원:", torch.cuda.is_bf16_supported())
 assert torch.cuda.is_bf16_supported(), "bf16을 지원하지 않는 GPU입니다. A100으로 바꿔 주세요"
-"""),
-code("""!pip -q install transformers peft accelerate sentencepiece sacrebleu protobuf
-# Colab 기본 torchao(구버전)가 있으면 최신 peft가 LoRA를 붙일 때 ImportError를 낸다. 이 학습에선 안 쓰므로 지운다
-!pip -q uninstall -y torchao
-# ↑ 처음 실행했다면 메뉴의 '런타임 → 세션 다시 시작' 후 아래 셀부터 실행 (다운로드한 파일은 남음)
 """),
 md("## 1. 설정과 환경 기록"),
 code("""import json, os, time, platform, random
