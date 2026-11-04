@@ -1,0 +1,17 @@
+{
+ "note": "Colab 시험 학습 결과 (150스텝, 성능 비교용 아님). 노트북 출력에서 옮김",
+ "env": {"python": "3.13.16", "torch": "2.11.0+cu130", "cuda": "13.0", "transformers": "5.22.0", "peft": "0.21.2",
+         "accelerate": "1.15.0", "sentencepiece": "0.2.2", "sacrebleu": "2.6.0", "gpu": "NVIDIA A100-SXM4-80GB",
+         "driver": "580.82.07", "model_id": "google/madlad400-10b-mt", "prefix": "<2ko> ",
+         "gen": {"num_beams": 4, "do_sample": false, "max_new_tokens": 256}, "seed": 20261104},
+ "splits": {"train": 78003, "valid": 1000, "test": 500,
+            "split_sha256": {"train": "6240a27e8d5063bcbd626542cc76c152460b3b7a57f58332009f7f759b9e165e",
+                             "valid": "f7f56b9a8aea8e0a01e76103e8fd817ec94278f1ebce4a7333718486d4103b04",
+                             "test": "f481dd0b2364b197bbdeb9b5ce13532ee7dce3bdebc4bb761e64e22101f16a49"}},
+ "estimate": {"sec_per_step": 0.813, "batch": 16, "peak_mem_gb": 28.1, "steps_per_epoch": 4876, "hours_per_epoch": 1.1,
+              "hours_3_epochs": 3.3, "gen_sec_per_sentence": 0.321, "cu_per_hour_assumed": 7.52, "cu_3_epochs": 24.8,
+              "load_minutes": 2.4, "params_b": 10.71, "lora_trainable": 18874368},
+ "tokens": {"src_median": 24, "src_p95": 44, "src_max": 75, "tgt_median": 33, "tgt_p95": 59, "tgt_max": 117},
+ "loss_every_10_steps": [0.972, 0.89, 0.835, 0.78, 0.725, 0.784, 0.796, 0.719, 0.767, 0.685, 0.833, 0.771, 0.774, 0.764, 0.722],
+ "chrf_base_probe64": 38.0
+}
