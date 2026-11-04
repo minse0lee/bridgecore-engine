@@ -1,0 +1,218 @@
+"""본 학습 노트북(02_본학습_MADLAD10B_LoRA.ipynb) 생성기.  python build_notebook_02.py"""
+from pathlib import Path
+
+import nbformat as nbf
+
+HERE = Path(__file__).parent
+md = nbf.v4.new_markdown_cell
+code = nbf.v4.new_code_cell
+
+cells = [
+md("""# MADLAD-400 10B 영→한 LoRA — 본 학습과 학습 전후 번역
+
+**하는 일**
+1. LoRA 학습 (최대 3에폭). 1,000스텝마다 검증 1,000문장의 손실을 재고, 가장 좋았던 시점을 남긴다. 끊기면 마지막 체크포인트에서 이어서 학습한다
+2. **학습 전·후 번역을 같은 실행에서 같은 설정으로** 만든다. 학습 전 번역은 LoRA를 잠시 끈 같은 모델로 뽑으므로 가중치·정밀도·탐색 설정이 완전히 같다
+3. AI Hub 평가 500문장: chrF·BLEU와 학습 전후 차이의 부트스트랩 95% 구간
+4. `translate_inputs/`에 넣은 원문 파일(파일럿 60문항, 본검수, 책 등)도 전후 번역 → 검증엔진 6축 비교용
+
+**준비**
+- `01_시험학습` 노트북에서 만든 `MyDrive/bridgecore_mt/splits_v1/`이 있어야 함 (없으면 01의 분할 셀을 먼저)
+- 6축 비교용 원문은 `MyDrive/bridgecore_mt/translate_inputs/`에 jsonl로 (한 줄에 `{"id": ..., "en": ...}`). 파일럿 60문항 파일 `pilot60_src.jsonl`을 같이 드림
+- 런타임: **A100 + 고용량 RAM**. 설치 셀(①)만 실행 → '런타임 → 세션 다시 시작' → 다음 셀부터
+
+**예상 시간** (시험 학습 기준 추정): 학습 3에폭 약 2.5~3.5시간 + 번역 약 10분 + 채점 몇 분. 컴퓨팅 단위 약 25~30개
+"""),
+code("""# ① 맨 먼저 이 셀만 실행 → 끝나면 '런타임 → 세션 다시 시작' → 다음 셀부터
+!pip list --format=freeze | grep -E '^(torch|torchvision|torchaudio)==' > /content/torch_pin.txt
+!cat /content/torch_pin.txt
+!pip -q install -c /content/torch_pin.txt transformers peft accelerate sentencepiece sacrebleu protobuf
+!pip -q uninstall -y torchao
+"""),
+md("## 1. 설정"),
+code("""import json, os, time, math, random, platform, statistics, inspect, glob
+from pathlib import Path
+import torch
+from google.colab import drive
+drive.mount('/content/drive')
+
+BASE = Path('/content/drive/MyDrive/bridgecore_mt')
+SPLIT_DIR = BASE / 'splits_v1'
+RUN_NAME = 'lora_v1'                      # 설정을 바꿔 다시 학습할 땐 이름을 바꾸기 (lora_v2 ...)
+RUN_DIR = BASE / 'runs' / RUN_NAME
+IN_DIR = BASE / 'translate_inputs'
+OUT_DIR = BASE / 'translations' / RUN_NAME
+for d in (RUN_DIR, IN_DIR, OUT_DIR): d.mkdir(parents=True, exist_ok=True)
+
+MODEL_ID = 'google/madlad400-10b-mt'
+PREFIX = '<2ko> '
+SEED = 20261104
+GEN = dict(num_beams=4, do_sample=False, max_new_tokens=256)
+
+# 학습 설정 (시험 학습과 같은 LoRA, 메모리 여유가 커서 gradient checkpointing은 끔 → 더 빠름)
+LORA = dict(r=16, lora_alpha=32, lora_dropout=0.05, target_modules=['q', 'v'])
+BS, ACCUM, LR = 16, 1, 2e-4
+EPOCHS = 3
+EVAL_STEPS = 1000                         # 이 간격마다 검증 손실·체크포인트
+PATIENCE = 3                              # 검증 손실이 3번 연속 안 좋아지면 멈춤
+GRAD_CKPT = False                         # 메모리 부족(OOM)이 나면 True로 바꾸고 다시 실행
+MAX_SRC, MAX_TGT = 256, 256
+CU_PER_HOUR = 7.52
+
+random.seed(SEED); torch.manual_seed(SEED)
+assert (SPLIT_DIR / 'manifest.json').exists(), '분할 파일이 없습니다. 01 노트북의 분할 셀을 먼저 실행하세요'
+load_jsonl = lambda p: [json.loads(l) for l in open(p, encoding='utf-8')]
+train, valid, test = (load_jsonl(SPLIT_DIR / f'{n}.jsonl') for n in ('train', 'valid', 'test'))
+man = json.loads((SPLIT_DIR / 'manifest.json').read_text())
+print(len(train), len(valid), len(test), '| 분할 해시', {k: v[:12] for k, v in man['split_sha256'].items()})
+
+import transformers, peft, accelerate, sentencepiece, sacrebleu
+env = {"python": platform.python_version(), "torch": torch.__version__, "cuda": torch.version.cuda,
+       "transformers": transformers.__version__, "peft": peft.__version__, "accelerate": accelerate.__version__,
+       "sentencepiece": sentencepiece.__version__, "sacrebleu": sacrebleu.__version__,
+       "gpu": torch.cuda.get_device_name(0), "model_id": MODEL_ID, "prefix": PREFIX, "gen": GEN, "seed": SEED,
+       "lora": LORA, "bs": BS, "accum": ACCUM, "lr": LR, "epochs": EPOCHS, "grad_ckpt": GRAD_CKPT,
+       "split_sha256": man['split_sha256']}
+(RUN_DIR / 'env.json').write_text(json.dumps(env, ensure_ascii=False, indent=1))
+print(json.dumps(env, ensure_ascii=False, indent=1))
+"""),
+md("## 2. 모델 불러오기와 LoRA"),
+code("""from transformers import T5ForConditionalGeneration, T5Tokenizer
+from peft import LoraConfig, get_peft_model, TaskType, PeftModel
+tok = T5Tokenizer.from_pretrained(MODEL_ID)
+try:
+    model = T5ForConditionalGeneration.from_pretrained(MODEL_ID, dtype=torch.bfloat16, device_map={'': 0})
+except TypeError:
+    model = T5ForConditionalGeneration.from_pretrained(MODEL_ID, torch_dtype=torch.bfloat16, device_map={'': 0})
+model.config.use_cache = False
+if GRAD_CKPT:
+    model.gradient_checkpointing_enable(); model.enable_input_require_grads()
+pm = get_peft_model(model, LoraConfig(task_type=TaskType.SEQ_2_SEQ_LM, **LORA))
+pm.print_trainable_parameters()
+"""),
+md("## 3. 학습 (끊기면 이 셀을 다시 실행하면 이어서 학습)"),
+code("""from transformers import DataCollatorForSeq2Seq, Seq2SeqTrainer, Seq2SeqTrainingArguments, EarlyStoppingCallback
+
+class DS(torch.utils.data.Dataset):
+    def __init__(self, rows): self.rows = rows
+    def __len__(self): return len(self.rows)
+    def __getitem__(self, i):
+        r = self.rows[i]
+        x = tok(PREFIX + r['en'], max_length=MAX_SRC, truncation=True)
+        x['labels'] = tok(text_target=r['ko'], max_length=MAX_TGT, truncation=True).input_ids
+        return x
+
+_p = inspect.signature(Seq2SeqTrainingArguments.__init__).parameters
+opt = {}
+opt.update({'train_sampling_strategy': 'group_by_length'} if 'train_sampling_strategy' in _p else {'group_by_length': True})
+opt.update({'eval_strategy': 'steps'} if 'eval_strategy' in _p else {'evaluation_strategy': 'steps'})
+total_steps = math.ceil(len(train) / (BS * ACCUM)) * EPOCHS
+args = Seq2SeqTrainingArguments(
+    output_dir=str(RUN_DIR / 'ckpt'), per_device_train_batch_size=BS, per_device_eval_batch_size=32,
+    gradient_accumulation_steps=ACCUM, learning_rate=LR, num_train_epochs=EPOCHS,
+    warmup_steps=int(0.03 * total_steps), lr_scheduler_type='linear',
+    logging_steps=50, eval_steps=EVAL_STEPS, save_steps=EVAL_STEPS, save_total_limit=2,
+    load_best_model_at_end=True, metric_for_best_model='eval_loss', greater_is_better=False,
+    bf16=True, gradient_checkpointing=GRAD_CKPT, report_to=[], seed=SEED, dataloader_num_workers=2, **opt)
+trainer = Seq2SeqTrainer(model=pm, args=args, train_dataset=DS(train), eval_dataset=DS(valid),
+                         data_collator=DataCollatorForSeq2Seq(tok, model=pm, label_pad_token_id=-100, pad_to_multiple_of=8),
+                         callbacks=[EarlyStoppingCallback(early_stopping_patience=PATIENCE)])
+has_ckpt = bool(glob.glob(str(RUN_DIR / 'ckpt' / 'checkpoint-*')))
+print('이어서 학습' if has_ckpt else '처음부터 학습', '| 전체 스텝', total_steps)
+t0 = time.time()
+trainer.train(resume_from_checkpoint=True if has_ckpt else None)
+train_hours = (time.time() - t0) / 3600
+
+best = trainer.state.best_model_checkpoint
+pm.save_pretrained(str(RUN_DIR / 'adapter_best'))
+hist = trainer.state.log_history
+evals = [(h['step'], round(h['eval_loss'], 4)) for h in hist if 'eval_loss' in h]
+summary = {"best_checkpoint": best, "best_eval_loss": trainer.state.best_metric, "evals": evals,
+           "stopped_at_step": trainer.state.global_step, "total_steps_planned": total_steps,
+           "train_hours_this_session": round(train_hours, 2), "cu_this_session_est": round(train_hours * CU_PER_HOUR, 1),
+           "peak_mem_gb": round(torch.cuda.max_memory_allocated() / 1e9, 1)}
+(RUN_DIR / 'train_summary.json').write_text(json.dumps(summary, ensure_ascii=False, indent=1))
+print(json.dumps(summary, ensure_ascii=False, indent=1))
+"""),
+md("## 4. 학습 전·후 번역 (같은 모델·같은 설정)\n학습 전 = LoRA를 끈 상태(`disable_adapter`), 학습 후 = 가장 좋았던 시점의 LoRA. 세션을 새로 시작했다면 2번 셀까지 실행한 뒤 아래 셀에서 `adapter_best`를 불러온다."),
+code("""# 세션을 새로 시작해서 학습 셀을 건너뛴 경우: 저장된 최적 어댑터 불러오기
+if 'trainer' not in globals():
+    pm = PeftModel.from_pretrained(model, str(RUN_DIR / 'adapter_best'))
+    print('adapter_best 불러옴')
+pm.eval(); pm.config.use_cache = True
+
+def translate(rows, use_adapter, bs=32):
+    # 길이순으로 묶어 번역하고 원래 순서로 되돌린다 (패딩 줄이기)
+    order = sorted(range(len(rows)), key=lambda i: len(rows[i]['en']))
+    outs = [None] * len(rows)
+    for s in range(0, len(order), bs):
+        idx = order[s:s+bs]
+        enc = tok([PREFIX + rows[i]['en'] for i in idx], return_tensors='pt', padding=True,
+                  truncation=True, max_length=MAX_SRC).to(0)
+        with torch.no_grad():
+            if use_adapter:
+                out = pm.generate(**enc, **GEN)
+            else:
+                with pm.disable_adapter():
+                    out = pm.generate(**enc, **GEN)
+        for i, t in zip(idx, tok.batch_decode(out, skip_special_tokens=True)):
+            outs[i] = t
+    return outs
+
+def write_pair(name, rows, base, lora):
+    meta = {"run": RUN_NAME, "adapter": str(RUN_DIR / 'adapter_best'), "gen": GEN, "prefix": PREFIX,
+            "transformers": transformers.__version__, "torch": torch.__version__}
+    for tag, outs in (('base', base), ('lora', lora)):
+        with open(OUT_DIR / f'{name}__{tag}.jsonl', 'w', encoding='utf-8') as f:
+            for r, o in zip(rows, outs):
+                f.write(json.dumps({**r, 'mt': o, 'mt_system': f'madlad10b_{tag}', 'mt_meta': meta}, ensure_ascii=False) + '\\n')
+
+t0 = time.time()
+test_base = translate(test, use_adapter=False)
+test_lora = translate(test, use_adapter=True)
+write_pair('aihub_test500', test, test_base, test_lora)
+print(f'평가 500문장 전후 번역 {(time.time()-t0)/60:.1f}분')
+"""),
+md("## 5. AI Hub 평가 500문장 채점\nchrF가 주 지표(한국어는 띄어쓰기 단위 BLEU가 불리해서). BLEU는 참고. 차이는 문장을 다시 뽑는 부트스트랩(1,000회)으로 95% 구간을 낸다."),
+code("""import sacrebleu
+refs = [r['ko'] for r in test]
+def scores(hyp):
+    return {"chrF": round(sacrebleu.corpus_chrf(hyp, [refs]).score, 2),
+            "chrF++": round(sacrebleu.corpus_chrf(hyp, [refs], word_order=2).score, 2),
+            "BLEU": round(sacrebleu.corpus_bleu(hyp, [refs]).score, 2)}
+sb, sl = scores(test_base), scores(test_lora)
+
+rng = random.Random(SEED); n = len(refs); diffs = []
+for _ in range(1000):
+    ix = [rng.randrange(n) for _ in range(n)]
+    rr = [[refs[i] for i in ix]]
+    diffs.append(sacrebleu.corpus_chrf([test_lora[i] for i in ix], rr).score - sacrebleu.corpus_chrf([test_base[i] for i in ix], rr).score)
+diffs.sort()
+res = {"base": sb, "lora": sl, "chrF_diff": round(sl['chrF'] - sb['chrF'], 2),
+       "chrF_diff_95ci": [round(diffs[int(0.025 * len(diffs))], 2), round(diffs[int(0.975 * len(diffs)) - 1], 2)], "n": n}
+(RUN_DIR / 'aihub_test500_scores.json').write_text(json.dumps(res, ensure_ascii=False, indent=1))
+print(json.dumps(res, ensure_ascii=False, indent=1))
+for r, b, l in list(zip(test, test_base, test_lora))[:5]:
+    print('-', r['en'], '\\n  전:', b, '\\n  후:', l, '\\n  정답:', r['ko'])
+"""),
+md("## 6. 6축 비교용 원문 번역 (`translate_inputs/*.jsonl`)\n결과는 `translations/lora_v1/<파일이름>__base.jsonl`, `__lora.jsonl`. 이 두 파일을 주시면 검증엔진으로 6축 비교를 한다."),
+code("""for p in sorted(IN_DIR.glob('*.jsonl')):
+    rows = [r for r in load_jsonl(p) if (r.get('en') or '').strip()]
+    t0 = time.time()
+    b, l = translate(rows, False), translate(rows, True)
+    write_pair(p.stem, rows, b, l)
+    print(f'{p.name}: {len(rows)}문장 · {(time.time()-t0)/60:.1f}분 · 전후 번역이 다른 문장 {sum(x != y for x, y in zip(b, l))}개')
+print('결과 폴더:', OUT_DIR, sorted(os.listdir(OUT_DIR)))
+"""),
+md("""## 끝나면
+- 알려 줄 것: `runs/lora_v1/train_summary.json`, `aihub_test500_scores.json` 내용
+- 검증엔진 비교용: `translations/lora_v1/` 안의 `*__base.jsonl`, `*__lora.jsonl` 파일
+- 런타임은 바로 끊기. `adapter_best/`(학습 결과, 약 75MB)와 `splits_v1/`은 지우지 말 것
+"""),
+]
+
+nb = nbf.v4.new_notebook(cells=cells, metadata={"accelerator": "GPU", "colab": {"gpuType": "A100", "machine_shape": "hm"},
+                                                 "kernelspec": {"name": "python3", "display_name": "Python 3"}})
+out = HERE / "02_본학습_MADLAD10B_LoRA.ipynb"
+nbf.write(nb, out)
+print(out)
