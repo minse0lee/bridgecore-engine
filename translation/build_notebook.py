@@ -27,6 +27,9 @@ print("torch", torch.__version__, "| CUDA", torch.version.cuda, "| bf16 지원:"
 assert torch.cuda.is_bf16_supported(), "bf16을 지원하지 않는 GPU입니다. A100으로 바꿔 주세요"
 """),
 code("""!pip -q install transformers peft accelerate sentencepiece sacrebleu protobuf
+# Colab 기본 torchao(구버전)가 있으면 최신 peft가 LoRA를 붙일 때 ImportError를 낸다. 이 학습에선 안 쓰므로 지운다
+!pip -q uninstall -y torchao
+# ↑ 처음 실행했다면 메뉴의 '런타임 → 세션 다시 시작' 후 아래 셀부터 실행 (다운로드한 파일은 남음)
 """),
 md("## 1. 설정과 환경 기록"),
 code("""import json, os, time, platform, random
