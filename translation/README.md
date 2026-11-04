@@ -6,6 +6,7 @@
   - Validation 압축 확인(2026-11-04): CSV 151,316행 중 영어 원문 9,713행(교육 9,653)
 - `01_시험학습_MADLAD10B_LoRA.ipynb`: Colab A100에서 메모리·속도 측정용 짧은 학습 → 전체 학습 시간·컴퓨팅 단위 추정 (`build_notebook.py`로 생성)
 - `02_본학습_MADLAD10B_LoRA.ipynb`: LoRA 본 학습(검증 손실로 최적 시점 저장·이어서 학습·조기 종료), 학습 전/후 번역을 같은 실행에서 같은 설정으로(학습 전 = `disable_adapter`), AI Hub 평가 500 chrF·BLEU + 부트스트랩, `translate_inputs/*.jsonl` 전후 번역 (`build_notebook_02.py`로 생성)
+- `03_설정비교_본학습_v2.ipynb`: 02 보완판 — 모델 커밋 고정·pip freeze·결정적 연산, 검증 300문장 chrF로 최적 시점 선택, 한/영 글자 비율 0.2~1.0 밖 제외, BLEU ko-mecab, 설정 A~D 1에폭 비교(search) → 규칙(A보다 검증 chrF 0.5 초과일 때만 교체)으로 고른 설정 3에폭(final) (`build_notebook_03.py`)
 - `inputs/pilot60_src.jsonl`: 파일럿 60문항 원문 (6축 전후 비교용)
 - `results/pilot_test_2026-11-04.json`: 시험 학습 결과 (A100 80GB, 스텝당 0.81초, 3에폭 약 3.3시간)
 - AI Hub 데이터와 분할 파일은 저장소에 올리지 않는다 (재배포 금지)
