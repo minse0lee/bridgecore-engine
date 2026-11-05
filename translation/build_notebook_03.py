@@ -29,6 +29,8 @@ md("""# MADLAD-400 10B 영→한 LoRA — 설정 비교와 본 학습 (v2)
 - 설정·모델 선택은 **검증셋 chrF로만**. 평가 500문장과 파일럿 60문항 결과는 고르는 데 쓰지 않는다
 - 검증 chrF가 A보다 0.5점 넘게 높을 때만 A 대신 그 설정을 고른다 (300문장 chrF는 1점 안팎으로 흔들리므로)
 
+**GPU**: 80GB A100이면 더 빠름 (시작 셀에 GPU 용량이 찍힘). 40GB가 배정되면 메모리 절약 설정을 자동으로 켜고 돌아감 (약 1.6배 느림)
+
 **실행 방법**
 - `MODE = 'search'`로 한 번 실행 (A~D, 약 4~5시간, 끊기면 다시 실행하면 끝난 설정은 건너뜀) → 결과 표 확인
 - `MODE = 'final'`로 바꿔 실행 (고른 설정으로 3에폭 + 전후 번역 + 채점, 약 3시간)
@@ -43,6 +45,7 @@ code("""# ① 맨 먼저 이 셀만 실행 → 끝나면 '런타임 → 세션 �
 md("## 1. 설정 (결정적 연산은 torch를 쓰기 전에 켜야 해서 이 셀이 맨 앞)"),
 code("""import os
 os.environ['CUBLAS_WORKSPACE_CONFIG'] = ':4096:8'   # 결정적 행렬곱 (CUDA를 쓰기 전에 설정)
+os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'expandable_segments:True'  # 메모리 조각화 줄이기
 import json, time, math, random, platform, statistics, inspect, glob, gc, subprocess
 from pathlib import Path
 import torch
@@ -85,6 +88,15 @@ CONFIGS = {   # 학습률·LoRA 크기·붙이는 층
 SEARCH_EPOCHS, FINAL_EPOCHS = 1, 3
 FINAL_CONFIG = None             # None이면 search 결과와 위 규칙으로 자동 선택
 
+# GPU 메모리에 맞춰 자동 조정: Colab A100은 40GB가 배정될 때도 있다 (lora_v1은 80GB 카드에서 최대 80.3GB 사용)
+GPU_GB = torch.cuda.get_device_properties(0).total_memory / 1e9
+EVAL_BS = 32
+if GPU_GB < 60:
+    GRAD_CKPT, EVAL_BS = True, 16
+    print(f'⚠ GPU {GPU_GB:.0f}GB: 모든 설정에서 gradient checkpointing을 켜고 평가 배치를 16으로 줄입니다 (학습이 약 1.6배 느려짐)')
+else:
+    print(f'GPU {GPU_GB:.0f}GB')
+
 random.seed(SEED); torch.manual_seed(SEED)
 from huggingface_hub import HfApi
 if REVISION is None:
@@ -99,6 +111,7 @@ env = {"python": platform.python_version(), "torch": torch.__version__, "cuda": 
        "sentencepiece": sentencepiece.__version__, "sacrebleu": sacrebleu.__version__,
        "gpu": torch.cuda.get_device_name(0), "model_id": MODEL_ID, "revision": REVISION, "prefix": PREFIX,
        "gen": GEN, "seed": SEED, "deterministic": DETERMINISTIC, "bs": BS, "accum": ACCUM, "grad_ckpt": GRAD_CKPT,
+       "gpu_gb": round(GPU_GB, 1), "eval_bs": EVAL_BS,
        "ratio_filter": RATIO_FILTER, "valid_gen_n": VALID_GEN_N, "configs": CONFIGS}
 print(json.dumps({k: v for k, v in env.items() if k != 'configs'}, ensure_ascii=False, indent=1))
 """),
@@ -177,7 +190,7 @@ def train_config(name, cfg, epochs, out_dir):
     opt.update({'eval_strategy': 'steps'} if 'eval_strategy' in _p else {'evaluation_strategy': 'steps'})
     total = math.ceil(len(train) / (BS * ACCUM)) * epochs
     args = Seq2SeqTrainingArguments(
-        output_dir=str(out_dir / 'ckpt'), per_device_train_batch_size=BS, per_device_eval_batch_size=32,
+        output_dir=str(out_dir / 'ckpt'), per_device_train_batch_size=BS, per_device_eval_batch_size=EVAL_BS,
         gradient_accumulation_steps=ACCUM, learning_rate=cfg['lr'], num_train_epochs=epochs,
         warmup_steps=int(0.03 * total), lr_scheduler_type='linear',
         logging_steps=50, eval_steps=EVAL_STEPS, save_steps=EVAL_STEPS, save_total_limit=2,
@@ -240,7 +253,7 @@ code("""if MODE == 'final':
         pm, _ = train_config(name, CONFIGS[name], FINAL_EPOCHS, RUN_DIR)
     pm.eval(); pm.config.use_cache = True
 
-    def translate(rows, use_adapter, bs=32):
+    def translate(rows, use_adapter, bs=EVAL_BS):
         order = sorted(range(len(rows)), key=lambda i: len(rows[i]['en']))
         outs = [None] * len(rows)
         for s in range(0, len(order), bs):
