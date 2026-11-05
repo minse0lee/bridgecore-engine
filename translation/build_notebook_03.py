@@ -79,8 +79,9 @@ CONFIGS = {   # 학습률·LoRA 크기·붙이는 층
     'A': dict(r=16, lora_alpha=32, target_modules=['q', 'v'], lr=2e-4),   # = lora_v1 설정
     'B': dict(r=16, lora_alpha=32, target_modules=['q', 'v'], lr=1e-4),
     'C': dict(r=16, lora_alpha=32, target_modules=['q', 'v'], lr=5e-4),
-    'D': dict(r=64, lora_alpha=128, target_modules='all-linear', lr=2e-4),
+    'D': dict(r=64, lora_alpha=128, target_modules='all-linear', lr=2e-4, grad_ckpt=True),
 }
+# lora_v1(A, 3에폭)에서 최대 메모리가 80.3GB(카드 85.1GB)라 여유가 작다. D는 LoRA가 커서 gradient checkpointing을 켬
 SEARCH_EPOCHS, FINAL_EPOCHS = 1, 3
 FINAL_CONFIG = None             # None이면 search 결과와 위 규칙으로 자동 선택
 
@@ -131,14 +132,15 @@ from peft import LoraConfig, get_peft_model, TaskType, PeftModel
 
 tok = T5Tokenizer.from_pretrained(MODEL_ID, revision=REVISION)
 
-def load_base():
+def load_base(grad_ckpt=None):
+    gc_on = GRAD_CKPT if grad_ckpt is None else grad_ckpt
     try:
         m = T5ForConditionalGeneration.from_pretrained(MODEL_ID, revision=REVISION, dtype=torch.bfloat16, device_map={'': 0})
     except TypeError:
         m = T5ForConditionalGeneration.from_pretrained(MODEL_ID, revision=REVISION, torch_dtype=torch.bfloat16, device_map={'': 0})
-    m.config.use_cache = not GRAD_CKPT
+    m.config.use_cache = not gc_on
     m.generation_config.use_cache = True
-    if GRAD_CKPT:
+    if gc_on:
         m.gradient_checkpointing_enable(); m.enable_input_require_grads()
     return m
 
@@ -165,8 +167,9 @@ def train_config(name, cfg, epochs, out_dir):
     out_dir.mkdir(parents=True, exist_ok=True)
     (out_dir / 'env.json').write_text(json.dumps({**env, "config_name": name, "config": cfg, "epochs": epochs}, ensure_ascii=False, indent=1))
     (out_dir / 'pip_freeze.txt').write_text(freeze)
-    base = load_base()
-    lcfg = {k: v for k, v in cfg.items() if k != 'lr'}
+    gc_on = cfg.get('grad_ckpt', GRAD_CKPT)
+    base = load_base(gc_on)
+    lcfg = {k: v for k, v in cfg.items() if k not in ('lr', 'grad_ckpt')}
     pm = get_peft_model(base, LoraConfig(task_type=TaskType.SEQ_2_SEQ_LM, lora_dropout=0.05, **lcfg))
     pm.print_trainable_parameters()
     _p = inspect.signature(Seq2SeqTrainingArguments.__init__).parameters
@@ -180,7 +183,7 @@ def train_config(name, cfg, epochs, out_dir):
         logging_steps=50, eval_steps=EVAL_STEPS, save_steps=EVAL_STEPS, save_total_limit=2,
         load_best_model_at_end=True, metric_for_best_model='chrf', greater_is_better=True,
         predict_with_generate=True, generation_num_beams=GEN['num_beams'], generation_max_length=GEN['max_new_tokens'],
-        bf16=True, gradient_checkpointing=GRAD_CKPT, report_to=[], seed=SEED, data_seed=SEED,
+        bf16=True, gradient_checkpointing=gc_on, report_to=[], seed=SEED, data_seed=SEED,
         dataloader_num_workers=2, **opt)
     trainer = Seq2SeqTrainer(model=pm, args=args, train_dataset=DS(train), eval_dataset=DS(valid_gen),
                              data_collator=DataCollatorForSeq2Seq(tok, model=pm, label_pad_token_id=-100, pad_to_multiple_of=8),
@@ -261,6 +264,20 @@ code("""if MODE == 'final':
             with open(OUT_DIR / f'{stem}__{tag}.jsonl', 'w', encoding='utf-8') as f:
                 for r, o in zip(rows, outs):
                     f.write(json.dumps({**r, 'mt': o, 'mt_system': f'madlad10b_{tag}', 'mt_meta': meta}, ensure_ascii=False) + '\\n')
+
+    # lora_v1과 v2 중 무엇을 최종으로 보고할지는 검증 300문장 chrF로 정한다 (평가셋으로 고르지 않음)
+    vref = [[r['ko'] for r in valid_gen]]
+    v2_valid = sacrebleu.corpus_chrf(translate(valid_gen, True), vref).score
+    v1_valid = None
+    if (RUNS / 'lora_v1' / 'adapter_best').exists():
+        pm.load_adapter(str(RUNS / 'lora_v1' / 'adapter_best'), adapter_name='v1')
+        pm.set_adapter('v1'); v1_valid = sacrebleu.corpus_chrf(translate(valid_gen, True), vref).score
+        pm.set_adapter('default')
+    sel = {"v2_valid_chrf": round(v2_valid, 2), "v1_valid_chrf": None if v1_valid is None else round(v1_valid, 2),
+           "report": RUN_NAME if (v1_valid is None or v2_valid > v1_valid + 0.5) else 'lora_v1',
+           "rule": "v2가 검증 chrF에서 v1보다 0.5점 넘게 높을 때만 v2를 최종으로 보고"}
+    (RUN_DIR / 'v1_vs_v2_valid.json').write_text(json.dumps(sel, ensure_ascii=False, indent=1))
+    print(json.dumps(sel, ensure_ascii=False, indent=1))
 
     t0 = time.time()
     test_b, test_l = translate(test, False), translate(test, True)

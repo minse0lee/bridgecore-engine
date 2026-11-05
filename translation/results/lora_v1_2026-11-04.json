@@ -1,0 +1,10 @@
+{
+ "run": "lora_v1", "notebook": "02_본학습_MADLAD10B_LoRA.ipynb",
+ "config": {"r": 16, "lora_alpha": 32, "lora_dropout": 0.05, "target_modules": ["q", "v"], "lr": 2e-4, "bs": 16, "epochs": 3, "grad_ckpt": false},
+ "env": {"torch": "2.11.0+cu130", "transformers": "5.22.0", "peft": "0.21.2", "gpu": "NVIDIA A100-SXM4-80GB", "revision": "기록 안 됨 (02는 커밋 고정 전)"},
+ "train": {"hours": 1.98, "cu_est": 14.9, "peak_mem_gb_1e9": 80.3, "gpu_total_gb_1e9": 85.1, "stopped_at": 14628, "early_stop": false,
+           "best": "checkpoint-14628 (마지막)", "eval_loss": [[1000, 0.66], [2000, 0.6447], [3000, 0.6353], [4000, 0.6298], [5000, 0.6293], [6000, 0.6213], [7000, 0.6201], [8000, 0.6155], [9000, 0.6125], [10000, 0.6145], [11000, 0.6118], [12000, 0.6104], [13000, 0.6085], [14000, 0.608], [14628, 0.6076]]},
+ "aihub_test500": {"base": {"chrF": 37.43, "chrF++": 36.27, "BLEU_13a": 15.15}, "lora": {"chrF": 46.01, "chrF++": 45.13, "BLEU_13a": 23.5},
+                   "chrF_diff": 8.58, "chrF_diff_95ci": [7.47, 9.73], "note": "BLEU는 13a(띄어쓰기) 기준. 평가셋은 학습과 같은 AI Hub 교육 분포"},
+ "translate_seconds": {"test500_both": 144, "pilot60_both": 30}, "pilot60_changed": 59
+}
