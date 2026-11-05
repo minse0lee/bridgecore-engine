@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgje9PEkcDUTv3zMuALf4",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P057\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"state funding mandates that colleges and universities create threat assessment teams\",\"tgt_span\":\"주 정부가 대학에 위협 평가 팀을 구성하라고 지시하기도 한다\",\"description\":\"'state funding'(주 재정 지원)이 '주 정부'로 바뀌어 지원금 조건의 의무가 정부의 직접 지시로 바뀌었고, 'colleges and universities'가 '대학'으로 줄어 단과대학(college)이 빠짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위자·대상): 의무를 부과하는 주체가 '주 재정 지원'에서 '주 정부'로, 대상이 'colleges and universities'에서 '대학'으로 달라졌습니다. 다만 주가 대학에 위협 평가 팀 구성을 요구한다는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계는 바뀌지 않았고 '어떤 경우에는'이 In some cases의 범위를 유지합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 설명 → 규정 설명. 설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(주체·적용 범위): 의무의 근거가 주 재정 지원 조건에서 정부 지시로, 적용 대상이 대학에 한정되어 규범 주체와 범위가 다소 달라졌습니다. 구성 의무라는 범주와 강도는 유지되고 독자의 행동 이해에 큰 변화가 없어 minor입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내문의 평서체 '~한다'가 문서 성격에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2: 미국 주 재정 지원과 연계된 제도(state funding)가 '주 정부'의 직접 지시로 옮겨져 지원금 조건부 의무라는 제도적 의미가 전달되지 않습니다. 주 단위라는 점은 유지되어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 732,
+    "output_tokens": 925,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

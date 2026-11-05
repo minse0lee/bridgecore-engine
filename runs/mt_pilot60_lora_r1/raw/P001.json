@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgje4TpCB333NF95upb7N",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P001\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"You assure me, Miss March, that the young man did not intend to hold me up to ridicule?\",\"tgt_span\":\"당신은 그 젊은이가 나를 조롱하려는 의도가 없었다고 확신할 수 있겠는가?\",\"description\":\"'네가 내게 장담/보증하는가'(화자가 상대의 확약을 확인)가 '당신은 확신할 수 있겠는가'(상대의 확신 능력을 묻는 질문)로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성·행위): 'assure me'(내게 보증함)가 '확신할 수 있겠는가'로 바뀌어 상대가 화자에게 단언한다는 행위가 상대 자신의 확신 여부로 달라졌으나, 젊은이가 조롱 의도가 없었다는 핵심 사실은 유지되어 요지는 대체로 같습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 관계, 연결, 초점 표현이 바뀌지 않았고 '마치 양' 호칭도 March를 가리키는 대상이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대의 확인을 구하는 질문 → 상대의 확신을 묻는 질문. 같은 종류의 확인 질문 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 확인 질문입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"번역문은 '마치 양'과 반말 투 '-는가'를 쓰는데, 화자(남성 인물)와 Miss March의 관계(연령·지위)와 기대되는 격식 정보가 없어 적절성을 판단하기 어렵습니다. 두 인물의 관계 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Miss를 '양'으로 옮긴 것은 통용되는 대응이며 호칭의 문화적 의미가 전달됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 14219
+    },
+    "cache_creation_input_tokens": 14219,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 542,
+    "output_tokens": 875,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

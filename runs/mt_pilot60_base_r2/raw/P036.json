@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgje8ERQWw2kkx7RfPQgc",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P036\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"he was not now living some wild, improbable dream\",\"tgt_span\":\"그는 이제 어떤 야만적이고 믿기 어려운 꿈 속에 살고 있지 않다는 것을 깨닫기 어려웠다\",\"description\":\"wild(걷잡을 수 없는, 터무니없는)를 '야만적인'으로 옮겨 꿈의 성격이 달라짐. 다만 부정 구조 'not living a dream'은 유지됨.\"},{\"id\":\"E002\",\"src_span\":\"fortnight\",\"tgt_span\":\"14일\",\"description\":\"fortnight(2주)를 '14일'로 옮김. 수량은 동일하며 통상적 대응이므로 의미 변화 없음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2: 'wild'가 '야만적인'으로 옮겨져 꿈의 성격이 '터무니없고 격렬한'에서 '야만적인'으로 달라졌으나, 핵심 사태(꿈을 꾸고 있지 않다는 것을 실감하기 어려움)는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"두 절의 병렬 연결과 대명사 'his/he'의 지시 대상이 유지되며 초점·범위 표현의 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(인물의 심리 묘사) → 서술(인물의 심리 묘사)로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문의 '-었다' 평서체가 유지되어 서술 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"fortnight이 '14일'로 같은 기간을 가리켜 기간 단위가 보존됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 819,
+    "output_tokens": 829,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

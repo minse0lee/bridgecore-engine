@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgje9Uv4pMiE7ECUvaUHf",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P053\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Such floods of scalding tears\",\"tgt_span\":\"끓어오르는 눈물이 흐르고 있습니다\",\"description\":\"'floods of'(눈물의 홍수 같은 많은 양)가 번역에서 사라져 수량이 빠졌고, 'scalding'이 '끓어오르는'으로 옮겨졌다.\"},{\"id\":\"E002\",\"src_span\":\"And yet mine eyes contain\",\"tgt_span\":\"그리고 아직도 나의 눈에는\",\"description\":\"'And yet'의 대조(울면 안 되는데도)가 단순 병렬 '그리고'로 바뀌고, 'yet'이 시간 부사 '아직도'로 옮겨졌다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(수량): 'floods of'의 엄청난 양이 번역에서 빠져 수량 표현이 사라졌다. 눈물이 마르지 않는다는 핵심 내용은 유지되어 minor이다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2(연결 관계): 'And yet'의 대조·양보 관계가 '그리고 아직도'로 바뀌어 대조가 병렬·시간 관계로 읽힌다. 요지는 유지되어 minor이다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기도하는 화자의 탄식·서술 → 기도하는 화자의 탄식·서술. 발화 기능이 유지된다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 스스로에게 거는 'must not cry'의 금지가 '울지 않아야 합니다'로 유지된다. 금지를 '않아도 된다'로 바꾼 것은 아니다. 'never dry'는 규범이 아닌 예측이다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"주님께 드리는 기도이므로 '~습니다' 높임체가 관계에 맞다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'O Lord'는 기도의 호칭으로, 별도로 판정할 문화 고유의 제도·단위·관습이 없다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 749,
+    "output_tokens": 894,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

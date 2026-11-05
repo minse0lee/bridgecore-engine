@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgje5AXAvmCBqyN2PF9b6",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P004\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the Council and the regents\",\"tgt_span\":\"위원회와 섭정들\",\"description\":\"Council(평의회)을 '위원회'로, regents(대학 이사회·이사들)를 '섭정들'로 옮겨 대학 지배기구의 제도적 의미가 전달되지 않음\"},{\"id\":\"E002\",\"src_span\":\"charges against Professor Max Gottlieb preferred by his dean and by myself\",\"tgt_span\":\"혐의를 그의 학장과 나 자신에 의해 선호하는 것을\",\"description\":\"preferred(제기하다)를 '선호하다'로 오역하여 학장과 총장이 혐의를 제기했다는 내용이 사라지고 의미가 달라짐\"},{\"id\":\"E003\",\"src_span\":\"Gentlemen\",\"tgt_span\":\"신사 여러분\",\"description\":\"청중 호칭 Gentlemen(여러분)을 '신사 여러분'으로 옮김. 의미는 대체로 유지되나 어색함\"},{\"id\":\"E004\",\"src_span\":\"is to consider charges\",\"tgt_span\":\"고려하기 위한 것이다\",\"description\":\"공식 회의 개최 고지가 '~것이다' 평서체로 옮겨져 공식 발언의 격식이 낮아짐. 내용은 유지\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'preferred'가 '선호하는'으로 바뀌어 학장과 총장이 혐의를 제기했다는 핵심 행위가 달라졌고, Council·regents도 위원회·섭정으로 달라져 회의 참여 주체가 달리 읽힙니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현의 대상은 바뀌지 않았고, 'his dean'과 'myself'의 소유·지시 관계도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"회의 목적 공식 고지 → 회의 목적 공식 고지. 발표 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"회의 목적을 알리는 서술이며 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"총장이 회의 참석자에게 공식 발표하는 상황에서 '신사 여러분'과 평서체 '~이다'는 어색하지만 관계를 훼손하는 정도는 아닙니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 대학의 평의회와 이사회(regents)를 '위원회'와 '섭정들'로 옮겨 대학 지배기구라는 제도적 의미가 한국어 독자에게 전달되지 않고 왕정의 섭정으로 오해될 수 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 600,
+    "output_tokens": 1125,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

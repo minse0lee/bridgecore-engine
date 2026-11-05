@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgje8ShqKFJbU5xxyfykz",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P043\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the runt Polack\",\"tgt_span\":\"작은 폴란드인\",\"description\":\"비하 호칭 'runt Polack'(왜소한 폴란드 놈)이 중립적인 '작은 폴란드인'으로 바뀌어 경멸 태도와 민족 비하 함의가 사라짐\"},{\"id\":\"E002\",\"src_span\":\"Have they caught … yet?\",\"tgt_span\":\"그들은 아직도 작은 폴란드인을 잡았습니까?\",\"description\":\"'yet'을 '아직도'로 옮겨 '벌써/이미 잡았는가'의 질문이 '아직까지 못 잡았는가'의 뉘앙스로 읽힐 수 있고, 존대 종결 '-습니까'가 사용됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"그들이 폴란드인(작은 사람)을 잡았는지 묻는 내용이 유지됩니다. 비하어의 정도 차이는 평가어 변화에 해당합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계는 유지됩니다. 'yet'은 '아직도'로 옮겨져 시간 부사가 남아 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"체포 여부를 묻는 질문 → 체포 여부를 묻는 질문. 질문 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 질문입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3: 'runt Polack'이 가진 화자의 경멸·비하 태도가 '작은 폴란드인'이라는 중립적 표현으로 사라졌습니다. 화자의 태도와 인물 성격 이해에 영향을 줍니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 'Polack'이라는 폴란드인 비칭의 민족 비하 함의가 중립적 '폴란드인'으로 바뀌어 한국어 독자가 그 문화적 의미를 알 수 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 447,
+    "output_tokens": 899,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

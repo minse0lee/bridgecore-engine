@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgjeAMfXLeXCSrrcWdDLh",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P030\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"(then giving Washington the benefit of her doubts of climate)\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"괄호 삽입절(당시 워싱턴의 기후에 대한 의구심을 눈감아 주던 중)이 번역에서 누락됨\"},{\"id\":\"E002\",\"src_span\":\"a perfectly correct visiting card\",\"tgt_span\":\"완벽하게 정확한 명함\",\"description\":\"visiting card의 격식·예법에 맞는 정확함(correct)이 '정확한'으로 옮겨져 사교 예법상 적절하다는 의미가 흐려짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 부인이 워싱턴 기후에 대해 의구심을 눈감아 주던 시기라는 부가 정보가 누락되었고, correct의 예법적 적절성이 '정확한'으로 달라졌으나 핵심 사건(명함을 받고 놀람)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'이러한 준비에도 불구하고'의 양보 관계와 명함·새겨진 문구의 지시 관계가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 인물이 놀란 사건을 전하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체가 유지되고 'Mrs.'를 '부인', 'Mr.'를 '씨'로 옮겨 호칭 관계가 맞습니다.\"},\"Cultural\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"visiting card의 사교적 관습과 'M.C.'(Master of Ceremonies 등)의 제도적 의미를 한국어 독자가 이해하는지는 원문에서 M.C.가 가리키는 뜻을 확인해야 판단할 수 있어 소설 전체 문맥이 필요합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 667,
+    "output_tokens": 883,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

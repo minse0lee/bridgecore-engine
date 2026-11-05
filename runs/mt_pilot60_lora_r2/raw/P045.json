@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgje8GpWujwCiTUKBNYGY",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P045\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the kerf of the blade\",\"tgt_span\":\"날개의 절단면\",\"description\":\"kerf(톱날이 자르며 제거하는 홈의 폭, 톱날 두께)가 '절단면'으로 오역되고 blade가 '날개'로 옮겨져, 전문용어 kerf와 톱날이 가리키는 대상이 달라짐\"},{\"id\":\"E002\",\"src_span\":\"the waste side of a marked line\",\"tgt_span\":\"표시된 선의 폐기물 쪽\",\"description\":\"waste side(버려질 재료 쪽)가 '폐기물 쪽'으로 옮겨져 재료 쪽이라는 의미가 사라지고 이미 생긴 폐기물처럼 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(대상): kerf가 '절단면', blade가 '날개'로 바뀌고 waste side가 '폐기물 쪽'이 되어, 무엇이 선의 어느 쪽에 놓여야 하는지 독자가 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'위해'로 목적 관계가 유지되고 대명사나 초점 표현의 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"작업 방법 안내 → 작업 방법 안내. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"always와 should가 '항상 ~해야 한다'로 유지되어 지켜야 할 작업 원칙의 강도와 주체가 보존됩니다. 용어 오역은 Semantic에서만 판정합니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재 본문의 평서체 '-해야 한다'가 학습자료 문체에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없고, 용어 오역은 Semantic에서만 판정합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 701,
+    "output_tokens": 839,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

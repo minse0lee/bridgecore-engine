@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgje98FcD7T6DuWKurWZg",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P056\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"receives a stipend of $1,500\",\"tgt_span\":\"$1,500의 장학금을 받는다\",\"description\":\"stipend(생활비 성격의 수당·지급금)가 scholarship과 같은 '장학금'으로 옮겨져 장학금 수여와 그에 따른 지급금의 구분이 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: stipend(수당)가 '장학금'으로 옮겨져 지급 항목이 달라졌습니다. 다만 대상, 금액 $1,500, 학년 기간은 유지되어 요지는 크게 바뀌지 않으므로 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'장학금이 수여되는 학년'이 for which 관계절의 지시 관계를 유지하고 연결·초점 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 설명 → 규정 설명. 지급 내용을 안내하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"각 장학생이 지급금을 받는다는 권리·지급 규정이 수혜자, 금액, 기간 조건과 함께 유지됩니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 설명에 맞는 평서체 '~받는다'가 쓰였고 관계에 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"달러 금액과 학년 개념이 다른 통화나 제도로 바뀌지 않고 유지됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 574,
+    "output_tokens": 705,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

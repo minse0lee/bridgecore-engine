@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgje6pQFTFxuxuPueXGH3",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P027\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"will be accepted\",\"tgt_span\":\"허용되지 않을 것이다\",\"description\":\"'접수되지 않는다(accepted)'는 규정이 '허용되지 않을 것이다'로 옮겨져 접수 거부가 단순 예측·허용 여부 표현으로 읽힘. 의미는 대체로 통하나 규정 어조가 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"2012-13학년도 FAFSA를 2012년 1월 1일 이전에 종이·전자 모두 받지 않는다는 내용이 유지됩니다. '허용'은 accepted의 어색한 대응이지만 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"No paper or electronic의 범위와 기한 'prior to'가 '이전에'로 유지되며 지시·연결·초점 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 안내 → 규정 안내. 접수 시점 제한을 알리는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기한 전에는 신청서가 접수되지 않는다는 제한이 '허용되지 않을 것이다'로 유지되며 주체·조건·범위 변화가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내문의 평서체 '~ㄹ 것이다'는 안내문 격식에서 크게 벗어나지 않으며 관계상 훼손이 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"FAFSA를 그대로 두고 학년도와 날짜를 한국식으로 정확히 표기해 제도와 날짜가 유지됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 601,
+    "output_tokens": 749,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

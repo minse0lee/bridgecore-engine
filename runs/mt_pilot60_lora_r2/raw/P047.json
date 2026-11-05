@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgje8ViuKp5nhdAkegkmK",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P047\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Sport?\",\"tgt_span\":\"스포트, 당신은\",\"description\":\"친근한 별칭 호칭 Sport가 음역 이름 '스포트'로 바뀌고, 상대를 '당신'이라고 격식 있게 부르는 말투가 쓰임\"},{\"id\":\"E002\",\"src_span\":\"You coming with me\",\"tgt_span\":\"함께 가겠는가?\",\"description\":\"친근한 구어체 권유 질문이 '-겠는가'라는 문어적·격식체 종결로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'너는 나와 함께 가느냐'라는 행위자·행위·동반 대상이 유지됩니다. Sport를 이름처럼 옮긴 것은 같은 인물을 가리키므로 의미 변화가 아닙니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'you'와 'me'가 '당신'과 '나'로 유지되어 지시 관계가 같고, 연결·초점 표현의 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"동행 여부를 묻는 질문 → 동행 여부를 묻는 질문. 같은 종류의 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"동행 여부를 묻는 대화 속 개인적 질문이며 의무·허가·금지를 정하는 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1·3: Rudy가 친구 Sport에게 던지는 친근한 구어체가 '당신'과 '-겠는가?'라는 거리감 있는 문어체로 바뀌어 두 사람의 친밀한 관계에 맞지 않습니다. 의미와 행동 이해에는 영향이 없어 minor입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별칭 호칭 외에 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 463,
+    "output_tokens": 845,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgje5JVtJxhHVCuXvKTtp",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P006\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"No One Would Have Suspected Him of Ever Having Washed a Buggy\",\"tgt_span\":\"아무도 그가 버그리를 세척했다고 의심하지 않았을 것입니다.\",\"description\":\"'suspected him of ever having washed'(그가 마차를 씻어 본 적이 있다고 의심하다)가 '그가 세척했다고 의심하지 않았을 것'으로 바뀌어 'ever'(경험)가 사라지고 'suspect of'의 의미가 약화됨. 단, 핵심 사태(마차를 씻은 일이 있다고 아무도 의심하지 않았을 것)는 대체로 유지됨.\"},{\"id\":\"E002\",\"src_span\":\"a Buggy\",\"tgt_span\":\"버그리\",\"description\":\"buggy(소형 마차)를 '버그리'로 잘못 음역하여 지시 대상을 알 수 없게 됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1(대상): buggy(마차)를 '버그리'로 잘못 음역해 한국어 독자가 무엇을 씻었다는 것인지 알 수 없게 되어 요지 이해가 달라집니다. 'ever'가 빠진 점은 경험의 의미를 약화시키는 정도입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사 '그'의 지시 대상과 연결 관계가 유지되며, 초점 표현(ever)의 누락은 내용 누락으로 Semantic에서만 다룹니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"삽화 캡션(서술 설명) → 삽화 캡션(서술 설명). 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 캡션에 '~습니다' 체를 써서 출판물 서술 맥락에서 크게 어긋나지 않으며 관계 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"잘못된 음역으로 지시 대상을 알 수 없게 된 것은 Semantic에만 기록하므로 Cultural에서 따로 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 820,
+    "output_tokens": 945,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

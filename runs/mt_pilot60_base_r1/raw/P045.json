@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgje8aCXw6y9w7jXFK56h",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P045\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the waste side of a marked line\",\"tgt_span\":\"표시된 선의 폐기물 측면\",\"description\":\"waste side(잘려 나가 버려질 재료 쪽)를 '폐기물 측면'으로 옮겨, 절단선 기준 어느 쪽인지가 아니라 폐기물이라는 물질의 측면으로 읽히게 함. 다만 '폐기물'이라는 단어와 '측면'이 남아 있어 해석은 가능함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: '버려질 재료 쪽'이 '폐기물 측면'으로 옮겨져 대상 표현이 부정확해졌습니다. 다만 정확한 치수를 위해 커프가 표시선의 버려질 쪽으로 가야 한다는 요지는 대체로 읽혀 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'정확한 최종 치수를 위해'가 목적 관계를 유지하고, '항상'의 범위와 '블레이드의 커프'의 소유 관계도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"작업 방법 지침 → 작업 방법 지침. 톱날 사용 원칙을 안내하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"정확한 치수를 위해 항상 지켜야 할 작업 원칙인 should always가 '항상 … 이동해야합니다'로 통상적으로 대응되어 의무 강도가 유지됩니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재 본문의 설명체인 '~합니다'가 유지됩니다. 띄어쓰기는 평가하지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 701,
+    "output_tokens": 812,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

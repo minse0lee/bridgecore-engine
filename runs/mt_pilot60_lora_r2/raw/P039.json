@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgje7jrRzP5RyeW4uKMtL",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P039\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"contributing to the effusion that must be stopped\",\"tgt_span\":\"중단되어야 할 유출에 기여하는 지속적인 출혈\",\"description\":\"'must be stopped'의 대상이 출혈(bleeding)인데 번역문에서는 삼출/유출(effusion)이 중단되어야 하는 것으로 읽혀 수식 대상이 바뀜. 또한 effusion을 '유출'로 옮겨 삼출액/저류 의미가 약해짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상·행위): 중단되어야 하는 것이 출혈에서 유출(effusion)로 바뀌어 무엇을 멈춰야 하는지가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(지시·수식 관계): 관계절 'that must be stopped'가 bleeding이 아니라 effusion을 가리키도록 바뀌었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"의학 상황 설명 → 의학 상황 설명. 설명 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(규범 대상): 반드시 중단해야 하는 대상이 출혈에서 유출로 바뀌어 규범의 적용 대상이 달라졌습니다. 'must'가 '-되어야 할'로 유지된 것은 문제가 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재의 평서 설명체('-있을 수 있다')가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1098,
+    "output_tokens": 753,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

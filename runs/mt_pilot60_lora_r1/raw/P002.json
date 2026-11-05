@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgje5Am3VyEryTf3FQxSX",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P002\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"he took his father’s hand\",\"tgt_span\":\"그는 아버지의 손을 잡고 … 라고 말했다\",\"description\":\"삽입된 서술('아버지의 손을 잡았다')이 '말했다'라는 발화 동사와 결합되어 구조가 바뀜. 의미는 유지되나 원문에 없는 '말했다'가 첨가됨(의미 변화는 미미).\"},{\"id\":\"E002\",\"src_span\":\"“kindly buy for me\",\"tgt_span\":\"“…나를 위해 사주시기 바란다.”\",\"description\":\"아들이 아버지에게 하는 정중한 부탁('kindly buy')이 '사주시기 바란다'라는 하대체로 바뀜. 아버지에 대한 높임 관계와 어울리지 않음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"아버지에게 같은 가격의 다른 아름다운 등 하나를 사 달라는 내용, 인물·수량·대상이 유지됩니다. '말했다'는 문맥상 추가일 뿐 사태를 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"And로 앞 발화에 이어지는 연결, 'one of the other…lanterns'의 범위, 소유 관계(랜턴맨이 소유한)가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"아버지에 대한 부탁·요청 → 부탁·요청. 요청 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"개인적인 부탁이므로 규범적 의무·허가·금지를 정하는 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: 아들이 아버지에게 정중히 부탁하는 관계인데 '사주시기 바란다'라는 하대 종결로 옮겨 관계에 맞는 높임과 공손함이 약해졌습니다. 다만 '존경하는 아버지', '사주시기'로 존중이 일부 남아 minor입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"제도·관습·단위 등 별도로 판정할 문화 고유 대상이 없습니다. 'honorable' 호칭은 Register에서 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 665,
+    "output_tokens": 942,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

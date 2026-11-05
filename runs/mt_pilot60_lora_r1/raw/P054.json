@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgje95YdXbZn4pwRLEbAX",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P054\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"9 hours of regular coursework\",\"tgt_span\":\"정규 과제를 9시간 수행했고\",\"description\":\"수강 학점 시간(credit hours)으로 센 정규 교과 이수가 '과제를 9시간 수행'으로 바뀌어, 정규 교과목 수강이 숙제·과업 수행으로 읽힘\"},{\"id\":\"E002\",\"src_span\":\"the remedial work\",\"tgt_span\":\"보충 과제\",\"description\":\"보충(교정) 교과 이수(remedial coursework)가 '보충 과제'로 바뀌어 교과과정이 아닌 과업으로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(행위·대상): coursework가 '과제'로 옮겨져 수강 교과가 아닌 숙제로 읽힙니다. 다만 9, 매 학기, 보충 제외라는 핵심 구조가 유지되어 요지는 크게 다르지 않고, 문맥상 수강 시간이라 추정할 수 있어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'마찬가지로'가 Similarly를, '-고'가 while의 대비·병렬 관계를 유지하며 지시 대상과 초점에도 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 예시 설명 → 규정 예시 설명. 예시를 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"계산 예시를 서술하는 문장으로 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"설명문 '-했다/-되었다' 문체가 안내 자료의 객관적 서술 태도에 맞습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"semester 등 미국 학제를 한국 제도로 대체하지 않고 '학기'로 옮겨 같은 대상을 가리킵니다. coursework의 오역은 Semantic에서 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1757,
+    "output_tokens": 859,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

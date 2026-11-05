@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgje8XUa5EuB2uXpZtpdV",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P041\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"look beyond the more accepted channels of finance\",\"tgt_span\":\"더 널리 받아들여지는 금융의 경로를 넘어서 볼 수 있을지도 모른다\",\"description\":\"'more accepted channels(이미 받아들여진 통상적 경로)'가 '더 널리 받아들여지는'으로 옮겨져 비교 의미가 달라지고, 'look beyond'가 '넘어서 볼'로 직역되어 '통상적 방식을 넘어 눈을 돌리다'라는 뜻이 흐려짐\"},{\"id\":\"E002\",\"src_span\":\"for the sake of the larger returns that can be realized by breaking new ground\",\"tgt_span\":\"새로운 땅을 개척함으로써 실현될 수 있는 더 큰 수익의 이유로\",\"description\":\"'더 큰 수익을 위해'라는 목적이 '수익의 이유로'라는 이유 표현으로 바뀜\"},{\"id\":\"E003\",\"src_span\":\"as it were--participating in pioneering enterprises\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"'말하자면'과 '선구적 사업에 참여하는 것'이라는 구체적 내용이 누락됨\"},{\"id\":\"E004\",\"src_span\":\"you might be willing\",\"tgt_span\":\"볼 수 있을지도 모른다\",\"description\":\"'기꺼이 ~할 의향이 있을지도'가 '볼 수 있을지도 모른다'로 바뀌어 의향 표현이 사라지고 가능성만 남음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\",\"E004\"],\"reason\":\"판단 질문 1: 투자 참여(pioneering enterprises)라는 핵심 내용이 누락되고, 기꺼이 하려는 의향이 가능성으로 바뀌며, 목적(더 큰 수익을 위해)이 이유로 바뀌고 통상 경로의 의미도 달라져 요지가 다르게 읽힙니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: 'for the sake of'의 목적 관계가 '수익의 이유로'라는 이유 관계로 바뀌어 연결 관계가 달라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"완곡하게 투자를 권유·설득하는 발화 → 완곡하게 가능성을 떠보는 발화. 같은 종류의 권유 기능으로 읽힙니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의향·가능성을 말하는 문장이며 의무·허가·금지 같은 규범 표현이 없습니다(can은 가능의 뜻).\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"번역문이 '물론이지'와 '~모른다' 평서체로 되어 있어 화자와 청자의 관계를 알아야 합니다. 판매원과 고객의 관계, 정중함의 정도 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명(Mr. Thompson)만 있고 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 758,
+    "output_tokens": 1228,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

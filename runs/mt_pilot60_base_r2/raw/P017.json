@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgje6aSN2u6BeLCD5B7Qo",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P017\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"But as much as I desired to leave these parts, I did not crave any flying experiences.\",\"tgt_span\":\"그러나 이곳을 떠나고 싶었던 만큼, 나는 비행 경험을 갈망하지 않았다.\",\"description\":\"\\\"as much as\\\"의 양보적 대조(떠나고 싶었지만 그래도 비행은 원하지 않음)가 비례·정도 비교('~했던 만큼')로 읽혀 대조 관계가 흐려지고 \\\"any\\\"의 강조도 약해졌으나 핵심 사실은 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"떠나고 싶었다는 것과 비행 경험을 원하지 않았다는 내용, 인물, 부정이 모두 유지됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(연결 관계): 'as much as … but'의 양보·대조 관계가 '~했던 만큼'이라는 정도 비례 관계로 바뀌어 읽히며, 떠나고 싶은 만큼 비행은 원치 않았다는 뜻으로 오독될 수 있으나 요지는 전달되어 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 심정 진술 → 서술자의 심정 진술로 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술의 평서체 '-았다'가 서술 상황에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 542,
+    "output_tokens": 774,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

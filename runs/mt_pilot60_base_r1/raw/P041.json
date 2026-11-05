@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgje8KgQjZForqSof7QSJ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P041\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"look beyond the more accepted channels of finance\",\"tgt_span\":\"더 널리 받아들여지는 금융의 경로를 넘어서 볼 수 있을지도 모른다\",\"description\":\"'more accepted channels'(비교급: 통상적으로 인정되는 경로)가 '더 널리 받아들여지는' 경로로 바뀌고, 'be willing to look beyond'(기꺼이 ~할 의향)가 '넘어서 볼 수 있을지도 모른다'(가능성 추측)로 바뀌어 의향이 사라짐\"},{\"id\":\"E002\",\"src_span\":\"participating in pioneering enterprises\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"개척적 사업에 참여한다는 핵심 행위(투자 권유의 구체 내용)가 번역에서 누락됨\"},{\"id\":\"E003\",\"src_span\":\"you might be willing, like Mr. Thompson, to\",\"tgt_span\":\"당신은 톰슨 씨처럼, … 볼 수 있을지도 모른다\",\"description\":\"'기꺼이 ~할 마음이 있을지도 모른다'는 willingness(의향)가 '볼 수 있을지도 모른다'(가능성)로 바뀜\"},{\"id\":\"E004\",\"src_span\":\"for the sake of the larger returns that can be realized by breaking new ground\",\"tgt_span\":\"새로운 땅을 개척함으로써 실현될 수 있는 더 큰 수익의 이유로\",\"description\":\"'~를 위해'(목적)가 '~의 이유로'로 바뀌어 목적 관계가 이유 관계처럼 읽힘\"},{\"id\":\"E005\",\"src_span\":\"to--er--look beyond\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"머뭇거리는 말투 'er'과 'as it were'의 완곡·주저 표지가 번역에서 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 'participating in pioneering enterprises'가 누락되어 권유 내용이 빠지고, 의향(willing)이 가능성으로 바뀌며, 'more accepted'의 의미도 달라져 요지가 다르게 읽힙니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E004\"],\"reason\":\"판단 질문 2: 'for the sake of'(목적)가 '이유로'로 바뀌어 수익과 행위 사이의 연결 관계가 목적에서 이유로 달라졌습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E003\"],\"reason\":\"원문 기능: 투자 권유·완곡한 설득(상대의 의향을 떠보며 제안) → 번역 기능: 가능성에 대한 추측 서술로 바뀌어 권유 기능이 약해지고 기능 종류가 달라졌습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"can은 가능성 의미이고 might be willing도 의무·허가·금지를 정하지 않아 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E005\"],\"reason\":\"판단 질문 3: 세일즈 상황에서 조심스럽게 말을 더듬으며 설득하는 화자의 태도('er', 'as it were')가 사라졌고, 번역문이 '-다' 평서체로 끝나 청자를 설득하는 영업 화자의 공손한 태도와 맞지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명(Mr. Thompson)뿐이고 별도로 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 758,
+    "output_tokens": 1401,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

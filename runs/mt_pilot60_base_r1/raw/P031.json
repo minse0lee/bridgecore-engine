@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgje7W1EyzC5fU4TFLG8f",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P031\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"are not always prepared\",\"tgt_span\":\"준비가 되어 있지 않습니다\",\"description\":\"부분 부정(항상 준비된 것은 아님)이 전면 부정(준비되어 있지 않음)으로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"comprehend—let alone support—the difficulties\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"'let alone support'(지원은 말할 것도 없고)가 누락되어 이해뿐 아니라 지원하는 것은 더 어렵다는 내용과 초점 표현이 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'not always'가 전면 부정으로 바뀌고 '지원(support)'이 누락되어 준비 부족의 범위와 내용이 달라졌으며, 독자가 요지를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 3: 'let alone'이 붙는 초점·범위 표현이 사라져 이해보다 지원이 더 어렵다는 점층 관계가 없어졌습니다. 'However'→'그러나' 대조는 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상황 설명 → 상황 설명. 학교의 준비 부족을 서술하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범을 정하는 표현이 없고 준비 상태를 서술하는 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'~습니다' 안내체로 공식적인 설명 어조가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 별도로 판정할 대상이 없습니다(인용 표기만 있음).\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 735,
+    "output_tokens": 814,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

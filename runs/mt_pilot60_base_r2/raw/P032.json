@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgje7ocAAQWx6C26TjoK3",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P032\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"postsecondary vocational institution\",\"tgt_span\":\"중등 직업 교육 기관\",\"description\":\"postsecondary(중등 이후 교육)가 '중등'(secondary)으로 오역되어 교육 단계가 반대로 바뀜. 미국 제도상의 기관 분류명이 달라짐\"},{\"id\":\"E002\",\"src_span\":\"programs that are less than an academic year in length\",\"tgt_span\":\"학년 길이보다 짧은 프로그램\",\"description\":\"'an academic year'(1 학년도)가 '학년 길이'로 옮겨져 기간 기준이 모호해짐(뜻은 대체로 유지)\"},{\"id\":\"E003\",\"src_span\":\"lead to a certificate or other nondegree recognized credential\",\"tgt_span\":\"인증서 또는 기타 학위가 인정되지 않는 자격증을 제공함\",\"description\":\"'학위 아닌 인정된 자격'이 '학위가 인정되지 않는 자격증'으로 바뀌어 nondegree가 수식하는 대상과 recognized의 의미가 달라짐. 또한 '이어진다(lead to)'가 '제공한다'로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E003\"],\"reason\":\"판단 질문 1: postsecondary가 '중등'으로 바뀌어 기관 유형이 달라졌고, 학위 외의 인정된 자격이 '학위가 인정되지 않는 자격증'으로 바뀌어 독자가 요지를 다르게 이해할 수 있습니다. '학년 길이' 표현은 어색하지만 뜻은 대체로 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Although의 양보 관계는 '다르지만'으로 유지되고 also의 초점은 '자격을 갖출 수도'로 남아 있으며, 지시·연결·초점 관계는 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"제도 설명 → 제도 설명. 기관이 다른 유형의 자격도 가질 수 있음을 설명하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"it is possible that ... can qualify는 가능성을 설명하는 표현이며 의무·허가·금지를 정하지 않아 규범 의미가 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내문에 맞는 '~습니다' 체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2: 미국 제도 분류인 'postsecondary vocational institution'(중등 이후 직업 교육 기관)이 '중등 직업 교육 기관'으로 옮겨져 다른 제도 단계를 가리키며, 독자가 해당 기관 유형의 제도적 의미를 잘못 이해합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 875,
+    "output_tokens": 1145,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

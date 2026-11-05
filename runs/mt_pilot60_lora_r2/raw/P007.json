@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgje5L4tT8kwDGmH4uwPi",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P007\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"torrents of tears often poured from his eyes in fits of weeping\",\"tgt_span\":\"눈물이 종종 눈물로 쏟아져\",\"description\":\"'눈에서 눈물이 쏟아짐'이 '눈물이 눈물로 쏟아짐'으로 바뀌어 동어반복이 되었고, 눈(eyes)과 울음 발작(fits of weeping)이 사라졌으며 torrents(급류 같은 눈물)의 뜻도 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: '눈에서 울음 발작 중에 눈물이 쏟아짐'이 '눈물이 눈물로 쏟아져'로 바뀌어 눈·울음 발작 정보가 빠졌습니다. 다만 눈물이 쏟아져 강이 범람한다는 요지는 읽혀 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계는 유지됩니다. 'thus flooding'의 결과 관계도 '강을 범람시키는'으로 남아 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 관찰과 발견을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범적 의미가 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 평서체 '-했다'가 소설 본문에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"feet를 '피트'로 그대로 옮겨 단위 체계를 바꾸지 않았고 수치 3~4도 유지되었습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 912,
+    "output_tokens": 753,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

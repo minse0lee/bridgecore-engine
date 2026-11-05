@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgje5ZrrgfxzAEBB4UmGe",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P007\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"above its normal level\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"'평소 수위보다 (3~4피트 높게)'라는 기준이 빠져 '3~4피트 상승'으로만 옮김. 상승 폭의 기준은 문맥상 유추 가능\"},{\"id\":\"E002\",\"src_span\":\"there were times when the hump in his back became greater than ever before, and that torrents of tears often poured … in fits of weeping\",\"tgt_span\":\"그 황소의 등에 있는 혹이 그 어느 때보다도 더 커지고, 눈물의 홍수가 자주 그 황소의 눈에서 흘러나와\",\"description\":\"'때때로(there were times when)' 혹이 커진다는 빈도 한정이 사라져 상시 현상처럼 읽힘\"},{\"id\":\"E003\",\"src_span\":\"in fits of weeping\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"울음 발작 중이라는 상태 표현이 누락됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\",\"E003\"],\"reason\":\"판단 질문 1: '때때로 혹이 커졌다'는 빈도 한정과 '울음 발작 중'이라는 상태가 빠졌으나, 강물 변동의 원인이 황소의 눈물이라는 핵심 사실은 유지됩니다. 수위 기준(E001)은 문맥상 유추 가능해 판정에서 제외합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"시간 연결('보았을 때')과 눈물이 강을 범람시킨다는 인과 관계가 유지되며 지시 관계와 초점 표현 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사 묘사 → 서사 묘사. 관찰과 발견을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 평서 문체('-했다')가 유지되며 화자·청자 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"피트 단위를 그대로 유지하여 다른 단위로 바꾸지 않았고, 3~4 수치도 정확합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 912,
+    "output_tokens": 954,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

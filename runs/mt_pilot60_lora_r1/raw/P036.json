@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgje7b3rBamFwu53pYNkK",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P036\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the past fortnight\",\"tgt_span\":\"지난 14일 동안\",\"description\":\"fortnight(2주)를 '14일'로 옮겼다. 기간 길이는 같고 통상적 환산이어서 의미 변화는 없다.\"},{\"id\":\"E002\",\"src_span\":\"wild, improbable dream\",\"tgt_span\":\"어떤 야생적이고 있을 법하지 않은 꿈\",\"description\":\"wild(터무니없는, 황당한)를 '야생적'으로 옮겨 어색하고 의미가 일부 달라졌다. improbable은 유지되어 꿈의 비현실성은 전달된다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: wild(터무니없는)가 '야생적'으로 바뀌어 꿈의 성격 묘사가 일부 달라졌다. 다만 '있을 법하지 않은'이 남아 요지는 유지되므로 minor이다. fortnight→14일은 같은 기간이라 오류가 아니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-고'로 병렬 연결이 유지되고 지시·초점 표현의 변화가 없다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 인물의 심리 상태를 묘사하는 기능이 유지된다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술문이다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 '~었다'가 유지되며 관계·격식상 문제가 없다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"fortnight를 14일로 옮긴 것은 같은 기간의 통상적 표현이며, 별도로 판정할 문화 고유의 제도·단위가 없다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 820,
+    "output_tokens": 772,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

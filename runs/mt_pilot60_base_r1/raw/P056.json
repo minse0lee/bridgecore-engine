@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgje9W6ko8yYzPGzZTHc6",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P056\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Each student awarded a scholarship\",\"tgt_span\":\"장학금을 수여하는 각 학생\",\"description\":\"장학금을 받는 학생(수동: awarded a scholarship)이 장학금을 수여하는 주체로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"a stipend of $1,500\",\"tgt_span\":\"$1,500의 장학금\",\"description\":\"stipend(생활비 보조금)가 scholarship과 같은 '장학금'으로 옮겨져 두 개념이 구분되지 않음\"},{\"id\":\"E003\",\"src_span\":\"the academic year of study\",\"tgt_span\":\"장학금이 수여되는 연도\",\"description\":\"학업 학년도(academic year of study)가 일반 '연도'로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 장학금을 받은 학생이 '수여하는' 주체로 바뀌어 행위자 관계가 달라졌고, stipend가 '장학금'으로, 학업 학년도가 '연도'로 바뀌어 지급 내용도 달라졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'장학금이 수여되는 연도'가 지급 기간을 가리키는 관계가 남아 있고 지시·연결·초점 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지급 내용 설명 → 지급 내용 설명. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 지급을 받을 자격이 있는 대상이 장학금을 수여하는 학생으로 바뀌어, 수혜 주체와 적용 대상이 달라졌습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내체 '~습니다'가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\",\"E003\"],\"reason\":\"판단 질문 2: stipend와 scholarship의 제도적 구분이 사라지고 학업 학년도 개념이 일반 '연도'로 옮겨져 제도적 의미가 약해졌으나, 금액이 남아 있어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 578,
+    "output_tokens": 909,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

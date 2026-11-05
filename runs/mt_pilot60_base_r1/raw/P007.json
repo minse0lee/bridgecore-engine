@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgjeAfcHBMnq8AyNC2CkX",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P007\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"would suddenly rise three or four feet above its normal level\",\"tgt_span\":\"갑자기 3~4피트 상승하고\",\"description\":\"'평소 수위보다(above its normal level)' 기준이 빠져 수위가 3~4피트 오른 것이 아니라 강이 3~4피트로 상승한 것처럼 읽힘\"},{\"id\":\"E002\",\"src_span\":\"there were times when the hump in his back became greater than ever before\",\"tgt_span\":\"그 황소의 등에 있는 혹이 그 어느 때보다도 더 커지고\",\"description\":\"'때때로(there were times when)'라는 간헐성이 빠져 혹이 계속 커진 것처럼 읽힘\"},{\"id\":\"E003\",\"src_span\":\"torrents of tears often poured from his eyes in fits of weeping\",\"tgt_span\":\"눈물의 홍수가 자주 그 황소의 눈에서 흘러나와\",\"description\":\"'in fits of weeping(발작적 울음 중에)'이 빠짐. 눈물이 나는 상황 정보가 누락됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 수위 기준(평소보다), 혹이 커진 때의 간헐성, 울음 발작이 빠졌으나 핵심 사건(강 수위 변동, 황소 관찰, 눈물이 강을 범람시킴)은 유지되어 요지는 같아 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"when 시간 연결, 인과(thus flooding → 범람시키는), 지시 대상(his → 그 황소)이 유지되어 판단 질문 1·2·3 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사 진행 설명 → 서사 진행 설명으로 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사 문장으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 평서 문어체 '-했다'가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"피트 단위가 그대로 유지되고 3~4로 수치도 같으며 다른 단위로 바꾸지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 912,
+    "output_tokens": 933,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

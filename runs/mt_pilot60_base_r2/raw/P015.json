@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgje6Soj46xV7B5BEQnsR",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P015\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Let your child take a short break\",\"tgt_span\":\"짧은 휴식을하자\",\"description\":\"부모에게 자녀가 쉬게 하라는 지시가 '~하자'라는 청유형으로 바뀌어, 휴식을 취하는 주체가 자녀(부모가 허용)에서 불명확/화자 포함으로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"your child … she\",\"tgt_span\":\"그녀는 … 그녀의 마음을\",\"description\":\"'your child'가 번역문에서 사라지고 'she'만 '그녀'로 옮겨져 대상이 자녀임이 드러나지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(인물·행위): 자녀가 쉬도록 부모가 허용하는 내용이 '(우리가) 쉬자'로 바뀌었고 your child가 빠져 누가 쉬는지 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1(지시): 'she'가 가리키는 your child가 번역문에 없어 '그녀'가 누구인지 알 수 없게 되었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"부모에게 행동을 이끄는 권고 → 청유형 권유. 행동을 이끄는 같은 종류의 기능으로 읽힙니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(주체): 자녀가 쉬도록 허용하라는 부모에 대한 권고가 부모와 자녀 사이의 규범 주체가 불분명한 청유로 바뀌어 규범을 받는 주체가 달라졌습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-하자' 청유형은 안내문 어조로 어색하지만 부모에게 하는 말이라는 관계 정보가 부족해 높임 훼손의 근거가 되지 않습니다. 어색함만으로 훼손이 아닙니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 548,
+    "output_tokens": 896,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

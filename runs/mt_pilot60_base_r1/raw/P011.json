@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgje5t3FpvbvkNhndjxYy",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P011\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"it will bring you into no danger\",\"tgt_span\":\"그것은 위험에 당신을 가져올 것입니다\",\"description\":\"부정어 'no'가 번역에서 누락되어 '위험에 빠뜨리지 않을 것'이 '위험에 처하게 할 것'으로 바뀜. 안전 보장이 위험 예고로 반전됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(부정): 'no danger'의 부정이 사라져 위험이 없다는 내용이 위험을 가져온다는 내용으로 반전되어 요지가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(연결 관계): 목적은 밝힐 수 없지만 안전하다는 양보·대조 관계가 '하지만'으로 남아 있어도 뒤 절이 위험을 말해 앞 절과의 대조가 성립하지 않고 상대를 안심시키는 연결이 뒤집혔습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"안전 보장·안심시키는 말 → 위험을 예고하는 경고·위협. 발화 기능이 다른 종류로 바뀌었습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'can not give'는 능력·가능의 의미이고 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 상대에게 격식 있게 말하는 태도가 '~습니다' 체로 유지되며 관계에 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 657,
+    "output_tokens": 776,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

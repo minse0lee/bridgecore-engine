@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgje8zYk4ChbDKeEyihA1",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P046\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"What a superior attitude, thought Clyde!\",\"tgt_span\":\"클라이드는 얼마나 우월한 태도인지 생각했다.\",\"description\":\"클라이드의 감탄(내적 발화)이 '얼마나 ~인지 생각했다'는 서술문으로 바뀌어, 감탄하는 어조가 약해지고 간접 의문처럼 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"클라이드가 그 태도를 우월하다고 여긴다는 인물·대상·평가 내용이 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계에 변화가 없습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 상대의 거만함을 비꼬는 클라이드의 감탄(내적 반응) → 단순히 생각했다는 서술로 바뀌어 비꼬는 감탄 기능이 문자 그대로의 서술에 가깝게 읽힙니다. 앞 문맥으로 아이러니는 어느 정도 추론되어 minor입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 평서체가 유지되고 관계상 문제가 없으며, 클라이드의 못마땅한 태도도 '우월한 태도'로 전달됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 510,
+    "output_tokens": 705,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

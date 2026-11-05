@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgje8h4HDgrnbmwX6MkES",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P050\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"local resources\",\"tgt_span\":\"국소 자원\",\"description\":\"'local'이 '지역의(가까운)'라는 뜻인데 의학 용어 '국소(부위)'로 옮겨, 학습자가 이용할 자원이 '지역 자원'이 아니라 '국소적인 자원'으로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상): 이용할 지역 자원이 '국소 자원'으로 바뀌어 무엇을 이용해야 하는지 이해하기 어렵고 대상이 달라졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"목적(구조를 보기 위해)과 수단(자원 이용)의 연결이 '-기 위해'로 유지되며 지시·초점 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학습 활동 지시 → 학습 활동 지시. 명령형 '이용하라'로 지시 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"학습 활동 지시이며 반드시 지켜야 할 규범이나 안전 규칙이 아니므로 Deontic은 적용되지 않습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재의 지시문으로 '-하라' 명령체가 학습자료의 통상적 어조에 맞아 훼손이 아닙니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다. 'local'의 오역은 Semantic에서 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 525,
+    "output_tokens": 705,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

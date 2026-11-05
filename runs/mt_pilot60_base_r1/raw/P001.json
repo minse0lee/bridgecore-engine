@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgje4TueRbJgjQGw48Lty",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P001\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Miss March\",\"tgt_span\":\"마치 양부인\",\"description\":\"미혼 여성 호칭 'Miss'가 '양부인'으로 옮겨져, 존칭이 '부인'(기혼 여성 호칭)을 포함하게 됨. 원문에 없는 혼인 신분을 암시하는 호칭 오역.\"},{\"id\":\"E002\",\"src_span\":\"You assure me\",\"tgt_span\":\"확신하십니까\",\"description\":\"'당신이 내게 보증/단언한다'가 '확신하십니까'로 바뀌어, 상대가 보증해 주는 행위가 상대의 확신 여부를 묻는 것으로 바뀜.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: 'assure me'(내게 보증하다)가 '확신하십니까'로 바뀌어 상대의 확신 여부를 묻는 것으로 읽히지만, 핵심 사실(젊은이가 조롱하려 하지 않았다는 점)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그 젊은이', '나'의 지시 대상이 유지되고 연결·초점 표현의 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"확인을 구하는 질문 → 확인을 구하는 질문. 기능이 같은 종류입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화 속 확인 질문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"격식 있는 화자가 상대에게 정중히 묻는 관계가 '~십니까'로 유지됩니다. 호칭 문제는 Cultural에서 다룹니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2: 미혼 여성 호칭 'Miss'를 '양부인'으로 옮겨 서양식 호칭 관습이 왜곡되고 기혼으로 읽힐 수 있습니다. 다만 인물 식별과 요지는 유지되어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 14219
+    },
+    "cache_creation_input_tokens": 14219,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 536,
+    "output_tokens": 891,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

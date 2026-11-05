@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgje7HVubQFtkaATwGqdD",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P032\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"programs that are less than an academic year in length\",\"tgt_span\":\"학년보다 짧은 프로그램\",\"description\":\"'an academic year in length'(학업 연도 기준 길이)가 '학년'으로 옮겨져 교육과정 기간 단위의 제도적 의미가 전달되지 않음. 다만 '학년보다 짧은 프로그램'으로 기간이 짧다는 뜻은 읽힘.\"},{\"id\":\"E002\",\"src_span\":\"a certificate or other nondegree recognized credential\",\"tgt_span\":\"인증서 또는 다른 학위가 아닌 인정된 자격증\",\"description\":\"certificate를 '인증서'로, credential을 '자격증'으로 옮겨 수료증·비학위 인정 자격이라는 제도적 의미가 다소 흐려짐. 의미는 대체로 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"세 기관 기준 상이, 고등교육기관이 1학년 미만 프로그램으로 중등 이후 직업교육기관 자격을 얻을 수 있다는 내용과 가능성이 모두 유지됩니다. 어휘 선택은 어색하지만 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Although의 양보 관계가 '~다르지만'으로, also는 '~도'로 유지되고 지시·초점 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"제도 설명 → 제도 설명. 설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"it is possible/can은 자격 취득 가능성을 설명하는 것이며 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내문의 평서체 설명이 유지되며 관계에 맞지 않는 말투 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 2: 'academic year'를 '학년'으로, certificate·credential을 '인증서·자격증'으로 옮겨 미국 제도 용어의 의미가 정확히 전달되지 않습니다. 다만 기간이 짧다는 요지와 비학위 자격이라는 맥락은 읽히므로 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 994,
+    "output_tokens": 968,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

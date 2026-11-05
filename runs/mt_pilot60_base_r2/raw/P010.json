@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgje5vjiUy1YyjYkDdsaK",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P010\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"your niece\",\"tgt_span\":\"조카님\",\"description\":\"일반 대명사 your를 '조카님'이라는 높임 호칭으로 옮겨, 질문자가 상대에게 취하는 높임/격식 태도가 직설적 어조와 어긋나고 조카에게 높임을 붙이는 관계 표시가 첨가됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조카의 소재를 묻는 행위, 질문자와 슬레이터 부인, 말버러에서 흔치 않은 직설, 추론으로 말하는 사람들이 모두 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'추론으로 말하는 말버러'가 Marlborough를 수식하고 '직설'과의 대조 관계가 유지되며 지시 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조카의 소재를 묻는 직설적 질문 서술 → 같은 직설적 질문 서술로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2: 낯선 이가 슬레이터 부인에게 직설적으로 묻는 장면에서 '조카님', '계십니까'로 조카에게 높임을 붙인 것은 원문에 없는 높임 태도이나, 질문 요지와 행동 이해에는 영향이 작아 minor입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명·지명만 있고 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 550,
+    "output_tokens": 759,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

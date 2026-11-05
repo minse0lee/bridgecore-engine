@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgje55DvFZsRyeC8zhjXh",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P004\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the Council and the regents\",\"tgt_span\":\"위원회와 섭정들\",\"description\":\"Council(평의회)을 '위원회'로, regents(대학 이사회의 이사들)를 '섭정들'로 옮겨 대학 지배기구의 제도적 의미가 전달되지 않음\"},{\"id\":\"E002\",\"src_span\":\"charges against Professor Max Gottlieb preferred by his dean and by myself\",\"tgt_span\":\"혐의를 그의 학장과 나 자신에 의해 선호하는 것\",\"description\":\"preferred(제기하다)를 '선호하다'로 오역하여 학장과 총장이 혐의를 제기했다는 내용이 사라짐. 고발 행위가 '선호'라는 다른 행위로 바뀌고 고려 대상도 혐의가 아니라 선호하는 것으로 읽힘\"},{\"id\":\"E003\",\"src_span\":\"Gentlemen\",\"tgt_span\":\"신사 여러분\",\"description\":\"청중 호칭 Gentlemen을 '신사 여러분'으로 옮겨 회의 참석자에 대한 격식 있는 호칭 기능이 약해짐(어색한 번역투)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: preferred charges(혐의를 제기하다)가 '선호하는 것'으로 바뀌어 누가 무엇을 했는지가 달라졌고, regents도 '섭정들'로 오역되어 회의 참석자의 정체가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: '혐의를 … 선호하는 것을 고려하기 위한'으로 혐의와 그것을 제기한 주체(학장·총장)의 연결 관계가 깨져 혐의 제기라는 관계가 사라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"회의 개회 선언·안내 → 회의 개회 발표. 회의 목적을 알리는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"회의 목적을 알리는 서술이며 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"총장이 회의 참석자들에게 공식적으로 말하는 격식 있는 어조가 '여러분' 호칭으로 유지되며, 평서형 '~이다'는 공식 선언으로 읽힙니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: Council과 regents는 미국 대학의 거버넌스 기구인데 '위원회'와 '섭정들'로 옮겨 제도적 의미가 전달되지 않습니다. 인물과 사건은 그대로 이해할 수 있어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 600,
+    "output_tokens": 1127,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

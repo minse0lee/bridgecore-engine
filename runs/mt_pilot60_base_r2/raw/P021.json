@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgje6tczoZrtnYUbe28Z4",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P021\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Sherman marched his troops from Goldsboro, up to Manchester\",\"tgt_span\":\"셔먼은 골즈보로에서 맨체스터까지 행군하여\",\"description\":\"부대를 행군시킨 주체(셔먼이 병력을 이동시킴)에서 병력이 빠져 셔먼 혼자 행군한 것으로 읽힘\"},{\"id\":\"E002\",\"src_span\":\"and there put them in camp, while he went back to Savannah\",\"tgt_span\":\"진을 치고, 사바나로 돌아가\",\"description\":\"부대를 야영시킨 뒤 셔먼 자신은 사바나로 돌아갔다는 대조가 사라지고, 셔먼이 진을 치고 돌아간 것처럼 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(행위자·참여자): 셔먼이 부대를 행군시키고 야영시킨 뒤 자신만 사바나로 돌아간 내용이 셔먼 혼자 행군·진영·귀환한 것으로 읽혀 누가 무엇을 했는지가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2·1: 'while'이 나타내는 동시·대조 관계와 'them'의 지시(부대)가 사라져 셔먼이 진을 치고 돌아간 것으로 읽혀 연결과 지시 관계가 바뀌었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"역사 서술 → 역사 서술. 사건을 기술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 역사 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"회고록의 서술체 '~다'가 유지되며 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명·지명 외에 별도의 문화 고유 제도나 단위가 없어 평가할 대상이 사실상 없고 오류도 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 596,
+    "output_tokens": 875,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgje9HqZCd9aZkF1qqzuq",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P053\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Such floods of scalding tears\",\"tgt_span\":\"끓어오르는 눈물이 흐르고 있습니다\",\"description\":\"'홍수 같은 많은 양(floods)'과 'scalding(데는 듯한)'이 '끓어오르는 눈물이 흐른다'로 바뀌어 눈물의 엄청난 양이 사라짐\"},{\"id\":\"E002\",\"src_span\":\"And yet mine eyes contain\",\"tgt_span\":\"그리고 아직도 나의 눈에는\",\"description\":\"'And yet'(그럼에도)의 양보·대조가 '그리고 아직도'로 옮겨져 대조 관계가 병렬과 시간 지속으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(수량): floods of(홍수 같은 다량)가 사라지고 '끓어오르는 눈물이 흐르고 있다'로 바뀌어 수량 표현이 달라졌습니다. 눈물이 마르지 않고 계속 흐른다는 핵심 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2(연결 관계): 'And yet'의 대조·양보(울면 안 되지만 그럼에도)가 '그리고 아직도'로 병렬·시간 지속으로 바뀌었습니다. 'such…that' 결과 구조는 '그 눈물은 결코 말라지지 않을 것입니다'로 남아 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기도 속 슬픔의 토로(서술) → 기도 속 슬픔의 토로(서술). 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 스스로에게 거는 금지 'must not cry'는 '울지 않아야 합니다'로 옮겨져 의무·금지 범주가 유지됩니다. 'never dry'는 규범이 아닌 서술이므로 평가 대상이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"신(주님)에게 올리는 기도이므로 '~합니다' 높임체가 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·단위·관습이 없습니다. 'O Lord'를 '오, 주님'으로 옮긴 것은 통용되는 표현입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 749,
+    "output_tokens": 1001,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

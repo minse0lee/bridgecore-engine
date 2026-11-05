@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgje8zTnd5LzDVX4nFHKJ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P054\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"9 hours of regular coursework\",\"tgt_span\":\"정규 과제를 9시간 수행했고\",\"description\":\"수강 학점 시간(credit hours 단위의 정규 교과 수강)이 '과제'를 '9시간 수행'한 것으로 바뀌어 학점 단위 수강이 과제 수행 시간으로 읽힘\"},{\"id\":\"E002\",\"src_span\":\"the remedial work\",\"tgt_span\":\"보충 과제\",\"description\":\"보충(교정) 교과 수강이 '보충 과제'로 바뀌어 교과 수강의 성격이 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(대상·행위): 정규 교과 수강(coursework)이 '과제 수행'으로, 학점 시간이 실제 작업 시간으로 읽혀 무엇을 했는지 달라졌고, 보충 교과도 '보충 과제'로 바뀌어 독자가 요지를 다르게 이해할 수 있습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'마찬가지로'가 Similarly의 유사 관계를, '-했고'가 while의 병렬 관계를 유지하며 지시·초점 변화도 없습니다(질문 1·2·3 모두 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"예시 설명 → 예시 설명. 계산 사례를 설명하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"계산 예시를 서술하는 문장으로 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내문의 평서 서술체('-했고…-되었다')가 유지되어 독자와의 관계에 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·단위·표기가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1757,
+    "output_tokens": 827,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgje9Hi86asMDzBxMTHYz",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P049\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"this ship isn't as good as you think it is\",\"tgt_span\":\"이것은 당신이 생각하는 것만큼이나 좋지 않다는 것을 보여줍니다\",\"description\":\"'이 배(this ship)'가 '이것'으로 바뀌어 평가 대상이 배라는 정보가 사라지고, 'isn't as good as you think'가 '생각하는 것만큼이나 좋지 않다'로 옮겨져 있으나 대상이 불명확함\"},{\"id\":\"E002\",\"src_span\":\"this should show you that\",\"tgt_span\":\"이것은 … 보여줍니다\",\"description\":\"'this'가 가리키는 사건(Skip의 상황)과 'should show'의 예상 어조가 단정적 '보여줍니다'로 바뀜(확실성 변화)\"},{\"id\":\"E003\",\"src_span\":\"His glance, too, ... It said\",\"tgt_span\":\"그것은 분명히 말했다\",\"description\":\"'It'(그의 눈빛)을 '그것'으로 옮겨 지시 대상이 불분명하고, 이탤릭 사고 내용이 인용 표시 없이 서술 문장과 뒤섞여 시점·화법이 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'this ship'이 사라져 무엇이 좋지 않은지(배)가 불명확해지고, should(예상)가 단정으로 바뀌어 확실성이 달라져 요지를 다르게 이해할 수 있습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E003\"],\"reason\":\"판단 질문 1: 'this ship'의 '이것'과 주어 'It'의 '그것'이 가리키는 대상(배, 눈빛)이 불분명해졌고 '이것'이 배가 아니라 앞 상황처럼 읽힙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"눈빛이 전하는 속뜻을 서술하는 기능 → 같은 서술 기능. 종결어미 혼용은 기능을 바꾸지 않습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"should는 예상·의미 전달의 뜻으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문 '말했다'와 속뜻 '보여줍니다'의 어체가 섞여 있고 Skip과 Bull의 관계에 따른 적절한 말투는 문맥 확인이 필요합니다. 속뜻이 Skip의 Bull에 대한 말이라면 존대 여부를 판단하려면 두 사람의 관계 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 617,
+    "output_tokens": 1109,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
