@@ -7,7 +7,7 @@
 - N/A↔보존처럼 '훼손 아님' 안에서만 바뀌는 칸 2개(P016·P021 Cultural): 채점에 영향 없음
 - 수정 기준이 판정을 정하지 않은 칸 1개(P032 Deontic, '평가 대상이고 보존·훼손은 검수자 판정'):
   합의(N/A=훼손 아님)를 그대로 둔다
-- P052 Semantic은 수정 기준 규칙상 '아님'이지만 확인 필요로 남은 경계 사례라, 민감도로 반대 경우도 본다
+- P052 Semantic은 11/6 수안님이 합의(훼손)대로 확정 → 교체하지 않음 (관용 표현 직역, 가이드라인 11/6 보강)
 """
 from __future__ import annotations
 
@@ -25,10 +25,12 @@ REVISED = {
     ("P045", "Semantic"): T, ("P045", "Deontic"): T, ("P049", "Semantic"): T,
     ("P041", "Semantic"): T, ("P033", "Semantic"): T, ("P046", "Context"): T,
     ("P002", "Register"): T, ("P014", "Cultural"): T, ("P043", "Cultural"): T,
-    ("P007", "Cultural"): F, ("P053", "Semantic"): F, ("P052", "Semantic"): F,
+    ("P007", "Cultural"): F, ("P053", "Semantic"): F,
 }
+# P052 Semantic: 11/6 수안님 확정 — 관용 표현 직역으로 '속이다'가 전달되지 않으므로 합의대로 Semantic 훼손 유지
+# (가이드라인 11/6 '관용 표현' 절). 그래서 교체 목록에서 뺐다
 NO_BINARY_CHANGE = [("P016", "Cultural"), ("P021", "Cultural"), ("P032", "Deontic")]
-BORDERLINE = ("P052", "Semantic")
+BORDERLINE = None  # 11/6 P052 확정으로 경계 사례 없음
 
 
 def apply(gold: dict, overrides: dict) -> dict:
@@ -59,13 +61,13 @@ def rescore(configs: dict[str, dict], gold: dict, splits: dict[str, list[str]], 
             name: str = "rescore_revised_gold") -> Path:
     """configs: {이름: {"kind": engine|generic, "dev": [runs], "holdout": [runs]}}"""
     g_new = apply(gold, REVISED)
-    g_alt = apply(gold, {**REVISED, BORDERLINE: True})
+    g_alt = apply(gold, {**REVISED, BORDERLINE: True}) if BORDERLINE else apply(gold, REVISED)
     f = lambda x: "-" if x is None else f"{x:.2f}"
     lines = [f"# 수정 기준 반영 재채점 ({name})", "",
              "- 기존 정답: 평가자 합의본(11/1, 옛 가이드라인 기준). 판단보류는 훼손 아님",
              f"- 수정 정답: 합의본에서 수정 가이드라인 기준과 다른 18칸 중 훼손/아님이 바뀌는 {len(REVISED)}칸만 교체 "
              f"(훼손으로 {sum(REVISED.values())}칸, 아님으로 {sum(not v for v in REVISED.values())}칸)",
-             "- P032 Deontic은 수정 기준이 판정을 정하지 않아 합의 그대로. P052 Semantic은 경계 사례라 '훼손'으로 본 경우도 함께 표시",
+             "- P032 Deontic은 수정 기준이 판정을 정하지 않아 합의 그대로. P052 Semantic은 11/6 확정으로 합의(훼손) 유지",
              "- 반복 실행이 있으면 평균. 엔진 프롬프트·실행 결과는 그대로이고 정답만 바뀜", ""]
     for sp, ids in splits.items():
         moved = [k for k in REVISED if k[0] in set(ids)]
@@ -74,7 +76,7 @@ def rescore(configs: dict[str, dict], gold: dict, splits: dict[str, list[str]], 
         lines += [f"## {'개발용' if sp == 'dev' else '확인용'} {len(ids)}문항", "",
                   f"바뀐 칸 {len(moved)}개: " + ", ".join(f"{i} {a}" for i, a in moved),
                   f"정답 훼손 칸 {n_old} → {n_new}", "",
-                  "| 구성 | 축 단위 F1 기존 → 수정 | (P052 훼손으로 보면) | 문장 단위 F1 기존 → 수정 |", "|---|---|---|---|"]
+                  "| 구성 | 축 단위 F1 기존 → 수정 | (참고: 같은 값) | 문장 단위 F1 기존 → 수정 |", "|---|---|---|---|"]
         for label, c in configs.items():
             runs = [r for r in c.get(sp, []) if (r / "outputs.jsonl").exists()]
             if not runs:
