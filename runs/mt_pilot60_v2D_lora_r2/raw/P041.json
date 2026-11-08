@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgq9R5LpXxBDxD8WtkWtZ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P041\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"to--er--look beyond the more accepted channels of finance for the sake of the larger returns that can be realized by breaking new ground, as it were--participating in pioneering enterprises\",\"tgt_span\":\"기꺼이 새로운 땅을 개척함으로써 실현될 수 있는 더 큰 수익을 위해 더 많이 받아들여진 금융 채널을 넘어 볼 수도 있다\",\"description\":\"'더 널리 받아들여진(more accepted)' 금융 경로가 '더 많이 받아들여진'으로 옮겨져 어색하나 뜻은 통함. 이 자체는 오류로 보지 않음(참고용 기록 없음). 실제 오류는 아래 E002 참고.\"},{\"id\":\"E002\",\"src_span\":\"as it were--participating in pioneering enterprises\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"'말하자면(as it were)'과 말 바꿔 설명하는 '개척적 사업에 참여하는 것' 부분이 번역에서 빠짐. 설득 대상이 참여하도록 제안하는 핵심 내용이 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: 제안의 핵심 내용인 '개척적 사업에 참여한다'가 누락되어 번역문만 읽으면 새로운 땅을 개척하는 것이 투자 참여라는 요지가 전달되지 않고, 'look beyond'의 목적 설명도 불완전합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: 'breaking new ground'를 'participating in pioneering enterprises'로 바꿔 말하는 부연 관계와 'as it were'의 완곡 표지가 사라져 앞 구절과의 연결이 달라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"투자 제안·권유 → 투자 제안·권유. 'might be willing'에 해당하는 완곡한 권유 기능은 '볼 수도 있다'로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"can은 가능성(실현될 수 있는)을 나타내며 규범 의미가 없고 의무·허가·금지 표현이 없습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"판매자와 청자 사이의 관계와 어느 정도의 격식이 적절한지는 전체 장면 정보 없이 알 수 없습니다. 번역문은 평서 종결 '-다'이며 대화체 존대 여부를 판단하려면 화자·청자 관계 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명(Mr. Thompson)만 있고 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 749,
+    "output_tokens": 1119,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgq9TkmwzooBqyeUYzXdi",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P031\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"comprehend—let alone support—the difficulties\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"'let alone support'(지원은 말할 것도 없고)가 번역에서 빠져, 교육자가 이해뿐 아니라 지원할 준비도 부족하다는 내용과 이해보다 지원이 더 어렵다는 초점·강조가 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위): 학교와 교육자가 난민 학생의 어려움을 '지원'할 준비가 부족하다는 내용이 누락되어 이해할 준비만 부족한 것으로 읽힙니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(초점·범위): let alone이 이해보다 지원이 더 어렵다는 점층적 초점을 만드는데 번역에서 사라져 범위가 '이해'로만 한정됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"현황 설명 → 현황 설명. 학교가 준비되지 않은 상황을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교육 안내문의 공식적 서술체가 '~아니다'로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인용 표기의 인명 외에 별도로 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 742,
+    "output_tokens": 707,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

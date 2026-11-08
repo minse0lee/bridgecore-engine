@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgq9PeLtWZVziL9nLjMpH",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P024\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the scenery\",\"tgt_span\":\"장면\",\"description\":\"무대 장치(scenery)를 '장면'으로 옮겨, 칠하는 대상이 무대 장치에서 장면으로 달라짐\"},{\"id\":\"E002\",\"src_span\":\"the Scene Designer\",\"tgt_span\":\"장면 디자이너\",\"description\":\"무대 디자이너(Scene Designer)를 '장면 디자이너'로 옮겨 직무명이 부정확함\"},{\"id\":\"E003\",\"src_span\":\"the charge artist\",\"tgt_span\":\"전담 아티스트\",\"description\":\"Scenic Charge Artist(미술 책임자)를 '전담 아티스트'로 옮겨 책임·총괄 역할이 불분명해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 칠하는 대상(scenery→장면), 직무(Scene Designer→장면 디자이너), 주체(charge artist→전담 아티스트)가 달라져 독자가 요지와 역할을 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'~하는 사람이 ~이다'로 분열문의 초점이 유지되고 along with 관계도 남아 있어 세 질문 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개념·역할 설명 → 개념·역할 설명으로 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 역할 설명 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재 설명문의 평서체 '~이다'가 관계에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"TD, Scene Designer, charge artist 같은 극장 직무 용어가 한국 공연 제도에서 통용되는 대응어로 전달되는지 판단하려면 공연계 용어 기준 확인이 필요합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 806,
+    "output_tokens": 844,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

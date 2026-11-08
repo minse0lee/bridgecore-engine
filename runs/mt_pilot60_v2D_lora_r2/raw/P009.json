@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgq9NG5uB7uQhwdLp4UVk",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P009\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"keep the others from this control panel\",\"tgt_span\":\"이 제어판으로부터 다른 사람들을 30분 더 멀리할 수만 있다면\",\"description\":\"'다른 사람들을 제어판에서 떼어 놓다(접근 차단)'가 '멀리하다'로 옮겨져 다소 모호하나 접근을 막는다는 뜻으로 읽힐 수 있음. 의미 변화는 미미하여 오류 아님에 가까움\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조건(30분 더, 다른 사람들을 제어판에서 차단), 컴퓨터가 방정식을 완전히 처리, 전투 승리라는 내용이 유지됩니다. 'battle'을 '전쟁'으로 옮긴 것은 규모 차이이나 평가어 정도 수준이며, '멀리하다'는 어색하지만 접근을 막는 뜻으로 읽힙니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'만 있다면' 조건절과 결과절의 조건-결과 연결, 'his'가 Ruy를 가리키는 '그'로 유지되어 질문 1·2·3 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문에서 인물의 상황과 전망을 설명 → 서술문에서 같은 설명. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 가정적 상황 설명이며 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문의 평서체('-ㄹ 것이다')로 서술 태도가 유지되며 특별한 관계·호칭 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 601,
+    "output_tokens": 818,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

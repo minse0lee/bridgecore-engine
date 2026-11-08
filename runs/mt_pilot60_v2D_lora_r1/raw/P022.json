@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgq9Pd5VB97AkMZjNKNxv",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P022\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"_Or shall I?_\",\"tgt_span\":\"_ 아니면 내가 해야 할까? _\",\"description\":\"'내가 (그에게) 말할까?'라는 화자의 제안·위협성 질문이 '내가 해야 할까?'라는 의무 확인 질문으로 바뀌어 발화 기능과 의미가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위): 'shall I (tell him)'은 화자가 직접 말하겠다는 제안인데 '내가 해야 할까'는 의무 여부를 묻는 말이어서 내용이 일부 달라졌습니다. 다만 누가 말하는가라는 핵심 대비는 유지되어 요지 변화는 크지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Or'가 '아니면'으로 앞 문장과의 선택 대안 연결을 유지하고, 생략된 목적어 지시도 유지됩니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"원문 기능 → 번역 기능: 상대를 압박하는 수사적 제안(말하지 않으면 내가 말하겠다는 암시) → 자신의 의무를 묻는 실제 질문. 기능 종류가 달라졌습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"편지 속 화자의 제안·선택 질문이며 의무·허가·금지를 거는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"친구 사이 편지의 구어적 반말 어조가 '내가 해야 할까?'로 유지되어 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 580,
+    "output_tokens": 784,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

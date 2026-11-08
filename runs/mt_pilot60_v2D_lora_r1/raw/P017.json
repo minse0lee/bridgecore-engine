@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgq9PAMQ76e4aRQ5jKL74",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P017\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"But as much as I desired to leave these parts\",\"tgt_span\":\"그러나 내가 이곳을 떠나기를 바랐던 만큼\",\"description\":\"'as much as'는 양보적 대조(떠나고 싶었지만 비행은 원하지 않았다)인데 '~한 만큼'이라는 비례·정도 비교로 옮겨 양보 관계가 흐려지고 비례 관계로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"떠나기를 바란 것과 비행 경험을 갈망하지 않은 것, 인물·행위·부정이 모두 유지됩니다. 연결 방식의 변화는 Textual에서 판정합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 'as much as'가 나타내는 양보적 대조(~하고 싶었지만 ~은 원치 않았다)가 '바랐던 만큼 ~않았다'라는 비례 관계로 읽혀 연결 관계가 바뀌었습니다. 다만 앞의 'But'에 해당하는 '그러나'가 남아 있어 대조 의미는 대부분 전달되므로 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 화자의 심정을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범적 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술의 평서체가 유지되며 관계에 맞지 않는 높임·호칭 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 550,
+    "output_tokens": 766,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

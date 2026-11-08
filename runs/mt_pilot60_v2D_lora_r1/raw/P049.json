@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgq9S7SMhA5z6FHiexKGu",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P049\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"It said plainly,\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"시선이 분명히 말해 준다는 서술 표지(눈빛이 전하는 메시지라는 틀)가 누락되어, 인물의 눈빛이 전하는 무언의 메시지가 서술자나 화자의 단정으로 읽힘\"},{\"id\":\"E002\",\"src_span\":\"this should show you\",\"tgt_span\":\"보여줄 것이다\",\"description\":\"should(예상·기대)가 '~것이다'로 옮겨져 기대가 단정에 가까워짐. 또한 you(Bull)에게 향한 메시지라는 점이 번역에서 드러나지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'It said plainly'가 누락되어, Skip의 눈빛이 Bull에게 전하는 무언의 메시지라는 내용이 사라지고 누가 무엇을 전하는지 달라졌습니다. 번역문만 읽으면 눈빛이 말한 내용이라는 요지를 이해할 수 없습니다. should의 확실성 변화(E002)는 minor 수준이며 핵심 훼손은 E001입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'It'(his glance)이 가리키는 눈빛과 그것이 말하는 인용 관계가 번역에서 사라져, 이 문장이 앞 문장의 눈빛을 받는다는 지시 연결이 끊어졌습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"눈빛이 전하는 속뜻의 서술 → 단정적 설명(서술자의 진술). 인물 눈빛의 의도를 풀어 주는 서술 기능이 일반적인 사실 진술로 바뀌었습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"should는 '보여줄 것이다'라는 예상·기대의 의미로 규범적 의무·권고가 아니므로 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 문장으로 격식 차이는 없으며, 눈빛 속 화자의 득의양양한 태도는 크게 훼손되지 않았습니다. 'you'를 '당신'으로 옮긴 것은 속마음이라는 맥락에서 허용됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화 고유의 제도·관습·단위 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 605,
+    "output_tokens": 1044,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

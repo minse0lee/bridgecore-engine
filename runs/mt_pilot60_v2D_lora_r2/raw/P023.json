@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgq9Pcy2pds5AHp9iAxVA",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P023\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"cordial expressions of friendship\",\"tgt_span\":\"친절한 표현들\",\"description\":\"'우정(friendship)의 다정한 표현'이 '친절한 표현'으로 바뀌어 우정이라는 내용이 사라짐\"},{\"id\":\"E002\",\"src_span\":\"then\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"시간적 연결어 'then'이 번역되지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: '우정의 다정한 표현'이 '친절한 표현'으로 바뀌어 friendship이 빠졌고 'then'도 생략되었습니다. 그러나 '그가 작별 인사를 하고 떠났다'는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사 '그'와 '나'의 지시가 유지됩니다. 'then'이 빠졌지만 앞 문맥과의 시간 순서 관계가 바뀐 것은 아니어서 연결 관계는 변하지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 인물이 떠나는 사건을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문의 '-었다' 평서체가 유지되며 인물 간 관계 표현에 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 451,
+    "output_tokens": 739,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

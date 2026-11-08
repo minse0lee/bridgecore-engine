@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgq9Qj4g1QyYCz1Dj4zPw",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P035\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"( Navidad )\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"스페인어 표기 Navidad 병기가 번역에서 빠짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"보고 듣기 행위, 스페인어 원어민, 크리스마스 축하 방식에 대한 논의, 아르헨티나와 멕시코가 모두 유지됩니다. Navidad 병기 누락은 지시 대상이나 내용을 바꾸지 않아 오류로 보지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'영상'을 수식하는 관계절 구조가 유지되고 지시·연결·초점 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학습 활동 지시 → 학습 활동 지시. 영상을 보고 들으라는 지시 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"학습 활동 지시이므로 규범적 의무·허가·금지를 정하는 문장이 아닙니다. 기능은 Context에서 판정했습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재의 학습 지시에 쓰이는 '~시오' 체가 교재 문맥에 맞습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"아르헨티나·멕시코와 크리스마스는 그대로 옮겨졌고 문화적 대상이 다른 것으로 바뀌지 않았습니다. Navidad 병기 누락은 문화 제도 이해를 해치지 않습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 636,
+    "output_tokens": 712,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

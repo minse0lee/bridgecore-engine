@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgq9MjMhJJgdmnXQ7oSSk",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P004\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the Council and the regents\",\"tgt_span\":\"위원회와 섭정들\",\"description\":\"Council(평의회)이 '위원회'로, regents(대학 이사회/평의원)가 '섭정들'로 옮겨져 대학 거버넌스 기관이 다른 것(섭정)으로 오역됨\"},{\"id\":\"E002\",\"src_span\":\"charges against Professor Max Gottlieb preferred by his dean and by myself\",\"tgt_span\":\"맥스 고틀리프 교수와 그의 학장 그리고 나 자신에 의해 선호되는 맥스 고틀리프 교수에 대한 고발\",\"description\":\"preferred(제기한)를 '선호되는'으로 오역하고, 교수가 학장·총장과 함께 행위자로 읽히게 하며 교수 이름이 중복되어 고발 주체 관계가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: '고발을 제기한'이 '선호되는'으로 바뀌고 고발 주체(학장·총장)와 피고발자(교수)의 관계가 흐려졌으며, regents가 '섭정들'로 바뀌어 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: 'his dean'의 his가 가리키는 대상과 고발 제기 관계가 바뀌어, '맥스 고틀리프 교수와 그의 학장 그리고 나'가 병렬 주체로 읽힙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"회의 목적 공식 발표 → 회의 목적 공식 발표. 발화 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없고 회의 목적을 알리는 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"총장이 회의 참석자에게 하는 공식 발표로서 격식 있는 어조('~이다' 발화)가 허용 범위이며 관계를 해치지 않습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2: 대학의 Council과 regents라는 제도 기관이 '위원회'와 '섭정들'로 옮겨져 대학 이사회라는 제도적 의미가 전달되지 않고 다른 대상(섭정)으로 읽힙니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 612,
+    "output_tokens": 1005,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

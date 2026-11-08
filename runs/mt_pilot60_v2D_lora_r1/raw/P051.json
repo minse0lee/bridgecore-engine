@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgq9SFV3DoFukQSN7JKJb",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P051\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"hermeneutical injustice might result from testimonial injustice\",\"tgt_span\":\"해석학적 부정은 증언의 부정에서 비롯될 수도 있다는 것이다\",\"description\":\"injustice(부정의, 불공정)를 '부정'으로 옮겨 개념 용어가 '부정(否定)' 등 다른 의미로 읽힐 수 있음. 다만 두 개념의 관계(해석적 부정의가 증언적 부정의에서 비롯될 수 있음)는 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'injustice'가 '부정'으로 옮겨져 '부정의(不正義)'라는 개념이 '부정(否定)'으로도 읽혀 용어 의미가 달라졌으나, 인과 관계와 가능성의 확실성(might→수도 있다)은 유지되어 요지는 크게 바뀌지 않아 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Importantly가 '중요한 점은'으로 유지되고, 두 개념 사이의 인과 연결(result from→비롯되다)과 지시 관계가 보존됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개념 관계 설명 → 개념 관계 설명. 설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 개념 설명 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학술 교재의 설명체('~이다')가 문맥에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유 대상이 없고 저자명과 연도 표기뿐입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 829,
+    "output_tokens": 771,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgq9Mp6DfGzNQiiiG4uRq",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P005\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Federal Student Aid PIN\",\"tgt_span\":\"연방 학자금 대출 PIN\",\"description\":\"'Federal Student Aid'(연방 학생 지원 기관/제도)가 '연방 학자금 대출'로 바뀌어 PIN의 명칭이 달라짐\"},{\"id\":\"E002\",\"src_span\":\"Use your … PIN\",\"tgt_span\":\"PIN을 사용하여 … 얻어라\",\"description\":\"안내문의 독자 대상 종결이 '-어라' 명령 반말로 바뀌어 공식 안내 어조와 맞지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상): 'Federal Student Aid PIN'이 '연방 학자금 대출 PIN'으로 바뀌어 PIN의 명칭이 달라졌으나, 접근 방법과 기록·연락처 확인이라는 핵심 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-하여 … 접근하고 … 얻어라'로 목적·수단 관계와 지시 대상이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"이용 방법 지시 → 이용 방법 지시. 명령형 안내 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"선택 가능한 이용 방법을 안내하는 문장으로 의무·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: 공식 안내문의 불특정 독자에게 '-어라' 하대 명령형을 써서 관계에 맞는 격식이 아닙니다. 내용 이해에는 영향이 없어 minor입니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"PIN과 NSLDS 등 제도 용어는 그대로 유지되어 다른 제도로 대체되지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 686,
+    "output_tokens": 836,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgq9RHan5NRgN5uFTma5W",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P043\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the runt Polack\",\"tgt_span\":\"그 작은 폴란드인\",\"description\":\"비하 표현 'runt'(왜소하고 보잘것없는 것)와 민족 비칭 'Polack'이 중립적인 '작은 폴란드인'으로 바뀌어 화자의 경멸 태도와 민족 비하 의미가 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"그들이 해당 폴란드계 인물을 아직 잡았는지 묻는 내용이 유지되며, 달라진 것은 평가어의 정도뿐입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'they'와 '그들', 'yet'과 '아직'의 대응이 유지되어 지시·연결·초점 관계가 같습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"체포 여부를 묻는 질문 → 체포 여부를 묻는 질문. 발화 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 질문문입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(태도): 'runt Polack'의 경멸적 태도가 '그 작은 폴란드인'이라는 중립적 표현으로 약해졌습니다. 독자가 요지나 행동을 다르게 이해하지는 않으므로 minor입니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(비칭): 'Polack'이 지닌 폴란드인 비하의 문화적 의미가 '폴란드인'이라는 중립 표현으로 바뀌어 한국어 독자에게 전달되지 않습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 447,
+    "output_tokens": 757,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

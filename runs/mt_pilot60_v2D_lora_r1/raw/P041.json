@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgq9RLB3yj61AAeQ7cQ1z",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P041\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the more accepted channels of finance\",\"tgt_span\":\"더 많이 받아들여진 금융 채널\",\"description\":\"'더 널리 받아들여진(보다 관행적인) 금융 경로'가 '더 많이 받아들여진'으로 옮겨져 비교 대상이 불분명해졌으나 뜻은 대체로 추론 가능함. 어색한 표현 수준\"},{\"id\":\"E002\",\"src_span\":\"as it were--participating in pioneering enterprises\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"'말하자면'과 부연 설명 '개척적 사업에 참여하는 것'이 누락되어 투자 권유의 구체적 내용(개척 사업 참여)이 사라짐\"},{\"id\":\"E003\",\"src_span\":\"to--er--look beyond\",\"tgt_span\":\"기꺼이 … 넘어 볼 수도 있다\",\"description\":\"주저하는 말투 'er'가 사라지고 'might be willing'의 어조도 약화됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: 'participating in pioneering enterprises'(개척적 사업 참여)가 누락되어 권유하는 구체적 행위가 사라지고 '새 땅 개척'만 남아 요지가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현이 바뀐 것은 없고 '그러나' 대조와 목적 연결('위해')이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"투자 권유(설득) → 투자 권유(설득). 상대가 새로운 투자에 응하도록 떠보는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"can은 가능성(실현될 수 있는 수익)이고 might be willing도 규범이 아니라 추측·권유여서 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"영업 담당자가 투자자에게 공손히 설득하는 관계에서 '씨' 호칭이 유지되고 '-다' 종결은 소설 인용 문체 안에서 무난하며, 주저하는 말투 약화는 어색함 수준입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습은 없고 인명 'Mr. Thompson'뿐입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 749,
+    "output_tokens": 986,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

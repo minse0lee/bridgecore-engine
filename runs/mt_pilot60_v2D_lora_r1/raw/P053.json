@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgq9SQwp6J1EzWjAytbCf",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P053\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I must not cry\",\"tgt_span\":\"나는 울지 말아야 하지만\",\"description\":\"must not(자기 금지, 울어서는 안 된다)이 '울지 말아야 하지만'으로 옮겨져 금지의 강도가 다소 약해졌으나 금지 범주는 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"울어서는 안 된다는 다짐, 눈물이 넘쳐 마르지 않는다는 내용, 비처럼 부드럽게 앞으로 여러 해 내리는 이미지가 모두 유지됩니다. 'contain'을 '포함하고 있으며'로 옮겨 어색하지만 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'And yet'의 대조가 '하지만'으로, 'that they will never dry'의 결과 관계가 '마르지 않을'로 남아 있어 질문 1~3 모두 아니오입니다. 'Descending'의 주어가 눈물에서 눈으로 읽힐 여지는 있으나 지시 대상이 바뀐 것으로 보기는 어렵습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기도 속 화자의 고백·호소 → 고백·호소. 발화 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 스스로에게 거는 금지 'must not cry'가 '울지 말아야 하지만'으로 금지 범주를 유지합니다. 비의무로 바뀌지 않았으므로 훼손이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"주님께 하는 기도의 시적 어조가 '오, 주님'과 평서 종결로 유지되며 관계에 어긋나는 표현이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Lord'는 일반적인 종교적 호칭으로 번역도 통용 표현이며, 별도로 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 717,
+    "output_tokens": 866,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

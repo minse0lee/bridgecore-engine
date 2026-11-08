@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgq9Nx6wsjVZX5YHFU7k7",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P016\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"son\",\"tgt_span\":\"아들아\",\"description\":\"선장이 젊은 상대를 부르는 호칭 'son'(친근한 호칭)이 실제 친족 관계의 '아들아'로 옮겨져, 실제 부자 관계가 아닌 사람에게 친족 호칭이 쓰임\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"이스터 섬이라는 대상과 '저것이 ~이다'라는 지시 내용이 유지됩니다. 호칭의 관계 문제는 Register에서 판정합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'That'을 '그곳'으로 옮겨 지시 대상(섬)이 유지되며, 연결·초점 관계의 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"선장이 상대에게 섬을 알려 주는 발화 → 섬을 알려 주는 발화로 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 단순 설명입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(호칭): 문맥상 선장과 젊은 상대는 실제 부자 관계가 아닐 가능성이 높은데, 'son'을 '아들아'로 옮겨 실제 친족 호칭처럼 읽히게 하여 관계가 달라졌습니다. 반말 말투 자체는 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"지명(이스터 섬)만 있고 별도로 판정할 문화·제도적 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 467,
+    "output_tokens": 731,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

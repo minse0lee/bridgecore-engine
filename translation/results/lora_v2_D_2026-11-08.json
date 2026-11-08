@@ -1,0 +1,19 @@
+{
+ "run": "lora_v2_D", "notebook": "03_설정비교_본학습_v2.ipynb (MODE=final)",
+ "config": {"r": 64, "lora_alpha": 128, "target_modules": "all-linear", "lr": 2e-4, "epochs_planned": 3, "grad_ckpt": true, "ratio_filter": [0.2, 1.0]},
+ "env": {"torch": "2.11.0+cu130", "transformers": "5.22.0", "revision": "9f2797629c31e69617186dbe5f0ca43bf662f36d", "gpu": "A100 80GB"},
+ "train": {"hours": 5.84, "cu_est": 43.9, "peak_mem_gb_1e9": 36.6, "stopped_at": 10000, "total_planned": 14625, "early_stop": true,
+           "best": "checkpoint-7000", "best_valid_chrf_300": 48.05,
+           "evals_step_loss_chrf": [[1000, 0.669, 45.36], [2000, 0.6467, 46.77], [3000, 0.6371, 46.73], [4000, 0.6223, 47.25], [5000, 0.6206, 47.23],
+                                    [6000, 0.6205, 48.04], [7000, 0.6191, 48.05], [8000, 0.6161, 47.84], [9000, 0.6158, 47.34], [10000, 0.6424, 47.47]]},
+ "aihub_test500": {"base": {"chrF": 37.43, "chrF++": 36.27, "BLEU_ko_mecab": 32.08}, "lora": {"chrF": 45.93, "chrF++": 45.03, "BLEU_ko_mecab": 41.91},
+                   "chrF_diff": 8.5, "chrF_diff_95ci": [7.29, 9.81]},
+ "compare_v1_test500": {"v1_lora": {"chrF": 46.01, "chrF++": 45.13, "BLEU_ko_mecab": 42.12, "note": "BLEU ko-mecab은 11/8 v1 번역 파일로 다시 계산"},
+                        "v2_minus_v1": {"chrF": -0.08, "chrF++": -0.10, "BLEU_ko_mecab": -0.21},
+                        "note": "학습 전 점수가 v1 실행과 완전히 같음(37.43/32.08) → 같은 평가셋·같은 계산. v2 평가 번역 파일이 없어 v1-v2 짝 부트스트랩은 못 함"},
+ "pilot60_6axis_v1_1_sonnet_x2": {"violated_cells": {"base": 68.5, "v1": 37.5, "v2": 47.5}, "violated_sentences": {"base": 39.5, "v1": 27.5, "v2": 30},
+                                  "major_plus_cells": {"base": 35, "v1": 13.5, "v2": 17.5},
+                                  "v2_minus_v1_cells": 10.0, "v2_minus_v1_95ci_item_bootstrap": [-1.5, 22.0]},
+ "v1_vs_v2_valid": "파일 미수령 (runs/lora_v2_D/v1_vs_v2_valid.json)",
+ "pilot60_base_same_as_v1_run": "60/60 동일 (학습 전 번역 재현됨)"
+}

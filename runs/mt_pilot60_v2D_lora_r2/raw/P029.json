@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgq9Q54vhBWtxixEjr8K7",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P029\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"week after week\",\"tgt_span\":\"몇 주가 지나도록\",\"description\":\"'매주 반복해서'라는 반복 표현이 '몇 주가 지나도록'이라는 경과 기간 표현으로 바뀜. 다만 앞 문맥의 3주 반복 서술과 호응하여 사태는 유사하게 읽혀 의미 변화는 거의 없음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"미켈라가 서명을 더 받았으나 교사들이 행동이 개선되지 않았다고 보고했다는 내용, 부정적 결과가 유지됩니다. '몇 주가 지나도록'은 week after week의 반복 의미를 대체로 전달하는 통상적 대응입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"though의 양보 관계가 '받았음에도 불구하고'로 유지되고, 그녀의 지시 대상(미켈라)도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사례 서술(개입이 효과 없었음을 설명) → 사례 서술로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"사례 서술이며 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 '~했다' 평서체가 사례 설명의 격식에 맞고, 호칭·태도 변화가 없습니다. '선생들'은 어색할 수 있으나 관계를 바꾸지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"제도·단위·관습 등 문화 고유 대상이 없고 인명만 등장합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 727,
+    "output_tokens": 740,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

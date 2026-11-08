@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgq9NA8y71z6oqeRH4KMm",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P007\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"torrents of tears often poured from his eyes in fits of weeping\",\"tgt_span\":\"눈물이 종종 그의 눈에서 흘러내려\",\"description\":\"'torrents of tears'(쏟아지는 눈물의 급류)와 'in fits of weeping'(발작적 울음)이 '눈물이 흘러내려'로 줄어 눈물의 양과 울음 발작이 사라짐\"},{\"id\":\"E002\",\"src_span\":\"discovered that there were times when the hump in his back became greater than ever before, and that torrents of tears often poured\",\"tgt_span\":\"둔덕이 전보다 더 커지고 눈물이 종종 그의 눈에서 흘러내려 강을 범람시키는 때가 있다는 것을\",\"description\":\"두 개의 발견('혹이 이전보다 커지는 때가 있다'와 '눈물이 자주 쏟아진다')이 하나로 합쳐졌고, '때가 있다'가 눈물 부분에도 걸려 구조가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(수량·정도): 'torrents of tears'와 'fits of weeping'이 '눈물이 흘러내려'로 약해져 눈물의 양이 줄었으나, 눈물이 강을 범람시킨다는 핵심 사실은 유지되어 요지는 같습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2(연결 관계): 두 개의 발견이 '때가 있다는 것' 하나로 합쳐져, 눈물 쏟음이 별개의 발견임을 나타내던 병렬 구조가 달라졌습니다. 다만 두 내용 모두 전달되어 요지는 같습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사건 서술 → 사건 서술. 관찰과 발견을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 사건 서술이며 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사 본문의 평서 서술체 '-했다'가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"피트 단위는 숫자와 함께 정확히 옮겨져 다른 단위로 바꾸지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 912,
+    "output_tokens": 980,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
