@@ -1,18 +1,24 @@
-"""EPUB 책 → 번역 입력 문장 → (Colab 번역) → 한국어 EPUB 재조립 · 6축 검증용 무작위 표본.
+"""EPUB 책 → 번역 입력 문장 → (Colab 04 노트북 번역) → 한국어 EPUB·대역본·대조표 · 6축 검증용 무작위 표본.
 
     python translation/epub_tools.py extract BOOK.epub OUT_DIR
-        OUT_DIR/sentences.jsonl      모든 문장(원래 위치 포함). 번역 안 할 문장(숫자·기호만)은 translate=false
-        OUT_DIR/translate_input.jsonl 번역할 문장만 {id, en} → 드라이브 translate_inputs/ 에 올림
-        OUT_DIR/manifest.json        책 정보, 문장 수, 본문 대비 추출 비율, 너무 긴 문장 수, DRM 검사 결과
-    python translation/epub_tools.py rebuild BOOK.epub OUT_DIR/sentences.jsonl MT.jsonl OUT.epub
-        MT.jsonl: 노트북 출력({id, en, mt})
+        OUT_DIR/sentences.jsonl       모든 문장(원래 위치 포함). 번역 안 할 문장은 skip에 이유(pg_boilerplate·no_letters)
+        OUT_DIR/translate_input.jsonl 번역할 문장만 {id, en} → 드라이브 bridgecore_mt/book/ 에 올림
+        OUT_DIR/manifest.json         책 정보, 문장 수, 본문 대비 추출 비율, 너무 긴 문장 수, DRM 검사 결과
+    python translation/epub_tools.py rebuild BOOK.epub OUT_DIR/sentences.jsonl MT.jsonl OUT.epub [--mode ko|bilingual]
+        ko: 번역문으로 교체한 한국어 EPUB / bilingual: 문단마다 원문 아래 번역문을 붙인 대역 EPUB
+    python translation/epub_tools.py export OUT_DIR/sentences.jsonl MT.jsonl REVIEW_DIR [--base BASE_MT.jsonl]
+        paragraphs.csv·sentences.csv(엑셀용 원문·번역 대조), bilingual.txt, ko.txt
     python translation/epub_tools.py sample OUT_DIR/sentences.jsonl MT.jsonl ITEMS.jsonl --n 300 --seed 20261109
-        검증엔진 입력 형식(파일럿 문항과 같은 필드)으로 무작위 표본
+        검증엔진 입력 형식(파일럿 문항과 같은 필드)으로 본문 문장 무작위 표본
+
+입력: 목차(EPUB3 nav, EPUB2 toc.ncx)·본문을 한 번에 처리. 구텐베르크 책은 START/END 표시 바깥과
+pg-header·pg-footer(라이선스 문구)를 번역하지 않고 원문 그대로 둔다.
 
 한계
-- 문단(블록) 단위로 번역문을 갈아끼우므로 문단 안의 기울임·굵게·링크 같은 서식은 사라진다.
-  각주 번호 링크(noteref)만 문단 끝에 다시 붙인다
+- 문단(블록) 단위로 번역문을 갈아끼우므로 문단 안의 기울임·굵게 같은 서식은 사라진다.
+  링크 하나로만 된 항목(목차 등)은 링크를 살리고, 각주 번호 링크(noteref)는 문단 끝에 다시 붙인다
 - 문장 단위 번역(학습 데이터와 같은 단위)이라 앞뒤 문맥은 번역에 쓰이지 않는다
+- 하위 목록을 가진 목록 항목처럼 블록 안에 블록이 섞인 경우 바깥 글자가 빠질 수 있음 → manifest의 coverage_chars로 확인
 - DRM(암호화)이 걸린 EPUB은 처리하지 않는다 → 출판사에 DRM 없는 파일을 요청
 """
 from __future__ import annotations
@@ -99,13 +105,36 @@ def _text(block, skip_els=()) -> str:
     return re.sub(r"\s+", " ", s).strip()
 
 
-def _leaf_blocks(root):
-    """블록 요소 중 안에 다른 블록이 없는 것 (div 안에 p가 있으면 p만)."""
+PG_MARK = re.compile(r"\*{3}\s*(START|END) OF (THE|THIS) PROJECT GUTENBERG", re.I)
+PG_ATTR = re.compile(r"pg-?(header|footer|boilerplate)", re.I)
+
+
+def _in_pg_boilerplate(el) -> bool:
+    """구텐베르크 라이선스 머리말·꼬리말(id·class에 pg-header/pg-footer/pg-boilerplate)."""
+    return any(PG_ATTR.search(f'{a.get("id", "")} {a.get("class", "")}') for a in [el, *el.iterancestors()])
+
+
+def _blocks(root):
+    """번역 단위 요소.
+    - 본문: 블록 요소 중 안에 다른 블록이 없는 것 (div 안에 p가 있으면 p만)
+    - 목차(<nav>): 중첩 목록이라 li 대신 각 항목의 링크(a)·span·제목
+    - toc.ncx(EPUB2 목차): navLabel·docTitle 안의 text"""
+    if _local(root) == "ncx":
+        for el in root.iter():
+            if _local(el) == "text" and any(_local(a) in ("navlabel", "doctitle") for a in el.iterancestors()):
+                yield el
+        return
     body = next((e for e in root.iter() if _local(e) == "body"), root)
     for el in body.iter():
-        if _local(el) not in BLOCK or any(_local(a) in SKIP for a in el.iterancestors()):
+        name = _local(el)
+        anc = [_local(a) for a in el.iterancestors()]
+        if any(a in SKIP for a in anc):
             continue
-        if any(_local(d) in BLOCK for d in el.iterdescendants()):
+        if "nav" in anc:
+            if (name in ("a", "span") and "a" not in anc and "span" not in anc) or name in HEADING:
+                yield el
+            continue
+        if name not in BLOCK or any(_local(d) in BLOCK | {"nav"} for d in el.iterdescendants()):
             continue
         yield el
 
@@ -129,56 +158,85 @@ def _open_book(epub: Path):
     for it in opf.iter():
         if _local(it) == "item":
             manifest[it.get("id")] = (posixpath.normpath(posixpath.join(base, unquote(it.get("href")))),
-                                      it.get("media-type", ""), it.get("properties", ""))
-    spine = []
+                                      it.get("media-type", ""), it.get("properties", "") or "")
+    docs, seen = [], set()
     for ir in opf.iter():
         if _local(ir) == "itemref" and ir.get("idref") in manifest:
             href, mt, props = manifest[ir.get("idref")]
-            if "html" in mt:
-                spine.append({"file": href, "linear": ir.get("linear", "yes"), "nav": "nav" in props})
+            if "html" in mt and href not in seen:
+                docs.append({"file": href, "kind": "nav" if "nav" in props.split() else "body", "in_spine": True}); seen.add(href)
+    for href, mt, props in manifest.values():   # 본문 흐름(spine)에 없는 목차 문서도 번역
+        if href in seen:
+            continue
+        if "nav" in props.split() and "html" in mt:
+            docs.append({"file": href, "kind": "nav", "in_spine": False}); seen.add(href)
+        elif mt == "application/x-dtbncx+xml":
+            docs.append({"file": href, "kind": "ncx", "in_spine": False}); seen.add(href)
     meta = {k: (opf.findtext(f".//dc:{k}", namespaces=NS_OPF) or "").strip() for k in ("title", "creator", "language", "publisher")}
-    return z, opf_path, spine, meta, drm
+    return z, opf_path, docs, meta, drm
 
 
 def extract(epub: Path, out_dir: Path) -> dict:
-    z, _, spine, meta, drm = _open_book(epub)
+    z, _, docs, meta, drm = _open_book(epub)
     out_dir.mkdir(parents=True, exist_ok=True)
-    rows, docs = [], []
+    has_start = any(re.search(rb"\*{3}\s*START OF (THE|THIS) PROJECT GUTENBERG", z.read(d["file"]), re.I)
+                    for d in docs if d["kind"] == "body")
+    state = "pre" if has_start else "body"   # 구텐베르크 START 표시 앞·END 표시 뒤는 라이선스 문구
+    rows, out_docs = [], []
     nb = ns = 0
     body_chars = got_chars = 0
-    for d in spine:
+    for d in docs:
         root = etree.fromstring(z.read(d["file"]), PARSER)
         if root is None:
-            docs.append({**d, "blocks": 0, "error": "파싱 실패"}); continue
+            out_docs.append({**d, "blocks": 0, "error": "파싱 실패"}); continue
         tree = root.getroottree()
-        body = next((e for e in root.iter() if _local(e) == "body"), root)
-        body_chars += len(re.sub(r"\s+", "", _text(body)))
+        if d["kind"] != "ncx":
+            body = next((e for e in root.iter() if _local(e) == "body"), root)
+            body_chars += len(re.sub(r"\s+", "", _text(body)))
         chapter, n_here = "", 0
-        for el in _leaf_blocks(root):
+        for el in _blocks(root):
             refs = _noterefs(el)
             para = _text(el, refs)
             if not para:
                 continue
-            got_chars += len(re.sub(r"\s+", "", para))
-            if _local(el) in HEADING:
-                chapter = para[:120]
-            sents = split_sentences(para)
+            if d["kind"] != "ncx":
+                got_chars += len(re.sub(r"\s+", "", para))
+            skip = None
+            if d["kind"] == "body":
+                m = PG_MARK.search(para)
+                if m:
+                    skip = "pg_boilerplate"
+                    state = "body" if m.group(1).upper() == "START" else "post"
+                elif state != "body" or _in_pg_boilerplate(el):
+                    skip = "pg_boilerplate"
+                if _local(el) in HEADING and not skip:
+                    chapter = para[:120]
+            # 제목·링크 하나로 된 항목(목차 줄)은 "Chapter I. The Start"처럼 마침표가 있어도 나누지 않는다
+            whole = d["kind"] != "body" or _local(el) in HEADING or _target(el) is not el
+            sents = [para] if whole else split_sentences(para)
             for k, s in enumerate(sents):
                 ns += 1
-                rows.append({"id": f"S{ns:06d}", "block": f"B{nb:05d}", "file": d["file"], "xpath": tree.getpath(el),
-                             "tag": _local(el), "sent_idx": k, "n_sents": len(sents), "en": s, "paragraph": para,
-                             "chapter": chapter, "nav": d["nav"], "n_noterefs": len(refs),
-                             "translate": bool(re.search(r"[A-Za-z]{2,}", s)), "long": len(s.split()) > LONG_WORDS})
+                sk = skip or (None if re.search(r"[A-Za-z]{2,}", s) else "no_letters")
+                if not sk and re.fullmatch(r"(CHAPTER |BOOK |PART )?[IVXLCDM]+\.?", s.strip()):
+                    sk = "numeral"   # 로마 숫자 장 번호(II, XIV.)는 그대로 둔다
+                rows.append({"id": f"S{ns:06d}", "block": f"B{nb:05d}", "file": d["file"], "kind": d["kind"],
+                             "xpath": tree.getpath(el), "tag": _local(el), "sent_idx": k, "n_sents": len(sents),
+                             "en": s, "paragraph": para, "chapter": chapter, "n_noterefs": len(refs),
+                             "skip": sk, "translate": sk is None, "long": len(s.split()) > LONG_WORDS})
             nb += 1; n_here += 1
-        docs.append({**d, "blocks": n_here})
+        out_docs.append({**d, "blocks": n_here})
     sha = hashlib.sha256(epub.read_bytes()).hexdigest()
     tr = [r for r in rows if r["translate"]]
-    man = {"source": epub.name, "sha256": sha, "meta": meta, "drm_check": drm, "docs": docs,
+    import collections
+    man = {"source": epub.name, "sha256": sha, "meta": meta, "drm_check": drm, "docs": out_docs,
+           "gutenberg_markers": has_start,
            "n_blocks": nb, "n_sentences": len(rows), "n_translate": len(tr),
+           "skipped": dict(collections.Counter(r["skip"] for r in rows if r["skip"])),
+           "translate_by_kind": dict(collections.Counter(r["kind"] for r in tr)),
            "words_translate": sum(len(r["en"].split()) for r in tr),
            "long_sentences": sum(r["long"] for r in tr),
            "coverage_chars": round(got_chars / body_chars, 3) if body_chars else None,
-           "note": "coverage_chars가 0.95보다 낮으면 블록 밖 본문(예: div 바로 아래 글자)이 빠졌을 수 있음 → 확인"}
+           "note": "coverage_chars가 0.95보다 낮으면 블록 밖 본문(예: 하위 목록이 있는 항목의 글자)이 빠졌을 수 있음 → 확인"}
     w = lambda p, rs: p.write_text("".join(json.dumps(r, ensure_ascii=False) + "\n" for r in rs), encoding="utf-8")
     w(out_dir / "sentences.jsonl", rows)
     w(out_dir / "translate_input.jsonl", [{"id": r["id"], "en": r["en"]} for r in tr])
@@ -190,63 +248,138 @@ def _load(p: Path) -> list[dict]:
     return [json.loads(l) for l in open(p, encoding="utf-8") if l.strip()]
 
 
-def _block_translations(rows, mt):
+def _mt_map(p) -> dict:
+    return {r["id"]: (r.get("mt") or "").strip() for r in _load(p)} if p else {}
+
+
+def _blocks_from_rows(rows, mt) -> tuple[list[dict], int]:
+    """문장 행을 블록(문단)으로 묶어 원문·번역 문단을 만든다. 번역 없는 문장은 원문 그대로."""
     blocks, missing = {}, 0
     for r in rows:
         t = r["en"]
         if r["translate"]:
-            if r["id"] in mt and (mt[r["id"]] or "").strip():
-                t = mt[r["id"]].strip()
+            if mt.get(r["id"]):
+                t = mt[r["id"]]
             else:
                 missing += 1
-        blocks.setdefault((r["file"], r["xpath"]), []).append(t)
-    return {k: " ".join(v) for k, v in blocks.items()}, missing
+        b = blocks.setdefault((r["file"], r["xpath"]), {"file": r["file"], "xpath": r["xpath"], "kind": r["kind"],
+                                                        "tag": r["tag"], "chapter": r["chapter"], "en": r["paragraph"],
+                                                        "skip": r["skip"], "parts": []})
+        b["parts"].append(t)
+    out = []
+    for b in blocks.values():
+        b["ko"] = " ".join(b.pop("parts"))
+        out.append(b)
+    return out, missing
 
 
-def rebuild(epub: Path, sentences: Path, mt_path: Path, out: Path, lang: str = "ko") -> dict:
-    z, opf_path, spine, _, _ = _open_book(epub)
-    rows = _load(sentences)
-    mt = {r["id"]: r.get("mt") for r in _load(mt_path)}
-    blocks, missing = _block_translations(rows, mt)
+def _target(el):
+    """링크 하나로만 된 블록(본문 속 목차 항목 등)은 링크 안의 글자만 바꿔 링크를 살린다."""
+    kids = [c for c in el if isinstance(c.tag, str)]
+    if (len(kids) == 1 and _local(kids[0]) == "a" and not (el.text or "").strip()
+            and not (kids[0].tail or "").strip()):
+        return _target(kids[0])
+    return el
+
+
+def _sub(parent, name, **attrs):
+    ns = etree.QName(parent).namespace
+    return etree.SubElement(parent, f"{{{ns}}}{name}" if ns else name, **attrs)
+
+
+def _replace(el, t):
+    el = _target(el)
+    refs = [copy.deepcopy(r) for r in _noterefs(el)]
+    for r in refs:
+        r.tail = None
+    for c in list(el):
+        el.remove(c)
+    el.text = t
+    for r in refs:
+        el.append(r)
+
+
+def _append_ko(el, t):
+    if _local(el) == "text":   # toc.ncx는 글자만 가능
+        el.text = f"{(el.text or '').strip()} / {t}"
+        return
+    el = _target(el)
+    _sub(el, "br")
+    s = _sub(el, "span", **{"class": "bc-ko", "lang": "ko"})
+    s.text = t
+
+
+def rebuild(epub: Path, sentences: Path, mt_path: Path, out: Path, mode: str = "ko") -> dict:
+    """mode='ko': 번역문으로 교체 / 'bilingual': 원문 아래에 번역문을 덧붙인 대역본.
+    구텐베르크 라이선스 문구·숫자만 있는 블록은 원문 그대로 둔다."""
+    assert mode in ("ko", "bilingual")
+    z, opf_path, _, _, _ = _open_book(epub)
+    blocks, missing = _blocks_from_rows(_load(sentences), _mt_map(mt_path))
     by_file = {}
-    for (f, xp), t in blocks.items():
-        by_file.setdefault(f, {})[xp] = t
-    new = {}
-    replaced = 0
-    for f, xmap in by_file.items():
+    for b in blocks:
+        by_file.setdefault(b["file"], []).append(b)
+    new, changed = {}, 0
+    for f, bs in by_file.items():
         root = etree.fromstring(z.read(f), PARSER)
         tree = root.getroottree()
         targets = []
-        for xp, t in xmap.items():   # 위치를 먼저 모두 찾고 나서 바꾼다
-            hits = tree.xpath(xp)
+        for b in bs:   # 위치를 먼저 모두 찾고 나서 바꾼다
+            hits = tree.xpath(b["xpath"])
             if len(hits) != 1:
-                raise SystemExit(f"{f} {xp}: 위치를 찾지 못함 (추출한 EPUB과 다른 파일?)")
-            targets.append((hits[0], t))
-        for el, t in targets:
-            refs = [copy.deepcopy(r) for r in _noterefs(el)]
-            for r in refs:
-                r.tail = None
-            for c in list(el):
-                el.remove(c)
-            el.text = t
-            for r in refs:
-                el.append(r)
-            replaced += 1
-        root.set("lang", lang)
-        root.set("{http://www.w3.org/XML/1998/namespace}lang", lang)
+                raise SystemExit(f"{f} {b['xpath']}: 위치를 찾지 못함 (추출한 EPUB과 다른 파일?)")
+            targets.append((hits[0], b))
+        for el, b in targets:
+            if b["skip"] == "pg_boilerplate" or b["ko"] == b["en"]:
+                continue
+            (_replace if mode == "ko" else _append_ko)(el, b["ko"])
+            changed += 1
+        if mode == "ko" and _local(root) == "html":
+            root.set("lang", "ko")
+            root.set("{http://www.w3.org/XML/1998/namespace}lang", "ko")
         new[f] = etree.tostring(tree, xml_declaration=True, encoding="utf-8")
-    opf = etree.fromstring(z.read(opf_path), PARSER)
-    for el in opf.iter():
-        if _local(el) == "language" and etree.QName(el).namespace == NS_OPF["dc"]:
-            el.text = lang
-    new[opf_path] = etree.tostring(opf.getroottree(), xml_declaration=True, encoding="utf-8")
+    if mode == "ko":
+        opf = etree.fromstring(z.read(opf_path), PARSER)
+        for el in opf.iter():
+            if _local(el) == "language" and etree.QName(el).namespace == NS_OPF["dc"]:
+                el.text = "ko"
+        new[opf_path] = etree.tostring(opf.getroottree(), xml_declaration=True, encoding="utf-8")
     with zipfile.ZipFile(out, "w") as zo:
         zo.writestr(zipfile.ZipInfo("mimetype"), z.read("mimetype"), compress_type=zipfile.ZIP_STORED)
         for info in z.infolist():
             if info.filename == "mimetype":
                 continue
             zo.writestr(info.filename, new.get(info.filename, z.read(info.filename)), compress_type=zipfile.ZIP_DEFLATED)
-    rep = {"out": str(out), "blocks_replaced": replaced, "sentences_missing_mt_kept_english": missing}
+    rep = {"out": str(out), "mode": mode, "blocks_changed": changed, "sentences_missing_mt_kept_english": missing}
+    print(json.dumps(rep, ensure_ascii=False))
+    return rep
+
+
+def export(sentences: Path, mt_path: Path, out_dir: Path, base_path: Path | None = None) -> dict:
+    """사람이 보는 원문·번역 대조 파일. 라이선스 문구는 뺀다.
+    paragraphs.csv(문단 대조, 엑셀용) · sentences.csv(문장 대조) · bilingual.txt(원문/번역 번갈아) · ko.txt(번역만)"""
+    import csv
+    rows = _load(sentences)
+    mt, base = _mt_map(mt_path), _mt_map(base_path)
+    blocks, missing = _blocks_from_rows(rows, mt)
+    bblocks = {(b["file"], b["xpath"]): b["ko"] for b in _blocks_from_rows(rows, base)[0]} if base else {}
+    keep = [b for b in blocks if b["skip"] != "pg_boilerplate"]
+    out_dir.mkdir(parents=True, exist_ok=True)
+    with open(out_dir / "paragraphs.csv", "w", newline="", encoding="utf-8-sig") as f:
+        w = csv.writer(f)
+        w.writerow(["순번", "구분", "장", "원문", "번역"] + (["학습 전 번역"] if base else []))
+        for k, b in enumerate(keep, 1):
+            w.writerow([k, {"body": "본문", "nav": "목차", "ncx": "목차(ncx)"}[b["kind"]], b["chapter"], b["en"], b["ko"]]
+                       + ([bblocks[(b["file"], b["xpath"])]] if base else []))
+    with open(out_dir / "sentences.csv", "w", newline="", encoding="utf-8-sig") as f:
+        w = csv.writer(f)
+        w.writerow(["id", "구분", "장", "원문 문장", "번역"] + (["학습 전 번역"] if base else []))
+        for r in rows:
+            if r["translate"]:
+                w.writerow([r["id"], r["kind"], r["chapter"], r["en"], mt.get(r["id"], "")] + ([base.get(r["id"], "")] if base else []))
+    body = [b for b in keep if b["kind"] == "body"]
+    (out_dir / "bilingual.txt").write_text("\n\n".join(f"{b['en']}\n{b['ko']}" for b in body) + "\n", encoding="utf-8")
+    (out_dir / "ko.txt").write_text("\n\n".join(b["ko"] for b in body) + "\n", encoding="utf-8")
+    rep = {"out_dir": str(out_dir), "paragraphs": len(keep), "sentences_missing_mt": missing}
     print(json.dumps(rep, ensure_ascii=False))
     return rep
 
@@ -260,9 +393,9 @@ def sample(sentences: Path, mt_path: Path, out: Path, n: int, seed: int, min_wor
            title: str = "", author: str = "", mt_system: str = "madlad10b_lora_v1") -> list[dict]:
     """번역 대상 문장 중 단어 min_words개 이상인 문장에서 무작위 n개. 목차(nav) 문서는 제외."""
     rows = _load(sentences)
-    mt = {r["id"]: r.get("mt") for r in _load(mt_path)}
-    blocks, _ = _block_translations(rows, mt)
-    pool = [r for r in rows if r["translate"] and not r["nav"] and len(r["en"].split()) >= min_words and mt.get(r["id"])]
+    mt = _mt_map(mt_path)
+    blocks = {(b["file"], b["xpath"]): b["ko"] for b in _blocks_from_rows(rows, mt)[0]}
+    pool = [r for r in rows if r["translate"] and r["kind"] == "body" and len(r["en"].split()) >= min_words and mt.get(r["id"])]
     pick = sorted(random.Random(seed).sample(pool, min(n, len(pool))), key=lambda r: r["id"])
     items = []
     for k, r in enumerate(pick, 1):
@@ -282,16 +415,22 @@ def main(argv=None):
     s = sub.add_parser("extract"); s.add_argument("epub", type=Path); s.add_argument("out_dir", type=Path)
     s = sub.add_parser("rebuild"); s.add_argument("epub", type=Path); s.add_argument("sentences", type=Path)
     s.add_argument("mt", type=Path); s.add_argument("out", type=Path)
+    s.add_argument("--mode", choices=["ko", "bilingual"], default="ko")
+    s = sub.add_parser("export"); s.add_argument("sentences", type=Path); s.add_argument("mt", type=Path)
+    s.add_argument("out_dir", type=Path); s.add_argument("--base", type=Path, help="학습 전 번역(대조 열 추가)")
     s = sub.add_parser("sample"); s.add_argument("sentences", type=Path); s.add_argument("mt", type=Path)
     s.add_argument("out", type=Path); s.add_argument("--n", type=int, default=300); s.add_argument("--seed", type=int, default=20261109)
     s.add_argument("--title", default=""); s.add_argument("--author", default=""); s.add_argument("--mt-system", default="madlad10b_lora_v1")
     a = p.parse_args(argv)
     if a.cmd == "extract":
         m = extract(a.epub, a.out_dir)
-        print(json.dumps({k: m[k] for k in ("meta", "n_blocks", "n_sentences", "n_translate", "words_translate",
-                                            "long_sentences", "coverage_chars")}, ensure_ascii=False, indent=1))
+        print(json.dumps({k: m[k] for k in ("meta", "gutenberg_markers", "n_blocks", "n_sentences", "n_translate", "skipped",
+                                            "translate_by_kind", "words_translate", "long_sentences", "coverage_chars")},
+                         ensure_ascii=False, indent=1))
     elif a.cmd == "rebuild":
-        rebuild(a.epub, a.sentences, a.mt, a.out)
+        rebuild(a.epub, a.sentences, a.mt, a.out, a.mode)
+    elif a.cmd == "export":
+        export(a.sentences, a.mt, a.out_dir, a.base)
     else:
         sample(a.sentences, a.mt, a.out, a.n, a.seed, title=a.title, author=a.author, mt_system=a.mt_system)
 
