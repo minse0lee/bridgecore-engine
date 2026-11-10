@@ -202,6 +202,8 @@ def extract(epub: Path, out_dir: Path) -> dict:
             if d["kind"] != "ncx":
                 got_chars += len(re.sub(r"\s+", "", para))
             skip = None
+            if d["kind"] != "body" and re.search(r"PROJECT GUTENBERG", para, re.I):
+                skip = "pg_boilerplate"   # 목차 속 라이선스 항목
             if d["kind"] == "body":
                 m = PG_MARK.search(para)
                 if m:
