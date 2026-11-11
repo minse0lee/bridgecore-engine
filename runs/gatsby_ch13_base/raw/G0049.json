@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfMBgTv22Z3nfgVR1FD",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0049\",\"evaluable\":false,\"evaluable_note\":\"생성붕괴 검토 필요: 번역문이 '그러나'로 시작한 뒤 '그 순간'을 반복할 뿐이며, 원문의 핵심 내용(개츠비를 모르는 화자, 그 이름의 신사가 사는 저택)을 복원할 수 없습니다. 문단 전체 번역의 다른 위치에도 해당 내용이 없습니다.\",\"errors\":[],\"axes\":{\"Semantic\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"생성붕괴 검토 필요: '그 순간'만 반복되어 행위자·행위·대상을 원문과 맞춰 볼 수 없습니다.\"},\"Textual\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"생성붕괴 검토 필요: 'Or, rather'의 정정 관계와 지시 관계를 비교할 내용이 번역문에 없습니다.\"},\"Context\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"생성붕괴 검토 필요: 번역문이 반복 구절로 붕괴되어 발화 기능을 비교할 수 없습니다.\"},\"Deontic\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"생성붕괴 검토 필요: 번역문이 붕괴되어 있어 이 축을 판정하지 않고 판단보류로 둡니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"생성붕괴 검토 필요: 번역문이 붕괴되어 서술자의 태도와 호칭(Mr. Gatsby)을 비교할 수 없습니다.\"},\"Cultural\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"생성붕괴 검토 필요: 번역문이 붕괴되어 있어 호칭 'Mr.'와 같은 문화 요소를 대조할 수 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1871,
+    "output_tokens": 736,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

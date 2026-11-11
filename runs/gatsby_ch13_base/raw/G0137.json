@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfTDRJtB5HFyrfysFfD",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0137\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I know somebody there.\",\"tgt_span\":\"거기에 누군가가 있었다.\",\"description\":\"화자가 그곳에 아는 사람이 있다는 진술이 '거기에 누군가가 있었다'는 존재 서술로 바뀌어 화자(I)와 know(앎)가 사라지고 시제도 과거로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"“I know somebody there.”\",\"tgt_span\":\"거기에 누군가가 있었다.\",\"description\":\"따옴표 대화문이 화자의 말이 아닌 서술문으로 옮겨져 직접 발화 형식이 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물·행위·시간): '내가 거기 누군가를 안다'가 '거기에 누군가가 있었다'로 바뀌어 화자의 앎과 관계가 사라지고 시제도 달라져 요지가 다르게 읽힙니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1(지시): 직접 인용이 서술문이 되어 'I'가 가리키는 화자가 불분명해지고 앞 문장 '웨스트 에그'와 이어지는 관계도 약해져 지시 관계가 바뀝니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"원문 기능 → 번역 기능: 화자가 상대의 거주지에 대해 자신의 지인을 언급하며 대화를 이어가는 발화 → 장면의 사실을 알리는 서술 설명으로 바뀝니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 평서문입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화문이 서술문으로 바뀌어 화자 간 관계와 경멸적 태도를 이 구간에서 판정할 근거가 부족합니다. 화자 말투가 반영되는지 확인하려면 번역된 대화 형식이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 475,
+    "output_tokens": 913,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

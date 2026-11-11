@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvffDT8ixtAJ62d4WJRt",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0318\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a fortnight\",\"tgt_span\":\"15일에 한 번\",\"description\":\"fortnight(2주=14일)를 15일로 잘못 옮겨 기간 수치가 달라짐\"},{\"id\":\"E002\",\"src_span\":\"a corps of caterers\",\"tgt_span\":\"식료품의 군단\",\"description\":\"출장 요리 업체 직원 무리(caterers)가 '식료품'으로 오역되어 행위 주체가 음식 공급자에서 물건으로 바뀜\"},{\"id\":\"E003\",\"src_span\":\"enough coloured lights to make a Christmas tree of Gatsby’s enormous garden\",\"tgt_span\":\"개츠비의 거대한 정원의 크리스마스 트리를 만들 수있는 캔버스의 몇 백 피트와 충분한 색상의 조명\",\"description\":\"정원 전체를 크리스마스 트리처럼 꾸밀 만큼의 조명이라는 관계가 흐려지고, '캔버스의 몇 백 피트'와 '충분한 조명'이 모두 크리스마스 트리를 만드는 재료처럼 읽히며 '정원으로 트리를 만든다'가 '정원의 트리'로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 2주(14일)가 15일로 바뀌었고, 행위자인 출장 요리 업자가 '식료품의 군단'으로 바뀌었으며, 정원을 트리처럼 꾸민다는 내용도 달라져 요지가 다르게 이해됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 1: 'enough ... to make a Christmas tree of the garden'의 관계가 번역에서 '정원의 크리스마스 트리'라는 소유 관계로 바뀌고 수식 범위가 캔버스 쪽으로 번져 지시·범위가 달라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 파티 준비 장면을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설의 서술 문장이며 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 평서 과거형('-내려왔다')이 유지되며 관계에 맞지 않는 높임이나 호칭 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"fortnight의 수치 오류는 Semantic에서만 판정하며, 이 문장에는 그 밖에 판정할 문화 고유의 제도·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1108,
+    "output_tokens": 1083,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

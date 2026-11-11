@@ -1,0 +1,21 @@
+{
+ "n": 2959,
+ "long_sentences": 0,
+ "seconds": {
+  "lora": 1003,
+  "base": 1428
+ },
+ "gpu": "NVIDIA A100-SXM4-40GB",
+ "python": "3.13.16",
+ "model": "google/madlad400-10b-mt",
+ "revision": "9f2797629c31e69617186dbe5f0ca43bf662f36d",
+ "adapter": "lora_v1",
+ "gen": {
+  "num_beams": 4,
+  "do_sample": false,
+  "max_new_tokens": 256
+ },
+ "prefix": "<2ko> ",
+ "transformers": "5.22.1",
+ "torch": "2.14.1+cu130"
+}

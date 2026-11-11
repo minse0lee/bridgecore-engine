@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfxzHsc851qNZEnEezQ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0621\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"house-party\",\"tgt_span\":\"집 파티\",\"description\":\"여러 날 묵는 하우스파티(house-party)를 '집 파티'로 옮겼으나 모임이라는 뜻은 유지됨. 의미 변화는 경미함.\"},{\"id\":\"E002\",\"src_span\":\"curious\",\"tgt_span\":\"흥미로운\",\"description\":\"'이상한·묘한'을 '흥미로운'으로 옮겨 평가어의 정도·뉘앙스만 달라짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"판단 질문 2: 같은 파티에서 자동차 운전에 관한 대화를 나눴다는 핵심 내용이 유지되고, curious→'흥미로운'은 평가어의 정도 차이에 그칩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'that same house-party'를 '바로 그 집 파티'로 옮겨 앞서 언급된 파티를 가리키는 지시와 'It was ... that' 강조 구문의 초점이 '그 파티에서'에 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 이후 일화를 도입하는 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 화자의 서술체가 '~였다' 평서체로 유지되며 관계·태도 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·단위·관습 대상이 없습니다. house-party의 번역은 의미 수준의 문제로 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 731,
+    "output_tokens": 761,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

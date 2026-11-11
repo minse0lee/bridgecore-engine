@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfcFpfunGbDUw3Zd4Zv",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0272\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“She’s a nice girl,” said Tom after a moment.\",\"tgt_span\":\"그녀는 침대에 누워 눈을 감았다\",\"description\":\"톰이 '그녀는 좋은 아가씨'라고 말한 발화 내용이 사라지고, 원문에 없는 '그녀가 침대에 누워 눈을 감았다'는 행위가 대신 들어감\"},{\"id\":\"E002\",\"src_span\":\"said Tom\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"화자 톰과 말하는 행위가 누락됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 행위자가 톰에서 그녀로, 행위가 발화에서 침대에 눕는 동작으로 바뀌고 'nice girl'이라는 평가 내용이 없어져 요지가 완전히 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'She'가 톰의 평가 대상인데 번역에서는 눈을 감는 행위의 주체가 되어 지시 관계가 바뀌었고, 다음 문장의 '그녀' 평가와의 연결도 끊깁니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"인물 평가를 하는 대화 발화 → 인물의 동작을 묘사하는 서술. 발화 기능이 사라졌습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰의 발화 자체가 번역에 없어 화자의 태도·격식을 비교할 대상이 없습니다. 대응 발화 확보가 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 517,
+    "output_tokens": 826,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfvcDWhhpGbSngQ1n2n",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0582\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Put her in reverse\",\"tgt_span\":\"그녀를 거꾸로 놓아라\",\"description\":\"자동차를 후진 기어에 넣으라는 뜻이 '그녀(여자)를 거꾸로 놓아라'로 오역되어 지시 대상(차)과 행위(후진 기어 변속)가 달라짐\"},{\"id\":\"E002\",\"src_span\":\"Put her in reverse.\",\"tgt_span\":\"그녀를 거꾸로 놓아라.\",\"description\":\"반말 명령형 '놓아라'로 옮겨, 차를 운전하는 상대(Gatsby 장면의 청자)에 대한 관계와 어조가 원문 문맥과 맞는지 불명확함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상·행위): 자동차(her)를 후진 기어에 넣으라는 지시가 '그녀를 거꾸로 놓아라'로 바뀌어 대상이 사람으로, 행위가 뒤집어 놓기로 달라져 요지를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(지시 표현): her가 자동차를 가리키는데 번역문의 '그녀'는 여성 인물로 읽혀 지시 대상이 바뀌었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"운전 동작 지시 → 동작 지시. 내용은 틀렸지만 상대에게 행동하도록 이끄는 명령 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 운전 방법 지시로 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'놓아라' 반말 명령형이 화자와 청자의 관계에 맞는지 판단하려면 해당 장면에서 두 인물의 관계와 대화 격식 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 468,
+    "output_tokens": 904,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

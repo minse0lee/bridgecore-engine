@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfHvfW6u1d77niEFibT",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0003\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"in a reserved way\",\"tgt_span\":\"예약 방식으로\",\"description\":\"reserved(말을 아끼는, 과묵한)를 '예약'(reservation)으로 오역하여 의사소통 방식의 의미가 사라짐\"},{\"id\":\"E002\",\"src_span\":\"unusually communicative\",\"tgt_span\":\"특이하게 의사 소통이되었고\",\"description\":\"'특이하게 소통이 잘 통한다'는 뜻이 '특이하게 의사소통이 되었다'로 흐려지고, 서로 말이 잘 통하는 관계라는 의미가 약해짐\"},{\"id\":\"E003\",\"src_span\":\"he meant a great deal more than that\",\"tgt_span\":\"그가 그것보다 훨씬 더 의미를 이해\",\"description\":\"'그가 그보다 훨씬 많은 것을 의미했다'는 내용이 '그가 … 훨씬 더 의미를 이해'로 바뀌어 의미 주체와 이해 대상이 불분명해지고 문장이 미완결로 끝남\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: reserved가 '예약'으로 오역되었고, 그가 훨씬 더 많은 것을 의미했다는 내용이 이해의 대상이 불분명한 말로 바뀌어 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'하지만'이 대조 관계를 유지하고, 지시어와 초점 표현도 달라지지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 서술(설명) → 서술(설명). 문장 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 같은 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 화자의 서술 어조를 가를 만한 호칭·높임 문제는 없고 평가 대상 구간에서 관계 변화도 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1435,
+    "output_tokens": 914,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

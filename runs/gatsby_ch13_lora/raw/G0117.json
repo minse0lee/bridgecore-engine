@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfRG7UrncoqT4yo8Dy8",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0117\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“You will,”\",\"tgt_span\":\"\\\"그렇게 할 것이다.\\\"\",\"description\":\"청자(you)가 주어인 'You will'이 주어 없는 '그렇게 할 것이다'로 옮겨져 대상이 불명확해짐. 다만 이어지는 문장에서 '당신은 그럴 것이다'로 복원되어 의미 변화는 크지 않음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'You will'은 앞선 대화를 받아 상대가 그렇게 될 것이라는 단정이며, '그렇게 할 것이다'는 주어가 생략되었지만 같은 예측으로 읽혀 내용은 유지됩니다. I answered shortly도 '짧게 대답했다'로 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"주어 'you'가 생략되었으나 한국어에서 통상적인 생략이며 문맥상 청자를 가리키는 관계가 유지되고, 연결 관계나 초점 표현의 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대의 말에 짧게 반박·단언하는 대답 → 짧게 대답하는 단언. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 같은 규범 의미가 없는 예측 서술의 will입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-할 것이다' 평서체는 서술 문체와 화자·청자의 관계에 비추어 적절한지 판단해야 하나, 인물 간 관계 정보(닉과 상대)와 번역 문체 기준이 이 문항에 제시되지 않아 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 484,
+    "output_tokens": 810,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

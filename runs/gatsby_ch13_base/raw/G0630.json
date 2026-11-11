@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvg1htUbGW2z2xWagtDv",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0630\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"It takes two to make an accident.\",\"tgt_span\":\"사고를 일으키기 위해서는 두 사람이 필요하다.\",\"description\":\"'사고는 두 사람이 있어야 난다'는 속담·격언적 의미를 '사고를 일으키려면 두 사람이 필요하다'는 문자 그대로의 진술로 옮겨, 상대(운전자)도 관여해야 사고가 난다는 함의가 전달되지 않을 수 있음. 또 '일으키다'는 고의적 행위처럼 읽힘.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사고가 나려면 두 사람(당사자)이 필요하다는 내용, 수량(둘), 필요 조건이 유지되어 있어 판단 질문 1에서 달라진 항목이 없습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현이 바뀐 것이 없고 '두 사람이 필요하다'는 관계가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞의 주장을 뒷받침하는 격언적 설명 → 설명(주장 뒷받침). 기능 종류가 같고 문맥상 같은 방식으로 읽힙니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 일반적 진술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 중 발화이나 평가조건상 특정 높임 요구가 없고 평서 어조가 크게 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 486,
+    "output_tokens": 752,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

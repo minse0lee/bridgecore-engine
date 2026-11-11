@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvg2F7RXi4Y6qRGsRm7t",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0638\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Everyone suspects himself of at least one of the cardinal virtues\",\"tgt_span\":\"모두가 적어도 하나의 기본 미덕의 자신을 의심하고\",\"description\":\"'자신이 적어도 하나의 기본 미덕을 지녔다고 (은근히) 여긴다'는 뜻의 suspects oneself of를 '자신을 의심하다'로 옮겨 의미가 반대에 가깝게 읽힘(자신의 미덕을 의심). 또한 cardinal virtues(4주덕 등 기본 덕목)를 '기본 미덕'으로 옮겨 일반 어휘화함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: '자신에게 미덕이 있다고 생각한다'가 '미덕의 자신을 의심한다'로 바뀌어 독자가 요지를 다르게(자기 의심으로) 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2: '미덕의 자신을'로 소유·목적 관계가 깨져 무엇이 의심·소유되는지 불분명하고, 뒤의 '이것은 나의 것'이 가리키는 '미덕을 지녔다는 믿음'과 연결되지 않습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 자기소개적 진술 → 자기소개적 진술. 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술자의 회고적 서술에 '~습니다' 체가 쓰여 관계상 큰 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"cardinal virtues를 '기본 미덕'으로 옮겨 서구 전통 덕목의 함의는 약하지만, 한국어 독자가 일반 덕목으로 이해할 수 있어 제도적 의미 전달 실패로까지 보지 않습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 624,
+    "output_tokens": 888,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfLe2DC5fETALazbRwm",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0046\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the very tip of the egg, only fifty yards from the Sound\",\"tgt_span\":\"사운드에서 불과 50야드 떨어진 달걀 꼭대기\",\"description\":\"'달걀의 맨 끝'에 있고 '사운드에서 50야드'라는 두 위치 정보가 '사운드에서 50야드 떨어진 달걀 꼭대기'로 합쳐졌으나 대상은 유지됨. 의미를 바꾸지 않는 차이로 오류 아님에 가깝지만 'egg'를 반도(West Egg)가 아닌 실제 달걀로 읽을 수 있음.\"},{\"id\":\"E002\",\"src_span\":\"rented for twelve or fifteen thousand a season\",\"tgt_span\":\"한 시즌에 12,000달러에서 15,000달러를 받는\",\"description\":\"'12,000 또는 15,000달러에 임대되는' 별개의 두 금액이 '12,000달러에서 15,000달러' 범위 표현으로 바뀜. 임대료 수준은 사실상 유지됨. 또한 'rented for'(임대되는)가 '받는'으로 옮겨져 임대 의미가 약해짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"집의 위치, 사운드까지 50야드, 두 거대한 저택 사이에 끼임, 시즌당 임대료 1만 2천~1만 5천 달러라는 핵심 내용이 유지됩니다. 'twelve or fifteen'을 범위로 옮긴 것과 'places'를 '장소'로 옮긴 것은 어색하지만 사태를 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"나열된 세 위치 정보의 연결이 유지되며 지시·초점 관계의 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 집 위치를 묘사하는 서술 → 집 위치를 묘사하는 서술로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술의 평서체('-었다')가 소설 본문 서술에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"야드와 달러를 원문 단위 그대로 유지했고 다른 단위나 통화로 바꾸지 않았습니다. 12,000 표기는 수치 표기 차이일 뿐 값이 같습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1525,
+    "output_tokens": 1038,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

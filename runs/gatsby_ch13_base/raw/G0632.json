@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvg1rPCMfUHyrcwkcGU3",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0632\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I hope I never will\",\"tgt_span\":\"나는 결코 희망한다\",\"description\":\"'결코 ~하지 않기를 바란다'는 희망의 내용(부주의한 사람이 되는 것을 앞 문맥에서 이어받은 'will')이 사라지고, '나는 결코 희망한다'로 희망의 대상이 없는 문장이 됨. never의 부정이 희망 내용에서 분리되어 '결코 희망하지 않는다/희망한다'로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위·부정): 'I hope I never will'의 희망 내용(앞서 언급된 행위를 결코 하지 않기를 바람)이 빠지고 never가 희망 내용에서 분리되어, 번역문만 읽으면 요지를 알 수 없거나 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(범위): never가 'will'(생략된 앞 행위)에 걸리는 범위를 잃고 '희망한다'에 붙은 것처럼 읽히며, 앞 문맥의 행위를 받는 생략 지시도 복원되지 않습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 응답(바람 표명) → 대화 속 응답(바람 표명 형식). 응답하는 발화 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"I hope I never will은 화자의 개인적 바람이며 의무·금지·허가를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"친밀한 인물 간 대화에서 평서적 서술이 유지되며 관계를 바꾸는 호칭이나 높임 변화는 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 579,
+    "output_tokens": 847,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfZAa5D5ZvB4p2Vr2Pd",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0226\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"took her face in her hands\",\"tgt_span\":\"그녀의 손에 그녀의 얼굴을 잡았고\",\"description\":\"'her hands'가 '그녀의 손에'로 옮겨져 두 손으로 얼굴을 감싼 동작이 손에 얼굴을 잡는 어색한 표현이 됨. 다만 얼굴과 손을 맞춰 볼 수 있어 동작은 해석 가능함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"데이지, 얼굴, 손, 아름다운 형태를 느끼는 듯한 동작, 눈이 벨벳 같은 황혼 속으로 점차 움직이는 내용이 모두 유지됩니다. 'in her hands'의 어색한 번역은 표현상의 문제이고 행위자·대상은 바뀌지 않았습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'as if'의 비유 관계와 '그리고'로 이어지는 병렬 구조가 유지되고, 소유 대명사의 지시 대상(데이지)도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 동작 묘사 서술 → 인물 동작 묘사 서술. 서술 기능이 그대로입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설의 동작 묘사 문장이라 의무·허가·금지 같은 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문의 '~었다' 평서체가 유지되며, 문서의 서술 상황에서 관계나 격식이 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·단위·관습이 없고 인명만 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 752,
+    "output_tokens": 790,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfZybYpJJ7t69LwsBPg",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0251\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"an absolute smirk\",\"tgt_span\":\"절대적인 미소\",\"description\":\"smirk(능글맞고 자기만족적인 웃음)가 중립적인 '미소'로 바뀌어 부정적·비꼬는 태도의 평가 내용이 사라짐\"},{\"id\":\"E002\",\"src_span\":\"to exact a contributory emotion from me\",\"tgt_span\":\"나에게 공헌하는 감정을 강요하기 위한\",\"description\":\"contributory emotion(내가 보태 주는 감정, 즉 호응하는 감정)이 '공헌하는 감정'으로 옮겨져 의미가 불명확해짐\"},{\"id\":\"E003\",\"src_span\":\"sure enough\",\"tgt_span\":\"충분히 확실히\",\"description\":\"예상대로라는 뜻의 sure enough가 '충분히 확실히'로 옮겨져 예상이 적중했다는 의미가 사라짐\"},{\"id\":\"E004\",\"src_span\":\"her membership in a rather distinguished secret society to which she and Tom belonged\",\"tgt_span\":\"그녀와 톰이 속한 다소 저명한 비밀 협회의 회원임을 주장한 것처럼\",\"description\":\"'그녀와 톰이 속한' 관계절이 앞의 '비밀 협회'가 아니라 '그녀'를 수식하는 것처럼 읽히는 등 구조가 모호함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: smirk가 중립적 '미소'로 바뀌어 평가 내용이 달라졌고, sure enough의 '예상대로'가 사라졌으며, contributory emotion도 의미가 불명확해져 독자가 서술의 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"as though/as if 비교 연결과 '그녀와 톰' 지시 관계가 이해 가능한 범위에서 유지되며, 관계절이 어색해도 지시 대상이 바뀐 것은 아닙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 인상·반응 서술 → 인상·반응 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 있는 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3: smirk에 담긴 화자의 비꼬는 불쾌감·경멸 태도가 중립적인 '미소'로 약해졌습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'비밀 협회'는 비유적 표현이며 문화 고유의 제도·관습 판정 대상이 아닙니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1037,
+    "output_tokens": 1095,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

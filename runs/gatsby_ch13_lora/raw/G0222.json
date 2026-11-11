@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfYDWfBy22obxH61BnF",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0222\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"my own instinct was to telephone immediately for the police\",\"tgt_span\":\"나의 본능은 즉시 경찰에 전화를 걸었다\",\"description\":\"'본능이 ~하는 것이었다(충동)'가 '본능이 전화를 걸었다'로 바뀌어 실제 행동 여부가 달라지고 본능이 행위자처럼 쓰임. 화자가 전화를 걸었는지는 원문에서 확정되지 않음\"},{\"id\":\"E002\",\"src_span\":\"—\",\"tgt_span\":\"흥미롭게 보였을 수도 있지만\",\"description\":\"대시(보충·부연)가 '-지만'(대조·양보)으로 바뀜. 원문은 앞 문장에 대한 병렬적 대비 서술이나 한국어에서 대조 관계가 새로 명시됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위·확실성): 원문은 '내 본능은 즉시 경찰에 전화하자는 것이었다'는 충동인데, 번역은 본능이 실제로 전화를 건 것처럼 읽혀 실제 행위 여부가 달라짐. 다만 핵심 반응(경찰에 전화하려는 마음)은 유지되어 minor.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대시로 이어진 대조적 병치가 '-지만'으로 옮겨져도 앞 상황이 흥미로울 수 있으나 나는 달랐다는 대비 관계가 원문에도 있어 연결 관계가 유지됨.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 반응 서술 → 서술자의 반응 서술. 소설 속 화자의 심리·태도를 설명하는 기능이 유지됨.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 의무·허가·금지 등 규범 표현이 없음.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 담담한 문어체 서술과 약간의 아이러니한 어조가 한국어 평서체 서술로 유지됨.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·단위·관습이 없음.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1088,
+    "output_tokens": 926,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvg6LSmpuoGk7ewH4Mio",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0509\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"One of the men\",\"tgt_span\":\"남자들 중 한 명은\",\"description\":\"원문은 Jordan 일행 네 사람 중 한 남자인데, 번역은 '남자들 중'으로 범위가 넓어져 특정 일행이라는 한정이 흐려짐(이 문장 내에서는 통상적 대응이므로 오류로 보기 어려움; 참고용 아님)\"},{\"id\":\"E002\",\"src_span\":\"hissed\",\"tgt_span\":\"속삭였다\",\"description\":\"쉿 소리를 내며 날카롭게 내뱉는 hissed(분노·적의)가 단순한 속삭임으로 바뀜\"},{\"id\":\"E003\",\"src_span\":\"at intervals\",\"tgt_span\":\"간격으로\",\"description\":\"'이따금, 간격을 두고'라는 반복 빈도 의미가 '간격으로'로 옮겨져 반복 의미가 불분명해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\",\"E003\"],\"reason\":\"판단 질문 1: hissed(분노의 쉿 소리)가 '속삭였다'로, at intervals(이따금)가 '간격으로'로 바뀌어 행위 양태와 반복 빈도가 달라졌으나 핵심 사실(아내가 남편 곁에 나타나 '약속했잖아'라고 귀에 말함)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"그의 아내·그의 옆·그의 귀의 소유 관계와 'after ~ 후' 시간 연결이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물의 행동 서술 → 인물의 행동 서술. 서사 묘사 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'You promised!'는 과거 약속을 상기시키는 비난으로 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"부부 사이에서 아내가 남편에게 하는 말로 '당신이 약속했어!'의 반말은 관계에 맞고, 비난하는 태도도 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1083,
+    "output_tokens": 956,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

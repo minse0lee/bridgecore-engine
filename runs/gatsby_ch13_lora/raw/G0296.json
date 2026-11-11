@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfcnryJTa8YySdNAxvP",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0296\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"published the banns\",\"tgt_span\":\"금지령을 발표했다는\",\"description\":\"banns(결혼 공고, 혼인 예고)를 '금지령'으로 오역하여 결혼 예고라는 내용이 금지 명령으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상·행위): 소문이 결혼 공고를 낸 것이 금지령을 발표한 것으로 바뀌어 사건의 내용이 달라졌고, 독자는 문장의 요지를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'사실은 … 이유 중 하나였다'의 지시·연결 관계와 초점이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 배경 설명 → 배경 설명. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장은 의무·허가·금지를 정하는 규범 표현이 아니라 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 평서 서술체가 소설 본문 문체로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: banns는 교회에서 혼인 예정을 알리는 관습·제도 용어인데 '금지령'이라는 무관한 일반 어휘로 옮겨져 제도적 의미가 전달되지 않습니다. 오역이 지시 대상을 알 수 없게 만든 것은 아니고 혼인 관련 맥락은 주변 문장에서 추론 가능해 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 696,
+    "output_tokens": 738,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

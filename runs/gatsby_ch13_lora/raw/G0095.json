@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfPxoQGvUpT7uE1KiZu",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0095\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"and then quickly tipped her head back again\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"고개를 재빨리 다시 뒤로 젖혔다는 행위가 누락됨\"},{\"id\":\"E002\",\"src_span\":\"Miss Baker’s\",\"tgt_span\":\"베이커 선생님의\",\"description\":\"Miss(미혼 여성 경칭)가 '선생님'(교사·직업 호칭)으로 옮겨져 원문에 없는 역할이 덧붙음\"},{\"id\":\"E003\",\"src_span\":\"the object she was balancing had obviously tottered a little and given her something of a fright\",\"tgt_span\":\"그녀가 균형을 잡고 있던 물체가 분명히 약간 흔들렸고 그녀에게 무언가 두려움을 주었다\",\"description\":\"고개를 다시 젖힌 이유(물체가 흔들려 놀람)를 설명하는 대시 뒤 절이 독립된 병렬 절로 나열되어 인과 연결이 사라짐\"},{\"id\":\"E004\",\"src_span\":\"lips fluttered\",\"tgt_span\":\"입술이 휘날렸고\",\"description\":\"입술이 떨렸다는 표현이 '휘날렸다'로 잘못 옮겨져 동작이 달라짐\"},{\"id\":\"E005\",\"src_span\":\"something of a fright\",\"tgt_span\":\"무언가 두려움을 주었다\",\"description\":\"약간 놀람을 뜻하는 표현이 '두려움'으로 바뀌어 정도와 성격이 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E004\",\"E005\"],\"reason\":\"판단 질문 1: 고개를 다시 젖힌 행위가 누락되고, 입술이 떨렸다는 동작이 '휘날렸다'로 바뀌었으며, 놀람이 '두려움'으로 바뀌고 Miss가 '선생님'이라는 직업 호칭으로 바뀌어 장면 이해가 달라집니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 2: 대시 뒤 절이 고개를 다시 젖힌 이유를 설명하는 관계인데 번역에서는 단순 병렬로 나열되어 인과 관계가 사라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 장면을 묘사하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범적 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: 'Miss'가 '선생님'으로 옮겨져 원문에 없는 교사 역할이 덧붙고 화자와 인물의 관계가 달라졌으나 영향은 제한적입니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: 1920년대 미국의 미혼 여성 경칭 Miss가 교사·직업 호칭인 '선생님'으로 옮겨져 호칭 관습의 의미가 전달되지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 867,
+    "output_tokens": 1227,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

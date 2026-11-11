@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvfz3nExNPcce9Vxu6FS",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0605\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I wished them well\",\"tgt_span\":\"나는 그들에게 행운을 빕니다\",\"description\":\"과거 시제의 서술(빌었다)이 현재형 '빕니다'로 바뀌고 서술체가 합쇼체로 바뀜. 내용상 'wish well'은 행운을 빈다는 뜻으로 대응 가능.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상상, 즐거움을 향해 서두름, 친밀한 흥분 공유, 그들의 안녕을 빎이 모두 유지되며, 과거가 현재형으로 바뀐 것은 시제 표기 문제로 사태 자체는 같음.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'too'가 '나도'로 초점이 유지되고, 상상과 기원의 연결 및 지시 관계가 유지됨.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(화자의 회상과 감정 묘사) → 서술. 기능이 같은 종류로 유지됨.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 소설 서술임.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 회고 서술체(과거 평서문)가 청자에게 말하는 합쇼체 '빕니다'로 바뀌어 문서의 서술 상황에 맞지 않고, 앞 문장들의 '-었다' 서술체와도 어긋남.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정 대상이 없음.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 873,
+    "output_tokens": 718,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

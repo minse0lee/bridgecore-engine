@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvfc5yq67QVqwvsBDFzL",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0270\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“Good night,”\",\"tgt_span\":\"“좋은 밤이에요.”\",\"description\":\"작별 인사 Good night를 '좋은 밤이에요'라는 상태 서술로 직역하여 작별 인사의 기능이 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Miss Baker가 계단에서 외쳤다는 행위자·행위·장소는 같고, Good night 표현의 어색한 직역은 의미 자체를 바꾸지 않아 이 축에서는 훼손으로 보지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인용문과 서술부의 화자 연결 관계가 유지되며 지시·연결·초점 변화가 없습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"원문 기능 → 번역 기능: 헤어질 때의 작별 인사 → 밤 상태를 말하는 평서문. '좋은 밤이에요'는 작별 인사로 읽히지 않아 발화 기능이 달라졌으나, 독자가 장면 전체의 요지를 다르게 이해하지는 않아 minor입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"친구 사이의 일상 인사로서 '~이에요' 해요체가 무리 없이 쓰였고 관계에 크게 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없고 인명(Miss Baker)만 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 499,
+    "output_tokens": 719,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

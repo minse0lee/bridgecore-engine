@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvfu8jG4B7FYqHSebCW4",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0531\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Rather ashamed\",\"tgt_span\":\"부끄러워하며\",\"description\":\"'다소(rather) 부끄러운' 정도 표현이 사라지고 단순한 부끄러움으로 옮겨짐. 정도 표현만의 차이.\"},{\"id\":\"E002\",\"src_span\":\"I joined the last of Gatsby’s guests, who were clustered around him\",\"tgt_span\":\"나는 개츠비의 손님들 가운데 마지막으로 그를 둘러싼 손님들과 합류했다\",\"description\":\"'마지막 남은 손님들(the last of the guests)'이 '손님들 가운데 마지막으로'로 옮겨져 '마지막으로 합류했다'는 시간 순서로 읽힐 수 있고, 마지막 남은 손님들과 합류했다는 의미가 흐려짐. 다만 '마지막으로 … 둘러싼 손님들'로 남은 손님 의미가 어느 정도 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: 'the last of Gatsby's guests'(마지막까지 남은 손님들)가 '손님들 가운데 마지막으로'로 옮겨져 시간 부사처럼 읽혀 대상이 약간 달라졌으나, 마지막에 남은 손님들 주위에 합류했다는 요지는 대체로 파악 가능합니다. 'Rather'의 정도 차이는 평가어 정도에 그쳐 보존 범위입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 질문 모두 아니오: '그를 둘러싼'이 개츠비를 가리키고 부끄러움과 합류 사이의 연결도 분사구문으로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 화자의 행동과 심정을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술체 '~했다'가 유지되며 특별한 높임·호칭 관계가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 723,
+    "output_tokens": 972,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

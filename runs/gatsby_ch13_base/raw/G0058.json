@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfMrrvA2mPttvrubL7J",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0058\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"were rich together\",\"tgt_span\":\"함께 부자가 된\",\"description\":\"'부유한 상태로 함께 있음(wherever people ... were rich together)'이 '부자가 된'(되는 변화)으로 바뀜. 단, 상태의 의미가 변화로 읽히는 정도의 차이임\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'were rich'(부유한 상태)가 '부자가 된'(부자가 되는 변화)으로 바뀌었으나, 프랑스 1년 체류, 폴로하는 곳을 떠돎, 불안하게 등 핵심 사실은 유지되어 요지와 행동 이해는 크게 달라지지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'and then'의 시간 순서와 'wherever'의 범위 관계가 '그리고…곳마다'로 유지되며 대명사·초점 표현도 바뀌지 않았습니다. 'a year'의 '1 년'은 수량이 같습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 화자가 인물들의 행적을 설명하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 평서체(~했다)가 유지되며 화자의 관찰자적 태도도 바뀌지 않았습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"프랑스와 폴로는 일반적 지명·활동으로 문화 고유의 제도·관습·단위 판정 대상이 아닙니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1018,
+    "output_tokens": 755,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

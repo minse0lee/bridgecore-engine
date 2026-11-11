@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfjnJSEVb1StL8Fqowb",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0387\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Jordan’s escort\",\"tgt_span\":\"요르단의 호위\",\"description\":\"파티에 동행한 남성 동반자(escort)가 '호위'(보호·경호)로 오역되어 동반자라는 관계가 사라짐\"},{\"id\":\"E002\",\"src_span\":\"a persistent undergraduate given to violent innuendo\",\"tgt_span\":\"폭력적인 암시에 주어진 지속적인 학부\",\"description\":\"집요한 대학생이 '학부'로, 거친 성적 암시를 일삼는다는 내용이 '폭력적인 암시에 주어진'으로 바뀌어 인물과 특성이 달라지고 동격 관계도 흐려짐\"},{\"id\":\"E003\",\"src_span\":\"obviously under the impression that sooner or later Jordan was going to yield him up her person to a greater or lesser degree\",\"tgt_span\":\"분명히 조만간 요르단은 더 큰 또는 더 작은 정도로 그녀의 사람까지 그를 생산하는 것이라는 인상 아래 있었다\",\"description\":\"그가 요르단이 몸을 허락하리라 믿는다는 내용이 '그를 생산하는'으로 오역되고, 인상을 가진 주체(그 대학생)도 불분명해짐\"},{\"id\":\"E004\",\"src_span\":\"There were three married couples\",\"tgt_span\":\"3 명의 결혼 한 부부\",\"description\":\"부부의 수 표기가 '3 명의 … 부부'로 어색하지만 수량(세 쌍)은 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: escort가 '호위'로, undergraduate가 '학부'로, yield up her person이 '그를 생산하는 것'으로 바뀌어 인물·행위가 달라져 요지를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 1: 'under the impression'의 주체인 대학생과 'him/her person'의 지시 관계가 번역에서 불분명해져 '요르단은 … 그를 생산하는 것'으로 읽혀 지시 대상이 바뀌었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 묘사·서술 → 인물 묘사·서술. 서술 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자-청자 관계의 높임·호칭이 문제되는 대화가 아니라 서술문이며, 문맥상 별도 판정할 대상이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 문화·제도 고유 대상이 없습니다. 오역은 Semantic에서 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1129,
+    "output_tokens": 1146,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

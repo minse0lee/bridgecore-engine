@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfiNXuZVM1DjV9KC3fg",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0364\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"with a new evening gown in it\",\"tgt_span\":\"그것에 새로운 이브닝 드레스와 함께 Croirier의에서 패키지를 받았다\",\"description\":\"'그 안에 새 이브닝드레스가 든 패키지'라는 관계가 흐트러져 '그것에 … 드레스와 함께'로 옮겨졌고, 'it'이 패키지를 가리키는 관계가 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상관하지 않음, 항상 좋은 시간, 드레스를 찢음, 이름·주소 질문, 일주일 내 Croirier's에서 온 새 이브닝드레스 소포라는 핵심 사태가 모두 유지되어 어색하지만 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'in it'의 it이 패키지 안을 가리키는 관계가 '그것에 … 드레스와 함께'로 모호해져 지시 대상이 불분명해졌으나, 소포에 드레스가 있다는 요지는 읽혀 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"경험 진술(일화 서술) → 경험 진술로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"never care는 규범이 아니라 화자의 태도 서술이므로 의무·허가·금지 의미가 없습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자 Lucille와 청자의 관계 및 대화 격식이 평가조건과 문맥에 명시되지 않아 높임 적절성을 판단하려면 대화 상대와의 관계 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상점명 Croirier's를 원어 표기로 유지해 같은 대상을 가리키며 별도 제도·단위 변경은 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 961,
+    "output_tokens": 827,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

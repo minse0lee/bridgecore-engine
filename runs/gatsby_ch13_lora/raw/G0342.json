@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvffwvmbsfn3tsxPQRuV",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0342\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"my host\",\"tgt_span\":\"내 주인\",\"description\":\"파티의 주최자(host)를 '주인'(소유주·주종 관계의 주인)으로 옮겨 지시 대상이 모호해지고 관계가 달라짐\"},{\"id\":\"E002\",\"src_span\":\"a single man\",\"tgt_span\":\"싱글 남자\",\"description\":\"혼자 온 남자(unaccompanied man)를 '싱글 남자'로 옮겨 미혼 여부를 뜻하는 것처럼 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(인물·대상): 'host'가 '내 주인'으로, 'a single man'이 '싱글 남자'로 바뀌어 찾는 대상과 칵테일 테이블에 머무는 사람의 성격이 다르게 읽힙니다. 이 외 시간·인과·장소 정보는 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'as soon as', 'such...that' 인과 구조가 '도착하자마자', '-했기 때문에'로 유지되고 지시 관계와 초점 표현도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 화자가 주최자를 찾다 당황해 물러나는 경위를 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 의무·허가·금지 같은 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술문의 평서체가 유지되며 대화 상대와의 높임 관계가 문제되지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다. 'host'와 'single man'의 오역은 Semantic에서 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 964,
+    "output_tokens": 825,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

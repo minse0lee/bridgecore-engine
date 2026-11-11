@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfwRMSm9osuWnxDHWGD",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0565\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“I wasn’t driving.\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"화자가 운전하지 않았다는 주장이 번역문에서 누락됨\"},{\"id\":\"E002\",\"src_span\":\"There’s another man in the car.\",\"tgt_span\":\"차에 타고 있던 남자의 목소리가 들려왔다.\",\"description\":\"화자(범인)의 직접 발화가 서술문으로 바뀌고, 차에 다른 남자가 있다는 진술이 그 남자의 목소리가 들렸다는 사건으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: '운전하지 않았다'는 내용이 빠지고, '차에 다른 남자가 있다'는 진술이 '남자의 목소리가 들려왔다'는 다른 사건으로 바뀌어 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현이 바뀐 것은 없고, 내용 변화는 Semantic에서 판정합니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\"],\"reason\":\"범인이 자신의 책임을 부인하며 변명하는 발화 → 서술자가 사건을 전하는 서술로 바뀌어 발화 기능이 달라졌습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 문장입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"번역문에 화자·청자 관계를 드러내는 높임·호칭·태도 표현이 없어 판정할 대상이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 497,
+    "output_tokens": 783,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

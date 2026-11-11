@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfpJym8qk9hBT6XgKeN",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0454\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Chicago was calling him on the wire\",\"tgt_span\":\"시카고에서 전화를 걸고 있다는 정보\",\"description\":\"시카고가 (사람 또는 시카고 쪽에서) 그에게 전화를 걸고 있다는 내용이 '시카고에서 전화를 걸고 있다'로 옮겨져 전화 대상(개츠비)이 빠지고 발신 장소만 남았으나, 개츠비에게 온 전화로 읽히므로 의미 변화는 경미함\"},{\"id\":\"E002\",\"src_span\":\"Almost at the moment when\",\"tgt_span\":\"순간\",\"description\":\"Almost(거의 그 순간)의 근사 표현이 빠져 '바로 그 순간'으로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(시간·행위): 'Almost at the moment'의 근사 표현이 빠졌고, '시카고에서 전화를 걸고 있다'는 전화가 누구에게 온 것인지 불분명해졌으나 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사 '그'는 개츠비를 가리키고 시간 연결도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 사건을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설의 사건 서술로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문으로 화자·청자 간 높임·호칭 관계를 판정할 대상이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"지명(시카고)만 있고 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 663,
+    "output_tokens": 781,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfdFLBygD2ppcP6Wc7E",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0303\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"with wings beating in the trees and a persistent organ sound as the full bellows of the earth blew the frogs full of life\",\"tgt_span\":\"나무에서 날개를 두드리는 소리와 지구의 울부짖음이 개구리들을 생명으로 가득 채우는 오르간 소리와 함께\",\"description\":\"'persistent organ sound'(끊이지 않는 오르간 소리)와 'full bellows of the earth'(지구의 풀무)의 관계가 뒤섞임. bellows(풀무)가 '울부짖음'으로 오역되고 지구의 울부짖음이 소리의 한 항목으로 나열되며, 풀무가 개구리를 생명으로 부풀린다는 인과 구조가 깨짐\"},{\"id\":\"E002\",\"src_span\":\"persistent\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"'persistent'(끊임없는)가 번역되지 않음\"},{\"id\":\"E003\",\"src_span\":\"wings beating in the trees\",\"tgt_span\":\"나무에서 날개를 두드리는 소리\",\"description\":\"나무에서 날개가 퍼덕이는 상황이 '날개를 두드리는 소리'로 바뀌고 행위 주체가 불분명해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: bellows(풀무)를 '울부짖음'으로 오역해 지구의 풀무가 개구리를 생명으로 부풀린다는 핵심 이미지가 사라지고, persistent가 누락되었으며 날개의 퍼덕임이 '날개를 두드리는 소리'로 바뀌어 독자가 장면을 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2: 'as'로 이어지는 오르간 소리와 풀무의 관계(풀무가 개구리를 부풀려 오르간 소리가 남)가 사라지고, 울부짖음이 소리 목록으로 나열되어 지시·인과 관계가 달라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"밤 풍경 서술 → 밤 풍경 서술. 서술 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설의 풍경 묘사로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문 평서체('~했다')가 유지되며 화자와 청자의 관계 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1306,
+    "output_tokens": 1076,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

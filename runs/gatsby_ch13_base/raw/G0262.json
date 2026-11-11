@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfbXeuCpX8DyPvdNxjt",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0262\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"its pleasing contemptuous expression\",\"tgt_span\":\"그녀의 기쁘고 경멸스러운 표정\",\"description\":\"pleasing(보기 좋은, 매력적인)이 '기쁘고'로 바뀌어 표정의 성격이 달라짐. 보는 이에게 호감을 주는 표정이 표정 자체의 기쁜 감정처럼 읽혀 경멸과 모순됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: pleasing(호감을 주는)이 '기쁘고'로 바뀌어 표정의 내용이 달라졌으나, 얼굴이 익숙한 이유와 사진 속 경멸적 표정이라는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그녀의'가 its(her face의 표정)를 가리키는 관계가 유지되고, 이유를 알았다는 연결과 사진에서 바라보았다는 관계도 남아 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(회상 설명) → 서술(회상 설명). 얼굴이 익숙한 이유를 설명하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 소설 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 화자의 서술체 '-ㅆ다'가 유지되고, 경멸적 표정이라는 태도도 남아 있습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Asheville·Hot Springs·Palm Beach는 지명이고 rotogravure는 '로토그래피'로 옮겨졌으나 통용 표기에 가깝고 인쇄 사진이라는 지시 대상은 파악 가능합니다. 별도의 제도·단위 변경은 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 831,
+    "output_tokens": 829,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

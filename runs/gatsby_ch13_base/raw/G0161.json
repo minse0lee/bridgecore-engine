@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfUnj4gymW9drtX991m",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0161\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"to entertain or to be entertained\",\"tgt_span\":\"즐기거나 즐기려는\",\"description\":\"'대접하거나 대접받으려는(entertain / be entertained)'이 '즐기거나 즐기려는'으로 바뀌어 접대하는 쪽과 접대받는 쪽의 구분이 사라지고 같은 동작의 반복으로 읽힘\"},{\"id\":\"E002\",\"src_span\":\"making only a polite pleasant effort\",\"tgt_span\":\"오직 즐기거나 즐기려는 정중하고 즐거운 노력을 하였다\",\"description\":\"only가 노력의 정도(그저 예의상 약간의 노력)를 한정하는데, '오직'이 '즐기거나 즐기려는' 쪽에 걸려 초점이 이동함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: entertain(접대하다)과 be entertained(접대받다)가 '즐기다'로 바뀌어 누가 누구를 대접하는지가 달라져 문장 요지가 다르게 읽힙니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 3: only가 '예의 바른 노력'을 한정하는데 번역에서는 '오직'이 '즐기거나 즐기려는'에 붙어 초점 대상이 바뀌었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 태도 서술 → 인물 태도 서술. 서술 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 청자 사이의 높임·호칭 관계가 드러나는 대화가 아니라 서술문입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화 고유의 제도·관습·단위가 없고 인명만 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 976,
+    "output_tokens": 830,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

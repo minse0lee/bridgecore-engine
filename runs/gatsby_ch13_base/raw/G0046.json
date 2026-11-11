@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfLy9QvFLmGvppTqAEp",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0046\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"at the very tip of the egg\",\"tgt_span\":\"끝자락에\",\"description\":\"'the egg'(웨스트 에그 반도)의 끝이라는 지시 대상이 번역문에서 사라지고, 'Sound'에서 떨어진 끝자락으로 읽힘\"},{\"id\":\"E002\",\"src_span\":\"two huge places that rented for twelve or fifteen thousand a season\",\"tgt_span\":\"한 시즌에 12,000에서 15,000달러의 임대료를 받는 두 개의 거대한 건물\",\"description\":\"'임대료를 받는'으로 옮겨 건물이 임대되는 값(세 들 때의 임대료)이 아니라 소유자가 받는 것으로 읽혀 임대 관계 방향이 모호하나 가격 정보는 유지. 큰 의미 변화는 아님(사소한 표현 차이)\"},{\"id\":\"E003\",\"src_span\":\"the Sound\",\"tgt_span\":\"사운드\",\"description\":\"Long Island Sound(해협)를 '사운드'로 음역해 한국어 독자가 해협임을 알기 어려움\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E003\"],\"reason\":\"판단 질문 1: 'the egg'(반도)의 끝이라는 위치가 모호해지고 'the Sound'가 '사운드'로 음역되어 지시 대상이 흐려졌으나, 집의 위치·거리·가격·두 건물 사이라는 핵심은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사·연결 관계·초점 표현은 유지되며 병렬 구조도 그대로입니다. 'only'는 '불과'로 보존되었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 화자의 집 위치를 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 평서 문어체 '~었다'가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"야드와 달러를 원문 그대로 유지하고 다른 단위나 통화로 환산하지 않았습니다. 12,000과 15,000달러는 'twelve or fifteen thousand'와 같은 수치입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1787,
+    "output_tokens": 968,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfW18UK57tkFxirABwd",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0177\",\"evaluable\":false,\"evaluable_note\":\"생성붕괴 검토 필요: 번역문이 '네가 누군지'만 반복하며, 원문의 핵심 내용(우리는 노르딕이라는 생각, 화자·청자들이 노르딕이라는 진술)을 복원할 수 없는 문장 구조 붕괴입니다.\",\"errors\":[],\"axes\":{\"Semantic\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"생성붕괴 검토 필요: '네가 누군지'가 반복되어 Nordics 등 핵심 내용과 행위·대상을 복원할 수 없습니다.\"},\"Textual\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"생성붕괴 검토 필요: 반복 출력으로 지시·연결·초점 관계를 비교할 수 없습니다.\"},\"Context\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"생성붕괴 검토 필요: 번역문에서 발화 기능을 파악할 수 없습니다.\"},\"Deontic\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"생성붕괴 검토 필요: 반복 출력으로 축별 비교가 불가능합니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"생성붕괴 검토 필요: 의미 있는 문장이 없어 화자의 태도와 격식을 비교할 수 없습니다.\"},\"Cultural\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"생성붕괴 검토 필요: 'Nordics'에 대응하는 표현이 없어 문화적 대상을 비교할 수 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1131,
+    "output_tokens": 649,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

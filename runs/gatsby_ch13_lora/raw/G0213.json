@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfXaNzTWQ27ocbPh8dr",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0213\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Miss Baker\",\"tgt_span\":\"베이커 선생님\",\"description\":\"Miss Baker(미혼 여성 Jordan Baker에 대한 호칭)를 '선생님'으로 옮겨, 교사 등 원문에 없는 역할을 덧붙임\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"베이커가 고개를 끄덕였다는 행위자·행위가 동일합니다. 호칭 문제는 Register에서 판정합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현이 없고 주어 지시 대상이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사 서술(동의 몸짓 묘사) → 서사 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(호칭): 'Miss'가 '선생님'으로 바뀌어 원문에 없는 교사 등의 역할이 덧붙었습니다. 다만 요지나 독자 행동 이해에는 영향이 작아 minor입니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(관습 호칭): 미혼 여성에 대한 영미식 경칭 Miss를 한국어 '선생님'으로 옮겨 호칭 관습의 의미가 전달되지 않고 직업 호칭으로 읽힙니다. 인명 자체는 정확하며 영향은 작아 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 430,
+    "output_tokens": 722,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

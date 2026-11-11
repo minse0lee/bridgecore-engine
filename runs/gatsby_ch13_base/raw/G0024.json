@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfKRCG4ZKQfQ3uwwgmD",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0024\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I came East, permanently, I thought,\",\"tgt_span\":\"22 년 봄에 영구적으로 동쪽으로 왔다고 생각했습니다\",\"description\":\"'영구적으로 왔다고 생각했다'로 옮겨 'I thought'가 '영구적으로'에만 걸리는 삽입 구조가 사라지고, 화자가 영구적이라 생각했으나 그렇지 않았다는 함축이 약해짐. 다만 의미는 대체로 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"아버지의 1년 재정 지원 동의, 여러 지연 뒤 22년 봄 동부행, 영구적이라 생각했다는 내용이 모두 유지됩니다. 힌트의 숫자 1은 'a year'의 번역으로 오류가 아닙니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"두 절의 병렬 연결과 '지연 후'라는 시간 순서가 유지되고, 초점·지시 관계도 바뀌지 않았습니다. '영구적으로 … 생각했다'로 이어진 구조는 어색할 뿐 연결 관계를 바꾸지 않습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 화자가 자신의 이주 경위를 설명하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없는 소설 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회고 서술에 '저'와 '-습니다' 문체가 쓰여 관계와 태도에 어긋남이 없습니다. 문단 내 문체 불일치는 평가대상 밖입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·단위·관습이 없습니다. 'East'는 지명 방향어로 판정 대상이 아닙니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1441,
+    "output_tokens": 845,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

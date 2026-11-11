@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfkiKc1mrLSBUWtW7Lx",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0419\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"between the numbers\",\"tgt_span\":\"숫자 사이에\",\"description\":\"공연의 곡목·순서(numbers)를 '숫자'로 옮겨 곡과 곡 사이라는 의미가 사라짐\"},{\"id\":\"E002\",\"src_span\":\"people were doing “stunts” all over the garden, while happy, vacuous bursts of laughter rose toward the summer sky\",\"tgt_span\":\"사람들은 여름 하늘을 향해 올라가는 행복하고 공허한 웃음의 폭발과 함께 정원 전체에 걸쳐 \\\"스턴트\\\"를 하고 있었다\",\"description\":\"'while'의 동시 진행(사람들이 묘기를 하는 동안 웃음이 올라감)이 '웃음과 함께 스턴트를 했다'는 수반 관계로 바뀜. 웃음이 별개의 사건이 아니라 스턴트의 부속물로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상): 공연 곡목 사이를 뜻하는 numbers가 '숫자'로 옮겨져 대상이 달라졌으나 핵심 사건(가수들의 노래, 스턴트, 웃음)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2(연결 관계): while이 이끄는 두 사건의 동시 병렬 관계가 '웃음과 함께'라는 수반 관계로 바뀌었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"파티 장면 서술 → 파티 장면 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술 문장으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술체 평서문이 유지되며 화자·청자 관계에 따른 높임 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"고유한 제도·관습·단위가 없고 numbers의 오역은 Semantic에서만 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1349,
+    "output_tokens": 887,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

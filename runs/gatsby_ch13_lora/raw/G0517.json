@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfrioHmbcNNE78Lps79",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0517\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“Well, we’re almost the last tonight,”\",\"tgt_span\":\"\\\"우리는 오늘 밤에 거의 마지막이다.\\\"\",\"description\":\"담화표지 Well이 번역되지 않았고, 대화체 발화가 평서 종결 '~이다'로 옮겨져 어색함(의미·기능 변화는 없음)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자(남자들 중 한 명), 부끄러운 듯한 태도, '오늘 밤 거의 마지막'이라는 내용이 모두 유지됩니다. Well 생략은 내용 변화가 아닙니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인용 발화와 화자 표지의 관계가 유지되고 지시·연결·초점 관계에 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"머뭇거리며 자리에 남은 것을 해명하는 진술 → 같은 진술. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"남자들 사이의 대화나 혼잣말 같은 서술체 발화로, 소설 속 화자 태도(부끄러움)가 sheepishly를 옮긴 '부끄러운 듯이'로 유지됩니다. 어투의 어색함만으로 훼손이 아닙니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 555,
+    "output_tokens": 720,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

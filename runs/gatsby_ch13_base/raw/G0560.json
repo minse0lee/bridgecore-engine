@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvfw4fz5CL2QA2tiKdXT",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0560\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"he explained indignantly\",\"tgt_span\":\"그는 분노 설명\",\"description\":\"'분개하며 설명했다'가 '분노 설명'이라는 불완전한 명사구로 옮겨져 서술 동사와 부사의 문법 관계가 무너졌으나 분노와 설명의 의미 요소는 남아 있음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'분노 설명'은 문법적으로 어색하고 동사 활용이 없지만, 분개하며 설명했다는 행위자·행위·태도를 복원할 수 있고 발화 내용(시도조차 하지 않았다)도 동일합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"even이 '시도조차'로 같은 초점에 유지되고, But도 '그러나'로 옮겨져 지시·연결·초점 관계가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물이 분개하며 해명하는 대사 서술 → 같은 해명 대사 서술로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서사 대사입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 분개하는 태도가 '분노'로 전달되어 약해지지 않았고, 높임·호칭이 문제되는 관계 정보는 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 등장하지 않습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 524,
+    "output_tokens": 687,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

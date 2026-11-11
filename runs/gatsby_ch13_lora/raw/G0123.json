@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfReFkSnfuiqB2AsKdE",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0123\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I’m stiff\",\"tgt_span\":\"나는 딱딱해졌어\",\"description\":\"'몸이 뻐근하다/굳어 있다'는 상태(stiff)가 '딱딱해졌다'로 옮겨져 몸이 뻣뻣하고 쑤신다는 뜻이 물체가 단단해졌다는 뜻으로 읽힐 수 있음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'stiff'(오래 누워 몸이 뻐근함)가 '딱딱해졌다'로 바뀌어 신체 상태의 의미가 달라졌습니다. 다만 오래 누워 있었다는 문맥이 함께 있어 요지는 대체로 전달되므로 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'I'는 '나', 'that sofa'는 '그 소파'로 지시 대상이 유지되고, 불평의 내용과 이유를 잇는 연결도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물의 불평 발화 → 인물의 불평 발화. 'complained'가 '불평했다'로 유지되어 서술 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'can'은 기억 능력을 나타내며 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"편한 사이의 불평을 하는 대화가 반말 '~어'로 옮겨져 친근하고 불평 섞인 태도가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 661,
+    "output_tokens": 756,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

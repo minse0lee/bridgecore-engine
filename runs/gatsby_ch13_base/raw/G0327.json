@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvfg3uS6egr9JdbRbuZZ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0327\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"dumps it down for courage\",\"tgt_span\":\"용기를 내어 버리고\",\"description\":\"칵테일을 용기를 얻으려고 들이켜는(마시는) 행위가 '용기를 내어 버리고'로 바뀌어 마신다는 행위가 사라지고 목적-수단 관계가 흐려짐\"},{\"id\":\"E002\",\"src_span\":\"moving her hands like Frisco\",\"tgt_span\":\"프리스코처럼 손을 움직이며\",\"description\":\"Frisco(당시 유명 댄서 Earl 'Frisco' Fisher/Joe Frisco 춤 스타일)를 가리키는 고유 대상을 설명 없이 음역하여 한국어 독자가 춤 양식·인물 지칭을 이해하기 어려움\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위): '들이켜다(dump down)'가 '용기를 내어 버리고'로 바뀌어 칵테일을 마셨다는 행위가 사라지고, 독자가 해당 행위를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(연결 관계): 용기를 얻으려고 마신다는 목적 연결이 '용기를 내어 버리고'로 바뀌어 행위와 목적 관계가 달라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 파티 장면을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 서술문이며 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 평서체가 유지되며 화자·청자 관계상 문제되는 높임·호칭 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: 1920년대 재즈 시대 댄서 Frisco의 춤 스타일이라는 문화적 지칭이 '프리스코'로만 옮겨져 한국어 독자가 그 의미를 이해하기 어렵습니다. 다만 큰 줄거리 이해에는 영향이 적어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 907,
+    "output_tokens": 942,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

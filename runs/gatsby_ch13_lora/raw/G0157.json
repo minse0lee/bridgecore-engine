@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfTvVbuALE64jNNszJ7",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0157\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"That’s what I get for marrying a brute of a man, a great, big, hulking physical specimen of a—\",\"tgt_span\":\"그것이 내가 야만적인 남자, 위대하고 크고 덩치 큰 육체적 표본과 결혼하는 것에 대해 얻는 것이다.\",\"description\":\"'~한 대가로 내가 얻는 것(자업자득의 결과)'이라는 관용적 인과가 '결혼하는 것에 대해 얻는 것'으로 직역되어 불분명해짐. 또한 끊긴 문장 'a—'가 완결된 문장으로 바뀌어 중단이 사라짐\"},{\"id\":\"E002\",\"src_span\":\"a brute of a man, a great, big, hulking physical specimen of a—\",\"tgt_span\":\"야만적인 남자, 위대하고 크고 덩치 큰 육체적 표본\",\"description\":\"'brute of a man'(짐승 같은 남자)과 'great'(엄청난)가 '야만적인'·'위대하고'로 옮겨져 평가 내용이 달라짐(great는 크기의 강조인데 '위대한'으로 읽힘)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'great'가 크기 강조에서 '위대한'으로 바뀌고 '~한 대가로 얻는 것' 관용이 직역되었으나, 톰의 과격함을 탓한다는 요지는 전달되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 'That's what I get for ~'의 '~한 탓에 이런 일을 당한다'는 인과 관계가 '결혼하는 것에 대해 얻는 것'으로 약해져 연결이 불분명해지고, 'a—'의 중단이 사라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"비난·탓하는 발화 → 비난·탓하는 발화. 기능의 종류는 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 인물 대사입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"부부 사이 대사의 말투 적절성 판단에는 화자(데이지)와 청자(톰)의 관계에 대한 문체 기준 확인이 필요합니다. 번역문은 '~했다/~이다' 서술체로 대화문에 맞지 않을 수 있으나 평가조건만으로는 확정하기 어렵습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 721,
+    "output_tokens": 1075,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

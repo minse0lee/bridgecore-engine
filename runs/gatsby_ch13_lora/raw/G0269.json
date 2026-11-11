@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvfb9pV1PjcgceuqxhZz",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0269\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"arrange a marriage\",\"tgt_span\":\"결혼식을 준비할 것 같아\",\"description\":\"'결혼을 주선하다(중매)'가 '결혼식을 준비하다'로 바뀌어 행위의 내용이 달라짐\"},{\"id\":\"E002\",\"src_span\":\"I’ll sort of—oh—fling you together\",\"tgt_span\":\"나는 너희를 같이 던져 버릴 거야\",\"description\":\"'fling together(억지로 만나게 하다)'를 '같이 던지다'로 직역하여 물리적 투척으로 읽히고, 사람을 맺어주려는 의도가 사라짐\"},{\"id\":\"E003\",\"src_span\":\"Come over often, Nick\",\"tgt_span\":\"닉, 자주 와라\",\"description\":\"초대·권유의 말이 명령조 '와라'로 옮겨져 친구에게 하는 다정한 초대 말투가 거칠어짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(행위): 중매를 서겠다는 내용이 결혼식을 준비하겠다는 것으로, 둘을 맺어주겠다는 말이 물리적으로 던지겠다는 것으로 바뀌어 요지가 다르게 읽힙니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'and'의 연결이 '그러면'으로 이어져 조건·결과 관계가 유지되고, 지시·초점 관계의 변화는 없습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 닉과 조던을 이어주겠다는 장난스러운 중매 제안 → 결혼식 준비 선언과 물리적 위협처럼 읽히는 말로 바뀌어 발화 기능이 달라졌습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 아니라 화자의 계획과 초대를 말하는 대화입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 1: 데이지가 친구 닉에게 다정하게 초대하는 장면인데 '와라'는 거친 명령조라 관계의 태도에 맞지 않습니다. 다만 반말 자체는 친한 사이에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·단위·관습 표현이 없고 인명만 나옵니다. 'linen closets'를 '린넨 옷장'으로 옮긴 것은 일반 어휘 번역입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 811,
+    "output_tokens": 1057,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

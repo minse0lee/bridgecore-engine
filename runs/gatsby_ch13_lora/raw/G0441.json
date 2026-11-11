@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfmzhsMV44QAfBKghKL",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0441\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"this man Gatsby sent over his chauffeur with an invitation\",\"tgt_span\":\"이 남자는 개츠비가 초대장을 가지고 그의 운전수를 보냈다\",\"description\":\"'this man Gatsby'(개츠비라는 사람)가 동격 구조로 보내는 주체인데, 번역은 '이 남자는'과 '개츠비가'로 나뉘어 개츠비와 이 남자가 별개 인물처럼 읽힘. 문장 구조도 비문에 가까움.\"},{\"id\":\"E002\",\"src_span\":\"with an invitation\",\"tgt_span\":\"초대장을 가지고\",\"description\":\"운전수가 초대장을 가지고 왔다는 뜻으로 옮겨 원문의 '초대와 함께 보냈다'와 거의 같음. 의미 차이는 크지 않음.\"},{\"id\":\"E003\",\"src_span\":\"“and this man Gatsby sent over his chauffeur with an invitation.”\",\"tgt_span\":\"“이 남자는 개츠비가 … 보냈다.”라고 말했다\",\"description\":\"원문에 없는 '말했다'가 첨가되어 서술 구조가 바뀌었으나 인용문 발화 기능을 명시한 것으로 의미 변화는 없음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물·행위자): 'this man Gatsby'가 '이 남자는 개츠비가'로 갈라져 보낸 주체가 개츠비 한 사람이 아닌 것처럼 읽히지만, 개츠비가 운전수를 초대장과 함께 보냈다는 핵심 사실은 남아 있어 요지 변화는 작습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(소유·지시): 'this man'과 'Gatsby'의 동격 관계가 끊겨 '이 남자'가 누구를 가리키는지 불분명해졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"손짓과 함께 자기 상황을 설명하는 서술 → 같은 설명 기능. 발화 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 처음 만난 사람에게 캐주얼하게 말하는 상황이지만 번역문의 어조가 관계를 바꾸지 않으며, 지침상 어색함만으로 훼손이 아닙니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 750,
+    "output_tokens": 1085,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

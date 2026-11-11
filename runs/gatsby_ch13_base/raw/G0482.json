@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfrCvwRyrzhA1vSTHBW",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0482\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"he concluded lustily\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"발화 방식과 화자 표지(그가 힘차게 결론지었다)가 번역에서 누락됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'he concluded lustily'가 누락되어 화자(he)와 발화 행위, 힘찬 태도 정보가 빠졌으나, 곡 제목을 알리는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현의 대상이나 관계가 바뀌지 않았습니다. 누락은 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"곡 제목을 알리는 소개 발화 → 곡 제목을 알리는 설명으로 같은 종류의 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공연 소개 발화에 쓰인 평서체 '~있다'가 큰 어색함 없이 대체로 유지되며, 관계 정보로 볼 때 훼손할 근거가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"곡 제목 속 인명 Vladmir Tostoff는 '블라디미르 토스토프'로 통용되는 음역이며, 제도·단위 등 고유 문화 대상의 변경이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 546,
+    "output_tokens": 707,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

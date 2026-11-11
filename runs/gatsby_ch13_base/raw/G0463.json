@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfpyYFVZwYrBAxXFYnD",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0463\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"He’s just a man named Gatsby.\",\"tgt_span\":\"그냥 누군가를 향한 애정이었을 뿐이었다.\",\"description\":\"개츠비라는 이름의 한 남자라는 인물 서술이 '누군가를 향한 애정'이라는 감정 서술로 바뀌어 인물·이름이 사라지고 전혀 다른 내용이 됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물·대상): 개츠비라는 남자를 가리키는 문장이 '누군가를 향한 애정'으로 바뀌어 대상과 내용이 달라지고 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 대명사 He가 가리키는 인물(개츠비)이 번역문에서 사라져 지시 대상을 알 수 없게 되었습니다. just의 초점도 '그냥 한 남자'에서 '그냥 애정'으로 옮겨졌습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"원문 기능: 대화 속에서 개츠비가 누구인지 설명(정체를 가볍게 일축) → 번역 기능: 감정에 대한 서술. 인물 소개 기능이 사라졌습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 화자와 청자의 관계 정보가 없어 높임 적절성을 판단할 수 없습니다. 화자와 청자의 관계 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명만 있고 별도로 판정할 문화 고유의 제도·단위 등은 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 450,
+    "output_tokens": 800,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

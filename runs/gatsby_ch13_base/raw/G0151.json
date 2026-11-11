@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfU6W7yuL8A6nUkzptM",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0151\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"What’ll we plan?\",\"tgt_span\":\"계획이 있으신가요?\",\"description\":\"'우리가 무엇을 계획할까?'라는 공동 계획 질문이 상대에게 계획이 있는지 묻는 질문으로 바뀜(주체 'we'와 '무엇'의 내용 상실)\"},{\"id\":\"E002\",\"src_span\":\"What’ll we plan?\",\"tgt_span\":\"계획이 있으신가요?\",\"description\":\"데이지가 청자(화자 닉)에게 건네는 말에 존대 높임(-으신가요)이 쓰여 관계에 맞지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'we'(함께 계획하는 주체)와 'what'(무엇을 계획할지)이 사라지고, 계획 내용을 묻는 질문이 상대의 계획 유무를 묻는 질문으로 바뀌어 요지가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현이 바뀐 것은 아니며, 'we'의 누락은 Semantic에서 판정합니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"함께 계획을 세우자는 제안을 구하는 질문(무엇을 할지 의논) → 상대의 기존 계획 유무를 확인하는 질문으로 기능이 달라졌습니다. 뒤 문장 'What do people plan?'의 막막함으로 이어지는 흐름도 약해집니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화 속 계획 질문입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"데이지가 청자인 닉에게 대화체로 말하는 장면인데 '-으신가요'라는 높임이 쓰여 두 사람의 관계에 맞지 않는 격식이 더해졌습니다. 관계 정보가 문맥에서 일부 확인되어 훼손으로 봅니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 502,
+    "output_tokens": 908,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

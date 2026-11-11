@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfpCjUPGi11oKTZmGk1",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0475\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"an urban distaste for the concrete\",\"tgt_span\":\"콘크리트에 대한 도시적 혐오감\",\"description\":\"'the concrete'(추상의 반대인 구체적인 것·구체적 사실)를 건축 자재 '콘크리트'로 오역함. 도시인다운 세련됨 때문에 구체적 이야기를 꺼리는 태도라는 의미가 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'the concrete'(구체적인 것)가 건축 자재 '콘크리트'로 바뀌어, 조던이 화제를 바꾼 이유가 달라지고 독자가 문장의 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'어쨌든'이 화제 전환 연결을 유지하고 지시·초점 관계의 변화는 없습니다. 오역은 Semantic에서 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조던이 화제를 바꾸며 말하는 서술·대화 기능 → 같은 기능으로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조던의 대화체가 '~해요'로 유지되어 소설 문맥에 맞고 태도 변화도 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화 고유의 제도·단위·관습 등 판정할 대상이 없습니다. 'the concrete' 오역은 단어 오역이므로 Semantic에서만 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 656,
+    "output_tokens": 748,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

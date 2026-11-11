@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfsfLi3bEa8Rfp5e1XE",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0534\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Don’t give it another thought, old sport.\",\"tgt_span\":\"다시 생각하지 말아라\",\"description\":\"'신경 쓰지 마라'는 관용적 위로가 '다시 생각하지 말아라'로 직역되어 생각 자체를 금지하는 말처럼 읽힘\"},{\"id\":\"E002\",\"src_span\":\"old sport\",\"tgt_span\":\"친구야\",\"description\":\"개츠비의 격식 있고 인위적인 호칭 'old sport'가 일반적인 '친구야'로 바뀌어 특유의 어투와 거리감이 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: '신경 쓰지 마라'(괜찮다는 뜻)가 '다시 생각하지 말아라'로 옮겨져 관용적 의미가 흐려졌으나 핵심 취지는 짐작할 수 있어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현의 대상이 바뀐 것이 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대를 안심시키는 말 → 상대에게 다시 생각하지 말라고 하는 말. 안심시키려는 기능은 대체로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·금지를 거는 규범적 문장이 아니라 상대를 안심시키는 관용적 표현입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 3: 개츠비 특유의 인위적이고 격식 있는 친밀 호칭 'old sport'가 평범한 '친구야'로 바뀌어 화자의 태도와 거리감이 약해졌습니다. 해당 호칭은 바로 다음 문장에서 다루어지는 서술적 특징이라 판단 질문 2의 영향도 있습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 별도 판정 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 632,
+    "output_tokens": 866,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

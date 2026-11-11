@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvftK8oFTZcJccWPqVXv",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0517\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“Well, we’re almost the last tonight,”\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"남자의 대사(오늘 밤 거의 마지막이다)가 번역문에서 통째로 누락됨\"},{\"id\":\"E002\",\"src_span\":\"said one of the men sheepishly\",\"tgt_span\":\"그 중 한 명이 손을 뻗어 손목을 잡았다\",\"description\":\"쑥스러운 듯 말했다는 발화 행위가 원문에 없는 '손을 뻗어 손목을 잡았다'는 신체 행위로 바뀜(첨가·오역)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 발화 내용과 말하는 행위가 사라지고 손목을 잡는 행위가 새로 생겨 누가 무엇을 했는지가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현의 대상이 바뀐 것은 아니며, 내용 누락은 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"자리를 파하는 사정을 쑥스럽게 설명하는 발화 → 신체 접촉 행동 묘사로 기능이 바뀌었습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"번역 구간에 화자와 청자의 관계가 드러나는 말투가 없어 평가할 대상이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 512,
+    "output_tokens": 769,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfLCFvGG44vxFBnyRfX",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0036\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a dozen volumes\",\"tgt_span\":\"12권의 책\",\"description\":\"'a dozen'은 '열두 권'으로 옮겨 수량이 같으며 오류가 아님(참고용 없음)\"},{\"id\":\"E002\",\"src_span\":\"Maecenas\",\"tgt_span\":\"메세네스\",\"description\":\"로마의 부유한 후원자 마이케나스(Maecenas)를 '메세네스'로 잘못 음역하여 지시 대상을 알아보기 어려움\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1(인물·대상): Maecenas가 '메세네스'로 음역되어 세 부자 인물 중 하나의 지시 대상이 흐려졌으나, 나머지 핵심 내용은 유지되어 요지 이해에는 큰 영향이 없습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'they'는 '그 책들'로, 'only'는 '오직 … 만이'로 같은 대상에 걸리며 분사구문의 연결도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 책을 산 일과 책이 선반에 놓인 모습을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회상 서술에 맞는 평서체('~했다')가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"미다스, 모건, 마이케나스는 부의 상징으로 쓰인 인물 언급이며 인명만 있어 Cultural 판정 대상은 아니나, 대상이 같은 부자 상징 인물로 유지되고 문화 함의는 전달됩니다. 음역 오류는 Semantic에만 기록합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1269,
+    "output_tokens": 819,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

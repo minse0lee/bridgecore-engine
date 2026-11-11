@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfJnYNkj9C7ise74Dr5",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0019\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"New Haven\",\"tgt_span\":\"뉴헤이븐 대학교\",\"description\":\"도시명 New Haven(예일대를 가리키는 환유)을 '뉴헤이븐 대학교'로 옮김. 실제로는 예일 대학을 가리키므로 존재하지 않는 대학명이 됨\"},{\"id\":\"E002\",\"src_span\":\"just a quarter of a century after my father\",\"tgt_span\":\"아버지가 졸업한 지 25년 뒤였고\",\"description\":\"a quarter of a century(25년)는 정확히 옮겼으나 'just'(바로, 딱)의 뉘앙스가 사라짐. 의미 변화는 거의 없음\"},{\"id\":\"E003\",\"src_span\":\"that delayed Teutonic migration known as the Great War\",\"tgt_span\":\"제1차 세계대전으로 알려진 지연된 독일인 이주\",\"description\":\"Teutonic migration은 독일 민족의 대이동에 빗댄 비유인데, 번역에서는 '독일인 이주'로 문자 그대로 옮겨 전쟁에 참여한 화자(미국인)가 독일인 이주에 참여한 것처럼 읽힘. 역사적 비유(게르만 민족 대이동)가 전달되지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 1: 'delayed Teutonic migration'(전쟁을 게르만 대이동에 빗댄 표현)이 '지연된 독일인 이주'로 옮겨져 화자가 독일인 이주에 참여했다는 다른 사태로 읽혀 요지가 달라집니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"졸업 시점과 전쟁 참여의 시간 순서 연결, 'known as'의 동격 관계가 유지되며 지시·초점 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 이력을 서술하는 설명 → 이력을 서술하는 설명으로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 같은 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회고 서술의 평서체가 유지되며 화자·청자 관계에 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E003\"],\"reason\":\"판단 질문 1·2: New Haven(예일대를 가리키는 통용 표현)을 '뉴헤이븐 대학교'라는 별개의 기관처럼 옮기고, 게르만 민족 대이동이라는 역사적 지시를 '독일인 이주'로 옮겨 한국어 독자가 해당 역사·제도적 의미를 이해하기 어렵습니다. 다만 'Great War'는 제1차 세계대전으로 올바르게 옮겨졌습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1484,
+    "output_tokens": 1155,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

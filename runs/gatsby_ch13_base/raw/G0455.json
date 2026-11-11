@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfpQi3uBp2fBdUTEqbE",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0455\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"He excused himself\",\"tgt_span\":\"자신을 사과했다\",\"description\":\"'양해를 구하고 자리를 떠났다'는 뜻의 excused himself가 '자신을 사과했다'로 오역되어, 자리를 뜨는 행위가 사라지고 스스로에게 사과한다는 뜻이 됨\"},{\"id\":\"E002\",\"src_span\":\"a small bow that included each of us in turn\",\"tgt_span\":\"우리 각각의 차례를 포함한 작은 인사\",\"description\":\"인사가 우리 한 사람 한 사람에게 차례로 향했다는 내용이 '우리 각각의 차례를 포함한'으로 바뀌어 인사의 대상이 '차례'로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(행위·대상): excused himself가 '자신을 사과했다'로 바뀌어 양해를 구하고 물러나는 행위가 사라졌고, 일행 각자에게 차례로 인사했다는 내용도 '각각의 차례를 포함한 인사'로 달라져 요지를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1·3(지시·범위): 인사가 포함한 대상이 '우리 각자(순서대로)'에서 '우리 각각의 차례'로 바뀌어 포함 범위가 달라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 인물의 행동을 묘사하는 서사 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 행동 서술이며 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"3인칭 서술문이며 화자와 청자 사이의 높임·호칭 관계를 판정할 대상이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"고유한 제도·관습·단위 등 별도로 판정할 문화 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 601,
+    "output_tokens": 880,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

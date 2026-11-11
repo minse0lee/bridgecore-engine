@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfPXHEibMXoMcVAKddZ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0088\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"If she saw me out of the corner of her eyes\",\"tgt_span\":\"그녀가 눈꼬리로 나를 본다 해도\",\"description\":\"사실 조건(보았다면, 그러나 아무 기색이 없었다)이 양보형 '본다 해도'로 바뀌어 보았을 가능성이 있다는 전제가 약해짐. 다만 핵심 의미는 거의 유지됨.\"},{\"id\":\"E002\",\"src_span\":\"I was almost surprised into murmuring an apology\",\"tgt_span\":\"나는 … 속삭이듯 사과할 정도로 놀랐다\",\"description\":\"'놀라서 하마터면 사과를 중얼거릴 뻔했다'가 '속삭이듯 사과할 정도로 놀랐다'로 바뀌어, 실제로 사과를 하지는 않았다는 점과 놀람의 방식이 달라지고 사과 행위가 일어난 듯 읽힘.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1(행위·확실성): 'almost … murmuring an apology'(사과를 중얼거릴 뻔함)가 '속삭이듯 사과할 정도로 놀랐다'로 바뀌어 화자의 반응이 달라졌고, 번역문만 읽으면 요지(사과할 뻔했으나 하지 않음)를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 대상(she, me)과 'indeed'로 이어지는 강조·연결은 '실제로'로 유지되고, 조건→양보 차이는 연결 관계를 바꿀 만큼 크지 않습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(화자의 관찰·반응 묘사) → 서술. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체(~다)가 유지되며 관계·호칭 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 859,
+    "output_tokens": 923,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

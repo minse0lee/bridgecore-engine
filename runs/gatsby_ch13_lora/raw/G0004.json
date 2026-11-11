@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfHpLzDK6DXcLShxcab",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0004\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"many curious natures\",\"tgt_span\":\"많은 호기심의 본성\",\"description\":\"'curious'(흥미로운·기이한)의 수식 대상이 '사람의 본성'인데, '호기심의 본성'으로 옮겨 호기심이 있는 것처럼 바뀌고 '다양한 기이한 성격의 사람들'이라는 의미가 흐려짐\"},{\"id\":\"E002\",\"src_span\":\"not a few veteran bores\",\"tgt_span\":\"몇몇 베테랑 지루함\",\"description\":\"'not a few'(적지 않은)를 '몇몇'으로 옮겨 수량이 줄었고, 'bores'(지루한 사람들)를 추상 명사 '지루함'으로 옮겨 사람이 아닌 대상으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'not a few'가 '몇몇'으로 수량이 달라졌고, 'bores'(지루한 사람들)가 '지루함'으로 바뀌어 희생자가 되는 대상이 달라졌으며, 'curious natures'도 '호기심의 본성'으로 바뀌어 요지를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'a habit'이 앞의 판단 보류 습관을 가리키는 관계와 'and also'의 병렬 연결이 '이 습관은 … 열어주었고 또한 …'으로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 습관과 그 결과 설명 → 서술자의 습관과 그 결과 설명. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등의 규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술자의 회고적 서술체가 '~했다' 평서체로 유지되며 관계상 어긋남이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 이 문장에는 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1497,
+    "output_tokens": 898,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

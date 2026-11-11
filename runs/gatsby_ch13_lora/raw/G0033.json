@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfKmRfwxRCoGhcqr7PT",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0033\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the freedom of the neighbourhood\",\"tgt_span\":\"이웃의 자유\",\"description\":\"'동네(neighbourhood)를 자유롭게 드나들 권리(freedom of the neighbourhood)'를 '이웃의 자유'로 옮겨, 지역을 가리키는 neighbourhood가 이웃 사람처럼 읽히고 freedom of the ~ 관용(명예시민권 같은 자유 출입권)의 의미가 전달되지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상): 동네에 대한 자유 출입권이 '이웃의 자유'로 바뀌어 무엇을 부여받았는지 독자가 다르게 이해합니다. 행위자·casually·부여 행위는 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"he→그, me→내게의 지시 관계와 초점 표현이 유지되며 연결 관계 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 화자가 느낀 소회를 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문이며 의무·허가·금지를 정하는 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문으로 화자·청자 간 높임·호칭 관계가 드러나지 않습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 'freedom of the neighbourhood'는 도시의 자유(freedom of the city)류의 명예적 출입권 관용 표현인데 '이웃의 자유'로 옮겨 그 관습적 의미가 한국어 독자에게 전달되지 않습니다. 다만 문맥상 큰 사실 변화는 아니어서 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 574,
+    "output_tokens": 811,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

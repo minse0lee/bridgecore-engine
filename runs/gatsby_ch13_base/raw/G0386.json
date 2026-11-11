@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvfjn7HNbZr4yjMUdvLB",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0386\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"there would be another one after midnight\",\"tgt_span\":\"자정이 지나면 또 한 번의 저녁 식사가 준비되고 있었다\",\"description\":\"자정 이후에 또 한 번의 저녁 식사가 나올 것이라는 미래 예정이 '자정이 지나면 … 준비되고 있었다'로 옮겨져 시점과 사태가 모호해지고 모순됨\"},{\"id\":\"E002\",\"src_span\":\"was now being served\",\"tgt_span\":\"준비되고 있었다\",\"description\":\"'제공되고 있었다(차려지고 있었다)'가 '준비되고 있었다'로 바뀌어 상태가 달라짐\"},{\"id\":\"E003\",\"src_span\":\"her own party, who were spread around a table\",\"tgt_span\":\"그녀의 파티에 초대했는데, 그 파티는 … 테이블 주위에 흩어져 있었다\",\"description\":\"party가 사람들 일행이 아니라 '파티'라는 행사로 옮겨져 사람들이 테이블 주위에 흩어져 앉아 있던 상황이 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 자정 이후의 두 번째 식사가 예정되어 있다는 내용이 불분명해지고, 식사가 차려진 것이 준비 중으로 바뀌었으며, 조던의 일행(사람들)이 행사로 바뀌어 독자가 장면을 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(시간 순서·연결 관계): 첫 번째 식사 후 자정 이후에 또 다른 식사가 있을 것이라는 시간 관계가 '자정이 지나면 … 준비되고 있었다'로 흐트러져 바뀌었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 서술 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 '-었다'가 유지되며 관계상 부적절한 높임이나 호칭 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1108,
+    "output_tokens": 1000,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

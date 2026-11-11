@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfgseZrT4V75Z669MvM",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0358\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"A tray of cocktails floated at us through the twilight\",\"tgt_span\":\"황혼을 가로질러 칵테일 트레이가 우리를 향해 떠올랐고\",\"description\":\"waiter가 나르는 쟁반이 떠다니듯 다가온다는 의미의 floated를 '떠올랐고'(떠올랐다/솟아올랐다)로 옮겨 움직임 양상이 달라짐. 다만 쟁반이 우리 쪽으로 다가온다는 핵심 사태는 대체로 읽힘.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위): floated가 '떠올랐고'로 옮겨져 다가오는 이동이 위로 솟아오르는 움직임으로 읽힐 수 있으나, 쟁반이 우리 쪽으로 온다는 요지와 수량(둘·셋)·인물은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그리고'식 병렬 연결과 each one의 지시 대상(세 남자)이 유지되어 지시·연결·초점 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 파티 장면을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 '~다' 문체가 유지되고 Mr. Mumble의 '머블 씨' 호칭도 적절합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명(Mr. Mumble) 외에 문화·제도적으로 고유한 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1099,
+    "output_tokens": 786,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

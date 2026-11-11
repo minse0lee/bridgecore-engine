@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvff5DnPWSzVKiCeq6EC",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0328\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Gilda Gray’s understudy from the Follies\",\"tgt_span\":\"폴리스에서 길다 그레이의 백업 연습생\",\"description\":\"understudy(대역 배우)를 '백업 연습생'으로 옮겨 대역이라는 역할이 사라지고, Follies(지그펠드 폴리스 레뷰)를 '폴리스'로만 음역해 공연 이름임을 알기 어렵게 함. 폴리스가 소속처 표시로만 읽힘.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: understudy(대역 배우)가 '백업 연습생'으로 바뀌어 대상의 역할이 달라졌습니다. 침묵, 리듬 변화, 잘못된 소문, 떠들썩함이라는 핵심 사건은 유지되어 요지는 크게 달라지지 않으므로 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"그녀·그의 지시 관계와 'as'절의 동시 진행 연결이 '-면서'로 유지되고, 초점·범위 표현의 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"파티 분위기 서술 → 파티 분위기 서술. 장면을 묘사하는 서사 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문의 평서체가 유지되며 화자·청자 관계에 따른 높임·호칭 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 'Follies'(1920년대 지그펠드 폴리스 레뷰)를 '폴리스'라고만 옮기고 길다 그레이의 대역을 '백업 연습생'으로 바꾸어, 한국어 독자가 브로드웨이 쇼 문화와 그 대역이라는 제도적 의미를 이해하기 어렵습니다. 다만 고유명사가 남아 있어 원 대상을 찾을 수 있고 문장의 요지는 유지되므로 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 906,
+    "output_tokens": 931,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

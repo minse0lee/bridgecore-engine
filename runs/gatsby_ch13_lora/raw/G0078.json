@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfNo8Td4tX4WCSkjMiZ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0078\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“We’ll go inside.”\",\"tgt_span\":\"“우리는 안으로 들어갈 것이다.”\",\"description\":\"안으로 들어가자는 제안·권유가 단순한 미래 예고 평서문으로 옮겨져 발화 기능이 달라짐\"},{\"id\":\"E002\",\"src_span\":\"“We’ll go inside.”\",\"tgt_span\":\"“우리는 안으로 들어갈 것이다.”\",\"description\":\"대화 속 화자가 청자에게 하는 말이 해라체 서술 종결로 옮겨져 청자에 대한 태도·격식이 불분명해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"우리가 안으로 들어간다는 행위자·행위·방향·시제(미래)가 유지됩니다.\"},\"Textual\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 지시·연결·초점 표현이 없습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 상대를 안으로 이끄는 제안·권유 → 단순한 미래 계획 진술(평서)로 바뀌어 발화 기능이 달라졌습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 제안으로 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자(톰 뷰캐넌)와 청자(닉)의 관계가 평가조건과 문단에 구체적으로 나타나지 않아 해라체 대화문의 적절성 판단에 필요한 관계·격식 정보가 부족합니다. 문단은 정중하면서도 갑작스러운 태도만 알려 줍니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 문장에 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 519,
+    "output_tokens": 797,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

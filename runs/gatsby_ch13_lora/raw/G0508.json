@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfrCn1b99F9butnLKDq",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0508\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Jordan’s party\",\"tgt_span\":\"조던의 당\",\"description\":\"party는 '일행'인데 정당 등을 연상시키는 '당'으로 옮겨 지시 대상이 모호해짐. 다만 '조던의 당인 이스트 에그의 4인조'로 이어져 일행(4인조)을 가리킨다는 점은 복원 가능하여 경미한 오역임.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상): 'Jordan's party'(조던의 일행)가 '조던의 당'으로 옮겨져 대상 표현이 달라졌습니다. 그러나 뒤의 '4인조'와 문맥으로 일행을 가리킨다는 것을 알 수 있어 요지는 유지되므로 minor입니다. 4인조, 의견 차이로 갈라짐 등 나머지 내용은 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'조차도'가 Even의 초점을 유지하고 'Jordan의 일행 = 4인조'의 동격 관계도 남아 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술(상황 묘사) → 소설 서술(상황 묘사). 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 서술 태도와 소설 서술체('~했다')가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"East Egg는 지명 표기로 같은 장소를 가리키며, 별도의 제도·관습 단위가 없습니다. '4'는 quartet의 번역으로 수치 오류가 아닙니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1000,
+    "output_tokens": 785,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvfu4RYo1Tbw6yEFjrmN",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0529\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Please come and see me…\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"방문을 요청하는 문장이 번역문에서 누락됨\"},{\"id\":\"E002\",\"src_span\":\"My aunt…\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"이모/고모를 언급한 'My aunt…'가 누락됨\"},{\"id\":\"E003\",\"src_span\":\"Mrs. Sigourney Howard\",\"tgt_span\":\"시거니 하워드 부인\",\"description\":\"Sigourney의 음역이 '시거니'로 부정확하나 하워드 부인이라는 지시 대상은 알아볼 수 있음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 'Please come and see me'(찾아와 달라는 요청)와 'My aunt'(이름이 숙모 이름이라는 정보)가 빠져 독자가 요지와 행동을 다르게 이해하게 됩니다. 음역 오류는 사소합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: 'My aunt'가 빠져 Mrs. Sigourney Howard와 화자의 소유·친족 관계(숙모 이름)가 사라져 지시 관계를 알 수 없게 됩니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"원문 기능 → 번역 기능: 방문을 요청하며 연락 방법을 알려 주는 초대 → 전화번호부에서 이름을 찾으라는 단편 정보. 초대·요청 기능이 사라졌습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"개인적 부탁·초대이므로 규범적 의무·허가를 정하는 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"번역문에 높임·종결 표현이 없어 파티에서 만난 사이의 공손한 말투가 유지되는지 판단하기 어렵습니다. 화자와 청자의 관계와 기대되는 격식 정보가 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명과 'Mrs.' 호칭, 전화번호부만 있고 별도로 판정할 문화·제도 고유 대상은 없습니다. 음역 오류는 Semantic에서만 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 773,
+    "output_tokens": 977,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

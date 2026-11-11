@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfmQNPAFRSbZk4uWEav",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0409\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I was brought. Most people were brought.\",\"tgt_span\":\"나는 가져 왔습니다. 대부분의 사람들이 가져 왔습니다.\",\"description\":\"'누군가에게 데려와졌다'는 수동 의미가 '(물건을) 가져 왔다'로 바뀌어, 사람이 데려와진 대상이라는 의미와 행위자 관계가 달라지고 앞 질문 'Who brought you?'와의 대응도 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물·행위): 'was brought'(누군가에게 데려와졌다)가 '가져 왔다'로 옮겨져 누가 무엇을 했는지가 달라졌고, 파티 손님이 초대 동반으로 왔다는 요지를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(지시·소유 관계): 'brought'가 '가져 왔다'로 바뀌어 앞 질문 'Who brought you?'의 '데려오다'와 이어지는 대응 관계가 끊겨, 'I was brought'가 가리키는 대상이 불분명해졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 질문 및 자기 경험 서술 → 질문 및 서술. 발화 기능 종류는 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"파티 장면의 대화에서 '~어요/~습니다' 체를 쓰며 관계에 크게 어긋나지 않고, 어색함만으로는 훼손이 아닙니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 표현이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 533,
+    "output_tokens": 816,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

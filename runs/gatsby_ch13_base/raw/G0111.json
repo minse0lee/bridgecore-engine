@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfRQsLZ3fCns2cxjQ4L",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0111\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Nick\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"말을 거는 상대를 부르는 호칭(Nick)이 번역문에서 빠짐\"},{\"id\":\"E002\",\"src_span\":\"What you doing\",\"tgt_span\":\"니가 뭐하는 짓이야?\",\"description\":\"'무엇을 하고 있니'라는 중립적 질문이 '뭐하는 짓이야'라는 비난·질책의 어조로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: 상대가 무엇을 하고 있는지 묻는 중립적 질문이 '짓'이라는 부정적 평가가 담긴 표현으로 바뀌어 평가 내용이 달라졌으나, 묻는 핵심 사실은 유지되어 minor입니다. 호칭 누락은 Register에서 다룹니다.\"},\"Textual\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 지시·연결·초점 표현이 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대의 행동을 묻는 질문 → 상대의 행동을 묻는(추궁하는) 질문. 질문 기능은 같은 종류로 유지되며, 어조 차이는 Semantic과 Register에서 다룹니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화 속 질문입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 2·3: 원문의 호칭 Nick이 사라졌고, 친근하고 중립적인 질문이 '뭐하는 짓이야'라는 반말의 비난조로 바뀌어 화자의 태도가 달라졌습니다. 다만 반말 자체는 허물없는 사이에서 가능해 요지는 유지되어 minor입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정 대상이 없습니다. 인명만 있어 N/A입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 420,
+    "output_tokens": 885,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

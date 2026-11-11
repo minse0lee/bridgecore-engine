@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfJMcgbHsTKBwayHWfu",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0012\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"everything for which I have an unaffected scorn\",\"tgt_span\":\"내가 영향을 받지 않고 경멸하는 모든 것\",\"description\":\"'unaffected scorn'(꾸밈없는, 진심 어린 경멸)이 '영향을 받지 않고 경멸하는'으로 바뀌어 경멸의 성격이 달라지고 서술 구조도 어긋남\"},{\"id\":\"E002\",\"src_span\":\"the man who gives his name to this book\",\"tgt_span\":\"이 책에 그의 이름을 붙인 개츠비\",\"description\":\"'이 책에 이름을 부여한 사람'이 '이 책에 그의 이름을 붙인 사람'으로 옮겨져 이름을 붙인 행위자가 불분명해짐(책 제목이 된 인물이라는 뜻은 대체로 유지)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'unaffected'(꾸밈없는, 진심의)가 '영향을 받지 않고'로 바뀌어 경멸의 성격이 달라졌으나 개츠비가 경멸 대상을 대표했다는 핵심 사실과 독자의 이해는 크게 바뀌지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Only'의 초점이 '개츠비만이'로 유지되고 대시 이하 동격·관계절의 지시 관계도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(화자의 태도 설명) → 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 화자의 서술체가 '-했다' 평서체로 유지되어 관계·태도에 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없고 인명만 등장합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1633,
+    "output_tokens": 871,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

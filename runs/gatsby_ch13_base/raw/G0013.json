@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfJXaiNUynWnq66pzVP",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0013\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"ten thousand miles away\",\"tgt_span\":\"만 마일 떨어져\",\"description\":\"'만 마일'은 ten thousand miles의 올바른 번역으로, 자동 점검 힌트(10000)는 표기 차이로 인한 오경보이며 수량 오류가 아님. 다만 이 항목은 오류가 아니므로 아래 E001을 대체 서술로 사용하지 않음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인격 조건문, 화려함, 삶의 약속에 대한 높아진 민감성, 만 마일 밖의 지진을 기록하는 기계 비유가 모두 유지됩니다. 수치 '만 마일'도 일치합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"If…then 조건 관계와 as if 비유 연결이 '-라면', '-것처럼'으로 유지되며 지시 관계도 바뀌지 않았습니다(판단 질문 1·2·3 모두 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 묘사 서술 → 인물 묘사 서술. 발화 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 서술 태도가 평서체 서술로 유지되며 관계에 어긋나는 높임·호칭 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"마일 단위가 그대로 유지되어 다른 단위로 바꾸지 않았고 환산 오류도 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1797,
+    "output_tokens": 734,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

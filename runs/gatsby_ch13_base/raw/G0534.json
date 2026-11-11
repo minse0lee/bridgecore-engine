@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfuQERLCmP35H3K2L4s",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0534\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Don’t give it another thought\",\"tgt_span\":\"그렇게 생각하지 마세요\",\"description\":\"'다시는 그 일을 더 생각하지 말라'(신경 쓰지 말라)는 뜻이 '그렇게 생각하지 마세요'로 바뀌어 생각의 내용(견해)을 금지하는 것처럼 읽힘. another(더 이상)의 의미도 불분명해짐\"},{\"id\":\"E002\",\"src_span\":\"old sport\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"친밀한 호칭 'old sport'가 번역되지 않고 누락됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: '그 일을 더 이상 마음에 두지 마라'가 '그렇게 생각하지 마세요'로 달라져 대상이 불분명해지고, 'old sport' 호칭도 빠졌습니다. 다만 개츠비가 상대의 감사를 만류한다는 요지는 문맥상 대체로 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현에 해당하는 변화가 없고, 'it'이 '그렇게'로 옮겨져 앞 발화를 받는 관계는 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"감사에 대한 만류·안심시키는 발화 → 만류하는 발화. 같은 종류의 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 개인적 만류로 규범적 의무·금지·허가를 정하는 문장이 아닙니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 3: 'old sport'가 담은 개츠비 특유의 친밀하고 격의 없는 호칭 태도가 사라졌고, 문맥상 이 표현을 호칭으로 쓰는 인물인데 번역문은 일반 존댓말만 남았습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습을 판정할 대상이 없습니다. 'old sport'의 호칭 태도는 Register에서 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 631,
+    "output_tokens": 931,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

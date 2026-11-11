@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfvsosiabnJ9zVmWJAx",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0557\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"washing his hands of the whole matter\",\"tgt_span\":\"손을 씻었다\",\"description\":\"관용 표현(그 일에서 손을 떼다/발을 빼다)이 문자 그대로 손을 씻는 동작으로 옮겨져, 사건에 관여하지 않겠다는 비유적 의미가 사라지고 '손을 씻은' 실제 행위로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'washing his hands of the whole matter'가 '이 일에서 손을 떼다'라는 관용적 의미인데 '손을 씻었다'로 옮겨져 행위의 내용이 달라졌고 'whole matter'도 빠졌습니다. 'Don't ask me'라는 핵심 발화가 유지되어 요지 이해는 크게 바뀌지 않으므로 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현의 관계가 바뀌지 않았습니다. 발화와 부대 서술의 연결은 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"질문 거절 → 질문 거절. '나한테 묻지 마'라는 거절 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범적 의무·허가·금지를 정하는 문장이 아니라 대화 속 개인적 거절입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Owl Eyes의 퉁명스러운 구어체 거절이 반말 '묻지 마'로 유지되며, 문맥상 이 장면의 관계에서 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"제도·단위·관습 등 문화 고유의 대상이 없습니다. 관용 표현의 오역은 Semantic에서 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 594,
+    "output_tokens": 811,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

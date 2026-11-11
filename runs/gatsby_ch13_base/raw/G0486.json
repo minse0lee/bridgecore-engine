@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfrNg51g29eSYEGPNnG",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0486\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"he grew more correct\",\"tgt_span\":\"그가 더 정확해지는 것처럼 보였기\",\"description\":\"'correct'(품행이 단정하고 예의 바른)가 '정확해지는'(accurate/precise)으로 바뀌어 인물 묘사의 내용이 달라짐\"},{\"id\":\"E002\",\"src_span\":\"the fraternal hilarity\",\"tgt_span\":\"형제의 웃음\",\"description\":\"fraternal hilarity(동료·형제 같은 친목 분위기의 떠들썩한 흥겨움)가 '형제의 웃음'으로 옮겨져 떠들썩한 모임의 분위기라는 의미가 사라지고 지시 대상이 불분명해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'correct'가 '정확해지는'으로, 'fraternal hilarity'가 '형제의 웃음'으로 바뀌어 개츠비의 단정한 처신과 주변의 들뜬 분위기라는 요지가 다르게 읽힙니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'왜냐하면 …기 때문이다'로 이유 연결과 'the more … the more' 비례 관계(-ᄅ수록)가 유지되어 지시·연결·초점 관계는 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 의문과 관찰 설명 → 서술자의 의문과 관찰 설명. 기능은 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 1인칭 서술의 평서체 '-했다'가 유지되어 관계와 태도에 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1407,
+    "output_tokens": 844,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfKxkpVL8iAmDLH4UN9",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0033\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"casually\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"부사 casually(무심코, 아무렇지 않게)가 번역에서 누락됨\"},{\"id\":\"E002\",\"src_span\":\"the freedom of the neighbourhood\",\"tgt_span\":\"이웃의 자유\",\"description\":\"'동네를 자유롭게 다닐 수 있는 권리/동네의 자유로운 출입'이라는 뜻이 '이웃의 자유'로 옮겨져 neighbourhood(동네)가 이웃(사람)으로 읽히고 비유적 의미가 불분명해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: casually(무심코)가 빠졌고 neighbourhood(동네)가 '이웃'으로 옮겨져 '동네를 자유롭게 다닐 권리'가 '이웃의 자유'로 읽혀 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현이 바뀌지 않았습니다. 대명사 He와 me의 관계가 유지되며, casually 누락은 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 화자가 앞선 인물의 행위를 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 아닌 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체의 '-했다' 문체가 유지되며 관계상 높임 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습이 없습니다. freedom of the neighbourhood는 비유적 표현이며 오역 문제는 Semantic에서 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 558,
+    "output_tokens": 833,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

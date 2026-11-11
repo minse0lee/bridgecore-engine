@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvg4NcC4KtCvpPtvbWLC",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0343\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I was on my way to get roaring drunk from sheer embarrassment\",\"tgt_span\":\"순전히 당황해서 울부짖으며 취할 길이었다\",\"description\":\"'곤드레만드레 취하러 가던 중이었다'가 '울부짖으며 취할 길이었다'로 바뀜. roaring drunk(몹시 취한)가 '울부짖으며'로 오역되어 취하는 정도가 우는 행위로 바뀌고, 진행 중이던 상황도 불분명해짐\"},{\"id\":\"E002\",\"src_span\":\"leaning a little backward\",\"tgt_span\":\"조금 뒤로 기대고\",\"description\":\"몸을 뒤로 젖힌 자세가 '기대고'로 옮겨져 무엇에 기대는지 불분명해졌으나 요지는 크게 다르지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위·정도): roaring drunk(몹시 취함)를 '울부짖으며'로 오역해 화자가 하려던 행위의 내용이 달라져 요지를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"when 절의 시간 관계와 Jordan Baker의 행위 연결, 지시 관계가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사 서술 → 서사 서술. 발화 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문으로 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 소설 서술체가 유지되며 contemptuous의 경멸 태도도 '경멸스러운'으로 남아 있습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명만 있고 별도로 판정할 문화·제도적 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 710,
+    "output_tokens": 822,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

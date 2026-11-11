@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfhMpyBW1oejEFgvexP",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0366\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I was going to wear it tonight\",\"tgt_span\":\"오늘 밤에 입고 싶었지만\",\"description\":\"'입을 예정이었다(계획)'가 '입고 싶었다(희망)'로 바뀜. 다만 핵심 사실(오늘 밤 입으려 했으나 못 입음)은 유지됨\"},{\"id\":\"E002\",\"src_span\":\"had to be altered\",\"tgt_span\":\"바꿔야 했어요\",\"description\":\"'수선해야 했다(altered)'가 '바꿔야 했다'로 옮겨져 옷 수선이 아닌 교체·변경으로도 읽힐 수 있음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 계획이 희망으로, 수선이 '바꾸다'로 달라졌으나 옷이 커서 손봐야 했다는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'but'의 대조 관계가 '-지만'으로, 'it'의 지시가 '그것'으로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 사실 설명 → 사실 설명. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없습니다. 'had to be altered'는 규범이 아니라 사정 설명입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"구어체 대화가 '-어요' 체로 자연스럽게 유지되며 관계 정보가 부족하나 어색함이 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"달러 금액 265달러가 정확히 유지되고 다른 통화로 바꾸지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 666,
+    "output_tokens": 774,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

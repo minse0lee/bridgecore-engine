@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvfe628TYCbqf86NuEKn",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0302\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"West Egg\",\"tgt_span\":\"웨스트 계란\",\"description\":\"지명 West Egg의 'Egg'를 '계란'으로 오역하여 고유 지명이 일반 명사로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"my estate\",\"tgt_span\":\"내 부동산\",\"description\":\"estate(저택·사유지)를 '부동산'으로 옮겨 거주하는 집·대지의 의미가 달라짐\"},{\"id\":\"E003\",\"src_span\":\"I ran the car under its shed\",\"tgt_span\":\"창고 아래에서 차를 몰고\",\"description\":\"차를 헛간(차고)에 넣은 행위가 창고 아래에서 차를 모는 것으로 바뀜\"},{\"id\":\"E004\",\"src_span\":\"sat out in pools of light\",\"tgt_span\":\"빛의 풀에 앉아있는\",\"description\":\"주유기가 빛 웅덩이 속에 놓여 있는 모습이 '빛의 풀에 앉아있는'으로 바뀌고 pools가 풀(pool)로 오역됨\"},{\"id\":\"E005\",\"src_span\":\"deep summer on roadhouse roofs and in front of wayside garages, where new red petrol-pumps sat\",\"tgt_span\":\"깊은 여름이었고, 새로운 빨간 가솔린 펌프가 … 길가 차고 앞에 있었고\",\"description\":\"여름이 지붕과 차고 앞에 깊어졌고 그곳에 주유기가 있다는 관계절 구조가 병렬된 별개 절로 분해되어 장소 관계가 불분명해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\",\"E004\"],\"reason\":\"판단 질문 1: West Egg가 '웨스트 계란'으로, estate가 '부동산'으로, 차를 헛간에 넣은 행위가 '창고 아래에서 차를 몰고'로, 빛 웅덩이 속 주유기가 '빛의 풀에 앉아있는'으로 바뀌어 장소·행위가 달라져 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E005\"],\"reason\":\"판단 질문 2: where 관계절이 병렬절로 바뀌어 '그곳에' 주유기가 있다는 연결이 사라졌으나 의미 요지는 대체로 따라갈 수 있어 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 소설 본문에서 장면을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술의 평서체 '-했다'가 유지되어 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"West Egg는 지명이고 지명의 오역은 Semantic에서 다루며, 별도로 판정할 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1405,
+    "output_tokens": 1198,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

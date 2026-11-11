@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfWRUCCyie7LFSVRDCY",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0183\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"It’s about the butler’s nose.\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"집사의 코에 관한 이야기라는 내용이 통째로 누락됨\"},{\"id\":\"E002\",\"src_span\":\"Do you want to hear about the butler’s nose?\",\"tgt_span\":\"“그럼, 네가 원하는 건 무엇이냐?”\",\"description\":\"'집사의 코 이야기를 듣고 싶은지' 묻는 질문이 '네가 원하는 건 무엇이냐'라는 일반적인 질문으로 바뀌어 대상(집사의 코)이 사라지고 '그럼'이 더해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 집사의 코라는 핵심 대상이 완전히 사라지고, 듣고 싶은지 묻는 질문이 원하는 것이 무엇인지 묻는 질문으로 바뀌어 요지가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1·2: 앞 문단의 'family secret'을 이어받는 'It’s about…' 및 반복되는 'the butler’s nose'의 지시 관계가 사라지고, 번역에 없는 '그럼'이 앞말에 대한 반응이라는 잘못된 연결을 만듭니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\"],\"reason\":\"비밀 이야기를 듣고 싶은지 권유·확인하는 말(이야기 제안) → 상대의 바람을 묻는 일반 질문. 발화 기능이 다른 종류로 바뀌었습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화 속 제안·질문입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: 속삭이며 신나게 비밀을 들려주려는 친밀한 어조가 '네가 원하는 건 무엇이냐?'라는 고압적 말투로 바뀌어 관계·태도에 맞지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 546,
+    "output_tokens": 950,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

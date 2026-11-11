@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvftYkburDMvgUP4Nf6L",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0547\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"which was now getting considerable attention\",\"tgt_span\":\"이제는 6명의 호기심 많은 운전사들로부터 상당한 관심을 받고 있었다\",\"description\":\"관계절 'which'의 선행사는 바퀴(the wheel)인데, 번역문은 주어가 생략된 채 '벽의 돌출부'(또는 불분명한 대상)가 관심을 받는 것처럼 읽혀 지시 대상이 모호해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"a half dozen은 6이므로 '6명'은 정확합니다(힌트의 12는 앞 문장의 a dozen headlights이며 이 문장 밖). 벽의 돌출, 바퀴의 분리, 운전사들의 관심 등 핵심 내용이 유지됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(지시): 관심을 받는 대상은 원문에서 바퀴인데, 번역문은 '설명했고' 뒤에 주어 없이 이어져 앞 주어인 돌출부가 관심을 받는 것처럼 읽힙니다. 다만 문맥상 바퀴로 복원할 수 있어 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 장면의 원인을 설명하는 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 평서체가 유지되며 관계에 맞지 않는 호칭이나 태도 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1185,
+    "output_tokens": 796,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

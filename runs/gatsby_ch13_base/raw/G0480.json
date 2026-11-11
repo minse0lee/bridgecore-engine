@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvfr8HPG5xgjFFTgyoHm",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0480\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"jovial condescension\",\"tgt_span\":\"쾌활한 태도로\",\"description\":\"생색 내는 듯한 우월감(condescension)이 빠지고 단순히 쾌활한 태도로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"“Some sensation!”\",\"tgt_span\":\"“어떤 센세이션!”\",\"description\":\"반어적·비꼬는 감탄(대단한 센세이션이었지!)이 '어떤 센세이션'이라는 모호한 감탄으로 옮겨져 반어 기능이 전달되지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: condescension(우월감 섞인 태도)이 삭제되어 평가 내용이 달라졌으나, 미소 짓고 덧붙였다는 핵심 사실은 유지되어 요지 이해는 크게 바뀌지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계가 바뀌지 않았고 '덧붙였다'로 앞 발언과의 연결이 유지됩니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\"],\"reason\":\"반어적으로 비꼬는 감탄(Some sensation!) → 문자 그대로의 모호한 감탄('어떤 센세이션!'). 앞 문장의 '큰 화제'를 우습게 받아치는 반어 기능이 번역문만으로는 읽히지 않아 서술 기능 이해가 달라집니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3: 화자가 청중에게 보이는 생색 내는 우월적 태도(condescension)가 '쾌활한 태도'로 약해져 화자의 태도가 사라졌습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 758,
+    "output_tokens": 866,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

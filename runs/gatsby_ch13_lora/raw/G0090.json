@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfPYSh1g4yUQAQZuuoh",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0090\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"p-paralysed\",\"tgt_span\":\"마비된\",\"description\":\"말을 더듬는 'p-paralysed'(Gatsby의 긴장·어색함을 드러내는 말더듬)가 일반적인 '마비된'으로 옮겨져 더듬는 표지가 사라짐\"},{\"id\":\"E002\",\"src_span\":\"“I’m p-paralysed with happiness.”\",\"tgt_span\":\"나는 행복으로 마비된 상태에 빠져 있다.\",\"description\":\"1인칭 직접 대화문이 큰따옴표 없이 서술문체(~다)로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자 본인이 행복 때문에 마비된 듯한 상태라는 내용이 유지됩니다. 말더듬은 내용이 아닌 발화 방식이므로 Register에서 봅니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 대상, 연결 관계, 초점 표현이 달라지지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"감정 진술(대화) → 감정 진술. 기능이 같은 종류로 유지됩니다. 따옴표가 빠진 점은 형식 차이일 뿐 기능을 바꾸지 않습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 감정 표현입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 3(화자의 태도): 긴장해서 더듬는 화자의 어색함이 사라졌고, 구어체 발화가 평서 서술체로 바뀌어 대화의 태도·말투가 약해졌습니다. 다만 행동이나 요지의 이해에는 영향이 없어 minor입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 448,
+    "output_tokens": 818,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

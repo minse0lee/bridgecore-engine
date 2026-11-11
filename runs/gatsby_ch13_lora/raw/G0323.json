@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfecJ31H8sGtaQFLykG",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0323\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"chatter\",\"tgt_span\":\"말싸움\",\"description\":\"'수다, 재잘거림'이 '말싸움'(언쟁)으로 바뀌어 파티의 즐거운 분위기와 어긋나는 다른 행위가 됨\"},{\"id\":\"E002\",\"src_span\":\"floating rounds of cocktails\",\"tgt_span\":\"칵테일이 외부 정원에 퍼지면서\",\"description\":\"돌려지는 칵테일 잔(rounds)이 칵테일 자체가 퍼진다는 표현으로 바뀌어 '술잔이 돌며 향이 스민다'는 내용이 약해짐\"},{\"id\":\"E003\",\"src_span\":\"The bar is in full swing\",\"tgt_span\":\"술집은 활기를 띠고 있고\",\"description\":\"저택 안 임시 바(bar)가 '술집'으로 옮겨져 장소 종류가 달라질 여지가 있음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: chatter(수다)가 '말싸움'으로 바뀌어 행위가 달라졌고, 칵테일 잔이 돌려진다는 내용도 흐려졌다. 파티가 활기찬 장면이라는 요지는 유지되고 독자의 행동에는 영향이 없어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현에 변화가 없습니다. until의 결과 관계가 '-면서'로 약해졌으나 병렬 나열 구조가 유지되어 질문 2에 해당하지 않습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"파티 장면 묘사 → 파티 장면 묘사. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"never는 과거 사실('이름을 알지 못했던')을 나타낼 뿐 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 평서체가 유지되고 화자·청자 관계상 훼손할 호칭이나 태도 표현이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1309,
+    "output_tokens": 943,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

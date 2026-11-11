@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvfq1ki29KhvPFrM61N3",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0487\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"singing quartets were formed with Gatsby’s head for one link\",\"tgt_span\":\"개츠비의 머리를 하나의 고리로 형성된 가수 네 명이 형성되지 않았다\",\"description\":\"'노래하는 4중창단(quartets)이 개츠비의 머리를 한 고리로 삼아 만들어지지 않았다'는 내용이 '가수 네 명이 형성되지 않았다'로 바뀌고, 복수 'quartets'가 '네 명'으로 옮겨져 구성 방식(머리를 맞대고 팔을 두른 연결 고리)이 불분명해짐. 문장 구조도 어색함\"},{\"id\":\"E002\",\"src_span\":\"no one swooned backward on Gatsby\",\"tgt_span\":\"아무도 개츠비 위에서 뒤로 쓰러지지 않았고\",\"description\":\"'개츠비에게(기대어) 쓰러지다'가 '개츠비 위에서 쓰러지다'로 바뀌어 쓰러지는 방향·대상이 달라짐\"},{\"id\":\"E003\",\"src_span\":\"no French bob touched Gatsby’s shoulder\",\"tgt_span\":\"프렌치 밥이 개츠비의 어깨를 만지지 않았으며\",\"description\":\"French bob(단발머리 한 여성)의 환유를 음역만 하여 '프렌치 밥'이 무엇인지(여성의 머리 모양) 전달되지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 4중창단 구성이 '가수 네 명이 형성되지 않았다'로 바뀌고 '개츠비 위에서'로 방향이 달라졌으며, French bob이 지시 대상을 알 수 없는 음역이 되어 독자가 마지막 대조의 요지를 제대로 이해하기 어렵습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-지만'으로 앞의 쓰러지는 여자들과 개츠비의 대조 관계가 유지되며, 지시·초점 관계는 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상황 서술 → 상황 서술. 개츠비가 파티 분위기에서 떨어져 있음을 보여 주는 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 서술문으로 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 평서체('-았다')가 유지되며 관계상 문제될 호칭·높임이 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 2: French bob은 1920년대 유행한 여성 단발 머리 스타일이라는 문화적 지시인데, '프렌치 밥'이라는 음역만으로는 이를 이해하기 어렵습니다. 다만 장면의 핵심 요지에는 큰 영향이 없어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1762,
+    "output_tokens": 1207,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

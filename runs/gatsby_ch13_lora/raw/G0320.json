@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvg3exQvjWQhEkfB5dQL",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0320\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"cordials so long forgotten that most of his female guests were too young to know one from another\",\"tgt_span\":\"너무 오랫동안 잊혀져서 그의 여성 손님들 대부분이 서로를 알기에는 너무 어렸기 때문에 코디얼이 쌓여 있었다\",\"description\":\"'코디얼의 종류를 서로 구별하기에는 어렸다'가 '손님들이 서로(사람끼리)를 알기에는 어렸다'로 바뀌어 구별 대상이 달라짐. 또한 코디얼이 잊혀졌다는 수식 관계가 깨지고, 진·리큐어와 코디얼이 함께 구비되었다는 병렬이 흐트러지며 '때문에' 인과로 재구성됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상·인과): 손님들이 코디얼 종류를 구별하지 못한다는 내용이 손님들이 서로를 알기에 어렸다는 것으로 바뀌어 요지가 달라졌고, 코디얼이 잊혀졌다는 수식도 변질되었습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2: 'one from another'가 가리키는 대상(코디얼)이 손님 자신으로 바뀌었고, 'so long forgotten that…'의 결과 관계가 '어렸기 때문에 코디얼이 쌓여 있었다'는 엉뚱한 인과로 바뀌었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사 서술 → 장면 묘사 서술. 발화 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 '-었다'가 유지되며 관계·태도상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"cordial을 '코디얼'로 음역했고 이는 통용되는 표기로 지시 대상은 알아볼 수 있습니다. 오류는 구문 해석 문제로 Semantic에서 판정합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1034,
+    "output_tokens": 923,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

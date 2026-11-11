@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvg5NJcRuHcejgzzX39e",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0412\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I sober me up\",\"tgt_span\":\"깨어날지도 모른다고\",\"description\":\"'sober me up'(술이 깬다)이 '깨어난다'(잠에서 깬다는 뜻으로 읽힘)로 바뀌어 술에서 깬다는 내용이 달라짐\"},{\"id\":\"E002\",\"src_span\":\"Do you know her?\",\"tgt_span\":\"당신은 그녀를 아는가?\",\"description\":\"청자에게 가볍게 묻는 질문이 문어체 반말에 가까운 '-는가' 종결의 격식체로 바뀌어 화자의 태도가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'sober me up'(술기운이 가시다)이 '깨어날지도'로 옮겨져 술이 깬다는 내용이 불분명해졌으나, 일주일째 취해 있다는 문맥상 요지는 대체로 이해되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'and'로 이어진 취해 있음과 생각 사이의 연결, 'her'가 Mrs. Roosevelt를 가리키는 지시 관계가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 상대에게 아는 사람인지 묻고 자신의 상황을 설명하는 대화 → 같은 질문·설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 같은 규범 의미가 없는 대화 서술입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: 파티에서 처음 만난 낯선 사이(Gatsby 3장, 올빼미 눈 안경의 남자)에서 쓰는 구어체 말투가 '-는가'의 딱딱한 문어체로 바뀌어 관계에 맞는 말투와 거리가 있습니다. 다만 어색함 수준이므로 minor입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명(Mrs. Claud Roosevelt)만 있고 별도로 판정할 문화 고유의 제도·단위·관습은 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 771,
+    "output_tokens": 923,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

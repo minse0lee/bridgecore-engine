@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvfwm5r17EsQVx7zQ3ER",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0571\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Did we run outa gas?\",\"tgt_span\":\"가스가 떨어지지 않았습니까?\",\"description\":\"'우리가 가스가 떨어졌나?'라는 질문이 부정 의문문 '떨어지지 않았습니까?'로 바뀌어 '가스가 안 떨어졌느냐'는 뜻으로 읽힘. 주어 'we'도 빠짐.\"},{\"id\":\"E002\",\"src_span\":\"Did we run outa gas?\",\"tgt_span\":\"가스가 떨어지지 않았습니까?\",\"description\":\"술 취한 화자의 편안한 구어 질문이 격식 있는 존대 '-습니까?'로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(부정·참여자): 'we'가 빠지고 긍정 질문이 부정 의문문으로 바뀌었으나, 가스가 떨어졌는지 묻는 핵심은 남아 요지는 거의 같아 minor입니다.\"},\"Textual\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"판정할 지시·연결·초점 표현이 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"차가 멈춘 이유를 묻는 질문 → 같은 이유를 묻는 질문. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 대화 속 질문입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1(격식): 술 취해 편하게 말하는 화자(Wha's matter, outa)가 같은 상황에서 격식 있는 '-습니까?'를 써 관계·태도에 맞지 않습니다. 영향이 작아 minor입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 455,
+    "output_tokens": 801,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

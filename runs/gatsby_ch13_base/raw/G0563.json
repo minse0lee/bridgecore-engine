@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfwHWfKEvx2LaN2ZNQ8",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0563\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"You’re lucky it was just a wheel!\",\"tgt_span\":\"그냥 바퀴일 뿐이었어!\",\"description\":\"'운이 좋다(You're lucky)'는 평가가 누락되어, 바퀴만 부서진 것을 다행으로 여기는 질책이 단순 사실 진술로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"A bad driver and not even trying!\",\"tgt_span\":\"나쁜 운전자이고 시도조차 하지 않았어!\",\"description\":\"'나쁜 운전자이면서 노력조차 하지 않는다'는 상대에 대한 비난이 지시 대상이 불분명한 서술('시도조차 하지 않았어')로 바뀌고 'not even trying'의 초점이 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(평가 내용): '운이 좋다'가 빠져 '바퀴만 망가진 것이 다행'이라는 핵심 평가가 사라지고 단순 사실 진술이 되어 요지가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1(지시 대상): 'You're'가 가리키는 상대와 'A bad driver'의 대상이 번역문에서 드러나지 않아 누가 나쁜 운전자인지 불분명해졌습니다. 'even'의 초점도 시도 부족이 아닌 서술로만 남았습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"원문 기능 → 번역 기능: 상대를 꾸짖으며 다행인 줄 알라고 훈계하는 질책 → 바퀴 상태를 설명하는 사실 진술로 바뀌었습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 감정적 비난 발화입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"반말의 거친 비난조는 화자의 감정적 질책 태도와 크게 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 등장하지 않습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 510,
+    "output_tokens": 919,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

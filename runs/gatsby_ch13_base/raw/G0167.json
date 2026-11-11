@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfVEGiJpKaaHghtD54M",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0167\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“Civilization’s going to pieces,”\",\"tgt_span\":\"“문명이 망가져가고 있어요.”\",\"description\":\"톰의 대사가 존댓말 종결어미 '-어요'로 옮겨져, 이어지는 문장의 평어체와도 어긋나고 톰의 격렬하고 단정적인 어조와 관계 설정이 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"문명이 무너져 간다는 내용, 톰이 격렬하게 외쳤다는 행위자와 방식이 동일합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대사와 서술 연결, 화자 지시(톰)가 유지되며 지시·연결·초점 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰의 단언적 발언 → 단언적 발언. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 문장입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 톰이 동석한 사람들에게 격렬하게 단언하는 장면에서 '-어요'로 옮겨 점잖은 존댓말이 되었고, 같은 화자의 다음 대사(평어체)와 일관되지 않아 격렬한 태도가 약해졌습니다. 다만 내용과 관계 파악에 미치는 영향은 작아 minor입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등이 없고 인명만 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 604,
+    "output_tokens": 724,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfQjx2QGqEM4RNoX7xo",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0100\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"gay, exciting things\",\"tgt_span\":\"게이, 흥미로운 일\",\"description\":\"1920년대 문맥의 'gay'(즐겁고 명랑한)를 현대적 의미인 성적 지향의 '게이'로 음역·오역해 의미가 달라짐\"},{\"id\":\"E002\",\"src_span\":\"men who had cared for her\",\"tgt_span\":\"그녀를 돌보던 사람들\",\"description\":\"men(남자들)이 '사람들'로 바뀌어 성별 정보가 사라지고, cared for(마음을 두다/애정을 가졌다)가 '돌보던'(보살피다)으로 바뀌어 연애적 관심의 의미가 달라짐\"},{\"id\":\"E003\",\"src_span\":\"hovering in the next hour\",\"tgt_span\":\"다음 시간에 … 존재한다는\",\"description\":\"hovering(곧 다가올 듯 맴도는)이 '존재한다'로 바뀌어 임박한 기대의 뉘앙스가 사라지고, 'the next hour'가 '다음 시간'으로 옮겨져 수업 시간처럼 읽힐 수 있음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 'gay'가 '게이'로 바뀌어 일을 가리키는 내용이 달라지고, men이 '사람들'로, cared for가 '돌보던'으로 바뀌어 참여자와 행위가 달라졌으며, hovering이 '존재한다'로 바뀌어 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but의 대조 관계, 콜론 이하의 열거 관계, 'her voice'와 소유 관계가 번역문에서도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 묘사·서술 → 인물 묘사·서술. 서술 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 평서 문체가 유지되며 특정 관계에 따른 높임·호칭 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에서 별도로 판정할 문화 고유의 제도·단위·관습 표현이 없습니다. 'gay'의 오역은 단어 의미 문제로 Semantic에서 판정합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1151,
+    "output_tokens": 1022,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

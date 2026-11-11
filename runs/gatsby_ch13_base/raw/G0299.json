@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvfdvd5PvnLRygKnrr5Z",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0299\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"It seemed to me that the thing for Daisy to do was to rush out of the house\",\"tgt_span\":\"데이지가 해야 할 일은 아이를 품에 안고 집 밖으로 뛰쳐나가는 것처럼 보였지만\",\"description\":\"'내게 ~해야 할 일로 보였다'는 화자의 판단이 '해야 할 일이 뛰쳐나가는 것처럼 보였다'로 바뀌어, 데이지가 뛰쳐나가야 한다는 판단 내용이 흐려짐. 'to me'도 빠짐\"},{\"id\":\"E002\",\"src_span\":\"apparently\",\"tgt_span\":\"분명히\",\"description\":\"겉보기에 ~인 듯하다는 뜻의 apparently가 '분명히'로 옮겨져 추측이 단정으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 닉의 판단('데이지가 뛰쳐나가는 것이 마땅하다')이 '해야 할 일이 뛰쳐나가는 것처럼 보였다'는 어색한 서술로 바뀌어 요지가 흐려졌고, apparently가 '분명히'가 되어 확실성이 추측에서 단정으로 달라졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-지만'으로 기대와 실제의 대조 연결이 유지되며 대명사·초점 관계에도 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 판단과 관찰 서술 → 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 개인적 견해 서술이며 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술 문체이며 관계에 따른 높임·호칭의 문제가 없습니다. 종결어미의 혼용은 어색함에 그칩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 987,
+    "output_tokens": 896,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

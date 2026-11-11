@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvg2jFMARRjabeUpSiLi",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0008\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I am still a little afraid of missing something if I forget that\",\"tgt_span\":\"나는 아직도 뭔가를 놓치는 약간 두려워한다면\",\"description\":\"'~을 잊으면 뭔가를 놓칠까 봐 아직도 조금 두렵다'는 조건·인과 구조가 '뭔가를 놓치는 약간 두려워한다면'으로 깨지고, 'forget that'(그것을 잊다)이 누락되어 두려움의 원인이 사라지고 조건 관계가 어긋남\"},{\"id\":\"E002\",\"src_span\":\"snobbishly\",\"tgt_span\":\"snobbishly\",\"description\":\"'속물적으로'가 번역되지 않고 영어 원어로 남음(두 번 모두). 아버지의 제안과 화자의 반복이 속물적이라는 자기 평가가 한국어로 전달되지 않음\"},{\"id\":\"E003\",\"src_span\":\"is parcelled out unequally at birth\",\"tgt_span\":\"태어날 때 불평등하게 밖으로 parcelled\",\"description\":\"'나누어 배분된다'는 핵심 동사가 번역되지 않고 영어로 남아, 품위의 감각이 배분된다는 서술이 불완전함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 'forget that'이 누락되고 두려움의 원인·조건이 어긋났으며, 'snobbishly'와 'parcelled'가 미번역이라 아버지의 속물적 태도와 '품위의 감각이 불평등하게 배분된다'는 핵심 서술이 한국어만으로 전달되지 않아 요지를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 'if I forget that'이 이끄는 조건 관계와 'that'이 가리키는 뒤 절(품위의 감각이 불평등하게 배분된다는 것)과의 연결이 끊어졌습니다. '놓치는 약간 두려워한다면'으로 조건이 엉뚱한 위치에 붙어 지시·조건 구조가 바뀌었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 성찰적 서술 → 성찰적 서술. 서술 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없는 소설 속 서술입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'snobbishly'가 미번역이라 화자가 아버지와 자신의 속물성을 자조적으로 드러내는 태도가 전달되는지 판단해야 하나, 평가할 관계·호칭이 없어 평가할 만한 대상이 분명하지 않습니다. 소설 서술 어조의 의도 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1479,
+    "output_tokens": 1190,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

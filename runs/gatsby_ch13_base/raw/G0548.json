@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfvL2BjcZLiSjVbkH1F",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0548\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"as they had left their cars blocking the road\",\"tgt_span\":\"그들이 도로를 막는 자동차를 떠났을 때\",\"description\":\"차들을 도로를 막은 채 두고 떠났다는 인과·상태(blocking the road)가 '도로를 막는 자동차를 떠났을 때'로 바뀌어, 인과(as)가 시간(때)으로, 차를 두고 간 행위가 막는 차를 떠난 것으로 읽힘\"},{\"id\":\"E002\",\"src_span\":\"for some time\",\"tgt_span\":\"몇 시간 동안\",\"description\":\"'한동안'이 '몇 시간 동안'으로 시간 길이가 과장·변경됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(시간·인과): 'for some time'(한동안)이 '몇 시간 동안'으로 바뀌고, 운전수들이 차를 길에 세워 둔 채 떠난 행위가 흐려졌습니다. 번역문만 읽으면 사태의 요지가 달라집니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(연결 관계): 이유를 나타내는 'as'가 시간을 나타내는 '때'로 바뀌어 인과 관계가 시간 관계로 바뀌었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설의 상황 서술로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체로 서술자의 태도와 격식이 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1094,
+    "output_tokens": 800,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

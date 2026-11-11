@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfZjAtrHzNhgxrPHxLi",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0236\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I suppose she talks, and—eats, and everything.\",\"tgt_span\":\"그녀가 말하고, 먹고, 모든 것을 한다고 생각해요.\",\"description\":\"비꼬는 듯 무심하게 덧붙이는 'and everything'과 대시로 끊기는 머뭇거림·빈정거림의 어조가 사라지고, '모든 것을 한다'는 문자적 진술로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"그녀가 말하고 먹는다는 행위와 'I suppose'의 추측('생각해요')이 유지됩니다. 'and everything'의 '모든 것을 한다'는 어색하지만 같은 사태를 기술하므로 내용 변화로 보지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"나열 연결이 유지되고 지시 대상(그녀)과 초점 표현의 변화가 없습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"원문 기능 → 번역 기능: 상대를 은근히 비꼬거나 빈정대는 발언 → 문자 그대로의 추측 진술. 'and everything'이 '모든 것을 한다'로 직역되고 대시의 어조가 사라져 반어적 기능이 전달되지 않습니다. 다만 화자의 태도 변화에 가까워 독자의 행동 이해에는 영향이 없습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화 서술입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 청자의 관계가 문단 문맥에 제시되지 않아 '생각해요' 해요체의 적절성을 판단하려면 화자와 청자의 관계 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 468,
+    "output_tokens": 824,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfhxBCbXSeEhTRnUBny",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0376\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I don’t think it’s so much that,” … “It’s more that he was a German spy during the war.\",\"tgt_span\":\"나는 그렇게 생각하지 않는다. 그는 전쟁 중에 독일의 스파이였다.\",\"description\":\"'그것(앞선 소문)이라기보다는 오히려 ~라는 것'이라는 비교·대체 구조가 사라지고, 앞선 견해에 대한 부분 반박이 단순 부정 후 단정으로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"It’s more that he was a German spy\",\"tgt_span\":\"그는 전쟁 중에 독일의 스파이였다.\",\"description\":\"'~라는 쪽이 더 맞다'는 추측·의견 표현이 단정적 사실 진술로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(확실성): 'so much that'(그 정도까지는 아니다)이 전면 부정으로, 'more that'(오히려 ~)이 단정으로 바뀌었으나 독일 스파이라는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2·3(연결·초점): 'not so much that, more that'의 대조·대체 관계와 'that'의 지시가 사라지고 두 문장이 단순 병렬되어 앞선 소문과의 관계가 불명확해졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 이견 제시(반박·대안 제안) → 이견 제시. 발화 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문의 평서체와 회의적 태도(회의적으로)가 유지됩니다. 화자 간 관계 정보가 부족하지만 훼손 근거는 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화·제도 고유의 대상이 없고, 제1차 세계대전을 가리키는 'the war'는 통상 대응입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 564,
+    "output_tokens": 927,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

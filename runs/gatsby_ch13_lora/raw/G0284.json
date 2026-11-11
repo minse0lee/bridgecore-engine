@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvfc5ckkwAjJVm55d4Zb",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0284\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"It sort of crept up on us and first thing you know—\",\"tgt_span\":\"그것은 우리에게 몰래 들어왔고 당신이 아는 첫 번째 것은 -\",\"description\":\"대화가 슬며시 그 주제로 흘러갔다는 관용적 의미가 '그것이 우리에게 몰래 들어왔다'는 문자적 표현으로 바뀌고, 'first thing you know'(정신 차려 보니)도 '당신이 아는 첫 번째 것'으로 직역되어 의미가 불분명해짐\"},{\"id\":\"E002\",\"src_span\":\"Yes, I’m sure we did.\",\"tgt_span\":\"네, 나는 우리가 그랬다고 확신한다.\",\"description\":\"혼잣말 같은 구어체 확인 'Yes'가 상대에게 답하는 존댓말 '네'로 옮겨져 화자의 어조와 청자 관계가 어색해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 화제가 자연스럽게 슬며시 이어졌다는 내용이 '그것이 몰래 들어왔다'와 '당신이 아는 첫 번째 것'이라는 문자적 직역으로 바뀌어 독자가 요지를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'It'이 가리키는 대화 흐름 및 화제가 불분명해졌고 'first thing you know'의 '갑자기 어느새'라는 시간적 연결도 '아는 첫 번째 것'으로 바뀌어 연결 관계가 사라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물의 회상·설명 서술 → 회상·설명 서술. 발화 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"can't seem to는 기억 능력에 관한 표현이며 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: 가볍고 구어적인 대화체 화자가 '-ㄴ다' 문어체와 갑작스러운 '네'를 쓰며 상대와의 관계 및 구어적 태도가 맞지 않게 되었습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'the Nordic race'를 '북유럽 인종'으로 옮겨 같은 대상(당시 인종 담론)을 가리키며 이해 가능합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 844,
+    "output_tokens": 1029,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

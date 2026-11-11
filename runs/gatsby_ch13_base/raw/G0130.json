@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfSoiYLEzn6iiE14yFB",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0130\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"How you ever get anything done is beyond me.\",\"tgt_span\":\"너는 나를 너무나도 사랑하고 있구나.\",\"description\":\"'어떻게 일을 해내는지 이해할 수 없다'는 내용이 '너는 나를 너무나도 사랑하고 있구나'라는 전혀 다른 내용으로 바뀜. 원문의 주체·행위·평가가 모두 사라지고 없던 사랑 표현이 생김.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 상대가 일을 해내는 방식을 이해할 수 없다는 내용이 상대가 화자를 사랑한다는 전혀 다른 내용으로 바뀌어 행위·대상이 달라졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"평가할 연결·초점 표현이 크게 없고, 지시나 연결 관계가 바뀐 것은 내용 교체에 따른 것이라 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"원문 기능: 상대의 일처리 능력에 대한 놀람·비꼬는 논평 → 번역 기능: 상대의 애정에 대한 감탄·단정으로 바뀌어 발화 기능이 달라졌습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 대화입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 청자의 관계가 평가조건에 없어 반말 '구나'의 적절성을 판단하려면 두 인물의 관계 정보가 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 534,
+    "output_tokens": 777,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

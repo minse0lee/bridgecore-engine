@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfSR7zcbEpSuBSQ7YUR",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0125\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"just in from the pantry\",\"tgt_span\":\"창고에서 막 들어온\",\"description\":\"pantry(식기·식료품 보관실, 식품 저장실)를 '창고'로 옮겨 장소 지시가 일반화됨. 칵테일이 부엌 쪽에서 막 나왔다는 기본 맥락은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: pantry가 '창고'로 바뀌어 장소가 달라졌으나, 거절 발화·네 잔의 칵테일·막 들어온 상황의 요지는 유지되어 독자의 이해나 행동에 큰 영향이 없습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"to the four cocktails의 수신 대상이 '칵테일을 향해'로 유지되고 지시·연결·초점 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"칵테일을 거절하는 서술 → 칵테일을 거절하는 서술. 유머러스한 의인화된 거절의 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'아니, 고마워요'의 반말 섞인 정중한 어조는 사교 모임에서 가벼운 거절 발화로 어색하지 않으며 관계에 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·단위·관습이 없습니다. 호칭 Miss Baker는 인명 호칭으로 '미스 베이커'로 통용 표기입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 552,
+    "output_tokens": 769,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

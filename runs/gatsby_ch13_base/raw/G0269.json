@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvfc1gs4q3s1SwhbAgYX",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0269\",\"evaluable\":false,\"evaluable_note\":\"생성붕괴 검토 필요: 번역문이 '아니, 그렇지 않아. 난 네가 너무 귀엽다고 생각해.'와 '너무 귀엽다고 생각해.'의 무한 반복으로 붕괴되어, 결혼을 주선하겠다는 내용과 닉을 엮어 주려는 행위 등 원문의 핵심 행위·대상·관계를 복원할 수 없음. 문단 전체 번역 어디에도 해당 내용이 없음.\",\"errors\":[],\"axes\":{\"Semantic\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"생성붕괴 검토 필요: 번역문이 같은 문장의 반복으로 붕괴되어 원문 내용(결혼 주선, 닉을 엮어 주려는 행위)을 대응시킬 수 없음.\"},\"Textual\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"생성붕괴 검토 필요: 반복 출력으로 지시·연결·초점 관계를 원문과 비교할 수 없음.\"},\"Context\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"생성붕괴 검토 필요: 반복 출력으로 원문의 발화 기능(장난스러운 제안과 초대)을 비교할 수 없음.\"},\"Deontic\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"생성붕괴 검토 필요: 번역문이 붕괴되어 규범 의미 비교가 불가능함.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"생성붕괴 검토 필요: 반복 출력으로 화자와 청자 관계의 태도를 비교할 수 없음.\"},\"Cultural\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"생성붕괴 검토 필요: 번역문이 붕괴되어 문화 관련 대상을 비교할 수 없음.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1331,
+    "output_tokens": 750,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

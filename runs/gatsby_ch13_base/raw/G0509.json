@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvfso4JWyg8AuxB4caFE",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0509\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"hissed\",\"tgt_span\":\"속삭였다\",\"description\":\"hissed(쉿 소리 내며 쏘아붙이다, 분노 섞인 말투)가 '속삭였다'로 바뀌어 분노·적대의 어조가 사라짐\"},{\"id\":\"E002\",\"src_span\":\"talking with curious intensity\",\"tgt_span\":\"호기심 가득한 강렬한 목소리로 대화를 나누고 있었고\",\"description\":\"curious(기이한, 묘한) intensity가 '호기심 가득한 강렬한 목소리'로 바뀌어 대화 태도가 아닌 목소리로, 의미도 달라짐\"},{\"id\":\"E003\",\"src_span\":\"broke down entirely\",\"tgt_span\":\"완전히 망가져서\",\"description\":\"감정적으로 무너졌다는 뜻이 '망가져서'로 모호해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: curious intensity가 '호기심 가득한 강렬한 목소리'로, hissed가 '속삭였다'로 바뀌었으나 핵심 사건(남편의 대화, 아내의 공격적 접근과 항의)은 유지되어 요지는 크게 다르지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결(after attempting…but, 'his' 등)과 초점 관계가 유지되어 질문 1~3 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 서술(아내가 남편에게 약속을 상기시키며 항의) → 같은 서술 기능이며 항의 발화도 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 문장으로 규범 의미를 정하는 표현이 없습니다(“You promised!”는 과거 사실 지적).\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"부부 사이의 항의 발화가 '당신이 약속했잖아요!'로 관계와 상황에 크게 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1107,
+    "output_tokens": 901,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

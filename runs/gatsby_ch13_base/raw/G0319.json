@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvffUsq8pq9yrtGwNcLZ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0319\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"garnished with glistening hors-d’oeuvre\",\"tgt_span\":\"반짝이는 오리지널 디저트와 향신료를 곁들인\",\"description\":\"hors-d'oeuvre(전채 요리)가 '오리지널 디저트'로 오역되어 요리의 종류가 달라졌고, 장식(garnished)이 곁들임으로 바뀌어 햄이 전채로 장식된 관계가 흐려짐. 또한 spiced가 햄이 아닌 다른 대상과 연결되는 것처럼 읽힘\"},{\"id\":\"E002\",\"src_span\":\"spiced baked hams crowded against salads of harlequin designs and pastry pigs and turkeys\",\"tgt_span\":\"구운 햄이 아를레킨 디자인의 샐러드와 페이스트리 돼지와 어두운 금색의 칠면조에 둘러싸여 있습니다\",\"description\":\"햄이 샐러드·페이스트리 돼지·칠면조와 서로 빽빽하게 붙어 있다(crowded against)는 내용이 햄이 그것들에 둘러싸여 있다는 일방적 배치로 바뀜\"},{\"id\":\"E003\",\"src_span\":\"turkeys bewitched to a dark gold\",\"tgt_span\":\"어두운 금색의 칠면조\",\"description\":\"bewitched(마법에 걸린 듯 변한)가 누락되어 칠면조가 조리로 짙은 금빛이 된 묘사의 변화 의미가 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: hors-d'oeuvre가 '오리지널 디저트'로 바뀌어 음식 종류가 달라졌고, 햄이 다른 음식들과 붙어 빽빽이 놓인 배치가 '둘러싸여'로 바뀌었으며 bewitched도 누락되어 독자가 상차림을 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: garnished with는 햄에 장식으로 붙는 관계인데, 번역은 '디저트와 향신료를 곁들인'으로 spiced와 합쳐 지시·수식 관계가 바뀌었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술적 묘사 → 서술적 묘사. 파티 음식을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술 묘사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술 문장이며 번역의 평서 문체가 관계상 문제를 일으키지 않습니다(서술 시제 '있습니다'는 어색할 뿐 오류가 아닙니다).\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"hors-d'oeuvre의 오역은 Semantic에서 다루며, 이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1000,
+    "output_tokens": 1206,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

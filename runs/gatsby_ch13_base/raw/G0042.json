@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfLdGZhfhLDWHTCUPLU",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0042\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a courtesy bay\",\"tgt_span\":\"코티지 베이(courtesy bay)\",\"description\":\"'courtesy bay'(관례상 '만'이라 불리는 작은 만)를 '코티지 베이'로 잘못 음역·오역해 지시 대상이 불분명해짐\"},{\"id\":\"E002\",\"src_span\":\"jut out into the most domesticated body of salt water in the Western hemisphere, the great wet barnyard of Long Island Sound\",\"tgt_span\":\"서반구에서 가장 잘 길들여진 염수인 롱아일랜드 사운드의 큰 젖은 목초지에 둘러싸인 … 두 개의 거대한 알이 튀어나와 있다\",\"description\":\"'barnyard'(농장 마당)를 '목초지'로 옮기고, 알이 바다로 돌출한다는 관계를 '목초지에 둘러싸인'이라는 수식으로 바꾸어 구조와 의미가 달라짐\"},{\"id\":\"E003\",\"src_span\":\"jut out into\",\"tgt_span\":\"튀어나와 있다\",\"description\":\"'into' 이하 도달 지점(바다 속으로)이 사라지고 목적지가 수식어로 재배치됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: courtesy bay가 '코티지 베이'로 바뀌고 barnyard가 목초지로 바뀌며, 알이 바다로 돌출한다는 사태가 '목초지에 둘러싸인'으로 달라져 독자가 장면을 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: 'the great wet barnyard of Long Island Sound'가 바닷물과 동격인데, 번역은 알들을 둘러싼 장소로 붙여 관계가 바뀌었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":\"minor\",\"error_ids\":[],\"reason\":\"묘사·설명 → 묘사·설명. 지형을 서술하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 지형 묘사 문장으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문이며 화자·청자 사이의 높임·호칭이 판정할 대상이 아닙니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"20마일은 숫자·단위가 그대로 유지되었고, 그 밖에 판정할 문화·제도 대상이 없습니다. courtesy bay 오역은 Semantic에서만 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1403,
+    "output_tokens": 1048,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfU8Ba4BzQrmw42fEHh",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0160\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"unobtrusively\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"'눈에 띄지 않게, 조용히'라는 방식 표현이 번역문에서 빠짐\"},{\"id\":\"E002\",\"src_span\":\"a bantering inconsequence\",\"tgt_span\":\"농담 같은 무례함으로\",\"description\":\"inconsequence(두서없음·대수롭지 않음)가 '무례함'으로 바뀌어 대화 태도의 성격이 달라짐\"},{\"id\":\"E003\",\"src_span\":\"that was as cool as their white dresses and their impersonal eyes in the absence of all desire\",\"tgt_span\":\"별다른 욕망이 없는 그들의 하얀 드레스와 비인격적인 눈처럼 차갑게\",\"description\":\"'욕망이 전혀 없는 상태에서'가 '드레스와 눈'을 꾸미는 말로 붙어 수식 범위가 바뀌고, all desire가 '별다른 욕망'으로 약해짐\"},{\"id\":\"E004\",\"src_span\":\"that was never quite chatter\",\"tgt_span\":\"결코 완전한 떠들썩함이 아닌\",\"description\":\"'수다라고 하기엔 부족한(그 정도는 아닌)' 의미가 '완전한 떠들썩함이 아닌'으로 옮겨져 뜻이 어색하게 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\",\"E004\"],\"reason\":\"판단 질문 1: unobtrusively가 누락되고 inconsequence가 '무례함'으로 바뀌어 대화의 성격(경쾌하고 무심한 말투 → 무례함)이 달라졌습니다. 독자가 요지를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 1·3: 'in the absence of all desire'가 '차갑게'의 상태 조건이 아니라 '드레스와 눈'을 수식하는 것으로 붙어 수식·범위 관계가 바뀌었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 인물의 대화 방식을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"never는 규범이 아니라 묘사 부정이므로 의무·허가·금지 의미가 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문이며 화자·청자 간 높임이나 호칭 관계를 판정할 대상이 없습니다. '선생님' 호칭은 Miss의 통상 대응입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명과 호칭 Miss 외에 판정할 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1187,
+    "output_tokens": 1109,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

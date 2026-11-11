@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvgER5YHkWJcr7d1B62n",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0596\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"it was the gloomiest event of my day\",\"tgt_span\":\"그날 저녁은 제 하루 중 가장 우울한 시간이었습니다\",\"description\":\"저녁 식사(예일 클럽 식사)가 하루 중 가장 우울한 일이라는 내용이 '그날 저녁'이라는 특정한 날의 저녁으로 바뀜. 습관적 반복 서술이 특정일 서술처럼 읽힘\"},{\"id\":\"E002\",\"src_span\":\"for a conscientious hour\",\"tgt_span\":\"한 시간 동안\",\"description\":\"'conscientious(성실한)' 수식어가 누락됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 습관적 저녁 식사가 '그날 저녁'으로 시간 범위가 달라지고 '성실한' 공부 태도가 빠졌으나, 식사·우울함·도서관 공부라는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'and then'의 시간 순서가 '그리고 나서'로 유지되고 대명사·초점 관계에도 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 일상 서술 → 일상 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가를 정하는 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술자의 회고 서술이 '~습니다' 체로 일관되며 관계에 큰 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Yale Club을 '예일 클럽'으로 통용 음역하여 같은 대상을 가리킵니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 957,
+    "output_tokens": 784,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

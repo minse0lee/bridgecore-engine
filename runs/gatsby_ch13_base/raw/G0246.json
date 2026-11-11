@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfaFJN9dKy67CK3Yzxc",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0246\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“You see I think everything’s terrible anyhow,”\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"'어쨌든 모든 게 끔찍하다고 생각한다'는 인물의 발화 내용 전체가 번역문에 없음\"},{\"id\":\"E002\",\"src_span\":\"she went on in a convinced way\",\"tgt_span\":\"그녀는 잠시 머뭇거리더니\",\"description\":\"확신에 차 말을 이어갔다는 서술이 '잠시 머뭇거리더니'라는 반대 취지의 서술로 바뀜\"},{\"id\":\"E003\",\"src_span\":\"대응 구간 없음(첨가)\",\"tgt_span\":\"손을 뻗어 그의 손목을 잡았다\",\"description\":\"원문에 없는 신체 행동(상대의 손목을 잡음)이 첨가됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 핵심 발화 내용이 누락되고, 확신에 찬 태도가 머뭇거림으로 바뀌었으며, 원문에 없는 행위가 첨가되어 요지가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 'You see… anyhow'가 이어지는 문단의 'Everybody thinks so'가 가리키는 대상이므로, 누락으로 번역문의 '모두가 그렇게 생각한다'가 무엇을 가리키는지 알 수 없게 되었습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"인물이 자신의 냉소적 견해를 확신에 차 주장하는 발화·서술 → 머뭇거리다 손목을 잡는 동작 서술로 기능이 바뀌었습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"번역문에 화자-청자 관계를 판정할 높임·호칭 표현이 없고, 원문 발화 자체가 누락되어 평가할 대상이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 789,
+    "output_tokens": 951,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

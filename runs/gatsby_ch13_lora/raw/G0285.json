@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvfc5hxzgrfV7pwstt1J",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0285\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Don’t believe everything you hear, Nick\",\"tgt_span\":\"니크, 당신이 듣는 모든 것을 믿지 말아라\",\"description\":\"'당신'이라는 존댓말 2인칭 호칭과 '말아라'라는 해라체 명령형이 섞여 화자와 청자의 관계에 맞는 말투가 아님. 의미·기능은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"들은 것을 다 믿지 말라는 조언, 청자 닉, 화자 he, 조언한다는 행위가 모두 유지됩니다. 판단 질문 1·2 모두 아니오입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'당신이 듣는'의 you가 닉을 가리키고 he와 me의 지시 관계도 유지됩니다. 연결과 초점 관계도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대에게 조언하는 발화 → 상대에게 조언하는 발화. 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 대화 속 일반적 조언으로 의무·금지·자격을 정하는 규범 표현으로 보기 어렵습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'당신'과 '말아라'가 섞여 있어 어색하지만, 화자(개츠비)와 닉의 관계가 평가조건에 명시되어 있지 않고 이 문장만으로는 적절한 말투를 판정할 수 없습니다. 두 사람의 관계와 문맥상 기대되는 말투(반말·존댓말) 정보가 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 Nick(음역 '니크')만 있고 판정할 문화·제도적 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 496,
+    "output_tokens": 807,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

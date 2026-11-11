@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfRsvWmRJjY4p5141oV",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0119\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"as if he were alert for something more\",\"tgt_span\":\"뭔가 더 찾고 있는 것처럼\",\"description\":\"'더 있을 만한 것에 경계하며 주시하는 상태(alert)'가 '뭔가 더 찾고 있는'으로 옮겨져 경계·기민한 태도가 약해지고 탐색 행위로 바뀜. 뜻은 크게 어긋나지 않는 미세한 뉘앙스 차이.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'alert for something more'(더 있을 법한 것에 대비해 기민하게 살피는 상태)가 '더 찾고 있는'으로 바뀌어 상태가 탐색 행위로 달라졌으나, 핵심 사실(데이지와 나를 번갈아 봄, 동쪽에 머물겠다는 말)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"he·me·Daisy의 지시 관계, 'glancing at Daisy and then back at me'의 순서, as if 비유 연결이 모두 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 속 인물 대사와 행동 묘사 → 동일한 서술 기능. 안심시키는 발화와 시선 묘사가 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'don't you worry'는 안심시키는 말이지 의무·허가·금지를 정하는 규범 표현이 아니므로 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 청자에게 존대하는 '~할게요, 걱정하지 마세요'는 일상 대화체로 문맥상 무리가 없고, 관계 정보가 부족해 훼손을 줄 근거가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'the East'는 미국 동부를 가리키는 일반 지명 수준이며 별도로 판정할 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 710,
+    "output_tokens": 866,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

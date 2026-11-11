@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfU6qxCwaZAsWZGiXsK",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0159\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“Hulking,”\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"Daisy가 말한 인용 내용 'Hulking'(덩치가 크고 투박하다는 묘사)이 번역문에서 통째로 빠짐\"},{\"id\":\"E002\",\"src_span\":\"insisted\",\"tgt_span\":\"고집스럽게 말하였다\",\"description\":\"insisted(앞선 말을 되풀이하며 주장함)가 '고집스럽게 말하였다'로 옮겨져 앞선 발언에 대한 재주장이라는 의미가 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: Daisy가 한 말('Hulking')이라는 핵심 내용이 빠져 독자가 무엇을 말했는지 알 수 없고 문장의 요지가 달라집니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: insisted가 앞선 발언을 받아 주장을 이어 가는 연결 관계를 나타내는데, '고집스럽게 말하였다'는 그 이어 말하는 관계를 드러내지 못합니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"원문 기능 → 번역 기능: 상대 묘사에 대해 앞선 주장을 고수하는 대화 발화 → 내용 없이 말했다는 사실만 전하는 서술. 인용 발화가 사라져 대화 기능이 달라졌습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에서는 화자·청자 간 높임이나 호칭을 판정할 대상이 없고, 서술 문체는 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명만 있고 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 434,
+    "output_tokens": 848,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

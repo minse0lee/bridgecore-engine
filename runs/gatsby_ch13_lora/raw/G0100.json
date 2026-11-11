@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfQJpRUPPmV54d6cUTb",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0100\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"gay, exciting things\",\"tgt_span\":\"게이, 흥미로운 일\",\"description\":\"1925년 용법의 'gay'(즐겁고 쾌활한)를 성적 지향을 뜻하는 '게이'로 음역·오역하여 의미가 달라지고 '게이, 흥미로운 일'이 의미 불명이 됨(두 번 등장)\"},{\"id\":\"E002\",\"src_span\":\"cared for her\",\"tgt_span\":\"그녀를 돌보던\",\"description\":\"그녀를 좋아하고 마음에 두었던(애정) 남자들이 '돌보던'으로 바뀌어 보살핌 관계로 읽힘\"},{\"id\":\"E003\",\"src_span\":\"in the next hour\",\"tgt_span\":\"다음 시간에\",\"description\":\"'다음 한 시간 안에'가 '다음 시간에'로 옮겨져 수업 시간 등으로 읽히기 쉽고 임박함이 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 'gay'가 '게이'로 바뀌어 약속의 내용(즐겁고 흥미로운 일)이 달라졌고, 'cared for'가 '돌보던'으로 남자들의 행위(애정)도 달라져 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사와 연결 관계(but, that절 병렬)가 유지되고 초점·범위 표현의 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 묘사·서술 → 인물 묘사·서술. 목소리의 매력을 서술하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다. 인용된 'Listen'은 인물 묘사의 일부입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문체의 격식이 유지되며 화자와 청자 관계에서 훼손된 호칭·태도는 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'gay'의 오역은 단어 오역으로 Semantic에서만 판정하며, 이 문장에 별도로 판정할 제도·단위·관습은 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1150,
+    "output_tokens": 955,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

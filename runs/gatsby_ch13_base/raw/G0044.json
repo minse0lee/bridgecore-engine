@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfLmZtMKsA9pyYddbaA",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0044\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"To the wingless a more interesting phenomenon\",\"tgt_span\":\"더 흥미로운 현상은 날개없는 형태와\",\"description\":\"'날개 없는 이들(갈매기와 대비되는 사람)에게'라는 관점 주체가 사라지고, 'wingless'가 '형태'를 수식하는 말로 잘못 붙음. 날개 없는 존재를 가리키는 지시 대상이 바뀜\"},{\"id\":\"E002\",\"src_span\":\"in every particular except shape and size\",\"tgt_span\":\"형태와 크기를 제외한 모든 특정에서\",\"description\":\"'모든 세부 사항'이라는 particular가 '특정'으로 옮겨져 의미가 불분명하고, 앞의 '날개없는'이 '형태'에 붙어 'except shape and size'의 범위가 흐려짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물·대상): '날개 없는 존재(사람)에게는'이라는 경험 주체가 빠지고 '날개없는 형태'로 읽혀 누가 흥미롭게 보는지가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1·3: 'wingless'가 사람을 가리키는 표현에서 '형태'를 수식하는 말로 바뀌어 지시 관계가 달라졌고, '제외한' 범위도 '날개없는 형태와 크기'로 읽혀 초점 범위가 흐려졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술적 설명 → 서술적 설명. 두 땅의 차이를 서술하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 평서체 '~입니다'로 서술자와 독자의 관계가 크게 달라지지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1148,
+    "output_tokens": 901,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvfx46YXYS6Lg2urpm8M",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0576\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I din’ notice we’d stopped\",\"tgt_span\":\"그렇게 느껴지지 않았다\",\"description\":\"'우리가 멈췄다는 것을 알아차리지 못했다'가 막연한 '그렇게 느껴지지 않았다'로 바뀌어 화자(I), 멈춤(we’d stopped), 알아차림(notice)이 사라짐\"},{\"id\":\"E002\",\"src_span\":\"“At first I din’ notice we’d stopped.”\",\"tgt_span\":\"처음에는 그렇게 느껴지지 않았다.\",\"description\":\"취한 화자의 발음을 반영한 구어체 대사가 화자 없는 평서 서술로 바뀌고 따옴표도 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위자·행위·대상): '우리가 멈췄다'는 사건과 화자가 알아차리지 못했다는 내용이 사라지고 무엇이 느껴지지 않았는지 알 수 없는 문장이 되어 요지가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(지시): 'we’d stopped'가 가리키는 대상이 없어지고 '그렇게'가 무엇을 가리키는지 알 수 없게 되었습니다. 'At first'는 '처음에는'으로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물의 대사로 상황을 진술 → 상황을 진술. 설명 기능은 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 진술이므로 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 3(태도): 'din’'으로 드러나는 화자의 구어적·술 취한 말투와 대사의 태도가 평범한 서술체로 사라졌습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 444,
+    "output_tokens": 875,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

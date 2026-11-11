@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfSCtnQhvu6URCJsPSU",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0122\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Evidently it surprised her as much as it did me, for\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"그녀도 나만큼 놀랐다는 추측(Evidently)과 그 근거를 이루는 절이 통째로 누락됨\"},{\"id\":\"E002\",\"src_span\":\"she yawned\",\"tgt_span\":\"숨을 헐떡이며\",\"description\":\"하품했다(yawned)가 숨을 헐떡였다로 오역되어 다른 행위가 됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 그녀도 나만큼 놀랐다는 내용이 빠졌고, 하품이 숨을 헐떡이는 행위로 바뀌어 인물의 상태와 행위가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 'for'가 이끄는 인과 관계(놀랐기 때문에 하품함)와 'as much as it did me'의 비교 관계가 누락으로 사라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 인물의 행동을 묘사하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 소설 서술입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 화자와 청자 사이의 높임·호칭 관계가 드러나지 않는 서술문입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 683,
+    "output_tokens": 727,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

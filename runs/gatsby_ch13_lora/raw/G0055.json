@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfMK9gRxmuHbHJyrbKa",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0055\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"was a matter for reproach\",\"tgt_span\":\"치욕의 문제였지만\",\"description\":\"'비난·질책의 대상'이 '치욕의 문제'로 바뀜. 남이 그의 돈 씀씀이를 나무랐다는 뜻이 본인이 수치를 느낀다는 뜻으로 읽힘\"},{\"id\":\"E002\",\"src_span\":\"even in college his freedom with money was a matter for reproach—but now he’d left Chicago\",\"tgt_span\":\"돈에 대한 자유는 치욕의 문제였지만, 이제 그는\",\"description\":\"'but'이 앞의 '엄청나게 부유했다'와 대조되는 것으로 읽히고, 대학 때도 문제였다는 삽입 설명이 'but' 앞에 종속되어 구조가 달라짐\"},{\"id\":\"E003\",\"src_span\":\"in a fashion that rather took your breath away\",\"tgt_span\":\"숨을 멈추게 하는 방식으로\",\"description\":\"'rather'가 빠져 정도가 단정적으로 바뀌고, 'took your breath away'(깜짝 놀라게 하다)가 문자 그대로 '숨을 멈추게 하는'으로 옮겨져 비유 의미가 약해짐\"},{\"id\":\"E004\",\"src_span\":\"he’d brought down a string of polo ponies\",\"tgt_span\":\"폴로 조랑말을 가져왔다\",\"description\":\"'a string of'(여러 마리, 한 무리)의 수량이 빠짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E003\",\"E004\"],\"reason\":\"판단 질문 1: '비난받을 일'이 '치욕의 문제'로 달라져 평가 내용과 주체가 바뀌었고, 폴로 조랑말 무리의 수량이 사라졌으며, 놀라움의 비유가 문자적 표현으로 바뀌었습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: 부유함과 그 부유함 때문에 받은 비난이라는 삽입 관계가 흐려지고, 'but'이 '부유했다'가 아니라 '치욕의 문제였지만'에 붙는 것처럼 읽혀 연결 관계가 바뀌었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 배경 서술 → 인물 배경 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술체 평서문이 유지되어 화자·독자 관계에 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"시카고, 레이크 포레스트 등 지명뿐이고 별도의 문화 제도 표기가 없어 훼손 근거가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1099,
+    "output_tokens": 1142,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvfig9Kh4muCiegE2BKW",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0388\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"this party\",\"tgt_span\":\"이 당\",\"description\":\"party(일행, 모임)를 정당·집단을 뜻하는 '당'으로 옮겨 일행이라는 지시 대상이 불분명해짐\"},{\"id\":\"E002\",\"src_span\":\"East Egg condescending to West Egg\",\"tgt_span\":\"동쪽 계란이 서쪽 계란에게 굴복하고\",\"description\":\"condescending(생색내며 내려다봄)을 '굴복하고'로 옮겨 우월한 쪽과 낮추는 태도가 정반대의 복종 관계로 바뀜. East Egg/West Egg도 지명 대신 '계란'으로 오역\"},{\"id\":\"E003\",\"src_span\":\"the staid nobility of the countryside—East Egg condescending to West Egg and carefully on guard against its spectroscopic gaiety\",\"tgt_span\":\"…경계하는 시골의 엄숙한 귀족을 대표하는 기능을\",\"description\":\"대시 뒤 East Egg 설명이 '귀족'을 수식하는 관형절로 붙어, 일행이 East Egg를 대표한다는 동격 관계가 사라지고 귀족이 굴복하고 경계하는 주체로 읽힘\"},{\"id\":\"E004\",\"src_span\":\"East Egg … West Egg\",\"tgt_span\":\"동쪽 계란 … 서쪽 계란\",\"description\":\"지명 East Egg와 West Egg를 '계란'으로 직역해 고유 지명의 지시 대상을 알 수 없게 함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\",\"E004\"],\"reason\":\"판단 질문 1: condescending이 '굴복하고'로 바뀌어 두 지역의 관계가 뒤집혔고, East/West Egg가 '계란'이 되어 지시 대상이 사라졌으며, party도 '당'으로 오역되어 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 1·2: 대시 뒤 East Egg 설명이 귀족의 동격 설명에서 관형절로 바뀌어 '누가 누구를 경계하는가'의 지시·소유 관계가 달라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술적 묘사 → 서술적 묘사. 일행의 태도를 설명하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 서술문이며 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 청자 사이의 관계를 드러내는 대화나 호칭이 없는 서술문입니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E004\"],\"reason\":\"판단 질문 2: East Egg와 West Egg는 동부 부유층과 신흥 부자를 상징하는 지명·계층 구분인데 '계란'으로 옮겨져 한국어 독자가 이 사회적 의미를 이해하기 어렵습니다. 다만 상징적 구분 자체는 문맥에서 일부 읽힐 수 있어 minor로 봅니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1102,
+    "output_tokens": 1251,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

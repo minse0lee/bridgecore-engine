@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvfbq78vmLxzBQ3BM89L",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0281\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a little heart to heart talk\",\"tgt_span\":\"심심찮게 이야기를 나눴는가\",\"description\":\"한 번의 짧고 진솔한 속마음 대화('a little heart to heart talk')가 '심심찮게'(꽤 자주)로 옮겨져 빈도가 잦은 대화로 바뀌고, 속마음을 터놓는 성격이 사라짐\"},{\"id\":\"E002\",\"src_span\":\"demanded Tom\",\"tgt_span\":\"톰이 갑자기 물었다\",\"description\":\"demanded(따져 물었다, 다그쳤다)가 단순히 '물었다'로 옮겨져 추궁하는 어조가 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(수량·행위): 한 번의 속마음 대화가 '심심찮게'라는 반복적·빈번한 대화로 바뀌고 heart to heart의 성격이 사라져 질문 내용이 달라졌습니다. 요지가 다르게 읽히므로 major입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계에 변화가 없습니다. 대명사 you는 '당신'으로 유지되고 장소·인물의 연결도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"추궁하는 질문 → 질문. 다그치는 강도는 약해졌지만 상대에게 답을 요구하는 질문 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없는 소설 속 대화입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 데이지에게 말하는 장면으로 보이나 이 문항 자료만으로 둘의 관계를 확정하기 어렵고, 번역문의 '당신 ~는가?'(하오체 계열의 예스러운 어투)와 어조가 관계에 맞는지 판단하려면 화자·청자 관계와 기대 격식 정보가 필요합니다. 또한 demanded의 추궁 태도가 약해졌는지는 E002로 별도 기록했으나 이 축에서는 확정하지 않았습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명과 일반 장소(베란다)만 있어 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 534,
+    "output_tokens": 992,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

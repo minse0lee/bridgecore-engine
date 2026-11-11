@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfygpvQGxCEhfoMi8q2",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0600\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"no one would ever know or disapprove\",\"tgt_span\":\"아무도 모르거나 반대하지 않을 것이라고\",\"description\":\"'아무도 알지도 반대하지도 않을 것'이라는 이중 부정(neither-nor)이 '모르거나 반대하지 않을'로 옮겨져, '모르는 사람도 없고 반대하는 사람도 없다'는 뜻이 '모르거나, 반대하지 않는' 선택 구조로 읽혀 부정의 범위가 모호해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"5번가를 걷기, 낭만적인 여성 고르기, 몇 분 뒤 삶에 들어갈 것이라는 상상, 아무도 모르고 반대하지 않을 것이라는 내용이 모두 유지됩니다. '모르거나 반대하지 않을'은 어색하지만 같은 사태로 읽을 수 있습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'imagine that' 이하에 걸리는 두 절의 연결(and)이 유지되고, 'I'와 'their'의 지시 대상이 그대로입니다. 질문 1·2·3 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 습관과 상상을 서술하는 기능 → 서술 기능이 그대로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 서술로 의무·허가·금지 등 규범 표현이 없습니다. 'would ever know or disapprove'는 예상 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회상 서술의 평서체('-했다')가 유지되며 관계나 태도 변화는 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴욕의 5번가를 '5번가'로 옮겨 같은 장소를 가리키며 한국어 독자가 이해할 수 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1261,
+    "output_tokens": 837,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

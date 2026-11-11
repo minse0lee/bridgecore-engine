@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfgQ5PHHrFLbMu4JtW1",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0349\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"next door to—\",\"tgt_span\":\"이웃집에 사는 것을\",\"description\":\"'next door to'의 대상(누구 옆집인지)이 말줄임으로 끊긴 채 미완결인데, 번역은 '이웃집'이라는 완결된 표현으로 바꾸어 끊김과 '~의 옆집'이라는 관계가 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: '~의 옆집에 살았다'는 관계(Gatsby의 옆집)가 일반적인 '이웃집에 산다'로 바뀌어 대상이 사라졌으나, 핵심 사실(기억함, 근처에 삶)은 유지되어 요지와 행동 이해에는 큰 영향이 없습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'next door to'의 대상이 대시로 끊겨 이어지는 소유·위치 관계인데, 번역은 '이웃집'으로 닫아 누구의 이웃인지 지시 관계가 달라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기억을 말하는 대화 발화 → 기억을 말하는 서술. 같은 종류의 기능입니다. 말이 끊기는 효과는 판정 대상이 아닙니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지인 간 대화에서 '~했다'로 옮겼으나 관계 정보가 부족해 훼손으로 볼 근거가 없고 태도 변화도 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 등장하지 않습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 517,
+    "output_tokens": 794,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

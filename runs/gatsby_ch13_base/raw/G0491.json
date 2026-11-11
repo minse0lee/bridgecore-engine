@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvfrf63wqDEZQFjmWM5Y",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0491\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"to speak to you alone\",\"tgt_span\":\"혼자서 말씀을 드리고 싶습니다\",\"description\":\"'alone'이 개츠비가 Miss Baker와 단둘이(사적으로) 이야기하고 싶다는 뜻이 아니라, 개츠비 혼자서 말하고 싶다는 뜻으로 읽힘. 대화 상대 'you'(Miss Baker)도 번역문에 드러나지 않음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위자·참여자): 'you alone'(Miss Baker와 단둘이)가 '혼자서'로 옮겨져 개츠비 혼자 말하고 싶다는 뜻으로 읽히고, 이야기 상대인 Miss Baker도 사라져 누가 누구와 말하려는지 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(초점·범위): 'alone'이 상대와 단둘이라는 범위에서 주어 개츠비에게 붙는 '혼자서'로 바뀌어 초점 대상이 이동했고, 'you'가 가리키는 대상도 번역문에서 드러나지 않습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"정중한 전갈·면담 요청 → 정중한 전갈·면담 요청. 개츠비가 만나자고 한다는 전달 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"would like는 개인적 바람이며 의무·허가·금지 등 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"하인(집사)이 손님에게 하는 정중한 말투가 '죄송합니다만 … 말씀을 드리고 싶습니다'로 격식 있게 유지됩니다. 높임 대상이 개츠비로 읽히는 점은 Semantic의 문제입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Mr. Gatsby'는 인명이고 별도로 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 529,
+    "output_tokens": 901,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

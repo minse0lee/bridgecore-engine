@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfTMr5UMR9RJBENLFQk",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0148\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I always watch for the longest day in the year and then miss it.\",\"tgt_span\":\"나는 항상 일 년 중 가장 긴 날을 기다리다가 놓치는가?\",\"description\":\"데이지 자신의 진술(평서문)이 의문문으로 바뀌어, 자신도 늘 그렇다는 고백이 질문으로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성·사실): 데이지가 자신은 항상 그렇다고 말하는 진술이 자신에게 묻는 질문으로 바뀌어 번역문만 읽으면 요지가 달라집니다. 첫 문장의 질문은 유지됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(연결 관계): 상대에게 묻고 자신도 그렇다고 덧붙이는 질문-진술의 대응 관계가 두 개의 질문 나열로 바뀌어 연결이 달라졌습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"원문 기능: 질문 후 자신의 경험을 공유하는 진술 → 번역 기능: 두 번째 문장도 질문으로 읽혀 자기 진술 기능이 사라짐.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'당신'과 '~는가' 어미는 어색하지만 관계 정보로 볼 때 화자의 태도 변화는 확인되지 않으며, 어색함만으로 훼손이 아닙니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 780,
+    "output_tokens": 780,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

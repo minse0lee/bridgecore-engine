@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfMd8uz2xjqaqCcBf5f",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0055\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"his freedom with money was a matter for reproach\",\"tgt_span\":\"자신의 자유가 비난을위한 문제였다\",\"description\":\"돈을 쓰는 데 거리낌 없는 태도가 비난받았다는 내용이 '돈과 함께 자신의 자유가 비난을 위한 문제'로 바뀌어 비난의 대상·방향이 불분명해짐\"},{\"id\":\"E002\",\"src_span\":\"come East in a fashion that rather took your breath away\",\"tgt_span\":\"오히려 당신의 숨을 멀리했다 패션에 동쪽에 온\",\"description\":\"'숨이 막힐 정도로 놀라운 방식으로 동부로 왔다'가 '숨을 멀리했다', '패션' 등 뜻이 통하지 않는 표현으로 바뀜\"},{\"id\":\"E003\",\"src_span\":\"a string of polo ponies\",\"tgt_span\":\"폴로 조랑말의 문자열\",\"description\":\"string(한 무리·줄)을 '문자열'로 오역해 폴로 조랑말 한 무리라는 수량·집합 의미가 사라짐\"},{\"id\":\"E004\",\"src_span\":\"brought down … from Lake Forest\",\"tgt_span\":\"레이크 포레스트에서 폴로 조랑말의 문자열을 가져왔다\",\"description\":\"동부로 말들을 데려왔다는 맥락이 약하나 핵심 행위는 유지됨. 'now he'd left Chicago and come East'와 연결되는 이동 의미는 부분 유지\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 돈 씀씀이에 대한 비난 내용이 왜곡되고, 숨이 막힐 정도로 놀라운 방식이라는 평가가 '숨을 멀리했다'로 바뀌어 요지를 달리 이해하게 되며, string이 '문자열'로 오역되어 말 한 무리라는 대상 의미가 사라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: '숨이 막힐 정도로 놀라운 방식으로 왔다'는 방식 관계와 콜론 뒤 예시('예를 들면')의 근거 관계가 무너져 예시가 무엇을 뒷받침하는지 알기 어렵습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술적 설명(인물 배경 묘사) → 서술적 설명. 기능 종류는 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 문체의 평서 종결이 유지되어 관계·격식상 문제가 없습니다. 어색함만으로는 훼손이 아닙니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"시카고, 레이크 포레스트 등 지명뿐이며 번역에서 다른 제도·단위로 바꾸지 않았습니다. 'string'의 오역은 Semantic에서 판정합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1132,
+    "output_tokens": 1220,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

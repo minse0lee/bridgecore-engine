@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfnoPkgcVThpk3cfSep",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0430\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the Sixteenth\",\"tgt_span\":\"16번가\",\"description\":\"'the Sixteenth'는 군 부대(제16보병연대)를 가리키는데 '16번가'라는 거리 이름으로 오역하여 지시 대상이 달라짐\"},{\"id\":\"E002\",\"src_span\":\"I knew I’d seen you somewhere before.\",\"tgt_span\":\"전에 어딘가에서 당신을 본 적이 있다는 것을 알고 있었다.\",\"description\":\"'I knew I'd seen you'(전에 본 것 같다는 직감·깨달음)가 '알고 있었다'로 옮겨져 상황상 방금 깨달은 느낌이 약해짐. 핵심 사실은 유지되어 의미 변화는 경미함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상): 군 부대 'the Sixteenth'(제16보병연대)가 '16번가'라는 거리로 바뀌어 화자가 어디에 소속되어 있었는지가 달라졌고, 독자가 요지를 다르게 이해하게 됩니다. 힌트의 숫자 불일치는 서수 표기 차이이고 1918은 정확합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사·연결·초점 관계가 유지되며, 두 문장의 순서와 관계도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 서술(자기 소속 밝힘, 아는 사이 같다는 언급) → 같은 종류의 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 평서체 서술이 유지되며 화자와 청자 관계에 어긋나는 호칭이나 태도 변화는 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2: 미군 제16보병연대라는 군 부대 편제를 거리 이름 '16번가'로 바꾸어 한국어 독자가 제도적 의미(군 복무 소속)를 이해할 수 없게 되었습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 691,
+    "output_tokens": 938,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

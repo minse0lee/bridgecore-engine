@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvg9oXX2HtQopgbpzxS4",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0598\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"if the night was mellow\",\"tgt_span\":\"만약 밤이 부드러운\",\"description\":\"조건절이 서술어 없이 끝나 '밤이 부드러운 경우에'라는 조건 관계가 완결되지 않음. 다만 조건 내용(밤이 온화하면)은 해석 가능.\"},{\"id\":\"E002\",\"src_span\":\"and over 33rd Street to the Pennsylvania Station\",\"tgt_span\":\"그리고 펜실베이니아 역에 33 번가 이상\",\"description\":\"33번가를 가로질러 펜실베이니아 역까지 걸어갔다는 경로가 '33번가 이상'이라는 수량 표현으로 바뀌어 이동 경로·도착지 관계가 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1(행위·장소): 33번가를 거쳐 펜실베이니아 역까지 걸어갔다는 이동이 '33번가 이상'으로 바뀌어 독자가 경로·도착지를 다르게 이해합니다. 'strolled'가 '산책'으로 남아 매디슨 애비뉴와 호텔을 지나는 것은 해석 가능합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(연결 관계): if 조건절이 '만약 밤이 부드러운,'으로 끝나 조건과 주절의 연결이 완결되지 않습니다. 다만 조건 내용은 복원 가능해 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"저녁 일과 서술 → 일과 서술. 서술 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 화자의 서술 어조가 크게 바뀌지 않았고 관계에 맞지 않는 높임·호칭 변화는 없습니다. 어색함만으로 훼손이 아닙니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"머레이 힐 호텔, 매디슨 애비뉴, 33번가, 펜실베이니아 역 등 지명은 통용 음역으로 유지되어 같은 대상을 가리킵니다. 경로 오류는 Semantic에서 판정합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 920,
+    "output_tokens": 981,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

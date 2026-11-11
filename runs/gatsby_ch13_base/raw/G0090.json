@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfQ75yWz5NPFyijKYzW",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0090\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I’m p-paralysed with happiness.\",\"tgt_span\":\"행복을 느끼고 싶어요.\",\"description\":\"행복에 압도되어 몸이 마비될 정도라는 현재 상태 서술이 행복을 느끼고 싶다는 욕구 표현으로 바뀜. 말더듬('p-paralysed')과 마비·압도 의미도 사라짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 이미 행복에 압도된 현재 상태가 행복을 아직 느끼지 못해 바라는 욕구로 바뀌어 사실과 의미가 정반대로 달라졌습니다.\"},\"Textual\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"짧은 단문으로 지시·연결·초점 표현이 평가 대상이 아닙니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"격한 감정 상태 토로·감탄 → 소망 표현. 현재 느끼는 감정을 드러내는 기능이 바람을 말하는 기능으로 바뀌었습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 감정 표현입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"구어체 해요체로 대화 상황에 무리가 없고, 관계 정보상 격식 불일치를 지적할 근거가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 430,
+    "output_tokens": 688,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

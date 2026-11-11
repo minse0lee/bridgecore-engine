@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvg2UNPp4GtQtLXG5wb8",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0022\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"so I supposed it could support one more single man\",\"tgt_span\":\"나는 그것이 한 명의 더 많은 독신 남성을 지원할 수 있을 것이라고 생각했다\",\"description\":\"'one more single man'(독신 남자 한 명 더)이 '한 명의 더 많은 독신 남성'으로 옮겨져 어색하지만 뜻은 유지됨. 'support'를 '지원'으로 옮겨 생계 부양의 의미가 약해졌으나 뜻은 통함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"아는 모든 사람이 채권업에 종사했고, 그 업계가 독신 남자 한 명을 더 부양할 수 있으리라 추측했다는 핵심 내용이 유지됩니다. '지원'은 '부양'보다 모호하지만 같은 사태를 가리키고 '더 많은'은 어색할 뿐 뜻은 같습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"so의 인과 관계가 '-했기 때문에'로 유지되고 'it'이 채권 사업을 가리키는 지시 관계도 유지되어 질문 1·2·3 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 상황 설명(서술) → 서술. 서술 기능이 그대로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 같은 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회고 서술의 평서체('-했다')가 유지되고 특별한 관계·호칭 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1309,
+    "output_tokens": 789,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

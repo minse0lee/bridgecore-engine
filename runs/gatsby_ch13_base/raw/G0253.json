@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfaxqBv7M5BF64XCkoJ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0253\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Miss Baker\",\"tgt_span\":\"베이커 양부인\",\"description\":\"미혼 여성 호칭 Miss(양)가 '양부인'으로 바뀌어 '부인'이 덧붙음. 결혼 여부가 모호해지고 호칭의 의미가 달라짐\"},{\"id\":\"E002\",\"src_span\":\"the Saturday Evening Post\",\"tgt_span\":\"토요일 저녁 신문\",\"description\":\"잡지 이름 Saturday Evening Post(고유 간행물명)를 일반 명사 '신문'으로 풀어 옮김. 잡지가 신문으로 바뀌고 고유 명칭이 사라짐\"},{\"id\":\"E003\",\"src_span\":\"the words, murmurous and uninflected, running together in a soothing tune\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"읽는 소리가 웅얼거리고 억양이 없으며 서로 이어져 달래는 가락이 된다는 서술이 통째로 누락됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 'Miss'가 '양부인'으로 바뀌어 대상이 달라졌고, 잡지 Saturday Evening Post가 '신문'으로 바뀌었으며, 낭독 소리를 묘사한 절이 통째로 빠져 서술 내용이 달라졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 관계(톰·베이커 양, she→베이커)와 두 행위의 연결이 유지되며, 누락은 내용 빠짐으로 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 서술 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 문어체 평서가 유지되며 화자와 청자 간 높임 관계가 문제되는 부분이 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1·2: 'Miss'라는 미혼 여성 경칭이 '양부인'으로 바뀌고, 1920년대 미국 대중 잡지 Saturday Evening Post가 일반 '신문'으로 바뀌어 문화적 지시 대상이 달라졌습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 831,
+    "output_tokens": 1001,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

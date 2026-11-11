@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfgU5yxVJUVENZ3Am2C",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0352\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Sorry you didn’t win.\",\"tgt_span\":\"당신이 이기지 못해서 미안하다.\",\"description\":\"'Sorry you didn't win'은 상대가 이기지 못한 것에 대한 안타까움·위로를 표현하나, 번역은 화자가 이기지 못한 것의 원인이라도 되는 듯 사과하는 말로 읽힘(안타까움 → 사과).\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 상대가 졌다는 데 대한 유감 표현이 '이기지 못해서 미안하다'라는 사과로 바뀌어 감정의 내용이 달라졌으나, 상대가 이기지 못했다는 핵심 사실은 유지되어 요지는 크게 바뀌지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'you'가 '당신'으로 같은 대상을 가리키고, 연결·초점 관계도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"유감·위로 표현 → 유감·사과 표현. 상대의 패배에 대해 감정을 표하는 같은 종류의 사회적 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 의무·허가·금지 같은 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'당신'과 해체('미안하다')가 화자(쌍둥이 같은 일행)와 청자의 관계에 맞는지 판단하려면 두 사람의 관계와 친밀도 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 468,
+    "output_tokens": 785,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfmYUnRiKm4c443im8u",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0412\",\"evaluable\":false,\"evaluable_note\":\"생성붕괴 검토 필요: 번역문이 '내가 너한테 한 말이 뭔지 알아?'를 무한 반복하다 중간에 끊겼고, 원문의 Mrs. Claud Roosevelt, 지인 여부 질문, 어젯밤 만남, 일주일간 취함, 도서관에서 술 깨려는 생각 등 핵심 내용을 복원할 수 없음. 문단 전체 번역에도 해당 내용이 없음.\",\"errors\":[],\"axes\":{\"Semantic\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"생성붕괴 검토 필요: 반복 문장 붕괴로 핵심 행위·대상·관계를 원문과 대응시킬 수 없습니다.\"},\"Textual\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"생성붕괴 검토 필요: 반복 출력으로 지시·연결·초점 관계를 비교할 수 없습니다.\"},\"Context\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"생성붕괴 검토 필요: 번역문이 반복 질문으로 붕괴되어 발화 기능을 대응시킬 수 없습니다.\"},\"Deontic\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"생성붕괴 검토 필요: 번역문이 붕괴되어 축별 비교가 불가능합니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"생성붕괴 검토 필요: 반복 출력으로 원문 대응 구간을 구성할 수 없어 비교가 불가능합니다.\"},\"Cultural\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"생성붕괴 검토 필요: 번역문이 붕괴되어 대응 구간을 비교할 수 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1266,
+    "output_tokens": 720,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

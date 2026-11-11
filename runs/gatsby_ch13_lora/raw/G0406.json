@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfjkY1zZEkkHzqP7FfW",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0406\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a regular Belasco\",\"tgt_span\":\"평범한 벨라스코다\",\"description\":\"'regular'(진짜, 영락없는)를 '평범한'으로 옮겨, 연출가 벨라스코에 비견되는 찬사가 평범하다는 뜻으로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"Knew when to stop, too—didn’t cut the pages. But what do you want?\",\"tgt_span\":\"언제 멈출지도 알고 있었다—페이지를 자르지 않았다. 그러나 당신은 무엇을 원하는가?\",\"description\":\"'But'을 '그러나'로 옮겨 앞의 칭찬에 대한 반박/반문 기능이 이어지는 것은 유지되나, 수사의문이 실제 질문처럼 읽힐 여지\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'regular Belasco'(영락없는 벨라스코)가 '평범한 벨라스코'로 바뀌어 찬사가 평범하다는 평가로 달라졌고, 독자가 화자의 감탄 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'But'이 '그러나'로 유지되어 대조 연결이 남아 있고 지시·초점 관계 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"감탄·찬사와 수사의문(반문) → 감탄과 의문문. 마지막 의문문도 문맥상 반문으로 읽혀 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술·감탄입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"들뜬 구어체의 감탄이 평서 '-다'체로 옮겨졌으나 청자와의 관계를 바꾸는 높임·호칭 오류는 없고, 어색함만으로 훼손이 아닙니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Belasco(연극 연출가)를 '벨라스코'로 음역해 같은 인물을 가리키며 통용되는 표기이므로 대상이 유지됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 872,
+    "output_tokens": 926,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

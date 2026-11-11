@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfopPoLRBriY3xCmG2c",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0447\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I thought you knew, old sport.\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"'당신이 알고 있는 줄 알았다'는 첫 문장이 통째로 누락됨\"},{\"id\":\"E002\",\"src_span\":\"old sport\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"친밀한 호칭 'old sport'(개츠비의 말버릇)가 번역되지 않음\"},{\"id\":\"E003\",\"src_span\":\"I'm afraid I'm not a very good host\",\"tgt_span\":\"난 아주 좋은 호스트가 아닌 것 같아요\",\"description\":\"완곡한 사과의 표지 'I'm afraid'가 사라지고 일반적 추측 표현으로 옮겨짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물·행위): '알고 있는 줄 알았다'는 개츠비의 전제와 믿음이 통째로 빠져 문장 내용의 절반이 사라졌고, 앞 문맥에 대한 답이라는 의미가 전달되지 않습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(연결): 첫 문장이 빠져 '알 줄 알았는데 몰랐으니 나는 좋은 주인이 못 된다'는 앞뒤 인과 연결이 사라졌습니다. 단순 누락을 넘어 연결 관계가 바뀌었습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"원문 기능: 상대의 의문에 대한 해명 및 사과 → 번역 기능: 자기 평가를 진술하는 말. 상대가 몰랐다는 사실에 놀라 해명하는 기능이 사라졌습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 대화입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 3(태도): 개츠비가 상대에게 쓰는 친근하고 격의 없는 호칭 'old sport'가 누락되어 친밀한 화자의 태도가 사라졌습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"제도·기관명·단위 등 문화 고유 대상이 없습니다. 'old sport'의 친밀한 호칭 기능은 Register에서 판정했습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 476,
+    "output_tokens": 998,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

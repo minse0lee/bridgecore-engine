@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfvAxz5EPKZ2ewmjKML",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0546\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"right side up, but violently shorn of one wheel\",\"tgt_span\":\"오른쪽 위에, 그러나 폭력적으로 하나의 바퀴를 깎아\",\"description\":\"'바르게 선 채(바퀴가 하나 떨어져 나갔지만 정상 방향)'가 '오른쪽 위에'로, '바퀴 하나가 떨어져 나간'이 '바퀴를 깎아'로 바뀌어 차의 상태가 달라짐\"},{\"id\":\"E002\",\"src_span\":\"rested a new coupé\",\"tgt_span\":\"새로운 쿠페 휴식\",\"description\":\"주어 쿠페가 놓여 있다는 서술이 명사 '휴식'으로 바뀌어 문장이 서술어 없이 끝나고 주어-서술 관계가 불분명해짐\"},{\"id\":\"E003\",\"src_span\":\"not two minutes before\",\"tgt_span\":\"2 분 전에\",\"description\":\"'2분도 채 되지 않은 전'이 '2분 전'으로 바뀌어 직전임을 강조하는 의미가 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 바퀴가 떨어져 나간 상태가 '바퀴를 깎아'로, 바른 방향이 '오른쪽 위에'로 바뀌고 '쿠페가 놓여 있었다'는 서술이 '휴식'으로 바뀌어 장면 요지가 달라졌으며, '2분도 안 된 전'도 '2분 전'으로 바뀌었습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1·2: 서술어가 없어져 '새로운 쿠페'가 앞 구절들과 맺는 관계, 즉 구덩이에 놓인 대상이라는 연결이 불분명해졌고 '그러나'가 연결하는 대상도 모호해졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사 서술 → 장면 묘사 서술. 서술 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술 문체이며 관계·격식상 달라진 점이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"고유 인명 외에 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1073,
+    "output_tokens": 1011,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

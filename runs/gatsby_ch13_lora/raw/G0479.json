@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfpMekiyPZ71MZSoi3A",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0479\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the papers\",\"tgt_span\":\"논문\",\"description\":\"신문(papers)이 학술 '논문'으로 오역되어 독자가 읽는 매체가 달라짐\"},{\"id\":\"E002\",\"src_span\":\"a big sensation\",\"tgt_span\":\"큰 충격\",\"description\":\"세간을 떠들썩하게 한 센세이션(큰 화제)이 '충격'으로 바뀌어 평가 내용이 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 독자가 읽는 대상이 신문에서 학술 '논문'으로 바뀌었고 sensation(화제·소동)이 '충격'으로 바뀌어, 요지를 다르게 이해하게 됩니다. 5월은 last May와 일치하므로 힌트의 숫자 경고는 오경보입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'If you read ... you know'의 조건·결과 관계가 '읽으면 ... 알 수 있다'로 유지되고 지시·초점 표현도 달라지지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공연 소개 및 청중에 대한 설명 → 공연 소개 및 설명. 발표자가 곡을 소개하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없고 'going to'는 예정을 나타냅니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사회자가 청중에게 하는 공식 발표인데 '-ㄹ 예정이다' 평서체로 옮겨졌습니다. 어색함만으로는 훼손이 아니며 원문 관계상 높임이 기대된다고 볼 확정 근거가 부족합니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"카네기 홀과 5월이 통용 표기로 정확히 옮겨져 같은 대상을 가리킵니다. 'papers' 오역은 단어 오역이므로 Semantic에서만 판정합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1117,
+    "output_tokens": 877,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

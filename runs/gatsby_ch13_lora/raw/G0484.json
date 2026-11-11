@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfpkBpVmV1YQ2zg89zV",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0484\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"was drawn attractively tight on his face\",\"tgt_span\":\"그의 얼굴에 매력적으로 꽉 잡혀 있었고\",\"description\":\"피부가 얼굴에 보기 좋게 팽팽히 당겨져 있다는 묘사가 '꽉 잡혀 있었다'로 옮겨져, 팽팽한 상태가 아니라 무엇에 붙들려 있는 듯한 다른 상황으로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 피부가 얼굴에 매력적으로 팽팽히 당겨진 상태가 '꽉 잡혀 있었다'로 바뀌어 묘사 내용이 달라졌습니다. 다만 인물의 외모 묘사라는 요지는 유지되어 독자의 이해나 행동에는 큰 영향이 없으므로 minor입니다. 나머지(햇볕에 탄 피부, 짧은 머리, 매일 다듬은 듯)는 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사·소유 관계가 유지되고, 두 절의 병렬 연결과 초점 표현도 바뀌지 않았습니다. '그의' 반복은 어색할 뿐 지시 대상을 바꾸지 않습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 외양 묘사 → 인물 외양 묘사. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범적 의미가 없는 묘사문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체('~었다')가 유지되며 화자와 독자의 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위 등 별도로 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1369,
+    "output_tokens": 816,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

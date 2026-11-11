@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfUxxiW7CmNgAzhoU26",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0172\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"What was that word we—\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"데이지가 말을 잇다 끊기는 둘째 문장(그 단어가 뭐였지, 우리…)이 번역문 전체에서 누락됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'What was that word we—'라는 둘째 문장의 내용(단어를 떠올리려는 질문)이 통째로 빠져, 데이지가 말한 내용의 절반이 사라졌습니다. 첫 문장은 보존되었습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"남은 문장에서 지시·연결·초점 관계는 바뀌지 않았고, 누락 자체는 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"원문 기능 → 번역 기능: 톰이 심오한 책을 읽는다고 놀림조로 말한 뒤 단어를 떠올리려다 끊기는 생각 없는 수다(데이지의 경박함 묘사) → 단순 사실 서술. 질문하다 말을 맺지 못하는 발화가 사라져 인물 묘사 기능이 달라졌습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"데이지가 일상적으로 말하는 평서체이며, 번역된 부분의 '~는다' 체가 관계를 훼손할 정도로 어긋나지는 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 등장하지 않습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 546,
+    "output_tokens": 766,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

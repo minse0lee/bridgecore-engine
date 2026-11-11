@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfJpkq6gnZr3i8FwYaK",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0020\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I came back restless\",\"tgt_span\":\"걱정이 되어 돌아왔다\",\"description\":\"restless(들떠서 가만있지 못하는 불안정한 상태)가 '걱정이 되어'로 바뀌어 감정 상태의 내용이 달라짐\"},{\"id\":\"E002\",\"src_span\":\"so thoroughly that\",\"tgt_span\":\"너무 철저하게 즐겼기 때문에\",\"description\":\"결과를 나타내는 so…that 구문이 원인을 나타내는 '-기 때문에'로 바뀌어 인과 방향이 뒤집힘\"},{\"id\":\"E003\",\"src_span\":\"counter-raid\",\"tgt_span\":\"반격\",\"description\":\"독일의 이주에 대한 역습(counter-raid)이라는 은유적 표현이 일반적인 '반격'으로 옮겨져 이주-역습의 대응이 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: restless가 '걱정이 되어'로 바뀌어 화자의 상태(전쟁 후 들뜬 불안정)가 걱정이라는 다른 감정으로 읽히고, 결과를 나타내는 구문이 이유로 바뀌었습니다. 독자가 요지를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: so…that의 결과 관계('너무 즐겨서 불안정해져 돌아왔다')가 '즐겼기 때문에 걱정이 되어 돌아왔다'로 인과 관계가 달라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 화자의 경험을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술의 평서체가 유지되며 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1273,
+    "output_tokens": 901,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

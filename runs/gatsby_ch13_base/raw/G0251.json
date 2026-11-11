@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfaeeZ7BGyjNnRVCJZE",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0251\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"sure enough\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"화자의 예상이 들어맞았다는 뜻의 'sure enough'가 번역되지 않음\"},{\"id\":\"E002\",\"src_span\":\"an absolute smirk\",\"tgt_span\":\"절대적인 미소를 지으며\",\"description\":\"smirk(능글맞은·자기만족적 웃음)가 중립적인 '미소'로 바뀌어 부정적 태도가 사라짐\"},{\"id\":\"E003\",\"src_span\":\"a rather distinguished secret society\",\"tgt_span\":\"어떤 뛰어난 비밀 단체\",\"description\":\"'꽤 근사한, 품격 있는'(distinguished)이 '뛰어난'으로 바뀌고 rather의 정도가 빠짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: sure enough가 빠져 예상의 적중이라는 확실성이 사라졌고, smirk가 중립적 '미소'로 바뀌어 부정적 평가 내용이 달라져 독자가 장면의 요지를 다르게 이해합니다. distinguished를 '뛰어난'으로 옮긴 것은 정도의 차이라 반영하지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현에서 바뀐 것이 없습니다. 'as though/as if'는 '~것처럼'으로 유지되고, 'sure enough'의 누락은 내용 누락이라 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(화자의 불안과 상대의 반응 묘사) → 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 의무·허가·금지 같은 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 3: smirk에 담긴 화자의 냉소적·비판적 태도가 중립적이고 호의적인 '미소'로 약해졌습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명(톰) 외에 문화·제도 고유의 대상이 없습니다. 비밀 단체는 비유적 표현입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1042,
+    "output_tokens": 951,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

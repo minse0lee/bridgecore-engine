@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfxshFGCNZHNSXr4z3k",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0589\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"A sudden emptiness\",\"tgt_span\":\"갑자기 빈 공간이\",\"description\":\"추상적 '공허감(emptiness)'이 물리적 '빈 공간'으로 옮겨져 의미가 달라짐\"},{\"id\":\"E002\",\"src_span\":\"endowing with complete isolation the figure of the host\",\"tgt_span\":\"완전한 고립감으로 … 호스트의 형상을 부여했다\",\"description\":\"'완전한 고립을 호스트의 모습에 부여함'이 '호스트의 형상을 부여했다'로 바뀌어 부여 대상과 내용이 뒤바뀜(고립감이 수단처럼 읽힘)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'emptiness'가 '빈 공간'으로, 완전한 고립을 인물에게 부여하는 구조가 '고립감으로 형상을 부여'로 바뀌어 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: 'who stood on the porch…' 관계절이 번역에서 '형상'이 아니라 '고립감'을 수식하는 듯 읽히고, 부여 대상(호스트)과 부여 내용(고립)의 관계가 흐려져 지시 관계가 바뀝니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사 서술 → 장면 묘사 서술. 서술 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 소설 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술체 평서문으로 소설 본문의 어조가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습으로 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 933,
+    "output_tokens": 814,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

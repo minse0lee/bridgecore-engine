@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfNXNB8LmBiKeGKxmRQ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0074\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I’ve got a nice place here\",\"tgt_span\":\"나는 여기 좋은 장소를 얻었어\",\"description\":\"'have got a nice place'(좋은 집/자리를 가지고 있다는 소유 진술)가 '좋은 장소를 얻었어'(획득 행위)로 바뀌고, place가 집·저택이 아닌 막연한 '장소'로 옮겨짐\"},{\"id\":\"E002\",\"src_span\":\"his eyes flashing about restlessly\",\"tgt_span\":\"눈이 불안정하게 깜빡거리며\",\"description\":\"눈이 이리저리 번득이며 두리번거리는 모습이 '불안정하게 깜빡거리는' 것으로 바뀌어 시선의 움직임 묘사가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(행위·대상): '가지고 있다'가 '얻었다'로, place(집)가 '장소'로 바뀌었고, 두리번거리는 시선이 깜빡임으로 바뀌어 독자가 장면을 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'he'와 'his eyes'의 지시 관계와 동시 동작 연결이 유지되어 지시·연결·초점 모두 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물의 말과 행동 묘사 → 인물의 말과 행동 묘사. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"자신의 집을 말하는 평이한 반말 구어체가 소설 대화 상황에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 별도로 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 520,
+    "output_tokens": 837,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

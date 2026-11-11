@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfKnmo2tKHxzRCGSjWF",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0030\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I told him.\",\"tgt_span\":\"그에게 말했어요\",\"description\":\"서술 본문의 화자 어조가 구어체 해요체('말했어요')로 바뀜. 같은 문단의 다른 문장은 평서체('~했다')라서 문체가 일관되지 않음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"행위자(나), 행위(말했다), 대상(그)가 모두 유지되며 판단 질문 1에 해당하는 변화가 없습니다. 목적어(무엇을 말했는지)는 원문에도 없습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 관계, 연결 관계, 초점 표현에 해당하는 변화가 없습니다. 'him'은 '그'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞 대화에 대한 응답을 서술하는 보고 → 같은 서술 보고. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"출판물 본문 서술을 '~어요'체로 옮긴 것이 화자와 독자 관계에 맞는지 판단하려면 서술자(닉)가 독자에게 말하는 방식에 대한 문체 기준(평서체 또는 구어체 허용 여부)이 필요합니다. 같은 문단 내에서 '~었다'와 '~했어요'가 섞여 있어 의도된 구어체인지 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 527,
+    "output_tokens": 758,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

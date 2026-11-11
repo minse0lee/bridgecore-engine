@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfT5cWe87qUR3rDAeki",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0145\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"snapped them out\",\"tgt_span\":\"뽑아냈다\",\"description\":\"촛불을 손가락으로 쳐서/집어 꺼버렸다는 '끄다'가 '뽑아냈다'(잡아 빼냈다)로 바뀌어 행위가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위): 촛불을 손가락으로 딱 쳐서 끄는 행위가 촛불을 뽑아내는 행위로 바뀌었습니다. 행위자·대상·도구는 유지되고 앞뒤 문맥에서 촛불 이야기임을 알 수 있어 요지 이해에는 큰 차이가 없어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그녀'와 '그것들(촛불)'의 지시 관계가 유지되며 연결·초점 변화는 없습니다. '그녀의 손가락'은 어색한 번역투일 뿐 지시 대상이 바뀐 것은 아닙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(행동 묘사) → 서술(행동 묘사). 발화 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 같은 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장은 화자와 청자의 관계나 호칭·격식이 드러나는 서술이 아니라 지문 서술입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 711,
+    "output_tokens": 737,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

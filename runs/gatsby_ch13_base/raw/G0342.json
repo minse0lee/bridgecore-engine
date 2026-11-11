@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfguXBBms44my2yJPr5",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0342\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"my host\",\"tgt_span\":\"내 주인\",\"description\":\"파티를 연 초대자(host)가 '주인'(소유·종속 관계의 master/owner)으로 옮겨져 역할이 달라짐\"},{\"id\":\"E002\",\"src_span\":\"without looking purposeless and alone\",\"tgt_span\":\"목적없이 혼자 보이지 않고\",\"description\":\"'목적 없고 외로워 보이지 않으면서'라는 부정이 '목적 없이 혼자 보이지 않고'로 옮겨져 부정의 범위가 뒤바뀌어, 목적 없이 혼자 있는 모습이 아니라 목적 없이 있는 것이 보이지 않는다는 뜻으로 읽힘\"},{\"id\":\"E003\",\"src_span\":\"a single man could linger\",\"tgt_span\":\"한 남자가 … 머무를 수 있는\",\"description\":\"'혼자 온 남자(single man)'가 단순히 '한 남자'로 바뀌어 혼자 온 손님이라는 의미가 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 파티 주최자(host)가 '주인'으로 바뀌고, 'looking purposeless and alone'의 부정 범위가 뒤바뀌어 요지가 다르게 읽히며, 혼자 온 남자의 뜻도 흐려졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 3(초점·범위): 'without looking'의 부정 범위가 'purposeless and alone' 전체에서 '혼자 보이지 않고'로 좁혀져 범위가 달라졌습니다. 인과 연결(such...that → -했기 때문에)은 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 화자가 겪은 상황을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없는 서사 문장입니다. 'could linger'는 가능의 의미입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'내 주인'이라는 호칭이 화자와 개츠비의 관계에 맞는지는 문서 내 관계 설정을 따로 확인해야 하지만, 이 문장에서는 높임 체계 변화가 확인되지 않습니다. 서술자와 개츠비의 관계 정보가 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화 고유의 제도·단위·관습 표현이 없습니다. '칵테일 테이블' 등은 일반적인 어휘입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1131,
+    "output_tokens": 1093,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

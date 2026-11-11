@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfTj5m99JwF6v4p2uN8",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0153\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"her eyes fastened with an awed expression on her little finger\",\"tgt_span\":\"그녀의 작은 손가락에 경외의 표정과 함께 그녀의 눈이 고정되었다\",\"description\":\"'her little finger'가 '그녀의 작은 손가락'으로 옮겨져 새끼손가락이 아닌 작은 손가락으로 읽히며, 소유 관계가 눈 주인과 손가락 주인 모두 '그녀'로 유지되어 있어 의미 변화 여부 검토 필요\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"내가 대답하기 전에 그녀의 눈이 경외 어린 표정으로 손가락에 고정되었다는 내용이 유지됩니다. little finger를 '작은 손가락'으로 옮긴 것은 어색하지만 같은 대상으로 읽혀 오류로 보지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'내가 대답하기도 전에'로 시간 순서 연결이 유지되고, her가 가리키는 대상도 그녀로 동일합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 소설 속 장면을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 평서체 '-었다'가 유지되며 화자·청자 관계상 문제되는 높임·호칭이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 별도로 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 522,
+    "output_tokens": 752,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

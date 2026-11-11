@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfhnF9k9K7W2ZjKEuEU",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0373\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"they thought he killed a man once\",\"tgt_span\":\"그가 한 번 사람을 죽였다고 생각한다고\",\"description\":\"'they'(여러 사람)에 해당하는 주어가 번역에서 빠져, 생각한 주체가 불분명해지고 '누군가'가 생각한 것처럼 읽힐 수 있음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물·행위자): 'they thought'의 주어 'they'가 번역에서 사라져 '누군가'가 생각한 것으로 읽힐 수 있으나, 소문이라는 핵심 사실(그가 한때 사람을 죽였다고 여겨진다)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(지시 대상): 'Somebody'와 구분되는 'they'의 지시 대상이 번역에서 사라져 생각한 주체가 불분명해졌고, 대명사 'he'는 '그'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소문 전달(서술) → 소문 전달. 전해 들은 소문을 말하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 소문 전달 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 평서 진술이며 번역문의 '-했다' 어미가 특별한 관계·격식 변화를 일으키지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 482,
+    "output_tokens": 745,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

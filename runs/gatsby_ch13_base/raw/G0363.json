@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfiJxMjdsSEhVF5viPD",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0363\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I like to come\",\"tgt_span\":\"나는 너를 좋아한다\",\"description\":\"'오는 것을 좋아한다'(파티에 오기)가 '너를 좋아한다'로 바뀌어 행위와 대상이 달라지고 원문에 없는 청자 '너'가 첨가됨\"},{\"id\":\"E002\",\"src_span\":\"Lucille said\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"화자 표시 'Lucille said'가 누락되어 발화자(루실)가 드러나지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: '오는 것을 좋아한다'가 '너를 좋아한다'로 바뀌어 행위와 대상이 달라졌고, 화자 Lucille도 빠져 요지가 다르게 이해됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현이 문장에 없고, 화자 누락은 내용 누락으로 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"자신의 취향을 말하는 서술 → 호감을 말하는 서술. 둘 다 진술 기능이라 같은 종류입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 문장입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'너'라는 청자 지칭이 첨가되었으나 파티 대화에서 루실과 청자의 관계 정보가 없어 반말의 적절성을 판단할 수 없습니다. 화자와 청자의 관계 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화·제도 고유의 대상이 없고 인명만 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 652,
+    "output_tokens": 790,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

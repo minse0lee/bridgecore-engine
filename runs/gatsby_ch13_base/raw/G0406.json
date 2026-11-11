@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvfm5AirdGweGETuum2X",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0406\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a regular Belasco\",\"tgt_span\":\"평범한 벨라스코야\",\"description\":\"'regular'(진짜, 틀림없는)가 '평범한'으로 오역되어 극찬하는 평가가 평범하다는 평가로 바뀌고, 벨라스코(사실적 무대연출로 유명한 연출가)의 의미도 전달되지 않음\"},{\"id\":\"E002\",\"src_span\":\"didn’t cut the pages\",\"tgt_span\":\"페이지를 잘라내지 않았어\",\"description\":\"책장을 자르지 않은 채 두었다(미개봉 상태)는 의미가 '페이지를 잘라내지 않았다'로 바뀌어 맥락상 의미가 모호해짐\"},{\"id\":\"E003\",\"src_span\":\"But what do you want? What do you expect?\",\"tgt_span\":\"그러나 너는 무엇을 원하는가? 너는 무엇을 기대하는가?\",\"description\":\"반어적 수사의문(무엇을 더 바라느냐)이 문자 그대로의 질문으로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'regular Belasco'의 긍정적 평가가 '평범한'으로 바뀌어 평가 내용이 달라졌고, 책장을 자르지 않았다는 사실도 '잘라내지 않았다'로 달라져 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계는 유지되었고 '그러나'가 But의 대조를 유지합니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"반어적 수사의문(그 이상 무엇을 바라느냐는 항변) → 문자 그대로의 질문. 다만 앞 문장들이 여전히 감탄 맥락이라 요지 이해에는 큰 영향이 없습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 대화입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"친근한 반말 대화체가 유지되며, 의문문의 '-는가' 문어체는 어색함일 뿐 관계 훼손은 아닙니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: Belasco는 사실적 무대연출로 유명한 미국 연출가라는 문화적 지시 의미가 '평범한 벨라스코'로 전달되지 않아 독자가 이해하기 어렵습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 860,
+    "output_tokens": 1040,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

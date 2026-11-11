@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfYatn7oAbVwVocmjvz",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0227\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"what I thought would be some sedative questions\",\"tgt_span\":\"진정제 같은 질문을 했다\",\"description\":\"'진정시킬 만한 질문이라고 내가 생각한 것'(화자의 기대)이 '진정제 같은 질문'으로 바뀌어 기대 표현(I thought would be)이 사라짐. 질문의 진정 효과가 아닌 진정제와의 유사성으로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): 화자의 기대(I thought would be)가 빠져 질문이 진정제 같다는 단정으로 바뀌었고, '진정시키는 질문'이 '진정제 같은 질문'으로 옮겨졌으나 핵심 사실(딸에 관한 질문, 감정에 사로잡힌 것을 봄)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그래서'로 인과 관계(so)가 유지되고, 대명사 '그녀'의 지시 대상도 데이지와 그녀의 딸로 유지되어 세 질문 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(화자의 관찰과 행동 설명) → 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 소설 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술의 평서체 '~했다'가 소설 본문 격식에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 716,
+    "output_tokens": 766,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

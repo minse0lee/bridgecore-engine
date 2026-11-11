@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvg1GdSGgwVF2tymiK3S",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0622\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"she passed so close to some workmen that our fender flicked a button on one man’s coat\",\"tgt_span\":\"그녀가 우리의 펜더가 한 남자의 코트에 버튼을 흔들어 일부 노동자에 너무 가까이 통과하기 때문에\",\"description\":\"결과절 'so close ... that'의 인과·정도 구조가 무너져, 펜더가 코트 단추를 스친 것이 '그녀가 너무 가까이 지나가서' 생긴 결과라는 관계가 사라지고, 펜더가 단추를 '흔들어' 노동자에 가까이 지나간다는 식으로 뒤엉킴\"},{\"id\":\"E002\",\"src_span\":\"flicked a button on one man’s coat\",\"tgt_span\":\"한 남자의 코트에 버튼을 흔들어\",\"description\":\"'단추를 튕기듯 스쳤다'는 행위가 '버튼을 흔들어'로 옮겨져 행위와 대상이 불분명해짐(단추 → 버튼, flick → 흔들다)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(행위·인과): 펜더가 노동자 코트의 단추를 스쳤다는 사건이 '펜더가 버튼을 흔들어 노동자에 가까이 통과'하는 것으로 읽혀, 누가 무엇을 어떻게 했는지 요지가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(연결 관계): 'so close ... that'의 정도-결과 관계가 사라지고 '흔들어'가 원인처럼 연결되어 '가까이 지나감 → 펜더가 단추를 스침'의 인과 관계가 바뀌었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 시작 계기 설명 → 대화 시작 계기 설명. 서술 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 '-었다'가 유지되며 관계상 어긋남이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 761,
+    "output_tokens": 964,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

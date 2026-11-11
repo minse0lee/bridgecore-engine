@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfN2HSoQogDCBkbahyt",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0061\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"overlooking the bay\",\"tgt_span\":\"베이가 내려다보이는\",\"description\":\"저택이 만(bay)을 내려다보는 관계가 '베이'로 음역되고 수동적 시점으로 바뀌어, bay가 만(바다)임이 전달되지 않음. 내려다보는 주체도 모호해짐\"},{\"id\":\"E002\",\"src_span\":\"Georgian Colonial mansion\",\"tgt_span\":\"조지아 식민지 양식의 저택\",\"description\":\"Georgian Colonial(조지 왕조풍 식민지 양식)이 '조지아'(미국 주 이름)로 읽힐 수 있게 옮겨져 건축 양식 명칭의 의미가 흐려짐\"},{\"id\":\"E003\",\"src_span\":\"Their house was even more elaborate than I expected\",\"tgt_span\":\"그들의 집은 제가 예상했던 것보다 훨씬 정교했어요\",\"description\":\"서술자의 소설 서술 문체가 '제가…했어요' 구어체로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: bay가 '베이'로 음역되어 만이라는 지시 대상이 불분명해졌으나, 집이 물가를 내려다보는 정도의 요지는 대체로 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'훨씬 …보다'의 비교와 저택에 대한 동격 관계가 유지되며 지시·연결·초점 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"집에 대한 서술 → 집에 대한 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 묘사 문장입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 1: 출판물 본문의 1인칭 서술에 '제가…했어요' 구어체 높임이 쓰여 서술 상황의 관계·격식에 맞지 않습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: Georgian Colonial이라는 건축 양식 용어가 '조지아 식민지 양식'으로 옮겨져 미국 주 이름으로 오해될 수 있어 양식의 제도·역사적 의미 전달이 약합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1112,
+    "output_tokens": 978,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

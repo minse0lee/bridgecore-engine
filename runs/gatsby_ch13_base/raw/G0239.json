@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfZuSGx8UY8cZTspd6s",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0239\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Listen, Nick;\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"주의를 끄는 호명·명령 'Listen, Nick'이 번역에서 누락됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물·행위): 청자 Nick을 부르며 들으라고 한 부분이 빠졌으나, 말해 주겠다는 핵심 내용(그녀가 태어났을 때 한 말)은 유지되어 요지 변화는 없습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'she', 'I'가 가리키는 대상과 문장 연결, 초점 표현은 유지되며 누락은 지시·연결 관계를 바꾸지 않습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"이야기를 들어 보라는 제안·권유 → 이야기를 들어 보라는 제안·권유. 'Would you like to hear?'가 '듣고 싶니?'로 같은 기능을 유지합니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 개인적 제안과 선택 질문이므로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Daisy가 Nick에게 친근하게 말하는 상황에서 반말('말해 줄게', '듣고 싶니?')은 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명만 있고 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 565,
+    "output_tokens": 696,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

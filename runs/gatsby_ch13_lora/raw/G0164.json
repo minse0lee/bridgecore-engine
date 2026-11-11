@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfUWx3SVw5Kj8Ghko1R",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0164\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"corky\",\"tgt_span\":\"코르크가 박혀 있지만\",\"description\":\"와인의 코르크 냄새·변질(corked) 의미가 '코르크 조각이 박혀 있다'로 바뀌어 와인 상태 묘사가 달라짐\"},{\"id\":\"E002\",\"src_span\":\"You make me feel uncivilized\",\"tgt_span\":\"느끼게 해준다\",\"description\":\"'느끼게 해준다'는 긍정적 혜택의 뉘앙스를 띠어 불평·농담조의 고백과 태도가 약해지거나 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: corky(코르크 냄새가 나는)가 '코르크가 박혀 있는'으로 바뀌어 와인의 상태 묘사가 달라졌으나 문장의 요지(고백, 두 번째 잔)는 유지되어 minor입니다. 숫자 '2'는 '두 번째'로 옳게 옮겨 오경보입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but rather로 이어지는 대조('코르크가 박혀 있지만 상당히 인상적인')와 지시 관계가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물의 발화를 전하며 고백하는 서술 → 같은 종류의 서술·고백 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자(닉)와 데이지의 관계는 친족·친밀한 사이이나 번역문의 '당신'과 '~한다' 평서체가 그 관계에 맞는지 판단하려면 대화 상황의 격식 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"claret를 '클래런트 와인'으로 음역해 와인 종류를 가리키며 통용 가능한 표기입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 798,
+    "output_tokens": 855,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

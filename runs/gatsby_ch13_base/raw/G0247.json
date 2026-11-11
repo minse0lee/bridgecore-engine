@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfaY6QrzUMaU7E9ri5r",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0247\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Everybody thinks so—the most advanced people.\",\"tgt_span\":\"모두가 그렇게 생각한다. 가장 진보된 사람들도 그렇게 생각한다.\",\"description\":\"'가장 진보된 사람들'이 모두 그렇게 생각한다는 동격 구조가 '가장 진보된 사람들도'라는 별개 문장의 '도'로 바뀌어, 모두의 범위를 설명하던 관계가 추가 사례로 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"모두의 생각, 화자의 앎, 모든 곳을 다니고 보고 해봤다는 내용이 모두 유지됩니다. 동격에서 '도'로의 변화는 Textual에서 다룹니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(초점·범위): 'the most advanced people'가 Everybody를 보충하는 동격인데 '가장 진보된 사람들도'로 초점 표지 '도'가 붙어 별도 추가 대상처럼 읽힙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"자신의 세련됨을 내세우는 주장·진술 → 주장·진술. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"한국어 평서 '-다'체 서술로, 허세 섞인 화자의 태도가 비하·변조 없이 전달되며 관계에 맞는 높임 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 863,
+    "output_tokens": 765,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfKrdxbzSfUjFGkZ9N8",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0036\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"like new money from the mint\",\"tgt_span\":\"주조소에서 나온 새 돈처럼\",\"description\":\"mint(조폐국)를 '주조소'로 옮겨 제도 기관명이 일반적인 주조 시설처럼 읽힘. 새 돈처럼 반짝이는 비유는 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"열두 권(a dozen), 주제, 선반 위의 빨강·금색 책, 새 돈 비유, 약속하는 비밀, 마이다스·모건·마이세나스만 알았다는 내용이 모두 유지됩니다. 'mint'를 '주조소'로 옮긴 것은 같은 대상을 가리키는 통상적 범위입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'만'이 세 인물에 붙어 only의 초점이 유지되고, they·promising의 지시와 연결 관계도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 행동과 책 묘사를 서술하는 기능 → 같은 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 소설 서술의 평서 문어체가 유지되며 특정 청자와의 관계 표지가 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 'mint'는 화폐를 제조하는 국가 기관(조폐국)인데 '주조소'로 옮겨 제도적 의미가 약해졌습니다. 다만 새로 찍어낸 돈이라는 비유는 전달되어 이해에는 큰 영향이 없어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1231,
+    "output_tokens": 793,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

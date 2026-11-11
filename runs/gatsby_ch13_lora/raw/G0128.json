@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfS2opL94qigfzTR3Zo",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0128\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“You are!”\",\"tgt_span\":\"“당신은 그렇다!”\",\"description\":\"앞선 발언의 서술어를 받아 '(너도) ~하다'고 맞장구치는 응답인데, '그렇다'로 옮겨 상대가 무엇이라는 것인지 가리키는 대상이 불분명해지고 문맥 속 단정 기능이 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'You are'를 '당신은 그렇다'로 옮겨 상대가 그렇다고 단언하는 내용이 유지되며 인물·행위·부정·수량의 변화가 없습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그렇다'가 앞 발화의 내용을 대용하는 생략 표현을 한국어로 재구성한 것으로 지시 관계가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대 발언에 대한 단정적 반응(감탄형 응답) → 단정적 반응. 같은 종류의 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 감탄형 응답입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 당사자 간 관계(친밀도, 연령, 지위)가 문단만으로는 확인되지 않아 평서체 '그렇다'와 '당신'의 적절성을 판단하려면 화자와 청자의 관계 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 517,
+    "output_tokens": 723,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

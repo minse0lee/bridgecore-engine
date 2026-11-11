@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvfdzefj2vUwH9kEzYmU",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0313\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"At high tide in the afternoon\",\"tgt_span\":\"오후의 높은 파도에서\",\"description\":\"high tide(만조)가 '높은 파도'로 오역되어 시간 표현(만조 때)이 장소·파도 상태 표현으로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"the tower of his raft\",\"tgt_span\":\"그의 썰매의 탑에서\",\"description\":\"raft(수영용 뗏목 발판)가 '썰매'로 오역됨\"},{\"id\":\"E003\",\"src_span\":\"aquaplanes\",\"tgt_span\":\"수상 비행기\",\"description\":\"aquaplane(물 위에서 보트가 끄는 수상 스키 판)이 '수상 비행기'로 오역됨\"},{\"id\":\"E004\",\"src_span\":\"the Sound\",\"tgt_span\":\"사운드의 물\",\"description\":\"Long Island Sound라는 해협을 가리키는 the Sound를 '사운드'로 음역해 지시 대상이 불분명해짐\"},{\"id\":\"E005\",\"src_span\":\"cataracts of foam\",\"tgt_span\":\"거품의 폭포\",\"description\":\"비유 표현이므로 대체로 유지됨 (의미 변화 아님)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\",\"E004\"],\"reason\":\"판단 질문 1: 만조가 '높은 파도'로, raft가 '썰매'로, aquaplane이 '수상 비행기'로, the Sound가 '사운드'로 바뀌어 시간·대상·장면이 달라져 독자가 장면을 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'while'이 '-는 동안'으로 시간 관계를 유지하고 or 연결과 대명사 his의 지시도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 관찰 서술 → 관찰 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술체 '-았다'로 서술 태도가 유지되며 특별한 높임 관계가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"고유한 제도·단위 등은 없고 the Sound 지명 관련 오류는 Semantic에서 판정합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1403,
+    "output_tokens": 973,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

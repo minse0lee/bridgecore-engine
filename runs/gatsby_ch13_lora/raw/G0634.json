@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvg7k5beeB6DXM1q58FC",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0634\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"she had deliberately shifted our relations\",\"tgt_span\":\"그녀는 의도적으로 우리의 관계를 옮겼고\",\"description\":\"'shifted our relations'(관계의 성격·국면을 바꿈)를 '관계를 옮겼다'로 직역해, 관계를 바꾸었다는 의미가 전달되지 않고 관계가 물리적으로 이동한 것처럼 읽힘\"},{\"id\":\"E002\",\"src_span\":\"sun-strained eyes\",\"tgt_span\":\"햇볕에 지친 눈\",\"description\":\"'strained'(햇빛에 눈을 찡그려 긴장한)를 '지친'으로 옮겨 의미가 약간 달라졌으나 눈의 상태 묘사는 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위): 관계의 성격을 바꾸었다는 행위가 '관계를 옮겼다'로 바뀌어, 번역문만 읽으면 요지(그녀가 관계를 바꾸었기에 잠시 사랑한다고 생각함)를 이해하기 어렵습니다. 'sun-strained'의 '지친'은 묘사 정도의 차이로 보아 minor 수준입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but의 대조와 and의 연결, 대명사 she/her/I의 지시 관계가 모두 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 서술 → 서술. 상황을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 화자의 서술체 '-했다'가 출판물 본문의 서술 상황에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1070,
+    "output_tokens": 859,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvftX8cdrjVxte9DqQuB",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0546\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"right side up\",\"tgt_span\":\"오른쪽 위로 돌려 놓았지만\",\"description\":\"차가 바로 선 채(바퀴로 서 있는 상태)라는 상태 서술이 '오른쪽 위로 돌려 놓았다'는 누군가의 행위로 바뀌어 의미가 달라짐\"},{\"id\":\"E002\",\"src_span\":\"Gatsby’s drive\",\"tgt_span\":\"개츠비의 운전대\",\"description\":\"개츠비 저택의 진입로(drive)를 '운전대'로 오역하여 차가 떠난 장소가 사라짐\"},{\"id\":\"E003\",\"src_span\":\"violently shorn of one wheel\",\"tgt_span\":\"한쪽 바퀴가 잔인하게 잘린\",\"description\":\"violently(격렬하게)가 '잔인하게'로 바뀌고 shorn(뜯겨 나감)이 '잘린'으로 옮겨짐. 의미 방향은 유사하나 뉘앙스가 다름\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'right side up'이 차를 돌려 놓았다는 행위로, 'drive'(진입로)가 '운전대'로 바뀌어 차의 상태와 출발 장소가 달라졌습니다. 독자가 장면의 요지를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but의 대조('~지만')와 which 관계절의 연결('~는데')이 유지되고 지시·초점 관계는 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사 서술 → 장면 묘사 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체가 평서 문어체로 유지되며 관계상 어긋남이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습이 없고 인명만 등장합니다. 'drive' 오역은 Semantic에서 판정했습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1089,
+    "output_tokens": 926,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

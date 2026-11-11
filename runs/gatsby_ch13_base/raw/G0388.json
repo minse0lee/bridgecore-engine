@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvfjs3CT8R1CwzTYnBAt",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0388\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"this party\",\"tgt_span\":\"이 당\",\"description\":\"party(일행·모임)를 '당'(정당 등)으로 옮겨 일행이라는 지시 대상이 흐려짐. 앞 문장에서는 '파티'로 옮겨 일관성도 깨짐\"},{\"id\":\"E002\",\"src_span\":\"rambling\",\"tgt_span\":\"떠돌아 다니는\",\"description\":\"일행이 흩어져 돌아다니며 어울리는 것(rambling)을 '떠돌아 다니는'으로 옮김. 의미가 어색하게 달라졌으나 대체로 방랑·이동의 의미는 유지\"},{\"id\":\"E003\",\"src_span\":\"East Egg condescending to West Egg\",\"tgt_span\":\"동부의 귀족들은 서부의 귀족들에게 굴복하고\",\"description\":\"condescending(생색내며 내려다봄)이 '굴복하고'로 바뀌어 우위·하위 관계가 정반대로 뒤집힘. East Egg/West Egg 지명이 '동부/서부의 귀족들'로 바뀜\"},{\"id\":\"E004\",\"src_span\":\"carefully on guard against its spectroscopic gaiety\",\"tgt_span\":\"그들의 광범위한 쾌활함에 대항하여 조심스럽게 경계를 하고 있었다\",\"description\":\"spectroscopic(스펙트럼처럼 온갖 빛깔이 나는 화려한)을 '광범위한'으로 옮기고, 'its'가 West Egg를 가리키는데 '그들의'로 모호해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E003\",\"E004\"],\"reason\":\"판단 질문 1: condescending이 '굴복하고'로 바뀌어 East Egg의 우월한 태도가 West Egg에 복종하는 것으로 뒤집혔고, East Egg/West Egg가 '동부·서부의 귀족들'로 바뀌었으며, party가 '당'으로 옮겨졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E004\"],\"reason\":\"판단 질문 1: its가 West Egg를 가리키는데 '그들의'로 옮겨 앞의 '서부의 귀족들'과 '동부의 귀족들' 중 누구의 쾌활함인지 모호해졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 일행의 태도를 묘사하는 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가를 정하는 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 '-했다'가 유지되며, 화자·청자 관계상 문제되는 높임·호칭 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 1·2: 소설 속 고유 지명 East Egg/West Egg가 '동부/서부'라는 일반 지역 표현으로 바뀌어 작품 속 계층적 지역 구분의 의미가 전달되지 않습니다. 장·절 정보로 작품은 식별 가능하므로 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1163,
+    "output_tokens": 1250,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

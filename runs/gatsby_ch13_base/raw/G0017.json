@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfJuttUKRgrzQHFHy7y",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0017\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"started the wholesale hardware business that my father carries on today\",\"tgt_span\":\"제 아버지가 오늘날 운반하는 도매 하드웨어 사업을 시작했습니다\",\"description\":\"carries on(운영·계속하다)이 '운반하다'로 오역되어 아버지가 사업을 이어받아 운영한다는 내용이 사라지고 물건을 나른다는 다른 행위로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"the actual founder of my line was my grandfather’s brother, who came here in fifty-one, sent a substitute to the Civil War, and started the wholesale hardware business\",\"tgt_span\":\"제 혈통의 실제 창시자는 51년에 여기에 와서 남북 전쟁에 대체병력을 보낸 제 할아버지의 형제이며, 제 아버지가 오늘날 운반하는 도매 하드웨어 사업을 시작했습니다\",\"description\":\"관계절 who의 세 동사(came, sent, started)의 주어가 할아버지의 형제인데, 번역문은 '제 아버지가 … 사업을 시작했습니다'로 읽혀 사업을 시작한 사람이 아버지로 바뀜\"},{\"id\":\"E003\",\"src_span\":\"sent a substitute to the Civil War\",\"tgt_span\":\"남북 전쟁에 대체병력을 보낸\",\"description\":\"남북 전쟁 징병 대리인 제도의 문화적 의미가 '대체병력'이라는 일반 어휘로만 전달되어 징집을 피하기 위해 대리 입대자를 보냈다는 함의가 약함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(행위자·행위): carries on이 '운반하는'으로 바뀌어 사업을 운영한다는 행위가 달라졌고, 사업을 시작한 주체도 할아버지의 형제에서 아버지로 읽혀 독자가 가족 역사를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1(지시·소유 관계): who 관계절이 이끄는 동사 연쇄의 주어가 '제 아버지가'로 끊겨 사업 창업자의 귀속이 달라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"가문 내력 서술 → 가문 내력 서술. 서술 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서사 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자 닉이 독자에게 자기 가족을 이야기하는 서술로, '-습니다' 체가 무리 없이 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 2(제도적 의미 이해): 남북 전쟁 때 돈을 주고 대리 입대자를 세우던 징병 대리 관행이 '대체병력을 보낸'으로만 옮겨져 한국어 독자가 제도적 의미를 알기 어렵지만, 핵심 사실은 남아 있어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 932,
+    "output_tokens": 1256,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

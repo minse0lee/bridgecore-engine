@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfRgaPxq6Kgu6p92Q7i",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0124\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Daisy retorted\",\"tgt_span\":\"데이지는 대답했다\",\"description\":\"retorted(반박·쏘아붙이다)가 중립적인 '대답했다'로 바뀌어 반박하는 태도가 사라짐\"},{\"id\":\"E002\",\"src_span\":\"“Don’t look at me,”\",\"tgt_span\":\"\\\"나를 보지 마라,\\\"\",\"description\":\"데이지가 상대에게 하는 말이 '-마라' 해라체 명령으로 옮겨져 관계에 맞지 않는 거칠고 권위적인 말투가 됨. 한편 '당신'과 반말 혼용으로 말투가 불일치함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: retorted(되받아 쏘아붙임)가 '대답했다'로 바뀌어 반박이라는 행위가 중립적 응답으로 달라졌으나, 말한 핵심 내용(나를 보지 말라, 오후 내내 뉴욕에 데려가려 했다)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'나/당신' 지시 대상이 유지되고 오후 내내라는 범위와 앞뒤 발화의 연결도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"책임 전가하며 반박하는 발화 → 상대에게 말하는 발화. '보지 마라'와 해명으로 여전히 반박·항변으로 읽혀 기능 종류가 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 대화 속 개인적 반박·항변이며 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1·3: 데이지가 쏘아붙이는 친밀한 사이의 말투가 '-마라/-했다' 문어체 해라체와 '당신' 혼용으로 바뀌어 관계와 대화 상황에 맞지 않고, 'retorted'의 날 선 태도도 약해졌습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴욕은 지명일 뿐 판정할 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 556,
+    "output_tokens": 944,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

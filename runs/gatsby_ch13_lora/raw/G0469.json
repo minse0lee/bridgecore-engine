@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfonFa5rE1bt2jHYpRW",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0469\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“Why not?”\",\"tgt_span\":\"“왜 그렇지 않을까?”\",\"description\":\"동의·승낙·반문으로 쓰이는 관용 표현 'Why not?'(안 될 이유가 없지)을 문자 그대로 '왜 그렇지 않을까?'라는 이유 질문으로 옮겨 발화 기능과 의미가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'Why not?'은 '안 될 게 뭐 있어/좋아'라는 뜻의 관용 표현인데, 번역은 '왜 그렇지 않을까?'라는 원인 탐색 질문으로 읽혀 전달 내용이 달라졌습니다. 다만 짧은 대화문이고 핵심 사실이나 수량이 걸린 것은 아니어서 minor입니다.\"},\"Textual\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 표현, 연결어, 초점 표현이 없는 짧은 반문입니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 원문 기능 → 동의·수긍 또는 이의 없음을 나타내는 반문 → 번역 기능: 이유를 되묻거나 혼잣말로 의아해하는 질문. 다른 종류의 기능으로 바뀌었습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 같은 규범 의미가 없는 대화문입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"짧은 대화문이라 화자와 청자의 관계, 나이, 격식 수준을 알 수 없어 반말 사용의 적절성을 판단하기 어렵습니다. 화자와 청자의 관계 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 410,
+    "output_tokens": 821,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfL9PnFtbBhdXHXDZ3H",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0034\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"just as things grow in fast movies\",\"tgt_span\":\"단지 것들이 빠른 영화에서 성장하는 것처럼\",\"description\":\"'just as'가 '단지'(only)로 옮겨져 비유의 정확성 강조가 '단지'라는 한정 표현으로 바뀌었고, 'fast movies'(빨리 돌려 보는 영상)가 '빠른 영화'로 어색하게 옮겨짐. 다만 비유 내용(영화 속에서 사물이 자라듯)은 식별 가능함.\"},{\"id\":\"E002\",\"src_span\":\"the great bursts of leaves\",\"tgt_span\":\"큰 잎의 폭발\",\"description\":\"'bursts of leaves'(잎이 한꺼번에 돋아남)를 '잎의 폭발'로 직역하여 의미가 다소 어색해졌으나 지시 대상은 이해 가능함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"햇빛, 무성하게 돋는 잎, 빠른 영화의 비유, 삶이 여름과 함께 다시 시작된다는 익숙한 확신이라는 핵심 내용이 모두 식별 가능하게 유지됩니다. 어색한 직역은 의미를 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(초점·범위 표현): 'just as'가 비교의 정확한 일치를 나타내는 접속 표현인데 '단지'로 옮겨져 한정 초점 표현으로 바뀌었습니다. 비유 연결 관계는 '처럼'으로 남아 요지가 달라지지는 않아 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 화자가 계절의 감상과 확신을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범적 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 소설 서술체('~다')가 유지되며 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 문장에 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 698,
+    "output_tokens": 924,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

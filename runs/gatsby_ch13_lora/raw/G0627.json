@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfyPdooXfZuyg7XVpqE",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0627\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“Well, other people are,”\",\"tgt_span\":\"\\\"그런데 다른 사람들은 그렇다\\\"\",\"description\":\"Well은 대화 속 담화표지(반응·전환)인데 접속사 '그런데'로 옮겨 연결 기능이 약간 달라짐. 직접 대화가 간접 인용 형태로 바뀜.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'다른 사람들은 그렇다'와 가벼운 어조로 말했다는 내용이 유지됩니다. 앞 문맥의 서술어 생략은 평서 대응이 가능합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'other people'의 대조 초점이 '다른 사람들은'으로 유지되고, 지시·연결·초점 관계가 바뀌지 않았습니다. Well을 '그런데'로 옮긴 것은 어색할 뿐 관계 변경은 아닙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞 발화에 대한 가벼운 반응 진술 → 가벼운 반응 진술. 발화 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 간 관계 정보가 없어 '그렇다'라는 평서체 대화 종결의 적절성을 판단하려면 화자와 청자의 관계 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 478,
+    "output_tokens": 731,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

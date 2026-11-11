@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfYYSgm7LcXYKNp2Yd7",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0217\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Her voice sang: “It’s romantic, isn’t it, Tom?”\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"평가대상 문장 마지막의 'Her voice sang: It's romantic, isn't it, Tom?'(톰에게 동의를 구하는 부가의문문)이 번역문에서 통째로 빠짐\"},{\"id\":\"E002\",\"src_span\":\"Miss Baker\",\"tgt_span\":\"베이커 선생님\",\"description\":\"Miss Baker를 '베이커 선생님'으로 옮겨 원문에 없는 교사라는 역할을 덧붙임\"},{\"id\":\"E003\",\"src_span\":\"I think must be a nightingale\",\"tgt_span\":\"나이팅게일인 것 같아요\",\"description\":\"'I think must be'(내 생각엔 틀림없이 ~)의 강한 추측이 약한 추측 '같아요'로 바뀜(확실성 약화)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 데이지가 톰에게 '낭만적이지 않나요, 톰?'이라고 말하는 마지막 발화가 누락되었고, Miss Baker가 '선생님'이 되어 원문에 없는 역할이 붙었으며, 추측의 확실성도 약해졌습니다. 번역문만 읽으면 요지(톰을 향한 발화)를 놓치므로 major입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 누락으로 말 건네는 대상 Tom과 앞 발화를 잇는 'Her voice sang' 및 부가의문의 지시 관계가 사라졌습니다. 다만 앞 문장의 흐름은 유지되어 minor입니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"원문 기능: 톰에게 동의를 구하는 노래하듯 던지는 질문(반어적·유도적 말걸기) → 번역 기능: 혼자 상황을 서술하는 설명으로 끝남. 질문 기능이 완전히 사라져 다른 종류의 기능으로 바뀌었습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"must는 추론의 뜻이며 규범 의미가 없는 서술·대화입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: 원문에 없는 '선생님'이라는 호칭이 Miss Baker에게 붙어 교사라는 역할과 관계가 만들어졌습니다. 의미 변화는 Semantic에서도 다루었으나 호칭 관계 변경으로 minor입니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Cunard, White Star Line은 '큐나드', '화이트 스타 라인'으로 통용되는 음역으로 같은 선박 회사를 가리킵니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1003,
+    "output_tokens": 1159,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

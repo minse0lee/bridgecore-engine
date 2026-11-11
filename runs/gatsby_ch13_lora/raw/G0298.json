@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfcwTPvSiu3gWaGE2kh",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0298\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"made them less remotely rich\",\"tgt_span\":\"그들을 덜 멀리 부자로 만들었지만\",\"description\":\"'less remotely rich'(덜 동떨어진 부자, 덜 먼 존재가 된 부자)를 '덜 멀리 부자로'로 직역해 의미가 불분명해짐. 부자이되 거리감이 줄었다는 뜻이 전달되지 않음\"},{\"id\":\"E002\",\"src_span\":\"as I drove away\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"차를 몰고 떠나던 때라는 시간·상황 정보가 누락됨\"},{\"id\":\"E003\",\"src_span\":\"a little disgusted\",\"tgt_span\":\"조금 혐오스러웠다\",\"description\":\"화자가 느낀 혐오감(disgusted)을 '혐오스러웠다'로 옮겨 느낀 주체의 감정이 대상의 속성처럼 읽힐 수 있으나 정도·대상은 대체로 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: '덜 멀리 부자로 만들었다'로 부유한 사람들과의 거리감이 줄었다는 핵심 평가가 불분명해졌고, '차를 몰고 떠날 때'라는 시간 정보가 빠져 독자가 요지를 다르게 이해할 수 있습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-지만, 그럼에도 불구하고'로 양보·대조 연결(nevertheless)이 유지되고 지시 관계와 초점 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 반응 서술 → 서술자의 반응 서술. 소설 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술자의 평서체 서술 어조가 유지되며 관계상 어긋나는 높임·호칭이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 971,
+    "output_tokens": 945,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

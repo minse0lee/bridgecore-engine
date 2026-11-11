@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfnJCKviwU46PMA7nf3",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0446\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“What!” I exclaimed. “Oh, I beg your pardon.”\",\"tgt_span\":\"\\\"오, 나는 당신의 용서를 구하고 싶다.\\\"\",\"description\":\"실수나 무례에 대한 관용적 사과('실례했습니다')가 '당신의 용서를 구하고 싶다'는 문자 그대로의 바람으로 옮겨지고, 반말 평서체로 처리되어 공손한 사과의 어조가 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사과하며 용서를 구한다는 핵심 내용은 유지되며, 달라진 것은 표현 방식뿐입니다.\"},\"Textual\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 지시·연결·초점 표현이 없습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 즉각적이고 관용적인 사과(실례 표현) → 화자의 소망을 서술하는 평서문으로 바뀌어 사과 수행 기능이 약해졌습니다. 다만 사과로 읽히는 여지가 있어 minor입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 사과 표현입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 상대에게 정중히 사과하는 격식 있는 표현이 '-싶다' 평서체와 '나는 당신의'라는 딱딱한 표현으로 바뀌어 관계에 맞는 공손함이 전달되지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도나 관습 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 478,
+    "output_tokens": 761,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

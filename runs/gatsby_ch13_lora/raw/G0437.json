@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfmnTB56A2M8cxk6VRv",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0437\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Having a gay time now?\",\"tgt_span\":\"이제 게이 시간을 보내는가?\",\"description\":\"1925년 용법의 gay time(즐겁고 유쾌한 시간)을 '게이 시간'이라는 성적 지향 표현으로 오역하여 지시 내용이 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상·행위): '즐거운 시간을 보내고 있느냐'는 내용이 '게이 시간을 보낸다'로 바뀌어 독자가 문장의 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현(now→이제)의 관계는 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대에게 근황을 묻는 말(약간 빈정대는 질문) → 질문. 질문 기능 자체는 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화 질문입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'~는가?' 어미가 화자와 청자의 관계에 맞는지 판단하려면 대화 당사자(Jordan Baker와 Nick 등)의 관계 정보 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2: 1920년대 영어의 gay(유쾌한)라는 시대적 어휘가 현대의 성적 지향 의미로 옮겨져 원문과 다른 것을 가리키며, 시대·언어 관습의 의미가 전달되지 않습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 454,
+    "output_tokens": 748,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

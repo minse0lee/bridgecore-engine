@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfwP42Kk5oT8ktoHnTa",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0594\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"mashed potatoes\",\"tgt_span\":\"감자 튀김\",\"description\":\"으깬 감자(mashed potatoes)가 감자 튀김(fries)으로 바뀌어 음식의 종류가 달라짐\"},{\"id\":\"E002\",\"src_span\":\"by their first names\",\"tgt_span\":\"이름을 알고 있었고\",\"description\":\"first names(이름으로 부르는 사이라는 친근한 관계)가 단순히 이름을 안다는 뜻으로 바뀌어 친분의 함의가 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: mashed potatoes가 감자 튀김으로 바뀌어 음식 대상이 달라졌고, 'know by first names'가 단순히 이름을 안다는 뜻이 되어 친분의 함의가 약해졌습니다. 다만 점심 식사와 동료와의 교류라는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계는 그대로입니다. 두 절의 병렬 연결과 '그들'이 직원들·판매원들을 가리키는 관계가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 화자의 직장 생활을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술의 평서체('~했다')가 유지되며 화자의 태도 변화는 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"음식 이름은 있지만 제도·기관·단위 등 문화 고유의 대상은 아니고, 감자 요리 오역은 Semantic에서 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1021,
+    "output_tokens": 807,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

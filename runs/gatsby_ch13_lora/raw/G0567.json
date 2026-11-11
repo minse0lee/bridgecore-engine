@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfuhtoWffYUYqvmasku",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0567\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"it was now a crowd\",\"tgt_span\":\"이제는 군중이었던 군중이\",\"description\":\"'이제는 (이미) 군중이 되었다'는 현재 시점의 삽입구가 '이제는 군중이었던 군중'이라는 과거 한정 표현으로 바뀌어 군중이 불어났다는 의미가 흐려짐\"},{\"id\":\"E002\",\"src_span\":\"involuntarily\",\"tgt_span\":\"무의식적으로\",\"description\":\"'저도 모르게, 반사적으로'가 '무의식적으로'로 옮겨졌으나 같은 사태를 가리키는 통상적 대응임\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(시간·상태): 'it was now a crowd'(이제는 군중이 되었다)가 '이제는 군중이었던 군중'으로 옮겨져 상태 변화가 과거 한정 수식으로 달라졌으나, 군중이 물러서고 문이 열린 뒤 침묵이 흘렀다는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계는 유지됩니다. 삽입구가 수식어로 바뀐 것은 구조 변화이나 지시 대상이나 연결 관계를 바꾸지 않습니다. 'when'의 시간 연결도 '열렸을 때'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 소설 속 사건을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체('-했다')가 유지되며 화자·독자 관계에 따른 높임이 문제 되지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 807,
+    "output_tokens": 872,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

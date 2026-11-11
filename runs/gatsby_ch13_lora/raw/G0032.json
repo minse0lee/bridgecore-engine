@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfKhazXq5EvoGP16Nxb",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0032\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"an original settler\",\"tgt_span\":\"원주민\",\"description\":\"'original settler'(최초의 정착민, 개척 정착자)가 '원주민'(토착민)으로 바뀌어 지시 대상이 달라지고 개척·정착이라는 함의가 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물·대상): 처음 정착한 개척자라는 의미가 이미 거주하던 토착민을 뜻하는 '원주민'으로 바뀌어 독자가 화자의 자기규정을 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"세 명사구의 나열 구조와 '나'라는 주어 관계가 유지되며 지시·연결·초점 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 자기 인식 묘사 → 자기 인식 묘사. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술자의 평서체 서술이 유지되며 관계상 어긋나는 높임·호칭이 없습니다.\"},\"Cultural\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'original settler'는 개척 정착민이라는 미국 역사적 함의를 지닌 표현인데 '원주민'은 이와 다른 대상을 가리켜 문화적 의미 전달 여부를 별도로 볼 여지가 있으나, 이는 Semantic에서 이미 판정했고 제도·단위 같은 고유 대상이 아니어서 확정하지 않습니다. 필요한 정보: 역사적 사물 항목을 Cultural에 적용할지에 대한 기준 확인.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 568,
+    "output_tokens": 797,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

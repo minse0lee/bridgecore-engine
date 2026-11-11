@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfVJLYP6bbrWG3VHygq",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0176\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Miss Baker\",\"tgt_span\":\"베이커 선생님\",\"description\":\"Miss Baker(미혼 여성 경칭)가 '선생님'(교사·존칭)으로 옮겨져 원문에 없는 직업적 역할이 덧붙음\"},{\"id\":\"E002\",\"src_span\":\"shifting heavily in his chair\",\"tgt_span\":\"의자를 무겁게 흔들며\",\"description\":\"의자에 앉은 채 몸을 무겁게 움직인 동작이 의자 자체를 흔드는 동작으로 바뀜\"},{\"id\":\"E003\",\"src_span\":\"“You ought to live in California—”\",\"tgt_span\":\"\\\"당신은 캘리포니아에 살아야 한다\\\"\",\"description\":\"ought to(권고)가 '살아야 한다'로 옮겨져 다소 강하게 읽힘. 또한 대시로 끊긴 미완결 발화가 완결된 문장처럼 처리됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: 의자에 앉아 몸을 움직인 행위가 의자를 흔드는 행위로 바뀌었으나 톰이 말을 가로막은 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but에 해당하는 '-했지만'의 대조 관계와 her→그녀 지시가 유지됩니다. 대시 처리는 지시·연결·초점 관계를 바꾸지 않습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조언하려던 발화를 톰이 끊는 서술 → 같은 기능의 서술로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 1: 화자가 거주지를 권하는 규범적 권고인 ought to가 '살아야 한다'로 옮겨져 통상 대응 범위이나, 미완결 권고라는 점은 반영되지 않았습니다. 다만 통상적 대응이므로 강도 훼손은 아니고 판단이 경계에 있어 minor로 둡니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 호칭 Miss Baker가 '선생님'으로 옮겨져 원문에 없는 교사 역할이 덧붙고 인물 관계가 달라집니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Miss 호칭은 관습상의 경칭이나 인명 호칭 수준이며 제도·단위 변경은 없고, 호칭 문제는 Register에서 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 697,
+    "output_tokens": 1053,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

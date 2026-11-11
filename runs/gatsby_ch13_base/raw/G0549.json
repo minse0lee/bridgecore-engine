@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfvLDM6AbpDSmJh1B3L",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0549\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a long duster\",\"tgt_span\":\"길게 늘어진 티셔츠\",\"description\":\"먼지막이용 긴 외투(duster)가 '티셔츠'로 오역되어 의복의 종류가 달라짐\"},{\"id\":\"E002\",\"src_span\":\"the wreck\",\"tgt_span\":\"난파선\",\"description\":\"사고로 망가진 자동차(wreck)가 '난파선'(침몰한 배)으로 오역되어 대상이 달라짐\"},{\"id\":\"E003\",\"src_span\":\"the observers\",\"tgt_span\":\"관찰자\",\"description\":\"복수의 구경꾼들이 단수 '관찰자'로 옮겨져 수량이 달라지고 구경꾼이라는 의미가 약해짐\"},{\"id\":\"E004\",\"src_span\":\"a pleasant, puzzled way\",\"tgt_span\":\"즐겁고 혼란스러운 표정\",\"description\":\"유쾌하고 어리둥절한 태도가 '즐겁고 혼란스러운 표정'으로 바뀌어 pleasant의 뉘앙스가 달라짐(경미)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\",\"E004\"],\"reason\":\"판단 질문 1: duster(긴 외투)가 티셔츠로, wreck(파손된 자동차)이 난파선으로 바뀌어 대상이 달라졌고, 복수 observers가 단수 '관찰자'로 바뀌어 수량이 달라졌습니다. 번역문만 읽은 독자는 장면을 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'차에서 타이어로, 타이어에서 …로'의 시선 이동 연결과 'and now stood' 구조가 유지되어 지시·연결·초점 관계는 달라지지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 인물의 행동과 모습을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설의 장면 묘사로 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 청자의 관계나 호칭·높임이 드러나는 대화가 아니라 3인칭 서술문입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"duster 오역은 지시 대상이 달라진 문제로 Semantic에서만 판정하며, 별도로 판정할 문화 고유의 제도·단위·관습은 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 694,
+    "output_tokens": 1030,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

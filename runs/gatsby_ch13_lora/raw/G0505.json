@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvfr6ENANRWpFBcY8uto",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0505\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a man who says he’s her husband\",\"tgt_span\":\"자신이 남편이라고 주장하는 남자\",\"description\":\"'그의(her) 남편이라고 주장하는 남자'가 '자신이 남편이라고' 주장하는 남자로 옮겨져, 남자가 그녀의 남편이라고 주장하는 관계가 남자 자신이 남편이라는 막연한 주장으로 바뀜(그녀의 남편이라는 소유 관계 약화).\"},{\"id\":\"E002\",\"src_span\":\"at my elbow\",\"tgt_span\":\"내 팔꿈치에 설명했다\",\"description\":\"'바로 내 옆에 있던'이라는 위치 표현이 '팔꿈치에 설명했다'로 직역되어 설명한 방식·대상으로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: '그녀의 남편'이 '남편'으로 소유 대상이 흐려지고, '옆에 있던 여자'가 '팔꿈치에 설명했다'로 바뀌었으나, 싸운 사건과 주장하는 남자라는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: her husband의 her가 가리키는 '그녀'와의 소유 관계가 번역에서 '자신이'(남자 자신 또는 그녀 자신으로 모호)로 바뀌어 지시 대상이 불분명해졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 대화 속 상황 설명 → 인물 대화 속 상황 설명. 설명하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 구어체 서술과 대화 어조가 평어체로 유지되며 관계상 문제될 호칭·높임 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 표현이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 536,
+    "output_tokens": 905,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfmjXo7fam4UM84PTzD",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0436\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"It was on the tip of my tongue to ask his name\",\"tgt_span\":\"그의 이름을 물어보려는 생각이 머릿속에 떠올랐다\",\"description\":\"'막 물어보려던 참이었다'(화자가 곧 행동하려던 상태)가 '물어보려는 생각이 떠올랐다'로 바뀌어, 행동 직전의 상태가 단순한 생각의 떠오름으로 달라지고 화자(나)의 행위자성이 약해짐\"},{\"id\":\"E002\",\"src_span\":\"when Jordan looked around and smiled\",\"tgt_span\":\"조던이 주위를 둘러보고 미소를 지으면서\",\"description\":\"'~하려던 참에 조던이 돌아보고 미소 지었다'는 시간적 끼어듦이 '미소를 지으면서'라는 동시 동작 연결로 바뀌고, 조던의 행동이 화자의 생각이 떠오른 배경으로 옮겨짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 이름을 막 물으려던 참이라는 행위 직전 상태가 '생각이 떠올랐다'로 바뀌었으나 이름을 물으려 한 핵심 사실과 조던의 행동은 유지되어 요지는 크게 다르지 않습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: when이 이끄는 '그때 조던이 돌아보고 웃어서 말을 못 했다'는 시간적 끼어듦 관계가 '미소를 지으면서'라는 동시 진행 관계로 바뀌어 연결 관계가 달라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 소설 속 사건 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 청자 사이의 높임·호칭 관계가 문제되는 대화가 아니라 서술문입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명만 있고 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 534,
+    "output_tokens": 950,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

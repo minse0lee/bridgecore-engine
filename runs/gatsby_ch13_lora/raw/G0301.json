@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvfd7eZzy3Qjzrow63pK",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0301\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"his peremptory heart\",\"tgt_span\":\"그의 절대적인 마음\",\"description\":\"peremptory(독단적·고압적인)가 '절대적인'으로 옮겨져 성격 묘사가 달라짐\"},{\"id\":\"E002\",\"src_span\":\"nibble at the edge of stale ideas\",\"tgt_span\":\"낡은 아이디어의 가장자리에서 씹게 만들고 있었다\",\"description\":\"nibble at(조금씩 갉작거리다)이 '씹다'로 바뀌어 사소하게 건드리는 느낌이 약해지고 stale(퀴퀴한 먹거리 이미지)이 '낡은'으로 옮겨짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: peremptory(독단적·고압적)가 '절대적인'으로 바뀌어 마음의 성격 묘사가 달라졌으나, 문장의 요지(무언가가 그를 낡은 생각에 매달리게 함)는 유지됩니다. nibble→'씹다'는 동작 정도의 차이로 보아 오류 목록에만 남깁니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'as if' 절의 비교 관계와 his의 지시 대상이 유지되어 1·2·3 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(톰의 심리 묘사) → 서술. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 청자의 관계에 따른 높임·호칭이 문제되지 않는 서술문입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 978,
+    "output_tokens": 799,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

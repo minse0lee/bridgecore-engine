@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfSN7vJLSHXR1FAJ5ec",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0124\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Daisy retorted\",\"tgt_span\":\"데이지가 대답했다\",\"description\":\"retorted(반박·쏘아붙임)가 중립적인 '대답했다'로 바뀌어 반박하는 태도의 서술 동사가 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'나를 보지 마라', 오후 내내 뉴욕으로 데려가려 노력했다는 인물·행위·시간이 유지됩니다. retorted→'대답했다'는 발화 동사의 정도·태도 차이로 평가어 수준의 변화입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'me', 'you', 'I'의 지시 대상이 '나', '당신', '나'로 유지되고 앞뒤 연결 관계도 그대로입니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"원문 기능: 상대의 비난·시선에 맞받아치는 반박 → 번역 기능: 단순 응답. 'retorted'의 반박 기능이 중립적인 '대답했다'로 바뀌어 반박 기능이 약해졌으나 대사 내용 자체는 여전히 반박으로 읽힙니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Don't look at me'는 의무·금지를 거는 규범이 아니라 대화 속 감정적 반응이므로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"데이지가 톰이 아닌 상대(닉 또는 개츠비 일행)에게 말하는 관계가 제공된 문단만으로는 명확하지 않아 '~세요' 높임의 적절성을 판단하려면 화자와 청자의 관계 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"지명(뉴욕)만 있고 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 564,
+    "output_tokens": 827,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

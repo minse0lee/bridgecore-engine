@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfXZeLx9PB7zjiavA9q",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0202\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I began.\",\"tgt_span\":\"나는 시작했다.\",\"description\":\"대사를 이끄는 서술 'I began'(말을 꺼냈다)이 목적어 없는 '시작했다'로 옮겨져 말을 꺼내는 행위라는 점이 드러나지 않음. 대사가 중단되는 구조(—)도 표현되지 않아 대사와의 연결이 약해짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"판단 질문 1: 화자 '나'가 무언가를 시작했다는 행위와 시제가 유지됩니다. 말을 꺼냈다는 뉘앙스는 앞 대사에서 추론되며 내용 변화는 아닙니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'I'가 화자 '나'를 가리키는 지시 관계가 유지되고 연결·초점 표현이 없어 세 질문 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대사를 이끄는 서술 → 서술. 앞 대사의 화자를 알리는 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장 자체에는 높임·호칭·태도가 드러나지 않는 단순 서술이라 별도로 판정할 대상이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 440,
+    "output_tokens": 699,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

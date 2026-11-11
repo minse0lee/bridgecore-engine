@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfuGNPvW4s8HGVT8acH",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0559\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"you’re a poor driver\",\"tgt_span\":\"나쁜 운전사라면\",\"description\":\"poor driver(운전 솜씨가 서투른 사람)를 '나쁜 운전사'로 옮겨 운전 실력이 아니라 나쁜 사람이나 운전사로도 읽힘. 다만 문맥상 운전 실력에 관한 말로 이해되어 의미 변화는 경미함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: poor(서투른)가 '나쁜'으로 바뀌어 운전 실력이라는 평가 내용이 다소 흐려졌으나, 조건·행위·시간 등 핵심 사실은 유지되어 요지는 같게 이해됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"if 조건과 you 지시 관계가 '만약 ~라면 당신은'으로 유지되며 연결·초점 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 충고·질책성 발언 → 충고·질책성 발언. 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"oughtn't to의 규범적 권고·금지가 '해서는 안 된다'로 유지되며 주체와 조건도 같습니다. 화자가 상대에게 거는 규범 표현이라 N/A가 아닙니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'당신'과 해라체 종결이 화자와 청자의 관계에 맞는지 판단하려면 화자와 청자의 관계·친밀도 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 518,
+    "output_tokens": 786,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

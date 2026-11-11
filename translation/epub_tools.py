@@ -250,8 +250,17 @@ def _load(p: Path) -> list[dict]:
     return [json.loads(l) for l in open(p, encoding="utf-8") if l.strip()]
 
 
+_BYTES = re.compile(r"(?:<0x[0-9A-Fa-f]{2}>)+")
+
+
+def fix_byte_tokens(s: str) -> str:
+    """토크나이저가 드문 글자를 바이트 토큰(<0xEB><0x8A><0xAA>)으로 남긴 것을 원래 글자(늪)로 되돌린다.
+    모델 출력이 아니라 디코딩 단계의 문제라 그대로 고친다."""
+    return _BYTES.sub(lambda m: bytes(int(h, 16) for h in re.findall(r"<0x([0-9A-Fa-f]{2})>", m.group(0))).decode("utf-8", "replace"), s)
+
+
 def _mt_map(p) -> dict:
-    return {r["id"]: (r.get("mt") or "").strip() for r in _load(p)} if p else {}
+    return {r["id"]: fix_byte_tokens((r.get("mt") or "").strip()) for r in _load(p)} if p else {}
 
 
 def _blocks_from_rows(rows, mt) -> tuple[list[dict], int]:
@@ -392,17 +401,21 @@ BRIEF = ("독자: 한국어 일반 독자\n목적: 책의 내용과 서술의 �
 
 
 def sample(sentences: Path, mt_path: Path, out: Path, n: int, seed: int, min_words: int = 3,
-           title: str = "", author: str = "", mt_system: str = "madlad10b_lora_v1") -> list[dict]:
-    """번역 대상 문장 중 단어 min_words개 이상인 문장에서 무작위 n개. 목차(nav) 문서는 제외."""
+           title: str = "", author: str = "", mt_system: str = "madlad10b_lora_v1",
+           chapters: list[str] | None = None, prefix: str = "BK", source: str = "출판사 PoC 원고") -> list[dict]:
+    """번역 대상 문장 중 단어 min_words개 이상인 문장에서 무작위 n개(n<=0이면 전부). 목차(nav) 문서는 제외.
+    chapters를 주면 그 장(가장 가까운 앞 제목)의 문장만."""
     rows = _load(sentences)
     mt = _mt_map(mt_path)
     blocks = {(b["file"], b["xpath"]): b["ko"] for b in _blocks_from_rows(rows, mt)[0]}
     pool = [r for r in rows if r["translate"] and r["kind"] == "body" and len(r["en"].split()) >= min_words and mt.get(r["id"])]
-    pick = sorted(random.Random(seed).sample(pool, min(n, len(pool))), key=lambda r: r["id"])
+    if chapters:
+        pool = [r for r in pool if r["chapter"] in chapters]
+    pick = pool if n <= 0 else sorted(random.Random(seed).sample(pool, min(n, len(pool))), key=lambda r: r["id"])
     items = []
     for k, r in enumerate(pick, 1):
-        items.append({"item_id": f"BK{k:03d}", "doc_info": f"자료명: {title}\n저자·기관: {author}\n장르: 출판 콘텐츠\n"
-                      f"출처: 출판사 PoC 원고\n장·절: {r['chapter'] or '-'}",
+        items.append({"item_id": f"{prefix}{k:04d}", "doc_info": f"자료명: {title}\n저자·기관: {author}\n장르: 출판 콘텐츠\n"
+                      f"출처: {source}\n장·절: {r['chapter'] or '-'}",
                       "brief": BRIEF, "src_paragraph": r["paragraph"], "tgt_paragraph": blocks[(r["file"], r["xpath"])],
                       "src": r["en"], "tgt": mt[r["id"]], "genre": "출판 콘텐츠", "title": title, "source_url": None,
                       "has_figure": False, "figure": None, "mt_system": mt_system, "book_sentence_id": r["id"]})
@@ -423,6 +436,7 @@ def main(argv=None):
     s = sub.add_parser("sample"); s.add_argument("sentences", type=Path); s.add_argument("mt", type=Path)
     s.add_argument("out", type=Path); s.add_argument("--n", type=int, default=300); s.add_argument("--seed", type=int, default=20261109)
     s.add_argument("--title", default=""); s.add_argument("--author", default=""); s.add_argument("--mt-system", default="madlad10b_lora_v1")
+    s.add_argument("--chapters", nargs="*"); s.add_argument("--prefix", default="BK"); s.add_argument("--source", default="출판사 PoC 원고")
     a = p.parse_args(argv)
     if a.cmd == "extract":
         m = extract(a.epub, a.out_dir)
@@ -434,7 +448,8 @@ def main(argv=None):
     elif a.cmd == "export":
         export(a.sentences, a.mt, a.out_dir, a.base)
     else:
-        sample(a.sentences, a.mt, a.out, a.n, a.seed, title=a.title, author=a.author, mt_system=a.mt_system)
+        sample(a.sentences, a.mt, a.out, a.n, a.seed, title=a.title, author=a.author, mt_system=a.mt_system,
+               chapters=a.chapters, prefix=a.prefix, source=a.source)
 
 
 if __name__ == "__main__":

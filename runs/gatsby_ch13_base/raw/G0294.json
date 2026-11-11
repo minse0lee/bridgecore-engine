@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfdbDGBYTfEhhJdJbH5",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0294\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"We heard it from three people\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"세 사람에게서 들었다는 근거(행위자 '우리', 출처, 수량 3)가 번역문에서 누락됨\"},{\"id\":\"E002\",\"src_span\":\"so it must be true\",\"tgt_span\":\"그렇다면 그것은 반드시 사실이어야 한다\",\"description\":\"추론('틀림없이 사실이다')이 당위·요구('반드시 사실이어야 한다')로 바뀌고, 인과 'so'가 조건 '그렇다면'으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 세 사람에게서 들었다는 근거와 수량 3이 사라지고, 확신에 찬 추론이 '사실이어야 한다'는 당위로 바뀌어 요지가 달라집니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 2: 'so'가 나타내는 근거→결론의 인과 관계가 '그렇다면'이라는 조건 관계로 바뀌었고, 근거가 누락되어 '그렇다면'이 가리키는 대상도 불분명합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소문이 사실이라고 주장하는 발화 → 사실 여부에 대한 주장·진술. 같은 종류의 설명·주장 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"원문 must는 추론의 뜻이고 규범 의미가 없으므로 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"번역문은 해라체 평서문인데, 같은 문단의 앞 문장은 '~습니다' 체여서 일관성이 없습니다. 데이지가 화자 닉에게 하는 대화에서 기대되는 말투(관계 정보)가 평가조건에 없어 판정할 수 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 755,
+    "output_tokens": 884,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

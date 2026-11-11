@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfRFfwZBESW3X7fTd9C",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0109\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“Well, you ought to see her. She’s—”\",\"tgt_span\":\"그녀의 얼굴을 보고 싶지 않았다.\",\"description\":\"상대에게 그녀를 만나 보라고 권하는 대화문이 '그녀의 얼굴을 보고 싶지 않았다'는 서술문으로 바뀌어 화자·행위·긍정/부정이 모두 달라지고, 'She’s—'로 끊긴 말은 누락됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 상대가 그녀를 만나 보라는 권유가 화자의 '보고 싶지 않았다'는 부정적 의사로 바뀌었고, 행위자와 극성이 달라졌으며 끊긴 'She’s—'도 사라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·3: 'you'와 'her'의 지시 관계가 사라지고 화자 중심 서술로 바뀌었으며, 'Well'과 뒤이어 끊기는 문장의 연결이 모두 없어졌습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"원문 기능(상대에게 만나 보라고 권하는 대화 발화) → 번역 기능(화자의 의사를 서술하는 문장)으로 바뀌었습니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: ought to의 권고가 사라지고 권고 자체가 '보고 싶지 않다'는 개인적 거부 의사로 바뀌어 규범적 권고가 번역에 남지 않았습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화문이 서술문으로 바뀌어 화자와 청자의 말투를 비교할 수 없으며, 두 인물의 관계 정보 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 553,
+    "output_tokens": 869,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfnRh2nSdwRg4LsKizk",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0447\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"old sport\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"개츠비 특유의 친근한 호칭 'old sport'가 번역되지 않고 누락됨\"},{\"id\":\"E002\",\"src_span\":\"I’m afraid I’m not a very good host.\",\"tgt_span\":\"나는 아주 좋은 호스트가 아닌 것 같다.\",\"description\":\"완곡한 사과·유감 표현 'I’m afraid'가 단순 추측 '~것 같다'로 옮겨져 정중한 사과의 태도가 약해짐. 또한 대화문이 평어체 '~다'로 옮겨져 개츠비의 정중한 어조가 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'네가 아는 줄 알았다'와 '좋은 호스트가 아니다'라는 핵심 내용이 유지됩니다. 호칭 누락은 Register에서 다룹니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 관계와 연결 관계(앞 문장의 생각과 뒤 문장의 사과)가 유지되고 초점 표현도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대의 오해를 짚고 자신의 접대 부족을 완곡하게 시인하는 대화 → 같은 종류의 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1·3: 개츠비가 청자에게 쓰는 친근하고 격식 있는 호칭 'old sport'가 누락되었고, 대화문이 건조한 평어체 '~것 같다'로 옮겨져 화자의 정중한 태도와 친밀함이 약해졌습니다. 요지나 행동 이해는 달라지지 않아 minor입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"고유한 제도·관습·단위 등 문화 대상이 없습니다. 'old sport'의 호칭 문제는 Register에서 판정했습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 512,
+    "output_tokens": 907,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

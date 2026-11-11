@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfMuTvVp8nSxHbFZAs4",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0064\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"He had changed\",\"tgt_span\":\"많이 변해 있었다\",\"description\":\"'변했다'에 없던 정도 표현 '많이'가 더해졌으나 변화가 있었다는 핵심 사실은 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"그가 뉴 헤이븐 시절 이후 변했다는 인물·행위·시간이 동일하고, '많이'는 정도를 덧붙인 수준으로 평가어 정도 변화에 해당해 내용이 달라지지 않았습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그'의 지시 대상과 'since'의 시간 기준점('뉴 헤이븐 시절 이후로')이 유지되어 질문 1~3 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 상태 서술 → 인물 상태 서술. 이어지는 외모 묘사를 도입하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가를 정하는 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문의 평서 문어체('-었다')가 유지되며 관계·태도 표현은 따로 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"New Haven(예일대 소재지)은 지명이며 '뉴 헤이븐'으로 정확히 음역되어 같은 대상을 가리키고, 문화적 의미를 바꾸지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 958,
+    "output_tokens": 692,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

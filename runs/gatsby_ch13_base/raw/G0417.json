@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfmsBRPzv4aJ9zaLcyM",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0417\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"and a great number of single girls dancing individually or relieving the orchestra for a moment of the burden of the banjo or the traps\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"혼자 춤추거나 잠시 악단의 밴조·타악기 연주 부담을 덜어 주던 많은 독신 소녀들 부분이 통째로 누락됨\"},{\"id\":\"E002\",\"src_span\":\"keeping in the corners\",\"tgt_span\":\"모퉁이에 앉아 있었다\",\"description\":\"구석에 머무르며 춤추던 커플이 '앉아 있었다'로 바뀌어 행위가 달라짐\"},{\"id\":\"E003\",\"src_span\":\"canvas in the garden\",\"tgt_span\":\"정원의 캔버스 위에서\",\"description\":\"캔버스(천막 덮개/무대 천)가 그림용 캔버스로 읽힐 수 있는 직역이라 지시 대상이 불분명함\"},{\"id\":\"E004\",\"src_span\":\"superior couples holding each other tortuously, fashionably\",\"tgt_span\":\"우수한 커플들이 서로를 꼬불꼬불하게, 유행처럼 붙잡고\",\"description\":\"superior(우월감을 드러내는)가 '우수한'으로, tortuously가 '꼬불꼬불하게'로 옮겨져 평가·방식 표현이 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 수많은 독신 소녀들이 혼자 춤추거나 악단을 거드는 내용이 통째로 빠졌고, 커플들이 구석에 머문다는 것이 '앉아 있었다'로 바뀌어 장면 내용이 달라졌습니다. 우수한/꼬불꼬불은 평가어·방식 정도의 차이로 보아 별도 가중하지 않았습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현의 관계 변화는 없고, 누락은 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"파티 장면 묘사 → 파티 장면 묘사. 서술 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가를 나타내는 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 '~었다'가 유지되며 특정 관계에 따른 높임·호칭 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"캔버스(천막)가 직역되어 그림용 캔버스로 읽힐 여지가 있으나, 해당 오역은 Semantic 범주이고 제도·관습 등 문화 고유 대상은 바뀌지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1371,
+    "output_tokens": 1122,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

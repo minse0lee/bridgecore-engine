@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfSRejcBQokF87frWYb",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0126\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"absolutely\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"강조 부사 absolutely('완전히, 철저히')가 번역되지 않음\"},{\"id\":\"E002\",\"src_span\":\"I’m absolutely in training.\",\"tgt_span\":\"훈련 중이었어요\",\"description\":\"현재 시제 'I’m'이 과거형 '-었어요'로 바뀜. 따옴표도 없어져 인용 대사의 경계가 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(시간·확실성): 현재 상태가 과거로 바뀌고 absolutely의 강조가 빠졌지만, '훈련 중'이라는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현이 바뀌지 않았습니다. 앞 문장과 이유 관계도 한국어로 유지되고, absolutely 누락은 내용 누락이라 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"칵테일 거절의 이유 설명 → 거절의 이유 설명. 앞의 '아니, 고마워요'와 이어져 같은 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 개인 진술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"베이커가 일행에게 말하는 대화로 '-어요' 체가 무난하며, 관계에 어긋나는 높임·호칭 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 493,
+    "output_tokens": 774,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

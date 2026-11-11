@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfozpNYMqq1yZ9g57hY",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0450\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"It faced—or seemed to face—the whole eternal world\",\"tgt_span\":\"그것은 순간적으로 영원한 세계 전체를 마주했거나 마주하는 것처럼 보였고\",\"description\":\"'마주했다, 아니 마주하는 것처럼 보였다'는 자기 정정이 '마주했거나 마주하는 것처럼 보였다'는 택일로 바뀜. 단정 후 정정한 확실성 표지가 약해졌으나 핵심 사실은 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): faced를 단정한 뒤 or seemed to face로 완화하는 정정이 '-했거나 -처럼 보였고'라는 택일로 바뀌어 확실성의 표현이 달라졌으나, 미소가 세계를 마주하고 당신에게 집중했다는 핵심 내용은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시어 '그것'(미소)과 for an instant·and then의 시간 순서 연결이 유지되며 초점·범위 표현의 이동은 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"미소의 특성 서술 → 미소의 특성 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 서술문으로 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 평서체('-했다')가 유지되며 평가할 높임·호칭 관계상의 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1173,
+    "output_tokens": 783,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

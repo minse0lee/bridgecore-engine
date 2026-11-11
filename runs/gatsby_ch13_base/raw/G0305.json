@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfePVbuDhEXJEiSyHvj",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0305\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"suggested that it was Mr. Gatsby himself\",\"tgt_span\":\"그것이 씨 개츠비 자신이었다 제안\",\"description\":\"'무언가가 …임을 암시했다'는 추측 구조가 문법이 깨진 '~이었다 제안'으로 옮겨져 추측·암시의 확실성이 불분명해짐. 'Mr.'도 '씨'로 옮겨짐\"},{\"id\":\"E002\",\"src_span\":\"come out to determine what share was his of our local heavens\",\"tgt_span\":\"우리의 지역 천국의 그의 몫이 무엇인지 결정하기 위해 나와\",\"description\":\"'나와'가 종결되지 않은 형태로 남아 개츠비가 나온 목적이 서술된다는 점이 어색하며, heavens(하늘)가 '천국'으로 오역됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: heavens(하늘)가 '천국'으로 바뀌어 대상이 달라졌고, '암시했다'는 추측도 '제안'이라는 다른 행위로 바뀌어 요지가 다르게 읽힙니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: '그것이'가 가리키는 대상과 'something이 암시했다'는 관계가 깨져 지시와 연결이 불분명해졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 화자가 관찰에 따라 인물을 추정하는 서술 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문이고 화자·청자 사이의 높임이나 호칭 관계 판정 대상이 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Mr.를 '씨'로 옮긴 것은 통용 가능한 대응이고 제도적 의미가 달라지지 않았습니다. heavens의 오역은 Semantic에서 판정합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1326,
+    "output_tokens": 887,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

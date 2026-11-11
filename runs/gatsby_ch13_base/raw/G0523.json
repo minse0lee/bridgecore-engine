@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvftgcP5XEDvbcjENTmT",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0523\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“I’ve just heard the most amazing thing,” she whispered.\",\"tgt_span\":\"저는 방금 가장 놀라운 일을 들었습니다.\",\"description\":\"비공식적인 친밀한 대화 속 속삭임이 격식체('저는 … 들었습니다')로 바뀌어, 화자(Jordan)와 청자(Nick)의 친밀한 관계에 맞지 않는 높임 표현이 쓰임\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"방금 가장 놀라운 일을 들었다는 내용과 속삭였다는 행위가 유지됩니다. 어순 변경은 허용됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사 she는 '그녀'로 유지되고 인용과 서술의 연결에 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"놀라운 소식을 은밀히 알리는 발화 → 같은 기능의 진술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술과 진술입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 소설 속 가까운 지인 사이의 속삭이는 사적 대화가 '저는 … 들었습니다'라는 공손하고 격식 있는 말투로 옮겨져 관계에 맞지 않습니다. 내용과 행동 이해에는 영향이 없어 minor입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 516,
+    "output_tokens": 735,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

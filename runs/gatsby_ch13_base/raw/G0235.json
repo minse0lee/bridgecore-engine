@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfZihcXdWp2AmvN7pyR",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0235\",\"evaluable\":false,\"evaluable_note\":\"생성붕괴 검토 필요: 번역문이 원문 문장의 내용(기다림, 그녀가 더 말하지 않음, 딸 이야기로 힘없이 돌아감)을 전혀 담지 않고 원문에 없는 내용(얼굴이 붉어지고 눈동자가 희미해짐)만 서술함. 문단 어디에도 지정된 원문 문장의 내용이 없음.\",\"errors\":[],\"axes\":{\"Semantic\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"생성붕괴 검토 필요: 원문 문장의 핵심 행위(기다림, 딸 이야기로 돌아감)가 번역문 어디에도 없고 무관한 내용만 있음.\"},\"Textual\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"생성붕괴 검토 필요: 대응 구간이 없어 지시·연결·초점 비교 불가.\"},\"Context\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"생성붕괴 검토 필요: 원문 문장 전체 누락으로 발화 기능 비교 불가.\"},\"Deontic\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"생성붕괴 검토 필요: 문장 전체 누락 상태로 축별 비교 불가.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"생성붕괴 검토 필요: 대응 구간이 없어 비교 불가.\"},\"Cultural\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"생성붕괴 검토 필요: 대응 구간이 없어 비교 불가.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 561,
+    "output_tokens": 651,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

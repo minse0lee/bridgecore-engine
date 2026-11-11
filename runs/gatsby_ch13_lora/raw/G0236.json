@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfZAzt3eaEm2g1RkQYz",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0236\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I suppose she talks, and—eats, and everything.\",\"tgt_span\":\"나는 그녀가 말하고, 먹고, 모든 것을 한다고 가정한다.\",\"description\":\"비꼬는 투의 'I suppose'(그렇겠지, 짐작건대)를 문자 그대로 '가정한다'로 옮기고, 'and everything'(기타 등등)을 '모든 것을 한다'로 직역해 빈정거리는 어조가 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"그녀가 말하고 먹고 그 밖의 것도 한다고 짐작한다는 내용이 유지됩니다. 'suppose'를 '가정한다'로 옮겨 어색하지만 짐작이라는 확실성은 크게 달라지지 않았습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"나열 관계가 유지되고 지시·초점·연결 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"원문 기능은 상대(여성)를 빈정거리거나 깎아내리는 비꼬는 발화인데, 번역은 '가정한다'는 문자 그대로의 진술로 읽혀 비꼼이 사라졌습니다. 비꼼 → 단순 진술.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화문입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3: 화자의 빈정거리고 얕보는 태도가 '가정한다'의 딱딱하고 중립적인 서술로 약해졌습니다. 또한 대화체 구어가 문어체 평서로 바뀌었습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 474,
+    "output_tokens": 810,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

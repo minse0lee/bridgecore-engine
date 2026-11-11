@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvg25DcVcBRUcoRscjjZ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0635\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"get myself definitely out of that tangle back home\",\"tgt_span\":\"집으로 돌아가 그 얽힘에서 확실히 벗어나야한다는\",\"description\":\"'back home'(고향에 있는 그 얽힌 관계)이 '집으로 돌아가'라는 이동 행위로 바뀌어, 얽힘의 소재지가 아니라 벗어나기 위한 귀가 행위로 읽힘\"},{\"id\":\"E002\",\"src_span\":\"I knew that first I had to\",\"tgt_span\":\"먼저 나는 … 알고 있었다\",\"description\":\"'first'가 알게 된 시점 앞에 걸려 '먼저 알고 있었다'로 읽힐 소지가 있으나, 문맥상 '먼저 벗어나야 한다'로 해석 가능하여 경미함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위·대상): 고향의 얽힌 관계에서 벗어나야 한다는 내용이 집으로 돌아가 벗어나야 한다는 행위로 바뀌어 달라졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"But→'그러나'의 대조와 'and'의 병렬 연결이 유지되며 지시·초점 관계가 바뀌지 않았습니다. 'first'의 위치는 어색할 뿐 연결 관계를 바꾸지 않습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 자기 서술·설명 → 자기 서술·설명. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"had to는 화자 내면의 서술적 필요이며 독자나 상대에게 거는 규범이 아니어서 평가할 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회상 서술체('-었다')가 유지되며 관계에 맞는 격식입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1092,
+    "output_tokens": 878,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

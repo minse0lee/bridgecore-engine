@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfUXajPZv1xxas52AwG",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0165\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Can’t you talk about crops or something?\",\"tgt_span\":\"농작물이나 그런 것들에 대해 이야기할 수 없는가?\",\"description\":\"상대에게 화제를 바꿔 달라는 요청·권유(부정 의문문)가 상대의 능력·가능 여부를 묻는 질문으로 읽힘\"},{\"id\":\"E002\",\"src_span\":\"Can’t you talk about crops or something?\",\"tgt_span\":\"농작물이나 그런 것들에 대해 이야기할 수 없는가?\",\"description\":\"데이지(친구)에게 하는 구어체 말이 격식 없는 문어체 '-는가?'로 바뀌어 친근한 대화 어조가 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"농작물 등 화제, 이야기하는 행위, 상대(너)가 유지되며 내용이 달라지지 않았습니다. 문장 형식 변화는 Context에서 판정합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 표현, 연결 관계, 초점 표현이 바뀐 것이 없습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 화제를 바꿔 달라는 부탁·권유(반쯤 농담) → 능력·가능 여부를 묻는 질문으로 읽힘. 다만 '이야기할 수 없는가'는 반문 느낌이 남아 있어 문맥상 요청으로도 읽힐 여지가 있어 minor입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"개인적 부탁·바람이며 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: 화자 닉과 사촌 데이지의 친근한 대화 관계인데 '-는가?'라는 딱딱한 문어체 어조가 되어 관계에 맞지 않습니다. 다만 의미 이해에는 영향이 적어 minor입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 판정 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 692,
+    "output_tokens": 903,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

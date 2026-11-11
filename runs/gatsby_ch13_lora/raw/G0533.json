@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfsdECu8Y5Qcscqc1yJ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0533\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Don’t mention it\",\"tgt_span\":\"말하지 말아라\",\"description\":\"'그 얘기는 꺼내지 마세요/별말씀을요'라는 사양·무마 표현이 목적어 없이 '말하지 말아라'라는 문자 그대로의 입막음 금지 명령으로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"enjoined me eagerly\",\"tgt_span\":\"나에게 명령했다\",\"description\":\"enjoin(간곡히 권하다)이 '명령했다'로 바뀌어 간청·권유의 어조가 강압적 명령으로 바뀜\"},{\"id\":\"E003\",\"src_span\":\"Don’t mention it\",\"tgt_span\":\"말하지 말아라\",\"description\":\"친밀한 사이에서 상대를 안심시키는 말이 반말 명령형(-아라)으로 바뀌어 화자의 태도·관계가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 감사에 대한 겸양·무마 표현이 '말하지 말라'는 입막음으로 바뀌고 enjoined(권함)도 '명령했다'로 바뀌어 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 지시 표현, 연결 관계, 초점 표현이 없습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"원문 기능: 감사를 사양하며 안심시키는 말 → 번역 기능: 무엇인가를 말하지 말라는 금지 지시로 바뀌었습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무를 정하는 문장이 아니라 대화 속 관용적 사양 표현이므로 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 3: 개츠비가 닉에게 보이는 정중하고 친근한 안심 어조가 '말하지 말아라'라는 위압적 반말 명령으로 바뀌어 화자의 태도가 달라졌습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화 고유의 제도·단위·관습 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 644,
+    "output_tokens": 945,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

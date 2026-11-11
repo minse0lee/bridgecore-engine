@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfYPMWBojjdsGQczhuj",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0224\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"with several feet of twilight between them\",\"tgt_span\":\"서로 몇 피트 떨어진 어둠 속에서\",\"description\":\"둘 사이에 황혼빛 공간이 몇 피트 놓여 있다는 표현이 '어둠 속에서 떨어진'으로 바뀌어 twilight(황혼)가 어둠이 됨\"},{\"id\":\"E002\",\"src_span\":\"strolled back into the library\",\"tgt_span\":\"도서관으로 걸어 들어갔고\",\"description\":\"strolled back의 한가로운 걸음과 '되돌아감'이 '걸어 들어갔고'로 옮겨져 되돌아왔다는 의미가 빠짐\"},{\"id\":\"E003\",\"src_span\":\"trying to look pleasantly interested and a little deaf\",\"tgt_span\":\"즐겁게 관심을 보이고 약간 귀머거리처럼 보이려고 노력하면서\",\"description\":\"'호의적으로 관심 있어 보이고'가 '즐겁게 관심을 보이고'로 바뀌고, 관심 있는 척 보이려는 의도가 일부 흐려짐\"},{\"id\":\"E004\",\"src_span\":\"around a chain of connecting verandas to the porch in front\",\"tgt_span\":\"앞쪽 현관과 연결된 베란다 사이를 따라 데이지를 따라갔다\",\"description\":\"이어진 베란다들을 돌아 앞쪽 현관까지 갔다는 이동 경로와 목적지가 '현관과 연결된 베란다 사이를 따라'로 바뀜\"},{\"id\":\"E005\",\"src_span\":\"Miss Baker\",\"tgt_span\":\"베이커 선생님\",\"description\":\"Miss Baker(베이커 양)가 '선생님'으로 옮겨져 직업적 역할이 덧붙음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E004\",\"E005\"],\"reason\":\"판단 질문 1: twilight이 어둠으로, 목적지(앞쪽 현관)가 연결 관계로, 'Miss'가 '선생님'으로 바뀌어 장소·이동 경로·인물 지칭이 달라져 독자가 장면을 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E004\"],\"reason\":\"판단 질문 1·2: 'to the porch in front'가 '현관과 연결된'이라는 수식 관계로 바뀌어 도착 지점의 연결 관계가 달라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 인물의 행동과 장면을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E005\"],\"reason\":\"판단 질문 2: 'Miss Baker'가 '선생님'으로 옮겨져 원문에 없는 직업적 역할이 덧붙어 호칭이 관계를 바꿉니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"피트는 원문 단위를 그대로 유지했고 해당 문장에 별도로 판정할 문화·제도적 대상이 사실상 없어 문제가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 977,
+    "output_tokens": 1253,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

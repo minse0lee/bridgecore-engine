@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvfod8PnYBmKJ8TKxNVV",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0444\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“What!”\",\"tgt_span\":\"뭐야!\",\"description\":\"화자(닉)가 상대에게 놀라 외치는 감탄을 반말 '뭐야!'로 옮겨 상대(처음 만난 손님)와의 관계에 맞지 않는 격식 수준이 됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"놀라서 '무엇이라고!' 하고 외치는 내용이 '뭐야!'로 같은 사태를 기술하며 인물·행위·수량·부정 등 달라진 항목이 없습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 표현·연결·초점 표현이 없는 짧은 감탄이며 이를 바꾼 부분이 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"놀람을 나타내는 감탄 → 놀람을 나타내는 감탄. 발화 기능이 같은 종류입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 감탄입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 이 대목은 닉이 상대(주로 낯선 손님)에게 놀라 외치고 곧이어 'I beg your pardon'으로 정중히 사과하는 상황인데, 반말 '뭐야!'는 이 관계의 격식에 맞지 않습니다. 다만 짧은 감탄이어서 영향은 minor입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 없는 감탄입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 429,
+    "output_tokens": 722,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

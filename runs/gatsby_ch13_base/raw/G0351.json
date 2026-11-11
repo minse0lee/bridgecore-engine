@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfhXtTiNYDrnknqhPBB",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0351\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“Hello!”\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"인사말 'Hello!'가 번역문에서 누락됨\"},{\"id\":\"E002\",\"src_span\":\"cried\",\"tgt_span\":\"울부짖었다\",\"description\":\"'외쳤다(큰 소리로 말했다)'가 '울부짖었다'로 바뀌어 발화 방식이 비통하게 울며 소리치는 것으로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 인사말 'Hello!'라는 발화 내용이 빠지고 cried가 '울부짖었다'로 바뀌어 발화 내용과 방식이 달라졌습니다. 누가 함께 말했다는 핵심 사실은 유지되어 요지 이해에는 큰 변화가 없습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'they'가 '그들'로 유지되고 together도 '함께'로 남아 지시·연결·초점 관계가 바뀌지 않았습니다. 누락은 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"원문 기능 → 번역 기능: 인사하며 말을 거는 대화 장면 → 인사 없이 울부짖었다는 서술. 인사 발화가 사라져 인사 기능이 전달되지 않습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"인사의 격식과 화자·청자 관계는 번역에서 인사말이 빠져 비교할 수 없고, 해당 장면의 인물 관계 정보가 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 별도로 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 444,
+    "output_tokens": 832,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

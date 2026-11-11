@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvffYqhcbh3Au4VhpHWb",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0323\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"The bar is in full swing\",\"tgt_span\":\"바는 완전한 스윙에\",\"description\":\"관용구 'in full swing'(한창 분위기가 무르익음)을 '완전한 스윙'으로 직역하고 술어가 없어 의미가 전달되지 않음\"},{\"id\":\"E002\",\"src_span\":\"floating rounds of cocktails permeate the garden outside, until the air is alive with\",\"tgt_span\":\"칵테일의 떠있는 라운드 외부 정원을 침투, 공기는 … 함께 살아있다\",\"description\":\"칵테일이 돌려지며 정원에 스며든다는 내용이 '떠있는 라운드'로 오역되었고 until이 나타내는 결과·시간적 연결(…할 때까지)이 사라져 두 절이 단순 나열됨\"},{\"id\":\"E003\",\"src_span\":\"enthusiastic meetings between women who never knew each other’s names\",\"tgt_span\":\"서로의 이름을 알지 못하는 여성 사이의 열정적인 회의\",\"description\":\"'meetings'(만남)를 '회의'로 오역하여 파티 장면의 만남이 공식 회의로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 바가 한창이라는 상황, 칵테일이 돌려지며 정원에 퍼지는 행위, 여성들의 '만남'이 각각 '완전한 스윙', '떠있는 라운드', '회의'로 바뀌어 독자가 장면의 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: until이 나타내는 칵테일이 퍼진 결과로 공기가 활기를 띠게 되는 연결 관계가 사라지고 단순 나열되어 연결 관계가 바뀌었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"파티 장면 묘사 서술 → 장면 묘사 서술. 서술 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"never는 이름을 알지 못했다는 사실을 말할 뿐 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 화자·청자 사이의 높임이나 호칭 관계를 판정할 대상이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1274,
+    "output_tokens": 1025,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

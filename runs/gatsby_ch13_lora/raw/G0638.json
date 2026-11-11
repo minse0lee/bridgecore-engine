@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvfz4sirnyDmsNVVWo5T",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0638\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"suspects himself of at least one of the cardinal virtues\",\"tgt_span\":\"자신이 적어도 하나의 기본 미덕을 가지고 있다고 의심하며\",\"description\":\"'cardinal virtues'(사추덕·기본 덕목)를 '기본 미덕'으로 옮겼으나 의미는 대체로 유지됨. 'suspects himself of'는 '자신에게 ~이 있다고 은근히 여긴다'는 뜻인데 '의심하며'로 옮겨 어색하지만 뜻은 통함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"모든 사람, 적어도 하나의 미덕, 몇 안 되는 정직한 사람 중 하나라는 내용이 유지되며 어색한 '의심하며'도 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'this is mine'을 '이것은 나의 것이다'로 옮겨 지시 대상(미덕)이 유지되고 콜론 연결과 'at least', 'few' 범위도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 자기 소개성 서술 → 자기 소개성 서술. 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 1인칭 서술의 평서체('~이다')가 유지되어 관계·태도에 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"판정할 문화·제도 고유 대상이 없습니다. 'cardinal virtues'는 일반적 덕목 표현으로 보아 별도 제도적 대상으로 보지 않습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 636,
+    "output_tokens": 775,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvffdF7ffzWo99p31w2J",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0338\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"though here and there was a face I had noticed on the commuting train\",\"tgt_span\":\"통근 기차에서 눈에 띄었던 얼굴이 여기저기 있었음에도 불구하고, 내가 모르는 사람들의 소용돌이와 소용돌이 사이에서 다소 불편하게 돌아다녔다\",\"description\":\"though 절이 직전의 '모르는 사람들'에 대한 양보(예외)로 쓰였는데, 번역문은 양보절이 '불편하게 돌아다녔다'에 걸리는 것으로 재구성되어 양보 대상이 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"7시 조금 넘어 흰 플란넬 차림으로 그의 잔디밭에 가서 모르는 사람들 사이를 불편하게 돌아다녔고 통근 기차에서 본 얼굴도 간간이 있었다는 내용이 유지됩니다. swirls and eddies의 중복은 어색하지만 뜻은 같습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(연결 관계): 원문 though는 '모르는 사람들 중에 아는 얼굴도 간간이 있었다'는 예외 보충인데, 번역은 '아는 얼굴이 있었음에도 불구하고 불편하게 돌아다녔다'는 양보로 읽혀 연결 관계가 바뀌었습니다. 다만 핵심 사실은 유지되어 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 화자가 상황을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술체 '~다'가 소설 본문의 서술 태도에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"플란넬 옷과 통근 기차는 제도·관습·단위 등 별도로 판정할 문화 고유 대상이 아닙니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1150,
+    "output_tokens": 905,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

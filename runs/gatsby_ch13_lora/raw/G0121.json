@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfRUjzcFyBrS7PXqe4U",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0121\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Miss Baker\",\"tgt_span\":\"베이커 선생님\",\"description\":\"Miss Baker(미스 베이커, 직업이 운동선수인 젊은 여성)가 '선생님'으로 번역되어 원문에 없는 교사 역할이 덧붙고 호칭 관계가 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"베이커가 갑작스럽게 \\\"Absolutely!\\\"라고 말해 화자가 놀랐고, 그것이 방에 들어온 뒤 그녀의 첫 말이었다는 내용이 유지됩니다. '선생님'은 호칭 문제로 Register에서 다룹니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'so sudden that I started'의 결과 관계와 'the first word she had uttered'의 지시 관계가 유지되며 초점 표현의 이동도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 인물의 발화와 화자의 반응을 전하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 소설 서술입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(호칭): 'Miss Baker'가 '선생님'으로 옮겨져 원문에 없는 교사 역할이 붙었습니다. 다만 요지와 독자의 행동 이해에는 영향이 크지 않아 minor입니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(관습): 영어 호칭 'Miss'(미혼 여성 경칭)가 한국어 '선생님'이라는 직업·존칭 호칭으로 바뀌어 원문의 호칭 관습이 전달되지 않습니다. 이해에 미치는 영향은 작아 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 759,
+    "output_tokens": 820,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

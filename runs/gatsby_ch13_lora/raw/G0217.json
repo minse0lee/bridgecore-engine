@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfXtc7FUhx5aeATSLGc",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0217\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a nightingale\",\"tgt_span\":\"멜랑콜리\",\"description\":\"나이팅게일(새 이름)이 '멜랑콜리'(우울)로 바뀌어 새의 종류라는 지시 대상이 사라짐\"},{\"id\":\"E002\",\"src_span\":\"Miss Baker\",\"tgt_span\":\"베이커 선생님\",\"description\":\"Miss Baker(베이커 양)가 '선생님'이라는 원문에 없는 직업·역할 호칭으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: nightingale이 '멜랑콜리'로 바뀌어 새의 종류가 사라졌고, Miss Baker가 '선생님'으로 바뀌어 대상 정보가 달라졌습니다. 문장의 요지(새 종류에 대한 추측)가 다르게 이해됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사 '그 새', 연결 관계, 초점 표현이 원문과 같은 대상·관계를 유지합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 묘사와 낭만을 말하며 톰의 동의를 구하는 발화 → 같은 기능(동의를 구하는 부가의문)이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"must는 추론의 뜻이며 규범 의미가 없어 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: 원문에 없는 '선생님'이라는 역할 호칭을 덧붙여 인물 관계(미혼 여성 Miss Baker)를 바꿨습니다. 호칭만 달라졌고 대화 관계 자체의 이해에는 영향이 작아 minor입니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"큐너드·화이트 스타 라인은 해운사 이름의 통용 음역이고 같은 대상을 가리킵니다. 나이팅게일 오역은 Semantic에서만 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1075,
+    "output_tokens": 877,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

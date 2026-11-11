@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvfd85NvRU3DLEPxAhKb",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0288\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"peremptorily called\",\"tgt_span\":\"절대적인 목소리로 외쳤습니다\",\"description\":\"peremptorily(명령조로, 단호하게)가 '절대적인 목소리로'로 옮겨져 단호·명령적 어조의 의미가 달라지고 부정확해짐\"},{\"id\":\"E002\",\"src_span\":\"As I started my motor\",\"tgt_span\":\"제가 엔진을 켤 때\",\"description\":\"화자 '나'가 '제가'로, 서술 종결이 '~했습니다'로 바뀌어 앞 문장들의 평서체와 어긋남(서술자 어조 변화)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 데이지가 단호하게 명령조로 불렀다는 방식이 '절대적인 목소리'로 바뀌어 달라졌으나, 부르는 행위와 '잠깐!'이라는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'~할 때'로 시간 연결이 유지되고 지시 대상과 초점 관계도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 속 상대를 멈추게 하는 외침 → 같은 종류의 외침. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 즉흥적인 외침으로 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: 같은 문단 앞 문장들은 '나'와 평서체(~했다)인데 이 문장만 '제가'와 '~했습니다'로 바뀌어 서술자와 독자의 관계·격식이 일관되지 않습니다. 의미는 그대로라 minor입니다. 또한 peremptorily의 단호한 태도가 '절대적인 목소리'로 정확히 전달되지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화·제도 고유의 대상이 없습니다(인명만 등장).\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 650,
+    "output_tokens": 903,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

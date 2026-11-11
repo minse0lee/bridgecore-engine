@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvftd7HWopD9C1cbgpfL",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0521\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the eagerness in his manner tightened abruptly into formality\",\"tgt_span\":\"그의 태도에 열성 갑자기 형식으로 꽉\",\"description\":\"태도의 열의가 갑자기 격식 차린 태도로 굳어졌다는 변화가 서술어 없이 단어만 나열되어 변화의 방향·주체 관계가 불분명함(열성→형식 변화 약하게만 추정 가능)\"},{\"id\":\"E002\",\"src_span\":\"as several people approached him to say goodbye\",\"tgt_span\":\"몇 사람이 작별 인사를 그에게 접근으로\",\"description\":\"사람들이 작별 인사를 하려고 그에게 다가온 것이 '접근으로'로 어색하게 옮겨져 목적·시간 관계가 불명확함\"},{\"id\":\"E003\",\"src_span\":\"some last word\",\"tgt_span\":\"몇 마지막 단어\",\"description\":\"'마지막 한마디'가 '몇 마지막 단어'로 옮겨져 수량·성격이 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 행위자·행위가 거의 복원되지 않음. 태도가 열의에서 격식으로 굳어진 사태가 서술어 없이 '꽉'으로 끝나 독자가 요지를 알기 어렵고, 마지막 한마디도 '몇 단어'로 바뀜.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: as절이 '접근으로'로 되어 사람들이 다가온 것과 태도 변화의 시간·인과 연결이 사라져 읽을 수 없음.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 장면을 묘사하는 서술 기능은 유지됨.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 규범 의미가 없음.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 간 말투가 직접 드러나지 않는 서술문이며 평가할 높임·호칭이 없음.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문장에 판정할 문화 고유의 제도·관습·단위가 없음.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 708,
+    "output_tokens": 920,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

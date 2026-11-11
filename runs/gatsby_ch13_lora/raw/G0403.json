@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfjYP2rTgyUJpHHKRBn",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0403\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“Absolutely real—have pages and everything.\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"첫 문장 '완전히 진짜야—페이지도 있고 다 갖췄어'가 번역에서 누락됨. 책이 진짜라는 주장과 근거(페이지 등)가 빠짐\"},{\"id\":\"E002\",\"src_span\":\"I thought they’d be a nice durable cardboard.\",\"tgt_span\":\"나는 그것들이 아름답고 튼튼한 골판지일 거라고 생각했다.\",\"description\":\"화자의 대화 발화가 과거 시제 서술문('생각했다')으로 바뀌어 대화 상황이 사라짐. 가정의 'd be'와 'nice'(좋은)도 '아름답고'로 약간 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 첫 문장 'Absolutely real—have pages and everything'이 통째로 누락되어, 책이 진짜이며 페이지 등을 갖추고 있다는 내용이 번역문에서 사라졌습니다. 독자가 문장의 요지를 온전히 이해하기 어렵습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2: 첫 문장 누락으로 'they're absolutely real'과 'Pages and—'가 가리키는 앞선 주장과 연결이 끊겨 지시·연결 관계가 흐트러졌습니다. 다만 뒤 문장들로 요지는 어느 정도 이해됩니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\"],\"reason\":\"원문 기능 → 번역 기능: 상대에게 말하며 책이 진짜임을 단언하고 직접 보여 주는 대화 발화 → 과거 시제의 서술문과 평서문이 되어 화자의 말로 읽히지 않음. 'Here! Lemme show you'도 번역에서 직접 대화로 이어지지 않아 대화 상황이 사라졌습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 청자의 관계, 곧 대화 맥락이 문단 문맥에 제시되지 않아 반말 '보여줄게'의 적절성을 판단하기 어렵습니다. 필요한 정보는 화자와 청자의 관계와 친밀도입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 650,
+    "output_tokens": 1084,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

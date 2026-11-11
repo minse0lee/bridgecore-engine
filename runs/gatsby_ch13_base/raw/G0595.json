@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfyJms6TT3ZzoeFuGx1",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0595\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"worked in the accounting department\",\"tgt_span\":\"회계 부서에서 일한\",\"description\":\"'일하는' 현재 상태가 '일한' 과거 관형형으로 바뀌어 시제가 달라짐(경미)\"},{\"id\":\"E002\",\"src_span\":\"a short affair\",\"tgt_span\":\"짧은 관계를했다\",\"description\":\"연애 관계(affair)가 '관계'로만 옮겨져 연애의 의미가 흐려졌으나 해석 가능\"},{\"id\":\"E003\",\"src_span\":\"began throwing mean looks in my direction\",\"tgt_span\":\"의미 보이는 던지기 시작\",\"description\":\"'mean looks'(험악한 눈초리)가 '의미 보이는'으로 오역되고 '던지기 시작'은 문장이 완결되지 않아 오빠가 적대적인 눈빛을 보냈다는 내용이 사라짐\"},{\"id\":\"E004\",\"src_span\":\"I let it blow quietly away\",\"tgt_span\":\"나는 조용히 날려 보자\",\"description\":\"'관계가 조용히 흐지부지되게 두었다'는 과거의 행위가 청유형 '날려 보자'로 바뀌어 의미·시제·화자 행위가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E003\",\"E004\"],\"reason\":\"판단 질문 1: 오빠의 험악한 눈초리가 '의미 보이는 던지기 시작'으로 오역되었고, 관계를 조용히 흐지부지 끝낸 과거 행위가 '날려 보자'로 바뀌어 요지가 달라집니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E004\"],\"reason\":\"판단 질문 2: so로 이어지는 인과(오빠의 눈초리 → 관계를 접음)가 '그래서 … 날려 보자'로 결과 행위가 바뀌고 시간 관계도 불분명해져 연결 관계가 달라졌습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E004\"],\"reason\":\"과거 사건을 서술하는 기능 → 청유(제안)로 읽히는 기능으로 바뀌었습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 화자의 서술체 관계가 유지되며 청자에 대한 높임이 문제되는 장면이 아닙니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"저지 시티는 지명뿐이며 문화 고유 제도 대상이 없어 문제 없습니다. 날짜는 월 단위로 일치합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1052,
+    "output_tokens": 1068,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfVrNcgWBWXQeqpXMzT",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0185\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the silver polisher\",\"tgt_span\":\"은 세공사\",\"description\":\"'은식기를 닦는 사람(silver polisher)'이 '은 세공사'(은 공예가)로 바뀌어 직무 내용이 달라짐\"},{\"id\":\"E002\",\"src_span\":\"a silver service for two hundred people\",\"tgt_span\":\"200명을 위한 은상\",\"description\":\"'200인용 은식기 세트'가 의미를 알 수 없는 '은상'으로 옮겨져 지시 대상이 불명확해짐\"},{\"id\":\"E003\",\"src_span\":\"He had to polish it from morning till night\",\"tgt_span\":\"그는 아침부터 저녁까지 세공을 해야 했고\",\"description\":\"'닦다'가 '세공을 하다'로 바뀌고 'it'(은식기)이 사라짐. 닦는 행위가 세공이라는 다른 행위로 바뀜\"},{\"id\":\"E004\",\"src_span\":\"from morning till night\",\"tgt_span\":\"아침부터 저녁까지\",\"description\":\"'밤까지(night)'가 '저녁까지'로 바뀌어 시간 범위가 다소 줄어듦\"},{\"id\":\"E005\",\"src_span\":\"Well, he wasn’t always a butler; … until finally it began to affect his nose—\",\"tgt_span\":\"결국 그의 코에 영향을 미치기 시작했다.\",\"description\":\"대화 표지 'Well'이 빠지고, 끝의 말줄임(대시)이 사라져 말이 끊기는 효과가 없어짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1(행위·대상): 은식기를 닦는 사람/일이 '은 세공사'/'세공'으로, 200인용 은식기 세트가 '은상'으로 바뀌어 직무와 대상이 다르게 이해됨. 시간 범위(밤→저녁)의 차이는 부수적임.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 1(지시): 'polish it'의 it(은식기)에 해당하는 목적어가 사라져 '세공'이 무엇을 가리키는지, 코에 영향을 주는 원인이 무엇인지의 연결이 불분명해짐. 'until finally'의 시간·인과 연결은 '결국'으로 유지됨.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 배경 설명(서술) → 인물 배경 설명(서술). 'Well'과 대시가 빠졌어도 설명 기능은 유지됨.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'had to polish'는 과거 사실 서술이며 규범을 정하는 표현이 아님.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"인용 부호 안의 대화체인데 번역은 '~다' 서술체로 되어 있어, 화자와 청자의 관계(예: 지인 간 구어 대화 여부)를 확인해야 판정할 수 있음.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴욕이라는 지명 외에 문화·제도 고유의 대상이 없으며 'silver service'의 오역은 Semantic에서 판정함.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 724,
+    "output_tokens": 1252,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

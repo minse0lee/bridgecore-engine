@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfkLWfxHzDCT1bVxqT8",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0413\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“Has it?”\",\"tgt_span\":\"“그렇지 않습니까?”\",\"description\":\"앞선 진술에 대한 짧은 반문(되묻는 확인)이 '그렇지 않습니까?'라는 상대의 동의를 구하는 부정의문으로 바뀌어, 앞 발화에 대한 반응의 방향(긍정 진술 확인 vs 동의 요구)이 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(부정·확실성): 'Has it?'은 앞 진술에 대한 가벼운 되묻기인데 번역은 '그렇지 않습니까?'로 동의를 구하는 부정의문이 되어 내용의 극성과 태도가 달라졌지만, 핵심 사실은 문맥에 따라 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'Has it?'의 it과 앞 발화의 서술(has+과거분사)을 받는 응답 구조가 '그렇지 않습니까?'로 바뀌어 앞 진술에 대한 지시 관계의 방향이 달라졌습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"원문 기능 → 번역 기능: 상대 말에 대한 반응·되묻기(관심 또는 무관심한 반응) → 상대의 동의를 구하는 확인 요구. 발화 기능의 종류가 달라졌습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 청자의 관계(개츠비 속 대화 상대)에 대한 정보가 없어 '-ㅂ니까' 높임의 적절성을 판단하려면 화자·청자 관계 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 406,
+    "output_tokens": 869,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

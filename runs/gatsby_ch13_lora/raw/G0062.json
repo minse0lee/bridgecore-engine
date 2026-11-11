@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfMfkuxfHMTKHxzHop2",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0062\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"drifting up the side in bright vines\",\"tgt_span\":\"밝은 가지로 옆으로 떠다녔다\",\"description\":\"vines(덩굴)가 '가지'로 바뀌어 덩굴이 집 옆면을 타고 올라가는 모습이 사라지고, drifting up(타고 올라감)이 '떠다녔다'로 바뀌어 잔디가 집 측면으로 번져 올라가는 방향·방식이 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'vines'가 '가지'로, 'drifting up the side'가 '옆으로 떠다녔다'로 바뀌어 대상과 행위가 달라졌으나, 잔디가 달려 집에 이르는 장면의 요지는 유지되어 minor입니다. 4분의 1마일 등 수치는 정확합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'마침내 집에 도달했을 때'와 'as though'에 해당하는 '마치 ~처럼'의 시간·비유 연결이 유지되고, 지시·초점 관계 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"풍경 묘사 서술 → 풍경 묘사 서술. 발화 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 풍경 묘사로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문 '~다' 체로 소설 본문의 격식이 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'quarter of a mile'을 '4분의 1마일'로 같은 단위로 옮겨 단위 체계를 바꾸지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1333,
+    "output_tokens": 768,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfLWbjMUea2tqS1N7Hb",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0040\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I should have rented a house\",\"tgt_span\":\"집을 임대해야하는 것은\",\"description\":\"우연히 집을 빌리게 되었다는 과거 사실이 '임대해야 하는 것'이라는 당위·미래 표현으로 바뀜. 원문의 should는 놀람을 나타내는 용법이며 의무가 아님\"},{\"id\":\"E002\",\"src_span\":\"a matter of chance\",\"tgt_span\":\"우연의 일치\",\"description\":\"우연(chance)이 '우연의 일치'(coincidence)로 바뀌어 뉘앙스가 약간 달라짐\"},{\"id\":\"E003\",\"src_span\":\"one of the strangest communities\",\"tgt_span\":\"가장 이상한 커뮤니티 중 하나\",\"description\":\"'가장 이상한 공동체 중 하나'를 '커뮤니티'로 옮겨 지역사회의 의미가 약해졌으나 의미는 통함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위·시간·확실성): 이미 집을 빌린 과거 사실이 '임대해야 하는 것'이라는 당위로 읽혀 독자가 사건을 다르게 이해합니다. 이 should는 의무가 아니라 놀람을 나타내므로 의미 변화로 판정합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현이 바뀌지 않았습니다. 'it was a matter of chance that' 구조는 '~것은 우연이었다'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 화자가 상황을 설명하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"원문 should는 놀람·평가를 나타내는 용법으로 규범 의미가 없습니다. 번역문의 '해야'는 의미 오류이며 이는 Semantic에서 판정합니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 소설 서술의 평서체 '~였다'가 유지되며 관계 표현이 바뀌지 않았습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"북미라는 지명만 있고 판정할 문화 고유의 제도·단위·관습은 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1251,
+    "output_tokens": 946,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

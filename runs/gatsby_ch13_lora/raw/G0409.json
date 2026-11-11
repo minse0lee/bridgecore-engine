@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvfk4D9beJ6j7fP9ea5U",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0409\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Or did you just come?\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"'아니면 그냥 왔습니까?'라는 질문이 번역문 어디에도 없음. 문단 번역에도 해당 내용이 없음\"},{\"id\":\"E002\",\"src_span\":\"Or did you just come? I was brought.\",\"tgt_span\":\"나는 데려와졌고\",\"description\":\"'나는 데려와졌다'가 앞의 대조 질문(그냥 왔는지)에 대한 대비 진술이 아니라 단독 진술이 됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 상대가 초대받아 왔는지 그냥 왔는지 묻는 질문이 통째로 빠져 문장 내용의 일부가 사라졌습니다. 번역문만 읽으면 요지가 달라집니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: 'Or did you just come?'와 'I was brought'의 대조·선택 관계가 사라져, 질문에 대비되는 답이 단순 병렬 서술로 바뀌었습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"원문 기능 → 번역 기능: 상대에게 던지는 추궁성 질문과 이에 이어지는 자기 진술 → 질문 없이 자기 상황만 설명하는 서술로 바뀌어 질문 발화가 사라졌습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'데려와졌고'의 평서체가 서술 문체로 무리가 없고 화자의 태도 변화는 확인되지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 별도로 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 508,
+    "output_tokens": 837,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

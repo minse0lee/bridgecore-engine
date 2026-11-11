@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfjRDfWqhUyBBb9YTU1",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0380\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"As our credulity switched back to her\",\"tgt_span\":\"우리의 믿기 쉬운 그녀에게 다시 전환으로\",\"description\":\"'우리의 믿음(호기심)이 다시 그녀에게 쏠렸다'는 사건이 '우리의 믿기 쉬운 그녀에게 다시 전환으로'로 바뀌어, credulity가 그녀의 성질처럼 읽히고 주의가 돌아왔다는 의미와 시간적 종속 관계가 전달되지 않음\"},{\"id\":\"E002\",\"src_span\":\"she leaned forward with enthusiasm\",\"tgt_span\":\"그녀는 열정과 함께 앞으로 기대.\",\"description\":\"행위는 유지되나 종결이 '기대.'로 끊겨 문장이 미완결이며, 앞 절과의 시간 연결이 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: '우리의 믿음/관심이 다시 그녀에게 쏠렸다'가 '우리의 믿기 쉬운 그녀'로 바뀌어 credulity의 소유 주체와 사건 내용이 달라졌고, 독자가 요지를 다르게 이해합니다. 앞으로 기댄 행위 자체는 유지됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 2: As(~하자) 시간 종속 관계가 사라지고 '다시 전환으로'로 흩어져, 우리의 주의가 돌아오자 그녀가 몸을 기울였다는 시간 연결이 번역문에서 성립하지 않습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 장면 묘사 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 문장의 종결이 '기대.'로 끊겨 서술체 일관성 판단이 어렵습니다. 어색함만으로는 훼손이 아니며, 평가할 관계 표지가 부족합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 752,
+    "output_tokens": 945,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

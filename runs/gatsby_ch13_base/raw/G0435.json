@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvfo5RunTbFHzgcJmDC7",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0435\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Any time that suits you best.\",\"tgt_span\":\"너한테 딱 맞는 사람이야\",\"description\":\"'당신에게 가장 편한 시간 언제든'이라는 시간 제안이 '너한테 딱 맞는 사람'이라는 사람 평가로 바뀌어 시간 개념이 사라지고 대상이 시간에서 사람으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상·시간): 청자에게 가장 편한 시간이라는 시간 지칭이 청자에게 딱 맞는 사람이라는 전혀 다른 대상·내용으로 바뀌어 요지를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현에서 별도로 바뀐 관계가 없고, 내용 변화는 Semantic에서 판정합니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 원문 기능 → 번역 기능. 상대의 편의에 맞춰 시간을 열어두는 제안·수락 → 상대가 자신에게 맞는 사람이라는 평가·단언으로 바뀌었습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 개인적 제안으로 의무·허가·금지 같은 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 청자의 관계(친밀한 사이인지, 격식 있는 관계인지)가 문단 맥락에 없어 반말의 적절성을 판단할 수 없습니다. 화자·청자 관계 정보가 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 422,
+    "output_tokens": 796,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

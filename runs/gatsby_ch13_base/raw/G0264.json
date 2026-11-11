@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfbgsXupGDwxpd4yaqL",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0264\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“Good night,”\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"작별 인사 'Good night'이라는 발화 내용이 누락됨\"},{\"id\":\"E002\",\"src_span\":\"she said softly\",\"tgt_span\":\"그녀는 말없이 눈을 감았다\",\"description\":\"부드럽게 말했다는 발화 행위가 '말없이'라는 침묵으로 뒤바뀜\"},{\"id\":\"E003\",\"src_span\":\"대응 구간 없음(첨가)\",\"tgt_span\":\"눈을 감았다\",\"description\":\"원문에 없는 '눈을 감았다'라는 행위가 첨가됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 'Good night'이라고 부드럽게 말한 행위가 '말없이 눈을 감았다'로 바뀌어 발화가 침묵으로 뒤집히고 인사 내용이 사라졌으며 없던 행위가 더해졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 지시·연결·초점 표현이 없고 대응 관계가 바뀐 부분이 없습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"작별 인사 발화 → 침묵 속 동작 서술. 인사하는 말의 기능이 사라졌습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 인사 문장입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"인사말 자체가 번역에 없어 높임·격식을 비교할 대상이 없으며, 화자와 청자의 관계 정보도 문맥에 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 454,
+    "output_tokens": 808,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

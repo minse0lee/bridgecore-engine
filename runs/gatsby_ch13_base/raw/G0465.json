@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvfq2BWGuLvcfjidJf3m",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0465\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“Now you’re started on the subject,”\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"그녀의 직접 인용 발화가 번역문에서 통째로 누락됨\"},{\"id\":\"E002\",\"src_span\":\"wan smile\",\"tgt_span\":\"미소를 머금은 얼굴로\",\"description\":\"'창백하고 힘없는(wan)' 미소가 단순한 미소로 바뀌어 힘없는 어조·상태가 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 그녀가 한 말('이제 그 주제를 꺼내셨네요')이 통째로 빠졌고 wan이 '미소를 머금은'으로 바뀌어 내용이 달라져 독자가 문장의 요지를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2: 누락으로 다음 문장 'he told me once…'가 가리키는 주제 전환의 연결 관계(Now you're started on the subject → Well, …)가 사라졌습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"원문 기능: 상대가 화제를 꺼냈다고 응수하는 대화 발화 → 번역 기능: 발화 없이 대답했다는 서술만 남아 응답 기능이 사라졌습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 같은 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"번역문에 대화 발화가 없어 높임·호칭을 판정할 대상이 남아 있지 않고, 누락은 Semantic과 Context에서 다룹니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 503,
+    "output_tokens": 802,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

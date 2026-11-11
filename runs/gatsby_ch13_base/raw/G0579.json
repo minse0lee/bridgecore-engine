@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfxJRkqqE9q218eFwZw",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0579\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Wonder’ff tell me where there’s a gas’line station?\",\"tgt_span\":\"나한테 뭐라고 말해요?\",\"description\":\"주유소가 어디 있는지 알려 달라는 요청이 '나한테 뭐라고 말해요?'라는 무관한 질문으로 바뀌어, 주유소(대상)와 장소 질문 내용이 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 주유소의 위치라는 핵심 대상과 내용이 사라지고 '뭐라고 말하느냐'는 다른 내용이 되어 요지가 달라졌습니다. 취한 화자의 발음 왜곡을 잘못 해석한 오역이나 해석 가능한 오역이므로 생성붕괴는 아닙니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 표현, 연결 관계, 초점 표현이 문제 되는 구조가 아니며 누락은 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"주유소 위치를 알려 달라는 요청 → 상대가 무엇을 말하느냐고 묻는 질문(되묻기). 발화 기능이 다른 종류로 바뀌었습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범적 의무·허가·금지 표현이 없는 대화 속 개인적 부탁이므로 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 청자의 관계(취한 화자가 낯선 사람에게 묻는 상황 등)가 평가조건에 명시되지 않아 '-요' 체의 적절성을 판단하려면 관계 정보 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"평가할 문화 고유의 제도·관습·단위가 없습니다. 주유소가 사라진 것은 Semantic에서 판정합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 448,
+    "output_tokens": 845,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

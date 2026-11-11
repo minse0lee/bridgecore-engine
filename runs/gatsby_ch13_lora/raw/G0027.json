@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfKGQv9euSjty3WGSzF",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0027\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"at least I had him for a few days until he ran away\",\"tgt_span\":\"적어도 그가 도망칠 때까지 며칠 동안은 개가 있었고\",\"description\":\"'him'(개)이 '그가'로 옮겨져 도망친 주체가 개가 아니라 사람처럼 읽힘(지시 대상 불명확)\"},{\"id\":\"E002\",\"src_span\":\"muttered Finnish wisdom to herself over the electric stove\",\"tgt_span\":\"전기 스토브 위에서 핀란드의 지혜를 속삭였다\",\"description\":\"'to herself'(혼잣말로)가 빠져 '속삭였다'만 남음. 중얼거림의 혼잣말 성격과 태도가 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: 'to herself'가 누락되어 혼잣말이라는 정보가 사라지고 '속삭였다'만 남았으나, 핵심 사실(핀란드 여성이 가사를 하며 핀란드의 지혜를 말함)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'he ran away'의 지시 대상인 개가 '그가'로 옮겨져 직전 '개'가 아니라 다른 사람을 가리키는 것으로 읽힐 수 있어 지시 관계가 흐려졌으나, 앞뒤 문맥상 개로 추론 가능하여 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 화자가 시골 생활의 소유물과 동거인을 소개하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가를 나타내는 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회고 서술체 '-했다'가 유지되며 관계상 문제될 높임·호칭이 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Dodge를 '닷지 자동차'로 옮겨 자동차 브랜드를 가리키는 대상이 유지되고, 핀란드 여성도 동일한 대상을 가리킵니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1143,
+    "output_tokens": 933,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvfue66zqcUQuVcSktF5",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0537\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Then the butler, behind his shoulder:\",\"tgt_span\":\"그의 어깨 뒤로 집사가 다가왔다.\",\"description\":\"집사가 어깨 뒤에서 말하려는 참이라는 발화 도입(콜론)이 '다가왔다'라는 이동 행위로 바뀌고, 뒤따르는 말의 도입 기능이 사라짐\"},{\"id\":\"E002\",\"src_span\":\"Then\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"시간 순서 연결어 Then이 번역되지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위): 집사가 어깨 뒤에서 말한다는 발화 행위가 '다가왔다'는 이동 행위로 바뀌어 일어난 사건이 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2(연결 관계): 앞 사건에 이어지는 시간 순서 연결어 Then이 번역에 없어 연결 표지가 사라졌습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"원문 기능 → 번역 기능: 뒤따르는 대사를 도입하는 서술 → 단순 동작 서술. 콜론으로 이어지는 대사 도입 기능이 사라졌습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 화자·청자 관계가 드러나는 높임이나 호칭이 없는 서술입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 442,
+    "output_tokens": 785,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

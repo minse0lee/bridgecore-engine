@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfgyGeq527j8NQ6niZH",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0360\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"in an alert confident voice\",\"tgt_span\":\"경계심이 가득한 자신감 넘치는 목소리로\",\"description\":\"alert(기민한, 또렷한)가 '경계심이 가득한'으로 옮겨져 경계하는 태도로 읽히며, 목소리의 성질이 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: alert(기민한)가 '경계심이 가득한'으로 바뀌어 목소리의 성질이 달라졌습니다. 다만 소녀가 자신 있게 대답했다는 핵심 내용과 대사 내용은 유지되어 요지와 행동 이해에는 영향이 작습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'마지막 집'과 '내가 당신을 만났던 집'의 지시·소유 관계와 대사-서술 연결이 유지되며 초점·연결어 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소녀의 대답을 전하는 서술 → 소녀의 대답을 전하는 서술. 발화 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소녀가 상대에게 대답하는 서술에서 '당신'과 평서체 사용이 관계를 바꾸거나 태도를 약화시키지 않습니다. 문맥상 대화 관계가 크게 달라졌다는 근거가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 609,
+    "output_tokens": 743,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

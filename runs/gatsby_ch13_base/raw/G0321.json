@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvffY1qiWRN1LgSNMScx",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0321\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"no thin five-piece affair\",\"tgt_span\":\"5인조가 아니라\",\"description\":\"'빈약한 5인조 편성'이 '5인조가 아니라'로 옮겨져, 부정 대상(빈약한 규모)이 '5인조라는 편성 자체'로 바뀌었다. 평가어 thin도 사라졌다.\"},{\"id\":\"E002\",\"src_span\":\"a whole pitful of oboes and trombones and saxophones and viols and cornets and piccolos\",\"tgt_span\":\"오보에와 트롬본, 색소폰, 비올라, 코넷, 피콜로, 낮고 높은 드럼으로 꽉 찼다\",\"description\":\"악단이 연주자·악기로 가득 찬 오케스트라 피트 한 구덩이를 가리키는 표현이 '악기로 꽉 찼다'로 옮겨졌고, 주어가 불분명해졌다. 'viols'는 '비올라'로 옮겨져 악기 종류가 달라졌다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: thin five-piece affair(빈약한 5인조 편성)를 '5인조가 아니라'로 옮겨 부정 대상이 바뀌고 thin이 빠졌으며, viols가 비올라로 바뀌었다. 다만 악단이 대규모로 도착했다는 요지는 유지된다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'no thin... but a whole...'의 대조 관계가 '5인조가 아니라 ~로 꽉 찼다'로 유지되어 연결·초점 질문 모두 아니오.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"파티 장면 서술 → 파티 장면 서술. 기능이 같은 종류로 유지된다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문이다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문의 평서체('~다')가 유지되며 높임·호칭 문제가 없다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없다. 악기명은 일반 어휘이며 viols→비올라는 Semantic에서만 다룬다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1231,
+    "output_tokens": 945,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

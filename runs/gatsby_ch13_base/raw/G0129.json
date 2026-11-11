@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfSdUtRnrE7kt45gZ6M",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0129\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"took down his drink\",\"tgt_span\":\"그의 음료를 내렸다\",\"description\":\"'마시다/들이켜다'라는 행위가 '내렸다'로 옮겨져 음료를 마신 행위가 전달되지 않음\"},{\"id\":\"E002\",\"src_span\":\"as if it were a drop in the bottom of a glass\",\"tgt_span\":\"마치 그것이 유리잔의 바닥에 떨어지는 한 방울처럼\",\"description\":\"잔 바닥의 한 방울만큼 적은 양인 듯 쉽게 마셨다는 비유가, 한 방울이 잔 바닥에 떨어지는 동작으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(행위): 음료를 단숨에 마신 행위가 '내렸다'로 바뀌고 비유도 한 방울이 떨어지는 장면으로 바뀌어 독자가 장면의 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그것'이 가리키는 대상이 음료로 읽히고 as if 비유 연결도 '마치 ~처럼'으로 유지되어 지시·연결·초점 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 인물의 동작을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 같은 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 간 관계나 높임이 드러나는 대화·호칭이 없는 서술문입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 567,
+    "output_tokens": 784,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

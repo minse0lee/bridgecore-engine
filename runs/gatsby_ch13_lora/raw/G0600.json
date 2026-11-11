@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvfwp1TEoAt5iYh2Krrm",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0600\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"no one would ever know or disapprove\",\"tgt_span\":\"아무도 알지 못하거나 찬성하지 않을 것이라고\",\"description\":\"disapprove(못마땅해하다/반대하다)가 '찬성하지 않을 것'으로 옮겨져 '반대하지 않는다'는 부정적 반응이 없다는 뜻이 아닌 '찬성하지 않는다'는 소극적 의미로 약화됨. 또한 know or disapprove에서 '알지도 못하고 못마땅해하지도 않는다'의 의미가 '알지 못하거나 찬성하지 않을'로 바뀜(or의 부정 범위)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'no one would ever know or disapprove'(아무도 알지도 못마땅해하지도 않을 것)가 '아무도 알지 못하거나 찬성하지 않을 것'으로 바뀌어, disapprove(비난·불인정)가 '찬성하지 않음'으로 어긋나고 부정의 범위도 흐려졌으나 핵심 사실(들키지도 비난받지도 않음)은 대체로 읽혀 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(범위): 'no one'의 부정이 know와 disapprove 모두에 걸리는데 번역 '알지 못하거나 찬성하지 않을'은 부정 범위가 모호해져 '둘 중 하나만 해당해도'로 읽힐 수 있어 범위 관계가 흐려졌습니다. 다만 핵심은 유지되어 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 취향과 상상을 서술 → 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 소설 서술의 '-했다' 평서체가 유지되어 관계와 태도가 달라지지 않았습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Fifth Avenue를 '5번가'로 통용 표기대로 옮겨 같은 장소를 가리킵니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1268,
+    "output_tokens": 961,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

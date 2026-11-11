@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfwVDbzX1uJ4ACxHXnc",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0567\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"The crowd—it was now a crowd—stepped back involuntarily\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"군중이 엉겁결에 뒤로 물러섰다는 행위와 행위자(군중)가 번역에서 누락됨\"},{\"id\":\"E002\",\"src_span\":\"there was a ghostly pause\",\"tgt_span\":\"유령 같은 침묵이 흘러나왔다\",\"description\":\"멈춤(pause)이 '침묵이 흘러나왔다'로 바뀌어 잠시 정지한 상태가 침묵이 나오는 사건으로 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 군중이 무의식적으로 뒤로 물러선 행위와 행위자가 통째로 빠졌고, 'pause'도 '침묵이 흘러나왔다'로 달라져 문장의 요지가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: '군중이 물러섰고 문이 열렸을 때 멈춤이 있었다'는 연결 구조에서 앞 절이 빠져, 멈춤이 군중의 반응 속에서 생긴 것이라는 관계가 사라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 서술 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문 평서체가 유지되며 화자·독자 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 등장하지 않습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 764,
+    "output_tokens": 783,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

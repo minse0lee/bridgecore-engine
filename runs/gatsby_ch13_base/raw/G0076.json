@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfPFagY3SH5CFZr7ewK",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0076\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“It belonged to Demaine, the oil man.”\",\"tgt_span\":\"“그래, 그렇게 하자.”\",\"description\":\"집이 석유업자 데메인의 소유였다는 서술 내용이 사라지고, 원문에 없는 동의·제안 발화('그래, 그렇게 하자')로 대체됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물·대상·행위): 소유 관계, 데메인, 석유업자라는 내용이 모두 빠지고 무관한 동의 발화로 바뀌어 요지가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(지시 대상): 'It'이 가리키는 집과 소유자의 지시 관계가 번역에 없어 앞 문맥과의 연결이 끊겼고, 이를 '그래'가 대신 받는 듯 읽힙니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"원문 기능 → 번역 기능: 집의 원래 소유자를 알려주는 설명 → 제안에 동의하는 응답(맞장구)으로 기능 종류가 달라졌습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"원문에 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"평서문의 중립적 말투이며, 번역의 반말 응답체가 화자-청자 관계에 비추어 별도로 훼손이라 할 근거는 없습니다. 내용 오류는 다른 축에서 판정합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·단위·관습이 없고 인명만 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 493,
+    "output_tokens": 782,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

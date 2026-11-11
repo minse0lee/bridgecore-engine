@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvg1JkgGBuDFu8Fe9cME",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0625\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“I am careful.”\",\"tgt_span\":\"조심하시오.\",\"description\":\"화자가 자신이 조심성 있다고 말하는 평서문이 상대에게 조심하라고 지시하는 명령문으로 바뀜(행위자 1인칭→2인칭, 진술→명령)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물·행위): 화자 자신이 조심성 있다는 서술이 상대에게 조심하라는 내용으로 바뀌어 행위자와 내용이 달라졌습니다.\"},\"Textual\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"한 문장짜리 짧은 발화로 판정할 지시·연결·초점 표현이 없습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 자기 서술(자신의 성격·태도 주장) → 상대에 대한 지시(경고)로 발화 기능이 바뀌었습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"원문은 의무·허가·금지를 정하지 않는 자기 서술이므로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-시오' 하오체가 적절한지 판단하려면 화자와 청자의 관계와 해당 대화 장면 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 396,
+    "output_tokens": 660,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

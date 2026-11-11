@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfbUGkDCXf6VPaJkx8z",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0261\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“Oh—you’re Jordan Baker.”\",\"tgt_span\":\"조던 베이커\",\"description\":\"감탄사 'Oh'와 'you're'(상대를 알아보고 확인하는 서술)가 빠지고 이름만 남음. 화자가 상대를 알아보는 발화가 이름 나열로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'Oh'와 '당신은 ~이군요'에 해당하는 내용이 빠졌습니다. 화자가 상대가 조던 베이커임을 알아차렸다는 사태가 이름만 남아 독자가 요지를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'you're'가 가리키는 대상(청자)과 그가 조던 베이커라는 동일시 관계가 사라져, 이름이 누구를 가리키는지 알 수 없게 되었습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"원문 기능: 상대를 알아보고 확인하는 대화 발화 → 번역 기능: 이름 표제 또는 호명처럼 읽힘. 발화 기능이 달라졌습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 문장입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 청자의 관계(처음 만난 사이인지 등)와 적절한 높임 수준을 판단하려면 대화 상황 정보가 필요합니다. 번역문에는 말투가 드러나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명만 있고 별도로 판정할 문화·제도 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 416,
+    "output_tokens": 786,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

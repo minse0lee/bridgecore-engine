@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfkxB3TNSgvP4mQUNfv",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0403\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“Absolutely real—have pages and everything.\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"첫 문장 '완전히 진짜야, 페이지도 다 있어'가 번역에서 누락됨\"},{\"id\":\"E002\",\"src_span\":\"I thought they’d be a nice durable cardboard.\",\"tgt_span\":\"난 그들이 좋은 내구성 골판지 될 것이라고 생각.\",\"description\":\"'골판지로 만든 것일 줄 알았다'는 과거의 예상이 현재 시점의 '될 것이라고 생각'으로 바뀌고 반전의 전제가 흐려짐\"},{\"id\":\"E003\",\"src_span\":\"Lemme show you.”\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"'내가 보여줄게'라는 제안이 누락됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 첫 문장(진짜이고 페이지가 있음)과 마지막 '보여주겠다'는 행위가 누락되었고, 과거 예상(thought they'd be)이 현재·미래 추측으로 바뀌어 요지가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: 'I thought…Matter of fact, they're real'의 예상과 사실 간 대조 관계가 시제 변화와 '될 것이라고 생각' 때문에 바뀌었습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E003\"],\"reason\":\"책이 진짜임을 직접 보여주겠다는 제안·증명 행위 → 설명만 하다 끊김. 마지막 'Lemme show you'가 누락되어 제안 기능이 사라졌습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 3: 'Lemme'로 드러나는 구어적·친근한 화자 태도가 사라지고 단문 나열의 어색한 문체로 바뀌었으나 관계 변화는 크지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 622,
+    "output_tokens": 949,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

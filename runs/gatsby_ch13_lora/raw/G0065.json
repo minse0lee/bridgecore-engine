@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfMw9duqNW5bD3Z2FZP",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0065\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"straw-haired\",\"tgt_span\":\"초록 머리를 한\",\"description\":\"밀짚색(옅은 노란색) 머리가 초록 머리로 바뀜. 인물의 외양 묘사가 달라짐\"},{\"id\":\"E002\",\"src_span\":\"sturdy\",\"tgt_span\":\"몸집이 크고\",\"description\":\"튼튼하고 다부진 체격이 '몸집이 큼'으로 약간 달라졌으나 같은 신체적 특징 범위로 의미 차이는 작음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 인물의 머리색이 밀짚색에서 초록색으로 바뀌어 인물 묘사의 대상 속성이 달라졌고, 독자가 인물의 외모를 다르게 이해하게 됩니다. 'sturdy'를 '몸집이 크고'로 옮긴 것은 평가어 정도의 차이로 봅니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·소유 관계, 연결 관계, 초점 표현에 변화가 없습니다. 'Now'는 '이제'로, 'with'는 병렬 연결로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 외양 묘사 → 인물 외양 묘사. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 묘사 문장으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문의 평서체('~였고, ~지녔다')가 유지되며 'supercilious'의 경멸적 태도도 '교만한'으로 전달됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1012,
+    "output_tokens": 798,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

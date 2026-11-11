@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfPN9ZgLKTAeG85gs7D",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0078\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“We’ll go inside.”\",\"tgt_span\":\"안으로 들어갔다.\",\"description\":\"화자의 대사(제안·통보, 미래 시제)가 따옴표 없는 서술문 '들어갔다'(과거 사실)로 바뀜. 발화가 서술로 바뀌고 '우리'가 빠져 화자와 청자가 함께 들어가는 의미가 흐려짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'We’ll go inside'(앞으로 함께 들어가자는 발화)가 '들어갔다'로 시제가 과거로 바뀌고 주어 '우리'가 없어 누가 들어갔는지도 불분명해졌습니다. 다만 안으로 들어간다는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 지시·연결·초점 표현이 없습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"원문 기능: 상대에게 안으로 들어가자고 제안·지시하는 대사 → 번역 기능: 이미 일어난 일을 서술하는 지문. 상대를 이끄는 발화가 사실 서술로 바뀌었습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없고 대화 속 제안이므로 해당하지 않습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 청자에게 대사로 말하는 말투의 격식을 판단해야 하는데 번역문은 대사가 아닌 서술문이라 비교할 수 없습니다. 인물 간 관계를 고려한 말투 기준이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 482,
+    "output_tokens": 818,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfWWus6t1CEDYa5t7hi",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0195\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"She was only extemporizing\",\"tgt_span\":\"그녀는 단지 즉흥적이었지만\",\"description\":\"'즉흥적으로 말하고 있었다'(발화 행위)가 '즉흥적이었다'(성격·상태)로 바뀌어 행위 내용이 달라짐\"},{\"id\":\"E002\",\"src_span\":\"concealed in one of those breathless, thrilling words\",\"tgt_span\":\"숨을 죽이고 짜릿한 단어들 중 하나에 숨겨져\",\"description\":\"'숨 막히는(breathless) 단어'가 '숨을 죽이고'로 옮겨져 숨죽이는 주체가 불분명해지고, 'one of those words'가 '단어들 중 하나'로 옮겨져 지시 의미가 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: extemporizing(즉흥적으로 말함)이 '즉흥적이었다'로 바뀌고 breathless가 '숨을 죽이고'로 바뀌어 내용이 일부 달라졌으나, 따뜻함이 흘러나왔다는 핵심 요지는 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but의 대조와 as if의 비유 연결, her heart·her words의 지시 관계가 유지되며 only가 '단지'로 같은 대상에 붙어 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 인물의 인상을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체가 '-ㄴ다/였다' 평서 서술체로 유지되며 화자·청자 관계에서 달라진 점이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 831,
+    "output_tokens": 851,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

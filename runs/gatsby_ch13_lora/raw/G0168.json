@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfUhHPNRRGVSjLQcGSd",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0168\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"The Rise of the Coloured Empires\",\"tgt_span\":\"컬러드 엠파이어의 부활\",\"description\":\"책 제목의 'Rise'를 '부활'(부활·되살아남)로 오역하고 'Coloured Empires'를 음역하여, 유색인 제국의 부상이라는 제목의 의미와 인종적 함의가 한국어 독자에게 전달되지 않음\"},{\"id\":\"E002\",\"src_span\":\"Have you read\",\"tgt_span\":\"당신은 … 읽어 본 적이 있는가?\",\"description\":\"친구(손님) 사이의 구어체 대화가 '당신…있는가?' 식의 딱딱한 문어체로 바뀌어 톰과 화자 사이의 관계에 맞지 않는 말투가 됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'Rise'가 '부활'로 바뀌고 'Coloured'가 의미 없는 음역이 되어, 책 제목이 가리키는 내용(유색인 제국의 부상)이 달라졌습니다. 나머지 내용은 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사·연결·초점 관계가 유지됩니다(1·2·3 모두 아니오). 'this man Goddard'의 지시도 '이 사람 고다드'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"비관을 토로하고 책을 읽었는지 묻는 대화 → 같은 기능으로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 소설 속 대화입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: 톰이 상대에게 편하게 던지는 구어체 질문이 '당신…있는가?'의 딱딱한 문어체가 되어 대화 관계에 맞는 격식이 아닙니다. 다만 관계 왜곡은 크지 않습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 인종 담론과 관련된 역사적 저작 제목을 '컬러드 엠파이어의 부활'로 음역·오역하여 한국어 독자가 '유색인종 제국의 부상'이라는 문화적 함의를 이해할 수 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 672,
+    "output_tokens": 984,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

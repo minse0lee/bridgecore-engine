@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfsZdAXhdKRYekDF5yt",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0531\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the last of Gatsby’s guests, who were clustered around him\",\"tgt_span\":\"그의 주위에 뭉쳐 있던 개츠비의 마지막 손님들과\",\"description\":\"'마지막 남은 손님들 중 일부'(the last of)가 '개츠비의 마지막 손님들'로 옮겨져 '남아 있던 마지막 무리'라는 의미가 약해짐. 또한 '그의'가 개츠비보다 앞서 나와 지시가 어색함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"부끄러움, 너무 늦게까지 머문 것, 마지막 손님들과 합류한 것이 모두 전달되며, '마지막 손님들'은 남은 손님들로 읽힐 수 있어 사태가 달라지지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그'는 문맥상 개츠비로 이해되고, 부끄러움과 합류의 연결 관계도 유지되며 초점 표현 변화도 없습니다(질문 1·2·3 모두 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사 진술 → 서사 진술. 화자의 행동과 심정을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 소설 서술의 평서 문체(~했다)가 유지되며 관계상 어긋나는 높임이나 호칭이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 728,
+    "output_tokens": 748,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

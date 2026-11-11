@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfazpFur8bcXb9nM6is",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0254\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"with a flutter of slender muscles in her arms\",\"tgt_span\":\"팔에 날카로운 근육을 휘두르며\",\"description\":\"'가느다란 근육이 파르르 떨림(flutter of slender muscles)'이 '날카로운 근육을 휘두르며'로 바뀌어 묘사 내용과 행위(떨림 → 휘두름)가 달라짐\"},{\"id\":\"E002\",\"src_span\":\"The lamplight, bright on his boots and dull on the autumn-leaf yellow of her hair\",\"tgt_span\":\"그의 부츠에 밝고 그녀의 머리카락의 가을잎 노란색에 어두운 램프 빛이\",\"description\":\"'부츠에는 밝고 머리카락에는 흐린 램프 빛'이라는 대비 구조가 '부츠에 밝고 … 노란색에 어두운'으로 옮겨져 어색하며 수식 관계가 모호함. 의미는 대체로 남음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위·대상): 팔 근육이 가늘게 파르르 떨리는 모습이 '날카로운 근육을 휘두르며'라는 다른 동작·성질로 바뀌어 장면 묘사가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"부츠에 밝고 머리카락에 어둡다는 대비와 'as'절의 시간 관계(넘기자)가 유지되며 지시 관계도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사 서술 → 장면 묘사 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 묘사문으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 '-였다'가 유지되며 관계·호칭에 따른 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 852,
+    "output_tokens": 884,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

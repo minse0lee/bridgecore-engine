@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvfg2z7zfVn63pmN24tE",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0326\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"wanderers, confident girls who weave here and there\",\"tgt_span\":\"방랑자들이 있고, 더 튼튼하고 안정된 사람들 사이에서 여기저기 얽히고 설키며\",\"description\":\"'confident girls'(자신감 있는 소녀들)가 번역에서 빠져 방랑자들만 남고, 이들이 자신감 있는 소녀들이라는 동격 관계와 행위자 정보가 사라짐\"},{\"id\":\"E002\",\"src_span\":\"the stouter and more stable\",\"tgt_span\":\"더 튼튼하고 안정된 사람들\",\"description\":\"원문은 비교급 'stouter and more stable'(비교 대상인 더 튼튼하고 안정된 이들)을 뜻하나, 번역은 '더'를 붙여 비교 대상이 불분명한 일반 표현이 됨. 큰 의미 차이는 아님\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물): 'confident girls'가 누락되어 방랑자들이 누구인지(자신감 있는 소녀들)가 사라져 행위자 정보가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(지시·동격 관계): 'wanderers'와 'confident girls'의 동격 관계가 사라져 뒤따르는 동사들의 주어가 방랑자 일반으로 읽혀 지시 관계가 달라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사 서술 → 장면 묘사 서술. 파티 분위기를 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체가 '~한다' 평서체로 유지되며 화자·청자 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1244,
+    "output_tokens": 882,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

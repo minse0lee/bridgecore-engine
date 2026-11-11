@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfybmJvy9fdeGayys3K",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0630\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"It takes two to make an accident.\",\"tgt_span\":\"사고를 일으키는 데는 두 사람이 필요하다.\",\"description\":\"'사고는 한쪽만의 잘못으로 나지 않는다, 상대도 부주의해야 난다'는 속담식 관용 표현을 문자 그대로 '두 사람이 필요하다'로 옮김. 상대 운전자도 책임이 있다는 함의(조던의 부주의한 운전을 정당화하는 논리)가 드러나지 않음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 사고에 두 사람이 관여한다는 사실은 유지되나, 사고가 한쪽 잘못만으로 나지 않는다는 속담의 의미가 문자적 서술로 바뀌었습니다. 핵심 사실(두 사람 필요)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현의 변화가 없고 앞 문장과의 관계도 유지됩니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"원문 기능 → 번역 기능: 자신의 운전을 변호하는 주장(근거 제시) → 일반 사실 서술. 앞의 'keep out of my way'와 이어지는 논거 기능이 번역문만으로는 약해져 다른 종류로 읽힙니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 아니라 속담식 진술입니다. 'takes'는 필요 조건을 나타낼 뿐입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화문을 평서 종결로 옮겼고 화자·청자 관계상 어긋나는 높임이나 호칭 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"제도·단위·관습 등 문화 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 493,
+    "output_tokens": 841,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

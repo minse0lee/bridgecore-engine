@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvff4FVLJuCJdrWrZiZD",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0315\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"including an extra gardener\",\"tgt_span\":\"정원사 한 명을 포함한\",\"description\":\"'추가로 온 정원사'(extra)의 의미가 사라지고 단순히 정원사 한 명 포함으로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"scrubbing-brushes\",\"tgt_span\":\"세탁 브러시\",\"description\":\"바닥 닦는 솔(scrubbing brush)이 '세탁 브러시'로 바뀌어 용도가 달라짐\"},{\"id\":\"E003\",\"src_span\":\"the ravages of the night before\",\"tgt_span\":\"전날 밤의 잔해\",\"description\":\"파티가 남긴 파손·피해(ravages)가 '잔해'로 옮겨져 의미가 약간 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: '추가 정원사'가 단순 정원사로, 청소용 솔이 '세탁 브러시'로 바뀌었으나 여덟 하인이 월요일 하루 종일 도구를 들고 전날 밤의 피해를 복구했다는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그리고 월요일에는'으로 앞 문장에 이어지는 연결과 시간 구조가 유지되고, 지시·초점 관계도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 파티 다음 날의 뒷수습을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 서술로 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 과거 서술체(~했다)가 유지되며 평가할 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1205,
+    "output_tokens": 859,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

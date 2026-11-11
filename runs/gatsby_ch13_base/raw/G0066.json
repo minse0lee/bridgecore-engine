@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfNRtmbLevfJj1Up7W3",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0066\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"gave him the appearance of always leaning aggressively forward\",\"tgt_span\":\"항상 공격적으로 앞으로 기울어진 그에게 모양을 주었다\",\"description\":\"'그에게 …한 인상을 주었다'가 '(이미) 기울어진 그에게 모양을 주었다'로 바뀌어, 눈이 그에게 항상 공격적으로 앞으로 기울어진 듯한 인상을 준다는 내용이 사라지고 의미가 불명확해짐\"},{\"id\":\"E002\",\"src_span\":\"had established dominance over his face\",\"tgt_span\":\"그의 얼굴에 지배권을 설립하고\",\"description\":\"'지배적 위치를 차지했다(established dominance)'를 '지배권을 설립하고'로 옮겨 어색하지만 눈이 얼굴을 지배한다는 뜻은 대체로 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위·대상): 'appearance of leaning forward'가 '기울어진 그에게 모양을 주었다'로 바뀌어 눈이 그에게 공격적으로 앞으로 기울인 인상을 준다는 핵심 내용이 달라져 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(지시·소유 관계): 'him'과 'leaning'의 관계가 사라져, '기울어진'이 그를 수식하는 것으로 읽혀 무엇이 앞으로 기울어 보이는지의 관계가 달라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 외모 묘사 → 인물 외모 묘사. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체가 유지되며 관계·격식상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1032,
+    "output_tokens": 896,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

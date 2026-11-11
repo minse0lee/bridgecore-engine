@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvg8MWZfxcxmyUv6Wt5d",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0484\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"was drawn attractively tight on his face\",\"tgt_span\":\"매력적으로 그의 얼굴에 단단히 그려진\",\"description\":\"'팽팽하게 당겨져 있었다(drawn tight)'가 '그려진'으로 오역되어 피부 상태 서술이 다른 의미로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"His tanned skin … and his short hair looked as though\",\"tgt_span\":\"피부는 … 그려진 그의 짧은 머리가 … 것처럼 보였다\",\"description\":\"두 절의 병렬 연결(and)이 끊기고 '그려진'이 '머리'를 수식하는 관형절로 읽혀 피부와 머리의 서술 관계가 무너짐\"},{\"id\":\"E003\",\"src_span\":\"trimmed every day\",\"tgt_span\":\"매일 손질했다 것처럼\",\"description\":\"수동 의미(손질되었다)가 능동형 '손질했다'로 바뀌고 문법적으로 깨진 구조가 되어, 행위 주체가 불분명해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E003\"],\"reason\":\"판단 질문 1: 피부가 얼굴에 팽팽하게 당겨져 있다는 서술이 '그려진'으로 바뀌어 내용이 달라졌고, 머리가 '손질되었다'가 '손질했다'로 바뀌어 행위 주체가 어긋나 독자가 인물 묘사를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: 두 절의 병렬 연결이 사라지고 '그려진'이 '머리'를 수식하는 구조가 되어 피부 묘사와 머리 묘사의 관계가 바뀌었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 외양 묘사 → 인물 외양 묘사. 서술 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 '-ㅆ다'가 유지되며 관계·태도상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1352,
+    "output_tokens": 961,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

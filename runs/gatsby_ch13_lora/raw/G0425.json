@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvfm5aHFkCLqwpLREbwj",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0425\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"two finger-bowls of champagne\",\"tgt_span\":\"샴페인 두 잔\",\"description\":\"finger-bowl(손 씻는 그릇)로 마셨다는 과장된 용량 표현이 일반적인 '잔'으로 바뀜. 수량 '두 개'는 유지되나 많은 양을 암시하는 용기 크기 정보가 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: finger-bowl이 '잔'으로 바뀌어 마신 양이 일반 잔 두 잔으로 읽힙니다. 수량(둘)과 핵심 사실(샴페인을 마심, 장면이 의미심장하게 변함)은 유지되어 요지와 행동 이해는 크게 달라지지 않으므로 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"샴페인을 마신 뒤 장면이 변했다는 인과·시간 연결이 '-고'로 유지되며 지시·초점 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(취기로 인한 인식 변화 설명) → 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 소설 서술의 평서 문체가 유지되며 특별한 관계·호칭 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"finger-bowl 자체를 문화적 대상으로 볼 여지가 있으나 이 오류는 용기 어휘의 의미 차이로 Semantic에서 다루며, 샴페인은 그대로 옮겨져 제도·관습의 이해에 영향이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 784,
+    "output_tokens": 793,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfqeP7JMJGo7JxX2Yh3",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0474\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"didn’t—… drift coolly out of nowhere and buy a palace\",\"tgt_span\":\"젊은이들은 하지 않았다 - … 아무데서나 차갑게 떠나 롱 아일랜드 사운드에 궁전을 구입.\",\"description\":\"'젊은이들은 (아무데서나 나타나 궁전을 사는 일을) 하지 않았다'는 부정이 동사구 없는 '하지 않았다'로 분리되고, 마지막 부분이 종결어미 없는 '구입'으로 끝나 부정의 범위가 불분명해짐. 부정의 대상이 문장 끝 동사와 연결되지 않음\"},{\"id\":\"E002\",\"src_span\":\"drift coolly out of nowhere\",\"tgt_span\":\"아무데서나 차갑게 떠나\",\"description\":\"'어디에서도 아닌 곳에서 태연히 흘러들어오다'가 '아무데서나 차갑게 떠나'로 바뀌어 출처 불명의 도착이 출발·이탈로 읽힘\"},{\"id\":\"E003\",\"src_span\":\"in my provincial inexperience\",\"tgt_span\":\"내 지방의 경험이 부족한 나는\",\"description\":\"'시골뜨기 같은 내 경험 부족 탓에'가 '지방의 경험이 부족한 나'로 옮겨져 대체로 유지되나 어색함 있음(오류로 보지 않을 정도)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: drift out of nowhere(어디선가 불쑥 나타남)가 '아무데서나 … 떠나'로 바뀌어 행위 방향이 달라지고, 부정문의 대상 행위가 '구입'으로 끝나 젊은이들이 궁전을 사지 않는다는 핵심 명제가 불명확해져 요지를 다르게 이해할 수 있습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(초점·범위): didn't의 부정이 뒤의 drift…buy 동사구 전체에 걸리는 범위가 사라지고 '하지 않았다'만 남아 부정 범위가 불분명해졌으며, 삽입절의 'they didn't'도 대응 동사구와 이어지지 않습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 순진한 믿음을 서술하는 설명 → 서술. 서술 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 소설 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술자의 회고적 서술 어조와 '-었다' 문어체가 유지됩니다. 문장 끝의 명사형 종결은 어색함이지 관계 변화가 아닙니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"롱아일랜드 사운드는 지명이어서 별도로 판정할 문화 고유 제도·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 924,
+    "output_tokens": 1199,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfiYfN71cofGSYdERnz",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0386\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"was now being served\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"첫 식사가 지금 차려지고 있다는 내용이 빠지고, 삽입구였던 '자정 이후에 또 하나가 있을 것'이 주절로 바뀌어 현재 상황이 사라짐\"},{\"id\":\"E002\",\"src_span\":\"who were spread around a table on the other side of the garden\",\"tgt_span\":\"정원의 반대편에 테이블을 둘러싸고 있는 그녀의 그룹\",\"description\":\"정원 반대편 테이블에 흩어져 앉아 있는 모습이 '테이블을 둘러싸고 있는'으로 바뀌었고, 테이블의 위치도 불분명해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(시간·행위): 지금 첫 식사가 차려지고 있다는 사실이 빠지고, 자정 이후의 식사가 서술의 중심이 되어 독자가 장면의 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(연결·시간 순서): 삽입구 관계가 깨져 첫 식사와 자정 이후 식사의 대비가 사라지고, 첫 식사가 지금 차려지는 것과 요르단의 초대 사이의 시간 연결도 약해집니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 서술 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 '~했다'가 유지되며 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1029,
+    "output_tokens": 829,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

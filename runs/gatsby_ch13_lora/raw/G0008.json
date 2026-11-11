@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfJ28AgLEo2jjDUDioe",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0008\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"snobbishly\",\"tgt_span\":\"스노비시하게\",\"description\":\"snobbishly를 한국어 의미로 옮기지 않고 음역하여, 속물적·우월의식이라는 서술 태도가 한국어 독자에게 전달되지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"아직 조금 두렵다, 아버지의 제안과 나의 반복, 품위 감각의 불평등한 분배, 잊으면 무언가를 놓친다는 내용이 모두 유지됩니다. 음역된 태도 부사는 Cultural에서 판정합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조건(if I forget that)과 삽입절(as my father…)의 관계, 아버지와 나의 지시 관계가 유지되고 초점 표현도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 자기 서술·성찰 → 자기 서술·성찰. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3: snobbishly가 나타내는 화자의 자기비판적인 속물 태도가, 뜻이 불분명한 음역어 '스노비시하게'로 인해 한국어 독자에게 약해지거나 분명히 전달되지 않습니다. 다만 요지는 크게 바뀌지 않아 minor입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위·비칭이 없습니다. 인물 관계와 계층 의식 어휘는 Register에서 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1527,
+    "output_tokens": 783,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

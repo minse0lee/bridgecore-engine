@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfPzpwQSXe4nJC7PBBK",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0088\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"If she saw me out of the corner of her eyes she gave no hint of it\",\"tgt_span\":\"그녀는 그녀의 눈꼬리로 나를 본다면 그녀는 그것의 힌트를 주지 않았다\",\"description\":\"사실 조건(If she saw me, 보았더라도)이 가정 조건('본다면')으로 바뀌고 시제가 현재형이 되어, 조건절과 주절의 관계가 뒤틀림. 보았더라도 아무 기색이 없었다는 내용이 불분명해짐\"},{\"id\":\"E002\",\"src_span\":\"I was almost surprised into murmuring an apology\",\"tgt_span\":\"나는 거의 놀라서 들어와서 그녀를 방해한 것에 대한 사과를 중얼거렸다\",\"description\":\"'놀라서 나도 모르게 사과를 중얼거릴 뻔했다'(almost)가 실제로 중얼거렸다는 사실로 바뀌고, 'almost'가 '놀라서'에만 붙음\"},{\"id\":\"E003\",\"src_span\":\"for having disturbed her by coming in\",\"tgt_span\":\"들어와서 그녀를 방해한 것에 대한\",\"description\":\"방해한 방식(들어옴으로써)이 단순 연결로 바뀌어 '놀라서 들어와서'처럼 읽혀 들어온 주체와 놀란 이유가 모호해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: '보았더라도 기색이 없었다'가 가정 조건으로 바뀌었고, 사과를 중얼거릴 '뻔했다'가 실제로 중얼거린 것으로 바뀌어 사실·확실성이 달라져 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 2·3: 양보적 조건 관계가 가정 조건으로 바뀌었고, almost의 초점이 사과 중얼거림이 아닌 '놀라서'에 붙었으며, 'by coming in'의 수단 관계가 단순 연결 '들어와서'로 흐려져 '놀라서 들어와서'처럼 읽힙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 인물의 태도와 반응을 묘사하는 서술 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 청자의 관계에 따른 높임·호칭이 문제되는 대화가 아니라 1인칭 서술문입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 861,
+    "output_tokens": 1134,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

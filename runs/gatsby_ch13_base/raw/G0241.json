@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvfa287UasEyA6nnTeTR",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0241\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"It’ll show you how I’ve gotten to feel about—things.\",\"tgt_span\":\"나는 네가 느끼는 것을 느끼고 싶다.\",\"description\":\"'이야기가 내가 사물에 대해 어떻게 느끼게 되었는지 네게 보여줄 것'이라는 내용이 '나는 네가 느끼는 것을 느끼고 싶다'는 바람으로 바뀜. 주어 It(앞서 말할 이야기), 'you'의 역할(보게 되는 청자), 화자의 감정 변화 경위, 대상 'things'가 모두 사라지고 느끼는 주체와 대상이 뒤바뀜\"},{\"id\":\"E002\",\"src_span\":\"It’ll show you\",\"tgt_span\":\"나는 네가 느끼는 것을 느끼고 싶다\",\"description\":\"설명·예고(이야기가 보여줄 것) 기능이 화자의 소망 표현으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 이야기가 화자의 감정 형성 경위를 보여준다는 내용이 화자가 청자의 감정을 느끼고 싶다는 내용으로 바뀌어 행위자·행위·대상이 모두 달라져 요지를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'It'(뒤따르는 이야기)이 가리키는 대상이 사라지고 'you'와 'I'의 관계가 뒤바뀌어 지시 관계가 달라졌으며, 뒤 문장과의 연결(앞으로 들려줄 이야기의 예고)도 끊겼습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\"],\"reason\":\"원문 기능 → 번역 기능: 뒤따르는 이야기의 의미를 예고하는 서술 → 화자의 소망 표명. 다른 종류의 기능으로 바뀌었습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 서술로 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 청자 관계가 문맥에 제시되지 않아 반말 사용의 적절성을 판단하려면 화자(데이지)와 청자(닉)의 관계 확인이 필요하며, 이 문장은 원문 기준 사적 대화입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 이 문장에 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 851,
+    "output_tokens": 1052,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfUsofGAQHnw9aBRWxa",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0163\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the West\",\"tgt_span\":\"서양\",\"description\":\"미국 중서부(the West)를 '서양'으로 옮겨 지시 대상이 서양 전체(문명권)로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"It was sharply different from the West\",\"tgt_span\":\"그것은 서양에서 날카롭게 다르다\",\"description\":\"'~와 매우 달랐다(from)'가 '서양에서 다르다'로 바뀌어 비교 대상 관계가 사라지고 과거 시제도 현재로 바뀜\"},{\"id\":\"E003\",\"src_span\":\"where an evening was hurried from phase to phase towards its close, in a continually disappointed anticipation or else in sheer nervous dread\",\"tgt_span\":\"어디 저녁이 끊임없이 실망 기대 또는 그 순간 자체의 순전한 신경 두려움에 그것의 끝을 향해 단계에서 단계로 서둘렀다\",\"description\":\"'계속 실망으로 끝나는 기대 속에서 혹은 순전한 신경질적 두려움 속에서'가 '실망 기대', '신경 두려움' 등 명사 나열로 옮겨져 어떤 상태 속에서 서둘렀는지 불명확하고, 관계절 where 연결도 '어디'로 깨짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 서부(the West)가 '서양'으로, 비교 대상(from the West)이 '서양에서'라는 장소로 바뀌고, '실망한 기대 속에서'가 '실망 기대'로 흐려져 독자가 요지를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\",\"E003\"],\"reason\":\"판단 질문 2: 'different from the West'의 비교 관계와 'where' 관계절 연결이 '서양에서 다르다, 어디 …'로 깨져 앞 문장과 서부의 저녁을 대조하는 연결이 바뀌었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술적 설명(동부의 저녁과 서부 대조) → 서술적 설명. 기능 종류는 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술자의 문체와 관계를 바꾸는 호칭·높임 문제는 없습니다. 어색한 문장은 평가 대상이 아닙니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 미국 중서부라는 지역·문화권을 가리키는 the West가 '서양'으로 바뀌어 다른 대상으로 오역되었습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1028,
+    "output_tokens": 1115,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

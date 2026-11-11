@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfK8QDG6ECo2P9EiFcL",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0025\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"take a house together in a commuting town\",\"tgt_span\":\"통근 도시에서 우리가 함께 집을 가져가자고\",\"description\":\"'집을 얻어(빌려) 함께 살자'는 제안이 '집을 가져가자'로 오역되어 임대·거주 행위가 사라지고, 'commuting town'(통근자들이 사는 교외 소도시)이 '통근 도시'로 옮겨짐\"},{\"id\":\"E002\",\"src_span\":\"a country of wide lawns and friendly trees\",\"tgt_span\":\"넓은 잔디와 친근한 나무가 있는 나라\",\"description\":\"country(시골·전원 지역)를 '나라'로 오역하여 떠나온 곳이 국가로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(행위·대상): 'take a house'(집을 얻다)가 '집을 가져가다'로, country(시골)가 '나라'로 바뀌어 독자가 제안 내용과 화자가 떠나온 곳을 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but, so, when 등의 대조·인과·시간 연결이 '-지만, -기 때문에, -을 때'로 유지되고 지시 관계도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(화자의 경위 설명) → 서술. 이야기를 전개하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술 문장으로 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회상 서술의 평서체 문어체가 유지되며 관계·태도 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다. 오역은 Semantic에서 판정했습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1176,
+    "output_tokens": 848,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

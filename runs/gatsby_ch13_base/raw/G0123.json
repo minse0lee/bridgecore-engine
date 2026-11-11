@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfSH1puHeZh2iy2gnvM",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0123\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I’m stiff\",\"tgt_span\":\"나는 딱딱해요\",\"description\":\"몸이 뻐근하다/쑤신다는 뜻의 stiff를 사물의 속성인 '딱딱하다'로 옮겨 화자의 신체 상태가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 오래 누워 있어 몸이 뻐근하다는 신체 상태가 '딱딱하다'로 바뀌어 독자가 불평의 내용을 다르게 이해합니다. 나머지(소파에 누워 있었다, 기억하는 한 오래)는 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사·연결·초점 표현의 대상이 바뀌지 않았고, 앞 절과 뒤 절의 이유 설명 관계도 병렬로 이어져 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"불평하는 발화 → 불평하는 발화. 'she complained'가 '불평했다'로 유지되어 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 표현이 없고, can은 기억 능력을 나타내므로 규범 의미가 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"여성 인물의 친근한 구어 발화가 '~해요'체로 유지되어 문맥상 무리가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 657,
+    "output_tokens": 708,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

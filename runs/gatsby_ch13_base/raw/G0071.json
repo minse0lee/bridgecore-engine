@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfNtJ1vsqDzbVHsWh1G",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0071\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"more of a man than you are\",\"tgt_span\":\"더 많은 사람이 있기 때문에\",\"description\":\"'너보다 더 남자답다'는 비교가 '더 많은 사람이 있다'는 뜻으로 오역되어 비교 대상과 의미가 사라짐\"},{\"id\":\"E002\",\"src_span\":\"don’t think\",\"tgt_span\":\"생각하지 마십시오\",\"description\":\"Nick에게 건네는 친구 사이의 말투가 '-십시오' 격식체로 바뀌고 'you'가 '당신'으로 옮겨져 관계가 어긋남\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'more of a man than you are'(너보다 더 남자답다)가 '더 많은 사람이 있다'로 바뀌어 비교 내용이 달라져 요지를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(초점·범위): 'than you are'의 비교 구문이 사라지고 '내가 당신보다 더 강하고'와 '더 많은 사람이 있다'로 갈라져 비교 관계가 깨졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대의 의견 존중을 요구하는 듯한 오만한 태도 서술 → 같은 종류의 서술로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물의 태도를 묘사하는 서술 속 말로, 규범·의무를 정하는 문장이 아니라 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'마십시오'와 '당신'이 화자와 청자의 관계에 맞는지는 같은 학교 동급생이라는 점 외에 두 인물의 관계 정보가 부족해 확정하기 어렵습니다. 화자와 청자의 관계 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 792,
+    "output_tokens": 887,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

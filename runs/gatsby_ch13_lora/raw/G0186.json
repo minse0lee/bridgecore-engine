@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfVyR2NuufoaaCKTVc4",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0186\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"suggested Miss Baker\",\"tgt_span\":\"베이커 선생은 … 제안했다\",\"description\":\"suggested가 '제안했다'로 옮겨져 진술을 제시하는 말이 제안 행위로 읽히고, Miss Baker가 '베이커 선생'으로 옮겨져 미혼 여성 호칭이 교직 호칭처럼 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위): 의견·추측을 내놓는 suggested가 '제안했다'로 옮겨져 행위의 종류가 달라졌지만, 핵심 사실(상황이 점점 나빠졌다)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 관계, 연결 관계, 초점 표현이 모두 유지되어 세 질문 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 상황을 서술해 대화에 끼어드는 발화 → 행동을 권하는 제안 행위로 읽혀 발화 기능의 종류가 달라졌지만, 인용문 자체는 서술로 남아 minor입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 소설 속 서술입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: Miss Baker(미혼 여성에 대한 호칭)가 '베이커 선생'으로 옮겨져 교직 등의 역할을 덧붙인 것으로 읽히지만, 인물 지시 자체는 유지되어 minor입니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Miss'를 '선생'으로 옮겨 미혼 여성 호칭의 문화적 함의는 약해졌으나 제도·단위 등 고유 대상이 달라진 것은 아니어서 판단 질문 1~3에 모두 아니오입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 478,
+    "output_tokens": 860,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

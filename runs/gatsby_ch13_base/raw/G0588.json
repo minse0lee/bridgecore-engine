@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvfxp8SBFo7QggscU7gD",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0588\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"A wafer of a moon\",\"tgt_span\":\"달빛이\",\"description\":\"'wafer처럼 얇은 달(초승달 모양의 달)'이 '달빛'으로 바뀌어 달의 형상 묘사가 사라짐\"},{\"id\":\"E002\",\"src_span\":\"surviving the laughter and the sound of his still glowing garden\",\"tgt_span\":\"개츠비의 웃음소리와 아직도 빛나는 정원의 소리가 들려오고 있었다\",\"description\":\"달이 웃음과 소리를 견디고 살아남는다는 관계가 사라지고, 웃음소리와 정원 소리가 들려온다는 별개 내용으로 바뀜. 소리가 빛난다는 어색한 결합도 생김\"},{\"id\":\"E003\",\"src_span\":\"making the night fine as before\",\"tgt_span\":\"밤은 전과 같이 맑았고\",\"description\":\"달이 밤을 이전처럼 좋게 만든다는 사역·인과 관계가 단순한 서술로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 얇은 조각 같은 달이 '달빛'으로 바뀌고, 달이 웃음과 정원 소리 속에서도 살아남는다는 내용이 소리가 들려온다는 내용으로 바뀌어 요지가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\",\"E003\"],\"reason\":\"판단 질문 2: 달을 주어로 한 making·surviving 분사 구문의 인과·대비 관계가 끊겨 각각 독립된 서술이 되었고, 달이 소리를 견딘다는 연결이 사라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사 서술 → 장면 묘사 서술. 서술 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 소설 묘사 문장입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 청자의 관계, 높임·호칭이 드러나는 표현이 없는 서술문입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"판정할 문화 고유의 제도·단위·관습이 없습니다. 인명만 등장합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 901,
+    "output_tokens": 949,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

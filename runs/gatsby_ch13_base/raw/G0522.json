@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfteVPPkD6wZiW16muQ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0522\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Jordan’s party were calling impatiently to her from the porch\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"현관에서 조급하게 그녀를 부르는 조던 일행의 내용이 통째로 누락됨\"},{\"id\":\"E002\",\"src_span\":\"to shake hands\",\"tgt_span\":\"손을 뻗어 손을 잡아 끌어당겼다\",\"description\":\"악수라는 행위가 손을 잡아 끌어당기는 다른 행위로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 일행이 부르는 상황과 행위자가 빠졌고, 악수가 상대 손을 잡아 끌어당기는 행위로 바뀌어 사건 내용이 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 일행이 재촉하는데도 머뭇거렸다는 but의 대조 관계가 누락으로 사라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사적 상황 서술 → 서사적 상황 서술. 서술 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 의무·허가·금지 같은 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 간 높임·호칭이 드러나는 대화나 태도 표현이 없는 3인칭 서술입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 문화 고유의 제도·관습·단위가 판정 대상으로 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 524,
+    "output_tokens": 729,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvg1Y95eBWuZR78x3DMQ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0014\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a romantic readiness such as I have never found in any other person\",\"tgt_span\":\"나는 다른 사람에게서 결코 발견하지 못했고 다시는 발견하지 못할 것 같은 낭만적인 준비가 되어 있었다\",\"description\":\"'낭만적 준비성'이라는 개츠비의 자질이 '내가 낭만적인 준비가 되어 있었다'로 바뀌어, 그 자질의 주체가 개츠비에서 화자로 읽힘\"},{\"id\":\"E002\",\"src_span\":\"which is dignified under the name of the “creative temperament”\",\"tgt_span\":\"창의적 기질이라는 명예로운 이름 아래 있는\",\"description\":\"dignified(그럴듯하게 격상된 이름으로 불리는)의 아이러니한 뉘앙스가 '명예로운 이름'으로 옮겨져 약해졌으나 평가 방향은 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위자·참여자): 개츠비가 지닌 낭만적 준비성이 화자 자신이 준비가 되어 있었다는 내용으로 바뀌어 누가 무엇을 가졌는지가 달라졌습니다. 'flabby' 등 평가어의 정도 차이는 따로 훼손으로 보지 않습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(지시·소유 관계): 'a romantic readiness'가 앞의 'extraordinary gift for hope'와 개츠비의 속성을 동격으로 이어받는 관계가 끊겨, 'such as … I have never found'의 비교 대상이 화자의 준비로 읽힙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 특성 서술·평가 → 인물 특성 서술·평가. 서술 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"never와 shall은 경험·예측의 의미이며 의무·허가·금지 등 규범 의미가 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 화자의 서술체가 문어체 평서로 유지되며 관계상 부적절한 높임이나 호칭 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1835,
+    "output_tokens": 995,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfqP6r32XK3B8JvJPB8",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0470\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I just don’t think he went there\",\"tgt_span\":\"저는 그가 거기로 갔다고 생각하지 않아요\",\"description\":\"'just'(단지·그저)에 대응하는 표현이 없음. 다만 완화·강조의 담화표지 수준이라 핵심 의미 변화는 미미함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"모르겠다는 말과 그가 거기 갔다고 생각하지 않는다는 내용, 부정과 인물·장소가 모두 유지됩니다. 'just'의 누락은 정도·담화 표지 차이에 그칩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사 he/there의 지시 대상과 두 발화의 연결이 유지되고, 초점을 한정하는 only·even류 표현은 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"자신의 생각을 완강히 밝히는 진술 → 자신의 생각을 완강히 밝히는 진술. 'insisted'가 '고집스럽게'로 옮겨져 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 같은 규범 의미가 없는 대화문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"문맥상 화자와 청자의 관계에 대한 정보가 부족하지만 '-요' 해요체가 일반 대화에 무리 없이 쓰였고 원문에 비하·친밀 태도가 두드러지지 않아 훼손 근거가 없습니다. '나도'와 '저는'이 섞인 것은 어색함에 그칩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 530,
+    "output_tokens": 771,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfnT5sYEcyscnmcDpxG",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0426\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"At a lull in the entertainment\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"여흥이 잠시 잦아든 때라는 시간 정보가 누락됨\"},{\"id\":\"E002\",\"src_span\":\"the man looked at me and smiled\",\"tgt_span\":\"나를 쳐다보는 그의 눈빛이 너무나도 사랑스러웠다\",\"description\":\"그 남자가 나를 보고 미소 지었다는 사건이 그의 눈빛이 사랑스러웠다는 화자의 감상 서술로 바뀜. 미소 짓는 행위가 사라지고 원문에 없는 평가(사랑스러움)가 첨가됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 시간(여흥이 잠잠해진 때)이 누락되고, 미소 짓는 행위가 '눈빛이 사랑스러웠다'는 평가로 바뀌어 독자가 장면의 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 'At a lull...'이 맡던 시간적 배경 연결이 사라져 앞 사건과의 시간 관계가 끊겼습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\"],\"reason\":\"사건 서술(남자가 보고 미소 지음) → 화자의 감정적 평가 서술. 행위를 전하는 서술이 감상 표현으로 바뀌었습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 3: 중립적 서술에 없던 호감·애정의 태도('사랑스러웠다')가 화자 태도로 덧붙었습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 478,
+    "output_tokens": 856,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfuyyBQw75hRVtGCTik",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0543\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"old sport…\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"Gatsby의 상투적 호칭 'old sport'가 번역에서 누락됨\"},{\"id\":\"E002\",\"src_span\":\"Good night, old sport… Good night.\",\"tgt_span\":\"“안녕히 주무세요.”\",\"description\":\"Good night 두 번 반복이 한 번으로 줄어듦. 반복 인사가 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 호칭 'old sport'가 빠지고 인사 반복이 한 번으로 줄었지만, 작별 인사라는 핵심 내용은 유지되어 요지는 크게 달라지지 않습니다.\"},\"Textual\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현이 없는 짧은 인사말이며, 누락은 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"작별 인사 → 작별 인사. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 인사말입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2·3: Gatsby 특유의 친밀한 호칭 'old sport'가 사라져 화자의 친근한 태도와 호칭이 약해졌습니다. '안녕히 주무세요'라는 높임 인사도 친밀한 관계 표현과 어긋날 수 있으나 호칭 누락이 주된 근거입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"평가할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 583,
+    "output_tokens": 759,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

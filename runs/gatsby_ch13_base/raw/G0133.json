@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfSt9wRxq5FuWkP1HRM",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0133\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"an erect carriage\",\"tgt_span\":\"똑바로 운전\",\"description\":\"곧은 자세(carriage)를 '운전'으로 오역하여 자세 묘사가 사라짐\"},{\"id\":\"E002\",\"src_span\":\"like a young cadet\",\"tgt_span\":\"젊은 학생처럼\",\"description\":\"사관생도(cadet)를 일반 '학생'으로 옮겨 군사적 함의가 사라짐\"},{\"id\":\"E003\",\"src_span\":\"which she accentuated by throwing her body backward at the shoulders\",\"tgt_span\":\"어깨에 몸을 뒤로 던져 강조,\",\"description\":\"어깨에서 몸을 뒤로 젖혀 곧은 자세를 강조한다는 관계가 끊기고 '몸을 던져 강조'로 단절되어 무엇을 강조하는지 불명확해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: carriage가 '운전'으로, cadet이 '학생'으로 바뀌고, 곧은 자세를 어깨를 젖혀 강조하는 행위도 '몸을 던져 강조'로 왜곡되어 독자가 인물 묘사의 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 1: 관계절 which가 가리키는 대상(곧은 자세)이 번역에서 '강조,' 다음 '똑바로 운전'과 이어지지 않아 무엇을 강조하는지 지시 관계가 끊겼습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 외양 서술 → 인물 외양 서술. 서술 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 묘사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 평서 어조에서 관계나 태도 변화가 판정할 만큼 나타나지 않습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: young cadet(사관생도, 군사 훈련 맥락)이 일반 '젊은 학생'으로 바뀌어 다른 대상을 가리키고 사관생도의 기풍이라는 제도적 함의가 전달되지 않습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 884,
+    "output_tokens": 967,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

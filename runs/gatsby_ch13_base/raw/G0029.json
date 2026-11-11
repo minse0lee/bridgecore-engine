@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfKkYMcS65EkRqVuvX9",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0029\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"How do you get to West Egg village?\",\"tgt_span\":\"어떻게 생각하세요?\",\"description\":\"웨스트에그 마을에 가는 길을 묻는 질문이 '어떻게 생각하세요?'라는 의견 질문으로 바뀌고, 장소(West Egg village)가 누락됨\"},{\"id\":\"E002\",\"src_span\":\"helplessly\",\"tgt_span\":\"걱정스러운 목소리로\",\"description\":\"어찌할 바를 모르는 무력함이 '걱정스러운'이라는 다른 감정 상태로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(행위·대상): 길 찾기 질문이 의견을 묻는 질문으로 바뀌고 West Egg village가 사라져 묻는 내용이 달라졌으며, helplessly도 '걱정스러운'으로 바뀌었습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사·연결·초점 표현의 관계는 바뀌지 않았고 내용 변화는 Semantic에서 판정합니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"길을 묻는 정보 요청(도움 요청) → 상대의 의견을 묻는 질문으로 서사 기능이 달라져 장면의 기능이 바뀌었습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 질문으로 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"관계 정보가 뚜렷하지 않고 '~세요' 존댓말은 낯선 사람에게 묻는 상황과 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"West Egg village는 허구 지명이며 별도로 판정할 문화 고유의 제도·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 478,
+    "output_tokens": 809,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

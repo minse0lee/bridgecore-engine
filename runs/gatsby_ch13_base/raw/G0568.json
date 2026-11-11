@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfwbSv7rfgPfC1yQ3Zk",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0568\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"pawing tentatively at the ground\",\"tgt_span\":\"땅을 조심스럽게 핥았다\",\"description\":\"pawing(앞발로 긁듯 더듬다)이 '핥다'라는 전혀 다른 행위로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"a pale, dangling individual\",\"tgt_span\":\"창백하고 매달려있는 개체\",\"description\":\"사람(individual)이 '개체'로 옮겨져 인물성이 약해졌으나 대응은 가능함(통상 번역 범위 내 어색함)\"},{\"id\":\"E003\",\"src_span\":\"the wreck\",\"tgt_span\":\"난파선\",\"description\":\"충돌한 차의 잔해(wreck)가 '난파선'(침몰한 배)으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E003\"],\"reason\":\"판단 질문 1: 땅을 더듬듯 짚는 행위가 '핥았다'로, 자동차 잔해가 '난파선'으로 바뀌어 장면의 행위와 대상이 달라져 독자가 장면을 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Then의 시간 순서와 'with' 수단 관계, 분사구문의 동시 동작 관계가 '그런 다음'과 연결어미로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 '-ㅆ다'가 유지되며 화자·청자 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 없고, 오역 문제는 Semantic에서 판정합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 830,
+    "output_tokens": 823,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

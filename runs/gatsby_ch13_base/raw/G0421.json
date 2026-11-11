@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvfn7Zcd3qaK3ESmHyi7",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0421\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"floating in the Sound was a triangle of silver scales\",\"tgt_span\":\"잔디밭에 떨어지는 딱딱한 은색 비늘 삼각형이 잔디 위에 떠올라\",\"description\":\"해협(the Sound) 위에 떠 있는 은빛 비늘 삼각형이 잔디밭 위에 떠오른 것으로 바뀜. 장소가 바뀌고 '잔디밭에 떨어지는'이 덧붙음\"},{\"id\":\"E002\",\"src_span\":\"to the stiff, tinny drip of the banjoes on the lawn\",\"tgt_span\":\"잔디밭에 떨어지는 딱딱한 은색 비늘 삼각형이\",\"description\":\"잔디밭 밴조의 뻣뻣하고 쨍한 음 방울이라는 떨림의 원인이 사라지고, stiff가 비늘 삼각형을 꾸미는 말로 붙고 밴조가 누락됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 해협 수면 위 → 잔디밭 위로 장소가 바뀌고, 밴조 소리에 맞춰 떨린다는 인과·대상이 누락되어 장면의 요지가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1·3: 'to the … drip of the banjoes'가 떨림의 대상인 소리로 연결되지 않고 stiff, tinny가 삼각형을 꾸미는 말로 붙어 수식·소유 관계가 바뀌었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사 서술 → 장면 묘사 서술. 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술체 '~었다'가 문학 서술의 격식에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유 대상이 없습니다. the Sound의 오류는 지시 대상 오류로 Semantic에서 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1251,
+    "output_tokens": 916,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

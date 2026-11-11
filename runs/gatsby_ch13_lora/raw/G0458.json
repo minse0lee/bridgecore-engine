@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvfo8G4YZMBzsTtsgUPU",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0458\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"constrained to assure her of my surprise\",\"tgt_span\":\"그녀에게 내 놀라움을 확신시켜주기 위해\",\"description\":\"'어쩔 수 없이 ~해야 할 것 같아서'라는 강제·충동의 뉘앙스가 '확신시키기 위해'라는 자발적 목적으로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"to Jordan\",\"tgt_span\":\"그녀에게 … 조던을 향해\",\"description\":\"'그녀'가 먼저 나오고 조던이 따로 나와 조던과 그녀가 별개 인물로 읽힐 수 있어 지시 관계가 흐려짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'constrained'(그럴 수밖에 없는 심정)가 단순 목적('위해')으로 바뀌어 원인·동기가 달라졌으나 핵심 사실(그가 떠나자 조던에게 돌아서서 놀람을 알림)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: '그녀에게'가 조던 앞에 먼저 나와 '그녀'가 조던이 아닌 다른 사람을 가리키는 것처럼 읽혀 지시 대상이 불분명해졌으나 문맥상 복원 가능하여 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 서사 속 행동·심리를 전달하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 평서체 과거형이 유지되며 화자·청자 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명만 있고 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 618,
+    "output_tokens": 850,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

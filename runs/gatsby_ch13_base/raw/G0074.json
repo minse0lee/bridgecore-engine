@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfP7YzDFVtStUi77fvP",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0074\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“I’ve got a nice place here,”\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"인용된 발화 내용 '여기 좋은 집이 있다'가 통째로 누락됨\"},{\"id\":\"E002\",\"src_span\":\"his eyes flashing about restlessly\",\"tgt_span\":\"그의 눈은 불안에 대해 깜박이는\",\"description\":\"'안절부절못하며 두리번거리는 눈빛'이 '불안에 대해 깜박이는'으로 바뀌어 동작(flashing about)과 방식(restlessly)이 달라지고 문장이 불완전함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 화자가 한 말(좋은 집이 있다)이 누락되었고, 눈이 안절부절 두리번거린다는 묘사도 '불안에 대해 깜박이는'으로 달라졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계가 달라진 근거는 없고 내용 누락은 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"인물의 발화를 직접 인용하는 서술 → 발화 내용 없이 '말했다'만 남은 불완전한 서술이 되어 대사 전달 기능이 사라졌습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"높임·호칭 등 관계가 드러나는 표현이 평가 대상으로 나타나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 484,
+    "output_tokens": 768,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

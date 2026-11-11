@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfiBMCzVLNonesJZ6Q9",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0361\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“Wasn’t it for you, Lucille?”\",\"tgt_span\":\"\\\"당신을 위해, 루실이 아니었어요?\\\"\",\"description\":\"루실에게 직접 묻는 말이 '당신을 위해, 루실이 아니었어요?'로 옮겨져 'it'(지난 파티)이 사라지고 '루실이 (당신을 위한 사람)이 아니었나'처럼 읽혀 질문 내용이 불분명해짐\"},{\"id\":\"E002\",\"src_span\":\"Lucille\",\"tgt_span\":\"루실\",\"description\":\"청자 호칭이 '당신'과 병기되어 친구 사이의 호칭·말투가 어색하게 거리감 있게 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'it'(직전에 만난 파티)이 번역에서 빠져 무엇이 루실을 위한 것이었는지 알 수 없고, '루실이 아니었어요'로 읽혀 묻는 내용이 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'it'이 앞 문장의 'the last one'(마지막 파티)을 가리키는 지시 관계가 번역에서 사라져 지시 대상을 알 수 없게 되었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"동반자에게 확인을 구하는 질문 → 확인을 구하는 질문. 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: 같은 일행으로 보이는 친구 사이 대화인데 '당신'과 '~했어요'로 거리감 있는 높임이 쓰였고, 앞 문장에서 같은 상대에게 쓴 '너' 말투와도 맞지 않아 관계에 맞지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명만 있고 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 580,
+    "output_tokens": 895,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

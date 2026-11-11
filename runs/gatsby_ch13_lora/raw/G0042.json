@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfLEDk2nzdWsQf5DrYg",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0042\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a courtesy bay\",\"tgt_span\":\"공손한 만\",\"description\":\"courtesy bay(명목상·형식상으로만 '만'이라 불리는 작은 만)를 '공손한 만'으로 직역해 의미가 달라짐\"},{\"id\":\"E002\",\"src_span\":\"jut out into the most domesticated body of salt water in the Western hemisphere\",\"tgt_span\":\"서반구에서 가장 가축화된 염수인 롱아일랜드 사운드의 위대한 젖은 목장으로 튀어 나온다\",\"description\":\"'롱아일랜드 사운드의 위대한 젖은 목장'이 same-body 동격(the great wet barnyard of Long Island Sound)인데 가장 가축화된 염수와 별개인 듯 읽히고, barnyard를 '목장'으로 옮겨 마당(농가 앞마당)의 은유가 달라짐\"},{\"id\":\"E003\",\"src_span\":\"the most domesticated body of salt water\",\"tgt_span\":\"가장 가축화된 염수\",\"description\":\"body of salt water를 '염수'로 옮겨 바다·해역이라는 지리적 대상이 소금물이라는 물질로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 'courtesy bay'가 '공손한 만'으로, 'body of salt water'가 '염수'로, 'barnyard'가 '목장'으로 바뀌어 대상 의미가 달라졌으나 20마일, 한 쌍의 달걀, 롱아일랜드 사운드 등 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: '염수인 롱아일랜드 사운드의 … 목장'으로 옮겨 'the great wet barnyard of Long Island Sound'가 앞의 해역을 바꿔 말한 동격이라는 지시 관계가 흐려지고, 염수와 롱아일랜드 사운드가 같은 것인지 불분명해집니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"풍경 서술 → 풍경 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 풍경 서술이며 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 화자의 문어체 서술 어조가 평서형 '-ㄴ다'로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"마일 단위와 Long Island Sound 지명을 그대로 유지하여 다른 단위나 제도로 바꾸지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1233,
+    "output_tokens": 1084,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

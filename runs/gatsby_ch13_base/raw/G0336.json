@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfgYBnDzdrSumMeer7M",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0336\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"robin’s-egg blue\",\"tgt_span\":\"로빈의 계란 블루\",\"description\":\"robin's-egg blue(울새 알의 푸른색)를 '로빈의 계란 블루'로 옮겨 로빈을 사람 이름처럼, 계란을 일반 계란처럼 읽히게 함. 색 명칭의 지시 대상이 불분명해짐\"},{\"id\":\"E002\",\"src_span\":\"A chauffeur in a uniform of robin’s-egg blue crossed my lawn\",\"tgt_span\":\"운전수는 … 내 잔디밭을 건너\",\"description\":\"'제복에 운전수는'으로 연결되어 제복을 입은 운전사라는 관계가 불분명하고, 종결어미 없이 '건너:'로 끝나 주어와 행위의 완결이 흐려짐(어순·문법 문제이나 행위자·행위는 복원 가능)\"},{\"id\":\"E003\",\"src_span\":\"a surprisingly formal note from his employer\",\"tgt_span\":\"그의 고용주로부터 놀랍게도 공식적인 메모와 함께\",\"description\":\"'note'를 '메모'로 옮겨 격식 있는 서한이라는 성격이 약해짐. 또 '놀랍게도'가 formal을 수식하지 않고 문장 전체의 감정처럼 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: robin's-egg blue(울새 알의 푸른색)가 '로빈의 계란 블루'로 바뀌어 색 지시 대상이 불분명해졌지만, 운전사가 제복을 입고 편지를 전하러 온 핵심 사태는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1·2: '제복에 운전수는'으로 소유·착용 관계가 흐려지고 '건너:'로 끝나 이후 인용과의 연결이 불완전하지만, 핵심 관계는 복원 가능하여 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사 묘사 → 서사 묘사. 초대 내용을 전하는 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"초대장 인용의 격식 표현일 뿐 의무·허가·금지 등 규범 설정이 없습니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 3: 초대문의 격식 있는 어조(formal note, the honour would be…)가 '메모'와 '것이라고'로 전달되어 격식이 약해졌지만 요지는 유지되어 minor입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"제도·단위·관습 등 문화 고유 대상이 없고, 색 명칭 오역은 Semantic에서만 판정합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 971,
+    "output_tokens": 1148,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

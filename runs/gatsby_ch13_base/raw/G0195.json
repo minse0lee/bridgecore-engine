@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfX8chZYcFtswXYC7gy",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0195\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"She was only extemporizing\",\"tgt_span\":\"그녀는 단지 즉흥적이었지만\",\"description\":\"'즉흥으로 말을 지어내고 있었다'는 행위(extemporizing)가 '즉흥적이었다'는 성향·상태로 바뀌어, 즉흥적으로 말하고 있었다는 의미가 약해짐\"},{\"id\":\"E002\",\"src_span\":\"one of those breathless, thrilling words\",\"tgt_span\":\"숨이 막히고, 흥분되는 단어들 중 하나에\",\"description\":\"'숨을 죽일 듯한, 짜릿한 말' 수식어를 '숨이 막히고 흥분되는'으로 옮겨 정도·뉘앙스가 달라졌으나 말의 성질을 묘사한다는 핵심은 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'extemporizing'(즉흥적으로 말하는 행위)이 '즉흥적이었다'로 바뀌어 말하는 행위가 사라졌으나, 따뜻함이 흘러나왔다는 핵심 사실과 장면의 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"only→'단지', but→'-지만', as if→'마치 …처럼'의 초점·양보·비교 관계와 her/you 지시 대상이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(화자의 묘사) → 서술. 즉흥적 말에도 진심 어린 온기가 전해졌다는 묘사 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 본문의 서술체('-었다')가 유지되며 관계·태도 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위 등 별도 판정 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 831,
+    "output_tokens": 876,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

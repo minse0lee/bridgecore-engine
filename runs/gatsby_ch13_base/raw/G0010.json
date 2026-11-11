@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfJNgBHczsrtGYVQEow",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0010\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the hard rock or the wet marshes\",\"tgt_span\":\"하드 록이나 젖은 늪\",\"description\":\"'단단한 바위'를 음악 장르 '하드 록'으로 음역해, 행동의 단단한 토대를 뜻하는 은유가 사라짐\"},{\"id\":\"E002\",\"src_span\":\"founded on\",\"tgt_span\":\"설립 될 수 있습니다 / 무엇에 설립 상관하지 않습니다\",\"description\":\"'~에 근거하다'가 '설립되다'로 옮겨져 행동의 토대·근거라는 뜻이 제도 설립으로 바뀜. 뒤쪽은 조사 누락으로 문장도 불완전함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: '단단한 바위'가 '하드 록'으로, '근거하다'가 '설립되다'로 바뀌어 행동이 무엇에 근거하는가라는 핵심 내용을 독자가 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but이 '하지만'으로 유지되어 대조 관계가 남고, 'it'도 '그것'으로 행동을 가리켜 지시 관계가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 관용 한계를 밝히는 서술 → 서술. 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"may는 행동이 바위나 늪에 근거할 수 있다는 가능성 의미이며 규범 의미가 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 화자의 서술이 '-습니다'체로 옮겨져 있어 평가조건상 관계·격식 문제가 없고, 어색함만으로는 훼손이 아닙니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화 고유의 제도·단위·관습 대상이 없습니다. 오역은 Semantic에서 판정합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1692,
+    "output_tokens": 859,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

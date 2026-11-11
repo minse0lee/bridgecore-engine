@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfJWVxsgH61h9SanxMx",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0012\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Gatsby, who represented everything for which I have an unaffected scorn\",\"tgt_span\":\"개츠비는 제가 변함없이 경멸하는 모든 것을 대표합니다\",\"description\": \"과거 시제(represented)가 현재 시제('대표합니다')로 바뀌어 서술 시점이 달라짐. 또한 'unaffected scorn'(꾸밈없는 경멸)을 '변함없이 경멸하는'으로 옮겨 경멸의 성격이 지속성으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(시간·내용): 'unaffected'(꾸밈없는, 진심의)가 '변함없이'(지속)로 바뀌고 과거 'represented'가 현재 '대표합니다'로 바뀌었으나, 개츠비가 경멸하는 모든 것을 대표했다는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Only Gatsby'의 초점이 '개츠비만이'로 유지되고, 동격 관계절도 두 문장으로 나뉘었으나 지시 관계가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 입장 설명 → 서술자의 입장 설명. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술자의 회고적 서술이 '제', '~습니다' 체로 일관된 격식을 유지하며 관계에 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명만 있고 별도로 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1597,
+    "output_tokens": 806,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

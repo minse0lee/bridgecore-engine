@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvfbapu2bSuv1LqjCRCr",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0276\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"one aunt about a thousand years old\",\"tgt_span\":\"약 천 년 된 이모 한 명\",\"description\":\"hyperbole(과장)를 그대로 옮겼으나 'aunt'를 '이모'로 한정(어머니 쪽 친척으로 특정). 원문은 이모/고모 구분 없음. 한국어에서는 불가피한 선택으로 보아 의미 변화는 아님.\"},{\"id\":\"E002\",\"src_span\":\"aren’t you, Nick?\",\"tgt_span\":\"그렇지 않아, 닉?\",\"description\":\"부가의문문 'aren't you'(너 그럴 거지, 맞지?)가 '그렇지 않아'로 옮겨져 확인 요청이 부정 의문으로 어색해짐. 의미 변화는 아님.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"가족 구성(나이 많은 이모 한 명), 닉의 돌봄, 주말 체류, 가정의 영향이 좋다는 판단이 모두 유지됩니다. 천 년은 과장된 수량이지만 원문과 같습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'게다가'가 Besides의 추가 관계를 유지하고, 그녀·닉·이모의 지시 관계도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"설명·부탁을 겸한 확인 요청 → 설명과 확인 요청. 닉에게 동의를 구하는 기능이 '그렇지 않아, 닉?'으로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 일상적 서술과 확인 질문이며 의무·허가·금지를 정하는 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"친구 사이의 사적인 대화에 맞는 반말체가 유지됩니다. 마지막 문장의 '~것 같다'는 어색하지만 관계 설정을 바꾸지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 895,
+    "output_tokens": 900,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

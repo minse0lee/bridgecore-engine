@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvftzQCT8WijxszBQEsZ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0527\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I swore I wouldn’t tell it\",\"tgt_span\":\"나는 너희들에게 맹세하노니\",\"description\":\"'그것(이야기)을 말하지 않겠다고 맹세했다'는 내용이 청자에게 하는 현재의 맹세로 바뀌고, 맹세의 대상인 '말하지 않겠다'가 사라짐\"},{\"id\":\"E002\",\"src_span\":\"here I am tantalizing you\",\"tgt_span\":\"내가 너희들을 멸망시키지 아니하리라\",\"description\":\"tantalizing(감질나게 하다)이 '멸망시키다'로 오역되고, 현재 상황 서술이 미래의 부정 약속으로 바뀜\"},{\"id\":\"E003\",\"src_span\":\"But\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"대조 접속사 But이 번역되지 않음\"},{\"id\":\"E004\",\"src_span\":\"you\",\"tgt_span\":\"너희들\",\"description\":\"단수 청자(화자가 말을 거는 한 사람)가 복수 '너희들'로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E004\"],\"reason\":\"판단 질문 1: 비밀을 말하지 않겠다는 맹세가 사라지고, '감질나게 하고 있다'가 '멸망시키지 않겠다'로 바뀌어 행위·시간·부정이 달라졌고 독자가 요지를 다르게 이해합니다. 청자 수도 단수에서 복수로 바뀌었습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 2: 맹세했으나 지금 감질나게 하고 있다는 대조 관계(But)가 번역에서 사라져 앞 문장과의 연결이 달라졌습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"원문 기능 → 번역 기능: 비밀을 지키지 못했다는 자기 고백·변명(가벼운 농담조의 자기 지적) → 성경투의 맹세·약속 선언으로 바뀌었습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"원문은 과거에 한 맹세를 서술하는 문장으로, 화자가 상대에게 의무·금지를 거는 규범 표현이 아니므로 평가할 대상이 없습니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 3: 파티 후 가볍고 친근한 대화체가 '맹세하노니…아니하리라'라는 고풍스럽고 엄숙한 문체로 바뀌어 화자의 가벼운 태도가 달라졌습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 775,
+    "output_tokens": 1120,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

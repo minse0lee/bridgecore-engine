@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfkWYvFgMC9VkJRS83W",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0397\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"he demanded impetuously\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"서술부 'he demanded impetuously'(그가 성급하게 다그쳐 물었다)가 번역되지 않아 발화 방식(다그침, 성급함)이 사라짐\"},{\"id\":\"E002\",\"src_span\":\"What do you think?\",\"tgt_span\":\"그럼 뭐라고 생각하세요?\",\"description\":\"원문에 없는 '그럼'이 추가되어 앞선 내용에 이어지는 연결 관계가 생겼고, 높임 '-세요'로 옮김\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'demanded impetuously'가 누락되어 발화 양태(성급하게 다그침)가 사라졌으나, 질문 내용은 유지되어 요지는 크게 바뀌지 않습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: 원문에 없는 '그럼'이 추가되어 앞 발화에 대한 결과·추론 연결 관계가 새로 생겼습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대 의견을 묻는 질문 → 상대 의견을 묻는 질문. 기능 종류는 같고 다그치는 강도만 약해졌습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-세요' 높임이 화자와 청자의 관계에 맞는지 판단하려면 해당 장면에서 화자(he)와 청자의 관계와 격식 정보가 필요합니다. 성급하고 다그치는 태도가 약해졌는지도 이 정보와 함께 봐야 합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 438,
+    "output_tokens": 832,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

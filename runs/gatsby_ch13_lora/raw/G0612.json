@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfxWVHyDinKr1YQQgVY",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0612\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"from a bad lie\",\"tgt_span\":\"나쁜 거짓말로부터\",\"description\":\"골프 용어 'bad lie'(공이 놓인 나쁜 위치)를 '나쁜 거짓말'로 오역하여 공이 놓인 상태라는 뜻이 사라짐\"},{\"id\":\"E002\",\"src_span\":\"a row that nearly reached the newspapers—a suggestion that she had moved her ball\",\"tgt_span\":\"그녀가 준결승전에서 … 공을 옮겼다는 암시로 신문에 거의 도달한 논쟁이 있었다\",\"description\":\"논쟁의 내용을 설명하는 동격 관계가 '암시로 … 도달한'처럼 수단·원인으로 읽히게 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'bad lie'가 골프의 나쁜 공 위치가 아니라 '나쁜 거짓말'로 바뀌어 공을 어디에서 옮겼는지라는 핵심 내용이 달라졌고, 독자가 의혹의 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: 논쟁과 그 내용(암시)이 대시로 이어지는 동격 관계가 '암시로 신문에 거의 도달한'이라는 수단 관계로 바뀌었으나, 논쟁의 내용이 암시라는 요지는 대체로 파악됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사건 서술 → 사건 서술. 과거의 논란을 설명하는 서사 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 과거 사건 서술이며 의무·허가·금지 같은 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 평서 어조가 유지되며 특별한 관계·호칭 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"골프 대회·준결승 등 일반적 대상은 같은 것을 가리키며 'bad lie' 오역은 Semantic에서만 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1451,
+    "output_tokens": 920,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfczgdWVYnwqMyieMFa",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0299\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"It seemed to me that the thing for Daisy to do was to rush out of the house\",\"tgt_span\":\"데이지가 해야 할 일은 아이를 안고 집을 뛰쳐나가는 것처럼 보였지만\",\"description\":\"'내게 ~해야 할 일로 여겨졌다'는 화자의 판단이 '해야 할 일이 뛰쳐나가는 것처럼 보였다'로 바뀌어, 마땅히 해야 할 행동이라는 내용이 행동이 그렇게 보였다는 서술로 흐려짐\"},{\"id\":\"E002\",\"src_span\":\"apparently there were no such intentions in her head\",\"tgt_span\":\"분명히 그녀의 머릿속에는 그런 의도가 없었다\",\"description\":\"apparently(겉보기에/아무래도)가 '분명히'로 옮겨져 추측이 단정으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 화자가 데이지가 마땅히 뛰쳐나가야 한다고 생각했다는 내용이 '해야 할 일이 ~것처럼 보였다'로 바뀌어 요지가 달라지고, apparently가 '분명히'로 바뀌어 확실성도 달라졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'but'의 대조 관계는 '~지만'으로 유지되고 지시·초점 관계의 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 관찰·평가 서술 → 서술자의 관찰·평가 서술. 서술 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 서술자의 판단이며 규범을 정하는 표현이 아니므로 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 평서체가 유지되며 관계에 맞는 격식입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 966,
+    "output_tokens": 884,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

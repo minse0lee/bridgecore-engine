@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfwswMazFArC2wpytHj",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0603\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the dark lanes of the Forties\",\"tgt_span\":\"40년대의 어두운 골목길\",\"description\":\"뉴욕 맨해튼의 40번가대 거리(Forties)를 '40년대'라는 연대로 옮겨 장소가 시기로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"lined five deep\",\"tgt_span\":\"5층 깊이 줄지어\",\"description\":\"택시가 다섯 줄로 겹겹이 늘어선 모습을 '5층 깊이'로 옮겨 배열 상태가 모호해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(대상·시간): the Forties(40번가대 거리)가 '40년대'라는 연대로 바뀌어 장소가 시기로 읽히고, 'five deep'도 '5층 깊이'로 달라져 장면의 요지를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"when절과 주절의 시간 연결, 'Again'의 반복 관계가 유지되고 지시·초점 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 화자가 장면과 감정을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술체 '-다'가 소설 본문의 어조로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2: 뉴욕 맨해튼 40번가대 거리라는 지리적·도시 문화적 지시가 '40년대'로 바뀌어 한국어 독자가 해당 장소 맥락을 이해하기 어렵습니다. 다만 극장 지구라는 단서가 남아 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1036,
+    "output_tokens": 833,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

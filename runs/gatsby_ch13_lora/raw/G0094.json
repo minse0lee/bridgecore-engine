@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfPstEKNfgR8ZLBXypi",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0094\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"an irrelevant criticism that made it no less charming\",\"tgt_span\":\"그것은 그것이 덜 매력적이지 않게 만드는 관련이 없는 비판이었다\",\"description\":\"'그 비판이 속삭임의 매력을 줄이지 못했다'는 관계가 '그것이 덜 매력적이지 않게 만드는 비판'으로 바뀌어, 비판이 무엇에 대한 것이고 무엇을 하지 못했는지 불분명해짐. 'irrelevant'도 '관련이 없는'으로 옮겨져 비판이 매력과 무관하다는 평가가 흐려짐\"},{\"id\":\"E002\",\"src_span\":\"lean toward her\",\"tgt_span\":\"그녀에게 기대게 만들기\",\"description\":\"'몸을 기울여 가까이 다가오다'가 '기대다'로 옮겨져 의존하거나 몸을 의지하는 뜻으로 읽힐 수 있음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 비판이 속삭임의 매력을 줄이지 못했다는 핵심 평가가 '덜 매력적이지 않게 만드는 관련 없는 비판'으로 왜곡되어 요지가 달라졌고, lean toward도 '기대다'로 바뀌어 행위 내용이 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2: 'that made it no less charming'의 지시 관계가 '그것은 그것이'로 모호해지고, 비판이 매력 감소를 못 일으켰다는 양보적 관계가 흐려졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 부연 설명 → 부연 설명. 데이지에 대한 소문과 이를 반박하는 서술자의 논평 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 회상형 평서체 서술이 유지되며 관계상 어긋나는 높임이나 호칭은 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 918,
+    "output_tokens": 970,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

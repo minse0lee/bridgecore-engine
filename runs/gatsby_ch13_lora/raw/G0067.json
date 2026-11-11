@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfN6v1QGLjKdaSHUtoZ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0067\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"he seemed to fill those glistening boots until he strained the top lacing\",\"tgt_span\":\"그는 그가 상단 끈을 긴장시킬 때까지 반짝이는 부츠를 채우는 것처럼 보였고\",\"description\":\"그의 몸이 부츠를 가득 채워 윗부분 끈이 팽팽해질 정도라는 내용이, 주어가 다른 두 행위자처럼 읽히는 '그는 그가 … 긴장시킬 때까지'로 옮겨져 의미가 모호해짐. 다만 부츠를 채우고 끈을 팽팽하게 한다는 핵심 사태는 대체로 복원 가능.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"승마복의 화려함으로도 몸의 힘을 숨기지 못한다는 내용, 부츠를 꽉 채운 모습, 어깨 근육의 움직임이 모두 유지됩니다. 어색한 표현이지만 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(지시 관계): 'he … until he strained'의 두 번째 he가 부츠 끈을 긴장시키는 주체로 읽혀 지시 관계가 '그는 그가'로 분리되어 모호해졌습니다. 다만 핵심 요지는 복원 가능해 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물의 신체 묘사 → 인물의 신체 묘사. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 묘사 문장으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 문체와 화자의 관찰 태도가 평서체로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1154,
+    "output_tokens": 841,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

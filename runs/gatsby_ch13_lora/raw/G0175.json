@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfVChiA2qv69BJLyjdY",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0175\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“We’ve got to beat them down,”\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"데이지가 속삭인 인용 대사 전체가 번역문에서 누락됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 데이지가 속삭인 내용(더위를 이겨내야 한다는 말)이 통째로 빠져 문장이 표현한 핵심 내용이 달라졌습니다. 번역문만 읽으면 요지를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사 them 등 지시 대상이 번역문에 남아 있지 않지만 그것은 누락 자체의 문제이며, 연결·초점 관계는 따로 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 원문은 등장인물이 대사로 말하는 발화(대화 장면)였으나 번역문은 속삭였다는 서술만 남아 대사의 기능이 사라졌습니다. 대사 발화 → 행동 묘사로 기능이 바뀌었습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"번역문에 규범 표현이 남아 있지 않고, 원문의 'got to'는 규범이라기보다 인물의 대사 속 필요 표현이므로 번역된 구간에서 평가할 규범 대상이 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"번역문에 화자와 청자 사이 관계를 드러내는 대사가 없어 평가할 대상이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명만 있고 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 526,
+    "output_tokens": 775,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

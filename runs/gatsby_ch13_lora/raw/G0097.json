@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfQ4QFeKEYXLRXzGoYc",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0097\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"draws a stunned tribute from me\",\"tgt_span\":\"나에게서 놀란 경의를 표한다\",\"description\":\"'전시가 나에게서 경의를 끌어낸다'는 구조가 '전시가 경의를 표한다'로 바뀌어 경의를 표하는 주체가 전시가 되고, 경의를 바치는 사람인 화자 '나'는 출처로 밀려남\"},{\"id\":\"E002\",\"src_span\":\"exhibition of complete self-sufficiency\",\"tgt_span\":\"완전한 자급자족의 전시\",\"description\":\"자신감 있는 태도·모습을 보이는 것(exhibition)을 '전시'로 옮기고 자급자족을 경제적 의미로 읽히게 하여 화자가 감탄하는 대상이 흐려짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(행위자·행위): 화자가 놀라 경의를 바치는 사태가 '전시가 경의를 표한다'로 바뀌어 누가 누구에게 경의를 표하는지가 달라졌고, exhibition도 '전시'로 옮겨져 요지를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 관계·연결·초점 표현(Almost any의 범위는 '거의 모든'으로 유지)이 바뀌지 않았고, 변화는 Semantic에서 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 성향 설명(서술) → 성향 설명(서술). 발화 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가를 나타내는 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 평서체('-한다')가 유지되며 관계에 맞는 어조입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 이 문장에 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 741,
+    "output_tokens": 853,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

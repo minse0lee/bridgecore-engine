@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvg1fGhuTj3cn3qvms5C",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0629\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“They’ll keep out of my way,”\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"'그들(다른 운전자들)이 내 길을 피할 것이다'라는 그녀의 발언 내용이 통째로 누락됨\"},{\"id\":\"E002\",\"src_span\":\"she insisted\",\"tgt_span\":\"말했다\",\"description\":\"주장·고집(insisted)이 단순한 말하기로 바뀜\"},{\"id\":\"E003\",\"src_span\":\"대응 구간 없음(첨가)\",\"tgt_span\":\"내 손을 꼭 잡으며\",\"description\":\"원문에 없는 '내 손을 꼭 잡는' 행동이 첨가됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 핵심 발언(그들이 내 길을 피할 것이라는 주장)이 사라지고, 원문에 없는 손을 잡는 행위가 더해져 독자가 문장의 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2: 'They'가 가리키는 다른 운전자들과 이어지는 'It takes two' 발언과의 연결 관계가 누락 때문에 사라졌습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"자신의 운전에 대한 확신을 주장하는 발화 → 손을 잡으며 말했다는 서술. 안심시키려는 반박·주장 기능이 사라졌습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"번역문에 화자와 청자의 관계를 드러내는 높임·호칭·태도 표현이 남아 있지 않아 판정할 대상이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 490,
+    "output_tokens": 854,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

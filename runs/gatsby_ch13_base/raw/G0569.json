@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfwdGJBQad9NuErCYD9",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0569\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the horns\",\"tgt_span\":\"뿔소리\",\"description\":\"자동차 경적(horns)을 동물의 뿔로 오역해 '뿔소리'라 옮겨 소리의 발생원이 달라짐\"},{\"id\":\"E002\",\"src_span\":\"the man in the duster\",\"tgt_span\":\"먼지털이를 입은 남자\",\"description\":\"duster(먼지막이 긴 외투)를 청소도구 '먼지털이'로 오역해 남자가 입은 옷의 종류가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 경적 소리가 '뿔소리'로, 먼지막이 외투가 '먼지털이'로 바뀌어 대상이 달라졌고 독자가 장면을 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사 'he'의 지시와 'before'의 시간 연결, 분사구문의 원인 관계가 유지되어 세 질문 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 소설 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"문어체 서술체가 유지되며 화자·청자 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"오역 외에 판정할 문화 고유의 제도·단위·관습이 없습니다. 오역은 Semantic에서만 기록합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 662,
+    "output_tokens": 715,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

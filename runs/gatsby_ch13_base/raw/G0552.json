@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvfva33ZpDQGUAtsGc4m",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0552\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the late patron of Gatsby’s library\",\"tgt_span\":\"개츠비의 도서관의 죽은 후원자\",\"description\":\"'the late patron'(최근에 사망한 고인이 된 단골/후원자)에서 'late'는 '고인이 된'이라는 뜻이나 '죽은 후원자'로 옮겨 어조가 달라졌고, 무엇보다 'patron'(도서관 이용객)이 '후원자'로 오역되어 서재를 찾던 손님이라는 의미가 사라짐\"},{\"id\":\"E002\",\"src_span\":\"I recognized first the unusual quality of wonder, and then the man\",\"tgt_span\":\"나는 처음으로 경이로움의 특이한 품질을 인식했으며, 그리고 나서 그 남자\",\"description\":\"'first ... and then'(먼저 ... 그다음)의 순서 표현이 '처음으로'로 옮겨져 순서 관계가 흐려짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물·대상): 'patron'(서재를 찾던 손님)이 '후원자'로 바뀌어 그 남자가 누구인지가 달라졌고, 'late'도 '죽은'으로 옮겨져 독자가 인물 정체를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2(시간 순서): 'first ... and then'의 '먼저 A, 그다음 B' 순서가 '처음으로 ... 그리고 나서'로 되어 '처음으로'가 '처음 경험'처럼 읽혀 순서 관계가 흐려졌으나, '그리고 나서'가 남아 있어 순서는 대체로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 인물을 알아보는 과정을 묘사하는 서사 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 평서체 문어체가 유지되며 화자·청자 관계에 따른 높임이 문제 되지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"판정할 문화 고유의 제도·관습·단위가 없고 인명만 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 662,
+    "output_tokens": 975,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

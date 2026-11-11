@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfRtJ69ryHBbBZV4CUE",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0120\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I’d be a God damned fool to live anywhere else.\",\"tgt_span\":\"다른 곳에서 살 수있는 하나님의 빌어 먹을 바보가 될 것입니다\",\"description\":\"'다른 곳에서 살면 바보일 것'이라는 조건·함의가 '다른 곳에서 살 수 있는 바보가 될 것'으로 바뀌어 사는 곳을 동쪽에 한정하겠다는 의미가 사라지고 다른 곳에서 살 수 있다는 능력 의미로 오역됨\"},{\"id\":\"E002\",\"src_span\":\"God damned\",\"tgt_span\":\"하나님의 빌어 먹을\",\"description\":\"욕설 강조어 'God damned'가 '하나님의 빌어먹을'로 직역되어 바보를 강조하는 관용적 욕설 기능이 약해지고 어색한 수식 관계가 됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 다른 곳에 살면 바보라는 조건·판단이 '다른 곳에서 살 수 있는 바보'로 바뀌어 요지를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3: 'to live anywhere else'가 바보가 되는 이유·범위를 한정하는 부정사 관계인데, 번역에서는 바보를 수식하는 관형절로 바뀌어 초점과 범위 관계가 달라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"동쪽에 머물겠다는 화자의 단언·다짐 → 서술 기능은 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 3: 화자의 거친 속어·강조 태도가 '하나님의 빌어 먹을'이라는 어색한 직역으로 바뀌어 구어적 욕설의 태도가 제대로 전달되지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·단위·관습 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 633,
+    "output_tokens": 943,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

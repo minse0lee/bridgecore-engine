@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfJYq7sTAP4nFPyvGKs",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0014\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"that flabby impressionability which is dignified under the name of the “creative temperament”\",\"tgt_span\":\"“창조적 기질”이라는 이름 아래 존엄성을 부여받은 느슨한 영향력\",\"description\":\"impressionability(감수성·영향받기 쉬움)가 '영향력'으로 바뀌어, 쉽게 영향받는 성향이 영향을 미치는 힘처럼 읽힘\"},{\"id\":\"E002\",\"src_span\":\"a romantic readiness such as I have never found in any other person\",\"tgt_span\":\"나는 다른 사람에게서 결코 발견하지 못했던 낭만적인 준비성이었으며\",\"description\":\"'낭만적인 준비성'을 설명하는 관계절이 '나는 … 준비성이었으며'로 옮겨져 화자가 준비성이었던 것처럼 읽히고, 개츠비의 선물과 준비성의 동격 관계가 흐려짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: impressionability가 '영향력'으로 바뀌어 대비되는 성질이 달라졌고, 관계절 구조가 무너져 '나는 … 준비성이었으며'로 읽혀 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1·2: 'a gift for hope, a romantic readiness'의 동격과 'such as I have never found'의 관계절이 끊어져, '나는'이 준비성의 서술 주어로 읽히는 등 지시 관계가 흐트러졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 특성 서술·평가 → 인물 특성 서술·평가. 서술 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"never와 shall은 경험과 예측의 의미이며 규범 의미가 아니므로 평가할 대상이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 화자의 회고적 서술이 평서체로 유지되어 관계와 태도가 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1814,
+    "output_tokens": 944,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

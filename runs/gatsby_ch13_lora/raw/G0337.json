@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvffbKGeLVpi7oV6hLzB",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0337\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"—signed Jay Gatsby, in a majestic hand.\",\"tgt_span\":\"특이한 상황의 조합이 그것을 방해했으며, 장엄한 손으로 제이 개츠비라고 서명했다.\",\"description\":\"편지 말미에 'Jay Gatsby'라고 서명되어 있다는 서술이 번역문에서는 상황의 조합이 방해했으며 (누군가가) 서명했다는 병렬 서술로 읽혀, 서명 행위가 편지의 일부임이 불분명해지고 주체도 모호해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"여러 번 봄, 오래전 방문 의도, 특이한 상황의 방해, 서명한 사람 개츠비라는 내용이 모두 유지됩니다. 서명 서술의 연결 방식 변화는 Textual에서 다룹니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2: 줄표 뒤 'signed Jay Gatsby'는 편지 말미의 서명을 가리키는 부가 서술인데, 번역문은 '방해했으며 … 서명했다'로 이어 붙여 서명의 주어가 '상황의 조합'처럼 읽혀 지시·연결이 흐트러집니다. 다만 개츠비가 서명했다는 요지는 읽을 수 있어 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"편지 내용 서술 → 편지 내용 서술. 초대 편지의 내용을 전하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 평서 문체가 유지되며 별도의 높임·호칭 관계 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 909,
+    "output_tokens": 860,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

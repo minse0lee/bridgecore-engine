@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfmRAFHVgK4QTZqT8oe",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0410\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"alertly, cheerfully\",\"tgt_span\":\"경계심과 쾌활함으로\",\"description\":\"부사 alertly(기민하게, 방심 없이)와 cheerfully(명랑하게)가 '경계심'과 '쾌활함'이라는 명사로 바뀌어 바라보는 태도가 아닌 감정 상태처럼 읽힘. 다만 두 가지 태도가 병렬로 유지되어 핵심 의미 변화는 미미함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"요르단이 대답 없이 그를 기민하고 쾌활하게 바라본다는 행위자·행위·대상이 유지되며, alertly를 '경계심'으로 옮긴 것은 표현 방식과 정도 차이에 그칩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그'의 지시 대상과 '대답하지 않고'의 부대 상황 관계가 유지되며 초점·범위 표현의 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물의 반응을 묘사하는 서술 → 인물의 반응을 묘사하는 서술로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문의 평서체('~보았다')가 유지되며 인물 간 관계나 태도를 바꾸는 호칭 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명만 등장하며 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 484,
+    "output_tokens": 734,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

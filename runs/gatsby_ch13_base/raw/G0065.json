@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfNMijv7dJ8Au2eQi8N",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0065\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"straw-haired\",\"tgt_span\":\"밀짚모자를 쓴\",\"description\":\"밀짚색 머리카락이 밀짚모자를 쓴 것으로 바뀌어 신체 묘사가 복장 묘사로 달라짐\"},{\"id\":\"E002\",\"src_span\":\"a rather hard mouth\",\"tgt_span\":\"엄한 입술\",\"description\":\"'다소 굳고 냉혹한 입매'가 '엄한 입술'로 옮겨졌고 rather(정도)도 사라짐. 평가어의 정도·뉘앙스 차이에 그침\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상·속성): 머리카락 색 묘사가 모자 착용이라는 다른 대상·사실로 바뀌어 인물의 외모를 다르게 이해하게 됩니다. 'hard mouth'의 '엄한 입술'은 평가어 차이로 보고 보존으로 봅니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"with 이하 속성 나열과 대명사 관계가 유지되며 지시·연결·초점의 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 외모 묘사(서술) → 인물 외모 묘사(서술)로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술체 본문이며 '거만한 태도'로 화자의 부정적 태도도 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1023,
+    "output_tokens": 749,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

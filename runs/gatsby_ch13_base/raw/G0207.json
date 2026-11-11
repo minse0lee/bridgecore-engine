@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfXxNq3JmG3i3Giu3ih",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0207\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I thought everybody knew.\",\"tgt_span\":\"누구나 알고 있을 법한 사실이었다.\",\"description\":\"화자(Miss Baker)의 생각·믿음을 드러내는 직접 발화가 '누구나 알 법한 사실'이라는 서술자의 객관적 진술로 바뀌어 1인칭 주체(I thought)와 화자 인식이 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물·행위·확실성): '나는 모두가 안다고 생각했다'는 화자의 믿음이 '누구나 알 법한 사실이었다'는 사실 진술로 바뀌어 사고 주체와 내용의 지위가 달라지고, 놀람의 근거라는 요지가 다르게 읽힙니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 지시·연결·초점 표현이 번역에서 바뀐 부분이 없어 1·2·3 모두 해당하지 않습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"인물이 놀라며 자기 가정을 밝히는 대화 발화 → 서술자의 설명 진술로 바뀌어 대화 속 발화 기능이 사라졌습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 문장입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: Miss Baker의 구어체 대화 발화가 서술체 '~였다'로 바뀌어 화자가 상대에게 말하는 관계와 태도가 드러나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 495,
+    "output_tokens": 781,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

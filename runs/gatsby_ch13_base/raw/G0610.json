@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfzNpyJ4a54xZ5vCjtU",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0610\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"most affectations conceal something eventually, even though they don’t in the beginning\",\"tgt_span\":\"처음에는 숨기지 않더라도 대부분의 감정은 결국 무언가를 숨긴다\",\"description\":\"affectations(꾸민 태도·허세)가 '감정'으로 오역되어 대상이 달라짐\"},{\"id\":\"E002\",\"src_span\":\"even though they don’t in the beginning\",\"tgt_span\":\"처음에는 숨기지 않더라도\",\"description\":\"'처음에는 숨기지 않더라도'로 옮겨 '처음엔 숨기는 게 없다가 결국 숨기게 된다'는 양보 구조는 대체로 유지되나, 문장 분할로 삽입절의 연결이 약해짐(의미 변화 없음)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상): affectations(꾸민 태도·허세)가 '감정'으로 바뀌어 일반 명제의 대상이 달라졌으나, 얼굴이 무언가를 숨겼고 내가 그 정체를 알아냈다는 핵심 사실은 유지되어 요지 이해에는 큰 영향이 없어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"삽입절이 별도 문장으로 분리됐지만 '그녀의 얼굴이 숨긴 것'과 '그것이 무엇인지'의 지시 관계, 양보 연결('-더라도')이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술·설명 → 서술·설명. 화자가 인물의 속내를 발견했다고 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술 문장으로 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 화자의 서술체('-다')가 유지되고 관계상 문제되는 높임·호칭 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1475,
+    "output_tokens": 908,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfQLWryGyqnE1DpccMq",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0094\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"an irrelevant criticism that made it no less charming\",\"tgt_span\":\"그것은 별로 매력적이지 않은 상관없는 비판이었다\",\"description\":\"'그 비판이 속삭임의 매력을 덜하게 하지 않았다'는 내용이 '비판이 별로 매력적이지 않다'로 바뀌어 매력 판단의 대상과 방향이 뒤바뀜\"},{\"id\":\"E002\",\"src_span\":\"I’ve heard it said that Daisy’s murmur was only to make people lean toward her\",\"tgt_span\":\"나는 데이지의 속삭임이 … 불과하다고 말하는 것을 들었는데\",\"description\":\"'누가 그렇게 말하는 것을 들었다'가 '내가 ~라고 말하는 것을 들었다'로 읽혀 말하는 사람과 듣는 사람이 모호해지고 화자가 직접 말한 것처럼 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 비판이 데이지 속삭임의 매력을 줄이지 못했다는 내용이 비판 자체가 매력적이지 않다는 내용으로 바뀌었고, 소문을 전해 들은 행위자 관계도 달라져 요지가 달라집니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 'no less charming'이 비판에도 불구하고 매력이 유지된다는 양보·대조 관계인데, 번역은 비판을 수식하는 말로 바뀌어 연결 관계가 사라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 부연 설명 → 부연 설명. 괄호 속에서 소문과 자기 견해를 덧붙이는 서술 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술자의 평서체 '~었다'가 유지되어 관계와 격식에 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 881,
+    "output_tokens": 943,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvfg4UuaR54g4BftFwnT",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0328\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Gilda Gray’s understudy\",\"tgt_span\":\"길다 그레이의 아웃스터디\",\"description\":\"understudy(대역 배우)를 '아웃스터디'로 잘못 음역해 '대역'이라는 지시 대상이 사라짐\"},{\"id\":\"E002\",\"src_span\":\"the Follies\",\"tgt_span\":\"포리스\",\"description\":\"Ziegfeld Follies(공연 쇼)를 '포리스'로 음역해 한국어 독자가 공연 쇼/극단임을 알기 어려움\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: understudy(대역 배우)가 의미 없는 음역 '아웃스터디'로 바뀌어, 그녀가 무엇이라는 잘못된 소문인지 알 수 없게 되어 문장의 요지가 달라집니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'~하고', '~면서'로 병렬·동시 관계가 유지되고 대명사 '그녀'의 지시와 초점 표현에 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 파티 분위기를 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설의 서술 문장으로 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문으로 화자·청자 관계에서 판정할 높임·호칭·태도 요소가 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: 브로드웨이 공연 쇼 Follies가 '포리스'로만 옮겨져 한국어 독자가 공연 제도·문화적 대상임을 이해하기 어렵습니다. 다만 인명 길다 그레이와 문맥으로 큰 의미 이해는 유지되어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 911,
+    "output_tokens": 837,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

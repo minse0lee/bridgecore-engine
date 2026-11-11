@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfkN5h1CfygDNHDf73d",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0394\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"tried an important-looking door\",\"tgt_span\":\"중요한 보이는 문을 시도하고\",\"description\":\"'important-looking'(중요해 보이는)이 '중요한 보이는'으로 어색해졌고, 문을 열어 보았다는 행위가 '시도하고'로 모호해졌으나 문과 시도라는 요지는 해석 가능\"},{\"id\":\"E002\",\"src_span\":\"walked into a high Gothic library\",\"tgt_span\":\"높은 고딕 라이브러리로 걸어\",\"description\":\"'walked into'(걸어 들어갔다)가 '걸어'로 줄어 서재 안으로 들어갔다는 행위가 불완전하게 표현됨\"},{\"id\":\"E003\",\"src_span\":\"panelled with carved English oak, and probably transported complete from some ruin overseas\",\"tgt_span\":\"조각 영어 오크 패널, 아마도 해외에서 몇 가지 폐허에서 완전히 운송\",\"description\":\"'panelled with'(~로 벽판을 댄)와 'carved'(조각된)가 명사 나열로 바뀌고 'English oak'가 '영어 오크'로 오역됨. 'transported'가 서술어 없이 '운송'으로 남고, 'some ruin'(어떤 폐허)이 '몇 가지 폐허'로 바뀜. 서재가 폐허에서 통째로 옮겨졌다는 추측 구조가 흐려짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 문에 들어섰다는 행위, 영국산 오크 판벽, 폐허에서 통째로 옮겨 왔다는 추측이 '영어 오크', '몇 가지 폐허', 서술 없는 '운송'으로 바뀌어 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 2: 서재가 '~로 벽판이 되어 있고 ~에서 옮겨졌다'는 수식 관계가 서술어 없는 명사 나열로 끊겨, 오크 판벽과 서재, 이전 대상의 관계가 알 수 없게 되었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 서술 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체로 관계·격식에 따른 높임이나 호칭 차이가 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 1: 영국산 오크를 가리키는 'English oak'가 '영어 오크'로 오역되어 영국의 재료·유래라는 문화적 함의가 전달되지 않습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 787,
+    "output_tokens": 1144,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

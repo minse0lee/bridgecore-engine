@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfzTTn8Ai31a4TwoZh4",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0611\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"she left a borrowed car out in the rain with the top down, and then lied about it\",\"tgt_span\":\"빌린 차를 천장이 열려있는 채로 비오는 곳에 두고 가서 거짓말을 했습니다\",\"description\":\"차를 비 오는 곳에 두고 난 뒤 그 일에 대해 거짓말했다는 내용이, 두고 가서 (무언가에 대해) 거짓말했다는 말로 바뀌어 거짓말의 대상(it)이 불분명해짐\"},{\"id\":\"E002\",\"src_span\":\"the story about her that had eluded me that night at Daisy’s\",\"tgt_span\":\"데이지의 집에서 그날 밤 잊어버렸던 그녀에 대한 이야기\",\"description\":\"그 이야기가 그날 밤 기억나지 않았다(eluded)는 뜻인데 '잊어버렸던'으로 옮겨 그날 밤 이미 알았다가 잊은 것처럼 읽힘. 주로 뉘앙스 차이\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'lied about it'의 대상이 불분명해지고, 'eluded me'가 '잊어버렸던'으로 바뀌었으나 핵심 사건(차를 둔 일, 거짓말, 이야기를 떠올림)은 유지되어 요지는 크게 달라지지 않습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'lied about it'의 'it'이 가리키는 대상(차를 둔 일)이 번역문에서 드러나지 않아 지시 대상을 알 수 없게 되었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 사건을 서술하고 기억을 떠올리는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 회상하는 서술체이며 '~습니다' 서술이 관계상 부적절하지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"지명·인명(워릭, 데이지)과 일반적인 하우스 파티 표현만 있어 별도로 판정할 문화 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1518,
+    "output_tokens": 979,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

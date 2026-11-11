@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfK38UKMfRLh3iVTah4",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0020\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I came back restless\",\"tgt_span\":\"나는 걱정없이 돌아왔다\",\"description\":\"restless(들뜨고 불안정한 상태)가 '걱정없이'(근심 없는 상태)로 바뀌어 의미가 반대에 가깝게 달라짐\"},{\"id\":\"E002\",\"src_span\":\"so thoroughly that\",\"tgt_span\":\"너무 완전히 즐겼다 나는\",\"description\":\"'so…that' 결과 구문이 연결어 없이 두 문장으로 나뉘어 원인-결과 관계가 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(상태): 돌아온 뒤의 불안정한 상태(restless)가 '걱정없이'라는 근심 없는 상태로 바뀌어 화자의 귀환 상태가 달라졌습니다. 뒤 문장의 '중서부가 가장자리처럼 보였다'로 이어지는 맥락상 요지를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2(연결 관계): so…that의 인과 결과 관계가 연결어 없이 나열된 두 절로 바뀌어 '너무 즐겨서 불안해졌다'는 관계가 사라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 화자의 경험을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회상 서술의 평어체 '-다'가 유지되어 서술 상황과 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1265,
+    "output_tokens": 826,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

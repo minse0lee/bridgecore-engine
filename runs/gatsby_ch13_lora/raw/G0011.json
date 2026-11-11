@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvfzx5UAExEnsZAH4FHM",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0011\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the East\",\"tgt_span\":\"동양\",\"description\":\"미국 중서부 화자가 돌아온 '동부(East Coast)'가 '동양(Orient)'으로 오역되어 지리적 지시 대상이 달라짐\"},{\"id\":\"E002\",\"src_span\":\"in uniform and at a sort of moral attention\",\"tgt_span\":\"균일하고 일종의 도덕적 관심에 영원히 있기를\",\"description\":\"군대의 '차렷/제복' 은유(in uniform, at attention)가 '균일하다'와 '도덕적 관심'으로 옮겨져 군대식 정렬·경계 자세의 의미가 사라짐\"},{\"id\":\"E003\",\"src_span\":\"riotous excursions with privileged glimpses into the human heart\",\"tgt_span\":\"인간의 마음에 특권을 엿볼 수 있는 더 이상의 난폭한 여행\",\"description\":\"'privileged glimpses'(특권적으로 허락된 내면 엿보기)가 '마음에 특권을 엿볼 수 있는'으로 의미가 불분명해지고, 방탕한 일탈(riotous excursions)이 '난폭한 여행'으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 'the East'가 '동양'으로 바뀌어 장소가 달라졌고, 군대식 'in uniform/at attention' 은유와 'privileged glimpses'의 내용도 달라져 요지를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결 관계(when 시간절, 세미콜론으로 이어지는 두 소망)와 'no more'의 초점이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 심경 서술 → 심경 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 개인적 바람을 말할 뿐 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회상 서술의 문어체 평서 톤이 유지되며 관계상 문제되는 높임·호칭이 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 미국 동부(뉴욕 등 동부 해안)라는 지리·문화적 대상이 '동양'(아시아)이라는 다른 대상으로 바뀌어 한국어 독자가 다른 지역으로 이해합니다. 단순 오역을 넘어 다른 지리문화 개념으로 대체된 것으로 봅니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1688,
+    "output_tokens": 1084,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

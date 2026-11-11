@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvfXknKZ8oN2HFqJovAD",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0206\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"You mean to say you don’t know?\",\"tgt_span\":\"“그렇게 말씀하시는 건가요?”\",\"description\":\"'당신이 모른다는 말이냐'는 놀람의 확인 질문이 '그렇게 말씀하시는 건가요?'로 바뀌어 '모른다'는 핵심 내용이 사라지고 무엇을 확인하는지 알 수 없게 됨\"},{\"id\":\"E002\",\"src_span\":\"said Miss Baker, honestly surprised\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"화자(Miss Baker)와 '진심으로 놀랐다'는 서술이 누락됨\"},{\"id\":\"E003\",\"src_span\":\"대응 구간 없음(첨가)\",\"tgt_span\":\"“그렇게 말씀하시는 건가요?” “그렇게 말씀하시는 건가요?”\",\"description\":\"같은 대사가 한 번 더 반복되어 원문에 없는 발화가 추가됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: '모른다'는 내용, 화자 Miss Baker, 진심으로 놀람이 빠지고 대사가 중복되어 번역문만 읽으면 문장 요지를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현이 두드러지게 바뀐 부분은 없으며 내용 누락은 Semantic에서 판정합니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"상대가 모른다는 데 놀라 되묻는 반응 → 상대의 말뜻을 확인하는 일반 질문. 놀람 표현이 사라지고 서술 기능도 누락되어 발화 기능이 달라졌습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 문장입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"Miss Baker가 상대(닉)에게 쓰는 높임 수준이 '말씀하시는'에 맞는지 판단하려면 두 인물의 관계·격식 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다. 호칭 Miss Baker는 인명 호칭 수준이라 별도 판정 대상이 아닙니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 529,
+    "output_tokens": 999,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
