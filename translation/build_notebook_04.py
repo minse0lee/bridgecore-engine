@@ -22,12 +22,14 @@ md("""# 책 번역 — MADLAD-400 10B + lora_v1
 - `translate_input__lora.jsonl` (lora_v1 번역), `translate_input__base.jsonl` (학습 전 번역, `BASE_TOO=True`일 때)
 - `run_info.json` (환경·시간·잘린 문장 수)
 
+**GPU**: A100·H100 권장. L4(24GB)면 자동으로 8비트로 불러옴(느리고, v1 평가와 계산 방식이 조금 다름). T4 불가
+
 **실행**: ① 설치 셀만 실행 → '런타임 → 세션 다시 시작' → 1번 셀부터 끝까지.
 끊겨도 다시 실행하면 이미 번역한 문장은 건너뛴다 (256문장마다 저장).
 """),
 code("""# ① 맨 먼저 이 셀만 실행 → 끝나면 '런타임 → 세션 다시 시작' → 다음 셀부터
 !pip list --format=freeze | grep -E '^(torch|torchvision|torchaudio)==' > /content/torch_pin.txt
-!pip -q install -c /content/torch_pin.txt transformers peft accelerate sentencepiece protobuf
+!pip -q install -c /content/torch_pin.txt transformers peft accelerate sentencepiece protobuf bitsandbytes
 !pip -q uninstall -y torchao
 """),
 md("## 1. 설정"),
@@ -39,7 +41,7 @@ drive.mount('/content/drive')
 
 BASE = Path('/content/drive/MyDrive/bridgecore_mt')
 ADAPTER = BASE / 'runs' / 'lora_v1' / 'adapter_best'
-INPUT = BASE / 'book' / 'translate_input.jsonl'
+INPUT = BASE / 'book' / 'translate_input.jsonl'          # 1·3장만 먼저: 'translate_input_ch1_3.jsonl'
 OUT_DIR = BASE / 'book' / 'out'
 BASE_TOO = True        # 학습 전 번역도 만들기 (책에서 학습 전후 비교용). 시간은 약 2배
 
@@ -49,7 +51,8 @@ PREFIX = '<2ko> '
 GEN = dict(num_beams=4, do_sample=False, max_new_tokens=256)   # lora_v1 평가와 같은 설정
 MAX_SRC = 256
 GPU_GB = torch.cuda.get_device_properties(0).total_memory / 1e9
-BS = 32 if GPU_GB > 60 else 16
+LOAD_8BIT = GPU_GB < 35   # L4(24GB) 등: 10B 모델(bf16 약 21GB)이 안 들어가 8비트로 불러옴 → v1 평가와 계산 방식이 달라 번역이 조금 다를 수 있음
+BS = 32 if GPU_GB > 60 else (16 if not LOAD_8BIT else 8)
 CHUNK = 256
 
 assert ADAPTER.exists(), f'어댑터 없음: {ADAPTER}'
@@ -57,17 +60,23 @@ assert INPUT.exists(), f'입력 없음: {INPUT}'
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 rows = [json.loads(l) for l in open(INPUT, encoding='utf-8') if l.strip()]
 assert len({r['id'] for r in rows}) == len(rows), 'id 중복'
-print(f'GPU {torch.cuda.get_device_name(0)} {GPU_GB:.0f}GB | 문장 {len(rows)}개 | 단어 {sum(len(r["en"].split()) for r in rows)}')
+print(f'GPU {torch.cuda.get_device_name(0)} {GPU_GB:.0f}GB | 8비트 {LOAD_8BIT} | 문장 {len(rows)}개 | 단어 {sum(len(r["en"].split()) for r in rows)}')
+assert GPU_GB > 20, 'T4 등 16GB GPU로는 불가. A100·H100·L4 중 선택'
 """),
 md("## 2. 모델 불러오기"),
 code("""from transformers import T5ForConditionalGeneration, T5Tokenizer
 from peft import PeftModel
 import transformers, peft
 tok = T5Tokenizer.from_pretrained(MODEL_ID, revision=REVISION)
+kw = dict(revision=REVISION, device_map={'': 0})
+if LOAD_8BIT:
+    from transformers import BitsAndBytesConfig
+    kw['quantization_config'] = BitsAndBytesConfig(load_in_8bit=True)
 try:
-    m = T5ForConditionalGeneration.from_pretrained(MODEL_ID, revision=REVISION, dtype=torch.bfloat16, device_map={'': 0})
+    m = T5ForConditionalGeneration.from_pretrained(MODEL_ID, dtype=torch.bfloat16, **kw)
 except TypeError:
-    m = T5ForConditionalGeneration.from_pretrained(MODEL_ID, revision=REVISION, torch_dtype=torch.bfloat16, device_map={'': 0})
+    m = T5ForConditionalGeneration.from_pretrained(MODEL_ID, torch_dtype=torch.bfloat16, **kw)
+print(f'GPU 메모리 사용 {torch.cuda.memory_allocated()/1e9:.1f}GB')
 pm = PeftModel.from_pretrained(m, str(ADAPTER)); pm.eval(); pm.config.use_cache = True
 print('어댑터:', ADAPTER, '| transformers', transformers.__version__, '| peft', peft.__version__)
 """),
@@ -75,7 +84,7 @@ md("## 3. 번역 (256문장마다 저장, 끊기면 이어서)\n\n입력 토큰�
 code("""ntok = {r['id']: len(tok(PREFIX + r['en']).input_ids) for r in rows}
 long_ids = {i for i, n in ntok.items() if n > MAX_SRC}
 print('256토큰 넘는 문장:', len(long_ids))
-meta = {"model": MODEL_ID, "revision": REVISION, "adapter": "lora_v1", "gen": GEN, "prefix": PREFIX,
+meta = {"model": MODEL_ID, "revision": REVISION, "adapter": "lora_v1", "gen": GEN, "prefix": PREFIX, "load": "int8" if LOAD_8BIT else "bf16",
         "transformers": transformers.__version__, "torch": torch.__version__}
 
 def gen(texts, use_adapter, long=False):
