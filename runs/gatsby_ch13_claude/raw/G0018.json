@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvhS37AABDAcmZCuTr5r",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0018\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I’m supposed to look like him\",\"tgt_span\":\"사람들은 내가 그분을 닮았다고 한다\",\"description\":\"'닮았다고 여겨진다'는 내용에 행위자 '사람들'이 추가되고, 기대·통념의 뜻이 '남들이 그렇게 말한다'는 전언으로 좁혀짐. 번역 과정의 사소한 변화로 핵심 사실은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"큰할아버지를 본 적 없음, 닮았다고 여겨짐, 사무실의 억센 초상화라는 내용이 유지됩니다. '사람들'은 be supposed to의 비특정 주체를 자연스럽게 드러낸 통상적 대응이고, hard-boiled → '억세 보이는'은 평가어 정도 차이일 뿐입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but의 대조 관계가 '-지만'으로 유지되고, 'with special reference to' 초점도 '초상화를 두고'로 이어져 지시·연결·초점 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 가족 배경 설명 → 가족 배경 설명. 기능이 동일합니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"never는 과거 경험의 부정이고 supposed to는 통념을 나타내므로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회고 서술의 평서체('-다')가 유지되며 관계·태도 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1466,
+    "output_tokens": 769,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

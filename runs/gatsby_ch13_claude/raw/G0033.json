@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvhShhNnrvNsfDDike4M",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0033\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the freedom of the neighbourhood\",\"tgt_span\":\"이 동네의 자유로운 시민권\",\"description\":\"'freedom of the neighbourhood'는 '(도시의) 명예시민권/자유 이용권'이라는 제도적 관용 표현을 은유로 쓴 것인데, '자유로운 시민권'으로 옮겨 '자유'가 시민권을 수식하는 형용으로 바뀌고 '동네를 자유롭게 드나들 권리'라는 의미가 흐려짐. 또한 'freedom of the city'라는 명예시민권 제도 함의가 전달되지 않음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: '동네의 자유(자유롭게 다닐 권리)'가 '자유로운 시민권'으로 바뀌어 수여된 대상의 내용이 다소 달라졌으나, 무심코 동네에 대한 소속·자유를 부여받았다는 요지는 대체로 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'He'가 가리키는 인물, 앞 문장과의 연결, 초점 표현에 변화가 없습니다(질문 1·2·3 모두 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 은유적 자기 서술 → 같은 서술 기능. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 회고적 서술체가 '~였다'로 유지되며 관계·격식에 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 'freedom of the city/neighbourhood'의 명예시민권이라는 제도적 관용을 '자유로운 시민권'이라는 일반 어휘로 옮겨 제도적 의미가 충분히 전달되지 않습니다. 다만 '시민권 수여'라는 은유 구도는 남아 있어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 619,
+    "output_tokens": 904,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

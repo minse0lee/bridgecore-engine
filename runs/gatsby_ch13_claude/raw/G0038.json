@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvhSs5vkHpBoRdRpiyje",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0038\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I was rather literary in college\",\"tgt_span\":\"나는 대학 시절에 꽤 문학적인 편이어서\",\"description\":\"원문의 병렬(대학 때 문학적이었다 — 대시 삽입절 — 이제 되돌리려 한다)이 '-어서'라는 인과 연결로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대학 시절 문학적이었음, 사설 연재, 그런 것들을 되돌려 놓으려 함, 가장 제한된 전문가인 '균형 잡힌 사람'이 되려는 내용이 모두 유지됩니다. '시야가 좁다'는 limited의 자연스러운 대응이며 'a series'는 '연재'로 옮겨졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(연결 관계): 원문은 대학 시절 문학적이었다는 사실과 이제 되살리겠다는 의도를 병렬로 이은 것인데, 번역은 '문학적인 편이어서'로 인과 연결을 만들어 관계가 바뀌었습니다. 다만 핵심 사실은 유지되어 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 과거 회상과 의도 서술 → 과거 회상과 의도 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 소설 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 화자의 회상 서술체('-했다', '-참이었다')가 소설 본문 문맥에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Yale News를 《예일 뉴스》로 통용되는 방식으로 옮겨 같은 대상을 가리키며, 다른 제도로 바꾸지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1282,
+    "output_tokens": 831,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

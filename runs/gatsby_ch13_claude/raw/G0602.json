@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvhsbHrr6dVLwfc896oG",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0602\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"felt it in others\",\"tgt_span\":\"다른 이들에게서도 그것을 보았다\",\"description\":\"타인에게서 외로움을 '느꼈다'가 '보았다'로 바뀌어 지각 방식이 달라짐. 다만 외로움을 알아차렸다는 핵심 내용은 유지됨\"},{\"id\":\"E002\",\"src_span\":\"windows\",\"tgt_span\":\"쇼윈도\",\"description\":\"창문이 '쇼윈도'로 구체화됨. 문맥상 상점 진열창으로 읽을 수 있어 의미 변화는 작음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"황혼 무렵의 외로움, 가난한 젊은 사무원들, 혼자 먹는 저녁 식사를 기다림, 밤과 삶의 순간을 헛되이 보냄 등 핵심 내용이 유지됩니다. '느꼈다'→'보았다'와 windows→'쇼윈도'는 같은 사태를 가리키는 범위의 차이입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그것'은 외로움을 가리키고 대시로 이은 동격 반복이 '말이다'로 자연스럽게 재구성되어 지시·연결 관계가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 도시 묘사·정서 서술 → 같은 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 화자의 회고적 서술체가 문어체 평서문으로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·단위·관습 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1465,
+    "output_tokens": 806,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

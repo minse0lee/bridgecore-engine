@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvhv411SeR1rRy3P7LZW",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0281\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Did you give Nick a little heart to heart talk\",\"tgt_span\":\"닉한테 속 얘기라도 좀 털어놓은 거야\",\"description\":\"'닉에게 속마음 대화를 해 주었느냐'는 쌍방향 대화가 '닉한테 속 얘기를 털어놓았느냐'는 화자(상대)의 일방적 고백으로 바뀌어 행위 방향이 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위·참여자): 닉과 나눈 heart-to-heart 대화가 닉에게 속내를 털어놓은 일방적 행위로 달라졌으나 베란다·닉·질문이라는 핵심 사태는 유지되어 요지 이해에 큰 차이는 없습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현의 대상이 바뀌지 않았고 '라도'는 질문의 가벼운 뉘앙스일 뿐 초점 이동으로 보기 어렵습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 다그치며 캐묻는 질문 → 다그치는 질문. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 대화 속 질문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 상대(데이지 혹은 동석자)에게 던지는 반말 질문 '~거야?'와 다그치는 태도가 유지되며 관계상 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"판정할 문화 고유의 제도·관습·단위가 없고 인명만 등장합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 546,
+    "output_tokens": 772,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

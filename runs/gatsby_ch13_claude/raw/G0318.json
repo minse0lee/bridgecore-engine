@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvhfKE8akAktqYw928ox",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0318\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"At least once a fortnight\",\"tgt_span\":\"적어도 이 주에 한 번은\",\"description\":\"fortnight(2주, 14일)를 '이 주'로 옮겨 기간이 2주에서 모호한 '이 주'(이번 주 또는 2주)로 바뀜. '이 주'는 '이번 주'로 읽히기 쉬워 빈도가 달라짐\"},{\"id\":\"E002\",\"src_span\":\"several hundred feet of canvas and enough coloured lights\",\"tgt_span\":\"수백 피트에 달하는 천막용 캔버스와 … 많은 색전구\",\"description\":\"수백 피트의 canvas와 색전구가 모두 연회업자가 가져온 것으로 읽히며, 이는 원문과 같아 의미 변화 없음(참고용 비오류)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(시간·수량): 'once a fortnight'(2주에 한 번)가 '이 주에 한 번'으로 옮겨져 주기가 달라지거나 '이번 주'로 읽혀 파티 빈도 정보가 왜곡됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현의 대상이 유지되며, 'at least'의 범위도 '적어도 … 한 번'으로 그대로 남아 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 파티 준비 장면을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가를 나타내는 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체('-었다')가 유지되며 화자·독자 관계에 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3·1(기간 단위): fortnight이라는 영국식 기간 단위가 '이 주'로 바뀌어 2주라는 단위 의미가 전달되지 않습니다. 다만 수치는 같은 문장 내 서술에 한정되어 독자의 이해 영향이 제한적이므로 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1221,
+    "output_tokens": 922,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

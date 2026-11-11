@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvhguo2hLYr8J3ppszJx",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0351\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"they\",\"tgt_span\":\"두 아가씨\",\"description\":\"대명사 they를 '두 아가씨'로 옮겨 수와 성별·신분 정보를 첨가함. 문단 문맥만으로는 they의 정체와 수를 확인할 수 없음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'두 아가씨'가 원문 they의 실제 지시 대상(두 명의 젊은 여성)과 맞는지 판단하려면 앞선 장면(Ⅲ장 앞부분, 등장하는 두 여성)의 확인이 필요합니다. 제공된 문맥만으로는 확정할 수 없습니다.\"},\"Textual\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"질문 1(지시 대상): they가 가리키는 인물이 '두 아가씨'와 일치하는지 앞 문맥이 없어 확인할 수 없습니다. 앞 문장 정보가 필요합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인사하며 외치는 서술 → 인사하며 외치는 서술. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"“Hello!”가 '안녕!'으로 옮겨져 친근한 인사 태도가 유지되며, 문맥상 관계에 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 475,
+    "output_tokens": 696,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

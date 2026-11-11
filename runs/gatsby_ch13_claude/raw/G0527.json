@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvhpUqa6inmHALsfKm8f",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0527\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"tantalizing you\",\"tgt_span\":\"당신 애만 태우고 있네요\",\"description\":\"'애태우다(약 올리듯 감질나게 하다)'에 '만'이라는 한정 표현이 더해졌으나 핵심 사태는 유지됨. 의미·기능을 바꾸지 않는 차이이므로 실질 오류 아님.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"맹세, 말하지 않겠다는 내용, 지금 상대를 감질나게 하고 있다는 사태가 모두 유지됩니다. '애만 태우다'는 tantalize의 통상적 대응입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"But의 대조 관계가 '하지만'으로, 맹세와 현재 행동 사이의 연결이 '-는데'로 유지됩니다. '만'은 tantalize의 의미를 풀어 쓴 표현으로 초점 이동이 아닙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"자기 행동에 대한 설명·자책 섞인 발화 → 동일한 설명 발화. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"wouldn't tell은 화자의 맹세 내용이며 의무·허가·금지를 부과하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"파티에서 만난 지인에게 하는 가볍고 정중한 구어체가 '~네요'로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 820,
+    "output_tokens": 730,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvhbyzegvxLiMsePUVfw",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0241\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"It’ll show you\",\"tgt_span\":\"이걸 들으면 알 거야\",\"description\":\"'It'(곧 이야기할 일화)이 '이걸 들으면'으로 옮겨져 이야기를 듣는 행위가 조건으로 명시됨. 지시 대상은 문맥상 유지되어 의미·기능을 바꾸지 않는 통상적 대응이므로 실질 오류는 아님\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"곧 이야기할 일화가 화자가 사물에 대해 느끼게 된 방식을 보여 준다는 내용이 유지되고, 'things'도 '이런저런 일들'로 대응됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'It'이 가리키는 뒤따르는 일화는 '이걸'로 유지되고, 연결·초점 관계도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뒤따르는 이야기를 소개하는 서두 설명 → 같은 종류의 서두 설명으로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 같은 규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"친구 사이 대화에서 반말체 '알 거야'가 쓰였고, 이는 동등하거나 친근한 관계의 대화와 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 895,
+    "output_tokens": 708,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

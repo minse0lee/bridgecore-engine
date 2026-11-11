@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvhVzxXUvBVmAXxYCc6X",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0109\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"you ought to see her\",\"tgt_span\":\"한번 봐야지\",\"description\":\"'you ought to see her'(그녀를 만나 봐야 한다/꼭 만나 보라는 권유)에서 'see'를 '보다'로 옮겨 '만나 보다'의 뜻이 약간 흐려지고 'you' 생략됨. 다만 의미는 통상적 대응 범위 내.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그녀를 만나 봐야 한다'는 내용과 미완의 'She's—'가 '한번 봐야지. 그 애는—'으로 유지되며, 'her'를 '그 애'로 옮긴 것도 같은 대상을 가리킵니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"her와 She가 '그 애'로 같은 인물을 가리키며, Well이 '그럼'으로 이어지고 중단된 문장 구조도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 만나 보라는 권유 → 만나 보라는 권유(혼잣말투 동조 포함). 기능 종류가 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"ought to는 대화 속 개인적 권유로 의무·허가·금지를 정하는 규범이 아니므로 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그 애', '~야지' 같은 반말이 화자와 청자의 관계에 맞는지 판단하려면 대화 당사자(예: 톰과 닉의 관계, 지칭되는 인물의 나이·지위) 정보가 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 549,
+    "output_tokens": 781,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

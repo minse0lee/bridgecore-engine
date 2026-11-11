@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvhnGbKJ4naByfdVz3JF",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0474\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"out of nowhere\",\"tgt_span\":\"아무 데서나\",\"description\":\"'어디서 왔는지 알 수 없는 곳(출처 불명)'이 '아무 데서나'로 바뀌어 출신 불명의 뜻이 '어디서든'으로 읽힘. 다만 문맥상 의미 차이는 작음\"},{\"id\":\"E002\",\"src_span\":\"a palace\",\"tgt_span\":\"궁궐 같은 저택\",\"description\":\"palace가 '궁궐 같은 저택'으로 풀려 옮겨짐. 의미는 유지되는 통상적 대응으로 오류 아님에 가까움\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'out of nowhere'(출처를 알 수 없이)가 '아무 데서나'(어디서든)로 바뀌어 출신 불명의 함의가 약해졌으나, 핵심 사실(젊은이가 흘러들어 저택을 산다는 것)과 화자의 믿음은 유지되어 요지는 크게 다르지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"삽입구 'at least…'가 별도 문장으로 분리되었지만 '적어도 … 그렇게 믿고 있었다'로 '그렇게'가 앞 문장의 내용을 가리키고 초점·범위가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 의구심과 자기 한계를 밝히는 서술 → 같은 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술로 의무·허가·금지를 정하는 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 회고체 평서문 어조와 'provincial inexperience'의 자기 비하적 태도가 '세상 물정 모르는 시골뜨기'로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에서 롱아일랜드 해협은 지명이며 별도로 판정할 문화 고유의 제도·단위·관습 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 946,
+    "output_tokens": 902,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvhet1KqageACfz1CPHz",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0308\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I could have sworn he was trembling\",\"tgt_span\":\"그가 떨고 있었다고 맹세할 수 있을 것 같았다\",\"description\":\"'맹세할 수도 있었을 만큼 확신했다'는 가정적 확신이 '맹세할 수 있을 것 같았다'로 옮겨져 확신의 정도가 다소 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"부르지 않은 이유, 두 팔을 뻗음, 멀리 떨어져 있음, 떨고 있다고 확신함 등 내용이 유지됩니다. '맹세할 수 있을 것 같았다'는 확신 표현이 다소 약하지만 같은 사태를 기술하며 요지가 달라지지 않아 훼손으로 보지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"But→'그러나', for→'-기 때문이다'로 대조·인과 관계가 유지되며 'far as I was'의 양보 관계도 '-는데도'로 남아 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(인물 행동과 관찰 묘사) → 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 소설 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 화자의 서술체 '-다'가 소설 본문에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1164,
+    "output_tokens": 721,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

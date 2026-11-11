@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvhfJTVbeFRkH1eEL9Bw",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0317\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"if a little button was pressed two hundred times\",\"tgt_span\":\"이백 번만 누르면\",\"description\":\"'이백 번 눌러야 한다'는 조건이 '이백 번만 누르면'으로 옮겨져, 이백 번이 필요한 노동량이 아니라 적은 횟수로 읽힐 소지가 있음. 다만 수량과 조건은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기계, 집사의 엄지, 단추 200번, 30분, 오렌지 200개의 즙이라는 수량·조건·행위자가 모두 유지됩니다. '만'은 어감을 더할 뿐 사실을 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"if 조건과 주절 사이의 조건 관계가 '-면'으로 유지되고, 초점·지시 관계도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"저택의 호화로움을 묘사하는 서술 → 같은 서술 기능. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 묘사 문장으로 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 평서체 '-었다'가 유지되어 서술 태도가 같습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"판정할 문화 고유의 제도·단위·관습이 없습니다. 시간과 수량은 일반적 표현입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 802,
+    "output_tokens": 700,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

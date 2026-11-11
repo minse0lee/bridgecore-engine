@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvhSCo4oiGpGfKZSwAm4",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0024\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"after various delays\",\"tgt_span\":\"이런저런 일로 몇 번 늦어진 끝에\",\"description\":\"'various delays'가 '몇 번 늦어진'으로 옮겨져 지연의 횟수가 덧붙여졌으나 의미 차이는 미미함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"아버지의 1년 생활비 지원, 여러 지연, 동부로 온 시점(1922년 봄), 영구 정착 의도가 유지됩니다. 'twenty-two'를 1922년으로 옮긴 것은 맥락상 정확하며 힌트는 오경보입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'permanently, I thought'의 삽입적 관점이 '그때는 아주 눌러살 작정이었다'로 분리되어 과거 시점의 생각이라는 관계가 유지되고, 시간·순서 연결도 보존됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 과거 서술 → 과거 서술. 서사적 설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서사 문장입니다. 아버지의 지원 합의는 사실 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회고 서술의 평서체('-다')가 소설 본문 문체와 관계에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·단위·관습이 없고, 연도 표기는 통용되는 방식입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1490,
+    "output_tokens": 729,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

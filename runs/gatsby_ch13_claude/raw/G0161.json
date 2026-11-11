@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvhYS7B5RNb7avK56wAh",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0161\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"They were here\",\"tgt_span\":\"두 사람은 그저 거기 있었고\",\"description\": \"원문에 없는 '그저'가 더해져 존재의 의미가 약간 축소됨(의미 변화는 미미)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"그들이 거기 있었고 톰과 화자를 받아들이며 정중하고 유쾌한 접대 시늉만 했다는 내용이 유지됩니다. '그저'는 어조 차이일 뿐 사실 내용을 바꾸지 않습니다. '두 사람'은 문맥상 데이지와 베이커 양을 가리켜 맞습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"only의 초점이 '시늉만'으로 같은 대상(effort)에 붙어 있고 and의 연결도 유지됩니다. 대명사 They도 문맥상 같은 두 사람을 가리킵니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물의 태도를 묘사하는 서술 → 서술. 기능이 그대로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문이며 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"3인칭 서술의 문어체 '~었다'가 유지되며 화자와 인물 사이에 요구되는 높임 관계가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명만 있고 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1197,
+    "output_tokens": 709,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

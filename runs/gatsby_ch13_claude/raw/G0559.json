@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvhqrKRoCwrbtqKoc4iW",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0559\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"you oughtn’t to try driving at night\",\"tgt_span\":\"밤에는 운전대를 잡지 말았어야죠\",\"description\":\"현재·일반적 조언(밤에 운전을 시도해서는 안 된다)이 과거 행위에 대한 비난(잡지 말았어야 했다)으로 바뀜. 시제·시간 지시가 달라지고 'try'의 시도 의미는 생략됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(시간): 일반적 조언 'oughtn't to try driving'이 '잡지 말았어야죠'라는 과거 사실에 대한 후회·비난으로 바뀌었으나, 서툰 운전자는 밤에 운전하지 말라는 핵심 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"if 조건('서툴면')과 Well('아니')의 연결 관계가 유지되고 지시·초점 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대의 운전 행동에 대한 비판·충고 → 비판·충고. 같은 종류의 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"oughtn't의 규범적 권고(금지에 가까운 충고)가 '말았어야죠'로 권고·비난의 강도로 유지되며 주체와 조건도 같습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 가벼운 질책 어조가 '-죠' 구어체로 유지되고 관계에 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 498,
+    "output_tokens": 755,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

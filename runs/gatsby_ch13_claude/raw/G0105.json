@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvhVqbDredZvtFxW7rkH",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0105\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"You ought to see the baby.\",\"tgt_span\":\"너도 우리 아기를 꼭 봐야 해.\",\"description\":\"'the baby'에 없던 소유('우리')가 덧붙고, 'ought to'에 없던 강조 부사 '꼭'이 더해짐. 화자(데이지)의 아기라는 점은 문맥상 같아 의미 변화는 미미함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'then she added irrelevantly'는 '그러고는 뜬금없이 덧붙였다'로, 'see the baby'는 '아기를 봐야 해'로 옮겨져 행위·대상·화자의 서술이 같습니다. '우리 아기'는 문맥상 화자의 아기를 가리키는 자연스러운 보충이고, '꼭'은 강도 차이에 그칩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Then'의 시간 순서가 '그러고는'으로 유지되고, 'the baby'가 가리키는 대상은 문맥상 데이지의 아기로 바뀌지 않았습니다(질문 1 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞말과 무관하게 덧붙인 권유·제안 → 뜬금없이 덧붙인 권유·제안. 같은 종류의 기능입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'ought to see'는 인물 간 대화에서 아기를 보라고 권하는 개인적 권유이며 의무·허가·금지를 정하는 규범이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"데이지가 남편 톰에게 하는 말이므로 반말이 관계에 맞고, 친근한 태도가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 674,
+    "output_tokens": 810,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

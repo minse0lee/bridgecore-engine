@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvhiTGu5vcTeiVrbJfFj",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0387\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"violent innuendo\",\"tgt_span\":\"노골적인 음담\",\"description\":\"violent(격렬한·과격한)가 '노골적인'으로 바뀌고 innuendo(넌지시 하는 암시)가 '음담'으로 옮겨졌으나, 성적 암시를 입에 달고 사는 인물이라는 핵심 내용은 유지되어 평가어 정도의 차이에 그침\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"부부 세 쌍(3 유지), 에스코트, 끈질긴 대학생, 암시적 성적 언사, 조만간 몸을 내줄 거라는 확신 등 인물·수량·행위·확실성이 모두 유지됩니다. 힌트의 수치 3도 '세 쌍'으로 보존되었고 '노골적인 음담'은 평가어 정도의 차이입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그는', '자기에게'가 대학생을 가리키고 '조던이'가 주어로 유지되어 지시 관계가 맞으며, 나열 연결과 'sooner or later' 범위도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 문맥에서 일행 구성과 인물을 묘사하는 설명 → 같은 설명 기능.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체가 유지되고, 대학생에 대한 서술자의 약간 비꼬는 태도도 '달라붙는', '입에 달고 살았고' 등으로 전달됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·단위·관습 표현이 없습니다. 'escort'는 음역이지만 통용되는 표기입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1253,
+    "output_tokens": 816,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvhTGYKSYzSKHJXVdZiq",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0046\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"twelve or fifteen thousand a season\",\"tgt_span\":\"한 철 임대료가 1만 2천 달러, 1만 5천 달러씩 하는\",\"description\":\"'12천 또는 15천'(1만 2천 또는 1만 5천 달러)을 옮긴 것으로 수치는 정확하며, 힌트의 숫자 불일치는 표기 차이로 인한 오경보였음. 오류 아님.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"집의 위치(섬 끝, 해협에서 50야드), 두 거대한 저택 사이에 끼임, 한 철 임대료 1만 2천~1만 5천 달러가 모두 유지됩니다. 힌트의 수치 불일치는 한국어 표기 차이로 인한 오경보입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'my house'와 두 저택의 관계, 병렬 나열된 위치 정보의 연결이 유지되며 지시·초점 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자 집의 위치를 묘사하는 서술 → 같은 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 묘사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회상 서술의 평서 문체(~었다)가 소설 본문 톤에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"야드와 달러를 원문 그대로 유지하고 다른 단위·통화로 바꾸지 않았으며, 'Sound'를 '해협'으로 옮겨 같은 지리 대상을 가리킵니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1582,
+    "output_tokens": 771,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

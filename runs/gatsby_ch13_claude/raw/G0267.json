@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvhd7SukohU2smjmpwmU",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0267\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I will.\",\"tgt_span\":\"일어날게요.\",\"description\":\"원문의 'I will'은 앞선 발화의 내용을 받는 대용 표현인데, 번역문은 '일어날게요'로 구체적 행위를 덧붙임. 직전 대화(문맥 없음)에서 무엇을 약속했는지 확인할 수 없어 첨가 여부가 불확실함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'I will'의 생략된 행위가 '일어나다'인지 확인하려면 직전 발화(Carraway가 무엇을 요청·언급했는지)가 필요합니다. 나머지 인사말은 동일합니다.\"},\"Textual\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'I will'이 가리키는 앞 발화의 대상을 확인해야 대용 관계가 유지되었는지 판정할 수 있어 직전 문맥이 필요합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"응답·약속 및 작별 인사 → 응답·약속 및 작별 인사. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없고 개인의 약속과 작별 인사입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Mr. Carraway에 대한 정중한 호칭과 '-요' 존댓말, '캐러웨이 씨'가 관계에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"평가할 문화 고유의 제도·단위·관습 대상이 없고 인명 호칭만 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 492,
+    "output_tokens": 730,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

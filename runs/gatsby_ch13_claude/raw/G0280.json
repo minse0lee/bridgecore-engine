@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvhddsjgVJGPBCXwUrEk",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0280\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Our white girlhood was passed together there. Our beautiful white—\",\"tgt_span\":\"순백의 소녀 시절을 함께 보냈지. 우리의 아름다운 순백의——\",\"description\":\"원문의 'white'는 Jordan이 말하는 백인(인종)이라는 함의(백인 소녀 시절)를 담는데, 번역은 '순백의'로 옮겨 순수·결백의 의미로 바뀌고 인종적 함의가 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'white girlhood'가 백인 소녀 시절에서 순수한 소녀 시절로 바뀌어 수식 내용이 달라졌습니다. 나머지(루이빌, 함께 보냄)는 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 관계, 연결, 초점 표현이 유지되고 끊긴 문장 구조도 그대로 남아 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"출신지와 과거를 말하는 서술(대화) → 같은 서술(대화). 발화 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"친구 사이의 구어체 반말(~지, ~어)이 대화 상황에 어울리며 태도가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 1920년대 미국 남부 상류층 백인 소녀들의 인종적 특권이라는 'white'의 문화적 함의가 '순백의'라는 일반 어휘로 옮겨져 한국어 독자가 이해할 수 없게 되었습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 540,
+    "output_tokens": 785,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

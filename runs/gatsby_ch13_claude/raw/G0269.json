@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvhd94PjJKKYDtM4zRta",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0269\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"lock you up accidentally\",\"tgt_span\":\"실수인 척 … 가둬 버리거나\",\"description\":\"'accidentally'(우연히/실수로)가 '실수인 척'(의도적 위장)으로 바뀌었으나, 데이지가 일부러 둘을 엮으려는 계획이라는 문맥상 취지는 유지되어 의미 차이는 미미함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위의 양태): 'accidentally'가 '실수인 척'으로 바뀌어 우연을 가장한다는 뉘앙스가 더해졌으나, 결혼 주선·가둠·바다로 떠밀기 등 핵심 사실은 유지되어 요지 변화는 없습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Come over often … and I'll fling you together'의 조건·결과 연결이 '그러면'으로 유지되고 지시 대상도 그대로입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"데이지의 장난스러운 계획 제안·초대 → 같은 기능의 제안·초대로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Come over often'은 개인적 초대·바람이며 의무·금지·자격을 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"데이지가 친구 닉에게 하는 친근한 반말이 유지되고 주저하는 말투('음, 어머')도 살아 있습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"linen closets를 '리넨 벽장'으로 옮겨 같은 대상을 가리키며 다른 제도·단위로 바꾸지 않았습니다. 자동 점검 힌트의 수치는 오경보로 보입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1002,
+    "output_tokens": 792,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

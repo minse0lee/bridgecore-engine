@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvhx9fsZ1njyKs8HdQKe",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0170\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"will be—will be utterly submerged\",\"tgt_span\":\"그냥—그냥 완전히 파묻혀 버린다는 거야\",\"description\":\"'will be'(미래 예상)가 '버린다'(현재형 단정)로 옮겨졌고 'utterly'가 '그냥 완전히'로 바뀌었다. 'ought to'의 '읽어봐야 해'와 마찬가지로 통상 대응이며 의미 변화는 경미하다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"훌륭한 책, 모두가 읽어야 함, 조심하지 않으면 백인종이 완전히 잠식됨, 과학적으로 입증됨이라는 내용이 모두 유지됩니다. 미래형이 현재형으로 바뀐 것은 가정 구문에서 통상적인 대응이며 '그냥'은 말더듬 반복의 덧붙임일 뿐 사실 내용을 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조건('조심하지 않으면')과 귀결의 연결, 'it's all scientific stuff; it's been proved'의 부연 관계('~이고, 이미 입증된')가 유지되고 지시 대상도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물이 책을 권하며 자기 주장을 펼치는 발화 → 동일한 권유·주장 발화. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 모두에게 그 책을 읽을 것을 권고하는 'ought to'가 '읽어봐야 해'로 통상 대응되어 권고의 강도가 유지됩니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"동석한 지인들 앞에서 하는 구어체 발화가 반말 '~야'로 옮겨져 문맥상 관계와 단정적 태도가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'백인종'이 'the white race'에 대응하여 인종주의적 과학 담론이라는 시대적·문화적 함의가 그대로 전달됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 823,
+    "output_tokens": 902,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

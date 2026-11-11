@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvhpmB69vTnjkFahts2D",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0533\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"he enjoined me eagerly\",\"tgt_span\":\"그가 간곡하게 나를 달랬다\",\"description\":\"enjoined(권하다·당부하다)가 '달랬다'(달래다, 진정시키다)로 바뀌고 eagerly(열심히, 간절히)가 '간곡하게'로 옮겨져, 상대에게 요구하는 행위가 상대를 진정시키는 행위로 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위): enjoined(당부·권유)가 '달랬다'(위로·진정)로 바뀌어 발화 동사의 행위 내용이 달라졌으나, 말한 내용과 행위자·대상은 유지되어 요지는 크게 다르지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현이 달라지지 않았습니다. 'he'와 'me'의 대응도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"감사에 대한 사양·권유 → 사양·달래는 말. 상대에게 신경 쓰지 말라고 하는 같은 종류의 기능으로 읽힙니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 사양 표현으로 의무·허가·금지를 정하는 규범 의미가 아닙니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-세요' 높임체가 개츠비와 화자 닉의 관계에 맞는지 판단하려면 두 사람 사이의 관계·격식 기대 정보가 필요합니다. 평가조건은 문서의 실제 상황을 따르라고만 합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 687,
+    "output_tokens": 801,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

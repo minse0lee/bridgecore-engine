@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvhpdH5XZmwncmeCqEzk",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0529\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Mrs. Sigourney Howard\",\"tgt_span\":\"시거니 하워드 부인\",\"description\":\"Sigourney를 '시거니'로 옮겼으나 통용 표기(시고니)와 다소 다름. 인명을 알아볼 수 있어 의미 훼손은 없음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"만나러 와 달라는 요청, 전화번호부, 하워드 부인 이름, 이모라는 정보가 모두 유지됩니다. Please를 '꼭'으로 옮겨 강도만 달라졌고 '나와 있어요'는 Under the name of의 자연스러운 풀이입니다. 인명 표기 차이는 지시 대상을 알 수 없게 하지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'우리 이모예요'의 소유 관계가 My aunt와 같고, 단편적 정보를 나열하는 연결 구조도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"만나러 오라는 요청과 연락 방법 안내 → 만나러 오라는 요청과 연락 방법 안내. 같은 종류의 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"개인적인 부탁이며 규범적 의무·허가·금지를 정하는 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서로 격식 없이 말하는 사교 장면에서 '~와요', '~예요'의 부드러운 해요체가 친근하고 가벼운 태도를 유지합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 문화 고유의 제도·단위·관습으로 따로 판정할 대상이 없습니다. 전화번호부는 일반 사물입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 842,
+    "output_tokens": 782,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

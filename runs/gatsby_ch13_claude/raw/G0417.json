@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvhjmFvFZTG3g26TqNsc",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0417\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"keeping in the corners\",\"tgt_span\":\"구석에서만 맴돌았다\",\"description\":\"'구석에 머무는' 것이 '구석에서만 맴돌았다'로 바뀌고 '만'이 더해져 초점·한정이 첨가됨. 다만 뜻은 대체로 유지되므로 경미한 차이.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"노인들이 아가씨들을 미는 모습, 잘난 체하는 커플, 구석에 머묾, 혼자 춤추는 수많은 아가씨, 악단의 짐을 덜어 주는 내용이 모두 유지됩니다. 'tortuously'를 '몸을 비비 꼬듯'으로 옮긴 것은 같은 사태를 기술하고, '맴돌았다'는 머무는 모습과 크게 다르지 않습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(초점·범위): 원문에 없는 '구석에서만'의 '만'이 더해져 커플들이 구석에서'만' 움직인다는 한정 초점이 생겼습니다. 다만 핵심 사실은 유지되어 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"파티 장면 서술 → 파티 장면 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범적 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 '~했다'가 유지되고 '잘난 체하는', '투박한' 등 서술자의 풍자적 태도가 전달됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1620,
+    "output_tokens": 790,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

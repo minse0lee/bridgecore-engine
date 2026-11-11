@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvhgLMcqjqhoFD6BEktZ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0338\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I went over to his lawn a little after seven, and wandered around\",\"tgt_span\":\"그의 잔디밭으로 건너갔지만, … 서성거릴 뿐이었다\",\"description\":\"원문의 병렬 연결(and)이 '-지만'(대조)과 '뿐'(한정)으로 바뀌어 '서성거리기만 했다'는 한정 초점이 더해짐\"},{\"id\":\"E002\",\"src_span\":\"though here and there was a face I had noticed on the commuting train\",\"tgt_span\":\"간간이 통근 열차에서 본 기억이 있는 얼굴도 눈에 띄긴 했다.\",\"description\":\"though의 양보 관계가 별도 문장의 '-도 … 긴 했다'로 옮겨졌으나 양보 관계는 유지됨(의미 변화 없음)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"흰 플란넬 차림, 7시 조금 넘어 잔디밭 방문, 모르는 사람들 사이에서 어색하게 서성임, 통근 열차에서 본 얼굴이 드문드문 있었다는 내용이 모두 유지됩니다. '뿐이었다'는 뉘앙스 차이일 뿐 사태가 달라지지 않습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2·3: 원문에서 and로 이어진 두 행위(건너감, 서성거림)가 '-지만'으로 대조 관계가 되고 '뿐'이 초점을 서성거림에 한정해, 연결 관계가 바뀌었습니다. 다만 though 구절의 양보는 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(상황 묘사) → 서술. 화자의 경험을 전하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 소설 서술체('-었다')가 유지되고 관계·태도 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"플란넬 옷, 통근 열차 등 대상이 같은 것으로 옮겨졌고 시각 표기도 일곱 시로 적절합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1218,
+    "output_tokens": 961,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

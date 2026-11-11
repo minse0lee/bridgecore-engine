@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvhUHW98NJ8exbGdC6P2",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0070\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"there were men at New Haven who had hated his guts\",\"tgt_span\":\"뉴헤이븐 시절에도 그를 지독히 싫어한 사내들이 있었다\",\"description\":\"'뉴헤이븐에 있던 남자들(대학 동기들)'이 '뉴헤이븐 시절에도'로 옮겨져 시간 표지와 '도'가 더해졌으나 대학 시절 맥락이 유지되어 의미·초점 변화는 미미함. 과거완료(이미 싫어했던)는 '싫어한'으로 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"목소리에 묻은 약간의 아버지 같은 경멸, 좋아하는 사람에게조차, 뉴헤이븐에서 그를 몹시 싫어한 남자들이라는 내용이 유지되며 'hated his guts'는 '지독히 싫어한'으로 정도가 대응됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'even toward'는 '조차'로, 'and'는 '-고'로 유지되고 'in it'은 '그 목소리'를 가리킵니다. '뉴헤이븐 시절에도'의 '도'는 첨가된 초점 표지이나 병렬 관계와 지시 대상을 바꾸지 않아 훼손으로 보지 않습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 묘사 서술 → 인물 묘사 서술로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 '-었다'가 유지되며 경멸·혐오의 태도도 '경멸', '지독히 싫어한'으로 전달됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴헤이븐(예일대 소재지)이 통용 표기로 유지되며 '사내들'은 'men'에 대응하고 해당 문화적 함의는 인명·지명 수준에서 보존됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 749,
+    "output_tokens": 889,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

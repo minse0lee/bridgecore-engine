@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvheHWQqAek6zmoataRx",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0296\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"gossip had published the banns\",\"tgt_span\":\"소문이 멋대로 결혼 공고를 내버렸다는\",\"description\":\"'멋대로'가 원문에 없는 평가적 표현으로 첨가되었으나, 소문이 근거 없이 결혼을 공표했다는 맥락과 어긋나지 않아 의미·기능을 바꾸지 않음(경미한 첨가)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소문이 결혼 예고를 공표했고 그것이 동부로 온 이유 중 하나라는 내용이 유지되며, '멋대로'는 평가어 정도의 차이에 그칩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'~라는 것도 이유 중 하나'로 원문의 사실-이유 관계가 유지되고 지시·초점 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 배경 설명 → 서술자의 배경 설명. 기능이 같은 종류입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 소설 서술의 평서체 '~었다'가 유지되어 관계·격식에 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"banns를 '결혼 공고'로 옮겨 결혼 예고 공표라는 관습 의미가 한국어 독자에게 이해되며 다른 제도로 바꾸지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 707,
+    "output_tokens": 704,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvhjJwswwHnvaUaLg5JR",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0406\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Knew when to stop, too—didn’t cut the pages.\",\"tgt_span\":\"멈출 때를 아는 것도 대단하고요, 책장을 안 잘라놨잖아요.\",\"description\":\"'멈출 때를 아는 것'을 '대단하다'고 평가하는 서술이 첨가됨. 원문은 멈출 때를 알았다는 서술이며, 책장을 자르지 않은 것이 그 예시라는 관계는 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"진짜 인쇄물, 속았음, 벨라스코 같은 연출가, 걸작, 철저함·사실감, 책장을 자르지 않음, 마지막 반문 등 핵심 내용이 유지되며 '대단하고요'는 같은 칭찬의 평가어 정도 차이입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계가 유지됩니다. '멈출 때를 아는 것도'의 too는 '도'로 남아 있고, But은 '하지만'으로 대조가 유지됩니다(질문 1·2·3 모두 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"비꼬는 과장된 칭찬과 반문 → 비꼬는 과장된 칭찬과 반문. 번역에서도 반어적 찬사와 수사의문으로 읽혀 기능이 같은 종류입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 대화 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 과장된 조롱조 태도가 '~라고요', '~지 뭡니까', '~잖아요'로 유지되며 상대와의 관계에 맞는 존대 구어체입니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Belasco를 '벨라스코'로 정확히 음역해 통용 표기를 유지했습니다. 연극 연출가의 사실주의 연출 함의는 문맥상 유지됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 908,
+    "output_tokens": 871,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

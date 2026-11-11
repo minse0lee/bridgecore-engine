@@ -1,4 +1,4 @@
-"""개츠비 PoC 1·3장 번역·검증 결과 엑셀 (요약은 수식으로 상세 시트를 셈).
+"""개츠비 PoC 1·3장 번역·검증 결과 엑셀: 학습 전 MADLAD · 학습 후 v1 · Claude 번역 비교 (요약은 수식으로 상세 시트를 셈).
 python tools/gatsby_xlsx.py OUT.xlsx"""
 import json
 import sys
@@ -23,8 +23,9 @@ thin = Side(style="thin", color="BBBBBB")
 BOX = Border(left=thin, right=thin, top=thin, bottom=thin)
 WRAP = Alignment(wrap_text=True, vertical="top")
 
-items = {t: {json.loads(l)["item_id"]: json.loads(l) for l in open(D / f"eval/ch1_3__{t}.jsonl")} for t in ("lora", "base")}
-G = {t: load_group([Path(f"runs/gatsby_ch13_{t}")]) for t in ("lora", "base")}
+SYS = [("base", "학습 전"), ("lora", "학습 후 v1"), ("claude", "Claude")]   # Claude: Sonnet 5.5, 문단 단위 프롬프트 번역 (translation/llm_translate.py)
+items = {t: {json.loads(l)["item_id"]: json.loads(l) for l in open(D / f"eval/ch1_3__{t}.jsonl")} for t, _ in SYS}
+G = {t: load_group([Path(f"runs/gatsby_ch13_{t}")]) for t, _ in SYS}
 ok = lambda t, i: bool((G[t].get(i) or {}).get("output")) and not G[t][i].get("errors")
 
 
@@ -62,75 +63,115 @@ def style_header(ws, row, n):
         cell.alignment = Alignment(wrap_text=True, vertical="center")
 
 
+import random
+import re
+
+ids_all = list(items["lora"])
+done_ids = [i for i in ids_all if all(ok(t, i) for t, _ in SYS)]
+chap = {i: items["lora"][i]["doc_info"].split("장·절: ")[1] for i in ids_all}
+
+
+def viol_any(t, i):
+    return collapsed(t, i) or any(G[t][i]["output"]["axes"].get(a, {}).get("judgment") == VIOLATED for a in AXES)
+
+
+def viol_major(t, i):
+    return top_sev(t, i) in ("major", "critical")
+
+
+def boot(f, a, b, n=5000):
+    d = [int(f(b, i)) - int(f(a, i)) for i in done_ids]
+    rng = random.Random(20261111)
+    bs = sorted(sum(rng.choice(d) for _ in d) / len(d) for _ in range(n))
+    return sum(d) / len(d), bs[int(n * .025)], bs[int(n * .975) - 1]
+
+
+pct = lambda x: f"{x * 100:+.1f}%p"
+cmp_lines = []
+for a, b, la, lb in (("base", "lora", "학습 전", "학습 후 v1"), ("lora", "claude", "학습 후 v1", "Claude"), ("base", "claude", "학습 전", "Claude")):
+    m = boot(viol_major, a, b); v = boot(viol_any, a, b)
+    cmp_lines.append(f"· {lb} − {la}: major 이상 문장 비율 {pct(m[0])} (95% {pct(m[1])}~{pct(m[2])}), 훼손 1개 이상 {pct(v[0])} (95% {pct(v[1])}~{pct(v[2])})")
+
+# 문자열 규칙 패턴 (1·3장 638문장, 세 번역 모두)
+pat = {}
+for t, _ in SYS:
+    its = items[t].values()
+    miss = [x for x in its if "Miss " in x["src"]]
+    q = [x for x in its if re.search(r"[“\"].*\?", x["src"])]
+    pat[t] = (sum("선생님" in x["tgt"] for x in miss), len(miss),
+              sum(bool(re.search(r"(는가|인가|었는가|겠는가)\?", x["tgt"])) for x in q), len(q))
+
 wb = Workbook()
 summ = wb.active
 summ.title = "요약"
 
 # ── 장별 상세 시트
-COLS = ["ID", "원문", "학습 전 번역", "학습 후 번역 (v1)", "학습 후 훼손 축", "학습 후 최고 심각도", "학습 후 엔진 근거",
-        "학습 전 훼손 축", "학습 전 최고 심각도", "판정 상태"]
-WID = [8, 48, 40, 40, 22, 11, 60, 22, 11, 12]
+COLS = ["ID", "원문", "학습 전 번역 (MADLAD)", "학습 후 번역 (MADLAD v1)", "Claude 번역",
+        "학습 전 훼손 축", "학습 전 최고 심각도", "학습 후 훼손 축", "학습 후 최고 심각도", "학습 후 엔진 근거",
+        "Claude 훼손 축", "Claude 최고 심각도", "Claude 엔진 근거", "판정 상태"]
+WID = [8, 46, 36, 36, 36, 18, 10, 18, 10, 46, 18, 10, 46, 12]
+AXCOL = {"base": ("F", "G"), "lora": ("H", "I"), "claude": ("K", "L")}
 for ch, name in (("I", "1장"), ("III", "3장")):
     ws = wb.create_sheet(name)
     ws.append(COLS)
     style_header(ws, 1, len(COLS))
     for i, it in items["lora"].items():
-        if it["doc_info"].split("장·절: ")[1] != ch:
+        if chap[i] != ch:
             continue
-        both = ok("lora", i) and ok("base", i)
-        state = "완료" if both else "판정 실패(" + ", ".join(n for t, n in (("base", "학습 전"), ("lora", "학습 후")) if not ok(t, i)) + ")"
-        ws.append([i, it["src"], items["base"][i]["tgt"], it["tgt"],
-                   axes_txt("lora", i) if ok("lora", i) else "", top_sev("lora", i) if ok("lora", i) else "",
-                   reasons("lora", i) if ok("lora", i) else "",
-                   axes_txt("base", i) if ok("base", i) else "", top_sev("base", i) if ok("base", i) else "", state])
+        bad = [lab for t, lab in SYS if not ok(t, i)]
+        state = "완료" if not bad else "판정 실패(" + ", ".join(bad) + ")"
+        g = lambda f, t: f(t, i) if ok(t, i) else ""
+        ws.append([i, it["src"], items["base"][i]["tgt"], it["tgt"], items["claude"][i]["tgt"],
+                   g(axes_txt, "base"), g(top_sev, "base"), g(axes_txt, "lora"), g(top_sev, "lora"), g(reasons, "lora"),
+                   g(axes_txt, "claude"), g(top_sev, "claude"), g(reasons, "claude"), state])
     for c, w in enumerate(WID, 1):
         ws.column_dimensions[get_column_letter(c)].width = w
     for row in ws.iter_rows(min_row=2):
         for cell in row:
             cell.font = Font(name=F, size=10)
             cell.alignment = WRAP
-    ws.freeze_panes = "B2"
+    ws.freeze_panes = "C2"
     ws.auto_filter.ref = f"A1:{get_column_letter(len(COLS))}{ws.max_row}"
 
 # ── 요약 (수식)
-summ["A1"] = "위대한 개츠비 PoC — 1·3장 번역 및 6축 검증 결과"
+summ["A1"] = "위대한 개츠비 PoC — 1·3장 번역 3종 비교 (6축 검증)"
 summ["A1"].font = Font(name=F, bold=True, size=14)
 info = [
-    "원문: Project Gutenberg #64317 (1925, 미국 퍼블릭 도메인) · 번역: MADLAD-400 10B, 학습 전 vs 학습 후(lora_v1, AI Hub 사회과학·교육 영→한 7.8만 문장) · 2026-11-11",
-    "검증: BridgeCore 6축 검증엔진 v1.1 (Claude Sonnet 5.5, 1회 판정). 아래 수치는 사람이 확인하지 않은 엔진 판정입니다",
-    "세는 기준: 학습 전·후 모두 판정이 끝난 문장만. 판정 실패(엔진 출력 형식 오류, 재시도 후에도 실패)는 각 장 시트 '판정 상태'에 표시",
+    "원문: Project Gutenberg #64317 (1925, 미국 퍼블릭 도메인) · 1·3장 638문장 · 2026-11-11",
+    "번역: ① MADLAD-400 10B 학습 전 ② 학습 후 v1 (AI Hub 사회과학·교육 영→한 7.8만 문장 LoRA, 문장 단위) ③ Claude Sonnet 5.5 (문학 번역 지침 프롬프트, 문단 단위·앞 문단 문맥)",
+    "검증: BridgeCore 6축 검증엔진 v1.1 (Claude Sonnet 5.5, 1회 판정). 사람이 확인하지 않은 엔진 판정입니다",
+    "세는 기준: 세 번역 모두 판정이 끝난 문장만. 판정 실패(엔진 출력 형식 오류)는 각 장 시트 '판정 상태'에 표시. 생성 붕괴(반복·끊김 등 평가 불가)는 critical로 셈",
 ]
 for k, s in enumerate(info, 2):
     summ.cell(k, 1, s).font = NOTE
-r0 = 6
-hdr = ["항목", "1장 학습 전", "1장 학습 후", "3장 학습 전", "3장 학습 후", "합계 학습 전", "합계 학습 후"]
+r0 = 7
+labs = [lab for _, lab in SYS]
+hdr = ["항목"] + [f"1장 {l}" for l in labs] + [f"3장 {l}" for l in labs] + [f"합계 {l}" for l in labs]
 for c, h in enumerate(hdr, 1):
     summ.cell(r0, c, h)
 style_header(summ, r0, len(hdr))
-# 열 매핑: (시트, 훼손축 열, 심각도 열)
-src = {"1장 학습 전": ("1장", "H", "I"), "1장 학습 후": ("1장", "E", "F"),
-       "3장 학습 전": ("3장", "H", "I"), "3장 학습 후": ("3장", "E", "F")}
 rows = [("판정 완료 문장 수", "n")] + [(f"{a} 훼손 문장", a) for a in AXES] + \
-       [("생성 붕괴 문장 (반복·끊김 등, 평가 불가)", "생성붕괴"), ("훼손 1개 이상 문장 (생성 붕괴 포함)", "any"),
-        ("major 이상 훼손 문장 (생성 붕괴 포함)", "major")]
+       [("생성 붕괴 문장 (반복·끊김 등)", "생성붕괴"), ("훼손 1개 이상 문장", "any"), ("major 이상 훼손 문장", "major")]
 for k, (label, kind) in enumerate(rows, r0 + 1):
     summ.cell(k, 1, label)
-    for c, h in enumerate(hdr[1:5], 2):
-        sh, col, sev = src[h]
-        done = f"'{sh}'!$J:$J,\"완료\""
-        if kind == "n":
-            f = f"=COUNTIF('{sh}'!$J:$J,\"완료\")"
-        elif kind == "any":
-            f = f"=COUNTIFS('{sh}'!${col}:${col},\"?*\",{done})"
-        elif kind == "major":
-            f = f"=COUNTIFS('{sh}'!${sev}:${sev},\"major\",{done})+COUNTIFS('{sh}'!${sev}:${sev},\"critical\",{done})"
-        else:
-            f = f"=COUNTIFS('{sh}'!${col}:${col},\"*{kind}(*\",{done})"
-        summ.cell(k, c, f)
-    summ.cell(k, 6, f"=B{k}+D{k}")
-    summ.cell(k, 7, f"=C{k}+E{k}")
+    for si, (sh) in enumerate(("1장", "3장")):
+        for ti, (t, _) in enumerate(SYS):
+            col, sev = AXCOL[t]
+            c = 2 + si * 3 + ti
+            done = f"'{sh}'!$N:$N,\"완료\""
+            if kind == "n":
+                f = f"=COUNTIF('{sh}'!$N:$N,\"완료\")"
+            elif kind == "any":
+                f = f"=COUNTIFS('{sh}'!${col}:${col},\"?*\",{done})"
+            elif kind == "major":
+                f = f"=COUNTIFS('{sh}'!${sev}:${sev},\"major\",{done})+COUNTIFS('{sh}'!${sev}:${sev},\"critical\",{done})"
+            else:
+                f = f"=COUNTIFS('{sh}'!${col}:${col},\"*{kind}(*\",{done})"
+            summ.cell(k, c, f)
+    for ti in range(3):
+        a, b = get_column_letter(2 + ti), get_column_letter(5 + ti)
+        summ.cell(k, 8 + ti, f"={a}{k}+{b}{k}")
 last = r0 + len(rows)
-# 비율 표
 r1 = last + 2
 summ.cell(r1, 1, "비율 (판정 완료 문장 대비)")
 for c, h in enumerate(hdr[1:], 2):
@@ -139,48 +180,40 @@ style_header(summ, r1, len(hdr))
 for k, (label, kind) in enumerate(rows[1:], r1 + 1):
     src_row = r0 + 2 + (k - r1 - 1)
     summ.cell(k, 1, label)
-    for c in range(2, 8):
+    for c in range(2, len(hdr) + 1):
         L = get_column_letter(c)
         summ.cell(k, c, f"=IF({L}${r0 + 1}=0,0,{L}{src_row}/{L}${r0 + 1})").number_format = "0%"
 last2 = r1 + len(rows) - 1
-for row in summ.iter_rows(min_row=r0, max_row=last2, max_col=7):
+for row in summ.iter_rows(min_row=r0, max_row=last2, max_col=len(hdr)):
     for cell in row:
         cell.border = BOX
         if cell.font.bold is not True:
             cell.font = Font(name=F, size=10)
 
-# 해석·패턴 (책 전체 번역에서 센 값, 하드코딩 → 출처 표시)
 r2 = last2 + 2
-notes = [
-    ("해석", True),
-    ("· 학습 후 번역은 major 이상 훼손 문장(생성 붕괴 포함) 비율이 학습 전보다 19.5%p 낮음 (같은 문장끼리 비교한 부트스트랩 95% 구간 −23.5~−15.5%p)", False),
-    ("· 훼손이 1개 이상인 문장 비율도 16.5%p 낮음 (95% −20.4~−12.5%p). 생성 붕괴(반복·끊김·엉뚱한 출력)는 학습 전 21문장 → 학습 후 2문장", False),
-    ("· 그래도 학습 후 문장의 약 절반에 훼손이 1개 이상, 약 5분의 1에 major 이상 훼손이 있음 → 출판하려면 사람 후편집이 필요한 수준", False),
-    ("· 오류 대부분은 Semantic(뜻 변경·누락). Register(말투)는 엔진이 주로 minor로 판정", False),
-    ("· 6축은 '뜻이 보존됐는지'를 보는 검증이라 문장이 어색한지(유창성)는 거의 반영되지 않음. 예: 학습 전 G0001은 매우 어색하지만 뜻이 판독 가능해 '보존'. 학습 전후의 자연스러움 차이는 표보다 큼(각 장 시트에서 직접 비교 권장)", False),
-    ("", False),
-    ("학습 데이터(사회과학·교육 문장)에서 온 패턴 — 책 전체 2,959문장 기준, 문자열 규칙으로 센 값", True),
-    ("· 'Miss ○○'를 '○○ 선생님'으로 번역: 학습 후 18/33문장 (학습 전 3/33)", False),
-    ("· 대사 속 의문문을 '~는가?'체로 번역: 학습 후 137/299문장 (학습 전 12/299) → 소설 대화가 딱딱해짐", False),
-    ("· 번역이 원문 길이의 30% 미만(누락 의심, 원문 60자 초과 문장): 학습 후 16, 학습 전 18", False),
-    ("", False),
-    ("주의", True),
-    ("· 엔진 정확도: 파일럿 60문항(사람 합의 정답)에서 축 단위 F1 약 0.7~0.8. 오탐·놓침이 있으므로 수치는 경향으로 봐 주세요", False),
-    ("· 1·3장 외 2·4~9장도 번역은 되어 있으나(EPUB에 포함) 검증은 하지 않았습니다", False),
-    ("· 번역 결과의 드문 글자 깨짐(<0xEB>… 형태의 바이트 토큰)은 디코딩 문제라 원래 글자로 복원했습니다 (학습 후 19곳, 학습 전 60곳)", False),
-    ("· 검증 API 비용: 약 $13.3 (학습 전·후 각 638문장, 일반 호출)", False),
+notes = [("같은 문장끼리 비교 (부트스트랩 5,000회, 판정 완료 " + str(len(done_ids)) + "문장, 이 파일을 만들 때 계산)", True)] + \
+        [(s, False) for s in cmp_lines] + [("", False),
+        ("문자열 규칙으로 센 패턴 (1·3장)", True)] + \
+        [(f"· {lab}: 'Miss ○○' → '선생님' {pat[t][0]}/{pat[t][1]}문장, 대사 의문문 '~는가?' {pat[t][2]}/{pat[t][3]}문장", False) for t, lab in SYS] + [
+        ("", False),
+        ("주의", True),
+        ("· 자기 평가 편향 가능성: Claude 번역을 같은 Claude Sonnet 5.5가 검증했습니다. LLM 판정자가 자기(같은 계열) 출력을 후하게 보는 경향이 보고되어 있어, Claude 번역 수치는 유리하게 나왔을 수 있습니다. 사람 확인으로 교차 검증이 필요합니다", False),
+        ("· 조건 차이: MADLAD는 문장 하나씩, Claude는 문단 단위(앞 문단 문맥 포함)·고유명사 표기·말투 지침을 받아 번역했습니다. 모델 차이와 번역 방식 차이가 섞인 비교입니다", False),
+        ("· 6축은 '뜻이 보존됐는지'를 보는 검증이라 문장의 자연스러움(유창성)은 거의 반영되지 않습니다. 각 장 시트에서 번역을 직접 비교해 보세요", False),
+        ("· 엔진 정확도: 파일럿 60문항(사람 합의 정답)에서 축 단위 F1 약 0.7~0.8. 수치는 경향으로 봐 주세요", False),
+        ("· MADLAD 번역의 드문 글자 깨짐(바이트 토큰)은 디코딩 문제라 원래 글자로 복원했습니다 (학습 후 19곳, 학습 전 60곳, 책 전체 기준)", False),
+        ("· 비용(API): Claude 번역 약 $2.1, 6축 검증 3종 합계 약 $19.1 (학습 전 $6.8, 학습 후 $6.5, Claude $5.9). MADLAD 번역은 Colab, 추가 비용 없음", False),
 ]
 for k, (s, bold) in enumerate(notes, r2):
-    cell = summ.cell(k, 1, s)
-    cell.font = Font(name=F, size=10, bold=bold)
+    summ.cell(k, 1, s).font = Font(name=F, size=10, bold=bold)
 summ.column_dimensions["A"].width = 30
-for c in range(2, 8):
-    summ.column_dimensions[get_column_letter(c)].width = 13
+for c in range(2, len(hdr) + 1):
+    summ.column_dimensions[get_column_letter(c)].width = 11
 
-# ── 주요 오류 사례
+# ── 주요 오류 사례 (MADLAD v1) + 같은 문장의 Claude 번역
 ex = wb.create_sheet("주요 오류 사례")
-ex.append(["유형", "ID", "원문", "학습 후 번역 (v1)", "엔진 근거 (요약)"])
-style_header(ex, 1, 5)
+ex.append(["유형", "ID", "원문", "학습 후 번역 (v1)", "v1 엔진 근거", "Claude 번역", "Claude 판정"])
+style_header(ex, 1, 7)
 CASES = [
     ("인물 호칭 (학습 데이터 영향)", "G0217", "Semantic"), ("뜻 변경", "G0095", "Semantic"),
     ("대사 일부 누락", "G0381", "Context"), ("대사 누락", "G0175", "Context"),
@@ -192,8 +225,9 @@ CASES = [
 for label, i, ax in CASES:
     if not ok("lora", i):
         continue
-    ex.append([label, i, items["lora"][i]["src"], items["lora"][i]["tgt"], G["lora"][i]["output"]["axes"][ax]["reason"]])
-for c, w in enumerate([22, 8, 50, 50, 60], 1):
+    ex.append([label, i, items["lora"][i]["src"], items["lora"][i]["tgt"], G["lora"][i]["output"]["axes"][ax]["reason"],
+               items["claude"][i]["tgt"], (axes_txt("claude", i) or "훼손 없음") if ok("claude", i) else "판정 실패"])
+for c, w in enumerate([20, 8, 46, 40, 50, 40, 18], 1):
     ex.column_dimensions[get_column_letter(c)].width = w
 for row in ex.iter_rows(min_row=2):
     for cell in row:
@@ -201,11 +235,11 @@ for row in ex.iter_rows(min_row=2):
         cell.alignment = WRAP
 ex.freeze_panes = "C2"
 
-# ── 전체 문단 대조 (검증 안 한 장 포함)
+# ── 전체 문단 대조 (MADLAD, 검증 안 한 장 포함)
 rows_s = et._load(D / "sentences.jsonl")
 lb, _ = et._blocks_from_rows(rows_s, et._mt_map(D / "mt/translate_input__lora.jsonl"))
 bb = {(b["file"], b["xpath"]): b["ko"] for b in et._blocks_from_rows(rows_s, et._mt_map(D / "mt/translate_input__base.jsonl"))[0]}
-full = wb.create_sheet("전체 문단 대조")
+full = wb.create_sheet("전체 문단 대조 (MADLAD)")
 full.append(["순번", "장", "원문", "학습 전 번역", "학습 후 번역 (v1)", "6축 검증"])
 style_header(full, 1, 6)
 k = 0
@@ -224,4 +258,5 @@ full.freeze_panes = "C2"
 full.auto_filter.ref = f"A1:F{full.max_row}"
 
 wb.save(OUT)
-print(OUT, {ws.title: ws.max_row for ws in wb})
+print(OUT, {ws.title: ws.max_row for ws in wb}, "판정 완료", len(done_ids))
+print("\n".join(cmp_lines)); print(pat)

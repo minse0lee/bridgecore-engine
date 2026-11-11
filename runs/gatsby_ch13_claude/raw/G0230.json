@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvhbY4SUdvCvBiZcEoGS",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0230\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I wasn’t back from the war.\",\"tgt_span\":\"난 아직 전쟁터에서 돌아오기 전이었잖아.\",\"description\":\"원문에 없는 '아직'과 '-잖아'(상대도 아는 사실임을 환기하는 어미)가 더해졌고, 'the war'가 '전쟁터'로 좁혀짐. 의미를 바꾸는 정도는 아니며 어조 차이 위주임.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"판단 질문 1·2: 화자가 아직 전쟁에서 돌아오지 않은 상태였다는 사실이 같고, '전쟁터'는 'the war'의 맥락상 가까운 표현이며 '아직'은 'wasn't back'의 함의 안이라 내용이 달라지지 않았습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계에 변화가 없습니다. '아직'은 only·even류의 초점 표현이 아닙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 상황 설명(변명·해명) → 상황 설명(변명·해명). '-잖아'가 있어도 같은 종류의 기능으로 읽힙니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 과거 상황 서술입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"반말 '-잖아'가 화자와 청자의 관계에 맞는지 판단하려면 이 대화의 화자와 청자의 관계(친밀도·위계) 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 452,
+    "output_tokens": 776,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

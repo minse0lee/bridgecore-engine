@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvhhDUueP3sNzd5KRzLW",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0358\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"we sat down at a table with the two girls in yellow and three men\",\"tgt_span\":\"노란 옷의 두 아가씨와 남자 셋이 앉아 있는 테이블에 합석했는데\",\"description\":\"'두 아가씨·세 남자와 함께 테이블에 앉았다'가 '그들이 이미 앉은 테이블에 합석'으로 바뀌었으나, 같은 사태를 기술하는 자연스러운 한국어 표현이라 의미를 바꾸지 않아 오류로 보기 어렵다(참고 기록).\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"수치 2와 3(두 아가씨, 남자 셋)이 유지되고, 칵테일 쟁반이 다가온 것, 합석, 각자 '멈블 씨'로 소개된 내용이 같습니다. '합석'은 같은 사태를 자연스럽게 옮긴 것입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-고'와 '-는데'로 두 사건의 시간 연결이 유지되고, 'each one'은 '저마다'로 '남자들'을 정확히 가리킵니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 파티 장면을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체가 유지되고, 'Mr. Mumble'을 '멈블 씨'로 옮겨 관계나 태도에 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Mr.'는 통용되는 호칭이며 별도로 판정할 문화 고유의 제도·단위가 없습니다. 인명만 있으므로 N/A입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1151,
+    "output_tokens": 815,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvhhfQstiERbfbhTocza",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0369\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“Who doesn’t?”\",\"tgt_span\":\"“누가 그렇다는 거죠?”\",\"description\":\"'누가 안 그래(누군들 안 그렇겠어)?'라는 반문(수사의문)이 '누가 그렇다는 거죠?'라는 실제 정보 질문으로 바뀌고, 원문의 부정(doesn't)도 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(부정·행위자): 'Who doesn't'의 부정이 사라져 '누구나 그렇다'는 함의가 '누가 그렇다는 것인지' 묻는 내용으로 바뀌어 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"짧은 반문이라 지시·연결·초점 표현으로 따로 판정할 대상이 없습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"원문 기능 → 번역 기능: 누구나 그렇다는 뜻의 반문(수사의문) → 대상을 확인하려는 실제 질문.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가 의미가 없는 대화문입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-죠?' 존댓말이 화자(닉)와 상대의 관계에 맞는지 판단하려면 대화 상대와 관계 정보가 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 433,
+    "output_tokens": 706,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

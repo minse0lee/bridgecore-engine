@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvhbPpb5uSQi1mAfiphD",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0229\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"You didn’t come to my wedding.\",\"tgt_span\":\"넌 내 결혼식에도 오지 않았잖아.\",\"description\":\"원문에 없는 '에도'(also/even 초점)가 첨가되어, 결혼식 외에도 오지 않은 것이 있다는 뜻으로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: '결혼식에도'의 첨가로 결혼식 불참 외에 다른 불참이 암시되어 내용이 조금 달라졌으나, 결혼식에 오지 않았다는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3: 원문에 없는 '도'가 결혼식에 붙어 초점·범위가 새로 생겼습니다. 다만 앞 문장의 '사촌인데도 말이야'와 이어지는 양보·대조 관계는 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서로 잘 모른다는 근거를 대는 서술·지적 → 같은 기능(불참을 들어 서먹함을 지적). 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사촌 사이의 친근한 대화이며 반말 '넌', '-잖아'가 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"평가할 문화 고유의 제도·단위·관습 대상이 없습니다. 결혼식은 일반적 사건입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 543,
+    "output_tokens": 745,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

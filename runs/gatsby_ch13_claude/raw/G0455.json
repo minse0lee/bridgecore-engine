@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvhmQS5Vx2XcAQBRSZa5",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0455\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a small bow that included each of us in turn\",\"tgt_span\":\"우리 한 사람 한 사람에게 차례로 눈길을 주며 가볍게 목례를 하고는\",\"description\":\"각자를 차례로 포함하는 작은 인사(bow)가 '눈길을 주며 하는 목례'로 바뀌어 '눈길을 줌'이라는 원문에 없는 행위가 첨가됨. 다만 각자에게 차례로 인사한다는 핵심은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위): 원문에 없는 '눈길을 주며'가 첨가되어 행위 내용이 약간 달라졌으나, 가볍게 목례하고 양해를 구한다는 핵심 사실과 각자를 차례로 포함한다는 점은 유지되어 요지는 같습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계가 유지됩니다. 각자(each of us in turn)가 '한 사람 한 사람에게 차례로'로 같은 범위를 가리킵니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 인물의 행동을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 인물 행동 서술로 규범적 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 평서 어조와 정중한 인사 태도가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·단위·관습 대상이 없고, 목례는 통상적 대응입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 630,
+    "output_tokens": 754,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

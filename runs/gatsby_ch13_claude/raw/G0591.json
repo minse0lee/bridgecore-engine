@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvhs8JtGP8zimTh2ho9g",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0591\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"until much later, they absorbed me infinitely less than my personal affairs\",\"tgt_span\":\"훨씬 뒤에 가서야 비로소 달라졌을 뿐 그때까지는 내 개인적인 일들보다 한없이 덜 내 마음을 차지했다\",\"description\":\"원문에 없는 '훨씬 뒤에 가서야 비로소 달라졌다'가 첨가되어, 훨씬 뒤에는 상황이 바뀌었다는 내용이 추가되고 'until much later'가 변화 시점으로 바뀜. 원문은 그때까지 개인적 일보다 훨씬 덜 사로잡았다는 것뿐임.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(시간·인과·내용): 원문에 없는 '달라졌을 뿐'이 첨가되어 무엇이 달라졌는지 불명확하고 내용이 더해졌지만, 사건들이 개인사보다 훨씬 덜 마음을 차지했다는 핵심은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(연결 관계): 'until much later'의 시간 한정이 '달라졌을 뿐 그때까지는'이라는 양보·대조 구조로 바뀌어 연결 관계가 달라졌습니다. 다만 요지는 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞 문장의 인상을 정정하는 서술 설명 → 서술 설명. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범적 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회고 서술의 격식 있는 문어체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 831,
+    "output_tokens": 831,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

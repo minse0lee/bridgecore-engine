@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvhiEafgYEAVdySB22Um",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0381\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"You look at him sometimes when he thinks nobody’s looking at him.\",\"tgt_span\":\"그분이 아무도 자기를 안 본다고 생각할 때 한번 쳐다보세요.\",\"description\":\"'가끔 보면 (그가 ~할 때 그런 모습을 볼 수 있다)'는 일반적 관찰 서술인데 '한번 쳐다보세요'라는 직접 지시로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"그를 보는 행위, 아무도 안 본다고 생각할 때, 사람을 죽였다는 추측 내용이 유지되며 'sometimes'의 빈도 표현 소실은 핵심 사실을 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그분', '자기' 지시 관계와 when 시간 조건 연결이 유지되고 초점 표현 변화도 없습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"원문 기능 → 번역 기능: 경험에 근거해 자기 추측을 뒷받침하는 일반적 관찰 서술(you는 일반 청자) → 청자에게 직접 행동을 시키는 지시. 다른 종류의 기능으로 바뀌었으나 핵심 추측 전달은 유지되어 minor입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 대화 속 관찰·추측입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"젊은 여성이 청중에게 말하는 구어체 대화로, '-세요/-예요' 해요체가 상황에 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 738,
+    "output_tokens": 794,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

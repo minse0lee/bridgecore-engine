@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvhTUMjB3pp8HjZhY1sS",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0051\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"courtesy bay\",\"tgt_span\":\"명목뿐인 만\",\"description\":\"courtesy bay(소설에서 '명목상 만'으로 통용되는 표현)를 '명목뿐인 만'으로 옮김. 의미상 큰 차이는 없어 오류로 보기 어려움\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"courtesy bay를 '명목뿐인 만'으로, 이스트에그의 하얀 궁전, 여름 이야기의 시작, 톰 부부와의 저녁 식사 등 인물·행위·시간이 모두 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'there'가 '그곳'으로 이스트에그를 가리키고, 두 절의 연결도 문장 분할 후 유지되며 초점 표현의 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"배경 묘사와 서술 도입 → 배경 묘사와 서술 도입. 서술 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설의 서술 문장으로 의무·허가·금지 같은 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 화자의 회고적 서술체가 '~었다/~시작된다' 평서체로 유지되며 관계·호칭 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'이스트에그', '톰 뷰캐넌 부부' 등 고유명사와 'the Tom Buchanans'의 가족 복수 표현이 '부부'로 적절히 옮겨져 제도·관습 훼손이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 909,
+    "output_tokens": 745,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

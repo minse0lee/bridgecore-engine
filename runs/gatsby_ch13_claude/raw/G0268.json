@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Cgvhd8NiTowTpzAkNfKe6",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0268\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Of course you will\",\"tgt_span\":\"당연히 일어나겠지\",\"description\":\"'you will'(상대방이 앞서 말한 행위를 할 것이다)가 주어·행위 없이 '일어나겠지'로 바뀌어 행위자와 행위가 사라짐. 확신의 단정이 추측('겠지')으로도 약해짐\"},{\"id\":\"E002\",\"src_span\":\"confirmed Daisy\",\"tgt_span\":\"확인이라도 해 주듯 말했다\",\"description\":\"단정적인 'confirmed'(확인해 주었다)가 '확인이라도 해 주듯'이라는 비유적 표현으로 바뀌어 실제 확인 행위가 사실이 아닌 것처럼 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(행위자·행위·확실성): 'you will'의 주어와 행위가 '일어나겠지'로 바뀌어 누가 무엇을 할 것인지가 사라졌고, 'confirmed'는 '확인이라도 해 주듯'으로 바뀌어 실제 확인이 아닌 듯 읽혀 문장의 요지가 달라집니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현의 대응 관계는 유지되며 앞 발화에 대한 응답이라는 연결도 남아 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대 말에 대한 동의·확인 응답 → 동의·확인 응답. 기능의 종류는 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장의 will은 예측이며 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"데이지가 친구 닉의 사촌으로서 격의 없이 말하는 관계에 맞게 반말 구어체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위 표현이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 701,
+    "output_tokens": 867,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

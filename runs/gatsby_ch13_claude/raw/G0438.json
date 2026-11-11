@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvhkhHKqraPADCyw7Hoy",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0438\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“Much better.”\",\"tgt_span\":\"“훨씬 나아졌어.”\",\"description\":\"화자가 같은 장면의 새 지인에게는 존댓말을 쓰는데, 이 발화는 반말('나아졌어')로 옮겨져 있어 청자와의 관계에 맞지 않을 가능성이 있음. 이 발화의 청자가 누구인지는 문맥상 불분명함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'훨씬 더 좋다/나아졌다'는 정도와 평가 내용이 같아 달라진 항목이 없습니다.\"},\"Textual\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 짧은 발화에는 지시 표현, 연결어, 초점·범위 표현이 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상황에 대한 평가 발언 → 상황에 대한 평가 발언으로 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등의 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 발화의 청자가 누구인지(직전 대화 상대인지, 혼잣말에 가까운지) 알 수 없어 반말의 적절성을 판단하려면 직전 대화에서 화자와 청자의 관계 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 660,
+    "output_tokens": 668,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011CgvhwdhaNCo3VxVjFbRj2",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0185\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"he used to be the silver polisher for some people in New York\",\"tgt_span\":\"전에는 뉴욕의 어떤 집에서 은식기 닦는 일을 했거든\",\"description\":\"'some people'(어떤 사람들)이 '어떤 집'으로 바뀌고, 문장 말미 '-거든'이 원인 설명 어조를 더함. 다만 집안 사람들을 가리키는 통상적 표현이라 의미 변화는 미미함.\"},{\"id\":\"E002\",\"src_span\":\"that had a silver service for two hundred people\",\"tgt_span\":\"이백 명이 쓸 은식기 세트가 있는 집이었대\",\"description\":\"'-었대'로 전언 표현이 추가되어 화자의 확실성이 약간 달라짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"집사가 아니었음, 이전 은식기 닦는 일, 뉴욕, 이백 명분 세트, 아침부터 밤까지, 코에 영향이 오기 시작함 등 모든 내용이 유지됩니다. '-대'의 전언 어조는 핵심 사실을 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그걸'이 은식기 세트를, '그러다 결국'이 until finally의 시간·결과 연결을 유지하며 지시·연결·초점 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 일화 설명(대화 속 서술) → 인물 일화 설명. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'had to polish'는 과거 사실을 서술하는 것으로 규범을 정하는 문장이 아니므로 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"구어체 대화로 반말 '-야/-거든'이 쓰였고, 문맥상 친밀한 대화 상황에 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴욕은 지명일 뿐이고 별도로 판정할 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 798,
+    "output_tokens": 896,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
