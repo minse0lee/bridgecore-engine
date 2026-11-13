@@ -1,5 +1,6 @@
 """골든셋 300문항 개발 100 / 시험 200 분할 (라벨 보기 전에 고정).
 - 같은 문서(문서 ID)의 문항은 같은 쪽으로 (문서 단위 묶음)
+- 비고가 WMT24++인 문항(원문 권리 문제로 개발용 사용 자제, 수안님 11/13)은 문서째 시험으로만 보냄
 - 선정 경로 × 장르 8칸의 개발 비율이 1/3에 가깝도록: 무작위 배정 200,000회 중 개발이 정확히 100문항이고
   칸별 |개발 수 − 목표| 합이 가장 작은 배정 (같으면 먼저 나온 것). seed 20261113
 python tools/golden_split.py MAPPING.xlsx FORM.xlsx OUT_PREFIX"""
@@ -7,17 +8,20 @@ import collections, csv, hashlib, json, random, sys
 from openpyxl import load_workbook
 
 mp, form, out = sys.argv[1], sys.argv[2], sys.argv[3]
-rows = [r for r in load_workbook(mp)["문항별 경로"].iter_rows(min_row=5, values_only=True) if r[0]]
+rows = [tuple(r[:6]) + ((None,) * (6 - len(r[:6]))) for r in load_workbook(mp)["문항별 경로"].iter_rows(min_row=5, values_only=True) if r[0]]
+is_wmt = lambda r: bool(r[5] and "WMT" in str(r[5]))
 cells = collections.Counter((r[2], r[3]) for r in rows)
 target = {c: n / 3 for c, n in cells.items()}
 docs = collections.defaultdict(list)
 for r in rows:
     docs[r[4]].append(r)
 names = sorted(docs)
+test_only = {d for d in names if any(is_wmt(r) for r in docs[d])}
+free = [d for d in names if d not in test_only]
 rng = random.Random(20261113)
 best = None
 for it in range(200_000):
-    dev = {d for d in names if rng.random() < 1 / 3}
+    dev = {d for d in free if rng.random() < 100 / 257}
     n = sum(len(docs[d]) for d in dev)
     if n != 100:
         continue
@@ -29,14 +33,15 @@ score, dev, it = best
 dev = set(dev)
 with open(out + ".csv", "w", newline="", encoding="utf-8") as f:
     w = csv.writer(f)
-    w.writerow(["문항ID", "묶음", "선정 경로", "장르", "문서 ID", "분할"])
+    w.writerow(["문항ID", "묶음", "선정 경로", "장르", "문서 ID", "비고", "분할"])
     for r in rows:
-        w.writerow(list(r[:5]) + ["개발" if r[4] in dev else "시험"])
+        w.writerow(list(r[:5]) + [r[5] or "", "개발" if r[4] in dev else "시험"])
 sha = lambda p: hashlib.sha256(open(p, "rb").read()).hexdigest()
 tab = {f"{c[0]}|{c[1]}": {"전체": cells[c], "개발": sum(1 for r in rows if (r[2], r[3]) == c and r[4] in dev)} for c in sorted(cells)}
 meta = {"date": "2026-11-13", "seed": 20261113, "iterations": 200_000, "chosen_iteration": it, "score": round(score, 3),
         "n_dev": sum(1 for r in rows if r[4] in dev), "n_test": sum(1 for r in rows if r[4] not in dev),
         "docs_dev": len(dev), "docs_test": len(names) - len(dev), "cells": tab,
+        "wmt_items": sum(is_wmt(r) for r in rows), "wmt_in_dev": sum(is_wmt(r) and r[4] in dev for r in rows),
         "mapping_sha256": sha(mp), "form_sha256": sha(form),
         "rule": "라벨 확인 전 고정. 개발 100으로만 엔진 수정·선택, 시험 200은 엔진 고정 후 최종 평가에만 사용. 무작위·LLM 분석 부분집합 별도 보고"}
 json.dump(meta, open(out + ".json", "w"), ensure_ascii=False, indent=1)
