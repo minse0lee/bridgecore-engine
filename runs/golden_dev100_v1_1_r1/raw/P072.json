@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch6zB1jeUbSVee6qjzP7H",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P072\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a teacher removal\",\"tgt_span\":\"교사 퇴학\",\"description\":\"교사가 학생을 수업에서 내보내는 조치(teacher removal)가 '퇴학'으로 옮겨져 학교에서 제적하는 처분으로 읽힘\"},{\"id\":\"E002\",\"src_span\":\"While student misbehavior must be handled on a case-by-case basis\",\"tgt_span\":\"학생의 부적절한 행동은 개별적으로 처리되어야 하며\",\"description\":\"While의 양보 관계가 '~하며'라는 단순 나열로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위·대상): 교실 수업에서 학생을 내보내는 조치인 teacher removal이 학교에서 제적하는 '퇴학'으로 바뀌어 조치의 내용이 달라졌고, 독자가 징계의 종류를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2(연결 관계): While이 나타내는 양보·대조(개별 처리가 필요하지만, 그래도 먼저 모든 노력을 해야 함)가 '~하며'의 단순 병렬로 바뀌어 연결 관계가 달라졌습니다. 다만 핵심 내용은 그대로 전달됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 안내 → 규정 안내. 징계 전 노력 요구를 안내하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"must와 should가 '처리되어야 하며', '노력을 기울여야 합니다'로 통상적으로 대응되어 의무와 권고의 범주, 적용 대상이 유지됩니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 안내체('~합니다')가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2: 미국 학교 제도의 교사에 의한 교실 내 제외(teacher removal)가 한국어 '퇴학'이라는 다른 제도적 처분으로 옮겨져 독자가 다른 제도로 이해하게 됩니다. 평가조건이 한국 제도로의 대체를 금지했습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1122,
+    "output_tokens": 957,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

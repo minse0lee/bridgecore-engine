@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch6z8Zwomcvp8qKWTPmso",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P037\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"It's not just the financials that are in play, but who are the doctors?\",\"tgt_span\":\"재정 문제뿐만 아니라 의사들은 누구입니까?\",\"description\":\"'not just A, but B'(A만이 아니라 B도 관건이다)의 구조가 'A뿐만 아니라 의사들은 누구입니까?'로 옮겨져 B가 '관건/쟁점'이 아닌 독립된 질문이 됨. 'in play'(관련된 쟁점)도 빠짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 재정 문제뿐 아니라 의사가 누구인지도 쟁점이라는 내용이 '재정 문제뿐만 아니라 의사들은 누구입니까?'로 쟁점(in play) 표현이 빠져 약간 달라졌으나, 핵심 내용(재정과 의사 구성 모두 중요)은 대체로 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2·3: not just A but B의 병렬 구조에서 B가 A와 같은 층위의 쟁점으로 연결되지 않고 '뿐만 아니라' 뒤에 질문이 붙어 연결·초점 관계가 흐트러졌으나, 점층 관계는 일부 남아 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 쟁점을 제기하는 수사적 발언 → 의문문 형태의 발언. 원문도 의문문 형태이며 문제 제기 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 기사 속 인용 발언에 '~습니까' 격식체가 쓰였고 인터뷰 맥락에서 관계상 무리가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다(인명만 등장).\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 521,
+    "output_tokens": 876,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch6z9bLg8PsJNJ5H62erp",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P052\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"threatening or actual physical, sexual, and/or emotional abuse\",\"tgt_span\":\"위협 또는 실제 신체의 패턴을 사용하는 경우, 성적, 및 / 또는 감정적 학대\",\"description\":\"학대 유형(신체적·성적·정서적 학대)의 나열이 끊겨 '위협 또는 실제 신체의 패턴'으로 읽히고, 성적·감정적 학대가 조건절 밖으로 밀려나 학대 행위의 범위가 불분명해짐\"},{\"id\":\"E002\",\"src_span\":\"refer both the victim and the student who engages in this behavior to separate appropriate school or community-based agencies for counseling, support, and education services\",\"tgt_span\":\"상담을위한 별도의 적절한 학교 또는 지역 사회 기반의 기관에이 행동에 종사하는 피해자와 학생 모두를 참조해야합니다, 지원, 및 교육 서비스\",\"description\":\"'피해자와 이 행동을 하는 학생 모두'가 '이 행동에 종사하는 피해자와 학생'으로 읽혀 피해자가 가해 행동을 한 것처럼 바뀌고, 별도 기관 연계(refer)가 '참조'로 오역되며 상담·지원·교육 서비스의 목록이 문장 끝에 분리됨\"},{\"id\":\"E003\",\"src_span\":\"refer\",\"tgt_span\":\"참조해야합니다\",\"description\":\"'연계·의뢰하다(refer)'가 '참조하다'로 오역되어 학교가 해야 할 조치의 내용이 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 학대 유형 나열이 깨져 학대의 범위가 달라지고, 피해자가 가해 행동을 한 것처럼 읽혀 행위자 관계가 바뀌며, refer(의뢰·연계)가 '참조'로 바뀌어 학교 조치의 내용이 달라졌습니다. 독자가 요지를 다르게 이해하게 되므로 major입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1·3: '이 행동'이 가리키는 대상과 수식 범위가 불분명해지고, 피해자와 학생을 묶은 범위 및 목적(상담·지원·교육 서비스)의 연결이 끊겨 문장 끝에 떨어졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학교 조치 안내 → 학교 조치 안내. 어색하지만 학교가 해야 할 일을 안내하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 2: should는 학교에 대한 규범적 권고로 적용되며, '참조해야합니다'로 의무 강도는 유지됩니다. 그러나 의뢰·연계해야 한다는 규범의 대상 행위가 '참조'로 바뀌어 학교가 해야 할 조치의 내용이 달라졌습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 안내체('~해야합니다')가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·단위·관습 대상이 뚜렷하지 않습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1182,
+    "output_tokens": 1320,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

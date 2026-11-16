@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch6zBPb4BM8biGCNbrGFK",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P078\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"for behavior which presents a clear and present danger of physical injury to the student, other students or school personnel, or prevents the orderly operation of classes or other school activities\",\"tgt_span\":\"…행동에 대한 학생을 1 ~ 5 학교 일을 정지 할 수있는 권한이있다, 또는 … 운영을 방지\",\"description\":\"정학 사유가 되는 두 가지 행동(위험을 초래하는 행동 / 수업·활동의 질서 있는 운영을 방해하는 행동)의 병렬 구조가 깨졌다. 두 번째 사유가 '행동'의 수식이 아니라 문장 끝의 '운영을 방지'로 분리되어 누가 무엇을 방해하는지 불분명하다. 또한 'prevents'(방해하다)가 '방지'(막다)로 바뀌어 방해 행동이 아니라 운영을 막는 것처럼 읽힌다.\"},{\"id\":\"E002\",\"src_span\":\"consistent with the disciplinary responses set forth in this Code\",\"tgt_span\":\"이 코드에 명시된 징계 대응과 일치하는\",\"description\":\"징계 대응이 이 Code에 명시된 것과 일치해야 한다는 조건이 정학 권한 전체가 아니라 '수업이나 기타 학교 활동'을 수식하는 것처럼 잘못 붙었다.\"},{\"id\":\"E003\",\"src_span\":\"suspend a student for one to five school days\",\"tgt_span\":\"학생을 1 ~ 5 학교 일을 정지\",\"description\":\"'정학시키다'가 '정지'로, 'school days'가 '학교 일'로 옮겨져 정학 기간이 수업일 기준이라는 제도적 의미가 약해졌다. 수치 1~5는 유지된다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 방해 행동이 '운영을 방지'로 바뀌어 정학 사유의 내용이 달라졌다. 징계 대응 일치 조건의 수식 대상도 바뀌어 독자가 정학 사유와 조건을 다르게 이해하게 된다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1·2: 'behavior which ... or prevents'의 병렬 관계가 깨져 두 번째 사유가 행동과 분리되었고, 'consistent with'의 수식 관계도 정학 권한에서 학교 활동으로 옮겨갔다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 안내 → 규정 안내. 교장의 권한을 설명하는 기능은 유지된다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 2: 정학 권한이 발동되는 조건(두 가지 사유)과 징계 대응 일치 요건의 적용 범위가 달라졌다. 권한 부여 자체('권한이있다')는 유지되었다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 설명의 평서체 서술이며 관계에 맞는 격식에서 벗어나지 않는다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 2: 'school days'가 '학교 일'로, 'suspend'가 '정지'로 옮겨져 수업일 기준 정학이라는 제도적 의미가 약하다. 1~5라는 수치가 남아 있어 minor이다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1179,
+    "output_tokens": 1338,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

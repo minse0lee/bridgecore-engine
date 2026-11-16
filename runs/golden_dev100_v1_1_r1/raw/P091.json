@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch6zCB3XTPxXXyJdpdS7B",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P091\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"two houses\",\"tgt_span\":\"두 개의 하원\",\"description\":\"입법부를 구성하는 양원(상원·하원 두 의원)이 '두 개의 하원'으로 옮겨져 구성 대상이 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상): 입법부를 이루는 두 개의 원(양원제)이 '두 개의 하원'으로 바뀌어 상원이 사라지고 입법부 구성 내용이 달라졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'also'가 '또한…에도'로 유지되고 'like the British Parliament'의 비교 관계도 '영국 의회와 같이'로 유지되어 지시·연결·초점 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"제헌회의 합의 내용 서술 → 합의 내용 서술. 설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"should는 대의원들이 합의한 입법부 구성 방식을 서술하는 맥락으로, 독자에게 의무·금지를 거는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"설명문의 평서체 서술이 유지되며 화자·청자 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(제도적 의미): 영국 의회처럼 상·하원으로 이루어지는 양원제가 '두 개의 하원'으로 전달되어 한국어 독자가 양원제라는 제도적 의미를 이해할 수 없게 됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1019,
+    "output_tokens": 739,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

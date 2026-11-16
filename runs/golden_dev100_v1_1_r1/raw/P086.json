@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch6zBpegg7rjVLzzuyNFX",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P086\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"may be referred to a community-based organization\",\"tgt_span\":\"지역 사회 기반 조직을 참조 할 수 있습니다\",\"description\":\"수동태 'be referred to'(학교가 학생을 기관에 연계·의뢰함)가 학생이 조직을 '참조'한다는 능동 행위로 바뀌어 행위자와 행위가 달라짐\"},{\"id\":\"E002\",\"src_span\":\"after-school programming\",\"tgt_span\":\"학교 밖 프로그램\",\"description\":\"방과 후 프로그램이 '학교 밖 프로그램'으로 바뀌어 시간적 의미가 달라짐\"},{\"id\":\"E003\",\"src_span\":\"including, but not limited to,\",\"tgt_span\":\"을 포함한\",\"description\":\"'이에 국한되지 않는' 비한정 표지가 누락되어 열거가 예시임이 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1(행위·참여자): 학생이 서비스 기관으로 연계·의뢰된다는 내용이 학생이 조직을 '참조'한다는 것으로 바뀌어 누가 무엇을 하는지 달라졌고, '방과 후'가 '학교 밖'으로 바뀌고 'but not limited to'도 빠졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 3(범위): 'including, but not limited to'의 비한정 범위 표현이 사라져 나열 항목이 전부인 것처럼 읽힐 수 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"제도 안내(설명) → 제도 안내(설명). 연계 가능한 서비스를 알리는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"may는 학생에게 의무·허가를 부과하기보다 연계가 이루어질 수 있다는 가능성 안내이며, 규범적 의미를 정하는 문장이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내문의 '~습니다' 문체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지역 사회 기반 조직(CBO)을 일반 용어로 옮겼으나 같은 종류의 기관을 가리키고 다른 제도로 대체하지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 906,
+    "output_tokens": 970,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

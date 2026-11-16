@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch6zCj7b47U21o2Fd6wvD",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P099\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the agency warned that Wikipedia would be blocked\",\"tgt_span\":\"위키백과는 … 완전히 차단될 것이라고 경고했다\",\"description\":\"경고의 주체가 기관(Roskomnadzor)에서 위키백과로 바뀌어, 위키백과가 스스로 차단될 것이라고 경고한 것으로 읽힘\"},{\"id\":\"E002\",\"src_span\":\"the offending content was just a single article\",\"tgt_span\":\"단 한 개의 문서에 불법 콘텐츠가 포함되어 있더라도\",\"description\":\"'문제된(offending) 콘텐츠'가 '불법 콘텐츠'로 바뀌어 법적 판단이 덧붙여짐. 또한 '콘텐츠가 한 개의 문서였다'가 '한 문서에 콘텐츠가 포함'으로 바뀜(경미)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(행위자): 경고한 주체가 the agency에서 위키백과로 바뀌어 누가 경고했는지가 달라졌습니다. 또한 offending이 '불법'으로 바뀌어 내용이 일부 달라졌으나 이는 부수적입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'the agency'가 가리키는 대상(Roskomnadzor)이 번역문에서 위키백과로 바뀌어 지시 관계가 달라졌습니다. even though의 양보 관계는 '-더라도'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사건 서술(경고 보도) → 사건 서술. 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 아니라 보도 서술이며, 차단 경고는 보고된 사건입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 보도의 객관적 서술체가 '~했다'로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Roskomnadzor를 '러시아 정보통신 감독국(Roskomnadzor)'으로 기관 성격을 설명하고 원어를 병기해 같은 기관을 가리키며 이해할 수 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1042,
+    "output_tokens": 959,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

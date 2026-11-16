@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch6z7fQhk75TFYP2ayu47",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P025\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"we'll list your blog post there too\",\"tgt_span\":\"블로그 게시물을 올리도록 하겠습니다\",\"description\":\"'목록에 올리다(list, 링크 목록에 싣다)'가 '게시물을 올리다'로 바뀌어, 독자의 글을 목록으로 소개하는 행위가 글을 게시하는 행위처럼 읽힘. 'there too'(우리 페이지에도)에 해당하는 장소·추가 표현도 빠짐\"},{\"id\":\"E002\",\"src_span\":\"Link back to our Millenium Development Goals page, and\",\"tgt_span\":\"링크를 걸어주시면\",\"description\":\"명령형 요청과 'and' 연결이 조건절('-하시면')로 바뀜. 링크가 조건이 되는 관계는 유지되며 의미·기능을 바꾸지 않는 통상적 재구성이므로 실질 오류 아님\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'list'(목록에 실어 소개)가 '게시물을 올리다'로 바뀌고 'there too'의 장소·추가 의미가 빠졌으나, 링크 요청과 그에 대한 보답이라는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"링크 요청과 보답의 관계가 '-시면'으로 자연스럽게 재구성되어 연결 관계가 남아 있고, 'too'의 초점 변화는 내용 누락 범위로 Semantic에서만 다룹니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"링크를 걸도록 권하는 참여 권유 → 링크를 걸어달라는 권유와 보답 약속으로 같은 종류의 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없고 참여 권유와 약속을 하는 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'걸어주시면', '하겠습니다'로 독자에게 정중하게 권하는 기대 격식에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에서 별도로 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 654,
+    "output_tokens": 945,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

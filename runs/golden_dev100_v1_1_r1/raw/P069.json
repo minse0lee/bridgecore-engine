@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch6zAgsLK9ChEj3dgySL2",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P069\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"more than 10\",\"tgt_span\":\"이상 10\",\"description\":\"'10일 초과'가 '이상 10'으로 어순이 뒤바뀌고 '초과'가 '이상'으로 옮겨져 경계(10 포함 여부)가 달라지며 수치와 단위가 분리됨\"},{\"id\":\"E002\",\"src_span\":\"superintendent’s suspension\",\"tgt_span\":\"교육감의 정지\",\"description\":\"superintendent's suspension(교육감 정학)이 '교육감의 정지'로 옮겨져 학생 징계인 정학의 의미가 전달되지 않음\"},{\"id\":\"E003\",\"src_span\":\"10 consecutive school days\",\"tgt_span\":\"10 교육감의 정지의 결과로 연속 학교 일\",\"description\":\"'10 consecutive school days'의 구성요소가 흩어져 '10'과 '학교 일' 사이에 다른 구절이 끼어 일수 표현이 성립하지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1(수량·행위): '10일 초과'가 '이상 10'으로, '정학'이 '정지'로 바뀌고 '10 … 연속 학교 일'이 분리되어 기간 수량과 조치 내용을 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 1·3(수식·범위 관계): '10'과 '연속 학교 일'의 결합이 끊기고 more than의 범위가 '이상 10'으로 어긋나 수치와 단위의 관계를 복원하기 어렵습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 항목 나열 → 규정 항목 나열. 단편적이지만 목록 항목으로서의 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장은 기간 조건을 나타내는 목록 항목 조각으로, 의무·허가·금지 표현이 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 청자의 관계나 태도가 드러나는 표현이 없는 목록 조각입니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2(제도 용어): superintendent's suspension이라는 미국 학교 제도상의 징계 조치가 '교육감의 정지'라는 일반 어휘로 옮겨져 제도적 의미(교육감 정학)가 전달되지 않습니다. 다만 '교육감'이 남아 있어 원 자료를 찾을 수 있으므로 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 601,
+    "output_tokens": 1062,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

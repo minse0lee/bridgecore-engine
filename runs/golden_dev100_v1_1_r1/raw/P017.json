@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch6z7Cce1fDY3kJ8qEbHg",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P017\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"which would allow Mike Pence, the vice president, to break a tie and confirm him to the Supreme Court\",\"tgt_span\":\"마이크 펜스를 허용, 부통령, 타이를 끊고 대법원에 그를 확인\",\"description\":\"펜스 부통령이 동점을 깨 대법원 인준을 가능하게 한다는 내용이 '펜스를 허용'(허용 대상이 뒤바뀜)과 동사 나열로 바뀌어 행위자·행위 관계와 가능성(would)이 사라지고, confirm이 '확인'으로 오역됨\"},{\"id\":\"E002\",\"src_span\":\"Mr Kavanaugh\",\"tgt_span\":\"씨 카바 노가\",\"description\":\"Mr를 '씨'로 앞에 놓고 이름을 '카바 노'로 분리 음역했으나 카바노(Kavanaugh)로 알아볼 수 있어 지시 대상은 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 펜스가 동점을 깨 인준하게 된다는 인과·행위자 관계가 '펜스를 허용'으로 달라지고 confirm이 '확인'으로 오역되어 요지를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 50표 확보와 그로 인해 펜스가 동점을 깨고 인준하는 결과 관계(which 절의 연결)가 끊기고 단어 나열이 되어 연결 관계를 알 수 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상황 설명(보도) → 상황 설명. 기능 종류는 바뀌지 않았습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"can은 가능성·능력의 뜻이고 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 보도의 중립적 서술이며 관계·호칭 문제로 판정할 훼손은 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상원·부통령·대법원이 미국 제도를 가리키는 통용 용어로 옮겨졌고 다른 제도로 바뀌지 않았습니다. '상원 바닥'은 어색하지만 제도적 의미는 알 수 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 826,
+    "output_tokens": 970,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

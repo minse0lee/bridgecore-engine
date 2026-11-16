@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch6z7JGTHQhVu1q5GnVHC",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P020\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the first thing you'll want to do is create some objects\",\"tgt_span\":\"먼저 몇 개의 객체를 생성해야 합니다\",\"description\":\"'하고 싶어 할 것'이라는 예상·기대가 '생성해야 합니다'라는 필요·의무 표현으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): 독자가 가장 먼저 하고 싶어 할 일이라는 예상·기대가 '해야 합니다'라는 필요 진술로 달라졌으나, 먼저 객체를 생성한다는 핵심 사실과 인과 근거는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Since가 '-므로'로 옮겨져 인과 연결이 유지되고, 지시 표현과 초점 표현도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학습 절차 안내 → 학습 절차 안내. 객체 생성을 먼저 하도록 이끄는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"원문의 you'll want to는 예상되는 학습 단계를 안내하는 표현이며 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학습자료의 설명체가 '-합니다' 안내체로 유지되어 독자와의 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"기술 설명 문장으로 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 621,
+    "output_tokens": 721,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

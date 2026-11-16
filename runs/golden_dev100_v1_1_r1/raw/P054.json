@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch6z9iToRYpbR18JkXqAb",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P054\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"which some human rights groups described as even more repressive\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"일부 인권단체가 새 보안법을 더 억압적이라고 평가했다는 관계절이 통째로 누락됨\"},{\"id\":\"E002\",\"src_span\":\"martial law\",\"tgt_span\":\"비상사태\",\"description\":\"계엄령(martial law)이 '비상사태'로 바뀌어 다른 제도적 개념으로 옮겨짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 인권단체의 '더 억압적' 평가라는 출처 딸린 평가 내용이 사라졌고, martial law가 '비상사태'로 바뀌어 대상이 달라져 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but의 대조는 '해제했지만'으로 유지되고 지시·초점 관계는 변하지 않았습니다. 누락 내용은 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사건 보도·설명 → 사건 보도·설명. 발화 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 표현이 없는 보도 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 서술체 '~했다'가 유지되며 특별한 높임·호칭 관계가 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1·2: martial law(계엄령)가 '비상사태'라는 일반 어휘로 바뀌어 제도적 의미가 전달되지 않습니다. 날짜 등 원 자료를 찾을 수 있어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 628,
+    "output_tokens": 787,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
