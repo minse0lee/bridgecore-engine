@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7zt6Lcz1eciWmCkRs1a",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0159\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“Hulking,”\",\"tgt_span\":\"\\\"덩치만 컸다니까요,\\\"\",\"description\":\"'Hulking'(덩치가 크고 투박한)이 '덩치만 컸다'로 바뀌어 '덩치만 크고 속은 비었다'는 뉘앙스의 평가가 더해지고, 서술어 형태로 바뀜. 평가어의 정도·표현 차이에 해당.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"데이지가 상대를 덩치 크다고 우겼다는 핵심 내용(인물·행위·평가)이 유지되며, 달라진 것은 평가어의 표현 정도뿐입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계가 바뀌지 않았고, '덩치만'의 '만'은 평가어 표현 차이로 보며 초점 이동으로 보지 않습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞 발언에 대해 고집스럽게 재차 주장하는 대화 → 고집스럽게 재차 주장하는 대화. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"데이지가 대화 상대에게 말하는 구어체 '-니까요'는 대화 상황과 관계에 무리가 없고 우기는 태도도 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명만 있고 별도로 판정할 문화·제도적 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 448,
+    "output_tokens": 726,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7zuZtbGFCmTRsRvqwSb",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0192\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Miss Baker\",\"tgt_span\":\"조던 베이커 양\",\"description\":\"원문에 없는 이름 'Jordan'(조던)이 첨가됨. 같은 인물을 가리키는 보충이며 지시 대상은 바뀌지 않음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"고개를 돌려 베이커 양에게 동의를 구하며 '완벽한 장미'인지 묻는 내용이 유지됩니다. '조던'은 같은 인물을 가리키는 이름 보충이라 사태가 달라지지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'조던 베이커 양'이 같은 인물을 가리키고 동의를 구하는 연결과 'An absolute rose' 반복도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"동의를 구하는 확인 요청 → 동의를 구하는 확인 요청. '같지 않아요?'로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술과 대화입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 청자에게 정중하게 묻는 어조가 '~아요?'체로 유지되며 앞 대사와도 일관됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Miss'가 '양'으로 옮겨져 미혼 여성에 대한 경칭 의미가 통용 표기로 전달됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 663,
+    "output_tokens": 684,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

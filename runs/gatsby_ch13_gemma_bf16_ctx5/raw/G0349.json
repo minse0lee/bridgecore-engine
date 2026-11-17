@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch812MsEYqptuJnfeVpgk",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0349\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"next door to—\",\"tgt_span\":\"그 옆집에 사신다고\",\"description\":\"'~의 옆집(next door to 〈미완의 대상〉)'이 '그 옆집'이라는 지시어로 바뀌어, 대상이 끊긴 미완성 문장이 이미 정해진 옆집을 가리키는 표현으로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상): 'next door to'의 대상이 잘려 나간 것인데 '그 옆집'으로 옮겨 특정한 옆집이 있는 것처럼 읽힌다. 다만 '기억했다, 옆집에 산다'는 핵심 사실은 유지되고 문장 요지는 크게 다르지 않아 minor.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(지시): 'next door to'의 대상이 미완으로 끊긴 것을 '그 옆집'이라는 지시어로 바꾸어 앞에 나온 어떤 대상을 가리키는 것처럼 읽히게 했다. 다만 독자가 해야 할 행동에는 영향이 없어 minor.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기억을 말하며 말끝을 흐리는 대화 → 기억을 말하며 말끝을 흐리는 대화. 발화 기능은 유지된다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 소설 속 대화이다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 상대(서술자)에게 '사신다고'로 높임을 쓰는 것이 처음 만난 듯한 거리감 있는 관계에 어색하지 않다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정할 대상이 없다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 505,
+    "output_tokens": 819,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

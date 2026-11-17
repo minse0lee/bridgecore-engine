@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7zmdrF9GwBmvYPnrPPK",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0018\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I’m supposed to look like him—with special reference to the rather hard-boiled painting\",\"tgt_span\":\"아버지 사무실에 걸려 있는 다소 딱딱한 느낌의 초상화를 보면 내가 그분을 닮았다고들 한다\",\"description\":\"원문은 '나는 그를 닮았다고 여겨지는데, 특히 초상화(속 모습)를 두고 하는 말'인데, 번역은 초상화를 보면 닮았다고들 한다는 말로 옮김. 큰 틀의 의미는 유지되나 'hard-boiled'(냉혹한·억센 인상)가 '딱딱한 느낌'으로 약화됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대조 부분: 종조부를 본 적 없음, 닮았다고 여겨짐, 아버지 사무실의 초상화라는 핵심 내용이 유지됩니다. 'hard-boiled'가 '딱딱한 느낌'으로 바뀐 것은 평가어의 정도·뉘앙스 차이일 뿐이며 판단 질문 2에 따라 보존입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'but'의 대조 관계가 '-지만'으로 유지되고, 'him'은 '그분', 'father's office'는 '아버지 사무실'로 지시 관계가 유지되며, 초점 표현의 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 서술(자기 소개·배경 설명) → 서술. 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'never'는 경험 부정이고 'supposed to'는 '그렇다고 여겨진다'는 평가로 규범 의미가 아니므로 평가할 대상이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술자가 일가 어른인 종조부를 '뵌'으로 높이는 것은 관계에 맞고, 서술체 '-한다'도 출판물 본문의 서술 어조에 어울립니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화·제도 고유의 대상(제도명, 단위, 날짜 등)이 없습니다. 친족 호칭 '종조부'는 실제 친족 관계(great-uncle)를 가리킵니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1434,
+    "output_tokens": 990,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

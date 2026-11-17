@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch815oNjJX2nUeC8ApWF6",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0429\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the Twenty-eighth Infantry\",\"tgt_span\":\"제28보병사단\",\"description\":\"28th Infantry(보병연대 단위)를 '보병사단'으로 옮겨 부대 편제 단위가 연대에서 사단으로 바뀜. 숫자 28은 일치하며 힌트는 오경보.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[],\"reason\":\"판단 질문 1: 같은 대상(28번째 보병 부대)이며 소속 사실은 유지되나, Infantry가 '보병사단'으로 구체화되어 부대 단위가 달라졌습니다. 요지는 같아 minor로 봅니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현의 변화가 없습니다. Why yes가 '네, 맞아요'로 앞 질문에 대한 긍정 응답 관계를 유지합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"질문에 대한 긍정 응답과 소속 설명 → 긍정 응답과 소속 설명. 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화에서 상대에게 공손하게 답하는 말투가 '~요/~습니다'로 무리 없이 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 미군 28th Infantry(연대급 부대)가 '제28보병사단'으로 바뀌어 다른 군 편제 단위를 가리키게 되었습니다. 부대 번호가 남아 있어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 600,
+    "output_tokens": 747,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

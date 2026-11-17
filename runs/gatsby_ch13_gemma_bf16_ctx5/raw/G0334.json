@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch811icdYRYPK4K8w54AZ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0334\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"came for the party with a simplicity of heart that was its own ticket of admission\",\"tgt_span\":\"그저 파티에 가고 싶다는 순진한 마음 하나가 곧 입장권이었던 셈이다\",\"description\":\"'simplicity of heart'(꾸밈없는 마음)가 '순진한 마음'으로, '그저 ~ 하나'가 첨가되었고 'its own ticket'이 '곧 입장권이었던 셈이다'로 옮겨져 약간의 정도·뉘앙스 변화가 있으나 핵심 의미는 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개츠비를 만나지 않고 오가기도 했다는 내용과, 파티를 위해 온 순박한 마음이 곧 입장권이라는 내용이 유지됩니다. '순진한'과 '그저 ~ 하나'는 평가어의 정도 차이에 그칩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'they'가 가리키는 손님들, 'without having met'과 'came for the party'의 연결이 유지되며 지시·연결·초점 관계가 바뀌지 않았습니다. 'at all'은 '전혀'로 옮겨졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 상황 묘사 → 서술자의 상황 묘사. 기능이 동일합니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 평서체('~했다', '~셈이다')가 유지되며 관계나 태도 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습이 없습니다. 'ticket of admission'은 비유적 표현으로 입장권으로 통용되어 옮겨졌습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 968,
+    "output_tokens": 836,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

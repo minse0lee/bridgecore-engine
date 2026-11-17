@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7zqvCcRGL3SCYf85c9n",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0109\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Well\",\"tgt_span\":\"정말\",\"description\":\"담화표지 Well(화제 전환·말문 열기)이 강조 부사 '정말'로 옮겨짐. 의미·기능은 크게 바뀌지 않아 경미한 차이.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그녀를 한번 봐야 한다'는 내용과 미완의 She's— 가 유지됩니다. 'her'가 '애'로 옮겨진 것은 지시 대상이 같고 문맥상 통상적 대응입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"She'가 '애'로 이어져 지시 대상이 유지되고 말줄임 대시의 끊김도 남아 있어 질문 1·2·3 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"직접 만나 보라고 권하는 대화 → 만나 보라고 권하는 대화. 같은 종류의 권유 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"ought to는 만나 보기를 권하는 대화 속 개인적 권유이며 자격·의무·규범을 정하는 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-해요'체와 '애'라는 호칭이 적절한지 판단하려면 화자와 청자의 관계, 그리고 '애'가 가리키는 인물(나이 등) 정보가 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 549,
+    "output_tokens": 715,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

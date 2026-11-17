@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch816NAhtWHVUnc1uCUKV",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0441\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the invisible hedge in the distance\",\"tgt_span\":\"멀리 보이지 않는 울타리\",\"description\":\"'멀리 있어 보이지 않는 울타리'라는 뜻(거리상 보이지 않음)이 '멀리 보이지 않는 울타리'로 옮겨져 수식 관계가 모호해졌으나 같은 대상을 가리키며 뜻이 크게 달라지지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"손을 흔든 행위, 보이지 않는 먼 울타리, 개츠비가 운전기사를 보내 초대장을 전했다는 내용이 모두 유지됩니다. 'sent over his chauffeur with an invitation'을 '보내 초대장을 주더군요'로 옮긴 것도 같은 사태입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"손짓 뒤에 이어지는 인용문의 연결이 '말을 이었다'로 유지되며, 'this man Gatsby'가 '개츠비라는 분'으로 같은 대상을 가리킵니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"자신이 사는 곳과 초대받은 경위를 설명하는 서술·대화 → 같은 설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"처음 만난 사람에게 하는 말이라 '-더군요'의 해요체가 관계에 맞고, 'this man'은 '분'으로 중립적·공손하게 옮겨 경멸 등의 태도 변화를 만들지 않았습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 755,
+    "output_tokens": 794,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

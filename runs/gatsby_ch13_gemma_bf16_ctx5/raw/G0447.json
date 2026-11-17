@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch816Y9UeUEkp4jZRbM6X",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0447\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I’m not a very good host\",\"tgt_span\":\"제가 좋은 호스트가 못 된 모양이군요\",\"description\":\"'very good host가 아니다'(정도 완화)가 '좋은 호스트가 못 된다'로 바뀌어 정도 표현 very가 사라짐. 의미 훼손은 경미.\"},{\"id\":\"E002\",\"src_span\":\"old sport\",\"tgt_span\":\"친구\",\"description\":\"개츠비 특유의 호칭 'old sport'가 일반 호칭 '친구'로 바뀌어 상류층 흉내 어투의 특색이 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'알고 있는 줄 알았다'와 '좋은 호스트가 아닌 듯하다'는 유지되며, very의 정도 차이는 평가어 정도 변화에 해당해 보존입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계가 바뀌지 않았고 두 문장의 연결이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"완곡한 사과·해명 → 완곡한 사과·해명. 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 같은 규범 표현이 없는 대화입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2·3: 개츠비의 습관적 호칭 'old sport'가 일반적인 '친구'로 바뀌어 친밀하면서 격식을 차린 화자 특유의 태도가 약해졌고, 존댓말과 '친구'의 조합도 관계 표지를 흐립니다. 다만 요지와 행동 이해에는 영향이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·단위·관습 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 516,
+    "output_tokens": 821,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

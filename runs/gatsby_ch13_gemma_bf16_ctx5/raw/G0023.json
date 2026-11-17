@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7zmuFD7Hxs2c2fhrPnC",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0023\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"All my aunts and uncles\",\"tgt_span\":\"고모와 삼촌들은\",\"description\":\"aunts(이모·고모·숙모 등 포괄)가 '고모'로 한정되어 범위가 좁아짐. 다만 원문 문맥상 부계·모계 구분이 없어 의미 차이는 경미함.\"},{\"id\":\"E002\",\"src_span\":\"talked it over as if they were choosing a prep school for me\",\"tgt_span\":\"진지하게 상의하더니\",\"description\":\"'진지하게'가 첨가되었으나 이어지는 very grave 표현과 일치하는 정도의 첨가로 의미 변화는 경미함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물): all my aunts and uncles의 aunts가 '고모'로 한정되어 친척 범위가 일부 좁아졌으나, 핵심 사태(친척들이 상의하고 망설이며 승낙)는 유지되어 요지와 행동 이해에는 영향이 없습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-더니', '마침내'로 상의 뒤 결론이라는 시간·인과 순서가 유지되고, 'it'과 'for me'의 지시 관계도 보존됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 친척들의 반응을 묘사하는 서술 기능이 유지되며, as if의 비유가 가진 아이러니한 서술 기능도 그대로 읽힙니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 서술문이며 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회고 서술의 평서체와 친척들의 대사 '글쎄, 그-렇지'가 머뭇거리는 구어체 어조로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"prep school을 '예비 학교'로 옮겨 대학 진학 준비 학교라는 제도적 의미를 이해할 수 있고 다른 제도로 대체하지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1345,
+    "output_tokens": 898,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

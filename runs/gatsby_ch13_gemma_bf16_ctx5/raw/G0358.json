@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch812hh6Faf9MWHXUawLm",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0358\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"each one introduced to us as Mr. Mumble\",\"tgt_span\":\"남자들은 모두 이름조차 가물가물한 ‘어느 씨’ 정도로 소개되었다\",\"description\":\"Mr. Mumble은 웅얼거려 알아들을 수 없는 이름을 뜻하는 가상의 이름인데, '이름조차 가물가물한 어느 씨 정도'로 옮겨 이름을 기억하기 어렵다는 뜻으로 바뀌고 '정도로'가 더해졌습니다. 다만 이름이 불분명하다는 취지는 어느 정도 유지됩니다.\"},{\"id\":\"E002\",\"src_span\":\"the two girls in yellow\",\"tgt_span\":\"노란 드레스를 입은 두 소녀\",\"description\":\"원문의 in yellow(노란 옷)를 '노란 드레스'로 구체화했으나 문맥상 같은 대상이라 의미 변화는 없습니다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: Mr. Mumble은 이름이 웅얼거려 들리지 않는다는 뜻의 이름인데, 번역은 화자가 이름을 가물가물하게 기억한다는 의미로 바뀌었습니다. 핵심 사실(모두 불분명한 이름으로 소개됨)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계가 바뀌지 않았고, 문장 분할은 오류가 아닙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 파티 장면의 묘사 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 같은 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 본문의 서술체가 유지되며, 화자와 청자 사이의 높임이 문제 되는 대화가 아닙니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Mr.를 '씨'로 옮겨 호칭의 기능이 전달되고, 제도·단위·날짜 같은 문화 대상의 변경은 없습니다. 이름 암시의 변화는 Semantic에서 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1192,
+    "output_tokens": 960,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

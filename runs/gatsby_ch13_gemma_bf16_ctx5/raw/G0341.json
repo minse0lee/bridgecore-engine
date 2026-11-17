@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8122b8AinnxJDFHKgJH",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0341\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"convinced that it was theirs\",\"tgt_span\":\"확신하는 듯했다\",\"description\":\"원문은 그들이 확신하고 있었다고 단정하지만, 번역문은 '듯했다'를 붙여 화자의 추측으로 바꿔 확실성이 약해짐\"},{\"id\":\"E002\",\"src_span\":\"the easy money\",\"tgt_span\":\"셈이 좋은 돈\",\"description\":\"'easy money'(쉽게 벌 수 있는 돈)를 '셈이 좋은 돈'으로 옮겨 '쉽게 얻는다'는 뜻이 '수지가 맞는다'는 뜻으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(확실성·평가 내용): '확신했다'가 '확신하는 듯했다'로 바뀌어 확실성이 달라졌고, easy money가 '셈이 좋은 돈'이 되어 쉽게 얻는다는 의미가 흐려졌습니다. 핵심 사실(돈을 의식하고 확신함)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그 돈이 제 것'이라는 지시 관계와 '적절한 말 몇 마디만 건네면'의 조건·초점 관계가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 상태 서술 → 인물 상태 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 서술이며 의무·허가·금지 같은 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 서술체와 영국 청년들을 바라보는 냉소적 태도가 '뼈저리게 의식', '확신하는 듯했다'로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1125,
+    "output_tokens": 852,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

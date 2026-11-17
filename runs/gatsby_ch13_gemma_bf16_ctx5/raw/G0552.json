@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch81BGjvKhGeH9ksFnwWH",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0552\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the late patron of Gatsby’s library\",\"tgt_span\":\"바로 얼마 전 개츠비의 서재를 찾았던 그 손님이었다\",\"description\":\"'the late patron'은 '고인이 된 단골(후원자)'을 뜻하는데, 번역은 '얼마 전 서재를 찾았던 손님'으로 옮겨 고인 정보가 사라지고 patron(단골·후원자)이 일반 방문객으로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"infinitely astonishing to him\",\"tgt_span\":\"무척이나 놀라운 모양이었다\",\"description\":\"'infinitely'(무한히)가 '무척이나'로 정도가 약화되고 '모양이었다'로 서술자의 추측 어조가 덧붙어 확실성이 달라짐(경미)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'the late patron'(이미 고인이 된 서재의 단골)이 '얼마 전 찾았던 손님'으로 바뀌어 인물의 신원 정보(고인)가 달라졌고, 이 점에서 독자가 요지를 다르게 이해합니다. 'infinitely astonishing'의 추측화는 minor 수준입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"first…and then의 순서 관계와 'the man—it was…'의 지시 관계가 '먼저…곧이어…바로 …손님이었다'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 인물을 알아보는 장면을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 소설 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체('~였다')가 유지되며 특별한 관계 표지가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 706,
+    "output_tokens": 868,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

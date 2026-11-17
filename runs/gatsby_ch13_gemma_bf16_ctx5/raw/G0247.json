@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7zwsYHXnq4emyPaGKkq",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0247\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I’ve been everywhere and seen everything and done everything.”\",\"tgt_span\":\"난 어디든 가봤고, 모든 걸 봤고, 해볼 건 다 해봤으니까요.”\",\"description\":\"원문에 없는 이유 연결어미('-니까요')가 붙어, 'I know'의 근거로 읽힘. 원문은 독립된 세 번째 진술임.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"모두가 그렇게 생각한다, 가장 앞서가는 사람들, 화자가 안다, 어디든 가고 다 보고 다 해봤다는 내용이 유지됩니다. 'advanced'를 '깨어 있는'으로 옮긴 것은 평가어 표현 차이이고, '해볼 건 다 해봤다'는 done everything과 같은 뜻입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'And I know'의 접속이 생략되었으나 문장 연결 관계는 유지됩니다. 말미의 '-니까요'는 'I know'의 근거를 덧붙이는 뉘앙스가 있으나 인과 관계를 새로 만든다고 보기는 어려워 질문 2에 해당하지 않습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"자신의 견해와 경험을 내세우는 주장 → 같은 주장. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 소설 속 대화입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"자신만만하고 약간 과시적인 화자의 태도가 '~요' 구어체로 유지됩니다. 청자와의 관계에 맞는 말투입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 865,
+    "output_tokens": 804,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

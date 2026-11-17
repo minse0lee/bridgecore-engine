@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7zwmpVbgvmhJeMSSUVz",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0245\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"‘All right,’ I said, ‘I’m glad it’s a girl.\",\"tgt_span\":\"‘다행이에요,’ 내가 말했죠. ‘딸이라서 정말 다행이에요.\",\"description\":\"‘All right’(체념·반어적 수용)가 ‘다행이에요’로 옮겨져 별개의 감정 표현이 되었고, 'glad'와 중복되어 반복처럼 읽힘. 다만 'glad it’s a girl' 자체는 '다행'으로 대응 가능하며 평가어 정도 차이에 가까움.\"},{\"id\":\"E002\",\"src_span\":\"that’s the best thing a girl can be in this world\",\"tgt_span\":\"이 세상에서 여자가 될 수 있는 가장 좋은 모습은 바로 예쁘고 작은 바보가 되는 거니까요\",\"description\":\"독립된 평서 주장(대시 뒤 부연)이 '~니까요' 이유절로 바뀌어 앞 소망의 근거로 연결됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"딸이라 기쁘다는 말, 딸이 바보가 되기를 바람, 여자에게 최선은 예쁘고 작은 바보라는 내용이 모두 유지됩니다. 'All right'의 '다행' 번역은 평가어·뉘앙스 차이로 봅니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대시 뒤 부연이 '~니까요'로 바뀌었지만 앞 소망의 이유를 설명하는 관계로 한국어에서 자연스럽게 재구성되어 연결 관계가 실질적으로 유지됩니다(판단 질문 2: 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 씁쓸한 자조·사회 비판 서술 → 같은 서술 기능. 문장 형식이 평서로 유지되어 기능이 바뀌지 않았습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'can be'는 가능성·일반적 서술이며 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Daisy가 Nick에게 회상을 들려주는 대화이며 '~에요/~죠'의 부드러운 구어체가 관계와 상황에 어울립니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·단위·관습 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1144,
+    "output_tokens": 1023,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

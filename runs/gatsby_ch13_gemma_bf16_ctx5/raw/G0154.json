@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7zsrVvDtgt8nJ4jNPnj",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0154\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I hurt it.\",\"tgt_span\":\"다쳤어요.\",\"description\":\"목적어 'it'(다친 신체 부위)이 번역에서 생략되어 '다쳤어요'만 남음. 한국어에서 주어·목적어 생략은 자연스럽고, 앞 문맥상 다친 부위를 보여 주는 상황이 유지되므로 의미 변화는 미미함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'봐요'와 '다쳤어요'로 보라고 하며 다쳤다고 불평하는 내용이 유지되며, 'it'의 생략은 한국어에서 통상적인 생략입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'it'이 가리키는 부위는 '봐요'와 함께 문맥상 연결되어 지시 관계가 바뀌지 않았고, 연결 관계도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"주의를 끄는 요청과 불평 → 주의를 끄는 요청과 불평. 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'봐요/다쳤어요' 해요체가 화자와 청자 관계에 맞는지 판단하려면 이 장면에서 화자(데이지)와 청자(서술자 닉 등)의 관계 정보가 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 462,
+    "output_tokens": 713,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

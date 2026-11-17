@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7zru5RHoaAf2ajFgqPd",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0131\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“got done.”\",\"tgt_span\":\"'해내는지'\",\"description\":\"앞서 베이커 양에 대해 언급된 'got done'(무언가를 해치웠다/처리했다는 뜻으로 인용된 표현)을 '해내는지'로 옮김. 현재형·성취의 뉘앙스가 있으나 '해낸 일이 무엇인지 궁금하다'는 핵심은 대체로 유지됨. 'what it was she got done'의 과거 시제(무엇을 했는지)가 현재형으로 바뀌고 'wondering what it was'의 분열문 강조가 '대체'로 옮겨짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(시간): 'got done'의 과거 시제가 '해내는지'로 현재형이 되어 그녀가 이미 해낸 일이 아니라 일반적으로 하는 일로 읽힙니다. 다만 그녀가 무엇을 하는 사람인지 궁금해한다는 핵심 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'바라보며'로 바라보는 행위와 궁금함의 동시 관계가 유지되고, 지시·초점 표현의 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 서술(관찰과 의문 묘사) → 서술. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문으로 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 '~했다'와 '베이커 양' 호칭이 Miss Baker의 격식을 유지합니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Miss를 '양'으로 옮긴 것은 통용되는 호칭 대응으로 같은 대상과 격식을 가리킵니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 875,
+    "output_tokens": 833,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

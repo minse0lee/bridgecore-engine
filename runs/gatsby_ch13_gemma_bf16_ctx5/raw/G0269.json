@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7zxoG6j8DctpooWWyrg",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0269\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I’ll sort of—oh—fling you together\",\"tgt_span\":\"내가 어떻게—아—둘을 엮어줄게\",\"description\":\"'sort of'(말을 고르는 망설임)가 '어떻게'로 옮겨져 뜻이 다소 달라졌으나 말 고르는 기능은 유지됨. 의미를 바꾸지 않는 차이.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"중매를 서겠다, 자주 오라, 둘을 엮겠다, 실수인 척 가두고 배로 밀어낸다는 내용이 모두 유지됩니다. 'sort of'의 망설임이 '어떻게'로 바뀐 것은 내용을 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Come over often, and I'll…'의 조건 관계가 '그럼'으로 유지되고 지시 대상(둘, 닉)도 같습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"데이지의 장난스러운 계획 설명과 초대 → 같은 종류의 설명·초대 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없고 친구 사이의 초대와 계획 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"데이지가 닉에게 하는 친근한 반말이 친척·친구 사이 관계와 장난스러운 태도에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"linen closets를 '리넨 보관함'으로 옮겨 같은 사물을 가리키며 다른 제도·관습으로 바꾸지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 843,
+    "output_tokens": 755,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

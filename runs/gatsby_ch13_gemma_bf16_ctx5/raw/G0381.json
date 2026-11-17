@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch813h4RANNaYSBXvFLQA",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0381\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I’ll bet he killed a man.\",\"tgt_span\":\"분명 사람을 죽였을 거예요.\",\"description\":\"'I'll bet'(내기를 걸어도 좋다는 추측)이 '분명'(거의 단정)으로 바뀌어 확실성이 강해짐\"},{\"id\":\"E002\",\"src_span\":\"You look at him sometimes\",\"tgt_span\":\"표정을 한번 보세요\",\"description\":\"일반적 'you'(누구든 보면)가 청자에게 보라고 권하는 명령으로 바뀌고, '표정'이 첨가됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(확실성): 'I'll bet'의 강한 추측이 '분명'으로 단정에 가깝게 바뀌었고, 핵심 사실(그가 사람을 죽였다는 추측)은 유지되어 minor입니다. 'you look at him sometimes'의 일반적 서술이 청자에게 보라는 말로 바뀐 점과 '표정'의 첨가는 핵심 내용을 바꾸지 않는 표현 차이입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 대상(그 사람, 아무도)과 'when' 시간 연결, 두 문장의 연결 관계가 유지되고 초점 표현의 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"흥분해서 남을 추측하며 상대를 설득하는 발언 → 같은 종류의 설득·추측 발언. '보세요'가 권유로 읽히지만 청자를 끌어들이는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없는 대화 속 추측 발언입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"파티에서 처음 만난 사이의 여성이 말하는 정중한 구어체 '~세요/~예요'가 상황에 맞고 열의 있는 태도도 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 726,
+    "output_tokens": 917,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

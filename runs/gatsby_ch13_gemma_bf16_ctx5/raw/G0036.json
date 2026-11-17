@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7znZJRviY82hwgqhjDJ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0036\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"promising to unfold the shining secrets\",\"tgt_span\":\"마치 … 약속하는 것만 같았다\",\"description\":\"책이 비밀을 펼쳐 보이겠다고 약속한다는 서술이 '마치 ~ 같았다'라는 비유적 인상으로 바뀌어 확실성이 달라졌으나, 원문도 의인화 표현이라 핵심 사실은 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"열두 권(a dozen), 책 주제, 붉은색·금색, 새 돈 비유, 책장, 마이다스·모건·마이케나스만 알던 비밀이 모두 유지됩니다. 'in red and gold'를 '표지'로 구체화하고 '마치 ~ 같았다'를 덧붙인 것은 같은 사태를 기술하므로 의미 변화가 아닙니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'they'는 '그것들'로 책을 가리키고, 'only'는 '마이다스와 모건, 마이케나스만'으로 같은 대상에 붙습니다. 두 문장 분할로도 분사구문의 부수 관계가 유지됩니다(질문 1·2·3 모두 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 과거 행동과 인상을 묘사하는 서술 → 서술. 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술자의 1인칭 서술 어조가 '~았다' 평서체로 유지되며 관계상 어긋남이 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조폐국, 마이다스·모건·마이케나스(부와 후원의 상징 인물)가 같은 대상으로 정확히 음역되어 통용 표기로 유지되고, 'a dozen'도 '열두 권'으로 정확합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1316,
+    "output_tokens": 872,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

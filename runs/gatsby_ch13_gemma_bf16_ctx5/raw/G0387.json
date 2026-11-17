@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch813xKwn2TB34ou1kjQT",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0387\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"violent innuendo\",\"tgt_span\":\"노골적인 암시\",\"description\":\"violent(폭력적이고 거친)가 '노골적인'으로 바뀌어 평가어의 정도·성격만 달라짐\"},{\"id\":\"E002\",\"src_span\":\"obviously under the impression\",\"tgt_span\":\"굳게 믿는 눈치였다\",\"description\":\"obviously(분명히)와 impression(~라는 인상)이 '굳게 믿는 눈치'로 옮겨져 확실성 표현이 일부 달라졌으나 핵심 내용은 유지됨\"},{\"id\":\"E003\",\"src_span\":\"sooner or later\",\"tgt_span\":\"조만간\",\"description\":\"조만간은 대체로 '곧'의 뜻이어서 '조만간 …할 것'이 원문의 '언젠가는 반드시'와 약간 다르나 통상적으로 허용되는 대응임\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"세 쌍의 부부, 파트너인 끈질긴 대학생, 암시를 즐겨 씀, 조던이 몸을 허락할 것이라는 그의 기대 등 핵심 내용이 유지되며, 달라진 것은 평가어의 정도('violent'→'노골적인')뿐입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그'가 대학생을 가리키고 '조던' 등 지시 관계가 유지되며, 문장 분할은 연결 관계를 바꾸지 않았고 초점 표현의 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 묘사 서술 → 인물 묘사 서술로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 평서체('-었다')가 소설 본문에 맞게 유지되고, 대학생에 대한 서술자의 냉소적 태도도 크게 약화되지 않았습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 별도로 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1239,
+    "output_tokens": 915,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

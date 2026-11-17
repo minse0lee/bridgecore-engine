@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7zzJGdbeuKZVdFtsHvt",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0304\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a figure\",\"tgt_span\":\"한 남자\",\"description\":\"성별이 확인되지 않은 형체(figure)가 '남자'로 옮겨졌으나, 직후 문장에서 개츠비로 추정되므로 의미 영향은 거의 없음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"고양이 실루엣, 혼자가 아님을 깨달음, 50피트, 이웃 저택 그림자, 손을 주머니에 넣고 별을 바라봄 등 핵심 내용이 유지됩니다. 'figure'를 '남자'로 옮긴 것은 문맥상 개츠비로 이어지므로 내용을 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그 모습'이 고양이 실루엣을, '이웃집'이 화자의 이웃을 가리키는 관계가 유지되고 시간 순서와 연결도 보존됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 화자가 누군가를 발견하는 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체의 평서 문장이 유지되며 높임·호칭이 문제되는 관계 표현은 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"피트 단위를 환산하지 않고 '50피트'로 그대로 유지하여 같은 단위를 가리킵니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1461,
+    "output_tokens": 711,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

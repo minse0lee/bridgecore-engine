@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7zqkM2QbowQnb8TRWm3",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0105\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"You ought to see the baby.\",\"tgt_span\":\"당신도 아기를 봐야 하는데.\",\"description\":\"'도'가 첨가되어 '아기도 봐야 한다'는 추가·포함의 초점이 생김. 원문에는 해당 초점 표지가 없음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"그녀가 덧붙였다, 뜬금없이(irrelevantly), 당신이 아기를 봐야 한다는 내용이 유지됩니다. '도'의 첨가는 초점 표지로서 Textual에서 다룹니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(초점): 원문에 없는 '도'가 붙어 '당신(도)'이 다른 사람과 함께 아기를 봐야 한다는 추가 초점이 생겼습니다. 다만 핵심 사실은 유지되어 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대에게 아기를 보라고 권하는 말 → 같은 권유 기능. '봐야 하는데'의 여운도 같은 권유로 읽힙니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"ought to는 소설 속 개인적 권유(아기를 보러 오라는 바람)이며 규범·의무를 정하는 문장이 아니므로 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"데이지가 남편 톰에게 하는 말로, '당신'과 '~는데'의 부부 간 일상적 말투가 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 664,
+    "output_tokens": 758,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch81BYibVML7uAFWGRfDn",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0559\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"you oughtn’t to try driving at night\",\"tgt_span\":\"밤에는 운전하지 말았어야죠\",\"description\":\"현재·일반적 충고(밤 운전을 시도하지 않는 것이 좋다)가 과거에 대한 비난(말았어야죠)으로 시제·시점이 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(시간): 일반적·현재의 충고가 이미 일어난 일에 대한 과거 지향 표현으로 바뀌었으나, 서투른 운전자는 밤에 운전을 시도하지 말라는 핵심 내용은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"if 조건과 주절의 조건 관계가 '-다면'으로 유지되고 지시·초점 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"운전자에게 하는 충고·핀잔 → 충고·핀잔. 같은 종류의 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"oughtn't의 규범적 권고(-하지 않는 게 좋다/해서는 안 된다)가 '하지 말았어야죠'로 금지 성격이 유지되어 범주·주체·조건이 바뀌지 않았습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'글쎄요', '-어야죠'의 존대 말투가 대화 상황의 정중하되 핀잔하는 태도와 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 504,
+    "output_tokens": 732,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

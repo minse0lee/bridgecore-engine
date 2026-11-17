@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7zthANKj6veL7S5wp2k",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0172\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"He reads deep books with long words in them.\",\"tgt_span\":\"어려운 단어들이 잔뜩 들어 있는 심오한 책들을 읽으시거든요.\",\"description\":\"long words(긴 단어)가 '어려운 단어'로 바뀌고, 'in them' 수량 표현 없이 '잔뜩'이 첨가됨. 또한 평서문이 '-거든요'로 이유 설명 어조가 됨\"},{\"id\":\"E002\",\"src_span\":\"He reads\",\"tgt_span\":\"읽으시거든요\",\"description\":\"데이지가 남편 톰에게 높임('-시-', '-요')을 사용. 원문에는 높임 없음. 단 부부 사이 맥락에서 관계에 맞는지는 문서 정보에서 확인 필요\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'long words'(긴 단어)가 '어려운 단어'로 바뀌고 '잔뜩'이 더해져 수량·속성이 달라졌으나, 책을 읽는다는 핵심 사실과 비꼬는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'he'는 앞 문장의 Tom을 가리키는 '톰 씨' 맥락의 생략 주어로 유지되고, 이어지는 단어 질문과 끊긴 문장의 연결도 보존됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰의 독서 취향을 비꼬는 서술과 말을 잇지 못하는 질문 → 같은 서술과 말을 끊는 질문으로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 소설 속 서술입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[\"E002\"],\"reason\":\"데이지가 남편 톰을 '톰 씨', '-시-'로 높여 부르는 것이 둘의 관계(부부, 비꼬는 태도)에 맞는지 판단하려면 한국어판의 화자·청자 관계 설정 기준 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 619,
+    "output_tokens": 958,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

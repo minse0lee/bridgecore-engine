@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch818H2CGB6h2QKdfegP6",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0487\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"even into groups\",\"tgt_span\":\"혹은 무리 속으로\",\"description\":\"'even'의 강조 초점이 사라지고 '혹은'이라는 단순 대안 연결로 바뀜. 의미 변화는 거의 없음.\"},{\"id\":\"E002\",\"src_span\":\"no singing quartets were formed with Gatsby’s head for one link\",\"tgt_span\":\"개츠비를 끼워 넣은 노래 콰르텟 무리도 만들어지지 않았다\",\"description\":\"'Gatsby's head for one link'(머리를 한 고리로 삼은)가 '개츠비를 끼워 넣은'으로 바뀜. 번역문에서는 신체 접촉 이미지가 약해졌으나 같은 사태를 기술함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"여자들의 친근한 행동과 개츠비에게는 아무도 그러지 않았다는 내용이 유지되며, 표현 차이는 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(초점): 'even into groups'의 even이 지닌 강조 초점이 '혹은'으로 바뀌어 사라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 개츠비가 파티 속에서 거리를 두고 있음을 대비하여 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문이며 의무·허가·금지 같은 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 관찰하는 문어체 서술 태도가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'French bob'을 '프렌치 봅 머리'로 옮겨 1920년대 헤어스타일을 가리키는 대상이 유지됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1609,
+    "output_tokens": 814,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

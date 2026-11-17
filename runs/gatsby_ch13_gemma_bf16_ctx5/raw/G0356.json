@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch812gsjDBzSiiZFuVL6R",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0356\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"You’ve dyed your hair since then\",\"tgt_span\":\"그때보다 머리색이 바뀌었네요\",\"description\":\"'머리를 염색했다'는 행위(행위자 you)가 '머리색이 바뀌었다'는 상태 변화로 바뀌어 염색이라는 행위가 사라짐. 다만 핵심 사실(머리색이 달라짐)은 유지됨.\"},{\"id\":\"E002\",\"src_span\":\"her remark was addressed to the premature moon\",\"tgt_span\":\"그저 일찍 뜬 달을 향한 혼잣말이었을 뿐이다\",\"description\":\"'달을 향해 던진 말'에 '그저…뿐', '혼잣말'이 더해져 해석이 가미됨. 말이 달을 향했다는 점은 유지됨.\"},{\"id\":\"E003\",\"src_span\":\"produced like the supper, no doubt, out of a caterer’s basket\",\"tgt_span\":\"저녁 식사처럼, 분명 출장 요리사의 바구니에서 뚝딱 만들어져 나온 것 같은 저 달을 말이다\",\"description\":\"caterer를 '출장 요리사'로, 'no doubt'를 '분명 … 것 같은'으로 옮겨 확실성이 약간 달라짐. 달이 꾸며낸 것처럼 보인다는 비유는 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위): 'dyed(염색했다)'가 '머리색이 바뀌었다'로 바뀌어 염색이라는 행위와 행위자가 사라졌으나 핵심 사실은 유지되어 요지 이해는 크게 달라지지 않습니다. E002·E003은 비유와 달 묘사가 유지되는 정도의 변화입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'her remark'는 '그녀의 말'로, 'the girls'는 '소녀들'로 지시 대상이 유지되고, but 대조와 'like the supper' 비유 연결도 남아 있습니다. 초점 표현의 이동도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 속 대화와 화자의 비꼬는 관찰 → 서술 속 대화와 관찰. 발화 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 소설 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조던이 닉에게 건네는 대화가 '~네요'로 유지되고 평가조건상 문서의 실제 상황 기준에 어긋나지 않으며, 서술자의 가벼운 비꼬는 태도도 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 판정할 문화 고유의 제도·단위·관습이 없습니다. 출장 요리사(caterer)는 일반 직업어입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1129,
+    "output_tokens": 1184,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

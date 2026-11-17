@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch813U5pS6ZhyKK5WuhE5",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0376\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"It’s more that he was a German spy during the war.\",\"tgt_span\":\"전쟁 중에 독일 스파이였다는 얘기가 더 많더라고요.\",\"description\":\"'he'(개츠비)가 주어로 드러나지 않음, '~라는 쪽이 더 맞다'는 판단이 '그런 얘기가 더 많다'는 소문의 빈도로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성·수량): 'It's more that he was a spy'는 루실의 주장(그보다는 스파이였다는 쪽)인데, '얘기가 더 많더라'는 소문의 빈도로 바뀌어 핵심 사실(독일 스파이설)은 유지되나 정도·성격이 달라졌습니다. 요지는 크게 다르지 않아 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞 소문('that')을 부정하고 다른 소문을 제시하는 대조 연결이 '그건 아닐 거예요'와 '더 많더라고요'로 유지되며, 지시·초점 관계의 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"회의적으로 반박하며 다른 소문을 제시하는 서술·대화 기능 → 같은 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소문을 주고받는 사교적 대화에서 '~예요' 해요체는 상황에 어색하지 않고 태도 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 별도로 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 580,
+    "output_tokens": 796,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

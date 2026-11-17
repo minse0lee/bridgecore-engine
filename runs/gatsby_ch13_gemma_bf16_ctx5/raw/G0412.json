@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8151vG9ELL2xuzaR6XK",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0412\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I’ve been drunk for about a week now\",\"tgt_span\":\"한 일주일 전부터 계속 취해 있었는데\",\"description\":\"'약 일주일 동안 취해 있었다'는 기간이 '일주일 전부터 계속 취해 있었다'로 표현되었으나 기간 의미는 대체로 같아 의미 변화는 거의 없음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"클로드 루스벨트 부인, 아는지 묻기, 어젯밤 만남, 약 일주일간 취함, 서재에서 술이 깰까 하는 기대가 모두 유지됩니다. '일주일 전부터 계속'은 '약 일주일 동안'과 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"her가 루스벨트 부인을 가리키는 관계, 취함과 서재에 앉는 시도 사이의 목적 연결이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 소개 질문과 자기 상황 설명 → 인물 소개 질문과 자기 상황 설명. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 대화문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"초면의 상대에게 하는 정중한 해요체가 격식 있는 대화 상황에 어울리며 관계를 바꾸지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 문화 고유의 제도·단위·관습 판정 대상이 없습니다. 'Mrs.'를 '부인'으로 옮긴 것은 통상적 대응입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 743,
+    "output_tokens": 757,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

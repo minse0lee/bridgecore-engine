@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch811eoS3aZfrD8MLgkNL",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0333\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"they conducted themselves according to the rules of behaviour associated with an amusement park\",\"tgt_span\":\"마치 놀이공원에 온 사람들처럼 행동했다\",\"description\":\"놀이공원에 관련된 행동 규칙을 따랐다는 표현이 놀이공원에 온 사람들처럼 행동했다는 비유로 바뀌었으나 사태는 대체로 같은 방식으로 기술됨(의미 변화 미미)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"도착 후 소개를 받고 놀이공원식 행동 규범대로 처신했다는 사태가 '놀이공원에 온 사람들처럼 행동했다'로 같은 내용을 기술하며, 행위자·행위·시간 관계가 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Once there'의 조건·시간 관계가 '일단 도착하면'으로, 'after that'의 순서가 '그 후로는'으로 유지되고 지시 대상(they)도 그대로입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"손님들의 행태를 묘사하는 서술 → 같은 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'rules of behaviour'는 비유적 서술일 뿐 독자에게 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 과거형 평서체가 유지되며 화자의 아이러니한 거리감도 크게 달라지지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"놀이공원은 특정 문화·제도에 고유한 대상이 아니므로 별도로 판정할 문화 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 953,
+    "output_tokens": 779,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

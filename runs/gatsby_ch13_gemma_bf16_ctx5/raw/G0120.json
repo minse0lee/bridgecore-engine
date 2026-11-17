@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7zrPZQDQdF8DLUmHQUo",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0120\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a God damned fool\",\"tgt_span\":\"정말 멍청이\",\"description\":\"저주·욕설 표현 'God damned'가 강조 부사 '정말'로 바뀌어 거친 욕설의 어조가 약해짐\"},{\"id\":\"E002\",\"src_span\":\"anywhere else\",\"tgt_span\":\"여기 말고 다른 데서\",\"description\":\"'다른 어디에서든'이 '여기 말고 다른 데'로 옮겨져 '동부'가 '여기'로 바뀌고 'anywhere'의 포괄성이 줄었으나 문맥상 동부를 가리킴\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"다른 곳에 산다면 멍청한 짓이라는 가정적 평가가 유지되며, 'God damned'의 강도 차이는 평가어의 정도 변화에 해당합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'여기'가 앞 문맥의 동부를 가리켜 지시 관계가 유지되고, 조건·결과 연결과 초점 표현에 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"동부에 머무는 이유를 단언하는 서술 → 같은 단언·설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 화자의 자기 평가 진술입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(태도): 거친 욕설 'God damned'의 거칠고 격한 화자 태도가 '정말'로 약해져 평이한 구어체가 되었습니다. 반말 구어체는 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 별도로 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 612,
+    "output_tokens": 798,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7zq2BkFNjknN1Ti5J1J",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0090\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I’m p-paralysed with happiness.\",\"tgt_span\":\"마-마비가 된 것 같아요\",\"description\":\"'마비되었다'는 단정이 '마비가 된 것 같다'는 추측성 표현으로 바뀌어 확실성이 약해짐\"},{\"id\":\"E002\",\"src_span\":\"대응 구간 없음(첨가)\",\"tgt_span\":\"저,\",\"description\":\"원문에 없는 머뭇거림 표현 '저,'가 추가됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): '마비되었다'는 단정이 '마비된 것 같다'는 추측으로 바뀌었으나 행복으로 인한 마비라는 핵심 사실은 유지되어 minor입니다. '너무'의 첨가는 강도 차이라 오류로 보지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-해서'로 행복과 마비의 인과 관계가 유지되고 지시·초점 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"감정 표현(떨리는 말투의 진술) → 감정 표현. 더듬는 말투도 'p-'가 '마-'로 유지되어 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 감정 진술입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 청자의 관계 정보가 없어 '-요'체의 적절성을 판단하기 어렵습니다. 대화 장면의 화자·청자 관계 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 456,
+    "output_tokens": 765,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

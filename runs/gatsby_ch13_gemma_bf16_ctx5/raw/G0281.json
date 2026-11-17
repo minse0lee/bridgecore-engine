@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7zyKr7KGPQhkirsp2HC",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0281\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Did you give Nick a little heart to heart talk on the veranda?\",\"tgt_span\":\"닉 씨랑 속 깊은 이야기를 좀 나누셨나 보지?\",\"description\":\"추궁하는 질문(Did you…?)이 '나누셨나 보지?'라는 추측·확인 형태로 바뀌고, 높임(-시-)과 '닉 씨'라는 호칭이 덧붙음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"베란다에서 닉과 속 깊은 이야기를 조금 나눴는지 묻는 내용이 유지되며, '나 보지'의 추측 뉘앙스는 확실성을 바꿀 만큼 핵심 사실을 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계에 변화가 없고 'a little'은 '좀'으로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 상대를 추궁하는 의문 → 추궁·확인하는 의문(…나 보지?). 같은 종류의 기능으로 읽힙니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'닉 씨'와 '-셨나'의 높임이 톰과 상대(데이지 또는 조던 등)·닉 사이 관계에 맞는지 판단하려면 청자가 누구인지와 화자와의 관계 정보가 필요합니다. 또한 '씨'가 원문에 없는 호칭이라 톰의 빈정대는 태도와 어울리는지도 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명과 일반 어휘(베란다)만 있고 고유한 문화·제도 대상은 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 546,
+    "output_tokens": 808,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

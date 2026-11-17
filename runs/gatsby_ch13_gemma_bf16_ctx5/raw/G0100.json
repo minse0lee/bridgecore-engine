@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7zqRfsq97r2yPKicGq7",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0100\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"men who had cared for her\",\"tgt_span\":\"그녀를 사랑했던 남자들\",\"description\":\"cared for(마음을 쓰다, 아끼다)가 '사랑했던'(romantic love)으로 다소 구체화됨. 의미 범위가 약간 좁아졌으나 맥락상 크게 어긋나지 않음\"},{\"id\":\"E002\",\"src_span\":\"bright eyes and a bright passionate mouth\",\"tgt_span\":\"빛나는 눈과 정열적인 입술\",\"description\":\"'a bright passionate mouth'의 bright이 생략되고 passionate만 남음. 평가어 정도 차이로 의미 변화 미미\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"cared for → '사랑했던'은 관계 정도의 약간의 구체화이고, 얼굴·눈·입술·목소리의 흥분·약속 등 핵심 내용과 인물·시간 관계가 유지되어 판단 질문 1에 해당하는 변화가 없습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but이 '하지만'으로 대조를 유지하고, 콜론 뒤 나열(a singing compulsion, a whispered Listen, a promise)이 '그것은 … 강렬함이었고 … 말이었으며 … 약속'으로 흥분을 풀이하는 관계를 유지합니다. that절의 대상(남자들이 잊지 못함)도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 묘사 서술 → 인물 묘사 서술. 데이지의 목소리가 지닌 매력을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 인물 묘사로 의무·허가·금지 등 규범 표현이 없습니다. 인용된 'Listen'은 목소리의 매혹을 묘사하는 인용이지 규범 설정이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 독자에게 서술하는 문학적 서술체가 유지되고, 인용된 '들어봐요'는 속삭이는 간청의 어조와 어울립니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1315,
+    "output_tokens": 961,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

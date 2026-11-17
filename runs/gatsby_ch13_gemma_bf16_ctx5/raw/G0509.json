@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch819HtKenafKN3SWDTAm",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0509\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"flank attacks\",\"tgt_span\":\"기습 공격\",\"description\":\"flank attacks(측면 공격)를 '기습 공격'으로 옮겨 측면에서 접근한다는 함의가 약해졌으나, 아내가 직접 맞서지 않고 간접적으로 공격하는 행위라는 의미는 대체로 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"남자의 여배우 대화, 아내의 웃어넘기려던 시도와 무너짐, 간헐적 출현, 분노한 다이아몬드 비유, 귓가의 '약속했잖아요' 발언이 모두 유지됩니다. '기습 공격'은 측면 공격의 뉘앙스가 조금 다르나 같은 사태를 기술하며, 'hissed'를 '낮게 쏘아붙였다'로 옮긴 것은 평가어 정도 차이입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"his/her 소유 관계, 'after attempting ~ broke down'의 시간·인과 순서, 대시 이후 부연 관계가 모두 유지되어 질문 1·2·3 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 상황 서술 → 상황 서술. 아내가 남편에게 항의하는 장면을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사 묘사 문장으로 의무·허가·금지를 정하는 규범 표현이 없습니다. 인용된 'You promised!'는 과거 약속을 상기시키는 비난으로 규범을 거는 문장이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"부부 사이의 화난 질책이 '약속했잖아요!'의 따지는 어조로 유지되고 서술체도 소설 본문에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1109,
+    "output_tokens": 868,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7zqfCyBXz3T4skDs9uH",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0103\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a mourning wreath\",\"tgt_span\":\"상조 화환\",\"description\":\"mourning wreath(애도·조문용 화환)를 '상조 화환'으로 옮김. '상조'는 장례 서비스·상부상조의 뜻이 강해 애도 상징의 의미가 흐려지지만, 검게 칠했다는 맥락상 애도 표지로 읽힘.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"마을의 쓸쓸함, 모든 차의 왼쪽 뒷바퀴 검은 칠, 북쪽 해안의 밤새는 통곡이 모두 유지됩니다. '상조 화환'은 어색한 표현이지만 애도의 화환이라는 지시 대상은 알아볼 수 있습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 관계, 연결 관계, 초점 표현이 그대로 유지되며 'as a mourning wreath'의 비유 연결도 '처럼'으로 남아 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 상황 묘사·설명 → 상황 묘사·설명. 발화 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 같은 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화문의 구어체가 '-어/아' 반말 종결로 유지되며 관계상 어색한 부분이 확인되지 않습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"mourning wreath가 '상조 화환'으로 번역되어 상(喪)의 화환이라는 뜻은 전달되며, 다른 제도나 단위로 바꾸지 않았습니다. 용어 선택이 부정확하지만 지시 대상은 동일합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 668,
+    "output_tokens": 792,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

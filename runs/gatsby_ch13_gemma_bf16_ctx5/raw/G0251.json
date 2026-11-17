@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7zx628uxfUuVGkBFwUB",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0251\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"an absolute smirk\",\"tgt_span\":\"완전히 만족스러운 미소\",\"description\":\"비웃는 듯한 능글맞은 웃음(smirk)이 긍정적인 '만족스러운 미소'로 바뀜. 서술자가 불쾌하게 느끼는 자기만족적·오만한 태도가 사라짐\"},{\"id\":\"E002\",\"src_span\":\"to which she and Tom belonged\",\"tgt_span\":\"자신과 톰만이 속한\",\"description\":\"원문에 없는 한정 '만'이 첨가되어 '그녀와 톰이 속한' 사실이 '둘만 속한'으로 바뀜\"},{\"id\":\"E003\",\"src_span\":\"a rather distinguished secret society\",\"tgt_span\":\"어느 아주 특별한 비밀 결사\",\"description\":\"distinguished(명망 있는, 저명한)가 '특별한'으로 바뀌고 rather가 '아주'로 바뀜. 평가어의 정도·뉘앙스 변화\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: smirk가 '만족스러운 미소'로 바뀌어 부정적 평가 내용이 중립·긍정적으로 달라졌고, 둘만 속한다는 내용이 첨가되었습니다. 독자가 그녀의 표정과 서술자의 반응을 다르게 이해할 수 있어 major입니다. E003은 평가어의 정도 변화로 보존 범위입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 3(초점·범위): 원문에 없는 '만'이 붙어 '둘만 속한 결사'로 범위 한정이 새로 생겼습니다. 연결 관계나 지시는 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 관찰·묘사 → 서술자의 관찰·묘사. 서술 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 1인칭 서술체가 평서 문어체로 유지되며, 인물 간 호칭·높임 관계가 문제 되는 부분이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명(톰)과 비유적 '비밀 결사' 외에 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1085,
+    "output_tokens": 1024,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

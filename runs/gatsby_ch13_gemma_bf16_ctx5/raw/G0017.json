@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7zmZiCZBVBuM73mjDuh",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0017\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"sent a substitute to the Civil War\",\"tgt_span\":\"남북 전쟁 때는 대리인을 보냈고\",\"description\":\"'substitute'(징집 대체병)를 '대리인'으로 옮겨 병역 대리 복무라는 역사적 제도의 의미가 전달되지 않음. 내용상 군복무를 대신할 사람을 보냈다는 점이 불분명해짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위·대상): 전쟁에 대신 나갈 병사를 보낸 것이 막연한 '대리인'을 보낸 것으로 바뀌어 내용이 달라졌으나, 핵심 사실(직접 참전하지 않음)은 어느 정도 유지되어 minor입니다. 'fifty-one'→1851은 문맥상 타당한 보충이라 오류가 아닙니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'but'의 양보 대조('-지만'), 관계절의 지시('그는', '아버지가 이어받아')가 유지되고 초점 표현의 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"가문 내력 서술 → 가문 내력 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 문체가 유지되며 화자 관계상 문제되는 호칭 변화가 없습니다. '형제분', '계신' 같은 높임은 가족 서술에 부적절하지 않습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 남북전쟁 당시 징집 대체병(substitute) 제도를 일반 어휘 '대리인'으로 옮겨 제도적 의미가 독자에게 전달되지 않습니다. 시기·전쟁은 남아 있어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1106,
+    "output_tokens": 857,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

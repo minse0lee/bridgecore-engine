@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7zvp4uqpzZ5fnpbTz9G",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0221\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Miss Baker\",\"tgt_span\":\"조던 베이커 양\",\"description\":\"원문에는 없는 이름 'Jordan'(조던)을 덧붙임. 문단 맥락상 같은 인물을 가리키므로 지시 대상은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"짐작할 수 없음, 베이커 양조차 완전히 무시했을지 의문이라는 내용, 회의론, 다섯 번째 손님의 긴박함 등 인물·행위·부정·확실성이 모두 유지됩니다. 'Jordan' 첨가는 문맥상 같은 인물을 가리켜 내용을 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but의 대조는 '하지만'으로, even의 초점은 '조차'로 유지되며 who 관계절도 베이커 양에 걸려 있어 지시·연결·초점 관계가 바뀌지 않았습니다(질문 1·2·3 모두 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 심리·상황 서술 → 심리·상황 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 같은 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 화자의 회고적 서술체가 '-었다' 평서문으로 유지되며, 화자와 인물 사이의 관계에 어긋나는 높임이나 호칭 변화는 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Miss Baker의 미혼 여성 경칭이 '양'으로 대응되어 같은 대상을 가리킵니다. 이름 첨가는 Cultural 판단 질문 1~3에 해당하지 않습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1278,
+    "output_tokens": 802,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

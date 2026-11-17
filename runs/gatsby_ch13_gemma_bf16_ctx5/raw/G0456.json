@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch816xv1A6BAJRcAXaxrP",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0456\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"old sport\",\"tgt_span\":\"친구\",\"description\":\"개츠비 특유의 호칭 'old sport'(친근하면서 격식 차린 애칭)가 일반 명사 '친구'로 바뀌어 특유의 어조가 약해짐\"},{\"id\":\"E002\",\"src_span\":\"just ask for it\",\"tgt_span\":\"말씀하세요\",\"description\":\"화자가 청자(닉)에게 높임말 '말씀하세요'를 사용함. 원문에는 높임 표현이 없으나 관계에 맞는지 확인 필요\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"원하는 것이 있으면 요청하라는 내용, 청자, 'urged'(권했다)가 유지됩니다. 'old sport'의 호칭 대응은 평가어 수준의 차이로 의미 변화가 아닙니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'If' 조건과 'he urged me'의 지시 관계(그가 내게)가 '-하면…말씀하세요', '그가 내게 권했다'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"손님에게 필요한 것을 요청하도록 권하는 제안 → 같은 권유 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"호의적인 제안이며 의무·허가·금지를 정하는 규범 표현이 아니므로 평가 대상이 아닙니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"'old sport'는 개츠비 특유의 친근하면서도 격식 있는 호칭인데 '친구'로 옮겨 그 어조가 약해졌고 '말씀하세요' 높임이 둘의 관계(개츠비와 닉, 대등하나 정중한 사이)에 맞는지 문맥상 확정하기 어렵습니다. 두 인물의 관계·말투 설정 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"제도·단위·관습 등 문화 고유 대상이 없습니다. 'old sport'는 호칭 태도 문제로 Register에서 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 530,
+    "output_tokens": 902,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
