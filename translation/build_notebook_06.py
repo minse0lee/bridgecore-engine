@@ -42,7 +42,7 @@ code("""# ① 맨 먼저 이 셀만 실행 → 끝나면 '런타임 → 세션 �
 !pip list --format=freeze | grep -E '^(transformers|torch|accelerate)=='
 """),
 md("## 1. 설정·파일 올리기"),
-code("""import json, sys, time, platform, inspect
+code("""import json, sys, time, platform, inspect, re
 from pathlib import Path
 import torch
 from google.colab import files
@@ -58,7 +58,7 @@ THINK_BUDGET = 4096        # 생각 모드일 때 추가로 허용할 토큰 수
 BASE = Path('/content/gemma'); OUT_DIR = BASE / 'out'; OUT_DIR.mkdir(parents=True, exist_ok=True)
 print('파일 선택 창에서 고르기: gemma_translate.py, sentences.jsonl (+ 선택: gemma_ch1_3_bf16.jsonl)')
 for name, data in files.upload().items():
-    clean = Path(name).name.split(' (')[0]
+    clean = re.sub(r' \(\d+\)(?=\.[^.]+$)', '', Path(name).name)   # 같은 이름을 다시 올리면 붙는 ' (1)' 제거
     (OUT_DIR if clean.startswith('gemma_ch1_3') else BASE).joinpath(clean).write_bytes(data)
 
 GPU_GB = torch.cuda.get_device_properties(0).total_memory / 1e9
