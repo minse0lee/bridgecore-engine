@@ -1,0 +1,115 @@
+{
+ "run": "gemma_lora_v1",
+ "notebook": "07_학습_gemma4_31b_QLoRA.ipynb",
+ "train_summary": {
+  "model": "google/gemma-4-31B-it",
+  "quant": "nf4+double",
+  "lora": {
+   "r": 16,
+   "lora_alpha": 32,
+   "lora_dropout": 0.05
+  },
+  "targets": 230,
+  "bs": 2,
+  "accum": 8,
+  "lr": 0.0001,
+  "epochs": 1,
+  "n_train_examples": 7929,
+  "n_train_sent": 20000,
+  "best_checkpoint": "/content/drive/MyDrive/bridgecore_mt/runs/gemma_lora_v1/ckpt/checkpoint-496",
+  "best_eval_loss": 0.45929619669914246,
+  "evals": [
+   [
+    50,
+    0.4895
+   ],
+   [
+    100,
+    0.4742
+   ],
+   [
+    150,
+    0.4702
+   ],
+   [
+    200,
+    0.4692
+   ],
+   [
+    250,
+    0.4655
+   ],
+   [
+    300,
+    0.4681
+   ],
+   [
+    350,
+    0.4623
+   ],
+   [
+    400,
+    0.4602
+   ],
+   [
+    450,
+    0.4598
+   ],
+   [
+    496,
+    0.4593
+   ]
+  ],
+  "stopped_at_step": 496,
+  "total_steps_planned": 496,
+  "train_hours_this_session": 1.99,
+  "peak_mem_gb": 25.4,
+  "transformers": "5.23.0",
+  "peft": "0.21.3",
+  "torch": "2.14.1+cu130",
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "train_system_sha": "f697d7956600",
+  "format_prompt_hash": "4f5cbcadc8d7",
+  "seed": 20261117,
+  "split_dir": "/content/drive/MyDrive/bridgecore_mt/splits_v1"
+ },
+ "aihub_test500_nf4": {
+  "base": {
+   "chrF": 37.43,
+   "BLEU": 12.88,
+   "empty": 0
+  },
+  "lora": {
+   "chrF": 45.95,
+   "BLEU": 22.67,
+   "empty": 0
+  },
+  "chrF_diff": 8.52,
+  "chrF_diff_95ci": [
+   7.38,
+   9.75
+  ],
+  "minutes": 26.6,
+  "note": "4비트(nf4) 모델로 번역한 값 — 08 노트북의 원본(bf16)+어댑터 결과와 다를 수 있음"
+ },
+ "style_endings_test500": {
+  "ko_ref": {
+   "-다": 462,
+   "합쇼": 6,
+   "기타": 32
+  },
+  "base": {
+   "합쇼": 441,
+   "-다": 36,
+   "해요": 10,
+   "기타": 13
+  },
+  "lora": {
+   "-다": 464,
+   "합쇼": 3,
+   "기타": 33
+  }
+ },
+ "chrF_base_endings_to_da": 38.91,
+ "note": "AI Hub 번역문(정답·출력)은 재배포 제한으로 저장소에 넣지 않음. chrF 상승 8.52 중 어미(-습니다→-다)만 맞춰도 +1.48"
+}
