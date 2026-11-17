@@ -13,3 +13,7 @@
 - 점검: 작은 무작위 T5로 노트북 코드 전체를 CPU에서 끝까지 실행해 봄 (transformers 5.22, peft 0.21). 10B 실측은 Colab에서
 - `04_책번역_lora_v1.ipynb`: 학습 없이 lora_v1로 책 문장 번역(같은 실행에서 학습 전 번역도). 256문장마다 저장, 끊기면 이어서. 256토큰 넘는 문장은 자르지 않고 따로 번역 (`build_notebook_04.py`)
 - `epub_tools.py`: EPUB(목차 nav·toc.ncx + 본문 한 번에) → 문장(`extract`, DRM 검사·구텐베르크 라이선스 문구 제외·로마 숫자 장 번호 제외·본문 추출 비율 기록) → 한국어 EPUB 또는 대역 EPUB(`rebuild --mode ko|bilingual`, 목차 링크 유지) · 원문/번역 대조 CSV·TXT(`export`) · 6축 검증용 무작위 표본(`sample`). 테스트 `tests/test_epub_tools.py`(구텐베르크 형식 모의 EPUB 포함), Standard Ebooks 『The Time Machine』으로 확인(1,775문장, 추출 비율 1.0, 재조립 XML 엄격 파싱 통과). 실제 구텐베르크 EPUB은 작업 환경에서 내려받을 수 없어 미확인
+- `gemma_translate.py`: Gemma 4 31B 번역 공용 모듈(번역 지침·문단 묶기·JSON 파싱). Claude 번역(`llm_translate.py`)과 같은 지침·문단 단위. OpenAI 호환 API로 단독 실행도 가능
+- `05_개츠비번역_gemma4_31b.ipynb`: Colab에서 Gemma 4 31B로 개츠비 1·3장 번역(80GB면 bf16 원본, 40GB면 4비트 자동), 드라이브 없이도 실행 가능 (`build_notebook_05.py`)
+- `06_개츠비번역_gemma_설정실험.ipynb`: 문맥 문단 수(2→5)·생각 모드 실험, 설정마다 결과 저장 (`build_notebook_06.py`)
+- `07_학습_gemma4_31b_QLoRA.ipynb`: Gemma 4 31B QLoRA 학습(A100 40GB, `splits_v1` 같은 데이터, 개츠비와 같은 문단+JSON 형식), 학습 전후 비교·AI Hub 평가 500 chrF (`build_notebook_07.py`, 실제 GPU 미검증)
