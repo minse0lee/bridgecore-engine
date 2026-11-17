@@ -79,7 +79,14 @@ def parse(text: str) -> dict:
     if not t.startswith("{"):
         m = re.search(r"\{.*\}", t, re.S)
         t = m.group(0) if m else t
-    return {d["id"]: (d.get("ko") or "").strip() for d in json.loads(t)["translations"]}
+    try:
+        return {d["id"]: (d.get("ko") or "").strip() for d in json.loads(t)["translations"]}
+    except json.JSONDecodeError:
+        # 번역문 안의 따옴표(")를 이스케이프하지 않아 JSON이 깨진 경우: id·ko 쌍을 직접 뽑는다
+        pairs = re.findall(r'"id"\s*:\s*"([^"]+)"\s*,\s*"ko"\s*:\s*"(.*?)"\s*}\s*(?=,\s*\{|\]|$)', t, re.S)
+        if not pairs:
+            raise
+        return {i: k.replace('\\"', '"').strip() for i, k in pairs}
 
 
 def post(url, key, body, timeout=180):

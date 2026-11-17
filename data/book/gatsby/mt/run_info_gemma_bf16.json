@@ -1,0 +1,31 @@
+{
+ "model": "google/gemma-4-31B-it",
+ "runtime": "colab_transformers_bf16",
+ "prompt_hash": "4f5cbcadc8d7",
+ "unit": "문단(앞 문단 2개 문맥)",
+ "decoding": "greedy",
+ "thinking": false,
+ "transformers": "5.23.0",
+ "torch": "2.14.1+cu130",
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "n_sentences": 630,
+ "missing": [
+  "S000779",
+  "S000780",
+  "S000781",
+  "S000782",
+  "S000823",
+  "S000824",
+  "S000854",
+  "S000855"
+ ],
+ "load_sec": 205,
+ "gen_sec": 1926,
+ "batch_final": 4,
+ "python": "3.13.16",
+ "fails": {
+  "454": "파싱 실패 JSONDecodeError",
+  "430": "파싱 실패 JSONDecodeError",
+  "408": "파싱 실패 JSONDecodeError"
+ }
+}

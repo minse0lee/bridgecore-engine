@@ -23,6 +23,8 @@ def test_system_same_as_claude():
 def test_parse_fenced():
     assert g.parse('```json\n{"translations":[{"id":"S1","ko":" 가 "}]}\n```') == {"S1": "가"}
     assert g.parse('설명\n{"translations":[{"id":"S1","ko":"가"}]}') == {"S1": "가"}
+    broken = '{"translations": [{"id": "S1", "ko": "그가 "좋아"라고 했다."}, {"id": "S2", "ko": "나"}]}'
+    assert g.parse(broken) == {"S1": '그가 "좋아"라고 했다.', "S2": "나"}
 
 
 def test_end_to_end_mock(tmp_path, monkeypatch):
