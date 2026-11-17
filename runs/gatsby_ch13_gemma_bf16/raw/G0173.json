@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7pyvSZKiMRfh1j9jqWY",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0173\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"these books are all scientific\",\"tgt_span\":\"이런 책들은 다 과학적인 근거가 있는 거야\",\"description\":\"'과학적이다'가 '과학적인 근거가 있다'로 바뀌어 약간 구체화됨. 의미 차이는 미미함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"책들이 모두 과학적이라는 주장, 톰이 고집하며 그녀를 초조하게 쳐다보는 행위가 유지됩니다. '과학적인 근거가 있다'는 표현 방식의 차이로 같은 사태를 기술합니다. impatiently의 '참을성 없게'도 대응됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Well'은 '글쎄'로 담화 표지가 유지되고, 'her'는 '그녀', 'Tom'은 '톰'으로 지시 관계가 유지됩니다. 초점·연결 관계도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"반박·주장하는 대화 서술 → 반박·주장하는 대화 서술. 톰이 자신의 책을 옹호하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 아내 데이지 등 가까운 사람에게 하는 구어체 반말 '~거야'로 대화 상황에 맞고, 조급하고 고집스러운 태도도 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습 등이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 691,
+    "output_tokens": 760,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

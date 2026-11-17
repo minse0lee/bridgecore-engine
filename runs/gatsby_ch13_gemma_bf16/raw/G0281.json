@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7q4dHpeKSn15fiPFGmp",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0281\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Did you give Nick a little heart to heart talk\",\"tgt_span\":\"닉 씨랑 속 깊은 얘기도 좀 나누셨나?\",\"description\":\"원문에 없는 존칭 '씨'와 높임 '-셨-'이 더해져 톰이 닉에게 쓰는 호칭·말투와 질문 대상 관계가 달라짐(첨가). 또한 '도'가 첨가되어 약간의 뉘앙스 변화가 생김.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"베란다에서 닉과 속마음을 털어놓는 대화를 나눴는지 묻는 내용, 인물·장소·행위가 유지됩니다. '도'는 의미를 바꾸지 않는 정도입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현이 바뀌지 않았고, '도'는 초점을 다른 대상에 붙이는 수준의 변화가 아닙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 다그치며 캐묻는 질문 → 다그치듯 캐묻는 질문. 발화 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 질문문입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2: 톰이 닉(지인·손님)이나 사이 좋은 상대 데이지/베이커에게 말하는 상황에서 원문에 없는 '닉 씨'와 높임 '나누셨나'가 추가되어 관계에 맞지 않거나 관계를 바꿀 수 있습니다. 다만 전달 내용에는 영향이 없어 minor입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명과 장소 외에 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 552,
+    "output_tokens": 828,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

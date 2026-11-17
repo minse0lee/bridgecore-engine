@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7qDtg3N9M9CzxTiNSyj",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0491\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"to you\",\"tgt_span\":\"양하와\",\"description\":\"청자(Miss Baker)를 가리키는 'you'가 '양하'라는 의미 불명의 말로 옮겨져 대화 상대를 가리키는 지시 대상이 불분명해짐. 문단 번역의 '조던 베이커 양' 중 '양'을 이름처럼 음역/오역한 것으로 보이며, 직접 호칭 'Miss Baker'가 아니라 'you'에 대응하는 구간임\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물): 'you'(베이커 양)가 '양하'라는 알 수 없는 말로 바뀌어 청자 표현이 달라졌으나, 바로 앞 호칭 문맥으로 누가 대상인지 파악 가능하고 요지(개츠비가 단둘이 이야기하고 싶어 함)와 행동은 유지됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(지시): 'you'가 가리키는 청자가 '양하'라는 불분명한 표현으로 바뀌어 대명사 지시 대상을 알기 어려워졌습니다. 다만 앞 문장 '양이신가요'로 추론 가능합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"정중한 전갈 전달 → 정중한 전갈 전달. 개츠비가 단독 대화를 원한다는 전달 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 표현이 아니라 개츠비의 바람을 전하는 대화입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"하인/집사가 손님에게 정중히 말하는 관계에서 '실례합니다만', '개츠비 씨께서', '하십니다'로 높임이 적절히 유지됩니다. '양하'는 호칭이 아니라 지시 오류로 보아 Register에는 기록하지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"제도·단위·관습 등 문화 고유 대상이 없고 인명 호칭만 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 561,
+    "output_tokens": 921,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7q1W6eZxkmYzqvfvnkq",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0210\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Tom’s got some woman in New York.\",\"tgt_span\":\"톰 씨가 뉴욕에 어떤 여자를 두고 있거든요.\",\"description\":\"원문에 없는 높임 호칭 '씨'와 존댓말 종결어미 '-요'가 더해졌으나, 화자(Daisy 주변 인물)와 청자의 관계 정보가 문맥에 없어 적절성 판단이 어려움\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰, 뉴욕, 어떤 여자가 있다는 내용이 동일하며 '두고 있다'는 got의 관계를 적절히 담습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞의 Why와 이어지는 설명 관계를 '-거든요'로 유지하며 지시·초점 관계의 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"머뭇거리며 사실을 털어놓는 서술 → 같은 폭로 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'톰 씨'와 '-요' 사용이 적절한지는 화자와 청자의 관계, 그리고 톰과의 관계(예: 하인·지인·친척 등) 정보가 있어야 판단할 수 있습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴욕은 지명일 뿐 별도로 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 500,
+    "output_tokens": 717,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

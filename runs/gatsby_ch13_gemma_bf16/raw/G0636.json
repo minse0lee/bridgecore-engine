@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7qKv5Xq1dwhUYXp9fuK",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0636\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"that certain girl\",\"tgt_span\":\"그 소녀\",\"description\":\"'that certain girl'(특정한, 굳이 이름을 밝히지 않는 그 아가씨)이 '그 소녀'로 옮겨져 약간 달라졌으나 지시 대상은 유지됨. 의미를 바꾸지 않아 오류로 보기 어려움.\"},{\"id\":\"E002\",\"src_span\":\"all I could think of was how\",\"tgt_span\":\"머릿속에는 … 모습만이 맴돌았다\",\"description\":\"'all I could think of'가 '모습만이 맴돌았다'로 옮겨져 초점 표현 only가 유지됨. 차이 없음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"주 1회 편지 쓰기와 '사랑하는 닉이' 서명, 테니스 칠 때 윗입술에 땀이 옅게 맺히던 모습이 모두 유지됩니다. 'moustache of perspiration'의 비유는 '땀방울이 옅게 맺히던'으로 풀렸으나 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'all I could think of'의 한정 초점이 '~만이'로 유지되고, 'that certain girl'이 편지 수신자와 같은 인물로 이어지는 지시도 유지되며, 앞뒤 대조 관계도 '-는데'로 남아 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 회상·내면 서술 → 회상·내면 서술. 편지에는 애정 표현을 쓰면서 다른 생각을 한다는 아이러니한 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술자의 소설 서술체('-했다')가 유지되고, 서명 문구 '사랑하는 닉이'도 편지 서명의 친밀한 태도를 전달합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·단위·관습이 없습니다. 편지 서명은 일반적인 표현이고 인물명만 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1085,
+    "output_tokens": 954,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

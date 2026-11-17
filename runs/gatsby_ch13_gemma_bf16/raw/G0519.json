@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7qEvib6T6zDchBLoTSp",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0519\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the dispute ended in a short struggle\",\"tgt_span\":\"다툼은 짧은 몸싸움으로 번졌고\",\"description\":\"다툼이 짧은 몸싸움으로 '끝났다'는 결말이 '번졌다'(확대)로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"were lifted, kicking, into the night\",\"tgt_span\":\"두 아내는 발버둥 치며 밤거리로 내쫓겼다\",\"description\":\"들려서 밤 속으로 옮겨진 것이 '밤거리로 내쫓겼다'로 바뀌어 '내쫓김'과 '밤거리'라는 구체적 장소가 첨가됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: ended in이 '번졌고'로, lifted into the night가 '밤거리로 내쫓겼다'로 바뀌어 사건의 양상(종결 → 확대, 들려 옮겨짐 → 내쫓김)이 달라졌으나 핵심 사건 흐름(몸싸움 후 아내들이 들려 밖으로 나감)은 유지됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 다툼이 짧은 몸싸움으로 '끝났다'는 결말 관계가 '번졌다'는 확대·진행 관계로 바뀌었습니다. 양보 연결(In spite of → 불구하고)은 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사 묘사 → 서사 묘사. 소설 속 사건을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 '-었다'가 유지되며 화자·독자 관계에 어긋나는 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 648,
+    "output_tokens": 895,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

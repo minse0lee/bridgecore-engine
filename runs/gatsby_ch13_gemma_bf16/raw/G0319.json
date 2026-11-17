@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7q6J11jz38MwbxjoWh4",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0319\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"pastry pigs and turkeys bewitched to a dark gold\",\"tgt_span\":\"페이스트리 돼지와 칠면조 요리들\",\"description\":\"pastry pigs(페이스트리로 만든 돼지 모양)와 turkeys(칠면조)를 구분하는 구조가 흐려져 '칠면조 요리'로 옮겨짐. 다만 pastry가 둘 다에 걸리는 해석도 가능하여 의미 차이는 미미함\"},{\"id\":\"E002\",\"src_span\":\"hors-d’oeuvre\",\"tgt_span\":\"에피타이저\",\"description\":\"오르되브르를 에피타이저로 옮김. 통상적 대응이며 의미 차이는 거의 없음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뷔페 테이블의 장식 음식, 구운 햄, 샐러드, 페이스트리 돼지·칠면조가 빽빽이 놓인 내용이 유지됩니다. 'bewitched'의 '마법처럼 구워낸'도 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"주어 햄과 'against'로 연결된 샐러드·페이스트리 돼지·칠면조의 병렬 관계, 지시 관계가 '~과 함께'로 유지됩니다(질문 1·2·3 모두 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"파티 음식 상차림 묘사 → 파티 음식 상차림 묘사로 서술 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 '~놓였다'로 서술 태도와 격식이 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"제도·단위·관습 등 문화 고유 대상이 없으며 hors-d'oeuvre도 통용 표기로 옮겨 별도 판정할 대상이 아닙니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1103,
+    "output_tokens": 867,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

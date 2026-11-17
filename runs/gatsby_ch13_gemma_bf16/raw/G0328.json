@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7q6tJXNP8dcooZpHXZW",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0328\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the Follies\",\"tgt_span\":\"'폴리스'\",\"description\":\"지블드 폴리스(Ziegfeld Follies)라는 공연 이름이 '폴리스'로만 음역되어, 한국어 독자가 이를 쇼 이름으로 알아보기 어렵고 'police'로 오해할 소지가 있음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"잠깐의 정적, 지휘자가 리듬을 바꿈, 웅성거림, 잘못된 소문, 길다 그레이의 대역이라는 내용이 모두 유지됩니다. 'Follies'는 따옴표 안의 음역으로 고유명사 표기로 읽을 수 있어 지시 대상이 사라진 것은 아닙니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-자', '-며' 연결로 지휘자의 반응과 소문에 따른 웅성거림의 관계가 유지되며 지시 관계와 초점도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"파티 장면 묘사 → 파티 장면 묘사. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범적 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체('-했다')가 유지되며 화자와 독자의 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 'the Follies'(Ziegfeld Follies, 브로드웨이 공연 쇼)가 '폴리스'로만 옮겨져 한국어 독자가 공연 제도·쇼 이름으로 이해하기 어렵습니다. 길다 그레이가 누구의 대역인지는 전달되며 독자 이해의 핵심이 달라지지는 않아 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 958,
+    "output_tokens": 816,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

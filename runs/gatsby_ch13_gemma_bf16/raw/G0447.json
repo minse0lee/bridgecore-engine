@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7qBvDFypvbdTQoKPSFN",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0447\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I’m afraid I’m not a very good host.\",\"tgt_span\":\"제가도 접대 솜씨가 좀 부족했나 보군요.\",\"description\":\"'not a very good host'(그다지 훌륭한 주인이 아님)가 '접대 솜씨가 좀 부족했나 보군요'로 바뀜. 주인으로서의 자질이 접대 솜씨로 좁혀지고, I'm afraid의 사과·유감 어조가 '~나 보군요'라는 추측으로 바뀜. '제가도'는 오타성 표현.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'I thought you knew'와 '좋은 주인이 못 된다'는 핵심 내용이 유지되며, 접대 솜씨 부족은 같은 사태를 기술하는 수준의 차이입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계가 바뀐 곳이 없고, 두 문장의 앞뒤 연결도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대가 이미 알고 있다고 여겼다는 설명과 겸양 섞인 사과 → 같은 기능의 설명과 자기 평가. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개츠비가 화자에게 건네는 정중하면서 친근한 말투가 '알고 계신', '~습니다', '친구'로 유지됩니다. 'old sport'를 '친구'로 옮긴 것은 친근함이 유지된 대응입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"제도·단위·관습 등 문화 고유 대상이 없습니다. old sport는 호칭 표현으로 문화 제도적 의미를 갖는 대상이 아닙니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 522,
+    "output_tokens": 825,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

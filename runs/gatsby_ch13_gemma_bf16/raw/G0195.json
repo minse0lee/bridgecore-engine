@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7pzudigXDHr2XhRo32W",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0195\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"She was only extemporizing\",\"tgt_span\":\"그녀는 그저 즉흥적으로 내뱉은 말이었겠지만\",\"description\":\"'그녀가 즉흥적으로 말하고 있었다'는 확정 서술이 '즉흥적으로 내뱉은 말이었겠지만'이라는 추측 표현으로 바뀌고 주어가 말로 옮겨짐\"},{\"id\":\"E002\",\"src_span\":\"her heart was trying to come out to you concealed in one of those breathless, thrilling words\",\"tgt_span\":\"숨 가쁘고 전율 돋는 말들 속에 마음을 숨겨 전하려는 듯\",\"description\":\"'마음이 숨 가쁜 말 중 하나에 숨겨진 채 나오려 했다'는 내용이 '마음을 숨겨 전하려는' 의도적 행위로 바뀌고, one of those words(그런 말 중 하나)가 '말들 속'으로 바뀜\"},{\"id\":\"E003\",\"src_span\":\"to you\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"청자(you)를 향해 나온다는 대상이 번역에서 빠짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 단정이 추측('-었겠지만')으로 바뀌어 확실성이 달라졌고, 마음이 말에 숨겨진 채 나오려는 서술이 마음을 숨겨 전하려는 행위로 바뀌었으며 'to you'가 빠졌으나 따뜻함이 흘러나왔다는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'but'의 양보 대조는 '-지만'으로, 'as if'의 비유 관계는 '-듯'으로 유지되며, only의 초점도 '그저'로 남아 있습니다. 'to you'의 누락은 내용 누락이므로 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물의 말투와 분위기 서술 → 인물의 말투와 분위기 서술. 서사 묘사 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 독자에게 직접 말하는 높임·호칭 관계가 문제되지 않는 서술 문장입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 이 문장에는 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 804,
+    "output_tokens": 1072,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

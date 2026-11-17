@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7q5fN7d9drgQKuh7qvV",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0304\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a figure\",\"tgt_span\":\"한 남자\",\"description\":\"성별이 명시되지 않은 'a figure'(형체)를 '한 남자'로 옮김. 다음 문장에서 개츠비로 밝혀지므로 서사에는 영향이 없고, 형체가 확인되기 전의 모호함만 약해짐\"},{\"id\":\"E002\",\"src_span\":\"the silver pepper of the stars\",\"tgt_span\":\"은가루처럼 뿌려진 별들\",\"description\":\"'silver pepper'(은빛 후추)라는 은유를 '은가루'로 바꾼 비유 표현의 차이. 별이 점점이 흩뿌려진 이미지는 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"고양이 실루엣, 혼자가 아님을 깨달음, 50피트, 이웃 저택 그림자에서 나온 인물, 주머니에 손을 넣고 별을 봄이 모두 유지되며, 'a figure'→'한 남자'와 pepper→'은가루'는 같은 사태를 기술하는 차이로 핵심 내용을 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'turning my head to watch it'의 it이 고양이를 가리키는 관계와 '혼자가 아님을 깨달음 → 인물 등장'의 연결이 유지되어 지시·연결·초점이 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 이웃 인물의 등장을 묘사하는 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 장면 묘사로 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 화자의 서술체 '-다'가 소설 본문 격식에 맞게 유지되며 화자·청자의 높임이 필요한 상황이 아닙니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"fifty feet를 '50피트'로 원문 단위 그대로 옮겨 다른 단위로 바꾸지 않았고, 한국어 독자가 이해할 수 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1466,
+    "output_tokens": 931,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

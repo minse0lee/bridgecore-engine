@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7qF7aCYP3oxM9APJ4Dt",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0521\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"some last word\",\"tgt_span\":\"마지막 인사\",\"description\":\"'마지막으로 한 말'이 '마지막 인사'로 바뀜. 뒤의 작별 인사와 겹치지만 핵심 사실(그가 그녀에게 마지막으로 말을 건넴)은 유지됨\"},{\"id\":\"E002\",\"src_span\":\"several people\",\"tgt_span\":\"사람들\",\"description\":\"several(몇몇)이라는 수량 한정이 일반 복수 '사람들'로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'some last word'(마지막으로 건넨 말)가 '마지막 인사'로 바뀌어 말의 내용이 한정되었고, 'several people'의 수량이 '사람들'로 흐려졌습니다. 다만 요지와 독자가 할 행동은 달라지지 않아 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but의 대조와 as의 시간 관계가 '-ㄴ데'와 '-자'로 유지되고 he, her의 지시 대상도 그대로이며 초점 표현의 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 상황과 인물 태도의 변화를 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 '-다'가 유지되며 화자·청자 관계에서 훼손될 호칭이나 태도 표현이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 705,
+    "output_tokens": 785,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

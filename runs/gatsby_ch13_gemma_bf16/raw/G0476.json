@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7qD9xH58sSKNLFQYtkJ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0476\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"They’re so intimate.\",\"tgt_span\":\"훨씬 더 친밀한 느낌이거든요.\",\"description\":\"큰 파티가 매우 친밀하다는 서술이 '훨씬 더'라는 비교 표현으로 바뀌고, 작은 파티와의 대비가 문장 안에서 전제됨. 다만 큰 파티가 친밀하다는 핵심 내용은 유지됨.\"},{\"id\":\"E002\",\"src_span\":\"At small parties there isn’t any privacy.\",\"tgt_span\":\"작은 파티에서는 오히려 사생활이 없잖아요.\",\"description\":\"'오히려'가 추가되어 대조 관계가 명시됨. 사생활이 없다는 내용은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"큰 파티 선호, 큰 파티의 친밀함, 작은 파티에는 사생활이 없다는 내용이 모두 유지됩니다. '훨씬 더'는 정도 표현의 차이로 핵심 사실이 바뀌지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"큰 파티와 작은 파티의 대조 관계가 '오히려'로 유지되거나 더 분명해졌고, 지시·초점 관계는 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"역설적인 취향을 가볍게 말하는 서술 → 같은 기능의 서술. 화제를 돌리는 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 개인적 취향 진술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"젊은 여성 화자의 구어체 대화가 '~더라고요', '~잖아요'로 자연스럽게 유지되며, 관계에 맞는 해요체입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 별도로 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 674,
+    "output_tokens": 862,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

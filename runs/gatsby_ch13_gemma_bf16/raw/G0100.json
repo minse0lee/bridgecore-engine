@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7pvq9VDpKFmiv3r7fTx",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0100\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"bright eyes and a bright passionate mouth\",\"tgt_span\":\"빛나는 눈과 정열적인 입술 같은 생기 넘치는 구석\",\"description\":\"눈과 입이 'bright things'의 구체적 예시(동격)인데, 번역은 '같은'으로 예시화하고 '생기 넘치는 구석'으로 바꾸었다. 'bright'가 입술에는 반영되지 않았고 'passionate'가 입술에만 걸리는 구조는 유지되나 미세한 변화이다.\"},{\"id\":\"E002\",\"src_span\":\"a whispered “Listen,”\",\"tgt_span\":\"속삭이는 \\\"들어봐요\\\"\",\"description\":\"원문의 'Listen'은 화자 목소리가 청자에게 거는 말로 높임 없는 명령인데 '들어봐요'라는 해요체가 되었다. 의미·기능 변화는 없어 오류로 보기 어렵다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"얼굴의 슬픔·사랑스러움, 빛나는 눈과 입술, 목소리의 흥분, 남자들이 잊지 못함, 방금 전의 즐거운 일과 곧 올 일의 약속이라는 내용이 모두 유지됩니다. 'bright' 반복이 '빛나는/생기 넘치는'으로 바뀐 것은 표현 차이입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but의 대조는 '하지만'으로 유지되고, 콜론 뒤 동격 나열(강박, 속삭임, 약속)이 '그것은 ~이었고'로 이어져 지시·연결 관계가 남아 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 묘사 서술 → 인물 묘사 서술. 데이지의 목소리가 가진 매력을 설명하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 묘사 문장이며 규범·의무·허가를 정하는 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 문어체 '-다'체가 유지되고 화자와 인물의 관계에서 인용된 '들어봐요'도 부드러운 청유로 읽혀 관계를 바꾸지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없는 인물 묘사 문장입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1279,
+    "output_tokens": 1006,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

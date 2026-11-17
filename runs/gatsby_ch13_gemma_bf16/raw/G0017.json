@@ -1,10 +1,10 @@
 {
-  "id": "msg_011Ch7pryGGaoFywioWorVuG",
+  "id": "msg_011Ch7qLifUYerkVBfE9AYwM",
   "container": null,
   "content": [
     {
       "citations": null,
-      "text": "{\"item_id\":\"G0017\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"sent a substitute to the Civil War\",\"tgt_span\":\"남북 전쟁 때는 대리인을 보냈고\",\"description\":\"x\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"x\"}, \"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"x\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"x\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"x\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"x\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"x\"}}}",
+      "text": "{\"item_id\":\"G0017\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"sent a substitute to the Civil War\",\"tgt_span\":\"남북 전쟁 때는 대리인을 보냈고\",\"description\":\"남북전쟁에 대신 싸울 병사(대리 복무자)를 보냈다는 내용이 일반적인 '대리인'을 보냈다는 말로 바뀌어 병역 대리 관행의 의미가 전달되지 않음\"},{\"id\":\"E002\",\"src_span\":\"came here in fifty-one\",\"tgt_span\":\"51년에\",\"description\":\"1851년이 '51년'으로 옮겨져 세기 표기가 없음. 앞뒤 문맥(남북전쟁)으로 추정은 가능하나 연도가 모호함\"},{\"id\":\"E003\",\"src_span\":\"we have a tradition\",\"tgt_span\":\"가풍도 내려오지만\",\"description\":\"'가문의 전승·구전(우리는 ~의 후손이라는 전설이 있다)'이 '가풍'으로 바뀌어 후손이라는 주장의 성격이 약간 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"질문 1: 남북전쟁에 대신 병사를 보냈다는 내용이 막연한 '대리인'으로 바뀌었고, '가풍'과 '51년'도 정확도가 떨어졌으나, 시조인 할아버지의 형제가 이주해 사업을 시작했다는 핵심 줄거리는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대조('~지만')와 'who' 관계절의 지시 대상(할아버지의 형제), 'that my father carries on'의 연결이 유지되어 1·2·3 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"가문 내력 서술 → 가문 내력 서술로 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서사적 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 화자의 서술체 '~다'가 유지되고, 할아버지 형제에 대한 높임('형제분', '~하셨다')은 가족 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"질문 2: 남북전쟁 당시 돈을 주고 대리 복무자를 보내던 징병 대체 제도가 '대리인'이라는 일반 어휘로 옮겨져 제도적 의미가 한국어 독자에게 전달되지 않습니다. 다만 서술의 큰 줄거리에는 영향이 작아 minor입니다.\"}}}",
       "type": "text"
     }
   ],
@@ -24,7 +24,7 @@
     "cache_read_input_tokens": 14219,
     "inference_geo": "global",
     "input_tokens": 980,
-    "output_tokens": 325,
+    "output_tokens": 1073,
     "output_tokens_details": {
       "thinking_tokens": 0
     },

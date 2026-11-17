@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7qGshL3cwJw4mPzJQHR",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0564\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the criminal\",\"tgt_span\":\"가해자\",\"description\":\"'criminal'(범죄자)이 '가해자'(피해를 입힌 사람)로 바뀌어 지칭이 달라짐. 사고 상황의 운전자를 가리키므로 지시 대상은 같지만 '범죄자'라는 규정이 '가해자'로 좁아지거나 달라짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'criminal'(범죄자)이 '가해자'로 바뀌어 대상 지칭이 달라졌으나, 같은 인물을 가리키고 발화 내용과 행위(설명함)는 유지되어 요지는 크게 바뀌지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 대상, 연결 관계, 초점 표현이 모두 유지되며 'the criminal'은 같은 인물을 계속 가리킵니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물의 해명 발화 → 인물의 해명 발화. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사고 후 경찰·행인 등에게 변명하는 발화로 '오해하신 거예요'의 존댓말은 낯선 사람에게 하는 말로 문맥상 적절하며 해명하는 태도가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 500,
+    "output_tokens": 724,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7pwEJmS1oiKNsXERt7R",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0109\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"She’s—\",\"tgt_span\":\"애가 정말—\",\"description\":\"'She'가 '애'로 옮겨져 아이라는 대상이 특정되고, 원문에 없는 강조 부사 '정말'이 더해졌으며 미완결 문장은 유지됨. 문맥상 대상이 아이(Daisy의 딸)이므로 지시 대상은 같고, 정도 표현 첨가는 의미 변화가 미미함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'보셔야 해요'와 '애가 정말—'로 그녀를 보라는 내용과 말이 끊기는 서술이 유지되며, '정말'은 정도 표현의 첨가에 그칩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'her'와 'She'가 같은 인물을 가리키는 관계가 '애'로 유지되고, 연결과 초점 표현에 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 권유 → 권유. 보라고 이끄는 기능과 말을 잇지 못하는 감탄조가 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"ought to는 규범적 의무가 아니라 대화 속 개인적 권유이므로 Deontic 평가 대상이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 상대에게 '~보셔야 해요'의 존대 해요체를 쓰며, 문맥상 부자연스러운 관계 변경이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 563,
+    "output_tokens": 737,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

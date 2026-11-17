@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7qKv5npQXhRhiKM2c2L",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0637\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a vague understanding\",\"tgt_span\":\"그 모호한 약속\",\"description\":\"'understanding'(암묵적 양해·묵시적 합의)이 '약속'(명시적 약속)으로 바뀌고, 'a'가 '그'로 바뀌어 특정 대상으로 지시됨\"},{\"id\":\"E002\",\"src_span\":\"tactfully\",\"tgt_span\":\"재치 있게\",\"description\":\"'tactfully'(눈치 있게, 상대를 배려하며)가 '재치 있게'(기지 있게)로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'vague understanding'이 '모호한 약속'으로, 'tactfully'가 '재치 있게'로 달라졌으나, 정리해야 할 모호한 관계와 자유로워지기 전 끊어야 한다는 핵심 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Nevertheless가 '그럼에도'로 양보 연결을 유지하고 'before I was free'도 '자유로워지려면'으로 선후 조건 관계가 남아 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 화자의 상황과 남은 과제를 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"had to는 서술 속 상황적 필요를 나타내며 규범적 의무·허가·금지를 정하는 문장이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술의 평서체 문어체가 유지되며 관계상 어긋나는 높임·호칭이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 989,
+    "output_tokens": 801,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

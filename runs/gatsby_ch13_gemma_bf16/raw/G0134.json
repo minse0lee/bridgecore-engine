@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7pxFCryQJTsDYTBzipT",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0134\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Her grey sun-strained eyes\",\"tgt_span\":\"햇볕에 그을린 회색 눈동자가\",\"description\":\"sun-strained(햇빛에 지쳐 가늘게 찡그린 눈)가 '햇볕에 그을린'으로 옮겨져 눈의 상태 설명이 달라짐\"},{\"id\":\"E002\",\"src_span\":\"polite reciprocal curiosity\",\"tgt_span\":\"정중하면서도 호기심 어린 시선으로\",\"description\":\"'reciprocal'(서로 마주한 호기심)이 명시적으로 옮겨지지 않았으나 '마주 보았다'와 함께 상호성이 대체로 전달됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: sun-strained(햇빛에 시달려 찡그린/피로한)가 '햇볕에 그을린'으로 바뀌어 눈의 묘사 내용이 달라졌으나 핵심 장면(눈이 호기심으로 마주 봄)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계가 유지되며 '표정 속에서 … 눈동자가'의 소유·위치 관계도 보존됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 묘사 서술 → 인물 묘사 서술로 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자·청자 간 높임이나 호칭이 문제되는 문장이 아니라 서술 문장입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 939,
+    "output_tokens": 774,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7qB6FUUCAU3eAFQv8pP",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0425\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"two finger-bowls of champagne\",\"tgt_span\":\"손 씻는 그릇만큼이나 커다란 잔으로 샴페인을 두 잔이나\",\"description\":\"finger-bowl(손 씻는 그릇)을 담는 용기 단위로 쓴 표현이 '손 씻는 그릇만큼 커다란 잔'으로 바뀌고 '두 잔'이라는 수량 단위가 더해졌으며, '이나'로 많다는 평가가 덧붙음. 마신 양(핑거볼 두 그릇)은 대체로 유지됨.\"},{\"id\":\"E002\",\"src_span\":\"the scene had changed before my eyes into something\",\"tgt_span\":\"눈앞의 풍경이 무언가 … 것으로 변해 보였다\",\"description\":\"장면이 실제로 변했다는 서술이 '변해 보였다'로 바뀌어 지각적 인상으로 약간 완화됨. 취기로 인한 주관적 인식이라는 맥락상 의미는 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"샴페인을 핑거볼 두 그릇 분량 마셨고 그 결과 풍경이 의미 있고 근원적이며 심오하게 느껴졌다는 핵심 사태가 유지됩니다. '잔'으로의 해석과 '변해 보였다'는 같은 사태를 기술하는 범위 안의 차이입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"마셨더니 풍경이 변했다는 인과·시간 연결이 '-더니'로 유지되며 지시·초점 표현의 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 취기와 인식 변화 묘사 → 같은 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가를 나타내는 표현이 없는 소설 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술체 '-다'가 유지되어 서술 상황에 맞습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"finger-bowl을 '손 씻는 그릇'으로 풀어 옮겨 식탁 용기를 가리키는 점이 전달되며 다른 제도·단위로 바뀌지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 822,
+    "output_tokens": 966,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

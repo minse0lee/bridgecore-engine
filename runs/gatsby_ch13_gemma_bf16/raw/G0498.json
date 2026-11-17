@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7qEDx9Wf8YSfUYcofzW",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0498\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"an obstetrical conversation\",\"tgt_span\":\"아주 세세한 이야기꽃\",\"description\":\"'산과(출산) 관련 대화'라는 주제가 '아주 세세한 이야기'로 바뀌어 대화 주제가 사라짐\"},{\"id\":\"E002\",\"src_span\":\"Jordan’s undergraduate\",\"tgt_span\":\"조던의 대학생 지인\",\"description\":\"'조던의 대학생(동행)'이 '대학생 지인'으로 바뀜. 관계가 약간 달라졌으나 지시 대상은 유지됨\"},{\"id\":\"E003\",\"src_span\":\"who was now engaged in\",\"tgt_span\":\"이야기꽃을 피우며\",\"description\":\"'now'로 표시된 현재 시점의 진행 의미가 '간청하던'의 과거 진행으로 흡수되어 약화됨(경미)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 대화의 주제인 산과(출산) 이야기가 '아주 세세한 이야기'로 바뀌어 무엇에 관한 대화인지 달라졌고, 독자는 장면의 요지(부적절하고 우스꽝스러운 주제)를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"두 관계절이 모두 대학생을 수식하고 '따돌리고 … 들어갔다'의 순서 관계도 유지되어 지시·연결·초점 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 인물을 따돌리고 안으로 들어가는 사건 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 소설 서술입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 청자 사이의 높임·호칭 관계가 드러나는 대화가 아니라 서술문이며, 비하 등 태도 표현도 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 문화·제도 고유의 대상이 없습니다. 'chorus girls'는 '코러스 걸'로 통용 표기되어 별도 판정 대상이 아닙니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 772,
+    "output_tokens": 939,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

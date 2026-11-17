@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7q7te8RPjvtVJLYHebK",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0349\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"next door to—\",\"tgt_span\":\"그 옆집에 사신다고\",\"description\":\"'next door to'의 대상이 미완 상태로 끊기는데, 번역은 '그 옆집'이라는 지시어를 넣어 대상이 이미 정해진 것처럼 바꿈. 다만 '옆집'이라는 핵심 의미는 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 원문의 'next door to—'는 대상이 말해지지 않은 채 끊기는데, 번역은 '그 옆집'이라고 하여 특정 대상이 있는 것처럼 읽힘. 다만 옆집에 산다는 핵심 사실은 유지되어 minor.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'next door to' 뒤의 미완 대상이 '그 옆집'이라는 지시 표현으로 바뀌어 지시 관계가 달라짐.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞선 말의 근거를 대는 설명 → 설명. 말을 끝맺지 못하는 기능도 '—'로 유지됨.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 대화임.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"초면에 가까운 상대에게 존대하는 '~세요/~거든요' 체가 관계에 맞음.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·관습·단위가 없음.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 517,
+    "output_tokens": 716,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7q5e9CYpznUmABdEVmu",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0303\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the full bellows of the earth blew the frogs full of life\",\"tgt_span\":\"대지의 거대한 풀무가 개구리들에게 생명력을 불어넣는 듯\",\"description\":\"'as'로 이어진 사실 서술(대지의 풀무가 개구리들을 생명으로 가득 채우며 오르간 소리를 냄)이 '~하는 듯'이라는 추측성 비유 표현으로 바뀌어 확실성이 약해짐. 다만 원문 자체가 은유이므로 핵심 내용은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): 대지의 풀무가 개구리에게 생명을 불어넣는다는 단정적 은유가 '~하는 듯'이라는 추측 표현으로 바뀌었으나, 핵심 사실(바람 잦아듦, 소란하고 환한 밤, 날갯짓, 오르간 소리, 개구리)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·소유 관계가 바뀌지 않았고, 'as'의 동시 관계도 '~듯' 구문으로 남아 있으며 초점 표현의 변화가 없습니다. 문장 분할은 오류가 아닙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사 서술 → 장면 묘사 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 묘사문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 문어체 평서(~다)가 유지되고 화자·독자 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1380,
+    "output_tokens": 805,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7qHoPA1iPvZC5tKXsyN",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0589\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"from the windows and the great doors\",\"tgt_span\":\"창문과 커다란 문들 사이로\",\"description\":\"공허함이 창문과 큰 문 '에서' 흘러나온다는 출처가 '사이로'로 바뀌어 위치 관계가 약간 달라짐\"},{\"id\":\"E002\",\"src_span\":\"endowing with complete isolation the figure of the host\",\"tgt_span\":\"집주인의 모습은 완전히 고립되어 보였다\",\"description\":\"공허함이 집주인에게 완전한 고립을 부여한다는 능동적 인과 관계가 '고립되어 보였다'는 상태 서술로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'사이로'는 출처 표현의 미세한 차이일 뿐이고, 공허함이 흘러나오고 집주인이 완전히 고립되어 보인다는 핵심 사태는 같습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2(인과·연결): 공허함이 집주인에게 고립을 부여한다는 분사구문의 인과 관계가 '고립되어 보였다'는 독립 서술로 바뀌어 연결이 사라졌습니다. 다만 앞 절과의 인접으로 암시는 남아 요지 이해는 크게 바뀌지 않아 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사 서술 → 장면 묘사 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 소설 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"문학적 서술체 '-였다'가 유지되며 화자·청자 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 956,
+    "output_tokens": 815,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

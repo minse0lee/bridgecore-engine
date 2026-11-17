@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7q82WeZqj6UG7nmHahj",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0356\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“You’ve dyed your hair since then,”\",\"tgt_span\":\"“그사이에 머리를 염색하셨네요.”\",\"description\":\"원문은 Jordan이 닉에게 반말에 가까운 평서문으로 말하는데 번역은 '-하셨네요' 높임으로 옮겨 관계에 맞지 않을 수 있음. 다만 두 사람이 처음 만난 사이가 아니며 상황상 높임이 부자연스럽다고 확정하기 어려움.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"염색 발언, 놀람, 소녀들이 지나가 버림, 달을 향한 말, 출장 뷔페 바구니에서 나온 달이라는 내용이 모두 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"her remark가 달을 향한 것이라는 지시 관계와 'like the supper'의 비교, but의 대조('놀랐지만')가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 및 대화 보고 → 서술 및 대화 보고. 무심한 말이 허공에 던져진 상황을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"조던이 닉에게 '-하셨네요' 높임으로 말하는 것이 두 사람의 관계(과거 알던 사이, 또래, 사교적 친분)에 맞는지 판단하려면 화자·청자의 친밀도에 대한 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명과 일반 사물 외에 문화·제도 고유의 대상이 없습니다. caterer's basket은 '출장 뷔페 바구니'로 통용 가능한 표현입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1106,
+    "output_tokens": 813,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7q7TTKLYZyee4ZcJGmx",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0341\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the easy money\",\"tgt_span\":\"셈법 쉬운 돈\",\"description\":\"'easy money'(쉽게 벌 수 있는 돈)가 '셈법 쉬운 돈'으로 옮겨져 '쉽게 얻는 돈'이라는 의미가 흐려지고 의미가 불분명해짐\"},{\"id\":\"E002\",\"src_span\":\"convinced that it was theirs for a few words in the right key\",\"tgt_span\":\"믿어 의심치 않는 듯했다\",\"description\":\"화자의 관찰 추정을 나타내는 '듯했다'가 첨가되어 원문의 단정적 서술이 추측으로 바뀜\"},{\"id\":\"E003\",\"src_span\":\"a few words in the right key\",\"tgt_span\":\"적절한 말솜씨만 발휘한다면\",\"description\":\"'몇 마디 적절한 말'이 '말솜씨'로 바뀌어 'a few words'의 소량 표현이 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 'easy money'가 '셈법 쉬운 돈'으로 바뀌어 '쉽게 얻는 돈'의 의미가 흐려졌고, 확실성이 '듯했다'로 약해졌으며 'a few words'의 수량이 사라졌으나 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'적어도'가 aware에 걸리는 초점이 유지되고, 두 서술이 '-으며'로 병렬 연결되며, '그 돈'이 easy money를 가리키는 지시 관계도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 관찰·서술 → 화자의 관찰·서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술 문어체 '-했다'가 유지되며 특정 인물 관계에 따른 높임 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1138,
+    "output_tokens": 945,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7pwfiV2t96ymPpAWihx",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0122\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Evidently it surprised her as much as it did me\",\"tgt_span\":\"그 말에 놀란 건 나뿐만이 아니었던 모양인지\",\"description\":\"'그녀도 나만큼 놀랐다'는 동등 비교가 '나뿐만이 아니었다'로 바뀌어 정도의 동등성은 약해지지만 그녀도 놀랐다는 핵심은 유지됨\"},{\"id\":\"E002\",\"src_span\":\"with a series of rapid, deft movements stood up into the room\",\"tgt_span\":\"빠르고 능숙한 동작으로 자리에서 일어나 방 안으로 들어섰다\",\"description\":\"stood up into the room(일어서서 방 안에 선 모습)이 '일어나 방 안으로 들어섰다'로 바뀌어 방에 새로 들어오는 이동 동작이 첨가됨. 'a series of'(연속된 동작)는 단순 '동작'으로 옮겨짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1(행위): 이미 방 안에 있던 그녀가 일어선 것인데 '방 안으로 들어섰다'로 옮겨 방에 들어오는 이동 행위가 새로 생겼으나, 놀랐고 하품하고 일어났다는 핵심 사건은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"for의 이유 관계가 '-인지, 그녀는 …' 구조의 추측 근거로 남아 있고 지시 대상(그 말, 그녀, 나)도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 행동·반응 서술 → 인물 행동·반응 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 의무·허가·금지 같은 규범 표현이 없는 서사 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 평서체 '-ㄴ다/-었다'가 유지되며 높임·호칭 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 751,
+    "output_tokens": 940,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

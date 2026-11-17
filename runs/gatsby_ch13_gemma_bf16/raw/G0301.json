@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7q5Sp4jpKnMMDj7gWJ2",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0301\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"as if his sturdy physical egotism no longer nourished his peremptory heart\",\"tgt_span\":\"그의 강인한 육체적 이기심이 더 이상 독단적인 마음을 채워주지 못하는 것처럼\",\"description\":\"'as if'(비현실적 비유·추측)가 '처럼'으로 옮겨져, 이기심이 마음을 채워주지 못한다는 내용이 사실처럼 읽히고 'as if' 절이 가리키는 원인 해석이라는 성격이 약해짐. 또한 절 순서가 바뀌어 'as if' 절이 'Something was making him…'을 수식하는 관계가 모호해짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): 'as if'가 추측적 비유인데 '못하는 것처럼'은 거의 같은 비교 구문이라 핵심 사실은 유지되나, 이기심이 마음을 못 채운다는 서술이 약간 단정적으로 읽혀 확실성이 조금 달라졌습니다. 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'as if' 절의 비교 관계가 '~처럼'으로 유지되고 앞으로 옮긴 어순도 한국어로 자연스러우며, 지시·연결·초점 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 인물 해석 서술 → 서술자의 인물 해석 서술. 같은 종류의 기능입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 소설 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 문어체 서술이 '~었다' 평서체로 유지되며 관계상 부적절한 높임이나 호칭 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1015,
+    "output_tokens": 878,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

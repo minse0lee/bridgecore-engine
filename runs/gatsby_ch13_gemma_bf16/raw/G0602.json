@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7qJRYHAdHYRMYD9TsN6",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0602\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"in front of windows\",\"tgt_span\":\"쇼윈도 앞에\",\"description\":\"일반 '창문'이 '쇼윈도'로 구체화됨. 다만 문맥상 상점 창을 가리킬 가능성이 커서 의미 변화는 경미함.\"},{\"id\":\"E002\",\"src_span\":\"a solitary restaurant dinner\",\"tgt_span\":\"혼자 저녁 식사를 하러 갈\",\"description\":\"'식당에서의 혼자 하는 저녁'에서 'restaurant'가 명시되지 않음. 식사하러 간다는 표현으로 식당 함의는 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'windows'가 '쇼윈도'로 한정되어 대상이 약간 구체화되었으나, 요지와 독자 행동 이해에는 영향이 없어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'others'가 가리키는 대상, 대시로 이어진 동격 구조, 시간 연결이 모두 유지되며 초점 표현의 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 외로움 묘사 → 서술자의 외로움 묘사. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체가 일관되게 유지되며 호칭·관계상의 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1433,
+    "output_tokens": 750,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

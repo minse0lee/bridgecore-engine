@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7q4UqLHoTRAsEA43Jux",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0280\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Our white girlhood was passed together there. Our beautiful white—\",\"tgt_span\":\"순백의 소녀 시절을 함께 보냈죠. 우리의 아름답고 하얀—\",\"description\":\"'white'의 인종적 함의(백인 소녀 시절)가 '순백의'(순수함)·'하얀'이라는 색/순수 의미로 옮겨져 인종적 의미가 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'white girlhood'가 '백인 소녀 시절'이 아니라 '순백의 소녀 시절'로 바뀌어 내용(인종 지시)이 달라졌으나, 루이빌 출신과 함께 보낸 소녀 시절이라는 핵심 사실은 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계는 유지되며 끊긴 말줄임('하얀—')도 그대로입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 출신·과거 회상 진술 → 출신·과거 회상 진술로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"친근한 대화체 '~에요/~죠'가 인물 간 대화 상황에 무리 없이 맞습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 'white'가 지닌 1920년대 미국 인종 의식(백인 우월 함의)이 '순백/하얀'으로 옮겨져 한국어 독자가 인종적 문화 함의를 이해할 수 없고, 평가조건이 문화 함의 변경을 불허합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 540,
+    "output_tokens": 789,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

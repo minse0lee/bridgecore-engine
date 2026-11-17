@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7qA9m34wrBh5hjjs9iN",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0406\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"What do you expect?\",\"tgt_span\":\"당연한 결과죠.\",\"description\":\"'뭘 기대하느냐'는 수사의문이 '당연한 결과'라는 평서문으로 바뀌어 질문 내용이 사라지고 다른 진술이 됨\"},{\"id\":\"E002\",\"src_span\":\"didn’t cut the pages\",\"tgt_span\":\"책장 끝을 자르지 않았거든요\",\"description\":\"책장(페이지)을 자르지 않았다는 내용이 '책장 끝을 자르지 않았다'로 바뀌어 자르는 대상·의미가 달라지고 uncut pages라는 제본 관행이 불분명해짐\"},{\"id\":\"E003\",\"src_span\":\"It’s a triumph.\",\"tgt_span\":\"완벽해요.\",\"description\":\"'대성공/승리'가 '완벽하다'로 바뀌어 평가 내용이 다소 달라짐\"},{\"id\":\"E004\",\"src_span\":\"This fella’s a regular Belasco.\",\"tgt_span\":\"이 친구 정말 벨라스코 뺨치는 재주꾼이네요.\",\"description\":\"Belasco 자체로 비유한 것이 '벨라스코 뺨치는'으로 바뀌어 벨라스코를 능가한다는 의미가 더해지고, 벨라스코가 누구인지 설명 없음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\",\"E003\",\"E004\"],\"reason\":\"판단 질문 1: '뭘 기대하느냐'가 '당연한 결과'로, 책장을 자르지 않았다가 '책장 끝'으로, triumph가 '완벽'으로 달라졌으나 전체 요지(진짜 책처럼 정교하다는 감탄)는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'But'과 '하지만' 등 연결과 'too'의 초점 관계가 유지되고 지시 대상도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"원문 반어적 수사의문(말로 비꼬며 반문) → 번역 평서문 단언('당연한 결과죠')으로 바뀌어 기능이 달라졌습니다. 앞의 '뭘 더 바라겠어요?'가 수사의문으로 남아 있어 영향은 작아 minor입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가를 정하는 표현이 없는 인물의 감탄 발화입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"구어체 존댓말 감탄이 인물의 들뜬 말투로 유지되며 관계에 맞지 않는 호칭 변화는 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Belasco(브로드웨이 연출가 데이비드 벨라스코)를 '벨라스코'로 음역해 같은 대상을 가리키며 정확한 음역은 보존입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 888,
+    "output_tokens": 1176,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

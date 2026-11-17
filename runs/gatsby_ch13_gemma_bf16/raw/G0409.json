@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7qALFJqtFoBaZm92ccc",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0409\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I was brought.\",\"tgt_span\":\"저도 누가 데려왔습니다.\",\"description\":\"'저도'(나도)가 첨가되고, 앞 문장 어조(~소)와 달리 '저…습니다'로 높임 수준이 바뀜. 의미는 유지되지만 같은 화자의 말투가 일관되지 않음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그냥 왔는지' 묻기, '나는 누가 데려왔다', '대부분 그렇게 왔다'는 내용이 모두 유지됩니다. '저도'는 문맥상 자연스러운 보충이며 사실을 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Or의 대안 연결이 '아니면'으로 유지되고, '대부분 다 그렇게'가 앞의 '데려왔다'를 가리키는 관계도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"질문 및 자기 경험 진술 → 질문 및 자기 경험 진술. 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 대화 서술입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'~거요'(하오체)와 '저…습니다'(높임)가 섞여 있어 화자와 청자의 관계에 맞는지 판단하기 어렵습니다. 화자와 청자의 관계 및 화자의 격식 태도(예: 낯선 파티 손님 사이의 정중함 여부) 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 546,
+    "output_tokens": 774,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

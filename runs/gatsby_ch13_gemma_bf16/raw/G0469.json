@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7qCqzH3EUhL7CeTUecu",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0469\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“Why not?”\",\"tgt_span\":\"“왜 그렇게 생각해요?”\",\"description\":\"'Why not?'(왜 안 되느냐/안 될 이유가 없다)이 '왜 그렇게 생각해요?'(상대의 생각 이유를 묻는 질문)로 바뀜. 상대의 앞선 부정·거절에 대한 반문이 상대의 생각 이유를 묻는 질문으로 달라지고, 존대 종결어미가 첨가됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위·내용): 'Why not?'은 왜 안 되는지 묻는 반문인데, 번역문은 상대가 그렇게 생각하는 이유를 묻는 질문으로 바뀌어 묻는 내용이 달라졌고 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현이 문제되는 구조가 없고 앞 발화를 받는 짧은 응답이라는 관계는 유지됩니다. 지시 대상 변화는 Semantic에서 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"원문 기능은 앞선 말에 대한 반문(이유를 묻는 질문) → 번역 기능도 이유를 묻는 질문으로 같은 종류입니다. 묻는 내용의 차이는 Semantic에서 판정합니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 대화 속 짧은 반문이라 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-해요' 체가 화자와 청자의 관계에 맞는지 판단하려면 『위대한 개츠비』 3장의 해당 장면에서 화자와 청자의 관계 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위 등 별도로 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 412,
+    "output_tokens": 876,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

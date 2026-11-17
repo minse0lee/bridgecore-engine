@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7qAimtTLLF8MHnqGfY3",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0417\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"on the canvas in the garden\",\"tgt_span\":\"정원의 천막 위에서는\",\"description\":\"캔버스 천을 깐 정원의 무도 바닥(천막 천 위)이 '천막 위'로 옮겨져 춤추는 장소가 천막 지붕 위처럼 읽힘\"},{\"id\":\"E002\",\"src_span\":\"holding each other tortuously, fashionably\",\"tgt_span\":\"구부정한 자세로 유행을 따르며 서로를 붙잡은 채\",\"description\":\"tortuously(뒤틀리듯 꼬인 자세)가 '구부정한 자세'로, 두 부사가 자세·유행 방식으로 약간 달라짐\"},{\"id\":\"E003\",\"src_span\":\"single girls\",\"tgt_span\":\"독신녀들\",\"description\":\"파트너 없이 혼자 있는 젊은 여자들이 '독신녀'(미혼 여성 신분)로 옮겨짐\"},{\"id\":\"E004\",\"src_span\":\"the traps\",\"tgt_span\":\"드럼\",\"description\":\"traps(타악기 세트)가 드럼으로 옮겨져 통상적 대응 범위 내\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E003\"],\"reason\":\"판단 질문 1: 춤이 벌어진 장소가 캔버스 천을 깐 바닥에서 '천막 위'로, 홀로 있는 여자들이 '독신녀'로 달라졌으나 파티 장면의 요지는 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계(and a great number of…, or 병렬)가 유지되어 세 질문 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사 서술 → 장면 묘사 서술로 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 장면 묘사로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자·청자 관계가 드러나는 높임·호칭이 없는 서술문이며 서술체 '-다'로 일관됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1505,
+    "output_tokens": 927,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

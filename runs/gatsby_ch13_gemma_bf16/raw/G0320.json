@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7q6QuFGGb4fmnrSkDgQ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0320\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"cordials so long forgotten that most of his female guests were too young to know one from another\",\"tgt_span\":\"너무 오래되어 여성 손님 대부분이 너무 젊은 나머지 서로 구분조차 못 할 정도로 잊힌 리큐어들\",\"description\":\"'오래전에 잊힌 코디얼(so long forgotten)'이 '너무 오래되어 … 잊힌'으로 옮겨져, 술이 오래 묵었다는 뜻이 더해지고 잊힌 기간의 의미가 흐려짐. 다만 잊혔다는 핵심과 젊은 손님들이 구분 못 한다는 결과는 유지됨.\"},{\"id\":\"E002\",\"src_span\":\"stocked with gins and liquors\",\"tgt_span\":\"진과 각종 독주\",\"description\":\"liquors가 '각종 독주'로 옮겨져 '각종'이 더해짐. 의미 변화는 미미함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: '오래 잊힌 리큐어'가 '너무 오래되어 … 잊힌'으로 바뀌어 술이 오래 묵었다는 뜻이 더해졌으나, 잊혔다는 핵심과 젊은 손님들이 구분 못 한다는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"so…that 결과 관계가 '너무 … 나머지 … 정도로'로 유지되고, 'his female guests'의 소유 관계도 문맥상 유지되며 초점 표현의 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"파티 준비 서술 → 파티 준비 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체('~었다')가 유지되며 화자·청자 관계상 문제 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·단위·관습이 없습니다. 술 종류는 일반 어휘로 옮겨졌습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1085,
+    "output_tokens": 928,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

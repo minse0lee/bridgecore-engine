@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7q7JXY8MoTVPN1VZzN3",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0338\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Dressed up in white flannels I went over to his lawn a little after seven, and wandered around\",\"tgt_span\":\"흰색 플란넬 옷을 차려입고 일곱 시가 조금 넘어 그의 집 잔디밭으로 갔지만, …그 사이를 서성거렸다\",\"description\":\"단순 연결 '그리고'가 '-지만'(대조)으로 바뀜. 갔다는 사실과 서성거렸다는 사실 사이에 대조 관계가 새로 생김\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"흰 플란넬, 일곱 시 조금 넘어, 그의 잔디밭, 모르는 사람들 사이를 서성임, 통근 열차에서 본 얼굴이라는 내용이 모두 유지됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(연결 관계): 원문의 순차적 나열(went over ... and wandered)이 '-지만'으로 옮겨져 대조 관계로 바뀌었습니다. 다만 뒤의 though 양보 연결은 '물론 ...보이긴 했다'로 유지되고 요지가 달라지지 않아 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 상황 서술 → 상황 서술. 서사 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 평서체 '-했다'가 유지되며 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명·지명 외에 별도로 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1212,
+    "output_tokens": 785,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

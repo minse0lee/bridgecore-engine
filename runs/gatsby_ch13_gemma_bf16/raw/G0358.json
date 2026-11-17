@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7q8DDLvw7zuyhe4Acns",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0358\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"each one introduced to us as Mr. Mumble\",\"tgt_span\":\"하나같이 이름조차 제대로 들리지 않는 ‘머블 씨’라는 식으로 소개되었다\",\"description\":\"원문에 없는 '이름조차 제대로 들리지 않는'이라는 설명이 첨가되고 'Mumble'을 '머블 씨'로 음역해, 웅얼거리는 이름이라는 말놀이는 풀어 설명한 형태가 됨. 다만 핵심 내용(세 남자 모두 같은 이름으로 소개됨)은 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"칵테일 쟁반, 노란 옷의 두 소녀, 세 남자, 모두 Mr. Mumble로 소개됨이 유지되며 수치도 맞습니다. 이름이 들리지 않는다는 풀이는 Mumble의 함의를 설명한 것으로 사태는 같습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'and'의 연결과 'each one'의 지시 대상(세 남자)이 '남자들은 하나같이'로 유지되어 지시·연결·초점 모두 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술(풍자적 묘사) → 장면 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 서술문으로 의무·허가·금지 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 담담한 문어체 서술이 '-었다'체로 유지되며 인물 간 호칭 관계도 변하지 않았습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Mr.'를 '씨'로 옮긴 것은 통상적 대응이며 가리키는 대상이 같고 제도적 의미의 변질이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1191,
+    "output_tokens": 828,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

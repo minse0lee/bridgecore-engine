@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7q4QBXpnaFqdsVbHy2c",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0278\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Is she from New York?\",\"tgt_span\":\"뉴욕 분이신가요?\",\"description\":\"3인칭 'she'(제3자에 관한 질문)가 2인칭 높임 표현 '분이신가요'로 옮겨져, 화자가 제3자에 대해 묻는 것이 청자 본인에 대해 묻는 것으로 읽힘. 주어가 생략되어 대상이 불분명해짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물): 'she'라는 제3자가 질문의 대상인데, 번역문은 '뉴욕 분이신가요?'만 있어 청자에 관한 질문으로 읽혀 누구에 대해 묻는지가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(지시 표현): 대명사 'she'가 번역에서 사라져 지시 대상이 불분명해지고, 한국어 문맥에서는 청자를 가리키는 것으로 읽힙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"정보를 묻는 질문 → 정보를 묻는 질문. 발화 기능은 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 속 질문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"제3자 여성에 대해 정중하게 묻는 어조로 읽을 수 있고, 높임이 문맥상 부적절하다고 단정할 근거는 없습니다. 대상 변경은 Semantic에서 다룹니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"지명(New York)만 있고 별도로 판정할 문화·제도 고유 대상은 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 435,
+    "output_tokens": 789,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7qBRnTd1vUQ8Pwm4kM7",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0433\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Just near the shore along the Sound.\",\"tgt_span\":\"해협을 따라 해안가 근처에서 타는 겁니다.\",\"description\":\"원문에 없는 행위(타는 것, 즉 탈것 이용)가 첨가됨. 원문은 장소만 말함\"},{\"id\":\"E002\",\"src_span\":\"old sport\",\"tgt_span\":\"친구\",\"description\":\"개츠비 특유의 호칭 'old sport'가 일반 호칭 '친구'로 바뀌어 격식 있는 친근함과 인위적 어투가 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위): 원문에 없는 '타는' 행위가 덧붙었으나 문맥(보트·수상기 등 탈것)상 같은 사태를 가리켜 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현의 대상이나 관계가 바뀌지 않았고 'Just'의 범위 한정도 장소 설명에 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"동행 제안 → 동행 제안. 의문문 형태의 권유 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 제안·선택 질문으로 의무·허가·금지 의미가 없습니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 3(태도): 개츠비가 쓰는 친근하면서도 격식 차린 'old sport' 말투가 평범한 '친구'로 바뀌어 화자의 태도 표지가 약해졌으나 관계 설정 자체는 유지되어 minor입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에 판정할 제도·단위·관습 등 문화 고유 대상이 없고 지명 Sound(해협)만 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 502,
+    "output_tokens": 826,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7qCv8KL2gjLB9B1DMsk",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0471\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“I think he killed a man,”\",\"tgt_span\":\"\\\"그 사람이 사람을 죽였을지도 몰라요\\\"\",\"description\":\"'I think he killed a man'(화자의 믿음: 죽였다고 생각한다)이 '죽였을지도 몰라요'(가능성)로 바뀌어 확실성이 약해짐\"},{\"id\":\"E002\",\"src_span\":\"had the effect of stimulating my curiosity\",\"tgt_span\":\"그 덕분에 내 호기심은 더욱 자극되었다\",\"description\":\"'더욱'이 첨가되어 호기심이 이미 있었던 것처럼 정도 비교가 더해짐. 의미 변화는 경미함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(확실성): 'I think he killed'의 믿음이 '죽였을지도 모른다'는 가능성으로 약해졌고, '더욱'이 더해졌으나 핵심 사실(말투가 인용문을 떠올리게 하고 호기심을 자극)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그녀의 말투'와 '다른 여자'의 지시 관계가 유지되고, 떠올림과 호기심 자극의 연결도 '그 덕분에'로 남아 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(화자의 반응 설명) → 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 '~다'가 유지되고, 인용된 대화는 상대에게 하는 '~요'체로 관계에 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 936,
+    "output_tokens": 840,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

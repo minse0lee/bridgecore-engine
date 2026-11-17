@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7q8ZtYehGkt51Z43CoL",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0366\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"gas blue\",\"tgt_span\":\"연한 푸른색\",\"description\":\"gas blue(가스불꽃 같은 푸른색)가 '연한 푸른색'으로 옮겨져 색상 지시가 다소 달라졌으나 푸른 계열은 유지됨\"},{\"id\":\"E002\",\"src_span\":\"Two hundred and sixty-five dollars.\",\"tgt_span\":\"가격이 265달러나 했답니다\",\"description\":\"'나'로 놀람·과시 뉘앙스가 더해지고 가격 정보를 설명하는 구문이 첨가됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: gas blue가 '연한 푸른색'으로 바뀌어 색 묘사가 달라졌으나 푸른 계열은 유지되고 드레스와 가격, 수선 이유 등 핵심 사실은 같아 요지는 바뀌지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"it이 드레스를 가리키는 관계와 but에 의한 대조 및 수선의 인과 연결이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물의 대화에서 드레스를 설명하는 기능 → 같은 설명 기능. 가격 언급의 과시 기능도 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 대화문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"허물없는 대화체가 '-어요/-죠'로 유지되어 화자의 가볍고 과시적인 태도에 맞습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"달러 금액이 수치와 통화 그대로 유지되어 다른 통화나 제도로 바뀌지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 710,
+    "output_tokens": 789,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
