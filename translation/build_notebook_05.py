@@ -14,11 +14,11 @@ code = nbf.v4.new_code_cell
 cells = [
 md("""# 개츠비 1·3장 번역 — Gemma 4 31B (zero-shot, Colab A100)
 
-**준비 (드라이브 `MyDrive/bridgecore_mt/gemma/`에 두 파일 올리기)**
-- `gemma_translate.py` — 번역 지침·문단 묶기 (Claude 번역과 같은 지침)
-- `sentences.jsonl` — 개츠비 문장 파일
+**준비 파일 두 개**: `gemma_translate.py`(번역 지침·문단 묶기, Claude 번역과 같은 지침), `sentences.jsonl`(개츠비 문장)
+- 드라이브를 쓸 수 있으면(`USE_DRIVE = True`): `MyDrive/bridgecore_mt/gemma/`에 올려 둠. 결과도 드라이브에 저장
+- 드라이브를 못 쓰면(`USE_DRIVE = False`, 공용 계정 등): 1번 셀에서 파일 선택 창이 뜨면 두 파일을 고름. 결과는 이 세션에만 있다가 마지막 셀에서 자동 다운로드 → **세션이 끊기면 결과가 사라지니** 끝날 때까지 창을 열어 둘 것
 
-**결과** `bridgecore_mt/gemma/out/gemma_ch1_3_bf16.jsonl` 또는 `gemma_ch1_3_nf4.jsonl` (+ `run_info_*.json`) → 이 파일을 Claude에게 올리면 6축 검증·비교
+**결과** `gemma_ch1_3_bf16.jsonl`(80GB) 또는 `gemma_ch1_3_nf4.jsonl`(40GB) + `run_info_*.json` → 이 파일을 Claude에게 올리면 6축 검증·비교
 
 **GPU**: 80GB(A100·H100)면 원본 bf16(약 62GB), **A100 40GB면 자동으로 4비트(NF4, 약 18GB)**로 불러옴. 4비트는 원본과 계산이 조금 달라 번역이 약간 다를 수 있음(결과 파일 이름·mt_system에 nf4 표시). L4·T4 불가
 **런타임 유형**: '런타임 → 런타임 유형 변경 → A100 GPU' + '높은 RAM'
@@ -37,10 +37,20 @@ md("## 1. 설정"),
 code("""import json, sys, time, platform
 from pathlib import Path
 import torch
-from google.colab import drive
-drive.mount('/content/drive')
+USE_DRIVE = False                # 드라이브를 쓸 수 있으면 True
 
-BASE = Path('/content/drive/MyDrive/bridgecore_mt/gemma')
+if USE_DRIVE:
+    from google.colab import drive
+    drive.mount('/content/drive')
+    BASE = Path('/content/drive/MyDrive/bridgecore_mt/gemma')
+else:
+    BASE = Path('/content/gemma'); BASE.mkdir(parents=True, exist_ok=True)
+    need = [n for n in ('gemma_translate.py', 'sentences.jsonl') if not (BASE / n).exists()]
+    if need:
+        from google.colab import files
+        print('파일 선택 창에서 고르기:', need)
+        for name, data in files.upload().items():
+            (BASE / Path(name).name.split(' (')[0].replace('.py.py', '.py')).write_bytes(data)
 SENTS = BASE / 'sentences.jsonl'
 OUT_DIR = BASE / 'out'
 CHAPTERS = ['I', 'III']          # Claude·MADLAD 비교와 같은 범위 (1장·3장, 638문장)
@@ -193,6 +203,9 @@ info = {**meta, 'n_sentences': len(set(ids)), 'missing': sorted(want - set(ids))
 for r in out_rows[:5]:
     print(r['en']); print('→', r['mt']); print()
 print('결과 파일:', OUT)
+if not USE_DRIVE:                # 드라이브가 없으면 내 컴퓨터로 내려받기
+    from google.colab import files
+    files.download(str(OUT)); files.download(str(OUT_DIR / f'run_info_{TAG}.json'))
 """),
 ]
 
