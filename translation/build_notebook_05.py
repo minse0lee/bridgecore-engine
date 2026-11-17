@@ -28,7 +28,8 @@ md("""# 개츠비 1·3장 번역 — Gemma 4 31B (zero-shot, Colab A100)
 """),
 code("""# ① 맨 먼저 이 셀만 실행 → 끝나면 '런타임 → 세션 다시 시작' → 다음 셀부터
 !pip list --format=freeze | grep -E '^(torch|torchvision|torchaudio)==' > /content/torch_pin.txt
-!pip -q install -c /content/torch_pin.txt -U "transformers>=5.10.1" accelerate bitsandbytes
+!pip -q install -c /content/torch_pin.txt -U "transformers>=5.10.1" accelerate
+!pip -q install -U "bitsandbytes>=0.46.1"
 !pip -q uninstall -y torchao
 !pip list --format=freeze | grep -E '^(transformers|torch|accelerate|bitsandbytes)=='
 """),
@@ -56,6 +57,9 @@ LOAD_4BIT = GPU_GB < 70          # 40GB: 원본(약 62GB)이 안 들어가 4비�
 TAG = 'nf4' if LOAD_4BIT else 'bf16'
 OUT = OUT_DIR / f'gemma_ch1_3_{TAG}.jsonl'
 print('불러오는 방식:', TAG, '→', OUT.name)
+if LOAD_4BIT:
+    import bitsandbytes as bnb   # 여기서 오류가 나면 설치 셀을 다시 실행 → 세션 다시 시작
+    print('bitsandbytes', bnb.__version__)
 assert SENTS.exists(), f'없음: {SENTS}'
 assert (BASE / 'gemma_translate.py').exists(), f'없음: {BASE / "gemma_translate.py"}'
 OUT_DIR.mkdir(parents=True, exist_ok=True)
