@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8ru7rVxeqfwjuBeyYFD",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0081\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"making a shadow on it as wind does on the sea\",\"tgt_span\":\"바다의 바람처럼 그림자를 만들었다\",\"description\":\"바람이 바다 위에 그림자를 만들듯 카펫 위에 그림자를 만든다는 비유가, 바람이 카펫에 그림자를 만든다는 '바다의 바람처럼'으로 바뀌어 비교 대상(바다 위에 바람이 만드는 그림자)이 달라짐\"},{\"id\":\"E002\",\"src_span\":\"blew curtains in at one end and out the other\",\"tgt_span\":\"한쪽 끝의 커튼을 안으로, 다른 쪽 끝의 커튼을 밖으로\",\"description\":\"의미는 유지됨(참고용, 오류 아님)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'as wind does on the sea'(바람이 바다 위에 그림자를 만들듯)가 '바다의 바람처럼'으로 바뀌어 비유의 내용이 달라졌으나 장면의 핵심(바람이 카펫에 그림자를 만듦)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3·1 관련: 비교 구문의 구조가 바뀌어 '바다의 바람'이 수식 관계로 읽히고 비교 대상이 달라졌으나 영향은 작습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사 서술 → 장면 묘사 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"문학적 서술체의 '~었다' 문체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1062,
+    "output_tokens": 831,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

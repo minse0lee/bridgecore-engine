@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8rsuz6SuD8Cs8jtX7ro",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0055\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a string of polo ponies\",\"tgt_span\":\"폴로 포니들\",\"description\":\"'a string of'(한 무리·줄지은 여러 마리)의 수량 표현이 단순 복수로 바뀌어 대규모라는 뉘앙스가 약해짐\"},{\"id\":\"E002\",\"src_span\":\"in a fashion that rather took your breath away\",\"tgt_span\":\"그 방식이 숨이 막힐 정도였다\",\"description\":\"'rather'가 번역되지 않았고, 놀라움을 주는 이주 방식이 '숨이 막힐 정도'로 옮겨져 직역투가 되었으나 놀랍다는 뜻은 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(수량): 'a string of polo ponies'가 '폴로 포니들'로 바뀌어 줄지은 여러 마리라는 수량 뉘앙스가 약해졌으나 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but은 '하지만', for instance는 '예를 들어'로 대조·예시 연결이 유지되고, 지시 대상도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 인물의 부유함을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 '-다'가 유지되며 관계·태도 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"시카고, 동부, 레이크 포레스트 등 지명이 그대로 유지되고 폴로 포니도 같은 대상을 가리킵니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1134,
+    "output_tokens": 787,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

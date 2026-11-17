@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8rxh9oetnr7xZU2w1fZ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0168\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"this man Goddard\",\"tgt_span\":\"고다드라는 사람\",\"description\":\"'this man'의 지시적·약간 경시하는 뉘앙스가 '~라는 사람'으로 옮겨졌으나 가리키는 대상은 같음. 의미 변화 없음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 비관론자가 되었다는 진술, 고다드의 책 제목, 읽었는지 묻는 내용이 모두 유지됩니다. terrible → '지독한'은 정도 차이만 있습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'고다드라는 사람이 쓴 … 책'으로 저자-책 소유 관계가 유지되고 지시·연결·초점 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"자기 상태 진술 및 책을 읽었는지 묻는 질문 → 같은 진술 및 질문. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 문장입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 질문을 받는 상대(닉)에게 '읽어 본 적이 있는가?'라는 하게체/문어체 어미를 쓰는 것이 두 사람의 관계에 맞는지 판단하려면 화자·청자의 관계와 문체 기준 확인이 필요합니다. 앞 문장은 반말 '~어'를 써서 어체가 혼용됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"책 제목 The Rise of the Coloured Empires를 '유색 제국의 부흥'으로 옮겨 같은 대상을 가리키며 한국어 독자가 의미를 이해할 수 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 676,
+    "output_tokens": 795,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

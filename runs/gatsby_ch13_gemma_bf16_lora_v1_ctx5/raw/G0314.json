@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8s4juBQENeEFM1BDoni",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0314\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"bearing parties to and from the city\",\"tgt_span\":\"도시를 오가는 사람들을 실어 나르는\",\"description\":\"parties(일행·파티 손님 무리)를 '사람들'로 옮겨 단체 단위 의미가 약해졌으나 승객을 실어 나른다는 핵심 사태는 유지됨. 의미를 바꾸지 않는 통상적 대응 범위로 보아 오류로 보지 않을 수도 있으나 미세한 차이로 기록함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"주말, 롤스로이스가 버스처럼 손님들을 도시와 오가며 실어 나름, 오전 9시~자정 넘김, 스테이션 왜건이 모든 기차를 마중함이 모두 유지됩니다. 'parties'가 '사람들'로 일반화된 것은 의미를 바꾸지 않는 수준입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"while로 이어진 두 차량의 병렬 관계가 '~되었고, ~달려갔다'로 유지되며 지시·초점 관계의 변화가 없습니다(질문 1·2·3 모두 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술(묘사) → 서술(묘사). 개츠비 저택의 풍성한 활동을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문으로 의무·허가·금지 등의 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 회고적 서술체가 '~했다' 평서체로 유지되며 관계상 어긋남이 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Rolls-Royce, station wagon은 통용 음역으로 같은 대상을 가리키며, omnibus를 '버스'로 옮긴 것은 통상적 대응입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1267,
+    "output_tokens": 829,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

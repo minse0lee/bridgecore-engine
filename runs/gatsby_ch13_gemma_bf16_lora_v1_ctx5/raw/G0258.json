@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8s2SvQdBjmYn9CgW3qY",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0258\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"apparently finding the time on the ceiling\",\"tgt_span\":\"천장에서 시간을 확인한 듯\",\"description\":\"apparently(겉보기에 ~한 듯)가 '확인한 듯'으로 옮겨져 대체로 유지되나, 천장에서 시간을 찾는 듯한 익살스러운 동작이라는 점이 다소 평이해짐. 의미 변화는 아니므로 사실상 차이 아님.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"열 시라는 발언, 말한 사람, 천장에서 시간을 찾는 듯한 모습이 모두 유지되며 추측성(apparently)도 '듯'으로 남아 있습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'she'가 '그녀'로 유지되고 분사구가 말하는 동작에 덧붙는 관계가 '듯' 구문으로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술 속 대사 인용과 인물 묘사 → 동일한 서술·묘사 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"혼잣말에 가까운 가벼운 구어 발화가 '열 시네'로 자연스럽게 유지되고 서술 부분은 평서체입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 532,
+    "output_tokens": 706,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

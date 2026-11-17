@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8s1kXJ5furVukUNLaq5",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0242\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Tom was God knows where\",\"tgt_span\":\"톰은 어디에 있었는지 신만이 아실 거야\",\"description\":\"'God knows where'(아무도 모르는 어딘가에 있었다는 관용 표현)가 '어디에 있었는지 신만이 아실 거야'라는 추측 표현으로 바뀌었고, 문장이 '톰이 어디에 있었는지 (아무도 모른다)'는 서술이 아닌 추측으로 읽힘\"},{\"id\":\"E002\",\"src_span\":\"Well,\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"담화표지 'Well'이 번역되지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): 톰이 어디 있는지 아무도 모른다는 단정이 '신만이 아실 거야'라는 추측으로 바뀌어 확실성이 달라졌으나, 톰의 소재 불명이라는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'less than an hour old'와 'Tom was ~'의 동시성 연결이 '~했을 때'로 유지되며 지시·초점 변화가 없습니다. Well의 누락은 연결 관계를 바꾸지 않습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"회상 서술(톰의 부재를 알리는 진술) → 회상 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"데이지가 말하는 구어체 반말과 톰에 대한 냉소적 태도가 '신만이 아실 거야'로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다. 인명 Tom과 God knows where의 관용 표현만 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 878,
+    "output_tokens": 852,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

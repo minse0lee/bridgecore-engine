@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8s97CxAMXbXLWQoA5yP",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0414\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"They’re—\",\"tgt_span\":\"진짜로—\",\"description\":\"미완성 발화 'They're—'(주어+be동사에서 끊김)가 부사 '진짜로—'로 바뀌어, 앞서 말한 '진짜 책들이야'와 연결되는 말줄임 구조가 달라짐. 다만 의미 변화는 크지 않은 경미한 차이임.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조금은 그렇다, 아직 모르겠다, 한 시간밖에 안 됐다, 책 얘기를 했는지 묻기, 책이 진짜라는 내용이 모두 유지됩니다. 마지막 끊긴 발화는 같은 사태를 기술하는 범위의 차이입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'only'는 '밖에 안 됐거든'으로 초점이 유지되고, 'They're—'가 책들을 가리키는 지시 관계도 '진짜로—'로 이어지는 흐름에서 바뀌지 않았습니다(질문 1·2·3 모두 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 답변·자문·강조하는 말 → 같은 종류의 기능. 책 얘기를 했는지 묻는 질문과 끊기는 발화의 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"can't tell은 능력·판단 불가를 나타내며 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"허물없는 대화체 구어가 반말 '~같아', '~거든', '~야'로 유지되어 대화 상황과 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 735,
+    "output_tokens": 802,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

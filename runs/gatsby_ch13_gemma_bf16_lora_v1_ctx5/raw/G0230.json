@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8s1DevDuzy7MyWr5PQP",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0230\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I wasn’t back from the war.\",\"tgt_span\":\"전쟁에서 돌아오지 못했거든요.\",\"description\":\"원문 'wasn't back'(아직 돌아와 있지 않았다)이 '돌아오지 못했거든요'로 옮겨져 '못했다'는 능력·불가 뉘앙스가 더해졌고, 문말 '-거든요'가 이유 설명의 어조를 추가함. 다만 사태 자체는 유지되어 의미·기능을 바꾸지 않는 통상적 대응에 가까움.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 전쟁에서 아직 돌아오지 않았던 상태라는 행위자·사태·부정이 동일하게 유지됩니다. '못했다'는 통상적인 부정 대응입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사·연결어·초점 표현이 바뀌지 않았고, '-거든요'가 앞 대화에 대한 이유 설명 관계를 자연스럽게 만들 뿐 원문의 관계를 뒤집지 않습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞선 질문·상황에 대한 해명 진술 → 해명 진술. 발화 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 대화입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"번역문은 '-요' 해요체인데, 화자와 청자의 관계(예: 초면의 대화인지, 친한 사이인지)를 문단 밖 정보 없이 확정할 수 없어 높임의 적절성 판단에는 두 인물의 관계 정보가 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'the war'는 제도·단위·관습 같은 문화 고유 대상으로 판정할 대상이 아니며 번역도 일반 어휘 '전쟁'으로 같은 사건을 가리킵니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 438,
+    "output_tokens": 873,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

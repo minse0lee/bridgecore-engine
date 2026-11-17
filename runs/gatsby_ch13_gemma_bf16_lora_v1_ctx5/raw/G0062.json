@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8rtEeW9TwqKNkucCAYU",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0062\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"as though from the momentum of its run\",\"tgt_span\":\"그 달리는 기세로\",\"description\":\"'마치 ~인 듯'이라는 비유·추측 표지(as though)가 사라져, 달리던 기세로 덩굴이 되었다는 단정적 서술로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): '마치 ~인 듯'이라는 비유 표지가 빠져 잔디밭이 실제로 기세로 덩굴이 된 것처럼 단정되었으나, 핵심 사실(달려가다 집 옆을 덩굴로 타고 오름)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계(finally when → 마침내 ~했을 때, 시작→달려감→덩굴)가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"묘사 서술 → 묘사 서술. 풍경을 기술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 묘사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 평서체('~했다') 문어체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"quarter of a mile을 '4분의 1마일'로 같은 단위를 유지해 옮겼고 단위 환산이나 제도 대체가 없습니다. 힌트의 숫자 차이는 '4분의 1' 표기에 따른 오경보입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1311,
+    "output_tokens": 711,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

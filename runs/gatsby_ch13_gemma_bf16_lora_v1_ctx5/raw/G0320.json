@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8s53WbHysKTLkbVhffy",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0320\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"most of his female guests were too young to know one from another\",\"tgt_span\":\"그의 여성 손님들 대부분이 서로를 구분할 수 없을 정도로 너무 어린 코디얼\",\"description\":\"코디얼 종류를 서로 구분하기엔 손님들이 너무 어리다는 내용이, 손님들이 서로를 구분하지 못하며 코디얼이 어리다는 것으로 바뀜. 'one from another'의 대상(코디얼)과 '어린'의 주체(손님)가 뒤바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물·대상·행위): 구분 대상이 코디얼 종류에서 손님들 서로로 바뀌고, '어린'이 코디얼을 수식하는 것으로 읽혀 누가 무엇을 구분하지 못하는지가 달라져 요지를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(지시): 'one from another'가 가리키는 코디얼이 손님으로 바뀌고, 'so long forgotten that ... too young'의 인과·결과 관계도 어긋나 '어린'이 코디얼에 걸려 지시 관계가 달라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"파티 준비 상황 서술 → 서술. 서술 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체(~었다)가 유지되며 관계·태도 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"cordials를 '코디얼'로 음역해 같은 대상을 가리키며 제도·단위 변화가 없습니다. 이해 문제는 Semantic·Textual에서 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1026,
+    "output_tokens": 827,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

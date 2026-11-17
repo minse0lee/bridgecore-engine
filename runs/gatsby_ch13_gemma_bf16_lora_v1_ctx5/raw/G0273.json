@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8s38DZGXeDrP8Ftqv1g",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0273\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"They oughtn’t to let her\",\"tgt_span\":\"그녀가 … 돌아다니게 해서는 안 돼\",\"description\":\"행위 주체 'They'(그들·주변 사람들)가 번역에서 드러나지 않아 누가 허용해서는 안 되는지가 불명확해짐 (경미)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"그녀가 이렇게 전국을 돌아다니게 두는 것에 대한 부정적 판단이 유지됩니다. 비특정 주어 They의 생략은 한국어에서 통상적인 대응이며 사태를 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"her가 앞 문장의 그녀(Jordan)를 계속 가리키고 지시 관계가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰의 의견 표명·비판 → 의견 표명·비판. 발화 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"oughtn't to의 규범적 권고·금지가 '해서는 안 돼'로 통상적으로 대응되어 유지됩니다. 허용하는 주체는 불특정 일반인으로 원문과 같습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰의 단정적이고 가부장적인 어조가 반말체로 유지되며 문맥상 자연스럽습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·단위·관습 표현이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 526,
+    "output_tokens": 703,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

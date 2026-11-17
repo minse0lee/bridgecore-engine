@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8s4gVYDooKXPp23Z96T",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0313\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"while his two motorboats slit the waters of the Sound\",\"tgt_span\":\"그의 모터보트 두 척이 해협의 물결을 가르며 … 끌고 다니는 동안\",\"description\":\"'while' 절의 범위가 바뀜. 원문에서는 손님들이 다이빙하거나 햇볕을 쬐는 동안 모터보트가 달린다. 번역문에서는 '동안' 절이 앞 문장의 '다이빙을 하거나'와 뒤의 '햇볕을 쬐는'을 가르는 위치에 들어가 모터보트 장면이 다이빙 장면에 걸린 것처럼 읽히고, 모터보트가 '다이빙하거나' 활동 사이에 끼어 구조가 흐려짐. 다만 세 활동이 동시 진행된다는 핵심은 대체로 전달됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"만조, 손님들의 다이빙과 일광욕, 모터보트 두 척, 해협, 아쿠아플레인, 거품 폭포 등 인물·행위·수량이 모두 유지되어 같은 장면을 기술합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'동안' 절의 위치가 다르지만 손님들의 활동과 모터보트 활동이 동시에 일어난다는 시간 관계는 남아 있고, 지시·연결·초점 관계가 바뀌었다고 보기 어렵습니다. 어순 조정은 오류가 아닙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 개츠비 저택의 풍경을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 '~보았다'가 유지되어 화자의 담담한 서술 태도와 어울립니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명·지명 외에 판정할 문화 고유의 제도·단위·관습이 없습니다. Sound는 일반 지형어로 '해협'으로 옮겨져 있으며 지시 대상은 유지됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1294,
+    "output_tokens": 947,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

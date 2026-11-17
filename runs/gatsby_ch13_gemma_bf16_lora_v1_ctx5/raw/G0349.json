@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8s6RDb9t5SezUS9srKJ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0349\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"next door to—\",\"tgt_span\":\"이웃집에 산다는 걸\",\"description\":\"'next door to'에서 말이 끊겨 목적어(이웃)가 나오지 않았는데, 번역은 '이웃집'이라는 구체적 장소로 완결해 말이 끊긴 것이 드러나지 않음\"},{\"id\":\"E002\",\"src_span\":\"I remembered\",\"tgt_span\":\"기억하고 있었거든요\",\"description\":\"단순한 과거 회상 'remembered'를 이유를 나타내는 '-거든요'로 옮겨 앞 문장의 근거를 대는 연결이 더해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'next door to—'는 이웃한 대상이 미완성으로 끊긴 것인데, '이웃집에 산다'로 완결되어 내용이 달라졌습니다. 다만 '당신이 근처에 산다는 것을 기억했다'는 핵심 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사·초점 표현은 유지됩니다. '-거든요'는 앞 문장과의 이유 관계를 한국어로 자연스럽게 재구성한 범위이며, 원문 연결 관계를 바꾸었다고 보기 어렵습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 여기 있을 줄 알았던 이유를 말하는 설명 → 이유를 설명하는 발화. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 소설 속 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사교 모임에서 서로 잘 알지 못하는 사이의 정중한 존댓말이 '-요' 체로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 519,
+    "output_tokens": 854,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

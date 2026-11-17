@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8rxqDkBnRAqWWpQ5eCM",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0172\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"deep books with long words in them\",\"tgt_span\":\"긴 단어가 들어 있는 심오한 책\",\"description\":\"'deep'을 '심오한'으로 옮겨 평가 정도가 약간 달라졌을 뿐 같은 평가어 범위이며, 어순 변화도 자연스러운 조정이므로 의미를 바꾸지 않음(오류로 보기 어려움)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 긴 단어가 들어 있는 심오한 책을 읽는다는 내용과, 어떤 단어를 기억하려는 질문이 그대로 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'He'→'그는', 'we'→'우리'의 지시 대상이 같고, 두 문장 연결과 말줄임(—)으로 끊긴 구조도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰의 독서 취향을 설명하고 기억나지 않는 단어를 묻는 대화 발화 → 같은 기능의 발화.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"데이지가 가까운 상대에게 하는 구어체 반말이 '읽어', '뭐였지'로 자연스럽게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 591,
+    "output_tokens": 672,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

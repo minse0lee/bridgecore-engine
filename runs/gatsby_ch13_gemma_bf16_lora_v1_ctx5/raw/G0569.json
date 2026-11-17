@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8sFZjJKp49pJ2i7hFn4",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0569\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the apparition\",\"tgt_span\":\"유령 같은 남자\",\"description\":\"apparition(환영·유령 같은 존재)을 '유령 같은 남자'로 옮겨 '남자'를 덧붙임. 같은 장면에서 이 인물이 남자임이 이미 나오므로 지시 대상은 유지됨.\"},{\"id\":\"E002\",\"src_span\":\"the duster\",\"tgt_span\":\"먼지 덮개\",\"description\":\"duster(먼지막이 외투)를 '먼지 덮개'로 옮겨 입는 옷이라는 점이 약해짐. 다만 '입은'과 함께 쓰여 옷으로 읽힘.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"눈부심, 경적 소리로 인한 혼란, 잠시 비틀거리며 서 있음, 먼지막이 옷을 입은 남자를 알아봄이라는 사건과 행위자가 유지됩니다. 'duster'와 'apparition'의 표현은 어색하지만 지시 대상이 바뀌지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞의 분사구문과 주절의 인과 관계, 'before'의 시간 순서('알아보기 전까지')가 유지되고 지시 대상도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 인물의 상태와 행동을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설의 서사 묘사 문장으로 의무·허가·금지 등의 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문의 평서 문체('-었다')가 유지되며 특정 청자와의 관계를 나타내는 높임 표현이 필요하지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화·제도 고유의 대상(기관명, 단위, 관습 등)이 없습니다. duster는 의복 어휘이므로 어휘 선택 문제는 Semantic에서 보았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 684,
+    "output_tokens": 896,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

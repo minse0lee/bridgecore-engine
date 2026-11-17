@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8s5vxiBsLDM7hKYRqXP",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0338\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"—though here and there was a face I had noticed on the commuting train\",\"tgt_span\":\"비록 여기저기 내가 통근 열차에서 눈여겨본 얼굴이 있었다.\",\"description\":\"though가 이끄는 양보 관계가 '비록'만 남은 독립 문장으로 처리되어 앞 절(모르는 사람들 사이)과의 대조 연결이 완결되지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"흰 플라넬 옷, 7시 조금 넘어, 잔디밭, 모르는 사람들 사이를 불편하게 돌아다님, 통근 열차에서 본 얼굴 등 내용이 유지됩니다. 'swirls and eddies'의 반복은 어색할 뿐 뜻은 같습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(연결 관계): though의 양보 관계가 문장 분할 후 '비록'만 남아 앞 절과 이어지지 않아 대조 연결이 성립하지 않습니다. 다만 얼굴을 알아봤다는 내용은 유지되어 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(장면 묘사) → 서술. 화자의 경험을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설의 장면 서술로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술의 평서체 '~했다'가 문맥에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"플라넬 옷, 7시, 통근 열차 등이 같은 대상으로 옮겨졌고 문화적 변경이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1145,
+    "output_tokens": 776,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

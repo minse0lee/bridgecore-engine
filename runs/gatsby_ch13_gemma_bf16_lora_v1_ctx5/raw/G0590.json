@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8sGMvRRjEqJtNeHTWqR",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0590\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"were all that absorbed me\",\"tgt_span\":\"나를 완전히 사로잡았다는\",\"description\":\"'나를 사로잡은 것의 전부'라는 한정(all that)이 '완전히 사로잡았다'는 정도 표현으로 바뀌어 배타적 의미가 사라짐\"},{\"id\":\"E002\",\"src_span\":\"I see I have given the impression\",\"tgt_span\":\"인상을 준 것 같다\",\"description\":\"'(그런) 인상을 주었음을 알겠다'는 확인이 '준 것 같다'는 추측으로 바뀌어 확실성이 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'all that absorbed me'(나를 사로잡은 것은 이것뿐이라는 한정)가 '완전히 사로잡았다'는 정도 표현으로 바뀌어, 독자는 다른 관심사가 있었다는 점을 읽지 못하고 화자의 요지를 다르게 이해합니다. '알겠다'가 '것 같다'로 약해진 확실성 변화(E002)는 minor입니다. 세 밤·몇 주 간격은 보존되었습니다(숫자 힌트는 오경보).\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(초점·범위): 'all that'이 '이 사건들만 사로잡았다'는 한정 초점을 만드는데 번역에서는 '완전히'라는 정도 부사로 바뀌어 초점이 사라졌습니다. 이 한정이 다음 문장의 'On the contrary'와 연결되는 근거이므로 major입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 서술 자기점검(자기 서술 정정의 도입) → 같은 서술 기능. 발화 기능 종류는 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문으로 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 화자의 회고적 서술체('~다')가 유지되며 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 861,
+    "output_tokens": 954,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

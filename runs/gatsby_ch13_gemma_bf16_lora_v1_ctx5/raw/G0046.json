@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8rsTFVzCKqE844SZ6ZB",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0046\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the egg\",\"tgt_span\":\"달걀\",\"description\":\"West Egg라는 지명 맥락의 'the egg'(반도 모양의 땅)를 '달걀'로 직역함. 다만 앞 문장 West Egg와 연결되며 통상적 번역이라 의미 훼손으로 보지 않음(참고용).\"},{\"id\":\"E002\",\"src_span\":\"the Sound\",\"tgt_span\":\"해협\",\"description\":\"Long Island Sound(만/해협)를 '해협'으로 옮김. 지시 대상은 유지되므로 의미·문화 훼손으로 보지 않음(참고용).\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"위치(맨 끝), 50야드, 두 저택 사이, 한 시즌 1만 2천~1만 5천 달러 임대가 모두 유지됩니다. 자동 힌트의 수치 차이는 한글 숫자 표기에 의한 오경보입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"my house를 주어로 한 세 병렬 서술의 연결과 'only'의 초점('겨우 50야드')이 유지되고 지시 관계도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 집 위치 묘사(서술) → 위치 묘사(서술)로 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 위치·임대료 서술로 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술의 평서체 '~었다'가 출판물 본문에 맞게 유지되며 호칭이나 관계 표현은 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"야드와 달러를 원문 그대로 유지해 다른 단위·통화로 바꾸지 않았고, 수치도 정확합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1542,
+    "output_tokens": 815,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

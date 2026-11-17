@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8s3utfSGFDM8qzeB21P",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0293\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"insisted Daisy\",\"tgt_span\":\"데이지가 꽃처럼 다시 활짝 피어나며 나를 놀라게 했다\",\"description\":\"'insisted'(우겼다/고집했다)의 주장하는 뉘앙스가 번역문 서술에 반영되지 않음. 다만 '~는걸요'로 항변하는 어조는 유지되어 의미·기능 변화는 미미함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"데이지가 '하지만 우리는 들었다'고 말했고 꽃처럼 다시 활짝 피어나 화자를 놀라게 했다는 내용이 유지됩니다. insisted의 뉘앙스는 '~는걸요' 어조로 전달되어 달라진 항목이 없습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'하지만'의 대조 연결, 'we'→'우리', 'again'→'다시' 등 지시·연결·초점 관계가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"반박·주장하는 대사 → 반박·주장하는 대사. 서술 문장의 기능도 인물 묘사로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"데이지가 화자(닉)에게 '~는걸요' 해요체로 말하는 것은 두 사람의 관계(친척·지인, 정중한 대화)와 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 판정할 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 588,
+    "output_tokens": 746,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

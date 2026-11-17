@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8sJpTfRXnhxLsENXmVL",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0006\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Most of the confidences were unsought\",\"tgt_span\":\"대부분의 비밀은 구하지 않은 것이었다\",\"description\":\"confidences(털어놓은 속내·고백)가 '비밀'로 옮겨져 털어놓는 행위라는 의미가 약해졌고, 누가 구하지 않았는지도 불분명함\"},{\"id\":\"E002\",\"src_span\":\"an intimate revelation was quivering on the horizon\",\"tgt_span\":\"친밀한 폭로가 지평선에서 떨고 있다\",\"description\":\"revelation(속내 고백)이 '폭로'로, 지평선 은유가 문자적으로 옮겨져 곧 고백이 나올 조짐이라는 의미가 흐려짐\"},{\"id\":\"E003\",\"src_span\":\"I have feigned sleep, preoccupation, or a hostile levity\",\"tgt_span\":\"자주 잠, 몰두, 또는 적대적인 경박함을 가장했다\",\"description\":\"'잠을 가장했다'는 명사 나열이 어색하나 뜻은 대체로 유지됨(오류 아님 수준)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: confidences가 '비밀', revelation이 '폭로'로 바뀌어 속내를 털어놓는 행위의 내용이 달라졌으나, 문장의 요지(원치 않는 고백을 피하려 가장했다)는 읽히므로 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"세미콜론 뒤 for절의 이유 관계가 '~때문이다'로 유지되고 지시·초점 관계 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 습관·경험 서술 → 서술. 설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회고 서술의 문어체 평서가 유지되며 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화 고유의 제도·관습·단위 등 별도 판정 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1657,
+    "output_tokens": 937,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8s9xtuSnRGoYCnXWH3f",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0433\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Just near the shore along the Sound.\",\"tgt_span\":\"해협을 따라 해안 근처에서만 타는 거야.\",\"description\":\"원문에 없는 행위 '타는'(탈것을 타다)이 첨가되어 '그냥 해협 해안 근처를 따라 가자'는 내용이 '타는 것'으로 구체화됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 원문에 없는 '타는' 행위가 첨가되었으나, 문맥(Gatsby의 수상비행기·모터보트 제안)상 핵심 사실은 유지되어 요지가 크게 달라지지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Just'의 초점이 '해안 근처에서만'으로 유지되어 지시·연결·초점 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"동행 제안 → 동행 제안. 질문 형태의 권유와 범위 안내 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"개인적 제안·권유로 의무·허가·금지 같은 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'old sport'의 친근한 호칭이 '친구'와 반말체로 전달되어 개츠비의 친밀한 태도가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'old sport'는 개츠비 특유의 호칭이지만 이 문장에서 판정할 제도·단위·관습 같은 문화 고유 대상은 없고 지명 Sound는 일반 지명입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 498,
+    "output_tokens": 740,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

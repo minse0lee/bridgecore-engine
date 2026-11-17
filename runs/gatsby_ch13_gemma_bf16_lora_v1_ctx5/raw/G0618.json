@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8sHaDdfX1L3TaxNwZTR",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0618\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"given this unwillingness\",\"tgt_span\":\"이런 성격 때문에\",\"description\":\"'이런 꺼림/불가(견디지 못하려 하지 않음)'를 전제로 한다는 조건이 '이런 성격 때문에'라는 인과로 바뀌고 성격 귀속이 추가됨. 의미 차이는 미미함\"},{\"id\":\"E002\",\"src_span\":\"I suppose she had begun\",\"tgt_span\":\"쓰기 시작했을 것이다\",\"description\":\"화자의 추측 'I suppose'가 서술어 어미 '-했을 것이다'로 옮겨져 주체가 화자 추측에서 일반 추정으로 바뀜. 확실성 수준은 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"불리함을 견디지 못함, 어릴 때부터 속임수를 쓰기 시작했다는 추측, 미소 유지와 몸의 요구 충족이라는 목적이 모두 유지됩니다. '이런 성격 때문에'는 given this unwillingness를 풀어 쓴 범위 내입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'given this unwillingness'의 앞 문장에 대한 인과 연결이 '이런 성격 때문에'로 유지되고, and yet의 양보 관계도 '-하면서도'로 남아 있습니다. 판단 질문 1·2·3 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 성격과 배경 설명 → 인물 성격과 배경 설명. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 문어체 평서문이 유지되고, 'insolent'의 비판적 태도도 '오만한'으로 전달됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1002,
+    "output_tokens": 860,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

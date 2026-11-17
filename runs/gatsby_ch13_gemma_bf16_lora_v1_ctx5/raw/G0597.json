@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8sGjBM2G43jdqZ6Varf",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0597\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"generally\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"'대체로, 보통'의 빈도·일반성 표현이 번역에서 빠짐\"},{\"id\":\"E002\",\"src_span\":\"never came into the library\",\"tgt_span\":\"도서관에 들어오지 않았기 때문에\",\"description\":\"'결코 들어오지 않았다'(never)가 단순 부정 '들어오지 않았다'로 바뀌어 항상성이 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(시간·빈도·부정): 'generally'의 빈도 한정이 빠지고 'never'가 단순 부정으로 약해져 일반적·상습적 상황이 특정 시점의 사실처럼 읽힙니다. 다만 소란꾼이 있었으나 도서관에는 오지 않아 공부하기 좋았다는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'but'의 대조와 'so'의 인과가 '-지만', '-기 때문에'로 유지되고 '그들'의 지시 대상도 소란꾼으로 같습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상황 서술 → 상황 서술. 서술 기능이 그대로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'never'는 과거 사실 서술에 쓰였고 의무·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 소설 서술의 평서체 문어체가 유지되며 특별한 관계·태도 표현이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 965,
+    "output_tokens": 792,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

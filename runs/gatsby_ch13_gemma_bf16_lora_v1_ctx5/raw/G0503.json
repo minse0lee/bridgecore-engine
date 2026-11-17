@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8sNcMG5Q8n7yoo5wngT",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0503\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"not freely, however\",\"tgt_span\":\"하지만\",\"description\":\"눈물이 '자유롭게(막힘없이) 흐르지 못했다'는 not freely의 내용이 번역문에서 빠짐. '하지만'만 남아 눈물이 속눈썹에 닿아 변색되며 흐름이 방해받았다는 점이 약해졌으나 뒤 절에서 변색과 느린 흐름이 전달됨.\"},{\"id\":\"E002\",\"src_span\":\"heavily beaded eyelashes\",\"tgt_span\":\"짙은 속눈썹\",\"description\":\"마스카라가 구슬처럼 뭉친(heavily beaded) 속눈썹이 단순히 '짙은' 속눈썹으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'not freely'(자유롭게 흐르지 못함)가 빠졌고 'heavily beaded'(마스카라가 구슬처럼 맺힌)가 '짙은'으로 바뀌었으나, 눈물이 속눈썹에 닿아 잉크색으로 변해 검은 줄기로 천천히 흘렀다는 핵심 사건은 유지되어 요지는 크게 다르지 않아 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"however의 대조 관계는 '하지만'으로, for의 이유 관계는 '닿자'의 시간·인과 연결로 남아 있어 연결 관계(질문 2)가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사 서술 → 장면 묘사 서술. 서술 기능이 그대로입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설의 묘사 문장으로 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 평서 문어체가 '-했다/-내렸다'로 유지되며 특별한 관계·태도 표현이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1251,
+    "output_tokens": 903,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

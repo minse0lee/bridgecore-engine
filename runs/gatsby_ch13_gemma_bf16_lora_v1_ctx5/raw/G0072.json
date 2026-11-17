@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8rtdTSryX4KH4B6qh1a",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0072\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the same senior society\",\"tgt_span\":\"같은 졸업생 모임\",\"description\":\"미국 대학의 상급생 사교 모임(senior society)이 '졸업생 모임'으로 옮겨져 재학 중인 상급생 단체라는 제도적 의미가 전달되지 않음\"},{\"id\":\"E002\",\"src_span\":\"with some harsh, defiant wistfulness of his own\",\"tgt_span\":\"그것은 그만의 거칠고 반항적인 애틋함이었다\",\"description\":\"그가 나를 좋아해 주기를 바라는 방식(with)이 '인상'의 내용을 설명하는 별개 절로 분리되어 원문의 수식 범위가 약간 달라짐. 의미는 대체로 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: senior society(상급생 모임)가 '졸업생 모임'으로 바뀌어 대상이 달라졌으나, 핵심 사실(같은 모임 소속, 친밀하지 않음, 인정받는다는 인상)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"while의 양보 관계는 '-었지만'으로, 지시 관계도 유지되며 '그것은 …애틋함'이 앞 내용을 받는 구조로 무리 없이 재구성되어 연결 관계는 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 관계에 대한 서술 → 인물 관계에 대한 서술. 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"never는 친밀한 사이가 아니었다는 서술에 쓰인 것으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 회고적 서술 어조가 '-었다' 서술체로 유지되며 관계나 태도에 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 미국 대학의 상급생 비밀·사교 모임인 senior society가 '졸업생 모임'으로 옮겨져 재학생 조직이라는 제도적 의미가 전달되지 않습니다. 문맥상 서사 이해에는 큰 영향이 없어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 923,
+    "output_tokens": 957,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

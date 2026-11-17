@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8s5pfwXy44nrc1r7cLa",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0334\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a simplicity of heart that was its own ticket of admission\",\"tgt_span\":\"그들 자신의 입장권인 순수한 마음으로\",\"description\":\"'its own ticket of admission'의 its는 simplicity of heart를 가리키는데, '그들 자신의 입장권'으로 옮겨 마음이 곧 입장권이라는 관계가 흐려지고 소유 관계가 바뀜. 입장권이 마음 자체가 아니라 그들의 것으로 읽힘.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개츠비를 만나지 않고 오가기도 했다는 것, 순수한 마음으로 파티에 왔다는 것, 그 마음이 입장권 역할을 한다는 핵심 내용이 모두 읽혀 사건과 의미가 유지됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(소유·지시): its own ticket의 its는 순수한 마음을 가리키는데 '그들 자신의 입장권'으로 옮겨 소유 대상이 그들로 바뀌었고, 마음이 곧 입장권이라는 관계가 흐려졌습니다. 다만 '입장권인 순수한 마음'으로 요지는 대체로 전달되어 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"손님들의 행태를 서술 → 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문의 평서 문어체가 유지되며 화자의 태도 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 936,
+    "output_tokens": 783,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8rviVdB1HWDqEfrHmAj",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0122\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"stood up into the room\",\"tgt_span\":\"일어나 방 안으로 들어왔다\",\"description\":\"자리에서 일어나 방 안에 선 동작이 '방 안으로 들어왔다'는 이동 동작으로 바뀌어 새로운 행위가 더해짐\"},{\"id\":\"E002\",\"src_span\":\"Evidently it surprised her as much as it did me, for she yawned\",\"tgt_span\":\"분명히 그녀도 나만큼이나 놀란 모양인지, 그녀는 하품을 하더니\",\"description\":\"'for'가 이끄는 근거(하품했으니 놀란 것이 분명하다)가 '놀란 모양인지 … 하품을 하더니'로 옮겨져 추측의 근거가 아닌 단순한 계기 관계로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위): 앉아 있다가 일어서서 방 안에 우뚝 선 행위가 방 안으로 들어오는 이동으로 바뀌어, 화자가 이미 방 안에 있었다는 상황과 어긋나 독자가 장면을 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2(연결 관계): for가 나타내는 '하품했으니 놀랐음이 분명하다'는 근거 관계가 '모양인지 … 하더니'의 추측과 시간 순서 관계로 바뀌었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 인물의 행동을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설의 서술문으로 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 화자의 서술체 '-다'가 유지되어 관계와 격식에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 722,
+    "output_tokens": 873,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

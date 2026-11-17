@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8s83B56WYxD4gaXEH11",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0388\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"—East Egg condescending to West Egg and carefully on guard against its spectroscopic gaiety\",\"tgt_span\":\"이스트에그는 웨스트에그를 얕잡아 보면서도 그곳의 화려한 유쾌함에 대해 주의 깊게 경계하고 있었다\",\"description\":\"앞 구절의 '시골 귀족을 대표한다'를 부연하는 동격(대시) 구절이 독립된 별개 절('-는데, 이스트에그는…')로 바뀌어, 이 무리가 이스트에그의 입장을 대변한다는 관계가 사라지고 이스트에그가 별개 주체로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"무리가 품위 있는 동질성을 유지하고 시골 귀족을 대표하며, 이스트에그가 웨스트에그를 얕보고 경계한다는 내용이 모두 유지됩니다. 'spectroscopic'의 생략과 '화려한 유쾌함'은 평가어 수준의 차이입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(연결 관계): 대시로 이어진 부연 관계가 '-는데'라는 단순 연결로 바뀌어 이스트에그의 태도가 이 무리의 역할을 설명하는 것임이 약해졌으나, 두 내용이 이어져 있어 핵심 사실은 유지되므로 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 집단 묘사(서술) → 인물 집단 묘사(서술). 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 '-했다/-있었다' 문어체가 유지되고 화자의 약간 냉소적 태도도 크게 달라지지 않았습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"이스트에그·웨스트에그를 통용되는 음역으로 옮겨 지시 대상이 유지됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1124,
+    "output_tokens": 905,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

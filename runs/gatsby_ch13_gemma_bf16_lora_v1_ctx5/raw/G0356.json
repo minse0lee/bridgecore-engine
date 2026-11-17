@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8s6h6ZEWb947nE75VbR",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0356\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the premature moon\",\"tgt_span\":\"조기 달\",\"description\":\"'너무 일찍 뜬 달'이 '조기 달'로 옮겨져 이른 시각에 떴다는 의미가 불분명해짐. 다만 '조기'와 '달'로 대응은 확인 가능\"},{\"id\":\"E002\",\"src_span\":\"the girls had moved casually on\",\"tgt_span\":\"소녀들은 무심하게 떠나갔고\",\"description\":\"'casually moved on'(자연스럽게 다른 곳으로 옮겨 감)이 '무심하게 떠나갔다'로 바뀌어 태도 뉘앙스가 다소 달라짐. 핵심 행위는 유지됨\"},{\"id\":\"E003\",\"src_span\":\"produced like the supper, no doubt, out of a caterer’s basket\",\"tgt_span\":\"저녁 식사처럼 출장 요리사의 바구니에서 나온 것이 분명한\",\"description\":\"'caterer'(출장 음식 공급업자)가 '출장 요리사'로 옮겨져 업체 대신 요리사로 읽힘. 달이 인공물처럼 나왔다는 비유는 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E003\"],\"reason\":\"판단 질문 1: 'premature moon'이 '조기 달'로 옮겨져 너무 일찍 떴다는 의미가 약해지고, caterer가 요리사로 바뀜. 다만 핵심 사건(조던의 말이 달을 향한 것처럼 됨)은 유지되어 요지 오해는 크지 않음.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'but'의 대조, 'her remark'의 소유 관계, 'like the supper'의 비교 연결이 유지됨.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 조던의 말이 무시되는 장면을 묘사하는 기능이 유지됨.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술로 의무·허가·금지 등 규범 표현이 없음.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조던이 닉에게 하는 친근한 반말 대사와 서술체가 상황에 맞게 유지됨.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 문화·제도 고유의 대상이 없음. caterer는 일반 직업어로 판단함.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1012,
+    "output_tokens": 978,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

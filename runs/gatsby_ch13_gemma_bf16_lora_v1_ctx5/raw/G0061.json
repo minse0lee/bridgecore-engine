@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8rtDCw5tsi5TGVRi4cf",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0061\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"overlooking the bay\",\"tgt_span\":\"해변을 내려다보는\",\"description\":\"만(bay)이 해변(beach)으로 바뀌어 저택이 내려다보는 대상이 달라짐\"},{\"id\":\"E002\",\"src_span\":\"Georgian Colonial mansion\",\"tgt_span\":\"조지아 식민지풍 저택\",\"description\":\"Georgian Colonial(18세기 영국 조지 왕조풍 식민지 건축 양식)을 '조지아'로 옮겨 미국 조지아주로 읽히게 하는 등 건축 양식 명칭의 제도적·문화적 의미가 흐려짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: bay가 '해변'으로 바뀌어 내려다보는 대상이 달라졌고, Georgian Colonial이 '조지아 식민지풍'으로 옮겨져 양식 지시가 달라졌습니다. 다만 집의 묘사라는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계는 유지됩니다. '내가 예상했던 것보다 훨씬 더'의 비교 관계와 even more의 초점이 보존됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"저택 묘사 서술 → 저택 묘사 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 묘사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 평서문이 유지되며 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: 건축 양식 명칭 Georgian Colonial을 '조지아 식민지풍'으로 옮겨 미국 조지아주 식민지풍으로 읽히게 하여 양식의 제도적·문화적 의미가 제대로 전달되지 않습니다. 저택 묘사의 요지는 유지되어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1102,
+    "output_tokens": 882,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

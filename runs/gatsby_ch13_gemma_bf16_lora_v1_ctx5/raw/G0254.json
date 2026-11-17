@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8s2EW3KQG9mV6DcBRG6",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0254\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"bright on his boots and dull on the autumn-leaf yellow of her hair\",\"tgt_span\":\"그의 장화 위에서는 밝고 그녀의 가을 잎사귀 같은 노란 머리 위에서는 어두운\",\"description\":\"bright/dull이 각각 장화와 머리에 걸리는 구조인데, 번역문에서는 '밝고 … 어두운'으로 옮겨 '어두운'이 램프 불빛을 직접 수식한다. 'dull'(윤기 없는/흐릿한)이 '어두운'으로 옮겨졌고 두 서술이 한 수식어구 안에 묶임. 다만 장화 위는 밝고 머리 위는 흐릿하다는 대비는 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"램프 불빛이 장화에는 밝고 머리에는 흐릿하게 비치며 책장을 넘길 때 종이 위에서 반짝인다는 내용이 유지됩니다. dull→'어두운'은 평가어 정도의 차이입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"his/her 소유 관계와 'as she turned'의 시간 연결('넘길 때마다')이 유지되고, 밝음/어두움이 각각 장화·머리에 대응되는 관계도 읽힙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사 → 장면 묘사. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"묘사문으로 화자와 청자의 관계에 따른 높임·호칭이 문제되지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 927,
+    "output_tokens": 809,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8s2D5DsfBf1CqYX5SB4",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0253\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the words, murmurous and uninflected, running together in a soothing tune\",\"tgt_span\":\"그녀의 목소리는 낮고 단조로웠으며, 부드러운 가락으로 이어졌다\",\"description\":\"'the words'(낭독되는 말)가 '그녀의 목소리'로 바뀌고, 'murmurous'(웅얼거리는 듯한)가 '낮고'로, 'running together'(말들이 서로 이어져 흐름)가 '이어졌다'로 옮겨져 미세한 차이가 있음. 다만 낭독 소리가 단조롭고 부드러운 가락을 이룬다는 사태는 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰과 베이커 양이 소파 양 끝에 앉고 그녀가 그에게 잡지를 소리 내어 읽어 주며 단조롭고 부드러운 가락이 이어진다는 같은 사태를 기술합니다. words→목소리, murmurous→낮은 같은 차이는 같은 사태 안의 표현 차이이며 행위자·수량·시간 등은 그대로입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현의 변화가 없습니다. 대시 뒤 부연이 두 번째 문장으로 분리되었으나 '그녀의 목소리'가 낭독하는 그녀를 가리켜 지시 관계가 유지됩니다(판단 질문 1~3 모두 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사 서술 → 장면 묘사 서술. 발화 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설의 장면 서술이며 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체가 '-었다' 평서체로 유지되고 'Miss Baker'가 '베이커 양'으로 호칭이 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Saturday Evening Post를 '새터데이 이브닝 포스트'로 통용 음역하여 같은 잡지를 가리키고 'Miss'도 '양'으로 대응합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 932,
+    "output_tokens": 937,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

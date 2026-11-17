@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8s9u1FFz13tcfKoiV3D",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0432\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a hydroplane\",\"tgt_span\":\"수륙양용 비행기\",\"description\":\"hydroplane(수상 활주정, 모터보트류)이 수륙양용 비행기로 바뀌어 다른 대상을 가리키게 됨. 이어지는 'try it out'도 '시험 비행'으로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"try it out in the morning\",\"tgt_span\":\"시험 비행을 해볼 예정이라고\",\"description\":\"배를 시험 운행한다는 행위가 시험 비행으로 바뀜(E001에 따른 파생)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(대상·행위): 1925년 맥락의 hydroplane은 수상 활주정인데 비행기로 옮겨 대상과 행위(시험 운행→시험 비행)가 달라져 독자가 다르게 이해합니다. 수상 탈것이라는 점은 일부 남지만 핵심 대상이 바뀌었습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"for의 이유 관계가 '-했는데 … 때문이다'로 유지되고 지시 대상도 바뀌지 않았습니다(연결 관계 질문 2 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 근거를 들어 추론을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술 문어체 평서문 '~다'체가 유지되며 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"제도·단위·관습 등 문화 고유 대상이 없습니다. 오역은 Semantic에서 판정합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 670,
+    "output_tokens": 808,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

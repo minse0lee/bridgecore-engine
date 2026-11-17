@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8rr2LHJhWeSKUH64BbP",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0013\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"ten thousand miles away\",\"tgt_span\":\"만 마일 떨어진 곳\",\"description\":\"ten thousand(10,000)을 '만'으로 옮긴 것은 같은 수이며 오류가 아님. 다만 '만 마일'은 '1마일'로 읽힐 소지가 있으나 한국어 '만'은 10,000을 뜻하므로 수량은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조건, 화려한 무언가, 삶의 약속에 대한 고조된 감수성, 지진 기록 기계 비유가 모두 유지되고 '만 마일'도 ten thousand miles와 같은 수량입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"If…then의 조건 연결이 '만약…라면, …있었다'로 유지되고 'some heightened sensitivity'는 동격적으로 '그것은…감수성이었다'로 재구성되어 지시 관계가 보존됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 특성 서술·묘사 → 인물 특성 서술·묘사. 문장 분할이 있어도 서술 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물의 특성을 묘사하는 문장으로 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술자의 문어체 서술이 '~었다' 서술체로 유지되며 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"마일 단위를 환산하지 않고 그대로 유지하여 원문과 같은 단위를 가리킵니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1824,
+    "output_tokens": 741,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

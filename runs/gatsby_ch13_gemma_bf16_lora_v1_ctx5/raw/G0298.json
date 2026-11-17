@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8sLeaQHTm4zqcQSWkQ7",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0298\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"rather touched me\",\"tgt_span\":\"나를 감동시켰고\",\"description\":\"'다소 마음을 움직였다(touched)'가 '감동시켰다'로 옮겨져 정도·성격이 다소 강해졌으나 평가어 정도 차이에 그침\"},{\"id\":\"E002\",\"src_span\":\"made them less remotely rich\",\"tgt_span\":\"그들을 덜 멀리 있는 부자로 만들었지만\",\"description\":\"'remotely rich'(거리감 있는 부자, 접근하기 어려운 부유함)를 '멀리 있는 부자'로 직역해 비유적 거리감이 물리적 거리처럼 읽힐 수 있고 '만들었지만'으로 앞 절과 양보처럼 연결됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"관심에 마음이 움직임, 그들이 덜 멀게 느껴짐, 혼란과 약간의 혐오감을 느끼며 떠남이라는 내용이 유지되며 touched→감동은 정도 차이에 그칩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞 절과 nevertheless 이후의 양보·대조 관계가 '그럼에도 불구하고'로 유지되며 '그들'과 '나'의 지시도 같습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 감정 서술 → 화자의 감정 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 서술 문장으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회고 서술의 평서체 '-다'가 유지되며 관계 표현이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1019,
+    "output_tokens": 807,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

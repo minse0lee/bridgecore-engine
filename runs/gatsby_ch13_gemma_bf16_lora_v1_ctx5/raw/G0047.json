@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8rsWf9aHJTgwjcy8h1s",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0047\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"spanking new under a thin beard of raw ivy\",\"tgt_span\":\"갓 심은 담쟁이덩굴이 얇게 덮여 있었으며\",\"description\":\"'spanking new'는 건물(탑이 있는 저택)이 갓 지은 새것이라는 뜻인데, 번역은 담쟁이덩굴을 '갓 심은' 것으로 옮겨 새것이라는 대상이 건물에서 담쟁이로 바뀜. 또한 'raw'(덜 자란) 성질이 '심은'으로 바뀜.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'spanking new'의 대상이 건물인데 번역은 담쟁이덩굴을 '갓 심은' 것으로 바꿔 새것이라는 속성의 대상이 달라졌습니다. 다만 저택의 규모·모방 구조·시설 등 핵심 묘사는 유지되어 요지는 크게 달라지지 않으므로 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(수식 관계): 'spanking new'가 수식하는 대상이 건물에서 담쟁이덩굴로 옮겨 가 수식 관계가 바뀌었습니다. 영향은 작아 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"저택 묘사 서술 → 저택 묘사 서술. 설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설의 묘사 문장으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 회고적 서술체가 '~었다' 문어체로 유지되며 태도 변화도 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Hôtel de Ville을 '시청'으로, 에이커를 그대로 옮겨 같은 대상을 가리키며 한국어 독자가 이해할 수 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1493,
+    "output_tokens": 854,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

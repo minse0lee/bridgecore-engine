@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8sCpagoKHCewHa3bU1t",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0501\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"she had decided, ineptly, that everything was very, very sad\",\"tgt_span\":\"모든 것이 너무나도 슬프다는 것을 서투르게 깨달았는지\",\"description\":\"'decided'(그렇게 마음먹음/단정함)가 '깨달았는지'로 바뀌고 추측 어미 '-는지'가 붙어, 확정된 사실이 불확실한 추측으로 바뀜. 또한 '깨달았다'는 슬프다는 판단이 옳다는 함의를 더함\"},{\"id\":\"E002\",\"src_span\":\"she was not only singing, she was weeping too\",\"tgt_span\":\"노래를 부르면서 울기까지 했다\",\"description\":\"'not only A, B too'가 '울기까지 했다'로 바뀌었으나 노래+울음의 부가 관계는 유지됨. 다만 앞 절의 추측 어미 때문에 이 절이 추측의 종속 내용으로 읽힐 소지가 있음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성·행위): 그녀가 슬프다고 결정했다는 확정된 서술이 '깨달았는지'라는 추측형으로 바뀌었고, 핵심 사실(샴페인, 노래, 울음)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'not only…too'의 초점은 '울기까지 했다'로 옮겨져 노래에 더해 울음이라는 범위가 유지되고 지시 관계도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(인물 묘사) → 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 같은 규범 표현이 없는 소설 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 평서체 '-했다'가 유지되며, 풍자적 어조도 크게 훼손되지 않았습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1231,
+    "output_tokens": 903,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
