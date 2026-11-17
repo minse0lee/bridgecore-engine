@@ -70,7 +70,7 @@ cells = [
 **결과**: 마지막 셀이 끝나면 왼쪽 파일 창 `/content/gemma/out/`에서 `gemma_ch1_3_bf16_lora_v1_ctx5.jsonl`, `run_info_lora_v1_ctx5.json`(있으면 `raw_fail_*`도) 내려받기
 (자동 다운로드는 셀이 실행 중이면 밀릴 수 있어 파일 창에서 직접 받는 게 확실함)
 """),
-    code(sub(cells06[1], [('accelerate\n', 'accelerate peft\n')])),
+    code(sub(cells06[1], [('accelerate\n', 'accelerate peft\n!pip -q uninstall -y torchao   # 옛 torchao가 있으면 peft가 어댑터를 못 불러옴\n')])),
     md("## 1. 설정·파일 올리기"),
     code(setup),
     md("## 2. 모델 불러오기 + 어댑터 합치기 (5~10분)"),
