@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch81CzGXXcS6VJM4cqL2k",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0593\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the white chasms of lower New York\",\"tgt_span\":\"뉴욕 하부의 하얀 빌딩 숲\",\"description\":\"'lower New York'(맨해튼 남부)이 '뉴욕 하부'로 옮겨졌고, 'white chasms'(빌딩 사이 협곡)가 '빌딩 숲'으로 바뀌어 협곡 이미지가 달라짐. 의미는 대체로 통하는 비유적 풀이.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"이른 아침, 햇살이 그림자를 서쪽으로 드리움, 화자가 뉴욕 남부 거리를 지나 회사로 서둘러 감이라는 사태가 유지됩니다. '빌딩 숲'은 건물 사이 거리를 가리키는 풀이이고 '길게'와 '출근'은 사태를 바꾸지 않는 보충입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'as'가 '-ㄹ 때면'으로 옮겨져 동시 시간 관계가 유지되고 '내'의 지시 대상도 같습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사 묘사 → 서사 묘사. 화자의 아침 일상을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회고 서술의 평서체가 유지되며 관계상 문제될 호칭이나 태도가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴욕과 회사명 Probity Trust를 '프로비티 신탁 회사'로 같은 대상으로 옮겼고, 다른 제도나 단위로 바꾸지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1022,
+    "output_tokens": 805,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

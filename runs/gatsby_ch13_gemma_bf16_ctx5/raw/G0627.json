@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch81EdD3jSexrrV9u7Rbu",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0627\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"other people are\",\"tgt_span\":\"다른 사람들은 조심하니까요\",\"description\":\"원문은 앞 문장의 서술어(careful)를 생략하고 'other people are'로 받는 구조인데, 번역은 '조심하니까요'로 앞 문맥에서 보충하고 인과 어미 '-니까'를 덧붙임. 직전 문맥이 없어 보충 내용과 인과 해석이 맞는지 확인 불가(Gatsby 원문에서는 앞 문장이 'You ought to be careful'류).\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"생략된 술어를 '조심하다'로 복원한 것은 문맥상 자연스러운 보충이며, 인물·행위·부정·수량이 원문과 같고 'lightly'도 '가볍게'로 유지됩니다.\"},\"Textual\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"원문의 'other people are'는 앞 발화에 대한 대조적 응답인데 번역은 '-니까요' 인과 연결로 읽힐 수 있습니다. 직전 발화 원문이 없어 연결 관계(질문 2) 변화 여부를 판단하려면 앞 문장 확인이 필요합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"가벼운 반박·대꾸 → 가벼운 반박·대꾸. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 소설 속 대화입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-요' 체가 화자와 청자의 관계에 맞는지 판단하려면 대화 상대와 둘 사이 관계 정보 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 484,
+    "output_tokens": 816,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

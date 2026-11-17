@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch81ERBkHceiYGCBopTwC",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0625\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I am careful.\",\"tgt_span\":\"전 조심해서 몰아요.\",\"description\":\"원문에 없는 '몰다(운전하다)'라는 행위가 첨가되어 일반적 조심성이 운전 방식으로 한정됨(문맥상 운전 장면이면 자연스러운 보충일 수 있음)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"원문 'I am careful'은 일반적 성격 진술인데 번역은 '조심해서 몰아요'로 운전에 한정했습니다. 직전 대화가 운전 상황인지 확인해야 하므로 앞뒤 대화 문맥(운전 관련 여부)이 필요합니다.\"},\"Textual\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현이 없는 짧은 단문이라 이 축에서 평가할 대상이 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"자기 자신에 대한 진술(설명) → 자기 자신에 대한 진술(설명). 발화 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 자신의 성향을 서술할 뿐 의무·허가·금지 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 평이한 자기 진술이 '~어요' 해요체와 '전'으로 옮겨져 일상 대화의 관계와 격식에 무리가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 412,
+    "output_tokens": 704,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

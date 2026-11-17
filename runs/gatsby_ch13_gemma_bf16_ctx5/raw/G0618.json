@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch81ECKqtDNrA3PK7FFES",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0618\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the demands of her hard, jaunty body\",\"tgt_span\":\"자신의 활기차고 당당한 육체가 요구하는 욕구\",\"description\":\"'demands'(요구)를 '욕구'로 옮겨 신체적 욕구로 좁혔고, 'hard'(단단한/냉정한)가 '활기차고'로 반영되지 않음. 다만 평가어 정도 변화 수준이며 핵심 사태는 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"불리함을 견디지 못함, 어릴 때부터 속임수 사용, 미소 유지와 몸의 요구 충족이라는 내용이 유지되고, 'I suppose'도 '~했을 것이다'로 추측이 보존됩니다. 'hard, jaunty'와 'demands'의 뉘앙스 차이는 평가어 정도 수준이라 훼손으로 보지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'given this unwillingness'가 '그런 성미 탓에'로 인과 연결이 유지되고, 'in order to' 목적 관계와 'and yet'의 양립 관계도 '~하면서도'로 보존됩니다(질문 1~3 모두 아니오). 문장 분할은 오류가 아닙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 성격과 행동 동기를 서술하는 설명 → 인물 성격과 행동 동기를 서술하는 설명으로 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 서술 문장으로 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술자의 회고적 평서 서술이 '~했을 것이다' 문체로 유지되며 비판적 태도도 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화·제도 고유 대상이 없습니다(인명도 없음).\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1049,
+    "output_tokens": 853,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

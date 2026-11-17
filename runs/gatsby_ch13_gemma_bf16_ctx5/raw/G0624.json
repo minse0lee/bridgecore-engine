@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch81EPHPz4SQTAnymKhj7",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0624\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"you ought to be more careful, or you oughtn’t to drive at all\",\"tgt_span\":\"더 주의해서 운전하시든가, 아니면 아예 운전을 하지 마세요\",\"description\":\"'ought to / oughtn't to'(권고·당위)가 명령형 '운전하시든가… 하지 마세요'로 바뀌어 상대에게 직접 지시하는 형태가 됨. 선택 구조와 권고 내용은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"더 조심하거나 아예 운전하지 말라는 두 가지 선택지와 행위자(상대)가 동일하고, 조동사 형식 변화는 Deontic에서만 다룹니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Either…or 양자택일 관계가 '-시든가, 아니면'으로 유지되고 지시 대상도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대에게 행동을 바꾸라는 항의 섞인 권고 → 행동을 요구하는 지시·권고. 같은 종류의 기능입니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"ought to/oughtn't to의 규범적 권고가 '하시든가…하지 마세요'의 요구로 유지되며, 범주가 허가·비의무로 바뀌지 않았고 통상적 대응 범위 안입니다. 주체·조건도 같습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 상대를 나무라는 상황에서 존대('하시든가', '하세요')를 쓴 것은 앞 문장 번역과 일관되고 관계에 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 645,
+    "output_tokens": 795,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

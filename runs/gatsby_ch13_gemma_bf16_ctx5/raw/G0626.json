@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch81EVk6Fz81oZx1dy9vC",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0626\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"No, you’re not.\",\"tgt_span\":\"아니, 전혀 안 그래.\",\"description\":\"'you're not'(상대가 ~이 아니다)이라는 2인칭 주어와 서술이 '전혀 안 그래'로 바뀌어, 상대에 대한 서술이라는 점이 드러나지 않고 '전혀'가 더해짐. 다만 이 대화 형식에서는 자연스러운 대응에 해당하며, 선행 발화가 문맥에 없어 지시 대상은 확인할 수 없음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대의 말을 부정하는 내용이 '아니, 안 그래'로 유지되며 '전혀'는 부정의 정도만 강화한 것입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그래'가 앞선 상대 발화의 서술을 받는 지시 기능을 하며, 원문의 not도 앞 서술을 받아 부정하므로 대응이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대 발언을 부정하는 대화 응답 → 상대 발언을 부정하는 대화 응답.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가 표현이 없습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"반말 사용이 적절한지 판단하려면 화자와 청자의 관계 확인이 필요하며, 제공된 문맥에는 이 정보가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 418,
+    "output_tokens": 714,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
