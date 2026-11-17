@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7zm4fDLDodcW2MCDTmL",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0005\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I was privy to the secret griefs\",\"tgt_span\":\"은밀한 슬픔을 공유했다\",\"description\":\"'privy to'(알고 있었다/은밀히 알게 되었다)가 '공유했다'로 바뀌어, 비밀을 들어 알고 있었다는 뜻이 슬픔을 함께 나눴다는 뜻으로 달라짐\"},{\"id\":\"E002\",\"src_span\":\"unjustly accused of being a politician\",\"tgt_span\":\"정치꾼이라는 억울한 오해를 받기도 했다\",\"description\":\"'비난받았다(accused)'가 '오해를 받았다'로 바뀌어 비난·혐의 제기의 의미가 약해짐. '정치꾼'은 politician의 부정적 뉘앙스를 살린 통상적 대응\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: privy to(비밀을 알고 있음)가 '공유했다'로 바뀌고, accused(비난·고발)가 '오해를 받았다'로 달라졌으나, 핵심 사실(비밀을 알게 되어 정치꾼으로 억울하게 몰림)은 유지되어 요지 변화는 크지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그래서'가 인과(so it came about)를, '~는 이유로'가 because 관계를 유지하며 지시·초점 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 경험 서술 → 경험 서술. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회고 서술의 평서체가 유지되고 '정치꾼' 등 화자의 다소 비꼬는 태도도 전달됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1650,
+    "output_tokens": 878,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
