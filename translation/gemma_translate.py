@@ -63,9 +63,10 @@ def blocks(rows, chapters):
     return out, idx
 
 
-def user_text(allb, k):
+def user_text(allb, k, n_ctx=2):
+    """n_ctx: 문맥으로 함께 줄 앞 문단 수 (기본 2 = Claude 번역과 같은 조건)"""
     b = allb[k]
-    ctx = [x["para"] for x in allb[max(0, k - 2):k]]
+    ctx = [x["para"] for x in allb[max(0, k - n_ctx):k]]
     sents = [s for s in b["sents"] if s["translate"]]
     text = ("[앞 문단 원문 — 문맥 참고용, 번역하지 마세요]\n" + ("\n\n".join(ctx) if ctx else "(없음)") +
             "\n\n[이번 문단 원문 전체]\n" + b["para"] +
