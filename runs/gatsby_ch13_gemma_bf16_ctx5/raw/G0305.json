@@ -1,10 +1,10 @@
 {
-  "id": "msg_011Ch7zzLU6YRbGBhfgqyPNi",
+  "id": "msg_011Ch81HfJQANxXxsqQHTSPv",
   "container": null,
   "content": [
     {
       "citations": null,
-      "text": "{\"item_id\":\"G0305\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"suggested that it was Mr. Gatsby himself\",\"tgt_span\":\"그는 제이 개츠비 씨임이 분명했다\",\"description\":\"placeholder\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): 추측('suggested')이 '분명했다'라는 단정으로 바뀌었으나 핵심 사실(그가 개츠비라는 것)은 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그'가 개츠비를 가리키고, 두 문장으로 나뉘었어도 '확인하러 나온' 목적 관계가 유지됩니다. 'Something in'과 'himself'의 강조가 약해진 것만으로는 지시·연결·초점의 변화가 아닙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(인물 추정 묘사) → 서술. 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 'Mr. Gatsby'를 '개츠비 씨'로 지칭한 존칭이 유지되고 서술체 어조도 적절합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 별도로 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "text": "{\"item_id\":\"G0305\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"suggested that it was Mr. Gatsby himself\",\"tgt_span\":\"그는 제이 개츠비 씨임이 분명했다\",\"description\":\"추측('~로 보였다/암시했다')이 '분명했다'라는 단정으로 바뀜. 확실성 변화.\"},{\"id\":\"E002\",\"src_span\":\"Mr. Gatsby himself\",\"tgt_span\":\"제이 개츠비 씨\",\"description\":\"원문에 없는 이름 'Jay(제이)'가 첨가됨. 또한 'himself'의 강조가 반영되지 않음.\"},{\"id\":\"E003\",\"src_span\":\"our local heavens\",\"tgt_span\":\"이 지역 하늘\",\"description\":\"'our'(화자와 이웃들이 공유하는 우리 지역)가 '이 지역'으로 바뀌어 공동체 소유 표현이 약해짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1·2: 'suggested'의 추측이 '분명했다'라는 단정으로 바뀌어 확실성이 달라졌고, 원문에 없는 'Jay(제이)'가 첨가되었으나 핵심 사실(개츠비로 보임)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 3(초점): 'Mr. Gatsby himself'의 재귀 강조가 사라져 초점 표현이 반영되지 않았습니다. 요지는 유지되어 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(관찰·추측 묘사) → 서술. 인물 묘사 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자 서술의 평서체와 'Mr.'에 대응하는 '씨' 호칭이 유지되어 관계·태도가 적절합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 문화·제도 고유의 판정 대상이 없습니다.\"}}}",
       "type": "text"
     }
   ],
@@ -24,7 +24,7 @@
     "cache_read_input_tokens": 14219,
     "inference_geo": "global",
     "input_tokens": 1360,
-    "output_tokens": 652,
+    "output_tokens": 896,
     "output_tokens_details": {
       "thinking_tokens": 0
     },

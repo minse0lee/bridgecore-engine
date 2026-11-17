@@ -1,10 +1,10 @@
 {
-  "id": "msg_011Ch815oNjJX2nUeC8ApWF6",
+  "id": "msg_011Ch81JfZ4Brsf9zCic8wPt",
   "container": null,
   "content": [
     {
       "citations": null,
-      "text": "{\"item_id\":\"G0429\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the Twenty-eighth Infantry\",\"tgt_span\":\"제28보병사단\",\"description\":\"28th Infantry(보병연대 단위)를 '보병사단'으로 옮겨 부대 편제 단위가 연대에서 사단으로 바뀜. 숫자 28은 일치하며 힌트는 오경보.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[],\"reason\":\"판단 질문 1: 같은 대상(28번째 보병 부대)이며 소속 사실은 유지되나, Infantry가 '보병사단'으로 구체화되어 부대 단위가 달라졌습니다. 요지는 같아 minor로 봅니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현의 변화가 없습니다. Why yes가 '네, 맞아요'로 앞 질문에 대한 긍정 응답 관계를 유지합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"질문에 대한 긍정 응답과 소속 설명 → 긍정 응답과 소속 설명. 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화에서 상대에게 공손하게 답하는 말투가 '~요/~습니다'로 무리 없이 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 미군 28th Infantry(연대급 부대)가 '제28보병사단'으로 바뀌어 다른 군 편제 단위를 가리키게 되었습니다. 부대 번호가 남아 있어 minor입니다.\"}}}",
+      "text": "{\"item_id\":\"G0429\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the Twenty-eighth Infantry\",\"tgt_span\":\"제28보병사단\",\"description\":\"28번째 보병(연대/부대)을 '제28보병사단'(division)으로 옮겨 부대 규모·편제 단위가 구체화됨. 수치 28은 원문 'Twenty-eighth'와 동일하여 숫자 오류는 아님.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"긍정 응답과 '28번째 보병 부대에 있었다'는 내용이 유지됩니다. 힌트의 수치 28은 Twenty-eighth의 아라비아 숫자 표기라 오경보입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현의 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"질문에 대한 대답 → 질문에 대한 대답. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 정중한 대답이 '-요/-습니다' 체로 유지되어 문맥에 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"Twenty-eighth Infantry는 미 육군 28보병(사단 또는 연대) 편제를 가리키는데, 번역이 '사단'으로 옮긴 것이 적절한지 문맥상 해당 부대 편제(28th Infantry Division 여부)를 확인해야 합니다.\"}}}",
       "type": "text"
     }
   ],
@@ -24,7 +24,7 @@
     "cache_read_input_tokens": 14219,
     "inference_geo": "global",
     "input_tokens": 600,
-    "output_tokens": 747,
+    "output_tokens": 697,
     "output_tokens_details": {
       "thinking_tokens": 0
     },

@@ -20,9 +20,9 @@ D = Path("data/book/gatsby/eval")
 
 
 def main():
-    p = argparse.ArgumentParser(); p.add_argument("--gemma", default="gemma_bf16"); a = p.parse_args()
+    p = argparse.ArgumentParser(); p.add_argument("--gemma", nargs="+", default=["gemma_bf16"]); a = p.parse_args()
     SYS = [("base", "MADLAD 학습 전"), ("lora", "MADLAD 학습 후 v1"), ("claude", "Claude Sonnet 5.5"),
-           (a.gemma, "Gemma 4 31B (" + a.gemma.split("_")[-1] + ")")]
+           ] + [(t, "Gemma 31B " + t.removeprefix("gemma_")) for t in a.gemma]
     ids = [json.loads(l)["item_id"] for l in open(D / "ch1_3__claude.jsonl")]
     have = {t: {json.loads(l)["item_id"] for l in open(D / f"ch1_3__{t}.jsonl")} for t, _ in SYS}
     G = {t: load_group([Path(f"runs/gatsby_ch13_{t}")]) for t, _ in SYS}
@@ -44,7 +44,7 @@ def main():
     common = [i for i in ids if all(st[t][i] not in (None, "fail") for t, _ in SYS)]
     anyv = lambda s: s not in ("", None)
     major = lambda s: s in ("major", "critical", "collapse", "fail")
-    print(f"전체 {len(ids)}문장 · 4종 모두 판정 있는 공통 문장 {len(common)}")
+    print(f"전체 {len(ids)}문장 · 모두 판정 있는 공통 문장 {len(common)}")
     print("번역 | 번역 없음 | 엔진 오류 | 생성 붕괴 | [공통] 훼손 1개 이상 | [공통] major 이상 | [전체, 번역 없음=critical] major 이상")
     for t, lab in SYS:
         vals = st[t]
@@ -60,8 +60,9 @@ def main():
         return sum(d) / len(d), bs[int(n * .025)], bs[int(n * .975) - 1]
 
     pct = lambda v: f"{v * 100:+.1f}%p"
-    g = a.gemma
-    for x, y in (("claude", g), ("lora", g), ("base", g)):
+    pairs = [(x, g) for g in a.gemma for x in ("claude", "lora")]
+    pairs += [(a.gemma[0], g) for g in a.gemma[1:]]
+    for x, y in pairs:
         m, v = boot(major, x, y), boot(anyv, x, y)
         lx, ly = dict(SYS)[x], dict(SYS)[y]
         print(f"· {ly} − {lx} (공통 문장): major 이상 {pct(m[0])} (95% {pct(m[1])}~{pct(m[2])}), "
