@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7ptCFfB92h7FSxyrLui",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0042\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"separated only by a courtesy bay\",\"tgt_span\":\"작은 만 하나를 사이에 두고\",\"description\":\"'courtesy bay'(형식적·명목상의 만)가 '작은 만'으로 바뀌고, 'only'(오직 ~뿐)의 초점이 사라짐. 두 땅이 그 만 하나로만 떨어져 있다는 뜻이 약해짐.\"},{\"id\":\"E002\",\"src_span\":\"the most domesticated body of salt water in the Western hemisphere, the great wet barnyard of Long Island Sound\",\"tgt_span\":\"서반구에서 가장 길들여진 바다, 즉 롱아일랜드 해협이라는 거대하고 축축한 가축 우리 같은 바다\",\"description\":\"동격 구조가 '즉'으로 이어지고 '가축 우리 같은 바다'로 풀어 옮겨졌으나 의미는 대체로 유지됨. 'barnyard'는 비유로 보존.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'courtesy bay'(명목상의 만)가 크기를 뜻하는 '작은 만'으로 바뀌어 내용이 달라졌으나 핵심 사실(두 땅이 만을 사이에 두고 바다로 뻗음)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3: 'only'가 번역문에서 사라져 '만 하나를 사이에 두고'로 바뀌어 초점·범위 표현이 사라졌습니다. 다만 핵심 정보는 남아 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술적 묘사 → 서술적 묘사. 지형을 설명하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 묘사문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 문어체 평서형 '-었다'가 유지되며 특별한 관계·호칭 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"마일 단위와 롱아일랜드 해협 표기가 원문 그대로 유지되어 다른 단위나 제도로 바뀌지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1455,
+    "output_tokens": 965,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

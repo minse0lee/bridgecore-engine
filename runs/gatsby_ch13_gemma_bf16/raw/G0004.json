@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7prPK7Txb9HUV97s97w",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0004\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I’m inclined to reserve all judgements\",\"tgt_span\":\"웬만한 일에는 판단을 유보하는 편이 되었는데\",\"description\":\"'모든 판단(all judgements)'을 유보한다는 범위가 '웬만한 일에는'으로 한정되어 약화됨. 또한 현재의 성향(I'm inclined)이 '되었다'는 과거의 변화로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"veteran bores\",\"tgt_span\":\"지독한 지루함을 주는 이들\",\"description\":\"'veteran'(경력 많은, 노련한)의 뜻이 '지독한'으로 바뀜. 평가 정도 변화 정도이며 '지루한 사람들'이라는 대상은 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'all judgements'가 '웬만한 일에는'으로 범위가 좁아지고 현재 성향이 과거 변화로 바뀌었으나, 판단을 유보하는 습관과 그로 인한 결과라는 핵심 요지는 유지되어 minor입니다. 'veteran'→'지독한'은 평가어의 정도 차이로 보아 보존입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'In consequence'는 '그 결과'로, 습관 관계절은 '이런 습관 덕분에'로 옮겨 지시·인과 관계가 유지되고, 'also'는 '동시에/도'로 초점이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 자기 서술(설명) → 자기 서술(설명). 발화 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회고 서술의 담담한 문어체 '-했다' 체가 유지되어 화자와 독자의 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1609,
+    "output_tokens": 891,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

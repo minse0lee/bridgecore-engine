@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7ptZutXur5vgyhGjBj6",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0052\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"my second cousin once removed\",\"tgt_span\":\"촌수로 따지면 재종질녀뻘\",\"description\":\"'second cousin once removed'(6촌 관계에서 한 세대 차이)를 '재종질녀'(6촌 형제자매의 딸, 즉 8촌)로 옮겨 친족 관계 범주가 달라짐. 원문의 한 세대 차이는 유지될 수 있으나 정확한 촌수·대응이 다름.\"},{\"id\":\"E002\",\"src_span\":\"I’d known Tom in college\",\"tgt_span\":\"톰은 대학 시절부터 알고 지낸 사이였다\",\"description\":\"'대학에서 알게 되었다/대학 시절 알았다'가 '대학 시절부터 알고 지낸'으로 바뀌어 대학 이후에도 계속 알고 지낸 관계로 읽힘(시점 범위 확장).\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(인물·시간): 친족 관계가 '재종질녀뻘'로 달라졌고, '대학 시절 알았다'가 '대학 시절부터 알고 지낸'으로 시간 범위가 달라졌으나 핵심 사실(친척이며 대학 때 알던 사이)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계는 유지되며 두 절의 병렬 연결도 '-고'로 남아 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 관계 배경 설명 → 인물 관계 배경 설명. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 소설 서술체 '-었다'가 유지되며 관계에 맞는 격식입니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2: 영어 친족 용어(second cousin once removed)를 한국식 촌수 체계의 '재종질녀'로 바꾸어 다른 친족 범주로 이해하게 될 수 있으나, 먼 친척이라는 핵심 이해는 유지되어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 798,
+    "output_tokens": 960,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

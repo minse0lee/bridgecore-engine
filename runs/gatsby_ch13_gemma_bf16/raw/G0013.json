@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7proBJT7aWLPSQMBmXp",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0013\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"ten thousand miles away\",\"tgt_span\":\"만 마일 밖의\",\"description\":\"'ten thousand miles'(만 마일, 10,000마일)를 '만 마일'로 옮겼으며 수치는 동일함. 자동 힌트의 수치 불일치는 표기 차이로 인한 오경보.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인격 정의의 조건문, 화려한 구석, 삶의 약속에 대한 높은 민감성, 만 마일 밖 지진을 감지하는 정밀한 기계 비유가 모두 유지되며 '만 마일'은 ten thousand miles와 같은 수치입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"If…then 조건 관계가 '~라면, ~있었다'로 유지되고, as if 비유 연결도 '마치 ~와도 같았다'로 남으며 문장 분할로 지시나 연결이 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개츠비의 특성을 묘사·평가하는 서술 → 같은 서술 기능으로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술자의 회고적 서술체가 평서문 서술로 유지되며 관계상 어긋남이 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"거리 단위 miles를 '마일'로 그대로 옮겨 다른 단위로 바꾸지 않았고 수치도 같아 독자가 같은 대상으로 이해합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1860,
+    "output_tokens": 738,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

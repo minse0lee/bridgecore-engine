@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7psVJnnHyJZXzRN3RTd",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0027\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"and an old Dodge and a Finnish woman\",\"tgt_span\":\"낡은 닷지 자동차 한 대와 핀란드 출신 여성을 고용했다\",\"description\":\"원문은 화자가 개, 낡은 닷지, 핀란드 여성을 소유·보유(had)했다고 병렬하지만, 번역은 '키웠는데'가 개에만 걸리고 닷지는 '고용했다'의 목적어로 묶여 자동차를 고용했다는 뜻이 되며, 핀란드 여성도 '가진' 것이 아니라 '고용한' 것으로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"a Finnish woman\",\"tgt_span\":\"핀란드 출신 여성을 고용했다\",\"description\":\"원문에 없는 고용 관계가 첨가됨(원문은 had로 병렬 소유 표현, 고용 여부는 명시하지 않음)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(행위·대상): had로 병렬된 개·닷지·핀란드 여성 중 닷지와 여성이 '고용했다'의 목적어로 묶여 자동차를 고용한 것처럼 읽히고, 원문에 없는 고용 관계가 더해져 독자가 문장 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(연결 관계): 'I had' 하나에 세 대상이 병렬로 걸리는 관계가 '키웠는데'(개)와 '고용했다'(닷지·여성)로 갈라져 병렬 범위가 바뀌었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 화자의 생활 여건을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회고 서술의 평서체('-했다')가 유지되며 관계나 태도 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Dodge를 '닷지 자동차'로 통용 표기해 같은 대상을 가리키며 한국 독자가 이해할 수 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1229,
+    "output_tokens": 954,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7psqu37b1XDJZMDg5ZT",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0036\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"they stood on my shelf in red and gold\",\"tgt_span\":\"빨간색과 금색 표지의 그 책들은 … 책장에 꽂혀\",\"description\":\"'표지'가 첨가되었으나 책의 색이 표지 색이라는 해석은 자연스러워 의미를 바꾸지 않음(통상적 보충)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"열두 권(a dozen), 책 주제, 새 돈 비유, 세 인물만 아는 비밀, 약속하는 듯한 서술이 모두 유지되며 '표지' 보충은 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'they'는 '그 책들'로, only의 초점은 '~만 알고 있던'으로 같은 대상에 유지되고 연결 관계도 보존됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 상황 묘사 → 서술자의 상황 묘사. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술자의 소설 서술 어조가 '~했다/듯했다' 평서체로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조폐국(mint)과 마이다스·모건·마이케나스가 같은 대상을 가리키며 통용 음역으로 옮겨져 한국어 독자가 이해할 수 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1289,
+    "output_tokens": 703,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

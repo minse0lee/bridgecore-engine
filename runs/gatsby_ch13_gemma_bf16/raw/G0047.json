@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch7ptRoELVJkHpWx7dNmJ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0047\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"it was a factual imitation of some Hôtel de Ville in Normandy\",\"tgt_span\":\"노르망디의 어느 시청사를 그대로 모방한 듯한 모습이었는데\",\"description\":\"'factual imitation'(사실에 충실한 모방)이 '그대로 모방한 듯한'으로 옮겨져 단정이 추측('듯한')으로 약해짐. 핵심 사실(시청사를 모방한 건물)은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): 모방이라는 단정이 '듯한'이라는 추측 표현으로 바뀌어 확실성이 달라졌으나, 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그 집'을 가리키는 지시 관계와 'with' 이하 부가 정보의 연결이 한국어 문장 분할로 유지되며, 지시·연결·초점 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"저택 묘사 설명 → 저택 묘사 설명. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 묘사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술자의 회고체가 '~했다' 서술체로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Hôtel de Ville을 '시청사'로, 노르망디·에이커를 통용 표기로 옮겨 같은 대상과 단위를 가리키며 단위 환산 없이 유지됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1531,
+    "output_tokens": 747,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
