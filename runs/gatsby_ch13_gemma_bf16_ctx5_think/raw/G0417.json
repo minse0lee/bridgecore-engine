@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8HenwUTno7HbK4i5USs",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0417\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"on the canvas in the garden\",\"tgt_span\":\"정원 천막 위에서는\",\"description\":\"천막(canvas)으로 덮은 무대·바닥 위라는 장소를 '천막 위'로 옮겨 장소가 부자연스럽게 달라졌으나 무엇을 가리키는지는 해석 가능하여 경미함\"},{\"id\":\"E002\",\"src_span\":\"relieving the orchestra for a moment of the burden of the banjo or the traps\",\"tgt_span\":\"오케스트라를 대신해 밴조나 드럼을 연주하며 그들의 짐을 덜어주고 있었다\",\"description\":\"'그들의 짐'의 '그들'이 오케스트라가 아니라 독신 여자들로 읽힐 소지가 있고, 연주 부담을 덜어준다는 관계가 흐려짐. 다만 오케스트라를 대신해 연주한다는 핵심은 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: canvas 아래(천막 친 야외 무대 위)에서 춤춘다는 장소가 '천막 위'로 바뀌었으나 춤판이 정원에서 벌어졌다는 요지와 행위자·행위는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그들의 짐'의 지시 대상이 다소 모호하나 오케스트라를 대신해 연주하는 관계가 남아 있어 지시·연결·초점이 바뀌었다고 보기 어렵습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"파티 장면 묘사 → 파티 장면 묘사. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체가 '-었다'로 유지되고, 노인·잘난 체하는 커플에 대한 서술자의 풍자적 태도도 '볼품없는', '잘난 체하는' 등으로 대체로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·단위·관습이 이 문장에는 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1565,
+    "output_tokens": 947,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

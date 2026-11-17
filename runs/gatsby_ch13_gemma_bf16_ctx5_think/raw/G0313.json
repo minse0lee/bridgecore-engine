@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8HaEuXrwGFtHYe1bYyG",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0313\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"his guests\",\"tgt_span\":\"손님들이\",\"description\":\"'his'(개츠비의) 소유 표시가 번역문에서 빠져 손님들이 누구의 손님인지 문장에서 드러나지 않음. 문단 맥락상 이웃(개츠비)임을 알 수 있어 경미함.\"},{\"id\":\"E002\",\"src_span\":\"his raft … his beach\",\"tgt_span\":\"뗏목 탑에서 … 뜨거운 백사장에서\",\"description\":\"'his raft', 'his beach'의 소유 표시가 빠짐.\"},{\"id\":\"E003\",\"src_span\":\"cataracts of foam\",\"tgt_span\":\"하얀 거품 파도\",\"description\":\"cataracts(폭포처럼 쏟아지는 물살)가 '파도'로, 'foam'에 '하얀'이 덧붙음. 거품 위로 수상 스키판을 끄는 사태는 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"만조 때 손님들의 다이빙·일광욕, 모터보트 두 척이 해협을 가르며 아쿠아플레인을 끄는 사태가 유지됩니다. 'cataracts'→'파도', '하얀' 첨가는 묘사의 표현 차이에 그칩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소유 표지 'his'가 생략됐지만 문단 맥락상 지시 대상(이웃 개츠비)이 바뀌지 않습니다. 'while'은 '그사이'로 시간 관계가 유지되고 'drawing'의 분사 관계도 '가르며…따라왔다'로 이어집니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 관찰 묘사 → 관찰 묘사. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서사 묘사입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술자의 서술체('~보았고')가 출판물 본문에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명·지명 수준의 대상(Sound)과 일반 사물뿐이어서 별도로 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1478,
+    "output_tokens": 940,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

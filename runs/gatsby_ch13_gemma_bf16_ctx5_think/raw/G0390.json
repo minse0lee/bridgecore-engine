@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8HdeF4gKqTCRCX5oZVz",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0390\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"we were going to find the host\",\"tgt_span\":\"조던은 집주인을 찾으러 가겠다고 말했다\",\"description\":\"'우리(we)'가 함께 집주인을 찾으러 간다는 내용이 조던 혼자 가겠다는 말로 바뀌어 참여자 일부(화자 '나')가 빠짐\"},{\"id\":\"E002\",\"src_span\":\"I had never met him, she said, and it was making me uneasy\",\"tgt_span\":\"내가 그를 만난 적이 없어 마음이 편치 않아 한다는 것이 이유였다\",\"description\":\"'나는 그를 만난 적이 없어 불편하다'는 조던의 말이 화자 자신의 불편함으로 전달되지 않고, '내가 … 불편해 한다'는 주체가 모호해지며 안절부절하게 만든다(making me uneasy)는 인과가 단순 이유 서술로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위자·참여자): '우리가 집주인을 찾으러 갈 것'이 '조던이 가겠다'로 바뀌어 누가 가는지가 달라져 독자가 요지를 다르게 이해할 수 있습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1·2: 'I'와 'me'가 가리키는 대상이 '내가 … 마음이 편치 않아 한다'로 옮겨져 불편해하는 사람이 모호해지고, 'making me uneasy'의 원인·결과 연결이 '이유였다'로 재구성되었으나 대체로 읽을 수 있어 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 인물 행동과 설명 서술 → 동일한 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"never는 경험 부정('만난 적 없다')이며 규범 의미가 없어 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체가 '-했다'체로 유지되며 관계상 어색한 높임이나 호칭 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 759,
+    "output_tokens": 966,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

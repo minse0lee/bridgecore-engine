@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8HZCacYL5NMKpri7buH",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0289\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"We heard you were engaged to a girl out West.\",\"tgt_span\":\"서부 쪽에 있는 여자분과 약혼했다면서요?\",\"description\":\"'우리가 들었다(We heard)'는 평서문이 '약혼했다면서요?'라는 확인 질문으로 바뀌고, 주어 'We'가 생략됨. 전해 들은 소문이라는 점은 '-면서요'로 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"깜빡한 질문, 중요함, 서부의 여자와 약혼했다는 소문 등 내용이 유지됩니다. 'We'가 생략됐지만 '-면서요'의 전해 들은 뉘앙스로 같은 사태를 기술하며, 'girl'의 '여자분'도 정도 차이에 그칩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·소유 관계, 연결 관계, 초점 표현이 바뀌지 않았습니다. 'and it's important'의 연결도 '-는데, 중요한 거예요'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소문 사실을 말하며 확인을 구하는 발화 → 소문 사실을 확인하는 질문. 같은 종류의 기능이며 문맥상 확인 요청으로 읽힙니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 대화 문장입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자(Daisy 등)와 청자(Nick)의 관계와 적절한 높임 수준을 판단하려면 문맥에서 두 사람의 관계 확인이 필요합니다. 문서정보와 평가조건에는 관계가 명시되어 있지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·단위·관습이 없습니다. 'out West'는 지명 수준의 표현입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 548,
+    "output_tokens": 852,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

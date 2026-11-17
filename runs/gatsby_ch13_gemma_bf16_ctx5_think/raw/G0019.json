@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8HMR4NKZ2bJAjzdK3q2",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0019\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"just a quarter of a century after my father\",\"tgt_span\":\"아버지보다 정확히 25년 뒤인\",\"description\":\"'a quarter of a century'(25년)는 정확한 환산이나, 'just'를 '정확히'로 옮긴 것은 통상적 대응이라 오류가 아님을 확인하는 항목이었으나 실제 차이는 없음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1915년 졸업, 아버지보다 25년 뒤, 뉴헤이븐, 제1차 세계대전 참여 등 인물·시간·수량·행위가 모두 유지됩니다. 'a quarter of a century'를 25년으로 옮긴 것은 정확합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'조금 지나'가 'a little later'의 시간 순서를 유지하고, 졸업과 참전을 잇는 연결 관계가 그대로 남아 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 이력 서술 → 이력 서술. 설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회고 서술의 평서체가 유지되며 관계상 문제될 호칭 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'New Haven'을 '뉴헤이븐'으로 음역해 예일대를 가리키는 환유가 유지되고 'Teutonic'을 '게르만족'으로, 'Great War'를 제1차 세계대전으로 옮겨 역사적 대상이 동일하게 전달됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1455,
+    "output_tokens": 759,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8HW1CBKrQxEKYGa5faC",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0214\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"She might have the decency not to telephone him\",\"tgt_span\":\"저녁 식사 시간에는 전화를 안 하는 게 최소한의 예의 아닌가요?\",\"description\":\"주어 'She'(그 여자)와 대상 'him'(그 사람)이 번역문에서 모두 생략되어 누가 누구에게 전화하는지 드러나지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물): 전화를 거는 사람(She)과 받는 사람(him)이 번역문에 나타나지 않아 참여자가 빠졌습니다. 다만 문맥상 복원이 가능하고 저녁 시간에 전화하지 않는 것이 예의라는 핵심 내용은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(지시 대상): 대명사 She와 him이 모두 생략되어 누가 누구에게 전화하는지 번역문만으로는 알 수 없게 되었습니다. 문맥으로 추정할 수 있어 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대의 동의를 구하며 불만을 표하는 수사적 의견 표명 → 같은 기능의 수사의문과 동의 요구. '아닌가요? 그렇죠?'로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 상대에게 의무나 금지를 거는 문장이 아니라 제3자의 예의 없는 행동에 대한 불만 표현이므로 규범 표현으로 판정하지 않습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"불만을 토로하는 대화체가 '-ㄴ가요? 그렇죠?'로 유지되며 관계에 크게 어긋나지 않습니다. 화자의 못마땅한 태도도 '최소한의 예의'로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 516,
+    "output_tokens": 883,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

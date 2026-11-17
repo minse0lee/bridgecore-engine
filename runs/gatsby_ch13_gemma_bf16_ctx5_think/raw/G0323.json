@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8HahBbWuCPkyWihxet8",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0323\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"floating rounds of cocktails\",\"tgt_span\":\"쟁반에 담긴 칵테일들이\",\"description\":\"'돌아다니는 칵테일 한 순배(rounds)'가 '쟁반에 담긴 칵테일들'로 바뀌어 round(순배)의 뜻이 사라지고 쟁반이라는 내용이 더해졌으나 칵테일이 정원에 퍼지는 사태는 유지되어 경미함\"},{\"id\":\"E002\",\"src_span\":\"casual innuendo and introductions forgotten on the spot\",\"tgt_span\":\"가벼운 농담, 소개하자마자 곧바로 잊어버리는 이름들\",\"description\":\"'암시적 빈정거림(innuendo)'이 '농담'으로, '잊힌 소개'가 '잊어버리는 이름들'로 약간 달라짐. 핵심 분위기는 유지\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'floating rounds'가 '쟁반에 담긴'으로, innuendo가 '농담'으로, 잊힌 '소개'가 '이름'으로 바뀌어 세부 내용이 조금 달라졌으나 파티의 떠들썩한 장면이라는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"until이 '-면 … 가득 찬다'로 이어져 결과 관계가 유지되고 지시·초점 표현의 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사 서술 → 장면 묘사 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"never는 '서로 이름을 알지 못했다'는 사실 서술이며 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문의 평서체('-다')가 유지되며 화자·청자 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화 고유의 제도·단위·관습 등 별도로 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1400,
+    "output_tokens": 901,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

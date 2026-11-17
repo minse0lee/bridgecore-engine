@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8HbgvzdVuJeMdWnTTTY",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0344\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"address cordial remarks\",\"tgt_span\":\"억지로 상냥한 인사를 건네기\",\"description\":\"원문에 없는 '억지로'가 더해져 화자의 태도가 달라짐(첨가)\"},{\"id\":\"E002\",\"src_span\":\"attach myself to someone\",\"tgt_span\":\"누구라도 한 명 곁에 두어야겠다고\",\"description\":\"'누군가에게 달라붙다/합류하다'가 '누구라도 한 명을 곁에 두다'로 바뀌어 화자가 동행자를 확보하는 방식이 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: '억지로'가 첨가되었고, 누군가에게 합류한다는 행위가 누구든 곁에 두는 것으로 바뀌었으나 핵심 상황(먼저 동행을 구함)은 유지되어 요지는 크게 다르지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'before'의 시간 순서와 'Welcome or not'의 양보 관계가 '~하기 전에', '~든 말든'으로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 행동을 서술하는 서사 → 서사. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"should는 'before I should begin'의 시간 종속절 용법이며 규범 의미가 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술의 평서체 '~했다'가 소설 본문 서술 상황에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 707,
+    "output_tokens": 764,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

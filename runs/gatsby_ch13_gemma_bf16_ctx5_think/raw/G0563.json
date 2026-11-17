@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8Hkze6VDjujz4uRst1e",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0563\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"A bad driver and not even trying!\",\"tgt_span\":\"운전도 못 하는 사람이 노력조차 안 했다니!\",\"description\":\"'bad driver and not even trying'(서투른 운전자인데 노력도 안 함)의 비난 대상이 '운전도 못 하는 사람'으로 옮겨졌고, '도 못 하는'은 운전 자체를 못 한다는 뜻에 가까워 'bad driver'보다 강하게 읽힘. 다만 비난하는 핵심 내용은 유지되어 의미를 바꾸지 않는 차이로 볼 수 있음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"바퀴만 나간 것이 다행이라는 점과, 서투른 운전자가 노력조차 하지 않았다는 비난이 모두 유지됩니다. '운전도 못 하는'은 정도 차이일 뿐 같은 평가입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"even에 해당하는 '노력조차'가 trying에 그대로 붙어 있고 and의 병렬 관계도 유지됩니다(질문 1·2·3 모두 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"질책·꾸짖는 감탄 → 질책·꾸짖는 감탄. 두 문장 모두 상대를 나무라는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-세요'의 높임이 화자와 청자의 관계에 맞는지 판단하려면 대화 장면의 화자와 청자 관계 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 등장하지 않습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 522,
+    "output_tokens": 802,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

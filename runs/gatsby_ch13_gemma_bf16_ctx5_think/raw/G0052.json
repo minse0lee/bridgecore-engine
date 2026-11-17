@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8HNyWn2r4SoZNJPmZYd",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0052\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"my second cousin once removed\",\"tgt_span\":\"내 재종질\",\"description\":\"'second cousin once removed'(재종 형제자매의 자녀 또는 부모의 재종 형제 등 한 대 차이 나는 6촌 관계)를 '재종질'(재종 형제의 자식, 즉 8촌 관계가 아닌 6촌 조카뻘 관계)로 옮겨 친족 관계의 정확한 대응이 달라질 수 있음. 다만 여성인 데이지가 화자의 재종질(재종형제의 딸)이라는 점에서 화자와 데이지의 촌수·항렬 관계는 대체로 유지됨.\"},{\"id\":\"E002\",\"src_span\":\"I’d known Tom in college\",\"tgt_span\":\"톰은 대학 시절부터 알고 지낸 사이였다\",\"description\":\"'대학 시절에 알았다'가 '대학 시절부터 알고 지낸 사이'로 바뀌어 이후 계속 알고 지냈다는 지속의 의미가 더해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'second cousin once removed'를 '재종질'로 옮겨 친족 관계가 정확히 대응하지 않고, 'known in college'가 '대학 시절부터 알고 지낸'으로 시작 시점과 지속의 뜻이 더해졌습니다. 핵심 인물 관계(친척·대학 지인)는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"두 절의 병렬 연결이 '-였고,'로 유지되고 지시·초점 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 관계 배경 설명 → 인물 관계 배경 설명. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 소설 서술의 평서체('-였다')가 유지되며 관계상 어색한 높임이나 호칭이 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"친족 호칭(재종질)이 한국어 친족 체계의 실제 용어로 쓰여 친척 관계라는 제도적 의미가 전달됩니다. 정확한 촌수 대응 문제는 Semantic에서 다루었습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 754,
+    "output_tokens": 1017,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

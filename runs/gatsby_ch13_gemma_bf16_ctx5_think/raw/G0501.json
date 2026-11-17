@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8HiGARNvcM66pCYyLEr",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0501\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"she had decided, ineptly, that everything was very, very sad\",\"tgt_span\":\"모든 것이 너무나도 슬프다는 생각에 휩싸인 듯했다\",\"description\":\"'decided'(스스로 그렇게 결론 내림)가 '생각에 휩싸인 듯했다'(추측)로 바뀌어 확실성이 달라지고 행위의 성격도 약해짐\"},{\"id\":\"E002\",\"src_span\":\"ineptly\",\"tgt_span\":\"그 모습이 퍽 서툴렀는데\",\"description\":\"decided를 수식하던 ineptly가 별개 문장의 '그 모습이 서툴렀다'로 바뀌어 수식 대상(결론을 내린 방식)이 모호해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): 서술자가 단정한 'decided'가 '휩싸인 듯했다'라는 추측으로 바뀌었으나 샴페인, 슬픔, 노래와 울음이라는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 3(초점·범위): ineptly가 decided에 붙는 부사에서 '그 모습'이라는 지시어로 시작하는 별도 서술로 바뀌어 수식 범위가 달라졌고, 독자는 무엇이 서툴렀는지 다르게 읽을 수 있으나 요지는 크게 변하지 않아 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 묘사 서술 → 인물 묘사 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 인물 묘사로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체의 격식이 유지되고, 서술자의 아이러니한 태도도 '서툴렀는데' 정도로 남아 있습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"샴페인 외에 문화 고유의 제도나 관습, 단위가 없어 별도로 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1318,
+    "output_tokens": 916,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

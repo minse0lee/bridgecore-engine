@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8HQnq8yWe1eVRD46m8T",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0091\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"promising that there was no one in the world she so much wanted to see\",\"tgt_span\":\"세상에 나보다 더 보고 싶었던 사람은 없었다는 듯한 기색을 보였다\",\"description\":\"'promising'(약속·보장하듯 말함)이 '기색을 보였다'로 바뀌어 약속이라는 화행이 은근한 태도로 약해지고, 'she so much wanted to see'(그렇게까지 간절히 만나고 싶었던)가 '나보다 더 보고 싶었던 사람'이라는 비교 표현으로 바뀜. 둘 다 화자에게 향한 말의 핵심은 유지됨.\"},{\"id\":\"E002\",\"src_span\":\"held my hand for a moment, looking up into my face\",\"tgt_span\":\"내 얼굴을 올려다보았고, 잠시 내 손을 잡으며\",\"description\":\"동시 동작(손을 잡은 채 얼굴을 올려다봄)이 순차 서술로 재배열됨. 두 동작은 모두 유지되고 동시성도 크게 해치지 않음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"웃음, 손잡음, 올려다봄, 세상에서 가장 보고 싶었던 사람이 나라는 취지가 모두 유지됩니다. 'promising'이 '기색을 보였다'로 약해진 것은 표현 방식의 차이에 가깝고 행위자·대상·수량·부정에 변화가 없습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'she'가 '그녀', 'my'가 '내'로 지시 대상이 유지되고, as if 비교 연결과 동시 동작 관계도 '-며'로 남아 있어 세 질문 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"데이지의 매력적인 태도를 묘사하는 서술 → 같은 묘사 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 본문의 서술체 '-ㅆ다'가 유지되고 화자의 약간 아이러니한 관찰 태도도 이어집니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 943,
+    "output_tokens": 983,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

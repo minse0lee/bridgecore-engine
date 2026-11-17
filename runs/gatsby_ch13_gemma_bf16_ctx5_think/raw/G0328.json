@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8Hb21v2Ery2VCFrWG8S",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0328\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Gilda Gray’s understudy from the Follies\",\"tgt_span\":\"'폴리스'의 길다 그레이 대역\",\"description\":\"'from the Follies'(Follies 소속 대역)가 '폴리스의 길다 그레이 대역'으로 옮겨져 Follies가 Gray 쪽에 붙은 듯 읽힘. 다만 Follies는 지명이 아닌 공연 제목이고 Gray가 Follies 출연자이므로 의미 차이는 미미함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"잠시의 정적, 지휘자가 기꺼이 리듬을 바꿈, 잘못된 소문, 웅성거림 등 인물·행위·시간·평가가 유지됩니다. 'Follies' 귀속 표현은 같은 사태를 가리켜 의미 변화로 보지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'바꾸자'로 이어지는 시간·인과적 연결과 'as'절의 동시성이 '퍼지며'로 유지되고, 대명사 '그녀'도 같은 인물을 가리킵니다(질문 1·2·3 모두 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"파티 분위기를 묘사하는 서술 → 같은 서술 기능으로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 간 호칭·높임 관계가 드러나지 않는 서술문으로, 평가할 대상이 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Follies(지그펠드 폴리스)와 Gilda Gray를 '폴리스', '길다 그레이'로 음역해 같은 대상을 가리키며, 통용 음역이라 제도적 의미 이해에도 지장이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 938,
+    "output_tokens": 837,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8HfQqUkaCoqmUhWf63H",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0433\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Just near the shore along the Sound.\",\"tgt_span\":\"해협을 따라 해안가 근처에서만 타는 겁니다.\",\"description\":\"원문에 없는 동작 '타는'(탑승·승선)이 첨가됨. 문맥상 보트 타기를 추정해 보충한 것으로 보임\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: '타는 겁니다'라는 행위가 원문에 없는데 첨가되었으나, 원 장면(수상비행기·보트 이동)의 맥락상 핵심 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Just가 '근처에서만'으로 초점과 범위를 유지하고 지시·연결 관계도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"동행 권유 → 동행 권유. 의문문 형태의 제안 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 개인적 제안·권유이며 의무·허가·금지 같은 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'가시겠습니까'의 높임이 개츠비와 청자의 관계에 맞는지, old sport의 친근함이 '친구'로 유지되는지 판단하려면 화자와 청자의 관계 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"old sport는 '친구'로 옮겨져 같은 호칭 기능을 하며, the Sound는 '해협'으로 지명 대응이 통용 가능한 수준입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 506,
+    "output_tokens": 735,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

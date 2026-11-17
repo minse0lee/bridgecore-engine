@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8HZTmAnJdV1qEikaXmQ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0296\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"had published the banns\",\"tgt_span\":\"결혼 공고라도 낸 셈이 된\",\"description\":\"'banns'(교회에서 결혼 예정을 세 번 공시하는 결혼 예고)를 일반적인 '결혼 공고'로 옮겼고, 실제 공고가 났다는 사실이 '라도 낸 셈'이라는 비유·추측 표현으로 바뀜. 교회 제도 용어의 의미가 약화됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): 소문이 결혼 예고를 '공표했다'는 비유적 사실이 '낸 셈'으로 약해졌으나, 소문이 약혼을 기정사실처럼 퍼뜨려 동부로 오게 된 핵심 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'The fact that…was one of the reasons' 구조가 '~된 것이 …이유 중 하나였다'로 유지되고 지시·연결·초점 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 서술(동부로 온 이유 설명) → 서술(이유 설명). 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술체 '~였다'로 소설 본문의 격식과 태도가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 교회에서 결혼 예정을 공시하는 제도인 banns를 일반 어휘 '결혼 공고'로 옮겨 '교회 결혼 예고'라는 제도적 의미가 전달되지 않습니다. 다만 소문이 결혼을 기정사실화했다는 요지는 읽혀 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 702,
+    "output_tokens": 847,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

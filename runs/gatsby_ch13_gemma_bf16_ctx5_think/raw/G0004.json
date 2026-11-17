@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8HLnyhu56X39xH6X7T4",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0004\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I’m inclined to reserve all judgements\",\"tgt_span\":\"나는 모든 판단을 유보하는 경향이 생겼는데\",\"description\":\"현재의 지속적 성향(I'm inclined)이 '경향이 생겼다'는 변화·시작의 사건으로 바뀜. 핵심 내용(판단 유보 성향)은 유지되어 경미함\"},{\"id\":\"E002\",\"src_span\":\"veteran bores\",\"tgt_span\":\"지독하게 지루한 사람들\",\"description\":\"'노련한/경력 많은 따분한 사람들'의 veteran 뉘앙스가 '지독하게'로 바뀜. 평가어의 정도·표현 차이에 해당\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(시간): 'I'm inclined'(현재의 성향)가 '경향이 생겼다'(성향이 생긴 변화)로 바뀌었으나 핵심 사실은 유지되어 minor입니다. veteran bores → '지독하게 지루한'은 평가어 정도의 차이라 보존으로 봅니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"In consequence의 인과는 '그 결과'로, 'a habit'의 지시는 '이런 습관'으로, also는 '동시에'로 유지되어 질문 1·2·3 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 성향·경험을 서술하는 설명 → 서술하는 설명. 기능이 동일합니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 화자의 회고적 서술체가 '-했다' 문어체로 유지되며, 관계에 맞는 격식입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1594,
+    "output_tokens": 847,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

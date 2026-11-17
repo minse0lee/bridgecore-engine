@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8HsYEonECTHuzQk7zLG",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0600\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I liked to walk up Fifth Avenue\",\"tgt_span\":\"나는 5번가를 걸으며\",\"description\":\"'I liked to'(좋아했다)의 선호 표현이 누락되어 '~곤 했다'(습관)만 남음. 앞 문장의 '좋아지기 시작했다' 맥락에서 의미 손실이 작아 별도 오류로 보기는 어렵지만 경미한 누락임\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'liked to'의 호감·선호가 '~곤 했다' 습관으로만 남아 약간 달라졌으나 걷고 찾고 상상하는 핵심 행위·수량·부정은 유지되어 요지는 같습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사 '그녀들'은 여인들을 가리키고, 문장 분할과 연결('그리고')도 병렬 관계를 유지하며 no one의 범위도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 습관과 상상을 서술 → 서술. 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회상 서술의 평서체 문어체가 유지되며 호칭·태도 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"5번가는 지명에 해당하며 별도로 판정할 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1352,
+    "output_tokens": 717,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

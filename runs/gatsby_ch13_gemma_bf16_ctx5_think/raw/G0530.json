@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8HjVPvWFKeRzkBHzPbp",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0530\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"her brown hand\",\"tgt_span\":\"갈색 피부의 손\",\"description\":\"'brown hand'(햇볕에 그을린 갈색 손)를 '갈색 피부의 손'으로 옮겨 그을림이 피부색(인종적 특성)처럼 읽힐 여지가 있으나, 손 색깔 묘사라는 핵심 내용은 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서둘러 떠남, 말하면서, 갈색 손으로 경쾌한 인사, 일행 속으로 사라짐이 모두 유지됩니다. '갈색 피부의 손'은 어색한 표현 차이로 보고 의미 변화로 보지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'말하며'와 '사라지며'의 동시 진행 관계와 '그녀'의 지시 대상이 유지되며 문장 분할은 허용 범위입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물의 퇴장 장면 서술 → 인물의 퇴장 장면 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 청자 간 높임·호칭이 드러나는 대화가 아니라 서술문이며 판정할 격식 요소가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 별도로 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 868,
+    "output_tokens": 715,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

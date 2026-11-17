@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8HPuC71LBzGeP7cADSD",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0072\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the same senior society\",\"tgt_span\":\"같은 사교 모임\",\"description\":\"예일대 등의 상급생 비밀결사/친목 단체(senior society)가 일반적인 '사교 모임'으로 옮겨져 제도적 성격(상급생 단체)이 전달되지 않음\"},{\"id\":\"E002\",\"src_span\":\"I always had the impression that he approved of me\",\"tgt_span\":\"그는 나를 좋게 생각하는 것 같았고\",\"description\":\"항상(always)이 빠졌고 '인정·승인한다(approved of)'가 '좋게 생각한다'로 다소 약화됨\"},{\"id\":\"E003\",\"src_span\":\"wanted me to like him with some harsh, defiant wistfulness of his own\",\"tgt_span\":\"나 또한 자신을 좋아해 주길 바라는 듯했다. 거기에는 그 나름의 거칠고 반항적인 갈망 같은 것이 배어 있었다.\",\"description\":\"wanted…with wistfulness가 '바라는 듯했다'와 분리된 '배어 있었다'로 바뀌어 갈망의 수식 관계가 느슨해졌으나 대응은 유지됨; 또한 '나 또한'이 첨가됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: 'always'가 누락되고 approved of가 '좋게 생각하는'으로 약화되었으나 핵심 사실(인상, 인정, 좋아해 주길 바람)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"while(대조)가 '~아니었지만'으로 유지되고 his own 등 지시 관계도 '그 나름의'로 유지되며 문장 분할은 오류가 아닙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 관계 서술 → 인물 관계 서술. 설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"never는 친밀하지 않았다는 서술의 부정 부사이며 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회상 서술의 평서체('~했다')가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: senior society는 대학 상급생 대상의 특정 제도(비밀결사형 단체)인데 '사교 모임'이라는 일반 어휘로 옮겨 제도적 의미가 전달되지 않습니다. 다만 '대학 시절'이 보충되어 대학 내 집단임은 이해되므로 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 979,
+    "output_tokens": 1062,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

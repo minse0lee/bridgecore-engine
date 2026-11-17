@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8HeRMT6J1AndPZ4Fffb",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0409\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I was brought. Most people were brought.\",\"tgt_span\":\"저도 안내받아 왔습니다. 대부분의 사람들이 그랬고요.\",\"description\":\"'brought'(누군가 데려옴/초대 동반됨)가 '안내받아 왔습니다'(안내를 받음)로 바뀌어, 다른 사람이 데려왔다는 의미가 약해지고 '안내'라는 다른 행위로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위): 'was brought'(누가 데려옴)가 '안내받아 왔다'로 바뀌어 행위 내용이 달라졌으나, 누군가의 인도로 왔다는 핵심과 앞 질문과의 대조는 남아 요지는 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Or'가 '아니면'으로, 'Most people were brought'가 '그랬고요'로 앞 내용을 이어받아 연결·지시 관계가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"질문과 자기 경험 진술 → 질문과 자기 경험 진술. 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'오신 건가요', '왔습니다'의 존댓말은 파티에서 처음 만난 사이의 대화에 무리 없이 맞으며 관계를 바꾸지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 표현이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 550,
+    "output_tokens": 755,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

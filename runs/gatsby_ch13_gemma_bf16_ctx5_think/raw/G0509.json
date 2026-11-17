@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8HihcNCe7xhpkNuFuE2",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0509\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"resorted to flank attacks\",\"tgt_span\":\"기습적인 공격을 퍼부었다\",\"description\":\"측면 공격으로 방향을 바꾸어 접근하는 전술 비유가 '기습적인 공격을 퍼부었다'로 옮겨져 비유의 뜻이 일부 달라졌으나, 이어지는 '갑자기 곁에 나타나'로 기습의 의미는 이해됨\"},{\"id\":\"E002\",\"src_span\":\"hissed\",\"tgt_span\":\"낮게 쏘아붙였다\",\"description\":\"쉿 소리를 내며 속삭이듯 내뱉는 동작이 '낮게 쏘아붙였다'로 옮겨져 뉘앙스가 약간 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'flank attacks'가 측면 공격이라는 전술 비유인데 '기습적인 공격을 퍼부었다'로 바뀌어 내용이 일부 달라졌으나, 아내가 남편에게 몰래 다가가 공격한다는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'after attempting … broke down'의 시간·인과 연결이 '애쓰다 결국 무너져 내려'로 유지되고, 지시 관계(그의 아내, 그의 곁)도 동일합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 인물 행동 서술 → 인물 행동 서술. 아내의 질투 어린 항의를 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"“약속했잖아요!”는 과거 약속을 상기시키는 말이며 의무·허가·금지를 새로 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"아내가 남편에게 하는 '약속했잖아요!'는 부부 사이 긴장된 항의로 자연스럽고 화자의 분노 태도도 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1107,
+    "output_tokens": 925,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

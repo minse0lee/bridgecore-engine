@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8Hi2A3ojkMYonqceRyU",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0494\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"raising her eyebrows at me in astonishment\",\"tgt_span\":\"놀라움에 눈썹을 치켜올리며 나를 쳐다보더니\",\"description\":\"눈썹을 치켜올리는 동작만 있던 원문에 '나를 쳐다보다'라는 별도 행위가 더해지고, 시간 순서도 '쳐다본 뒤 일어남'으로 바뀜. 다만 'at me'는 나를 향한 동작이므로 의미 변화는 작음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위): 'at me'를 향한 눈썹 치켜올림이 '나를 쳐다보다'라는 독립된 행위로 바뀌어 원문에 없는 행위가 더해졌으나, 핵심 사건(일어나 집사를 따라 감)은 유지되어 요지는 같습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사와 연결 관계, 초점 표현에 변화가 없습니다. 동시 동작이 '~더니' 순차 구성으로 바뀐 것은 한국어 재구성 범위 안입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사 기술 → 서사 기술. 인물의 동작을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 동작 묘사로 의무·허가·금지 표현이 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 청자 사이의 높임·호칭이 드러나는 대화가 아니라 서술문이며 평가할 관계 표현이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 별도로 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 739,
+    "output_tokens": 789,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

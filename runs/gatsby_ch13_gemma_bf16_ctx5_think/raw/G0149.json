@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8HTAF3oSp67U2eJu6np",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0149\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"We ought to plan something\",\"tgt_span\":\"우리 뭐라도 계획을 세워봐요\",\"description\":\"'ought to'(해야 한다/하는 게 좋겠다는 권고)가 '-해봐요'(청유)로 바뀌어 당위의 뉘앙스가 약해짐. 다만 화자가 무심하게 제안하는 대화이므로 기능은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"계획을 세우자는 내용, 하품하며 앉는 행위자(베이커 양), 침대에 눕는 듯한 비유가 모두 유지됩니다. 'Miss Baker'를 이름까지 풀어 쓴 것은 문단 맥락상 같은 인물입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계에 변화가 없습니다. 'as if'의 비유 관계와 앉는 동작과 하품의 동시성이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"무언가 계획하자는 제안 → 무언가 계획하자는 제안. 대화 속 제안 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"나른한 화자가 던지는 개인적 제안이며 의무·금지·자격을 정하는 규범 표현이 아니어서 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"친구 사이의 가벼운 대화에 맞는 '-봐요' 해요체이고, 서술부는 소설의 '-다' 문체로 관계에 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Miss'는 인명 앞 호칭으로 쓰였고, 제도·단위·관습 등 별도로 판정할 문화 고유 대상은 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 683,
+    "output_tokens": 803,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8HaiXTZ9YyJKeEp4my8",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0324\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"as the earth lurches away from the sun\",\"tgt_span\":\"지구가 태양으로부터 멀어지며 덜컥 기울어질수록\",\"description\":\"'지구가 태양에서 덜컥 멀어짐'이 '멀어지며 덜컥 기울어짐'으로 바뀌어 '기울어짐'이 첨가됨. 또한 'as'(동시 진행)가 '-ㄹ수록'(비례 관계)으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: lurch away(휙 멀어짐)에 없는 '기울어짐'이 더해져 지구의 움직임이 달라졌으나, 해 질 녘 조명이 밝아지는 장면의 요지는 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"as의 동시 진행 관계가 '-ㄹ수록'으로 점진적 대응 관계로 재구성되었어도 시간적 연결이 남아 있고, 대명사·초점 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"파티 장면 묘사 → 파티 장면 묘사. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 청자 사이의 관계가 드러나는 높임·호칭이 없는 소설 서술입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1168,
+    "output_tokens": 709,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

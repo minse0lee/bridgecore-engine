@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8Hf6pm5yvxSKbZzfE2n",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0425\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"two finger-bowls of champagne\",\"tgt_span\":\"손가락 씻는 그릇만 한 샴페인 잔으로 두 잔\",\"description\":\"finger-bowl(식탁에서 손가락을 씻는 그릇)을 담는 용기로 쓴 것을 '손가락 씻는 그릇만 한 샴페인 잔'이라는 크기 비유로 바꾸고 '잔'을 덧붙임. 용기는 유지되나 지칭이 달라짐.\"},{\"id\":\"E002\",\"src_span\":\"had changed before my eyes\",\"tgt_span\":\"변해 있었다\",\"description\":\"'마시자 풍경이 변했다'는 인과적 시간 흐름이 '변해 있었다'(대과거 완료 상태)로 옮겨졌으나 의미는 대체로 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상·수량): 샴페인을 손가락 씻는 그릇(finger-bowl) 두 개 분량으로 마셨다는 내용이 '그릇만 한 잔 두 잔'이라는 크기 비유로 바뀌어 용기와 양의 해석이 달라졌으나, 두 그릇이라는 수량과 많이 마셨다는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"샴페인을 마신 뒤 풍경이 변했다는 시간·인과 연결이 '마시자'로 유지되며 지시·초점 관계의 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"취기로 인한 인식 변화를 서술하는 기능 → 같은 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술자의 소설 서술체('-었다')가 유지되며 관계·격식 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"finger-bowl을 '손가락 씻는 그릇'으로 풀어 옮겨 식탁 용기를 가리키는 점은 이해 가능하며, 다른 제도·단위로 바꾸지는 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 807,
+    "output_tokens": 956,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8HXCu9scZQhYp5MrDcn",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0245\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"that’s the best thing a girl can be in this world, a beautiful little fool\",\"tgt_span\":\"이 세상에서 여자가 될 수 있는 가장 좋은 모습은 바로 예쁘고 작은 바보가 되는 것이니까요\",\"description\":\"원문은 별도 서술(대시)로 덧붙인 판단인데 번역은 '~니까요'로 앞 문장의 이유 절로 바꿈. 의미 변화는 거의 없으나 연결 관계가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"딸이라 다행이라는 것, 아이가 바보이길 바란다는 것, 예쁘고 작은 바보가 여자에게 최선이라는 평가가 모두 유지됩니다. 'best thing → 가장 좋은 모습'은 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대시로 덧붙인 설명을 '~니까요'로 이어 한국어로 재구성했으며, 바보가 되길 바라는 이유를 설명하는 관계는 남아 있어 지시·연결·초점이 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 씁쓸한 소망 진술 → 소망 진술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"can은 가능성·능력의 뜻이며 의무·허가·금지를 정하는 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"데이지가 말하는 사적인 회상 어조가 '~요/~죠' 구어체로 유지되어 관계와 상황에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1130,
+    "output_tokens": 800,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

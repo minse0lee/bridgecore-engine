@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8HSN1T5TuqFfjqMgmzd",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0128\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“You are!”\",\"tgt_span\":\"“그러시겠다!”\",\"description\":\"'You are!'는 앞선 발언(예: 'I'm busy' 류)에 대한 상대의 반박·맞장구 응답인데, '그러시겠다!'는 미래·추측 어미 '-겠-'을 쓴 빈정거리는 맞장구로 바뀌어 확실성(현재 사실 단정)이 달라지고 '그러시다'로 존대가 더해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): 현재 사실 단언 'You are!'가 추측·감탄 어미 '-겠다'로 옮겨져 확실성이 약간 달라졌으나 핵심 응답 내용(상대 말에 대한 호응)은 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사·연결·초점 표현이 없고 앞 발화에 대한 응답 관계는 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞 발화에 대한 반응(빈정대는 맞장구) → 같은 반응 기능으로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그러시겠다'의 높임 섞인 어투가 화자(술 취한 Tom 계열 인물)와 청자의 관계에 맞는지 판단하려면 대화 당사자 간 관계와 앞 발화 정보가 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 510,
+    "output_tokens": 752,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

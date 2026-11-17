@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8HMrmwVyiiMpeGDxwFt",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0026\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"eighty a month\",\"tgt_span\":\"한 달에 80달러\",\"description\":\"원문에 없는 통화 단위 '달러'를 보충함. 미국 배경이므로 같은 대상을 가리키며 의미·기능을 바꾸지 않는 통상적 보충이라 실질 오류는 아님.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"그가 집(낡은 판자 방갈로, 월 80)을 찾았고, 막판에 회사가 그를 워싱턴으로 보내 화자 혼자 시골로 갔다는 행위자·수량·인과가 유지됩니다. '달러'는 문맥상 당연한 보충입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but에 해당하는 대조('-는데')와 '바람에'로 이어지는 인과·시간 연결, 'alone'의 초점('혼자')이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(사건 전개 설명) → 서술. 발화 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 1인칭 평서체 '-었다/-되었다' 문어체가 유지되며 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"월세 80을 '80달러'로 표기하여 같은 통화·금액을 가리키며 다른 제도로 바꾸지 않았고, 워싱턴도 그대로 유지했습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1168,
+    "output_tokens": 715,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8HV2M6yV2nVD4mrjM6U",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0192\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"그녀가 베이커 양을 향해 돌아서 확인을 구하며 '그야말로 장미 같죠?'라고 묻는 내용이 그대로 유지됩니다. '동의를 구하듯'은 for confirmation과 같은 뜻이고 문장 분할은 허용 범위입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사 '그녀'와 베이커 양의 지시 관계가 유지되고 'absolute rose'가 앞 문장의 장미 비유를 이어받는 관계도 유지됩니다. 연결과 초점이 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"동의를 구하는 확인 질문 → 동의를 구하는 확인 질문. '-죠?'로 확인 요청 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술과 대화입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 베이커 양에게 하는 정중한 대화체('-죠?')가 앞 문장의 말투와 일치하며 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'베이커 양'은 인명 호칭뿐이며 별도로 판정할 문화 고유의 제도·단위는 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 631,
+    "output_tokens": 638,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

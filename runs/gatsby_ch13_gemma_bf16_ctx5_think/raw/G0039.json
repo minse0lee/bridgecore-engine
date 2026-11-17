@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8HNPdpGbnWQg9Xfadas",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0039\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"This isn’t just an epigram\",\"tgt_span\":\"이건 단순히 경구를 늘어놓는 것이 아니다\",\"description\":\"'epigram'(경구, 앞 문장이 경구라는 뜻)을 '경구를 늘어놓는 것'으로 옮겨 앞 진술이 경구가 아니라 실제 진리라는 주장이 '경구를 나열하는 행위'가 아니라는 말로 바뀜. 다만 핵심 대상은 유지됨.\"},{\"id\":\"E002\",\"src_span\":\"life is much more successfully looked at from a single window, after all\",\"tgt_span\":\"결국 인생이란 단 하나의 창문을 통해 바라볼 때 훨씬 더 성공적으로 보이기 마련이니까\",\"description\":\"'-니까'로 이유를 나타내 앞 문장과의 연결이 '근거 제시'로 읽히며, 원문의 대시를 통한 부연·설명 관계와 약간 다름. 또한 '성공적으로 보인다'는 'successfully looked at'(성공적으로 바라보게 됨)과 약간 다름.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'This isn't just an epigram'(이것은 단순한 경구가 아니다)이 '경구를 늘어놓는 것이 아니다'로 바뀌어 대상이 말 자체가 아닌 말하는 행위로 달라졌으나 핵심 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-니까'와 '결국'이 대시 뒤 부연과 after all의 근거 연결을 한국어로 자연스럽게 재구성해 질문 1·2·3 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 주장·해명 서술 → 주장·해명 서술. 발화 기능이 동일하게 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회상 서술의 평서체 '-다'가 유지되고 화자의 약간 자조적인 태도도 크게 변하지 않았습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1184,
+    "output_tokens": 993,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

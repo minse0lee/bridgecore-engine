@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8HM1qcaNHcbbHTdFtgd",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0010\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I don’t care what it’s founded on\",\"tgt_span\":\"그것이 무엇에 근거했는지는 더 이상 상관없게 된다\",\"description\":\"화자 1인칭의 태도('나는 상관하지 않는다')가 주체 없는 상황 서술('상관없게 된다')로 바뀜. 다만 앞뒤 문맥상 화자 시점으로 읽혀 의미 변화는 경미함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"행실의 기반이 바위든 늪지든, 어느 시점 이후에는 무엇에 근거했는지 상관하지 않는다는 내용이 유지됩니다. '상관없게 된다'는 화자의 무관심을 같은 사태로 기술하며 E001은 의미·기능을 바꾸지 않는 표현 차이로 봅니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-든 ~든, 어느 정도가 지나면'으로 양보와 한계 시점의 대조 연결이 유지되고 it이 가리키는 행실도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 관용에 한계가 있음을 밝히는 서술 → 같은 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"may는 가능성(~일 수도 있다)을 나타내는 용법이며 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술자의 담담한 서술체가 '~된다' 평서체로 유지되며 관계·태도 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도에 고유한 대상이 없고 바위와 늪지는 비유적 일반 어휘입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1764,
+    "output_tokens": 787,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8Hr6oZgpZEsyhUwibmH",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0339\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I was immediately struck by the number of young Englishmen\",\"tgt_span\":\"젊은 영국인들이 곧바로 눈에 띄었다\",\"description\":\"수량(the number of)이 빠지고 영국인들이 눈에 띄었다는 서술로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(수량): 'the number of young Englishmen'(많은 수의 영국인)에 대한 인상이 단순히 '영국인들이 눈에 띄었다'로 바뀌어 수량 요소가 빠졌습니다. 영국인들이 많이 흩어져 있다는 점은 '여기저기 흩어져 있는'으로 어느 정도 전달되어 요지는 유지되므로 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"all이 가리키는 대상(영국인들)과 문장 간 연결이 유지되며, 'but' 성격의 대조('말끔했지만 굶주린 기색')도 자연스럽게 재구성되었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 관찰 서술 → 관찰 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 소설 서술의 평서체 문체(~었다)가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"English/American 국적 구분이 '영국인/미국인'으로 정확히 옮겨져 대상이 같습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1140,
+    "output_tokens": 719,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

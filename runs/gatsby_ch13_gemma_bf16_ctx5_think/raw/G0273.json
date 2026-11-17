@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8HYTGsFozLkokJCfyAL",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0273\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"They oughtn’t to let her run around the country this way.\",\"tgt_span\":\"집안에서 이렇게 전국을 돌아다니게 놔둬선 안 되는 건데 말이야.\",\"description\":\"막연한 They(주변 사람들·보호자)가 '집안'으로 구체화되어 허용 주체가 좁혀지고, 원문에 없는 정보가 더해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위자): 불특정 They가 '집안'으로 한정되었으나, 그녀를 돌아다니게 놔두면 안 된다는 핵심 내용은 유지되어 요지는 달라지지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현의 대상이나 관계는 바뀌지 않았고, her의 생략은 한국어에서 자연스러운 생략입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰의 비판적 논평 → 톰의 비판적 논평. 발화 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"oughtn't to의 규범적 부정 권고가 '놔둬선 안 되는 건데'로 유지됩니다. 허용 주체의 구체화는 Semantic에서 다루었고, 규범 범주와 강도는 변하지 않았습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 혼잣말처럼 평하는 구어체가 '~건데 말이야'로 자연스럽게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 별도로 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 536,
+    "output_tokens": 759,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

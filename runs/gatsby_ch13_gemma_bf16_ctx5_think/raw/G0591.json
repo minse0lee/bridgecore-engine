@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8Hn5nhBz8dM8tJV64W4",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0591\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"they absorbed me infinitely less than my personal affairs\",\"tgt_span\":\"내 개인적인 일들만큼 나를 사로잡지는 못했다\",\"description\":\"'infinitely less than'(비교할 수 없을 만큼 훨씬 덜 사로잡음)이 '~만큼 …못했다'로 옮겨져 정도 차이가 약해짐. 평가어의 정도 변화에 해당함\"},{\"id\":\"E002\",\"src_span\":\"a crowded summer\",\"tgt_span\":\"분주한 여름날\",\"description\":\"'여름'(계절 전체)이 '여름날'로 바뀌어 범위가 약간 좁아졌으나 뜻은 통함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"세 밤의 사건이 바쁜 여름의 스쳐 가는 일이었고 개인사보다 덜 사로잡았다는 핵심 내용이 유지되며, 'infinitely'의 정도 약화는 평가어의 정도 변화로 보존에 해당합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"On the contrary가 '하지만 사실'로 앞 문장의 인상에 반박하는 대조 관계를 유지하고, 'until much later'의 시간 범위와 'merely'의 초점도 '그저…불과했으며'로 유지되며, 'they'는 '그 일들'로 같은 대상을 가리킵니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞선 인상을 바로잡는 서술 설명 → 바로잡는 서술 설명으로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문으로 의무·허가·금지 등의 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회고 서술의 평서체 문어체가 유지되며 관계에 따른 높임이나 호칭 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 별도로 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 759,
+    "output_tokens": 872,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

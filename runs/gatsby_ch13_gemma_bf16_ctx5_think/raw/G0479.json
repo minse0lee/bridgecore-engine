@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8HhNqir4CSNBGxGBvyM",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0479\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개츠비 씨의 요청, 연주 예고, 지난 5월 카네기 홀에서의 큰 주목, 신문을 읽었다면 아는 큰 화제라는 내용이 모두 유지됩니다. 'last May'의 '지난 5월'은 원문에 있는 시간 정보의 정확한 대응입니다(힌트의 수치 5는 이 번역에서 나온 것).\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'which' 관계절은 '~했던 최신작'으로, 'If you read the papers you know'의 조건 관계는 '보신 분들은 아시겠지만'으로 유지되어 지시·연결 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"연주 소개와 청중에 대한 안내 설명 → 연주 소개와 안내 설명. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"연주 예고와 사실 설명이며 의무·허가·금지 등 규범 표현이 없습니다. 힌트의 may 후보는 이 문장에 실제로 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지휘자가 청중에게 공손히 안내하는 장면에 맞게 '~드리겠습니다', '~죠' 같은 공손한 존대 표현이 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"카네기 홀이라는 공연장 이름이 통용 표기로 옮겨졌고, 다른 제도나 단위로 바뀐 것이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1105,
+    "output_tokens": 715,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

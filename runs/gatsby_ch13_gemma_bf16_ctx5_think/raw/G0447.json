@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8HfzCRVYY76VYMDbGaA",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0447\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"old sport\",\"tgt_span\":\"친구\",\"description\":\"Gatsby 특유의 구어적 호칭 'old sport'가 일반 호칭 '친구'로 바뀌어 화자의 말버릇 및 격식 있는 친근함이 약해짐\"},{\"id\":\"E002\",\"src_span\":\"I’m afraid I’m not a very good host\",\"tgt_span\":\"제가 주인의 도리를 다하지 못한 모양이군요\",\"description\":\"'not a very good host'(썩 훌륭한 주인은 아니다)가 '주인의 도리를 다하지 못한'으로 바뀌고 'I'm afraid'가 추측형 '모양이군요'로 옮겨져 정도와 완곡한 사과 어조가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"알고 있는 줄 알았다는 내용과 좋은 주인이 못 된다는 평가가 유지되며, 'not very good'이 '도리를 다하지 못한'으로 정도만 다소 강해졌을 뿐 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현이 바뀌지 않았고 두 문장의 관계(상대가 알 줄 알았다→주인 노릇이 부족했다)가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"완곡한 해명·사과 → 완곡한 해명·사과. 발화 기능이 동일합니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3: 'old sport'는 Gatsby 특유의 친밀하고 격식 있는 호칭인데 평범한 '친구'로 바뀌어 화자 고유의 태도가 약해졌습니다. 존대 말투는 관계에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습 대상이 없고, 호칭의 문제는 Register에서 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 518,
+    "output_tokens": 904,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

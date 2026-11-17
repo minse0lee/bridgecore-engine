@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8HX9C9qpgDpN2zTZrgh",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0241\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"It’ll show you\",\"tgt_span\":\"알게 될 거예요\",\"description\":\"주어 'It'(앞서 언급된 것이 보여 줄 것)이 사라지고 '(당신이) 알게 될 것'으로 바뀜. 다만 It의 지시 대상은 앞 문맥에서 이어지므로 의미 변화는 경미함\"},{\"id\":\"E002\",\"src_span\":\"how I’ve gotten to feel about—things\",\"tgt_span\":\"내가... 세상사에 대해 어떤 마음을 갖게 됐는지\",\"description\":\"'things'를 '세상사'로 구체화하고 'how I feel'을 '어떤 마음'으로 옮김. 화자의 끊긴 말투(—)는 '...'로 옮겨져 대체로 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'It'이 보여 준다는 주체가 사라지고 청자가 알게 된다는 표현으로 바뀌었으며, 막연한 'things'가 '세상사'로 구체화되어 내용이 약간 달라졌으나 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 지시 대명사 'It'이 번역문에서 사라져 무엇이 보여 주는지 가리키는 관계가 끊겼습니다. 앞 문맥(딸 이야기)과의 연결이 약해졌으나 문장 요지는 유지되어 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 심경 서술을 예고하는 설명 → 심경 서술을 예고하는 설명. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"친구에게 털어놓는 구어적 대화체가 '-예요' 체로 자연스럽게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 표현이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 908,
+    "output_tokens": 900,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

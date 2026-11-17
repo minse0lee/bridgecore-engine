@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8Hi3omWQW6T3N34NWgb",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0495\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I noticed that she wore her evening-dress, all her dresses, like sports clothes\",\"tgt_span\":\"그녀가 입은 이브닝드레스, 아니 그녀의 모든 드레스는 마치 운동복처럼 보였다\",\"description\":\"'I noticed that'(화자가 알아챔)이 누락되고, 'wore … like sports clothes'(운동복처럼 입는다는 습관적 착장 방식)가 '운동복처럼 보였다'로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"as if she had first learned to walk upon golf courses\",\"tgt_span\":\"마치 … 골프 코스에서 처음 걷는 법을 배운 사람 같았다\",\"description\":\"'그녀가 걷는 법을 처음 배운 것 같다'는 비유가 '배운 사람 같았다'로 옮겨져 비교 대상이 약간 달라졌으나 의미는 거의 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'I noticed'(관찰 주체)가 빠지고 '운동복처럼 입었다'가 '운동복처럼 보였다'로 바뀌었으나, 핵심 인상과 비유는 유지되어 요지는 크게 달라지지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사 지시, 대시로 이어진 연결(옷 → 움직임), 'as if' 비유 관계가 한국어 문장 분할 후에도 유지되고 초점 표현 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 묘사 서술 → 인물 묘사 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 소설 묘사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 '-었다'가 유지되며 화자·청자 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"이브닝드레스, 운동복, 골프 코스 같은 대상이 같은 것을 가리키며 한국어 독자가 이해할 수 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 828,
+    "output_tokens": 927,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

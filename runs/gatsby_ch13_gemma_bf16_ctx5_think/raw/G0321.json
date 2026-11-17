@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8HaeV7u5rh6FwRG2xup",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0321\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"By seven o’clock the orchestra has arrived\",\"tgt_span\":\"7시가 되면 오케스트라가 도착하는데\",\"description\":\"'By seven o'clock'(7시까지는 이미 도착)·현재완료가 '7시가 되면'(7시 시점의 도착)으로 바뀌어 완료 시점의 의미가 약해짐. 다만 같은 문단의 현재형 서술 맥락에서는 사태가 거의 같게 읽힘.\"},{\"id\":\"E002\",\"src_span\":\"no thin five-piece affair\",\"tgt_span\":\"고작 다섯 명으로 구성된 초라한 규모\",\"description\":\"five-piece(다섯 악기 편성)를 '다섯 명'으로 옮김. 5인조 편성이므로 사실상 같은 대상을 가리키며, 힌트의 수치 5는 원문 five의 번역이라 오경보임.\"},{\"id\":\"E003\",\"src_span\":\"a whole pitful of oboes and trombones and saxophones and viols and cornets and piccolos, and low and high drums\",\"tgt_span\":\"크고 작은 드럼들이 연주자석을 가득 메운 대규모 편성\",\"description\":\"'low and high drums'(낮은 음과 높은 음의 드럼)를 '크고 작은 드럼'으로 옮기고, pitful(오케스트라 피트 가득)을 '연주자석을 가득 메운'으로 옮김. 통상적 대응 범위로 사태는 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"오케스트라 도착, 다섯 명 편성이 아닌 대규모 편성, 열거된 악기가 모두 유지됩니다. 'By seven'이 '7시가 되면'으로 바뀐 것과 low/high가 '크고 작은'으로 바뀐 것은 사태를 바꾸지 않는 통상적 대응입니다. 힌트의 수치 5는 five의 번역이라 오경보입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'no thin... but a whole pitful'의 대조 구조가 '~가 아니라 ~'로 유지되고 지시 관계도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"파티 장면 묘사 → 파티 장면 묘사. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체('~이다')로 서술 어조가 유지되며 화자·청자 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1379,
+    "output_tokens": 1115,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

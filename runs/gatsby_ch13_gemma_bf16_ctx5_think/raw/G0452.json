@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8HgDgXXjKAYviNj6P2g",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0452\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I was looking at\",\"tgt_span\":\"내 눈앞에는 … 서 있었다\",\"description\":\"'내가 보고 있었다'는 지각 행위가 '눈앞에 서 있었다'는 존재 서술로 바뀌었으나 같은 사태를 기술해 의미는 유지됨\"},{\"id\":\"E002\",\"src_span\":\"just missed being absurd\",\"tgt_span\":\"하마터면 우스꽝스럽게 들릴 정도였다\",\"description\":\"'우스꽝스러움을 간신히 피했다'는 의미가 '하마터면 우스꽝스럽게 들릴 뻔했다'로 옮겨졌으나 의미는 동일함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"미소가 사라진 시점, 서른 한두 살 넘긴 우아한 젊은 건달, 격식 차린 말투가 우스꽝스러움을 간신히 면했다는 내용이 모두 유지되며 수치(서른, 한두 살)도 정확합니다. 목록의 차이는 의미를 바꾸지 않는 표현 조정입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그 순간 미소가 사라졌다'는 시간 연결과 whose 관계절의 소유 관계(그의 말투)가 유지됩니다. '하지만'은 원문에 없는 연결어이나 앞의 미소와 대비되는 전환 관계를 나타내 바뀐 관계가 아닙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 인물 묘사·서술 → 인물 묘사·서술. 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설의 서술 문장으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술자의 평서 서술체가 유지되고 화자·청자 관계에서 문제 되는 높임이나 호칭 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화 고유의 제도·단위·관습 같은 판정 대상이 없습니다. roughneck의 '건달' 대응은 통상적인 어휘 선택입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1386,
+    "output_tokens": 920,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

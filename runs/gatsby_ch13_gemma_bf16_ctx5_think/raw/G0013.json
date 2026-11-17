@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8HpymNjAJaHLRCepZpX",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0013\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"ten thousand miles away\",\"tgt_span\":\"만 마일 밖의\",\"description\":\"ten thousand miles를 '만 마일'로 옮겼으며 10,000마일과 같아 수치는 유지됨. 오류 아님을 확인했으나 아래 E001은 다른 차이 기록용으로 쓰지 않음.\"},{\"id\":\"E002\",\"src_span\":\"there was something gorgeous about him\",\"tgt_span\":\"그에게는 분명 화려한 무언가가 있었다\",\"description\":\"원문에 없는 '분명'이 더해져 확실성이 단정에 가까워짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1(확실성): '분명'이 첨가되어 something gorgeous가 단정적으로 읽히나, 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"If…then 조건 관계가 '만약 ~라면'으로, as if 비유 관계가 '마치 ~ 것만 같았다'로 유지되고 지시 관계도 같습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 묘사 서술 → 인물 묘사 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회고 서술의 문어체 평서 어조가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"mile은 숫자와 단위가 그대로 유지되어 환산이나 제도 변경이 없고 별도 문화 고유 대상으로 판정할 것이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1879,
+    "output_tokens": 754,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

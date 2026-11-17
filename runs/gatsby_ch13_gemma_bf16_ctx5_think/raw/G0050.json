@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch8HNvdtS3uqPcPA1r3oq",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0050\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"it had been overlooked\",\"tgt_span\":\"워낙 보잘것없어 무시당한 덕분에\",\"description\":\"'overlooked'는 (집주인들이) 간과했다는 뜻으로 이 집이 눈에 띄지 않아 남아 있었다는 의미인데, '보잘것없어 무시당한'으로 옮겨 원인(보잘것없음)을 덧붙이고 '덕분에'로 인과를 재구성함. 다만 '무시당했다'가 '간과되었다'와 대체로 통해 핵심 사태는 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"overlooked를 '무시당한'으로 옮기고 '워낙 보잘것없어'를 더했지만, 작은 흉물이라 간과되어 전망을 누렸다는 같은 사태를 기술하며 수량·대상·행위가 달라지지 않았습니다. 수치(80달러, 백만장자)도 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"so로 이어지는 인과 관계가 '덕분에'로 유지되고, 'all for eighty dollars a month'는 별도 문장으로 분리되었어도 앞 내용 전체에 걸리는 관계가 '이 모든 것'으로 남아 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 집에 대한 자조적 서술 → 자조적 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회상 서술의 평서체 '-았다'가 유지되며 관계상 어긋남이 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"달러 단위를 그대로 유지했고 다른 통화나 제도로 바꾸지 않았습니다. 자동 힌트의 수치 경보는 'millionaires'를 숫자로 인식한 오경보로 보입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1622,
+    "output_tokens": 868,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
