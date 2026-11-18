@@ -154,6 +154,7 @@ def main(argv=None):
     p.add_argument("--prompts", type=Path, required=True); p.add_argument("--segments", type=Path, required=True)
     p.add_argument("--out", type=Path, required=True); p.add_argument("--model", default="claude-opus-5-5")
     p.add_argument("--effort", default="medium"); p.add_argument("--live", action="store_true")
+    p.add_argument("--record", type=Path, help="앞 실행의 record.json에서 이어 가기(일부 구간만 다시 돌릴 때)")
     a = p.parse_args(argv)
     P = load_prompts(a.prompts)
     data = json.loads(a.segments.read_text(encoding="utf-8"))
@@ -163,7 +164,8 @@ def main(argv=None):
     client = get_client()
     a.out.mkdir(parents=True, exist_ok=True)
     log = []
-    rec = {"approved_terms": [], "decisions": []}
+    rec = (json.loads(a.record.read_text(encoding="utf-8")) if a.record
+           else {"approved_terms": [], "decisions": []})
     for seg in data["segments"]:
         res = run_segment(client, a.model, a.effort, P, data["book"], data["settings"], seg, log, rec)
         for t in res["B"]["preservation"]["approved_terms"]:
