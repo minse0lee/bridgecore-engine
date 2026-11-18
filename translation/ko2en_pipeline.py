@@ -167,7 +167,21 @@ def main(argv=None):
     rec = (json.loads(a.record.read_text(encoding="utf-8")) if a.record
            else {"approved_terms": [], "decisions": []})
     for seg in data["segments"]:
-        res = run_segment(client, a.model, a.effort, P, data["book"], data["settings"], seg, log, rec)
+        done = a.out / f"{seg['id']}.json"
+        if done.exists():   # 이어 실행: 끝난 구간은 건너뛰되 기록은 다시 쌓는다
+            res = json.loads(done.read_text(encoding="utf-8"))
+            for t in res["B"]["preservation"]["approved_terms"]:
+                if t not in rec["approved_terms"]:
+                    rec["approved_terms"].append(t)
+            if not any(d["pid"] == x["pid"] and d["ko"] == x["ko"] for d in res["A"]["decisions"] for x in rec["decisions"]):
+                rec["decisions"] += res["A"]["decisions"]
+            print(seg["id"], "이미 완료 — 건너뜀", flush=True)
+            continue
+        try:
+            res = run_segment(client, a.model, a.effort, P, data["book"], data["settings"], seg, log, rec)
+        except Exception as e:   # 크레딧 부족·네트워크 등: 끝난 구간은 이미 저장됨. 키를 바꿔 같은 명령으로 다시 실행하면 이어진다
+            print(seg["id"], "중단:", type(e).__name__, str(e)[:300], flush=True)
+            break
         for t in res["B"]["preservation"]["approved_terms"]:
             if t not in rec["approved_terms"]:
                 rec["approved_terms"].append(t)
@@ -175,9 +189,11 @@ def main(argv=None):
         (a.out / "record.json").write_text(json.dumps(rec, ensure_ascii=False, indent=1), encoding="utf-8")
         (a.out / f"{seg['id']}.json").write_text(json.dumps(res, ensure_ascii=False, indent=1), encoding="utf-8")
         print(seg["id"], "완료", [(x["stage"], x["sec"]) for x in log if x["seg"] == seg["id"]], flush=True)
+    if not log:
+        print("새로 돌린 구간 없음"); return
     tot = {k: sum(x["usage"][k] for x in log) for k in log[0]["usage"]}
-    (a.out / "run_log.json").write_text(json.dumps({"model": a.model, "effort": a.effort, "log": log, "total": tot},
-                                                   ensure_ascii=False, indent=1), encoding="utf-8")
+    (a.out / f"run_log_{time.strftime('%Y%m%d_%H%M%S')}.json").write_text(  # 이어 실행마다 따로 남김
+        json.dumps({"model": a.model, "effort": a.effort, "log": log, "total": tot}, ensure_ascii=False, indent=1), encoding="utf-8")
     print("토큰 합계", tot)
 
 
