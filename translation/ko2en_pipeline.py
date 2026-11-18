@@ -113,9 +113,18 @@ def fmt_en(paras):
     return "\n\n".join(f"[{p['pid']}] {p['en']}" for p in paras)
 
 
-def run_segment(client, model, effort, P, book, settings, seg, log):
+def record_text(rec):
+    """앞 구간에서 쌓인 기록(승인 표기·번역 결정)을 다음 구간에 넘긴다 — 책 전체 용어 일관성용"""
+    if not rec["approved_terms"] and not rec["decisions"]:
+        return ""
+    dec = "\n".join(f"- {d['pid']} [{d['kind']}] {d['ko']} → {d['en']}" for d in rec["decisions"][-60:])
+    return ("[최신 프로젝트 기록 — 앞 구간에서 정한 것. 같은 표현은 같은 영어로, 이미 한 첫 설명은 반복하지 않는다]\n승인 표기: "
+            + " | ".join(rec["approved_terms"][-120:]) + "\n번역 결정:\n" + dec + "\n\n")
+
+
+def run_segment(client, model, effort, P, book, settings, seg, log, rec=None):
     common = f"\n\n[공통 원칙 G0]\n{P['G0']}\n\n[도서별 기준(G2) — 사용자 승인 범위]\n{settings}"
-    ctx = (f"[도서 정보]\n{json.dumps(book, ensure_ascii=False)}\n\n[앞 문맥 — 번역하지 않음]\n" + ("\n\n".join(seg['before']) or "(없음)") +
+    ctx = (record_text(rec or {"approved_terms": [], "decisions": []}) + f"[도서 정보]\n{json.dumps(book, ensure_ascii=False)}\n\n[앞 문맥 — 번역하지 않음]\n" + ("\n\n".join(seg['before']) or "(없음)") +
            f"\n\n[번역 대상 구간 {seg['id']}]\n{fmt_paras(seg['paras'])}\n\n[뒤 문맥 — 번역하지 않음]\n" + ("\n\n".join(seg['after']) or "(없음)"))
     out = {}
     a, u, s = call(client, model, P["A"] + common + API_NOTE, ctx + "\n\n위 구간을 번역해 주세요.", SCHEMA["A"], effort)
@@ -154,8 +163,14 @@ def main(argv=None):
     client = get_client()
     a.out.mkdir(parents=True, exist_ok=True)
     log = []
+    rec = {"approved_terms": [], "decisions": []}
     for seg in data["segments"]:
-        res = run_segment(client, a.model, a.effort, P, data["book"], data["settings"], seg, log)
+        res = run_segment(client, a.model, a.effort, P, data["book"], data["settings"], seg, log, rec)
+        for t in res["B"]["preservation"]["approved_terms"]:
+            if t not in rec["approved_terms"]:
+                rec["approved_terms"].append(t)
+        rec["decisions"] += res["A"]["decisions"]
+        (a.out / "record.json").write_text(json.dumps(rec, ensure_ascii=False, indent=1), encoding="utf-8")
         (a.out / f"{seg['id']}.json").write_text(json.dumps(res, ensure_ascii=False, indent=1), encoding="utf-8")
         print(seg["id"], "완료", [(x["stage"], x["sec"]) for x in log if x["seg"] == seg["id"]], flush=True)
     tot = {k: sum(x["usage"][k] for x in log) for k in log[0]["usage"]}
