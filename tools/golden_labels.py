@@ -2,6 +2,7 @@
 
     python tools/golden_labels.py check  R003.xlsx                      # 빈칸 점검(300문항 전체, 개수만)
     python tools/golden_labels.py score  R003.xlsx runs/golden_dev100_v1_1_r1   # 개발 100문항만 엔진과 비교
+    python tools/golden_labels.py consensus R001.xlsx R002.xlsx R003.xlsx --run runs/golden_dev100_v1_1_r1 --out data/golden/consensus_dev.jsonl
 
 - v3 평가 시트 열: 문항ID, 평가축, ①평가 대상?, ②훼손 기준?, 판정(자동), 심각도, 오류ID, 원문 근거구간, 번역문 근거구간,
   판정이유/보류사유, 최종판정, 최종 심각도, 변경사유, 지침·문맥 의견 (bridgecore.loader는 v1·v2 열 배치라 쓰지 않음)
@@ -157,12 +158,82 @@ def cmd_score(a):
         print("→", a.out)
 
 
+def fleiss(rows, cats):
+    """rows: 문항마다 [판정, ...] (모두 같은 평가자 수)"""
+    n = len(rows[0]); N = len(rows)
+    if N == 0:
+        return None
+    p_j = {c: sum(r.count(c) for r in rows) / (N * n) for c in cats}
+    P_i = [(sum(r.count(c) ** 2 for c in cats) - n) / (n * (n - 1)) for r in rows]
+    Pb, Pe = sum(P_i) / N, sum(v * v for v in p_j.values())
+    return round((Pb - Pe) / (1 - Pe), 3) if Pe < 1 else None
+
+
+def cmd_consensus(a):
+    """개발 문항만: 평가자 다수결(훼손 / 훼손 아님, 3분류) + Fleiss kappa + (선택) 엔진 비교"""
+    sp = split_map()
+    raters = {}
+    for x in a.xlsx:
+        rid, rows = load_v3(x)
+        raters[rid] = {(r["item_id"], r["axis"]): r for r in rows if sp.get(r["item_id"]) == "개발"}
+    ids = sorted(raters)
+    keys = sorted(set.intersection(*[set(v) for v in raters.values()]))
+    cons, stats = [], defaultdict(Counter)
+    for k in keys:
+        js = [raters[r][k]["judgment"] for r in ids]
+        valid = [j for j in js if j not in (None, "판단보류")]
+        c3 = Counter(valid)
+        top, cnt = (c3.most_common(1)[0] if c3 else (None, 0))
+        label3 = top if cnt * 2 > len(valid) and len(valid) >= 2 else None
+        v = sum(j == "훼손" for j in valid)
+        nv = len(valid) - v
+        bin_ = "훼손" if v > nv and len(valid) >= 2 else ("훼손 아님" if nv > v and len(valid) >= 2 else None)
+        sevs = [raters[r][k]["severity"] for r in ids if raters[r][k]["judgment"] == "훼손" and raters[r][k]["severity"]]
+        cons.append({"item_id": k[0], "axis": k[1], "judgments": dict(zip(ids, js)), "n_valid": len(valid),
+                     "majority3": label3, "violated": bin_, "unanimous": len(set(valid)) == 1 and len(valid) == len(ids),
+                     "severities": sevs})
+        st = stats[k[1]]
+        st["n"] += 1; st["unresolved"] += bin_ is None; st["violated"] += bin_ == "훼손"
+        st["unanimous"] += len(set(valid)) == 1 and len(valid) == len(ids)
+    print("평가자", ids, "· 개발 문항-축", len(keys))
+    print("축 | n | 다수결 훼손 | 결론 없음(동수·보류) | 만장일치 | Fleiss kappa(훼손 여부) | Fleiss kappa(3분류)")
+    for ax in AXES + ["전체"]:
+        ks = [c for c in cons if ax == "전체" or c["axis"] == ax]
+        full = [c for c in ks if c["n_valid"] == len(ids)]
+        kb = fleiss([["훼손" if j == "훼손" else "아님" for j in c["judgments"].values()] for c in full], ["훼손", "아님"])
+        k3 = fleiss([list(c["judgments"].values()) for c in full], ["훼손", "보존", "N/A"])
+        print(f"{ax} | {len(ks)} | {sum(c['violated'] == '훼손' for c in ks)} | {sum(c['violated'] is None for c in ks)} | "
+              f"{sum(c['unanimous'] for c in ks)} | {kb} | {k3}")
+    if a.run:
+        eng = _engine(a.run)
+        tot = Counter(); per = defaultdict(Counter)
+        for c in cons:
+            e = eng.get(c["item_id"], {}).get(c["axis"])
+            if e is None or c["violated"] is None:
+                continue
+            ev, hv = e.get("judgment") == "훼손", c["violated"] == "훼손"
+            for t in (per[c["axis"]], tot):
+                t["tp"] += ev and hv; t["fp"] += ev and not hv; t["fn"] += (not ev) and hv; t["n"] += 1
+            c["engine"] = e.get("judgment"); c["engine_severity"] = e.get("severity"); c["engine_reason"] = e.get("reason")
+        print("엔진 vs 다수결 | n | 정밀도 | 재현율 | F1 | 다수결 훼손 | 엔진 훼손")
+        fmt = lambda x: "-" if x is None else f"{x:.2f}"
+        for ax in AXES + ["전체"]:
+            t = tot if ax == "전체" else per[ax]
+            pr, rc, f = prf(t["tp"], t["fp"], t["fn"])
+            print(f"{ax} | {t['n']} | {fmt(pr)} | {fmt(rc)} | {fmt(f)} | {t['tp'] + t['fn']} | {t['tp'] + t['fp']}")
+    if a.out:
+        Path(a.out).write_text("".join(json.dumps(c, ensure_ascii=False) + "\n" for c in cons), encoding="utf-8")
+        print("→", a.out)
+
+
 def main(argv=None):
     p = argparse.ArgumentParser()
     sub = p.add_subparsers(dest="cmd", required=True)
     s = sub.add_parser("check"); s.add_argument("xlsx"); s.set_defaults(fn=cmd_check)
     s = sub.add_parser("score"); s.add_argument("xlsx"); s.add_argument("run_dir"); s.add_argument("--out")
     s.set_defaults(fn=cmd_score)
+    s = sub.add_parser("consensus"); s.add_argument("xlsx", nargs="+"); s.add_argument("--run"); s.add_argument("--out")
+    s.set_defaults(fn=cmd_consensus)
     a = p.parse_args(argv)
     a.fn(a)
 
