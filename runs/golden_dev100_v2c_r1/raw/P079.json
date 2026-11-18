@@ -1,10 +1,10 @@
 {
-  "id": "msg_011Ch9vg3XenJEUuyX22muyo",
+  "id": "msg_011ChA3JnT2bauHLDi3kpBkC",
   "container": null,
   "content": [
     {
       "citations": null,
-      "text": "{\"item_id\":\"P079\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"message #6 appears (like message #1)\",\"tgt_span\":\"메시지 #6이 나타나고\",\"description\":\"\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 원문의 '(like message #1)'(메시지 #6이 #1처럼 나타남) 비교 정보가 번역에서 빠졌습니다. 핵심 사실(#6 나타남, #7 안 나타남, #2와 같음)은 유지되어 요지는 같으므로 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"남아 있는 '이전과 같으므로'의 인과와 '#2와 같습니다'의 지시 관계는 원문과 같고, #1 비교 구절 누락은 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"코드 동작 결과 설명 → 코드 동작 결과 설명. 설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 동작 설명 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학습자료의 '~습니다' 설명체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "text": "{\"item_id\":\"P079\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"message #6 appears (like message #1)\",\"tgt_span\":\"메시지 #6이 나타나고\",\"description\":\"'(like message #1)' 비교 구절이 번역에서 누락됨 (메시지 #6이 #1과 같다는 설명)\"},{\"id\":\"E002\",\"src_span\":\"whereas\",\"tgt_span\":\"나타나고 메시지 #7은 나타나지 않습니다\",\"description\":\"대조 접속 whereas가 '-고'로 옮겨져 단순 나열처럼 보이나 대비는 문맥상 유지됨. 오류 아님이므로 실질 오류는 E001뿐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: '(like message #1)'이 통째로 빠져 #6이 #1과 같은 경우라는 비교 정보가 사라졌으나, 핵심 사실(#6 나타남, #7 안 나타남, #2와 같음)은 유지되고 독자 행동에도 영향이 없어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"누락은 Semantic에서만 판정하며, 남은 표현에서 '-고'로 이어진 대비와 '#2와 같습니다'의 지시 대상은 문맥상 분명해 지시·연결·범위가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"코드 동작 결과 설명 → 코드 동작 결과 설명. 설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 동작 결과 설명입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학습자료의 설명체가 '~습니다'로 유지되어 독자 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
       "type": "text"
     }
   ],
@@ -24,7 +24,7 @@
     "cache_read_input_tokens": 15549,
     "inference_geo": "global",
     "input_tokens": 1165,
-    "output_tokens": 617,
+    "output_tokens": 805,
     "output_tokens_details": {
       "thinking_tokens": 0
     },

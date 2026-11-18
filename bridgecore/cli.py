@@ -226,7 +226,7 @@ def _gen_kwargs(args):
 
 
 def _sync_kwargs(args):
-    return {"workers": args.workers}
+    return {"workers": args.workers, "retries": getattr(args, "retries", 2)}
 
 
 def cmd_run(args):
@@ -444,6 +444,8 @@ def _model_args(s, default_model):
                    help="사고 깊이 (default = 모델 기본값)")
     s.add_argument("--no-thinking", action="store_true", help="적응형 사고 끄기")
     s.add_argument("--workers", type=int, default=1, help="동기 실행 시 동시 호출 수")
+    s.add_argument("--retries", type=int, default=2,
+                   help="형식·API 오류 문항 재호출 횟수 (사전등록 규칙: 최대 2회, 그래도 실패하면 미판정으로 따로 보고)")
     s.add_argument("--live", action="store_true", help="실제 API 호출 (없으면 드라이런)")
     s.add_argument("--batch", action="store_true", help="Message Batches로 제출 (결과는 collect)")
 

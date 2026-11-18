@@ -227,7 +227,7 @@ def _log(rec: dict) -> None:
 def run(items: list[dict], model: str, version: str, run_name: str | None, live: bool,
         out_root: Path, max_tokens: int = 16000, screen: bool = False, client=None,
         extra_meta: dict | None = None, effort: str | None = "medium", thinking: bool = True,
-        workers: int = 1, retries: int = 1) -> Path:
+        workers: int = 1, retries: int = 2) -> Path:
     """workers>1이면 동시에 호출한다. 프롬프트 캐시가 먼저 만들어지도록 첫 문항은 혼자 부른다."""
     out, reqs = prepare_run(items, model, version, run_name, live, out_root, max_tokens, screen,
                             extra_meta, effort, thinking)

@@ -206,6 +206,10 @@ def cmd_consensus(a):
               f"{sum(c['unanimous'] for c in ks)} | {kb} | {k3}")
     if a.run:
         eng = _engine(a.run)
+        dev_ids = sorted({c["item_id"] for c in cons})
+        undecided = [i for i in dev_ids if i not in eng]
+        # 사전등록 규칙(2026-11-18): 형식 오류는 최대 2회 재호출, 그래도 실패한 문항은 미판정으로 따로 보고하고 채점에서 뺀다
+        print(f"엔진 미판정 문항: {len(undecided)}개 {undecided} (채점에서 제외)")
         tot = Counter(); per = defaultdict(Counter)
         for c in cons:
             e = eng.get(c["item_id"], {}).get(c["axis"])
