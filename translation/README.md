@@ -17,3 +17,4 @@
 - `05_개츠비번역_gemma4_31b.ipynb`: Colab에서 Gemma 4 31B로 개츠비 1·3장 번역(80GB면 bf16 원본, 40GB면 4비트 자동), 드라이브 없이도 실행 가능 (`build_notebook_05.py`)
 - `06_개츠비번역_gemma_설정실험.ipynb`: 문맥 문단 수(2→5)·생각 모드 실험, 설정마다 결과 저장 (`build_notebook_06.py`)
 - `07_학습_gemma4_31b_QLoRA.ipynb`: Gemma 4 31B QLoRA 학습(A100 40GB, `splits_v1` 같은 데이터, 개츠비와 같은 문단+JSON 형식), 학습 전후 비교·AI Hub 평가 500 chrF (`build_notebook_07.py`, 실제 GPU 미검증)
+- `09_검증엔진_gemma4_31b_dev100.ipynb` (`build_notebook_09.py`): Gemma 4 31B를 검증엔진으로 — 골든셋 dev 100 판정. 입력·변환은 `tools/gemma_judge_io.py`
