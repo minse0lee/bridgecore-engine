@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9p9NUcZuwD5uLE3Nfmb",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P055\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the Senior Executive Director of the Office of Safety and Youth Development or other designee of the Chancellor or the Community Superintendent\",\"tgt_span\":\"안전 및 청소년 개발 사무소의 수석 이사 또는 총장 또는 커뮤니티 교장의 다른 지정에\",\"description\":\"'Senior Executive Director'가 '수석 이사'로 바뀌어 Executive가 빠졌고, 'designee of the Chancellor or the Community Superintendent'(총장 또는 커뮤니티 교육감의 지명된 대리인)가 '총장 또는 커뮤니티 교장의 다른 지정'으로 바뀌어 승인 주체가 지명된 사람에서 '지정'이라는 추상어로 변질됨. 'Chancellor'가 '총장', 'Superintendent'가 '교장'으로 옮겨져 직위도 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물·행위): 승인 권한자인 'designee'(지명된 사람)가 '지정'이라는 추상어로 바뀌고 Chancellor·Superintendent 직위도 '총장'·'교장'으로 달라져, 누가 승인하는지 독자가 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"내용 변화로 설명되는 차이이므로 Semantic에서만 판정하며, 수식·연결 범위의 별도 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 안내 → 규정 안내. 승인 필요를 안내하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(주체): 승인이 필요하다는 요건은 유지되나, 승인을 해야 하는 담당 주체가 지명된 대리인에서 불명확한 '지정'으로 바뀌어 평가조건이 금지한 담당 주체 변경에 해당합니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 안내의 '~습니다' 체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(제도 용어): NYC 교육청의 Chancellor(교육감 격)·Community Superintendent(지역 교육장) 등 제도 직위가 '총장'·'커뮤니티 교장' 같은 일반 어휘로 옮겨져 한국어 독자가 제도적 의미를 이해하기 어렵습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15484,
+    "inference_geo": "global",
+    "input_tokens": 1066,
+    "output_tokens": 1036,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

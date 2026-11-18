@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9onEYHqo8MN95ctuvom",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P055\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the Senior Executive Director of the Office of Safety and Youth Development or other designee of the Chancellor or the Community Superintendent\",\"tgt_span\":\"안전 및 청소년 개발 사무소의 수석 이사 또는 총장 또는 커뮤니티 교장의 다른 지정에 의해\",\"description\":\"승인 주체가 '수석 이사' 또는 '총장이나 커뮤니티 교장의 지정인(designee)'인데, 번역은 '총장'과 '커뮤니티 교장'을 독립된 승인자처럼 나열하고 designee를 '지정'이라는 추상명사로 바꿔 승인 주체의 정체가 달라짐. 또한 '수석 이사'에서 'Executive'가 빠지고 Chancellor를 '총장'(대학 총장 연상)으로 옮김\"},{\"id\":\"E002\",\"src_span\":\"Superintendent's suspensions 관련 맥락 없음 / All suspensions in excess of 20 school days\",\"tgt_span\":\"20 학교 일 이상의 모든 정지\",\"description\":\"'in excess of 20 school days'(20일 초과)가 '20일 이상'으로 바뀌어 경계 수치(20일 포함 여부)가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 승인 주체(designee가 지정된 사람)가 '지정'이라는 명사로 바뀌어 누가 승인하는지가 달라지고, '20일 초과'가 '20일 이상'으로 바뀌어 승인이 필요한 정지의 범위가 달라져 독자가 승인 조건과 주체를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2: 'other designee of the Chancellor or the Community Superintendent'의 소유·관계가 '총장 또는 커뮤니티 교장의 다른 지정'으로 흐트러져, 총장과 커뮤니티 교장이 각각 승인자인지 그들의 지정인이 승인자인지 정할 수 없게 됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 안내 → 규정 안내. 승인 요건을 설명하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 2: require approval의 의무는 유지되나, 승인 권한을 가진 주체와 적용 범위(20일 초과 vs 이상)가 달라져 규범의 주체와 범위가 바뀌었습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 안내체('~습니다')가 유지되어 독자 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: Chancellor, Community Superintendent 같은 미국 교육청 직위가 '총장', '커뮤니티 교장'으로 옮겨져 대학 총장이나 학교 교장으로 읽혀 제도적 직위의 의미가 제대로 전달되지 않습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15144,
+    "inference_geo": "global",
+    "input_tokens": 1066,
+    "output_tokens": 1226,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

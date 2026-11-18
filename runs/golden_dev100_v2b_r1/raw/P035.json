@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9p8MBCqt1hr4fmMBUqn",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P035\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"great credit has to go to Holt for the way he has galvanised the team\",\"tgt_span\":\"홀트는 그가 도착한 이후로 팀에 큰 영향을 미쳤다\",\"description\":\"'홀트에게 큰 공이 돌아가야 한다'는 공로 인정·칭찬이 '홀트가 팀에 큰 영향을 미쳤다'는 사실 서술로 바뀜. '활력을 불어넣은 방식'과 긍정적 평가 내용도 중립적인 '큰 영향'으로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"since his arrival\",\"tgt_span\":\"그가 도착한 이후로\",\"description\":\"arrival(부임·합류)을 '도착한'으로 옮겼으나 뜻은 통하므로 의미 변화가 크지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2: 긍정적 평가 내용(팀에 활력을 불어넣음)이 중립적인 '큰 영향'으로 바뀌었고 공로를 인정해야 한다는 평가 내용도 사라졌지만, 홀트가 부임 후 팀에 변화를 일으켰다는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but의 대조 관계가 '-지만'으로 유지되고 지시 대상과 범위도 같습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"원문 기능 → 번역 기능: 홀트의 공로를 인정하는 평가·칭찬 → 홀트가 팀에 영향을 미쳤다는 사실 서술로, 기능의 종류가 바뀌었으나 칭찬의 취지는 어느 정도 남아 있어 minor입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"has to go to는 공로가 마땅히 돌아간다는 평가 표현이며 누군가에게 의무·허가·금지를 정하는 규범이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 기사의 서술체('-했다')가 유지되며 화자와 독자 관계에 영향을 주는 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"top flight를 '1부 리그'로 옮긴 것은 통용되는 대응이며, 별도로 판정할 문화·제도적 쟁점이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15484,
+    "inference_geo": "global",
+    "input_tokens": 874,
+    "output_tokens": 1002,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

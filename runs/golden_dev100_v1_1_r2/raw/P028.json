@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9okkypYvNCvELcahbPZ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P028\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"what she believed was Tokyo's only functioning sexual assault support center\",\"tgt_span\":\"도쿄에서 유일하게 운영되는 성폭력 지원 센터\",\"description\":\"시오리의 믿음('she believed')이 빠져 주관적 믿음이 객관적 사실로 단정됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): 시오리가 그렇게 믿었다는 표현이 사라져 '유일한 센터'가 사실처럼 단정되었지만 핵심 사실(도움 시도, 인터뷰 요구, 방문 거부)은 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'but … because' 관계가 '-지만 … -했기 때문에'로 유지되고 지시 관계도 바뀌지 않았습니다. 'In contrast'는 '이와 반대로'로 대응됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 진술 소개·서술 → 인물 진술 소개·서술. 시오리의 책 내용을 전달하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'required'는 센터의 절차를 서술하는 것으로, 독자나 인물에게 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"출판물 본문의 서술 문체('밝혔다')가 유지되며 관계에 어긋나는 높임이나 호칭이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명·지명 외에 판정할 문화 고유의 제도·단위 표기가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1476,
+    "output_tokens": 745,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

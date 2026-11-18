@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9onWJpQpEtBEDi1dh7j",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P059\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"controversies in which the U.S. government is a party; controversies between states (or their citizens) and foreign nations\",\"tgt_span\":\"미국 정부가 당사자인 논쟁, 주(또는 그들의 시민)와 외국(또는 그들의 시민 또는 주민) 사이의 논쟁\",\"description\":\"controversies를 법적 의미의 '분쟁·소송'이 아닌 일반 어휘 '논쟁'으로 옮겨 사법권이 다루는 사건의 제도적 의미가 전달되지 않음\"},{\"id\":\"E002\",\"src_span\":\"and bankruptcy cases\",\"tgt_span\":\"파산 사건에까지 확장된다\",\"description\":\"'~에까지'가 마지막 항목에만 붙어 범위가 확장되는 정도를 나타내는 초점 표현이 첨가됨(첨가)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: controversies(법적 분쟁)가 '논쟁'으로 바뀌어 대상 종류가 달라졌으나, 사법권이 미치는 사건 범주 목록의 요지는 대체로 읽혀 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 3(초점·범위): '파산 사건에까지'가 마지막 항목만 부각하는 초점 표현으로 붙어 나열 항목 전체의 병렬 관계가 달라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사법권 범위 설명 → 사법권 범위 설명. 기능이 동일합니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"사법권의 범위를 서술하는 문장이며 의무·허가·금지 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"설명문의 객관적·공식적 서술체가 '~된다'로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: controversies는 헌법 제3조의 사법권 범주를 이루는 제도 용어인데 일반 어휘 '논쟁'으로 옮겨 제도적 의미가 전달되지 않았습니다. 다만 나머지 내용으로 맥락을 찾을 수 있어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1117,
+    "output_tokens": 948,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9owtrtvkZV3u1ymy5jf",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P017\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"which would allow Mike Pence, the vice president, to break a tie and confirm him to the Supreme Court\",\"tgt_span\":\"마이크 펜스를 허용, 부통령, 타이를 끊고 대법원에 그를 확인\",\"description\":\"펜스 부통령이 동점을 깨고 인준하도록 '허용'하는 관계절이 '펜스를 허용'이라는 단편으로 바뀌어, 허용 주체와 행위자(펜스)의 관계가 무너지고 인준(confirm)이 '확인'으로 오역됨\"},{\"id\":\"E002\",\"src_span\":\"the Senate floor\",\"tgt_span\":\"상원 바닥\",\"description\":\"'floor'(본회의장)를 문자 그대로 '바닥'으로 옮겨 상원 본회의 표결이라는 제도적 의미가 전달되지 않음\"},{\"id\":\"E003\",\"src_span\":\"Mr Kavanaugh\",\"tgt_span\":\"씨 카바 노가\",\"description\":\"호칭 'Mr'가 문장 앞에 놓인 '씨'로 어색하게 옮겨지고 이름 표기가 분절됨(지시 대상은 식별 가능)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 펜스가 동점을 깨고 인준하도록 한다는 행위(누가 무엇을 하는지)가 '펜스를 허용', '그를 확인'으로 바뀌어 요지를 이해하기 어렵고, '상원 본회의'가 '상원 바닥'으로 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 50표 확보와 부통령의 동점 해소·인준 사이의 'which would allow' 결과 관계가 끊겨, 번역문만으로는 앞뒤가 어떻게 이어지는지 알 수 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 상황 설명 → 뉴스 상황 설명. 불확실한 상황을 서술하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"can은 득표 가능성의 의미이고 would allow도 절차 가능성 서술이어서 의무·허가를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 서술체 '-다'가 유지되고 특별한 관계·높임 문제가 없습니다. '씨' 표기는 어색함에 그칩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: 'Senate floor'(상원 본회의장)와 부통령의 동점 결정권이라는 제도적 맥락에서 'floor'를 '바닥'으로 옮겨 제도적 의미가 한국어 독자에게 전달되지 않습니다. 의원 수나 직위는 남아 있어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15144,
+    "inference_geo": "global",
+    "input_tokens": 826,
+    "output_tokens": 1170,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

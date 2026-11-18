@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9pBHrMvPmtZm5JnjgAr",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P094\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"it’s got no business there\",\"tgt_span\":\"거기에 사업이 없어요\",\"description\":\"'have no business (there)'(그곳에 있을 이유·권리가 없다)라는 관용 표현을 '사업(business)이 없다'로 직역하여 의미가 달라짐\"},{\"id\":\"E002\",\"src_span\":\"go and take it away!\",\"tgt_span\":\"가서 가져가세요!\",\"description\":\"주인이 하인에게 하는 명령하는 하대가 존대(-세요, -어요)로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: '그곳에 있을 이유가 없다'는 관용 표현이 '거기에 사업이 없다'로 바뀌어 이것이 거기 있어서는 안 된다는 내용이 사라졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'it'의 지시 대상과 'at any rate' 및 명령 연결 관계는 문맥상 유지되며 내용 변화는 Semantic에서 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"치우라는 지시 → 가져가라는 지시. 하인에게 행동을 시키는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 상대에게 그것을 치우라고 명령하는 의무적 지시이며 '가서 가져가세요'로 명령 범주가 유지됩니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: 주인이 하인에게 하는 말이므로 명령하는 하대가 기대되나 '-어요', '-세요' 존대로 번역되어 관계가 뒤바뀐 것처럼 읽힙니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15484,
+    "inference_geo": "global",
+    "input_tokens": 543,
+    "output_tokens": 803,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9onrDQ7TTRpVPsJEtbE",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P067\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Never heard of uglifying!\",\"tgt_span\":\"추해지는 걸 들어본 적이 없어!\",\"description\":\"놀라서 되묻는 수사적 표현(너 …를 들어본 적이 없다니!)이 화자 자신이 들어본 적이 없다는 1인칭 진술로 읽혀 경험의 주체가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물·행위): 원문은 앨리스(청자)가 uglifying을 들어본 적이 없다는 데 놀라는 말인데, 번역은 주어가 생략되어 그리폰 자신이 들어본 적이 없다는 말로 읽혀 경험의 주체가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·범위 표현이 없고, 이어지는 '알아?'와의 관계도 유지되어 지시 대상이나 범위가 달라지지 않았습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"원문 기능 → 번역 기능: 상대가 모른다는 데 놀라 핀잔을 주는 감탄 → 화자 자신이 모른다는 것을 알리는 감탄·진술로 바뀌어 상대를 타박하는 기능이 사라졌습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"never는 경험 부정이며 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"그리폰이 앨리스에게 하는 핀잔 섞인 편한 반말 '~없어!'가 기대 격식에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15144,
+    "inference_geo": "global",
+    "input_tokens": 723,
+    "output_tokens": 787,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

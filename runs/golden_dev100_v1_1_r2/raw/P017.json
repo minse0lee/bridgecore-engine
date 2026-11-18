@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9ok8g2FHjyV49X9hBF8",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P017\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"which would allow Mike Pence, the vice president, to break a tie\",\"tgt_span\":\"마이크 펜스를 허용, 부통령, 타이를 끊고\",\"description\":\"펜스 부통령이 동수일 때 결정표를 던질 수 있게 된다는 관계절이 '마이크 펜스를 허용'이라는 불완전한 표현으로 바뀌어 누가 무엇을 허용받는지, 가정(would)이 사라짐\"},{\"id\":\"E002\",\"src_span\":\"confirm him to the Supreme Court\",\"tgt_span\":\"대법원에 그를 확인\",\"description\":\"'대법관으로 인준하다'가 '확인'으로 오역되어 행위(인준)가 달라짐\"},{\"id\":\"E003\",\"src_span\":\"on the Senate floor\",\"tgt_span\":\"상원 바닥에\",\"description\":\"상원 본회의장(표결)이 '상원 바닥'으로 직역되어 제도적 의미가 전달되지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 펜스가 동수 시 표결로 결정하게 된다는 인과·행위자 관계가 불완전해지고, '인준'이 '확인'으로 바뀌어 번역문만으로는 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 50표 확보가 펜스의 동수 결정을 가능하게 한다는 which 절의 인과·조건 연결이 '허용' 나열로 끊겨 관계가 복원되지 않습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 상황 설명 → 뉴스 상황 설명. 기능 종류는 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"can은 표결 확보 가능성을 나타내는 것으로 규범 의미가 아니므로 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 서술이며 화자·청자 관계나 높임·호칭을 평가할 대상이 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 2: 'Senate floor'가 본회의장 표결이라는 제도적 의미 없이 '상원 바닥'으로 옮겨져 한국어 독자가 제도적 의미를 이해하기 어렵지만, 50표라는 수치로 맥락은 짐작할 수 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 826,
+    "output_tokens": 1014,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

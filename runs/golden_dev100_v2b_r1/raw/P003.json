@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9p6uuerQhzkAfwYJNx8",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P003\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"She says she intended to go to the clinic by herself\",\"tgt_span\":\"메일리는 자신이 폭행당한 9일 후에 출산 병원을 방문했지만, 그녀가 경찰에 신고하기 전에 그녀는 … 병원에 혼자 갈 생각이었다고 말했다\",\"description\":\"평가대상 문장에 없는 앞 문장의 내용(폭행 9일 후 출산 병원 방문, 경찰 신고 전)이 번역문에 섞여 들어가 평가대상 문장과 합쳐짐. '대신'도 첨가됨. 이 때문에 '병원에 갈 생각이었다'는 의도 진술이 실제 방문 서술과 뒤섞임\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위·시간): 평가대상 문장에 없는 '폭행 9일 후 방문, 경찰 신고 전'이 더해졌고, 원문에서 의도만 밝힌 문장이 실제 방문과 의도가 섞인 내용으로 읽혀 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 앞 문장과 합쳐지면서 '방문했지만 … 갈 생각이었다'라는 양보 관계가 생겨 원문의 연결과 다른 관계로 읽히고, 문장 구조가 뒤엉켜 앞뒤 관계를 알기 어렵습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인터뷰 내용 전달 → 인터뷰 내용 전달. 발언을 서술하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기사 서술체 '~했다'가 유지되며 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 이 문장에서 판정 대상이 아닙니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15484,
+    "inference_geo": "global",
+    "input_tokens": 1624,
+    "output_tokens": 894,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

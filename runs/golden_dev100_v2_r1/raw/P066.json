@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9onqXxu2BrZ8aexWMg1",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P066\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"bullying\",\"tgt_span\":\"학대\",\"description\":\"bullying(따돌림·괴롭힘)이 '학대'로 옮겨져 다른 행위 범주로 읽힐 수 있음\"},{\"id\":\"E002\",\"src_span\":\"The US-based company\",\"tgt_span\":\"페이스북은\",\"description\":\"'미국 기반 회사'가 문맥상 지시 대상인 '페이스북'으로 풀려 옮겨짐(같은 대상을 가리키며 의미 변화 없음)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: bullying이 '학대'로 바뀌어 금지 대상 행위의 범주가 약간 달라졌으나 바로 뒤 '괴롭힘'이 있어 요지는 유지되므로 minor입니다. 'The US-based company'를 '페이스북'으로 옮긴 것은 문맥상 같은 대상이라 오류가 아닙니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but의 대조 관계와 unless의 조건 관계가 '-지만', '-지 않으면'으로 유지되고 지시 대상도 문맥상 분명합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사실 설명 → 사실 설명. 기업의 정책과 실제 집행 간극을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"독자에게 의무·허가를 정하는 문장이 아니라 회사의 정책을 서술하는 기사 문장이라 규범 판정 대상이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기사 본문의 평서 서술체(~한다)가 유지되어 관계와 격식에 어긋남이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·단위·관습이 없고 기업명만 등장합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15144,
+    "inference_geo": "global",
+    "input_tokens": 754,
+    "output_tokens": 825,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

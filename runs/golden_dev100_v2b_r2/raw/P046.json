@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9p8kn2RkGqo9hmHyvXK",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P046\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Note that\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"독자의 주의를 환기하는 'Note that'이 번역되지 않음\"},{\"id\":\"E002\",\"src_span\":\"the Option enum\",\"tgt_span\":\"옵션 열거\",\"description\":\"Rust 고유 타입명 Option/Result가 '옵션 열거', '결과 열거'로 번역되어 코드 식별자와 대응되지 않음\"},{\"id\":\"E003\",\"src_span\":\"the Result enum\",\"tgt_span\":\"결과 열거\",\"description\":\"타입명 Result가 일반 단어 '결과'로 번역되어 코드의 Result와 연결되지 않음\"},{\"id\":\"E004\",\"src_span\":\"match arms\",\"tgt_span\":\"일치 팔\",\"description\":\"Rust 키워드 match와 용어 arm이 '일치 팔'로 직역되어 문법 용어로 이해하기 어려움\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\",\"E003\",\"E004\"],\"reason\":\"판단 질문 1(대상): Option, Result, match arms 같은 Rust 용어가 일반 단어로 직역되어 지시 대상이 흐려졌으나 Ok, Err, Result::가 남아 있어 요지와 학습 행동은 유지되므로 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"like 비교, so 인과, before 위치 관계가 '마찬가지로', '-므로', '앞에'로 유지됩니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"주의 환기 설명 → 단순 설명. 'Note that'이 누락되어 주의를 환기하는 기능이 사라졌으나 설명 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'don't need to specify'는 언어 규칙에 대한 기술적 설명이며 독자에게 의무·허가를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학습자료의 설명체 '-ㅂ니다'가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유 대상이 없는 기술 설명입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15484,
+    "inference_geo": "global",
+    "input_tokens": 789,
+    "output_tokens": 909,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

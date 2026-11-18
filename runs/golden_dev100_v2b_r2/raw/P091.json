@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9pB3Gma1HPRYzuvYhtY",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P091\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"two houses\",\"tgt_span\":\"두 개의 하원\",\"description\":\"'두 개의 원(상원과 하원)'을 뜻하는 houses가 '두 개의 하원'으로 옮겨져, 입법부가 상원과 하원으로 이루어진다는 구조가 사라지고 하원이 둘인 것으로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상): 입법부를 구성하는 두 개의 원(양원제)이 '두 개의 하원'으로 바뀌어 독자가 입법부 구조를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"also와 like the British Parliament의 비교·첨가 관계는 '또한', '영국 의회와 같이'로 유지되며, 차이는 내용 변화이므로 Semantic에서 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"합의 사실 서술 → 합의 사실 서술. 설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"should는 헌법 제정 회의에서 합의된 입법부 구성 내용을 서술하는 것으로, 독자에게 의무·권한을 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"출판물 본문의 평서 서술체가 유지되며 관계·호칭상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 양원제라는 제도적 의미가 '두 개의 하원'으로 옮겨져 한국어 독자가 입법부의 상원·하원 구성이라는 제도적 의미를 이해할 수 없게 됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15484,
+    "inference_geo": "global",
+    "input_tokens": 1019,
+    "output_tokens": 767,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

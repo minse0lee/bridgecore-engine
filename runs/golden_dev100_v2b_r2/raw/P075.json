@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9pAGE7SQZnAi8K5o5LW",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P075\",\"evaluable\":false,\"evaluable_note\":\"정렬 검토 필요: 평가대상 원문은 여러 문장(경찰의 신체 측정, 재현 절차, 마네킹 묘사, 직원 역할, 사진 촬영, 프로토콜, 'Jenna noted that no po'에서 끊긴 문장)이 합쳐진 구간이고, 평가대상 번역문은 그중 마네킹 묘사와 'That's me.'에 해당하는 두 문장뿐이어서 지정된 구간을 분리해 판정하기 어렵다. 원문 마지막 문장도 중간에 잘려 있다.\",\"errors\":[],\"axes\":{\"Semantic\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 평가대상 원문이 여러 문장이고 끝이 잘려 있는데 번역문은 일부 두 문장뿐이라 대응 구간을 확정할 수 없습니다. 원문-번역문 문장 단위 정렬 확인이 필요합니다.\"},\"Textual\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 원문의 여러 문장이 번역문에 일부만 대응하여 문장 간 연결과 지시 관계를 판정하기 어렵습니다.\"},\"Context\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 평가 범위가 불명확하여 문장별 발화 기능을 비교할 수 없습니다.\"},\"Deontic\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 규범 표현 후보(have to, requirement)가 있는 원문 부분이 번역문 구간에 대응하는지 알 수 없어 판정할 수 없습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 대응 구간이 불완전하여 어조와 격식을 비교하기 어렵습니다.\"},\"Cultural\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 문화 관련 어휘(chikan, 일본 경찰 절차)가 있는 원문 부분이 번역문 구간에 대응하는지 확인할 수 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15484,
+    "inference_geo": "global",
+    "input_tokens": 1772,
+    "output_tokens": 865,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

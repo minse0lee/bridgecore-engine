@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9p3iXCjSYADuRgkEEbd",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P083\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the Medicare and Medicaid programs\",\"tgt_span\":\"메디케이드(Medicare)와 메디케이드(Medicaid) 프로그램\",\"description\":\"Medicare가 '메디케이드'로 잘못 옮겨져 두 프로그램의 이름이 같아졌고 Medicare의 지시 대상이 사라짐\"},{\"id\":\"E002\",\"src_span\":\"Medicare provides health insurance for 30 million elderly and disabled Americans.\",\"tgt_span\":\"메디케이드는 3천만 명의 노인과 장애인에게 의료보험을 제공한다.\",\"description\":\"Medicare가 '메디케이드'로 오역되어 노인·장애인 대상 프로그램이 Medicaid로 읽힘\"},{\"id\":\"E003\",\"src_span\":\"Health Care Financing Administration\",\"tgt_span\":\"의료보험금융청(Health Care Financing Administration, HCA)\",\"description\":\"기관명을 '의료보험금융청'으로 옮기고 약어를 HCA로 표기함. 통용 명칭은 '보건의료재정청(HCFA)'임\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(대상): Medicare가 '메디케이드'로 바뀌어 Medicare 프로그램이 사라지고, 노인·장애인 대상 3천만 명 보험을 Medicaid가 제공하는 것으로 읽혀 독자가 요지를 다르게 이해합니다. 수치는 정확하며 자동 힌트는 오경보입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·범위 관계는 유지되며, '메디케이드' 반복으로 인한 문제는 대상 오역이므로 Semantic에서만 판정합니다. 뒤의 Medicaid 문장은 '연방-주 공동 프로그램'으로 구별됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"정부 기관·프로그램 설명 → 정부 기관·프로그램 설명으로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"기관과 프로그램을 서술하는 설명문이며 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 설명문의 '-다' 체가 출판물 본문 문체에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1·2: Medicare가 Medicaid와 같은 이름으로 옮겨져 미국 제도 구분이 사라졌고, HCFA 기관명이 '의료보험금융청'이라는 비통용 명칭에 HCA라는 잘못된 약어로 옮겨져 제도적 의미 전달이 흐려졌습니다. 원어 병기로 원 자료를 찾을 수 있어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15144,
+    "inference_geo": "global",
+    "input_tokens": 1464,
+    "output_tokens": 1165,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

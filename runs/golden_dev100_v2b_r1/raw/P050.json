@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9p96hqjDC7PDTfWgWNN",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P050\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"to publicize the use of Python\",\"tgt_span\":\"파이썬의 사용을 대중화하는 것입니다\",\"description\":\"publicize(알리다, 홍보하다)가 '대중화하다'로 바뀌어 사용을 알리는 활동이 사용을 널리 보급하는 활동으로 읽힘. 의미 차이는 작음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: publicize(홍보·알림)가 '대중화'(보급)로 바뀌어 행위의 내용이 약간 달라졌습니다. 재단의 임무라는 요지와 학습 행동은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"두 개의 to 부정사가 '발전시키고 … 대중화하는 것'으로 병렬 관계와 범위가 유지되고, 'related to'의 수식 범위도 같습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기관 임무 설명 → 기관 임무 설명. 설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"기관의 임무를 서술하는 문장으로 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학습자료의 설명체 '~입니다'가 유지되어 독자 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"PSF라는 약칭 외에 별도로 판정할 문화·제도 고유 대상이나 단위, 표기가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15484,
+    "inference_geo": "global",
+    "input_tokens": 706,
+    "output_tokens": 703,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

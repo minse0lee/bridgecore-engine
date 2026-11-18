@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9oo8Yey217oZDmJQzNT",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P072\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"teacher removal\",\"tgt_span\":\"교사 퇴학\",\"description\":\"교사가 학생을 수업에서 내보내는 조치(removal)를 '퇴학'으로 옮겨 학교에서 제적하는 처분으로 읽히게 됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위·대상): 교사가 학생을 교실에서 일시적으로 내보내는 조치가 '퇴학'이라는 다른 조치로 바뀌었습니다. 독자가 취해야 할 징계 절차를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"While의 양보·대조 관계는 '~하며'로 나열되어 읽히지만 지시·범위는 유지됩니다. 'prior to'도 '전에'로 같은 관계가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 안내(조치 순서와 노력 지시) → 규정 안내. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"must be handled는 '처리되어야 하며', should be made는 '노력을 기울여야 합니다'로 통상적으로 대응되어 의무와 권고의 강도가 유지됩니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 안내체(~합니다)가 유지되어 독자와의 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2: 교사가 학생을 교실에서 분리하는 미국 학교 징계 제도의 teacher removal이 '퇴학'이라는 다른 제도 용어로 바뀌어 한국어 독자가 제도적 의미를 잘못 이해하게 됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15144,
+    "inference_geo": "global",
+    "input_tokens": 1122,
+    "output_tokens": 781,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

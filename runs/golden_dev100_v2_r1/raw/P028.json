@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9okmiy4iExurmosZMuM",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P028\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"what she believed was Tokyo's only functioning sexual assault support center\",\"tgt_span\":\"도쿄에서 유일하게 운영되는 성폭력 지원 센터\",\"description\":\"시오리가 '그렇게 믿었던' 센터라는 믿음 표현(확실성)이 빠져, 유일하게 운영되는 센터라는 사실 단정으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): 시오리가 유일하다고 믿었다는 주관적 믿음이 객관적 사실 단정으로 바뀌었으나, 센터에 도움을 청했다가 인터뷰 요구로 거부했다는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"In contrast의 대조가 '이와 반대로'로, because의 인과가 '-기 때문에'로 유지되고 지시·범위도 같습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인용·서술을 통한 사실 설명 → 사실 설명. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"required는 센터의 절차를 서술하는 것이며 독자에게 의무·허가를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 본문의 평서체 '-했다고 밝혔다'가 출판물 문체에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"도쿄와 책 제목 외에 별도로 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15144,
+    "inference_geo": "global",
+    "input_tokens": 1476,
+    "output_tokens": 731,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

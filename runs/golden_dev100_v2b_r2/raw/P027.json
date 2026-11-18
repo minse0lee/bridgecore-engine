@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9p7qYVi7WzVKMxy9avW",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P027\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"according to a February 2015 transparency report\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"정보 출처인 2015년 2월 투명성 보고서 인용 구가 번역에서 누락됨\"},{\"id\":\"E002\",\"src_span\":\"the Russian government’s requests for various users’ information increased 40 percent\",\"tgt_span\":\"러시아 정부가 다양한 사용자 정보에 대한 요청이 40% 증가했다\",\"description\":\"'정부의 요청이 증가했다'는 구조가 주어 두 개가 겹친 비문이 되었으나 의미는 복원 가능함(자연스러움 문제로 오류 아님)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 수치의 근거인 '2015년 2월 투명성 보고서'가 누락되어 출처 정보가 사라졌으나 핵심 사실(2014년 후반 요청 40% 증가)은 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·범위 표현의 변화가 없고, 비문이지만 요청이 증가했다는 관계는 파악 가능합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사실 보고·설명 → 사실 보고·설명. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 사실 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 서술문의 평서체 격식이 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15484,
+    "inference_geo": "global",
+    "input_tokens": 1110,
+    "output_tokens": 743,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

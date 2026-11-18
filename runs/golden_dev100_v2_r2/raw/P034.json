@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9oxiW5PX4BJ8GbjfxLH",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P034\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Free Speech\",\"tgt_span\":\"언론의 자유\",\"description\":\"free speech(표현의 자유)가 '언론의 자유'로 옮겨져 범위가 다소 좁아졌으나 통용되는 대응어임\"},{\"id\":\"E002\",\"src_span\":\"· Global Voices\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"제목 끝의 매체명 Global Voices가 번역되지 않고 누락됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"마케도니아, '학계의 연대', 언론(표현)의 자유와 과학적 방법에 반대한다는 내용이 유지되며, 매체명 누락은 사이트 표지로 제목 내용에는 영향이 없고 '언론의 자유'는 통상적 대응입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Against' 이하가 '학계의 연대'를 수식하는 관계와 두 대상의 병렬 범위가 그대로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기사 제목(표제) → 기사 제목. 비판적 논조를 담은 표제 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"제목에 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"제목의 명사구 형식과 중립적 보도 어조가 유지되며 인용 부호로 표시된 아이러니 태도도 따옴표로 보존됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"국가명 외에 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15144,
+    "inference_geo": "global",
+    "input_tokens": 546,
+    "output_tokens": 738,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

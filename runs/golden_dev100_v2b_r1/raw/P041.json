@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9p8dqp3aWrE3QREwSn7",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P041\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Superintendent’s suspensions\",\"tgt_span\":\"교장의 정지\",\"description\":\"Superintendent(교육장/관할 교육감급 직위)가 '교장'(principal)으로 바뀜. 정지 처분 권한 주체가 달라짐\"},{\"id\":\"E002\",\"src_span\":\"for more than 20 school days\",\"tgt_span\":\"20 학교 일 이상의\",\"description\":\"'more than 20'(20일 초과)이 '이상'(20일 포함)으로 바뀜. 경계 수치의 범위가 달라짐\"},{\"id\":\"E003\",\"src_span\":\"or for Level 5 infractions that involve seriously dangerous and/or violent behavior where the circumstances warrant the imposition of a longer suspension\",\"tgt_span\":\"또는 레벨 5 심각하게 위험한 및 / 또는 폭력적 인 행동을 포함하는 위반은 상황이 더 긴 정지의 부과를 보증.\",\"description\":\"두 번째 조건이 파편화되어 'for Level 5 infractions'(레벨 5 위반의 경우)와 'where circumstances warrant'(정당화하는 경우)의 조건 관계가 깨지고, 서술어가 없어 '부과될 수 있다'와의 연결 및 'warrant'의 의미('보증')가 불명확함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 처분 주체가 Superintendent에서 '교장'으로 바뀌고, 'more than 20'이 '이상'으로 바뀌었으며, 후반 조건절이 깨져 레벨 5 위반에서 상황이 정당화할 때 부과된다는 내용을 복원하기 어렵습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 2와 구조 붕괴: '또는' 뒤 조건이 서술어 없이 나열되어 'only when A or for B'의 조건 관계와 'where'절이 무엇에 걸리는지 알 수 없게 되었고, 독자는 조건 범위를 다르게 이해하게 됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 설명 → 규정 설명. 정지 부과 조건을 설명하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 2: 'only when' 제한은 남았으나 처분 권한 주체가 교장으로 바뀌고 적용 범위가 20일 이상으로 달라졌으며, 두 번째 허용 조건이 서술어 없이 깨져 허용되는 조건이 불명확합니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 문체의 '-습니다' 안내체가 대체로 유지되며, 어색함만으로는 훼손이 아닙니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 미국 교육구의 직위 Superintendent(교육장)를 학교장을 뜻하는 '교장'으로 옮겨 다른 제도상 직위로 읽히게 되었습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15484,
+    "inference_geo": "global",
+    "input_tokens": 1116,
+    "output_tokens": 1240,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9owhRJrjfuLxA7r7NuG",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P010\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"must still be ratified\",\"tgt_span\":\"확정될 예정이다\",\"description\":\"'아직 … 승인(비준)을 받아야 한다'는 필수 절차 표현이 '확정될 예정이다'라는 단순 예정 서술로 바뀌어 must와 still이 사라짐\"},{\"id\":\"E002\",\"src_span\":\"the full IOC\",\"tgt_span\":\"IOC 총회\",\"description\":\"'전체 IOC(full IOC)'가 'IOC 총회'로 옮겨져 있으나 같은 대상을 가리키므로 오류로 보지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"투표 결과, IOC 전체 회의, 10월 코펜하겐, 승인 확정이라는 내용이 유지됩니다. must의 규범 변화는 Deontic에서만 판정합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"still의 지속 뉘앙스만 약해졌고, 무엇이 확정되는지와 범위·지시 관계는 그대로입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 설명 → 뉴스 설명. 절차를 알리는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 반드시 거쳐야 하는 비준 요건(must)이 단순 예정으로 바뀌었습니다. 다만 독자가 해야 할 행동이 아니라 절차 서술이고 요지도 같아 minor입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 기사의 평서 문체 '~이다'가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"IOC와 코펜하겐은 통용 표기로 같은 대상을 가리키며 날짜 표기도 문제가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15144,
+    "inference_geo": "global",
+    "input_tokens": 648,
+    "output_tokens": 790,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

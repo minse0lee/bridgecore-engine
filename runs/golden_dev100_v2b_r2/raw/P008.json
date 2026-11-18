@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9p6t4GSotK67gK9pfqy",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P008\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"government and party authorities\",\"tgt_span\":\"정부와 당국\",\"description\":\"'정부와 당 기관(party authorities)'이 '정부와 당국'으로 옮겨져 '당(party)'이 드러나지 않음. '당국'은 일반 관청으로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상): 'party authorities'(당 기관)가 '당국'으로 바뀌어 통지를 발행하는 주체 중 '당'이 사라졌다. 인원 지정, 24시간 이행 등 핵심 내용은 유지되어 독자의 행동 이해는 달라지지 않으므로 minor.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"both A and B 병렬, 지정과 실행의 연결, 'round the clock'의 범위가 유지되어 지시·관계·범위가 달라지지 않았다. 'party'의 누락은 내용 변화이므로 Semantic에서만 판정한다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"현행 관행 설명 → 현행 관행 설명. 서술 기능이 유지된다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"are required to가 '-해야 한다'로 옮겨져 의무 범주, 주체(두 종류의 제공업체), 내용이 유지된다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"출판물 본문의 설명 서술체 '-한다'가 유지되며 관계상 문제가 없다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"제도 대상은 검열 통지와 정부·당 기관이며 'party authorities'가 '당국'으로 약화된 점은 Semantic에서 다루었고 제도 자체를 다른 제도로 바꾼 것은 아니다. 'round the clock'은 '24시간'으로 통상 대응한다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15484,
+    "inference_geo": "global",
+    "input_tokens": 2103,
+    "output_tokens": 800,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

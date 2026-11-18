@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9p8R2997cSNb6nfM6uL",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P039\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"most votes\",\"tgt_span\":\"대부분의 표\",\"description\":\"'most votes'(최다 득표, 가장 많은 표)가 '대부분의 표'(표의 대다수)로 옮겨져 득표 수의 의미가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(수량): 'most votes'는 다른 정당보다 많은 표, 즉 최다 득표인데 '대부분의 표'는 표의 대다수로 읽혀 득표 규모가 달라졌고, 뒤의 '과반수를 넘지 못했다'와도 모순되어 독자가 선거 결과의 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'but'이 '-지만'으로 대조 관계를 유지하며 지시와 범위 표현에도 변화가 없습니다. 'most votes'의 의미 차이는 내용 변화이므로 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 사실 서술 → 사실 서술. 선거 결과를 전달하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'required majority'의 required는 과반수 기준을 나타낼 뿐 이 문장은 누구에게 의무·허가를 정하는 규범 문장이 아닌 선거 결과 서술이므로 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 기사의 평서체 '-다' 서술이 유지되어 관계와 격식에 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'ruling', '총리', '민주회의당', '과반수'가 같은 정치 제도와 기관을 가리키며 한국어 독자도 의미를 이해할 수 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15484,
+    "inference_geo": "global",
+    "input_tokens": 856,
+    "output_tokens": 802,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

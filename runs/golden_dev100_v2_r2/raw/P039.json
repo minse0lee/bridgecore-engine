@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9oy3KusUAPmfgpy36He",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P039\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"won most votes\",\"tgt_span\":\"대부분의 표를 얻었지만\",\"description\":\"most votes(최다 득표, 다른 정당보다 많은 표)가 '대부분의 표'(표의 대다수)로 옮겨져 득표 의미가 달라짐. 과반수 미달과도 모순됨\"},{\"id\":\"E002\",\"src_span\":\"the required majority\",\"tgt_span\":\"과반수\",\"description\":\"'required'(필요한)가 번역되지 않았으나 과반수라는 기준은 유지되어 의미 변화는 거의 없음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(수량): won most votes는 최다 득표를 뜻하는데 '대부분의 표'로 옮겨 표 대다수를 얻은 것처럼 읽혀 과반수 미달과 모순되며 독자가 요지를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but의 대조 관계가 '-지만'으로 유지되고 지시·범위 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 사실 보도 → 사실 보도. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"required는 선거 결과 서술에서 과반 기준을 설명하는 표현이며 누군가에게 의무를 부과하지 않아 규범 평가 대상이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 기사의 평서 서술체 '-다'가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"집권당, 총리, 과반수 같은 정치 제도 용어가 같은 대상을 가리키며 한국어 독자가 이해할 수 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15144,
+    "inference_geo": "global",
+    "input_tokens": 856,
+    "output_tokens": 775,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

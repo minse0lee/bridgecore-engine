@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9oqRE58LSnxtoCmfuhx",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P052\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a pattern of threatening or actual physical, sexual, and/or emotional abuse\",\"tgt_span\":\"위협 또는 실제 신체의 패턴을 사용하는 경우, 성적, 및 / 또는 감정적 학대\",\"description\":\"학대 유형 나열이 끊겨 '위협 또는 실제 신체의 패턴'과 '성적, 감정적 학대'로 갈라지고, 위협적·실제 신체적·성적·정서적 학대의 패턴이라는 의미가 흐려짐\"},{\"id\":\"E002\",\"src_span\":\"both the victim and the student who engages in this behavior\",\"tgt_span\":\"이 행동에 종사하는 피해자와 학생 모두\",\"description\":\"'이 행동에 종사하는'이 학생만이 아니라 피해자와 학생 모두를 수식하는 것처럼 읽혀 피해자도 가해 행동을 한 것으로 읽힘\"},{\"id\":\"E003\",\"src_span\":\"to separate appropriate school or community-based agencies for counseling, support, and education services\",\"tgt_span\":\"상담을위한 별도의 적절한 학교 또는 지역 사회 기반의 기관에이 … 참조해야합니다, 지원, 및 교육 서비스.\",\"description\":\"'지원, 교육 서비스'가 문장 끝에 떨어져 기관이 제공하는 서비스 목적과의 관계가 불분명해짐. 또 '별도의'가 기관에 걸려 있어 피해자와 학생을 각각 따로 연결한다는 의미도 흐려짐\"},{\"id\":\"E004\",\"src_span\":\"Referral to Counseling Services\",\"tgt_span\":\"상담 서비스에 대한 참조\",\"description\":\"referral을 '의뢰·연계'가 아닌 '참조'로 옮기고 refer도 '참조해야합니다'로 옮겨 상담 기관으로 보낸다는 행위가 문서 참조로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\",\"E004\"],\"reason\":\"판단 질문 1: refer(연계·의뢰)가 '참조'로 바뀌어 행위가 달라지고, 학대 유형 나열이 끊기며, 가해 행동을 한 대상이 피해자까지 포함되는 것처럼 읽혀 누가 무엇을 하는지가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\",\"E003\"],\"reason\":\"판단 질문 1·3: '이 행동에 종사하는'의 수식 범위가 피해자까지 넓어졌고, '지원, 및 교육 서비스'가 문장 끝에 떨어져 상담·지원·교육 서비스 열거와 기관의 관계가 끊겼습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학교의 조치를 안내하는 규정 → 학교의 조치를 안내하는 규정. 문장은 어색하지만 기능 종류는 같습니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\",\"E004\"],\"reason\":\"판단 질문 2: should를 '해야합니다'로 옮긴 것은 통상적 대응이지만, 의무의 내용이 상담 기관 연계가 아닌 '참조'로 바뀌고 피해자와 학생 모두에 대한 규범 대상 범위가 불분명해졌습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내문의 '-합니다' 격식체가 유지되며 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학교 또는 지역사회 기반 기관을 한국 제도로 바꾸지 않고 그대로 옮겨 같은 제도적 대상을 가리킵니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15144,
+    "inference_geo": "global",
+    "input_tokens": 1182,
+    "output_tokens": 1430,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9ozfT5PVzg4rGf1P37c",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P069\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"more than 10\",\"tgt_span\":\"이상 10\",\"description\":\"'10일 초과'가 '이상 10'으로 어순이 뒤바뀌고 '초과'가 '이상'으로 바뀌어 기준 경계(초과 vs 이상)가 달라지고 수량 표현이 불분명해짐\"},{\"id\":\"E002\",\"src_span\":\"superintendent’s suspension\",\"tgt_span\":\"교육감의 정지\",\"description\":\"'교육감 정학/출석정지(suspension)'를 '정지'로 옮겨 학교 징계 제도로서의 의미가 전달되지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(수량·대상): '10일 초과'가 '이상 10'으로 바뀌어 경계가 달라지고, suspension이 일반어 '정지'가 되어 징계의 내용이 흐려졌습니다. 독자가 징계 기간 조건을 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(범위): more than이 '이상 10'으로 분리·도치되어 10일을 포함하는지와 무엇이 '연속 학교 일'을 수식하는지 정할 수 없게 되어 범위가 달라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 항목 서술 → 규정 항목 서술. 조건을 나열하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장 자체에는 의무·허가·금지 등 규범 표현이 없고 앞 문장의 규범을 잇는 조건 항목입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자·청자 관계나 태도가 드러나는 표현이 없는 규정 항목입니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2(제도 용어): superintendent's suspension(교육감 정학)이라는 학교 징계 제도 용어가 일반어 '정지'로 옮겨져 제도적 의미가 충분히 전달되지 않습니다. '교육감'은 유지되어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15144,
+    "inference_geo": "global",
+    "input_tokens": 601,
+    "output_tokens": 915,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

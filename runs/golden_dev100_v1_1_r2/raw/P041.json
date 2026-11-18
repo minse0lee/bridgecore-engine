@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9omXAPaQmhL2K3GTxt7",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P041\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Superintendent’s suspensions\",\"tgt_span\":\"교장의 정지\",\"description\":\"Superintendent(교육감급 관리자)를 '교장'으로 오역하여 처분 주체가 달라짐\"},{\"id\":\"E002\",\"src_span\":\"may be imposed only when required by law or for Level 5 infractions\",\"tgt_span\":\"법률에 의해 요구되는 경우에만 부과 될 수 있습니다 또는 레벨 5 …위반은\",\"description\":\"'only when A or for B'의 두 허용 조건 구조가 깨져, 레벨 5 위반이 독립된 주어처럼 되어 부과 조건으로 읽히지 않음\"},{\"id\":\"E003\",\"src_span\":\"where the circumstances warrant the imposition of a longer suspension\",\"tgt_span\":\"상황이 더 긴 정지의 부과를 보증.\",\"description\":\"조건절의 서술어가 '보증'으로 어색하게 끝나 문장이 불완전하고, 상황이 더 긴 정지를 정당화할 때라는 조건 관계가 불명확해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 처분 주체가 Superintendent에서 '교장'으로 바뀌고, 레벨 5 위반 시 부과 가능하다는 조건과 정지 정당화 조건이 불완전하게 전달되어 요지를 다르게 이해할 수 있습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\",\"E003\"],\"reason\":\"판단 질문 2: 'only when A or for B'의 조건 연결과 'where…' 조건절의 연결 관계가 깨져 조건 관계를 복원하기 어렵습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 설명 → 규정 설명. 문장이 규정 내용을 설명하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 2: 20일 초과 정지를 부과할 수 있는 주체(교장으로 오역)와 조건·적용 범위(레벨 5 위반, 상황 정당화)가 불명확하게 바뀌어 평가조건이 금지한 담당 주체·조건 변경에 해당합니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 안내의 격식 있는 서술 태도는 유지되며, 어색한 종결은 어색함일 뿐 관계를 바꾸지 않습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2: 미국 교육행정 직위 Superintendent를 한국 학교의 '교장'으로 바꿔 다른 제도·직위로 이해하게 되며, 한국 제도로 대체하지 않는다는 조건에 어긋납니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1116,
+    "output_tokens": 1132,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

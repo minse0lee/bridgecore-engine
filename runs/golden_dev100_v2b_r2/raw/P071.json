@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9pA4vhn9KRe8e8qrFyz",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P071\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the old people I've talked to say\",\"tgt_span\":\"나는 … 말하는 나이 든 사람들과 이야기했다\",\"description\":\"현재완료 관계절(내가 이야기해 본 노인들이 말한다)이 주절의 과거 행위(이야기했다)로 바뀌어, 노인들의 증언을 근거로 한 화자의 진술이 '노인들과 이야기했다'는 사건 보고로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"Mr. Adams\",\"tgt_span\":\"씨. 애덤스\",\"description\":\"Mr.를 '씨.'로 옮겨 호칭의 위치와 형식이 어색해짐 (뜻은 유지)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 노인들이 '말한다'는 증언 내용이 문장의 핵심이었으나, 번역은 '노인들과 이야기했다'가 주 내용이 되어 정보의 중심이 달라졌습니다. 다만 노인들이 모퉁이마다 바와 교회가 있었다고 말한다는 내용은 남아 요지는 대체로 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 대상과 관계가 같으며 'Historically'가 '모든 모퉁이에 바와 교회가 있었다'에 걸리는 범위도 문맥상 읽힙니다. 관계절이 주절로 바뀐 정도로 보아 보존입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인용된 발언으로 주장을 전달 → 인용된 발언으로 정보를 전달. 같은 종류의 설명 기능입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 기사 속 인터뷰 인용으로 평서 문체가 유지됩니다. '씨.'의 어색함만으로 훼손을 주지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 호칭 Mr.와 일반 명사 외에 별도로 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15484,
+    "inference_geo": "global",
+    "input_tokens": 600,
+    "output_tokens": 929,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

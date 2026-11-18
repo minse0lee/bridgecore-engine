@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9p8MoR7uE79J187i5r8",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P037\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"It's not just the financials that are in play, but who are the doctors?\",\"tgt_span\":\"재정 문제뿐만 아니라 의사들은 누구입니까?\",\"description\":\"'in play'(쟁점이 되고 있다)에 해당하는 표현이 빠지고, 'not just A but B'의 B가 '누가 의사인가'라는 쟁점이 아니라 별개의 질문으로 분리되어 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'in play'(쟁점이 됨)가 빠져 재정뿐 아니라 의사 문제도 쟁점이라는 내용이 약해졌으나, 재정과 의사라는 핵심 대상은 유지되어 요지는 크게 바뀌지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'뿐만 아니라'가 not just A but B의 첨가 관계를 유지하며 포함 범위도 같습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"문제를 제기하는 수사적 질문 → 문제 제기 질문. 마틴이 발언하는 기능은 비슷하게 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 속 인용 발언이 '-입니까' 격식체로 옮겨져 문맥상 부적절하지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유 대상이 없고 인명만 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15484,
+    "inference_geo": "global",
+    "input_tokens": 521,
+    "output_tokens": 713,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

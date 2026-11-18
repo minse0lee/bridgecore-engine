@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9pA6Qzw5vmwcpXhjuMY",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P072\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"teacher removal\",\"tgt_span\":\"교사 퇴학\",\"description\":\"교실에서 교사가 학생을 일시적으로 내보내는 조치(teacher removal)가 '퇴학'으로 옮겨져 다른 제도적 조치로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상·행위): 교사가 수업에서 학생을 내보내는 조치가 '퇴학'(학교에서 제적)으로 바뀌어 독자가 다른 조치로 이해합니다. 나머지 내용(개별 처리, 모든 노력, 징계 대응 A–E)은 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"While의 대조·양보 관계가 '~하며'로 병렬 연결되지만 두 의무가 함께 적용되는 관계로 읽히며 지시·범위는 달라지지 않았습니다. 용어 오역은 Semantic에서 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 안내 → 규정 안내. 사전 조치 노력을 안내하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"must는 '처리되어야 하며', should는 '모든 노력을 기울여야 합니다'로 통상적으로 대응하고 주체·조건·범위도 유지됩니다. 조치 용어의 오역은 Semantic에서 판정합니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 안내의 '~합니다' 체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2(제도): 뉴욕시 징계 규정의 'teacher removal'(수업 중 일시 분리 조치)이 한국어의 '퇴학'이라는 다른 제도로 읽혀 해당 제도적 의미가 전달되지 않습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15484,
+    "inference_geo": "global",
+    "input_tokens": 1122,
+    "output_tokens": 826,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9ok85JB7UdCV94DAc4Y",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P015\",\"evaluable\":false,\"evaluable_note\":\"정렬 검토 필요: 평가대상 원문은 여러 문장(마지막은 'retweeted over 500 tim'에서 잘림)을 포함하나 평가대상 번역문은 두 번째 문장 한 개뿐이어서, 지정된 원문 문장과 번역 구간을 일대일로 분리해 판정하기 어렵습니다.\",\"errors\":[],\"axes\":{\"Semantic\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 원문 여러 문장에 번역문은 한 문장뿐이라 대응 구간을 분리 판정할 수 없습니다. 원문 단위 재지정이 필요합니다.\"},\"Textual\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 평가대상 범위가 일치하지 않아 지시·연결 관계를 비교할 수 없습니다.\"},\"Context\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 원문 문장들의 기능과 번역 구간을 대응시킬 수 없어 판정을 보류합니다.\"},\"Deontic\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 규범 표현 후보(need to)가 있는 인용문의 번역은 평가대상 번역문 밖에 있어 단위 재지정이 필요합니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 대응 구간이 불완전해 판정을 보류합니다.\"},\"Cultural\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 대응 구간이 불완전하여 문화 대상의 비교를 보류합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15144,
+    "inference_geo": "global",
+    "input_tokens": 1389,
+    "output_tokens": 699,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

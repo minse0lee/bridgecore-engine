@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9onnHFXqNHdKW3EsXGM",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P064\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the student must be provided with instruction at a location outside the school building\",\"tgt_span\":\"학생이 학교 건물 외부의 위치에서 지시를 제공해야하는\",\"description\":\"수동 구문이 학생이 주체인 능동으로 바뀌어, 학생이 교육을 제공받는 것이 아니라 학생이 지시를 제공해야 하는 것으로 읽힘. instruction(교육·수업)도 '지시'로 오역됨\"},{\"id\":\"E002\",\"src_span\":\"the Senior Executive Director of the Office of Safety and Youth Development or other designee of the Chancellor or the Community Superintendent\",\"tgt_span\":\"안전 및 청소년 개발 사무소의 수석 이사 또는 총장 또는 지역 교육감이 지정한 다른 사람\",\"description\":\"'총장 또는 지역 교육감의 다른 지명인'이 '총장 또는 지역 교육감이 지정한 다른 사람'으로 읽혀 총장 자체의 권한 주체성이 흐려지고, 'Chancellor'도 '총장'으로 옮겨 직위 의미가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위자·행위): 학생이 교육을 받아야 한다는 내용이 학생이 지시를 제공해야 한다는 내용으로 바뀌어 누가 무엇을 하는지와 대상이 달라졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'during which'의 시간 관계가 '정해진 기간 동안'으로 유지되고 지시 대상과 초점의 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 설명 → 규정 설명. 정학 권한과 조건을 안내하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(주체): 학교 측이 학생에게 교육을 제공해야 한다는 의무가 학생이 지시를 제공해야 한다는 의무로 바뀌어 의무를 지는 주체와 대상이 달라졌습니다. may는 '명령할 수 있습니다'로 유지되었습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 안내체인 '~습니다'가 유지되어 독자 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"미국 교육 제도의 직위와 정학 제도를 한국 제도로 바꾸지 않았고 '11-15 학교 일'의 수치도 유지되었으며, 직위 번역의 어색함은 지칭 대상을 알 수 없게 할 정도는 아닙니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1123,
+    "output_tokens": 1089,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

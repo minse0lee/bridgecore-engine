@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9pAoqtM5ZeS1XmpfgDz",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P088\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"though it might not be obvious at first glance how to do it\",\"tgt_span\":\"처음에는 어떻게 해야 하는지 명확하지 않을 수도 있습니다.\",\"description\":\"양보('though')가 독립된 두 문장으로 나뉘어 접속어 없이 나열됨\"},{\"id\":\"E002\",\"src_span\":\"(hence this recipe)\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"이 레시피가 존재하는 이유를 밝히는 삽입구가 빠짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: 이 레시피가 방법이 명확하지 않기 때문에 존재한다는 삽입구가 빠졌으나, 핵심 사실(dictConfig로 필터 구성 가능, 방법이 처음엔 명확하지 않을 수 있음)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'though'의 양보 관계가 접속어 없는 두 문장으로 나뉘었지만 앞뒤 문맥상 대조 관계로 읽혀 관계 종류가 바뀌지 않았고, 문장 분할은 오류가 아닙니다. 삽입구 누락은 내용 변화이므로 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"방법 설명 → 방법 설명. 필터 구성 가능성을 안내하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'can'은 선택 가능한 방법·능력을 설명하는 것이며 규범적 의무·허가를 정하는 문장이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기술 문서의 공식 설명체 '~습니다'가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15484,
+    "inference_geo": "global",
+    "input_tokens": 1149,
+    "output_tokens": 822,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

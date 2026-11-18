@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9pE4BAmE2yxX3hLLa4r",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P086\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"may be referred to a community-based organization\",\"tgt_span\":\"지역 사회 기반 조직을 참조 할 수 있습니다\",\"description\":\"학생이 지역 기반 조직에 '의뢰·연계될 수 있다'는 수동 의미가 학생이 조직을 '참조할 수 있다'는 능동 행위로 바뀌어 행위자와 행위가 달라짐\"},{\"id\":\"E002\",\"src_span\":\"including, but not limited to, after-school programming\",\"tgt_span\":\"학교 밖 프로그램, … 학업 튜터링을 포함한\",\"description\":\"'but not limited to'(예시일 뿐 이에 한정되지 않음)가 번역되지 않아 열거 범위가 한정되지 않는다는 표현이 사라짐\"},{\"id\":\"E003\",\"src_span\":\"after-school programming\",\"tgt_span\":\"학교 밖 프로그램\",\"description\":\"방과 후 프로그램이 '학교 밖 프로그램'으로 바뀌어 시간 의미가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E003\"],\"reason\":\"판단 질문 1: 'referred to'(의뢰·연계됨)가 '참조하다'로 바뀌어 학생이 조직을 참고하는 것으로 읽히고, 방과 후 프로그램도 '학교 밖 프로그램'으로 바뀌어 대상·행위가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 3: 'including, but not limited to'의 범위 표현이 단순한 '포함한'으로 바뀌어 열거 항목이 서비스의 전부인지 예시인지 범위가 달라질 수 있으나 '다양한 서비스'가 남아 있어 영향은 작습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"제도 안내 설명 → 제도 안내 설명. 발화 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: may be referred는 학생이 의뢰될 수 있다는 허용·권한 규정인데, 번역은 학생이 스스로 조직을 참조할 수 있다는 것으로 읽혀 규범의 주체와 대상이 바뀌었습니다. 평가조건이 담당 주체 변경을 불허합니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내체 '~습니다'가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지역 사회 기반 조직(community-based organization)이 통용되는 표현으로 옮겨져 한국 제도로 대체되지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15484,
+    "inference_geo": "global",
+    "input_tokens": 906,
+    "output_tokens": 1071,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

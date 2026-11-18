@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9oyhc2b2eLect3ELFtJ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P052\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a pattern of threatening or actual physical, sexual, and/or emotional abuse\",\"tgt_span\":\"위협 또는 실제 신체의 패턴을 사용하는 경우, 성적, 및 / 또는 감정적 학대\",\"description\":\"학대의 유형(신체적·성적·정서적 학대)을 수식하는 구조가 깨지고 '패턴'이 '신체'에만 붙어, 학대 유형 열거가 문장 밖으로 분리됨\"},{\"id\":\"E002\",\"src_span\":\"the school should refer both the victim and the student who engages in this behavior to separate appropriate school or community-based agencies\",\"tgt_span\":\"학교는 … 이 행동에 종사하는 피해자와 학생 모두를 참조해야합니다\",\"description\":\"'이 행동에 종사하는'이 피해자와 학생 모두를 수식하는 것처럼 읽혀 가해 학생과 피해자의 구분이 흐려짐\"},{\"id\":\"E003\",\"src_span\":\"refer\",\"tgt_span\":\"참조해야합니다\",\"description\":\"'의뢰하다(refer)'가 '참조하다'로 오역되어 상담 기관에 연계하는 행위가 달라짐\"},{\"id\":\"E004\",\"src_span\":\"for counseling, support, and education services\",\"tgt_span\":\"상담을위한 … 지원, 및 교육 서비스\",\"description\":\"상담·지원·교육 서비스 목록이 문장 뒤로 분리되고 기관에 대한 목적 관계가 불분명해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\",\"E004\"],\"reason\":\"판단 질문 1: refer가 '참조하다'로 바뀌어 연계 행위가 달라졌고, 학대 유형과 가해·피해 학생 구분이 흐려져 독자가 문장의 요지를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E004\"],\"reason\":\"판단 질문 3·1: 수식 범위가 깨져 '패턴'이 신체에만 걸리는 것으로 읽히고, '이 행동에 종사하는'의 지시 범위가 피해자까지 포함되며, 서비스 목록의 연결 대상이 불분명해집니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학교의 조치 지침 안내 → 학교의 조치 지침 안내. 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\",\"E003\"],\"reason\":\"판단 질문 2: 학교가 수행할 의무의 내용이 '의뢰'에서 '참조'로 바뀌고 대상 구분이 흐려져 규범의 내용과 적용 대상이 달라졌습니다. should→'-해야합니다' 대응 자체는 문제가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 안내체('-합니다')가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15144,
+    "inference_geo": "global",
+    "input_tokens": 1182,
+    "output_tokens": 1204,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9opYBEhurPYLnN5kxwm",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P099\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the agency warned that Wikipedia would be blocked in its entirety\",\"tgt_span\":\"위키백과는 … 완전히 차단될 것이라고 경고했다\",\"description\":\"경고의 주체가 기관(Roskomnadzor)에서 위키백과로 바뀜. 경고한 쪽과 경고받은 쪽이 뒤바뀌어 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위자): 경고한 주체가 the agency(Roskomnadzor)인데 번역문에서는 위키백과가 경고한 것으로 바뀌어 누가 무엇을 했는지가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(지시): the agency가 가리키는 Roskomnadzor가 번역문에서 위키백과로 바뀌어 지시 대상이 달라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사건 서술 → 사건 서술. 경고를 보고하는 서술 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"독자에게 의무·허가·금지를 정하는 규범 표현이 아니라 사건을 서술하는 문장입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 서술문으로, 화자와 청자의 관계에 따른 높임·호칭이 문제되지 않습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Roskomnadzor를 '러시아 정보통신 감독국'으로 옮기고 원어 표기를 병기하여 같은 기관을 가리키며 이해할 수 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1042,
+    "output_tokens": 742,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

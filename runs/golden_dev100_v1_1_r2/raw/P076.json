@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9ooM9SfTMP4eiba313n",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P076\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Mr. Trump\",\"tgt_span\":\"트럼프 대통령\",\"description\":\"원문의 'Mr.' 호칭이 '대통령' 직함으로 바뀜. 같은 인물을 가리키며 문맥상 대통령이 맞아 의미 변화는 없으나 호칭이 달라짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"투표 주체(우리), 중간선거, 트럼프에게 책임을 물을 의회라는 내용이 모두 유지되며, 'Mr. Trump'를 '트럼프 대통령'으로 옮겨도 같은 인물을 가리킵니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'And above all'이 '무엇보다'로 앞 내용에 더하는 강조 연결을 유지하고, 지시·초점 관계의 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"독자에게 묻는 수사적 질문(투표 촉구) → 같은 수사적 질문. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없고, will은 미래·의지를 나타내는 질문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 칼럼의 서술 문체가 '-ㄹ 것인가?'로 유지되며, 'Mr.'를 '대통령'으로 옮긴 것도 존중하는 호칭 태도를 크게 바꾸지 않습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"미국 중간선거(midterms)와 의회(Congress)를 같은 제도로 옮겨 한국어 독자가 이해할 수 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 550,
+    "output_tokens": 756,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

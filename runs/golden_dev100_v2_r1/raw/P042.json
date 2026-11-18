@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9omVpHApxLhrC5bw8mw",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P042\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Only the x++ statement is executed if the condition is true\",\"tgt_span\":\"조건이 참일 경우에만 x++ 문이 실행되지만\",\"description\":\"only의 초점이 'x++ 문'에서 '조건이 참일 경우'로 옮겨 감. 원문은 조건이 참일 때 x++ 문만 실행된다는 뜻인데, 번역문은 x++ 문이 조건이 참일 때에만 실행된다는 뜻으로 읽힘.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조건이 참일 때 x++ 문이 실행되고, 들여쓰기 때문에 많은 사람이 달리 믿는다는 내용이 유지됩니다. 초점 이동은 Textual에서 판정하며, 같은 사태를 기술하는 어순 차이는 의미 훼손이 아닙니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(초점·범위): only가 'x++ 문'에서 '조건이 참일 경우'로 옮겨 가 범위가 달라졌습니다. 원문은 다른 문(예: y--)이 조건부로 실행되지 않는다는 점을 함축하지만, 번역문은 x++의 실행 조건만 말하는 것으로 읽힙니다. 독자가 들여쓰기로 인한 오해의 핵심을 놓칠 수 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개념 설명 → 개념 설명. 설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학습자료의 설명체가 '~습니다' 안내체로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15144,
+    "inference_geo": "global",
+    "input_tokens": 656,
+    "output_tokens": 819,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

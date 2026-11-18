@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9ooJ5ePKz7UchrX8Z9F",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P075\",\"evaluable\":false,\"evaluable_note\":\"생성붕괴 검토 필요: 평가대상 원문은 여러 문장(경찰의 신체 측정·촬영, 재현 절차, 마네킹 묘사, 직원의 치칸 역할, 사진 촬영, 의정서 언급, 'Jenna noted that no po'에서 잘린 부분)인데 번역 구간은 마네킹 묘사와 '저게 제나다'만 있습니다. 나머지 문장은 번역 구간에 없고, 평가대상 원문 자체도 문장 중간에서 끊겨 있어 대응 구간을 구성할 수 없습니다.\",\"errors\":[],\"axes\":{\"Semantic\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"생성붕괴 검토 필요: 평가대상 원문은 여러 문장이고 끝이 잘려 있는데 번역 구간은 두 문장뿐이라 대응 구간이 구성되지 않습니다. 정렬 검토가 필요합니다.\"},\"Textual\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"생성붕괴 검토 필요: 대응 구간이 구성되지 않아 지시·연결·초점 관계를 비교할 수 없습니다.\"},\"Context\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"생성붕괴 검토 필요: 번역 구간이 원문 대부분과 대응하지 않아 발화 기능을 비교할 수 없습니다.\"},\"Deontic\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"생성붕괴 검토 필요: have to가 있는 원문 문장에 대응하는 번역 구간이 없어 규범 표현을 비교할 수 없습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"생성붕괴 검토 필요: 대응 구간이 구성되지 않아 평가할 수 없습니다.\"},\"Cultural\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"생성붕괴 검토 필요: chikan, 일본의 신고·재현 절차 등 문화 대상이 있는 원문 구간에 대응하는 번역이 없어 비교할 수 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1772,
+    "output_tokens": 843,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

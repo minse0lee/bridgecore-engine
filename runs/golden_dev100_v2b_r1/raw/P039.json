@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9p8XVpcqQJyoMtfAgM5",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P039\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"most votes\",\"tgt_span\":\"대부분의 표\",\"description\":\"'most votes'(최다 득표, 가장 많은 표)를 '대부분의 표'(표의 대다수)로 옮겨 득표 수 의미가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(수량): 'most votes'는 다른 정당보다 많은 표(최다 득표)인데 '대부분의 표'는 표의 대다수로 읽혀, 과반수를 넘지 못했다는 뒤 절과 모순되어 독자가 선거 결과를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'but'과 '~지만'의 대조 관계가 유지되고 지시·범위 표현도 같은 대상에 걸립니다. 'most votes' 오역은 내용 변화이므로 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"선거 결과 보도 설명 → 선거 결과 보도 설명. 사실을 전달하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'required majority'의 required는 과반 기준을 서술하는 형용사적 쓰임으로, 독자나 특정 주체에게 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 서술의 평서체 '~했다'가 유지되어 매체와 맞습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"집권당, 민주회의당, 과반수 등 정당·의회 제도 용어가 같은 대상과 제도를 가리키며 이해 가능하게 옮겨졌습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15484,
+    "inference_geo": "global",
+    "input_tokens": 856,
+    "output_tokens": 765,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

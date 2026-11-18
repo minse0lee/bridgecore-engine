@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9pA9azmGTinXcUJxSm8",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P072\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a teacher removal\",\"tgt_span\":\"교사 퇴학\",\"description\":\"교사가 학생을 수업에서 일시적으로 내보내는 조치(teacher removal from class)가 '퇴학'(학교에서 영구 제적)으로 옮겨져 다른 제도적 조치를 가리킴\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 교사가 수업에서 학생을 내보내는 조치가 '교사 퇴학'으로 바뀌어 조치의 내용이 달라졌고, 독자가 징계 단계를 다르게 이해하게 됩니다. 나머지 수량·조건·부정은 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"While의 대조 관계가 '~하며'로 이어지고, prior to의 선후 관계와 along with의 결합도 유지되어 지시·관계·범위가 같습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 안내(조치 전 노력 요구) → 규정 안내. 발화 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"must → '처리되어야 하며', should → '노력을 기울여야 합니다'로 통상 대응하며 의무·권고의 범주와 주체·조건이 유지됩니다. 'removal'의 오역은 Semantic에서 다룹니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 안내문의 '~합니다' 격식체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2: 뉴욕시 징계 규정의 'teacher removal'(교실에서의 일시적 분리 조치)이 '퇴학'이라는 다른 제도적 조치로 옮겨져, 독자가 이 제도의 의미를 이해할 수 없게 됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15484,
+    "inference_geo": "global",
+    "input_tokens": 1122,
+    "output_tokens": 818,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

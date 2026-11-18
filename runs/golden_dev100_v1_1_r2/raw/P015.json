@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9ok3sY3psDPGQwaCQvP",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P015\",\"evaluable\":false,\"evaluable_note\":\"정렬 검토 필요: 평가대상 원문은 여러 문장(제목형 문장, 박근혜 발언, 트위터 사용자 반응 등)이 합쳐진 문단 단위이고 마지막은 'over 500 tim'에서 잘려 있다. 평가대상 번역문은 이 중 두 번째 문장에 해당하는 한 문장뿐이어서 지정된 문장 단위로 대응 구간을 확정해 축별로 판정하기 어렵다.\",\"errors\":[],\"axes\":{\"Semantic\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 여러 원문 문장이 평가대상으로 묶여 있고 번역문은 한 문장뿐이다. 대응 구간을 특정할 평가대상 원문 단위를 확인해야 한다.\"},\"Textual\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 평가대상 원문과 번역문의 범위가 일치하지 않아 지시·연결·초점 관계를 비교할 수 없다.\"},\"Context\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 원문 여러 문장의 기능을 한 번역 문장과 비교할 수 없다. 평가대상 문장의 정확한 범위 확인이 필요하다.\"},\"Deontic\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: need to가 포함된 인용문 번역이 평가대상 번역문에 없어 규범 표현을 대조할 수 없다. 평가대상 범위 확정이 필요하다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 평가대상 원문과 번역문의 범위가 맞지 않아 태도와 격식을 비교할 수 없다.\"},\"Cultural\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 평가대상 원문과 번역문이 정렬되지 않아 제도·문화적 대상을 대조하기 어렵다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1389,
+    "output_tokens": 820,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

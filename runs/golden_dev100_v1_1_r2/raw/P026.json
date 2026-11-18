@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9oki8Rh92NiunvW3Dbj",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P026\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Article 43 of the draft\",\"tgt_span\":\"43조는\",\"description\":\"'of the draft'(법안의)가 번역문에서 생략됨. 단 문단 문맥상 법안의 조항임이 분명하고 다음 문장에서 '법안'이 언급되어 의미 변화는 미미함.\"},{\"id\":\"E002\",\"src_span\":\"the cyberspace administration and relevant departments\",\"tgt_span\":\"사이버공간 관리 및 관련 부서가\",\"description\":\"'cyberspace administration'(사이버공간관리 기관)이 '사이버공간 관리'로 옮겨져 기관명 성격이 약해졌으나 '관련 부서'와 병렬된 주체로 읽힘.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조항 번호, 요구 주체, 대상 기관, 차단할 정보, 조치 내용이 모두 유지되어 같은 사태를 기술하며, '법안의' 생략과 '관리' 표현은 요지를 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'43조'의 소속은 문맥상 법안으로 이어지고, 연결·초점 관계에 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"법안 조항 내용 설명 → 법안 조항 내용 설명으로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"shall require의 의무 부과가 '요구한다고 규정하고 있다'로 유지되고 주체·대상·조건도 같으며, prohibited의 금지도 '금지된'으로 유지됩니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"출판물 본문의 객관적 서술체가 유지되며 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"법안의 조 단위를 '43조'로 통용 표기에 맞게 옮겼고, 제도적 의미가 한국어 독자에게 이해 가능합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1262,
+    "output_tokens": 842,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9ooV9eVjBZ7ujBDQxqb",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P078\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"for behavior which presents a clear and present danger of physical injury … or prevents the orderly operation of classes or other school activities\",\"tgt_span\":\"신체 상해의 위험을 제시하는 행동에 대한 학생을 1 ~ 5 학교 일을 정지 할 수있는 권한이있다, 또는 … 운영을 방지\",\"description\":\"정지 사유가 되는 행동의 두 갈래(위험을 주는 행동 또는 질서 있는 운영을 방해하는 행동)가 해체되어, 두 번째 갈래가 권한 서술 뒤에 붙은 '운영을 방지'라는 불완전한 구로 남음. 행동이 운영을 방해한다는 관계가 사라지고 방지 행위로 읽힘.\"},{\"id\":\"E002\",\"src_span\":\"or prevents the orderly operation of classes\",\"tgt_span\":\"또는 … 운영을 방지\",\"description\":\"'또는'이 뒤로 옮겨져 선행 요소와 연결되는 대상이 불분명해지고, 징계 사유의 선택적 연결 구조가 무너짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위·인과): 정지 사유인 '수업·학교 활동의 질서 있는 운영을 방해하는 행동'이 '운영을 방지'로 바뀌어 행동과 그 결과의 관계가 달라졌고, 독자가 정지 사유를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2(연결 관계): 'behavior which presents … or prevents …'의 선택적 병렬 구조가 깨져, 두 번째 사유가 '행동'에 걸리지 않고 문장 끝에 분리되어 연결 관계가 바뀌었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 설명 → 규정 설명. 교장의 정지 권한을 알리는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 2(조건·적용 범위): 교장이 정지시킬 수 있는 조건 중 질서 있는 운영을 방해하는 행동이 독립된 사유로 읽히지 않아 권한이 발생하는 조건과 범위가 불명확해졌습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 안내문이 평서 종결로 유지되고 관계에 어긋나는 격식 변화는 없습니다. 어색함만으로 훼손을 주지 않습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'교장', '정지', '징계' 등 학교 제도 용어가 미국 제도 그대로 유지되었습니다. 기간 수치 1~5는 보존되어 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1179,
+    "output_tokens": 1133,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

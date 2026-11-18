@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9p7b2cTT7LkCDLV4dCp",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P020\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the first thing you'll want to do is create some objects\",\"tgt_span\":\"먼저 몇 개의 객체를 생성해야 합니다\",\"description\":\"'하고 싶어 할 첫 번째 일'(예상되는 바람·안내)이 '생성해야 합니다'라는 필수 표현으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"모듈 설명, 먼저 객체를 생성한다는 내용, 수량(some → 몇 개)이 동일하며 'want to'의 뉘앙스 차이는 규범 변화로 Deontic에서 다룹니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Since가 '-므로'로 같은 인과 관계를 유지하고 지시·범위 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학습 절차 안내 → 학습 절차 안내. 다음에 할 일을 안내하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 원문은 모듈 사용 시 자연스러운 첫 단계를 'you'll want to'로 안내하는 정도인데, 번역은 '생성해야 합니다'로 필수 의무처럼 읽힙니다. 다만 독자의 행동과 대상은 같아 minor입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재 설명체 '-합니다'가 학습자료 관계에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15484,
+    "inference_geo": "global",
+    "input_tokens": 621,
+    "output_tokens": 708,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9oxHNyHVZxyTEx6NeV5",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P025\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"we'll list your blog post there too\",\"tgt_span\":\"블로그 게시물을 올리도록 하겠습니다\",\"description\":\"'목록에 올리다(list, 링크 소개)'가 '게시물을 올리다'로 옮겨져 게시 행위 주체·방식이 달라질 여지가 있으나 핵심은 해당 페이지에 소개한다는 약속으로 읽힘; 또한 'there'(그 페이지)가 번역에서 생략됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'list your blog post there(그 페이지에 목록으로 올림)'이 장소 표시 없이 '게시물을 올리다'로 바뀌어, 독자가 글을 새로 게시한다고 읽을 수 있으나 약속의 요지(우리도 소개해 주겠다)는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"링크하면 소개하겠다는 조건 관계가 '-시면'으로 유지되고 지시·범위가 바뀌지 않았습니다. too의 첨가 뉘앙스 약화는 보존 사항입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"링크를 요청하고 그 대가를 약속하는 참여 안내 → 동일한 참여 안내. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"선택적인 참여 권유와 호혜 약속이며 반드시 지켜야 할 의무·금지 규범이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'걸어주시면 ~하겠습니다'로 독자에게 정중하게 권하는 기대 격식에 부합합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없고 단체 페이지명은 일반 번역입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15144,
+    "inference_geo": "global",
+    "input_tokens": 654,
+    "output_tokens": 808,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9pAn213rJKmnbqHEdFU",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P084\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"북한의 공식 종전 추구, 미국의 발언, 평양의 선(先) 핵 포기 요구가 모두 유지됩니다. '1950-53'은 원문 표기 그대로이므로 힌트의 수치 불일치는 오경보입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but이 '-지만'으로 옮겨져 대조 관계가 유지되고, first의 범위('먼저')도 평양의 핵 포기에 걸려 같습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 서술 → 뉴스 서술. 양측 입장을 보도하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"미국이 평양에 요구하는 must(의무)가 '포기해야 한다'로 유지되며 주체와 조건도 같습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 기사의 평서 종결 '-했다' 문체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'한국 전쟁'과 연도 범위 '1950-53'이 같은 역사적 사건을 가리키며, 평양은 북한 정부를 뜻하는 통상적 환유로 그대로 옮겨졌습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15484,
+    "inference_geo": "global",
+    "input_tokens": 848,
+    "output_tokens": 604,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

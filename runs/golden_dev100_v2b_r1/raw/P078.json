@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9pAYcqoXgym1RAdWmJw",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P078\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"for behavior which presents a clear and present danger of physical injury to the student, other students or school personnel\",\"tgt_span\":\"학생, 다른 학생 또는 학교 직원에게 명확하고 현재의 신체 상해의 위험을 제시하는 행동에 대한 학생을 1 ~ 5 학교 일을 정지\",\"description\":\"정지 사유인 행동(위험을 초래하는 행동)이 '행동에 대한 학생을 … 정지'로 어색하게 옮겨졌고, 'the student'가 위험 대상에서 빠져 '학생, 다른 학생'으로 모호해짐. 정지 대상 학생과 위험 대상 학생의 관계가 불분명함\"},{\"id\":\"E002\",\"src_span\":\"or prevents the orderly operation of classes or other school activities consistent with the disciplinary responses set forth in this Code\",\"tgt_span\":\", 또는이 코드에 명시된 징계 대응과 일치하는 수업이나 기타 학교 활동의 질서 정연한 운영을 방지.\",\"description\":\"'행동이 수업 운영을 방해하는 경우'라는 두 번째 정지 사유가 주어 없이 '운영을 방지'로 끝나 정지 사유로 이어지지 않고, '방지'는 방해(prevents)의 의미와 달라 '운영을 막는다'가 아니라 '운영을 방지(예방)'로 읽힘. 또한 'consistent with…'가 징계 조치와 정지의 일치 조건이 아니라 수업 활동을 수식하는 것으로 잘못 걸림\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 정지 사유가 되는 행동의 설명이 깨지고, 'prevents'가 '방지'로 바뀌어 질서 운영을 방해하는 행동이 아니라 운영을 방지하는 것처럼 읽혀 정지 사유가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 2·3: 문장 구조가 깨져 두 번째 사유(or prevents…)가 'behavior'에 걸리지 않고 파편처럼 남았으며, 'consistent with this Code'의 수식 범위가 정지 권한이 아니라 수업·활동으로 잘못 걸립니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 설명 → 규정 설명. 교장의 정지 권한을 안내하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 2: 교장의 정지 권한이 발동되는 조건(위험한 행동 또는 수업 운영 방해 행동)과 이 코드에 부합해야 한다는 범위가 불분명하게 바뀌어 권한의 조건·범위가 달라졌습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'~있다' 평서체로 문어 규정문 어조는 크게 어긋나지 않으며 어색함만으로는 훼손이 아닙니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교장의 정지 권한과 1~5 학교 일(school days)이라는 제도가 한국 제도로 대체되지 않고 유지되었습니다. '학교 일'은 어색하나 정지 기간 단위는 이해 가능합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15484,
+    "inference_geo": "global",
+    "input_tokens": 1179,
+    "output_tokens": 1326,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

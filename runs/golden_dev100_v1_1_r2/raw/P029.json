@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9okmBUNzaQMsiwPpBuU",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P029\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Yellow and Red\",\"tgt_span\":\"노란색과 빨간색\",\"description\":\"정치 집단(옐로셔츠·레드셔츠)을 가리키는 고유 명칭이 일반 색깔 단어로 옮겨져, 문장만으로는 정치 세력 간 갈등의 순환임이 드러나지 않음(다음 문장에서 설명됨).\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"모두 결과를 받아들여야 하며 그렇지 않으면 혼란스러운 순환으로 돌아간다는 내용, 행위자·조건·결과가 유지되고 Yellow and Red도 대응 색깔로 옮겨져 지시 대상이 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"otherwise가 '그렇지 않으면'으로 조건·인과 관계가 유지되고 대명사 they도 '그들'로 모두를 가리켜 지시·연결·초점 모두 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"의견 주장·권고 → 의견 주장·권고. 결과 수용을 촉구하고 경고하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"should가 '받아들여야 한다'로 통상적으로 대응되고 대상(모두)과 조건(승인 여부 무관)이 유지됩니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"의견 서술문의 평서체('~한다')가 앞뒤 문맥의 화자 어조와 일치하며 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"Yellow and Red는 태국 정치 집단을 가리키는 문화·제도적 명칭인데 '노란색과 빨간색'으로 옮겨져 이 문장만으로는 정치 집단임이 전달되지 않으나, 바로 다음 문장에서 설명되어 독자가 이해할 수 있는지 판단이 필요해 평가대상 문장 범위 내에서는 결정을 보류합니다. 필요한 정보: 문단 문맥 설명을 이 문장의 이해에 반영할지 여부.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1261,
+    "output_tokens": 913,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

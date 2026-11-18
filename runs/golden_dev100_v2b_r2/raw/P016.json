@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9p7HNjckX5Mfz4q8Zzz",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P016\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"163 million yen\",\"tgt_span\":\"1억 6300만 엔\",\"description\":\"1억 6300만 엔은 163 million yen과 같은 금액이므로 오류가 아님(힌트는 오경보)\"},{\"id\":\"E002\",\"src_span\":\"forty of such institutions\",\"tgt_span\":\"40개의 기관\",\"description\":\"'such'(앞서 말한 성폭력 구호센터)가 일반 '기관'으로 바뀌어 센터라는 한정이 사라지고 'forty of'(전체 중 40개)도 단순 수량으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: 'such institutions'가 '기관'으로 옮겨져 성폭력 구호센터라는 종류가 번역문에서는 드러나지 않지만, 앞 문장 문맥에서 센터로 읽히고 금액·수량은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'but'은 '-지만'으로 대조 관계가 유지되고, '이미 40개의 기관'이 앞 문장의 센터를 가리킨다고 문맥에서 정해져 지시 대상이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"정보 전달(설명) → 정보 전달(설명). 출처를 밝힌 보도 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 사실 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기사체 평서문과 '다나베 씨' 호칭이 원문의 Ms.Tanabe에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"엔화 금액이 1억 6300만 엔으로 정확히 옮겨지고 달러 환산도 원문대로 유지되어 통화 표기가 적절합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15484,
+    "inference_geo": "global",
+    "input_tokens": 1639,
+    "output_tokens": 824,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
