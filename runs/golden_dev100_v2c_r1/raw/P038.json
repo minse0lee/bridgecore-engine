@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9vbYiSG7JwiVPX77Cme",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P038\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"So you did\",\"tgt_span\":\"그래서 당신이 했어요\",\"description\":\"앞 말(빌이 말한 내용)에 맞장구치며 확인하는 so가 인과 접속 '그래서'로 바뀌고, 'did'(앞서 한 일을 가리킴)가 목적어 없는 '했어요'로 옮겨져 확인·동의가 결과 서술처럼 읽힘\"},{\"id\":\"E002\",\"src_span\":\"said the others\",\"tgt_span\":\"다른 사람들이 말했다\",\"description\":\"동물들(the others)이 '다른 사람들'로 옮겨져 화자가 사람으로 바뀜\"},{\"id\":\"E003\",\"src_span\":\"old fellow\",\"tgt_span\":\"늙은이\",\"description\":\"친근한 호칭 'old fellow'가 나이 든 사람을 낮춰 부르는 '늙은이'로 바뀌고, 문자 그대로 '늙음'이 부각됨. 'you'도 '당신'으로 옮겨 반말의 친근함이 사라지고 존댓말 '했어요'가 쓰임\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\",\"E003\"],\"reason\":\"판단 질문 1(인물·대상): 화자가 동물들에서 '다른 사람들'로, 호칭이 친근한 'old fellow'에서 나이를 가리키는 '늙은이'로 바뀌어 달라졌으나 핵심 사태(동료들이 빌에게 말함)는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 앞 말에 대한 동의·확인의 so가 인과 접속 '그래서'로 바뀌어 앞 말의 결과처럼 읽힙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"동료에게 맞장구치는 발화 → 동료에게 말을 거는 발화. 같은 종류의 기능으로 읽힙니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화문입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 1·3: 평가조건이 기대하는 친근한 반말이 존댓말 '했어요'와 '당신'으로 바뀌었고, 친근한 'old fellow'가 낮춰 부르는 '늙은이'가 되어 화자의 친밀한 태도가 달라졌습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 534,
+    "output_tokens": 1053,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

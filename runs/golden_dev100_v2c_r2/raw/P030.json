@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9vfLFhiC5Xs1sMYhNmA",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P030\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Pray, what is the reason of that?”\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"이유를 묻는 질문 절이 통째로 누락됨\"},{\"id\":\"E002\",\"src_span\":\"you turned a back-somersault in at the door\",\"tgt_span\":\"당신은 문을 향해 뒤로 몸을 돌렸습니다\",\"description\":\"뒤로 공중제비를 넘으며 들어온 행위가 '문을 향해 뒤로 몸을 돌렸다'로 바뀌어 행위와 이동(들어옴)이 달라짐\"},{\"id\":\"E003\",\"src_span\":\"you are old… as I mentioned before\",\"tgt_span\":\"당신은 늙었고\",\"description\":\"아버지 윌리엄에게 하는 말인데 '당신'이라는 호칭과 '-습니다' 체로 옮겨 놀리는 투가 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 이유를 묻는 절이 누락되었고, 뒤공중제비를 넘으며 들어온 행위가 뒤로 몸을 돌린 것으로 바뀌어 독자가 내용을 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그런데도'가 양보·대조(Yet)를 유지하고 남은 표현의 지시·범위는 그대로이며, 질문 절 누락은 Semantic에서 판정합니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"원문 기능 → 번역 기능: 놀리듯 이유를 캐묻는 질문 → 이유 없이 사실만 나열하는 서술. 질문 절이 빠져 발화 기능이 달라졌습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 시 속 서술과 질문입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 1·3: 아들이 아버지에게 놀리듯 말하는 관계인데 '당신'과 평탄한 '-습니다' 체로 옮겨 놀리는 태도와 부자 관계가 약해졌습니다. 다만 공손한 말투 자체는 아버지에게 쓰는 말로 쓸 수 있어 minor입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 737,
+    "output_tokens": 1016,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

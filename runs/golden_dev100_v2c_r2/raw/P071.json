@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9vdFFGprU12HP2c9Huc",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P071\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the old people I've talked to say\",\"tgt_span\":\"나는 … 말하는 나이 든 사람들과 이야기했다\",\"description\":\"현재완료 관계절(이야기해 본 노인들이 말한다)이 주절의 과거 행위(이야기했다)로 바뀌어 화자의 발언 내용이 '노인들과 이야기했다'로 읽힘. 인용문의 핵심 주장(모퉁이마다 바와 교회가 있었다)이 종속절로 밀려남\"},{\"id\":\"E002\",\"src_span\":\"Mr. Adams\",\"tgt_span\":\"씨. 애덤스\",\"description\":\"Mr.를 '씨.'로 음역·직역하여 호칭 표기가 어색함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 노인들이 (지금) 말한다는 내용이 화자가 노인들과 이야기했다는 과거 행위로 바뀌어 시제·서술 초점이 달라졌으나, 노인들이 그렇게 말했다는 핵심 사실과 이야기 대상은 유지되어 요지는 크게 바뀌지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"관계절이 주절로 바뀌어 정보의 주종만 달라졌고, 지시·연결·범위는 같아 보존입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"역사적 사실에 대한 인용 발언 전달 → 인용 발언 전달. 기능은 같은 종류입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 인용문에서 화자의 격식과 태도가 유지됩니다. '씨.' 표기는 어색할 뿐 관계를 바꾸지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명과 호칭 외에 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 600,
+    "output_tokens": 863,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

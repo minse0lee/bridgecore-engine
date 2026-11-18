@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9vbu1KwqLvpU3t2e4A2",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P044\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"incidents of groping\",\"tgt_span\":\"간음 사건\",\"description\":\"groping(추행·더듬기)이 '간음'(성교)으로 오역되어 범죄 행위의 종류가 달라짐\"},{\"id\":\"E002\",\"src_span\":\"\\\"forcible indeceny\\\" (強制わいせつ)\",\"tgt_span\":\"\\\"강제 음란\\\"\",\"description\":\"강제추행(強制わいせつ, indecent assault)이 '강제 음란'으로 옮겨져 죄명의 제도적 의미가 전달되지 않고 원어 병기도 누락됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(행위·대상): groping이 간음으로 바뀌어 다른 범죄 행위로 읽히고, 'forcible indecency'도 '강제 음란'이라는 부정확한 표현이 되어 요지가 달라집니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"남아 있는 표현의 지시·연결·범위는 원문과 같게 읽힙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사실 설명 → 사실 설명. 기소 방식을 설명하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 아니라 기소 관행을 서술하는 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기사 서술의 설명체가 '~합니다'로 유지되며 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2(제도적 의미): 일본 형법상 강제추행죄(強制わいせつ)가 '강제 음란'이라는 일반 어휘로 옮겨져 죄명의 제도적 의미가 전달되지 않으며, 조문 번호(제176조)가 남아 원 자료를 찾을 수 있어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 1234,
+    "output_tokens": 835,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

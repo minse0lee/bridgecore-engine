@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9vaHPvJH4R8UgLs2bW8",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P010\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"must still be ratified\",\"tgt_span\":\"확정될 예정이다\",\"description\":\"'아직 … 승인(비준)되어야 한다'는 필수 절차 표현이 단순한 예정 표현으로 바뀌고 still의 뉘앙스가 빠짐. 'ratified'(승인)가 '확정'으로 옮겨짐.\"},{\"id\":\"E002\",\"src_span\":\"the full IOC\",\"tgt_span\":\"IOC 총회\",\"description\":\"'full IOC'(전체 IOC)가 'IOC 총회'로 옮겨져 있으나 통상적 대응으로 의미 차이 없음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"투표 결과가 10월 코펜하겐 IOC 총회에서 승인(확정)된다는 사태·시간·장소가 같습니다. must의 필수성 변화는 Deontic에서만 다룹니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"still의 지속 뉘앙스만 약해졌고 지시·연결·범위는 그대로입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 정보 전달 → 뉴스 정보 전달. 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"must는 절차상 승인이 필요하다는 요건을 나타내는 표현이라 규범성이 있을 수 있으나, 뉴스 문장에서 '예정이다'가 필수 절차 요건을 충분히 전달하는지는 해석이 갈립니다. 규범성 적용 여부에 대한 기준 확인이 필요합니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 보도의 평서체 '-다'가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"IOC 총회라는 기관·회의를 같은 대상으로 옮겼고 '10월' 표기도 적절합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 648,
+    "output_tokens": 812,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

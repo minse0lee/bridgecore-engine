@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9vd1Nb3cUoXDpt82gEQ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P066\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"The US-based company\",\"tgt_span\":\"페이스북은\",\"description\":\"'미국 기반 회사'가 앞 문장의 Facebook을 가리키는 '페이스북'으로 바뀌어 '미국 소재'라는 정보가 빠짐(지시 대상은 동일)\"},{\"id\":\"E002\",\"src_span\":\"bullying and harassment\",\"tgt_span\":\"학대와 괴롭힘\",\"description\":\"bullying이 '학대'로 옮겨져 의미 범위가 달라짐(경미)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: '미국 기반'이라는 속성이 빠지고 bullying이 '학대'로 바뀌었으나, 금지 대상과 처벌 조건의 핵심 내용은 유지되어 요지는 같아 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'페이스북'은 앞 문장의 Facebook과 같은 대상을 가리키며, but과 unless 조건의 연결·범위가 '-지만', '-지 않으면'으로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사실 설명 → 사실 설명. 플랫폼 정책의 허점을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"기사에서 회사의 정책을 서술하는 문장으로, 독자에게 의무·허가를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 기사의 평서 서술체('~다')가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 754,
+    "output_tokens": 762,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

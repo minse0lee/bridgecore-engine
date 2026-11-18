@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9vgMUufQe83fsgFg8Kn",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P086\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"may be referred to a community-based organization\",\"tgt_span\":\"지역 사회 기반 조직을 참조 할 수 있습니다\",\"description\":\"수동태 'be referred to'(학교가 학생을 조직에 연계·의뢰함)가 학생이 조직을 '참조'한다는 능동 행위로 바뀌어 행위자와 행위가 달라짐\"},{\"id\":\"E002\",\"src_span\":\"including, but not limited to,\",\"tgt_span\":\"포함한\",\"description\":\"비한정 단서(but not limited to)가 빠져 서비스 목록이 예시가 아닌 한정된 목록처럼 읽힘\"},{\"id\":\"E003\",\"src_span\":\"after-school programming\",\"tgt_span\":\"학교 밖 프로그램\",\"description\":\"방과후 프로그램이 '학교 밖 프로그램'으로 바뀌어 시간적 의미(방과후)가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 학생이 조직에 연계·의뢰되는 내용이 학생이 조직을 '참조'하는 것으로 바뀌어 누가 무엇을 하는지가 달라졌고, 비한정 단서 누락과 after-school의 의미 변화도 있습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"단서 누락은 구절 통째 누락이므로 Semantic에서만 판정하며, 남은 문장의 연결·지시·범위는 그대로 읽힙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 안내(연계 가능한 서비스 설명) → 규정 안내. 발화 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 2: 학교가 학생을 연계할 수 있다는 권한 주체가 학생 자신이 조직을 참조할 수 있다는 것으로 바뀌었고, 비한정 단서 누락으로 서비스 적용 범위가 한정된 것처럼 읽혀 평가조건이 금지한 담당 주체·범위 변경에 해당합니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내체 '~습니다'가 유지되어 규정 안내문의 격식에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 단위나 표기로 판정할 대상이 없습니다(일반적 지역사회 기관 안내).\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 906,
+    "output_tokens": 1006,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9vcP8kyYHrBmcu8wXmk",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P052\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Referral to Counseling Services\",\"tgt_span\":\"상담 서비스에 대한 참조\",\"description\":\"'Referral'(의뢰·연계)이 '참조'(reference)로 오역되어 상담 서비스에 연계하는 절차라는 의미가 사라짐\"},{\"id\":\"E002\",\"src_span\":\"refer both the victim and the student who engages in this behavior\",\"tgt_span\":\"이 행동에 종사하는 피해자와 학생 모두를 참조해야합니다\",\"description\":\"'refer'가 '참조'로 오역되어 상담 기관에 의뢰한다는 행위가 달라짐\"},{\"id\":\"E003\",\"src_span\":\"threatening or actual physical, sexual, and/or emotional abuse\",\"tgt_span\":\"위협 또는 실제 신체의 패턴을 사용하는 경우, 성적, 및 / 또는 감정적 학대\",\"description\":\"abuse를 수식하는 목록이 끊겨 '실제 신체'는 학대와 연결되지 않고, 성적·감정적 학대가 조건절 밖으로 밀려남\"},{\"id\":\"E004\",\"src_span\":\"for counseling, support, and education services\",\"tgt_span\":\"상담을위한 … 지원, 및 교육 서비스\",\"description\":\"상담·지원·교육 서비스 목록이 분리되어 문장 끝에 놓이고 '기관'과의 관계가 불분명해짐\"},{\"id\":\"E005\",\"src_span\":\"the victim and the student who engages in this behavior\",\"tgt_span\":\"이 행동에 종사하는 피해자와 학생\",\"description\":\"'이 행동에 종사하는'이 피해자까지 수식하는 것처럼 읽혀 가해 학생과 피해자의 구분이 흐려짐\"},{\"id\":\"E006\",\"src_span\":\"to separate appropriate school or community-based agencies\",\"tgt_span\":\"별도의 적절한 학교 또는 지역 사회 기반의 기관\",\"description\":\"피해자와 가해 학생을 각각 별도의 기관에 의뢰한다는 뜻이 '별도의 기관'으로만 옮겨져 분리 의뢰 의미가 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\",\"E004\",\"E005\"],\"reason\":\"판단 질문 1: 'refer'가 '참조'로 바뀌어 상담 기관에 의뢰하는 행위 자체가 달라졌고, 학대 유형 목록과 대상 구분도 깨져 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E003\",\"E004\",\"E005\"],\"reason\":\"판단 질문 1·3: 학대 유형 목록이 끊겨 '실제'와 '성적·감정적'의 수식 범위가 달라지고, 서비스 목록이 문장 끝으로 분리되며, '이 행동에 종사하는'의 범위가 피해자까지 걸리는 것처럼 읽힙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 안내 → 규정 안내. 학교가 취할 조치를 안내하는 기능은 문장이 어색해도 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\",\"E006\"],\"reason\":\"판단 질문 2: should는 '-해야합니다'로 대응되어 강도는 유지되지만, 규범의 내용이 상담 기관 의뢰에서 '참조'로 바뀌고 피해자와 가해 학생을 각각 별도 기관에 의뢰한다는 조건도 약해져 학교가 해야 할 조치가 달라집니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 안내의 격식체 '-해야합니다'가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 1182,
+    "output_tokens": 1474,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

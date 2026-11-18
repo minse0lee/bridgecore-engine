@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9vbhmQfTExv9oLYTTxx",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P041\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Superintendent’s suspensions\",\"tgt_span\":\"교장의 정지\",\"description\":\"교육구 관할 책임자(Superintendent)의 정지가 '교장'(principal)의 정지로 바뀌어 처분 주체가 달라짐\"},{\"id\":\"E002\",\"src_span\":\"may be imposed only when required by law or for Level 5 infractions\",\"tgt_span\":\"법률에 의해 요구되는 경우에만 부과 될 수 있습니다 또는 레벨 5 … 위반은\",\"description\":\"'only'가 걸리는 두 조건(법률 요구 또는 레벨 5 위반) 중 두 번째가 문장 종결 뒤에 따로 놓여 'only'의 범위에서 벗어나고, 'for Level 5 infractions' 조건이 부과 가능 조건으로 이어지지 않음\"},{\"id\":\"E003\",\"src_span\":\"where the circumstances warrant the imposition of a longer suspension\",\"tgt_span\":\"상황이 더 긴 정지의 부과를 보증.\",\"description\":\"'warrant'(정당화하다)를 '보증'으로 옮기고 술어도 완결하지 않아 상황이 더 긴 정지를 정당화한다는 조건이 불분명해짐\"},{\"id\":\"E004\",\"src_span\":\"Level 5 infractions that involve seriously dangerous and/or violent behavior\",\"tgt_span\":\"레벨 5 심각하게 위험한 및 / 또는 폭력적 인 행동을 포함하는 위반은\",\"description\":\"'레벨 5'와 '위반'의 관계, 위반이 위험·폭력 행동을 수반한다는 관계절이 문법적으로 흐려졌으나 의미는 복원 가능\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E003\"],\"reason\":\"판단 질문 1(행위자·내용): 정지를 부과하는 주체인 Superintendent가 '교장'으로 바뀌었고, 'warrant'가 '보증'으로 옮겨져 더 긴 정지를 정당화하는 조건의 내용이 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 3(범위): 'only'가 법률 요구와 레벨 5 위반 두 조건에 걸리는데, 번역문에서는 '법률 … 경우에만'에서 문장이 끝난 듯 읽혀 두 번째 조건이 부과 가능 조건인지 알 수 없게 되어 허용 조건의 범위가 달라집니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 안내 → 규정 안내. 정지 부과 조건을 설명하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 2(주체·조건·범위): 장기 정지를 부과할 수 있는 주체가 바뀌었고, 허용되는 경우의 범위(법률 요구 또는 레벨 5 위반)가 불분명해져 허가 조건이 달라졌습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 문서의 공식 문체가 유지되며 관계상 문제되는 높임·호칭 변화는 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2: 뉴욕시 교육제도의 직위인 Superintendent(교육구 관할 책임자)가 학교 단위의 '교장'으로 옮겨져 다른 제도상 직위로 이해되며, 한국 독자가 정지 처분 권한의 제도적 의미를 잘못 이해합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 1116,
+    "output_tokens": 1400,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

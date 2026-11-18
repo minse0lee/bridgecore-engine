@@ -40,6 +40,9 @@
   - 연결이 "흐려졌다", "약해졌다", "덜 매끄럽다", "어색하다"는 이유뿐인 경우.
   - `reason`에 "요지는 유지된다", "핵심 내용은 그대로 전달된다"고 쓸 상황이면 Textual은 보존입니다.
 - 내용이 단순히 빠진 것은 Semantic에서만 판정합니다. 누락 때문에 지시·연결·범위 관계까지 바뀐 경우에만 Textual에도 기록합니다.
+  - 구절이나 절이 **통째로 빠진 것**은 그 구절이 연결어나 단서를 담고 있어도 누락입니다. 예: 질문의 대상이 되는 절, "but not limited to"·"among others" 같은 덧붙인 단서, 이유를 묻는 절. 이런 경우는 Semantic(규범의 범위가 바뀌면 Deontic)에서만 판정하고 Textual은 보존입니다.
+  - Textual은 번역문에 **남아 있는 표현**의 연결·지시·범위가 원문과 다르게 읽히는지를 봅니다. 질문 3의 "사라졌다"는 only·even·either처럼 초점을 정하는 단어 하나가 빠져 남은 문장의 범위가 바뀐 경우입니다.
+  - 예) 보존(누락은 Semantic): "Benefits include, but are not limited to, dental and vision care." → "혜택에는 치과와 안과 진료가 포함됩니다." 비한정 단서가 통째로 빠져 Semantic에서 판정하고, 남은 문장의 연결·지시·범위는 그대로라 Textual은 보존.
 - 예) 훼손(질문 2): "So you made it after all!" (상대 말에 맞장구치는 장면) → "그래서 결국 해냈군요!" 확인·동의의 so가 인과 접속 '그래서'로 바뀌어 앞 말의 결과처럼 읽힙니다.
 - 예) 훼손(질문 3): "Only the backup file is deleted when the disk is full." → "디스크가 가득 찼을 때만 백업 파일이 삭제된다." only가 '백업 파일'에서 '디스크가 가득 찼을 때'로 옮겨 가, 다른 파일도 지워지는지에 대한 범위가 달라졌습니다.
 - 예) 보존: "The museum also offers guided tours." → "박물관은 가이드 투어를 제공한다." also의 첨가 뉘앙스는 빠졌지만 제공 대상은 같아 보존(빠진 정보가 문맥상 중요하면 Semantic에서 판정).

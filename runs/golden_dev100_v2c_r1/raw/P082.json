@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9vdo3xRqUtuL6B91UiN",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P082\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Note that replace will also replace word inside words\",\"tgt_span\":\"replace 는 단어 내부의 단어도 대체할 수 있으며\",\"description\":\"'Note that' 주의 환기가 빠지고, 'will also replace'(실제로 대체함)가 '대체할 수 있으며'(가능성)로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"but the naive RE word would have done that, too\",\"tgt_span\":\"그러나 단순한 RE 단어도 그렇게 할 수 있습니다\",\"description\":\"'would have done that, too'(같은 일을 했을 것)가 '그렇게 할 수 있습니다'로 바뀌고, 'too' 뉘앙스가 약해졌으며, 'RE word'가 'RE 단어'로 옮겨져 패턴 word를 가리키는지 불분명해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(확실성): '대체한다/했을 것이다'가 '대체할 수 있다'로 바뀌어 확실성이 달라졌고 'Note that'도 빠졌지만, 핵심 사실(단어 내부도 대체됨, RE도 마찬가지)은 유지되어 요지는 같으므로 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그러나'가 replace와 RE의 비교 관계를 유지하고, '도'가 포함 대상을 그대로 나타내므로 지시·연결·범위 모두 같습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"원문 기능 → 번역 기능: 학습자에게 유의할 점을 환기하는 주의 안내(Note that) → 단순 사실 서술. 주의 환기 기능이 사라졌습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 설명 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재 설명체 '-습니다'가 문맥에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 920,
+    "output_tokens": 904,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

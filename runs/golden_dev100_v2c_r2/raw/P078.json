@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9vdggU57sRqa26Mudfs",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P078\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"for behavior which presents a clear and present danger of physical injury to the student, other students or school personnel, or prevents the orderly operation of classes or other school activities\",\"tgt_span\":\"학생, 다른 학생 또는 학교 직원에게 명확하고 현재의 신체 상해의 위험을 제시하는 행동에 대한 학생을 1 ~ 5 학교 일을 정지 할 수있는 권한이있다, 또는 … 질서 정연한 운영을 방지\",\"description\":\"정학 사유인 두 행동(신체 상해의 명백하고 임박한 위험을 주는 행동 / 수업·학교 활동의 질서 있는 운영을 막는 행동)이 구조적으로 뒤섞임. 두 번째 사유가 주어 없이 '또는 … 방지'로 문장 끝에 매달려 정학 사유라는 관계가 끊김\"},{\"id\":\"E002\",\"src_span\":\"a clear and present danger\",\"tgt_span\":\"명확하고 현재의 신체 상해의 위험\",\"description\":\"'clear and present danger'(명백하고 임박한 위험)가 '현재의 위험'으로 옮겨져 임박성의 의미가 약해짐\"},{\"id\":\"E003\",\"src_span\":\"one to five school days\",\"tgt_span\":\"1 ~ 5 학교 일\",\"description\":\"'학교 일'이라는 부자연스러운 표현으로 옮겨 수업일 단위가 불분명해짐. 숫자 범위는 유지됨\"},{\"id\":\"E004\",\"src_span\":\"the student, other students or school personnel\",\"tgt_span\":\"학생, 다른 학생 또는 학교 직원에게\",\"description\":\"위험의 대상인 '해당 학생'이 일반 '학생'으로 옮겨져 정학 대상 학생과의 관계가 불분명해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 두 번째 정학 사유가 '운영을 방지'로 끝나 정학 사유로 읽히지 않고, 첫 사유도 '행동에 대한 학생을 … 정지'로 얽혀 어떤 행동이 정학 사유인지 달라졌습니다. 또 '임박한 위험'이 '현재의 위험'으로 바뀌었습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: '또는' 이하가 정학 권한 문장과 분리되어, 두 번째 행동이 정학 사유라는 병렬 관계가 끊기고 독자가 앞뒤 관계를 정할 수 없게 됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 안내(권한 설명) → 규정 안내. 문장이 어색해도 교장의 정학 권한을 설명하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 교장이 정학시킬 수 있는 조건(두 가지 행동 사유)이 번역문에서 불분명해져 권한의 조건·적용 범위가 달라졌고, 평가조건이 변경을 금지한 조건에 해당합니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 설명이 '~있다'로 옮겨져 격식 차이가 있으나 관계에 영향을 주는 정도는 아니므로 훼손으로 보지 않습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교장의 정학 권한이라는 제도를 한국 제도로 바꾸지 않고 그대로 옮겼으며, 기간 수치도 유지됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 1179,
+    "output_tokens": 1402,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

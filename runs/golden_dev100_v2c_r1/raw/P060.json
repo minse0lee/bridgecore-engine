@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9vciUqzbk1CVvUhWJ2E",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P060\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"support causes\",\"tgt_span\":\"원인을 지지하고\",\"description\":\"causes(주장·대의)를 '원인'(reason for an event)으로 오역하여 지지 대상이 달라짐\"},{\"id\":\"E002\",\"src_span\":\"organize and assemble to discuss issues and demonstrate peacefully and responsibly in support of them\",\"tgt_span\":\"문제에 대해 토론하고, 평화롭고 책임감 있게 그들을 지지하는 데 시위를 조직하고 모이는 권리가 보장됩니다\",\"description\":\"조직·집회하여 토론하고 시위할 권리가 '토론하고', '시위를 조직하고 모이는'으로 갈라져 행위 구조가 달라지고, 시위(demonstrate)의 대상·행위가 조직의 목적어로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: causes가 '원인'으로 오역되어 지지 대상이 달라졌고, 모여서 토론하고 시위하는 행위 구조가 '시위를 조직하고 모이는'으로 바뀌어 보장되는 권리의 내용을 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"질문 1·3: '그들을 지지하는 데'의 '그들'이 issues/causes를 가리키는 것이 불분명해지고, '평화롭고 책임감 있게'가 시위가 아닌 지지에 걸리는 등 수식 범위가 달라졌으며, 독자가 요지를 다르게 읽을 정도는 아니라 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"권리 보장 안내 → 권리 보장 안내. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 2: 학생에게 보장되는 권리(허가)의 적용 범위가 바뀌어, 의견 표현·대의 지지·집회 후 토론과 평화적 시위 중 어떤 것이 권리인지 다르게 읽힙니다. 보장 범주 자체는 유지됩니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 안내체 '~됩니다'가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"New York City Department of Education을 '뉴욕시 교육국'으로 통용 표기에 맞게 옮겨 같은 기관을 가리킵니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 892,
+    "output_tokens": 1019,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

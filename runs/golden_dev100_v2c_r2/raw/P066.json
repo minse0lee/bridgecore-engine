@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9vd8A8YBR1ifMPnYKha",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P066\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"The US-based company\",\"tgt_span\":\"페이스북은\",\"description\":\"'미국 기반 회사'가 '페이스북'으로 바뀜. 앞 문장의 Facebook과 같은 대상이라 지시 대상은 유지되며 '미국 기반' 정보만 빠짐\"},{\"id\":\"E002\",\"src_span\":\"bullying and harassment\",\"tgt_span\":\"학대와 괴롭힘\",\"description\":\"bullying이 '학대'로 옮겨져 어휘 선택이 다소 부정확함. 괴롭힘 행위를 가리키는 점은 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"회사가 괴롭힘을 금지하지만 피해자가 공식 절차로 신고하지 않으면 처벌하지 않는다는 내용이 유지됩니다. 'US-based' 누락과 bullying→'학대'는 경미한 차이로 핵심 사실이 같습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but의 대조 관계('-지만')와 unless 조건('-하지 않으면')이 유지되고, 회사를 가리키는 '페이스북'은 문맥상 같은 대상입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사실 설명 → 사실 설명. 기사 서술의 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"독자에게 의무·허가를 정하는 문장이 아니라 회사의 정책과 관행을 서술하는 기사 문장이므로 평가할 규범 대상이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기사 본문의 평서 서술체('-다')가 유지되어 관계와 격식에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·관습·단위가 없습니다. Facebook은 고유명사입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 754,
+    "output_tokens": 816,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

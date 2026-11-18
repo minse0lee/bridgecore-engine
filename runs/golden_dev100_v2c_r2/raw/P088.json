@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9ve6LXP4Kjt1GDCUZ3b",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P088\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"(hence this recipe)\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"이 레시피가 존재하는 이유를 밝히는 삽입구가 번역에서 빠짐\"},{\"id\":\"E002\",\"src_span\":\"though it might not be obvious at first glance how to do it\",\"tgt_span\":\"처음에는 어떻게 해야 하는지 명확하지 않을 수도 있습니다.\",\"description\":\"though의 양보 연결이 독립된 두 문장으로 나뉘어 연결어 없이 제시됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: '(hence this recipe)'가 통째로 빠져 이 레시피가 필요한 이유라는 정보가 사라졌지만 핵심 사실(dictConfig로 필터 구성 가능, 방법이 처음에는 불명확)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"though의 양보가 문장 분할로 연결어 없이 나뉘었으나 '할 수 있다, 그러나 처음엔 불명확하다'는 대조 관계로 문맥상 바로 읽혀 같은 종류의 관계가 유지됩니다. 누락된 삽입구는 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"설명 → 설명. 필터 구성 가능성과 어려움을 알리는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"can은 가능·능력의 의미로 규범 의미가 없으며 의무·허가·금지를 정하는 문장이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학습자료의 '~습니다' 설명체가 유지되며 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 1149,
+    "output_tokens": 818,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

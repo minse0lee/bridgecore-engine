@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9vdaqVG1eNZFoEK4E6M",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P075\",\"evaluable\":false,\"evaluable_note\":\"정렬 검토 필요: 평가대상 원문이 여러 문장(경찰의 신체 측정, 재연 요구, 마네킹 묘사, 직원의 치칸 역할, 재현·촬영, 사진 속 확인, 프로토콜, 제나의 언급 등)을 합친 데다 'Jenna noted that no po'에서 잘려 있는데, 평가대상 번역문은 마네킹 장면의 두 문장뿐이어서 지정된 원문과 번역 구간이 일대일로 대응하지 않는다. 문단 전체 번역에는 다른 구간이 있으나 정렬이 어긋나 분리 판정이 어렵다.\",\"errors\":[],\"axes\":{\"Semantic\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 평가대상 원문이 여러 문장을 합친 채 중간에 잘려 있어 번역 구간(마네킹 두 문장)만으로는 의미 보존을 판정할 수 없습니다. 원문과 번역의 문장 단위 정렬 정보가 필요합니다.\"},\"Textual\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 원문 여러 문장이 번역 구간과 일대일로 대응하지 않아 지시·연결·범위 관계를 비교할 수 없습니다.\"},\"Context\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 대응 구간이 불명확해 발화 기능을 비교할 수 없습니다. 문장 단위로 다시 정렬된 원문·번역이 필요합니다.\"},\"Deontic\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 'have to'가 포함된 원문 구간과 대응하는 번역이 지정 구간에 없어 판정할 수 없습니다. 이 규범 표현이 평가대상인지 정렬 후 확인해야 합니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 평가대상 원문과 번역 구간이 대응하지 않아 어조·격식 비교가 불가능합니다.\"},\"Cultural\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 원문에는 일본 경찰 절차와 'chikan' 등이 있으나 대응 번역이 지정 구간에 없어 문화적 의미 전달 여부를 판정할 수 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 1772,
+    "output_tokens": 963,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

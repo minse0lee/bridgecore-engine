@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9vdED2DR3Z39bVTVsyN",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P071\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the old people I've talked to say\",\"tgt_span\":\"나는 … 말하는 나이 든 사람들과 이야기했다\",\"description\":\"현재완료(지금까지 이야기해 온)가 단순 과거로 바뀌고 관계절이 주절이 되어 '역사적으로' 같은 내용이 화자의 발화 행위처럼 읽힐 여지가 생기나, 핵심 사실은 유지됨. 사소한 시제·구조 차이.\"},{\"id\":\"E002\",\"src_span\":\"Mr. Adams\",\"tgt_span\":\"씨. 애덤스\",\"description\":\"Mr.가 '씨.'로 옮겨져 호칭 'Mr.'의 통상적 대응(애덤스 씨)과 다르게 표기됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"나이 든 사람들이 모든 모퉁이에 바와 교회가 있었다고 말한다는 내용, 화자와 인물이 유지됩니다. 현재완료가 과거로 바뀐 것은 요지를 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"관계절이 주절로 바뀌고 '역사적으로'가 남아 있으나 지시 대상과 관계는 문맥상 같게 읽혀 정보의 주종만 달라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인용된 발언으로 정보를 전달하는 설명 → 동일한 설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 기사 속 인용 발화와 서술의 격식이 유지되며 '씨. 애덤스' 표기는 어색할 뿐 관계나 태도를 바꾸지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명과 일반적인 바·교회 외에 별도로 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 600,
+    "output_tokens": 868,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

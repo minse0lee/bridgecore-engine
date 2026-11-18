@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9vdSGYt8yw1DBuLWneb",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P072\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a teacher removal\",\"tgt_span\":\"교사 퇴학\",\"description\":\"교사가 학생을 수업에서 내보내는 조치(teacher removal)가 '퇴학'으로 옮겨져, 학교에서 제적하는 처분처럼 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상·행위): 교사가 학생을 교실에서 일시적으로 내보내는 조치가 '퇴학'(학교에서 제적)으로 바뀌어 규정이 가리키는 조치가 달라졌습니다. 이 조치는 앞 문장에서 학교 내 다른 장소로 보내는 것이어서 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"While의 대조·양보 관계는 '~하며'로 나열되지만 개별 처리와 모든 노력이라는 병렬 관계로 읽히며, 지시·범위는 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 안내(행동 지침) → 규정 안내(행동 지침). 징계 전 지원·개입을 우선하도록 안내하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"must는 '처리되어야 하며', should는 '모든 노력을 기울여야 합니다'로 통상적으로 대응하여 의무와 권고의 범주·주체·조건이 유지됩니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 안내체인 '~합니다'가 유지되어 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(제도적 의미): 뉴욕시 징계 규정의 '교사에 의한 학생 퇴실(teacher removal)'이라는 제도 용어가 학교 제적을 뜻하는 '퇴학'으로 옮겨져 한국어 독자가 해당 제도의 의미를 이해할 수 없고 다른 제도로 오해합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 1122,
+    "output_tokens": 871,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

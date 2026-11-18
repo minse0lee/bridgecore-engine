@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9vcm1Q8ZhQH79AuBu2U",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P059\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"controversies\",\"tgt_span\":\"논쟁\",\"description\":\"법적 '분쟁(소송 사건)'을 뜻하는 controversies를 일반 어휘 '논쟁'으로 옮겨 사법권이 미치는 사건 유형의 제도적 의미가 약해짐\"},{\"id\":\"E002\",\"src_span\":\"subjects\",\"tgt_span\":\"주민\",\"description\":\"외국의 '신민(subjects)'이 '주민'으로 바뀌어 국적·신분 관계가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: controversies가 '논쟁'으로, subjects가 '주민'으로 바뀌어 대상 내용이 달라졌으나 사법권이 사건 유형에 미친다는 요지와 열거 구조는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"세미콜론 열거가 쉼표 열거로 바뀌었지만 각 항목의 범위와 연결은 읽는 데 큰 차이가 없고 지시·관계·범위가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사법권의 범위 설명 → 사법권의 범위 설명. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"사법권의 관할 범위를 기술하는 서술문으로 의무·허가·금지 표현이 없어 평가할 대상이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"설명문의 격식체 '-다'가 유지되어 해설서 본문에 맞습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 사법권이 미치는 관할 사건 유형인 controversies를 일반 어휘 '논쟁'으로 옮겨 한국어 독자가 소송상 분쟁이라는 제도적 의미를 이해하기 어렵습니다. 헌법·조약 등 식별 용어가 남아 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 1117,
+    "output_tokens": 856,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

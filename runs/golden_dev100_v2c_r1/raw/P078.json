@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9vdfPqmmijdDC6YnVAb",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P078\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"for behavior which presents a clear and present danger of physical injury to the student, other students or school personnel, or prevents the orderly operation of classes or other school activities\",\"tgt_span\":\"학생, 다른 학생 또는 학교 직원에게 명확하고 현재의 신체 상해의 위험을 제시하는 행동에 대한 학생을 1 ~ 5 학교 일을 정지 할 수있는 권한이있다, 또는 … 운영을 방지\",\"description\":\"정학 사유인 '행동'의 구조가 무너짐. 'to the student'가 정지당하는 학생과 위험 대상에 뒤섞이고, 'or prevents'가 행동의 두 번째 유형이 아니라 주절 뒤에 붙은 '또는 … 방지'로 떨어져 나옴\"},{\"id\":\"E002\",\"src_span\":\"for one to five school days\",\"tgt_span\":\"1 ~ 5 학교 일을 정지\",\"description\":\"기간이 '1~5 학교 일'로 옮겨져 어색하고, 수업일 단위(school days)가 불분명해짐. 숫자는 유지됨\"},{\"id\":\"E003\",\"src_span\":\"consistent with the disciplinary responses set forth in this Code\",\"tgt_span\":\"이 코드에 명시된 징계 대응과 일치하는\",\"description\":\"징계 조치와의 일치 조건이 '운영'을 수식하는 것처럼 읽혀 정학 권한 행사 조건으로서의 의미가 흐려짐\"},{\"id\":\"E004\",\"src_span\":\"has the authority to suspend a student\",\"tgt_span\":\"정지 할 수있는 권한이있다\",\"description\":\"suspend(정학/출석정지)가 '정지'로만 옮겨져 학생에 대한 징계 제도 용어의 의미가 전달되지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E003\"],\"reason\":\"판단 질문 1: 정학 사유(위험을 초래하거나 수업 운영을 방해하는 행동)와 대상이 뒤엉켜 누가 무엇에 대해 정학되는지 불분명하고, 'or prevents'가 행동의 두 번째 유형이 아니라 문장 끝에 붙은 '또는 … 방지'로 읽혀 독자가 요지를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E003\"],\"reason\":\"판단 질문 1·2: 'to the student'가 정지당하는 학생과 위험 대상 사이에서 지시가 뒤섞이고, 'or'로 이어진 두 번째 행동 유형이 권한 문장 뒤의 '또는 … 방지'로 분리되어 연결 관계가 달라집니다. 'consistent with'의 걸림 대상도 달라져 독자가 다르게 이해합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 설명 → 규정 설명. 교장의 권한을 안내하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E003\"],\"reason\":\"판단 질문 2: 교장의 정학 권한이 적용되는 조건(행동 유형)과 범위가 뒤엉켜, 어떤 행동에 정학 권한이 인정되는지와 징계 규정과의 일치 조건이 달라졌습니다. 권한의 부여 자체는 '권한이 있다'로 유지됩니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 설명의 문체('-있다' 평서체)로 평가조건상 허용되는 범위이며 관계나 태도 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E004\"],\"reason\":\"판단 질문 2: 학교 징계 제도 용어인 suspend(정학·출석정지)가 일반어 '정지'로 옮겨지고 'school days'가 '학교 일'로 직역되어 제도적 의미가 충분히 전달되지 않습니다. 기간 수치 1~5가 남아 있어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 1179,
+    "output_tokens": 1535,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

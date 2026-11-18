@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9vdzJP6EWYkv3Y2U4Gp",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P088\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"(hence this recipe)\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"이 레시피가 존재하는 이유를 밝히는 삽입구가 번역문에서 빠짐\"},{\"id\":\"E002\",\"src_span\":\"though it might not be obvious at first glance\",\"tgt_span\":\"처음에는 어떻게 해야 하는지 명확하지 않을 수도 있습니다.\",\"description\":\"양보절 though가 별도 문장으로 분리되어 접속 표지 없이 나열됨(관계는 문맥상 유지되므로 의미·기능을 바꾸지 않는 차이)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 이 레시피가 이 어려움 때문에 존재한다는 내용(hence this recipe)이 누락되었으나 핵심 사실(dictConfig로 필터 구성 가능, 처음에는 방법이 명확하지 않을 수 있음)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"though가 문장 분할로 접속어 없이 이어졌지만 앞 문장에 대한 단서로 바로 읽혀 관계 종류가 바뀌지 않습니다. 누락된 삽입구는 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기능 설명 → 기능 설명. 가능성과 어려움을 안내하는 설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"can은 구성 가능성(능력)을 나타내는 것으로 규범 의미가 아니며 의무·허가·금지를 정하는 문장이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학습자료의 설명체가 '~습니다'로 유지되며 관계상 어긋나는 부분이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 없고 기술 용어만 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 1149,
+    "output_tokens": 855,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

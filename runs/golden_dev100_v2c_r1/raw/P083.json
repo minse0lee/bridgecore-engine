@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9vdqnfeHv7XZhe5pqpt",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P083\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"administers the Medicare and Medicaid programs\",\"tgt_span\":\"메디케이드(Medicare)와 메디케이드(Medicaid) 프로그램을 관리한다\",\"description\":\"Medicare가 '메디케이드'로 잘못 음역되어 Medicaid와 구별되지 않음\"},{\"id\":\"E002\",\"src_span\":\"Medicare provides health insurance for 30 million elderly and disabled Americans.\",\"tgt_span\":\"메디케이드는 3천만 명의 노인과 장애인에게 의료보험을 제공한다.\",\"description\":\"Medicare가 '메디케이드'로 잘못 옮겨져 이 문장의 주어가 다음 문장의 Medicaid와 같은 이름이 됨\"},{\"id\":\"E003\",\"src_span\":\"Health Care Financing Administration\",\"tgt_span\":\"의료보험금융청(Health Care Financing Administration, HCA)\",\"description\":\"기관명을 '의료보험금융청'으로 옮겼고(통용 명칭은 '의료재정청' 등), 약어도 HCFA가 아닌 HCA로 적음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(대상): Medicare가 '메디케이드'로 옮겨져 두 프로그램이 구별되지 않고, 30 million 노인·장애인 대상 프로그램이 Medicaid처럼 읽혀 어떤 프로그램이 누구를 보장하는지 달라집니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"남아 있는 연결·지시·범위 표현은 원문과 같게 읽히며, 이름 오역은 Semantic에서 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기관·제도 설명 → 기관·제도 설명. 정보 제공 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"출판물 설명문의 평서체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 2(제도 이해): 미국 연방기관 HCFA의 명칭이 '의료보험금융청'으로 옮겨져 제도명이 통용 표기와 다르고 약어도 틀렸으나, 원어 병기로 기관을 찾을 수 있어 minor입니다. Medicare/Medicaid 혼동은 음역·오역 문제로 Semantic에서만 기록합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 1464,
+    "output_tokens": 1039,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

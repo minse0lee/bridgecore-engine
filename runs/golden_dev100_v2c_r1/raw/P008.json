@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9va5bGStsQsSQyBdWcV",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P008\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"government and party authorities\",\"tgt_span\":\"정부와 당국\",\"description\":\"'정부와 당(黨) 기관'의 party authorities가 일반적인 '당국'으로 옮겨져 정당(공산당) 권력기관이라는 의미가 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물·대상): 'party authorities'(당 기관)가 '당국'으로 바뀌어 검열 통지를 발행하는 주체 중 정당 기관이 빠졌지만, 정부 및 권력기관이라는 요지와 의무 내용은 유지되어 minor입니다. 'round the clock'→'24시간'은 통상적 대응입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"both A and B가 'A와 B는'으로, 목적·병렬 관계가 그대로 읽혀 지시·연결·범위가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"현행 관행 설명 → 현행 관행 설명. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"are required to가 '실행해야 한다'로 의무 범주와 주체(두 종류의 서비스 제공업체)가 유지됩니다. '당국'으로의 변화는 규범 주체가 아니라 통지 발행 기관의 차이라 Deontic 훼손이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스·분석 본문의 객관적 서술체('~한다')가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(제도 용어): 중국의 정부·당 이중 권력 구조를 가리키는 'party authorities'가 일반 어휘 '당국'으로 옮겨져 한국어 독자가 중국공산당 기관이라는 제도적 의미를 이해하기 어렵습니다. 다만 검열 통지를 발행하는 권력기관이라는 요지는 전달되어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 2103,
+    "output_tokens": 865,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

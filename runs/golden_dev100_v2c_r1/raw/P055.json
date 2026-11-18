@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9vcQ9HeoMBxj2kqPwAk",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P055\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the Senior Executive Director of the Office of Safety and Youth Development\",\"tgt_span\":\"안전 및 청소년 개발 사무소의 수석 이사\",\"description\":\"'Senior Executive Director'가 '수석 이사'로 옮겨졌다. 직함의 일부(Executive)가 생략되고 'Director'가 '이사'로 번역되어 정확한 직위가 달라졌다.\"},{\"id\":\"E002\",\"src_span\":\"other designee of the Chancellor or the Community Superintendent\",\"tgt_span\":\"총장 또는 커뮤니티 교장의 다른 지정\",\"description\":\"'designee'(지명된 대리인)가 '지정'이라는 행위 명사로 바뀌었다. 승인 권한을 가진 사람이 '총장 또는 지역 교육감의 다른 지명 대리인'이라는 의미가 사라져, 총장과 커뮤니티 교장 자체가 승인자처럼 읽힌다. 또한 Chancellor가 '총장'으로, Community Superintendent가 '커뮤니티 교장'으로 번역되어 직위가 달라졌다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(인물·행위): 승인 주체의 직함이 부정확하고(수석 이사), designee가 '지정'으로 바뀌어 누가 승인하는지가 달라졌다. 독자가 승인 주체를 다르게 이해하게 된다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1(소유·지시 관계): '총장 또는 커뮤니티 교장의 다른 지정'에서 designee가 총장·교육감을 대리하는 사람이라는 관계가 사라져, 승인 주체의 범위와 관계를 원문과 다르게 읽게 된다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 안내 → 규정 안내. 정지 승인 요건을 설명하는 기능이 유지된다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 2(주체·조건): 20일 초과 정지에 승인이 필요하다는 요구는 유지되지만, 승인을 할 수 있는 주체(수석 집행 이사, 총장 또는 교육감의 지명 대리인)가 달라져 평가조건이 금지한 담당 주체 변경에 해당한다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 안내체('~필요합니다')가 유지된다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 2(제도 용어): Chancellor, Community Superintendent, Senior Executive Director 같은 뉴욕시 교육 제도의 직위가 '총장', '커뮤니티 교장', '수석 이사'라는 일반 어휘로 옮겨져, 한국어 독자가 이 직위들이 가진 제도적 의미를 이해하기 어렵다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 1066,
+    "output_tokens": 1183,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

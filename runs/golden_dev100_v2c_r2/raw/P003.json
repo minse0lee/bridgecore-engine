@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9va59xrLJEbu1eTpaKz",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P003\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"She says she intended to go to the clinic by herself\",\"tgt_span\":\"대신, 메일리는 자신이 폭행당한 9일 후에 출산 병원을 방문했지만, 그녀가 경찰에 신고하기 전에\",\"description\":\"평가대상 문장에 없는 앞 문장 내용(대신, 9일 후 출산 병원 방문, 경찰 신고 전)이 번역 구간에 합쳐져 있음. 다만 이는 앞 문장과의 합쳐짐이며, 평가대상 문장 자체의 내용은 번역에 남아 있음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"평가대상 내용(혼자 병원에 갈 생각이었고, 조사에 필요할지 모른다고 생각한 증거를 수집하려 했다고 말함)은 번역문에 모두 담겨 있습니다. 앞 문장 내용이 함께 번역된 것은 정렬 문제이며 지정 문장의 의미를 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'말했다'가 '병원에 혼자 갈 생각이었다'와 증거 수집 목적, 관계절의 지시 관계를 원문과 같게 유지합니다. 여러 문장이 합쳐진 점은 오류가 아닙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인터뷰 내용 전달(서술) → 인터뷰 내용 전달(서술). 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기사 서술체('-했다')가 유지되고 특별한 높임이나 태도 표현이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"평가할 문화 고유의 제도·관습·단위가 이 문장에는 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 1624,
+    "output_tokens": 833,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

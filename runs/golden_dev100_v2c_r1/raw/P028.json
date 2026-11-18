@@ -1,0 +1,35 @@
+{
+  "id": "msg_011Ch9vb2R3uZ81dMhwjnhHn",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P028\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"what she believed was Tokyo's only functioning sexual assault support center\",\"tgt_span\":\"도쿄에서 유일하게 운영되는 성폭력 지원 센터\",\"description\":\"시오리가 그렇게 '믿었다'는 신념 표현이 빠져, 도쿄의 유일한 센터라는 내용이 사실로 단정됨(확실성 변화)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): 'what she believed was'가 빠져 시오리의 믿음이 객관적 사실로 단정되었으나 핵심 사실(도움 시도, 인터뷰 요구, 방문 거부)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'이와 반대로', '-지만', '-때문에'가 대조·양보·원인 관계를 원문과 같은 종류로 유지하고 지시·범위도 같습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"시오리의 경험을 전하는 서술 → 서술. 발화 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"required는 센터가 인터뷰를 요구했다는 사실 서술이며 독자에게 의무·허가를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"출판물 본문의 서술체('-다')가 유지되며 특별한 관계·호칭 표현이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명·지명 외에 판정할 문화 고유의 제도·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 1476,
+    "output_tokens": 716,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
