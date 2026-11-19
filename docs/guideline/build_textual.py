@@ -1,5 +1,5 @@
 """11/6 반영본 → 11/19 Textual 보완 (변경 추적). 사용: python build_textual.py <unpacked_dir>
-평가자 판정 관행(단어 오역으로 생긴 지시·수식 변화는 Semantic에만)에 맞춰 Semantic/Textual 경계를 명시. 개발 100 평가자 다수결에서 확인한 관행: 한 명사구 안의 오역(P055·P090·P099 등)은 Semantic만, 문장 전체 구조 붕괴(P017·P052·P078)는 두 축 모두."""
+평가자 판정 관행(단어 오역으로 생긴 지시·수식 변화는 Semantic에만)에 맞춰 Semantic/Textual 경계를 명시. 개발 100 평가자 다수결에서 확인한 관행: 한 명사구 안의 오역(P055·P090·P099 등)은 Semantic만, 어느 말에도 이어지지 않는 구·절이 있어 절 관계를 알 수 없는 경우(P017·P052·P078)는 두 축 모두. 11/19 수안님 제안으로 '생성붕괴(문장 구조 붕괴)'와 헷갈리지 않게 문구 수정."""
 import copy, sys
 from lxml import etree
 W='http://schemas.openxmlformats.org/wordprocessingml/2006/main'; ns={'w':W}
@@ -49,7 +49,7 @@ append_ins(find_p('① 대명사나 소유 관계가 가리키는 대상이'),
   " 단, 단어나 구를 잘못 옮겨서 다른 대상이 된 것은 Semantic에서 판정합니다('여러 축에 함께 기록하는 경우' 참고).")
 # 2) 여러 축에 함께 기록하는 경우: Semantic과 Textual
 append_ins(find_p('내용 변화와 지시·논리·초점 관계의 훼손을 각각 설명할 수 있을 때'),
-  " 단어나 구를 잘못 옮겨서 가리키는 대상이나 수식·소유 관계가 함께 달라진 것은 **Semantic에만** 기록합니다. 판단 질문: \"내용 오역을 바로잡으면 지시·연결·범위 문제도 함께 풀립니까?\" 그렇다면 Semantic에만 기록합니다. 내용 단어는 맞게 옮겼는데 대명사·연결어·초점 표현(only·even·more than 등)을 다르게 처리해서 관계가 달라진 경우에 Textual에 기록합니다. 단, 문장 전체의 구조가 무너져 절과 절이 어떻게 이어지는지 알 수 없게 된 경우는 단어를 바로잡아도 풀리지 않으므로 Semantic과 Textual에 함께 기록합니다.")
+  " 단어나 구를 잘못 옮겨서 가리키는 대상이나 수식·소유 관계가 함께 달라진 것은 **Semantic에만** 기록합니다. 판단 질문: \"내용 오역을 바로잡으면 지시·연결·범위 문제도 함께 풀립니까?\" 그렇다면 Semantic에만 기록합니다. 내용 단어는 맞게 옮겼는데 대명사·연결어·초점 표현(only·even·more than 등)을 다르게 처리해서 관계가 달라진 경우에 Textual에 기록합니다. 단, 번역문에 어느 말에도 이어지지 않는 구나 절이 있어 절과 절의 관계를 알 수 없는 경우는, 단어를 바로잡아도 풀리지 않으므로 Semantic과 Textual에 함께 기록합니다.")
 # 3) Ex3 뒤에 예시 추가
 ex3=find_p('Ex3) Textual 단독 훼손')
 new=ins_para(ex3, "**Ex3-1)** Semantic 단독 훼손(Textual 보존): \"The bank lent money to the startup, and the lender later demanded early repayment.\"이 \"은행이 스타트업에 돈을 빌려주었고, 이후 스타트업은 조기 상환을 요구했다.\"로 번역된 경우입니다. 'the lender'(은행)를 '스타트업'으로 잘못 옮겨 상환을 요구한 주체가 바뀌었으므로 **Semantic 훼손**입니다. 이 오역을 바로잡으면 누가 요구했는지도 함께 바로잡히므로 **Textual에는 기록하지 않습니다**. 반대로 \"Only the backup file is deleted when the disk is full.\"이 \"디스크가 가득 찼을 때만 백업 파일이 삭제된다.\"로 번역되면, 단어는 모두 맞게 옮겼지만 only가 다른 대상에 붙어 범위가 달라졌으므로 **Textual 훼손**입니다.")
