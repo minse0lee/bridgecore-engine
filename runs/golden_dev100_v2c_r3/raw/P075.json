@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3Qi9ju3W3KHPY1s4eF",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P075\",\"evaluable\":false,\"evaluable_note\":\"정렬 검토 필요: 평가대상 원문이 여러 문장(경찰의 신체 측정·촬영, 기소와 재연, 마네킹 묘사, 직원의 치칸 역할, 재연·사진 촬영 절차, 사진 속 확인, Protocol, 'Jenna noted that no po'에서 잘린 문장)을 포함하는데, 평가대상 번역문은 마네킹 장면과 '저게 제나다'만 담고 있어 지정된 문장과 번역 구간을 일대일로 맞출 수 없음. 평가대상 원문 끝도 잘려 있어 문장 경계가 불분명함.\",\"errors\":[],\"axes\":{\"Semantic\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 여러 원문 문장이 합쳐져 있고 번역 구간은 일부 문장에만 대응하여 분리 판정이 어렵습니다. 판정하려면 문장 단위로 정렬된 원문·번역 대응이 필요합니다.\"},\"Textual\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 대응 구간이 불분명해 지시·연결·범위를 비교할 수 없습니다. 문장 단위 정렬이 필요합니다.\"},\"Context\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 평가대상 원문과 번역 구간이 일치하지 않아 발화 기능을 비교할 수 없습니다.\"},\"Deontic\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 원문의 'have to' 등이 번역 구간에 대응하는지 확인할 수 없어 판단을 보류합니다. 문장 단위 정렬이 필요합니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 대응 구간이 불분명해 태도와 격식을 비교할 수 없습니다.\"},\"Cultural\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 일본 제도 관련 내용(경찰 절차, 검사 송치 등)이 번역 구간에 대응하는지 확인할 수 없어 판단을 보류합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 1772,
+    "output_tokens": 886,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

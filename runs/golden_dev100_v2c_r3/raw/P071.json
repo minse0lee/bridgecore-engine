@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3XE9hhfbioLQeKMjL8",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P071\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Mr. Adams\",\"tgt_span\":\"씨. 애덤스\",\"description\":\"호칭 Mr.가 '씨.'로 어순과 형태가 바뀌어 '애덤스 씨'가 아닌 '씨. 애덤스'로 표기됨 (호칭 표기 오류)\"},{\"id\":\"E002\",\"src_span\":\"I've talked to say\",\"tgt_span\":\"나는 … 이야기했다\",\"description\":\"현재완료 경험(이야기해 본)이 단순 과거로 옮겨지고, 'say'의 현재 시제가 관계절 안에 수식어로 남아 있어 시제·경험 뉘앙스가 약간 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"나이 든 사람들이 모든 모퉁이에 바와 교회가 있었다고 말하며 화자가 그들과 이야기했다는 내용이 유지되고, 시제 차이는 핵심 사실을 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'역사적으로'가 같은 범위를 수식하고 관계절의 지시 관계도 원문과 같게 읽힙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인용 발언을 통한 정보 설명 → 인용 발언을 통한 정보 설명으로 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 인용문의 평서 서술체가 유지되며 '씨'는 어색한 표기일 뿐 관계·태도를 바꾸지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 600,
+    "output_tokens": 785,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

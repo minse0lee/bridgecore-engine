@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3NeMEFKrvEsqYEDVNW",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P052\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Referral to Counseling Services\",\"tgt_span\":\"상담 서비스에 대한 참조\",\"description\":\"referral(상담 서비스로 연계·의뢰)이 '참조'로 오역되어 제목의 의미가 달라짐\"},{\"id\":\"E002\",\"src_span\":\"refer both the victim and the student who engages in this behavior to separate appropriate school or community-based agencies\",\"tgt_span\":\"기관에이 행동에 종사하는 피해자와 학생 모두를 참조해야합니다\",\"description\":\"refer(기관에 연계·의뢰)가 '참조'로 오역되어 학교가 하는 행위가 달라짐. 피해자와 가해 학생을 각각 별도 기관에 연계한다는 내용이 사라지고, '이 행동에 종사하는'이 피해자만 수식하는 것처럼 읽힘\"},{\"id\":\"E003\",\"src_span\":\"a pattern of threatening or actual physical, sexual, and/or emotional abuse\",\"tgt_span\":\"위협 또는 실제 신체의 패턴을 사용하는 경우, 성적, 및 / 또는 감정적 학대\",\"description\":\"학대 유형 나열이 흩어져 '패턴'이 신체 학대에만 걸리고 '성적, 감정적 학대'가 분리됨. 절 구조가 붕괴됨\"},{\"id\":\"E004\",\"src_span\":\"for counseling, support, and education services\",\"tgt_span\":\"상담을위한 … 지원, 및 교육 서비스\",\"description\":\"상담·지원·교육 서비스 목적 구가 문장 앞뒤로 흩어져 문장 끝에 떨어진 파편이 됨\"},{\"id\":\"E005\",\"src_span\":\"to control a dating partner\",\"tgt_span\":\"데이트 파트너를 제어하기 위해\",\"description\":\"'control'을 '제어'로 옮겨 통제·지배의 뜻이 약해짐 (어색하지만 대체로 같은 뜻)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\",\"E004\"],\"reason\":\"판단 질문 1: refer를 '참조'로 오역해 학교가 학생들을 기관에 연계하는 행위가 달라졌고, 학대의 유형과 패턴, 서비스 목적이 흩어져 독자가 해야 할 조치의 내용과 대상을 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E003\",\"E004\"],\"reason\":\"판단 질문 1·2: 문장 전체 구조가 무너져 쉼표로 끊긴 절이 나열되고, 학대 유형과 서비스 목적이 주절과 어떻게 이어지는지 알 수 없습니다. 단어를 바로잡아도 풀리지 않는 구조 붕괴입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학교의 조치를 안내하는 기능 → 학교가 해야 할 일을 안내하는 기능으로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: 학교가 해야 할 조치가 '연계'에서 '참조'로 바뀌고 피해자와 학생을 각각 별도 기관에 보낸다는 조건이 사라져 규범의 내용과 적용 범위가 달라졌습니다. should→'해야합니다'는 통상적 대응입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 안내체('~합니다')가 유지되어 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"고유한 제도명이나 단위, 문화적 대상이 없어 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 1182,
+    "output_tokens": 1410,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

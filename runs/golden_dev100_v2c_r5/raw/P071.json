@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3QGPw14RN2DrsRRmSH",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P071\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Mr. Adams\",\"tgt_span\":\"씨. 애덤스\",\"description\":\"Mr.가 호칭 접미 '씨'로 앞에 놓여 '씨. 애덤스'로 표기됨. 지시 대상은 같고 어색한 표기일 뿐이라 의미·기능 변화는 없음.\"},{\"id\":\"E002\",\"src_span\":\"the old people I've talked to say\",\"tgt_span\":\"나는 … 말하는 나이 든 사람들과 이야기했다\",\"description\":\"'내가 이야기해 본 노인들이 말한다'(현재완료·현재)가 '말하는 사람들과 이야기했다'(과거)로 바뀌었으나 같은 사태를 기술함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"역사적으로 모든 모퉁이에 바와 교회가 있었다고 이야기해 본 노인들이 말한다는 내용과 발화자 Adams가 유지되며, 어순·시제 차이는 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'나'와 '나이 든 사람들', 'Adams'의 지시 관계와 'every corner' 범위가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기사 속 인용 진술 → 인용 진술. 증언을 전달하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 인용의 서술체('~했다')가 유지되며 관계상 문제가 되는 높임 변화는 없습니다. '씨. 애덤스'는 표기상 어색할 뿐입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명과 일반 어휘만 있어 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 600,
+    "output_tokens": 816,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

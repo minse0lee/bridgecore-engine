@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3KGQYwVUXugMob4h5Z",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P008\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"government and party authorities\",\"tgt_span\":\"정부와 당국\",\"description\":\"'party'(정당·공산당)가 빠지고 '당국'으로 옮겨져 정부와 당 기관이라는 발행 주체 중 당이 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위자·참여자): 검열 통지를 발행하는 주체 중 'party'가 누락되어 '정부와 당 당국'이 '정부와 당국'으로 달라졌으나, 핵심 요지와 의무 내용은 유지됩니다. 'round the clock'을 '24시간'으로 옮긴 것은 통상적 대응입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"남은 표현의 지시·연결·범위는 원문과 같고, 'both'의 범위와 두 의무의 병렬도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"현행 관행 설명 → 현행 관행 설명으로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'are required to'가 '해야 한다'로 옮겨져 두 유형의 제공업체에 대한 의무 범주와 주체가 유지됩니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기사 본문의 객관적 서술체가 '-해야 한다'로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'party'가 빠진 것은 Semantic에서 다루며, 문화 고유의 제도 용어 자체가 다른 제도로 바뀌지는 않았습니다. 이 문장의 제도 개념(ISP, 검열 통지)은 한국어 독자가 이해할 수 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 2103,
+    "output_tokens": 760,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

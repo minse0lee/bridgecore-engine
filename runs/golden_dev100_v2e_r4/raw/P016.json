@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3Kij55jnHVUFJE3vFd",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P016\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"163 million yen\",\"tgt_span\":\"1억 6300만 엔\",\"description\":\"1억 6,300만 엔(163 million)이 맞는데 번역문은 '1억 6300만'으로 적어 1억 + 6300만 = 1억 6300만 엔으로 읽힘. 163 million = 1억 6300만이므로 수치 자체는 정확함(오류 아님).\"},{\"id\":\"E002\",\"src_span\":\"forty of such institutions\",\"tgt_span\":\"40개의 기관\",\"description\":\"'such institutions'(앞서 언급된 성폭력 구호 센터)가 일반 '기관'으로 옮겨져 센터라는 구체성이 약해짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"40개 설립, 예산 1억 6300만 엔(약 150만 달러), '불과하다'가 원문과 같고, 'such institutions'를 '기관'으로 옮긴 것은 문맥상 센터를 가리켜 의미를 바꾸지 않습니다. 자동 점검 힌트의 수치 불일치는 오경보입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but의 대조 관계가 '-지만'으로 유지되고 'such'의 지시도 앞 문장 문맥에서 정해집니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인용 근거를 든 현황 설명 → 현황 설명으로 같은 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 사실 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기사 본문의 평서체 '-다'가 유지되고 'Ms.Tanabe'는 '다나베 씨'로 적절히 옮겨졌습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"엔화 금액과 달러 환산 병기를 그대로 유지하고 다른 통화나 단위로 바꾸지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 1639,
+    "output_tokens": 840,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3PvZ5iwhFwixyt7QVP",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P066\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"bullying\",\"tgt_span\":\"학대\",\"description\":\"bullying(따돌림·괴롭힘)이 '학대'로 옮겨져 의미가 다소 달라졌으나, 바로 뒤의 '괴롭힘'과 함께 쓰여 금지 대상의 요지는 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"The US-based company를 문맥상 '페이스북'으로 옮긴 것은 같은 대상을 가리키며, 금지 내용·처벌 조건이 모두 유지된다. bullying→'학대'는 정도 차이에 가까워 핵심 사실은 그대로다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but의 대조와 unless의 조건 관계가 '-지만', '-않으면'으로 같은 종류로 유지된다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"페이스북 정책 설명 → 정책 설명. 서술 기능이 유지된다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"독자에게 의무·허가를 부과하는 문장이 아니라 회사의 정책·관행을 서술하는 보도 문장이다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 기사의 평서체 '-다'가 유지되어 매체 격식에 맞다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"판정할 문화 고유의 제도·단위·관습이 없고 기업명만 등장한다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 754,
+    "output_tokens": 659,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

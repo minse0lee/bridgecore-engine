@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3LomiMaZw4SS5rLBYy",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P025\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"we'll list your blog post there too\",\"tgt_span\":\"블로그 게시물을 올리도록 하겠습니다\",\"description\":\"'목록으로 올려 소개한다(list)'가 '게시물을 올린다'로, 장소 'there'(우리 페이지)가 명시되지 않아 독자 게시물을 올린다는 행위로 읽힐 소지가 있음. 다만 앞 문맥상 같은 페이지로 이해 가능.\"},{\"id\":\"E002\",\"src_span\":\"Link back to our Millenium Development Goals page\",\"tgt_span\":\"밀레니엄 개발 목표 페이지에 링크를 걸어주시면\",\"description\":\"'our'(우리 페이지)가 빠져 누구의 페이지인지 명시되지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 핵심(링크하면 게시물을 목록에 올려준다)은 유지되나, 'our'와 'there'가 빠져 우리 페이지에 목록으로 올린다는 점이 흐려지고 'too'도 사라졌으며, 독자가 행동·조건을 다르게 이해할 정도는 아니어서 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-시면'으로 조건(링크하면 게시)의 연결이 유지되고, 사라진 too는 첨가 뉘앙스일 뿐 범위 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"링크를 권하고 대가를 약속하는 안내 → 링크 요청과 게시 약속 안내로 같은 기능입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"선택적 참여 권유와 약속이며 의무·허가·금지 규범을 정하는 문장이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'걸어주시면 ~하겠습니다'로 독자에게 정중하게 권하는 기대 격식에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 654,
+    "output_tokens": 896,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

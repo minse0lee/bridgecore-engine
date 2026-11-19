@@ -5,12 +5,15 @@ cons=[json.loads(l) for l in open('data/golden/consensus_dev_2026-11-18.jsonl')]
 AX=['Semantic','Textual','Context','Deontic','Register','Cultural']
 def f1(t): tp,fp,fn=t; p=tp/(tp+fp) if tp+fp else 0; r=tp/(tp+fn) if tp+fn else 0; return (2*p*r/(p+r) if p+r else 0), p, r
 for run in sys.argv[1:]:
-    eng={}; bad=[]
+    last={}
     for l in open(f'{run}/outputs.jsonl'):
-        x=json.loads(l); o=x.get('output') or {}
+        x=json.loads(l); last[x['item_id']]=x          # 문항별 마지막 기록(재호출 반영)
+    eng={}; bad=[]
+    for iid,x in last.items():
+        o=x.get('output') or {}
         if o.get('axes'):
-            for ax,v in o['axes'].items(): eng[(x['item_id'],ax)]=v['judgment']=='훼손'
-        else: bad.append(x['item_id'])
+            for ax,v in o['axes'].items(): eng[(iid,ax)]=v['judgment']=='훼손'
+        else: bad.append(iid)
     res={a:[0,0,0] for a in AX+['ALL']}; tfp=[]; tfn=[]
     for c in cons:
         k=(c['item_id'],c['axis'])

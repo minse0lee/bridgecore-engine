@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3YztHVAPa5axdyjoDk",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P075\",\"evaluable\":false,\"evaluable_note\":\"정렬 검토 필요. 평가대상 원문은 여러 문장(경찰의 신체 측정, 재연 요구, 마네킹 묘사, 직원의 치칸 역할, 사진 촬영, 목격자 언급 등)에 걸쳐 있고 중간에서 잘려 있다(\\\"no po\\\"). 평가대상 번역문은 그중 마네킹 묘사와 \\\"That's me\\\"에 해당하는 두 문장뿐이어서 지정된 문장 단위의 대응 구간을 구성할 수 없다.\",\"errors\":[],\"axes\":{\"Semantic\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 원문 여러 문장이 하나로 묶여 있고 번역문은 일부만 대응하므로 문장 단위 판정이 어렵다. 판정 단위가 되는 문장별 원문·번역 대응 구간이 필요하다.\"},\"Textual\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 대응 구간이 불명확해 지시·연결·범위를 비교할 수 없다. 문장 단위로 분리된 원문·번역 쌍이 필요하다.\"},\"Context\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 평가대상 원문이 여러 문장이고 중간에 잘려 있어 발화 기능을 한 단위로 비교할 수 없다.\"},\"Deontic\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: \\\"have to\\\" 등 규범 후보가 있는 문장과 번역 구간이 대응되지 않아 판정할 수 없다. 해당 문장의 대응 번역이 필요하다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 대응 구간이 불명확해 화자 태도와 격식을 비교할 수 없다.\"},\"Cultural\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 일본 제도(재연 요구, 치칸 등)가 담긴 문장과 번역 구간의 대응을 확인할 수 없다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 1772,
+    "output_tokens": 854,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3NdyR4um4SmjRGLQrS",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P051\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the United Nations\",\"tgt_span\":\"유엔 총회\",\"description\":\"'유엔'이 '유엔 총회'로 구체화됨. 문맥상 통상적 대응이며 의미 변화는 없음. 다만 'taking steps to disarm'이 '비핵화를 위한 조치'로 옮겨진 것도 통상적 대응에 해당함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"트럼프의 작년 위협, 올해 김정은 칭찬, 해야 할 일과 제재 유지 발언이 모두 유지되며, '유엔 총회'와 '비핵화를 위한 조치'는 통상적 대응입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"관계절의 수식 대상과 but의 대조('칭찬했지만')가 유지되고 until의 범위도 '비핵화할 때까지'로 보존됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 보도 서술 → 뉴스 보도 서술로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"간접화법으로 전달된 'sanctions must remain'이 '제재가 유지되어야 한다'로 의무 의미가 유지됩니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 기사의 평서 서술체가 유지되며 '대통령', '위원장' 호칭도 적절합니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"유엔, 북한, 김정은 위원장 등 기관명과 직함이 한국어 통용 표기로 옮겨져 같은 대상을 가리킵니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 940,
+    "output_tokens": 722,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

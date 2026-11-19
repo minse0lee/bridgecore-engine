@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3Rdyjkw2fubjpDY4AX",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P090\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"during which the student must be provided with instruction at a location outside the school building\",\"tgt_span\":\"학생이 학교 건물 외부의 위치에서 지시를 제공해야하는 21-39 학교 일 동안\",\"description\":\"학생이 교육(instruction)을 제공받아야 한다는 수동 의무가 '학생이 지시를 제공해야 한다'로 바뀌어 행위자와 수혜자, 의무 주체가 뒤바뀌고 instruction이 '지시'로 오역됨\"},{\"id\":\"E002\",\"src_span\":\"the Chancellor or the Community Superintendent\",\"tgt_span\":\"총장 또는 커뮤니티 교육감이 지정한 다른 사람\",\"description\":\"'총장 또는 커뮤니티 교육감'의 지정자(designee)로 읽혀야 하는데, 번역문은 총장이 별도 직위로 읽힐 여지가 있어 지정 주체 범위가 모호함. 또한 Chancellor를 '총장'으로 옮김\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위자·행위): 학생이 교육을 제공받는 것이 학생이 지시를 제공하는 것으로 바뀌어 누가 무엇을 하는지가 달라졌고, instruction도 '지시'로 오역되었습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·범위 관계는 남은 표현에서 크게 달라지지 않았고, 지정자 범위의 모호함은 문맥상 읽힐 수 있어 보존으로 봅니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 설명 → 규정 설명. 정학 명령 권한과 조건을 안내하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(주체): 학교가 학생에게 교육을 제공해야 한다는 의무가 학생이 제공해야 하는 의무로 바뀌어 규범의 주체가 달라졌습니다. may의 권한 표현('명령할 수 있습니다')은 유지됩니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 안내체('~습니다')가 유지되어 독자 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴욕시 교육청 직위와 정학 제도를 한국 제도로 대체하지 않고 옮겼으며, 제도적 의미가 이해 가능합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 1083,
+    "output_tokens": 1024,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

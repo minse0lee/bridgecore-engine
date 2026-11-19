@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3TGv2tA47QmZsphSnd",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P026\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Article 43 of the draft\",\"tgt_span\":\"43조는\",\"description\":\"'of the draft'(법안 초안의) 수식이 빠졌으나 문맥상 법안의 조항임이 유지됨\"},{\"id\":\"E002\",\"src_span\":\"the cyberspace administration and relevant departments\",\"tgt_span\":\"사이버공간 관리 및 관련 부서가\",\"description\":\"'cyberspace administration'(사이버공간 관리 기관)이 '사이버공간 관리'로 옮겨져 기관명이 업무로 읽히며 '관리 및 관련 부서'로 묶여 주체 구성이 흐려짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: 규정 주체인 '사이버공간 관리(국)' 기관이 업무 명칭처럼 옮겨졌으나, 조항 내용과 요구 대상·조치는 전달되어 독자의 요지 이해는 크게 달라지지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"주체 구성의 흐림은 단어 오역에서 비롯되어 Semantic에서 판정하며, 지시·연결·범위 표현은 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"법안 조항 내용 설명 → 법안 조항 내용 설명으로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"shall require가 '요구하도록 … 규정'으로 유지되고, 요구 대상('관련 기관')과 금지 정보 차단 조치 범위도 같습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"출판물 본문의 설명체('~하고 있다')가 보도·분석 글의 격식에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조 단위 편제 '43조'가 한국어 통용 표기로 옮겨져 법령 조항으로 이해할 수 있습니다. 기관명 오역은 Semantic에서 판정합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 1262,
+    "output_tokens": 855,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

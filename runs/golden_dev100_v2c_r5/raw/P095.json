@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3aVKb6AGp9hAZ4aFkD",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P095\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"mauled the farmer to death\",\"tgt_span\":\"죽음으로 농부를 짓밟았다\",\"description\":\"'물어뜯어/공격해 죽였다'는 의미의 mauled to death가 '짓밟았다'로 바뀌고 '죽음으로'라는 어색한 표현이 되어, 사망 원인이 된 행위(물어뜯기·심하게 해침)가 달라지고 사망 결과도 명확하지 않게 전달됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위·결과): mauled(물어뜯어 심하게 해침)가 '짓밟았다'로 바뀌고 'to death'가 '죽음으로'로 옮겨져 농부가 죽었다는 결과가 분명하지 않아 사건의 핵심이 다르게 읽힙니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"보고서에 따른 출처 표시와 확인 내용의 관계가 유지되고 지시·범위 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"보도 사실 전달 → 보도 사실 전달로 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 서술문으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 기사의 평서 서술체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없고 파운드는 원문 단위 그대로 유지되어 별도 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 572,
+    "output_tokens": 714,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

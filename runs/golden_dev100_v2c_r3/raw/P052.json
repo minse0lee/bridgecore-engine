@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3NhqLEEhwtEjE1FNgq",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P052\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Referral to Counseling Services\",\"tgt_span\":\"상담 서비스에 대한 참조\",\"description\":\"'상담 서비스로의 의뢰(연계)'가 '참조'로 오역되어 의뢰 행위의 의미가 사라짐\"},{\"id\":\"E002\",\"src_span\":\"refer both the victim and the student … to separate appropriate school or community-based agencies\",\"tgt_span\":\"기관에이 행동에 종사하는 피해자와 학생 모두를 참조해야합니다\",\"description\":\"refer(의뢰하다)가 '참조하다'로 오역됨. 또한 '이 행동에 종사하는'이 피해자까지 수식하는 것처럼 읽혀 피해자와 가해 학생의 구분이 흐려지고, 둘을 각각 별도 기관에 보낸다는 'separate'의 의미도 불분명해짐\"},{\"id\":\"E003\",\"src_span\":\"a pattern of threatening or actual physical, sexual, and/or emotional abuse\",\"tgt_span\":\"위협 또는 실제 신체의 패턴을 사용하는 경우, 성적, 및 / 또는 감정적 학대,\",\"description\":\"학대 유형의 나열이 분리되어 '패턴'이 신체적 위협에만 걸리고, 성적·감정적 학대는 문장 밖으로 떨어져 나가 학대의 범위와 문장 구조가 깨짐\"},{\"id\":\"E004\",\"src_span\":\"for counseling, support, and education services\",\"tgt_span\":\"상담을위한 … 지원, 및 교육 서비스.\",\"description\":\"상담·지원·교육 서비스 목록이 문장 끝으로 분리되어 어느 서비스를 위한 의뢰인지 연결이 끊김\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\",\"E004\"],\"reason\":\"판단 질문 1: refer(의뢰)가 '참조'로 바뀌고, 학대 유형과 서비스 목록이 흩어지며, 피해자와 가해 학생이 구분되지 않아 누가 누구를 어디로 의뢰하는지 달라져 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\",\"E003\",\"E004\"],\"reason\":\"판단 질문 1·3: '이 행동에 종사하는'이 피해자까지 수식하는 것으로 읽히고, 학대 유형과 서비스 목록이 문장 밖으로 떨어져 지시와 범위 관계가 원문과 다르게 읽힙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학교가 해야 할 조치 안내 → 조치 안내. 오역에도 불구하고 학교의 행동을 안내하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: should는 '-해야 합니다'로 통상 대응되어 강도는 유지되나, 요구되는 행위가 '의뢰'에서 '참조'로 바뀌고 대상(피해자와 가해 학생을 각각 별도 기관에)이 불분명해져 학교가 해야 할 조치의 내용과 대상이 달라집니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-합니다' 공식 안내체로 규정 문서의 격식이 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·관습·단위가 없고 일반적인 학교·지역사회 기관만 언급됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 1182,
+    "output_tokens": 1364,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

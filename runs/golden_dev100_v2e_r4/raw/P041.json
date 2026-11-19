@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3V1XsQUwgF76XgX8ZR",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P041\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Superintendent’s suspensions for more than 20 school days\",\"tgt_span\":\"20 학교 일 이상의 교장의 정지\",\"description\":\"Superintendent(교육감/학區 감독관)를 '교장'으로 오역함. 'more than 20'(20일 초과)을 '20일 이상'으로 옮겨 범위 경계가 달라짐. 'school days'도 '학교 일'로 어색하게 옮김.\"},{\"id\":\"E002\",\"src_span\":\"only when required by law or for Level 5 infractions\",\"tgt_span\":\"법률에 의해 요구되는 경우에만 부과 될 수 있습니다 또는 레벨 5 …\",\"description\":\"'only'가 '법률 요구 경우'에만 붙고 'or for Level 5 infractions'가 문장 밖으로 떨어져 나열됨. 두 허용 사유의 병렬 관계가 무너짐.\"},{\"id\":\"E003\",\"src_span\":\"Level 5 infractions that involve seriously dangerous and/or violent behavior where the circumstances warrant the imposition of a longer suspension\",\"tgt_span\":\"레벨 5 심각하게 위험한 및 / 또는 폭력적 인 행동을 포함하는 위반은 상황이 더 긴 정지의 부과를 보증.\",\"description\":\"문장 후반이 술어 없이 끊기고(보증.), 'warrant'가 '보증'으로 오역되며, 관계절·조건절 연결이 무너져 더 긴 정지가 정당화되는 경우라는 조건이 전달되지 않음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 주체(Superintendent→교장), 수량('more than 20'→'이상'), 허용 조건(레벨 5 위반의 경우와 정당화 조건)이 달라지거나 전달되지 않아 독자가 정지 부과 주체와 조건을 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\",\"E003\"],\"reason\":\"질문 3 및 문장 구조 붕괴: only의 범위가 첫 사유에만 걸리고 두 번째 사유가 절 밖으로 떨어졌으며, 후반부는 술어 없이 끊겨 절 간 연결(위반-상황-부과)을 알 수 없습니다. 단어를 바로잡아도 풀리지 않는 구조 붕괴입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 설명 → 규정 설명. 정지 부과 조건을 설명하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 2: 'only … may be imposed'의 허용 조건이 '법률 요구'에만 한정된 듯 읽히고 레벨 5 위반의 조건과 부과 주체(교장)가 달라져 허용 주체·조건·범위가 바뀌었습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 안내체('~습니다')가 유지되며 관계·태도 변화는 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"질문 1·2: Superintendent라는 미국 교육구 직위를 '교장'이라는 다른 직위로 옮겨 제도적 의미를 한국 독자가 다르게 이해합니다. 'Level 5'는 그대로 남아 원 자료를 찾을 수 있어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 1116,
+    "output_tokens": 1351,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

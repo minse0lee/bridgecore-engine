@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3QjTs3vegrqFwBwGYM",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P075\",\"evaluable\":false,\"evaluable_note\":\"정렬 검토 필요. 평가대상 원문은 여러 문장(경찰의 측정·촬영, 재현 절차, 마네킹 묘사, 직원의 치칸 역할, 재현·촬영 과정, 사진 속 확인, 'Protocol they say', 'Jenna noted that no po…')이 합쳐져 중간에서 잘려 있는데, 평가대상 번역문은 그중 마네킹 묘사 두 문장만 담고 있어 지정된 문장만 분리해 판정하기 어렵습니다.\",\"errors\":[],\"axes\":{\"Semantic\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요. 여러 원문 문장이 합쳐져 있고 번역 구간은 일부만 대응하므로, 어느 원문 문장을 기준으로 할지 확인해야 합니다.\"},\"Textual\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요. 대응 구간이 일부뿐이라 지시·연결 관계를 분리해 판정하기 어렵습니다. 원문 평가 범위를 단일 문장으로 지정해야 합니다.\"},\"Context\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요. 평가대상 원문이 여러 문장을 포함해 발화 기능을 하나로 정하기 어렵습니다.\"},\"Deontic\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요. 원문에는 have to 같은 절차 요구 표현이 있으나 번역 대응 구간이 이를 담지 않아 분리 판정이 불가능합니다. 단일 문장 단위의 정렬이 필요합니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요. 합쳐진 구간이라 문장별 태도·격식을 분리해 판정하기 어렵습니다.\"},\"Cultural\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요. 원문에는 일본 신고 절차와 chikan 같은 문화 고유 요소가 포함되나 번역 대응이 일부뿐이라 분리 판정이 불가능합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 1772,
+    "output_tokens": 872,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

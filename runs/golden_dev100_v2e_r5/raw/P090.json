@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3dN7qpZBVjpKnUU7gL",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P090\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the student must be provided with instruction\",\"tgt_span\":\"학생이 학교 건물 외부의 위치에서 지시를 제공해야하는\",\"description\":\"\"},{\"id\":\"E002\",\"src_span\":\"the Chancellor or the Community Superintendent\",\"tgt_span\":\"총장 또는 커뮤니티 교육감이 지정한 다른 사람\",\"description\":\"designee의 수식 범위가 흐트러져 '총장 또는 교육감'이 지정한 사람으로 읽혀 '총장 또는 교육감의 지정인'이라는 관계가 달라짐. 또한 총장 또는 교육감 자체가 수석 이사와 병렬되어 권한 주체가 늘어남\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 학생이 교육을 제공받아야 한다는 내용이 학생이 지시를 제공해야 한다는 것으로 바뀌어 행위자와 대상이 뒤바뀌었고, 권한 주체도 수석 이사, 총장, 교육감의 지정인으로 달라졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"단어 오역과 수식 관계 문제로, 오역을 바로잡으면 관계도 풀리므로 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 설명 → 규정 설명. 정지 명령 권한을 안내하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 2: 학교 밖에서 교육을 제공받을 학생의 권리가 학생이 지시를 제공해야 하는 의무로 바뀌었고, 명령 권한을 가진 주체도 달라져 평가조건이 금지한 담당 주체 변경이 생겼습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 안내의 격식체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기관명과 정지 기간 21-39일은 같은 제도를 가리키며 한국 제도로 대체하지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 1083,
+    "output_tokens": 898,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

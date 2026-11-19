@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3asCEdNZdB6qN3n2Am",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P058\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"The Dean, in my opinion, as a good Dean, must simply protect\",\"tgt_span\":\"좋은 학장은 단순히 그의 동료들의 이익을 보호해야만 한다\",\"description\":\"주어 'The Dean'(해당 학장, 자신)과 'as a good Dean'(좋은 학장으로서)이 일반론적 '좋은 학장은'으로 합쳐져, 특정 학장(화자 본인)에 대한 진술이 일반 진술로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 특정 학장 본인(The Dean)이라는 행위자가 일반적인 '좋은 학장'으로 바뀌었으나, 학장이 동료 이익을 보호해야 한다는 핵심 내용은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"남은 표현의 지시·연결·범위(simply, 그의 동료들)가 원문과 같게 읽힙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학장의 견해·주장 진술 → 견해·주장 진술로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 학장의 의무를 주장하는 must가 '보호해야만 한다'로 의무 범주가 유지되고, 주체도 학장 범주로 유지됩니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인용된 발언의 평서체 '-한다'가 신문 기사 속 직접 인용 문체로 무리가 없고 태도 변화도 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 1692,
+    "output_tokens": 765,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

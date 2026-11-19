@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3RxRFyzykTitvQHAWL",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P088\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"(hence this recipe)\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"이 레시피가 존재하는 이유를 밝히는 괄호 부분이 번역에서 빠짐\"},{\"id\":\"E002\",\"src_span\":\"though it might not be obvious at first glance\",\"tgt_span\":\"처음에는 어떻게 해야 하는지 명확하지 않을 수도 있습니다.\",\"description\":\"양보 접속사 though가 문장 분할로 연결어 없이 독립된 문장이 됨. 다만 양보 관계는 문맥상 유지되는 것으로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: '(hence this recipe)'가 통째로 빠져 이 레시피가 쓰인 이유(방법이 명확하지 않아서)가 사라졌지만, 핵심 사실(dictConfig로 필터 구성 가능, 방법이 처음엔 명확하지 않을 수 있음)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"though가 사라졌으나 두 문장이 나란히 놓여 '가능하지만 방법이 명확하지 않을 수 있다'는 대조적 관계로 읽히며, 지시·범위도 변하지 않습니다. 누락된 괄호는 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"설명 → 설명. 필터 구성 방법을 소개하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"can은 가능·능력의 의미이고 의무·허가·금지를 정하는 규범 표현이 아니며, 선택 가능한 방법을 소개하는 문장이라 N/A입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학습자료의 '~습니다' 설명체가 유지되며 특별한 호칭·태도 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"기술 용어만 있고 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 1149,
+    "output_tokens": 880,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3NmQ8ugRZ6pPNhpmBX",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P051\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Trump\",\"tgt_span\":\"트럼프 대통령\",\"description\":\"원문에 없는 직함 '대통령'이 덧붙음. 트럼프의 실제 직함이므로 의미 변화는 없는 통상적 보충.\"},{\"id\":\"E002\",\"src_span\":\"Kim\",\"tgt_span\":\"김정은 위원장\",\"description\":\"성만 있던 'Kim'이 '김정은 위원장'으로 풀려 옮겨짐. 문단 문맥상 같은 인물을 가리키는 통상적 대응.\"},{\"id\":\"E003\",\"src_span\":\"taking steps to disarm\",\"tgt_span\":\"북한의 비핵화를 위한 용기 있는 조치\",\"description\":\"'disarm'(무장해제)이 '비핵화'로 좁혀짐. 문맥상 북한의 핵 문제를 가리키므로 같은 사태로 읽힘.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"위협, 칭찬, 아직 할 일이 많다는 말, 제재 유지 조건 등 인물·행위·시간·조건이 모두 유지되며 직함 보충과 '비핵화' 표현은 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'칭찬했지만'이 칭찬과 단서의 대조를 유지하고, '북한이 비핵화할 때까지'의 범위도 같습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 보도 서술 → 뉴스 보도 서술. 발언을 전하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"must는 독자나 대상에게 규범을 정하는 것이 아니라 뉴스에서 트럼프의 발언을 보도하는 간접 서술이며, 평가할 규범 설정 대상이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 기사의 평서 서술체 '-했다'가 유지되고 호칭도 보도문에 맞습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'유엔 총회'는 통용되는 한국어 기관명이고 'United Nations'를 같은 기관으로 옮겼습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 940,
+    "output_tokens": 917,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

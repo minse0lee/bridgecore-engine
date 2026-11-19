@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3KguBnV2D3rLqbeLRS",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P017\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"which would allow Mike Pence, the vice president, to break a tie\",\"tgt_span\":\"마이크 펜스를 허용, 부통령, 타이를 끊고\",\"description\":\"펜스 부통령이 동점을 깰 수 있게 된다는 관계절이 '마이크 펜스를 허용'으로 바뀌어 허용 주체·대상과 가능해지는 행위가 불분명해짐\"},{\"id\":\"E002\",\"src_span\":\"and confirm him to the Supreme Court\",\"tgt_span\":\"대법원에 그를 확인\",\"description\":\"대법관으로 인준한다는 행위가 '확인'이라는 다른 행위로 바뀌고 서술어·구조가 불완전함\"},{\"id\":\"E003\",\"src_span\":\"on the Senate floor\",\"tgt_span\":\"상원 바닥에\",\"description\":\"상원 본회의장(표결 자리)을 '상원 바닥'으로 직역하여 표결 장소의 의미가 전달되지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 50표를 얻으면 펜스가 동점을 깨고 인준할 수 있다는 결과 내용이 '펜스를 허용', '그를 확인'으로 바뀌어 누가 무엇을 하는지와 인준 행위가 달라져 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: which절이 앞 내용(50표 확보)의 결과·가능 조건으로 이어지는 관계가 끊겨 '펜스를 허용'이 목적어 나열처럼 읽혀 앞뒤 연결을 알 수 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상황 설명 → 상황 설명. 불확실한 표결 상황을 서술하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"can은 득표 가능성을 나타내고 would allow는 결과 서술이며, 의무·허가를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 서술문으로 화자·청자의 관계나 높임·호칭이 문제되지 않습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 2: 미국 상원의 표결 장소인 'Senate floor'를 '상원 바닥'이라는 일반 어휘로 옮겨 제도적 의미(본회의 표결)가 전달되지 않습니다. 상원·대법원·부통령은 통용되는 표기로 남아 있어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 826,
+    "output_tokens": 1071,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

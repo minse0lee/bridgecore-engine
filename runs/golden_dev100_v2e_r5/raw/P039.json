@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3N2tXHzfkkNLLCxGBW",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P039\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"most votes\",\"tgt_span\":\"대부분의 표\",\"description\":\"'most votes'는 최다 득표(가장 많은 표)를 뜻하는데 '대부분의 표'(표의 대다수)로 옮겨, 과반수를 넘지 못했다는 뒤 내용과 모순됨\"},{\"id\":\"E002\",\"src_span\":\"the required majority\",\"tgt_span\":\"과반수\",\"description\":\"'required'(필요한 과반수)가 번역에서 빠졌으나 '과반수'가 이미 필요 의석 기준을 뜻하므로 의미 차이는 거의 없음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(수량): 가장 많은 표를 얻었다는 내용이 표의 대부분을 얻었다는 뜻으로 바뀌어 사실이 달라지고 뒤의 '과반수를 넘지 못했다'와 모순되어 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'but'은 '~지만'으로 양보·대조 관계가 유지되고, 대명사·초점 표현의 변화는 없습니다. most votes의 오역은 단어 오역이라 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"선거 결과 보도 → 선거 결과 보도. 사실을 전달하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"required는 의석 과반수라는 선거 결과 사실을 설명하는 수식어로, 누군가에게 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 서술체 '~했다'가 유지되며 관계나 태도 표현이 따로 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"집권당, 총리, 민주회의당, 과반수 등 정치 제도 용어가 같은 대상을 가리키도록 옮겨졌고 한국어 독자가 이해할 수 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 856,
+    "output_tokens": 876,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

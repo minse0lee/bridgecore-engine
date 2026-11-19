@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3MRFQfRhidoXxjp3ce",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P037\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the financials that are in play\",\"tgt_span\":\"재정 문제\",\"description\":\"'in play'(관련되어 쟁점이 되고 있다)는 의미가 사라지고 '재정 문제'로만 옮겨져 쟁점·관련 요소라는 정보가 빠짐. 다만 핵심 대비는 유지됨.\"},{\"id\":\"E002\",\"src_span\":\"but who are the doctors?\",\"tgt_span\":\"의사들은 누구입니까?\",\"description\":\"'but'이 이끄는 '또 하나의 쟁점은 누가 의사인가'라는 구조가 단순 질문으로 바뀌어, '재정 문제뿐만 아니라'와 이어지는 문장이 문법적으로 어색해짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'in play'(쟁점으로 걸려 있음)가 빠져 '재정 문제'만 남았으나, 재정뿐 아니라 의사 문제도 있다는 핵심 내용은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'not just A, but B'의 '뿐만 아니라' 구조가 유지되고 범위(재정 외에 의사 문제)도 같게 읽혀 지시·연결·범위가 보존됩니다.\"},\"Context\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"질문이 실제 정보 요청인지 수사의문(쟁점 제기)인지 문맥 부족으로 판단하기 어려우며, 문단 앞뒤 문맥 확인이 필요합니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기자 인용 속 마틴의 발화가 '-입니까' 격식체로 옮겨졌고, 화자·청자 관계를 알 수 있는 정보가 없어 관계 위반을 지적할 근거가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등이 없고 인명(Martin)만 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 521,
+    "output_tokens": 893,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

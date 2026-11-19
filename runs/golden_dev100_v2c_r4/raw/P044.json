@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3N2m6ediCtvB1X4PmG",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P044\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"incidents of groping\",\"tgt_span\":\"간음 사건\",\"description\":\"groping(더듬기·치한 행위)이 '간음'(성교 관련 범죄)으로 바뀌어 다른 범죄 유형을 가리킴\"},{\"id\":\"E002\",\"src_span\":\"\\\"forcible indeceny\\\" (強制わいせつ)\",\"tgt_span\":\"\\\"강제 음란\\\"\",\"description\":\"강제추행(強制わいせつ, forcible indecency)이 '강제 음란'으로 옮겨져 한국 독자가 제도상 죄명으로 이해하기 어렵고, 원어 표기도 빠짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 더듬기 행위가 '간음'으로 바뀌어 사건의 종류가 달라졌고, 죄명도 '강제 음란'으로 옮겨져 독자가 문장의 요지를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·범위 표현의 관계는 원문과 같게 읽힙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"법적 처리 방식 설명 → 법적 처리 방식 설명으로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"기소 관행을 서술하는 문장으로 의무·허가·금지 같은 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기사 본문의 서술체 '~합니다'로 유지되며 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: 일본 형법 제176조의 죄명 強制わいせつ(강제추행)를 '강제 음란'이라는 일반 어휘로 옮겨 제도적 의미가 전달되지 않습니다. 조문 번호가 남아 있어 원 자료를 찾을 수 있으므로 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 1234,
+    "output_tokens": 845,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

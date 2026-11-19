@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3QZDii5YP3EKNwRgaT",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P078\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"for behavior which presents a clear and present danger of physical injury to the student, other students or school personnel, or prevents the orderly operation of classes or other school activities\",\"tgt_span\":\"학생, 다른 학생 또는 학교 직원에게 명확하고 현재의 신체 상해의 위험을 제시하는 행동에 대한 학생을 1 ~ 5 학교 일을 정지 할 수있는 권한이있다, 또는 … 운영을 방지\",\"description\":\"정학 사유인 두 가지 행동 중 두 번째(수업·학교 활동의 질서 있는 운영을 방해하는 행동)가 번역에서 독립된 행동이 아니라 권한 문장 끝에 붙은 '또는 … 운영을 방지'로 남았고, 'behavior which … prevents'의 관계가 끊겨 '행동'과 연결되지 않음. 첫 번째 사유도 'the student'가 '학생, 다른 학생'으로 옮겨져 위험 대상이 모호해짐.\"},{\"id\":\"E002\",\"src_span\":\"consistent with the disciplinary responses set forth in this Code\",\"tgt_span\":\"이 코드에 명시된 징계 대응과 일치하는\",\"description\":\"징계 조치가 본 규정(Code)에 명시된 징계 대응에 부합해야 한다는 조건이 정학 권한이 아니라 '수업이나 기타 학교 활동'을 수식하는 것처럼 배치되어 수식 범위가 달라짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위·대상·조건): 정학 사유인 두 번째 행동(질서 있는 운영 방해)이 '또는 … 운영을 방지'로 문장 끝에 남아 정학 사유로 읽히지 않으며, 위험 대상 'the student'가 '학생, 다른 학생'으로 되어 누가 위험에 처하는지도 흐려져 정학 사유가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1·2·3: 'behavior which … or prevents'의 병렬 관계가 끊겨 '또는 … 운영을 방지'가 무엇에 이어지는지 알 수 없고, 'consistent with … this Code'가 정학 권한이 아니라 '수업이나 기타 학교 활동'을 수식하는 것으로 읽혀 수식 범위가 달라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 설명 → 규정 설명. 교장의 정학 권한을 설명하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 2(조건·적용 범위): 정학 권한이 발동되는 조건(질서 방해 행동)과 'Code에 명시된 징계 대응에 부합해야 한다'는 제한이 번역에서 정학 권한과 연결되지 않아 권한의 조건과 적용 범위가 달라졌습니다. 권한 부여 자체('권한이 있다')는 유지됩니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 설명문이라는 격식이 크게 훼손되지 않았고 태도 변화도 없습니다. 어색한 종결과 띄어쓰기는 훼손 사유가 아닙니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교장의 정학 권한, 학교 일수, 징계 규정(Code)이 한국 제도로 대체되지 않았고 같은 제도를 가리킵니다. 'Code'를 '코드'로 옮긴 것은 어색하지만 규정을 가리킴은 알 수 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 1179,
+    "output_tokens": 1445,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

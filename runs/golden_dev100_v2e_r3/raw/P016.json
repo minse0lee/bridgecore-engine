@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3KepgYqELgm2XpFdwS",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P016\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"163 million yen\",\"tgt_span\":\"1억 6300만 엔\",\"description\":\"1억 6300만 엔(163 million yen)은 정확하다. 자동 힌트의 수치 불일치는 표기 차이로 인한 오경보다. 다만 'roughly US$1.5 million'을 '약 150만 달러'로 옮긴 것도 정확하여 오류가 아니다.\"},{\"id\":\"E002\",\"src_span\":\"forty of such institutions\",\"tgt_span\":\"40개의 기관\",\"description\":\"'such'(앞서 언급한 성폭력 구호 센터)가 일반 '기관'으로 옮겨져 한정이 약해졌으나, 직전 문장에서 센터 맥락이 이어져 지시 대상은 문맥상 정해지므로 의미 변화는 사실상 없다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"다나베 씨의 말, 40개 기관 설립, 총 예산 1억 6300만 엔(약 150만 달러), '불과하다'(just)까지 원문 내용이 모두 유지된다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but의 대조 관계가 '~되었지만'으로 유지되고, '그러한 기관'이 '기관'으로 줄었어도 앞 문장 문맥상 지시 대상이 정해진다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"정보 전달(설명) → 정보 전달(설명). 기능이 같다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 사실 서술이다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기사 본문의 평서체 '~다'가 유지되고, 인용되는 인물에 대한 '씨' 호칭도 적절하다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"엔화와 달러 금액 표기를 그대로 유지하고 원화 등으로 바꾸지 않았다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 1639,
+    "output_tokens": 827,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

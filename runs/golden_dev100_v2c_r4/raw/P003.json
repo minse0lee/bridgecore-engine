@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3Jxu5kmtEjZAg2qrPq",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P003\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"She says she intended to go to the clinic by herself\",\"tgt_span\":\"메일리는 자신이 폭행당한 9일 후에 출산 병원을 방문했지만, 그녀가 경찰에 신고하기 전에 그녀는 … 병원에 혼자 갈 생각이었다고 말했다\",\"description\":\"앞 문장(Instead, ... nine days after)의 내용이 평가대상 번역 구간에 섞여 들어왔으나 평가대상 원문에 없는 내용이므로 첨가로 본다. 또한 '병원 방문 전에 혼자 갈 생각이었다'는 의도의 시점 관계가 흐려져, 신고 전에 의도했다고 읽히는 구조가 생겼다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 번역 구간이 앞 문장과 합쳐져 있어 지정된 문장만 분리 판정하기 어렵습니다. 평가대상 내용(혼자 병원에 가 증거를 모으려 했다는 말)은 번역에 있으나 앞 문장 내용이 섞여 있습니다.\"},\"Textual\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 여러 원문 문장이 합쳐져 '그녀' 지시와 '~했지만' 연결을 지정 문장만으로 분리해 판정하기 어렵습니다.\"},\"Context\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 합쳐진 번역 구간에서 평가대상 문장의 기능만 분리하기 어렵습니다. 다만 인터뷰 내용 전달이라는 보고 기능은 유지되어 보입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기사 본문의 서술체 '-했다'가 유지되며 관계에 맞지 않는 높임·호칭 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 1624,
+    "output_tokens": 914,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

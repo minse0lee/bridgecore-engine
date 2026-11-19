@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3Z7SgABgykwZ2pcEaj",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P067\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Never heard of uglifying!\",\"tgt_span\":\"추해지는 걸 들어본 적이 없어!\",\"description\":\"그리폰이 앨리스에게 '들어본 적이 없다니!' 하고 놀라 묻는 말이 '(내가) 들어본 적이 없어'라는 화자 자신의 경험 진술로 바뀌어 들어보지 못한 주체가 앨리스에서 그리폰으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물·행위): 들어본 적이 없는 주체가 생략된 2인칭(앨리스)인데 번역은 화자 자신이 들어본 적이 없다고 읽혀 누가 무엇을 했는지가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"오역을 바로잡으면 주체 문제도 풀리므로 Semantic에서만 판정하고, 남은 표현의 연결·지시·범위는 유지됩니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"원문 기능 → 번역 기능: 상대가 모른다는 데 놀라며 핀잔을 주는 말 → 화자 자신이 못 들어봤다는 단순 진술이 되어 앨리스를 책망하는 기능이 사라졌습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"never는 경험 부정이며 의무·허가·금지 같은 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기대 격식인 편한 반말이 '~없어'로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 723,
+    "output_tokens": 767,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

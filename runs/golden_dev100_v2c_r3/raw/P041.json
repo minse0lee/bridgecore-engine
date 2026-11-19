@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3Mc5ncDoBTfxEQUe3U",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P041\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Superintendent’s suspensions\",\"tgt_span\":\"교장의 정지\",\"description\":\"Superintendent(교육감급 관리자)를 '교장'으로 오역하여 정지 처분을 내리는 주체가 달라짐\"},{\"id\":\"E002\",\"src_span\":\"more than 20 school days\",\"tgt_span\":\"20 학교 일 이상의\",\"description\":\"'more than 20'(20일 초과)을 '20 이상'으로 옮겨 20일 정확히를 포함하는 것으로 읽혀 기준이 달라짐\"},{\"id\":\"E003\",\"src_span\":\"or for Level 5 infractions that involve seriously dangerous and/or violent behavior where the circumstances warrant the imposition of a longer suspension\",\"tgt_span\":\"또는 레벨 5 심각하게 위험한 및 / 또는 폭력적 인 행동을 포함하는 위반은 상황이 더 긴 정지의 부과를 보증.\",\"description\":\"'or for Level 5 infractions'가 문장 구조에서 분리되어 부과 가능한 두 번째 경우(법률 요구 외의 레벨 5 위반)가 서술어 없이 끊기고, '보증'으로 끝나 warrant(정당화한다)의 뜻과 문장 구조가 무너짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: Superintendent가 '교장'으로 바뀌어 행위 주체가 달라지고, 'more than 20'이 '20 이상'이 되어 수량 기준이 달라졌으며, 레벨 5 위반의 부과 조건이 서술어 없이 불완전하게 되어 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 2·3: 'only when required by law or for Level 5 infractions'의 병렬(두 허용 조건)이 번역에서는 '또는'이 끊겨 어디에 걸리는지 알 수 없고, only의 범위도 법률 요구 조건에만 붙은 것으로 읽혀 허용 범위가 달라집니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 설명 → 규정 설명. 문장 구조가 흐트러졌지만 정지 부과 조건을 설명하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 2: 'may be imposed only when'이라는 허가의 조건·범위에서 처분 주체(교장), 기간 기준(20일 이상), 두 번째 허용 사유(레벨 5 위반)가 바뀌거나 불완전해져 규범의 주체와 조건이 달라졌습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 문체이며 번역도 안내문 어조를 유지하고 있고 관계상 달라진 태도는 없습니다. 문장 끝의 '보증.'은 어색함일 뿐 격식 문제는 아닙니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 뉴욕시 교육 제도의 직책 Superintendent를 일반 학교의 '교장'으로 옮겨 제도상 직위가 다른 것으로 이해되고, 한국 독자가 정지 처분 권한 체계를 이해하기 어렵습니다. 다만 맥락상 규정 자료를 찾을 수 있어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 1116,
+    "output_tokens": 1362,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

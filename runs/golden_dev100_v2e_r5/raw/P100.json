@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3SdP4YRwxNmSMC1CZH",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P100\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a negative vote by either of two key states — New York or Virginia\",\"tgt_span\":\"뉴욕과 버지니아 두 주의 부정 투표\",\"description\":\"either … or(둘 중 어느 한 주의 반대표)가 '뉴욕과 버지니아 두 주의 부정 투표'로 옮겨져, 한 주만 반대해도 된다는 선택 범위가 두 주 모두의 반대로 읽힐 수 있음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상·수량): 둘 중 한 주의 반대라는 조건이 두 주의 반대로 읽힐 수 있으나, 핵심 사실(두 주의 반대가 사업을 무산시킬 수 있음)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(범위): either가 사라져 '둘 중 어느 하나'의 선택 범위가 '두 주 모두'로 읽힐 수 있어 참이 되는 범위가 달라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"역사·제도 설명 → 역사·제도 설명. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"헌법 비준 조건의 서술이 중심이며 독자에게 의무·허가를 거는 문장이 아니라 평가할 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"설명문 '-였다/-하였다' 서술체가 유지되며 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"미국 헌법 초안, 비준 회의, 13개 주 중 9개 주 요건, 뉴욕·버지니아가 올바르게 옮겨졌고 날짜 표기도 적절합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 914,
+    "output_tokens": 805,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

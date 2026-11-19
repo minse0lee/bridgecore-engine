@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3bhGiAzLvfYn4kUa1y",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P044\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"incidents of groping\",\"tgt_span\":\"간음 사건\",\"description\":\"groping(더듬기·추행)이 '간음'(성교)으로 오역되어 범죄 유형이 달라짐\"},{\"id\":\"E002\",\"src_span\":\"\\\"forcible indeceny\\\" (強制わいせつ)\",\"tgt_span\":\"\\\"강제 음란\\\"\",\"description\":\"강제추행/강제외설에 해당하는 죄명이 '강제 음란'으로 옮겨져 죄명이 일반 어휘처럼 되고, 원문의 일본어 표기(強制わいせつ)도 빠짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: groping이 '간음'으로 바뀌어 다루는 범죄 종류가 달라졌고, 죄명도 '강제 음란'으로 부정확하게 옮겨져 독자가 사건 유형을 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"오역은 단어 문제이며 바로잡으면 관계도 풀리고, 지시·연결·범위 표현은 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사실 설명 → 사실 설명. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"기소 관행을 서술하는 문장으로 의무·허가·금지를 정하는 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기사 서술체의 객관적 격식이 '-ㅂ니다'체로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: 일본 형법 제176조의 죄명을 '강제 음란'이라는 일반 어휘로 옮기고 일본어 원표기도 빠져 제도적 의미(강제추행죄)가 전달되지 않습니다. 조문 번호가 남아 있어 원 자료를 찾을 수 있으므로 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 1234,
+    "output_tokens": 851,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

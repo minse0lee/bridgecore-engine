@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3SFwCpKRV5Rc3NU7FQ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P100\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a negative vote by either of two key states — New York or Virginia\",\"tgt_span\":\"뉴욕과 버지니아 두 주의 부정 투표\",\"description\":\"either … or(둘 중 어느 한 주의 반대표)가 '뉴욕과 버지니아 두 주의 부정 투표'로 바뀌어, 한 주만 반대해도 된다는 범위가 두 주 모두 반대하는 것처럼 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상·조건): 둘 중 한 주의 반대표만으로도 전체를 무너뜨릴 수 있다는 내용이 두 주의 반대표로 읽혀 조건이 달라졌고, 독자가 핵심 요지를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(범위): either…or의 선택적 범위 표현이 '와'로 나열되어, 둘 중 하나만으로 충분하다는 범위가 두 주 모두의 반대로 바뀌어 읽힙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"역사적 사실 설명 → 역사적 사실 설명. 서술 기능이 그대로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"헌법 초안 서명자들이 효력 발생 요건을 규정한 내용(stipulated)이 '규정하였다'로 유지되고 승인 요건(9개 주)도 그대로입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"설명문의 서술체가 '~하였다/~있었다'로 일관되게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"미국 헌법 초안, 비준 회의, 주 등 제도 용어가 같은 대상으로 통용되는 표기로 옮겨졌고 날짜도 한국어 표기로 정확합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 914,
+    "output_tokens": 829,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

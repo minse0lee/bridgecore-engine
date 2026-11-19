@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3KJy5fT1N7hX7eYzrz",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P010\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"must still be ratified\",\"tgt_span\":\"확정될 예정이다\",\"description\":\"'아직 ~되어야 한다'는 필수 절차 표현이 '확정될 예정이다'라는 단순 예정 서술로 바뀌어 must와 still이 사라짐\"},{\"id\":\"E002\",\"src_span\":\"by the full IOC\",\"tgt_span\":\"IOC 총회에서\",\"description\":\"'full IOC'(IOC 전체 위원)가 '총회'라는 장소·행사 표현으로 바뀌고 10월 meeting의 '회의' 개념이 총회에 합쳐짐. 확정 주체는 유지되어 의미 차이는 미미함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성·조건): 아직 확정되지 않았고 반드시 거쳐야 한다는 점이 단순 예정으로 바뀌었으나 핵심 사실(총회에서 확정)은 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"still의 지속 뉘앙스가 약해졌을 뿐 지시·연결·범위 관계는 그대로입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 절차 설명 → 뉴스 절차 설명. 발화 기능은 같습니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 투표 결과가 총회의 비준을 반드시 거쳐야 한다는 필수 요건이 단순 예정 서술로 바뀌었으나, 확정 주체·시점은 유지되어 독자가 해야 할 행동에는 영향이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 기사체 '-이다'가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"IOC, 10월 코펜하겐 등 기관·시기를 같은 대상으로 옮겼고 제도적 의미가 이해됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 648,
+    "output_tokens": 841,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3VCm3ojyctcYFQPcZC",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P069\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"more than 10\",\"tgt_span\":\"이상 10\",\"description\":\"'10일 초과'가 '이상 10'으로 어순이 뒤바뀌고 'more than'이 '이상'(이상=이거나 초과)으로 옮겨져 초과 기준이 불명확해지고 수량 표현이 깨짐\"},{\"id\":\"E002\",\"src_span\":\"superintendent’s suspension\",\"tgt_span\":\"교육감의 정지\",\"description\":\"'suspension'(정학 처분)을 '정지'로 옮겨 학생에 대한 징계 처분이라는 의미가 드러나지 않음. 교육감 정학 제도가 제대로 전달되지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(수량·대상): '10일 초과 연속 등교일'이 '이상 10 … 연속 학교 일'로 흩어져 수량 기준이 불분명하고, suspension이 '정지'로 옮겨져 교육감 정학이라는 처분 내용이 달라져 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현이 달라져 다른 대상을 가리키는 문제는 없고 문제는 어순·수량 표현 훼손으로 Semantic에서 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 항목 나열 → 규정 항목 나열. 조건을 열거하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장은 앞 문장의 규범을 이어받는 항목으로 자체에 의무·허가·금지 표현이 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 청자의 관계나 태도가 드러나는 표현이 없는 목록 항목입니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2(제도 용어): 뉴욕시 교육 제도의 superintendent’s suspension(교육감 정학)을 일반 어휘 '정지'로 옮겨 징계 제도로서의 의미가 한국어 독자에게 전달되지 않습니다. 기간 수치는 남아 있어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 601,
+    "output_tokens": 936,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

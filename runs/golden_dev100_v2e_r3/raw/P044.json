@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3MwhEoaFkdSEpJRiZK",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P044\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"incidents of groping\",\"tgt_span\":\"간음 사건\",\"description\":\"groping(치한 행위·더듬기)이 '간음'(성관계 의미)으로 오역되어 다른 범죄 유형을 가리킴\"},{\"id\":\"E002\",\"src_span\":\"\\\"forcible indeceny\\\" (強制わいせつ)\",\"tgt_span\":\"\\\"강제 음란\\\"\",\"description\":\"강제추행(強制わいせつ)이라는 죄명을 '강제 음란'이라는 일반 어휘로 옮기고 원어 표기도 생략하여 법적 죄명의 의미가 전달되지 않음\"},{\"id\":\"E003\",\"src_span\":\"are prosecuted by police\",\"tgt_span\":\"경찰이 … 기소합니다\",\"description\":\"기소 주체를 경찰로 옮김. 원문 자체가 'prosecuted by police'이므로 원문을 충실히 따른 것으로 오류로 보지 않음(참고용)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: groping이 '간음'으로, 'forcible indecency'가 '강제 음란'으로 바뀌어 다루는 범죄의 종류가 달라져 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"단어 오역이 원인이며 바로잡으면 관계도 풀리고, 남은 문장의 지시·연결·범위는 원문과 같습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사실 설명 → 사실 설명. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 표현이 없고 기소 관행을 서술하는 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기사 서술의 평서 격식체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: 형법 제176조의 죄명 '강제추행'을 '강제 음란'이라는 일반 어휘로 옮겨 제도적 의미가 한국어 독자에게 전달되지 않으며, 조문 번호가 남아 원 자료를 찾을 수 있어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 1234,
+    "output_tokens": 929,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

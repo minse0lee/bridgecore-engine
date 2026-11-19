@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3NaXJEyKf5enotkk4p",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P052\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Referral to Counseling Services\",\"tgt_span\":\"상담 서비스에 대한 참조\",\"description\":\"제목의 'referral'(상담 서비스로 연계·의뢰)이 '참조'로 오역되어 연계의 의미가 사라짐\"},{\"id\":\"E002\",\"src_span\":\"threatening or actual physical, sexual, and/or emotional abuse\",\"tgt_span\":\"위협 또는 실제 신체의 패턴을 사용하는 경우, 성적, 및 / 또는 감정적 학대\",\"description\":\"학대 수식어구가 분리·재배열되어 '위협 또는 실제 신체의 패턴'으로 읽히고 '성적, 감정적 학대'가 사용 방식의 목적어에서 떨어져 나가 구조가 깨짐\"},{\"id\":\"E003\",\"src_span\":\"refer both the victim and the student who engages in this behavior to separate appropriate school or community-based agencies\",\"tgt_span\":\"기관에이 행동에 종사하는 피해자와 학생 모두를 참조해야합니다\",\"description\":\"'refer'가 '참조'로 오역되어 학생을 기관에 연계·의뢰하라는 행위가 사라짐. 또한 '이 행동에 종사하는'이 피해자까지 수식하는 것처럼 읽혀 가해 학생과 피해자의 구분이 흐려짐\"},{\"id\":\"E004\",\"src_span\":\"for counseling, support, and education services\",\"tgt_span\":\"상담을위한 … , 지원, 및 교육 서비스\",\"description\":\"상담·지원·교육 서비스 목록이 문장 끝과 앞에 흩어져 있어 서비스 종류의 연결이 불분명함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\",\"E004\"],\"reason\":\"판단 질문 1: 'refer'가 '참조'로 바뀌어 연계 행위가 사라지고, 학대 유형이 '위협 또는 실제 신체의 패턴'으로 끊겨 무엇이 학대인지 달라져 독자가 학교가 해야 할 행동과 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\",\"E003\",\"E004\"],\"reason\":\"판단 질문 1·3: '이 행동에 종사하는'이 피해자와 학생 둘 다를 수식하는 것처럼 읽혀 지시 관계가 달라지고, 학대 수식어와 서비스 목록의 범위가 흩어져 무엇이 포함되는지 판단하기 어렵습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E003\"],\"reason\":\"판단 질문 1: 학교에 연계를 지시하는 규정 안내 → 단순히 참조하라는 의미 불명의 진술로 바뀌어 행동을 이끄는 기능이 약해졌습니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E003\"],\"reason\":\"판단 질문 2: 학교가 두 학생을 각각 별도 기관에 연계해야 한다는 규범이 '참조해야 합니다'로 바뀌어 요구되는 행위와 대상이 달라졌고, 피해자와 가해 학생의 분리 연계 조건도 불분명해졌습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 안내체('~해야합니다')가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학교 또는 지역사회 기반 기관이라는 제도적 대상은 일반 어휘로 같은 대상을 가리켜 이해할 수 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 1182,
+    "output_tokens": 1378,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

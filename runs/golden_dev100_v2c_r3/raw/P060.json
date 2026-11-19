@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3WBfqmCyjbieCWSdhR",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P060\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"support causes\",\"tgt_span\":\"원인을 지지하고\",\"description\":\"causes(대의·주장)를 '원인'(reason for an event)으로 오역하여 지지 대상의 의미가 달라짐\"},{\"id\":\"E002\",\"src_span\":\"organize and assemble to discuss issues and demonstrate peacefully and responsibly in support of them\",\"tgt_span\":\"문제에 대해 토론하고, 평화롭고 책임감 있게 그들을 지지하는 데 시위를 조직하고 모이는 권리가 보장됩니다\",\"description\":\"조직·집회(토론 목적)·평화적 시위의 구조가 흐트러져 '시위를 조직하고 모이는' 것으로 바뀌고, 토론이 독립된 권리처럼 읽히며 '그들'의 지시 대상이 불명확해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: causes가 '원인'으로 오역되고, 조직·집회·토론·시위의 행위 관계가 달라져 보장되는 권리의 내용이 다르게 이해됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1·2: 'them'(issues/causes)을 가리키는 '그들'이 사람처럼 읽혀 지시 대상이 불분명하고, '토론하기 위해 모이고 시위한다'는 목적 관계가 병렬 나열로 바뀌었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"권리 보장 안내 → 권리 보장 안내. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"are guaranteed the right가 '권리가 보장됩니다'로 유지되고, 대상 학생과 '교육국 정책·절차에 따라'라는 조건도 남아 있습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내문의 '-습니다' 체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"New York City Department of Education을 '뉴욕시 교육국'으로 통용되는 방식으로 옮겨 같은 기관을 가리킵니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 892,
+    "output_tokens": 907,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

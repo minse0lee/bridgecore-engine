@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3Md5oRNgX8TMrmNdU5",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P035\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"great credit has to go to Holt for the way he has galvanised the team\",\"tgt_span\":\"홀트는 그가 도착한 이후로 팀에 큰 영향을 미쳤다\",\"description\":\"홀트가 팀을 활기차게 자극·고무한 방식에 대해 큰 공을 인정해야 한다는 칭찬·평가가 '팀에 큰 영향을 미쳤다'는 중립적 서술로 바뀌어 공로 인정 내용이 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2: '큰 공을 인정받아야 한다'는 긍정적 평가가 '큰 영향을 미쳤다'는 중립적 사실 서술로 바뀌어 평가 내용이 달라졌습니다. 다만 홀트가 도착 후 팀에 변화를 일으켰다는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-지만'이 but의 대조 관계를 유지하고 '그가'의 지시 대상도 홀트로 분명합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 기사 속 평가·서술 → 서술. 상황을 설명하는 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"has to go to는 공로가 돌아가야 한다는 평가 표현이며 누군가에게 의무·허가·금지를 정하는 규범이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 기사의 평서 서술체가 유지되며 관계·태도 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"top flight를 '1부 리그'로 옮겨 같은 제도적 대상(최상위 리그)을 가리키며 한국어 독자도 이해할 수 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 874,
+    "output_tokens": 818,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

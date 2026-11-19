@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3NyrzEo5hUjsYmvADA",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P055\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Senior Executive Director of the Office of Safety and Youth Development or other designee of the Chancellor or the Community Superintendent\",\"tgt_span\":\"안전 및 청소년 개발 사무소의 수석 이사 또는 총장 또는 커뮤니티 교장의 다른 지정에 의해\",\"description\":\"'수석 이사 또는 (총장 또는 커뮤니티 교육감의) 다른 지정자'가 '수석 이사 또는 총장 또는 커뮤니티 교장의 다른 지정'으로 바뀌어, 승인 주체인 지정자(designee)가 '지정'이라는 행위로 오역되고 Chancellor·Community Superintendent가 승인권자로 읽힘. Senior Executive Director도 '수석 이사'로 줄었고 Executive 직함이 빠짐\"},{\"id\":\"E002\",\"src_span\":\"Community Superintendent\",\"tgt_span\":\"커뮤니티 교장\",\"description\":\"교육구 교육감(Community Superintendent)이 '커뮤니티 교장'으로 오역되어 다른 직위·기관이 됨\"},{\"id\":\"E003\",\"src_span\":\"Chancellor\",\"tgt_span\":\"총장\",\"description\":\"뉴욕시 교육감 격인 Chancellor가 대학 총장으로 읽히는 '총장'으로 옮겨져 제도상 직위가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1(인물·행위): 승인권자인 designee가 '지정'이라는 행위로 바뀌고 Community Superintendent도 '교장'으로 바뀌어, 누가 승인하는지가 원문과 다르게 읽힙니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'또는'으로 이어지는 선택 관계는 유지되며, 소유·수식 관계의 혼란은 단어 오역 때문이므로 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 안내 → 규정 안내. 승인 요건을 설명하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 2(주체): 승인이 필요하다는 요구는 유지되지만 승인권자가 지정자·교육감에서 지정 행위·총장·교장으로 바뀌어 규범상 담당 주체가 달라졌고, 평가조건이 담당 주체 변경을 불허합니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 안내체('~필요합니다')가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1·2: NYC 교육 제도의 직위인 Chancellor, Community Superintendent가 '총장', '커뮤니티 교장'으로 옮겨져 다른 직위로 읽히며, 독자가 제도적 의미를 이해할 수 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 1066,
+    "output_tokens": 1189,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

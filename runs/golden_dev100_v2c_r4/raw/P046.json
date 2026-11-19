@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3N3H6VtSBqzHgmBZ7G",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P046\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Note that\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"독자의 주의를 환기하는 'Note that'이 번역되지 않음\"},{\"id\":\"E002\",\"src_span\":\"the Option enum, the Result enum\",\"tgt_span\":\"옵션 열거와 마찬가지로 결과 열거\",\"description\":\"Option·Result 같은 코드 식별자를 '옵션', '결과'로 번역하여 Rust 표준 라이브러리 타입을 가리키는 이름이 일반 단어로 바뀜\"},{\"id\":\"E003\",\"src_span\":\"in the match arms\",\"tgt_span\":\"일치 팔에서\",\"description\":\"match arms(match 표현식의 갈래)를 '일치 팔'로 직역하여 코드 구문의 개념이 불분명해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\",\"E003\"],\"reason\":\"판단 질문 1: Option·Result 타입과 match arms가 '옵션', '결과', '일치 팔'로 바뀌어 학습자가 가리키는 대상을 잘못 이해할 수 있고, 'Note that'의 주의 환기도 빠졌지만 핵심은 아닙니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'마찬가지로', '-므로'가 비교와 이유 관계를 유지하고 지시·범위가 같습니다. 'Note that'의 누락은 Semantic에서만 다룹니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개념 설명·주의 → 개념 설명. 'Note that'이 빠졌어도 설명 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'don't need to specify'는 코드 작성 시 불필요함을 설명하는 것으로 의무·허가를 정하는 규범이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재 설명체 '-습니다'가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유 대상이 없는 기술 설명입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 789,
+    "output_tokens": 863,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

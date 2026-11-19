@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3RpwZEdDvJYaEEiy71",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P090\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the Chancellor or the Community Superintendent\",\"tgt_span\":\"총장 또는 커뮤니티 교육감이 지정한 다른 사람\",\"description\":\"'Chancellor 또는 Community Superintendent의 지정인(designee)'이 '총장 또는 커뮤니티 교육감이 지정한 다른 사람'으로 옮겨져 수석 이사와 지정인의 범위가 모호해지고, 'Chancellor'가 '총장'으로 번역됨\"},{\"id\":\"E002\",\"src_span\":\"during which the student must be provided with instruction at a location outside the school building\",\"tgt_span\":\"학생이 학교 건물 외부의 위치에서 지시를 제공해야하는 21-39 학교 일 동안\",\"description\":\"학생이 교육을 제공받아야 한다는 수동·의무 구조가 '학생이 지시를 제공해야 하는'으로 바뀌어 행위자와 대상이 뒤바뀌고 instruction이 '지시'로 오역됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 학생이 교육을 제공받는 내용이 학생이 지시를 제공하는 것으로 바뀌어 행위자·대상이 달라졌고, instruction이 '지시'로 오역되었으며, designee의 귀속도 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1·2: '정지되도록 명령'과 '학교 일 동안' 사이에서 관계절이 '학생이 …제공해야 하는'으로 번역되어, 누가 교육을 제공받는지에 대한 관계가 원문과 다르게 읽힙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 안내 → 규정 안내. 정지 명령 권한을 설명하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 2: 학교 외부에서 교육을 제공받을 학생의 권리(교육 제공 의무의 주체는 교육 당국)가 학생이 제공해야 하는 의무로 바뀌어 규범을 받는 주체가 달라졌고, 명령 권한 주체의 범위도 모호해졌습니다. may를 '할 수 있습니다'로 옮긴 것은 통상적 대응입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 안내체('~습니다')가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 뉴욕시 교육청의 직위(Chancellor, Community Superintendent)가 '총장', '커뮤니티 교육감'으로 옮겨져 한국어 독자가 제도적 의미를 이해하기 어렵고 '총장'은 대학 직위로 읽힙니다. 다만 기관명이 남아 있어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 1083,
+    "output_tokens": 1171,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

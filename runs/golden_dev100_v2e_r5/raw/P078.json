@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3R1L6xdj82eo6inhH4",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P078\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"for behavior which presents a clear and present danger of physical injury to the student, other students or school personnel, or prevents the orderly operation of classes\",\"tgt_span\":\"학생, 다른 학생 또는 학교 직원에게 명확하고 현재의 신체 상해의 위험을 제시하는 행동에 대한 학생을 1 ~ 5 학교 일을 정지 할 수있는 권한이있다, 또는 … 질서 정연한 운영을 방지\",\"description\":\"문장 구조가 무너져 정학 사유(행동)의 두 갈래(위험 초래 / 수업 방해)와 정학 권한의 연결을 알 수 없고, 'the student'가 '학생, 다른 학생'으로 읽혀 정학 대상과 위험 대상이 뒤섞임\"},{\"id\":\"E002\",\"src_span\":\"consistent with the disciplinary responses set forth in this Code\",\"tgt_span\":\"이 코드에 명시된 징계 대응과 일치하는\",\"description\":\"징계 대응과 '일치하는'이 정학 권한 행사의 조건이 아니라 수업·활동 운영을 수식하는 것처럼 옮겨져 적용 조건이 달라짐\"},{\"id\":\"E003\",\"src_span\":\"school days\",\"tgt_span\":\"학교 일\",\"description\":\"정학 기간 단위인 '수업일(school days)'이 '학교 일'로 옮겨져 제도 용어로 전달되지 않음\"},{\"id\":\"E004\",\"src_span\":\"prevents the orderly operation of classes or other school activities\",\"tgt_span\":\"질서 정연한 운영을 방지\",\"description\":\"'질서 있는 운영을 방해하는 행동'이 '운영을 방지'로 바뀌어 행동 사유가 불분명해지고 의미가 반대로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E004\"],\"reason\":\"판단 질문 1: 정학 사유가 되는 행동(위험 초래 또는 수업 방해)과 정학 대상 학생이 뒤섞이고, '방해'가 '방지'로 바뀌어 독자가 정학 사유를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"질문 2(문장 전체 구조 붕괴): 절이 쉼표로 끊겨 'or' 이하의 병렬 관계와 주절·수식절의 연결을 알 수 없고, 단어를 바로잡아도 풀리지 않습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 설명 → 규정 설명. 교장의 정학 권한을 안내하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 2: 정학 권한의 대상 행동과 조건(징계 규정과의 부합)이 달라져 권한 행사 범위가 바뀌어 읽힙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 설명문의 평서 문체가 유지되고 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 2: 미국 학교의 정학 기간 단위인 school days가 '학교 일'로 옮겨져 제도 용어로 이해하기 어렵지만, 1~5라는 수치가 남아 의미를 추정할 수 있어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 1179,
+    "output_tokens": 1322,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

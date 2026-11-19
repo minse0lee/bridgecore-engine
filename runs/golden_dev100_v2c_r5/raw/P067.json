@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3PqZhRZYYaNki5kBWR",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P067\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Never heard of uglifying!\",\"tgt_span\":\"추해지는 걸 들어본 적이 없어!\",\"description\":\"'uglifying'(추하게 만들기, 능동·타동)이 '추해지는 것'(상태 변화, 자동)으로 옮겨져 '아름답게 하다(beautify)'의 반대 개념인 '추하게 만들다'가 아니게 됨\"},{\"id\":\"E002\",\"src_span\":\"Never heard of uglifying!\",\"tgt_span\":\"추해지는 걸 들어본 적이 없어!\",\"description\":\"주어 생략 구문('You've never heard of…')을 평서문으로 옮겨 놀라서 되묻는 청자 향함이 약해지고 화자 자신이 들어본 적이 없다는 말로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(행위자·대상): 'uglifying'이 '추하게 만들기'가 아닌 '추해지는 것'으로 바뀌었고, 주어 생략된 'you'가 사라져 '(너는) 들어본 적 없다'가 '(내가) 들어본 적 없다'로 읽힐 수 있습니다. 다만 다음 문장의 'beautify' 맥락으로 요지는 대체로 전달되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현이 남아 있고 앞뒤 문맥에서 관계가 바로 정해집니다. 'it'을 '그것'으로 옮긴 것도 그리폰을 가리킨다는 점이 문맥상 분명합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"놀라며 핀잔하는 감탄 → 놀라며 핀잔하는 감탄. '뭐야!'가 앞 문장에 있고 '-없어!'로 놀람과 핀잔 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'never'는 경험 부정이며 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기대 격식인 핀잔 주는 편한 반말이 '-없어!'로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 723,
+    "output_tokens": 978,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

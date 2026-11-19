@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3ZVpaV9w7arDop8bMz",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P086\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Students may be referred to a community-based organization\",\"tgt_span\":\"학생들은 … 지역 사회 기반 조직을 참조 할 수 있습니다\",\"description\":\"수동 'be referred to'(학교 등이 학생을 연계·의뢰함)가 학생이 조직을 '참조'하는 능동 행위로 바뀜. 의뢰하는 주체와 학생의 역할이 달라짐\"},{\"id\":\"E002\",\"src_span\":\"after-school programming\",\"tgt_span\":\"학교 밖 프로그램\",\"description\":\"방과 후 프로그램이 '학교 밖 프로그램'으로 바뀌어 시간 개념이 사라짐\"},{\"id\":\"E003\",\"src_span\":\"including, but not limited to,\",\"tgt_span\":\"포함한\",\"description\":\"'이에 국한되지 않는다'는 비한정 단서가 누락되어 열거가 전부인 것처럼 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 학생이 조직에 의뢰(연계)되는 것이 학생이 조직을 '참조'하는 것으로 바뀌어 누가 무엇을 하는지가 달라졌고, 'after-school'이 '학교 밖'으로 바뀌었으며 비한정 단서도 누락되어 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"남아 있는 표현의 지시·연결·범위는 유지되며, 비한정 단서의 누락은 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"제도적 서비스 연계 가능성 설명 → 서비스 이용 가능성 설명. 설명 기능은 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E003\"],\"reason\":\"판단 질문 2: may가 학교가 학생을 연계할 수 있다는 허용 규정인데, 번역은 학생이 스스로 조직을 참조할 수 있다는 것으로 읽혀 허가의 주체가 달라지고, 비한정 단서 누락으로 서비스 범위가 한정된 것처럼 읽혀 적용 범위도 달라집니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내체 '~습니다'가 규정 안내문의 격식에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도명·단위·표기가 없고 일반적인 기관 유형(지역사회 기반 조직)만 등장합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 906,
+    "output_tokens": 1057,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

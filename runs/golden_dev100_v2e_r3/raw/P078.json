@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3QmLipioXjVE46eRxd",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P078\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"suspend a student for one to five school days for behavior which presents a clear and present danger\",\"tgt_span\":\"명확하고 현재의 신체 상해의 위험을 제시하는 행동에 대한 학생을 1 ~ 5 학교 일을 정지 할 수있는 권한이있다\",\"description\":\"정학 사유인 '행동'이 정지 대상 학생을 수식하는 구조로 흐트러져 있고, 학생을 '1~5 학교 일을 정지'하는 문장이 되어 정학(suspend)과 기간 관계가 불분명함\"},{\"id\":\"E002\",\"src_span\":\"or prevents the orderly operation of classes or other school activities consistent with the disciplinary responses set forth in this Code\",\"tgt_span\":\"또는이 코드에 명시된 징계 대응과 일치하는 수업이나 기타 학교 활동의 질서 정연한 운영을 방지.\",\"description\":\"두 번째 정학 사유(수업·활동의 질서 있는 운영을 방해하는 행동)가 주절과 이어지지 않는 단편으로 남고, '방해하는 행동'이 '운영을 방지'로 바뀌어 의미가 뒤집힘. 'consistent with'가 수업·활동을 수식하는 것으로 잘못 연결됨\"},{\"id\":\"E003\",\"src_span\":\"suspend\",\"tgt_span\":\"정지\",\"description\":\"'정학'이라는 학교 징계 제도 용어를 일반 어휘 '정지'로 옮겨 제도적 의미가 전달되지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 정학 사유의 행동이 학생 수식 구조로 뒤섞이고, '질서 있는 운영을 방해하는 행동'이 '운영을 방지'로 바뀌어 정학 사유가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"문장 전체 구조가 무너져 쉼표 뒤 '또는' 절이 주절·관계절과 어떻게 이어지는지 알 수 없고, 두 번째 정학 사유와 'consistent with' 부분의 연결이 끊겨 단어를 바로잡아도 풀리지 않습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"권한 규정 설명 → 권한 규정 설명. 설명하는 기능 자체는 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 2: 교장이 정학시킬 수 있는 조건(위험 행동 또는 수업 방해 행동)이 왜곡되어 권한 행사의 조건·범위가 바뀌었습니다. 권한 자체('권한이 있다')는 유지됩니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 설명문의 객관적 어조가 크게 달라지지 않았고 관계에 맞지 않는 높임·호칭 문제는 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 2: 학교 징계 제도 용어 'suspend'(정학)를 일반어 '정지'로 옮겨 제도적 의미가 약해졌으나, 기간(1~5 학교일)과 맥락으로 대략 이해 가능해 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 1179,
+    "output_tokens": 1305,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

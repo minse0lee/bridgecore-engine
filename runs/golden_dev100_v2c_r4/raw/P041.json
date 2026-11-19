@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3MedpTTGYvGMCWut6S",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P041\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Superintendent’s suspensions\",\"tgt_span\":\"교장의 정지\",\"description\":\"Superintendent(교육장/학區 감독관)가 '교장'으로 오역되어 정지 처분을 내리는 직위가 달라짐\"},{\"id\":\"E002\",\"src_span\":\"for more than 20 school days\",\"tgt_span\":\"20 학교 일 이상의\",\"description\":\"'20일 초과(more than)'가 '20일 이상'으로 바뀌어 경계값이 달라짐\"},{\"id\":\"E003\",\"src_span\":\"may be imposed only when required by law or for Level 5 infractions\",\"tgt_span\":\"법률에 의해 요구되는 경우에만 부과 될 수 있습니다 또는 레벨 5 … 위반은\",\"description\":\"only가 '법률 요구 경우'에만 붙고 'or' 이하 절이 문법적으로 끊겨, 두 번째 조건(레벨 5 위반의 경우)이 허용 조건으로 이어지지 않고 별개 구절로 읽힘\"},{\"id\":\"E004\",\"src_span\":\"Level 5 infractions that involve seriously dangerous and/or violent behavior\",\"tgt_span\":\"레벨 5 심각하게 위험한 및 / 또는 폭력적 인 행동을 포함하는 위반은\",\"description\":\"조사 '은'이 붙어 두 번째 조건이 주어처럼 읽히고, '~의 경우' 조건 표지가 없어짐\"},{\"id\":\"E005\",\"src_span\":\"where the circumstances warrant the imposition of a longer suspension\",\"tgt_span\":\"상황이 더 긴 정지의 부과를 보증.\",\"description\":\"'상황이 더 긴 정지 부과를 정당화하는 경우'라는 조건절이 서술어 '보증'으로 끝나 조건 관계가 사라지고 'warrant'가 '보증(보장)'으로 어색하게 옮겨짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E005\"],\"reason\":\"판단 질문 1: Superintendent가 '교장'으로 바뀌어 처분 주체가 달라졌고, '20일 초과'가 '이상'으로 바뀌었으며, 더 긴 정지를 정당화하는 상황 조건이 '보증'이라는 다른 말로 바뀌어 독자가 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E003\",\"E004\"],\"reason\":\"판단 질문 2·3: only의 범위와 'or'로 이어진 두 번째 허용 조건의 연결이 끊겨 번역문만 읽으면 레벨 5 위반이 정지 부과의 또 다른 허용 조건이라는 관계를 알 수 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 설명 → 규정 설명. 문장이 제도 조건을 안내하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E003\",\"E005\"],\"reason\":\"판단 질문 2: 장기 정지를 부과할 수 있는 주체와 조건·범위가 달라졌습니다. 교장으로 바뀌었고 두 번째 허용 조건이 끊겨 'only' 범위가 불명확하며 상황 조건도 사라졌습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 문체의 종결이 일부 어색하나 관계나 격식 태도 변화는 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 미국 학교 제도의 직위 Superintendent를 '교장'이라는 다른 직위로 옮겨 제도적 의미가 다르게 전달됩니다. 다른 문서 표기 등으로 원 자료를 찾을 수 있어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 1116,
+    "output_tokens": 1452,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

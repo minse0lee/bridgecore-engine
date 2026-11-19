@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3R5a69oZkr9Ltev8UM",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P078\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"for behavior which presents a clear and present danger of physical injury to the student, other students or school personnel\",\"tgt_span\":\"학생, 다른 학생 또는 학교 직원에게 명확하고 현재의 신체 상해의 위험을 제시하는 행동에 대한 학생을 … 정지 할 수있는 권한이있다\",\"description\":\"원문의 'the student'(해당 학생)가 위험을 입는 대상 목록에서 일반 '학생'으로 번역되어 '학생, 다른 학생'이 되었고, 정지 대상 학생과의 관계가 불명확해짐. 또한 '행동에 대한 학생을 정지'로 어색하게 처리됨\"},{\"id\":\"E002\",\"src_span\":\"or prevents the orderly operation of classes or other school activities\",\"tgt_span\":\", 또는이 코드에 명시된 징계 대응과 일치하는 수업이나 기타 학교 활동의 질서 정연한 운영을 방지.\",\"description\":\"정지 사유를 나타내는 'behavior ... prevents' 절이 '운영을 방지'라는 명사구로 끊겨 주어가 사라지고, 방해한다는 의미가 '방지(막는다)'로 반대로 읽힘. 문장이 권한 문장 뒤에 이어 붙어 사유 조건 구조가 깨짐\"},{\"id\":\"E003\",\"src_span\":\"consistent with the disciplinary responses set forth in this Code\",\"tgt_span\":\"이 코드에 명시된 징계 대응과 일치하는\",\"description\":\"'징계 규정에 명시된 징계 대응에 부합하게 정지한다'는 정지 권한의 조건이 '수업이나 활동'을 수식하는 것으로 읽혀 수식 대상이 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 방해하는 행동이 '운영을 방지'(막는 것)로 뒤집혀 정지 사유의 내용이 달라졌고, 위험 대상에서 해당 학생이 별개 학생처럼 읽혀 누가 무엇에 위험을 입는지도 흐려졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\",\"E003\"],\"reason\":\"판단 질문 1·2·3: 'consistent with' 구절이 정지 권한이 아닌 '수업·활동'을 수식하는 것으로 읽히고, 'or'로 이어진 두 번째 사유가 독립 구문이 아닌 파편이 되어 정지 사유와의 관계가 끊겼습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"권한 규정 안내 → 권한 규정 안내. 교장의 정지 권한을 설명하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\",\"E003\"],\"reason\":\"판단 질문 2: 교장이 정지할 수 있는 조건(위험 행동 또는 수업 방해)과 징계 규정과의 부합 요건이 불명확하게 되어 권한의 조건·범위가 달라졌습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 안내에 쓰인 '-다' 체와 중립적 어조가 유지되며 관계상 문제될 호칭이 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교장·학교 일(school days)·징계 규정(Code) 등은 같은 제도를 가리키며 한국 제도로 대체되지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 1179,
+    "output_tokens": 1354,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

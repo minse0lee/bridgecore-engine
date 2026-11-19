@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3LU53oMnY6cLwHaUh5",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P026\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Article 43 of the draft\",\"tgt_span\":\"43조는\",\"description\":\"'draft'(법안 초안)가 번역문에서 빠졌으나 문단 맥락상 법안의 조항임이 드러남\"},{\"id\":\"E002\",\"src_span\":\"the cyberspace administration and relevant departments\",\"tgt_span\":\"사이버공간 관리 및 관련 부서가\",\"description\":\"'cyberspace administration'(기관명)을 '사이버공간 관리'로 옮겨 기관이 활동·기능처럼 읽히며, '관리 및 관련 부서'로 묶여 담당 주체의 범위가 모호해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: '사이버공간 관리(국)'가 '관리'로 옮겨져 기관이 활동처럼 읽히나, 조항이 관련 기관에 차단 조치를 요구하게 한다는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·범위 표현이 남아 있는 채로 달라진 것이 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"법안 조항 설명 → 법안 조항 설명으로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"shall require가 '요구한다'로 유지되고, 금지 정보와 요구 대상 주체 구조도 동일하며 규범 범주·조건에 변화가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"출판물 본문의 설명체(~고 있다)로 격식이 적절합니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"법 조항 '43조'와 '중국법'은 통용되는 표기로 제도적 의미가 전달되며, 'cyberspace administration'의 기관명 손상은 Semantic에서 판정합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 1262,
+    "output_tokens": 806,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

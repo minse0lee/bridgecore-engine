@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3JyKPKgAowfTgu3ZvR",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P003\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"She says she intended to go to the clinic by herself\",\"tgt_span\":\"메일리는 자신이 폭행당한 9일 후에 출산 병원을 방문했지만, 그녀가 경찰에 신고하기 전에 그녀는 … 병원에 혼자 갈 생각이었다고 말했다\",\"description\":\"앞 문장의 내용(폭행 9일 후 출산 병원 방문, 경찰 신고 전)이 평가대상 번역에 섞여 들어와 있음. 대응 구간이 두 원문 문장을 합친 형태임. 원문은 '혼자 병원에 가려 했다'는 의도만 말하는데, 번역은 방문 사실과 시점을 함께 서술함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"평가대상 문장의 내용(증거 수집을 위해 혼자 병원에 갈 생각이었다고 말함)은 번역에 모두 있고, 추가된 내용은 앞 문장에서 온 정보라 평가대상의 의미는 달라지지 않았습니다.\"},\"Textual\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"여러 원문 문장이 한 번역 문장으로 합쳐져 평가대상 문장만 분리해 판정하기 어렵습니다. 정렬 검토 필요.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인터뷰 내용 전달 → 인터뷰 내용 전달. 메일리의 말을 전하는 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"출판물의 평서 서술체(-했다)가 유지되어 관계·격식에 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 1624,
+    "output_tokens": 818,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

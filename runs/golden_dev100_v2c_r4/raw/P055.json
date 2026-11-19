@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3Nt3zvRuZZw8qcYdF2",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P055\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the Senior Executive Director of the Office of Safety and Youth Development or other designee of the Chancellor or the Community Superintendent\",\"tgt_span\":\"안전 및 청소년 개발 사무소의 수석 이사 또는 총장 또는 커뮤니티 교장의 다른 지정에 의해\",\"description\":\"'수석 이사(Senior Executive Director)'가 승인하거나 총장·교육구 교육감이 지정한 다른 대리인(designee)이 승인한다는 구조가 사라짐. 'designee'가 사람이 아닌 '지정'으로 옮겨져 승인 주체가 불분명해짐. Chancellor는 '총장', Community Superintendent는 '커뮤니티 교장'으로 오역됨.\"},{\"id\":\"E002\",\"src_span\":\"Senior Executive Director of the Office of Safety and Youth Development\",\"tgt_span\":\"안전 및 청소년 개발 사무소의 수석 이사\",\"description\":\"'Executive'가 빠져 직위명이 부정확해짐. 'Office'는 '사무소'로 옮겨 기관 성격이 약해짐. 주체 식별은 대체로 가능.\"},{\"id\":\"E003\",\"src_span\":\"the Chancellor or the Community Superintendent\",\"tgt_span\":\"총장 또는 커뮤니티 교장\",\"description\":\"Chancellor(뉴욕시 교육감 격인 교육청장)를 '총장'으로, Community Superintendent(교육구 교육장)를 '커뮤니티 교장'으로 옮겨 제도상 직위가 다른 것으로 읽힘(대학 총장, 학교 교장).\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위자): 승인 주체가 '수석 이사 또는 총장·교장이 지정한 대리인'에서 '… 다른 지정에 의해'로 바뀌어 누가 승인하는지 달라지고, designee가 사람이 아닌 '지정'이 됨.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'of the Chancellor or the Community Superintendent'가 designee를 수식하는 관계가 '총장 또는 커뮤니티 교장의 다른 지정'으로 읽혀, 소유·지정 관계와 'other designee'가 가리키는 대상이 달라짐.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 안내 → 규정 안내. 장기 정지에 승인이 필요하다는 안내 기능이 유지됨.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(주체): 승인 요건은 유지되나 승인권자가 수석 이사 또는 총장·교육장이 지정한 대리인에서 '지정에 의해'로 바뀌어 규범을 수행하는 담당 주체가 달라짐. 평가조건이 담당 주체 변경을 불허함.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 안내체('필요합니다')가 유지됨.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 2: 미국 교육제도의 Chancellor·Community Superintendent를 '총장', '커뮤니티 교장'으로 옮겨 한국어 독자가 대학 총장이나 학교 교장으로 오해해 제도적 의미가 전달되지 않음.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 1066,
+    "output_tokens": 1325,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

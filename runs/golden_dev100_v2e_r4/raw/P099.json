@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3SZqjjU76hsme44uNf",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P099\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the agency warned\",\"tgt_span\":\"위키백과는 … 경고했다\",\"description\":\"경고를 한 주체(Roskomnadzor)가 위키백과로 바뀜. 경고를 받은 대상이 경고한 주체가 되어 행위자 관계가 뒤바뀜\"},{\"id\":\"E002\",\"src_span\":\"even though the offending content was just a single article\",\"tgt_span\":\"단 한 개의 문서에 불법 콘텐츠가 포함되어 있더라도\",\"description\":\"사실로 제시된 양보절 'even though'가 가정·가능성의 '-더라도'로 옮겨져 확실성이 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(행위자): 경고한 주체가 감독국에서 위키백과로 바뀌어 누가 무엇을 했는지가 달라졌습니다. 또한 '문제 콘텐츠가 단 한 문서였다'는 사실이 가정으로 읽혀 확실성도 달라졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"주체 오역은 Semantic에서 판정하며 바로잡으면 지시 문제도 풀립니다. '-더라도'도 양보 관계 자체는 유지하므로 연결 관계는 보존됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"보도 서술 → 보도 서술. 사건을 기술하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장은 사건을 서술할 뿐 의무·허가·금지를 정하는 규범 표현이 아닙니다. 명령은 보도되는 사건의 내용입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 기사의 서술체 '-했다'가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기관명 Roskomnadzor를 '러시아 정보통신 감독국(Roskomnadzor)'으로 풀어 병기해 같은 기관을 가리키며 이해할 수 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 1042,
+    "output_tokens": 876,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

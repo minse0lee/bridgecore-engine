@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3MSMtcXPtR58cE6f2o",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P038\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"So you did\",\"tgt_span\":\"그래서 당신이 했어요\",\"description\":\"앞 말에 맞장구치는 확인의 'So'가 인과 접속 '그래서'로 바뀌고, 'did'(앞서 한 말/행동의 확인)가 단순 '했어요'로 옮겨짐\"},{\"id\":\"E002\",\"src_span\":\"old fellow\",\"tgt_span\":\"늙은이\",\"description\":\"친근한 호칭 'old fellow'(친구, 이봐)가 나이 든 사람을 가리키는 '늙은이'로 오역되어 의미와 친근한 어조가 달라짐\"},{\"id\":\"E003\",\"src_span\":\"the others\",\"tgt_span\":\"다른 사람들\",\"description\":\"동물 등장인물인 'the others'가 '사람들'로 바뀜\"},{\"id\":\"E004\",\"src_span\":\"So you did\",\"tgt_span\":\"당신이 했어요\",\"description\":\"친근한 반말 관계에서 존댓말 '당신…했어요'를 사용함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 'old fellow'(친근한 호칭)가 '늙은이'로 바뀌어 호칭의 의미가 달라졌고, 'the others'(동물들)가 '사람들'로 바뀌어 참여자가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 앞 말에 맞장구치는 확인의 'So'가 인과 접속 '그래서'로 바뀌어 앞 내용의 결과처럼 읽힙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대 말에 동조하며 맞장구치는 발화 → 상대에게 말을 건네는 발화. 동료에게 말하는 기능은 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화문입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\",\"E004\"],\"reason\":\"판단 질문 1·2: 평가조건이 친근한 반말을 기대하는데 '당신…했어요'라는 존댓말과 '늙은이'라는 부적절한 호칭이 쓰여 관계에 맞지 않고 친밀한 태도가 사라졌습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 534,
+    "output_tokens": 1008,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3WfSSC3L4ZoCG3o42K",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P064\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the student must be provided with instruction at a location outside the school building\",\"tgt_span\":\"학생이 학교 건물 외부의 위치에서 지시를 제공해야하는\",\"description\":\"수동 구조 'student must be provided with instruction'(학생이 교육을 제공받아야 함)이 '학생이 지시를 제공해야 하는'으로 바뀌어, 교육을 제공할 의무가 있는 쪽(학교·당국)과 받는 쪽(학생)이 뒤바뀜. 또한 instruction(수업·교육)이 '지시'로 오역됨\"},{\"id\":\"E002\",\"src_span\":\"Senior Executive Director of the Office of Safety and Youth Development or other designee of the Chancellor or the Community Superintendent\",\"tgt_span\":\"안전 및 청소년 개발 사무소의 수석 이사 또는 총장 또는 지역 교육감이 지정한 다른 사람\",\"description\":\"'교육감(Chancellor)이나 지역 교육감(Community Superintendent)의 다른 지명 대리인'이 '총장 또는 지역 교육감이 지정한 다른 사람'으로 옮겨져 총장·교육감이 권한자가 아니라 지정하는 주체로 읽힘. 'Chancellor'도 '총장'으로 옮겨져 직위가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 학생이 교육을 제공받는다는 내용이 학생이 '지시를 제공'하는 것으로 행위자·대상이 바뀌고 instruction이 '지시'로 오역되었으며, 정지를 명령할 수 있는 권한자 범위(Chancellor 포함 여부)도 달라졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"남은 표현의 지시·연결·범위 관계는 대체로 유지되며, 'during which'는 '기간 동안'으로 같은 종류의 관계로 읽힙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 안내 → 규정 안내. 정지 처분 권한과 조건을 설명하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 2: must의 의무 주체와 수혜자가 바뀌어 학교가 교육을 제공해야 한다는 의무가 학생이 제공해야 하는 것으로 읽히며, 정지 명령 권한자의 범위도 달라져 권한 주체가 변경되었습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 안내체('~습니다')가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: 뉴욕시 교육제도의 직위 Chancellor(교육감)를 '총장'으로 옮겨 한국어 독자가 대학 제도의 직위처럼 이해할 수 있어 제도적 의미가 전달되지 않습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 1123,
+    "output_tokens": 1192,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

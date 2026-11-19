@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3QfYj5yFZGLK1QjawE",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P078\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"for behavior which presents a clear and present danger of physical injury to the student, other students or school personnel\",\"tgt_span\":\"학생, 다른 학생 또는 학교 직원에게 명확하고 현재의 신체 상해의 위험을 제시하는 행동에 대한 학생을 … 정지 할 수있는 권한이있다\",\"description\":\"'the student'(위험을 입는 대상 중 하나)가 정지 대상 학생과 분리되어 위험 대상 목록의 첫 항목처럼 읽혀 대상 구조가 어색하고, 정지 사유 연결('행동에 대한')이 모호해짐. 위험 대상(본인·다른 학생·직원)은 대체로 유지됨.\"},{\"id\":\"E002\",\"src_span\":\"or prevents the orderly operation of classes or other school activities consistent with the disciplinary responses set forth in this Code\",\"tgt_span\":\", 또는이 코드에 명시된 징계 대응과 일치하는 수업이나 기타 학교 활동의 질서 정연한 운영을 방지.\",\"description\":\"두 번째 정지 사유(수업·활동의 질서 있는 운영을 방해하는 행동)가 '행동'을 주어로 하는 관계절이 아니라 문장 끝에 매달린 '운영을 방지'로 옮겨져, 방해하는 행동이 아니라 운영을 막는다는 내용이 되고 정지 사유로서의 연결이 끊김. 또한 '방지'는 방해(prevent)가 아니라 방지하는 의미로 읽히며 'consistent with…'의 수식 대상이 징계 대응이 아니라 수업·활동으로 읽힘.\"},{\"id\":\"E003\",\"src_span\":\"suspend a student for one to five school days\",\"tgt_span\":\"1 ~ 5 학교 일을 정지 할 수있는 권한이있다\",\"description\":\"'학생을 정지시키다'의 대상·기간이 '학교 일을 정지'로 읽혀 정지의 대상이 학교 일(일수)로 바뀌어 보임. 수치 1~5는 유지.\"},{\"id\":\"E004\",\"src_span\":\"has the authority to suspend\",\"tgt_span\":\"정지 할 수있는 권한이있다, 또는\",\"description\":\"문장이 '권한이 있다, 또는 …방지.'로 끝나 종결이 불완전하고 권한 서술이 두 번째 사유까지 이어지지 않음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1(행위·대상·조건): 정지 사유 중 둘째(수업·활동 운영을 방해하는 행동)가 '운영을 방지'라는 별개의 서술로 바뀌었고, 정지 대상 학생이 '학교 일을 정지'로 읽혀 독자가 무엇이 어떤 사유로 정지되는지 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\",\"E004\"],\"reason\":\"판단 질문 2(연결·범위): 'or prevents…'가 앞의 같은 '행동'을 수식하는 병렬 사유에서 문장 끝에 떨어진 독립 구절로 바뀌고, 'consistent with…'의 수식 관계도 달라져 독자가 두 정지 사유의 병렬 관계를 복원하기 어렵습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 설명(권한 안내) → 규정 설명. 문장 구조가 흐트러졌어도 기능 종류는 같습니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\",\"E003\"],\"reason\":\"판단 질문 2(주체·조건·범위): 교장의 정지 권한은 유지되나, 정지가 가능한 조건(방해 행동)과 대상(학생)이 불분명해져 권한의 적용 조건·범위가 달라져 읽힙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 설명문의 평서체가 유지되며 관계·태도 변화는 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교장의 정지(principal's suspension)와 징계 규정(Code)이 같은 제도를 가리키며 한국 제도로 대체되지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 1179,
+    "output_tokens": 1613,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

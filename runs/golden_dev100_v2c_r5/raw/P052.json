@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3XtQpstcwYt9Q1LFwM",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P052\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Referral to Counseling Services\",\"tgt_span\":\"상담 서비스에 대한 참조\",\"description\":\"referral(상담 서비스로의 연계·의뢰)이 '참조'로 오역되어 제목의 의미가 달라짐\"},{\"id\":\"E002\",\"src_span\":\"threatening or actual physical, sexual, and/or emotional abuse\",\"tgt_span\":\"위협 또는 실제 신체의 패턴을 사용하는 경우, 성적, 및 / 또는 감정적 학대\",\"description\":\"학대 유형 열거가 분리되어 '위협 또는 실제 신체'와 '성적, 감정적 학대'로 끊기고 '신체적 학대'의 '학대'가 빠져 구조가 깨짐\"},{\"id\":\"E003\",\"src_span\":\"refer both the victim and the student who engages in this behavior\",\"tgt_span\":\"이 행동에 종사하는 피해자와 학생 모두를 참조해야합니다\",\"description\":\"'이 행동에 종사하는'이 피해자와 학생 모두를 수식하는 것처럼 읽혀 피해자와 가해 학생의 구분이 흐려지고, refer가 '참조'로 오역됨\"},{\"id\":\"E004\",\"src_span\":\"to separate appropriate school or community-based agencies for counseling, support, and education services\",\"tgt_span\":\"상담을위한 별도의 적절한 학교 또는 지역 사회 기반의 기관에이 행동에 종사하는 피해자와 학생 모두를 참조해야합니다, 지원, 및 교육 서비스\",\"description\":\"상담·지원·교육 서비스 목록이 문장 끝에 분리되어 기관의 서비스 목적으로 연결되지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\",\"E004\"],\"reason\":\"판단 질문 1: refer(연계·의뢰)가 '참조'로 바뀌어 행위가 달라졌고, 학대 유형과 대상 구분이 흐려져 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\",\"E003\",\"E004\"],\"reason\":\"판단 질문 1·3: '이 행동에 종사하는'의 수식 범위가 피해자까지 확장되어 지시 관계가 달라지고, 학대 유형 열거와 서비스 목록이 분리되어 범위가 달라집니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E003\"],\"reason\":\"학교가 피해자와 가해 학생을 별도 상담기관에 연계하도록 하는 규정 안내 → 문서를 '참조'하라는 취지로 읽혀 기능이 불분명해집니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E003\"],\"reason\":\"판단 질문 2: should가 '해야합니다'로 의무는 유지되지만, 의무의 내용이 상담기관 연계에서 '참조'로, 대상 구분이 흐려져 학교가 해야 할 조치와 대상이 달라졌습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'~해야합니다' 격식체 규정 안내 어조는 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·표기가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 1182,
+    "output_tokens": 1279,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

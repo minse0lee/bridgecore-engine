@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3L1oEfVqj4xMrWSucY",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P015\",\"evaluable\":false,\"evaluable_note\":\"정렬 검토 필요. 평가대상 원문은 여러 문장(헤드라인, 질문, 발언 소개, 인용, 트위터 사용자 반응)이 합쳐진 덩어리로 중간에서 잘려 있는데, 평가대상 번역문은 그중 두 번째 문장 한 개에 해당하는 구간뿐이라 문장 단위로 대응 구간을 확정하여 판정하기 어렵다. 생성붕괴는 아니며, 문단 전체 번역에는 나머지 문장의 내용이 존재한다.\",\"errors\":[],\"axes\":{\"Semantic\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 여러 원문 문장이 하나의 평가대상으로 묶여 있고 번역문은 그중 한 문장뿐이라 분리 판정이 어렵습니다. 문장 단위로 다시 정렬된 대응 구간이 필요합니다.\"},\"Textual\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 평가대상 원문의 범위가 여러 문장이어서 지시·연결·범위 관계를 대응 구간 기준으로 판정할 수 없습니다.\"},\"Context\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 질문문, 발언 소개, 인용문 등 기능이 다른 여러 문장이 섞여 있어 대응 구간별 기능 비교가 불가능합니다.\"},\"Deontic\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 규범 표현 후보(need to)가 포함된 인용문에 대응하는 번역 구간이 평가대상 번역문에 없어 정렬 확인 후에 판정해야 합니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 평가대상 원문과 번역문의 대응이 맞지 않아 어조·격식을 대응 구간 기준으로 판정할 수 없습니다.\"},\"Cultural\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 대응 구간이 확정되지 않아 문화·제도 관련 표현의 대응을 판정할 수 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 1389,
+    "output_tokens": 891,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

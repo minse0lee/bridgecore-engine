@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3PeCq7CoaoMiXUjBtC",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P064\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"during which the student must be provided with instruction at a location outside the school building\",\"tgt_span\":\"학생이 학교 건물 외부의 위치에서 지시를 제공해야하는 11-15 학교 일의 정해진 기간 동안\",\"description\":\"학생이 교육(instruction)을 제공받아야 한다는 수동 의무가 학생이 '지시를 제공해야 한다'는 능동 의무로 바뀌어, 교육을 제공할 주체(학교·교육당국)와 받는 학생의 관계가 뒤바뀌고 instruction이 '지시'로 오역됨\"},{\"id\":\"E002\",\"src_span\":\"The Senior Executive Director of the Office of Safety and Youth Development or other designee of the Chancellor or the Community Superintendent\",\"tgt_span\":\"안전 및 청소년 개발 사무소의 수석 이사 또는 총장 또는 지역 교육감이 지정한 다른 사람\",\"description\":\"기관명을 직역하고 직위(Senior Executive Director, Chancellor)를 '수석 이사', '총장'으로 옮겨 뉴욕시 교육 제도상의 직위·기관 의미가 전달되지 않음(Chancellor는 교육감에 해당하는 시 교육청 수장). 또한 'designee of the Chancellor or the Community Superintendent'의 범위가 'designee'가 지역 교육감에도 걸리는 구조에서 '총장 또는 지역 교육감이 지정한 다른 사람'으로 옮겨져 대체로 유지되나 직위가 다른 제도처럼 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위자·행위): 학생이 교육을 제공받는다는 내용이 학생이 '지시를 제공한다'로 바뀌어 누가 무엇을 하는지가 달라졌고 instruction도 '지시'로 오역되었습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'during which'가 '~하는 … 기간 동안'으로 남아 정지 기간과 교육 제공의 시간 관계가 유지되고, 지시·범위 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 안내 → 규정 안내. 정지 명령 권한과 조건을 설명하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(주체): must be provided의 의무 대상이 학교가 교육을 제공할 의무에서 학생이 제공해야 할 의무로 바뀌어 규범을 받는 주체가 달라졌습니다. may는 '명령할 수 있습니다'로 유지됩니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 안내체('~습니다')가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2(제도적 의미): Chancellor를 '총장', Senior Executive Director를 '수석 이사'로 옮겨 뉴욕시 교육 제도의 직위로 이해하기 어렵습니다. 다만 직위를 지정한 주체 구조와 기관명은 대체로 알아볼 수 있어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 1123,
+    "output_tokens": 1277,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

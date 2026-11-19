@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3VwfEa5XH7o6vyJw6t",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P082\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Note that replace will also replace word inside words\",\"tgt_span\":\"replace 는 단어 내부의 단어도 대체할 수 있으며\",\"description\":\"'주의하라(Note that)'는 주의 환기가 빠지고, 확정적 'will replace'가 가능성 '대체할 수 있으며'로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"but the naive RE word would have done that, too\",\"tgt_span\":\"그러나 단순한 RE 단어도 그렇게 할 수 있습니다\",\"description\":\"'would have done that, too'(RE word도 똑같이 했을 것이라는 반사실적 서술)가 '할 수 있습니다'라는 가능성으로 바뀌고, 'but'의 연결이 '그러나'로 대조하는 것처럼 읽힘; 'RE word'를 'RE 단어'로 옮김\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(확실성): replace가 단어 내부도 대체한다는 사실이 '대체할 수 있으며'라는 가능성으로, RE word도 그랬을 것이라는 서술이 '할 수 있습니다'로 바뀌었으나 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그러나'가 replace의 한계 뒤에 RE도 마찬가지라는 덧붙임으로 읽혀, 연결이 원문과 완전히 다른 관계가 되지는 않고 too의 뉘앙스만 약해졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"설명·주의 환기 → 설명. 사실을 알려주는 설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 기술적 설명입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학습자료의 '~습니다' 설명체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 920,
+    "output_tokens": 876,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

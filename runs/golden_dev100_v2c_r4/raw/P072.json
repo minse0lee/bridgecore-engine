@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3Q84t57fkKKpLRFgpF",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P072\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a teacher removal\",\"tgt_span\":\"교사 퇴학\",\"description\":\"교사가 학생을 수업에서 내보내는 조치(teacher removal from the classroom)가 '퇴학'(학교에서의 제적)으로 옮겨져 다른 징계 조치를 가리키게 됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상·행위): 교사가 학생을 교실에서 내보내는 조치가 '교사 퇴학'이라는 다른 조치로 바뀌어, 독자가 어떤 조치 전에 징계 대응을 해야 하는지 다르게 이해합니다. 나머지(개별 처리, A–E 징계 대응, 지원·개입, 모든 노력)는 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"While의 대조 관계는 '~되어야 하며'로 이어져 같은 종류의 관계로 읽히고, 지시·범위도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 안내(교사의 대응 요구) → 규정 안내. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"must는 '처리되어야 하며', should는 '노력을 기울여야 합니다'로 통상적 대응을 이루며 의무 범주와 주체·조건이 유지됩니다. 퇴학으로의 오역은 Semantic에서 판정합니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 안내체('~합니다')가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2: 미국 학교 제도의 '교사에 의한 수업 배제(teacher removal)'가 한국어 독자에게 학교 제적을 뜻하는 '퇴학'으로 읽혀, 다른 징계 제도로 이해하게 됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 1122,
+    "output_tokens": 828,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

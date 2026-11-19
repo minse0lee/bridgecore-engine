@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChC3RQ45owTSbT2V5YhiF",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P085\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"in bytes or if re.ASCII is supplied\",\"tgt_span\":\"바이트로는 [a-zA-Z0-9_] 또는 re.ASCII가 제공된 경우에만\",\"description\":\"'in bytes'와 'if re.ASCII is supplied'는 [a-zA-Z0-9_]만 일치하는 두 가지 조건인데, 번역문의 '또는'은 '[a-zA-Z0-9_]'와 're.ASCII' 두 가지를 선택지로 나열한 것처럼 읽혀 조건의 구조가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(조건): \\\\w가 [a-zA-Z0-9_]에만 일치하는 두 조건(바이트, re.ASCII 지정)이 번역문에서는 '[a-zA-Z0-9_] 또는 re.ASCII'라는 두 일치 대상처럼 읽히나, 독자가 문맥과 기술 지식으로 의도를 복원할 수 있어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(범위): 'only'가 [a-zA-Z0-9_]에 붙어 두 조건을 제한하는 구조가 '또는'으로 [a-zA-Z0-9_]와 re.ASCII를 병렬 연결하는 구조로 바뀌어 일치 범위의 해석이 달라질 수 있습니다. 다만 요지는 대체로 전달됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기술 동작 설명 → 기술 동작 설명. 설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"정규식의 동작을 서술하는 문장이며 의무·허가·금지를 정하는 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학습자료의 설명체 '~합니다'가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 없는 기술 설명입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15549,
+    "inference_geo": "global",
+    "input_tokens": 793,
+    "output_tokens": 887,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
