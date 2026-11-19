@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChBxiGa29eAXchx3wN1Sg",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P022\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a collaborative portrait of humanity\",\"tgt_span\":\"인류의 초상화\",\"description\":\"'collaborative(협업적·공동 제작)'가 번역문에 대응 구간 없이 빠짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'collaborative'가 누락되어 여럿이 함께 만드는 초상이라는 성격이 사라졌습니다. 다만 세계 시민이 참여해 인류의 초상을 만든다는 요지는 '도움을 주도록 초대'에서 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"누락은 Semantic에서만 판정하며, 남은 표현의 지시·연결·범위는 원문과 같습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"참여 초대 → 참여 초대. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없는 초대 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 단체가 독자를 초대하는 '~합니다' 격식체로 상황에 맞습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'11/11/11'은 11월이 먼저 명시되어 날짜가 모호하지 않고, 그대로 유지되어 날짜 표기 오류가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16354,
+    "inference_geo": "global",
+    "input_tokens": 960,
+    "output_tokens": 644,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

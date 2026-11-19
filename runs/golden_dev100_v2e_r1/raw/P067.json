@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChBxxcYi6Gv6j3K9HgKQj",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P067\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Never heard of uglifying!\",\"tgt_span\":\"추해지는 걸 들어본 적이 없어!\",\"description\":\"그리폰이 놀라며 상대를 나무라는 말('uglifying'을 들어본 적도 없다니!)이 화자 자신이 들어본 적이 없다는 서술로 바뀜. 청자가 들어본 적 없다는 의미가 화자 자신의 경험으로 뒤바뀜.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위자): 앨리스가 uglifying을 들어본 적 없다는 내용이, 번역문에서는 주어가 없어 화자(그리폰) 자신이 들어본 적 없는 것으로 읽혀 누가 들어본 적이 없는지가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·범위 표현의 처리 문제가 아니라 주체 해석 문제이며, 이는 Semantic에서 판정합니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 상대가 모르는 것에 놀라며 핀잔을 주는 발화 → 자기 자신이 모른다는 진술로 읽혀 놀라움의 대상과 핀잔 기능이 사라지고, 이어지는 '아름답게 하는 게 뭔지 알아?'와도 이어지지 않습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"never는 경험 부정이며 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"핀잔을 주는 편한 반말이라는 기대 격식에 맞게 반말체('~없어!')가 유지됩니다. 다만 핀잔이 주체 오역으로 약해진 것은 Context에서 다룹니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 723,
+    "output_tokens": 831,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

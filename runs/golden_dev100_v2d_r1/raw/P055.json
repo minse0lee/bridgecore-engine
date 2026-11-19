@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChBxjtY2KLqTsdZ5YX2Xm",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P055\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"in excess of 20 school days\",\"tgt_span\":\"20 학교 일 이상의\",\"description\":\"'20일 초과'가 '20일 이상'으로 바뀌어 정확히 20일 정지가 포함되는 것처럼 읽힘\"},{\"id\":\"E002\",\"src_span\":\"the Senior Executive Director of the Office of Safety and Youth Development or other designee of the Chancellor or the Community Superintendent\",\"tgt_span\":\"안전 및 청소년 개발 사무소의 수석 이사 또는 총장 또는 커뮤니티 교장의 다른 지정에 의해\",\"description\":\"'수석 이사(Senior Executive Director)'의 'Executive'가 빠지고, 'designee(지정된 대리인)'가 '지정'이라는 행위로, Chancellor가 '총장'으로, Community Superintendent가 '커뮤니티 교장'으로 옮겨져 승인 주체가 불명확해지거나 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: '20일 초과'가 '20일 이상'으로 수량 경계가 달라졌고, 승인 주체인 designee가 '지정'으로 오역되어 누가 승인하는지 불분명해졌으며 Chancellor가 '총장'으로 옮겨졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3: 'in excess of'(초과)가 '이상'으로 옮겨져 범위 표현이 다른 범위로 바뀌었습니다. 정확히 20일인 정지가 승인 대상에 포함되는 것처럼 읽힙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 안내 → 규정 안내. 승인 요건을 설명하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 2: 승인이 필요하다는 요건은 유지되지만, 적용 범위(초과→이상)와 승인 권한을 가진 주체(designee→'지정', Chancellor→'총장')가 달라져 규범의 범위와 주체가 바뀌었습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 안내체('~필요합니다')가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: Chancellor(뉴욕시 교육감 격), Community Superintendent(지역 교육장) 등 미국 교육 제도의 직책을 '총장', '커뮤니티 교장'으로 옮겨 한국어 독자가 해당 제도상의 직위를 이해할 수 없게 되었습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16354,
+    "inference_geo": "global",
+    "input_tokens": 1066,
+    "output_tokens": 1091,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

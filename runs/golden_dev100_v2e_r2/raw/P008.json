@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChBxuWmMwjqkm7u4YThrn",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P008\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"government and party authorities\",\"tgt_span\":\"정부와 당국\",\"description\":\"'정부와 당(party) 당국'이 '정부와 당국'으로 옮겨져 party(정당·공산당)가 빠지고 발행 주체가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물·행위자): 검열 통지를 발행하는 주체에서 party(당)가 빠져 '정부와 당 당국'이 '정부와 당국'으로 바뀌었습니다. 나머지 내용(24시간, 인원 지정, 요청 이행)은 유지되어 요지는 크게 달라지지 않으므로 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"both A and B 병렬과 'designate … and implement' 연결이 유지되고 지시·연결·범위 변화가 없습니다. party 누락은 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"현행 관행 설명 → 현행 관행 설명. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"are required to가 '-해야 한다'로 유지되어 의무의 범주와 대상(두 업체)이 같습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"출판물 본문의 평서체 설명 어조가 유지되며 관계·격식 훼손이 없습니다.\"},\"Cultural\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'party authorities'는 중국 공산당 당국이라는 제도적 대상이어서 Cultural 평가 대상이 될 수 있으나, 이 누락은 Semantic에서 이미 판정했고 한국어 독자의 제도 이해 정도를 판단하려면 전후 문맥에서 당의 역할이 설명되는지 확인이 필요합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 2103,
+    "output_tokens": 796,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

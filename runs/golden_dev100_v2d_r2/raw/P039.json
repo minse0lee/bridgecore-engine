@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChBxjA2uQoJdFPMcDBV6T",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P039\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"won most votes\",\"tgt_span\":\"대부분의 표를 얻었지만\",\"description\":\"most votes(가장 많은 표, 최다 득표)를 '대부분의 표'(대다수 표)로 옮겨 득표 정도의 의미가 달라짐\"},{\"id\":\"E002\",\"src_span\":\"the required majority\",\"tgt_span\":\"과반수를 넘지 못했다\",\"description\":\"'required'(필요한)가 번역되지 않았고, 'fell short of'가 '넘지 못했다'로 옮겨졌으나 의미는 대체로 같음. 필요한 과반수라는 수식 누락\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(수량): 'most votes'(최다 득표)가 '대부분의 표'(표의 대다수)로 바뀌어, 대다수 표를 얻었는데 과반이 안 된다는 모순된 내용이 되어 요지를 다르게 이해하게 됩니다. 'required' 누락은 의미 변화가 거의 없어 별도 훼손으로 보지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but의 대조 관계('~지만')와 지시·범위 표현이 유지됩니다. most votes 오역은 Semantic에서 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 사실 서술 → 사실 서술. 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"required는 선거 결과 서술에서 과반 기준을 가리킬 뿐 독자에게 의무·허가를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 기사의 평서 서술체('~했다')가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"정당명 Democratic Congress를 '민주회의당'으로, 총리·집권당·과반수 등 제도 용어를 같은 대상으로 옮겼습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16354,
+    "inference_geo": "global",
+    "input_tokens": 856,
+    "output_tokens": 844,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

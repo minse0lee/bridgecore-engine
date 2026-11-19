@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChBxyn1WCn7AXT3vuDjz8",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P091\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"two houses\",\"tgt_span\":\"두 개의 하원\",\"description\":\"입법부를 이루는 '두 원(상원·하원)'이 '두 개의 하원'으로 바뀌어 양원제 구성이 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상·수량): 입법부를 구성하는 '두 개의 원(houses)'이 '두 개의 하원'으로 바뀌어 상원과 하원으로 이루어진 양원제가 하원만 둘인 구조로 읽히므로 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"also는 '또한…에도'로, like the British Parliament는 '영국 의회와 같이'로 남아 있고, houses 오역을 바로잡으면 구조 문제도 함께 풀리므로 Textual은 보존입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"합의 사실 설명 → 합의 사실 설명. 제헌회의에서 합의된 내용을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"should consist of(구성되어야 한다)는 합의된 입법부 구성 원칙으로, 번역도 '구성되어야 한다는 것에도 동의했다'로 같은 규범 강도를 유지합니다. 두 원이 아닌 '두 하원'으로 바뀐 내용 오역은 Semantic에서 판정합니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"역사 서술의 객관적인 평서체('-했다')가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 양원제(상원·하원)라는 입법 제도의 의미가 '두 개의 하원'으로 옮겨져 제도적 의미가 전달되지 않습니다. 다만 영국 의회 대비는 남아 있어 독자가 제도를 추론할 여지가 있고 핵심 문서 식별 정보는 유지되므로 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 1019,
+    "output_tokens": 875,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

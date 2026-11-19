@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChBxxBET7NXmzhoXgEeSV",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P059\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"controversies\",\"tgt_span\":\"논쟁\",\"description\":\"법적 '분쟁(controversies)'을 일반 어휘 '논쟁'으로 옮겨 사법권이 미치는 사건의 제도적 의미가 약해짐\"},{\"id\":\"E002\",\"src_span\":\"or their citizens or subjects\",\"tgt_span\":\"또는 그들의 시민 또는 주민\",\"description\":\"subjects(군주국의 신민)를 '주민'으로 옮겨 법적 지위가 달라짐\"},{\"id\":\"E003\",\"src_span\":\"cases arising under the Constitution, an act of Congress, or a treaty of the United States; cases affecting\",\"tgt_span\":\"헌법, 의회의 법률, 또는 미국의 조약에 의해 발생하는 사건, 미국에 있는 … 영향을 미치는 사건\",\"description\":\"사건 유형을 구분하는 세미콜론 목록이 쉼표 나열로 바뀌어 항목 경계가 흐려지고 헌법·법률·조약 열거가 사건 유형 열거와 섞여 읽힘\"},{\"id\":\"E004\",\"src_span\":\"The judicial power extends to\",\"tgt_span\":\"사법권은 … 파산 사건에까지 확장된다\",\"description\":\"'까지'가 마지막 항목에만 붙어 파산 사건만 덧붙은 것처럼 읽히나 포함 범위는 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: controversies가 '논쟁'으로, subjects가 '주민'으로 옮겨져 내용이 달라졌으나 사법권의 범위라는 요지는 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"쉼표 나열로 항목 경계가 덜 분명하지만 각 항목이 사법권이 미치는 대상이라는 병렬 관계는 읽을 수 있고 범위도 같습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"제도 설명 → 제도 설명. 사법권의 범위를 설명하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"사법권의 범위를 서술하는 문장으로 의무·허가·금지를 정하지 않습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식적인 설명문체가 '-된다' 평서체로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 2: 법적 용어 controversies와 subjects가 일반 어휘 '논쟁', '주민'으로 옮겨져 제도적 의미가 충분히 전달되지 않습니다. 다만 나머지 제도 용어는 남아 있어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 1117,
+    "output_tokens": 1104,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

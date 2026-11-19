@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChBxhr6coYV6yce1eiGQK",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P017\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"which would allow Mike Pence, the vice president, to break a tie and confirm him to the Supreme Court\",\"tgt_span\":\"마이크 펜스를 허용, 부통령, 타이를 끊고 대법원에 그를 확인.\",\"description\":\"'펜스 부통령이 동점을 깨고 그를 대법관으로 인준하게 해 준다'는 절이 '마이크 펜스를 허용'처럼 목적어·행위 관계가 무너진 단편 나열로 옮겨져 허용 주체·대상·행위(동점 해소 및 인준)가 불분명해짐\"},{\"id\":\"E002\",\"src_span\":\"Senate floor\",\"tgt_span\":\"상원 바닥\",\"description\":\"상원 본회의장(표결 장소)을 '바닥'으로 직역해 의미가 달라짐\"},{\"id\":\"E003\",\"src_span\":\"confirm him to the Supreme Court\",\"tgt_span\":\"대법원에 그를 확인\",\"description\":\"confirm(인준하다)을 '확인'으로 오역해 상원의 인준 절차라는 행위가 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: '인준'이 '확인'으로, 본회의장이 '바닥'으로 바뀌고 펜스가 동점을 깨 인준하게 해 준다는 관계가 '펜스를 허용'이라는 단편으로 무너져 누가 무엇을 하는지 달라졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"남은 문제는 단어·구 오역과 구조 붕괴에서 비롯되어 내용 오역을 바로잡으면 함께 풀리므로 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 상황 설명 → 상황 설명. 기능은 달라지지 않았습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"can은 득표 가능성의 의미이고 would allow도 규범 부여가 아니라 결과 서술이어서 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 서술 문체의 화자·청자 관계 변화나 태도 표현은 없습니다. 어색한 문체만으로 훼손하지 않습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\",\"E003\"],\"reason\":\"판단 질문 2: 상원 본회의장과 대법관 인준이라는 제도적 절차가 '바닥', '확인'이라는 일반 어휘로 옮겨져 한국어 독자가 제도적 의미를 이해하기 어렵습니다. 득표 수치가 남아 있어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16354,
+    "inference_geo": "global",
+    "input_tokens": 826,
+    "output_tokens": 1085,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChBxm1fRVXFccDqps5qjY",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P076\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Mr. Trump\",\"tgt_span\":\"트럼프 대통령\",\"description\":\"'Mr. Trump'를 '트럼프 대통령'으로 옮겨 원문에 없는 직함(역할)을 덧붙임\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"투표 주체, 중간선거, 트럼프에게 책임을 물을 의회, 의문 내용이 모두 유지되며 '대통령' 직함은 지시 대상을 바꾸지 않는 통상적 표기입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'무엇보다'가 above all의 강조를 유지하고 관계절의 수식 관계와 지시 대상도 그대로입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"유권자에게 던지는 수사적 질문 → 같은 수사적 질문. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없고 will은 미래 의지·예측을 나타내는 질문입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(호칭): 'Mr. Trump'에 없던 '대통령'이라는 역할 호칭이 덧붙어 호칭이 원문과 달라졌으며, 뉴스 논평에서 직함 없이 부르는 태도가 달라질 수 있으나 요지는 바뀌지 않아 minor입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'중간선거'와 '의회'는 통용되는 대응어이며 별도로 문제될 문화·제도 고유 표현의 변형이 없어 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16354,
+    "inference_geo": "global",
+    "input_tokens": 550,
+    "output_tokens": 753,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

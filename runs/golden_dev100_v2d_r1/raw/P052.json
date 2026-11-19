@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChBxjk9EuPNrdK9PxtAYg",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P052\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a pattern of threatening or actual physical, sexual, and/or emotional abuse\",\"tgt_span\":\"위협 또는 실제 신체의 패턴을 사용하는 경우, 성적, 및 / 또는 감정적 학대\",\"description\":\"'패턴'이 '신체'만 수식하는 것처럼 되고 신체·성적·정서적 학대 나열이 끊겨 학대 유형의 구성이 흐트러짐\"},{\"id\":\"E002\",\"src_span\":\"to separate appropriate school or community-based agencies for counseling, support, and education services\",\"tgt_span\":\"상담을위한 별도의 적절한 학교 또는 지역 사회 기반의 기관에이 행동에 종사하는 피해자와 학생 모두를 참조해야합니다, 지원, 및 교육 서비스\",\"description\":\"'상담, 지원, 교육 서비스'가 분리되어 문장 끝에 떨어져 나가고, 각각 별도의 기관으로 의뢰한다는 관계가 불분명해짐\"},{\"id\":\"E003\",\"src_span\":\"refer\",\"tgt_span\":\"참조해야합니다\",\"description\":\"'의뢰하다(refer)'를 '참조하다'로 오역하여 행위가 달라짐(제목의 Referral도 '참조'로 오역)\"},{\"id\":\"E004\",\"src_span\":\"the student who engages in this behavior\",\"tgt_span\":\"이 행동에 종사하는 피해자와 학생\",\"description\":\"'이 행동에 종사하는'이 피해자와 학생 모두를 수식하는 것처럼 읽혀 가해 학생과 피해자의 구분이 흐려짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\",\"E004\"],\"reason\":\"판단 질문 1: refer를 '참조'로 오역해 의뢰 행위가 바뀌고, 학대 유형 나열과 서비스 목록이 흐트러지며 가해 학생 지칭이 불분명해져 학교가 해야 할 조치를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"관계 혼란의 원인이 단어·구 오역과 성분 뒤섞임이라 내용 오역을 바로잡으면 함께 풀리므로 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학교의 조치를 규정하는 안내 → 학교의 조치를 규정하는 안내. 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E003\",\"E004\"],\"reason\":\"판단 질문 2: should는 '-해야 합니다'로 대응되나, 의뢰 의무의 내용이 '참조'로 바뀌고 의무 대상(가해 학생과 피해자 각각)이 불분명해져 규범 내용이 달라졌습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 안내체('-합니다')가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유 대상이 이 문장에서 별도로 판정할 만큼 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16354,
+    "inference_geo": "global",
+    "input_tokens": 1182,
+    "output_tokens": 1217,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChBxyYQwR6ihCbL2kFDWD",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P088\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"though it might not be obvious at first glance how to do it\",\"tgt_span\":\"처음에는 어떻게 해야 하는지 명확하지 않을 수도 있습니다.\",\"description\":\"양보 연결어 though가 반영되지 않아 두 문장이 단순 나열로 분리됨 (문장 분할 자체는 오류 아님)\"},{\"id\":\"E002\",\"src_span\":\"(hence this recipe)\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"이 레시피가 존재하는 이유를 밝히는 괄호 구절이 누락됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: '(hence this recipe)'가 통째로 빠져 이 레시피가 그 어려움 때문에 존재한다는 내용이 사라졌으나, 핵심 사실(dictConfig로 필터 구성 가능, 방법이 처음엔 명확하지 않을 수 있음)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'though'가 '그러나'로 옮겨지진 않았지만 두 문장이 나란히 놓여 대조 관계가 문맥상 읽히며, 구절 누락은 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학습 내용 설명 → 학습 내용 설명. 설명 기능이 그대로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"can은 가능성·능력의 의미이고 규범 표현이 아니므로 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재의 설명체 '~습니다'가 학습자료 본문에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 1149,
+    "output_tokens": 799,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

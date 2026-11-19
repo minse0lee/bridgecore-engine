@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChBxwCr9QMdA2rer8V5wh",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P041\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Superintendent’s suspensions for more than 20 school days\",\"tgt_span\":\"20 학교 일 이상의 교장의 정지\",\"description\":\"Superintendent(교육장)를 '교장'으로 오역함. 'more than 20'(20일 초과)을 '20 … 이상'(20일 포함)으로 옮겨 범위가 달라짐.\"},{\"id\":\"E002\",\"src_span\":\"may be imposed only when required by law or for Level 5 infractions\",\"tgt_span\":\"법률에 의해 요구되는 경우에만 부과 될 수 있습니다 또는 레벨 5 … 위반은\",\"description\":\"'only'가 '법률 요구 경우'에만 붙고, '또는 레벨 5 위반은'은 문장 종결 뒤에 끊겨 이어져 허용되는 두 조건의 병렬 관계가 무너짐.\"},{\"id\":\"E003\",\"src_span\":\"that involve seriously dangerous and/or violent behavior where the circumstances warrant the imposition of a longer suspension\",\"tgt_span\":\"심각하게 위험한 및 / 또는 폭력적 인 행동을 포함하는 위반은 상황이 더 긴 정지의 부과를 보증.\",\"description\":\"문장이 서술어 없이 끝나고 '보증'이 정당화한다(warrant)는 뜻의 동사로 완결되지 않아, 상황이 더 긴 정지를 정당화하는 경우에만이라는 조건이 불명확해짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E003\"],\"reason\":\"판단 질문 1: Superintendent가 '교장'으로 바뀌어 처분 주체가 달라지고, '20일 초과'가 '20일 이상'으로 바뀌었으며, 레벨 5 조건의 서술이 미완결이라 정지 부과의 조건 내용이 불완전합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 3과 문장 구조 붕괴: only가 '법률 요구' 조건에만 붙고 '또는 레벨 5 위반은'이 별도 토막으로 남아 두 조건이 병렬로 허용된다는 범위 관계를 읽을 수 없고, 단어 교정만으로 풀리지 않습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 안내 → 규정 안내. 문장은 어색하지만 정지 부과 조건을 설명하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 2: 정지가 허용되는 조건과 범위가 바뀌었습니다. 레벨 5 위반이 허용 사유로 분명히 이어지지 않고, 20일 이상으로 적용 범위가 달라졌으며 처분 주체가 교장으로 바뀌었습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 안내문의 공식 어조('~습니다')가 유지되며 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 뉴욕시 교육 제도의 Superintendent(교육장)를 학교 단위의 '교장'으로 옮겨 다른 직위로 이해하게 되며, 다만 20일 기준과 레벨 5는 남아 있어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 1116,
+    "output_tokens": 1314,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

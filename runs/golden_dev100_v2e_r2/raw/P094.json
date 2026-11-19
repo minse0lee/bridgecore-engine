@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChBxypudWLEY4hyT8jUvG",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P094\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"it’s got no business there\",\"tgt_span\":\"거기에 사업이 없어요\",\"description\":\"'have no business (there)'(거기 있을 권리·이유가 없다)를 '사업이 없다'로 직역하여 관용 표현의 의미가 사라지고 엉뚱한 내용이 됨\"},{\"id\":\"E002\",\"src_span\":\"go and take it away!\",\"tgt_span\":\"가서 가져가세요!\",\"description\":\"주인이 하인에게 명령하는 하대가 존대(-세요)로 바뀌어 관계에 맞지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'no business there'(거기 있을 이유·권리 없음)가 '사업이 없다'로 오역되어 그것이 거기 있으면 안 된다는 이유가 전달되지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"오역은 단어 수준이며 이를 바로잡으면 관계도 풀리고, 'Well'→'그럼', 'at any rate'→'어쨌든' 등 연결·범위 표현은 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"치우라는 명령 → 가서 가져가라는 지시로 같은 종류의 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'go and take it away'의 명령이 '가서 가져가세요'로 지시로 유지되어 의무의 범주·주체가 바뀌지 않았습니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: 평가조건의 기대 격식은 주인이 하인에게 하는 명령하는 하대인데, '-어요/-세요' 존대로 옮겨 관계에 맞지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 543,
+    "output_tokens": 820,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

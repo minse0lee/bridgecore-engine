@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChBxmxpY57ZKJwLVVfiq6",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P095\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"mauled the farmer to death\",\"tgt_span\":\"죽음으로 농부를 짓밟았다\",\"description\":\"mauled(물어뜯어 상처 입히다)를 '짓밟았다'로 옮겨 가해 방식이 달라지고, 'to death'가 '죽음으로'로 어색하게 옮겨짐. 다만 농부가 죽었다는 결과는 읽어낼 수 있음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위): mauled(물어뜯다/마구 할퀴다)가 '짓밟았다'로 바뀌어 가해 행위의 방식이 달라졌으나, 돼지가 농부를 죽게 했다는 핵심 사실과 행위자·대상은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'보고서에 따르면'의 출처 범위와 '확인했다'의 대상 관계가 원문과 같게 읽히며 지시·연결·범위 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"보도 사실 전달 → 보도 사실 전달. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 서술 문장으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 기사의 평서 서술체 '-했다'가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"550 파운드를 단위 그대로 유지하여 다른 단위로 바꾸거나 오해시키지 않습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16354,
+    "inference_geo": "global",
+    "input_tokens": 572,
+    "output_tokens": 715,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

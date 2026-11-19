@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChBxvTRDq4PGe2MHNU44G",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P026\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Article 43 of the draft\",\"tgt_span\":\"43조는\",\"description\":\"'of the draft'(법안의)가 번역문에서 생략됨. 다만 문단 문맥상 법안의 조항임이 분명하고 다음 문장에서 '법안'이 언급됨\"},{\"id\":\"E002\",\"src_span\":\"the cyberspace administration and relevant departments\",\"tgt_span\":\"사이버공간 관리 및 관련 부서가\",\"description\":\"'cyberspace administration'(사이버공간 관리 기관)을 '사이버공간 관리'로 옮겨 기관명이 '관리'라는 일반 명사처럼 읽힘. 중국의 사이버공간관리국이라는 제도적 명칭이 전달되지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'of the draft'가 빠지고 cyberspace administration이 기관이 아닌 '사이버공간 관리'로 옮겨져 대상 일부가 달라졌으나, 핵심 요지와 요구 내용은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·범위 표현은 번역문에서 원문과 같게 읽히며, 기관명 오역은 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"법안 조항 내용 설명 → 법안 조항 내용 설명으로 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"shall require가 '요구한다고 규정하고 있다'로 옮겨져 관련 기관에 조치를 요구하는 의무 규정이 유지됩니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"출판물 본문의 서술체가 유지되며 화자·청자 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: 중국의 사이버공간관리국이라는 기관명이 '사이버공간 관리'라는 일반 어휘로 옮겨져 제도적 의미가 약해졌으나, 조항 번호와 문맥으로 파악 가능해 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 1262,
+    "output_tokens": 908,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

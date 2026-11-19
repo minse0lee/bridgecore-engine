@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChBxjft1uPLour7ccPp2s",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P051\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"at the United Nations\",\"tgt_span\":\"유엔 총회에서\",\"description\":\"'유엔에서'가 '유엔 총회에서'로 구체화됨. 문맥상 통상적 대응이며 의미 변화는 미미함.\"},{\"id\":\"E002\",\"src_span\":\"taking steps to disarm\",\"tgt_span\":\"북한의 비핵화를 위한 용기 있는 조치\",\"description\":\"'군축/무장 해제 조치'가 '북한의 비핵화를 위한 조치'로 바뀜. 문맥상 같은 사안을 가리키는 통상적 표현.\"},{\"id\":\"E003\",\"src_span\":\"said much work still had to be done and sanctions must remain in place until North Korea denuclearizes\",\"tgt_span\":\"북한이 비핵화할 때까지 해야 할 일이 많고 제재가 유지되어야 한다고\",\"description\":\"'until' 절이 '해야 할 일이 많고'까지 걸리는 것처럼 읽힐 수 있으나 문맥상 큰 차이는 없음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"트럼프의 과거 위협, 올해 유엔에서의 칭찬, 할 일이 많다는 말과 제재 유지 주장이 모두 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-했지만'으로 양보·대조 관계가 유지되고 until의 범위도 제재 유지에 걸려 지시·연결 관계가 같게 읽힙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 보도 서술 → 뉴스 보도 서술. 발언을 전달하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"must는 보도된 발언 속 제재 유지의 필요를 전달하는 표현이며, 독자나 특정 대상에게 의무를 정하는 규범 문장이 아니므로 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 기사 문체인 '-했다' 평서체가 유지되고 호칭도 중립적인 보도 표현입니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"유엔, 북한, 트럼프 대통령, 김정은 위원장 등 통용되는 표기와 직함이며 제도적 의미가 정확하게 전달됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16354,
+    "inference_geo": "global",
+    "input_tokens": 940,
+    "output_tokens": 967,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

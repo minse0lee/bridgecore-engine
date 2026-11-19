@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChBxuVUiUL6G4Neq5m1j1",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P008\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"government and party authorities\",\"tgt_span\":\"정부와 당국\",\"description\":\"'party authorities'(당 기관)가 일반적인 '당국'으로 바뀌어 중국 공산당 기관이라는 정당 요소가 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상): 'government and party authorities'의 'party'(당)가 빠져 '정부와 당국'이 되었고, 통지를 발행하는 주체 중 당 기관이 사라졌습니다. 나머지 내용(지정, 처리, 24시간)은 유지되고 지정 의무의 요지도 그대로여서 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"both A and B의 병렬과 목적 관계가 '~하기 위해 지정하고 … 실행해야 한다'로 유지되며 지시·연결·범위가 달라지지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"현행 관행 설명 → 현행 관행 설명. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"are required to가 '실행해야 한다'로 옮겨져 의무 범주와 주체(두 종류의 제공업체)가 유지됩니다. 'party'가 빠진 것은 발행 주체의 문제로 의무를 지는 주체에는 영향이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스·해설 본문의 객관적인 서술체('~한다')가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 중국 정치 제도의 특징인 당 기관의 검열 통지가 '정부와 당국'으로 일반화되어 한국어 독자가 당-정 이중 구조를 이해하기 어렵습니다. 다만 핵심 의무 내용은 전달되므로 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 2103,
+    "output_tokens": 825,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

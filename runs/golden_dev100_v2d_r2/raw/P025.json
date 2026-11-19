@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChBxiMtkrrNgYJN1vSsbP",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P025\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"we'll list your blog post there too\",\"tgt_span\":\"블로그 게시물을 올리도록 하겠습니다\",\"description\":\"'목록에 올리다(list)'가 '게시물을 올리다'로 옮겨져 우리 페이지에 독자의 글을 링크로 나열한다는 의미가 흐려지고, 'there'(해당 페이지)와 'too'가 빠짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'list your blog post there'(해당 페이지에 목록으로 올림)가 '블로그 게시물을 올리다'로 바뀌어 장소(there)가 빠지고 목록 게재인지 게시물 자체 게시인지 모호해졌으나, 링크 걸면 게재해 준다는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-주시면 ~하겠습니다'가 조건-결과 관계를 유지하고, too의 첨가 뉘앙스만 사라져 포함 범위는 그대로입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"링크 요청 및 보상 제안 안내 → 링크 요청 및 보상 제안 안내로 같은 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"참여를 권하는 선택적 안내로 의무·금지·자격을 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'걸어주시면 ~하겠습니다'로 독자에게 정중하게 권하는 기대 격식에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16354,
+    "inference_geo": "global",
+    "input_tokens": 654,
+    "output_tokens": 757,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

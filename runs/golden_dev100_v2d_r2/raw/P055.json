@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChBxjwpD3i83NwroaMpDX",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P055\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"in excess of 20 school days\",\"tgt_span\":\"20 학교 일 이상의\",\"description\":\"'20일 초과'가 '20일 이상'으로 바뀌어 정확히 20일인 정지가 승인 대상에 포함되는 것처럼 읽힘\"},{\"id\":\"E002\",\"src_span\":\"approval by the Senior Executive Director of the Office of Safety and Youth Development or other designee of the Chancellor or the Community Superintendent\",\"tgt_span\":\"안전 및 청소년 개발 사무소의 수석 이사 또는 총장 또는 커뮤니티 교장의 다른 지정에 의해 승인이 필요합니다\",\"description\":\"'Senior Executive Director'가 '수석 이사'로, 'designee'가 '지정'으로 옮겨져 승인 주체가 불명확함. 승인 주체인 '총장 또는 커뮤니티 교장이 지정한 다른 사람'이 '총장 또는 커뮤니티 교장'과 '다른 지정'으로 흩어져 담당 주체가 달라짐\"},{\"id\":\"E003\",\"src_span\":\"the Chancellor\",\"tgt_span\":\"총장\",\"description\":\"뉴욕시 교육감 격인 Chancellor를 '총장'으로 옮겨 제도상 직위가 다르게 전달됨\"},{\"id\":\"E004\",\"src_span\":\"the Community Superintendent\",\"tgt_span\":\"커뮤니티 교장\",\"description\":\"지역 교육구 교육감(Community Superintendent)을 '커뮤니티 교장'으로 옮겨 다른 직위로 오역됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E004\"],\"reason\":\"판단 질문 1: 'in excess of'가 '이상'으로 바뀌어 수량이 달라졌고, designee가 '지정'으로, Community Superintendent가 '교장'으로 바뀌어 승인 주체가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3: 'more than/in excess of'가 '이상'으로 옮겨져 범위 표현 자체가 달라졌고, 20일 정확히 해당하는 정지가 포함되는지 범위가 바뀌었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 설명 → 규정 설명. 승인 절차를 안내하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 2: 승인이 필요한 적용 범위가 20일 초과에서 20일 이상으로 넓어졌고, 승인 주체가 designee 관계를 잃어 담당 주체가 달라졌습니다. '필요합니다'로 의무를 옮긴 것은 통상적 대응입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 안내체('~합니다')가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E003\",\"E004\"],\"reason\":\"판단 질문 1·2: Chancellor와 Community Superintendent가 '총장', '커뮤니티 교장'으로 옮겨져 뉴욕시 교육 행정 직위가 다른 직위로 이해되며, 한국어 독자가 제도적 의미를 이해하기 어렵습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16354,
+    "inference_geo": "global",
+    "input_tokens": 1066,
+    "output_tokens": 1284,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

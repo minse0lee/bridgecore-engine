@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChBxibJQhNtGs6xCuYNrD",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P029\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"whether they approve or not\",\"tgt_span\":\"그들이 승인하든 말든\",\"description\":\"'그들'이 결과를 받아들이는 '모두'가 아니라 다른 대상(정당 등)처럼 읽힘. 'they'는 everyone을 가리키므로 '찬성하든 말든'으로 옮겨야 함\"},{\"id\":\"E002\",\"src_span\":\"Yellow and Red\",\"tgt_span\":\"노란색과 빨간색\",\"description\":\"태국 정치 진영인 옐로셔츠·레드셔츠를 단순 색깔로 옮겨 정치적 의미가 드러나지 않음(앞뒤 문장에서 설명되는 점은 있음)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'they'(everyone)를 '그들'로 옮겨 결과를 승인하는 주체가 달라진 것처럼 읽히나, 문장의 요지(결과 수용, 아니면 혼란의 반복)는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'they'가 everyone을 가리키는데 번역에서 '모두가'와 별개인 '그들'로 읽혀 지시 대상이 달라지고, 요지는 크게 바뀌지 않아 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"주장·권고 → 주장·권고. 결과를 받아들이도록 이끄는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"should가 '받아들여야 한다'로 통상적으로 대응되어 의무 강도와 적용 대상(모두)이 유지됩니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 의견 서술체 '~한다'가 문맥과 일관되게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Yellow and Red를 색깔로 옮겼으나 같은 문단 뒤 문장에서 노란색·빨간색 시위대로 설명되어 같은 대상을 가리키므로 이해에 지장이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16354,
+    "inference_geo": "global",
+    "input_tokens": 1261,
+    "output_tokens": 898,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

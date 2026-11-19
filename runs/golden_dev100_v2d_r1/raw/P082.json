@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChBxmH9LA5psHYCW1uPwk",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P082\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Note that replace will also replace word inside words\",\"tgt_span\":\"replace 는 단어 내부의 단어도 대체할 수 있으며\",\"description\":\"주의를 환기하는 Note that이 옮겨지지 않았고, will also replace(실제로 대체함)가 '대체할 수 있으며'(가능성)로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"the naive RE word\",\"tgt_span\":\"단순한 RE 단어\",\"description\":\"코드 패턴 word가 '단어'로 번역되어 패턴 문자열이 일반 명사로 읽힘\"},{\"id\":\"E003\",\"src_span\":\"would have done that, too\",\"tgt_span\":\"그렇게 할 수 있습니다\",\"description\":\"반사실적 would have done(과거에 그렇게 했을 것이다)이 현재의 가능성 표현으로 바뀜\"},{\"id\":\"E004\",\"src_span\":\"but\",\"tgt_span\":\"그러나\",\"description\":\"앞 내용에 이어 '그것도 같다'는 의미의 but이 대조의 '그러나'로 옮겨져 연결 관계가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 'word'가 '단어'로 바뀌어 패턴 문자열이 일반 명사로 읽히고(E002), will also replace와 would have done이 가능성 표현으로 바뀌어 확실성이 달라졌습니다(E001, E003). 독자가 정규식 패턴 word가 무엇인지 잘못 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E004\"],\"reason\":\"판단 질문 2: but이 '그러나'로 옮겨져 replace와 단순 RE가 같은 동작을 한다는 점이 대조처럼 읽혀 연결 관계가 달라졌습니다. 다만 앞뒤 문맥상 요지가 크게 달라지지는 않아 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"설명(주의 환기) → 설명. 정보를 전달하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"기술적 동작을 설명하는 문장이라 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재의 설명체 '~습니다'가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16354,
+    "inference_geo": "global",
+    "input_tokens": 920,
+    "output_tokens": 1003,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

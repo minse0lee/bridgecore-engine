@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChBxhpjGPvs2jCk4ugwvV",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P015\",\"evaluable\":false,\"evaluable_note\":\"정렬 검토 필요: 평가대상 원문이 여러 문장(헤드라인 조각, 질문, 발언 서술, 인용, 트위터 사용자 반응 등)을 합친 구간이고 중간에서 잘려 있는데, 평가대상 번역문은 그중 한 문장에 해당하는 구간뿐이라 지정된 구간 전체를 대응시켜 판정하기 어렵습니다.\",\"errors\":[],\"axes\":{\"Semantic\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 원문 여러 문장이 지정되었으나 번역문은 한 문장뿐이라 대응 구간이 불일치합니다. 대응 구간 확정 또는 평가대상 문장 재지정이 필요합니다.\"},\"Textual\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 평가대상 원문과 번역문의 범위가 달라 지시·연결·범위를 비교할 수 없습니다. 문장 단위로 다시 정렬해야 합니다.\"},\"Context\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 원문에 질문·보도·인용 등 여러 발화 기능이 섞여 있어 번역문 한 문장과 기능을 대조하기 어렵습니다.\"},\"Deontic\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 인용 속 need to가 평가대상에 있으나 이에 대응하는 번역 구간이 지정되지 않아 판정할 수 없습니다. 문장 단위 재정렬이 필요합니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 평가대상 범위가 불일치해 번역문 전체의 격식·태도를 원문과 비교할 수 없습니다.\"},\"Cultural\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 평가대상에 포함된 제도·고유 대상의 번역 구간이 지정되지 않아 판정할 수 없습니다. 대응 구간 확정이 필요합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16354,
+    "inference_geo": "global",
+    "input_tokens": 1389,
+    "output_tokens": 851,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

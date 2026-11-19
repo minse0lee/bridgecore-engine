@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChBxyBFTzrDJB3bkEwXDN",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P078\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"suspend a student for one to five school days for behavior which presents a clear and present danger\",\"tgt_span\":\"명확하고 현재의 신체 상해의 위험을 제시하는 행동에 대한 학생을 1 ~ 5 학교 일을 정지 할 수있는 권한이있다\",\"description\":\"정학 사유(행동)와 학생의 관계가 뒤섞여 '행동에 대한 학생'으로 옮겨져 구조가 흐트러지고, 위험한 행동을 이유로 정학시킬 수 있다는 관계가 불명확해짐\"},{\"id\":\"E002\",\"src_span\":\"or prevents the orderly operation of classes or other school activities consistent with the disciplinary responses set forth in this Code\",\"tgt_span\":\"또는이 코드에 명시된 징계 대응과 일치하는 수업이나 기타 학교 활동의 질서 정연한 운영을 방지.\",\"description\":\"두 번째 정학 사유(수업·활동의 질서 있는 운영을 방해하는 행동)가 '운영을 방지'로 문장이 끝나 주어 행동과의 연결이 끊기고, 방해가 아닌 '방지'로 옮겨 의미가 반대로 읽힘\"},{\"id\":\"E003\",\"src_span\":\"to the student, other students or school personnel\",\"tgt_span\":\"학생, 다른 학생 또는 학교 직원에게\",\"description\":\"'the student'가 '학생'으로 옮겨져 정학 대상 학생과 구분되지 않음(경미)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 정학 사유가 '행동에 대한 학생'으로 흐트러지고, 질서 있는 운영을 '방해'하는 행동이 '방지'로 바뀌어 어떤 행동이 정학 사유인지 달리 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"문장 전체 구조가 무너져 쉼표 뒤 '또는…방지'가 앞 절과 어떻게 이어지는지(두 번째 정학 사유인지) 알 수 없어, 단어를 바로잡아도 풀리지 않는 구조 붕괴입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 설명 → 규정 설명. 교장의 정학 권한을 안내하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 2: 교장이 정학시킬 수 있는 조건(위험 행동 또는 수업 운영 방해 행동)이 불명확해지고 두 번째 조건이 '방지'로 바뀌어 권한의 조건·범위가 달라졌습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 안내문에서 평서형 설명체가 사용되어 관계와 격식에 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교장, 정학(1~5 학교일) 등 제도 대상이 같은 대상으로 옮겨졌고 한국 제도로 대체하지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 1179,
+    "output_tokens": 1235,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChBxj7DyikEikP2oqchAW",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P041\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Superintendent’s suspensions for more than 20 school days\",\"tgt_span\":\"20 학교 일 이상의 교장의 정지\",\"description\":\"Superintendent(교육장)를 '교장'으로 오역하고, 'more than 20'(초과)을 '이상'으로 옮겨 범위가 달라짐\"},{\"id\":\"E002\",\"src_span\":\"only when required by law or for Level 5 infractions\",\"tgt_span\":\"법률에 의해 요구되는 경우에만 부과 될 수 있습니다 또는 레벨 5 … 위반은\",\"description\":\"only가 '법률 요구' 조건에만 붙고, 'or for Level 5 infractions'가 문장 구조를 이루지 못해 '부과될 수 있는' 두 조건 중 하나로 이어지지 않음\"},{\"id\":\"E003\",\"src_span\":\"that involve seriously dangerous and/or violent behavior where the circumstances warrant the imposition of a longer suspension\",\"tgt_span\":\"심각하게 위험한 및 / 또는 폭력적 인 행동을 포함하는 위반은 상황이 더 긴 정지의 부과를 보증.\",\"description\":\"관계절과 where절이 종결되지 않고 '보증'으로 끝나 정지 부과가 정당화되는 조건임이 불분명함. 'warrant'(정당화하다)를 '보증'으로 옮김\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: Superintendent가 '교장'으로 바뀌고 'more than 20'이 '이상'으로 바뀌었으며, Level 5 위반일 때 정지가 부과될 수 있다는 조건이 문장으로 성립하지 않아 요지가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 3: 'more than'이 '이상'으로 옮겨져 범위 표현이 달라졌고(E001), only가 걸리는 두 조건의 병렬 관계가 깨져 'or' 이하가 별개 조각이 되었습니다(E002).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 설명 → 규정 설명. 문장은 어색하지만 정지 부과 조건을 안내하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\",\"E003\"],\"reason\":\"판단 질문 2: 장기 정지가 허용되는 조건이 '법률 요구' 또는 'Level 5의 심각한 위험·폭력 행동'이라는 제한적 허가인데, 후자가 허가 조건으로 읽히지 않아 허용 범위·조건이 달라졌습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 문체 '~습니다'가 대체로 유지되며 어색함만으로 훼손을 주지 않습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 뉴욕시 교육제도의 직책 Superintendent(교육장)를 학교 '교장'으로 바꿔 다른 제도상의 직위로 이해하게 만들었습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16354,
+    "inference_geo": "global",
+    "input_tokens": 1116,
+    "output_tokens": 1238,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

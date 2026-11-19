@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChBxhRY1H1t1c946v3L1q",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P008\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"government and party authorities\",\"tgt_span\":\"정부와 당국\",\"description\":\"'party'(중국 공산당 등 당 기관)가 번역에서 빠져 '정부와 당국'으로 옮겨져, 검열 통지를 발행하는 주체 중 '당'이 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물·대상): 통지 발행 주체 'government and party authorities'에서 'party'가 빠져 '정부와 당국'이 되었으나, 검열 통지를 발행하는 기관이라는 핵심 사실은 유지되어 minor입니다. 'round the clock'의 '24시간'은 통상적 대응입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·범위 표현이 유지되며 'both A and B'도 'A와 B는'으로 같은 범위가 보존됩니다. 'party' 누락은 단순 누락이라 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"현행 관행 설명 → 현행 관행 설명. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'are required to'가 '실행해야 한다'로 옮겨져 의무의 범주와 주체(인터넷 서비스·콘텐츠 서비스 제공업체)가 유지됩니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"출판물 본문의 격식 있는 서술체('~해야 한다')가 맥락에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도명·단위·표기가 없습니다. 'party authorities'의 누락은 Semantic에서 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16354,
+    "inference_geo": "global",
+    "input_tokens": 2103,
+    "output_tokens": 780,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

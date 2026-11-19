@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChBxwnyV6chkQqE9Y46DM",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P052\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Referral to Counseling Services\",\"tgt_span\":\"상담 서비스에 대한 참조\",\"description\":\"Referral(상담 서비스 연계·의뢰)을 '참조'로 오역했고, refer(의뢰하다)도 '참조해야합니다'로 옮겨 행위가 '의뢰'에서 '참조'로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"threatening or actual physical, sexual, and/or emotional abuse\",\"tgt_span\":\"위협 또는 실제 신체의 패턴을 사용하는 경우, 성적, 및 / 또는 감정적 학대\",\"description\":\"학대 수식어 구가 쉼표로 쪼개져 문장 밖으로 밀려남: 신체적·성적·감정적 학대의 병렬 구조가 깨짐\"},{\"id\":\"E003\",\"src_span\":\"the school should refer both the victim and the student who engages in this behavior to separate appropriate school or community-based agencies for counseling, support, and education services\",\"tgt_span\":\"학교는 상담을위한 별도의 적절한 학교 또는 지역 사회 기반의 기관에이 행동에 종사하는 피해자와 학생 모두를 참조해야합니다, 지원, 및 교육 서비스\",\"description\":\"주절 뒤 목적(상담, 지원, 교육 서비스)이 문장 끝에 끊겨 나열되고 가해 학생과 피해자의 수식 관계가 뒤섞여, 절 사이 연결을 알 수 없음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 의뢰(refer)가 '참조'로 바뀌어 행위가 달라졌고, 학대 유형이 분리·누락되어 의미가 달라졌으며, '이 행동에 종사하는 피해자와 학생'으로 피해자와 가해 학생 관계도 뒤섞여 독자가 무엇을 해야 하는지 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\",\"E003\"],\"reason\":\"질문 2 관련 문장 전체 구조 붕괴: 여러 절이 쉼표로 끊겨 나열되어 조건절·주절·목적 구의 연결을 알 수 없으므로 단어를 바로잡아도 풀리지 않습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 안내 → 규정 안내. 학교가 해야 할 조치를 알리는 기능은 어색하지만 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"should를 '해야합니다'로 옮긴 것은 통상적 대응이며 의무 범주와 주체(학교)는 유지됩니다. 대상 행위의 오역은 Semantic에서 판정합니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내체 '-합니다'가 유지되어 규정 안내문의 격식에 맞습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학교·지역 사회 기관을 다른 제도로 바꾸지 않았고 한국 제도로 대체하지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 1182,
+    "output_tokens": 1234,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

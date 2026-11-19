@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChBxhTZXzgP6GJhfXyp4z",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P003\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"She says she intended to go to the clinic by herself\",\"tgt_span\":\"메일리는 자신이 폭행당한 9일 후에 출산 병원을 방문했지만, 그녀가 경찰에 신고하기 전에 그녀는 … 병원에 혼자 갈 생각이었다고 말했다\",\"description\":\"평가대상 문장에 없는 앞 문장 내용(폭행 9일 후 출산 병원 방문, 경찰 신고 전)이 합쳐져 있으며, 번역문 구조상 이 내용이 평가대상 문장에서 추가된 것처럼 읽힘. 대응 구간 밖 정보가 혼입됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 평가대상 문장에는 없는 '9일 후 방문, 경찰 신고 전'이 번역문에 포함됐다. 다만 앞 문장 내용을 합친 것이고 핵심인 '혼자 증거 수집하려 했다'는 유지되어 minor이다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'지만'은 앞 문장의 '대신'과 이어져 있어 연결 관계가 크게 달라지지 않았고, 대명사의 지시 대상도 메일리로 정해진다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인터뷰 내용 전달(설명) → 설명. 발화 기능이 같다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가를 나타내는 표현이 없다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"출판물 서술체 '~했다'가 유지되어 관계·격식 문제가 없다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화·제도 고유 대상이 없다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16354,
+    "inference_geo": "global",
+    "input_tokens": 1624,
+    "output_tokens": 781,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

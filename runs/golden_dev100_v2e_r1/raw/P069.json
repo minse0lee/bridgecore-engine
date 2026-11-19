@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChBxxfaWpmkbgkbtSFgpa",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P069\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"more than 10\",\"tgt_span\":\"이상 10\",\"description\":\"'more than 10'(10 초과)이 '이상 10'으로 어순이 뒤바뀌고 '초과'가 '이상'으로 바뀌어 범위 경계가 달라지고 수량 표현이 불분명해짐\"},{\"id\":\"E002\",\"src_span\":\"10 consecutive school days as a result of a superintendent’s suspension\",\"tgt_span\":\"10 교육감의 정지의 결과로 연속 학교 일\",\"description\":\"수량·기간 명사구와 원인 구가 쉼표 없이 뒤섞여 '10 … 연속 학교 일'이 분리되고, 절 구조가 붕괴되어 정지 기간이 10일 초과 연속 등교일이라는 관계가 복원되지 않음\"},{\"id\":\"E003\",\"src_span\":\"superintendent’s suspension\",\"tgt_span\":\"교육감의 정지\",\"description\":\"'suspension'(정학 처분)이 '정지'로 옮겨져 학생 징계로서의 정학 의미가 전달되지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1(수량·기간·대상): 'more than 10'이 '이상 10'으로 바뀌어 초과 여부가 달라지고, 'school days' 수량 구조가 흐트러졌으며 suspension이 '정지'로 옮겨져 학생 정학이라는 내용이 사라져 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"질문 3(범위)과 구조 붕괴: more than이 '이상'으로 범위 표현이 옮겨져 경계가 달라졌고, 문장 전체가 단어 나열이 되어 10일 연속 학교일이 정지의 결과라는 관계를 읽을 수 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 기준 항목 제시 → 규정 기준 항목 제시. 목록 항목으로서의 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 항목은 앞 문장의 규범에 이어지는 조건 구절로 자체에 의무·허가·금지 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정의 문어체 항목이며 관계·호칭상 문제가 될 요소가 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"질문 2(제도 용어): 미국 학교 제도의 superintendent's suspension(교육감 정학 처분)이 일반 어휘 '정지'로 옮겨져 학교 징계라는 제도적 의미가 한국어 독자에게 전달되지 않습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 601,
+    "output_tokens": 1115,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

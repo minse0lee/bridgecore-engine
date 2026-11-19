@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChBxyncU2v85Ncy3jRnDs",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P093\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the South's unification ministry\",\"tgt_span\":\"북한 통일부\",\"description\":\"한국(남한)의 통일부가 '북한 통일부'로 바뀌어 기관의 소속 국가가 달라짐\"},{\"id\":\"E002\",\"src_span\":\"Park Byeong-seug\",\"tgt_span\":\"박평석\",\"description\":\"인명 음역이 한국어 표기(박병석)와 다르게 옮겨짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상): 자료의 출처인 남한 통일부가 북한 통일부로 바뀌어 자료를 낸 기관이 달라졌고, 독자가 사실관계를 다르게 이해합니다. 인명 표기 차이(E002)는 지시 대상이 식별 가능하여 별도 훼손으로 보지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인용 관계, 수량 비교(2011년 대비)의 연결과 범위가 유지됩니다. 기관 오역은 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 보도(진술 전달) → 뉴스 보도(진술 전달)로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 보도 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 본문의 평서체 '~했다'가 유지되어 서술 태도가 맞습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(제도): 대한민국 통일부가 '북한 통일부'로 옮겨져 다른 국가의 기관을 가리키게 되어 제도 귀속이 달라졌습니다. 인명 음역 문제는 인명이므로 Cultural 대상이 아닙니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 602,
+    "output_tokens": 812,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

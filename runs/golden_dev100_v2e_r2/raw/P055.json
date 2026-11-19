@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChBxwwNGQu8Sa5fKBaaFR",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P055\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the Senior Executive Director of the Office of Safety and Youth Development or other designee of the Chancellor or the Community Superintendent\",\"tgt_span\":\"안전 및 청소년 개발 사무소의 수석 이사 또는 총장 또는 커뮤니티 교장의 다른 지정에\",\"description\":\"'Senior Executive Director'가 '수석 이사'로 옮겨져 직위가 축소되었고, 'designee of the Chancellor or the Community Superintendent'가 '총장 또는 커뮤니티 교장의 다른 지정'으로 옮겨져 지정된 대리인이 아니라 총장·교장 자신이 승인 주체로 읽히며 'designee'가 '지정'이라는 행위로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"Chancellor\",\"tgt_span\":\"총장\",\"description\":\"뉴욕시 교육감 격인 Chancellor를 '총장'(대학 총장)으로, Community Superintendent를 '커뮤니티 교장'으로 옮겨 제도상 직위가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(인물·행위): 승인 주체가 'Chancellor 또는 Community Superintendent의 다른 지정권자(designee)'에서 '총장 또는 커뮤니티 교장'과 '다른 지정'으로 바뀌어 누가 승인하는지 달라졌고, 직위도 잘못 옮겨졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"주체·직위 오역이 원인이며 오역을 바로잡으면 관계도 풀리므로 Textual은 보존입니다. 문장 구조 자체는 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 안내 → 규정 안내. 승인 절차를 알리는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(주체): '승인이 필요합니다'로 요건은 유지되지만 승인 권한을 가진 주체가 달라져 평가조건이 금지한 담당 주체 변경에 해당합니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 안내체('~습니다')가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1·2: 뉴욕시 교육 제도의 Chancellor(교육감 격)가 '총장', Community Superintendent가 '커뮤니티 교장'으로 옮겨져 한국어 독자가 다른 직위·제도로 이해하게 됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 1066,
+    "output_tokens": 1069,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

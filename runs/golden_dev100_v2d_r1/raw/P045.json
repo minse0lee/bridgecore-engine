@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChBxjJCnXzJZPJptD9Gj1",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P045\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a special administrative region with a certain degree of autonomy from the mainland\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"홍콩이 본토로부터 어느 정도 자치권을 가진 특별행정구라는 삽입 관계절이 번역에서 빠짐\"},{\"id\":\"E002\",\"src_span\":\"stacked with pro-Beijing members\",\"tgt_span\":\"친베이징 성향의 위원들로 구성된\",\"description\":\"'stacked'가 지닌 친베이징 인사로 채웠다는 부정적 뉘앙스가 중립적인 '구성된'으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 홍콩의 특별행정구 지위와 자치 정도를 설명하는 삽입절이 누락되었고, 'stacked'의 부정적 평가가 중립적으로 바뀌었습니다. 핵심 주장(지명위원회 과반 지지 필요)은 유지되어 요지와 행동 이해는 같으므로 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"남아 있는 표현의 지시·연결·범위가 원문과 같고, 삽입절 누락은 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"중국의 입장 설명 → 중국의 입장 설명. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"후보자 자격 요건을 정하는 must가 '반드시 ~받아야 한다'로 유지되고 주체·조건도 같습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 서술체 '~했다/주장해왔다'가 출판물 본문에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지명위원회와 친베이징은 같은 제도·대상을 가리키며 통용되는 번역입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16354,
+    "inference_geo": "global",
+    "input_tokens": 965,
+    "output_tokens": 831,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

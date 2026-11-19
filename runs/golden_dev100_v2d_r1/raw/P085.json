@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChBxmNdV9APzUvkLmpggw",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P085\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"\\\\s will match either Unicode whitespace characters or [ \\\\t\\\\n\\\\r\\\\f\\\\v]\",\"tgt_span\":\"\\\\s 는 유니코드 화이트스페이스 문자 또는 [ \\\\t\\\\n\\\\r\\\\f\\\\v]와 일치합니다\",\"description\":\"either…or가 단순 '또는'으로 옮겨져 둘 중 한쪽(조건에 따라 하나)이라는 택일 뉘앙스가 약해짐. 다만 ‘또는’은 통상적 대응이라 의미 변화는 거의 없음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"\\\\w의 다양한 유니코드 문자 일치, 바이트/re.ASCII일 때 [a-zA-Z0-9_]로 제한, \\\\s의 두 경우가 모두 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'only'가 '[a-zA-Z0-9_]'에 붙는 범위가 '에만 일치하며'로 유지되고 but의 대조도 '일치하지만'으로 유지됩니다. either…or는 '또는'으로 통상 대응되어 범위가 달라지지 않습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기술 개념 설명 → 기술 개념 설명으로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"정규식 동작을 기술하는 설명문으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학습자료의 설명체 '~합니다'가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16354,
+    "inference_geo": "global",
+    "input_tokens": 793,
+    "output_tokens": 740,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

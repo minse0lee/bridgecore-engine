@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChBxy73x8rLQVmRA6AVXW",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P076\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Mr. Trump\",\"tgt_span\":\"트럼프 대통령\",\"description\":\"원문의 'Mr.'가 '대통령' 직함으로 바뀜. 문맥상 같은 인물을 가리키므로 지시 대상은 유지되나 호칭이 달라짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"중간선거에서 트럼프에게 책임을 물을 의회를 위해 투표할 것인가라는 내용이 동일하며, 호칭 차이는 같은 인물을 가리켜 내용을 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'무엇보다'가 above all의 강조 연결을 유지하고 관계절 '책임을 물을 의회'도 원문 구조와 같습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"독자의 숙고를 촉구하는 수사의문 → 수사의문. 질문 형태와 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없고 투표 의향을 묻는 수사의문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"칼럼 본문의 격식 있는 서술체 의문('-ㄹ 것인가')이 유지됩니다. 'Mr.'를 '대통령'으로 바꾼 것이 화자의 태도나 관계를 바꾸지 않습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"midterms를 '중간선거'로 통용되는 표현으로 옮겼고 Congress를 '의회'로 옮겨 같은 미국 제도를 가리킵니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 550,
+    "output_tokens": 736,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

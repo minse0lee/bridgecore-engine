@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChBxj72pZz4AcqdEAbyw6",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P039\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"most votes\",\"tgt_span\":\"대부분의 표\",\"description\":\"'most votes'(가장 많은 득표, 최다 득표)가 '대부분의 표'(표의 대다수)로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"the required majority\",\"tgt_span\":\"과반수\",\"description\":\"'required'(필요한)에 해당하는 수식이 빠짐. 다만 '과반수'가 이미 필요 기준을 뜻하므로 의미 변화는 없음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(수량): 'most votes'(최다 득표)가 '대부분의 표'(표의 대다수)로 바뀌어 득표 규모가 달라졌고, 과반수에 못 미쳤다는 뒷부분과도 모순됩니다. 독자가 요지를 다르게 이해하므로 major입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but의 대조 관계가 '-지만'으로 유지되고 지시·범위 표현에 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"선거 결과 보도 → 선거 결과 보도. 사실 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"required는 의무를 부과하는 규범이 아니라 과반수 기준을 설명하는 표현입니다. 누군가에게 의무·허가·금지를 정하는 문장이 아니므로 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 서술의 평서체(~했다)가 유지되며 화자·청자 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"집권당·민주회의당·과반수 등 정치 제도 용어가 같은 대상을 가리키며 한국어 독자가 이해할 수 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16354,
+    "inference_geo": "global",
+    "input_tokens": 856,
+    "output_tokens": 807,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

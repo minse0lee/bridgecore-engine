@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChBxwj26wmr48ZAGGTntq",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P051\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"much work still had to be done and sanctions must remain in place until North Korea denuclearizes\",\"tgt_span\":\"북한이 비핵화할 때까지 해야 할 일이 많고 제재가 유지되어야 한다고\",\"description\":\"'until North Korea denuclearizes'가 제재 유지에만 걸리는데, 번역문에서는 '해야 할 일이 많고'까지 함께 걸려 읽힐 수 있음. 또한 'still'이 빠짐. 다만 핵심 의미는 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"위협 시점, 칭찬 대상과 이유, 남은 과제, 제재 유지 조건이 모두 유지됩니다. 'still'과 'to disarm'→'비핵화를 위한'은 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'until' 절의 범위가 넓게 읽힐 가능성만 있고 관계절·대조('칭찬했지만')·지시 관계는 그대로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 보도 서술 → 뉴스 보도 서술. 발언을 전달하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"sanctions must remain in place가 '제재가 유지되어야 한다'로 규범적 요구가 유지됩니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 보도의 평서체 '-했다'가 유지되며 '대통령', '위원장' 호칭도 적절합니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"유엔, 북한 등 기관·국가가 통용 표기로 옮겨졌고 직함 보충도 같은 대상을 가리킵니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 940,
+    "output_tokens": 773,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

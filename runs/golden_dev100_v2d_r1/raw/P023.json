@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChBxiC3Au3NsPBmBcSjvt",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P023\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"has been proposed\",\"tgt_span\":\"상정되었다\",\"description\":\"'상정을 제안했다(proposed)'가 '상정되었다'로 바뀌어, 아직 제안 단계인 일이 실제로 상정된 것으로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성·시간): '상정이 제안되었다'가 '상정되었다'로 바뀌어 제안 단계가 이미 이루어진 사실로 읽힌다. 법안 이름, 본회의, 완화 목적이라는 핵심 사실은 유지되어 minor로 본다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그 결과'가 앞 문장과의 인과 관계를 유지하고 '목적으로'가 목표 관계를 유지한다. 지시와 범위 변화도 없다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사실 서술 → 사실 서술. 대응 조치를 설명하는 기능이 유지된다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범을 정하는 표현이 없는 사실 서술이다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 기사의 평서 서술체(~었다)가 유지된다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"법안명을 원어 병기와 함께 옮겼고 '의회 본회의'로 plenary session of Congress를 같은 제도로 옮겼다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16354,
+    "inference_geo": "global",
+    "input_tokens": 865,
+    "output_tokens": 676,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

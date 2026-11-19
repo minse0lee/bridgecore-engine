@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChBxw7s1eXf6VR37rsNLT",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P039\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"most votes\",\"tgt_span\":\"대부분의 표\",\"description\":\"'most votes'(가장 많은 득표)가 '대부분의 표'(표의 대다수)로 바뀌어 최다 득표와 과반에 가까운 득표라는 서로 다른 내용이 됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(수량): 'most votes'(최다 득표)가 '대부분의 표'로 옮겨져 수량 의미가 달라졌습니다. 다만 과반 미달이라는 핵심 사실은 유지되고, 대부분의 표를 얻고도 과반을 못 넘는다는 모순이 생길 뿐 요지를 크게 바꾸지는 않아 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-지만'이 but의 대조 관계를 유지하고, 지시·초점·범위 표현에도 다르게 읽힐 변화가 없습니다. 득표 표현의 오역은 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 사실 보도 → 사실 보도. 선거 결과를 알리는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'required majority'는 과반 기준을 서술하는 표현이며, 누군가에게 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 기사의 평서형 서술체('~했다')가 유지되어 보도문의 격식에 맞습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"집권당, 민주회의당, 총리, 과반수 등 정치 제도 용어가 같은 대상으로 옮겨졌고 통용되는 표기입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 856,
+    "output_tokens": 788,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

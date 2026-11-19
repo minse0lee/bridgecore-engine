@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChBxm9SzLBs5K6xZD7Nkr",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P078\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"for behavior which presents a clear and present danger of physical injury to the student, other students or school personnel, or prevents the orderly operation of classes or other school activities\",\"tgt_span\":\"학생, 다른 학생 또는 학교 직원에게 명확하고 현재의 신체 상해의 위험을 제시하는 행동에 대한 학생을 1 ~ 5 학교 일을 정지 할 수있는 권한이있다, 또는이 코드에 명시된 징계 대응과 일치하는 수업이나 기타 학교 활동의 질서 정연한 운영을 방지\",\"description\":\"정학 사유가 '신체 상해의 위험을 주는 행동'과 '수업 운영을 방해하는 행동'의 두 가지로 이어지는 구조가 깨지고, 두 번째 사유가 문장 끝에 동사 없이 '운영을 방지'로 남아 방해 행동이라는 의미가 사라짐 (방지하는 행위가 주체 없이 제시됨)\"},{\"id\":\"E002\",\"src_span\":\"one to five school days\",\"tgt_span\":\"1 ~ 5 학교 일\",\"description\":\"'학교 일'이라는 직역으로 수업일이라는 기간 단위가 어색해졌으나 수치와 범위는 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위·인과): 두 번째 정학 사유인 '수업·학교 활동의 질서 있는 운영을 방해하는 행동'이 '운영을 방지'로 바뀌어 방해 행동이라는 사유가 사라지고, 정학 대상 행동의 내용이 달라졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"오역을 바로잡으면 연결 관계도 함께 풀리는 문제이므로 Semantic에서만 판정하고, 남은 표현의 지시·연결·범위는 원문과 다르게 읽히지 않습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"권한 설명 → 권한 설명. 교장의 정학 권한을 알리는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(조건·적용 범위): 교장이 정학시킬 수 있는 조건 중 하나인 수업 운영 방해 행동이 불명확해져 권한의 적용 범위가 달라졌습니다. '있다'로 권한 자체는 유지됩니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 설명의 평서체이며, 관계에 맞는 격식 판정을 바꿀 만한 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교장, 정학 같은 미국 학교 제도 대상을 한국 제도로 대체하지 않고 같은 대상으로 옮겼으며 기간 수치도 유지되었습니다. '학교 일'은 어색할 뿐 의미는 전달됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16354,
+    "inference_geo": "global",
+    "input_tokens": 1179,
+    "output_tokens": 1184,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

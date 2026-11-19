@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChBxveGaJXKdWWuBWAgnn",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P032\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Google violated his constitutional right to secrecy of correspondence\",\"tgt_span\":\"헌법상의 기밀유지권을 침해했다고 주장하며\",\"description\":\"주어 Google이 빠져 누가 침해했는지 불분명하고, 'secrecy of correspondence'(통신·서신의 비밀)가 '기밀유지권'으로 바뀌어 권리의 내용이 달라짐\"},{\"id\":\"E002\",\"src_span\":\"a district court in Moscow\",\"tgt_span\":\"모스크바 지방법원\",\"description\":\"district court(지방법원/지구법원)를 '지방법원'으로 옮김. 한국어 독자에게는 통용 대응이라 의미·제도 변화로 보지 않음(참고용)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 침해 행위자인 Google이 누락되고, '서신의 비밀'이 '기밀유지권'으로 바뀌어 침해된 권리의 내용이 달라졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but의 대조 관계('기각했지만 상고했다')가 유지되며, 누락과 오역은 Semantic에서 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사건 경과 서술 → 사건 경과 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범을 정하는 문장이 아니라 소송 경과를 서술하는 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 서술체 '~했다'가 유지되어 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 헌법상 '통신(서신)의 비밀' 권리라는 제도적 개념이 일반어 '기밀유지권'으로 옮겨져 한국어 독자가 해당 헌법 권리를 이해하기 어렵습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 1291,
+    "output_tokens": 833,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChBxxjxCYtRfbBSxr7gyY",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P071\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Mr. Adams\",\"tgt_span\":\"씨. 애덤스\",\"description\":\"경칭 Mr.가 호칭 위치가 뒤바뀐 '씨.'로 옮겨져 '애덤스 씨'가 아니라 어색한 표기가 됨(뜻은 식별 가능)\"},{\"id\":\"E002\",\"src_span\":\"the old people I've talked to say\",\"tgt_span\":\"말하는 나이 든 사람들과 이야기했다\",\"description\":\"현재완료 'I've talked to'가 과거 '이야기했다'로 바뀌어 주절 서술이 되었고, 'say'가 관계절로 이동함. 시제·구조 변화(내용은 거의 유지)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"나이 든 사람들이 모퉁이마다 바와 교회가 있었다고 말한다는 내용과 화자 애덤스가 유지됩니다. 현재완료가 과거로 바뀐 정도는 사태 변화가 아닙니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·범위 표현이 유지되며 'Historically'는 '역사적으로'로 남아 있어 관계가 같게 읽힙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인용된 발언 보도 → 인용된 발언 보도. 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 기사 속 인용문으로 '~했다' 평서체가 적절하며 관계상 높임이 요구되지 않습니다. '씨. 애덤스'의 표기 어색함만으로 훼손이 아닙니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명과 경칭 외에 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 600,
+    "output_tokens": 817,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

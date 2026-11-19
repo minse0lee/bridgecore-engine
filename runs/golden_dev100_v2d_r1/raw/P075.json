@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChBxkugkGCpzokFbHVxwf",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P075\",\"evaluable\":false,\"evaluable_note\":\"정렬 검토 필요: 평가대상 원문이 여러 문장(및 잘린 문장 'Jenna noted that no po')으로 구성되어 있으나 번역문은 그중 두 문장('We go into the Hall…', 'That's me.')에 대응하는 구간만 제시되어 있어, 지정된 단위를 분리해 판정하기 어렵습니다. 문단 전체 번역에는 앞부분 번역이 있으나 평가대상 번역문과 범위가 일치하지 않습니다.\",\"errors\":[],\"axes\":{\"Semantic\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 평가대상 원문은 여러 문장인데 번역문은 일부 문장 구간만 제시되어 있어 내용 보존 여부를 확정하기 어렵습니다. 대응하는 원문 구간의 확정이 필요합니다.\"},\"Textual\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 원문 여러 문장이 번역문 일부에만 대응하여 지시·연결·범위 관계를 비교할 수 없습니다.\"},\"Context\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 평가대상 구간이 불일치하여 문장별 발화 기능을 비교할 수 없습니다.\"},\"Deontic\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: have to 표현이 포함된 원문 문장의 대응 번역이 평가대상 번역문에 확정되어 있지 않아 판정할 수 없습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: 대응 구간이 확정되지 않아 화자의 태도·격식을 비교하기 어렵습니다.\"},\"Cultural\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"정렬 검토 필요: chikan 등 문화 고유 표현이 포함된 문장의 대응 번역이 평가대상 번역문에 확정되어 있지 않아 판정할 수 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16354,
+    "inference_geo": "global",
+    "input_tokens": 1772,
+    "output_tokens": 830,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
