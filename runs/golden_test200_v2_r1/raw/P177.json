@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUe1DSqWZdXLFJm5jQy",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P177\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the predicate must take a single value\",\"tgt_span\":\"predicate 는 단일 값을 가져야 합니다\",\"description\":\"'take a single value'(인자로 단일 값을 받다)를 '단일 값을 가져야 한다'(소유)로 옮겨 predicate가 인자를 받는 관계가 사라지고 값을 지니는 것으로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위): take(인자로 받다)가 '가져야 한다'(보유)로 바뀌어 predicate가 하나의 인자를 받는다는 내용이 달라졌습니다. 앞 문장의 filter 설명과 함수 맥락으로 대략 유추 가능해 요지는 크게 어긋나지 않아 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"for use with filter 조건절과 주절의 연결, 앞 문장과 이어지는 관계가 유지됩니다. 오역을 바로잡으면 관계도 풀리므로 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개념 설명 → 개념 설명. 기술 문서의 설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(조건): filter와 함께 쓰기 위한 predicate의 요건(단일 인자를 받아야 함)이 '단일 값을 가져야 한다'로 바뀌어 요구되는 조건의 내용이 달라졌습니다. 의무 범주는 유지되므로 minor입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재 설명문의 '~습니다' 격식체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 936,
+    "output_tokens": 799,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

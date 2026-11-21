@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUfCwAucTCpHUzqbRMm",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P206\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"lull us into complicity\",\"tgt_span\":\"공범으로 우리를 졸리게 허용해서는\",\"description\":\"lull(안심시켜 방심하게 하다)이 '졸리게'로 오역되어 정치인이 우리를 안심시켜 공모하게 만든다는 인과·행위가 사라짐\"},{\"id\":\"E002\",\"src_span\":\"the National Health Service\",\"tgt_span\":\"국가 건강 서비스\",\"description\":\"영국 국민보건서비스(NHS)라는 제도명이 일반 어휘 '국가 건강 서비스'로 직역되어 제도명으로 인식되기 어려움\"},{\"id\":\"E003\",\"src_span\":\"complicity in the demise\",\"tgt_span\":\"죽음에 공범으로\",\"description\":\"complicity(방조·가담)가 '공범'으로, demise(쇠퇴·붕괴)가 '죽음'으로 옮겨져 뉘앙스가 변함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E003\"],\"reason\":\"판단 질문 1(행위·인과): lull us into complicity가 '공범으로 졸리게'로 옮겨져 안심시켜 방조하게 만든다는 핵심 행위가 달라져, 번역문만 읽은 독자는 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(인과 연결): 'lull us into complicity'의 결과 관계(정치인이 우리를 방조에 이르게 함)가 '공범으로 졸리게'로 불분명해져 연결 관계가 바뀌었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"경고·촉구 → 경고·촉구. 정치인에게 속지 말자는 호소 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"must not allow의 금지가 '허용해서는 안된다'로 유지되며 주체(우리)도 같습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"논평문의 격식체 '-해서는 안된다'가 유지되고 정치인에 대한 비판적 태도도 남아 있습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2(제도적 의미 이해): 영국의 NHS가 '국가 건강 서비스'라는 일반 어휘로 옮겨져 제도명으로 전달되지 않지만, 영국 기관이라는 표현이 남아 있어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 830,
+    "output_tokens": 1010,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

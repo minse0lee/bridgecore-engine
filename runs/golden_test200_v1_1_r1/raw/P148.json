@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUcejcv1F2Ms2jAhngx",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P148\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"hazing\",\"tgt_span\":\"괴롭힘\",\"description\":\"hazing(입단·입회 신고식식 가혹행위)이 일반적인 '괴롭힘'(bullying/harassment)으로 옮겨져 지칭하는 행위의 범주가 달라짐\"},{\"id\":\"E002\",\"src_span\":\"the health or safety of a student or students\",\"tgt_span\":\"학생이나 학생의 건강이나 안전을\",\"description\":\"'학생 한 명 또는 여러 명의 건강이나 안전'이 '학생이나 학생의 건강이나 안전'으로 옮겨져 위험에 처하는 대상이 흐려지고 수식 범위가 모호해짐\"},{\"id\":\"E003\",\"src_span\":\"inflicting bodily harm on a student or students\",\"tgt_span\":\"학생이나 학생에게 신체적 상해를 입히는 것\",\"description\":\"'a student or students'가 '학생이나 학생'으로 옮겨져 단수/복수 구분이 중복·무의미한 표현이 됨(의미는 대체로 유지)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(대상·행위): hazing이 일반적 '괴롭힘'으로 바뀌어 규제 대상 행위의 범주가 달라졌고, '학생이나 학생의 건강'으로 위험 대상이 모호해졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1(소유 관계): '학생이나 학생의 건강이나 안전'으로 옮겨져 '학생(들)의 건강 또는 안전'이라는 소유·범위 관계가 불분명해졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 금지 및 용어 정의 안내 → 규정 금지 및 용어 정의 안내로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"shall not이 '참여해서는 안된다'로 금지가 유지되고 주체(학생들)도 같습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 문체이며 '안된다'와 '정의됩니다'가 혼재하나 관계·격식 훼손은 아닙니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·단위·표기가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 878,
+    "output_tokens": 980,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

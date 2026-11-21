@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUeP7pfr5QUKAFcW4P9",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P185\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"have had great differences\",\"tgt_span\":\"큰 차이점을 가지고 있다\",\"description\":\"현재완료(과거부터 이어진 차이)가 현재형 '가지고 있다'로 옮겨져 시간 뉘앙스가 약간 단순화됨. 다만 '가지고 있다'는 지속 상태를 나타내므로 의미 변화는 사실상 없음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"중국 정부와 미국 정부, 큰 차이, 인정해야 한다는 내용이 모두 유지되며 완료상은 '가지고 있다'로 통상적으로 대응됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"that절의 주어와 병렬 구조(두 정부)가 그대로 유지되어 지시·연결·범위가 달라지지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"연설에서 현실을 인정하자고 촉구하는 발언 → 같은 촉구 발언으로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"must recognize의 당위가 '인정해야 합니다'로 유지되고 주체 '우리'도 같습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공적 연설의 격식이 '~합니다' 체로 적절히 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'중화인민공화국'은 통용되는 공식 명칭이고 미국 정부와 함께 같은 대상을 가리킵니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 784,
+    "output_tokens": 685,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

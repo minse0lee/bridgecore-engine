@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUp4CZRkjPsU5mEr6Lh",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P148\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"hazing\",\"tgt_span\":\"괴롭힘\",\"description\":\"hazing(입단식·신고식 등에서 신입에게 가하는 가혹행위)이 일반적인 '괴롭힘'(bullying)으로 번역되어 용어의 범위가 달라짐\"},{\"id\":\"E002\",\"src_span\":\"the health or safety of a student or students\",\"tgt_span\":\"학생이나 학생의 건강이나 안전을\",\"description\":\"'a student or students'의 소유 대상이 '학생이나 학생의 건강이나 안전'으로 옮겨져 '학생(들)의 건강이나 안전'이라는 구조가 깨지고, 첫 '학생이나'가 별도 대상처럼 읽혀 위험에 빠뜨리는 대상이 모호해짐\"},{\"id\":\"E003\",\"src_span\":\"inflicting bodily harm on a student or students\",\"tgt_span\":\"학생이나 학생에게 신체적 상해를 입히는\",\"description\":\"'a student or students'가 '학생이나 학생'으로 옮겨져 단수·복수 대비가 사라지고 중복 표현이 됨. 대상은 같아 의미는 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상·행위): hazing이 일반적인 '괴롭힘'으로 바뀌어 금지·정의되는 행위의 범위가 달라졌고, 독자가 규정이 다루는 행위의 요지를 다르게 이해하게 됩니다. E002·E003의 'a student or students' 중복 표현은 학생 대상이라는 뜻이 유지되어 별도 훼손으로 보지 않습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1(소유 관계): '학생이나 학생의 건강이나 안전'으로 옮겨져 건강·안전이 누구의 것인지, 첫 '학생이나'가 무엇에 걸리는지 불분명해졌습니다. 다만 학생에 관한 내용이라는 요지는 남아 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"행동 금지 및 용어 정의 → 행동 금지 및 용어 정의. 규정 안내 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"shall not이 '참여해서는 안된다'로 금지가 유지되고 주체(학생들)도 같습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 안내문에서 '~안된다'와 '~정의됩니다'가 섞이지만 공식 안내 어조가 유지되며 어색함만으로 훼손이 아닙니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"미국 학교 행동 규정의 금지 항목을 한국 제도로 대체하지 않고 그대로 안내합니다. hazing의 오역은 Semantic에서 판정했습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 878,
+    "output_tokens": 1162,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

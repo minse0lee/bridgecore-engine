@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUnp3EQzD7BW3jT8bxS",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P120\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"your school\",\"tgt_span\":\"학교 주변에\",\"description\":\"'your school'(자신의 학교)이 '학교'로 옮겨져 소유 관계가 사라졌으나, 문맥상 학습자의 학교로 읽혀 의미는 유지됨. 오류로 보지 않을 정도의 차이임.\"},{\"id\":\"E002\",\"src_span\":\"go and see if there would be any bottle stores\",\"tgt_span\":\"병 가게가 있는지 확인하십시오\",\"description\":\"'go and see'(직접 가서 확인)가 '확인하십시오'로 옮겨져 현장에 직접 가 보라는 행동이 사라지고, 'would be'(가정)도 단순 존재 여부 확인으로 바뀜.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1(행위): 'go and see'의 직접 가서 확인하는 행동이 일반적인 '확인하십시오'로 바뀌어 일부 행위 내용이 빠졌으나, 완충 지대 생성과 병 가게 확인이라는 핵심 과제는 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'만들고 … 확인하십시오'로 순차적 연결이 유지되고 지시·범위 표현에 변화가 없습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"학습 활동 지시 → 학습 활동 지시. 기능 종류는 같으나 '가서 보라'는 현장 조사 지시가 단순 확인으로 약해졌습니다. 같은 종류의 기능이므로 보존이 맞습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"학습 활동 지시로 규범적 의무·허가를 정하는 문장이 아니므로 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재의 지시형 '-하십시오'체가 학습자료 문체에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"1km는 그대로 옮겨졌고 별도로 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 649,
+    "output_tokens": 895,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

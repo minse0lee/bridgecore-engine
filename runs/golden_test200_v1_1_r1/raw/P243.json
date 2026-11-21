@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUgqUeGpw1j9wqTquCp",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P243\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"also called on\",\"tgt_span\":\"호소했다\",\"description\":\"'also'(추가·첨가 초점)에 해당하는 표현이 번역문에 없음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"유엔 총회 연설, 외무장관, 시리아 난민에게 귀향 촉구, 전쟁 8년째 등 인물·행위·수량·시간이 모두 유지됩니다. 'also'의 생략은 Semantic 내용 변화로 보지 않습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(초점·범위): 'also'가 사라져 앞서 한 말에 더해 난민 귀환도 촉구했다는 추가의 초점 표현이 없어졌습니다. 양보 관계('-에도 불구하고')와 대명사 지시는 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"연설 중 귀환 촉구를 보도하는 서술 → 같은 보도 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 보도 서술이며 독자에게 의무·허가·금지를 정하는 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 기사의 평서 서술체('-했다')가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"UN 총회와 외무부 장관이 통용되는 표기로 옮겨졌고 인명은 원어 병기되어 제도적 의미가 전달됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 696,
+    "output_tokens": 698,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

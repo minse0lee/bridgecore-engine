@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUox4huxniUuov3X2gs",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P147\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"if you only have to work with Python 2.7\",\"tgt_span\":\"파이썬 2.7만 사용하면\",\"description\":\"'only have to'의 '~만 …하면 된다'(필요 범위 한정)가 '2.7만 사용하면'으로 옮겨져 약간 달라졌으나 초점은 2.7 한정으로 유지됨. 숫자 2.7은 그대로이며 힌트의 27000은 오경보임. 의미·기능을 바꾸지 않는 차이라 실질 오류 아님.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"파이썬 2.5를 3과 함께 쓸 수 있으나 2.7만 다루면 훨씬 쉽다는 내용이 유지됩니다. 숫자 2.7도 정확하며 힌트의 27000은 오경보입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"While의 양보 대조 관계가 '-지만'으로, only의 초점이 '2.7만'으로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"설명 → 설명. 두 버전 지원의 난이도 차이를 설명하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"can은 가능성·능력이고 have to는 조건절 속 상황 설명이어서 규범을 정하는 문장이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학습자료의 설명체가 '~습니다'로 적절하게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없고 소프트웨어 버전명만 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1000,
+    "output_tokens": 728,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

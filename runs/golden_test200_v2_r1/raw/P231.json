@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUgSjAZN7K5nzehG2ka",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P231\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"within three school days\",\"tgt_span\":\"3일 이내에\",\"description\":\"'school days'(수업일)가 단순 '일'로 바뀌어 기한 계산 기준이 달라짐(주말·휴일 포함 여부)\"},{\"id\":\"E002\",\"src_span\":\"the absence will be excused\",\"tgt_span\":\"결석은 면제됩니다\",\"description\":\"excused(사유 인정된 결석)가 '면제'로 옮겨져 결석 처리 제도 용어의 의미가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'three school days'가 '3일'로 바뀌어 기한의 수량·시간 기준이 달라졌고, 'excused'가 '면제'로 옮겨져 결석 처리 내용이 달라졌습니다. 독자가 제출 기한을 다르게 이해할 수 있습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조건절과 결과절의 연결, '돌아온 후' 기준이 유지되며 지시·범위 문제가 없습니다. 문제는 단어 오역이라 Semantic에서만 다룹니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 안내 → 규정 안내. 절차 조건을 설명하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: must(메모 제출 의무)는 '가져와야 하며'로 유지되었지만, 의무의 기한 조건이 수업일에서 단순 일수로 바뀌어 독자가 따라야 할 조건이 달라졌습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 안내체('~합니다')가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: 미국 학교 출결 제도의 'excused absence(사유 인정 결석)'가 '면제'라는 일반어로 옮겨져 제도적 의미가 충분히 전달되지 않습니다. 기한은 본문에 남아 있어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 1099,
+    "output_tokens": 885,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

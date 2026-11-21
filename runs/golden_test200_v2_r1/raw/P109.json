@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUaU8LWE4YBVn6GMyBc",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P109\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"was quite bulged out at the top with brains\",\"tgt_span\":\"뇌로 가득 찼다\",\"description\":\"머리 윗부분이 뇌 때문에 상당히 불룩하게 튀어나왔다는 묘사가 '뇌로 가득 찼다'로 바뀌어 불룩함·윗부분·정도(quite)가 빠짐. 머리 모양에 대한 묘사가 내용(지혜) 비유처럼 읽힘.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 머리 윗부분이 불룩하게 튀어나온 외형 묘사(bulged out, at the top, quite)가 사라지고 '뇌로 가득 찼다'로 바뀌었으나, 뇌 때문에 머리가 크다는 핵심 취지는 일부 남아 독자의 행동 이해에는 영향이 없어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·범위 표현의 변화가 없고 오류는 내용 단어의 누락·변경이므로 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 외모 묘사 서술 → 인물 서술. 서술 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 평서체 '-다'가 유지되어 관계·태도 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 499,
+    "output_tokens": 725,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

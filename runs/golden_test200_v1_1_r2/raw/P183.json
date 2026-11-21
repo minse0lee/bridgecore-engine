@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUqmvKYyBjKbBDNNS6w",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P183\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"based on only the following criteria\",\"tgt_span\":\"다음과 같은 기준에 근거하여\",\"description\":\"'only'(오직 이 기준에 한해서)가 번역되지 않아 교장의 권한 범위를 제한하는 초점 표현이 사라짐\"},{\"id\":\"E002\",\"src_span\":\"the performance of a student production or the distribution of a publication or other informational material by students\",\"tgt_span\":\"학생이 제작하거나 배포하는 출판물 또는 기타 정보 자료의 수행\",\"description\":\"학생 공연(student production)의 상연이 빠지고 'performance'가 출판물·자료의 '수행'에 걸려, 제한 대상이 '공연 또는 출판물·자료 배포'에서 '출판물·자료의 수행'으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 학생 공연이 대상에서 빠지고 배포 행위가 '수행'으로 바뀌어 제한 대상이 달라졌으며, 'only'도 누락되어 기준이 한정적이라는 내용이 사라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 3: 'only'가 사라져 기준의 한정 범위를 정하는 초점 표현이 없어졌고, 질문 1: 'performance'의 걸림 대상이 바뀌어 대상 간 병렬·수식 구조도 달라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 안내 → 규정 안내. 교장의 권한을 설명하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 2: 교장의 권한이 '오직 다음 기준에 한해서' 행사 가능하다는 제한이 사라져 적용 범위가 넓어졌고, 권한이 미치는 대상(공연 포함)도 달라졌습니다. may를 '-할 수 있습니다'로 옮긴 것 자체는 문제가 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 안내체('-습니다')가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교장·사전 제한 등 미국 학교 제도상의 권한 대상을 한국 제도로 바꾸지 않고 같은 직위와 제도로 옮겼습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 820,
+    "output_tokens": 994,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

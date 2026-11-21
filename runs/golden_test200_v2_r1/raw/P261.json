@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUhgtjm7pdfWXc9iRwP",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P261\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Hit what exactly?\",\"tgt_span\":\"정확히 무엇을 치기?\",\"description\":\"의문문 종결이 명사형 '치기?'로 끊겨 어색하지만, 묻는 내용(정확히 무엇에 부딪히는가)은 유지됨. 다만 hit를 '치다'로 옮겨 '부딪히다'의 의미가 '때리다'로 읽힐 수 있음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위): 앞 문장 'hit something'은 게임 속 장애물에 닿아 죽는 상황인데 '치기'는 때리는 행위로 읽혀 행위의 종류가 약간 달라졌으나, 질문의 요지는 이어지고 뒤의 '잡초' 답으로 풀리므로 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'정확히'가 의문사 '무엇을'에 붙어 초점이 유지되고 지시·연결·범위가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞 발화를 받아 되묻는 수사적 질문(답을 이끄는 질문) → 같은 기능의 질문. 종결이 어색해도 질문 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 질문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"구어체 영상 발화를 짧게 되묻는 말투로 관계·격식이 크게 바뀌지 않았습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 870,
+    "output_tokens": 765,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

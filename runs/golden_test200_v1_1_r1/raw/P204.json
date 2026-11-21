@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUf5XvecTvhssbug21q",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P204\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"The bank's plan\",\"tgt_span\":\"세계은행의 계획은\",\"description\":\"원문의 'The bank'를 문맥상 세계은행으로 구체화함. 문단 전체 번역에서도 동일하며 지시 대상이 바뀐 것이 아니라 문맥상 같은 대상이므로 의미 변화가 없어 실질 오류 아님.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"은행의 계획이 규범과 제도를 겨냥하며 그것이 여전히 세대 교체를 요할 수 있다는 내용과 would의 추정, may의 가능성이 모두 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'여전히'가 still을 유지하고 관계절 수식 구조도 'norms and institutions'를 그대로 수식해 지시·연결·초점이 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"계획 설명 → 계획 설명. 기사 본문의 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"may require는 가능성·필요성 서술이며 누군가에게 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 기사 본문의 평서체 서술 격식이 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도명·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 919,
+    "output_tokens": 683,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUtD7ws5WKKyvuHx4GG",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P239\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"spat out\",\"tgt_span\":\"침을 뱉으며\",\"description\":\"'spat out'은 앞의 대사를 내뱉듯 쏘아붙였다는 뜻인데, 실제로 침을 뱉는 행위로 옮겨 발화 동사가 신체 동작으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위): 대사를 쏘아붙이는 발화 행위가 침을 뱉는 신체 행위로 바뀌어 독자가 장면을 다르게 이해합니다. 밀어내는 행위와 인물은 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'them'을 '그들'로 옮겨 지시 대상이 유지되고, 동시 동작 연결도 '-며'로 남아 있습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"원문 기능 → 번역 기능: 앞선 대사를 분노하며 쏘아붙이는 발화 표지 → 침 뱉기라는 동작 서술. 대사를 이어받는 서술 기능이 사라져 다른 종류의 기능으로 바뀌었습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문으로 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장은 서술문으로 화자·청자 사이의 높임·호칭 관계를 평가할 대상이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'crown prince'는 '왕세자'로 통용되며 이 문장에서 별도로 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 559,
+    "output_tokens": 757,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

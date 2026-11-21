@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUjUj41M5QEAox4AjVa",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P298\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the sun is only really up for about 90 minutes\",\"tgt_span\":\"태양은 정말 약 90 분 동안입니다\",\"description\":\"'only'(겨우 ~뿐)가 번역에서 빠지고 'really'가 '정말'로만 옮겨졌으며, 'is up'(떠 있다)의 서술어도 빠져 '태양은 90분 동안입니다'로 의미가 불완전해짐\"},{\"id\":\"E002\",\"src_span\":\"the proper solar panels\",\"tgt_span\":\"적절한 태양 전지 패널\",\"description\":\"'proper'를 '적절한'으로 옮겼으나 실제 성능이 좋은 패널이라는 뜻이 약해짐(경미)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'sun is up'(해가 떠 있다)이라는 핵심 서술이 빠지고 'only'의 한정 의미도 사라져 태양이 90분 동안만 떠 있다는 내용이 전달되지 않습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"질문 3: only가 사라져 '겨우 90분뿐'이라는 범위 한정이 번역문에 남지 않고 '정말'만 남아 초점이 달라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"주장 서술(불평·풍자) → 주장 서술. 서술 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범적 의미가 없는 사실 진술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소셜미디어 게시물의 평서 서술이며 '-입니다'체로 관계상 큰 어긋남이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 523,
+    "output_tokens": 792,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

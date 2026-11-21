@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUtEih9GiYknQLTX6QY",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P238\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"It should in no way signal\",\"tgt_span\":\"이는 … 의미하지 않는다\",\"description\":\"'should in no way'(결코 ~로 해석되어서는 안 됨)의 강조·권고 표현이 단순 부정 서술로 바뀜. 다만 이 should는 규범이 아니라 기대·해석에 관한 표현이며, 핵심 사실은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): 'should in no way signal'의 강한 부정 당부가 단순 단정 '의미하지 않는다'로 바뀌어 확실성·강도가 조금 달라졌으나, 승인 의사 부재라는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'이는'이 앞 문장의 조치를 가리키는 것이 문맥상 분명하고, 연결·범위 표현도 원문과 같게 읽힙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"위원회 조치의 의미를 한정하는 설명·선언 → 같은 기능의 설명·선언으로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"여기서 should는 조치가 무엇을 시사해서는 안 되는지에 관한 해석상의 당부로, 누군가의 의무·허가·금지를 정하는 규범이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 발언의 격식 있는 평서체가 인용문 안에서 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없고, 위원회는 일반 기관 지칭입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 954,
+    "output_tokens": 770,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

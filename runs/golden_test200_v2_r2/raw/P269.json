@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUudj4vcSL7DC36nPgS",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P269\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"He stayed put\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"관제사가 자리를 떠나지 않고 버텼다는 'stayed put'의 의미가 번역문에 반영되지 않음. '지켜보았다'로 바뀌어 자리를 지킨 행위가 사라짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위): '자리를 지키다/머물다(stayed put)'가 빠지고 '지켜보았다'만 남아 행위가 일부 달라졌지만, 이륙을 확인했다는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"관계절 '당시 활주로에 있던'과 목적 연결이 '-도록'으로 유지되어 지시·연결·범위가 원문과 같습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사건 서술 → 사건 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 서술문으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 서술체 '-았다'가 유지되어 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"항공사명과 편명만 있어 별도로 판정할 문화·제도 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 572,
+    "output_tokens": 646,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

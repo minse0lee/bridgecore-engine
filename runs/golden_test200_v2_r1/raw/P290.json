@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUj4UnKbpqQgh4QAEnB",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P290\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Alicia, you must accept\",\"tgt_span\":\"앨리샤, 당신은 … 받아들여야합니다\",\"description\":\"바베이도스 목사가 신부에게 하는 직설적·익살스러운 구어체 훈계가 '당신'과 '-ㅂ니다' 형태의 딱딱한 격식체로 옮겨져 말투와 관계의 톤이 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앨리샤가 Keshorn이 돈 관리를 맡는다는 사실을 받아들여야 한다는 내용이 그대로 옮겨졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'that' 절의 종속 관계와 지시 대상이 유지되어 읽는 사람이 다르게 이해할 여지가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"목사의 훈계·지시 → 훈계·지시. 받아들이도록 이끄는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"must accept의 의무가 '받아들여야합니다'로 유지되어 의무의 범주와 주체가 같습니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(태도): 기대 격식은 신부에게 직설적이고 익살스러운 목사의 구어체인데 '당신'과 '-ㅂ니다'로 딱딱하게 옮겨 화자의 구어적·익살스러운 태도가 약해졌습니다. 다만 훈계라는 관계 자체는 유지되어 minor입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없고 인명만 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 929,
+    "output_tokens": 772,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUiS2JMVkZjvMsEQAKN",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P280\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"by the end of the decade\",\"tgt_span\":\"2020년까지\",\"description\":\"'10년대 말(2020년 전후)'이라는 기한이 구체적 연도 '2020년까지'로 바뀜. 원문은 문맥상 2020년대 말(2030년경)을 가리키며 2040년 40%로 가는 단계적 목표와 맞는데, 번역은 기한을 크게 앞당김.\"},{\"id\":\"E002\",\"src_span\":\"a carve out for winemakers from the requirement that … 10% of products must be supplied in reusable containers\",\"tgt_span\":\"10%의 면제를 받았으며\",\"description\":\"'10% 재사용 용기 공급 의무에서 와인 제조업체가 예외로 제외됨'이 '10%의 면제'로 바뀌어, 면제 대상이 의무 전체가 아니라 10%만 면제된 것처럼 읽힘.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(시간·수량): 'decade 말'이 '2020년까지'로 바뀌어 기한이 달라졌고, 의무 전체 면제가 '10%의 면제'로 바뀌어 면제의 범위가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 3(범위): 10%가 의무 비율에서 면제의 양으로 옮겨 붙어 'rising to 40%'의 대상이 불분명해지고 수량 표현의 범위가 달라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 사실 보도 → 뉴스 사실 보도. 정보를 전달하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 2(조건·범위): 제품을 재사용 용기로 공급해야 한다는 의무의 기한이 2020년으로 바뀌고, 와인 제조업체가 의무 전체에서 제외된다는 예외의 범위가 10%만 면제된 것처럼 달라졌습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 보도의 평서체 서술이 유지되며 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위가 아니며, 숫자·기한 오류는 Semantic에서 판정합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1105,
+    "output_tokens": 985,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

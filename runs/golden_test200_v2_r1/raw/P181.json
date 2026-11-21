@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUeC15NzhPPgwzWgsRK",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P181\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"get your hands dirty\",\"tgt_span\":\"손을 더럽힐 수 있지만\",\"description\":\"'get your hands dirty'(직접 해 보며 실습에 뛰어들다)라는 관용 표현을 문자 그대로 '손을 더럽히다'로 직역하여 실습 시작이라는 의미가 사라짐\"},{\"id\":\"E002\",\"src_span\":\"motivate the square loss objective\",\"tgt_span\":\"제곱 손실 목표를 보다 공식적으로 동기화 할 수 있습니다\",\"description\":\"motivate(동기·근거를 제시해 정당화하다)를 '동기화'(synchronize로 읽힘)로 오역하여 행위의 의미가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'get your hands dirty'가 직접 실습을 시작한다는 뜻 대신 문자 그대로 '손을 더럽히다'로, motivate가 근거를 제시한다는 뜻 대신 '동기화'로 바뀌어 독자가 문장의 요지를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"While의 양보·대조 관계가 '-지만'으로 유지되고 지시·범위 표현에도 변화가 없으며, 오역을 바로잡으면 문제가 함께 풀립니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학습 내용 설명 → 학습 내용 설명. 앞으로 다룰 내용을 안내하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"can은 가능성·능력의 의미이며 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재의 설명체 '-ㅂ니다'가 유지되어 독자와의 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 757,
+    "output_tokens": 865,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

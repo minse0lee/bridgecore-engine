@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUfaxERMPWQSTKLuqeJ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P215\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I could have, I guess, that makes sense.\",\"tgt_span\":\"나는 할 수 있었다, 아마, 그 말이 맞아요.\",\"description\":\"'could have'의 대상(리프트를 알아볼 수 있었다는 것)이 빠져 '할 수 있었다'만 남았고, 'I guess'가 '아마'로 옮겨져 화자의 자기 인정 어조가 불확실한 추측처럼 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"할 수 있었다는 반사실적 가능성, 추측 표지, 그것이 말이 된다는 인정이 모두 유지되어 원문과 달라진 항목을 특정할 수 없습니다. 생략된 대상은 앞 문장에서 복원됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'that makes sense'가 앞 문장의 내용을 받는 관계는 '그 말이 맞아요'로 유지되고, 지시·연결·초점 관계에 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"자기 상황에 대한 설명·인정 → 설명·인정. 발화 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장의 could have는 과거의 가능성을 나타내며 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"독백식 발화인데 '~다'체와 '~요'체가 섞여 있어, 화자와 청자의 관계와 기대되는 격식을 확인해야 판정할 수 있습니다. 필요한 정보는 화자와 청자의 관계입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 932,
+    "output_tokens": 786,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

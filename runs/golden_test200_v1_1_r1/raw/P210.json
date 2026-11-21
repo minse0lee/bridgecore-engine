@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUfNUA54vKt9MMadCX9",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P210\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"forbearance\",\"tgt_span\":\"면제 혜택\",\"description\":\"forbearance(상환 유예·정지)가 '면제'로 옮겨져 납부 의무가 없어지는 것처럼 읽힘. 일시 중단·감액이라는 임시 조치가 면제로 바뀌고, 제도 용어도 달라짐. 문단 전체에서 '면제'로 일관되게 번역됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상): 임시로 납부를 유예하는 forbearance가 '면제'로 바뀌어 납부 의무가 사라지는 것처럼 읽혀, 독자가 제도의 내용을 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"which 관계절이 '일시 중단하거나 줄이는'으로 면제 혜택을 수식하는 관계가 유지되고, 지시·연결·초점 관계는 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"연락 지시와 제도 안내 → 연락 지시와 제도 안내. 즉시 연락하라는 지시, 자격 안내, 정보 확인 안내의 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"contact immediately는 '즉시 연락하십시오', you'll need to reach out은 '연락해야 합니다'로 요구 수준이 유지되고, may be eligible은 '받을 수 있습니다'로 자격 가능성이 유지됩니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내문에 맞는 '-십시오/-습니다' 격식체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: forbearance는 미국 모기지의 상환 유예 제도를 가리키는 제도 용어인데 '면제 혜택'으로 옮겨져, 한국어 독자가 이를 일시 유예가 아니라 채무 면제로 이해하게 되어 제도적 의미가 전달되지 않습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1166,
+    "output_tokens": 883,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

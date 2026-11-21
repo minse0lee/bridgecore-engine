@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUbcsy8cjwA9QCAyk6E",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P129\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"you … your TV … you\",\"tgt_span\":\"너희 … 너희를\",\"description\":\"낯선 상대에게 호소하는 공개 편지인데 2인칭을 반말 '너희'로 옮기고 종결도 '확신하라'로 처리해 정중한 말투가 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"TV에서 폭격을 말하는 사람을 보면 그가 우리 모두를 대표하지 않음을 확신하라는 내용이 그대로 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조건절과 주절의 연결, 'someone'과 'he', 'us'의 지시 관계가 원문과 같습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"안심시키며 당부하는 호소 → 당부하는 호소. 상대가 행동하도록 이끄는 같은 종류의 기능입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 아니라 개인적 호소입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 평가조건의 기대 격식은 낯선 상대에게 진심으로 호소하는 정중한 말투인데, 번역은 '너희'와 '확신하라'로 낯선 청자에게 반말·명령조를 써서 관계에 맞지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 1188,
+    "output_tokens": 698,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUujzrMGQ64SDoFbsbV",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P274\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"would then make sure to insert\",\"tgt_span\":\"삽입합니다\",\"description\":\"가정·조건적 서술(would)과 시간 순서(then), 반드시 확인한다는 뜻(make sure)이 사라지고 단순 현재 사실 서술로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): would와 make sure to의 가정·보장 뉘앙스가 단정적 현재형으로 바뀌었으나 브라우저가 섹션 1~6을 섹션 7 위에 삽입한다는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(시간 순서): 앞선 내용에 이어지는 시간 연결어 then이 번역되지 않아 순서 관계가 사라졌습니다. 강조 *above*는 '위에'로 유지되었으나 강조 표시는 약해졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"동작 방식 설명 → 동작 방식 설명. 설명 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"브라우저의 동작을 서술하는 문장이며 사람에게 의무·허가·금지를 정하지 않아 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"설명문의 평서 격식체 '-ㅂ니다'가 출판물 본문 맥락에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도에 고유한 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 539,
+    "output_tokens": 729,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

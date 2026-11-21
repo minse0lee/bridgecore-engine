@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUeZ7pfSqsYRV1tc4zg",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P189\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"reverse mortgage\",\"tgt_span\":\"역방향 모기지\",\"description\":\"제도 명칭 '주택연금(역모기지)'에 해당하는 reverse mortgage를 '역방향 모기지'로 직역해 통용 용어(역모기지)와 다름\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"역모기지를 고려하는 경우 명심하라는 내용이 유지되며, '역방향 모기지'는 어색하지만 같은 대상을 가리킨다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조건절과 뒤따르는 keep in mind that 구조가 '~면, 명심하십시오:'로 유지되어 연결이 같다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뒤따르는 내용에 주의를 환기하는 안내 → 주의 환기 지시로 같은 기능이다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"keep in mind는 규범적 의무가 아니라 정보 제시 도입부로 Deontic 평가 대상이 아니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"독자에게 공식적으로 안내하는 '-십시오' 격식체이며 학습자료 관계에 맞는다. '당신'은 어색하나 관계를 바꾸지 않는다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"reverse mortgage는 같은 금융 상품을 가리키며 '역방향 모기지'는 직역이지만 '모기지'와 '역방향'으로 의미 이해가 가능하고 다른 제도로 바뀌지 않았다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 515,
+    "output_tokens": 705,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

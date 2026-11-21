@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUe1NsD5bfWcReTws9w",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P179\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Inner suburbs\",\"tgt_span\":\"교외의 중심부\",\"description\":\"도심에 가까운 내부 교외(inner suburbs)가 '교외의 중심부'로 옮겨져 대상 지역이 모호해지거나 달라짐\"},{\"id\":\"E002\",\"src_span\":\"on key sites\",\"tgt_span\":\"주요 지역의\",\"description\":\"key sites(주요 부지)가 '주요 지역'으로 바뀌고 '나무 꼭대기 아래의 높이'를 수식하는 위치로 옮겨져 적용 대상 구조가 흐려짐\"},{\"id\":\"E003\",\"src_span\":\"apartment living\",\"tgt_span\":\"아파트\",\"description\":\"아파트 생활(주거 방식)이 '아파트'라는 건물로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: inner suburbs가 '교외의 중심부'로, key sites가 '주요 지역'으로, apartment living이 '아파트'로 바뀌어 대상이 일부 달라졌으나, 내부 교외가 아파트 중심으로 진화해야 한다는 요지는 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"also에 해당하는 '역시'가 유지되고 지시·연결·초점 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"도시 개발 방향에 대한 주장 → 같은 주장으로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"must evolve가 '진화해야 합니다'로 유지되어 당위의 범주와 강도가 같습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"출판물 본문의 공식적인 '~합니다' 서술체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1071,
+    "output_tokens": 835,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

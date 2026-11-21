@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUwTis4jS6emYsJUMVv",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P128\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"which received loud boos from the audience\",\"tgt_span\":\"청중들로부터 큰 박수를 받은\",\"description\":\"큰 야유(boos)가 큰 박수로 바뀌어 청중의 부정적 반응이 긍정적 반응으로 정반대가 됨. 또한 받은 대상이 이름 언급이 아니라 파인스타인으로 읽힘\"},{\"id\":\"E002\",\"src_span\":\"Senate Judiciary Committee ranking Democratic Sen. Dianne Feinstein by name\",\"tgt_span\":\"민주당 상원의원 다이앤 파인스타인의 이름으로 상원 사법위원회 순위를 언급했다\",\"description\":\"사법위원회 소속 민주당 간사인 파인스타인을 이름으로 거론했다는 내용이 '파인스타인의 이름으로 위원회 순위를 언급'한 것으로 바뀌어 언급 대상과 관계가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: boos가 '큰 박수'로 정반대가 되었고, 언급 대상이 파인스타인(위원회 간사)에서 '위원회 순위'로 바뀌어 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"질문 1·2: 관계절 which의 선행어(이름을 언급한 일)가 번역문에서 파인스타인을 수식하는 관형절로 붙어 지시 관계가 달라지고, 문장 구조가 바뀌어 절 사이 연결이 원문과 다르게 읽힙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 서술 → 뉴스 서술. 사건을 전달하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 뉴스 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 본문의 평서 서술체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상원 사법위원회와 상원의원이라는 제도 용어는 통용되는 대응어로 옮겨졌고 같은 제도를 가리킵니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 616,
+    "output_tokens": 933,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

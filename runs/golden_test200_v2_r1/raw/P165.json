@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUdKjtsToQvg84tQikr",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P165\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"back tracking\",\"tgt_span\":\"뒤를 쫓는\",\"description\":\"'back tracking'(되돌아가기, 뒤로 물러나기, 이미 한 일을 되짚기)을 '뒤를 쫓는'(누군가를 추적하는)으로 오역하여 행위의 의미가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위): back tracking(되돌아가기·후퇴)이 '뒤를 쫓는'(추적)이라는 다른 행위로 바뀌어, 대비되는 대상이 달라지고 문장의 요지가 다르게 읽힙니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'instead of'가 '대신에'로 대체 관계를 유지하고 초점·지시 문제는 없으며, 오역을 바로잡으면 연결도 함께 풀립니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"행동을 촉구하는 주장·권고 → 행동을 촉구하는 주장·권고로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 우리에게 더 빨리 행동하라는 규범적 권고(should)가 '행동해야 합니다'로 통상적 대응으로 유지됩니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"온라인 댓글 성격의 평이한 발언이 '~합니다' 체로 무리 없이 옮겨져 관계에 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 575,
+    "output_tokens": 730,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

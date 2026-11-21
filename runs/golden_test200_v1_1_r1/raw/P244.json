@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUgqYMKv5amY1euMqFj",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P244\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"with students and staff\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"관계를 맺는 대상인 학생과 교직원이 번역문에서 빠짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물·대상): 관계를 형성하는 상대인 'students and staff'가 빠져 누구와 관계를 맺는지 알 수 없게 되었습니다. 독자는 요지를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"차이 인정과 관계 형성의 연결, 'not limited to'를 '등'으로 옮긴 범위 표현이 유지되며 지시·연결·초점은 바뀌지 않았습니다. 누락은 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"행동 기준 안내 → 행동 기준 안내. 학생 행동 기대를 제시하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(적용 범위): 행동 기대가 적용되는 관계 대상(학생과 교직원)이 사라져 규범의 적용 범위가 달라졌습니다. 원문의 명령형을 '-합니다'로 옮긴 것 자체는 강도 훼손이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 안내체('-합니다')가 유지되어 독자와의 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 856,
+    "output_tokens": 740,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUizDJrWnWcPxSkfHZv",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P292\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"referrals\",\"tgt_span\":\"추천\",\"description\":\"'referrals'(다른 기관·서비스로의 연계·소개)가 '추천'으로 옮겨져, 서비스 연계라는 의미가 일반적인 추천으로 약해짐\"},{\"id\":\"E002\",\"src_span\":\"advocacy\",\"tgt_span\":\"옹호\",\"description\":\"피해자 지원 맥락의 'advocacy'(권리 대변·지원 활동)를 일반어 '옹호'로 옮겨 서비스 의미가 흐려짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'referrals'가 '추천'으로, 'advocacy'가 '옹호'로 바뀌어 서비스 내용이 다소 달라졌으나, 정보·상담 제공이라는 핵심 요지는 유지되어 독자의 행동 이해는 크게 달라지지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"제공 항목들의 나열 관계가 유지되고 지시·연결·초점 표현의 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서비스 내용 설명 → 서비스 내용 설명. 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"기관이 제공하는 서비스를 서술하는 문장이며 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내문의 '~합니다' 안내체가 유지되어 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"VASAP를 약어 그대로 유지하여 같은 기관을 가리키며 다른 제도로 바꾸지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1042,
+    "output_tokens": 778,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

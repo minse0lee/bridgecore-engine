@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUcRGjgpQHRJYEvGtAF",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P145\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"ships $150 million USD per year\",\"tgt_span\":\"연간 1억 5천만 달러를 배송하고 있으며\",\"description\":\"ship은 연간 1억 5천만 달러어치 제품을 출하·수출한다는 뜻인데, 달러 금액 자체를 배송한다는 뜻으로 옮겨 대상이 달라짐(수치 1억 5천만 달러 자체는 정확함)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위·대상): 연간 1억 5천만 달러어치 제품을 출하한다는 내용이 돈 자체를 배송한다는 뜻으로 바뀌었지만, 금액은 맞고 나머지 고용·투자 내용도 유지되어 요지는 크게 달라지지 않아 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"세 가지 사실의 병렬 나열 구조가 유지되고, 오역을 바로잡으면 관계도 함께 풀리므로 Textual은 보존입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"회사 현황 설명 → 회사 현황 설명. 정보를 전달하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 사실 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 기사의 평서체 서술이 한국어 평서체로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"달러 금액을 그대로 유지해 다른 통화나 단위로 바꾸지 않았고, 수치도 1억 5천만·130만으로 정확합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 1117,
+    "output_tokens": 752,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

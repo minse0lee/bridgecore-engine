@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUnjYNb4usthX3ch7fi",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P120\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"your school\",\"tgt_span\":\"학교\",\"description\":\"'your school'의 소유 표현이 '학교'로 옮겨져 '여러분의 학교'라는 지시가 사라짐. 문맥상 학습자 자신의 학교로 읽혀 의미 변화는 거의 없음.\"},{\"id\":\"E002\",\"src_span\":\"go and see if there would be any bottle stores\",\"tgt_span\":\"병 가게가 있는지 확인하십시오\",\"description\":\"'go and see'(직접 가서 확인)가 '확인하십시오'로 바뀌어 현장 방문 행위가 빠지고, 'would be'(가정적 상황)가 사실 확인으로 읽힘.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1(행위): 'go and see'의 직접 가서 보는 행위가 단순 '확인'으로 바뀌어 일부 행위가 빠졌으나, 병 가게가 너무 가까이 있는지 확인한다는 핵심은 유지되어 요지와 학습 행동은 크게 달라지지 않았습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'and then'의 순차 관계가 '-고'로 이어져 유지되고, 대명사·초점 표현의 변화도 없습니다(your school → 학교는 문맥상 같은 대상).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학습 활동 지시 → 학습 활동 지시. 완충 지대를 만들고 확인하라는 지시 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"학습 활동 지시로 규범적 의무·허가를 정하는 문장이 아니므로 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재의 지시문에 맞는 '-십시오' 격식체가 유지되어 독자와 관계에 적합합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"1 km는 원문과 같은 단위로 표기되었고, 별도로 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 649,
+    "output_tokens": 878,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

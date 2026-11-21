@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUwoNo3WDehSs5BLenD",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P132\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Shifting to a four-day week\",\"tgt_span\":\"4 일 주로 이동은\",\"description\":\"'주 4일제로의 전환'이 '4일 주로 이동'으로 옮겨져 주 4일 근무제라는 지시 대상이 불분명해짐. 숫자 4는 원문 four에 대응하므로 힌트의 수치 불일치는 오경보임.\"},{\"id\":\"E002\",\"src_span\":\"the Trades Union Congress\",\"tgt_span\":\"노동 조합 회의\",\"description\":\"영국 노동조합 총연맹(TUC)이라는 기관명이 일반 어휘 '노동 조합 회의'로 옮겨져 기관의 제도적 의미가 전달되지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상): '주 4일 근무제로의 전환'이 '4일 주로 이동'으로 바뀌어 무엇이 승인되었는지 알기 어렵습니다. 독자가 문장의 요지를 다르게 이해하게 되므로 major입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'방법으로'가 as a way for를 유지하고 승인 주체와 대상 관계도 남아 있어 지시·연결·초점이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 사실 보도 → 뉴스 사실 보도. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 보도 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 서술체 '~되었습니다'가 유지되며 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2(제도적 의미): 영국 노총인 Trades Union Congress가 '노동 조합 회의'라는 일반 어휘로 옮겨져 고유 기관임이 전달되지 않습니다. 다만 문장의 요지는 이해할 수 있어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 719,
+    "output_tokens": 877,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

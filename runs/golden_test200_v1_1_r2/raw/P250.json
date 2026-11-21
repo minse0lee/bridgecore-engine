@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUzJFgUh5HHmnQQxKge",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P250\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I'll take it\",\"tgt_span\":\"나는 그것을 걸릴 것이다\",\"description\":\"'받아들이겠다/만족하겠다'는 뜻의 관용 표현 take it이 '걸리다'라는 무관한 동사로 오역되어 화자의 수용·만족 태도가 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'I'll take it'(그래도 받아들이겠다)이 '그것을 걸릴 것이다'라는 뜻이 통하지 않는 행위로 바뀌어 화자가 하겠다는 행위가 달라졌고, 독자가 문장의 요지를 이해할 수 없게 됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"질문 2: but이 '그러나'로 옮겨져 양보·대조 관계가 유지되고, only도 '단지'로 '2 질문'에 붙어 초점이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"게시물 속 화자의 소감 진술 → 소감 진술. 발화 기능의 종류는 유지되며 내용 오역은 Semantic에서 판정합니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 개인적 소감 문장입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"번역문이 '~었다/~것이다' 평서체인데, 게시물 작성자와 독자의 관계·기대 격식 정보가 없어 적절성을 판단하기 어렵습니다. 소셜미디어 게시물의 격식 기준 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 499,
+    "output_tokens": 772,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

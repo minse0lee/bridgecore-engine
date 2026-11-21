@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUsm6mSuaSnsKDqVYDF",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P230\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a million meters in 2024\",\"tgt_span\":\"2024년에 100만 미터를 달리는 것이\",\"description\":\"원문에 없는 동사 '달리는'(행위)이 보충됨. 문맥(#peloton, 로잉/사이클링 기록)상 원문은 거리 달성 자체를 가리키며 '달리기'로 한정하지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위): 원문에 없는 '달리는'이 첨가되어 100만 미터를 달리는 행위로 한정되었으나, 100만 미터·2024년·가능성 궁금증이라는 핵심은 유지되어 요지 이해에 큰 차이는 없습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Now가 '이제'로 유지되고 지시·연결·초점 표현의 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"가능성에 대한 궁금증 표현(소셜미디어 게시) → 같은 기능. 이모지와 해시태그도 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가를 정하는 표현이 없는 개인적 소감입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개인 게시물의 화자 태도가 '~궁금합니다' 평서체로 무리 없이 유지되며 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"미터 단위는 보편적이며 문화 고유의 제도·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 533,
+    "output_tokens": 704,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

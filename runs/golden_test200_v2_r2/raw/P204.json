@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUrn5XjxKWpjPTqq1Nc",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P204\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"The bank's plan\",\"tgt_span\":\"세계은행의 계획은\",\"description\":\"원문의 'The bank'를 '세계은행'으로 구체화함. 문단 문맥(세계은행 계획)과 부합하므로 의미 변화로 보지 않음.\"},{\"id\":\"E002\",\"src_span\":\"generational shifts\",\"tgt_span\":\"세대 교체\",\"description\":\"'세대에 걸친 변화'를 '세대 교체'로 옮겨 구성원 교체의 의미가 더해졌으나 핵심 의미는 크게 달라지지 않음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: 'generational shifts'(세대에 걸친 변화)가 '세대 교체'로 옮겨져 변화의 대상이 규범·제도의 변화가 아닌 사람의 교체로 읽힐 수 있으나, 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'여전히'와 관계절의 수식 관계가 규범과 제도에 걸리는 구조로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"계획 설명 → 계획 설명. 기사 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"may와 require는 가능성·필요를 서술할 뿐 의무·허가를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 기사 본문의 서술체 '~할 것이다'가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"세계은행이라는 기관이 문맥상 올바르게 지시되어 제도적 의미가 유지됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 919,
+    "output_tokens": 761,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

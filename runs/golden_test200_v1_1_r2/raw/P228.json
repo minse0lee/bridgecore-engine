@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUsk13PLuc8LkZrY4Nf",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P228\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"with isolated amounts up to 6 inches\",\"tgt_span\":\"6 인치까지 격리 된 금액이 있습니다\",\"description\":\"'isolated amounts'(국지적으로 나타나는 강수량)를 '격리 된 금액'으로 오역함. 강수량이 돈의 액수처럼 읽히고, 국지적·산발적이라는 의미도 사라짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 국지적 강수량(isolated amounts of rainfall)이 '격리 된 금액'으로 바뀌어 대상이 강수량에서 금액으로 달라졌고, 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계는 바뀌지 않았고, 'with'는 '-며'와 '에서는'으로 부가 정보 연결이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기상 예보 정보 전달 → 정보 전달. 문장의 기능은 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 예보 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 기사의 격식 있는 서술체가 '-습니다'로 유지되며 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"국립 허리케인 센터는 올바르게 옮겼고 인치 단위도 그대로 유지했습니다. 오역된 금액은 Semantic에서만 판정합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 694,
+    "output_tokens": 728,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

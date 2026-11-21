@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUn7RUHBcJ4efjjwWk3",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P104\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"추가할 피처가 없을 때 '편집 허용' 아이콘을 클릭해 끈다는 내용이 유지됩니다. features를 '기능'으로 옮긴 것은 통상적 대응이 아니라 어색한 용어이나, 지시 대상과 행위는 맞춰 볼 수 있어 내용 변화로 보지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조건절과 지시의 연결, 'it'이 가리키는 편집 모드/아이콘의 지시 관계가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학습 절차 지시 → 학습 절차 지시. 행동하도록 이끄는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"always be sure to의 반드시 지켜야 할 작업 원칙이 '항상 … 끄십시오'로 유지되어 요구가 선택 사항으로 읽히지 않습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재의 지시문에 맞는 '-십시오' 격식체가 사용되었습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 586,
+    "output_tokens": 586,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

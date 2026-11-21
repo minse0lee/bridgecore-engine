@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUg8ACyD9Bb9GuxPWc7",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P228\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"with isolated amounts up to 6 inches\",\"tgt_span\":\"6 인치까지 격리 된 금액이 있습니다\",\"description\":\"'isolated amounts'(국지적으로 나타나는 강수량)가 '격리 된 금액'으로 오역되어 강수량이라는 대상과 '국지적'이라는 의미가 사라지고 돈의 액수로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 국지적으로 최대 6인치에 이르는 강수량이 '격리 된 금액'으로 바뀌어 대상(강수량→금액)과 국지성이 달라졌고, 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현이 바뀌지 않았고, with의 부가 관계는 '-며'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기상 예측 정보 전달 → 기상 예측 정보 전달. 설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 예보 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 기사의 격식 있는 서술체가 유지되어 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"국립 허리케인 센터와 인치 단위, 지명 표기가 원문 그대로 유지되고 다른 제도나 단위로 바뀌지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 694,
+    "output_tokens": 702,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

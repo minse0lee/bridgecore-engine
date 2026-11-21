@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUuFQ8rZSXdGXoxQaUc",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P263\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Local authorities\",\"tgt_span\":\"국회의원들은\",\"description\":\"행위 주체인 지방 당국(지방 정부 기관)이 국회의원들로 바뀜. 앞 문장의 MPs와 혼동되며 행위 주체의 층위가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물·행위자): 금지를 도입하고 권고한 주체가 지방 당국에서 국회의원들로 바뀌어 누가 했는지가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'학교와 대학에서의 러시아어 교육'이 금지 대상 목록에 이어지고 'even'은 '휴식 시간에도'로 유지되어 지시·연결·초점 관계가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사실 서술(뉴스 보도) → 사실 서술. 조치를 보도하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"독자에게 의무·허가를 부과하는 문장이 아니라 이미 시행된 조치를 보도하는 서술이므로 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 보도의 격식 있는 평서체('~했다')가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"주체가 지방 당국에서 국회의원으로 바뀐 것은 행위자 오류로 Semantic에서 판정하며, 이 문장에서 별도로 판정할 문화 고유의 제도·단위 표기는 달라지지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1045,
+    "output_tokens": 733,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

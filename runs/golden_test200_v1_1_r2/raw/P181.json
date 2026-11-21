@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUqi49jnX8cBp7BLcAW",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P181\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"get your hands dirty\",\"tgt_span\":\"손을 더럽힐 수 있지만\",\"description\":\"관용구 'get your hands dirty'(직접 해 보다)를 문자 그대로 '손을 더럽히다'로 옮겨 '직접 실습해 볼 수 있다'는 뜻이 사라짐\"},{\"id\":\"E002\",\"src_span\":\"more formally motivate the square loss objective\",\"tgt_span\":\"제곱 손실 목표를 보다 공식적으로 동기화 할 수 있습니다\",\"description\":\"'motivate'(동기·근거를 부여하다)를 '동기화'(synchronize)로 옮겨 제곱 손실 목적함수를 정당화한다는 뜻이 전달되지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'get your hands dirty'(직접 해 보다)가 문자 그대로 '손을 더럽히다'로, 'motivate'(근거 제시)가 '동기화'로 바뀌어 독자가 문장의 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"While을 '-지만'으로 옮겨 대조 관계가 유지되고, 지시·초점 표현의 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"설명 → 설명. 앞으로 전개될 내용을 안내하는 설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"can은 가능·능력의 뜻이며 의무·허가·금지 같은 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재 본문의 '-습니다' 설명체가 유지되어 독자 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 없습니다. 관용구 오역은 Semantic에서 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 757,
+    "output_tokens": 828,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUcyisoiLZtCcvZgKD7",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P156\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"many sophisticated features\",\"tgt_span\":\"정교한 기능\",\"description\":\"수량 표현 many가 번역되지 않아 '많은 정교한 기능'이 '정교한 기능'으로 바뀜(수량 누락)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(수량): many가 누락되어 '많은 정교한 기능'이 단순히 '정교한 기능'이 되었으나, 핵심 사실(정교한 기능을 갖추고 복사본당 수만 랜드)은 유지되어 요지와 학습 행동에는 영향이 작습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'어떤 것들'이 앞 문장의 GIS 어플리케이션을 지시하고, 기능과 비용의 병렬 연결도 '-며'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"설명 → 설명. 일부 GIS 소프트웨어의 특성을 설명하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 설명문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학습자료의 설명체 '~습니다'가 유지되어 독자 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"남아공 통화 Rand를 '랜드'로 정확히 음역하고 다른 통화로 바꾸지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1031,
+    "output_tokens": 676,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

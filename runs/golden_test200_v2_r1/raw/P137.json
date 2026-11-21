@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUc4BizA28hBc3C4Y1V",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P137\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"during and outside of regular school hours\",\"tgt_span\":\"정규 학교 시간 이외에\",\"description\":\"정규 학교 시간 중과 그 이외 시간 모두라는 범위에서 '정규 학교 시간 중' 부분이 빠져 정규 학교 시간 이외로만 한정됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(시간): 'during and outside of regular school hours'가 '정규 학교 시간 이외에'로 바뀌어 수업 시간 중 활동 참여 금지가 빠지고 시간 범위가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"누락된 시간 구절은 Semantic에서 판정하며 남은 표현의 지시·연결·범위 표현(only·even 등)은 달라지지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 안내 → 규정 안내로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(적용 범위): 금지가 적용되는 시간 범위가 정규 학교 시간 이외로 좁아져 정규 시간 중의 참여 금지가 빠졌습니다. '참여할 수 없습니다' 자체는 금지로 유지됩니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 안내체('~습니다')가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"MCPS는 기관명이지만 번역이 원어 약칭을 그대로 유지했고, 별도로 판정할 문화·제도 고유 요소는 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 930,
+    "output_tokens": 733,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

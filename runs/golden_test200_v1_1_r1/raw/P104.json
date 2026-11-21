@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUaaEgYtwgZV6AmaprD",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P104\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"추가할 피처가 더 없을 때 '편집 허용' 아이콘을 클릭해 끈다는 내용이 유지됩니다. 'features'를 '기능'으로 옮긴 것은 용어 선택 차이로, 대상이 다른 것으로 바뀌지 않았습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"When 조건절과 주절의 시간·조건 연결이 '없으면'으로 유지되고, 'it'이 가리키는 편집 허용 기능도 '끄십시오'에서 그대로 읽힙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학습 활동 지시 → 학습 활동 지시. 아이콘을 눌러 편집을 끄도록 이끄는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"always be sure to가 '항상 … 끄십시오'로 옮겨져 반드시 지켜야 할 작업 원칙이라는 요구가 유지됩니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학습자료의 공식적 지시문이 '-십시오'체로 유지되어 교재 독자 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 586,
+    "output_tokens": 623,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

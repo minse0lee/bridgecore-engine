@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUqkobRjip5r4reuLEU",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P181\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"get your hands dirty\",\"tgt_span\":\"손을 더럽힐 수 있지만\",\"description\":\"'get your hands dirty'는 직접 실습해 보다(직접 해 보다)라는 관용구인데 문자 그대로 '손을 더럽히다'로 옮겨 관용적 의미가 전달되지 않음\"},{\"id\":\"E002\",\"src_span\":\"more formally motivate the square loss objective\",\"tgt_span\":\"제곱 손실 목표를 보다 공식적으로 동기화 할 수 있습니다\",\"description\":\"motivate(동기·근거를 부여하다/정당화하다)를 '동기화'(synchronize)로 오역하여 의미가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'get your hands dirty'(직접 해 보다)가 문자 그대로 '손을 더럽히다'로, motivate(근거를 제시하다)가 '동기화'로 바뀌어 독자가 문장의 요지를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"While→'-지만' 양보 관계와 'via assumptions'→'가정을 통해'가 유지되며, 오역을 바로잡으면 함께 풀리는 문제라 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개념 설명·내용 안내 → 개념 설명·내용 안내. 앞으로의 설명 방향을 안내하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"can은 능력·가능성의 의미이며 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재 본문의 '-ㅂ니다' 설명체가 유지되어 독자와의 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 757,
+    "output_tokens": 837,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

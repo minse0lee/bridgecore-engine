@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUvzE8teAmFEpgdiBZN",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P298\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the sun is only really up for about 90 minutes\",\"tgt_span\":\"태양은 정말 약 90 분 동안입니다\",\"description\":\"'뜬 상태(is up)'라는 서술이 빠져 '태양은 90분 동안입니다'로 옮겨져 태양이 무엇을 하는지 알 수 없게 됨. only도 누락되어 '90분밖에 안 된다'는 한정이 사라짐\"},{\"id\":\"E002\",\"src_span\":\"the proper solar panels on the house\",\"tgt_span\":\"집에 적절한 태양 전지 패널\",\"description\":\"'proper'를 '적절한'으로 옮기고 'on the house'를 '집에'로 처리해 '집 위의 제대로 된 태양광 패널' 관계가 '집에 적절한 패널'로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'up(떠 있다)' 서술과 only(~밖에 안 됨)가 빠져 태양이 하루 약 90분만 떠 있다는 핵심 내용이 전달되지 않고, 패널 수식도 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3: only가 사라져 90분이 '한정된 짧은 시간'이라는 범위가 빠졌고, 남은 문장도 서술어가 맞지 않아 '패널에 따르면'과 주절의 연결이 흐트러집니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"근거를 들어 사실을 진술하는 기능 → 진술 기능. 번역이 불완전해도 서술 기능 자체는 같은 종류입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가를 정하는 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소셜미디어 게시물의 평서 서술이 '-ㅂ니다'체로 옮겨져 관계상 큰 문제가 없고 어색함만으로는 훼손이 아닙니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 523,
+    "output_tokens": 904,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

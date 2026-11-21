@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUn63d6BF4VHreAVWJF",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P108\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"if you apply for or open a lot of new accounts\",\"tgt_span\":\"신청하거나 짧은 시간에 새로운 계정을 많이 열면\",\"description\":\"'apply for'의 목적어(새 계정)가 번역에서 불분명해지고, '신청하거나'가 무엇을 신청하는지 알 수 없게 됨. 다만 '새로운 계정을 신청하거나 열면'으로 읽을 여지는 있음.\"},{\"id\":\"E002\",\"src_span\":\"This includes getting a new card so you can transfer balances\",\"tgt_span\":\"이 잔액을 전송할 수 있도록 새로운 카드를 얻는 포함\",\"description\":\"'This includes'가 '이 … 포함'으로 깨져 '앞서 말한 행위(신용 점수를 떨어뜨릴 수 있는 행위)에 포함된다'는 관계가 사라지고, '잔액을 이체할 수 있도록'이 '잔액을 전송'으로 옮겨져 불명확함.\"},{\"id\":\"E003\",\"src_span\":\"or opening a new store card account so you can get a discount\",\"tgt_span\":\"또는 할인을 얻을 수 있도록 새로운 스토어 카드 계정을 열 수 있습니다.\",\"description\":\"'포함되는 행위'를 나열하는 설명이 '계정을 열 수 있습니다'라는 가능성 서술로 바뀌어, 새 스토어 카드를 여는 것이 신용 점수 하락 사례에 포함된다는 내용이 사라짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 두 번째 문장이 '신용 점수를 떨어뜨릴 수 있는 행위의 예시'에서 '카드를 얻는 포함', '계정을 열 수 있다'는 가능성 서술로 바뀌어 독자가 요지를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\",\"E003\"],\"reason\":\"판단 질문 1·2: 'This'가 앞 문장의 행위를 가리키는 지시 관계와 '앞 내용에 포함되는 예시'라는 연결이 사라지고 '이'가 '잔액'을 수식하는 것처럼 읽힙니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"원문 기능 → 번역 기능: 신용 점수 하락 원인의 예시를 드는 설명 → 새 스토어 카드 계정을 열 수 있다는 가능성 설명으로 약하게 바뀌어 예시 제시 기능이 흐려집니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"may는 가능성의 뜻이고 의무·허가·금지를 정하는 문장이 아니라 설명문이므로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재 본문의 '~습니다' 설명체가 유지되며 관계에 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"신용 점수·카드 계정 등은 문화 고유의 제도·단위 판정 대상이 아니며 별도로 평가할 문화 요소가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 885,
+    "output_tokens": 1257,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

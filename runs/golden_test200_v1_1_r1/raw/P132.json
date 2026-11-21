@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUbr2zL9qc8xhJUNuCK",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P132\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Shifting to a four-day week\",\"tgt_span\":\"4 일 주로 이동은\",\"description\":\"'주 4일제(주 4일 근무)로의 전환'이 '4일 주로 이동'으로 옮겨져 근무제 전환이라는 의미가 불분명해짐. 숫자 4는 원문의 four와 대응하므로 수치 오류는 아님\"},{\"id\":\"E002\",\"src_span\":\"the Trades Union Congress\",\"tgt_span\":\"노동 조합 회의\",\"description\":\"영국 노동조합 총연맹(TUC)이라는 고유 기관명이 일반 어휘 '노동 조합 회의'로 옮겨져 기관의 정체성이 전달되지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'four-day week'로의 전환이 '4 일 주로 이동'으로 바뀌어 번역문만 읽는 독자가 요지(주 4일 근무제 도입)를 이해하기 어렵습니다. 기관명도 일반 명사처럼 바뀌었습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계는 유지됩니다. 승인 주체와 수단(as a way for)의 관계가 남아 있고, 수동태도 '~에 의해 승인되었습니다'로 대응합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 사실 서술 → 사실 서술. 승인 사실을 알리는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 같은 규범 표현이 없는 뉴스 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 본문의 서술체가 '~되었습니다'로 유지되며 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: 영국의 노동조합 연합 기관인 Trades Union Congress가 '노동 조합 회의'라는 일반 어휘로 옮겨져 제도적 의미가 전달되지 않습니다. 주 4일제의 의미는 Semantic에서 판정하며, 승인 주체의 문맥은 일부 남아 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 719,
+    "output_tokens": 946,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

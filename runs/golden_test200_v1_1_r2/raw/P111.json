@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUnQ2N421ztohqNbZDb",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P111\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"on the Senate floor\",\"tgt_span\":\"상원 바닥에\",\"description\":\"Senate floor(상원 본회의장)를 '상원 바닥'으로 직역하여 제도적 의미가 전달되지 않음\"},{\"id\":\"E002\",\"src_span\":\"first key procedural vote\",\"tgt_span\":\"첫 번째 키 절차 투표\",\"description\":\"key(핵심적인)를 '키'로 음차·오역하여 '핵심 절차 투표'의 의미가 전달되지 않음\"},{\"id\":\"E003\",\"src_span\":\"a senior GOP leadership aide has told CNN\",\"tgt_span\":\"수석 공화당 리더십 보좌관은 CNN에 말했다\",\"description\":\"GOP를 공화당으로 옮긴 것은 통용 대응이지만 'senior'를 '수석'으로 옮겨 직위 의미가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'Senate floor'가 '상원 바닥'으로, 'key'가 '키'로 바뀌어 의미가 달라졌으나 투표 예정 시점, 인용 출처 등 핵심 사실은 유지되어 요지는 이해 가능합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현에서 달라진 것이 없고 'no later than'도 '금요일 이내'로 범위가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 보도 → 뉴스 보도. 정보 전달 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범적 의무·허가·금지 표현이 없는 뉴스 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 보도의 평서 서술체가 유지되며 관계 표현상 달라진 것이 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 'Senate floor'라는 제도 용어를 '상원 바닥'이라는 일반 어휘로 옮겨 본회의장이라는 제도적 의미가 한국어 독자에게 전달되지 않습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 664,
+    "output_tokens": 915,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

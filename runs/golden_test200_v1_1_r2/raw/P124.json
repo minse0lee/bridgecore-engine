@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUnyKb17pXGRdYxyx1T",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P124\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"should never cross over each other\",\"tgt_span\":\"서로를 가로지르지 않아야 합니다\",\"description\":\"never(절대 ~않는다)의 강한 부정이 사라져 '않아야 합니다'로 옮겨져 금지 강도가 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"윤곽선이 닿을 수는 있으나 서로 교차하지 않는다는 내용이 유지됩니다. never의 강도 변화는 규범 강도이므로 Deontic에서만 다룹니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-지만'이 but의 대조 관계를 유지하고, '서로를'이 윤곽선 상호 관계를 올바르게 가리킵니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개념 설명(예시) → 개념 설명(예시). 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'should never cross'(절대 교차하면 안 됨)가 '가로지르지 않아야 합니다'로 옮겨져 never의 금지 강도가 약해졌으나, 규범 범주는 여전히 당위로 읽히고 독자의 이해와 행동에 큰 차이가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학습자료의 '~합니다' 설명체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1049,
+    "output_tokens": 675,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

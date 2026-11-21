@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUgk8fhunncT11YnguG",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P240\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"new devolved aggregates tax\",\"tgt_span\":\"새로운 퇴적물 세금\",\"description\":\"aggregates tax(골재세)를 '퇴적물 세금'으로 오역하고, devolved(권한이양된)가 누락됨\"},{\"id\":\"E002\",\"src_span\":\"that should accelerate the shift\",\"tgt_span\":\"변화를 가속화해야하는 새로운 퇴적물 세금\",\"description\":\"예상의 should(가속화할 것으로 기대됨)를 '가속화해야 하는'으로 옮겨 세금이 해야 할 의무처럼 읽히고 확실성·기대 의미가 달라짐\"},{\"id\":\"E003\",\"src_span\":\"virgin products\",\"tgt_span\":\"처음 사용되는 제품\",\"description\":\"virgin products(새 원료로 만든 제품)를 '처음 사용되는 제품'으로 옮겨 의미가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: aggregates tax가 '퇴적물 세금'으로, devolved가 누락, virgin products가 '처음 사용되는 제품'으로, 예상의 should가 당위로 바뀌어 대상과 내용이 달라져 독자가 어떤 세금인지 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"관계절이 세금을 수식하는 구조와 두 절의 연결은 유지되며 문제는 단어 오역으로 Semantic에서 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"정책 계획 설명 → 정책 계획 설명으로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"원문 should는 세금이 가속화할 것이라는 예상 의미로 규범이 아니라서 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 본문의 격식체 '~ㅂ니다'가 문맥에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: devolved aggregates tax라는 스코틀랜드 이양 조세 제도 용어가 '퇴적물 세금'이라는 일반 어휘로 바뀌어 골재세와 권한이양의 제도적 의미가 전달되지 않습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 838,
+    "output_tokens": 970,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

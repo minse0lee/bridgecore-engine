@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUiWHmznn6YS57fmZqo",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P280\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"by the end of the decade\",\"tgt_span\":\"2020년까지\",\"description\":\"'10년 말(2030년 무렵)'이라는 기한이 '2020년'이라는 다른 연도로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"a carve out for winemakers from the requirement that … 10% of products must be supplied in reusable containers\",\"tgt_span\":\"규정에서 10%의 면제를 받았으며\",\"description\":\"와인 제조업체에 대한 규정 적용 제외(10% 재사용 용기 의무 면제)가 '10%의 면제'로 바뀌어, 면제의 대상이 의무 비율이 아니라 면제의 크기처럼 읽힘\"},{\"id\":\"E003\",\"src_span\":\"rising to 40% in 2040\",\"tgt_span\":\"2040년에는 40%로 늘어나게 된다\",\"description\":\"재사용 용기 의무 비율이 2040년에 40%로 상승한다는 내용이 면제가 40%로 늘어난다는 뜻으로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: '10년 말'이 '2020년'으로 바뀌었고, 10%·40%가 의무 비율이 아니라 면제의 크기·증가로 읽혀 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E003\"],\"reason\":\"질문 2: 'rising to 40%'의 대상이 의무 비율인데, 번역문에서는 면제가 40%로 늘어나는 것으로 이어져 앞뒤 연결·지시 관계가 다르게 읽힙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 사실 보도 → 뉴스 사실 보도로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"질문 2: 의무의 적용 시점과 비율 및 면제 범위가 달라져, 와인 제조업체가 적용받지 않는 의무의 내용이 다르게 이해됩니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 서술체 '~했으며, ~된다'가 유지되며 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"각료회의 등 EU 제도 대상은 일반적으로 이해 가능한 표현으로 옮겼습니다. 연도 오류는 Semantic에서 판정합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 1105,
+    "output_tokens": 1000,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

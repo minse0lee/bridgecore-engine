@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUgUAEBHsMkJZVsDKWB",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P236\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I’ll stand defiantly for the Federation\",\"tgt_span\":\"나는 연방을 위해 무시무시하게 서있을거야\",\"description\":\"defiantly(반항적으로, 당당히 맞서)가 '무시무시하게'(terrifyingly)로 오역되어 결의의 태도가 위협적·공포스러운 것으로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"Orson said defiantly\",\"tgt_span\":\"오슨은 무시무시하게 말했다\",\"description\":\"said defiantly(반항적으로 말했다)가 '무시무시하게 말했다'로 오역되어 말하는 태도가 달라짐\"},{\"id\":\"E003\",\"src_span\":\"“Well, I’ll stand defiantly for the Federation”\",\"tgt_span\":\"“글쎄, 나는 연방을 위해 무시무시하게 서있을거야”\",\"description\":\"하급 신병이 상관 앞에서 밝히는 결의에 반말 종결('-ㄹ거야')을 써서 관계에 맞지 않는 격식이 됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: defiantly(저항·반항하는 태도)가 '무시무시하게'(공포스럽게)로 바뀌어 서 있는 방식과 말하는 방식의 내용이 달라졌고, 독자가 인물의 태도를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계는 유지되며 대명사나 연결어 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"결의 표명 → 결의 표명. 상관 앞에서 결의를 밝히는 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 개인 결의 표명이며 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 1: 평가조건상 신병이 상관(중위·소위·소대장) 앞에서 하는 말인데 반말 '-ㄹ거야'가 쓰여 관계에 맞는 높임이 아닙니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"고유 인명과 가상의 연방 외에 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 667,
+    "output_tokens": 976,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

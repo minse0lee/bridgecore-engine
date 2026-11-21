@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUrHAE12i4QTpq2UbM7",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P193\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"possibility landslides in the desert\",\"tgt_span\":\"사막에서 가능성 산사태를 일으킬 것입니다\",\"description\":\"원문의 'possibility'(possible의 오타로 보임)를 '가능성'으로 직역해 산사태가 가능성이라는 불확실성을 띤다는 점이 어색하게 남음. 사막에서 발생한다는 장소는 유지되나 '플래시 홍수, 잔해 흐름과 …'의 병렬 구조에서 '사막에서'가 끼어들어 범위가 흐려짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"국지적 1~4인치 비, 위험한 급류 홍수, 잔해 흐름, 가능성 있는 산사태, 사막이라는 항목이 모두 유지됩니다. '가능성 산사태'는 어색하지만 원문의 possibility를 그대로 옮긴 것이라 확실성이 달라지지 않았습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현의 변화가 없고, 병렬 항목과 '사막에서'의 범위도 원문과 같은 방식으로 읽힙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기상 피해 예보 설명 → 기상 피해 예보 설명으로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없고 will은 예측입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 예보 문체가 '~것입니다' 격식체로 유지되며 특별한 관계 표지는 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인치 단위를 환산 없이 그대로 유지해 원문과 같은 단위를 가리킵니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 617,
+    "output_tokens": 791,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

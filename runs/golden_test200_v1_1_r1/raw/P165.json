@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUdLfCVmpxYhWyzWxSg",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P165\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"back tracking\",\"tgt_span\":\"뒤를 쫓는\",\"description\":\"back tracking(되돌아가기·후퇴하며 되짚기)이 '뒤를 쫓는'(추적·추격)으로 옮겨져 다른 행위로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"should really act faster\",\"tgt_span\":\"더 빨리 행동해야 합니다\",\"description\":\"강조 부사 really가 번역에 반영되지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위): back tracking(되돌아가기)이 '뒤를 쫓는'(추적)으로 바뀌어 대비되는 행위가 달라졌으나, 더 빨리 행동하자는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'instead of'가 '대신에'로 옮겨져 대체·대조 관계가 유지되고 지시·초점 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"행동 촉구·권고 → 행동 촉구·권고. 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범적 권고인 should가 '-해야 합니다'로 통상 대응되어 주체(우리)와 강도가 유지됩니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 공동체에 제안하는 어조가 '-합니다' 체로 무리 없이 유지되고 관계를 바꾸는 호칭은 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 575,
+    "output_tokens": 748,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

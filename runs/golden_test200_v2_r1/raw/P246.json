@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUh62kWTBD38gxXGoeU",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P246\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"only large (> 100 ha) contiguous areas\",\"tgt_span\":\"큰 (> 100 헥타르) 인접 지역을 선택합니다\",\"description\":\"only가 번역되지 않아 큰 인접 지역'만' 선택한다는 한정이 사라지고, 큰 인접 지역을 선택한다는 서술로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"농장 건설 목적, 100ha 초과, 인접 지역 선택이 모두 유지되고 only의 한정 뉘앙스만 약해졌으며, 선택 기준은 '큰 지역'이라는 점에서 전달됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(범위): only가 빠져 '큰 인접 지역만 선택한다'가 '큰 인접 지역을 선택한다'로 읽혀, 다른 지역이 제외되는지에 대한 범위 한정이 사라졌습니다. 'so'의 인과 연결은 '그래서'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"선택 기준 설명 → 선택 기준 설명. 절차를 설명하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 표현이 아니라 학습 절차 속 서술이므로 평가할 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재의 '우리 ~합니다' 서술체가 유지되며 관계에 맞습니다. '싶어,'의 반말투 연결어미는 어색함일 뿐입니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"ha를 '헥타르'로 옮겨 같은 면적 단위를 가리키며 수치도 그대로입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 569,
+    "output_tokens": 792,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

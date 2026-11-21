@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUeKjfM5ie1oJdDsEeZ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P186\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Assange\",\"tgt_span\":\"어쌔신 크리스토퍼\",\"description\":\"소송 대상 인물 Assange(줄리언 어산지)가 '어쌔신 크리스토퍼'라는 다른 이름으로 잘못 옮겨져, 소송 대상이 누구인지 알 수 없게 됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물·대상): 소송 대상 Assange가 '어쌔신 크리스토퍼'로 잘못 음역·오역되어 지시 대상이 사라졌고, 독자가 소송 대상을 다른 인물로 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'소송 여부와 상관없이'가 regardless of whether의 양보 관계를 유지하며, 대명사·초점 관계의 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 입장 고백 → 화자의 입장 고백. 같은 종류의 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"must confess는 화자가 자신의 심정을 털어놓는 관용적 표현으로, 의무·허가·금지를 정하는 규범 의미가 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"블로그 형식의 1인칭 서술이 '저는 ~합니다' 정중체로 옮겨져 서술 상황에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명·지명 외에 문화·제도 고유의 대상이 없으며, 인명 오역은 Semantic에서 판정합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 696,
+    "output_tokens": 732,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

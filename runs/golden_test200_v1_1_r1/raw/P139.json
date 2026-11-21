@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUc8qXbv3gGaojxB4oW",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P139\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a Class B misdemeanour\",\"tgt_span\":\"클래스 B 미성년자\",\"description\":\"경범죄(misdemeanour)가 '미성년자'로 오역되어 혐의의 성격이 사람(나이 집단)으로 바뀌고 범죄 등급·제도적 의미가 사라짐\"},{\"id\":\"E002\",\"src_span\":\"punishable by a day in jail and a $2,000 fine\",\"tgt_span\":\"감옥에서 하루와 $ 2,000의 벌금에 의해 처벌 혐의를 받고있다\",\"description\":\"'징역 하루와 벌금 2,000달러로 처벌될 수 있는' 형량 서술이 '벌금에 의해 처벌 혐의를 받는다'로 바뀌어 형량의 의미와 관계가 흐트러짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: misdemeanour가 '미성년자'로 바뀌어 혐의 내용이 달라졌고, 형량도 처벌 가능한 형으로 읽히지 않고 '처벌 혐의를 받는다'로 바뀌어 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: 혐의에 대한 처벌 가능 형량을 덧붙이는 수식 관계가 깨져 '벌금에 의해 처벌 혐의를 받는다'로 연결되고, 형량이 혐의의 부가 설명으로 읽히지 않습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 사실 설명 → 뉴스 사실 설명. 혐의와 처벌을 알리는 서술 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 아니라 기소 사실을 보도하는 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"보도문의 중립적 서술 태도가 유지되며 관계에 맞지 않는 높임·호칭 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: Class B misdemeanour라는 미국 형사 제도의 범죄 등급을 '클래스 B 미성년자'로 옮겨 한국어 독자가 경범죄 분류라는 제도적 의미를 이해할 수 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 582,
+    "output_tokens": 1002,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

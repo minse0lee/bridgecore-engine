@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUuaNuHDasi5ZRoQ5v1",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P271\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"told PA\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"발언을 전한 통신사(PA, Press Association)가 번역문에서 빠짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상): 발언 대상이자 출처인 PA가 누락되었으나 핵심 사실(가격 인상 계획 없음, 비용 안정 전망)은 유지되어 요지는 크게 달라지지 않습니다. 'the year ahead'를 '앞으로 1년'으로 옮긴 것은 통상적 대응이며 힌트의 수치 [1]은 오경보입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'as it expects'가 '예상되기 때문에'로 인과 관계를 유지하며 지시·초점 관계도 바뀌지 않았습니다. 누락은 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 기사의 발언 인용·보도 → 발언 보도. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 보도 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 보도문의 객관적 서술체('~말했다')가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명과 일반 경제 표현만 있고 별도로 판정할 문화 고유의 제도·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1081,
+    "output_tokens": 691,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

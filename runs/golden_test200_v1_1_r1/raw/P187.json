@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUeR3Q3ewELD4d7HoU6",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P187\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a school administrator\",\"tgt_span\":\"학교 행정부\",\"description\":\"학교 행정관(교직원 개인)이 '학교 행정부'라는 조직으로 바뀜. 상의 대상 담당 주체가 달라질 수 있으나 통상적 대응에 가까움\"},{\"id\":\"E002\",\"src_span\":\"to determine if the activity will be allowed during the school day, the time and place, and the type of supervision required\",\"tgt_span\":\"결정할 책임이 있습니다\",\"description\":\"학생이 행정관과 상의하여 확인(determine)하는 것이 학생이 직접 '결정'하는 것으로 읽혀 결정 주체가 학생으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1(행위자·행위): 허용 여부·시간·장소·감독 유형을 행정관과 상의해 확인한다는 내용이 학생이 '결정'한다는 것으로 읽혀 누가 무엇을 정하는지가 달라졌습니다. 독자가 학생의 역할을 다르게 이해하게 되므로 major입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현의 대상이 바뀐 곳이 없고, 상의하여 결정한다는 목적 연결은 '-하여'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학생 책임 안내 → 학생 책임 안내. 규정 설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2(주체·범위): 책임은 '책임이 있습니다'로 유지되었으나, 학생이 해야 할 일이 행정관과 상의해 확인하는 것에서 직접 결정하는 것으로 바뀌어 학생에게 지워진 의무의 내용과 권한 주체가 달라졌습니다. 평가조건이 담당 주체 변경을 불허합니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내문에 맞는 '-습니다' 격식체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학교 행정 담당자를 '학교 행정부'로 옮긴 것은 학교 행정 조직을 가리키는 통용 표현으로 한국 제도로 대체하지 않았고 의미 전달에 지장이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1000,
+    "output_tokens": 984,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

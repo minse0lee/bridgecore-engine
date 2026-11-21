@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUpSQHTpoNoXN8P3YpL",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P156\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"many sophisticated features\",\"tgt_span\":\"정교한 기능\",\"description\":\"수량 표현 many가 번역문에서 빠져 '많은 정교한 기능'이 '정교한 기능'으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(수량): many가 빠져 '정교한 기능이 많다'는 내용이 단순히 '정교한 기능이 있다'로 바뀌었습니다. 다만 수만 랜드, 복사본당 비용 등 핵심 사실은 유지되어 요지가 달라지지 않으므로 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Some'이 '어떤 것들은'으로 앞 문장의 GIS 어플리케이션을 가리키고, 기능과 비용을 '-며'로 잇는 연결도 유지됩니다. 누락은 지시·연결·초점 관계를 바꾸지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"GIS 어플리케이션 종류 설명 → 설명. 설명 기능이 그대로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 사실 설명 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재 본문의 '~습니다' 설명체가 유지되어 독자 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"통화 단위 Rand를 '랜드'로 정확히 음역해 다른 통화로 바꾸지 않았고, 수치 '수만'도 유지되어 통용 표기로 이해할 수 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1031,
+    "output_tokens": 747,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

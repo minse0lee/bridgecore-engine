@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUdoeRUTRYtkE2aJVYq",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P175\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the speaker\",\"tgt_span\":\"스피커\",\"description\":\"하원의장(Speaker of the House, 존슨)이 음향기기 '스피커'로 음역되어 지시 대상을 알 수 없게 됨\"},{\"id\":\"E002\",\"src_span\":\"to keep things open\",\"tgt_span\":\"상황을 열어 유지하기 위해\",\"description\":\"정부 기관을 계속 운영한다는 뜻이 '상황을 열어 유지'로 오역됨\"},{\"id\":\"E003\",\"src_span\":\"with that deadline just 9 days away\",\"tgt_span\":\"그 마감일로부터 불과 9 일 떨어져\",\"description\":\"마감일이 9일 앞으로 다가왔다는 뜻이 마감일 '로부터' 떨어져 있다는 표현으로 바뀌어 기준 시점 관계가 모호해짐\"},{\"id\":\"E004\",\"src_span\":\"the speaker may soon break a promise he made\",\"tgt_span\":\"스피커는 곧 그가 만든 약속을 깨질 수 있음을 의미\",\"description\":\"'깨다'가 '깨지다'로 바뀌어 약속을 깨는 행위자가 불분명해짐(경미)\"},{\"id\":\"E005\",\"src_span\":\"his right flank\",\"tgt_span\":\"자신의 오른쪽 측면\",\"description\":\"정치적 우파 의원 집단이 신체·위치상 '오른쪽 측면'으로 직역되어 의미가 전달되지 않음\"},{\"id\":\"E006\",\"src_span\":\"a CR\",\"tgt_span\":\"CR\",\"description\":\"임시예산(continuing resolution)을 약어 그대로 두어 제도적 의미가 전달되지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\",\"E004\",\"E005\",\"E006\"],\"reason\":\"판단 질문 1: 하원의장이 '스피커'로, 정부 운영 유지가 '상황을 열어 유지'로, 우파 지지층이 '오른쪽 측면'으로 바뀌어 인물·행위·대상이 달라져 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E004\"],\"reason\":\"판단 질문 1: '스피커'가 누구인지 알 수 없고, '약속을 깨질 수 있음'에서 그가 약속을 깨는 주체인 관계가 흐려졌습니다. 다만 CR 통과가 필요하다는 점과 앞뒤 연결은 대체로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 상황 설명 → 뉴스 상황 설명. 서술 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"need to는 의회가 예산안을 통과시켜야 한다는 정치적 필요를 보도하는 말이고, may는 가능성의 뜻이라 규범 의미가 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 서술체가 유지되며 화자·청자 관계에서 판정할 호칭이나 높임 변화는 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E006\"],\"reason\":\"판단 질문 2: 미국 의회의 제도 용어인 CR(임시예산안)이 약어로만 남아 한국어 독자가 제도적 의미를 이해할 수 없습니다. 오역된 '스피커'는 Semantic에서만 판정합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1119,
+    "output_tokens": 1326,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

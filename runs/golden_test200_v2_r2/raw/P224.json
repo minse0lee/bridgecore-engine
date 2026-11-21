@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUsdKx6mniJ1M2WYJcQ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P224\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the superintendent of schools\",\"tgt_span\":\"학교 교장\",\"description\":\"교육감(학군 총괄 책임자)을 '학교 교장'으로 오역하여 상급자의 직위·지시 주체가 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물·대상): superintendent of schools(교육감)가 '학교 교장'으로 바뀌어 책임자가 누구의 지명자인지가 달라졌고, 독자가 직위 체계를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'지명자이며 … 검토한다'의 연결과 지시 관계는 유지되며, 문제는 단어 오역이라 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"직책과 책임을 설명하는 규정 안내 → 규정 안내로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(주체): shall review의 검토 의무는 유지되지만, 검토를 수행하는 책임자가 누구를 대리하는지(교육감 → 학교 교장)가 달라져 권한·담당 주체 관계가 바뀌었습니다. 평가조건이 담당 주체 변경을 불허합니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 문체가 '~한다' 평서체로 유지되며 규정문으로 허용되는 수준입니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2: 미국 학군의 교육감 직위가 개별 학교 교장이라는 다른 직위로 바뀌어 제도적 의미가 전달되지 않습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 748,
+    "output_tokens": 765,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

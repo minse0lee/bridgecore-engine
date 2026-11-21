@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUdt83bSVF2QWB6dGN7",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P175\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"with that deadline just 9 days away\",\"tgt_span\":\"그 마감일로부터 불과 9 일 떨어져\",\"description\":\"마감이 9일 남았다는 시간 관계가 어색하게 옮겨졌으나 해석은 가능함(오류 아님 수준이지만 구조 영향 확인)\"},{\"id\":\"E002\",\"src_span\":\"to keep things open\",\"tgt_span\":\"상황을 열어 유지하기 위해\",\"description\":\"정부 기관을 계속 열어 두는(폐쇄 방지) 의미가 '상황을 열어 유지'로 오역됨\"},{\"id\":\"E003\",\"src_span\":\"the speaker\",\"tgt_span\":\"스피커\",\"description\":\"하원의장(Speaker)이 '스피커'(음향기기)로 오역되어 지시 대상이 달라짐\"},{\"id\":\"E004\",\"src_span\":\"may soon break a promise he made\",\"tgt_span\":\"그가 만든 약속을 깨질 수 있음을 의미\",\"description\":\"'약속을 깰 수 있다'가 '약속이 깨질 수 있다'로 되어 행위자 불명확, 또한 의장 지칭이 불명확함\"},{\"id\":\"E005\",\"src_span\":\"his right flank\",\"tgt_span\":\"자신의 오른쪽 측면\",\"description\":\"정치적 우파 진영·강경파를 뜻하는 비유가 물리적 '오른쪽 측면'으로 직역됨\"},{\"id\":\"E006\",\"src_span\":\"meaning the speaker may soon break a promise ... largely to appease his right flank.\",\"tgt_span\":\"말했다, 스피커는 곧 … 의미, 주로 …달래기 위해.\",\"description\":\"절 사이가 쉼표로 끊겨 나열되어 '그 말이 의미하는 결과'라는 관계절 연결이 무너짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\",\"E003\",\"E004\",\"E005\"],\"reason\":\"판단 질문 1: 정부 운영 유지가 '상황을 열어 유지'로, 하원의장이 '스피커'로, 우파 지지층 달래기가 '오른쪽 측면'으로 바뀌어 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E006\"],\"reason\":\"문장 전체 구조가 무너져 McConnell의 발언과 'meaning' 이하의 결과·절 관계를 알 수 없고, 단어를 바로잡아도 풀리지 않아 질문 2에 해당합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 서술 → 뉴스 서술. 사실을 전달하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"need to는 의회에 대한 필요성 보도이고 may는 가능성 표현으로, 규범을 정하는 문장이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 본문의 평서 서술체 '-했다/-있음'이 유지되며 관계상 문제 없음.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 2: 미국 하원의장이라는 제도 직위 'Speaker'가 '스피커'로 옮겨져 한국어 독자가 제도적 의미를 이해할 수 없습니다. 인명 McConnell 외에 CR 등도 설명 없이 남았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 1119,
+    "output_tokens": 1315,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

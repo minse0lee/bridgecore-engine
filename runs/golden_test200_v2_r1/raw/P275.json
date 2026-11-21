@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUiRRanRsPpWtSe9fGV",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P275\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"in part because harsh rhetoric and policies introduced by the Trump administration have made it harder to place children with sponsors\",\"tgt_span\":\"트럼프 행정부가 도입 한 가혹한 수사와 정책으로 인해 월간 국경 횡단이 상대적으로 변함없이 유지되고 있지만\",\"description\":\"어린이를 보호자(후견인)에게 인도하기 어려워졌다는 내용이 빠지고, 가혹한 정책이 국경 횡단이 변함없는 원인인 것처럼 인과 대상이 바뀜. 'in part'도 누락됨\"},{\"id\":\"E002\",\"src_span\":\"even though monthly border crossings have remained relatively unchanged\",\"tgt_span\":\"월간 국경 횡단이 상대적으로 변함없이 유지되고 있지만\",\"description\":\"'변함없이 유지되고 있지만'으로 옮겨 시제·완료 의미가 약해졌으나 의미는 대체로 같음(경미)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인과·행위): 가혹한 정책이 아동을 후견인에게 인도하기 어렵게 만들어 구금 아동이 늘었다는 원인이 사라지고, 정책이 국경 횡단 수가 유지되는 원인처럼 바뀌었으며 '부분적으로'도 누락되었습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(연결): 번역문에서 '인해' 절이 국경 횡단 유지의 원인으로 붙어, 원문의 '구금 아동 증가의 부분적 원인'이라는 인과 연결이 다른 관계로 읽힙니다. 단어 오역이 아니라 절 연결 구조가 달라져 Textual에도 기록합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 상황 설명 → 뉴스 상황 설명. 사실을 전달하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무를 정하는 표현이 없는 보도 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 보도의 격식체 '-했습니다'가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·단위·관습이 없습니다(인명·정부 명칭 정도).\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 714,
+    "output_tokens": 1003,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

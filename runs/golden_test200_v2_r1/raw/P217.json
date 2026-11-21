@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUfow6YrJNn2XBrb4wW",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P217\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"The JSNDI employee\",\"tgt_span\":\"직원은\",\"description\":\"기관명 JSNDI가 빠지고 '직원'으로만 옮겨 소속이 사라짐. 문단 문맥상 같은 직원임을 알 수 있어 영향은 작음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 행위자의 소속(JSNDI)이 누락되어 정보가 일부 빠졌으나, 맨홀에 얼굴을 대고 설명한 핵심 사건과 '3분의 1'은 그대로 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'직원'이 같은 인물을 가리키고, 얼굴을 대고 들여다보며 설명한다는 연결과 범위도 유지됩니다. 단순 누락은 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 직원이 설명하는 장면을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장은 의무·허가·금지를 정하는 서술이 아니라 과거 사건 묘사입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"출판물 서술체 '-했다'가 유지되고 관계상 문제될 호칭이나 태도 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"기관명 약어 JSNDI가 번역에서 빠진 것은 정보 누락으로 Semantic에서 판정합니다. 그 밖에 별도로 판정할 문화·제도 대상은 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 958,
+    "output_tokens": 736,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

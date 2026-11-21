@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUrKCW6hdQrgfTbHmu3",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P193\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"possibility landslides in the desert\",\"tgt_span\":\"사막에서 가능성 산사태\",\"description\":\"원문의 'possibility'(possible의 오타로 보이는 표현)를 '가능성'으로 옮겨, 산사태 발생이 가능하다는 불확실성이 사라지고 홍수·잔해 흐름과 같은 확정적 결과로 읽힘. 병렬 구조도 흐트러짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): 산사태가 '발생할 수 있다'는 가능성 표현이 '가능성 산사태'로 옮겨져 확정적 결과로 읽힙니다. 핵심 사실(폭우로 인한 홍수, 잔해 흐름, 산사태 위험)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'가능성'의 오역을 바로잡으면 수식 관계도 풀리므로 Semantic에서만 판정하며, 남은 연결과 범위는 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기상 위험 상황 설명 → 기상 위험 상황 설명으로 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 예보 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 기사의 격식 있는 서술체가 '-ㄹ 것입니다'로 무리 없이 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인치 단위를 그대로 유지하여 다른 단위로 바꾸거나 환산하지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 617,
+    "output_tokens": 751,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

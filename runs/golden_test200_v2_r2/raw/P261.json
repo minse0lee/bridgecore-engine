@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUuFbJLFWuBoPSjDDVr",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P261\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Hit what exactly?\",\"tgt_span\":\"정확히 무엇을 치기?\",\"description\":\"의문문 종결이 명사형 '치기?'로 바뀌어 문장 형식이 어색해졌으나 의미(정확히 무엇을 맞히는가)는 유지됨. Hit(부딪히다)을 '치다'로 옮긴 것도 통상적 대응 범위로 볼 수 있음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'정확히 무엇을'과 'hit'에 해당하는 행위가 유지되어 무엇에 부딪히는지 묻는 내용이 같습니다. 종결어미가 어색할 뿐입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'exactly'가 '정확히'로 남아 초점이 'what'에 붙은 범위가 유지되며 지시·연결 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞 문장의 hit something에 대해 구체적 대상을 묻는 질문 → 같은 질문 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 질문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 청중에게 던지는 캐주얼한 자문형 질문이며, 번역도 격식 면에서 관계를 바꾸지 않습니다. 어색한 종결은 훼손 사유가 아닙니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 870,
+    "output_tokens": 711,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

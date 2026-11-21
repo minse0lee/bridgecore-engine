@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUoreXpUTyywP67uofz",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P143\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Fan\",\"tgt_span\":\"팬\",\"description\":\"인물 이름 Fan(Christine Fan, 성)을 일반 명사 '팬'으로 옮겨 인물 지시가 불분명해짐\"},{\"id\":\"E002\",\"src_span\":\"within 5 days, from 47.93 millions before the parade\",\"tgt_span\":\"퍼레이드 전 5일 동안\",\"description\":\"퍼레이드 이후 5일 이내에 감소한 기간이 '퍼레이드 전 5일 동안'으로 바뀌어 시간 관계가 달라짐\"},{\"id\":\"E003\",\"src_span\":\"47.93 millions before the parade to 47.73 millions on September 8\",\"tgt_span\":\"9월 8일에는 47.93만 명으로 줄어들었다\",\"description\":\"'47.93 millions(4793만)'을 '47.93만 명'으로 옮겨 단위가 틀렸고, 9월 8일 수치 47.73 millions(4773만)을 47.93(퍼레이드 전 수치)로 잘못 적어 감소 후 수치가 틀림\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 인물 Fan이 '팬'으로 바뀌고, 시간(퍼레이드 이후 5일 이내 → 퍼레이드 전 5일)과 수치(4793만→4773만이 '47.93만 명'으로 단위·값 오류)가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"내용 단어 오역이 원인이므로 오역을 바로잡으면 지시·연결 문제도 풀려 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사실 서술 → 사실 서술. 서술 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 사실 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 서술체 '~다'가 유지되어 관계·격식에 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"숫자·단위 오류는 Semantic에서만 기록하며, 날짜 표기 '9월 8일'은 한국어 로케일에 맞습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 2059,
+    "output_tokens": 949,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

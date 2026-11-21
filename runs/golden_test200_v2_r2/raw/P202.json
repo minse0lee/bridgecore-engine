@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUrj7vZGKZxKesECpJ1",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P202\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"all right?\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"청자의 이해·동의를 확인하는 부가의문 'all right?'가 번역되지 않고 누락됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 앱을 얻게 된다는 핵심 사실은 유지되나 'all right?'가 빠져 일부 내용이 누락되었습니다. 요지와 행동·조건은 달라지지 않아 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"남아 있는 표현의 지시('이렇게')와 연결·범위는 원문과 같고, 누락은 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"원문 기능 → 번역 기능: 앱 모습을 설명하며 청자의 이해를 확인하는 말 → 단순 설명. 확인 요청 기능이 사라져 기능 종류가 달라졌으나 설명이라는 주된 기능은 유지되어 minor입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"앱을 얻게 된다는 예고 설명이며 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'~될 겁니다'는 강사가 학생에게 하는 친근한 존댓말 기대 격식에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 879,
+    "output_tokens": 704,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

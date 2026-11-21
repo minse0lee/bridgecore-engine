@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUoersEN3dfXjUNxMj9",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P138\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"And by a group of 300 women in Colombia\",\"tgt_span\":\"또한 콜롬비아의 300여 명의 여성들이 … 퍼포먼스를 선보였습니다\",\"description\":\"'프로젝트가 영감을 받은 대상'(inspired by 병렬)이 독립 서술('여성들이 퍼포먼스를 선보였다')로 바뀌어, 여성들의 공연이 프로젝트의 영감 원천이라는 관계가 사라짐\"},{\"id\":\"E002\",\"src_span\":\"300 women\",\"tgt_span\":\"300여 명의 여성들\",\"description\":\"정확한 수 300이 '300여 명'(약 300 이상)으로 바뀜\"},{\"id\":\"E003\",\"src_span\":\"a moving 4 hour performance piece\",\"tgt_span\":\"4시간 동안 퍼포먼스를\",\"description\":\"moving(감동적인) 평가어가 누락됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 정확한 수 300이 '300여 명'으로 바뀌고 'moving'이 빠졌으나, 여성 집단이 광장에서 4시간 공연으로 항의했다는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 앞 문장 'inspired by'에 병렬로 이어지던 'And by'가 '또한'으로 번역되어, 콜롬비아 여성들의 공연이 프로젝트의 영감 원천이라는 관계가 사라지고 독립된 서술로 읽힙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"프로젝트 동기 설명(서술) → 서술. 발화 기능은 같은 종류입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인터뷰 발언을 '~습니다'체로 옮겨 관계와 격식에 어긋남이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"지명(Colombia, Bogota)만 있어 별도 판정할 문화 고유의 제도·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 1585,
+    "output_tokens": 927,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

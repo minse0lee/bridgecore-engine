@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUt9p1F8qs287mpriNS",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P238\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"It should in no way signal\",\"tgt_span\":\"이는 … 의미하지 않는다\",\"description\":\"'should in no way'(결코 ~해서는 안 된다는 당위·강한 부정)가 단순 평서 부정 '의미하지 않는다'로 바뀌어 당위적 어조가 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"위원회의 조치가 암호화 자산 증권의 상장 기준 승인 의사를 나타내지 않는다는 핵심 내용이 같습니다. 당위 표현의 약화는 Deontic 쪽 문제이므로 여기에는 기록하지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'이는'이 앞 문장의 조치를 가리키는 관계가 유지되고 연결·초점 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"위원회 입장 해명(설명) → 위원회 입장 해명(설명). 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"여기서 should는 '결코 ~을 의미해서는 안 된다'는 해석 당위가 아니라 조치가 어떤 신호로 읽히지 않아야 한다는 취지의 진술로, 누군가의 의무·허가·금지를 정하는 규범이 아닙니다. 따라서 평가 대상이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 발언의 격식체 '-다' 서술이 인용문 문체와 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·단위가 없습니다. 위원회는 일반 지칭입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 954,
+    "output_tokens": 754,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUoPyfci9LBY7wRThCh",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P135\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"my dear\",\"tgt_span\":\"내 사랑\",\"description\":\"어른이 아이에게 하는 다정한 호칭 'my dear'가 연인·애인 관계를 연상시키는 '내 사랑'으로 옮겨져 관계가 달라짐\"},{\"id\":\"E002\",\"src_span\":\"Don’t try\",\"tgt_span\":\"그렇게 하지 마세요\",\"description\":\"'시도하지 마라(try)'가 '그렇게 하지 마라'로 바뀌어 구체적 행위(시도)가 지시어로 대체되고 무엇을 하지 말라는지 모호해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: 'try(시도하다)'가 '그렇게 하지 마세요'로 바뀌어 행위 내용이 일반화되었으나 앞 문맥에서 도로시의 감사·떠나려는 상황이 이어져 요지는 대체로 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그렇게'가 직전 문맥의 행위를 가리키는 정도라 지시·연결·범위가 바뀌지 않았고, 오역은 Semantic에서 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"만류하는 말 → 만류하는 말. 발화 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 개인적 만류로 규범·의무를 정하는 문장이 아닙니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 어른이 아이에게 하는 다정한 호칭 'my dear'가 '내 사랑'이 되어 연인·애인 같은 원문에 없는 관계를 덧붙입니다. '~세요' 높임 자체는 다정한 어른의 말투와 크게 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 없는 문장입니다. 호칭의 관계 문제는 Register에서 판정합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 720,
+    "output_tokens": 884,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

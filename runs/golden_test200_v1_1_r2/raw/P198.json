@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUrPqZdjqNCybTwBmjo",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P198\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"부작용 회피의 의미, 실행 중 갱신되는 데이터 구조의 미사용, 함수 출력이 입력에만 의존한다는 내용이 모두 동일합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"세미콜론으로 이어진 두 절이 두 문장으로 나뉘었지만 앞 설명에 이어 조건을 덧붙이는 관계가 유지되고, only가 '입력에만'으로 같은 대상에 붙어 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개념 설명 → 개념 설명. 부작용 회피의 의미와 순수 함수의 조건을 설명하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"must only depend on이 '의존해야 합니다'로 옮겨져 함수 출력이 입력에만 의존해야 한다는 요건이 유지됩니다. 이 must는 규범적 요건을 나타냅니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재의 설명체인 '~습니다'가 학습자료 독자와의 관계에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 974,
+    "output_tokens": 616,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUrPZh3rXBJKCkgxotT",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P197\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Additionally,\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"추가 연결어 Additionally가 번역되지 않음. 그러나 앞 문장과의 첨가 관계는 문장 나열로 자연스럽게 유지되어 의미·기능을 바꾸지 않음\"},{\"id\":\"E002\",\"src_span\":\"a private account\",\"tgt_span\":\"개인의 계좌\",\"description\":\"private account가 '개인의 계좌'로 옮겨졌으나 통상적 대응이며 의미 차이 없음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 편제(제7장 제713조), 개인 돈의 정부 계좌 입금 금지와 공공 돈의 개인 계좌 입금 금지, 명시한다는 내용이 모두 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Additionally가 생략되었으나 앞 내용에 이어 다른 조항을 제시하는 관계는 문맥상 남아 있고, nor 병렬 구조도 '~않으며, ~도'로 유지되어 지시·연결·초점이 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 조항 인용·설명 → 규정 조항 인용·설명. 기능이 동일합니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"shall ... in no circumstances/nor shall의 금지가 '어떠한 경우에도 ~되어서는 안 되며'로 유지되고 두 금지 대상과 예외 없음도 같습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스·규정 설명의 공식적인 평서체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"2009년 나이지리아 재정 규정 제7장 제713조라는 법령 편제를 통용 표기로 정확히 옮겨 제도적 의미가 전달됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1167,
+    "output_tokens": 824,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUsHhFPCSPXYDsDH3yn",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P217\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"The JSNDI employee\",\"tgt_span\":\"직원은\",\"description\":\"기관명 JSNDI가 번역에서 빠져 '직원'으로만 표기됨(소속 정보 누락)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물): 'JSNDI employee'의 소속 기관 JSNDI가 빠져 어느 기관의 직원인지 정보가 사라졌으나, 행위자와 행위는 유지되어 요지는 같습니다. '3분의 1'은 원문 'a third'의 대응이라 수치 변화가 아닙니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'직원'은 문맥상 같은 인물을 가리키고 연결·초점 관계도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물의 행동 서술 → 인물의 행동 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무를 정하는 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회고 서술의 평서체가 유지되며 특별한 관계 표지가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"기관명 JSNDI의 누락은 Semantic에서 다루며, 별도로 판정할 문화·제도 고유 대상은 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 958,
+    "output_tokens": 652,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

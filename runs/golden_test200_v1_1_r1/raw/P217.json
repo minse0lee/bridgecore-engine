@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUfjPz2NSTcA5Qqu891",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P217\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"The JSNDI employee\",\"tgt_span\":\"직원은\",\"description\":\"기관명 JSNDI가 번역에서 빠져 '직원'으로만 표기됨. 다만 문단의 다른 곳에서 소속이 이미 제시되었을 가능성이 있고, 직원이 어디 소속인지는 이 문장의 핵심 내용이 아님.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물·대상): 행위자의 소속 JSNDI가 빠져 '직원'으로만 표기되었으나, 누가 무엇을 했는지는 유지되어 독자의 요지 이해와 행동 이해에는 영향이 작습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'3분의 1'은 원문의 a third에 대응하며 지시·연결·초점 관계가 유지됩니다. 힌트의 숫자 불일치는 'a third'의 표기 차이로 인한 오경보입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 직원의 행동과 설명을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장은 서술이며 의무·허가·금지 같은 규범 표현이 없습니다. 'what I had to do'는 설명 내용이며 규범을 정하는 문장이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"출판물 서술체(~했다)가 유지되며 화자와 직원 사이의 관계나 태도가 달라지지 않았습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다. JSNDI는 기관명이지만 누락은 Semantic에서 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 958,
+    "output_tokens": 793,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

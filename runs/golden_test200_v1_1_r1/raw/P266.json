@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUhqh4UrhPqnu2tGU7f",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P266\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"if you don't mind a little extra effort\",\"tgt_span\":\"약간의 추가적인 노력이 필요하지 않다면\",\"description\":\"'약간의 추가 노력을 꺼리지 않는다면(감수할 의향이 있다면)'이 '추가 노력이 필요하지 않다면'으로 바뀌어 조건의 내용이 달라짐. 노력을 감수할 의향이 노력의 필요 여부로 바뀌고 논리도 반대로 읽힘.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(조건): 약간의 추가 노력을 꺼리지 않는다는 조건이 추가 노력이 필요 없다는 조건으로 바뀌었습니다. 번역문만 읽으면 노력이 필요 없을 때 일반 변환기를 쓰라는 뜻으로 읽혀 요지가 달라집니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(연결 관계): 조건절이 '노력을 감수할 의향이 있다면'에서 '노력이 필요하지 않다면'으로 바뀌어 조건과 권유 사이의 논리 관계가 반대로 읽힙니다. 노력이 들더라도 일반 변환기를 쓰라는 관계가 노력이 없을 때 쓰라는 관계가 됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사용 권유 → 사용 권유. '사용하십시오'로 일반 변환기 사용을 권하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(조건): 원문은 약간의 노력을 감수할 수 있으면 일반 변환기를 쓰라는 규범적 권고입니다. 번역문은 노력이 필요 없는 경우로 적용 조건이 바뀌어, 독자가 일반 변환기를 써야 하는 조건을 다르게 이해합니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재의 정중한 권유가 '~하십시오' 격식체로 유지되어 학습자료의 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 677,
+    "output_tokens": 956,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUjMawP8Hfbt71FQxcp",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P298\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the sun is only really up for about 90 minutes\",\"tgt_span\":\"태양은 정말 약 90 분 동안입니다\",\"description\":\"'해가 떠 있다(is up)'는 서술이 빠져 '태양은 약 90분 동안입니다'로 서술어가 불완전해졌고, 'only(겨우 ~뿐)'가 사라져 짧다는 의미가 없어짐\"},{\"id\":\"E002\",\"src_span\":\"only really\",\"tgt_span\":\"정말\",\"description\":\"only가 누락되고 really만 '정말'로 옮겨져 초점·한정 표현이 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 태양이 떠 있다는 핵심 서술이 빠지고 only가 사라져 '해가 하루 약 90분만 뜬다'는 요지가 전달되지 않습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 3: only가 누락되어 '약 90분뿐'이라는 한정 초점이 사라지고 really만 남았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"정보 진술 → 정보 진술. 근거를 들어 사실을 말하는 기능은 문장이 불완전해도 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 사실 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"관계나 격식이 두드러지지 않으며 '-입니다' 평서체로 큰 차이가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 523,
+    "output_tokens": 736,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

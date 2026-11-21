@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUooAvahiRzrbTMSxbi",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P143\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Fan\",\"tgt_span\":\"팬\",\"description\":\"인명 Fan(Christine Fan)을 일반명사 '팬'(fan)으로 옮겨 행위자 지시 대상이 불분명해짐\"},{\"id\":\"E002\",\"src_span\":\"within 5 days, from 47.93 millions before the parade to 47.73 millions on September 8\",\"tgt_span\":\"퍼레이드 전 5일 동안 … 9월 8일에는 47.93만 명으로 줄어들었다\",\"description\":\"5일 기간이 퍼레이드 '전' 5일로 바뀌고, 퍼레이드 전 4793만 명에서 9월 8일 4773만 명으로 줄었다는 수치가 9월 8일에 47.93만 명으로 줄었다는 것으로 바뀜\"},{\"id\":\"E003\",\"src_span\":\"47.93 millions\",\"tgt_span\":\"47.93만 명\",\"description\":\"4,793만(47.93 million)을 47.93만 명으로 단위를 잘못 옮기고, 9월 8일 수치 47.73 million은 누락\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 인물 Fan이 '팬'으로 바뀌고, 5일 기간의 시점과 수치(4,793만→4,773만)가 잘못 옮겨져 팬 수가 47.93만 명으로 줄었다는 다른 사실이 되었습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: 'before the parade'가 기간 수식('퍼레이드 전 5일')으로 붙고 'from A to B'의 변화 구조가 깨져 시간 관계가 바뀌었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사실 서술 → 사실 서술. 팬 수 감소를 보고하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무 표현이 없는 사실 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"보도 본문의 평서 서술체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"숫자 단위 오류는 Semantic에서만 판정하며, 별도로 판정할 문화 고유 제도나 관습이 없습니다. 웨이보는 고유 플랫폼명입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2059,
+    "output_tokens": 973,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

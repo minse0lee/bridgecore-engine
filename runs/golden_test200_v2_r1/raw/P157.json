@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUd1otaMS9gpqAqaJqu",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P157\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"These may include references to, or the inclusion of, language or the display of images and/or symbols that promote hate or discrimination\",\"tgt_span\":\"이러한 언어 또는 이미지 및 / 또는 기호의 표시에 대한 참조 또는 포함이 증오 또는 차별을 조장 할 수 있습니다\",\"description\":\"'이러한 것들(these)이 ~을 포함할 수 있다'는 구조가 '언어·기호 표시에 대한 참조 또는 포함이 증오·차별을 조장할 수 있다'로 바뀌어, 주어와 서술어 및 포함 관계가 뒤집힘(포함 → 조장)\"},{\"id\":\"E002\",\"src_span\":\"including racial slurs\",\"tgt_span\":\"인종 명예 훼손을 포함\",\"description\":\"racial slurs(인종적 비하 표현)를 '인종 명예 훼손'으로 오역함\"},{\"id\":\"E003\",\"src_span\":\"based on personal characteristics identified in Board Policy ACA\",\"tgt_span\":\"이사회 정책 ACA, 차별 금지, 공정성 및 문화적 능력에서 식별 된 개인적 특성을 기반으로\",\"description\":\"'Nondiscrimination, Equity, and Cultural Proficiency'가 정책명이 아니라 쉼표로 나열된 별개 항목처럼 읽히고, 'Cultural Proficiency'가 '문화적 능력'으로 옮겨져 정책명 식별이 흐려짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'these may include references…'가 '참조 또는 포함이 증오를 조장할 수 있다'로 바뀌어 행위·관계가 달라졌고, racial slurs도 '인종 명예 훼손'이라는 다른 개념으로 오역되었습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E003\"],\"reason\":\"쉼표로 끊긴 나열 때문에 문장 전체 구조가 무너져, 번역문만 읽으면 '포함'이 어디에 걸리는지, 정책명과 '개인적 특성'이 어떻게 이어지는지 알 수 없습니다. 단어를 바로잡아도 풀리지 않으므로 질문 2에 해당합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 내용 설명 → 규정 내용 설명. 설명 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장의 may include는 어떤 사례가 해당할 수 있다는 가능성 서술이며, 의무·허가·금지를 정하지 않으므로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 안내체 '~습니다'가 유지되며 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 2: 이사회 정책명 'Nondiscrimination, Equity, and Cultural Proficiency'가 쉼표로 나열되어 정책 명칭이라는 제도적 의미가 전달되지 않습니다. 정책 번호 ACA는 남아 있어 원 자료를 찾을 수 있으므로 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 1301,
+    "output_tokens": 1281,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

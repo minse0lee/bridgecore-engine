@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUqL8HhcmsGJV3xrSq2",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P175\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the speaker\",\"tgt_span\":\"스피커\",\"description\":\"하원의장(Speaker of the House, 존슨)이 '스피커'(음향기기/발언자)로 옮겨져 지시 대상을 알 수 없게 됨\"},{\"id\":\"E002\",\"src_span\":\"with that deadline just 9 days away\",\"tgt_span\":\"그 마감일로부터 불과 9 일 떨어져\",\"description\":\"마감일이 9일 앞으로 다가왔다는 의미가 '마감일로부터 9일 떨어져'로 바뀌어 시점 관계가 모호해짐\"},{\"id\":\"E003\",\"src_span\":\"to keep things open\",\"tgt_span\":\"상황을 열어 유지하기 위해\",\"description\":\"정부 기관을 계속 운영(open)한다는 뜻이 '상황을 열어 유지'로 오역됨\"},{\"id\":\"E004\",\"src_span\":\"his right flank\",\"tgt_span\":\"자신의 오른쪽 측면\",\"description\":\"정치적 비유인 우파 진영/강경 보수 의원들이 문자 그대로의 '오른쪽 측면'으로 옮겨짐\"},{\"id\":\"E005\",\"src_span\":\"may soon break a promise he made\",\"tgt_span\":\"곧 그가 만든 약속을 깨질 수 있음을 의미\",\"description\":\"약속을 '깰' 주체의 행위가 '깨질'로 바뀌어 피동화되고, 확실성 표현은 유지되나 행위자 관계가 흐려짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\",\"E004\",\"E005\"],\"reason\":\"판단 질문 1: 하원의장이 '스피커'로, 정부 운영 유지가 '상황을 열어 유지'로, 우파 진영이 '오른쪽 측면'으로 바뀌고 약속을 깬 행위자도 흐려져 독자가 문장 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사 그/자신의 지시, however 대조, meaning 연결이 어색하지만 관계가 남아 있어 세 질문 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 상황 설명 → 상황 설명. 발화 기능은 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"need to는 의회가 CR를 통과해야 한다는 상황 서술(보도된 발언)이고 may는 가능성이어서 독자에게 규범을 정하는 문장이 아닙니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 서술문으로 화자·청자의 관계나 높임·태도를 판정할 대상이 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 미국 하원의장이라는 제도적 직위가 '스피커'로 옮겨져 한국어 독자가 직위의 제도적 의미를 이해할 수 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1119,
+    "output_tokens": 1179,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

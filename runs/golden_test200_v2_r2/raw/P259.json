@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUuARVqFZhELK3F3g7s",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P259\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"he had some fallout from it\",\"tgt_span\":\"그는 그것에서 몇 가지 낙진을했다\",\"description\":\"fallout(여파·후폭풍)을 방사성 '낙진'으로 오역하여 인터뷰 후 일어난 부정적 반응·여파라는 의미가 사라짐\"},{\"id\":\"E002\",\"src_span\":\"his breakup with his ex-wife and family\",\"tgt_span\":\"그의 전 아내와 가족과 그의 헤어짐\",\"description\":\"'전 아내 및 가족과의 이별'이 '전 아내와 가족과 그의 헤어짐'으로 옮겨져 병렬 구조가 불분명해지나, 단어 오역이 아닌 어색한 표현으로 뜻은 대체로 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: fallout(인터뷰 후의 여파·반발)이 '낙진'으로 바뀌어 그가 겪은 일의 내용이 달라져 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'낙진' 오역은 Semantic에서 판정하며, 오역을 바로잡으면 연결·지시 문제도 풀리고 남은 연결(그래서)은 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"영상 소개 중 배경 설명 → 배경 설명. 서술 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"진행자의 구어체 소개 어조가 크게 달라지지 않았고 관계에 어긋나는 높임·호칭 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 847,
+    "output_tokens": 830,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

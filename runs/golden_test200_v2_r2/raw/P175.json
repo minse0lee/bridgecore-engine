@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUqVDjaGyQTQaovGaQ6",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P175\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"with that deadline just 9 days away\",\"tgt_span\":\"그 마감일로부터 불과 9 일 떨어져\",\"description\":\"마감일이 9일 앞으로 다가왔다는 시간 표현이 '마감일로부터 9일 떨어져'로 옮겨져 기준이 모호해짐. 해석은 가능.\"},{\"id\":\"E002\",\"src_span\":\"to keep things open\",\"tgt_span\":\"상황을 열어 유지하기 위해\",\"description\":\"정부 기관 운영 유지(keep things open)가 '상황을 열어 유지'로 오역됨\"},{\"id\":\"E003\",\"src_span\":\"the speaker\",\"tgt_span\":\"스피커\",\"description\":\"하원의장(speaker)이 음향기기 '스피커'로 오역/음역되어 지시 대상이 바뀜\"},{\"id\":\"E004\",\"src_span\":\"the speaker may soon break a promise he made\",\"tgt_span\":\"스피커는 곧 그가 만든 약속을 깨질 수 있음을 의미\",\"description\":\"'약속을 깨다'가 '약속이 깨지다'로 바뀌고 'meaning'절이 주절 아래 종속되지 못하고 쉼표로 이어져 구조가 흐트러짐\"},{\"id\":\"E005\",\"src_span\":\"his right flank\",\"tgt_span\":\"자신의 오른쪽 측면\",\"description\":\"정치적 우파 의원 세력이 물리적 '오른쪽 측면'으로 직역되어 의미가 사라짐\"},{\"id\":\"E006\",\"src_span\":\"a CR\",\"tgt_span\":\"CR\",\"description\":\"continuing resolution(임시예산안/계속결의안)이 약어 CR로만 남아 제도적 의미 전달 안 됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\",\"E004\",\"E005\"],\"reason\":\"판단 질문 1: 하원의장이 '스피커'로, 정부 운영 유지가 '상황을 열어 유지'로, 우파 세력이 '오른쪽 측면'으로 바뀌고 약속을 깨는 주체도 흐려져 요지를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E004\"],\"reason\":\"질문 2 및 구조 붕괴: 절이 쉼표로 끊겨 나열되어 'meaning'이 이끄는 결과 관계와 'largely to appease' 의 연결이 읽히지 않으며, 단어를 바로잡아도 구조가 풀리지 않습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 상황 설명 → 뉴스 상황 설명. 기능 종류는 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"need to는 정치 상황 보도에서 필요성을 서술하는 것이고 may는 가능성이어서 규범을 정하는 문장이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 서술체 '~했다/~습니다' 혼용이 있으나 관계·태도가 드러나는 표현이 없어 훼손 근거가 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E006\"],\"reason\":\"질문 2: 미국 의회 제도 용어 continuing resolution이 약어 'CR'로만 남아 한국어 독자가 임시예산안이라는 제도적 의미를 이해할 수 없습니다. 의회 지도자 직책명은 유지됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 1119,
+    "output_tokens": 1327,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

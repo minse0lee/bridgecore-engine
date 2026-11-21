@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUiyG1Pt9Zd66jFdkoP",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P291\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the Freedom Caucus\",\"tgt_span\":\"자유당 원내대표단\",\"description\":\"미국 하원 공화당 내 의원 모임인 Freedom Caucus(프리덤 코커스)를 '자유당 원내대표단'으로 옮겨, 정당(자유당)과 원내 지도부라는 다른 제도·조직으로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"celebrated his deal for cutting an estimated $16 billion in spending\",\"tgt_span\":\"약 160억 달러의 지출을 줄이는 데 성공했다고 축하했지만\",\"description\":\"'합의(deal)를 자축했다'가 '지출 삭감에 성공했다고 축하했다'로 바뀌어 합의라는 대상이 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: Freedom Caucus가 '자유당 원내대표단'으로 바뀌어 행위 주체가 달라졌고, 'his deal'(합의)이 빠져 삭감 성공을 축하한 것으로 읽혀 대상이 달라졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but의 대조 관계가 '-지만'으로 유지되고 his와 he의 지시 대상(존슨)도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 보도 서술 → 뉴스 보도 서술. 정보를 전달하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없는 보도 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 본문의 평서 서술체가 유지되며 관계상 어긋나는 높임이나 호칭이 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2: 미국 하원 공화당 내 보수 의원 모임인 Freedom Caucus를 '자유당 원내대표단'이라는 다른 정당·조직으로 옮겨 한국어 독자가 해당 정치 조직의 제도적 의미를 이해할 수 없게 됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 842,
+    "output_tokens": 921,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

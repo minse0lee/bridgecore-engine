@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUkoN17WKp3KCPdVEpR",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P183\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"based on only the following criteria\",\"tgt_span\":\"다음과 같은 기준에 근거하여\",\"description\":\"'only'(오직 이 기준에 한정)에 해당하는 표현이 빠져 교장의 권한 범위를 제한하는 초점이 사라짐\"},{\"id\":\"E002\",\"src_span\":\"the performance of a student production or the distribution of a publication or other informational material by students\",\"tgt_span\":\"학생이 제작하거나 배포하는 출판물 또는 기타 정보 자료의 수행을\",\"description\":\"학생 작품(공연)의 상연과 출판물·자료의 배포라는 두 대상이 '출판물·자료의 수행'으로 합쳐져 student production의 performance가 사라지고 배포가 수식어로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'only'가 누락되고, 학생 작품 공연과 출판물 배포라는 두 대상이 '출판물·자료의 수행'으로 합쳐져 제한 대상 내용이 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3: 범위를 한정하는 'only'가 사라져 '이 기준들에만 근거'라는 초점이 '이 기준에 근거'로 바뀌었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 안내 → 규정 안내. 교장의 권한을 설명하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 2: 교장이 허용된 기준에 한해서만 제한할 수 있다는 권한 범위의 제한이 사라지고, 제한 대상 범위도 달라져 권한의 적용 범위가 바뀌었습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 안내체('-ㅂ니다')가 유지되어 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교장과 사전 제한(prior restraint)이라는 미국 학교 제도 개념을 한국 제도로 대체하지 않고 그대로 옮겼습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 820,
+    "output_tokens": 909,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

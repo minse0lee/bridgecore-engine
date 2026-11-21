@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUhYPm9FjtjWdS98eib",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P259\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"he had some fallout from it\",\"tgt_span\":\"그는 그것에서 몇 가지 낙진을했다\",\"description\":\"fallout(여파·후폭풍)을 '낙진'(방사성 낙진)으로 오역하고, 겪었다는 의미도 '낙진을 했다'로 바뀌어 원래 의미를 알 수 없게 됨\"},{\"id\":\"E002\",\"src_span\":\"his breakup with his ex-wife and family\",\"tgt_span\":\"그의 전 아내와 가족과 그의 헤어짐\",\"description\":\"헤어진 대상이 '전 아내와 가족'으로 모호하게 옮겨졌으나 원문도 모호하여 의미 차이는 없음(참고)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: fallout(논란의 여파)이 '낙진'으로 오역되어 인터뷰 후 부정적 반응을 겪었다는 핵심 내용이 전달되지 않고 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그것에서'가 인터뷰 발언을 가리키는 지시 관계와 '그래서'의 연결이 유지되어 질문 1~3 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"영상 소개 진행 설명 → 영상 소개 진행 설명. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"방송 진행자의 구어 설명이며 관계에 어긋나는 높임·호칭 변화나 태도 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없고 인명만 해당됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 847,
+    "output_tokens": 816,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

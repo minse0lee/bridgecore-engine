@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUcnGoSQkJ4Jn3anaSR",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P153\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"11 to 45 school days\",\"tgt_span\":\"11일에서 45일 동안\",\"description\":\"'school days'(수업일)가 단순 '일'로 옮겨져 '수업일' 한정이 사라짐. 11~45라는 수치는 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(수량·시간): 'school days'가 '일'로 바뀌어 수업일 기준이 달력일로 읽힐 수 있습니다. 다만 수치와 징계 개념은 유지되어 요지는 같으므로 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"whereby 관계절이 '~하도록 하는 징계 조치'로 유지되어 지시·연결·초점 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"용어 정의 설명 → 용어 정의 설명. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"징계 조치를 정의하는 문장이며, 'not permitted'는 의무·허가를 부과하는 규범 표현이 아니라 정의 내용의 일부입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 설명의 '~입니다' 안내체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학교 징계 제도(출석 정지)를 같은 제도로 옮겼고 한국 제도로 대체하지 않았습니다. 수업일 한정 누락은 Semantic에서만 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 875,
+    "output_tokens": 698,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

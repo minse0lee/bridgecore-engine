@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUouqmMZ6Rir1pEnBmG",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P144\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"shall occur\",\"tgt_span\":\"발생한다\",\"description\":\"규범적 요구(shall: 이루어져야 한다)가 사실 서술('발생한다')로 바뀌어 의무 표현이 사라짐\"},{\"id\":\"E002\",\"src_span\":\"across school sites and within all student groups\",\"tgt_span\":\"학교 사이트 및 모든 학생 그룹 내에서\",\"description\":\"across(전 학교에 걸쳐)가 '사이트 및 … 내에서'로 옮겨져 범위 표현이 흐려지고, school sites가 '학교 사이트'로 직역되어 웹사이트처럼 읽힐 여지가 있음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규칙·규정의 공정하고 일관된 시행이 학교와 학생 집단 전반에서 이뤄진다는 내용은 유지되며, '사이트'는 어색한 직역이나 학교 장소로 이해 가능합니다. 의무 표현 변화는 Deontic에서 판정합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'학교 사이트 및 모든 학생 그룹'의 병렬 구조와 범위는 남아 있고 지시·연결 관계가 달라지지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 선언·안내 → 규정 선언·안내. 규정을 알리는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: shall이 요구하는 공정·일관된 시행 의무가 '발생한다'라는 단순 사실 서술로 바뀌어 의무 범주가 사라졌고, 독자는 이를 이행해야 할 요구가 아닌 현상으로 이해하게 됩니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 문서에 맞는 평서체 '~한다'가 유지되어 관계·격식이 크게 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 1128,
+    "output_tokens": 889,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

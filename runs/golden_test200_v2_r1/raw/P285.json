@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUiqMFdQ4EYM7ptLje5",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P285\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Irregularly, Anton’s was pretty busy\",\"tgt_span\":\"불규칙, 안톤의 꽤 바빴다\",\"description\":\"'Irregularly'(드물게/평소와 달리)가 '불규칙'으로 옮겨지고, 'Anton’s'(안톤의 가게)가 '안톤의'로 옮겨져 바빴던 주체가 가게가 아닌 불명확한 대상이 됨\"},{\"id\":\"E002\",\"src_span\":\"so knowing that he must be pretty stressed\",\"tgt_span\":\"그래서 그가 꽤 스트레스가되어야한다는 것을 알고\",\"description\":\"추론의 must(틀림없이 ~일 것이다)가 당위('스트레스가 되어야 한다')로 오역되어 확실성 추론이 의무처럼 읽히고 문장이 미완결로 끝남\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 안톤의 가게가 평소와 달리 바빴다는 내용이 '불규칙, 안톤의 꽤 바빴다'로 바뀌어 주체와 상황이 달라졌고, '틀림없이 스트레스를 받을 것'이라는 추론이 '스트레스가 되어야 한다'로 오역되었습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"남은 연결(세미콜론, 대시, '그래서')의 관계는 원문과 같은 종류로 읽히며, 지시·범위 문제는 오역을 바로잡으면 함께 풀립니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 상황과 인물 상태를 묘사하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"원문 must는 추론의 뜻이며 서술문이므로 규범 의미가 없어 평가 대상이 아닙니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 청자 사이의 관계나 격식이 드러나는 표현이 없는 지문 서술입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없고 인명만 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 1443,
+    "output_tokens": 914,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

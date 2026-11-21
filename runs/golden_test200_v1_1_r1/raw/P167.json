@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUdPkVHRksJg3ZRcgCj",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P167\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"said the Head; “but that is my answer, and until the Wicked Witch dies you will not see your uncle and aunt again. Remember that the Witch is Wicked…and ought to be killed. Now go, and do not ask to see me again…\",\"tgt_span\":\"제 대답입니다 … 기억하십시오 … 만나지 말아 주십시오\",\"description\":\"권위적·위압적 하대인 오즈의 말투가 공손한 높임체(~습니다, ~십시오, ~해 주십시오, '제')로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"모른다는 말, 마녀가 죽을 때까지 삼촌·이모를 못 본다는 것, 마녀의 악함, 죽어야 한다는 것, 임무 완수 전 면회 금지의 내용이 모두 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but·until·and의 대조·시간 조건·연결 관계와 '당신의' 지시 관계가 유지되며 초점 표현의 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"답변과 지시·명령 → 답변과 지시·명령. 마녀를 죽이고 임무를 마칠 때까지 오지 말라는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"ought to be killed가 '죽어야만 합니다'로, do not ask가 '만나지 말아 주십시오'로 옮겨져 당위와 금지의 범주가 유지됩니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·3: 평가조건은 권위적·위압적 하대를 요구하는데 번역문은 '모르겠어요', '제 대답입니다', '~하십시오', '~말아 주십시오' 같은 공손한 높임으로 옮겨 위압적 태도가 사라지고 관계가 뒤바뀌었습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1118,
+    "output_tokens": 877,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

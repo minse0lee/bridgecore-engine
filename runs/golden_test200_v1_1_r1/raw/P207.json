@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUfDqVWVRcryutNv5rQ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P207\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"watching some of those Resident Evil movies with Milla Jovovich\",\"tgt_span\":\"밀라 조보비치 (Milla Jovovich)와 함께 그 레지던트 이블 (Resident Evil) 영화를 보면서\",\"description\":\"밀라 조보비치가 출연한 영화(with = 출연진)를 '밀라 조보비치와 함께 보면서'로 옮겨 화자가 그녀와 함께 영화를 본 것처럼 읽힘. 행위 참여자가 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물·행위): 밀라 조보비치가 출연한 영화를 봤다는 내용이 그녀와 함께 영화를 봤다는 내용으로 바뀌어 누가 무엇을 했는지가 달라져, 번역문만 읽은 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 대상, 연결 관계, 초점 표현이 유지됩니다. 'with'의 관계 변화는 Semantic에서 다룹니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"과거 회상 서술 → 과거 회상 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"can't는 가능성(추론)의 뜻이며 규범 의미가 아니므로 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 독백형 서술이 '~합니다' 서술체로 유지되며 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명과 영화 제목만 있고 별도로 판정할 문화·제도적 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 998,
+    "output_tokens": 768,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

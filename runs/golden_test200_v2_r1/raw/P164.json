@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUdKdvwCW5EhRP62WD9",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P164\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"expulsion may be appropriate\",\"tgt_span\":\"퇴학이 적절하다고 판단하는 경우\",\"description\":\"'퇴학이 적절할 수도 있다'(가능성)를 '적절하다'(단정)로 옮겨 확실성이 달라짐\"},{\"id\":\"E002\",\"src_span\":\"a due process hearing before a committee of the School Board\",\"tgt_span\":\"학교 운영위원회의 정당한 절차 청문회\",\"description\":\"'학교 위원회 앞에서 열리는 적법 절차 청문회'가 '운영위원회의 정당한 절차 청문회'로 옮겨져 제도 용어(due process)가 일반 어휘로 바뀌고, 청문회가 위원회 소속 위원회(committee) 앞에서 열린다는 관계가 흐려짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: may be appropriate가 '적절하다'로 단정되어 확실성이 달라졌고, 'a committee of the School Board' 구가 '학교 운영위원회의'로 오역되어 청문 주체 관계가 흐려졌으나, 통지 대상·통지 주체·청문 요청 권리라는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"단어·구 오역이 원인이며 조건절과 주절의 연결, 지시 관계는 유지되어 오역을 바로잡으면 함께 풀립니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정상 통지 절차 설명 → 규정상 통지 절차 설명으로 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"shall be notified의 의무가 '통지합니다'로 옮겨져 SHD의 통지 의무와 학생의 청문 요청 권리가 유지됩니다(통상적 대응).\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 안내체('~합니다')가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: 미국 법적 제도 용어 due process hearing이 '정당한 절차 청문회'로 옮겨져 적법 절차라는 제도적 의미가 충분히 전달되지 않고 'School Board'도 '학교 운영위원회'로 옮겨졌으나, 청문회 권리 자체는 이해 가능해 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 1238,
+    "output_tokens": 1001,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUtEX2pv5r1FXJCspaq",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P240\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a new devolved aggregates tax\",\"tgt_span\":\"새로운 퇴적물 세금\",\"description\":\"'aggregates tax'(골재세)를 '퇴적물 세금'으로 옮겨 과세 대상이 골재(채석 자재)에서 퇴적물로 바뀌고, 'devolved'(권한이양된)는 누락됨\"},{\"id\":\"E002\",\"src_span\":\"should accelerate the shift\",\"tgt_span\":\"가속화해야하는\",\"description\":\"예상의 should(가속화할 것으로 기대됨)를 의무 표현 '-해야 하는'으로 옮겨 세금이 하는 일이 기대 효과에서 당위로 바뀜\"},{\"id\":\"E003\",\"src_span\":\"virgin products\",\"tgt_span\":\"처음 사용되는 제품\",\"description\":\"'virgin products'(신규 채취 원자재)를 '처음 사용되는 제품'으로 옮겨 신품 자원의 의미가 불분명해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: aggregates tax(골재세)가 '퇴적물 세금'으로 바뀌고 devolved가 빠져 대상이 달라졌으며, virgin products도 '처음 사용되는 제품'으로 부정확하게 옮겨 요지가 다르게 읽힙니다. 또 기대(should)가 '해야 하는'으로 바뀌어 확실성·내용이 달라졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현은 유지되며 '-하며'로 두 절의 병렬 연결과 관계절 수식 관계가 남아 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"정책 계획 설명 → 정책 계획 설명. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"원문 should는 세금이 전환을 가속할 것이라는 예상 의미이며 누군가에게 의무·허가를 정하는 규범 표현이 아니므로 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 기사 본문의 설명체가 '-입니다' 체로 유지되어 독자 관계에 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 스코틀랜드의 권한이양 세제인 aggregates tax(골재세)를 '퇴적물 세금'이라는 일반 어휘로 옮기고 devolved를 빼 제도적 의미가 전달되지 않습니다. 다만 문맥상 새 세금 도입이라는 큰 틀은 읽히므로 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 838,
+    "output_tokens": 1101,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

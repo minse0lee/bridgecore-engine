@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUfVDTdc1R2wKS1vW9A",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P211\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"there are often significant differences\",\"tgt_span\":\"상당한 차이가 있지만\",\"description\":\"'often'(자주)에 해당하는 빈도 표현이 빠져, 차이가 '자주' 나타난다는 내용이 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(시간·빈도): often이 누락되어 차이가 자주 있다는 빈도 정보가 사라졌으나, 핵심 사실(시점별 차이가 있으나 장기적으로 평준화됨)은 유지되어 minor입니다. even out을 '완화된다'로 옮긴 것은 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"While→'~지만' 양보 관계, due to→'때문이며' 인과, according to the FAA의 출처 표시가 같은 관계로 읽힙니다. often의 누락은 내용 누락이라 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"FAA 입장을 인용해 설명하는 기사 서술 → 같은 설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가를 정하는 표현이 없는 사실 설명 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 기사 본문의 평서체 '~한다'가 유지되어 매체 격식에 맞습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"FAA를 약어 그대로 옮겨 같은 기관을 가리키며 제도를 다른 것으로 바꾸지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 812,
+    "output_tokens": 728,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

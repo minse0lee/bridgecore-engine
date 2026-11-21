@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUaaGgRs3cxaEJsu3Xg",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P103\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"he would \\\"prefer not\\\" to fire Rosenstein\",\"tgt_span\":\"로젠스타인 판사를 해임하지 않겠다고 밝혔지만\",\"description\":\"'해임하지 않는 편을 선호한다'는 완곡한 의향이 '해임하지 않겠다'는 단정적 결정·약속으로 바뀌어 확실성이 달라짐\"},{\"id\":\"E002\",\"src_span\":\"Rosenstein\",\"tgt_span\":\"로젠스타인 판사\",\"description\":\"원문에 없는 직함 '판사'가 첨가되어 부차관(법무부 고위 인사)이 판사로 바뀜\"},{\"id\":\"E003\",\"src_span\":\"Kavanaugh\",\"tgt_span\":\"카바노 판사\",\"description\":\"원문에 없는 직함 '판사'가 덧붙었으며, 카바노는 당시 연방판사였으나 원문 문장에는 직함이 없음\"},{\"id\":\"E004\",\"src_span\":\"sexual misconduct\",\"tgt_span\":\"성폭행 혐의\",\"description\":\"'성적 비위(부적절 행위)'가 더 구체적이고 심각한 '성폭행'으로 바뀜\"},{\"id\":\"E005\",\"src_span\":\"both testified\",\"tgt_span\":\"증언하는\",\"description\":\"둘 다 증언했다는 내용은 있으나 'both'와 과거 시제가 약해져 '증언하는 청문회'로 옮겨짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E004\"],\"reason\":\"판단 질문 1: 트럼프의 '선호하지 않는다'는 확실성이 낮은 표현이 '해임하지 않겠다'는 단정으로 바뀌었고, 로젠스타인에게 판사라는 잘못된 직함이 붙고 '성적 비위'가 '성폭행'으로 바뀌어 사실 내용이 달라졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그를'의 지시 대상(카바노), 'but then'의 대조·시간 관계(-지만)가 유지되며 초점 표현의 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사건 보도 → 사건 보도. 뉴스 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 보도 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 보도의 평서체 서술이 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'상원 사법위원회 청문회'는 미국 제도를 정확히 가리키는 통용 표기이며 제도를 다른 것으로 바꾸지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 858,
+    "output_tokens": 1096,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

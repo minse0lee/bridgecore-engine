@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUuPGRGsHyrqjgYWtrf",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P265\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"paid well over $1 billion just for the right\",\"tgt_span\":\"권리를 얻기 위해 10억 달러 이상을 지불했다\",\"description\":\"'well over'(훨씬 초과)의 정도와 'just for'(오직 ~만을 위해)의 초점 표현이 번역에서 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"행위자·행위·금액·대상이 유지되며 'well over'가 '이상'으로 약해진 것은 정도 차이이고 핵심 사실(10억 달러 초과)은 같습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(초점): 'just for the right'의 '오직 권리만을 위해'라는 초점 표현이 사라져, 탐사권 자체에 막대한 금액을 냈다는 강조가 번역문에 남지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사실 설명 → 사실 설명. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 사실 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"출판물 본문의 평서 서술체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"$1 billion이 '10억 달러'로 정확히 옮겨져 통화와 수치가 유지되고, 노스 슬로프 음역도 통용됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 675,
+    "output_tokens": 669,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

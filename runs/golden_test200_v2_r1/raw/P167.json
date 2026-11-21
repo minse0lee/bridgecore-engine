@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUdUhPepcSKwgPeybvg",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P167\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"until the Wicked Witch dies you will not see your uncle and aunt again\",\"tgt_span\":\"나쁜 마녀가 죽을 때까지 당신은 다시는 당신의 삼촌과 이모를 보지 못할 것입니다\",\"description\":\"'Wicked Witch'를 고유 호칭이 아닌 '나쁜 마녀'로 옮긴 것은 통상적 대응이라 오류는 아니나, 여기서는 오류로 삼지 않음(참고용 아님)\"},{\"id\":\"E002\",\"src_span\":\"said the Head\",\"tgt_span\":\"\\\"모르겠어요,\\\" 머리가 말했습니다, \\\"그러나 그것이 제 대답입니다\",\"description\":\"권위적이고 위압적인 하대가 요구되는데 '~어요', '제 대답입니다', '~십시오' 등 공손한 존대로 옮김\"},{\"id\":\"E003\",\"src_span\":\"do not ask to see me again until you have done your task\",\"tgt_span\":\"다시는 나를 만나지 말아 주십시오\",\"description\":\"금지·명령을 '말아 주십시오'라는 정중한 부탁으로 옮겨 위압적 어조가 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"모른다, 마녀가 죽을 때까지 삼촌·이모를 못 본다, 마녀는 악하고 죽어야 한다, 임무 완수 전 만나지 말라는 내용이 모두 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"until, 'but', 'and' 등의 연결과 범위가 '때까지', '그러나', '그리고'로 같은 관계를 유지합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"위압적 지시·경고 → 지시·경고. 마녀를 죽이라는 압박과 물러가라는 지시 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"ought to be killed가 '죽어야만 합니다'로, do not ask가 '만나지 말아 주십시오'로 금지의 범주를 유지합니다. 공손한 어조는 Register에서 판정합니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\",\"E003\"],\"reason\":\"판단 질문 1·3: 평가조건은 권위적이고 위압적인 하대를 요구하는데 '~어요', '~습니다', '~십시오', '말아 주십시오'의 공손한 존대로 옮겨 오즈의 위압적 태도가 사라지고 관계가 뒤집혔습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 1118,
+    "output_tokens": 1066,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUnqsrrboEu8N6cALuJ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P122\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"so that you will have a failing test when you no longer have dependencies blocking you from using Python 3\",\"tgt_span\":\"이 코드를 사용하면 파이썬 3을 사용하지 못하게 하는 의존성이 더 이상 없을 때 실패 테스트를 수행할 수 있습니다\",\"description\":\"의존성이 더 이상 없을 때 '실패하는 테스트가 생긴다(존재한다)'는 결과가 '실패 테스트를 수행할 수 있다'로 바뀜. 테스트가 실패하는 것(알림 신호)이 아니라 실패 테스트를 실행하는 행위로 읽힘.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위·인과): 의존성이 사라지면 통합한 테스트가 실패하게 된다는 내용이 '실패 테스트를 수행할 수 있다'로 바뀌어 독자가 코드의 작동 방식을 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"목적·결과 관계(so that)는 '이 코드를 사용하면 … 때'로 재구성되어 연결 관계가 남아 있고 지시·초점 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기능 설명 → 기능 설명. 코드의 용도를 설명하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"can은 가능성·방법 안내이며 의무·허가·금지 등의 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기술 문서의 공식 설명체 '~습니다'가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 907,
+    "output_tokens": 780,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

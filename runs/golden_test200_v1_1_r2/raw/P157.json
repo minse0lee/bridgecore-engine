@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUy3EGkSy34vWfEap7d",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P157\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"These may include references to, or the inclusion of, language or the display of images and/or symbols that promote hate or discrimination\",\"tgt_span\":\"이러한 언어 또는 이미지 및 / 또는 기호의 표시에 대한 참조 또는 포함이 증오 또는 차별을 조장 할 수 있습니다\",\"description\":\"'These(이러한 것들)'가 포함할 수 있는 항목(참조 또는 포함)이라는 구조가 사라지고, '참조 또는 포함이 증오를 조장할 수 있다'는 인과적 가능성 서술로 바뀜. 증오를 조장하는 언어·이미지·기호가 포함 대상이라는 내용이 달라짐\"},{\"id\":\"E002\",\"src_span\":\"including racial slurs\",\"tgt_span\":\"인종 명예 훼손을 포함\",\"description\":\"racial slurs(인종 비하 표현)가 '인종 명예 훼손'으로 오역되어 지시 대상이 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: '이러한 것들이 ~을 포함할 수 있다'가 '참조 또는 포함이 증오를 조장할 수 있다'로 바뀌어 주체와 인과가 달라졌고, racial slurs도 '인종 명예 훼손'으로 달라져 요지를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: These가 앞 문장의 행위(증오 조장 언어·이미지 사용)를 가리키는데, 번역문의 '이러한 언어 또는 이미지'는 지시 대상을 좁혀 지시 관계가 바뀌었고, 'based on'이 이어지는 대상도 불분명해졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 설명 → 규정 설명. 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 may는 포함 가능성을 나타내며 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 문서의 격식체가 대체로 유지되며 어색함만으로는 훼손이 아닙니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: racial slurs라는 인종 비하 표현의 문화적 의미가 '인종 명예 훼손'이라는 법적 개념처럼 읽혀 한국어 독자가 해당 개념을 이해하기 어렵습니다. 정책 번호 ACA가 남아 있어 원 자료를 찾을 수 있으므로 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1301,
+    "output_tokens": 1098,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

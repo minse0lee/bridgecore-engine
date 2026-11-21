@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUg9yr7M72MnUsbcgt3",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P230\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a million meters in 2024\",\"tgt_span\":\"2024년에 100만 미터를 달리는 것이\",\"description\":\"원문에 없는 동사 '달리는'이 보충됨. 다만 Peloton 문맥상 운동 거리 의미로 자연스러운 보충이며 핵심 의미는 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"100만 미터, 2024년, 가능할지 궁금하다는 내용과 추측의 불확실성(might)이 유지됩니다. '달리는'은 peloton 문맥의 운동 거리를 풀어 쓴 것으로 사태가 달라지지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Now와 '이제'의 시간 연결이 유지되고 지시·초점·범위 표현이 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소셜미디어에서 자신의 궁금증·바람을 표명 → 같은 궁금증 표명. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 개인적 궁금증 표현입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"게시물 화자가 일반 독자에게 말하는 상황에서 '~습니다' 체는 무리 없이 맞으며 관계를 바꾸지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"미터 단위는 통용 단위로 그대로 옮겨졌고, 별도로 판정할 문화 고유의 제도·관습은 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 533,
+    "output_tokens": 716,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

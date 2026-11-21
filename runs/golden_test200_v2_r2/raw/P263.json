@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUuK6Pz5r1sekrjuz3V",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P263\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Local authorities\",\"tgt_span\":\"국회의원들은\",\"description\":\"지방 당국(지자체)이 국회의원들로 바뀌어 금지·권고를 한 행위 주체가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물·행위자): 금지와 권고를 시행한 주체가 '지방 당국'에서 '국회의원들'로 바뀌어 누가 했는지가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"오역을 바로잡으면 주체 문제가 함께 풀리고, 나열과 'even'(휴식 시간에도)의 범위는 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사실 보도 → 사실 보도. 조치를 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(주체): 금지와 권고라는 규범을 정한 주체가 지방 당국에서 국회의원으로 바뀌어 규범 제정 주체가 달라졌습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 보도의 평서체가 유지되며 관계상 높임 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(제도·기관): 지방 당국이라는 행정기관이 국회의원이라는 다른 제도 기관으로 바뀌어 한국어 독자가 다른 기관으로 이해합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 1045,
+    "output_tokens": 691,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

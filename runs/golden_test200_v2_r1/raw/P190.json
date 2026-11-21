@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUecw2hQ42ZtwLwezfk",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P190\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"What planet does KPDNKK live on???\",\"tgt_span\":\"KPDNKK는 어떤 행성에 살고 있는가???\",\"description\":\"비꼬며 질책하는 수사의문문이 문자 그대로의 실제 질문처럼 읽힘. 내용 단어는 맞게 옮겨졌고 기능만 달라짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"KPDNKK, 행성, 살다라는 내용과 의문 형식이 모두 유지되었습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·범위 표현이 없고 번역문에 남은 표현의 관계도 달라지지 않았습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 원문 기능은 비꼬며 질책하는 수사의문(어느 세상에 사느냐는 비난)인데, 번역은 '어떤 행성에 살고 있는가'로 옮겨 실제 질문처럼 읽힙니다. 다만 앞 문맥의 비판 댓글과 '???'로 비난의 기능은 어느 정도 전달되어 minor입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 수사의문문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"온라인 댓글의 비난 태도가 평서체 의문문 '-는가???'로 대체로 유지되며 관계에 맞지 않는 높임·호칭 변화는 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"기관 약칭 KPDNKK는 고유명칭 표기일 뿐 별도로 판정할 문화·제도 번역 쟁점이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 1335,
+    "output_tokens": 767,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

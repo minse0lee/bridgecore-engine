@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUnUvnGEG6DYVGhVpiG",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P114\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"that does not mean you can't modernize your code now\",\"tgt_span\":\"코드를 현대화할 수 있다는 것을 의미하지 않습니다\",\"description\":\"원문은 '지금 현대화할 수 없다는 뜻은 아니다(현대화할 수 있다)'인데, 번역문은 can't의 부정을 놓쳐 '현대화할 수 있다는 것을 의미하지 않는다'로 옮겨 의미가 반대가 됨. 'now'도 누락됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(부정): 'can't modernize'의 부정이 사라져, 현대화할 수 없다는 뜻은 아니라는 내용이 현대화할 수 있다는 뜻이 아니라는 내용으로 뒤집혔습니다. 독자가 요지를 반대로 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(연결 관계): 양보절 'Even if…'과 주절의 관계가 뒤집혀, 종속성이 지원하지 않더라도 현대화할 수 있다는 원문의 양보 논리가 '지원하지 않으면 현대화할 수 없다'는 쪽으로 읽힙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개념 설명·격려 → 개념 설명. 설명 기능은 유지되며 내용 오류는 Semantic에서 판정합니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"can't는 가능·능력의 의미이며 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학습자료의 '~습니다' 설명체와 '여러분' 호칭이 독자 관계에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 901,
+    "output_tokens": 833,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

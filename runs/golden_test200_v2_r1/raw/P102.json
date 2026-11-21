@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUaU75v2BZdZyWYYXq6",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P102\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"up to 10 school days\",\"tgt_span\":\"최대 10일까지\",\"description\":\"'school days'(수업일)가 '일'로 옮겨져 수업일 기준이 사라짐. 다만 문단 후속 문장에서도 같은 방식으로 쓰여 의미 차이는 작음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(기간): 'school days'가 '일'로 바뀌어 수업일 기준이 달력일로 읽힐 수 있으나, 10이라는 수치와 정학의 핵심 내용은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'after which'의 관계가 '~하도록 하는 징계'로 같은 종류의 관계로 읽히고, 지시·범위 표현에 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"정의 설명 → 정의 설명. 단기 정학의 개념을 정의하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"may not attend의 출석 금지가 '출석할 수 없도록 하는'으로 유지되며, 주체(학생)와 최대 기간 범위도 같습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 안내체('~입니다')가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"short-term suspension을 '단기 정학'으로 옮겨 같은 제도를 가리키며 한국 제도로 대체하지 않았고, 기간 단위의 의미 차이는 Semantic에서 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 1027,
+    "output_tokens": 716,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

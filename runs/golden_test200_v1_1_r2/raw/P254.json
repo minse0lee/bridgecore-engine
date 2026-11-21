@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUtsBuRpoVKBMRosUTR",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P254\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"within five school days\",\"tgt_span\":\"5일 이내에\",\"description\":\"'school days'(수업일)가 단순 '일'로 옮겨져 수업일 기준이 사라지고 달력상 5일로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(시간·수량): 'five school days'가 '5일'로 바뀌어 수업일 기준이 사라졌습니다. 다만 5일이라는 수치와 답변 권리라는 핵심 내용은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'학생회를 통해', '학생회의 권고사항' 등 지시·소유 관계와 기한 범위가 원문과 같이 연결됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"권리 안내(설명) → 권리 안내(설명). 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'have a right to receive'가 '받을 권리가 있다'로 유지되어 권리의 주체·상대·범주가 같습니다. 수업일 누락은 Semantic의 시간 기준 문제이며 권리의 범주나 주체는 바뀌지 않았습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 안내문에 맞는 '~다' 평서체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'school administration'을 '학교 행정부'로, 'student government'를 '학생회'로 옮겨 같은 제도를 가리키며 한국 제도로 대체하지 않았습니다. 수업일 누락은 숫자 오류가 아니라 Semantic에서 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 858,
+    "output_tokens": 748,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

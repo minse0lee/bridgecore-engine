@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUcY3nCAANGPp5Ba12q",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P148\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"hazing\",\"tgt_span\":\"괴롭힘\",\"description\":\"hazing(신입 입단·입회 신고식 형태의 가혹행위)을 일반적인 '괴롭힘'으로 옮겨 용어의 구체적 의미가 달라짐\"},{\"id\":\"E002\",\"src_span\":\"the health or safety of a student or students\",\"tgt_span\":\"학생이나 학생의 건강이나 안전\",\"description\":\"'a student or students'의 소유 대상이 중복·혼란되어 '학생이나 학생의 건강이나 안전'이 되었고, 건강·안전을 위협받는 대상 표현이 뒤섞임\"},{\"id\":\"E003\",\"src_span\":\"inflicting bodily harm on a student or students\",\"tgt_span\":\"학생이나 학생에게 신체적 상해를 입히는\",\"description\":\"'a student or students'를 '학생이나 학생'으로 옮겨 단수·복수 구분이 사라지고 중복 표현이 됨(의미는 대체로 유지)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: hazing이 일반 '괴롭힘'으로 바뀌어 대상 행위의 범위가 달라졌고, '학생이나 학생의 건강이나 안전'으로 건강·안전의 소유 관계가 흐트러졌으나 정의 내용(건강·안전 위협, 신체적 상해)은 읽혀 요지는 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'학생이나 학생의 건강이나 안전' 혼란은 구 안의 오역이며 바로잡으면 관계도 풀리므로 Semantic에서만 판정하고, 문장 전체 구조와 연결은 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"금지 규정과 용어 정의 제시 → 금지 규정과 용어 정의 제시. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"shall not이 '참여해서는 안된다'로 금지 범주와 대상(학생)이 유지됩니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 안내문에 맞는 격식이 대체로 유지되며, '안된다'와 '정의됩니다'의 종결어미 혼용은 어색함에 그칩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"특정 제도·단위 변환은 없고 미국 학교 규정 용어를 한국 제도로 대체하지 않았으며, hazing 용어 오역은 Semantic에서 판정합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 878,
+    "output_tokens": 1050,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

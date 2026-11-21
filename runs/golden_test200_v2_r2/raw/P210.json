@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUrzYNTR7kr9AdCPBB5",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P210\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"forbearance\",\"tgt_span\":\"면제\",\"description\":\"forbearance(상환 유예·일시 정지 조치)를 '면제'로 옮겨, 일시 중단이나 감액이 아니라 납부 의무 자체가 사라지는 것처럼 읽힘. 문단 전체에서 일관되게 쓰임.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: forbearance를 '면제'로 옮겨 유예 조치가 채무 면제로 읽힐 수 있으나, 바로 뒤 '일시 중단하거나 줄이는'이 의미를 설명하고 연락 행동과 URL이 유지되어 요지는 크게 달라지지 않으므로 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'면제'가 일관되게 반복되어 지시 관계가 유지되고, 연결 관계(조건·설명·요청 목적)와 범위도 원문과 같습니다. 용어 오역은 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"연락·정보 확인을 이끄는 안내 → 같은 안내. 지시와 설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'연락하십시오', '연락해야 합니다'로 연락 요구가 유지되고, 'may be eligible'도 '받을 수 있습니다'로 자격 가능성을 옮겨 규범 범주와 주체가 바뀌지 않았습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내문에 맞는 '-십시오', '-습니다' 체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"용어 오역은 Semantic에서 판정하며, 별도로 판정할 문화 고유의 제도·단위·표기 대상은 없습니다. '모기지'는 통용 표기이고 URL은 그대로입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 1166,
+    "output_tokens": 836,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

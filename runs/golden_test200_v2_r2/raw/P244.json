@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUtWXgw86P133krNVf3",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P244\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"with students and staff\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"관계 형성의 대상인 학생과 교직원이 번역문에서 누락됨\"},{\"id\":\"E002\",\"src_span\":\"but not limited to\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"비한정 단서가 누락되었으나 '등'이 일부 대응함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(참여자): 관계를 맺는 상대인 학생과 교직원이 빠져 누구와 관계를 형성하는지 알 수 없게 되었습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"남은 표현의 연결·지시·범위는 유지되며 누락은 Semantic에서 판정합니다. '등'이 비한정 범위를 전달합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"행동 규범 안내 → 행동 규범 안내. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(적용 범위): 학생이 관계를 맺어야 하는 대상(학생과 교직원)이 사라져 행동 기준의 적용 범위가 달라졌습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내체 '~합니다'가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 표현이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 856,
+    "output_tokens": 672,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

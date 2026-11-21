@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUqvn8ZFi4YUfzNUJ4R",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P186\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Assange\",\"tgt_span\":\"어쌔신 크리스토퍼\",\"description\":\"인물명 Assange(줄리언 어산지)가 '어쌔신 크리스토퍼'로 잘못 옮겨져 지시 대상이 다른 인물로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물): 소송 대상이 Assange에서 '어쌔신 크리스토퍼'라는 엉뚱한 인물로 바뀌어 독자가 소송의 대상을 다른 사람으로 이해합니다. 나머지(위키리크스에 양가감정, 고백)는 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'소송 여부와 상관없이'로 regardless of의 양보 관계가 유지되며 대명사·초점 관계의 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 입장 고백 → 입장 고백. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"I must confess는 화자의 솔직한 고백을 나타내는 표현으로 독자나 타인에게 의무·허가·금지를 정하는 규범이 아니므로 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"블로그형 글에서 1인칭 화자가 독자에게 쓰는 '~합니다' 체로 정중한 격식이 무리 없이 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명만 있고 별도의 제도·단위·관습 등 문화 고유 대상이 없습니다. 인명 오역은 Semantic에서 판정합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 696,
+    "output_tokens": 752,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

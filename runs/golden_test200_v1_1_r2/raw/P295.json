@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUvhjSkndzzXdujo3Y3",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P295\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I couldn’t agree more with\",\"tgt_span\":\"더 동의 할 수 없습니다\",\"description\":\"'전적으로 동의한다'는 관용 표현이 '더 이상 동의할 수 없다'(동의하지 않는다는 뜻으로 읽힘)로 직역되어 찬성이 반대로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(부정·확실성): 전적인 동의가 '더 동의할 수 없다'로 옮겨져 동의 여부가 반대로 읽힙니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사, 연결 관계, 초점 표현에 해당하는 변화는 없습니다. 지시·연결·초점 관계는 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 입장 표명(동의 진술) → 입장 표명. 발화 기능의 종류는 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"블로그 본문의 '~습니다' 서술체이며, 화자와 독자의 관계상 부적절한 높임이나 호칭 변화는 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명과 단체명 외에 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 833,
+    "output_tokens": 650,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

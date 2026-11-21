@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUiVpkV9ZGZhf9GKhZp",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P279\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Why don't you just admit\",\"tgt_span\":\"인정해 줄래?\",\"description\":\"'왜 인정하지 않니?'라는 따지는 수사의문이 '인정해 줄래?'라는 부탁·요청 형식으로 바뀌어 추궁의 기능이 약해지고 호의를 구하는 말처럼 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대(톰)가 화자의 로봇 손에 겁먹었다는 것을 인정한다는 핵심 내용이 유지됩니다. 문형 변화로 인한 기능 차이는 Context에서 판정합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 대상과 연결 관계가 그대로입니다. 'just'의 뉘앙스가 빠진 것은 범위 변화가 아닙니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 원문 기능은 인정을 촉구하는 추궁(따지는 수사의문) → 번역은 '인정해 줄래?'라는 부드러운 부탁으로 읽힙니다. 다만 '인정해라'는 행동 촉구라는 큰 틀은 유지되어 핵심 요지는 그대로이고 독자가 해야 할 행동도 같으므로 minor입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"don't는 부정 의문문의 일부로 의무·금지·허가를 정하는 규범 표현이 아니며, 연인 사이 따지는 대화이므로 규범 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-줄래?'는 연인 사이의 편한 반말로 기대 격식에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 865,
+    "output_tokens": 798,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

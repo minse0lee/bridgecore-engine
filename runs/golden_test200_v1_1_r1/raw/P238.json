@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUgXqjZ1U4KYR59cPXn",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P238\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"It should in no way signal\",\"tgt_span\":\"이는 … 의미하지 않는다\",\"description\":\"'in no way'(어떤 식으로도 ~아니다)의 강한 부정 강조가 사라지고, 'should'의 당위적 뉘앙스가 단순 부정으로 바뀜. 다만 핵심 내용(위원회가 승인 의사를 나타내는 것이 아님)은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"위원회의 조치가 암호화 자산 증권 상장 기준 승인 의사를 뜻하지 않는다는 핵심 내용이 같고, 달라진 것은 부정의 강조 정도뿐입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'이는'이 앞 문장의 조치를 가리키는 지시 관계가 유지되고 연결·초점 관계도 변하지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"발표자의 입장 설명 → 입장 설명. 조치의 의미를 한정해 설명하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 should는 승인이 무엇을 시사하지 않아야 한다는 해석 한정이며 누구에게 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 속 공식 인용문의 평서체 '~다'가 유지되어 관계와 격식에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"위원회와 상장 기준이 언급되지만 별도로 판정할 문화 고유의 제도 분류나 표기는 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 954,
+    "output_tokens": 745,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUmF7YeUM5UVFhqSt1U",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P157\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"These may include references to, or the inclusion of, language or the display of images and/or symbols that promote hate or discrimination\",\"tgt_span\":\"이러한 언어 또는 이미지 및 / 또는 기호의 표시에 대한 참조 또는 포함이 증오 또는 차별을 조장 할 수 있습니다\",\"description\":\"placeholder\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'These(이것들)'이 포함하는 대상(증오·차별을 조장하는 언어·이미지·기호에 대한 언급이나 포함)이 번역에서는 그 참조·포함 자체가 증오를 조장할 수 있다는 내용으로 바뀌어 주어와 행위가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'These'가 앞 문장의 행위들을 가리키는 지시가 '이러한 언어…'로 바뀌고, 'promote hate'의 수식 대상이 언어·기호에서 '참조 또는 포함'으로 이동해 지시·수식 관계가 달라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 내용 설명 → 규정 내용 설명. 설명 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 may include는 포함 가능성을 나타내는 설명이며 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 안내체('-습니다')가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: 'racial slurs'(인종 비하 표현)를 '인종 명예 훼손'으로 옮겨 비칭이라는 문화적 의미가 전달되지 않습니다. 정책명 ACA는 그대로 남아 원 자료를 찾을 수 있어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1301,
+    "output_tokens": 846,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

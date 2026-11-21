@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUgaFMj5D3KATKtVozB",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P236\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I’ll stand defiantly for the Federation\",\"tgt_span\":\"나는 연방을 위해 무시무시하게 서있을거야\",\"description\":\"defiantly(반항적으로·당당히 맞서)가 '무시무시하게'(섬뜩하게)로 오역되어 결의의 태도가 위협적·공포스러운 인상으로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"Orson said defiantly\",\"tgt_span\":\"오슨은 무시무시하게 말했다\",\"description\":\"said defiantly(도전적으로 말했다)가 '무시무시하게 말했다'로 오역되어 서술된 말투의 성격이 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: defiantly(반항적·도전적)가 두 곳 모두 '무시무시하게'로 바뀌어 오슨의 태도와 말투가 다른 것으로 읽힙니다. 이는 평가어의 정도 차이가 아니라 내용 변화이며, 서술 요지가 달라집니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"부사 오역이 원인이며 바로잡으면 함께 풀립니다. 지시·연결·범위 표현은 문제없이 남아 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"하급자의 결의 표명 → 결의 표명. 선언하는 발화 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자 자신의 결의 선언이며 의무·허가·금지를 정하는 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"반말체는 '나는 ~ 할거야'로 쓰였으나 독백적 결의 표명이고, 상관 앞의 격식 문제는 어색함 수준이라 훼손으로 보지 않습니다. 반항적 태도는 Semantic 오역에서 다룹니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'연방'은 허구 세계의 일반 명칭이고 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 667,
+    "output_tokens": 895,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

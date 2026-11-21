@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUjBVxvLGNoMmFQAVsK",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P295\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I couldn’t agree more\",\"tgt_span\":\"더 동의 할 수 없습니다\",\"description\":\"관용 표현 '전적으로 동의한다'가 '더 이상 동의할 수 없다'는 문자적 직역으로 바뀌어 동의가 반대(동의 불가)로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성·부정): 강한 동의를 뜻하는 관용구가 '더 동의할 수 없습니다'로 옮겨져 화자의 입장이 동의에서 동의하지 않는 쪽으로 읽힙니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현의 대상이 바뀌지 않았고 'with ~ about ~' 관계도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"의견 표명 → 의견 표명. 화자가 자신의 입장을 밝히는 기능은 유지되며 입장의 내용 변화는 Semantic에서 다룹니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 의견 표명 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"블로그 글의 1인칭 서술에 '~습니다' 체가 쓰여 관계나 태도에 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명·매체명 외에 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 833,
+    "output_tokens": 692,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUfgpCr84jTnLsPcB6m",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P215\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I guess\",\"tgt_span\":\"아마\",\"description\":\"화자의 추측·완화 표현 'I guess'가 부사 '아마'로 바뀌어, '할 수 있었다'는 가능성 자체가 불확실한 것처럼 읽힘. 다만 핵심 사실(리프트를 이용할 수도 있었다)은 유지됨.\"},{\"id\":\"E002\",\"src_span\":\"that makes sense\",\"tgt_span\":\"그 말이 맞아요\",\"description\":\"자기 생각이 이치에 맞다는 뜻의 'that makes sense'가 '그 말이 맞아요'로 옮겨져, 타인의 말에 대한 동의처럼 읽힘. 존댓말 종결어미도 앞뒤 문체와 어긋남.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'I guess'가 '아마'로 바뀌어 확실성이 달라졌고, 'that makes sense'가 '그 말이 맞아요'로 바뀌어 평가 내용이 달라졌다. 핵심 사실(리프트를 이용할 수 있었다는 점)은 유지되어 minor.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그 말'이 가리키는 대상이 앞의 '나는 할 수 있었다'로 바로 정해지고 연결·초점·범위도 달라지지 않아 보존.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"자기 진술의 인정·자기 점검 → 자기 진술의 인정. 같은 종류의 설명 기능이 유지된다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범적 의미가 없는 개인 진술이다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 구어체 독백이라는 관계에서 '그 말이 맞아요'의 종결이 앞 문장과 어긋나 어색하지만 관계를 바꾸지는 않아, 어색함만으로는 훼손이 아니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 없다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 932,
+    "output_tokens": 893,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

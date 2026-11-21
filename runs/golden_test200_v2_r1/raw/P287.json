@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUixbpju6rgkenLJoET",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P287\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"distutils 문서 참조 안내와 이 섹션이 확장 모듈 빌드만 다룬다는 내용이 모두 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"목적절('알아보려면')과 only의 초점('빌드하는 방법에 대해서만')이 같은 범위로 유지됩니다. 세미콜론으로 이어진 두 절은 두 문장으로 나뉘었지만 관계는 그대로입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"문서 참조 안내 → 문서 참조 안내, 섹션 범위 설명 → 섹션 범위 설명으로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"정해진 의무·금지가 아니라 학습 참고 문서를 안내하는 문장이므로 규범 의미가 없습니다. 기능은 Context에서 판정합니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재의 공식 안내체 '~하십시오', '~합니다'가 독자 관계에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화나 제도에 고유한 대상이 없고 기술 용어와 문서명만 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 930,
+    "output_tokens": 595,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

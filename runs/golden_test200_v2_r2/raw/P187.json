@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUr5v3aHHEbygvoJ8qY",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P187\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a school administrator\",\"tgt_span\":\"학교 행정부\",\"description\":\"학교 행정관(교직원 개인)을 '학교 행정부'(행정 조직)로 옮김\"},{\"id\":\"E002\",\"src_span\":\"to consult with a school administrator to determine if the activity will be allowed\",\"tgt_span\":\"학교 행정부와 상의하여 … 결정할 책임이 있습니다\",\"description\":\"행정관과 상의해 확인(determine)한다는 내용이 학생이 직접 결정한다는 것으로 바뀌어, 허용 여부·시간·장소·감독을 정하는 주체가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\",\"E001\"],\"reason\":\"판단 질문 1(행위): 행정관과 상의해 허용 여부 등을 알아보는 것이 학생이 허용 여부·시간·장소·감독을 결정하는 것으로 바뀌었고, administrator도 '행정부'로 옮겨 상대가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"내용 오역을 바로잡으면 관계도 함께 풀리며 연결·지시·범위 표현은 문제가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"책임 안내 → 책임 안내. 학생의 책임을 설명하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2(주체·범위): 책임은 유지되나 허용 여부·시간·장소·감독을 정하는 권한 주체가 학교(행정관)에서 학생으로 바뀌어 평가조건이 금지한 권한·담당 주체 변경이 생겼습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 안내문의 '~습니다' 체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"미국 학교 행정 제도를 한국 제도로 바꾸지 않았고 학교 행정 담당자를 가리키는 점은 이해 가능합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 1000,
+    "output_tokens": 857,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

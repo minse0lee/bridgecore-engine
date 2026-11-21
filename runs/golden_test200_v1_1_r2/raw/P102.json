@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUn6F3GqCyW29NJVcsL",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P102\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"up to 10 school days\",\"tgt_span\":\"최대 10일까지\",\"description\":\"'school days'(수업일)가 단순 '일'로 옮겨져 수업일 기준 한정이 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(수량·시간): '10 school days'(수업일 10일)가 '10일'로 바뀌어 기간의 산정 단위가 달라졌습니다. 다만 학교에 출석할 수 없는 기간 상한이라는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계에 변화가 없고, 'after which'는 관계절로 자연스럽게 재구성되었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"징계 정의 설명 → 징계 정의 설명. 설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"may not attend의 출석 금지가 '출석할 수 없도록 하는'으로 유지되며, 금지의 대상·주체가 달라지지 않았습니다. 기간 단위 문제는 Semantic에서 다룹니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 안내체('~입니다')가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"단기 정학이라는 미국 학교 징계 제도를 같은 제도로 옮겼고 한국 제도로 대체하지 않았습니다. 수업일 누락은 기간 수치 오류에 준해 Semantic에서만 판정합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1027,
+    "output_tokens": 713,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

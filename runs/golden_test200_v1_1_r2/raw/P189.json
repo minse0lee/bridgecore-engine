@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUqzV8M3R5B1V7xKNiq",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P189\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"reverse mortgage\",\"tgt_span\":\"역방향 모기지\",\"description\":\"제도 용어 '역모기지(주택연금)'를 '역방향 모기지'로 직역하여 한국어 독자에게 제도적 의미가 충분히 전달되지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"역모기지를 고려하는 사람에게 명심하라는 내용이 유지되며, 용어 직역은 같은 대상을 가리켜 의미 변화가 없습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조건절과 'keep in mind that:'로 이어지는 뒷 내용의 연결이 '~다면, 명심하십시오:'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"주의 환기 안내 → 주의 환기 안내. 뒤따르는 내용을 유념하도록 이끄는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"유념을 권하는 도입 문장으로 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"교재가 독자에게 안내하는 '-십시오' 격식체로 학습자료 관계에 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 'reverse mortgage'라는 금융 제도 용어를 '역방향 모기지'로 옮겨 한국어 독자가 통용되는 '역모기지/주택연금'으로 이해하기 어려우나, 모기지 개념은 남아 있어 요지는 전달되므로 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 515,
+    "output_tokens": 735,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

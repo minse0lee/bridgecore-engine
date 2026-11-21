@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUrCgbY3B1KKDrLJoBo",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P190\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"What planet does KPDNKK live on???\",\"tgt_span\":\"KPDNKK는 어떤 행성에 살고 있는가???\",\"description\":\"비꼬는 질책성 수사의문이 문자 그대로의 질문처럼 읽히는 직역 (문맥상 반어적 질책 기능이 약화됨)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"KPDNKK가 어떤 행성에 사는지 묻는 내용과 대상이 동일하게 옮겨졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·범위 표현이 바뀐 곳이 없고 앞 문장과의 관계도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞의 '짖는 수탉? 정말로?'에 이어지는 비꼬는 수사의문 → 같은 비꼬는 수사의문. 한국어에서도 '어떤 행성에 살고 있는가???'는 상식 밖임을 꼬집는 관용적 반어로 읽혀 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 수사의문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"댓글 작성자가 부서를 비판하는 날 선 태도가 '살고 있는가???'로 유지되며 관계에 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"KPDNKK는 기관 약칭이며 원어 표기가 그대로 유지되어 별도 판정할 문화 고유 요소가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 1335,
+    "output_tokens": 722,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

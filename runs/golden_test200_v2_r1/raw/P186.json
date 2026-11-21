@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUeQjJKBi8jbgCPGtYh",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P186\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Assange\",\"tgt_span\":\"어쌔신 크리스토퍼\",\"description\":\"인명 Assange(줄리언 어산지)가 '어쌔신 크리스토퍼'라는 전혀 다른 이름으로 바뀌어 소송 대상 인물을 알 수 없게 됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물): 소송 대상 Assange가 '어쌔신 크리스토퍼'로 바뀌어 지시 대상이 사라지고 다른 인물로 읽힙니다. 독자가 소송 대상을 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"regardless of whether 구조가 '여부와 상관없이'로 유지되고, 인명 오역은 바로잡으면 함께 풀리므로 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개인적 입장 고백 → 개인적 입장 고백. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"I must confess는 화자 자신의 고백 표현으로, 독자에게 규범을 정하는 문장이 아니라 규범 판정 대상이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"필자의 1인칭 서술에 맞는 '~합니다' 격식체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명만 있고 별도로 판정할 문화·제도 고유 대상이 없으며, 인명 오역은 Semantic에서 판정합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 696,
+    "output_tokens": 714,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

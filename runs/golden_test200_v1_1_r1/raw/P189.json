@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUeU1W42b7WxhrmMHDp",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P189\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"reverse mortgage\",\"tgt_span\":\"역방향 모기지\",\"description\":\"미국 금융 제도 용어 reverse mortgage(주택연금형 역모기지)를 '역방향 모기지'로 직역하여 제도적 명칭이 통용 표기와 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"역모기지를 고려하는 사람에게 다음 내용을 명심하라는 내용이 그대로 유지됩니다. 용어 표현의 차이는 지시 대상을 알 수 없게 할 정도가 아닙니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"if 조건절과 뒤의 'keep in mind that:' 도입 관계가 '~다면, 명심하십시오:'로 유지되며 지시·초점 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뒤따르는 항목을 주목하게 하는 안내·권고 → 같은 종류의 안내·권고로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"고려 시 유념하라는 정보 안내 도입문으로, 의무·금지·자격을 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학습자료의 독자에게 쓰는 '-십시오' 격식체가 관계에 맞습니다. '당신'의 사용은 어색함에 그칩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: reverse mortgage는 미국 주택금융 제도 용어인데 '역방향 모기지'라는 직역은 통용되는 '역모기지(주택연금)' 표기가 아니어서 제도적 의미 전달이 약해집니다. 다만 대상은 추론 가능하고 독자 행동에 미치는 영향이 작아 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 515,
+    "output_tokens": 801,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

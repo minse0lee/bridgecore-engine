@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUgLpDQSVyogAPCqANc",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P231\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"within three school days\",\"tgt_span\":\"3일 이내에\",\"description\":\"'school days'(수업일)가 일반 '일'로 바뀌어 기한 산정 기준이 달라짐(주말·휴일 포함 여부)\"},{\"id\":\"E002\",\"src_span\":\"the absence will be excused\",\"tgt_span\":\"결석은 면제됩니다\",\"description\":\"'excused absence'(사유가 인정된 결석)가 '면제'로 옮겨져 제도 용어의 의미가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(시간·대상): '수업일 3일'이 달력상 '3일'로 바뀌어 제출 기한이 달라지고, 'excused'가 '면제'로 옮겨져 결석 처리 내용이 달라졌습니다. 독자가 제출 기한을 다르게 이해하게 되므로 major입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조건(If→'이러한 이유로 ...한 학생은')과 '~하며'로 이어지는 연결 관계가 유지되고 지시·초점 표현의 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 안내 → 규정 안내. 절차를 설명하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(조건·범위): must로 정한 메모 제출 의무의 기한이 수업일 기준에서 일반 일수로 바뀌어 의무 이행 조건이 달라졌습니다. must를 '가져와야 하며'로 옮긴 것 자체는 문제가 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공식 규정 안내체('~합니다')가 유지되어 독자와의 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2(제도적 의미): 학교 출결 제도의 'excused absence'(인정 결석)가 '면제'로 옮겨져 한국어 독자가 제도적 의미를 이해하기 어렵습니다. 다만 3일 기한이 남아 있어 문맥상 파악이 가능하므로 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1099,
+    "output_tokens": 930,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

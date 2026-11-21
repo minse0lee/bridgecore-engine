@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUihawN9XnRYwj9CF6q",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P282\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"you must check in the generated file\",\"tgt_span\":\"생성된 파일을 반드시 확인해야 합니다\",\"description\":\"버전 관리 용어 'check in'(생성된 파일을 저장소에 커밋/체크인)을 일반적 의미의 '확인'(check)으로 오역하여 요구되는 행위가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위): 'check in'은 생성된 파일을 저장소에 커밋하라는 뜻인데 '확인해야 한다'(검토)로 옮겨 요구되는 행위가 다른 것으로 바뀌었습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조건절과 주절의 관계, 지시·범위 표현은 그대로이고 문제는 단어 오역뿐이라 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"중요 경고·지시 → 중요 경고·지시. 행동하도록 이끄는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: must는 반드시 지켜야 할 작업 원칙인데 '반드시 -해야 합니다'로 의무 강도는 유지됐으나, 의무의 내용이 커밋에서 검토로 바뀌어 독자가 수행해야 할 행동이 달라졌습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"학습자료의 설명체 '-합니다'가 유지되며 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 597,
+    "output_tokens": 737,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

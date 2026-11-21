@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUiLQU8FmPe55o5i6r4",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P277\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a Member of Congress\",\"tgt_span\":\"의회의 회원\",\"description\":\"미국 연방 의회 의원(Member of Congress)을 '의회의 회원'이라는 일반 어휘로 옮겨 의원이라는 제도적 직위가 전달되지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'이것이 그녀가 의회 구성원이 될 기질이 없음을 시사한다'는 내용이 유지되고, '나타냅니다'는 suggests의 확실성 차이가 크지 않아 핵심 사실이 같습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'이것'과 '그녀'의 지시 대상이 유지되고 연결·초점 표현의 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"비판적 평가·주장 진술 → 비판적 평가·주장 진술로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 평가 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 인용문의 평서 격식체 '-ㅂ니다'로 관계와 태도가 크게 달라지지 않았습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 'Member of Congress'(미국 연방 의회 의원)를 '의회의 회원'으로 옮겨 제도적 직위 의미가 약하게 전달됩니다. 의회라는 기관은 유지되어 독자가 대체로 이해할 수 있어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 517,
+    "output_tokens": 720,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

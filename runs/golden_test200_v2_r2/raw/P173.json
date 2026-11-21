@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUqPhMTEA3DHUVWZoqe",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P173\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the panel just sucks ass\",\"tgt_span\":\"패널이 그냥 엉덩이를 빨아\",\"description\":\"관용 표현 'sucks ass'(형편없다)를 직역하여 '엉덩이를 빨아'로 옮겨, 패널이 형편없다는 부정적 평가가 사라지고 엉뚱한 행위 서술이 됨\"},{\"id\":\"E002\",\"src_span\":\"I guess\",\"tgt_span\":\"아마\",\"description\":\"추측 표현이 문장 끝에 어색하게 놓여 문장이 종결되지 않음. 추측의 뜻은 남아 있음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 패널이 형편없다는 평가가 '엉덩이를 빨다'라는 전혀 다른 행위로 바뀌어 내용이 달라졌습니다. 독자는 요지를 이해할 수 없습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·범위 표현의 문제는 없고, 문제는 관용구 오역이어서 Semantic에서 판정합니다. 추측의 '아마'는 남아 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"제품에 대한 불만 서술 → 서술. 평서문 서술이라는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가 의미가 없는 문장입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3: 원문의 속어적이고 거친 투의 불만 어조가 '엉덩이를 빨아'로 옮겨지면서 어조가 이상해졌고, 화자의 불만스러운 태도가 전달되지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 513,
+    "output_tokens": 810,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

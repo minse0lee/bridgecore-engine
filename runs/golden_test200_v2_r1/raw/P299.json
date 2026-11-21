@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUjVLmJpg5pYSVweK4p",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P299\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"when waves as high as six meters (18 feet) smashed onshore at dusk\",\"tgt_span\":\"황혼에 6미터(18피트) 높이의 파도가 해안에 부딪치면서\",\"description\":\"'when'의 시간적 동시 관계(모였을 때 파도가 덮침)가 문장 분할로 약해졌으나 같은 시간 관계로 읽힘. 'as high as'의 '최대 ~높이' 뉘앙스가 '높이'로 단순화됨(미미).\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"수백 명, 금요일, 팔루 해변 축제, 6미터 파도, 황혼, 많은 사망, 모든 것의 파괴가 모두 유지되며 'as high as'의 차이는 사실 내용을 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"문장이 둘로 나뉘었지만 앞 문장의 모임 뒤에 파도가 덮친 상황이 이어져 시간 관계가 읽히고, 지시·범위 문제는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사건 보도 서술 → 사건 보도 서술로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 보도의 중립적 서술체('~했다')가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"미터와 피트를 원문대로 병기하고 요일을 그대로 옮겼으며, 도시 이름 팔루는 인명·지명이지만 단위 표기가 있어 변경 없이 유지됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 771,
+    "output_tokens": 760,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

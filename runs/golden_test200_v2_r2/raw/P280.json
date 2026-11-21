@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUv6Rfyf1eJvkbvw2xb",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P280\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"by the end of the decade\",\"tgt_span\":\"2020년까지\",\"description\":\"'이 10년이 끝날 때까지(2030년 무렵)'가 '2020년까지'로 바뀜. 시한이 달라지고 원문에 없는 연도가 추가됨\"},{\"id\":\"E002\",\"src_span\":\"a carve out for winemakers from the requirement that … 10% of products must be supplied in reusable containers\",\"tgt_span\":\"규정에서 10%의 면제를 받았으며\",\"description\":\"와인 제조업체가 재사용 용기 요건에서 면제받은 것인데, 10% 자체가 면제 대상 비율인 것처럼 바뀜. 요건 내용(제품의 10%를 재사용 용기로 공급)이 면제의 크기로 오역됨\"},{\"id\":\"E003\",\"src_span\":\"rising to 40% in 2040\",\"tgt_span\":\"2040년에는 40%로 늘어나게 된다\",\"description\":\"요건 비율이 40%로 상승한다는 내용이 면제 비율이 40%로 늘어난다는 의미로 읽혀 대상이 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 시한이 '10년 말'에서 '2020년'으로 바뀌었고, 요건 비율(10%→40%)이 면제 비율로 오역되어 면제의 내용이 달라졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"비율 상승이 면제 비율로 읽히는 문제는 내용 오역에서 비롯되어 오역을 바로잡으면 함께 해결되므로 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 사실 보도 → 뉴스 사실 보도. 서술 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 2: must 요건의 적용 조건(기한)과 범위가 바뀌었습니다. 2020년까지로 바뀌었고 10%·40%가 요건 비율이 아닌 면제 비율로 읽히며, 면제의 범위가 불명확해졌습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 기사의 격식 있는 서술체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"날짜 표기와 EU 정책 대상은 같은 대상을 가리키며 로케일 문제가 없습니다. 연도 오류는 Semantic에서 판정합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 1105,
+    "output_tokens": 1039,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

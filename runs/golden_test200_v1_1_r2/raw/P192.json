@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUrEDNaXmnGdQzWy6ev",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P192\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"patriotic exercises\",\"tgt_span\":\"애국 운동\",\"description\":\"애국적 의식·행사(예: 국기 맹세 등)를 뜻하는 exercises가 '운동'으로 옮겨져 의식의 의미가 흐려짐. 다만 '애국 운동'으로도 애국 활동으로 읽혀 지시 대상의 큰 틀은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: exercises(의식·행사)가 '운동'으로 바뀌어 대상 활동의 성격이 일부 달라졌으나, 애국 관련 활동에 참여하는 사람을 방해하지 말라는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"관계절 'who are participating'이 '참여하는 다른 사람'으로 유지되어 지시·연결·초점이 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 안내(행동 금지) → 규정 안내(행동 금지)로 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"may not의 금지가 '방해해서는 안된다'로 유지되고 주체(학생)와 대상도 같습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"규정 안내문의 평서 격식체('~안된다')로 관계에 크게 어긋나지 않으며 어색함만으로 훼손이 아닙니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·단위·표기가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 667,
+    "output_tokens": 726,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

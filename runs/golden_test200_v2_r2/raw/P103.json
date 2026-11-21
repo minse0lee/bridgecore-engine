@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChFUn7RyFbukAfwa8or8p",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"P103\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"he would \\\"prefer not\\\" to fire Rosenstein\",\"tgt_span\":\"해임하지 않겠다고 밝혔지만\",\"description\":\"'prefer not'(해임하지 않는 쪽을 선호)이 해임하지 않겠다는 확정적 의사 표명으로 바뀜. 확실성·태도가 달라짐\"},{\"id\":\"E002\",\"src_span\":\"Rosenstein\",\"tgt_span\":\"로젠스타인 판사\",\"description\":\"부검사장(Deputy Attorney General)인 로젠스타인에게 원문에 없는 '판사' 직함을 덧붙임\"},{\"id\":\"E003\",\"src_span\":\"Kavanaugh\",\"tgt_span\":\"카바노 판사\",\"description\":\"'Kavanaugh'를 '카바노'로 표기하고 대법관 후보에 해당하는 직함 대신 '판사'로 옮김. 'Kavanaugh'는 통용 표기 '캐버노' 등과 다르나 지시 대상은 식별 가능\"},{\"id\":\"E004\",\"src_span\":\"sexual misconduct\",\"tgt_span\":\"성폭행 혐의\",\"description\":\"성적 비위(성적 위법행위 일반)가 더 구체적인 '성폭행'으로 바뀜\"},{\"id\":\"E005\",\"src_span\":\"both testified\",\"tgt_span\":\"증언하는\",\"description\":\"두 사람 모두 증언했다는 'both'의 의미가 명시되지 않고 현재형 수식으로 바뀜. 두 사람의 증언 사실은 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E004\"],\"reason\":\"판단 질문 1: 'prefer not'이 확정적 '해임하지 않겠다'로 바뀌어 확실성이 달라지고, 로젠스타인에게 없는 '판사' 직함이 붙고, misconduct가 '성폭행'으로 구체화되어 독자가 사실관계를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 'but then'의 번복·시간적 이어짐이 '밝혔지만'으로 처리되어, 해임하지 않겠다고 한 뒤 회의가 연기됐다는 연결이 약해지고 해임 여부와 회의 연기의 관계를 알기 어려움. 다만 핵심 연결은 읽힘.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사건 보도 → 사건 보도. 뉴스 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범을 정하는 표현이 없는 뉴스 보도 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴스 기사의 객관적 서술체가 유지되며 청자와의 관계 문제는 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\",\"E003\"],\"reason\":\"판단 질문 1·2: 부검사장과 대법관 후보라는 미국 제도상의 직위가 모두 '판사'로 옮겨져 한국어 독자가 해당 제도적 지위를 이해하기 어렵습니다. 'Senate judiciary committee'의 '상원 사법위원회'는 통용 번역으로 보존입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16733,
+    "inference_geo": "global",
+    "input_tokens": 858,
+    "output_tokens": 1286,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
