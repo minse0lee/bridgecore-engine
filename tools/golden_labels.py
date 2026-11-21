@@ -170,12 +170,12 @@ def fleiss(rows, cats):
 
 
 def cmd_consensus(a):
-    """개발 문항만: 평가자 다수결(훼손 / 훼손 아님, 3분류) + Fleiss kappa + (선택) 엔진 비교"""
+    """평가자 다수결(훼손 / 훼손 아님, 3분류) + Fleiss kappa + (선택) 엔진 비교. --split 시험은 v2 고정(2026-11-21, 지문 37c43a4c2a67) 뒤에만"""
     sp = split_map()
     raters = {}
     for x in a.xlsx:
         rid, rows = load_v3(x)
-        raters[rid] = {(r["item_id"], r["axis"]): r for r in rows if sp.get(r["item_id"]) == "개발"}
+        raters[rid] = {(r["item_id"], r["axis"]): r for r in rows if sp.get(r["item_id"]) == a.split}
     ids = sorted(raters)
     keys = sorted(set.intersection(*[set(v) for v in raters.values()]))
     cons, stats = [], defaultdict(Counter)
@@ -195,7 +195,7 @@ def cmd_consensus(a):
         st = stats[k[1]]
         st["n"] += 1; st["unresolved"] += bin_ is None; st["violated"] += bin_ == "훼손"
         st["unanimous"] += len(set(valid)) == 1 and len(valid) == len(ids)
-    print("평가자", ids, "· 개발 문항-축", len(keys))
+    print("평가자", ids, f"· {a.split} 문항-축", len(keys))
     print("축 | n | 다수결 훼손 | 결론 없음(동수·보류) | 만장일치 | Fleiss kappa(훼손 여부) | Fleiss kappa(3분류)")
     for ax in AXES + ["전체"]:
         ks = [c for c in cons if ax == "전체" or c["axis"] == ax]
@@ -237,6 +237,7 @@ def main(argv=None):
     s = sub.add_parser("score"); s.add_argument("xlsx"); s.add_argument("run_dir"); s.add_argument("--out")
     s.set_defaults(fn=cmd_score)
     s = sub.add_parser("consensus"); s.add_argument("xlsx", nargs="+"); s.add_argument("--run"); s.add_argument("--out")
+    s.add_argument("--split", default="개발", choices=["개발", "시험"])
     s.set_defaults(fn=cmd_consensus)
     a = p.parse_args(argv)
     a.fn(a)
