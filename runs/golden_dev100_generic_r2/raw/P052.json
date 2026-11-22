@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChHvFbDjZ9yPh9JnaUJp3",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"Referral to Counseling Services\",\"tgt_span\":\"상담 서비스에 대한 참조\",\"description\":\"'Referral'(의뢰·연계)을 '참조'(reference)로 오역했다. 또한 제목과 본문 사이의 구분이 없어 제목이 본문과 이어져 읽힌다.\",\"severity\":\"major\"},{\"src_span\":\"a pattern of threatening or actual physical, sexual, and/or emotional abuse\",\"tgt_span\":\"위협 또는 실제 신체의 패턴을 사용하는 경우, 성적, 및 / 또는 감정적 학대,\",\"description\":\"'위협적이거나 실제적인 신체적·성적·정서적 학대의 패턴'이라는 구조가 깨졌다. 'pattern'이 'physical'에만 걸리고, 성적·감정적 학대가 문장 밖으로 밀려났다. 의미가 왜곡되어 읽기 어렵다.\",\"severity\":\"critical\"},{\"src_span\":\"to control a dating partner\",\"tgt_span\":\"데이트 파트너를 제어하기 위해\",\"description\":\"'control'을 '제어'로 옮겨 부자연스럽다. 사람에 대한 통제·지배의 의미에는 '통제'가 맞다.\",\"severity\":\"minor\"},{\"src_span\":\"refer both the victim and the student who engages in this behavior to separate appropriate school or community-based agencies\",\"tgt_span\":\"별도의 적절한 학교 또는 지역 사회 기반의 기관에이 행동에 종사하는 피해자와 학생 모두를 참조해야합니다\",\"description\":\"'별도의 기관'(피해자와 가해 학생을 각각 다른 기관으로)이라는 의미가 불분명하다. 'refer'를 '참조'로 오역했고, 'engages in'을 '종사하는'으로 옮겨 어색하다. 띄어쓰기도 어긋났다('기관에이').\",\"severity\":\"major\"},{\"src_span\":\"for counseling, support, and education services\",\"tgt_span\":\"상담을위한 ... , 지원, 및 교육 서비스.\",\"description\":\"상담·지원·교육 서비스의 나열이 문장 끝에 떨어져 있어 문법적으로 연결되지 않는다. 띄어쓰기도 어긋났다('상담을위한').\",\"severity\":\"major\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 1007,
+    "output_tokens": 807,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

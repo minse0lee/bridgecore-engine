@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChHvGzcB65siXF4E5EvVo",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"eh, stupid?”\",\"tgt_span\":\"꿀을 길어낼 수 있겠군요.\",\"description\":\"문장 끝의 'eh, stupid?'가 번역에서 통째로 빠졌다. 모자장수가 앨리스를 비꼬며 부르는 호칭과 되묻는 어조가 사라졌다.\",\"severity\":\"major\"},{\"src_span\":\"“You can draw water out of a water-well,” said the Hatter; “so I should think you could draw treacle out of a treacle-well\",\"tgt_span\":\"당신은 우물에서 물을 길어낼 수 있잖아요,\\\" 모자 상인이 말했다. \\\"그럼 당신은 꿀 우물에서 꿀을 길어낼 수 있겠군요.\",\"description\":\"평가조건은 무례하고 비꼬는 반말을 요구하는데 정중한 존댓말('~잖아요', '~겠군요')을 썼다. 화자와 청자의 관계, 말투가 바뀌었다.\",\"severity\":\"major\"},{\"src_span\":\"treacle-well\",\"tgt_span\":\"꿀 우물\",\"description\":\"treacle은 당밀(시럽)인데 '꿀'로 옮겼다. 문서정보에서도 당밀 우물로 설정되어 있어 어휘가 부정확하다.\",\"severity\":\"major\"},{\"src_span\":\"the Hatter\",\"tgt_span\":\"모자 상인\",\"description\":\"Hatter는 모자를 만드는 사람(모자장수)인데 '모자 상인'으로 옮겨 직업의 의미와 표준 번역어가 어긋난다.\",\"severity\":\"minor\"},{\"src_span\":\"water-well\",\"tgt_span\":\"우물\",\"description\":\"'water-well'과 'treacle-well'의 병렬 구조에서 'water-'가 빠져 '물 우물'의 대응이 약해졌다. 다만 이는 자연스러운 생략이라 영향은 작다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 607,
+    "output_tokens": 676,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

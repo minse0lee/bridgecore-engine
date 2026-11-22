@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChHvDeLSqiS7tkD8Qd7Gb",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"Article 43 of the draft\",\"tgt_span\":\"43조는\",\"description\":\"'of the draft'(법안의) 누락. 어떤 문서의 43조인지 불분명해짐.\",\"severity\":\"minor\"},{\"src_span\":\"the cyberspace administration and relevant departments\",\"tgt_span\":\"사이버공간 관리 및 관련 부서가\",\"description\":\"'cyberspace administration'은 '사이버공간관리국' 같은 기관명인데 '사이버공간 관리'로 옮겨 기관이 아닌 행위처럼 읽힘. 또한 'and'를 '및'으로 연결해 '관리 및 관련 부서'로 읽히므로 두 주체(사이버공간 관리 당국과 관련 부서)가 모호해짐.\",\"severity\":\"major\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 1079,
+    "output_tokens": 282,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

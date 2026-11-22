@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChHvGCHcTVrz7YeHf4aCe",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"support causes\",\"tgt_span\":\"원인을 지지하고\",\"description\":\"'causes'는 지지하는 대의·명분을 뜻하는데 '원인'(reason for an effect)으로 오역해 의미가 왜곡됨.\",\"severity\":\"major\"},{\"src_span\":\"organize and assemble to discuss issues and demonstrate peacefully and responsibly in support of them\",\"tgt_span\":\"문제에 대해 토론하고, 평화롭고 책임감 있게 그들을 지지하는 데 시위를 조직하고 모이는 권리가 보장됩니다\",\"description\":\"'조직하고 모여 문제를 토론하고, 이를 지지하며 평화롭고 책임감 있게 시위할 권리'라는 구조가 흐트러짐. 'organize and assemble'의 목적(토론)과 'demonstrate'가 분리되어 시위만 조직하는 것처럼 읽히고, '그들'이 지시하는 대상도 불분명함.\",\"severity\":\"major\"},{\"src_span\":\"demonstrate peacefully and responsibly in support of them\",\"tgt_span\":\"그들을 지지하는 데 시위를 조직하고 모이는\",\"description\":\"'demonstrate'(시위하다)가 '시위를 조직하고'로 옮겨져 organize와 혼동됨. 'in support of them'도 어색하게 번역되어 어색한 문장이 됨.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 822,
+    "output_tokens": 496,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

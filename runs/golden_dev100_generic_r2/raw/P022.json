@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChHvDRCAjsBKvJTkhefp9",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"collaborative portrait of humanity\",\"tgt_span\":\"인류의 초상화를 창조하는 데\",\"description\":\"'collaborative'(협력적·공동 제작)의 의미가 번역에서 누락되어, 여럿이 함께 만드는 인류의 초상이라는 핵심 취지가 사라졌다.\",\"severity\":\"major\"},{\"src_span\":\"we invite world citizens to help create\",\"tgt_span\":\"세계 시민들로 하여금 ... 도움을 주도록 초대합니다\",\"description\":\"'~로 하여금 ~하도록'의 사동 구문과 '도움을 주도록 초대'가 번역투여서 어색하다. '세계 시민 여러분이 ~ 만드는 데 함께해 주시길 초대합니다'처럼 자연스럽게 옮기는 편이 낫다.\",\"severity\":\"minor\"},{\"src_span\":\"films\",\"tgt_span\":\"영화\",\"description\":\"'films'는 이 맥락에서 참여자가 직접 찍은 영상을 가리키는데, '영화'로 옮기면 극영화로 읽혀 어색하다. '영상'이 더 적절하다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 890,
+    "output_tokens": 411,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

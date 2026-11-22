@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChHvH6WsjXoLw6VerJ2Fu",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"more than 10 consecutive school days\",\"tgt_span\":\"이상 10 교육감의 정지의 결과로 연속 학교 일\",\"description\":\"어순이 뒤섞여 '10일 넘게 연속된 수업일'이라는 의미를 알 수 없다. 'more than'이 '이상'으로 번역되어 '10일 초과'가 '10 이상'으로 읽히고 수량 표현이 어색하다. '10'과 '일'이 떨어져 있고 '연속'이 '학교 일'을 수식하지 못해 비문이다.\",\"severity\":\"major\"},{\"src_span\":\"superintendent’s suspension\",\"tgt_span\":\"교육감의 정지\",\"description\":\"'suspension'은 학생 징계 용어 '정학'인데 '정지'로 옮겨 징계 처분의 의미가 사라졌다. 또한 'superintendent'를 '교육감'으로 옮겨 뉴욕시 학교 체계의 담당 주체(학구 교육장)가 달라질 수 있다. 처분 주체와 처분 종류가 불명확해진다.\",\"severity\":\"major\"},{\"src_span\":\"as a result of\",\"tgt_span\":\"의 결과로 연속 학교 일;\",\"description\":\"'교육감 정학의 결과로'라는 인과 관계는 있으나 문장 구조가 깨져 있어, 어떤 결과로 10일을 넘게 결석하는지 연결이 불분명하다. 문장이 명사 나열로 끝나 완결되지 않는다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 531,
+    "output_tokens": 538,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

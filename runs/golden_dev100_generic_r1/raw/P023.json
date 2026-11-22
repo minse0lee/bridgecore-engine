@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChHvDUBW4KA65KhYgewND",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"has been proposed\",\"tgt_span\":\"상정되었다\",\"description\":\"원문은 본회의 상정이 '제안되었다'는 뜻으로 아직 이루어진 것이 아니다. 번역문은 이미 상정된 것으로 단정해 사실 관계를 바꿨다.\",\"severity\":\"major\"},{\"src_span\":\"the possible effects of law SB 1070\",\"tgt_span\":\"법안 SB 1070의 가능한 효과\",\"description\":\"'possible effects'는 일어날 수 있는 (부정적) 영향을 뜻한다. '가능한 효과'는 어색한 직역이며 의미가 불분명하다. 또 'law'를 '법안'으로 옮겼지만 이미 시행되는 법이므로 '법'이 적절하다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 795,
+    "output_tokens": 286,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

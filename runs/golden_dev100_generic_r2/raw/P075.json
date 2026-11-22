@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChHvHZfWw2QfjXm95nzZV",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"We go into the Hall and there's a mannequin with a brown wig, plaid skirt and white shirt.\",\"tgt_span\":\"우리는 홀로 들어가서 갈색 가발, 체크 무늬 스커트, 흰색 셔츠를 입은 마네킹이 있었다.\",\"description\":\"시제와 주어가 어색하다. 현재형 서술 \\\"들어간다\\\"가 과거형으로 바뀌었고, 홀에 들어가는 주체와 마네킹이 있는 장면이 한 문장으로 이어져 \\\"들어가서 ~ 마네킹이 있었다\\\"가 비문이 되었다. 또한 \\\"the Hall\\\"을 \\\"홀\\\"로만 옮겨 맥락이 불명확하다.\",\"severity\":\"minor\"},{\"src_span\":\"That's me.\",\"tgt_span\":\"저게 제나다.\",\"description\":\"1인칭 화자(제나)의 말인 \\\"That's me(저게 나예요)\\\"를 3인칭 \\\"제나\\\"로 바꿔 화자 시점과 서술 구조가 달라졌다.\",\"severity\":\"major\"},{\"src_span\":\"The police measured and photographed Jenna's body in a process that took more than three hours. Pressing charges also meant having to perform a reenactment, a common requirement when reporting a sexual assault in Japan:\",\"tgt_span\":\"\",\"description\":\"평가대상 원문의 첫 두 문장이 번역에서 빠졌다. 경찰이 몸을 측정하고 촬영했다는 내용과 재연이 일본 성폭행 신고 시 흔한 요건이라는 내용이 누락되었다.\",\"severity\":\"major\"},{\"src_span\":\"They have a staff member acting as the chikan. They have to set up/reenact and photograph every moment that happened on the train. And I have to be in the photos pointing at the situation to confirm I agree that's what happened I guess? Protocol they say. Jenna noted that no po\",\"tgt_span\":\"\",\"description\":\"직원이 치칸 역할을 맡는다는 내용, 기차 안 모든 순간을 재현·촬영한다는 내용, 제나가 사진 속에서 상황을 가리켜야 한다는 내용, \\\"Protocol they say\\\", 그리고 \\\"Jenna noted that no po...\\\" 부분이 모두 번역되지 않았다.\",\"severity\":\"major\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 1482,
+    "output_tokens": 807,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

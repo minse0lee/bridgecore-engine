@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChHvK7PXhKivDPiRfDZ5U",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"mauled the farmer to death\",\"tgt_span\":\"죽음으로 농부를 짓밟았다\",\"description\":\"\\\"to death\\\"를 \\\"죽음으로\\\"로 직역해 어색하다. \\\"물어뜯어/공격해 죽였다\\\"처럼 사망에 이르게 했다는 결과 의미가 자연스럽지 않다. 또한 \\\"mauled\\\"(물어뜯고 할퀴어 심하게 다치게 하다)를 \\\"짓밟았다\\\"로 옮겨 가해 방식이 달라졌다.\",\"severity\":\"major\"},{\"src_span\":\"A forensic examination confirmed\",\"tgt_span\":\"법의학 검사는\",\"description\":\"\\\"forensic examination\\\"을 \\\"법의학 검사\\\"로 옮겨 어색하다. \\\"부검/법의학 감정\\\"이 더 자연스럽다. 또한 무생물 주어를 그대로 살려 한국어로 부자연스럽다.\",\"severity\":\"minor\"},{\"src_span\":\"550 pound\",\"tgt_span\":\"550 파운드\",\"description\":\"단위 환산 없이 파운드를 그대로 두었다. 약 250kg으로 옮기면 독자 이해에 더 좋다. 다만 허용 가능한 수준이다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 502,
+    "output_tokens": 446,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

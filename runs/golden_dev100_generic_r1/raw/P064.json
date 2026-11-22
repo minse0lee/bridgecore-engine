@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChHvGYFAGHV6JwBCd7bte",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"the student must be provided with instruction at a location outside the school building\",\"tgt_span\":\"학생이 학교 건물 외부의 위치에서 지시를 제공해야하는\",\"description\":\"수동 의미가 뒤바뀌어 학생이 지시를 제공해야 하는 것처럼 읽힙니다. 실제로는 학생에게 학교 건물 밖에서 수업(교육)이 제공되어야 한다는 뜻으로, 제공 주체와 의무 대상이 바뀌었습니다. 또한 'instruction'을 '지시'로 오역했습니다.\",\"severity\":\"critical\"},{\"src_span\":\"the Chancellor or the Community Superintendent\",\"tgt_span\":\"총장 또는 지역 교육감이 지정한 다른 사람\",\"description\":\"'Chancellor'를 '총장'(대학 총장 느낌)으로 옮겨 부적절합니다. 뉴욕시 교육감(교육청장)에 해당하는 직책이므로 '교육감' 등으로 옮겨야 합니다. 또한 'designee of ... or ...' 구조상 총장과 지역 교육감 두 사람 모두의 지정인을 뜻하는데, 번역문은 '총장'과 '지역 교육감이 지정한 다른 사람'으로 읽혀 권한 주체가 모호합니다.\",\"severity\":\"major\"},{\"src_span\":\"Senior Executive Director of the Office of Safety and Youth Development\",\"tgt_span\":\"안전 및 청소년 개발 사무소의 수석 이사\",\"description\":\"'Senior Executive Director'를 '수석 이사'로 옮겨 직책의 의미가 부정확하고, 기관 직위로서 어색합니다. 'Office'도 '사무소'보다 '국/실' 등이 적절하며 'Youth Development'는 '청소년 발달/육성'이 자연스럽습니다.\",\"severity\":\"minor\"},{\"src_span\":\"11–15 school days\",\"tgt_span\":\"11-15 학교 일\",\"description\":\"'학교 일'은 부자연스러운 직역으로, '수업일' 등으로 옮겨야 합니다.\",\"severity\":\"minor\"},{\"src_span\":\"suspension from school\",\"tgt_span\":\"학교에서 학생의 정지\",\"description\":\"'suspension'을 '정지'로 옮겨 징계 용어로 부자연스럽습니다. '정학' 또는 '등교 정지'가 적절합니다.\",\"severity\":\"minor\"},{\"src_span\":\"may order the student’s suspension from school for a fixed period\",\"tgt_span\":\"정해진 기간 동안 학교에서 학생의 정지를 명령 할 수 있습니다\",\"description\":\"문장 구조가 매우 어색하고 관형절이 길게 얽혀 가독성이 떨어집니다. 띄어쓰기('해야하는', '명령 할')도 부정확합니다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 946,
+    "output_tokens": 999,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

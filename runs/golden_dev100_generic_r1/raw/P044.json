@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChHvEwCEqdUjzFruJcMYn",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"incidents of groping\",\"tgt_span\":\"간음 사건\",\"description\":\"'groping'(치한 행위, 추행)을 '간음'(성교)으로 오역했다. 의미가 크게 달라지고 범죄 유형이 왜곡된다.\",\"severity\":\"major\"},{\"src_span\":\"\\\"forcible indeceny\\\"\",\"tgt_span\":\"\\\"강제 음란\\\"\",\"description\":\"일본 형법상 죄명 '강제추행'(強制わいせつ)에 해당하는데 '강제 음란'으로 어색하고 부정확하게 옮겼다. 원문에 병기된 일본어 표기(強制わいせつ)도 누락했다.\",\"severity\":\"minor\"},{\"src_span\":\"prosecuted by police\",\"tgt_span\":\"경찰이 형법 제176조 \\\"강제 음란\\\"으로 기소합니다\",\"description\":\"일본에서 기소는 검찰이 하는 것이므로 '경찰이 기소'는 부정확하다. 원문의 서술을 그대로 옮기되 경찰이 입건하거나 송치한다는 의미로 다듬는 것이 자연스럽다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 1164,
+    "output_tokens": 406,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

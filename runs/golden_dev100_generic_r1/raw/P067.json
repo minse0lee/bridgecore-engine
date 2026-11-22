@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChHvGvze5EYjuaSWu26W7",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"Never heard of uglifying!\",\"tgt_span\":\"추해지는 걸 들어본 적이 없어!\",\"description\":\"원문은 'uglifying'(추하게 만들기)라는 동사 행위를 가리키는데, 번역은 '추해지는 것'(자동사적 상태 변화)으로 옮겨 의미가 달라졌다. 바로 뒤의 'to beautify'(아름답게 하는 것)와의 대응도 깨진다. '추하게 만드는 것' 정도가 적절하다.\",\"severity\":\"major\"},{\"src_span\":\"it exclaimed\",\"tgt_span\":\"그것은 외쳤다\",\"description\":\"그리폰을 '그것'이라고 옮겨 인물을 사물처럼 지칭했다. 한국어 서사에서는 '그리폰은'처럼 이름으로 받거나 주어를 생략하는 편이 자연스럽다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 548,
+    "output_tokens": 330,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

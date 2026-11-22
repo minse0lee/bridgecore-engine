@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChHvEnrh5pmiGTahNvint",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"Superintendent’s suspensions\",\"tgt_span\":\"교장의 정지\",\"description\":\"Superintendent(교육장)를 '교장'으로 오역함. 담당 주체가 바뀌어 권한 주체가 잘못 전달됨. 또한 suspension은 '정학' 등으로 옮겨야 하는데 '정지'는 부자연스러움.\",\"severity\":\"major\"},{\"src_span\":\"for more than 20 school days\",\"tgt_span\":\"20 학교 일 이상의\",\"description\":\"'more than'(20일 초과)을 '이상'으로 옮겨 기준이 바뀜. '학교 일'도 '수업일'로 해야 자연스러움.\",\"severity\":\"major\"},{\"src_span\":\"or for Level 5 infractions that involve seriously dangerous and/or violent behavior\",\"tgt_span\":\"또는 레벨 5 심각하게 위험한 및 / 또는 폭력적 인 행동을 포함하는 위반은\",\"description\":\"'for Level 5 infractions'의 조건 연결이 무너짐. 조사 '은'으로 문장 구조가 깨져 '5단계 위반의 경우에만'이라는 조건이 불명확해짐. '심각하게 위험한'과 '및/또는' 표현도 어색하고 띄어쓰기가 부정확함.\",\"severity\":\"major\"},{\"src_span\":\"where the circumstances warrant the imposition of a longer suspension\",\"tgt_span\":\"상황이 더 긴 정지의 부과를 보증.\",\"description\":\"'warrant'를 '보증'으로 오역함('정당화하다'). 문장이 종결어미 없이 끝나 불완전하고, 조건절의 연결도 깨짐.\",\"severity\":\"major\"},{\"src_span\":\"may be imposed only when required by law\",\"tgt_span\":\"부과 될 수 있습니다 또는\",\"description\":\"'only'의 제한이 뒤 조건('또는' 이하)과 문법적으로 이어지지 않고 문장 구조가 끊김. '부과 될'은 띄어쓰기 오류.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 939,
+    "output_tokens": 718,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

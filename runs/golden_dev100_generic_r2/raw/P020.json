@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChHvDJAVxZ3W6FYzMvog5",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"the first thing you'll want to do is create some objects\",\"tgt_span\":\"먼저 몇 개의 객체를 생성해야 합니다\",\"description\":\"원문 'you'll want to'는 '하고 싶어질 것'이라는 의미로 필요나 의무가 아닌데, 번역문은 '생성해야 합니다'라는 의무 표현으로 바꿨다. 또한 'the first thing'의 뜻이 '먼저'로 약해졌다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 551,
+    "output_tokens": 182,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

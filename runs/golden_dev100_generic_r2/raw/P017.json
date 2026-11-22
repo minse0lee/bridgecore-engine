@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChHvD4Ja7YZPogM916VJm",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"It's still not clear\",\"tgt_span\":\"그것은\",\"description\":\"비인칭 주어 'It'을 '그것은'으로 직역해 어색하다. 한국어에서는 생략해야 자연스럽다.\",\"severity\":\"minor\"},{\"src_span\":\"Mr Kavanaugh\",\"tgt_span\":\"씨 카바 노가\",\"description\":\"'Mr'를 이름 뒤에 붙는 '씨'로 잘못 앞에 두었고 이름도 '카바 노'로 띄어 써서 '캐버노'로 표기해야 할 이름이 어색하다. 호칭 '씨'는 부적절하며 '캐버노 후보' 등으로 옮겨야 한다.\",\"severity\":\"major\"},{\"src_span\":\"on the Senate floor\",\"tgt_span\":\"상원 바닥에\",\"description\":\"'floor'를 문자 그대로 '바닥'으로 옮겨 의미가 틀렸다. '상원 본회의(표결)'를 뜻한다.\",\"severity\":\"major\"},{\"src_span\":\"which would allow Mike Pence, the vice president, to break a tie\",\"tgt_span\":\"마이크 펜스를 허용, 부통령, 타이를 끊고\",\"description\":\"관계절의 구조가 무너져 '허용' 동사가 어색하고 의미가 불명확하다. 펜스 부통령이 결선 투표로 동수를 깰 수 있다는 의미가 전달되지 않으며 '타이'도 부적절하다.\",\"severity\":\"critical\"},{\"src_span\":\"confirm him to the Supreme Court\",\"tgt_span\":\"대법원에 그를 확인.\",\"description\":\"'confirm'을 '확인'으로 오역했다. 대법관으로 '인준'한다는 의미이며 문장도 종결되지 않고 비문이다.\",\"severity\":\"critical\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 651,
+    "output_tokens": 632,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

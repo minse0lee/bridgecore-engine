@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChHvHGKzDD9VCVWAnbkrK",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"Mr. Adams\",\"tgt_span\":\"씨. 애덤스는\",\"description\":\"경칭 \\\"Mr.\\\"를 \\\"씨.\\\"로 어색하게 직역했습니다. 한국어에서는 \\\"애덤스 씨\\\"처럼 호칭을 이름 뒤에 두어야 하므로 어순과 표기가 부자연스럽습니다.\",\"severity\":\"minor\"},{\"src_span\":\"the old people I've talked to say there was a bar and a church on every corner\",\"tgt_span\":\"나는 모든 모퉁이에 바와 교회가 있었다고 말하는 나이 든 사람들과 이야기했다\",\"description\":\"원문은 \\\"내가 이야기해 본 노인들은 ~했다고 말한다\\\"라는 뜻입니다. 번역은 관계절 구조를 잘못 옮겨 \\\"~라고 말하는 사람들과 이야기했다\\\"로 바꿨고, 현재 시제와 일반적 진술의 느낌도 사라졌습니다. 의미 전달이 어색하고 부정확합니다.\",\"severity\":\"major\"},{\"src_span\":\"Historically,\",\"tgt_span\":\"역사적으로, 나는\",\"description\":\"\\\"Historically\\\"를 문장 맨 앞에서 직역해, 전체를 수식하는 부사로 어색하게 읽힙니다. \\\"예전에는\\\"이나 \\\"역사적으로 보면\\\" 같은 표현이 더 자연스럽습니다.\",\"severity\":\"minor\"},{\"src_span\":\"a bar and a church on every corner\",\"tgt_span\":\"바와 교회\",\"description\":\"\\\"bar\\\"를 \\\"바\\\"로 옮겨 맥락에 맞는 \\\"술집\\\"의 뜻이 약해졌습니다. 또한 \\\"on every corner\\\"의 \\\"길모퉁이마다\\\"라는 뉘앙스가 충분히 살지 않았습니다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 530,
+    "output_tokens": 662,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

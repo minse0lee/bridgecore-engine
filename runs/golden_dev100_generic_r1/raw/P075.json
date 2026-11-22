@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChHvHaqE5B7ZA1CUXi5CL",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"We go into the Hall and there's a mannequin\",\"tgt_span\":\"우리는 홀로 들어가서 갈색 가발, 체크 무늬 스커트, 흰색 셔츠를 입은 마네킹이 있었다.\",\"description\":\"문장 구조가 어색하고 시제·주어가 맞지 않는다. 'We go into the Hall'은 현재형 1인칭 서술이며 '우리'는 어색하고, 'there's a mannequin'은 '있다'로 옮겨야 한다. 또한 '입은 마네킹이 있었다'로 접속이 비논리적이다.\",\"severity\":\"minor\"},{\"src_span\":\"That's me.\",\"tgt_span\":\"저게 제나다.\",\"description\":\"1인칭 화자 'me'를 3인칭 '제나'로 옮겨 화자 시점이 바뀌었다. 트윗 속 제나의 직접 서술이므로 '저게 나예요/나다'로 옮겨야 한다.\",\"severity\":\"major\"},{\"src_span\":\"The police measured and photographed Jenna's body in a process that took more than three hours. Pressing charges also meant having to perform a reenactment, a common requirement when reporting a sexual assault in Japan:\",\"tgt_span\":\"\",\"description\":\"평가대상 원문의 앞부분(경찰이 제나의 몸을 측정·촬영한 내용과 재연 요구 설명)이 번역문에서 누락되었다.\",\"severity\":\"major\"},{\"src_span\":\"They have a staff member acting as the chikan. They have to set up/reenact and photograph every moment that happened on the train. And I have to be in the photos pointing at the situation to confirm I agree that's what happened I guess? Protocol they say. Jenna noted that no po\",\"tgt_span\":\"\",\"description\":\"'They have a staff member...'부터 끝까지의 내용(직원이 치한 역할, 모든 순간 재현·촬영, 사진 속에서 상황 지목, 규정이라는 말 등)이 번역되지 않았다.\",\"severity\":\"major\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 1482,
+    "output_tokens": 700,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

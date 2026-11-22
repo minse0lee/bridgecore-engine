@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChHvEnSdgjaupN6UDctMq",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"Superintendent’s suspensions\",\"tgt_span\":\"교장의 정지\",\"description\":\"Superintendent(교육장/지역교육감)를 '교장'으로 오역했습니다. 징계를 내리는 주체가 바뀌어 권한 주체가 왜곡됩니다. 또 'suspensions'를 '정지'로 옮겨 학교 징계 용어인 '정학'이 아닌 부자연스러운 표현이 되었습니다.\",\"severity\":\"major\"},{\"src_span\":\"for more than 20 school days\",\"tgt_span\":\"20 학교 일 이상의\",\"description\":\"'more than 20'은 20일 '초과'인데 '이상'으로 옮겨 기준이 달라졌습니다. '학교 일'도 어색하며 '수업일'이 적절합니다.\",\"severity\":\"major\"},{\"src_span\":\"or for Level 5 infractions that involve seriously dangerous and/or violent behavior where the circumstances warrant the imposition of a longer suspension\",\"tgt_span\":\"또는 레벨 5 심각하게 위험한 및 / 또는 폭력적 인 행동을 포함하는 위반은 상황이 더 긴 정지의 부과를 보증.\",\"description\":\"문장 구조가 깨졌습니다. 'for Level 5 infractions'에 해당하는 조건 연결('경우에')이 없고 'warrant'가 '보증'이라는 명사형으로 끝나 문장이 완결되지 않습니다. 'where the circumstances warrant...'는 '상황상 더 긴 정학 부과가 정당화되는 경우'라는 조건인데 이 의미가 불분명합니다. 또한 '법률 요구 경우' 외에 '레벨 5 위반의 경우에만 가능하다'는 한정 관계가 흐려졌습니다.\",\"severity\":\"major\"},{\"src_span\":\"warrant\",\"tgt_span\":\"보증\",\"description\":\"'warrant'는 '정당화하다/타당하게 하다'인데 '보증'(guarantee)으로 오역했습니다.\",\"severity\":\"major\"},{\"src_span\":\"seriously dangerous and/or violent behavior\",\"tgt_span\":\"심각하게 위험한 및 / 또는 폭력적 인 행동\",\"description\":\"'및/또는' 표기와 띄어쓰기('및 / 또는', '인')가 부자연스럽고 번역투입니다. '심각하게 위험한 및 폭력적인'처럼 연결도 어색합니다.\",\"severity\":\"minor\"},{\"src_span\":\"may be imposed only when required by law\",\"tgt_span\":\"부과 될 수 있습니다 또는\",\"description\":\"문장 중간에 종결어미 후 '또는'이 이어져 문장 구조와 띄어쓰기('부과 될')가 부적절합니다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 939,
+    "output_tokens": 968,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

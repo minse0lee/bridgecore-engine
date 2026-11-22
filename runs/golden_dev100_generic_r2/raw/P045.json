@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChHvF1wzNQAYvscpFQmhD",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"a special administrative region with a certain degree of autonomy from the mainland\",\"tgt_span\":\"중국은 홍콩의 최고 직책을 놓고 경쟁하는 사람은\",\"description\":\"홍콩이 본토로부터 어느 정도 자치권을 가진 특별행정구라는 삽입 설명이 번역문에서 통째로 빠졌다.\",\"severity\":\"major\"},{\"src_span\":\"stacked with pro-Beijing members\",\"tgt_span\":\"친베이징 성향의 위원들로 구성된\",\"description\":\"'stacked with'는 친중파로 채워 편향되게 구성했다는 부정적 함의를 지니는데, '구성된'이라는 중립적 표현으로 옮겨 이 뉘앙스가 사라졌다.\",\"severity\":\"major\"},{\"src_span\":\"nominating committee\",\"tgt_span\":\"지명위원회\",\"description\":\"홍콩 행정장관 선거 맥락에서는 '추천위원회' 또는 '후보추천위원회'로 불리는데, 일반적인 용어와 다른 '지명위원회'를 사용했다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 790,
+    "output_tokens": 395,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

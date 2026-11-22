@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChHvJ4zsjxGhaVAGrm4Y1",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"Note that replace will also replace\",\"tgt_span\":\"replace 는 단어 내부의 단어도 대체할 수 있으며\",\"description\":\"주의를 환기하는 'Note that'이 번역에서 누락되었다. 또한 'will also replace'는 실제로 대체한다는 뜻인데 '대체할 수 있으며'로 가능성 표현이 되어 의미가 달라졌다.\",\"severity\":\"minor\"},{\"src_span\":\"the naive RE word would have done that, too\",\"tgt_span\":\"단순한 RE 단어도 그렇게 할 수 있습니다\",\"description\":\"'RE word'는 정규식 패턴 word를 가리키는데 'RE 단어'로 옮겨 의미가 불분명하다. 또한 'would have done'은 만약 썼다면 그렇게 했을 것이라는 가정의 뜻인데 '할 수 있습니다'로 옮겨 뉘앙스가 달라졌다.\",\"severity\":\"minor\"},{\"src_span\":\"but the naive RE word would have done that, too\",\"tgt_span\":\"그러나 단순한 RE 단어도 그렇게 할 수 있습니다\",\"description\":\"'but'은 replace의 이 동작이 정규식과 다르지 않다는 점을 부각하는 연결인데, 문장을 분리하고 '그러나'를 쓰면 대조 관계가 달라져 맥락상 어색하다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 850,
+    "output_tokens": 499,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

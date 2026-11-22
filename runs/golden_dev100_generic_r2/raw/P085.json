@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChHvJQwRdQ4ec8WbT1FzC",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"only [a-zA-Z0-9_] in bytes or if re.ASCII is supplied\",\"tgt_span\":\"바이트로는 [a-zA-Z0-9_] 또는 re.ASCII가 제공된 경우에만 일치하며\",\"description\":\"\\\"in bytes\\\"는 바이트열 패턴(bytes)에서라는 뜻인데 \\\"바이트로는\\\"이라고 해서 의미가 모호합니다. 또한 \\\"또는\\\"이 \\\"바이트 패턴일 때, 혹은 re.ASCII가 주어진 경우\\\"라는 조건 구조를 흐려, 조건과 일치 대상이 혼동됩니다. \\\"바이트 패턴이거나 re.ASCII가 지정된 경우에는 [a-zA-Z0-9_]에만 일치\\\"로 옮겨야 합니다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 723,
+    "output_tokens": 314,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

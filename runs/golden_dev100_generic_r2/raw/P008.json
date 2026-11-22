@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChHvChzgPBaiW91wccYmu",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"government and party authorities\",\"tgt_span\":\"정부와 당국이\",\"description\":\"\\\"party\\\"(공산당)가 누락되었습니다. 원문은 정부 기관과 당 기관을 가리키는데, 번역문은 \\\"당국\\\"이라는 일반적인 표현으로 바꿔 당(party)이라는 정치적 함의를 없앴습니다.\",\"severity\":\"major\"},{\"src_span\":\"round the clock\",\"tgt_span\":\"24시간 실행해야 한다\",\"description\":\"\\\"round the clock\\\"은 쉬지 않고 계속한다는 뜻의 관용 표현인데, \\\"24시간\\\"으로 옮겨 어색합니다. 또한 \\\"24시간 실행\\\"은 표현이 부자연스럽고 \\\"연중무휴/상시 처리\\\" 같은 의미가 약합니다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 1814,
+    "output_tokens": 305,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

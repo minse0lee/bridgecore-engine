@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChHvCMokgedZp2XWdBCRc",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"45 miles (72 kilometers)\",\"tgt_span\":\"72킬로미터(45마일)\",\"description\":\"원문은 마일을 주 단위로 쓰고 킬로미터를 괄호로 병기했는데, 번역문은 순서를 바꿔 킬로미터를 주 단위로 썼다. 수치는 맞지만 원문의 표기 방식과 다르다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 618
+    },
+    "cache_creation_input_tokens": 618,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 653,
+    "output_tokens": 155,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

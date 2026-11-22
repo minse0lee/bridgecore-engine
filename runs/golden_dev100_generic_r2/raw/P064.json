@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChHvGXWmDzomZGii9i4pX",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"the student must be provided with instruction at a location outside the school building\",\"tgt_span\":\"학생이 학교 건물 외부의 위치에서 지시를 제공해야하는\",\"description\":\"수동 관계가 뒤집혀 학생이 지시를 제공해야 하는 것으로 읽힘. 실제 의미는 학생에게 학교 건물 밖에서 수업(교육)이 제공되어야 한다는 것임. 또한 instruction을 '지시'로 오역함.\",\"severity\":\"major\"},{\"src_span\":\"the Chancellor or the Community Superintendent\",\"tgt_span\":\"총장 또는 지역 교육감이 지정한 다른 사람\",\"description\":\"'Chancellor'를 '총장'으로 오역함(교육감/학교교육청장 계열). 또한 'designee of the Chancellor or the Community Superintendent'의 범위가 모호해 총장 본인이 포함되는 것처럼 읽힘.\",\"severity\":\"major\"},{\"src_span\":\"Senior Executive Director of the Office of Safety and Youth Development\",\"tgt_span\":\"안전 및 청소년 개발 사무소의 수석 이사\",\"description\":\"직함 번역이 부정확함. 'Senior Executive Director'를 '수석 이사'로 옮겨 기관 직책으로 어색하며, 'Youth Development'도 '청소년 개발'로 직역해 부자연스러움.\",\"severity\":\"minor\"},{\"src_span\":\"11–15 school days\",\"tgt_span\":\"11-15 학교 일\",\"description\":\"'학교 일'은 부자연스러운 직역. '수업일'로 옮겨야 함.\",\"severity\":\"minor\"},{\"src_span\":\"suspension from school\",\"tgt_span\":\"학교에서 학생의 정지\",\"description\":\"'정지'는 징계 용어로 부적절. '정학'으로 번역해야 함.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 946,
+    "output_tokens": 647,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

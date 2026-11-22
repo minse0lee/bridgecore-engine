@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChHvJiHUGAuvzAG4f2Bi7",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"other designee of the Chancellor or the Community Superintendent\",\"tgt_span\":\"총장 또는 커뮤니티 교육감이 지정한 다른 사람\",\"description\":\"담당 주체 구조가 바뀌었다. 원문은 'Chancellor 또는 Community Superintendent의 다른 지정인(designee)'인데, 번역은 '총장 또는 교육감이 지정한 다른 사람'으로 읽혀 Chancellor 본인이 명령권자에서 빠지고 지정 주체가 달라진다. 'Chancellor'를 '총장'(대학 용어)으로 옮긴 것도 부적절하다(교육감/교육청장).\",\"severity\":\"major\"},{\"src_span\":\"the student must be provided with instruction at a location outside the school building\",\"tgt_span\":\"학생이 학교 건물 외부의 위치에서 지시를 제공해야하는\",\"description\":\"의무의 주체와 방향이 뒤바뀌었다. 원문은 학생에게 교육이 제공되어야 한다는 수동 구조인데, 번역은 학생이 지시를 제공해야 하는 것처럼 읽힌다. 'instruction'을 '지시'로 옮긴 것도 오역이다(수업/교육).\",\"severity\":\"critical\"},{\"src_span\":\"Office of Safety and Youth Development\",\"tgt_span\":\"안전 및 청소년 개발 사무소\",\"description\":\"기관명 번역이 어색하다. 'Office'는 기관 성격상 '국/실'이 자연스럽고, 'Youth Development'는 '청소년 발달/육성'이 적절하다. 'Senior Executive Director'를 '수석 이사'로 옮긴 것도 직함으로 어색하다.\",\"severity\":\"minor\"},{\"src_span\":\"21–39 school days\",\"tgt_span\":\"21-39 학교 일\",\"description\":\"'학교 일'은 부자연스럽다. '수업일'이 적절하다. 띄어쓰기('제공해야하는', '명령 할')도 맞지 않다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 906,
+    "output_tokens": 713,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

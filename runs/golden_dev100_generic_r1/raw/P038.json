@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChHvEMhrNLpk7pFW1rKhV",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"So you did, old fellow!\",\"tgt_span\":\"그래서 당신이 했어요, 늙은이!\",\"description\":\"친근한 반말 어조여야 하는데 존댓말 '했어요'와 거리감 있는 '당신'을 써서 관계·격식이 어긋남. 'old fellow'를 '늙은이'로 옮겨 친근한 호칭이 모욕적·비하적으로 바뀜.\",\"severity\":\"major\"},{\"src_span\":\"So you did\",\"tgt_span\":\"그래서 당신이 했어요\",\"description\":\"앞 문맥에서 빌이 한 말에 대한 동조('네가 정말 그랬지')인데, 'So'를 인과 접속 '그래서'로 직역해 어색하고 의미가 불분명함.\",\"severity\":\"minor\"},{\"src_span\":\"the others\",\"tgt_span\":\"다른 사람들\",\"description\":\"화자는 사람이 아니라 동물들인데 '사람들'로 번역해 등장인물 정체를 잘못 전달함.\",\"severity\":\"major\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 464,
+    "output_tokens": 365,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

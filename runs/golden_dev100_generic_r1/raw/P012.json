@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChHvCqG13TqdQfSJu7szi",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"to ensure the traceability of their Internet activities and content\",\"tgt_span\":\"인터넷 활동과 콘텐츠의 추적성을 보장하기 위해\",\"description\":\"목적절의 위치가 모호해 오해의 소지가 있다. 원문에서는 사용자에게 실명 정보를 제공하도록 요구하는 목적이 '사용자의 인터넷 활동과 콘텐츠 추적 가능성 보장'인데, 번역문은 '네트워크 운영자가 ... 보장하기 위해'로 읽혀 목적의 주체가 운영자처럼 보인다. 또한 'their'(사용자의)가 번역되지 않았다.\",\"severity\":\"minor\"},{\"src_span\":\"real identity information\",\"tgt_span\":\"진짜 신원 정보\",\"description\":\"법률·제도 문맥에서 '실명/실제 신원 정보'가 자연스러운데 '진짜 신원 정보'는 어색하고 구어적이다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 1803,
+    "output_tokens": 355,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChHvHrxpgdbekk3JspTo8",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"to the student, other students or school personnel\",\"tgt_span\":\"학생, 다른 학생 또는 학교 직원에게\",\"description\":\"'the student'(해당 학생 본인)가 '학생'으로만 옮겨져 '다른 학생'과 구분이 흐려지고 어색함. 본인·다른 학생·교직원에 대한 위험이라는 의미가 불명확함.\",\"severity\":\"minor\"},{\"src_span\":\"a clear and present danger of physical injury\",\"tgt_span\":\"명확하고 현재의 신체 상해의 위험을 제시하는 행동\",\"description\":\"'clear and present danger'(명백하고 급박한 위험)를 직역하여 '현재의'로 어색하게 옮겼고 'presents'를 '제시하는'으로 번역해 부자연스러움.\",\"severity\":\"major\"},{\"src_span\":\"suspend a student for one to five school days for behavior which presents\",\"tgt_span\":\"행동에 대한 학생을 1 ~ 5 학교 일을 정지 할 수있는 권한이있다\",\"description\":\"문장 구조가 깨져 있고 조사 사용이 틀림('행동에 대한 학생을', '학교 일을'). '정지'는 '정학'이어야 하며 '학교 일'은 '수업일'로 옮겨야 함. 번역투가 심하고 띄어쓰기 오류도 있음.\",\"severity\":\"major\"},{\"src_span\":\"or prevents the orderly operation of classes or other school activities consistent with the disciplinary responses set forth in this Code\",\"tgt_span\":\"또는이 코드에 명시된 징계 대응과 일치하는 수업이나 기타 학교 활동의 질서 정연한 운영을 방지.\",\"description\":\"'or prevents'가 앞 절의 행동을 수식하는 구조로 옮겨지지 않았고 'consistent with ...'가 '수업이나 활동'을 수식하는 것으로 오역됨. 원문에서는 징계 대응과 일치하게 정학시킬 수 있다는 의미임. 또한 문장이 종결되지 않고 '방지'로 끝남. 정학 권한의 조건이 왜곡되어 의미 전달이 어려움.\",\"severity\":\"critical\"},{\"src_span\":\"this Code\",\"tgt_span\":\"이 코드\",\"description\":\"'Code'를 '코드'로 음역함. 징계 규정집(훈육 규정)을 가리키므로 '규정'이나 '징계 규정'으로 옮겨야 함.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 983,
+    "output_tokens": 867,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

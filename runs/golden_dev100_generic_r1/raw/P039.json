@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChHvEcT7MxVMV6KFisoud",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"won most votes\",\"tgt_span\":\"대부분의 표를 얻었지만\",\"description\":\"\\\"most votes\\\"는 어느 정당보다 가장 많은 득표(최다 득표, 다수 득표)를 뜻하는데, \\\"대부분의 표\\\"로 옮겨 전체 표의 대부분을 얻었다는 뜻으로 오해될 수 있음. 과반 미달이라는 뒤 내용과도 모순됨.\",\"severity\":\"major\"},{\"src_span\":\"the required majority\",\"tgt_span\":\"과반수를\",\"description\":\"\\\"required\\\"(필요한 과반수)의 의미가 누락되었으며, \\\"과반수를 넘지 못했다\\\"는 표현은 정부 구성에 필요한 과반 의석에 못 미쳤다는 뜻을 충분히 살리지 못함. 또한 표가 아니라 의석 기준일 수 있음.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 681,
+    "output_tokens": 326,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

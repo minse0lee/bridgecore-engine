@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChHvDu8wihE6CDbAe7Lmd",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"Pray, what is the reason of that?”\",\"tgt_span\":\"그런데도 당신은 문을 향해 뒤로 몸을 돌렸습니다.\",\"description\":\"마지막 행 'Pray, what is the reason of that?'(도대체 그 이유가 뭐냐는 질문)이 번역에서 통째로 누락되었다. 질문이라는 발화 기능과 시의 구조가 사라졌고, 닫는 따옴표도 없다.\",\"severity\":\"major\"},{\"src_span\":\"you turned a back-somersault in at the door\",\"tgt_span\":\"문을 향해 뒤로 몸을 돌렸습니다\",\"description\":\"'back-somersault'(뒤로 공중제비/재주넘기)를 '뒤로 몸을 돌렸다'로 옮겨 곡예 동작의 의미가 약해지고 달라졌다. 'in at the door'(문으로 들어오면서)도 '문을 향해'로 바뀌어 의미가 어긋난다.\",\"severity\":\"major\"},{\"src_span\":\"Pray, what is the reason of that?\",\"tgt_span\":\"당신은 늙었고, 엄청나게 살이 쪘습니다.\",\"description\":\"아버지를 놀리는 투라는 기대 어조에 비해 '당신은...했습니다'라는 딱딱한 서술체가 쓰였고, 'Pray'가 가진 짐짓 공손한 조롱의 어감이 전혀 반영되지 않았다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 667,
+    "output_tokens": 522,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

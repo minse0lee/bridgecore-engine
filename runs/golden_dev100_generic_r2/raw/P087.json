@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChHvJSUwnZT4Nk2jv3igc",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"the threading module\",\"tgt_span\":\"스레딩 모듈\",\"description\":\"모듈 이름 `threading`은 코드 식별자이므로 음차하지 않고 원문 그대로 표기해야 합니다. `_thread`는 그대로 두고 `threading`만 '스레딩'으로 음차해 표기가 일관되지 않고, 실제 모듈명과 달라 학습자가 혼동할 수 있습니다.\",\"severity\":\"major\"},{\"src_span\":\"Be sure to use\",\"tgt_span\":\"사용해야 합니다\",\"description\":\"'Be sure to'가 가진 반드시 ~하라는 당부의 강조 뉘앙스가 약해졌습니다. '반드시 ~하세요' 같은 표현이 더 적절합니다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 467,
+    "output_tokens": 285,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
