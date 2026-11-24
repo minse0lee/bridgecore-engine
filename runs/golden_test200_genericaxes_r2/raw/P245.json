@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM9MXSDEocSiCet6qkGV",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"reason\":\"원문의 'over HK $3 million'(300만 홍콩달러 이상)이 '300만 홍콩달러'로 옮겨져 '초과'의 뜻이 빠졌고, 모금액이 정확히 300만인 것처럼 읽힌다.\"},\"Textual\":{\"judgment\":\"보존\",\"reason\":\"단일 문장 구조와 '기관-플랫폼-금액-환산액' 순서가 그대로 유지되었고 괄호 처리도 동일하다.\"},\"Context\":{\"judgment\":\"보존\",\"reason\":\"뉴스 기사 도입부로서 새 탐사보도 기관의 모금 소식을 전하는 맥락에 맞게 옮겨졌다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"reason\":\"의무, 허용, 금지, 가능성을 나타내는 표현이 원문에 없다.\"},\"Register\":{\"judgment\":\"보존\",\"reason\":\"보도문에 어울리는 평서형 '-했습니다'로 문단 전체의 어조와 일관된다.\"},\"Cultural\":{\"judgment\":\"보존\",\"reason\":\"HK$를 '홍콩달러'로, 플랫폼 이름 Fringebacker를 원어 그대로 적어 독자가 이해할 수 있게 옮겼다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 712,
+    "output_tokens": 466,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

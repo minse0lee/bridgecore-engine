@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM9MWgKrXRCiLNf6Fuwd",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"reason\":\"원문의 관계 형성 대상인 'with students and staff'(학생 및 교직원)가 번역에서 누락되어 누구와 관계를 맺는지가 사라졌다. 또한 '인정하는 모습을 보이며(demonstrating)'가 단순 '인정하고'로 바뀌었다.\"},\"Textual\":{\"judgment\":\"훼손\",\"reason\":\"원문은 관계 형성 뒤에 'demonstrating the acceptance of differences'가 덧붙는 구조인데, 번역은 차이 나열을 문두로 옮기고 두 동작을 병렬 연결로 바꿔 정보 순서와 종속 관계가 달라졌다. '정신적, 신체적 능력'도 'mental and physical ability'의 묶음이 흐려졌다.\"},\"Context\":{\"judgment\":\"훼손\",\"reason\":\"학생 행동 기대 항목에서 학생·교직원과의 관계라는 상황 맥락이 빠져 일반적인 차이 인정 문장처럼 읽힌다.\"},\"Deontic\":{\"judgment\":\"보존\",\"reason\":\"원문은 행동 기대를 서술하는 명령형 성격의 문장이며, '-합니다'로 기대 수준이 대체로 유지된다.\"},\"Register\":{\"judgment\":\"보존\",\"reason\":\"격식체 '-합니다'는 학교 규정 안내문에 어울리며 문체상 문제가 없다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"reason\":\"'but not limited to'(이에 국한되지 않음)의 개방적 열거 의미가 '등'으로 약하게 처리되었고, 'with regards to'의 범위 표지도 약화되어 포괄 범위가 충분히 전달되지 않는다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 786,
+    "output_tokens": 629,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

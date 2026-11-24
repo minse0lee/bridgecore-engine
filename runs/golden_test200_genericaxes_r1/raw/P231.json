@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM8zqhyQzMek41H7UTni",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"reason\":\"\\\"excused\\\"를 \\\"면제\\\"로 옮겨 '사유 인정된 결석'이라는 뜻이 '결석 자체가 면제됨'으로 왜곡되었고, \\\"three school days\\\"의 '수업일' 조건도 단순 \\\"3일\\\"로 바뀌었다. \\\"one of these reasons\\\"의 '이 중 하나'도 빠졌다.\"},\"Textual\":{\"judgment\":\"보존\",\"reason\":\"조건절과 \\\"must bring ... and the absence will be excused\\\"의 두 절 연결 구조가 한국어에서도 그대로 유지되며 정보 순서도 같다.\"},\"Context\":{\"judgment\":\"훼손\",\"reason\":\"뒤 문단의 \\\"excused/unexcused absence\\\" 맥락에서 '인정 결석/미인정 결석' 개념이어야 하는데 \\\"면제\\\"로 옮겨 출결 처리 맥락이 어긋난다.\"},\"Deontic\":{\"judgment\":\"보존\",\"reason\":\"\\\"must bring\\\"가 \\\"가져와야 하며\\\"로, \\\"will be excused\\\"의 확정적 처리가 \\\"면제됩니다\\\"로 의무와 확정 강도가 유지된다.\"},\"Register\":{\"judgment\":\"보존\",\"reason\":\"\\\"~합니다\\\" 체의 공식 안내문 어조가 학교 규정 안내문에 적절하다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"reason\":\"미국 학교 출결 제도의 \\\"excused absence\\\"(사유 인정 결석)를 \\\"면제\\\"로 옮겨 제도 용어가 부적절하고, \\\"note\\\"를 \\\"메모\\\"로 옮겨 결석 사유 확인서라는 기능도 약하게 전달된다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 924,
+    "output_tokens": 619,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM8qBezjMfXuMd35JYhZ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"reason\":\"\\\"청문회 담당자\\\"는 hearing officer(청문 담당관)를 청문회 자체와 혼동하게 하고, \\\"퇴학을 위한 학교 이사회에 권고\\\"라는 표현은 퇴학 권고를 이사회에 올린다는 관계가 모호해 누가 무엇을 누구에게 권고하는지 불분명하다. \\\"싸움이 ... 포함하는 학생\\\"도 싸움이 갱단·무기·부상과 관련되었다는 뜻이 어색하다.\"},\"Textual\":{\"judgment\":\"훼손\",\"reason\":\"\\\"퇴학을위한 학교 이사회에 권고\\\"처럼 수식 구조가 꼬여 원문의 'recommendation to the School Board for expulsion' 구조가 깨졌고, \\\"있는 학생 또는 ... 학생에 대한\\\"의 병렬도 불명확하다. 띄어쓰기 오류(\\\"싸움이있는\\\", \\\"위한\\\", \\\"권고 할\\\")도 읽기 흐름을 방해한다.\"},\"Context\":{\"judgment\":\"보존\",\"reason\":\"앞 문장의 징계 절차에 이어 청문 담당자의 퇴학 권고를 다루는 문맥은 대체로 유지되며, 같은 학년과 갱단·무기·부상 조건도 문단 흐름에 맞게 이어진다.\"},\"Deontic\":{\"judgment\":\"보존\",\"reason\":\"\\\"may make a recommendation\\\"이 \\\"권고 할 수 있습니다\\\"로 옮겨져 허용·가능성의 강도가 유지되었다.\"},\"Register\":{\"judgment\":\"훼손\",\"reason\":\"규정 안내문에 맞는 정중하고 자연스러운 문체가 아니라 기계번역 같은 어색한 직역투이고 띄어쓰기도 어긋나 공식 안내문 품질에 못 미친다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"reason\":\"\\\"hearing officer\\\"와 \\\"School Board\\\"는 미국 학군 제도의 직책·기관인데, \\\"청문회 담당자\\\"와 \\\"학교 이사회\\\"는 제도적 역할이 분명히 전달되지 않는다. \\\"학교 이사회\\\"는 학교위원회·교육위원회 등으로 설명하는 편이 더 적절하다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 841,
+    "output_tokens": 824,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM9C7LsU1bKqB1QwnPX6",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"reason\":\"비교식 결과가 False라는 사실과 두 문자열이 같은 추상 문자를 나타낸다는 양보 관계가 정확히 전달되었고, 코드와 문자 이름도 그대로 유지되었다.\"},\"Textual\":{\"judgment\":\"보존\",\"reason\":\"예시 제시 뒤에 결과, 이어서 양보절이 오는 정보 순서가 유지되었고, '말입니다'로 양보절을 마무리해 흐름이 이어진다.\"},\"Context\":{\"judgment\":\"보존\",\"reason\":\"앞 문장에서 말한 유니코드 코드 포인트 수준 비교가 직관에 어긋난다는 설명의 예시 역할을 그대로 수행한다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"reason\":\"의무, 허용, 금지 등의 양태 표현이 없는 사실 진술 문장이다.\"},\"Register\":{\"judgment\":\"보존\",\"reason\":\"학습자료에 맞는 평서체 '-입니다'를 쓰고 앞 문단과 어조가 일관된다. 다만 '비록 ~더라도 말입니다'는 약간 구어적이어도 허용 범위 안이다.\"},\"Cultural\":{\"judgment\":\"보존\",\"reason\":\"유니코드 이스케이프와 'LATIN CAPITAL LETTER C WITH CEDILLA' 같은 고유 명칭을 원형대로 두어 기술 문서 관례에 맞는다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 712,
+    "output_tokens": 532,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

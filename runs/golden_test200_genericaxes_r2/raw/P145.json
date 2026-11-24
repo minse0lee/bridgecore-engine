@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM9BsNEu5xPE9sVUsPPX",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"reason\":\"'ships $150 million per year'는 연간 1억 5천만 달러 규모의 물량을 출하한다는 뜻인데 '1억 5천만 달러를 배송'은 돈을 배송하는 것처럼 읽힌다. 또한 'USD'가 번역에서 빠져 미국 달러라는 정보가 사라졌다.\"},\"Textual\":{\"judgment\":\"보존\",\"reason\":\"세 가지 사실(출하, 고용, 투자)을 원문과 같은 순서로 나열했고 문장 구조와 연결이 유지되었다.\"},\"Context\":{\"judgment\":\"훼손\",\"reason\":\"앞 문장들이 판매·수출 맥락인데 '배송'이라는 택배식 표현을 써서 기업의 연간 출하·매출 규모를 말하는 맥락이 어색해졌다. 또한 번역된 문단은 뒤에 이어지는 'However…' 인용을 빼서, 이 수치가 법인세 대비 적다는 비판 맥락을 이끄는 기능을 살리지 못했다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"reason\":\"의무, 허용, 금지 등 규범적 표현이 없는 사실 서술이다.\"},\"Register\":{\"judgment\":\"보존\",\"reason\":\"기사 본문에 어울리는 평서형 '-고 있다' 문체로 격식과 객관적 어조가 유지되었다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"reason\":\"통화 'USD'를 '달러'로만 옮겨 미국 달러 표기가 사라졌다. 피지 달러와 혼동될 수 있어 피지 배경의 글에서 화폐 단위 구분이 중요한데 이것이 전달되지 않았다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 908,
+    "output_tokens": 631,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

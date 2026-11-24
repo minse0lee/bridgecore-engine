@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM9PzTDwE25hNBt7xWsZ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"reason\":\"readable list에 나오면 accept가 (거의 확실히) 작동한다는 조건과 결과, 그리고 'almost certainly'의 확실성 정도가 그대로 전달되었다.\"},\"Textual\":{\"judgment\":\"보존\",\"reason\":\"조건절 뒤에 결과절이 오는 구조와 괄호 삽입 부사구의 위치가 원문과 동일하게 유지되었다. 'it'도 앞 문장의 서버 소켓을 가리키는 지시 관계가 유지된다.\"},\"Context\":{\"judgment\":\"보존\",\"reason\":\"select 사용 설명 문단에서 서버 소켓이 readable 목록에 나오면 accept가 가능하다는 맥락에 맞게 옮겨졌다.\"},\"Deontic\":{\"judgment\":\"보존\",\"reason\":\"'will (almost certainly) work'의 높은 가능성이 '거의 확실하게 작동할 것이다'로 같은 강도로 전달되었다.\"},\"Register\":{\"judgment\":\"훼손\",\"reason\":\"앞뒤 문장이 '~넣는다' 같은 평서체인데 '당신의'라는 직접 호칭이 쓰였고, '만약 그것이'를 반복해 번역투가 강하다. 학습자료 문체에는 '당신의'를 생략하고 '만약'을 줄이는 편이 더 자연스럽다.\"},\"Cultural\":{\"judgment\":\"보존\",\"reason\":\"accept, 리스트 같은 기술 용어를 문맥에 맞게 옮기거나 그대로 두었고 문화 특수 표현은 없다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 693,
+    "output_tokens": 574,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

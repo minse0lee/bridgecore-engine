@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM9JYfZ6wqtKvFSsspBF",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"reason\":\"\\\"Eastern time\\\"(미 동부 시간)이 번역에서 빠져 \\\"오전 5시 기준\\\"만 남았기 때문에 시간 기준이 달라진다. 풍속 85마일, 1등급, 385마일, 남서쪽, 푼타에우헤니아 등 나머지 사실은 정확하다.\"},\"Textual\":{\"judgment\":\"보존\",\"reason\":\"원문의 정보 순서(풍속·등급, 시각, 위치)와 두 절의 연결이 그대로 유지된다. \\\"~했으며\\\"로 이어 붙여 한국어로 자연스럽게 흐른다.\"},\"Context\":{\"judgment\":\"보존\",\"reason\":\"허리케인 위치와 강도를 알리는 기상 뉴스 보도 맥락에 맞게 옮겨졌고, 문단 전체 번역과도 일치한다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"reason\":\"의무, 허용, 금지, 가능성을 나타내는 표현이 없는 사실 보도 문장이다.\"},\"Register\":{\"judgment\":\"보존\",\"reason\":\"뉴스 보도의 평서형 \\\"~했다\\\" 문체로 객관적이고 간결한 어조가 유지된다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"reason\":\"미 동부 시간이라는 기준 시간대 정보가 누락돼 독자가 한국 시간 등 다른 기준으로 오해할 수 있다. 지명은 음역하고 마일 단위는 유지해 무난하다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 641,
+    "output_tokens": 556,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

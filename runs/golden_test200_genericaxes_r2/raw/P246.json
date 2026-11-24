@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM9Ma1kSTr68jvpncHEc",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"reason\":\"원문의 'only'(큰 인접 지역'만' 선택)가 번역에서 누락되어 선택 기준의 배타성이 사라졌다. 또한 'farm'은 문맥상 태양광 발전 단지(solar farm)인데 '농장'으로 옮겨 의미가 어긋나고, 'contiguous'를 '인접'으로 옮겨 '연속된 하나의 면적'이라는 뜻이 약해졌다.\"},\"Textual\":{\"judgment\":\"훼손\",\"reason\":\"'우리는'이 반복되고 '원하고 있어, 그래서'처럼 문장 연결이 어색하며, 'only'가 빠져 절 간 논리 구조가 느슨해졌다. 콜론 앞 공백도 원문 구조를 따르지 않은 어색한 표기다.\"},\"Context\":{\"judgment\":\"훼손\",\"reason\":\"태양광 발전 모듈 맥락에서 'large farm'은 대규모 태양광 발전 단지를 가리키는데, 일반 '농장'으로 옮겨 학습 상황의 맥락에 맞지 않는다.\"},\"Deontic\":{\"judgment\":\"보존\",\"reason\":\"'want to'의 희망 표현이 '싶어'로 전달되어 의지의 강도는 대체로 유지된다.\"},\"Register\":{\"judgment\":\"훼손\",\"reason\":\"'싶어, 그래서'는 반말체 연결이고 뒤는 '선택합니다'의 합쇼체/해요체로 끝나 문체가 일관되지 않으며 교재 문체로 부적절하다.\"},\"Cultural\":{\"judgment\":\"보존\",\"reason\":\"단위 'ha'를 '헥타르'로 풀어 옮긴 것은 한국어 독자에게 적절하며, 특별한 문화 고유 요소는 없다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 499,
+    "output_tokens": 655,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

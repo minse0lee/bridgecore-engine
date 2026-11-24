@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM946bWPLHKLxAVRaAM6",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"reason\":\"\\\"if you don't mind a little extra effort\\\"는 '약간의 수고가 괜찮다면'이라는 뜻인데, 번역문은 '추가적인 노력이 필요하지 않다면'으로 옮겨 조건의 의미가 반대로 바뀌었다. 노력이 필요 없을 때 일반 변환기를 쓰라는 말이 되어 원문과 다르다.\"},\"Textual\":{\"judgment\":\"보존\",\"reason\":\"'따라서' 뒤에 조건절과 요청절이 오는 원문의 구조와 정보 순서가 유지되었고, 연결과 흐름도 자연스럽다.\"},\"Context\":{\"judgment\":\"훼손\",\"reason\":\"앞 문맥은 일반 변환기가 더 낫다는 권고인데, 번역은 추가 노력이 필요 없을 때만 쓰라는 조건처럼 읽혀 문맥상 권고의 취지와 어긋난다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"reason\":\"원문은 약간의 수고를 감수할 수 있다면 쓰라는 부드러운 권유(please)인데, 번역은 조건이 뒤집혀 권고의 전제가 달라졌다. '사용하십시오'는 권유로 볼 수 있으나 'please'의 완곡함이 약하다.\"},\"Register\":{\"judgment\":\"보존\",\"reason\":\"문서 매체에 맞는 정중한 '-십시오'체를 써서 학습자료 문체로 적절하다.\"},\"Cultural\":{\"judgment\":\"보존\",\"reason\":\"'legacy converters'를 '레거시 변환기'로, 'normal converters'를 '일반 변환기'로 옮긴 것은 기술 용어 번역으로 무리가 없고 문화적 쟁점도 없다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 501,
+    "output_tokens": 646,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

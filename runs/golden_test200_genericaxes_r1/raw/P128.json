@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM8pwGJkNtJLGi84QX3Z",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"reason\":\"\\\"loud boos\\\"(큰 야유)를 \\\"큰 박수\\\"로 정반대로 옮겼고, \\\"ranking Democratic Sen.\\\"(사법위 민주당 간사)을 \\\"순위\\\"로 오역해 파인스타인의 직책과 관계가 무너졌다.\"},\"Textual\":{\"judgment\":\"훼손\",\"reason\":\"\\\"which received loud boos\\\"는 이름을 언급한 행위에 대한 반응인데, 번역은 관계절을 파인스타인 수식어로 바꿔 지시 대상과 문장 구조가 달라졌다.\"},\"Context\":{\"judgment\":\"훼손\",\"reason\":\"청중이 파인스타인에게 야유를 보냈다는 상황이 박수 받은 인물로 뒤바뀌어 기사 속 정치적 맥락과 청중의 태도가 왜곡되었다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"reason\":\"원문에 의무, 허용, 금지, 가능성 표현이 없어 해당하지 않는다.\"},\"Register\":{\"judgment\":\"보존\",\"reason\":\"뉴스 기사에 맞는 평서형 '-했다' 문체를 유지하여 격식과 문체는 적절하다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"reason\":\"Senate Judiciary Committee ranking Democrat라는 미국 상원의 직책을 '순위'로 옮겨 제도적 의미가 전달되지 않았다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 546,
+    "output_tokens": 531,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

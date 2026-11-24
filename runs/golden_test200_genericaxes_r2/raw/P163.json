@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM9DdWraaMxhPwGh62WJ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"reason\":\"원문의 'never accidentally break'는 실수로라도 지원이 깨지는 일이 결코 없도록 한다는 뜻인데, 번역문의 '끊지 않을 수 있습니다'는 '결코'의 의미가 빠지고 'your'(자신의 CI 시스템)도 옮기지 않았다. 또한 'Python 2 or 3 support'를 '파이썬 2나 3의 지원'으로 옮겨 의미가 모호하다.\"},\"Textual\":{\"judgment\":\"훼손\",\"reason\":\"'You can then'의 순차 연결(그 다음에)이 번역되지 않았고, 'so that' 목적절이 '통합하여'로 뭉뚱그려져 목적 관계(~하도록)가 흐려졌다.\"},\"Context\":{\"judgment\":\"보존\",\"reason\":\"앞 문장의 tox 소개에 이어 CI와의 통합을 설명하는 흐름과 Python 2/3 호환 유지라는 맥락은 대체로 유지된다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"reason\":\"원문은 'never'로 목적의 강도를 나타내고 'can'으로 가능성을 제시하는데, 번역문은 '않을 수 있습니다'로 부정 가능성처럼 읽혀 '결코 깨뜨리지 않도록 할 수 있다'는 강도가 약화·왜곡된다.\"},\"Register\":{\"judgment\":\"보존\",\"reason\":\"'-ㅂ니다' 체의 평서문으로 학습자료 본문에 맞는 격식을 유지한다.\"},\"Cultural\":{\"judgment\":\"보존\",\"reason\":\"tox, 지속적인 통합(continuous integration), 파이썬 등 기술 용어를 관용적 표기대로 옮겨 문화적 문제는 없다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 687,
+    "output_tokens": 653,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

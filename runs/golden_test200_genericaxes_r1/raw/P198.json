@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM8wpCMGSxiEnBWmS2Pz",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"reason\":\"부작용 회피가 실행 중 갱신되는 데이터 구조를 쓰지 않는 것이라는 뜻과 함수 출력이 입력에만 의존한다는 내용이 정확히 전달되었다.\"},\"Textual\":{\"judgment\":\"보존\",\"reason\":\"세미콜론으로 이어진 두 절을 두 문장으로 나누었으나 정보 순서와 논리 연결은 유지되어 자연스러운 구조 조정 범위 안에 있다.\"},\"Context\":{\"judgment\":\"보존\",\"reason\":\"함수형 프로그래밍 입문 설명의 맥락에서 부작용과 순수 함수 개념을 이어 가는 흐름에 맞게 옮겨졌다.\"},\"Deontic\":{\"judgment\":\"보존\",\"reason\":\"원문의 must가 '의존해야 합니다'로 옮겨져 필수 조건의 강도가 유지되었다.\"},\"Register\":{\"judgment\":\"보존\",\"reason\":\"학습 자료에 적합한 '-ㅂ니다' 체의 설명문 어조로 문단 전체와도 일관된다.\"},\"Cultural\":{\"judgment\":\"보존\",\"reason\":\"side effect를 '부작용', data structure를 '데이터 구조'로 옮겨 표준 기술 용어를 사용했으며 문화적 특수 요소는 없다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 799,
+    "output_tokens": 488,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

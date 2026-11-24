@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM8vE1myzi3AEP21t73w",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"reason\":\"yield가 종종 None을 반환한다는 사실과 항상 이 경우를 확인해야 한다는 내용이 그대로 전달되었다.\"},\"Textual\":{\"judgment\":\"보존\",\"reason\":\"원인 절(Because)과 결과 절의 순서 및 인과 연결이 유지되었고 '이 경우'가 None 반환 경우를 자연스럽게 가리킨다.\"},\"Context\":{\"judgment\":\"보존\",\"reason\":\"generator의 yield 값이 None일 수 있다는 학습 맥락이 이어지는 문장과 어울리게 옮겨졌다.\"},\"Deontic\":{\"judgment\":\"보존\",\"reason\":\"'should always check'의 강한 권고가 '항상 ... 확인해야 합니다'로 강도가 맞게 유지되었다.\"},\"Register\":{\"judgment\":\"보존\",\"reason\":\"학습자료에 맞는 정중한 합쇼체 '-합니다'를 사용하여 문체가 적절하다.\"},\"Cultural\":{\"judgment\":\"보존\",\"reason\":\"yield와 None 같은 코드 용어를 원어 그대로 두어 적절하며, 문화적으로 문제될 요소가 없다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 534,
+    "output_tokens": 433,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

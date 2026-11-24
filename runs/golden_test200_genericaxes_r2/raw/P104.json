@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM97q8hMzkBL91U8ccr6",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"reason\":\"GIS에서 'features'는 지도에 추가하는 지물(점·선·면 같은 공간 객체)인데 '기능'으로 옮겨 소프트웨어 기능으로 오해하게 한다.\"},\"Textual\":{\"judgment\":\"보존\",\"reason\":\"조건절과 명령절의 구조, 'toggle it off'의 지시 대상(편집 허용 아이콘의 상태)이 순서와 연결 그대로 유지된다.\"},\"Context\":{\"judgment\":\"훼손\",\"reason\":\"레이어에 지물을 추가하는 편집 상황인데 '기능'이라는 번역 때문에 학습 상황과 어긋나 무엇을 추가한다는 것인지 불분명해진다.\"},\"Deontic\":{\"judgment\":\"보존\",\"reason\":\"'always be sure to'가 '항상 ~하십시오'라는 강한 지시로 옮겨져 학습 행동에 대한 당부의 강도가 유지된다.\"},\"Register\":{\"judgment\":\"보존\",\"reason\":\"'~하십시오' 체는 교재의 지시문에 적합하고 격식 수준도 알맞다.\"},\"Cultural\":{\"judgment\":\"보존\",\"reason\":\"'allow editing' 아이콘을 '편집 허용'으로 옮긴 것은 UI 용어로 적절하고 문화적으로 문제될 요소는 없다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 516,
+    "output_tokens": 495,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

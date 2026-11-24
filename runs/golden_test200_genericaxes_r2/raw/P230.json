@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM9L9PcwQPBU6ib32A6i",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"reason\":\"원문은 'a million meters'만 말하는데 번역은 '달리는 것'을 덧붙여 활동을 달리기로 한정했다. 펠로톤은 자전거나 로잉일 수도 있어 원문에 없는 정보가 생겼다.\"},\"Textual\":{\"judgment\":\"보존\",\"reason\":\"한 문장 구조와 이모지, 해시태그 순서가 원문과 같아 정보 흐름이 유지된다.\"},\"Context\":{\"judgment\":\"훼손\",\"reason\":\"펠로톤 게시물이라 운동 종류가 자전거나 로잉일 수 있는데 '달리는'으로 옮겨 상황이 달라졌다. 'Now'도 앞선 기록을 전제한 말인데 '이제'로만 옮겨 연결감이 약하다.\"},\"Deontic\":{\"judgment\":\"보존\",\"reason\":\"'might be possible'의 약한 가능성과 궁금함을 '가능할지 궁금합니다'로 비슷한 강도에 맞게 옮겼다.\"},\"Register\":{\"judgment\":\"훼손\",\"reason\":\"개인 소셜미디어의 가벼운 글인데 '궁금합니다'라는 격식체를 써서 어색하다. '궁금하네요'나 '궁금해지네요'가 더 자연스럽다.\"},\"Cultural\":{\"judgment\":\"보존\",\"reason\":\"해시태그 #peloton과 이모지를 그대로 두었고 미터 단위도 유지해 문화적 문제는 없다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 463,
+    "output_tokens": 545,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

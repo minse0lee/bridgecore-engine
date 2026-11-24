@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM8rVN8tFz8aMj8NH5uW",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"reason\":\"'across school sites'(학교들 전반에 걸쳐)를 '학교 사이트 및'으로 옮겨 'sites'가 웹사이트처럼 읽히고, 'across ... and within'의 병렬 관계도 흐려졌다. 'implementation'을 '구현'으로 옮긴 것도 규칙 '시행'이라는 뜻과 어긋난다.\"},\"Textual\":{\"judgment\":\"보존\",\"reason\":\"단일 문장 구조와 주어, 서술어, 장소·대상 부사구의 순서가 원문과 같게 유지되었다.\"},\"Context\":{\"judgment\":\"훼손\",\"reason\":\"학교 규정 문맥에서 '구현', '사이트', '그룹'은 소프트웨어나 웹 용어처럼 읽혀 규칙 시행의 맥락과 맞지 않는다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"reason\":\"'shall occur'는 반드시 이루어져야 한다는 의무인데 '발생한다'는 단순한 사실 서술이라 의무의 강도가 사라졌다.\"},\"Register\":{\"judgment\":\"훼손\",\"reason\":\"규정문에 맞는 '~해야 한다' 식 문체가 아니라 '발생한다'는 어색한 직역투이고, 앞 문장들의 '~입니다' 체와도 일관되지 않는다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"reason\":\"'school sites'를 '학교 사이트'로 옮겨 학교 부지나 개별 학교를 가리키는 미국 학교 행정 용어가 제대로 전달되지 않았다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 952,
+    "output_tokens": 589,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

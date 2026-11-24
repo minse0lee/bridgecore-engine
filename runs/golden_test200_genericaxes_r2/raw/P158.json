@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM9DE5iZGeirLEd1BwyD",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"reason\":\"'say we want to change behaviour of the program'이 '프로그램의 동작을 바꾸고 싶다고 가정해 보자'로 뜻과 대상이 정확히 옮겨졌다.\"},\"Textual\":{\"judgment\":\"보존\",\"reason\":\"문장 구조가 자연스러운 한국어 어순으로 조정되었고, 'Now'에 해당하는 담화 전환 표지 '이제'도 앞에 유지되어 흐름이 이어진다.\"},\"Context\":{\"judgment\":\"보존\",\"reason\":\"앞선 예제에서 다음 단계로 넘어가 프로그램 동작 변경(선택적 인수 도입)을 가정하는 학습 맥락에 맞게 옮겨졌다.\"},\"Deontic\":{\"judgment\":\"보존\",\"reason\":\"'say we want to'의 가정·제안 어조가 '가정해 보자'로 표현되어 의무나 강제 없이 가정으로 제시하는 강도가 유지된다.\"},\"Register\":{\"judgment\":\"보존\",\"reason\":\"'~해 보자'는 학습자료에서 흔한 청유형 평서체로 교재 문체에 적절하다. 다만 같은 문단의 뒤 문장이 '-ㅂ니다'체라 문단 내 일관성은 떨어지나, 이 문장 자체의 문체는 적절하다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"reason\":\"이 문장에는 문화·제도·고유 명칭이나 관용 표현이 없어 해당 사항이 없다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 523,
+    "output_tokens": 555,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

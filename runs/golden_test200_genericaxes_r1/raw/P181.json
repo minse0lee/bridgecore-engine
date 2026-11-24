@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM8vCvXx2WWPRWiDcV8A",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"reason\":\"'get your hands dirty'는 직접 해 보며 실습해 본다는 관용적 뜻인데 '손을 더럽힐 수 있다'로 직역해 뜻이 왜곡되었고, 'motivate'도 '동기화'로 옮겨 '동기·근거를 부여하다'라는 의미가 사라졌다.\"},\"Textual\":{\"judgment\":\"보존\",\"reason\":\"양보절과 주절의 구조, 'while ... in the following' 연결과 정보 순서가 원문대로 유지되었다.\"},\"Context\":{\"judgment\":\"훼손\",\"reason\":\"회귀 모델을 직접 실습해 볼 수 있다는 학습 맥락이 전달되지 않고, 'motivate'가 '동기화'로 옮겨져 제곱 손실을 정당화하는 맥락과 어긋난다.\"},\"Deontic\":{\"judgment\":\"보존\",\"reason\":\"'can already ... can more formally'의 가능 표현이 '-ㄹ 수 있다'로 동일한 강도로 유지되었다.\"},\"Register\":{\"judgment\":\"훼손\",\"reason\":\"교재 본문에 어울리지 않게 '손을 더럽힐 수 있지만' 같은 어색한 직역투가 쓰였고 '동기화 할'은 띄어쓰기 오류와 함께 기술 용어처럼 읽혀 학습서 문체에 맞지 않는다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"reason\":\"'get your hands dirty'라는 영어 관용 표현을 한국어 독자에게 자연스러운 표현(직접 해 보다)으로 옮기지 않고 문자 그대로 옮겨 부정적 어감이 생겼다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 582,
+    "output_tokens": 618,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

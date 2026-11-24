@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM927tbD62k1ThdFJzG6",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"reason\":\"원문의 관계 형성 대상인 'with students and staff'(학생 및 교직원)가 번역에서 누락되어 누구와 관계를 맺는지가 사라졌다. 또한 'not limited to'는 '등'으로 대체되어 열거가 예시임은 전달되나 'mental and physical ability'가 '정신적, 신체적 능력'으로 쉼표 나열되어 항목 구분이 모호해졌다.\"},\"Textual\":{\"judgment\":\"훼손\",\"reason\":\"원문은 관계 형성(주절)과 그에 수반되는 차이 수용 태도(분사구문)의 구조인데, 번역은 긴 열거를 문두에 두어 '차이를 인정하고 관계를 형성'하는 병렬 구조로 바꿨다. 이로 인해 차이 수용이 관계 형성 과정에서 드러내는 태도라는 종속 관계가 약해졌다.\"},\"Context\":{\"judgment\":\"보존\",\"reason\":\"학교 행동 규범에서 학생이 지켜야 할 행동 기대치로 읽히는 맥락은 유지되며, 차이 수용과 관계 형성이라는 취지도 문단 전체 번역과 일치한다.\"},\"Deontic\":{\"judgment\":\"보존\",\"reason\":\"원문은 명령형 행동 기대인데 번역은 '~합니다'의 평서형으로 옮겨 규범적 기대의 강도가 대체로 유지된다. 의무나 허용의 수준이 크게 달라지지 않았다.\"},\"Register\":{\"judgment\":\"보존\",\"reason\":\"'~합니다'의 격식체로 학교 규정 안내문에 어울리는 문체를 유지했다.\"},\"Cultural\":{\"judgment\":\"보존\",\"reason\":\"gender identity, sexual orientation 등 미국 제도 맥락의 범주를 한국식 개념으로 대체하지 않고 대응 용어로 그대로 옮겼다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 786,
+    "output_tokens": 696,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

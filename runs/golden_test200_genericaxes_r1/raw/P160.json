@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM8tFEtCeB1gvagP8GjR",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"reason\":\"Pelosi를 '상원의원'으로, Kavanaugh를 '변호사'로 옮겨 원문에 없는 직함을 붙였다(펠로시는 하원의원, 카바노는 판사). 또 'they would say'의 주어 '그들'이 '나는 ~말할 것'으로 바뀌어 말하는 주체가 달라졌고, 'ever'와 'before the Senate Judiciary Committee'(위원회 앞 증언)도 어색하게 처리됐다.\"},\"Textual\":{\"judgment\":\"훼손\",\"reason\":\"인용문을 문장 중간에 끼우는 구조로 바꾸는 것은 허용되나, 인용 내부에서 '그들이 말했을 것'이라는 절의 주어가 사라지고 조건절과 주절의 연결이 어긋난다. 'think that ... they would say'의 구조가 '말할 것이라고 생각'으로 단순화되어 정보 흐름이 달라졌다.\"},\"Context\":{\"judgment\":\"훼손\",\"reason\":\"뉴스 기사 맥락에서 펠로시는 하원 지도부이고 카바노는 대법관 후보인데, 번역이 이를 상원의원과 변호사로 잘못 설정했다. 독자가 인물의 지위와 청문회 상황을 오해하게 된다.\"},\"Deontic\":{\"judgment\":\"보존\",\"reason\":\"'couldn't help but think'의 불가피성은 '생각할 수밖에 없었다'로 옮겨졌고, 'would say'의 가정적 추측도 '~할 것'으로 대체로 유지된다.\"},\"Register\":{\"judgment\":\"보존\",\"reason\":\"보도 기사의 간접 인용에 맞는 평서체 '~고 말했다'를 썼으며, 인용문 안의 구어적 어조도 크게 어긋나지 않는다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"reason\":\"고유 명칭과 제도 표기에서 Kavanaugh의 이름은 '카바노'로 적었으나 통용 표기는 '캐버노'에 가깝고, 미국 의회 직함(하원의원)과 사법 직위(판사)를 잘못 옮겼다. 또 'hysterical'은 여성 비하의 성별 함의를 가진 표현인데 '히스테리'라는 명사로 바꿔 형용사적 뉘앙스가 약해졌다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 695,
+    "output_tokens": 857,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

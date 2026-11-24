@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM9Nwnx8fVAH3VPApx3G",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"reason\":\"원문의 'I spent my 30s'(30대를 그곳에서 보냈다)라는 정보가 번역문에서 빠져 있어, 화자의 나이대라는 사실 정보가 사라졌다.\"},\"Textual\":{\"judgment\":\"보존\",\"reason\":\"'하마오카 앞'→'1980년대'→'근처 발전소 10년'의 정보 순서와 문장 구조가 자연스럽게 유지되고 앞뒤 문장과도 연결된다.\"},\"Context\":{\"judgment\":\"보존\",\"reason\":\"하마오카 이전의 경력을 서술하는 문단 맥락에 맞게 옮겼고, 'Hamaoka'를 '하마오카 원자력 발전소'로 풀어 쓴 것도 문맥상 무리가 없다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"reason\":\"의무, 허용, 금지, 가능성을 나타내는 표현이 없는 단순 사실 서술이다.\"},\"Register\":{\"judgment\":\"보존\",\"reason\":\"1인칭 회고 서술에 어울리는 '-습니다' 체로 앞뒤 문단과 문체가 일치한다.\"},\"Cultural\":{\"judgment\":\"보존\",\"reason\":\"'하마오카'와 '1980년대'가 한국어 독자에게 적절한 표기로 옮겨졌고 문화 특수 표현의 훼손은 없다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 868,
+    "output_tokens": 509,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

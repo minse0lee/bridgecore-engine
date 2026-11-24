@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM96vZ6S5p9XvbAfC8iX",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"reason\":\"\\\"the underlying mechanism used\\\"는 핸들러가 사용하는 기반(하부) 메커니즘인데, \\\"사용되는 기본 메커니즘\\\"은 '기본'이 default처럼 읽혀 뜻이 흐려지고 어떤 메커니즘인지도 불분명하다.\"},\"Textual\":{\"judgment\":\"훼손\",\"reason\":\"세미콜론으로 이어진 두 절이 '이 핸들러는 ~에서만 유용하다'와 그 이유(Windows는 기반 메커니즘 미지원)의 관계를 이루는데, 번역은 두 문장으로 나누면서 인과 연결을 드러내지 않아 이유가 독립된 진술처럼 읽힌다.\"},\"Context\":{\"judgment\":\"보존\",\"reason\":\"WatchedFileHandler가 파일 변경을 감시하는 맥락에서 유닉스 계열에서만 쓸모 있다는 설명으로 옮겨져 문단 흐름에 맞다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"reason\":\"의무, 허용, 금지 같은 표현이 없고 사실 서술만 있어 해당하지 않는다.\"},\"Register\":{\"judgment\":\"보존\",\"reason\":\"학습자료에 맞는 평서형 '-ㅂ니다' 체로 일관되어 격식과 문체가 적절하다.\"},\"Cultural\":{\"judgment\":\"보존\",\"reason\":\"Unix-like를 '유닉스와 유사한 시스템'으로, Windows는 원어 그대로 표기해 고유 명칭이 적절히 처리됐다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 608,
+    "output_tokens": 582,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

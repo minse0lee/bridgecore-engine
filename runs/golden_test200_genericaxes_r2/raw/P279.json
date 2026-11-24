@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM9QpqZRjbrQ5Bus2Axx",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"reason\":\"원문의 'you're freaked out by my robot hand'는 '네가 내 로봇 손에 겁먹었다/질려 있다'는 뜻인데, 번역문은 주어 없이 '내 로봇 손에 겁먹는다고'로 옮겨 누가 겁먹는지가 흐려져 '내가 겁먹는다고 인정해 달라'는 말로도 읽힌다. 'just'의 뉘앙스도 빠졌다.\"},\"Textual\":{\"judgment\":\"훼손\",\"reason\":\"청자를 가리키는 주어 'you'가 생략되어 문장 속 지시 관계가 불분명하다. 앞 문장과 이어지는 흐름에서 '인정해'의 주체와 '겁먹는다'의 주체가 모호해진다.\"},\"Context\":{\"judgment\":\"보존\",\"reason\":\"셀리아가 톰에게 로봇 손을 두려워하는 속마음을 인정하라고 추궁하는 상황은 대체로 유지된다. 이어지는 톰의 시인 장면과도 맞는다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"reason\":\"'Why don't you just admit'는 '그냥 인정하지 그래?'처럼 인정을 강하게 촉구하는 표현인데, '인정해 줄래?'는 부탁처럼 들려 압박의 강도가 약해진다. '줄래'는 상대의 호의를 구하는 어감을 더한다.\"},\"Register\":{\"judgment\":\"보존\",\"reason\":\"연인 사이의 편한 반말로 쓰여 기대 격식과 맞는다. 다만 어조가 따지는 느낌보다는 부드러운 부탁에 가깝다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"reason\":\"이 문장에는 문화·제도·고유 명칭 등 별도로 옮겨야 할 문화 요소가 없다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 689,
+    "output_tokens": 680,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

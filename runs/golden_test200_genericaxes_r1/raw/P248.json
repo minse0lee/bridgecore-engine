@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM92UyM5WPguNiSsQpSi",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"reason\":\"'rainfall rates to approach 2 to 3 inches per hour'는 강수 강도가 시간당 2~3인치에 '근접한다'는 뜻인데, 번역은 '강수량을 초래할 것이다'로 옮겨 '근접'의 의미가 빠지고 강도(rate)가 양(amount)으로 바뀌었다. 또 'in spots'(군데군데)가 누락되어 국지성이 사라졌다. 'Deep'을 '깊은'으로 직역해 '짙은/많은'이라는 뜻이 어색해졌다.\"},\"Textual\":{\"judgment\":\"훼손\",\"reason\":\"'in spots'가 빠지고 'especially' 부분이 앞으로 이동해 원문의 '군데군데, 특히 ~ 일부 지역에서'라는 정보 층위가 단순화되었다. 단일 문장 구조는 유지되었다.\"},\"Context\":{\"judgment\":\"보존\",\"reason\":\"기상 예보 뉴스라는 맥락과 지역(미국 남서부)에 맞게 옮겨졌고 문단 전체 번역과도 일치한다.\"},\"Deontic\":{\"judgment\":\"보존\",\"reason\":\"'will cause'의 예측 어조를 '~할 것이다'로 옮겨 확실한 예보의 강도가 유지되었다. 의무·허용 표현은 없다.\"},\"Register\":{\"judgment\":\"훼손\",\"reason\":\"'깊은 열대 습기는'은 번역투로 어색하며, 뉴스 기사 문체에서는 '짙은 열대 습기로 인해' 같은 표현이 자연스럽다. '~을 초래할 것이다'는 무생물 주어 직역의 느낌이 강하다.\"},\"Cultural\":{\"judgment\":\"보존\",\"reason\":\"Nevada와 Arizona를 '네바다', '애리조나'로 관용적으로 표기했고 인치 단위도 그대로 유지해 문제가 없다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 551,
+    "output_tokens": 701,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

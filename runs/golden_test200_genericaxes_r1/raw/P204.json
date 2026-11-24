@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM8xFzPhPdVdVqBUEZHc",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"reason\":\"\\\"The bank\\\"를 \\\"세계은행\\\"으로 구체화해 원문에 없는 정보를 더했다. 또 \\\"generational shifts\\\"는 세대에 걸친 변화를 뜻하는데 \\\"세대 교체\\\"로 옮겨 사람이 물러나고 바뀌는 의미로 좁아졌다.\"},\"Textual\":{\"judgment\":\"보존\",\"reason\":\"한 문장 구조와 \\\"규범과 제도\\\"라는 관계절 연결, 정보 순서가 자연스러운 한국어 어순으로 유지되었다.\"},\"Context\":{\"judgment\":\"보존\",\"reason\":\"앞뒤 문단은 여성 경제 역량과 토지 개혁 맥락이다. 이 문장은 규범과 제도를 겨냥하는 계획을 설명하는 흐름에 맞게 옮겨졌다.\"},\"Deontic\":{\"judgment\":\"보존\",\"reason\":\"\\\"would target\\\"의 계획·예상 뉘앙스는 \\\"삼을 것이다\\\"로, \\\"may still require\\\"의 가능성은 \\\"필요할 수 있는\\\"으로 강도가 유지되었다.\"},\"Register\":{\"judgment\":\"보존\",\"reason\":\"뉴스 기사에 맞는 평서형 문체(\\\"~할 것이다\\\")로 격식이 적절하다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"reason\":\"원문의 \\\"The bank\\\"는 문맥상 특정 기관을 가리키지만 번역은 이를 \\\"세계은행\\\"이라는 고유 기관명으로 단정해 옮겼다. 이는 원문에 없는 기관명을 도입한 것이다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 742,
+    "output_tokens": 595,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

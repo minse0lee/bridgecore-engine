@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM8r1NPtz24gaYJnxd2M",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"reason\":\"원문은 300명의 여성이 용기를 내어 '감동적인(moving)' 4시간짜리 퍼포먼스 작품을 만들었다는 내용인데, 번역은 'moving'을 누락하고 '300여 명'으로 수치를 부정확하게 옮겼다. 또한 '이들에 의해 영감을 받았다'는 관계가 사라져 단순히 퍼포먼스를 선보였다는 서술이 되었다.\"},\"Textual\":{\"judgment\":\"훼손\",\"reason\":\"원문의 'And by ...'는 앞 문장의 'was inspired by'에 이어지는 병렬 구조인데, 번역은 '또한 ~ 선보였습니다'로 독립된 완결 문장이 되어 '영감을 받았다'는 연결이 끊겼다. 지시 관계와 흐름이 유지되지 않는다.\"},\"Context\":{\"judgment\":\"훼손\",\"reason\":\"이 문장은 프로젝트에 영감을 준 사례를 열거하는 대목인데, 번역은 영감의 원천이 아니라 프로젝트 자체와 무관한 별개의 사실처럼 읽힌다. 맥락상 기능이 약해졌다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"reason\":\"의무, 허용, 금지 같은 규범적 표현이 없는 서술문이다.\"},\"Register\":{\"judgment\":\"보존\",\"reason\":\"인터뷰 인용문에 맞는 '~습니다' 체로 일관되며 출판물 본문으로 무리가 없다.\"},\"Cultural\":{\"judgment\":\"보존\",\"reason\":\"콜롬비아, 보고타 등 고유명사는 적절히 옮겨졌고 실종·살해 여성에 대한 항의 퍼포먼스라는 문화적 함의도 대체로 유지되었다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 1515,
+    "output_tokens": 663,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM9F1dfJ3hXyAK2V4yin",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"reason\":\"\\\"keep things open\\\"을 \\\"상황을 열어 유지\\\"로, \\\"speaker\\\"를 \\\"스피커\\\"(음향기기)로, \\\"right flank\\\"를 \\\"오른쪽 측면\\\"으로 직역해 의미가 왜곡됐다. 정부 운영 유지, 하원의장, 우파 진영이라는 핵심 뜻이 전달되지 않으며 \\\"깨질 수 있음\\\"은 주체·태도도 어긋난다.\"},\"Textual\":{\"judgment\":\"훼손\",\"reason\":\"쉼표로 이어 붙인 비문이다. \\\"마감일로부터 9일 떨어져\\\"는 부사구 관계가 깨졌고, \\\"meaning\\\" 절과 \\\"largely to appease\\\" 목적절이 \\\"의미, 주로 ...\\\"처럼 끊겨 논리 연결이 사라졌다.\"},\"Context\":{\"judgment\":\"훼손\",\"reason\":\"맥락상 CR은 임시 예산안(continuing resolution), speaker는 마이크 존슨 하원의장, deadline은 정부 예산 시한이다. 번역은 이를 반영하지 못해 정부 폐쇄를 피하려는 상황이 이해되지 않는다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"reason\":\"\\\"will need to pass\\\"의 필요성은 \\\"통과해야한다\\\"로 대체로 전달된다. 그러나 \\\"may soon break\\\"의 가능성이 \\\"깨질 수 있음\\\"으로 바뀌어 약속이 저절로 깨지는 듯 읽혀 추측의 대상과 강도가 흐려졌다.\"},\"Register\":{\"judgment\":\"훼손\",\"reason\":\"뉴스 기사에 맞는 격식 있는 문어체가 아니고 기계적 직역투다. \\\"해야한다\\\" 띄어쓰기 오류와 쉼표 나열로 문체가 매끄럽지 않다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"reason\":\"\\\"CR\\\"을 풀이 없이 옮기고 \\\"Speaker\\\"를 \\\"스피커\\\"로 썼으며 \\\"맥코넬\\\"은 표기가 어색하다. \\\"right flank\\\"의 정치적 의미(당내 강경 우파)도 살리지 못해 미국 정치 제도와 관용 표현이 전달되지 않는다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 941,
+    "output_tokens": 834,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

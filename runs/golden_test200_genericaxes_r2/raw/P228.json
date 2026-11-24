@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM9Kx6UXFdkoph3Qqhwz",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"reason\":\"\\\"isolated amounts\\\"(곳에 따라 국지적으로 나타나는 강수량)를 \\\"격리 된 금액\\\"으로 옮겨 isolated를 '격리'로, amounts를 '금액'(돈)으로 오역했다. 국지적 강수량이라는 핵심 정보가 사라졌다.\"},\"Textual\":{\"judgment\":\"보존\",\"reason\":\"예측 문장과 with 부가절을 쉼표로 이어 원문의 정보 순서와 연결 구조를 유지했다.\"},\"Context\":{\"judgment\":\"훼손\",\"reason\":\"일기예보 기사에서 강수량을 말하는 맥락인데 '금액'이라고 해 돈 이야기처럼 읽히므로 상황에 맞지 않는다.\"},\"Deontic\":{\"judgment\":\"보존\",\"reason\":\"predict에 해당하는 '예측하고 있으며'로 예측의 강도가 유지되었고, 의무나 허용 표현은 원문에 없다.\"},\"Register\":{\"judgment\":\"훼손\",\"reason\":\"뉴스 기사 본문에 어울리는 평서체 '-다' 대신 '-습니다'를 썼고, '격리 된'처럼 띄어쓰기가 어색하며 기계번역투가 나타난다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"reason\":\"National Hurricane Center를 '국립 허리케인 센터'로 직역한 것은 무난하나, 인치 단위를 환산 없이 두고 'Mogollon Rim'을 '모골론 림'으로 음역해 원어를 병기한 점은 보조 설명이 부족하다. 지명의 지형(고원 절벽 지대) 정보를 전하지 못해 독자의 이해가 제한된다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 624,
+    "output_tokens": 632,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

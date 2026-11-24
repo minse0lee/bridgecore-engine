@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM9Q13SRbqmup27FomkS",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"reason\":\"원문의 'told PA'(영국 통신사 PA에 말했다)라는 정보원이 번역에서 빠졌고, 'at the till'(계산대 가격)의 뜻도 반영되지 않았다. 주어 'it'(회사)이 예상 주체라는 점도 불명확하다.\"},\"Textual\":{\"judgment\":\"보존\",\"reason\":\"하나의 문장 안에서 '계획이 없다'는 주절과 '비용 기반이 안정적일 것으로 예상되기 때문에'라는 이유절의 인과 구조가 유지되었다. 다만 한국어 어순에 맞게 이유절이 앞으로 이동했으며 이는 허용 범위이다.\"},\"Context\":{\"judgment\":\"훼손\",\"reason\":\"PA 통신을 통한 발언이라는 보도 맥락이 사라져 기사 인용의 출처가 드러나지 않는다. 또한 '그룹(회사)'이 예상한다는 주체가 모호해져 이어지는 문단의 흐름과 연결이 약해진다.\"},\"Deontic\":{\"judgment\":\"보존\",\"reason\":\"'no plans currently'가 '현재 ~할 계획이 없다'로 옮겨져 현재 시점의 계획 부재라는 강도가 유지되었다. 의무나 허용 표현은 포함되지 않는다.\"},\"Register\":{\"judgment\":\"보존\",\"reason\":\"뉴스 기사에 맞는 '~다고 말했다' 형식의 평서체 간접 인용으로 격식과 문체가 적절하다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"reason\":\"PA(Press Association)라는 고유 기관명이 생략되었다. 인명은 '로이신 커리(Roisin Currie)'로 병기해 적절히 옮겼다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 885,
+    "output_tokens": 647,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

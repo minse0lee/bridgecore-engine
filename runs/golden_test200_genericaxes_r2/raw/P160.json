@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM9DWD4jh3JSAzLei2km",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"reason\":\"Pelosi는 하원의원(하원의장)인데 '상원의원'으로 옮겼고, Kavanaugh는 대법관 후보(판사)인데 '변호사'로 옮겨 사실이 틀렸다. 또한 'they would say'의 주어(사람들)가 '나는 ... 말할 것이라고'로 바뀌어 화자와 주체가 뒤바뀌었다.\"},\"Textual\":{\"judgment\":\"훼손\",\"reason\":\"인용문 안의 'they would say'가 1인칭 '나는'으로 바뀌어 인용 내부의 주어 구조가 어긋났다. 'if a woman had ever performed'의 가정 구조와 결과절 연결도 어색하다. 다만 인용문을 문장 앞에 두는 원문 순서를 뒤로 옮긴 것은 한국어 어순상 허용된다.\"},\"Context\":{\"judgment\":\"훼손\",\"reason\":\"펠로시가 '사람들은 여성이었다면 히스테리라고 했을 것'이라며 이중잣대를 지적하는 맥락이 사라져, 자신이 그렇게 말하겠다는 뜻으로 읽힌다. 인물의 직위도 틀려 뉴스 맥락이 어긋났다.\"},\"Deontic\":{\"judgment\":\"보존\",\"reason\":\"'couldn't help but think'를 '생각할 수밖에 없었다'로 옮겨 불가피성의 강도를 유지했고, 'would say'의 추정·가정 어감도 대체로 유지했다.\"},\"Register\":{\"judgment\":\"보존\",\"reason\":\"뉴스 인용에 맞는 '~고 말했다' 형식의 평서 문체이고 인용문의 구어성도 적절하다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"reason\":\"미국 정치 제도의 직위를 잘못 옮겼다. Pelosi는 하원(House) 소속이고 Kavanaugh는 대법관 후보인데 각각 '상원의원', '변호사'로 표기했다. 'hysterical'이 여성에게 붙는 성차별적 낙인이라는 함의도 약해졌다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 695,
+    "output_tokens": 770,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

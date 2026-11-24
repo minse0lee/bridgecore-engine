@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM94gLmKAHqZhXukKPBy",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"reason\":\"원문은 북한이 미국을 신뢰할 수 있어야 비핵화가 이뤄진다는 조건(신뢰 → 비핵화)인데, 번역문은 핵을 폐기하지 않으면 미국을 신뢰할 수 없다고 하여 조건 관계가 뒤집혔다.\"},\"Textual\":{\"judgment\":\"훼손\",\"reason\":\"'unless' 조건절의 구조와 정보 순서가 바뀌어 주절과 종속절이 뒤바뀌었고, 'North Korea says'라는 인용 구조도 사라졌다.\"},\"Context\":{\"judgment\":\"훼손\",\"reason\":\"북한의 입장 표명이라는 보도 맥락이 사라지고 북한이 선결 조건을 요구한다는 상황이 반대로 전달되어 기사 맥락과 맞지 않는다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"reason\":\"'won't come unless'가 가진 미래 부정과 조건의 강도가 '폐기하지 않으면 ~ 신뢰할 수 없다'로 바뀌어 북한이 취하는 입장의 성격이 달라졌다.\"},\"Register\":{\"judgment\":\"훼손\",\"reason\":\"뉴스 헤드라인이라면 '~고 밝혀'처럼 전언을 나타내는 문체가 필요한데, 번역문은 단정적 평서문이어서 보도 문체가 맞지 않는다.\"},\"Cultural\":{\"judgment\":\"보존\",\"reason\":\"북한, 미국, 핵 폐기 등 고유 명칭과 용어 자체는 적절히 옮겨졌다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 435,
+    "output_tokens": 592,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

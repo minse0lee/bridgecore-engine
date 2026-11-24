@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM95LsmapQaho8X6inom",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"reason\":\"'by the end of the decade'(이 10년의 말, 곧 2030년)를 '2020년까지'로 잘못 옮겼다. 또 '10%의 제품을 재사용 용기로 공급해야 한다는 요건에서 와인 제조업체를 제외'한다는 뜻이, '10%의 면제를 받았다'로 바뀌어 면제 대상과 수치 관계가 왜곡되었다. 'ministerial summit'(각료 정상회의)도 '각료회의'로 단순화되었다.\"},\"Textual\":{\"judgment\":\"훼손\",\"reason\":\"'요건(10%는 재사용 용기로 공급)'과 '면제(carve out)'의 구조가 무너져 '10%의 면제'라는 잘못된 결합이 생겼다. 'rising to 40% in 2040'이 요건의 상승이 아니라 면제 비율의 상승처럼 읽혀 수식 관계가 어긋난다.\"},\"Context\":{\"judgment\":\"훼손\",\"reason\":\"와인 업계가 재사용 의무 목표에서 예외를 인정받았다는 후속 문장의 맥락(와인은 보증금 제도에서도 면제)과 맞지 않게, 와인 업계가 부분 면제를 받은 것처럼 읽힌다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"reason\":\"'must be supplied'의 의무 요건 중 와인 제조업체가 제외된다는 관계가 '면제를 받았다'는 부분 면제로 바뀌고, 의무 비율이 40%로 늘어난다는 구조가 면제 비율이 늘어난다는 뜻으로 읽혀 규범의 내용이 달라졌다.\"},\"Register\":{\"judgment\":\"보존\",\"reason\":\"뉴스 기사에 맞는 평서 문어체이며 격식 수준이 적절하다. 다만 '늘어나게 된다'는 약간 어색하다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"reason\":\"EU 정책 용어인 'ministerial summit', 'carve out', 'system for reuse or refill'이 제도 맥락 없이 평이하게 옮겨졌고, 'by the end of the decade'를 2020년으로 해석한 것은 EU 규제 일정을 잘못 전달한다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 815,
+    "output_tokens": 820,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

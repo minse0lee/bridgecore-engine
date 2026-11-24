@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM92kgfUhM1aKpjKipj8",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"reason\":\"파이썬이 일부 시스템에서 표준 헤더에 영향을 주는 전처리기 정의를 할 수 있다는 점과, 그 때문에 Python.h를 먼저 포함해야 한다는 인과 관계가 정확히 전달된다.\"},\"Textual\":{\"judgment\":\"보존\",\"reason\":\"'~때문에'로 원문의 Since 절과 주절의 순서 및 인과 연결을 그대로 유지했고, 관계절도 자연스럽게 이어진다.\"},\"Context\":{\"judgment\":\"보존\",\"reason\":\"C 확장 모듈 작성 시 헤더 포함 순서를 설명하는 학습 문맥에 맞고, Python.h를 원형 그대로 두어 문단 번역과도 일치한다.\"},\"Deontic\":{\"judgment\":\"보존\",\"reason\":\"'you must include'가 '포함시켜야 합니다'로 옮겨져 의무의 강도가 유지되고, 'may define'의 가능성도 '정의할 수 있기'로 보존된다.\"},\"Register\":{\"judgment\":\"보존\",\"reason\":\"학습자료에 맞는 '-ㅂ니다' 체의 정중한 설명체이며 원문의 기술 문서 어조와 어울린다.\"},\"Cultural\":{\"judgment\":\"보존\",\"reason\":\"Python.h는 원문 표기를 유지했고 '파이썬', '표준 헤더', '전처리기'는 통용되는 한국어 기술 용어라 적절하다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 568,
+    "output_tokens": 538,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM9MB85VRL3wgfU973KP",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"reason\":\"수치(85마일, 385마일, 12마일)와 방향은 맞지만, 원문의 'Sunday morning'(일요일 아침)이 번역에서 누락되어 시간 정보가 빠졌다. 'maximum winds'도 '최대 바람'으로 직역되어 '최대 풍속'이라는 의미가 약간 흐려졌다.\"},\"Textual\":{\"judgment\":\"보존\",\"reason\":\"허리케인 강도 유지, 위치, 이동 방향·속도의 순서와 연결이 원문과 같고 '~하며, ~하며' 구조도 자연스럽게 이어진다.\"},\"Context\":{\"judgment\":\"훼손\",\"reason\":\"허리케인 상황 보도에서 현재 시점을 알려주는 'Sunday morning'이 빠져 있어 기사 맥락상 '일요일 아침 기준'이라는 정보가 사라졌다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"reason\":\"의무·허용·금지·가능성을 나타내는 표현이 없는 사실 보도 문장이다.\"},\"Register\":{\"judgment\":\"보존\",\"reason\":\"'~있다', '~움직이고 있다'의 평서형 문어체로 뉴스 기사 문체에 맞다.\"},\"Cultural\":{\"judgment\":\"보존\",\"reason\":\"Punta Eugenia를 '푼타에우헤니아(Punta Eugenia)'로 음역하고 원어를 병기했으며, 마일 단위도 원문대로 유지해 적절하다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 686,
+    "output_tokens": 551,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

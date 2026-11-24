@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM98LXH6HXEhkLu8mjZG",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"reason\":\"\\\"apply for or open a lot of new accounts\\\"에서 신청의 대상(새 계정)이 빠져 \\\"신청하거나\\\"만 남았습니다. 또한 \\\"This includes\\\"를 \\\"포함\\\"으로 잘못 옮겨 의미가 불분명해졌고, 마지막 문장은 \\\"열 수 있습니다\\\"로 바뀌어 신용 점수 하락 원인이라는 관계가 사라지고 가능 행위로 오해될 수 있습니다. \\\"balances\\\"의 \\\"이 잔액\\\"과 \\\"transfer\\\"의 \\\"전송\\\"도 부정확합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"reason\":\"첫 문장과 둘째 문장 사이에 공백이 없고, 둘째 문장은 \\\"얻는 포함\\\"처럼 문장 구조가 깨져 있습니다. \\\"This includes ~, or opening ~\\\"의 병렬 구조와 앞 문장을 받는 지시 관계가 유지되지 않았습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"reason\":\"신용 회복 교육 자료에서 점수를 떨어뜨리는 행동을 경고하는 맥락인데, 번역은 그 사례 설명이라는 흐름을 잃었습니다. 학습자가 어떤 행동이 점수에 해로운지 이해하기 어렵습니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"reason\":\"첫 문장의 \\\"may go down\\\"은 \\\"떨어질 수 있습니다\\\"로 가능성의 강도가 유지됐습니다. 그러나 둘째 문장은 \\\"This includes\\\"의 설명 성격을 \\\"열 수 있습니다\\\"라는 가능·허용 표현으로 바꿔 경고의 의미를 왜곡했습니다.\"},\"Register\":{\"judgment\":\"훼손\",\"reason\":\"\\\"-ㅂ니다\\\" 체 자체는 학습자료에 맞지만, \\\"얻는 포함\\\" 같은 비문과 \\\"이 잔액을 전송할\\\" 같은 어색한 직역 표현이 교재 문체로 부적절합니다. 어색한 \\\"얻다\\\"와 \\\"전송\\\"도 금융 교육 용어로 자연스럽지 않습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"reason\":\"\\\"balance transfer\\\"는 한국어로 \\\"잔액 이전\\\" 등으로 옮기는 금융 개념인데 \\\"잔액을 전송\\\"으로 옮겼습니다. \\\"store card\\\"도 \\\"스토어 카드\\\"로 음역해 \\\"매장 카드\\\"나 \\\"유통업체 카드\\\"처럼 설명하지 않아 한국 독자가 이해하기 어렵습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 708,
+    "output_tokens": 976,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

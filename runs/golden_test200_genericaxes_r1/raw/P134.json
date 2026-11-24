@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM8qX7XT5So4JS6JQTT4",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"reason\":\"Chequers는 Brexit 계획(체커스 플랜)을 가리키는데 'it'을 '그'로 옮겨 사람처럼 읽히게 했고, '그를 위해 투표'는 'vote for it(그것에 찬성 투표)'의 뜻과 다릅니다. 또한 'actually pound the streets and get us elected' 관계절이 번역문에서 빠져 정보가 누락되었습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"reason\":\"원문 문장은 'our activists who actually pound the streets...'로 이어지는데 번역문은 '활동가들에게 인기가 없으며'에서 끊겨 문장이 완결되지 않습니다. 관계절이 사라져 구조와 정보 흐름이 훼손되었습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"reason\":\"영국 정치 상황에서 Chequers는 총리의 Brexit 계획안인데, 번역은 이를 사람 이름처럼 다루어 당내 반발이라는 맥락이 흐려집니다. 활동가들이 당을 위해 선거운동을 했다는 근거 서술도 빠져 발화의 논지가 약해집니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"reason\":\"'not going to vote'는 '투표하지 않을 것이다'로 예측·의지의 강도가 유지되었습니다. 의무나 금지 표현은 따로 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"reason\":\"인용된 정치인 발언의 평서문체 '-다/-으며'가 일관되고 뉴스 인용문에 무리가 없습니다. 격식 수준이 크게 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"reason\":\"Chequers(총리 별장에서 합의된 Brexit 계획)와 Opposition(야당)이라는 영국 정치 고유 개념 중 Chequers를 풀이 없이 사람처럼 '그'로 받았습니다. 'pound the streets'라는 선거운동 관용 표현도 번역에서 사라졌습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 627,
+    "output_tokens": 763,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

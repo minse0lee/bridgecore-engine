@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM9CKwuBqSjcyCkuA5QD",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"reason\":\"'bell-to-bell school day'(첫 종부터 마지막 종까지의 수업일 전체)를 '학교 종소리가 울리지 않는 시간'으로 옮겨 의미가 왜곡되었고, 'outside of'도 '시간 외에'로 어색하게 처리되어 적용 범위가 모호해졌다. 또한 'extracurricular'를 '과외 활동'으로 옮겨 사교육을 연상시킨다.\"},\"Textual\":{\"judgment\":\"보존\",\"reason\":\"단일 문장 구조, 수식 관계(held outside ~가 활동을 수식), 주어-서술어 순서가 원문과 같게 유지되었다.\"},\"Context\":{\"judgment\":\"훼손\",\"reason\":\"학교 규정 맥락에서 '정규 수업 시간 외'라는 적용 범위가 '종소리가 울리지 않는 시간'으로 바뀌어 수업일 중 상황으로 오해될 수 있고, '과외 활동'은 학교 방과후 활동이라는 맥락과 어긋난다.\"},\"Deontic\":{\"judgment\":\"보존\",\"reason\":\"'will be determined by'의 결정 권한이 코치·스폰서·강사에게 있다는 의미가 '결정됩니다'로 유지되어 의무·권한의 강도가 달라지지 않았다.\"},\"Register\":{\"judgment\":\"보존\",\"reason\":\"'~됩니다'의 공식적 합쇼체로 안내문에 어울리는 격식을 유지했다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"reason\":\"'extracurricular'와 'co-curricular'를 '과외 활동'과 '공동 과외 활동'으로 옮겨 한국의 사교육 개념과 혼동되며, 'sponsor'를 '스폰서'로 음차해 미국 학교의 교사 지도 담당자라는 제도적 의미가 전달되지 않는다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 686,
+    "output_tokens": 689,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

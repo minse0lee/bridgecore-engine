@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM9KcAR2ZMVJ495ujdfH",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"reason\":\"'superintendent of schools'는 교육구 전체를 총괄하는 교육감인데 '학교 교장'으로 옮겨 직위와 권한 주체가 바뀌었다. 'chief of the Division'도 부서 단위가 아닌 '부서'로만 옮겨 담당 주체가 부정확하다.\"},\"Textual\":{\"judgment\":\"보존\",\"reason\":\"하나의 문장으로 'is the designee ... and shall review'의 병렬 구조와 정보 순서를 그대로 유지했다.\"},\"Context\":{\"judgment\":\"훼손\",\"reason\":\"교육구 수준의 절차에서 교육감의 지명자가 검토하는 맥락인데 교장으로 바뀌어 학교 단위 절차처럼 읽힌다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"reason\":\"'shall review'는 검토 의무를 나타내는데 '검토한다'는 단순 서술이라 규정상 의무의 강도가 약해졌다.\"},\"Register\":{\"judgment\":\"보존\",\"reason\":\"규정 안내문에 어울리는 평서형 문어체 '~한다'를 사용해 격식이 적절하다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"reason\":\"미국 교육구 제도의 'superintendent of schools'를 한국의 '학교 교장'으로 바꿔 제도를 잘못 대응시켰고, 'Division'도 제도 명칭을 충분히 반영하지 못했다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 572,
+    "output_tokens": 535,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

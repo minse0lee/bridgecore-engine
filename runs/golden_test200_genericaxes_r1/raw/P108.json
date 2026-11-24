@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM8nxJ1pf35kr9YfWdj4",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"reason\":\"\\\"apply for or open a lot of new accounts\\\"에서 신청의 대상(새 계정)이 빠져 \\\"신청하거나\\\"만 남았다. 두 번째 문장은 \\\"이 경우에 해당합니다\\\"라는 뜻이 \\\"열 수 있습니다\\\"라는 가능 표현으로 바뀌어 신용 점수 하락 사유라는 관계가 사라졌다. \\\"잔액을 전송할 수 있도록\\\"에서는 balance transfer의 의미도 어색하다.\"},\"Textual\":{\"judgment\":\"훼손\",\"reason\":\"첫 문장과 둘째 문장 사이에 띄어쓰기가 없고, \\\"이 잔액을…얻는 포함\\\"처럼 문장이 비문이다. \\\"This includes\\\"의 지시 구조가 \\\"포함\\\"으로 깨져 두 번째 문장이 앞 문장의 예시로 이어지지 않는다.\"},\"Context\":{\"judgment\":\"훼손\",\"reason\":\"신용 회복 교육 자료에서 신용 점수가 떨어지는 원인을 예시로 드는 흐름인데, 번역문은 새 카드를 열라는 권유나 가능성처럼 읽혀 학습 맥락과 어긋난다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"reason\":\"첫 문장의 \\\"may go down\\\"은 \\\"떨어질 수 있습니다\\\"로 가능성이 유지됐다. 그러나 \\\"This includes\\\"가 \\\"열 수 있습니다\\\"라는 행위 가능 표현으로 바뀌어 경고 성격이 허용·권유로 변질됐다.\"},\"Register\":{\"judgment\":\"훼손\",\"reason\":\"합니다체는 맞지만 \\\"얻는 포함\\\" 같은 비문과 번역투(\\\"잔액을 전송\\\", \\\"계정을 열\\\")가 교재 문체로서 부자연스럽고 이해를 방해한다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"reason\":\"balance transfer(잔액 이체)와 store card(매장 전용 카드)는 금융 제도 용어인데, \\\"잔액 전송\\\", \\\"스토어 카드 계정\\\"처럼 직역해 한국 독자가 개념을 파악하기 어렵다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 708,
+    "output_tokens": 804,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM98hDxvmh2A5QiK4ECB",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"reason\":\"\\\"Senate floor\\\"를 \\\"상원 바닥\\\"으로 직역해 '상원 본회의'라는 뜻이 사라졌고, \\\"key\\\"를 \\\"키\\\"로 음차해 '핵심'의 뜻이 전달되지 않는다. \\\"Kavanaugh\\\"를 \\\"카바노\\\"로 적어 인명도 부정확하며, \\\"senior GOP leadership aide\\\"도 '수석 공화당 리더십 보좌관'으로 옮겨 공화당 지도부 고위 보좌관이라는 관계가 흐려진다.\"},\"Textual\":{\"judgment\":\"훼손\",\"reason\":\"\\\"카바노의 지명에 상원 바닥에 첫 번째 키 절차 투표는\\\"에서 조사 연결이 비문이고, 쉼표로 이은 뒤 출처 절이 \\\"보좌관은 ... 말했다\\\"로 이어져 문장 구조가 어색하다. 투표와 지명의 관계가 불분명하다.\"},\"Context\":{\"judgment\":\"훼손\",\"reason\":\"미국 상원의 대법관 인준 절차라는 정치 뉴스 맥락이 반영되지 않았다. \\\"상원 바닥\\\"과 \\\"키\\\"로는 본회의 표결이라는 상황을 파악하기 어렵다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"reason\":\"\\\"no later than Friday\\\"는 '늦어도 금요일까지'라는 기한 상한인데 \\\"금요일 이내에\\\"로 옮겨 시점의 의미가 모호해졌다. \\\"일어날 것으로 예상된다\\\"는 예상의 강도를 유지했다.\"},\"Register\":{\"judgment\":\"훼손\",\"reason\":\"뉴스 기사의 간결한 문체와 달리 \\\"~에 ~에 ~는\\\" 같은 직역투와 쉼표 연결로 어색하고 부자연스러운 문체가 되었다. 어색한 번역투가 보도문의 격식을 해친다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"reason\":\"\\\"Senate floor\\\", \\\"GOP\\\" 같은 미국 정치 제도와 용어가 '상원 본회의', '공화당' 등 한국어 표준 표현으로 옮겨지지 않았다. 인명 \\\"카바노\\\"도 통용되는 표기 '캐버노'와 다르다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 594,
+    "output_tokens": 839,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

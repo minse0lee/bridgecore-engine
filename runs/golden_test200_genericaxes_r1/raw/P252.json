@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM92q6aBzt7q7oAL9a1C",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"reason\":\"원문은 형식 문자열(format string)이 괄호 안에 0개 이상의 형식 코드로 구성될 때 튜플을 반환한다는 조건이다. 번역문은 '형식 문자열'을 빼고 '구성된 튜플'로 옮겨, 튜플이 형식 코드로 구성된다는 뜻으로 바뀌었다.\"},\"Textual\":{\"judgment\":\"훼손\",\"reason\":\"원문의 'when its format string consists of...' 조건절이 번역문에서는 '튜플'을 꾸미는 관형절로 바뀌어 문장 구조와 논리 연결이 달라졌다.\"},\"Context\":{\"judgment\":\"훼손\",\"reason\":\"앞 문단은 인자 목록이 튜플이어야 하므로 괄호가 든 형식 문자열로 튜플을 만든다는 맥락이다. 번역문은 반환 조건이 사라져 이 맥락 연결이 약해졌다.\"},\"Deontic\":{\"judgment\":\"보존\",\"reason\":\"원문은 단순 사실 서술이고 의무나 허용 표현이 없다. 번역문도 '반환합니다'라는 평서문으로 같은 강도를 유지한다.\"},\"Register\":{\"judgment\":\"보존\",\"reason\":\"'~합니다' 체의 평서문이라 교재 설명문 문체에 맞고 앞뒤 문단과도 일관된다.\"},\"Cultural\":{\"judgment\":\"보존\",\"reason\":\"Py_BuildValue 같은 고유 식별자는 그대로 두었고 '튜플', '형식 코드' 같은 용어도 관례에 맞아 문화적 문제가 없다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 824,
+    "output_tokens": 598,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM9Ej2XJbgQnzCB7SqXy",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"reason\":\"원문은 행동강령(Code of Behavior) 자체와 관련 정책·규정 모두를 법률과 일치시키려 한다는 뜻인데, 번역문은 '행동강령과 관련된 정책 및 규정'으로 옮겨 행동강령이 일치 대상에서 빠지고 '관련된'이 행동강령과 정책·규정을 한꺼번에 수식하지 못한다.\"},\"Textual\":{\"judgment\":\"훼손\",\"reason\":\"원문의 'A as well as related B and C' 구조가 번역문에서 'A와 관련된 B 및 C'로 바뀌어 병렬 관계가 사라지고, 'A'는 일치 대상에서 빠졌다.\"},\"Context\":{\"judgment\":\"보존\",\"reason\":\"행동강령이 법률과 일치하도록 한다는 문단 맥락(이후 갱신·충돌 시 법률 우선)에 맞게 옮겨졌고 문서 성격도 유지되었다.\"},\"Deontic\":{\"judgment\":\"보존\",\"reason\":\"'intends'는 의도·방침을 나타내므로 '노력하고 있습니다'로 옮겨도 의무나 보장 수준이 크게 달라지지 않는다.\"},\"Register\":{\"judgment\":\"보존\",\"reason\":\"안내문에 어울리는 정중한 '-습니다'체로 격식과 문체가 적절하다.\"},\"Cultural\":{\"judgment\":\"보존\",\"reason\":\"PWCS는 원어 약어로 유지했고 주 및 연방 법률 같은 미국 제도 개념도 한국 제도로 바꾸지 않고 그대로 옮겼다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 944,
+    "output_tokens": 593,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

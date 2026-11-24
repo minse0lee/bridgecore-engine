@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM9MpnFYQZpj7My44CBy",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"reason\":\"'rainfall rates to approach 2 to 3 inches per hour'는 강우 강도가 시간당 2~3인치에 '근접한다'는 뜻인데, 번역은 '강수량을 초래할 것이다'로 옮겨 'approach'(근접)와 'rates'(강도)가 빠졌고 'in spots'(곳에 따라)도 누락됐다. 또 'Deep tropical moisture'를 '깊은 열대 습기'로 직역해 '짙은/많은 열대 습기'라는 기상 의미가 어색해졌다.\"},\"Textual\":{\"judgment\":\"훼손\",\"reason\":\"원문의 'in spots'가 '일부 지역'과 합쳐지면서 '곳에 따라'와 '특히 ~ 일부 지역'의 두 층위가 하나로 뭉개졌다. 'approach'가 빠져 원문의 정보 구조가 단순해졌다.\"},\"Context\":{\"judgment\":\"보존\",\"reason\":\"기상 예보 기사의 맥락(열대 습기로 인한 폭우 전망, 지역 언급)은 전체적으로 유지된다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"reason\":\"'approach'가 가진 '근접할 수 있다'는 예측의 완충이 사라지고, '강수량을 초래할 것이다'라는 단정적 표현이 되어 예보의 확실성 정도가 달라졌다.\"},\"Register\":{\"judgment\":\"보존\",\"reason\":\"뉴스 기사에 맞는 '~할 것이다' 평서체 문체로 격식과 문체가 적절하다.\"},\"Cultural\":{\"judgment\":\"보존\",\"reason\":\"남부 네바다, 애리조나 등 지명은 적절히 표기했고 인치 단위도 원문 그대로 유지해 문화적 오류는 없다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 551,
+    "output_tokens": 660,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

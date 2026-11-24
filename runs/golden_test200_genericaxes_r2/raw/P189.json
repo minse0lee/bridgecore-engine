@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM9GG57CsHzhBu5wt2Ma",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"reason\":\"\\\"reverse mortgage\\\"는 한국에서 '주택연금' 또는 '역모기지'로 통용되는데 '역방향 모기지'는 어색한 직역이라 개념 전달이 흐려진다. 또한 \\\"keep in mind that\\\"의 '~라는 점'이라는 뒤따르는 내용 연결도 약하다.\"},\"Textual\":{\"judgment\":\"보존\",\"reason\":\"조건절 뒤에 주의 환기 문장이 오고 콜론으로 이어지는 구조가 원문과 같아, 뒤에 나올 목록과의 연결이 유지된다.\"},\"Context\":{\"judgment\":\"보존\",\"reason\":\"뒤에 이어지는 유의사항 목록을 이끄는 도입 문장이라는 기능이 그대로 유지된다.\"},\"Deontic\":{\"judgment\":\"보존\",\"reason\":\"\\\"keep in mind\\\"의 권고 수준을 '명심하십시오'로 옮겨 의미는 유지되나, 다소 강한 어조일 뿐 의무 수준이 크게 바뀌지는 않는다.\"},\"Register\":{\"judgment\":\"훼손\",\"reason\":\"'당신이'를 명시하고 '명심하십시오'를 쓴 것은 교육 자료에서 부자연스럽고 딱딱하며, 한국어 교재의 일반적인 문체('~을 고려 중이라면 ~를 기억하세요')와 거리가 있다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"reason\":\"'역방향 모기지'는 한국 제도에서 통용되는 '주택연금/역모기지'라는 용어를 쓰지 않은 어색한 직역이라 제도 용어로서 적절하지 않다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 445,
+    "output_tokens": 619,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

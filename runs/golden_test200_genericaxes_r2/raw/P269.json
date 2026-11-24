@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM9PjHQb8z7Jshx9GF2J",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"reason\":\"원문의 'stayed put'(자리를 지키며 떠나지 않음)이 '지켜보았다'로 바뀌어 관제탑에 남아 있었다는 핵심 행위가 빠지고 단순히 지켜본 것으로 의미가 달라졌다.\"},\"Textual\":{\"judgment\":\"보존\",\"reason\":\"한 문장 안에서 관계절 'which was on the runway at the time'을 '당시 활주로에 있던'으로 옮겨 구조와 정보 순서가 자연스럽게 유지되었다.\"},\"Context\":{\"judgment\":\"훼손\",\"reason\":\"뉴스 기사에서 이 문장은 인물이 위험한 상황에서도 자리를 지켰다는 점을 말하는데, '지켜보았다'로는 그 희생적 맥락이 약해진다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"reason\":\"의무, 허용, 금지 등의 규범적 표현이 없는 서술문이다.\"},\"Register\":{\"judgment\":\"보존\",\"reason\":\"'~지켜보았다'라는 평서형 과거 서술체가 뉴스 기사 문체에 적절하다.\"},\"Cultural\":{\"judgment\":\"보존\",\"reason\":\"'Batik Air Flight 6321'을 '바틱 항공 6321편'으로 옮겨 항공사명과 편명 표기가 적절하다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 502,
+    "output_tokens": 499,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

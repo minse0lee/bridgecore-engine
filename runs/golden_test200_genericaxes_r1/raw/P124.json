@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM8pYJw6yPxqsLJwKxZy",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"reason\":\"원문의 'should never cross over each other'의 'never'(절대)가 '않아야 합니다'로 약화되었고, 'contour lines'를 가리키는 '윤곽선'은 등고선이라는 지형 개념을 놓친 오역이라 의미가 정확히 전달되지 않는다.\"},\"Textual\":{\"judgment\":\"보존\",\"reason\":\"'may touch (e.g. ...) but should never cross'의 구조와 괄호 삽입 순서가 유지되어 흐름이 원문과 같다.\"},\"Context\":{\"judgment\":\"훼손\",\"reason\":\"지형 분석 맥락에서 contour lines는 '등고선'인데 '윤곽선'으로 옮겨 지도·GIS 학습 맥락에 맞지 않고, 학습자가 개념을 잘못 이해할 수 있다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"reason\":\"'should never'의 강한 금지가 '않아야 합니다'로 약해져 '절대 ~해서는 안 된다'는 강도가 충분히 유지되지 않았다.\"},\"Register\":{\"judgment\":\"보존\",\"reason\":\"'~합니다' 체의 설명적 문체가 학습자료 본문에 어울리고 문단 전체와도 일관된다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"reason\":\"GIS 전문 용어 'contour lines'를 학계에서 통용되는 '등고선'이 아닌 '윤곽선'으로 옮겨 용어 관례에 맞지 않는다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 870,
+    "output_tokens": 554,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

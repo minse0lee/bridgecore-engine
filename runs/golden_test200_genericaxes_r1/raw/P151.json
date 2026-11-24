@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM8sJ6FRrES2btoYVwMb",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"reason\":\"원문의 'grade'는 코드 예제에서 성적(점수)을 뜻하는데 '학년'으로 옮겨 대상이 바뀌었고, 'then by'가 가진 1차 기준 다음 2차 기준이라는 순차 관계도 단순 '그리고'로 약해졌다.\"},\"Textual\":{\"judgment\":\"훼손\",\"reason\":\"'sort by grade then by age'의 '~로 정렬한 다음 ~로 정렬' 순서 구조가 '학년, 그리고 나이로'로 뭉뚱그려져 기준 간 순서와 연결이 흐려졌다.\"},\"Context\":{\"judgment\":\"훼손\",\"reason\":\"뒤따르는 예제는 학생 데이터를 성적순, 나이순으로 정렬하는 코드인데 '학년'으로 번역해 상황과 맞지 않게 되었다.\"},\"Deontic\":{\"judgment\":\"보존\",\"reason\":\"원문에는 의무나 허용의 강도를 가진 표현이 없고, 'to sort by...' 목적절을 '정렬하려면'으로 옮겨 조건의 성격이 유지되었다.\"},\"Register\":{\"judgment\":\"보존\",\"reason\":\"'예를 들어, ~하려면:' 형식은 학습자료에 적합한 설명체이며 문체와 격식에 문제가 없다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"reason\":\"'grade'를 한국 학제의 '학년'으로 옮겨 문화적 연상을 잘못 끌어들였고, 원문이 가리키는 성적의 의미를 놓쳤다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 414,
+    "output_tokens": 584,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

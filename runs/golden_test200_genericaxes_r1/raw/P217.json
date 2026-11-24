@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM8yfxKQGAN3khFFtdi5",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"reason\":\"'a third of his face peering in'은 얼굴의 3분의 1이 안을 들여다보는 모습인데, 번역은 '얼굴의 3분의 1을 들여다보며'로 얼굴을 보는 대상처럼 옮겨 의미가 어긋난다. 또 'put his face at the edge'를 '붙이고'로 옮겨 맨홀 가장자리에 얼굴을 갖다 댄 상황이 다소 달라진다.\"},\"Textual\":{\"judgment\":\"보존\",\"reason\":\"한 문장 안에서 얼굴을 갖다 대는 동작, 들여다보는 모습, 설명하는 행동의 순서와 연결이 원문과 같게 유지된다.\"},\"Context\":{\"judgment\":\"훼손\",\"reason\":\"'JSNDI employee'를 '직원'으로만 옮겨 어느 기관 소속인지가 사라졌다. 문단 속에서 이 직원이 작업 지시 기관의 사람이라는 정보가 빠졌고, 함께 맨홀 안을 들여다보는 장면의 이해도 약해진다.\"},\"Deontic\":{\"judgment\":\"보존\",\"reason\":\"'내가 해야 할 일'이 원문의 'what I had to do'가 가진 의무의 강도를 그대로 담고 있다.\"},\"Register\":{\"judgment\":\"보존\",\"reason\":\"서술문 '-했다' 체로 출판물 본문에 어울리는 중립적 문체가 유지된다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"reason\":\"고유 기관명 JSNDI를 번역에서 생략해 일본 기관이라는 제도적·고유 명칭 정보가 전달되지 않는다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 762,
+    "output_tokens": 613,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

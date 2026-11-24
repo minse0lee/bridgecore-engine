@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM98FG21AfZ3r8aFPjjq",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"reason\":\"\\\"In partnership with\\\"(~와 협력하여)를 단순 명사 \\\"파트너\\\"로 옮겨 협력 관계의 의미가 약해졌고, \\\"Office of the Premier\\\"(주 총리실)를 \\\"프리미어 사무실\\\"로 직역해 기관의 성격이 불분명해졌다.\"},\"Textual\":{\"judgment\":\"보존\",\"reason\":\"\\\"라벨: 기관 나열\\\"의 구조와 기관명 나열 순서가 원문과 같게 유지되었다.\"},\"Context\":{\"judgment\":\"훼손\",\"reason\":\"협력 기관을 밝히는 크레딧 문맥에서 \\\"파트너\\\"만 적으면 어떤 관계인지 모호하고, \\\"프리미어 사무실\\\"은 정부 기관이라는 맥락이 전달되지 않는다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"reason\":\"의무, 허용, 금지 등 양태 표현이 없는 크레딧 문장이다.\"},\"Register\":{\"judgment\":\"보존\",\"reason\":\"격식 있는 크레딧 표기의 간결한 명사형 나열 문체가 학습자료 본문에 무리 없이 유지되었다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"reason\":\"Office of the Premier는 남아공 주 정부의 \\\"주 총리실\\\"에 해당하는 제도 명칭인데 \\\"프리미어 사무실\\\"로 음차·직역하여 제도적 의미가 사라졌다. 또 \\\"Eastern Cape\\\"는 \\\"동케이프 주\\\"로 옮기는 것이 일반적이며 \\\"이스턴 케이프\\\"는 지명의 행정 단위 성격을 살리지 못한다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 476,
+    "output_tokens": 619,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

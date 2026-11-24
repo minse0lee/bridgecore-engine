@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM917yWsFYMofWHwFZK5",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"reason\":\"시각적 순서(사용자가 보는 것)와 DOM 순서가 일치하지 않는다는 사실과 괄호 설명이 그대로 전달된다.\"},\"Textual\":{\"judgment\":\"보존\",\"reason\":\"'문제는 ~다는 것입니다'로 원문의 구조와 괄호 삽입 순서를 자연스럽게 유지했다.\"},\"Context\":{\"judgment\":\"보존\",\"reason\":\"웹 개발 논의에서 문제를 짚는 답변 상황에 맞고, 'DOM'을 그대로 써서 기술 맥락도 유지된다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"reason\":\"의무, 허용, 금지, 가능성을 나타내는 표현이 없는 사실 진술이다.\"},\"Register\":{\"judgment\":\"보존\",\"reason\":\"'~입니다' 체는 소셜미디어 기술 답변으로 무난하고 공손하며 앞 문장의 '그렇습니다'와도 일관된다.\"},\"Cultural\":{\"judgment\":\"보존\",\"reason\":\"DOM은 기술 용어라 원어 표기가 적절하고, 별도의 문화 특수 요소는 없다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 606,
+    "output_tokens": 434,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

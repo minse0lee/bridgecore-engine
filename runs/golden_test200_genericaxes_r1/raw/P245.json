@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM92ADF2scxsDUfesJT9",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"reason\":\"원문의 'over HK $3 million'(300만 홍콩달러 이상)이 '300만 홍콩달러'로 옮겨져 '이상'의 의미가 빠졌고, 모금액이 정확히 300만인 것처럼 읽힌다.\"},\"Textual\":{\"judgment\":\"보존\",\"reason\":\"한 문장 구조(주어-장소-금액-서술어)가 그대로 유지되었고 정보 순서도 자연스럽다.\"},\"Context\":{\"judgment\":\"보존\",\"reason\":\"앞 문단에서 소개된 기사 도입부로서 새 탐사보도 기관의 모금 소식을 전하는 맥락에 맞게 옮겼다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"reason\":\"의무·허용·금지·가능성을 나타내는 표현이 원문에 없다.\"},\"Register\":{\"judgment\":\"보존\",\"reason\":\"뉴스 보도문에 맞는 평서형 '-했습니다' 문체를 사용해 앞 문단의 '게재합니다'와도 어울린다.\"},\"Cultural\":{\"judgment\":\"보존\",\"reason\":\"HK$와 US$ 금액, 플랫폼 고유명 Fringebacker를 적절히 표기했고 '탐사보도'도 한국어에서 통용되는 용어다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 712,
+    "output_tokens": 478,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

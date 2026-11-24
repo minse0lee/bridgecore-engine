@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM8qfxqKEQezRrLHkitz",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"reason\":\"\\\"Don't try\\\"는 감사 인사를 하려는 도로시에게 '애쓰지 마라'(감사하려 하지 말라)는 뜻인데, '그렇게 하지 마세요'로 옮겨 무엇을 하지 말라는 것인지 모호해졌다. 또한 'my dear'가 호칭이 아니라 '내 사랑'이라는 애정 표현처럼 읽혀 대상과 관계가 어긋난다.\"},\"Textual\":{\"judgment\":\"보존\",\"reason\":\"호칭, 명령문, 'he answered'의 순서가 자연스럽게 재배열되었고 대화문과 서술 구조는 유지되었다.\"},\"Context\":{\"judgment\":\"훼손\",\"reason\":\"앞선 도로시의 감사 인사에 대한 대답이라는 맥락이 사라지고, 'try'가 '그렇게 하지 마세요'로 바뀌어 다음 문장의 '방법을 찾기 바란다'와의 연결도 약해졌다.\"},\"Deontic\":{\"judgment\":\"보존\",\"reason\":\"부정 명령형 'Don't'가 부드러운 금지·만류의 '하지 마세요'로 옮겨져 강도가 대체로 유지되었다.\"},\"Register\":{\"judgment\":\"훼손\",\"reason\":\"어른이 아이를 다정하게 부르는 말투여야 하는데 '내 사랑'은 연인 사이의 호칭처럼 들려 어색하고, '-세요' 존대도 어른이 아이에게 하는 말투로는 다소 거리가 있다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"reason\":\"영어 'my dear'는 아이나 손아랫사람에게 쓰는 다정한 호칭인데 한국어 '내 사랑'은 애인이나 가족 간의 사랑 표현으로 느껴져 문화적 함의가 달라졌다. '얘야' 같은 호칭이 적절하다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 650,
+    "output_tokens": 701,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

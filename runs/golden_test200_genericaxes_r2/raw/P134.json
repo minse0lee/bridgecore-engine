@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM9AoHefHRJHa9BcSqNU",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"reason\":\"Chequers는 영국 정부의 브렉시트 계획(체커스 플랜)을 가리키는데, 번역은 'it'을 '그'로 옮겨 사람처럼 읽히게 했다. 또한 'who actually pound the streets and get us elected' 부분이 번역문에서 빠져 활동가의 역할 정보가 사라졌다.'\"},\"Textual\":{\"judgment\":\"훼손\",\"reason\":\"원문은 'our activists who actually pound the streets...'로 끝나는 한 문장인데, 번역문은 '인기가 없으며'에서 끊겨 관계절과 종결부가 누락되었고 문장이 미완결이다.'\"},\"Context\":{\"judgment\":\"훼손\",\"reason\":\"체커스 플랜을 두고 당 안팎의 반대 여론을 나열하는 정치 기사 맥락인데, 'it'을 '그'로 옮겨 사람에 대한 평가처럼 읽히고, 풀뿌리 활동가가 선거를 뛰는 근거 서술이 빠져 논지가 약해진다.'\"},\"Deontic\":{\"judgment\":\"보존\",\"reason\":\"'not going to vote for it'은 미래 예측이며 '투표하지 않을 것이다'로 강도가 유지된다. 의무나 금지 표현은 없다.'\"},\"Register\":{\"judgment\":\"훼손\",\"reason\":\"인용 발언의 구어체가 '않을 것이다'라는 문어적 평서형으로 바뀌고, 쉼표로 이어진 문장 끝이 '-으며'로 끊겨 어색하다.'\"},\"Cultural\":{\"judgment\":\"훼손\",\"reason\":\"Chequers(총리 별장, 브렉시트 계획의 약칭)를 설명 없이 '체커스'로만 쓰고 'it'을 '그'로 옮겨 정치적 지시 대상이 흐려졌다. 'the Opposition'도 '야당'으로 무난하나 'pound the streets'(선거운동 관용 표현)는 번역에서 사라졌다.'\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1580,
+    "inference_geo": "global",
+    "input_tokens": 627,
+    "output_tokens": 738,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
