@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6fjMyURKKbfuiVeZkJ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"Hit what exactly?\",\"tgt_span\":\"정확히 무엇을 치기?\",\"description\":\"질문 종결이 어색한 명사형 '치기?'로 처리되어 구어체 대화의 의문문 어조가 살지 않았다. 또한 'hit'(게임에서 장애물에 부딪히다/닿다)를 '치다'(타격하다)로 옮겨 의미가 어긋났다. '정확히 뭐에 부딪히는데?' 정도가 자연스럽다.\",\"severity\":\"major\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 800,
+    "output_tokens": 195,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

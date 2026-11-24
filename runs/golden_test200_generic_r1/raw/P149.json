@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6XuSDuqo1eeVDs3R1R",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"held outside of the bell-to-bell school day\",\"tgt_span\":\"학교 종소리가 울리지 않는 시간 외에 열리는\",\"description\":\"\\\"bell-to-bell school day\\\"는 첫 종부터 마지막 종까지의 정규 수업일(등교부터 하교까지)을 뜻하는데, \\\"종소리가 울리지 않는 시간 외에\\\"로 옮겨 의미가 왜곡되고 논리도 모호해졌다. 문자 그대로는 종이 울리는 시간에 열리는 활동이라는 반대 의미로 읽혀, 적용 시간대가 뒤바뀔 수 있다.\",\"severity\":\"major\"},{\"src_span\":\"extracurricular and co-curricular activities\",\"tgt_span\":\"과외 활동 및 공동 과외 활동\",\"description\":\"\\\"과외 활동\\\"은 한국어에서 사교육(학원 수업 등)으로 읽히기 쉬워 부적절하다. \\\"공동 과외 활동\\\"도 co-curricular(교과 연계 활동)를 제대로 전달하지 못한다. \\\"방과 후 활동/동아리 활동\\\"과 \\\"교과 연계 활동\\\" 등으로 옮기는 편이 낫다.\",\"severity\":\"major\"},{\"src_span\":\"sponsor\",\"tgt_span\":\"스폰서\",\"description\":\"여기서 sponsor는 활동·동아리를 맡은 지도교사/지도자를 뜻하는데, \\\"스폰서\\\"로 음역하면 후원자(금전 지원자)로 오해된다.\",\"severity\":\"major\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 686,
+    "output_tokens": 550,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

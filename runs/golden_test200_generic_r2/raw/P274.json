@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6vN4EHGx9HkWzesrgk",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"The browser would then make sure to insert\",\"tgt_span\":\"브라우저는 웹 페이지의 섹션 7 위에 섹션 1부터 6까지를 삽입합니다.\",\"description\":\"\\\"then(그다음)\\\"과 \\\"make sure to(반드시 ~하도록 한다)\\\"의 의미가 번역에서 빠졌다. 순서와 확실히 처리한다는 뉘앙스가 사라졌다.\",\"severity\":\"minor\"},{\"src_span\":\"*above*\",\"tgt_span\":\"위에\",\"description\":\"원문은 별표로 'above'를 강조했는데 번역에는 강조 표시나 강조 표현이 없다.\",\"severity\":\"minor\"},{\"src_span\":\"would\",\"tgt_span\":\"삽입합니다\",\"description\":\"원문의 가정·가능성을 나타내는 조동사 'would'가 단정적인 현재형으로 번역되어 어조가 달라졌다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 469,
+    "output_tokens": 333,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

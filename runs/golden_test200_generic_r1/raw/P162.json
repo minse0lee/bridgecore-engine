@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6YurZDr92eU2XrxiGZ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"they help ensure that decisions are educationally appropriate, legally compliant, and aligned with student needs\",\"tgt_span\":\"그들은 결정이 교육적으로 적절한지 확인하는 데 도움이, 법적으로 준수, 학생의 요구와 일치.\",\"description\":\"문장이 끝맺지 못한 채 조각난 나열로 번역되어 문법이 깨졌다. '도움이' 뒤에 서술어가 없고 '준수', '일치'도 문장 구조에 맞지 않아 읽기 어렵다. 또 '적절한지 확인하는 데 도움'은 'ensure(보장한다)'와 의미가 다르며, 세 가지 조건(교육적으로 적절, 법적으로 준수, 학생 요구에 부합)이 병렬로 연결되지 않았다.\",\"severity\":\"major\"},{\"src_span\":\"do not excuse behavior\",\"tgt_span\":\"행동을 용서하지 않습니다\",\"description\":\"'excuse'는 행동에 대한 책임을 면제하거나 변명거리로 삼지 않는다는 뜻인데, '용서하지 않습니다'로 옮겨 의미가 어긋난다. 또 '행동'만 쓰면 문제 행동이라는 뜻이 약하다.\",\"severity\":\"minor\"},{\"src_span\":\"they\",\"tgt_span\":\"그들은\",\"description\":\"'they'는 앞의 'these protections'를 가리키는데, '그들은'은 사람을 지칭하는 느낌이라 어색하다. 번역투가 강하다.\",\"severity\":\"minor\"},{\"src_span\":\"; rather,\",\"tgt_span\":\"; 오히려,\",\"description\":\"세미콜론과 쉼표를 영어식 그대로 가져와 한국어 문장 부호 용법에 어색하다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 622,
+    "output_tokens": 634,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

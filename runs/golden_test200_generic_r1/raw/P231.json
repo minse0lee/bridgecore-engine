@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6dgCQQBwMAaw1Ti2Hs",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"within three school days\",\"tgt_span\":\"3일 이내에\",\"description\":\"'school days'(수업일)의 의미가 누락되었다. 주말·휴일을 제외한 수업일 기준이므로 '3일'만 쓰면 기한이 달라질 수 있다.\",\"severity\":\"major\"},{\"src_span\":\"the absence will be excused\",\"tgt_span\":\"결석은 면제됩니다\",\"description\":\"'excused absence'는 사유가 인정되는 결석(공결·사유 인정)인데 '면제'로 옮겨 의미가 왜곡되었다. 결석 자체가 면제되는 것으로 읽힌다.\",\"severity\":\"major\"},{\"src_span\":\"a note from a parent/guardian\",\"tgt_span\":\"부모/보호자의 메모\",\"description\":\"'note'는 결석 사유를 적은 확인서·사유서에 해당하는데 '메모'는 격식과 의미가 약하다. 또한 '가져와야 하며'가 조건과 결과를 이어 읽을 때 '메모를 가져오면 인정된다'는 조건 관계가 약하게 드러난다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 924,
+    "output_tokens": 398,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

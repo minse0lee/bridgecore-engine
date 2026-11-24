@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6WvxDp889tWBzfiExc",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"my dear\",\"tgt_span\":\"내 사랑\",\"description\":\"어른이 아이를 다정하게 부르는 호칭 'my dear'를 연인 사이에서 쓰는 '내 사랑'으로 옮겼다. 문지기와 소녀의 관계에 맞지 않아 어색하고 오해를 부른다. '얘야', '아가야' 같은 표현이 자연스럽다.\",\"severity\":\"major\"},{\"src_span\":\"Don’t try\",\"tgt_span\":\"그렇게 하지 마세요\",\"description\":\"'Don't try'는 감사 인사를 하고 떠나는 도로시에게 하는 말로, 앞 문맥상 '(감사하려고) 애쓰지 마라'는 뜻이다. 번역문은 '그렇게 하지 마세요'로 옮겨 무엇을 하지 말라는 것인지 모호하고 의미가 달라졌다.\",\"severity\":\"major\"},{\"src_span\":\"Don’t try, my dear,\\\" he answered.\",\"tgt_span\":\"그렇게 하지 마세요.” 그는 대답했다.\",\"description\":\"어른이 아이를 다정하게 대하는 말투여야 하는데 '-세요' 존대로 옮겨 관계에 맞지 않는다. 어린 소녀에게 하는 말이므로 '-렴', '-란다' 같은 다정한 해체·해라체 어조가 더 자연스럽다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 650,
+    "output_tokens": 507,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

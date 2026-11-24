@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6dYYYSqAGALh34NPAk",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"isolated amounts up to 6 inches\",\"tgt_span\":\"6 인치까지 격리 된 금액이 있습니다\",\"description\":\"'isolated amounts'는 '국지적으로 일부 지역에서 나타나는 강수량'을 뜻하는데, '격리된 금액'이라고 직역해 의미가 완전히 틀렸습니다. 강수량이 아니라 금액(돈)으로 읽히며 'isolated'도 '격리된'으로 잘못 옮겼습니다.\",\"severity\":\"critical\"},{\"src_span\":\"Mogollon Rim\",\"tgt_span\":\"모골론 림 (Mogollon Rim)\",\"description\":\"지명 표기가 어색합니다. 관용 표기는 '모golon 림'이 아니라 '모골론 림' 계열이지만 '림'을 '고지대/단애'로 풀지 않았고, 괄호 앞 공백과 원문 병기가 출판물 본문 문체에 맞지 않습니다.\",\"severity\":\"minor\"},{\"src_span\":\"2 to 4 inches\",\"tgt_span\":\"2 ~ 4 인치의\",\"description\":\"숫자·단위 사이에 불필요한 공백이 있고 '2~4인치' 표기 규범에 맞지 않으며, 인치를 센티미터로 환산해 주지도 않아 한국 독자에게 어색합니다.\",\"severity\":\"minor\"},{\"src_span\":\"The latest National Hurricane Center models predict\",\"tgt_span\":\"최신 국립 허리케인 센터 모델은 2 ~ 4 인치의 강수량을 예측하고 있으며\",\"description\":\"기관명 'National Hurricane Center'가 '미국 국립허리케인센터'로 표기되지 않았고, 띄어쓰기도 어색합니다. 또한 '모델'이 예측한다는 표현이 기상 예측 모델(예측 모형)의 용어와 맞지 않아 부자연스럽습니다.\",\"severity\":\"minor\"},{\"src_span\":\"있습니다.\",\"tgt_span\":\"있습니다.\",\"description\":\"종결어미가 문체상 맞지 않으며, 뉴스 기사의 '-다' 평서체 대신 합쇼체를 사용했습니다. 또한 '예측하고 있으며'와 '있습니다'가 반복되어 부자연스럽습니다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 624,
+    "output_tokens": 818,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

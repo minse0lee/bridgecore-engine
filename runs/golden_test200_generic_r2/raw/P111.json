@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6jqBpaaBJDfsrWnvWS",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"Kavanaugh's\",\"tgt_span\":\"카바노의\",\"description\":\"인명 Kavanaugh(캐버노)의 표기가 부정확함. 통용 표기는 '캐버노'임.\",\"severity\":\"minor\"},{\"src_span\":\"on the Senate floor\",\"tgt_span\":\"상원 바닥에\",\"description\":\"'floor'를 문자 그대로 '바닥'으로 옮겨 오역함. 상원 본회의(의사당 본회의장)를 뜻함.\",\"severity\":\"major\"},{\"src_span\":\"first key procedural vote\",\"tgt_span\":\"첫 번째 키 절차 투표\",\"description\":\"'key'를 '키(열쇠)'로 음차해 의미가 전달되지 않음. '핵심적인/주요' 절차 표결이어야 함.\",\"severity\":\"major\"},{\"src_span\":\"on Kavanaugh's nomination\",\"tgt_span\":\"카바노의 지명에 상원 바닥에 첫 번째 키 절차 투표는\",\"description\":\"조사 '에'가 부적절하고 '지명에 대한' 관계가 어색하며, 수식 구조가 깨져 비문이 됨.\",\"severity\":\"major\"},{\"src_span\":\"no later than Friday\",\"tgt_span\":\"금요일 이내에\",\"description\":\"'no later than Friday'는 늦어도 금요일까지라는 뜻인데, '금요일 이내에'는 어색하며 시점 의미가 불분명함.\",\"severity\":\"minor\"},{\"src_span\":\"a senior GOP leadership aide has told CNN\",\"tgt_span\":\"수석 공화당 리더십 보좌관은 CNN에 말했다\",\"description\":\"'GOP leadership aide'를 직역해 어색함. 공화당 지도부 고위 보좌관이 적절. 또한 쉼표로 이은 어순이 부자연스럽고 출처 표기가 '~이 CNN에 밝혔다' 형태가 아님.\",\"severity\":\"minor\"},{\"src_span\":\"is expected to take place\",\"tgt_span\":\"일어날 것으로 예상된다, 수석\",\"description\":\"'take place'를 '일어나다'로 옮겨 표결에 부적절하며, 문장이 쉼표로 끊겨 비문에 가까움.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 594,
+    "output_tokens": 776,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6UtP9FmQxgpsUZTKJF",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"he would \\\"prefer not\\\" to fire Rosenstein\",\"tgt_span\":\"로젠스타인 판사를 해임하지 않겠다고 밝혔지만\",\"description\":\"\\\"prefer not\\\"(~하지 않는 편을 택하겠다)이라는 완곡한 선호 표현을 \\\"해임하지 않겠다\\\"는 단정적 확약으로 바꿨다. 또한 \\\"but then\\\"이 암시하는 뒤이은 상황 변화의 뉘앙스가 약해졌다. 인용 표현도 사라졌다.\",\"severity\":\"major\"},{\"src_span\":\"Rosenstein\",\"tgt_span\":\"로젠스타인 판사\",\"description\":\"로젠스타인은 법무부 차관인데 \\\"판사\\\"라는 직함을 임의로 덧붙여 신분을 잘못 전달했다.\",\"severity\":\"major\"},{\"src_span\":\"Kavanaugh\",\"tgt_span\":\"카바노 판사\",\"description\":\"카바노는 대법관 지명자인데 \\\"판사\\\"로 표기해 지위가 부정확하다. 또한 \\\"Kavanaugh\\\"는 통상 \\\"캐버노\\\"로 표기하므로 표기도 부정확하다.\",\"severity\":\"minor\"},{\"src_span\":\"sexual misconduct\",\"tgt_span\":\"성폭행 혐의\",\"description\":\"\\\"sexual misconduct\\\"(성적 비행)를 더 좁고 구체적인 \\\"성폭행\\\"으로 번역해 의미 범위가 달라졌다.\",\"severity\":\"major\"},{\"src_span\":\"Kavanaugh and one of the women who have accused him of sexual misconduct, Dr Christine Blasey Ford, both testified\",\"tgt_span\":\"카바노 판사와 그를 성폭행 혐의로 고발한 여성 중 한 명인 크리스틴 블레이시 포드 박사가 증언하는\",\"description\":\"\\\"both testified\\\"의 의미(둘 다 증언)가 반영되지 않았고, 두 사람이 모두 증언했다는 점이 약해졌다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 618
+    },
+    "cache_creation_input_tokens": 618,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 788,
+    "output_tokens": 717,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6mkNuUPTRbJgHf5S92",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"use the data you capture at a scale of 1:50 000 later\",\"tgt_span\":\"나중에 1:50 000의 크기로 캡처한 데이터를 사용하려고 한다면\",\"description\":\"관계가 뒤바뀌었다. 원문은 '캡처한 데이터를 나중에 1:50 000 축척으로 사용'하려는 것이다. 번역문은 '1:50 000으로 캡처한 데이터'를 나중에 쓴다고 해석해 축척이 걸리는 대상이 달라졌다. 또한 데이터를 만드는 시점의 축척과 사용 시점의 축척이 대비되는 핵심 논리가 흐려진다.\",\"severity\":\"major\"},{\"src_span\":\"a scale of 1:1000 000\",\"tgt_span\":\"1:1000 000의 크기로\",\"description\":\"'scale'은 지도 축척인데 '크기'로 번역해 지도학 용어가 맞지 않는다. 이 문장에서 '축척'이 핵심 개념이므로 오해를 부를 수 있다.\",\"severity\":\"major\"},{\"src_span\":\"a scale of 1:50 000\",\"tgt_span\":\"1:50 000의 크기로\",\"description\":\"'scale'을 '크기'로 번역해 용어가 부정확하다. '축척'이어야 한다.\",\"severity\":\"major\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 722,
+    "output_tokens": 465,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

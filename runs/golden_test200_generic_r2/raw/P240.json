@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6tRZGVVN74A4Q9x5Pm",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"a new devolved aggregates tax\",\"tgt_span\":\"새로운 퇴적물 세금\",\"description\":\"'aggregates'(골재)를 '퇴적물'로 오역했고, 'devolved'(스코틀랜드 자치정부로 이양된)가 번역에서 빠졌다. 골재세는 건설용 암석·모래·자갈 등에 부과하는 세금이다.\",\"severity\":\"major\"},{\"src_span\":\"that should accelerate the shift\",\"tgt_span\":\"가속화해야하는\",\"description\":\"'should accelerate'는 세금이 변화를 가속할 것이라는 기대·예상인데, '가속화해야 하는'은 당위·의무로 읽혀 의미가 바뀌었다. 띄어쓰기도 '해야 하는'이어야 한다.\",\"severity\":\"major\"},{\"src_span\":\"virgin products\",\"tgt_span\":\"처음 사용되는 제품\",\"description\":\"'virgin products'는 재활용품이 아닌 신규 채취 원료로 만든 제품(신재)을 뜻한다. '처음 사용되는 제품'은 어색하고 부정확하다.\",\"severity\":\"major\"},{\"src_span\":\"the shift away from the use of virgin products\",\"tgt_span\":\"처음 사용되는 제품의 사용에서 벗어나는 변화\",\"description\":\"'제품'과 '사용'이 반복되어 어색하고 불필요하게 장황하다.\",\"severity\":\"minor\"},{\"src_span\":\"bring in\",\"tgt_span\":\"도입 할 계획입니다\",\"description\":\"'도입 할'은 띄어쓰기 오류다('도입할'). 또한 기사 문체에 맞지 않는 구어체 종결어미 '-ㅂ니다'를 썼다.\",\"severity\":\"minor\"},{\"src_span\":\"big ambitions\",\"tgt_span\":\"큰 야망을 가지고 있으며\",\"description\":\"'야망'은 부정적 어감이 있어 정책 목표에는 어색하다('포부', '목표'가 자연스럽다). 'have'를 직역한 '가지고 있으며'도 번역투다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 663,
+    "output_tokens": 730,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

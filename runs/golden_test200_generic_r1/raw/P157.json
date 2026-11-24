@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6YXpzGFWA4MHSRXjC8",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"These may include references to, or the inclusion of, language or the display of images and/or symbols that promote hate or discrimination\",\"tgt_span\":\"이러한 언어 또는 이미지 및 / 또는 기호의 표시에 대한 참조 또는 포함이 증오 또는 차별을 조장 할 수 있습니다\",\"description\":\"주어와 구조가 뒤바뀜. 원문은 '이는 증오·차별을 조장하는 언어나 이미지·기호의 표시에 대한 언급 또는 포함을 포함할 수 있다'인데, 번역은 '참조 또는 포함이 증오를 조장할 수 있다'로 바꿔 의미가 달라짐. 'promote'가 수식하는 대상이 바뀜.\",\"severity\":\"major\"},{\"src_span\":\"including racial slurs\",\"tgt_span\":\"인종 명예 훼손을 포함\",\"description\":\"'racial slurs'는 인종 비하 발언/인종차별적 욕설인데 '인종 명예 훼손'으로 오역함. 법적 개념이 달라지고 문장도 불완전함.\",\"severity\":\"major\"},{\"src_span\":\"based on personal characteristics identified in Board Policy ACA\",\"tgt_span\":\"이사회 정책 ACA, 차별 금지, 공정성 및 문화적 능력에서 식별 된 개인적 특성을 기반으로, 인종 명예 훼손을 포함.\",\"description\":\"정책명과 설명이 쉼표로 나열되어 정책 명칭 경계가 불분명하고 문장이 어색하게 끊김. 'Cultural Proficiency'를 '문화적 능력'으로 옮겨 어색함.\",\"severity\":\"minor\"},{\"src_span\":\"These may include\",\"tgt_span\":\"이러한 언어 또는 이미지 및 / 또는 기호의 표시에 대한 참조 또는 포함이 증오 또는 차별을 조장 할 수 있습니다\",\"description\":\"'may include'(포함할 수 있다)의 의미가 '조장할 수 있다'로 바뀌고 문장이 비문에 가까우며 띄어쓰기('조장 할 수')와 쉼표 처리도 부자연스러움.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 1126,
+    "output_tokens": 772,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

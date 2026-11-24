@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6axYb21xxbs7DGbz9E",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"a school administrator\",\"tgt_span\":\"학교 행정부\",\"description\":\"한 명의 학교 행정 담당자(교장·교감 등 관리자)를 뜻하는데 '학교 행정부'라는 부적절한 조직 명칭으로 옮겼다. 상의 대상이 기관 전체인 것처럼 읽혀 담당 주체가 달라진다.\",\"severity\":\"major\"},{\"src_span\":\"during the school day\",\"tgt_span\":\"학교 내에서\",\"description\":\"'수업일 중/학교 일과 시간 중'이라는 시간 조건이 '학교 내에서'라는 장소 조건으로 바뀌었다.\",\"severity\":\"major\"},{\"src_span\":\"to determine if the activity will be allowed during the school day, the time and place, and the type of supervision required\",\"tgt_span\":\"결정할 책임이 있습니다\",\"description\":\"학생이 행정 담당자와 상의해 '확인'해야 한다는 뜻인데, 학생이 직접 '결정'한다는 의미로 바뀌어 권한이 달라졌다.\",\"severity\":\"major\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 821,
+    "output_tokens": 382,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

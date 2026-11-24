@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6V79qimHccwwe4YAkq",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"the representative to the US-based premium water firm\",\"tgt_span\":\"미국에 본사를 둔 프리미엄 워터 회사의 대표가\",\"description\":\"원문은 'representative'로 회사를 대표하는 대리인(피지 지사 책임자)을 뜻하며, 'premium water firm'은 프리미엄 생수 회사입니다. '프리미엄 워터'는 어색하고 '대표'는 직함을 과장할 수 있습니다.\",\"severity\":\"minor\"},{\"src_span\":\"was “had been acting in a manner prejudicial to good governance and public order\",\"tgt_span\":\"해로운 방식으로 행동했다\\\"고 말했다\",\"description\":\"'had been acting'은 과거부터 계속된 행동을 뜻하는데, '행동했다'로 옮겨 지속의 의미가 약해졌습니다. 또한 'prejudicial to'는 '해가 되는'보다 '저해하는' 같은 법적 어조가 더 적절합니다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 799,
+    "output_tokens": 358,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6wnDZXWKgr63712DpQ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"I couldn’t agree more with\",\"tgt_span\":\"더 동의 할 수 없습니다\",\"description\":\"관용 표현 'couldn't agree more'(전적으로 동의한다)를 문자 그대로 옮겨 '더 동의할 수 없다'로 번역했다. 한국어로는 동의하지 않는다는 뜻으로 읽혀 의미가 정반대가 된다.\",\"severity\":\"critical\"},{\"src_span\":\"Peter Timmins\",\"tgt_span\":\"피터 Timmins\",\"description\":\"인명을 한글과 로마자로 섞어 표기해 일관성이 없다. '피터 팀민스'처럼 한글로 통일해야 한다.\",\"severity\":\"minor\"},{\"src_span\":\"FOI expert\",\"tgt_span\":\"정보의 자유 전문가\",\"description\":\"FOI(Freedom of Information)를 '정보의 자유'로 옮겨 '정보공개' 쪽 의미가 흐려진다. 통용 표현인 '정보공개 전문가' 등이 더 자연스럽다.\",\"severity\":\"minor\"},{\"src_span\":\"I couldn’t agree more with FOI expert Peter Timmins about the latest Wikileaks “disclosures”.\",\"tgt_span\":\"더 동의 할 수 없습니다.\",\"description\":\"'동의 할'은 띄어쓰기 오류('동의할')이고, 문단 나머지 부분은 평서체('-했다', '-없다')인데 이 문장만 합쇼체('-습니다')를 써서 문체가 일관되지 않는다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 763,
+    "output_tokens": 550,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

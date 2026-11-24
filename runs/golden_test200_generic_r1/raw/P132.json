@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6WjNDhwMvt7YaAcSmm",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"Shifting to a four-day week\",\"tgt_span\":\"4 일 주로 이동은\",\"description\":\"\\\"four-day week\\\"(주 4일 근무제)를 \\\"4일 주\\\"로 직역했고, \\\"shifting to\\\"(전환)를 \\\"이동\\\"으로 옮겨 의미가 불명확하다. '주 4일 근무제로의 전환'이어야 한다.\",\"severity\":\"major\"},{\"src_span\":\"the Trades Union Congress\",\"tgt_span\":\"노동 조합 회의\",\"description\":\"영국 노동조합회의(TUC)라는 고유 기관명을 일반명사처럼 직역했다. '노동조합총연맹/영국노총(TUC)' 등으로 옮겨야 한다.\",\"severity\":\"major\"},{\"src_span\":\"has been endorsed by\",\"tgt_span\":\"에 의해 승인되었습니다\",\"description\":\"endorse는 '지지하다/지지를 받다'인데 '승인되었다'로 옮겨 의미가 달라졌고, 영어식 피동 구문으로 어색하다. 또한 합니다체가 뉴스 기사 문체와 맞지 않는다.\",\"severity\":\"minor\"},{\"src_span\":\"take advantage of the changing economy\",\"tgt_span\":\"변화하는 경제를 활용하는 방법으로\",\"description\":\"'변화하는 경제 환경에 대응/활용할 수 있는 방안' 등 자연스러운 표현이 아니며, 문장 전체가 어순이 어색하고 가독성이 떨어진다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 523,
+    "output_tokens": 537,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

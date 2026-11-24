@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6gnaxpwqXjr9vLG5yx",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"but not limited to\",\"tgt_span\":\"국적 등과 관련된\",\"description\":\"'but not limited to'(이에 국한되지 않음)의 의미가 '등'으로만 처리되어 열거 항목이 예시일 뿐 이에 한정되지 않는다는 포괄 조건이 약해졌다.\",\"severity\":\"minor\"},{\"src_span\":\"mental and physical ability\",\"tgt_span\":\"정신적, 신체적 능력\",\"description\":\"'정신적'과 '신체적 능력'이 쉼표로 나열되어 '정신적'이 독립 항목처럼 읽힌다. '정신적·신체적 능력'으로 묶어야 원문 의미가 분명하다.\",\"severity\":\"minor\"},{\"src_span\":\"national origin\",\"tgt_span\":\"국적\",\"description\":\"'national origin'은 출신 국가나 민족적 출신을 뜻하는데 '국적(nationality)'으로 옮겨 범위가 좁아졌다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 838,
+    "output_tokens": 349,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

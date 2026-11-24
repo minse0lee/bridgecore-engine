@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6wuMB9MH8M44fGA3Zz",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"the sun is only really up for about 90 minutes\",\"tgt_span\":\"태양은 정말 약 90 분 동안입니다\",\"description\":\"문장이 불완전하고 'is up(떠 있다)'가 번역되지 않았습니다. 'only really'(실제로는 겨우)의 뜻도 'only'가 빠져 '정말'로만 옮겨져, 해가 겨우 90분만 떠 있다는 의미가 전달되지 않습니다.\",\"severity\":\"major\"},{\"src_span\":\"According to the proper solar panels on the house\",\"tgt_span\":\"집에 적절한 태양 전지 패널에 따르면\",\"description\":\"'proper solar panels'를 '적절한'으로 옮겨 의미가 어색합니다. 제대로 된 태양광 패널이라는 뜻입니다. 'on the house'가 '집에'로 번역되어 수식 관계도 불분명하고, '집에 있는/설치된'이 되어야 합니다.\",\"severity\":\"major\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 453,
+    "output_tokens": 350,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

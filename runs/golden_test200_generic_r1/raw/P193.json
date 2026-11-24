@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6bGDxkqLpJuvmXj6j7",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"Locally\",\"tgt_span\":\"지역적으로,\",\"description\":\"'Locally'는 '일부 지역에서'라는 뜻인데 '지역적으로'로 옮겨 어색하고 의미가 불분명하다.\",\"severity\":\"minor\"},{\"src_span\":\"possibility landslides in the desert\",\"tgt_span\":\"사막에서 가능성 산사태를\",\"description\":\"'possibility'는 '가능성 있는 산사태'라는 의미인데 어순이 어색하고 의미가 불분명하다. 원문의 오타(possible)를 반영하지 못해 '가능성 산사태'라는 비문이 되었다. '사막에서'가 산사태에만 걸리는지 전체에 걸리는지도 모호하다.\",\"severity\":\"major\"},{\"src_span\":\"flash flooding, debris flows\",\"tgt_span\":\"플래시 홍수, 잔해 흐름\",\"description\":\"'flash flooding'은 '돌발 홍수/급류 홍수', 'debris flows'는 '토석류'가 자연스러운 용어인데 직역투라 어색하다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 547,
+    "output_tokens": 390,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6wcXemVUR6bzNdQWYi",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"Freedom Caucus\",\"tgt_span\":\"자유당 원내대표단\",\"description\":\"Freedom Caucus는 공화당 내 강경 보수 의원 모임(자유회의/프리덤 코커스)이다. 이를 '자유당'이라는 별개 정당처럼 옮겼고, '원내대표단'으로 번역해 단체의 성격과 정치적 구도를 왜곡했다.\",\"severity\":\"major\"},{\"src_span\":\"celebrated his deal for cutting an estimated $16 billion in spending\",\"tgt_span\":\"지출을 줄이는 데 성공했다고 축하했지만\",\"description\":\"'자신의 합의(deal)'를 자축했다는 의미인데 '합의'가 빠졌고, '성공했다고 축하했다'로 어색하게 바뀌어 의미가 불분명하다. 또한 'estimated'(추정)의 뉘앙스가 '약'으로만 처리되어 부정확하다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 772,
+    "output_tokens": 350,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

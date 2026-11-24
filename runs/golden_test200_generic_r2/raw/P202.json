@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6rB5ZtkFo7bfRRcF5C",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"all right?\",\"tgt_span\":\"이렇게 생긴 앱을 얻게 될 겁니다.\",\"description\":\"청자에게 이해했는지 확인하며 주의를 끄는 \\\"all right?\\\"가 번역에서 빠졌습니다. 수업 영상 특유의 친근한 어조와 상호작용이 사라졌습니다.\",\"severity\":\"minor\"},{\"src_span\":\"get an app\",\"tgt_span\":\"앱을 얻게 될 겁니다\",\"description\":\"\\\"얻게 되다\\\"는 다운로드 후 앱이 설치되는 상황에 어색한 직역입니다. \\\"앱이 설치됩니다\\\"나 \\\"앱을 받게 됩니다\\\"처럼 옮기는 편이 자연스럽습니다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 809,
+    "output_tokens": 283,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

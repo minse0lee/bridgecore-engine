@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6az85tXjQekCXivUJB",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"took so long to complete\",\"tgt_span\":\"완료하는데 그렇게 오래 걸렸던\",\"description\":\"의존명사 '데' 앞은 띄어 써야 하므로 '완료하는 데'가 맞다. 띄어쓰기 오류이다.\",\"severity\":\"minor\"},{\"src_span\":\"is only 17 seconds long\",\"tgt_span\":\"겨우 17초밖에 안 된다는\",\"description\":\"'겨우'와 '밖에 ~ 안'이 함께 쓰여 '겨우'가 중복되고 문장이 다소 어색하다. '17초밖에 안 된다는' 또는 '겨우 17초라는'이 더 자연스럽다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 521,
+    "output_tokens": 257,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

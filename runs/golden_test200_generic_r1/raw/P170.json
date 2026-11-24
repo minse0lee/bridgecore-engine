@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6ZeGxHeNuXjvuiox7Z",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"The childrens' drawings in the bedroom of their new home in California.\",\"tgt_span\":\"캘리포니아에 있는 그들의 새 집 침실에서 아이들이 그린 그림.\",\"description\":\"사진 설명인 명사구를 번역했는데, 원문의 'drawings'는 복수이고 '침실에 붙어 있는/있는 그림'이라는 장소 표시다. 번역문은 '침실에서 ... 그린'이라 하여 그림을 그린 장소로 읽혀 의미가 달라진다. 침실에 걸려 있는 그림이라는 뜻이 약해졌다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 920,
+    "output_tokens": 236,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

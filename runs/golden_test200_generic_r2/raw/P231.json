@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6stUEHTkkp33D8Zw9W",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"three school days\",\"tgt_span\":\"3일 이내에\",\"description\":\"'school days'(수업일)가 누락되어 주말·휴일이 포함된 달력상 3일로 읽힌다. 제출 기한이 달라지는 조건 변경이다.\",\"severity\":\"major\"},{\"src_span\":\"the absence will be excused\",\"tgt_span\":\"결석은 면제됩니다\",\"description\":\"'excused absence'는 '인정되는 결석(사유 있는 결석)'이다. '면제'는 결석 자체가 없어지거나 책임을 면하는 뜻으로 읽혀 의미가 왜곡된다.\",\"severity\":\"major\"},{\"src_span\":\"a note\",\"tgt_span\":\"메모\",\"description\":\"학부모가 작성하는 결석 사유서를 가리키는데 '메모'는 너무 가볍다. '확인서', '사유서' 등이 더 적절하다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 924,
+    "output_tokens": 323,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6n9pJefJNhmav7XLVD",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"hazing\",\"tgt_span\":\"괴롭힘\",\"description\":\"\\\"hazing\\\"은 신입 길들이기·입단식 등 집단 가입 의례의 가혹행위를 뜻하는데, 일반적인 '괴롭힘'(bullying)으로 번역해 의미 범위가 달라졌다. 정의 대상 용어가 부정확하다.\",\"severity\":\"major\"},{\"src_span\":\"a student or students or inflicting bodily harm on a student or students\",\"tgt_span\":\"학생이나 학생에게 신체적 상해를 입히는 것으로\",\"description\":\"\\\"학생이나 학생에게\\\"로 단수/복수 구분이 무의미하게 중복되어 부자연스럽다. 또한 앞부분 \\\"학생이나 학생의 건강이나 안전\\\"도 같은 방식으로 중복되어 어색하다.\",\"severity\":\"minor\"},{\"src_span\":\"recklessly or intentionally endangering the health or safety of a student or students\",\"tgt_span\":\"무모하거나 의도적으로 학생이나 학생의 건강이나 안전을 위험에 빠뜨리거나\",\"description\":\"\\\"recklessly\\\"를 '무모하게'로 옮겨 법적 의미(무분별하게/무모하게)가 약간 달라지고, 부사 \\\"무모하거나\\\"가 형용사형으로 어색하게 번역되었다. \\\"위험에 빠뜨리거나\\\"가 \\\"or\\\" 병렬 구조 때문에 불명확해졌다.\",\"severity\":\"minor\"},{\"src_span\":\"Students shall not engage in hazing.\",\"tgt_span\":\"안된다. \\\"괴롭힘\\\"은 무모하거나 의도적으로 학생이나 학생의 건강이나 안전을 위험에 빠뜨리거나 학생이나 학생에게 신체적 상해를 입히는 것으로 정의됩니다.\",\"description\":\"첫 문장은 '안된다'(해라체), 둘째 문장은 '정의됩니다'(합쇼체)로 문체가 일관되지 않다. 또한 '안 된다'로 띄어쓰기해야 한다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 701,
+    "output_tokens": 744,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

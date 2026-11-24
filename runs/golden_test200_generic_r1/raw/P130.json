@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6WXz6gSPRG4Zv2VZrx",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"A hearing officer may make a recommendation to the School Board for expulsion\",\"tgt_span\":\"퇴학을위한 학교 이사회에 권고 할 수 있습니다\",\"description\":\"어순과 구조가 어색하고 모호함. '퇴학을 위한 학교 이사회에 권고'로 읽혀 '퇴학을 학교 이사회에 권고할 수 있다'는 의미가 불분명함. 띄어쓰기 오류('을위한', '권고 할')도 있음.\",\"severity\":\"major\"},{\"src_span\":\"hearing officer\",\"tgt_span\":\"청문회 담당자\",\"description\":\"징계 청문 절차의 심리 담당자(청문 심리관/청문관)라는 직책 용어로 부정확함. '청문회 담당자'는 일반 행정 담당자처럼 들림.\",\"severity\":\"minor\"},{\"src_span\":\"students with multiple fights during the same school year or for those whose fights involved gangs\",\"tgt_span\":\"여러 싸움이있는 학생 또는 싸움이 갱단, 무기 또는 심각한 부상을 포함하는 학생\",\"description\":\"'여러 싸움이 있는 학생'은 '여러 차례 싸움에 연루된 학생'이라는 의미가 어색하고, '싸움이 ... 포함하는 학생'은 주어-서술 관계가 어색함. 띄어쓰기 오류('싸움이있는')도 있음.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 841,
+    "output_tokens": 509,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

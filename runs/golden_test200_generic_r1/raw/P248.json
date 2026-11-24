@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6eo5g6T453JU39hUL4",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"to approach 2 to 3 inches per hour in spots\",\"tgt_span\":\"시간당 2~3인치의 강수량을 초래할 것이다\",\"description\":\"'approach'(~에 육박하다/근접하다)와 'in spots'(곳에 따라)가 번역되지 않았다. 강수 강도가 일부 지점에서 시간당 2~3인치에 근접한다는 한정이 사라지고 2~3인치가 확정된 것처럼 읽힌다.\",\"severity\":\"major\"},{\"src_span\":\"rainfall rates\",\"tgt_span\":\"강수량\",\"description\":\"'rainfall rates'는 시간당 강수 강도(강우율)인데 누적량을 뜻하는 '강수량'으로 옮겨 개념이 달라졌다.\",\"severity\":\"minor\"},{\"src_span\":\"Deep tropical moisture\",\"tgt_span\":\"깊은 열대 습기는\",\"description\":\"기상 용어로는 '짙은/풍부한 열대 수증기'에 해당하는데 '깊은 열대 습기'는 직역투여서 어색하다. 무생물 주어와 '초래할 것이다'의 결합도 부자연스럽다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 551,
+    "output_tokens": 420,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

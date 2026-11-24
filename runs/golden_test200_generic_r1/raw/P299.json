@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6iC67FMMrcUVo7L1b1",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"had gathered for a festival on the beach ... when waves as high as six meters (18 feet) smashed onshore at dusk\",\"tgt_span\":\"수백 명의 사람들이 금요일에 팔루(Palu) 도시의 해변에서 축제를 위해 모였다. 황혼에 6미터(18피트) 높이의 파도가\",\"description\":\"원문은 사람들이 모여 있던 중에 파도가 덮쳤다는 하나의 시간 관계(when)인데, 두 문장으로 나누면서 이 관계가 사라졌다. 과거완료 'had gathered'의 대과거 의미도 반영되지 않았다.\",\"severity\":\"minor\"},{\"src_span\":\"waves as high as six meters\",\"tgt_span\":\"6미터(18피트) 높이의 파도가\",\"description\":\"'as high as'는 최대 높이를 뜻하는데 이 뉘앙스가 빠져 정확한 6미터 높이로 읽힌다.\",\"severity\":\"minor\"},{\"src_span\":\"sweeping many to their deaths\",\"tgt_span\":\"많은 사람들이 죽고\",\"description\":\"파도가 사람들을 휩쓸어 죽음에 이르게 했다는 인과와 동작이 단순한 '죽고'로 약화되었다.\",\"severity\":\"minor\"},{\"src_span\":\"destroying anything in their path\",\"tgt_span\":\"그들의 길에 있는 모든 것이 파괴되었다\",\"description\":\"'their path'는 파도가 지나간 경로를 뜻하는데 '그들의 길'로 옮겨 지시 대상이 모호하다. 능동 분사구문도 피동으로 바뀌어 파도가 주체라는 점이 흐려졌다.\",\"severity\":\"minor\"},{\"src_span\":\"in the city of Palu\",\"tgt_span\":\"팔루(Palu) 도시의\",\"description\":\"'팔루시'나 '도시 팔루' 같은 자연스러운 표현이 아니고, 'city of Palu'가 어색하게 직역되었다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 701,
+    "output_tokens": 704,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

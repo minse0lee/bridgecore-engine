@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6rQKYpA46mbJoZKgyq",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"lull us into complicity\",\"tgt_span\":\"공범으로 우리를 졸리게 허용해서는 안된다\",\"description\":\"'lull us into complicity'는 정치인들이 우리를 안심시켜 방조·묵인하게 만든다는 뜻인데, '졸리게'로 직역해 의미가 왜곡되었고 '공범으로'도 부정확하다. 또한 'allow ... to lull'의 구조가 어색하게 뒤엉켜 문장이 비문에 가깝다.\",\"severity\":\"major\"},{\"src_span\":\"the National Health Service\",\"tgt_span\":\"국가 건강 서비스\",\"description\":\"영국 고유 기관명 'National Health Service'는 통상 '국민보건서비스(NHS)'로 옮기는데 직역해 부자연스럽고 고유명사 정체성이 약해졌다.\",\"severity\":\"minor\"},{\"src_span\":\"that great British institution\",\"tgt_span\":\"그 위대한 영국의 기관\",\"description\":\"'institution'을 '기관'으로 옮겨 '제도'의 의미가 약해졌고, 'that'을 '그'로 직역해 어색하다.\",\"severity\":\"minor\"},{\"src_span\":\"demise\",\"tgt_span\":\"죽음\",\"description\":\"기관·제도의 'demise'(몰락, 붕괴)를 '죽음'으로 옮겨 어색하다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 654,
+    "output_tokens": 486,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

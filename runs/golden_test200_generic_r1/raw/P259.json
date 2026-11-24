@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6fbfcb4KE8q2a9wTTu",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"he had some fallout from it\",\"tgt_span\":\"그는 그것에서 몇 가지 낙진을했다\",\"description\":\"fallout(여파, 후폭풍)을 '낙진'(방사능 낙진)으로 직역해 의미가 틀렸고, 문장도 어색하며 띄어쓰기도 맞지 않음.\",\"severity\":\"major\"},{\"src_span\":\"He talked about his breakup with his ex-wife and family\",\"tgt_span\":\"그는 그의 전 아내와 가족과 그의 헤어짐에 대해 이야기,\",\"description\":\"서술어 '이야기했다'가 완결되지 않고 '이야기,'로 끊김. 또한 '그의'가 반복되어 어색하고, 전 아내와 가족과의 결별이라는 관계 구조가 모호함.\",\"severity\":\"major\"},{\"src_span\":\"so here we go\",\"tgt_span\":\"그래서 여기 우리가 간다\",\"description\":\"'자, 시작합니다'라는 관용적 의미를 직역해 문맥에 맞지 않고 어색함.\",\"severity\":\"minor\"},{\"src_span\":\"his breakup with his ex-wife and family\",\"tgt_span\":\"그의 헤어짐\",\"description\":\"breakup은 '이혼/결별'에 해당하는데 '헤어짐'은 어색하고 부정확함.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 777,
+    "output_tokens": 472,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

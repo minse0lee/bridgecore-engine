@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6ZUZZgzfj9tF9i2zMs",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"“I do not know,” said the Head\",\"tgt_span\":\"\\\"모르겠어요,\\\" 머리가 말했습니다\",\"description\":\"권위적이고 위압적인 하대가 요구되는 오즈의 말인데 '-어요'체의 부드러운 존대로 번역되어 어조와 권위가 맞지 않음. 또한 'I do not know'는 '나는 모른다'는 단정적 어조인데 힘이 빠짐.\",\"severity\":\"major\"},{\"src_span\":\"but that is my answer\",\"tgt_span\":\"그러나 그것이 제 대답입니다\",\"description\":\"'제'는 자신을 낮추는 겸양 표현으로, 위압적인 오즈의 권위와 관계 설정에 어긋남. 하대('나의 대답이다')여야 함.\",\"severity\":\"major\"},{\"src_span\":\"you will not see your uncle and aunt again\",\"tgt_span\":\"당신은 다시는 당신의 삼촌과 이모를 보지 못할 것입니다\",\"description\":\"도로시에게 존대('당신', '-ㅂ니다')를 써서 기대 격식(권위적 하대)에 어긋남. 또한 'aunt'를 '이모'로 번역했는데 원작의 Aunt Em은 숙모(작은어머니/외숙모)로 보는 것이 자연스러우며 '이모'는 임의적 한정임. '당신의'도 불필요하게 반복됨.\",\"severity\":\"major\"},{\"src_span\":\"Remember that the Witch is Wicked—tremendously Wicked—and ought to be killed.\",\"tgt_span\":\"마녀가 악하다는 것을 기억하십시오, 끔찍하게 악하다는 것을, 그리고 그녀는 죽어야만 합니다.\",\"description\":\"존대 명령('-십시오')이 위압적 하대와 맞지 않음. 대문자 강조 'Wicked'의 고유명사적 성격(앞의 '나쁜 마녀'와 용어 불일치)도 손실됨. 'Wicked Witch'는 앞에서 '나쁜 마녀'로 번역되었으나 여기서는 '악하다'로 표현되어 일관성 부족.\",\"severity\":\"minor\"},{\"src_span\":\"do not ask to see me again until you have done your task\",\"tgt_span\":\"다시는 나를 만나지 말아 주십시오\",\"description\":\"권위적인 금지 명령이 공손한 부탁('말아 주십시오')으로 바뀌어 화자의 위압적 의도와 관계가 왜곡됨.\",\"severity\":\"major\"},{\"src_span\":\"Now go\",\"tgt_span\":\"이제 가서\",\"description\":\"명령형 '가라'의 단호함이 사라지고 연결형으로 처리되어 위압적 어조가 약해짐.\",\"severity\":\"minor\"},{\"src_span\":\"the Wicked Witch\",\"tgt_span\":\"나쁜 마녀\",\"description\":\"고유명사화된 'Wicked Witch'를 '나쁜 마녀'로 옮겨 어감이 유치하며 이후 'Wicked'의 번역('악하다')과 용어가 일관되지 않음.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 938,
+    "output_tokens": 1083,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

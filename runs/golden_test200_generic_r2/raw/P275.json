@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6xUo6Zksem7A5XqZKZ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"in part because harsh rhetoric and policies introduced by the Trump administration have made it harder to place children with sponsors\",\"tgt_span\":\"트럼프 행정부가 도입 한 가혹한 수사와 정책으로 인해 월간 국경 횡단이 상대적으로 변함없이 유지되고 있지만\",\"description\":\"원문에서 'because' 절은 구금 아동 수가 급증한 이유(후원자에게 아동을 인계하기가 더 어려워짐)를 설명한다. 번역은 이 이유를 '국경 횡단이 변함없이 유지'되는 것에 걸어 인과관계를 뒤바꿨다.\",\"severity\":\"critical\"},{\"src_span\":\"in part because\",\"tgt_span\":\"인해\",\"description\":\"'일부는 ~ 때문에'라는 부분적 원인의 뉘앙스가 빠져 단일 원인처럼 단정된다.\",\"severity\":\"major\"},{\"src_span\":\"to place children with sponsors\",\"tgt_span\":\"트럼프 행정부가 도입 한 가혹한 수사와 정책으로 인해\",\"description\":\"'아동을 후원자에게 인계하기가 더 어려워졌다'는 내용이 통째로 누락되었다.\",\"severity\":\"critical\"},{\"src_span\":\"even though monthly border crossings have remained relatively unchanged\",\"tgt_span\":\"월간 국경 횡단이 상대적으로 변함없이 유지되고 있지만\",\"description\":\"양보절이 번역에서 잘못된 인과 구조에 편입되어 원문의 대조 관계(국경 횡단은 그대로인데 구금은 급증)가 흐려졌다.\",\"severity\":\"major\"},{\"src_span\":\"detained migrant children\",\"tgt_span\":\"구금 된 이주 어린이\",\"description\":\"'구금된'은 붙여 써야 하며 '도입 한'도 마찬가지로 띄어쓰기 오류이다.\",\"severity\":\"minor\"},{\"src_span\":\"harsh rhetoric\",\"tgt_span\":\"가혹한 수사\",\"description\":\"'수사'는 '수사(捜査)'와 혼동될 수 있어 어색하다. '강경한 발언/언사'가 자연스럽다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 644,
+    "output_tokens": 768,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

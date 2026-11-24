@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6n8rkpHd7RooqmJ8LT",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"you can make Python 2.5 work with Python 3\",\"tgt_span\":\"파이썬 2.5를 파이썬 3에서 사용할 수 있지만\",\"description\":\"원문은 Python 2.5 코드를 Python 3과 함께 동작하도록 만든다(호환시킨다)는 뜻인데, 번역문은 '파이썬 3에서 사용할 수 있다'로 옮겨 의미가 달라졌다. 2.5와 3 모두에서 동작하는 코드를 작성한다는 개념이 흐려진다.\",\"severity\":\"major\"},{\"src_span\":\"if you only have to work with Python 2.7\",\"tgt_span\":\"파이썬 2.7만 사용하면\",\"description\":\"'work with'는 2.7과 함께 동작하도록 작업한다는 의미인데 단순히 '사용하면'으로 번역해 의미가 축소되었다. 또한 'only have to'의 필요성(~해야 하는 것은 ~뿐이라면)이 반영되지 않았다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 706,
+    "output_tokens": 368,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

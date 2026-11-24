@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6oaWdYjKbXh8wJxKdG",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"“I do not know,” said the Head\",\"tgt_span\":\"\\\"모르겠어요,\\\" 머리가 말했습니다\",\"description\":\"권위적이고 위압적인 하대가 기대되는데 공손한 해요체로 번역했다. 또한 'I do not know'는 '나는 모른다'는 단언인데 약한 어조가 되어 오즈의 위엄이 약해졌다.\",\"severity\":\"major\"},{\"src_span\":\"that is my answer\",\"tgt_span\":\"그것이 제 대답입니다\",\"description\":\"'제'와 '-입니다'는 화자를 낮추는 겸양 표현이라 위압적인 마법사의 어조와 맞지 않는다.\",\"severity\":\"major\"},{\"src_span\":\"you will not see your uncle and aunt again\",\"tgt_span\":\"당신은 다시는 당신의 삼촌과 이모를 보지 못할 것입니다\",\"description\":\"'당신'을 반복하고 존대 어미를 써서 권위적 하대와 맞지 않으며 어색하다. 'aunt'를 '이모'로 옮긴 것도 '숙모'일 가능성이 높은 맥락에서 부적절하다.\",\"severity\":\"major\"},{\"src_span\":\"Remember that the Witch is Wicked—tremendously Wicked—and ought to be killed.\",\"tgt_span\":\"마녀가 악하다는 것을 기억하십시오, 끔찍하게 악하다는 것을, 그리고 그녀는 죽어야만 합니다.\",\"description\":\"'Wicked'가 대문자로 강조된 고유 속성인데 반영하지 않았다. 앞에서 'Wicked Witch'를 '나쁜 마녀'로 옮기고 여기서는 '악하다'로 옮겨 용어가 불일치한다. 또한 '-하십시오'는 하대가 아니다.\",\"severity\":\"minor\"},{\"src_span\":\"do not ask to see me again until you have done your task\",\"tgt_span\":\"다시는 나를 만나지 말아 주십시오\",\"description\":\"위압적인 명령이 정중한 부탁으로 바뀌어 관계와 격식이 왜곡되었다. 또한 'ask to see me'의 '만나게 해달라고 청하다'라는 의미가 빠졌고 'until'의 시간 조건도 약해졌다.\",\"severity\":\"major\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 938,
+    "output_tokens": 805,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

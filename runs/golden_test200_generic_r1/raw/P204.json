@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6byrEzJ43gf49TcmmB",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"The bank's plan\",\"tgt_span\":\"세계은행의 계획은\",\"description\":\"원문의 'The bank'는 문맥상 특정 은행을 가리키는데, '세계은행'으로 구체화했다. 제시된 문단에는 이 은행이 세계은행이라는 근거가 없어 원문에 없는 정보를 추가했다.\",\"severity\":\"minor\"},{\"src_span\":\"generational shifts\",\"tgt_span\":\"세대 교체\",\"description\":\"'generational shifts'는 한 세대에 걸쳐 일어나는 규범·인식의 변화를 뜻한다. '세대 교체'는 사람이나 인력이 새 세대로 바뀐다는 뜻이어서 의미가 달라졌다. '세대에 걸친 변화' 정도가 알맞다.\",\"severity\":\"major\"},{\"src_span\":\"would target\",\"tgt_span\":\"삼을 것이다\",\"description\":\"'would'는 계획의 가정적·조건적 성격을 나타내는데, 번역문은 단정적 미래형 '~할 것이다'로 옮겼다. '목표로 삼는다'는 표현도 'target'의 뜻인 '겨냥하다·대상으로 하다'보다 어색하다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 742,
+    "output_tokens": 438,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

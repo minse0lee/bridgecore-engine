@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6u613ps9wpB9PBzFwY",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"I'll take it\",\"tgt_span\":\"나는 그것을 걸릴 것이다\",\"description\":\"\\\"take it\\\"(그거라도 받아들이겠다/만족하겠다)을 \\\"걸릴 것이다\\\"로 오역함. '걸리다'는 시간이 소요되거나 걸려 넘어진다는 뜻이라 문맥에 맞지 않고 문법적으로도 어색해 원문의 의도가 전달되지 않음.\",\"severity\":\"major\"},{\"src_span\":\"2 questions\",\"tgt_span\":\"2 질문이었다\",\"description\":\"수량 표현이 부자연스러움. \\\"2개의 질문\\\" 또는 \\\"질문 두 개\\\"처럼 단위를 넣어야 자연스러움.\",\"severity\":\"minor\"},{\"src_span\":\"This one was only 2 questions, but\",\"tgt_span\":\"이것은 단지 2 질문이었다, 그러나\",\"description\":\"직역투의 문어체 종결 \\\"~이었다\\\"와 쉼표+\\\"그러나\\\" 연결이 소셜미디어 게시물의 구어적이고 가벼운 어조와 맞지 않음. \\\"이번에는 질문이 두 개뿐이었지만\\\" 등으로 자연스럽게 옮겨야 함.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 429,
+    "output_tokens": 448,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

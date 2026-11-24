@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6ZL6a48QUgkTN8UqKC",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"even though Fan's nationality is American and China is not her homeland\",\"tgt_span\":\"팬의 국적이 미국이고 중국이 그녀의 고향이 아니더라도\",\"description\":\"'even though'는 사실을 전제로 한 양보(~임에도 불구하고)인데, '~아니더라도'는 가정적 양보로 옮겨 뜻이 달라졌다. 팬의 국적이 미국이라는 사실이 이미 확정돼 있다는 점이 약해졌다. 또 문장 순서상 양보절이 '비난했다'를 수식하는 것처럼 읽혀 논리 관계가 어색하다.\",\"severity\":\"minor\"},{\"src_span\":\"The trolls\",\"tgt_span\":\"트롤들은\",\"description\":\"인터넷 맥락의 'trolls'(악플러, 어그로꾼)를 '트롤'로 음차했다. 일반 독자에게는 신화 속 괴물로 읽힐 수 있다.\",\"severity\":\"minor\"},{\"src_span\":\"homeland\",\"tgt_span\":\"고향\",\"description\":\"'homeland'는 조국, 모국을 뜻하는데 '고향'으로 옮겨 국가 개념이 지역적 출신지 개념으로 바뀌었다.\",\"severity\":\"major\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 542,
+    "output_tokens": 446,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

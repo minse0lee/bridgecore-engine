@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6mdnXBUCAYsHxujHbF",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"Class B misdemeanour\",\"tgt_span\":\"클래스 B 미성년자\",\"description\":\"'misdemeanour'(경범죄)를 '미성년자'로 오역했다. 혐의의 내용이 완전히 바뀌었다. 'Class B'도 '클래스 B'로 직역해 법률 용어(B급 경범죄)로 어색하다.\",\"severity\":\"critical\"},{\"src_span\":\"punishable by a day in jail and a $2,000 fine\",\"tgt_span\":\"감옥에서 하루와 $ 2,000의 벌금에 의해 처벌 혐의를 받고있다\",\"description\":\"'punishable by'를 '~에 의해 처벌 혐의를 받고있다'로 옮겨 구조가 깨졌다. '하루 구금 및 2,000달러 벌금에 처할 수 있는'이라는 형량 의미가 사라졌고 '혐의' 표현이 중복된다. 또한 앞 명사구와의 연결이 끊겨 비문이다.\",\"severity\":\"major\"},{\"src_span\":\"$2,000\",\"tgt_span\":\"$ 2,000\",\"description\":\"통화 표기에서 기호와 숫자 사이에 불필요한 공백이 있고 '2,000달러' 같은 한국어 관용 표기와 맞지 않는다.\",\"severity\":\"minor\"},{\"src_span\":\"a day in jail\",\"tgt_span\":\"감옥에서 하루\",\"description\":\"'징역/구금 하루'라는 형량 표현이 '감옥에서 하루'로 어색하게 옮겨졌다.\",\"severity\":\"minor\"},{\"src_span\":\"has also been charged\",\"tgt_span\":\"받고있다\",\"description\":\"'받고있다'에서 띄어쓰기 오류가 있다('받고 있다').\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 512,
+    "output_tokens": 619,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6eH1uxxh6sGHsTP9qH",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"still at hurricane strength Sunday morning\",\"tgt_span\":\"아직도 허리케인 강도로\",\"description\":\"시간 표현 'Sunday morning'(일요일 아침)이 번역에서 누락되어 시점 정보가 사라졌다.\",\"severity\":\"major\"},{\"src_span\":\"maximum winds of 85 miles per hour\",\"tgt_span\":\"시속 85마일의 최대 바람을 동반하고 있으며\",\"description\":\"'최대 바람'은 부자연스러운 표현이다. '최대 풍속' 또는 '최대 지속 풍속'이 자연스럽다.\",\"severity\":\"minor\"},{\"src_span\":\"is 385 miles south of Punta Eugenia, Mexico and moving north\",\"tgt_span\":\"떨어져 있으며 시속 12마일로\",\"description\":\"'-(으)며'가 연달아 쓰여 문장이 늘어지고 어색하다. 문장을 나누거나 연결어미를 바꾸는 편이 낫다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 686,
+    "output_tokens": 359,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

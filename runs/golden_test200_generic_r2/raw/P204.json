@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6rDzS7pHeHR5c419K1",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"The bank's plan\",\"tgt_span\":\"세계은행의 계획은\",\"description\":\"원문의 'The bank'는 앞 문맥에서 이미 언급된 은행이며, 세계은행이라고 확정할 근거가 평가 대상 문장에는 없다. 번역문은 '세계은행'이라고 특정해 정보를 추가했다.\",\"severity\":\"minor\"},{\"src_span\":\"generational shifts\",\"tgt_span\":\"세대 교체\",\"description\":\"'generational shifts'는 한 세대에 걸쳐 일어나는 변화를 뜻하는데, '세대 교체'는 구성원이 바뀐다는 의미로 읽혀 뜻이 달라진다. '세대에 걸친 변화'가 더 적절하다.\",\"severity\":\"major\"},{\"src_span\":\"would target\",\"tgt_span\":\"목표로 삼을 것이다\",\"description\":\"'would target'은 계획이 어떤 대상을 겨냥한다는 서술인데, 번역문은 단정적인 미래형으로 옮겨 가정·조건의 뉘앙스를 약화했다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 742,
+    "output_tokens": 394,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

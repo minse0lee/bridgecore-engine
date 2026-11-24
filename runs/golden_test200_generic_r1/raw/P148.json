@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6XrR9daovEVgwrG4tv",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"hazing\",\"tgt_span\":\"괴롭힘\",\"description\":\"'hazing'(신입 신고식·입단식 등 통과의례식 가혹행위)을 일반적인 '괴롭힘'(bullying)으로 번역하여 용어가 부정확하고 범위가 달라졌다.\",\"severity\":\"major\"},{\"src_span\":\"a student or students\",\"tgt_span\":\"학생이나 학생의 건강이나 안전을\",\"description\":\"'학생이나 학생'으로 단수/복수 구분이 무의미하게 반복되어 의미가 불분명하다. 원문은 '한 명 또는 여러 명의 학생'이다.\",\"severity\":\"minor\"},{\"src_span\":\"inflicting bodily harm on a student or students\",\"tgt_span\":\"학생이나 학생에게 신체적 상해를 입히는 것\",\"description\":\"'학생이나 학생에게'로 반복되어 어색하고 의미가 불명확하다. '한 명 또는 여러 명의 학생'이라는 뜻이 제대로 전달되지 않는다.\",\"severity\":\"minor\"},{\"src_span\":\"recklessly or intentionally endangering the health or safety of a student or students or inflicting bodily harm\",\"tgt_span\":\"무모하거나 의도적으로 학생이나 학생의 건강이나 안전을 위험에 빠뜨리거나\",\"description\":\"'recklessly'(무모하게/무분별하게)를 형용사형 '무모하거나'로 옮겨 부사 의미가 어색해졌고, 두 개의 '또는' 구조가 모호해 정의 범위(위험에 빠뜨림 vs 상해 입힘)가 불명확하다.\",\"severity\":\"minor\"},{\"src_span\":\"Students shall not engage in hazing.\",\"tgt_span\":\"안된다. \\\"괴롭힘\\\"은 무모하거나 ... 정의됩니다.\",\"description\":\"문체가 일관되지 않다(첫 문장은 '~안된다', 둘째 문장은 '~됩니다'). 또한 '안된다'는 띄어쓰기상 '안 된다'가 맞다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 701,
+    "output_tokens": 734,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

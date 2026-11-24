@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6skrbEeKXsnVwi2NEA",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"isolated amounts up to 6 inches\",\"tgt_span\":\"6 인치까지 격리 된 금액이 있습니다\",\"description\":\"'isolated'(국지적인, 일부 지역의)를 '격리 된'으로, 'amounts'(강수량)를 '금액'으로 직역해 의미가 완전히 틀어졌다. '일부 지역에서는 최대 6인치'라는 뜻이 전달되지 않는다.\",\"severity\":\"major\"},{\"src_span\":\"predict 2 to 4 inches of rainfall\",\"tgt_span\":\"예측하고 있으며\",\"description\":\"'예측하고 있으며'는 'predict'를 진행형으로 옮겨 뉘앙스가 다소 어색하다. 보도문에서는 '예측한다'가 자연스럽다.\",\"severity\":\"minor\"},{\"src_span\":\"Mogollon Rim\",\"tgt_span\":\"모골론 림 (Mogollon Rim)\",\"description\":\"원어를 괄호로 병기한 것은 본문 표기로 부적절하다. 괄호 앞의 띄어쓰기도 어색하다. 'Mogollon'의 표기는 '모골론'보다 '모골런'이 일반적이다.\",\"severity\":\"minor\"},{\"src_span\":\"2 to 4 inches\",\"tgt_span\":\"2 ~ 4 인치\",\"description\":\"숫자와 단위 사이를 띄우고 물결표를 쓴 표기가 어색하다. 'ㅡ' 대신 '2~4인치'로 붙여 쓰는 것이 자연스럽다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 624,
+    "output_tokens": 553,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

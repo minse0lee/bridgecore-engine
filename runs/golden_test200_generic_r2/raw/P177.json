@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6pLLsFTjeoa9z3KytR",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"list comprehensions\",\"tgt_span\":\"리스트 이해\",\"description\":\"Python 용어 'list comprehension'의 표준 번역은 '리스트 컴프리헨션'(또는 '리스트 내포')인데 '리스트 이해'로 직역해 의미가 통하지 않고 학습자가 용어를 오해할 수 있음.\",\"severity\":\"major\"},{\"src_span\":\"the predicate must take a single value\",\"tgt_span\":\"predicate 는 단일 값을 가져야 합니다\",\"description\":\"'take'는 인자로 받는다는 뜻인데 '가져야 한다'로 번역해 의미가 왜곡됨. '단일 값을 인자로 받아야 합니다'가 되어야 함.\",\"severity\":\"major\"},{\"src_span\":\"is similarly duplicated by list comprehensions\",\"tgt_span\":\"이는 리스트 이해에 의해 비슷하게 복제됩니다\",\"description\":\"리스트 컴프리헨션으로도 같은 기능을 비슷하게 구현할 수 있다는 의미인데, '복제됩니다'라는 직역투로 어색하고 의미가 부정확함.\",\"severity\":\"minor\"},{\"src_span\":\"returns an iterator over all the sequence elements\",\"tgt_span\":\"반복자를 반환하며\",\"description\":\"'iterator'는 일반적으로 '이터레이터'로 옮기는데 '반복자'를 써서 용어가 일관되지 않을 수 있음(문서 공식 번역은 '이터레이터').\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 761,
+    "output_tokens": 534,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

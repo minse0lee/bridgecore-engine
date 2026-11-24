@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6e5SA81vzKv4PG7sin",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"It should in no way signal\",\"tgt_span\":\"의미하지 않는다\",\"description\":\"'in no way'(결코, 어떤 식으로도)의 강한 부정 강조가 번역에서 빠졌다. 또한 'should'가 지닌 당위성(~해서는 안 된다)이 단순 사실 서술로 바뀌어 규범적 뉘앙스가 약해졌다. 'signal'(시사하다, 신호를 주다)도 '의미하다'로 옮겨 정확성이 떨어진다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 779,
+    "output_tokens": 203,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6voYedo98nru3gfiay",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"by the end of the decade\",\"tgt_span\":\"2020년까지\",\"description\":\"'by the end of the decade'는 2030년 말까지를 뜻하는데(2040년 목표와 연결됨) '2020년까지'로 잘못 옮겼다. 연도 오역.\",\"severity\":\"major\"},{\"src_span\":\"a carve out for winemakers from the requirement that ... 10% of products must be supplied\",\"tgt_span\":\"규정에서 10%의 면제를 받았으며\",\"description\":\"와인 제조업체가 해당 규정(재사용 용기 10% 공급 의무) 전체에서 제외된 것인데, '10%의 면제'로 옮겨 면제 대상이 의무 자체가 아니라 10% 분량인 것처럼 의미가 왜곡되었다.\",\"severity\":\"major\"},{\"src_span\":\"rising to 40% in 2040\",\"tgt_span\":\"2040년에는 40%로 늘어나게 된다\",\"description\":\"40%로 상승하는 것은 재사용 용기 공급 의무 비율인데, 번역문에서는 면제 비율이 늘어나는 것처럼 읽힌다. 또한 'must be supplied ... within a system' 구조가 흐려졌다.\",\"severity\":\"major\"},{\"src_span\":\"yielded\",\"tgt_span\":\"면제를 받았으며\",\"description\":\"'정상회의 결과 예외 조항이 마련되었다'는 의미인데 와인 제조업체가 직접 면제를 받은 것처럼 옮겨 주체와 의미가 어긋난다. 'ministerial summit'을 '각료회의'로 옮긴 점도 다소 약하다.\",\"severity\":\"minor\"},{\"src_span\":\"within a system for reuse or refill\",\"tgt_span\":\"재사용 또는 재충전이 가능한 용기로\",\"description\":\"'재사용 또는 재충전 시스템 내에서'라는 제도적 맥락이 누락되고 용기의 특성으로만 옮겨졌다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 815,
+    "output_tokens": 690,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

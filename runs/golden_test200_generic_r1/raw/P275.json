@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6idhVReQMhHZLaKd2h",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"in part because harsh rhetoric and policies introduced by the Trump administration have made it harder to place children with sponsors\",\"tgt_span\":\"트럼프 행정부가 도입 한 가혹한 수사와 정책으로 인해 월간 국경 횡단이 상대적으로 변함없이 유지되고 있지만\",\"description\":\"원문에서 'because' 절은 구금 아동 수가 급증한 이유(아동을 후원자에게 인계하기 어려워졌기 때문)를 설명한다. 번역문은 이를 국경 횡단이 유지되는 이유로 잘못 연결해 인과관계를 왜곡했다.\",\"severity\":\"critical\"},{\"src_span\":\"in part because harsh rhetoric and policies introduced by the Trump administration have made it harder to place children with sponsors\",\"tgt_span\":\"트럼프 행정부가 도입 한 가혹한 수사와 정책으로 인해\",\"description\":\"'to place children with sponsors'(아동을 후원자에게 인계하기 어렵게 만들었다)는 내용이 통째로 누락됐다. 구금 증가의 직접 원인이 빠졌다.\",\"severity\":\"critical\"},{\"src_span\":\"in part because\",\"tgt_span\":\"인해\",\"description\":\"'부분적으로(in part)'라는 한정이 누락되어 원인이 단일 요인인 것처럼 읽힌다.\",\"severity\":\"major\"},{\"src_span\":\"even though monthly border crossings have remained relatively unchanged\",\"tgt_span\":\"월간 국경 횡단이 상대적으로 변함없이 유지되고 있지만\",\"description\":\"'변함없이 유지되고 있지만'은 'even though' 양보 관계를 어색하게 표현하고, 원문의 현재완료(그동안 유지돼 왔다)의 뉘앙스도 약하다. 또한 논리 구조가 뒤바뀌어 문장이 부자연스럽다.\",\"severity\":\"minor\"},{\"src_span\":\"detained migrant children\",\"tgt_span\":\"구금 된 이주 어린이\",\"description\":\"'구금 된'처럼 띄어쓰기가 잘못됐다('구금된'). '도입 한'도 같은 오류다.\",\"severity\":\"minor\"},{\"src_span\":\"harsh rhetoric\",\"tgt_span\":\"가혹한 수사\",\"description\":\"'수사'는 '수사(搜査)'와 혼동될 수 있는 동음이의어로, 'rhetoric'은 '발언'이나 '언사' 등으로 옮기는 편이 명확하다.\",\"severity\":\"minor\"},{\"src_span\":\"has spiked\",\"tgt_span\":\"급격히 증가했습니다\",\"description\":\"뉴스 기사 문체에 어울리지 않는 '-습니다' 체를 사용했다. 문체상의 부적절함이 있다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 644,
+    "output_tokens": 974,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

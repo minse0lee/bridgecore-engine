@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6x3RN8J5H15riGgsP9",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"had gathered for a festival on the beach in the city of Palu on Friday when waves\",\"tgt_span\":\"수백 명의 사람들이 금요일에 팔루(Palu) 도시의 해변에서 축제를 위해 모였다. 황혼에\",\"description\":\"'~했을 때'(when)로 이어지는 시간 관계가 두 문장으로 나뉘며 사라졌다. 축제를 위해 모여 있던 바로 그때 파도가 덮쳤다는 인과·시간 구조가 약해졌다.\",\"severity\":\"minor\"},{\"src_span\":\"as high as six meters\",\"tgt_span\":\"6미터(18피트) 높이의 파도가\",\"description\":\"'as high as'(최대 ~에 달하는)의 뜻이 빠져 단순히 6미터 높이로 표현되었다.\",\"severity\":\"minor\"},{\"src_span\":\"smashed onshore\",\"tgt_span\":\"해안에 부딪치면서\",\"description\":\"'smashed'의 강한 충격이 '부딪치면서'로 약화되었다. 또한 '~하면서'로 이어져 파도가 덮친 사건과 그 결과의 관계가 느슨해졌다.\",\"severity\":\"minor\"},{\"src_span\":\"sweeping many to their deaths\",\"tgt_span\":\"많은 사람들이 죽고\",\"description\":\"파도가 사람들을 휩쓸어 죽음에 이르게 했다는 'sweeping'의 행위가 빠지고 단순히 사람들이 죽었다고만 번역되었다.\",\"severity\":\"major\"},{\"src_span\":\"destroying anything in their path\",\"tgt_span\":\"그들의 길에 있는 모든 것이 파괴되었다\",\"description\":\"'their'는 파도를 가리키는데, '그들의 길'은 사람들의 길처럼 읽혀 지시 대상이 모호하다. 또한 피동형이 되어 파도가 파괴했다는 주체성이 약해졌고 어색한 직역투가 되었다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 701,
+    "output_tokens": 693,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

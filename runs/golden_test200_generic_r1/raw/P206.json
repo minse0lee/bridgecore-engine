@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6cB1wzhcr8rvmTHc6v",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"lull us into complicity\",\"tgt_span\":\"공범으로 우리를 졸리게 허용해서는 안된다\",\"description\":\"'lull us into complicity'는 정치인들이 우리를 안심시켜 방조하게 만든다는 뜻인데, '졸리게'라는 문자 그대로의 직역으로 의미가 왜곡되었다. '공범으로'도 어색하다. 또한 'allow ... to lull'의 구조가 깨져 문장이 비문이다.\",\"severity\":\"major\"},{\"src_span\":\"National Health Service\",\"tgt_span\":\"국가 건강 서비스\",\"description\":\"영국 고유 기관명 NHS는 '국민보건서비스'(국가보건서비스)로 옮기는 것이 정착된 번역인데, 직역하여 어색하고 기관명으로 인식하기 어렵다.\",\"severity\":\"minor\"},{\"src_span\":\"that great British institution\",\"tgt_span\":\"그 위대한 영국의 기관\",\"description\":\"'institution'은 '기관'보다 '제도'의 의미이며, 'that'을 '그'로 직역해 어색하다.\",\"severity\":\"minor\"},{\"src_span\":\"the demise\",\"tgt_span\":\"죽음\",\"description\":\"'demise'는 기관의 몰락·붕괴를 뜻하는데 '죽음'으로 옮겨 어색하며 뉘앙스가 맞지 않는다.\",\"severity\":\"minor\"},{\"src_span\":\"We must not allow\",\"tgt_span\":\"허용해서는 안된다\",\"description\":\"'안된다'는 띄어쓰기 오류로 '안 된다'가 맞다. 또한 어순상 동사가 문장 끝에 있어 'allow'의 구조가 부자연스럽다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 654,
+    "output_tokens": 607,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6nzdBB75JkD1ww3PTv",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"Pelosi\",\"tgt_span\":\"펠로시 상원의원은\",\"description\":\"낸시 펠로시는 연방 하원의원(하원 의장·원내대표)인데 '상원의원'으로 잘못 옮겼다. 원문에 없는 직함을 사실과 다르게 추가했다.\",\"severity\":\"major\"},{\"src_span\":\"Kavanaugh's testimony\",\"tgt_span\":\"카바노 변호사의 증언\",\"description\":\"브렛 캐버노는 연방대법관 후보(판사)인데 '변호사'라는 원문에 없는 잘못된 직함을 붙였다. 이름 표기 '카바노'도 통용 표기 '캐버노'와 다르다.\",\"severity\":\"major\"},{\"src_span\":\"if a woman had ever performed that way, they would say 'hysterical,'\",\"tgt_span\":\"나는 여성이 그렇게 행동했다면 '히스테리'라고 말할 것이라고 생각할 수밖에 없었다\",\"description\":\"'여성이 그렇게 행동했다면, (사람들이) 히스테릭하다고 말했을 것'이라는 반사실 조건과 주어 'they'가 불명확하다. '말할 것이라고'는 시제와 주체가 어색해 의미가 흐려졌다. 또한 'hysterical'은 '히스테리'가 아니라 '히스테릭하다'로 옮겨야 한다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 695,
+    "output_tokens": 503,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

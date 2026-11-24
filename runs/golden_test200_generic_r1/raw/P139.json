@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6XAvMyrMAysTJZMhsT",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"Class B misdemeanour\",\"tgt_span\":\"클래스 B 미성년자\",\"description\":\"'misdemeanour'(경범죄)를 '미성년자'로 오역함. 혐의의 내용이 완전히 달라져 의미가 왜곡됨. 또한 'Class B'는 'B급'으로 옮기는 것이 자연스러움.\",\"severity\":\"critical\"},{\"src_span\":\"punishable by a day in jail and a $2,000 fine\",\"tgt_span\":\"감옥에서 하루와 $ 2,000의 벌금에 의해 처벌 혐의를 받고있다\",\"description\":\"'~로 처벌될 수 있는'이라는 형량 서술이 '벌금에 의해 처벌 혐의를 받고있다'로 왜곡되어 논리와 문법이 어긋남. 처벌 가능한 형량(하루 구금과 2,000달러 벌금)의 관계가 불명확함.\",\"severity\":\"major\"},{\"src_span\":\"He has also been charged with a Class B misdemeanour, punishable by\",\"tgt_span\":\"그는 또한 클래스 B 미성년자, 감옥에서 하루와 $ 2,000의 벌금에 의해 처벌 혐의를 받고있다.\",\"description\":\"'기소되었다(charged with)'가 '처벌 혐의를 받고 있다'로 바뀌고, 수식 구조가 깨져 문장 구조가 비문에 가까움.\",\"severity\":\"major\"},{\"src_span\":\"$2,000\",\"tgt_span\":\"$ 2,000\",\"description\":\"금액 표기에서 기호와 숫자 사이에 공백이 들어가 어색함. '2,000달러'가 자연스러움.\",\"severity\":\"minor\"},{\"src_span\":\"has also been charged\",\"tgt_span\":\"받고있다\",\"description\":\"띄어쓰기 오류('받고 있다').\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 512,
+    "output_tokens": 651,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

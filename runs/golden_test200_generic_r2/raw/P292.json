@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6we9dzRvftLWCm6ppN",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"referrals\",\"tgt_span\":\"추천\",\"description\":\"'referrals'는 다른 기관이나 전문가에게 연결해 주는 '의뢰·연계'를 뜻합니다. '추천'은 의미가 달라 서비스 내용을 오해하게 만듭니다.\",\"severity\":\"major\"},{\"src_span\":\"advocacy\",\"tgt_span\":\"옹호\",\"description\":\"피해자 지원 맥락에서 'advocacy'는 절차를 돕고 대변하는 '권익 옹호·지원 활동'입니다. '옹호'만 쓰면 의미가 불명확하고 부자연스럽습니다.\",\"severity\":\"minor\"},{\"src_span\":\"crisis and ongoing counseling\",\"tgt_span\":\"위기 및 지속적인 상담\",\"description\":\"'위기 상담'과 '지속적 상담'이 병렬로 읽히도록 번역해야 하는데 '위기 및 지속적인 상담'은 어색하고 모호합니다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 972,
+    "output_tokens": 356,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6mGWMUbdoZFaS24QEZ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"Therefore, if we cannot jump over it, we must stop where we are.”\",\"tgt_span\":\"그러므로, 우리가 뛰어 넘을 수 없다면, 우리가 있는 곳에서 멈춰야 합니다.\",\"description\":\"동료 사이의 편한 말투가 요구되는데 격식체 \\\"-ㅂ니다\\\"를 써서 상황에 맞지 않는다. 또한 \\\"그러므로\\\"와 \\\"우리가\\\" 반복 등 문어적이어서 어색하다.\",\"severity\":\"minor\"},{\"src_span\":\"jump over it\",\"tgt_span\":\"뛰어 넘을 수 없다면\",\"description\":\"\\\"뛰어넘다\\\"는 한 단어로 붙여 써야 하므로 띄어쓰기가 틀렸다. 또한 대상 \\\"it\\\"(도랑)이 번역에서 빠져 있다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 619,
+    "output_tokens": 324,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

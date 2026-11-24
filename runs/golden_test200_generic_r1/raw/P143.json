@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6XUfhjnetEU2h8Fdnq",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"Fan lost more than 200,000 fans\",\"tgt_span\":\"팬은 퍼레이드 전 5일 동안\",\"description\":\"'Fan'은 인물(Christine Fan, 판빙빙 등)의 성인데 일반명사 '팬'으로 옮겨 '팬이 팬을 잃었다'는 식의 혼동을 일으킴. 인명으로 번역해야 함.\",\"severity\":\"major\"},{\"src_span\":\"within 5 days\",\"tgt_span\":\"퍼레이드 전 5일 동안\",\"description\":\"'5일 이내(퍼레이드 후 5일간)'를 '퍼레이드 전 5일 동안'으로 잘못 옮겨 시간 관계가 왜곡됨.\",\"severity\":\"major\"},{\"src_span\":\"from 47.93 millions before the parade to 47.73 millions on September 8\",\"tgt_span\":\"9월 8일에는 47.93만 명으로 줄어들었다\",\"description\":\"단위 오류(47.93 million = 4,793만 명인데 47.93만 명으로 표기), 수치 오류(47.73 million으로 줄어든 것인데 47.93으로 표기), 퍼레이드 전 수치와 9월 8일 수치의 from-to 구조 누락.\",\"severity\":\"critical\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 1856,
+    "output_tokens": 447,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

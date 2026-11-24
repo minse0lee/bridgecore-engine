@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6pz7VEXvz9XB2u2LVV",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"Assange\",\"tgt_span\":\"어쌔신 크리스토퍼\",\"description\":\"인물명 Assange(어산지)를 '어쌔신 크리스토퍼'라는 엉뚱한 이름으로 오역함. 실존 인물을 잘못 지칭하여 사실이 왜곡됨.\",\"severity\":\"critical\"},{\"src_span\":\"ambivalent\",\"tgt_span\":\"애매모호하다\",\"description\":\"ambivalent는 상반된 감정·태도를 동시에 가진다는 뜻인데, '애매모호하다'는 불분명하다는 의미라 뉘앙스가 다름. '양가감정을 느낀다/복잡한 심정이다' 등이 적절함.\",\"severity\":\"major\"},{\"src_span\":\"any proceedings are brought against Assange or not\",\"tgt_span\":\"소송 여부와 상관없이\",\"description\":\"'any proceedings'는 소송뿐 아니라 법적 절차 전반을 뜻하며, 'brought against'의 '제기되다' 의미가 약하게 번역됨. 다소 단순화됨.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 521,
+    "output_tokens": 390,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

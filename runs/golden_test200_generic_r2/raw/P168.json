@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6oarDguMZVuWnwSdr1",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"sufficient cause for suspensions\",\"tgt_span\":\"충분한 이유는\",\"description\":\"'정학(출석정지)을 위한'이라는 수식어가 누락되어 무엇에 대한 충분한 사유인지 불분명함. 징계 대상 조건이 모호해짐.\",\"severity\":\"major\"},{\"src_span\":\"truancy\",\"tgt_span\":\"부재의 경우\",\"description\":\"'truancy'는 무단결석을 뜻하나 '부재'로 옮겨 정당한 결석과 구분되지 않으며 의미가 왜곡됨.\",\"severity\":\"major\"},{\"src_span\":\"cannot include only instances of truancy\",\"tgt_span\":\"단지 부재의 경우를 포함 할 수 없습니다\",\"description\":\"'only'의 범위가 모호하고 '무단결석만으로는 정학 사유가 될 수 없다'는 의미가 제대로 전달되지 않음. 어색한 직역이며 '포함 할' 띄어쓰기 오류도 있음.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 485,
+    "output_tokens": 365,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

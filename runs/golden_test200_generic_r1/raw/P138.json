@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6X6RVTcCRG8nVMkTy3",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"And by a group of 300 women in Colombia\",\"tgt_span\":\"또한 콜롬비아의 300여 명의 여성들이 용기를 내어\",\"description\":\"원문은 프로젝트가 '콜롬비아 여성들 집단에게서도 영감을 받았다'는 앞 문장의 'inspired by'에 이어지는 구조인데, 번역문은 여성들을 행위의 주어로 만들어 영감의 원천이라는 연결이 끊김. 또한 'a group of 300 women'을 '300여 명'으로 옮겨 '여'라는 근사 표현을 덧붙임.\",\"severity\":\"major\"},{\"src_span\":\"a moving 4 hour performance piece\",\"tgt_span\":\"4시간 동안 퍼포먼스를 선보였습니다\",\"description\":\"'moving'(감동적인)의 의미가 번역에서 누락됨.\",\"severity\":\"minor\"},{\"src_span\":\"to protest their missing and murdered loved ones\",\"tgt_span\":\"실종되거나 살해당한 사랑하는 이들에 대한 항의의 표시로\",\"description\":\"'사랑하는 이들에 대한 항의'는 항의 대상이 사랑하는 이들인 것처럼 읽혀 의미가 왜곡됨. 실종·살해에 항의한다는 뜻이 불분명함.\",\"severity\":\"major\"},{\"src_span\":\"main square\",\"tgt_span\":\"주요 광장\",\"description\":\"'main square'는 '중앙 광장'으로 옮기는 것이 자연스러움.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 1515,
+    "output_tokens": 540,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

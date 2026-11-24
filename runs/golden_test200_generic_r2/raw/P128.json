@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6kvQsDyFC89Sbi7n51",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"loud boos from the audience\",\"tgt_span\":\"큰 박수를 받은\",\"description\":\"'boos'(야유)를 '박수'로 번역하여 의미가 정반대로 왜곡됨. 또한 야유를 받은 대상이 파인스타인 이름을 언급한 행위인데 파인스타인이 박수를 받은 것처럼 잘못 연결됨.\",\"severity\":\"critical\"},{\"src_span\":\"Senate Judiciary Committee ranking Democratic Sen. Dianne Feinstein by name\",\"tgt_span\":\"민주당 상원의원 다이앤 파인스타인의 이름으로 상원 사법위원회 순위를 언급했다\",\"description\":\"'ranking'은 '간사/최고참 소속 위원'이라는 직함인데 '순위'로 오역하고, 'by name'을 '이름으로'로 옮겨 '이름을 직접 거명했다'는 의미가 사라지고 구조가 왜곡됨.\",\"severity\":\"major\"},{\"src_span\":\"which received loud boos\",\"tgt_span\":\"큰 박수를 받은 민주당 상원의원\",\"description\":\"원문에서 관계절 'which'는 앞 행위(이름 언급)를 받는데, 번역문은 이를 파인스타인을 수식하는 관형절로 바꿔 문장 구조와 지시 대상이 잘못됨.\",\"severity\":\"major\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 546,
+    "output_tokens": 487,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

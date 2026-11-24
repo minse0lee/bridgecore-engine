@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6twf1Ws8rzhPjx2MaA",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"to approach 2 to 3 inches per hour in spots\",\"tgt_span\":\"시간당 2~3인치의 강수량을 초래할 것이다\",\"description\":\"'approach'(~에 육박하다/근접하다)가 번역되지 않았고, 'in spots'(곳에 따라)도 빠졌다. 그 결과 '일부 지역에서 2~3인치가 내린다'는 단정적 의미로 바뀌어 강수 강도 정보가 달라졌다.\",\"severity\":\"major\"},{\"src_span\":\"rainfall rates\",\"tgt_span\":\"강수량\",\"description\":\"'rainfall rates'는 시간당 강수 강도(rate)를 뜻하는데 '강수량'(총량)으로 옮겨 개념이 부정확하다. '시간당 강수량'이나 '강우 강도' 등이 더 적절하다.\",\"severity\":\"minor\"},{\"src_span\":\"Deep tropical moisture will cause\",\"tgt_span\":\"깊은 열대 습기는\",\"description\":\"'Deep tropical moisture'는 기상 용어로 '짙은/깊은 열대 수증기' 등으로 옮겨야 자연스럽다. '깊은 열대 습기는 ~을 초래할 것이다'는 직역투여서 어색하다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 551,
+    "output_tokens": 454,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

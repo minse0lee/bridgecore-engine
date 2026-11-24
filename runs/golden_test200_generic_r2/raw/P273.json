@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6vEqQMFZCYxEsMKQyw",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"North Korea says nuclear disarmament won't come unless it can trust US\",\"tgt_span\":\"북한이 핵무기를 폐기하지 않으면 미국을 신뢰할 수 없다\",\"description\":\"조건 관계가 뒤바뀌었다. 원문은 북한이 미국을 신뢰할 수 있어야 비핵화가 이뤄진다는 뜻인데, 번역문은 북한이 핵을 폐기하지 않으면 (우리가) 미국을 신뢰할 수 없다는 뜻이 되어 인과·조건이 정반대다. 또한 신뢰의 주체가 북한이라는 점이 불분명하다.\",\"severity\":\"critical\"},{\"src_span\":\"North Korea says\",\"tgt_span\":\"북한이 핵무기를 폐기하지 않으면 미국을 신뢰할 수 없다\",\"description\":\"'북한이 주장한다/밝혔다'는 발화 표지가 빠졌다. 북한 측 주장이라는 출처 귀속이 사라져 번역문이 사실 진술처럼 읽힌다.\",\"severity\":\"major\"},{\"src_span\":\"nuclear disarmament\",\"tgt_span\":\"핵무기를 폐기하지 않으면\",\"description\":\"'비핵화(핵 군축)'라는 외교적 개념을 '핵무기 폐기'로 옮겼다. 또한 북한이 핵을 폐기하지 않는 상황의 부정 조건으로 바꿔 의미가 왜곡됐다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 435,
+    "output_tokens": 536,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

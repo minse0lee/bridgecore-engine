@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6cvoTu1JJ6qJ7WjvEx",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"The JSNDI employee\",\"tgt_span\":\"직원은\",\"description\":\"기관명 JSNDI가 누락되어 어느 회사 직원인지 정보가 빠졌다.\",\"severity\":\"minor\"},{\"src_span\":\"a third of his face peering in\",\"tgt_span\":\"얼굴의 3분의 1을 들여다보며\",\"description\":\"얼굴의 3분의 1만 안을 들여다보는 상황을 '얼굴의 3분의 1을 들여다보며'로 옮겨, 얼굴이 들여다보는 대상인 것처럼 의미가 어색하게 왜곡되었다.\",\"severity\":\"major\"},{\"src_span\":\"put his face at the edge of the manhole\",\"tgt_span\":\"맨홀 끝에 얼굴을 붙이고\",\"description\":\"'붙이고'는 얼굴을 맨홀 가장자리에 접촉시킨다는 뜻이 되어 원문의 '가까이 가져가다'와 뉘앙스가 다르다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 762,
+    "output_tokens": 360,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

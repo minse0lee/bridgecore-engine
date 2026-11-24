@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6msH8kp55xfK2HcNgZ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"Fan lost\",\"tgt_span\":\"팬은\",\"description\":\"인명 'Fan'(판빙빙이 아닌 Christine Fan, 판 씨)을 일반명사 '팬'으로 옮겨 fans와 혼동을 일으킨다. 고유명사로 처리하지 않았다.\",\"severity\":\"major\"},{\"src_span\":\"within 5 days, from 47.93 millions before the parade\",\"tgt_span\":\"퍼레이드 전 5일 동안\",\"description\":\"'퍼레이드 전 5일 동안'이라고 하여 기간의 의미가 바뀌었다. 원문은 5일 사이에 퍼레이드 전 4793만에서 줄었다는 뜻이다.\",\"severity\":\"major\"},{\"src_span\":\"from 47.93 millions before the parade to 47.73 millions on September 8\",\"tgt_span\":\"9월 8일에는 47.93만 명으로 줄어들었다.\",\"description\":\"수치 오류. 47.93 million은 4,793만 명이고 47.73 million은 4,773만 명인데, 47.93만 명으로 옮겼다. 또한 감소 후 수치(47.73)가 아니라 이전 수치(47.93)를 적어 오류가 되었다.\",\"severity\":\"critical\"},{\"src_span\":\"200,000 fans\",\"tgt_span\":\"200,000명\",\"description\":\"한국어 관례상 '20만 명'으로 표기하는 것이 자연스러워 수 표기가 어색하다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 1856,
+    "output_tokens": 520,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

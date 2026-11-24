@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6b9QBvy3szohBgw5KC",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"reverse mortgage\",\"tgt_span\":\"역방향 모기지\",\"description\":\"금융 용어 'reverse mortgage'의 통용 번역은 '주택연금' 또는 '역모기지'인데, '역방향 모기지'는 직역으로 부자연스럽고 학습자가 개념을 파악하기 어렵다.\",\"severity\":\"minor\"},{\"src_span\":\"keep in mind that:\",\"tgt_span\":\"명심하십시오:\",\"description\":\"'keep in mind that:'은 뒤에 이어질 내용을 소개하는 표현인데, 번역문은 'that'의 의미를 살리지 못하고 '명심하십시오'로 끝나 있어 목록이 이어지는 흐름이 어색하다. '다음 사항을 유념하세요:' 같은 표현이 더 자연스럽다.\",\"severity\":\"minor\"},{\"src_span\":\"If you are considering\",\"tgt_span\":\"당신이\",\"description\":\"한국어 교육 자료에서는 '당신'을 주어로 반복해 쓰면 어색하고 부자연스럽다. 생략하거나 '여러분' 등으로 옮기는 것이 낫다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 445,
+    "output_tokens": 415,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

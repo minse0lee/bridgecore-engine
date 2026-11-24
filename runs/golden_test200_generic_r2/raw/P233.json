@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6t4iddxEUxeWb5fxBm",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"in about two to three years' time\",\"tgt_span\":\"약 2 ~ 3 년 동안\",\"description\":\"'two to three years' time'은 '2~3년 후/뒤'를 뜻하는데 '동안'으로 옮겨 시점이 기간으로 바뀌었다.\",\"severity\":\"major\"},{\"src_span\":\"he is hoping to make enough money\",\"tgt_span\":\"충분한 돈을 벌고 싶어 - 정확히 말하자면 350만 달러 - 그의 연구를 계속하고\",\"description\":\"문장이 종결어미 없이 끊긴 어미('벌고 싶어', '준비')로 끝나 비문이고, 'US $3.5 million'의 'US'(미화)가 빠졌다.\",\"severity\":\"major\"},{\"src_span\":\"ready the drug for the retail market\",\"tgt_span\":\"소매 시장을위한 약물을 준비.\",\"description\":\"띄어쓰기 오류('시장을위한')와 문장 종결 불완전. 연결 구조도 어색하다.\",\"severity\":\"minor\"},{\"src_span\":\"Rather,\",\"tgt_span\":\"오히려,\",\"description\":\"앞 문맥과의 대조 관계는 살렸으나 직역투라 어색하다. '그보다는' 등이 자연스럽다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 681,
+    "output_tokens": 452,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

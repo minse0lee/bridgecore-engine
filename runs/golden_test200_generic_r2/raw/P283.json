@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChM6vzs3TnG2n6Hh7bU5H",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"errors\":[{\"src_span\":\"has also uploaded\",\"tgt_span\":\"사진을 올렸고\",\"description\":\"원문의 'also'(또한)가 번역에서 누락되어, 앞선 내용에 덧붙인 추가 행위라는 뉘앙스가 사라졌다.\",\"severity\":\"minor\"},{\"src_span\":\"a fund exploitable\",\"tgt_span\":\"\\\"기금 착취용\\\"\",\"description\":\"'a fund exploitable'은 'fund-raising/ fundable' 같은 표현을 비튼 말장난(풍자)으로 보이는데, '기금 착취용'으로 옮겨 원래의 어색한 영어 표현이 지닌 풍자·유희 효과가 충분히 전달되지 않는다. 또한 'exploitable'은 '이용 가능한/착취할 수 있는'의 의미로, 번역이 의미를 과도하게 확정했다.\",\"severity\":\"minor\"},{\"src_span\":\"The Indolent Indio\",\"tgt_span\":\"인돌렌트 인디오(Indolent Indio) 는\",\"description\":\"괄호 뒤에 불필요한 공백이 들어가 표기가 어색하다.\",\"severity\":\"minor\"}]}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 618,
+    "inference_geo": "global",
+    "input_tokens": 568,
+    "output_tokens": 409,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
