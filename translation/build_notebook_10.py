@@ -28,6 +28,8 @@ md("""# 위대한 개츠비 책 전체 번역 — Gemma 4 31B (학습 없음, A1
 **실행**: ① 설치 셀 → '런타임 → 세션 다시 시작' → 1번 셀부터 끝까지.
 결과는 구글 드라이브 `MyDrive/bridgecore_gatsby/`에 계속 저장됨. 세션이 끊기면 1번부터 다시 실행(파일은 다시 안 올려도 됨) → 남은 문단만 이어서 번역.
 
+드라이브를 못 쓰는 계정이면 자동으로 세션 안(`/content/bridgecore_gatsby/`)에 저장함. 이 경우 세션이 끊기면 결과가 사라지므로, 왼쪽 파일 탭에서 `out/gemma_full_bf16_ctx5.jsonl`을 중간에 한두 번 내려받아 둘 것. 끊긴 뒤에는 그 파일을 `gemma_ch1_3_bf16_ctx5.jsonl` 대신 올리면 이어서 번역함.
+
 **결과 파일**: `gemma_full_bf16_ctx5.jsonl`, `run_info_full_ctx5.json` (끝나면 자동 다운로드)
 """),
 code(install),
@@ -44,8 +46,13 @@ MODEL_ID = 'google/gemma-4-31B-it'
 BS = 4
 THINK_BUDGET = 4096
 
-drive.mount('/content/drive')
-BASE = Path('/content/drive/MyDrive/bridgecore_gatsby'); OUT_DIR = BASE / 'out'; OUT_DIR.mkdir(parents=True, exist_ok=True)
+try:
+    drive.mount('/content/drive')
+    BASE = Path('/content/drive/MyDrive/bridgecore_gatsby')
+except Exception as e:      # 드라이브를 못 쓰는 계정(공용 계정 등) → 세션 안에만 저장
+    BASE = Path('/content/bridgecore_gatsby')
+    print('드라이브 연결 안 됨 → 세션 안에 저장합니다. 세션이 끊기면 결과가 사라지니 4번 셀의 중간 저장 파일을 가끔 내려받으세요:', e)
+OUT_DIR = BASE / 'out'; OUT_DIR.mkdir(parents=True, exist_ok=True)
 OUT = OUT_DIR / 'gemma_full_bf16_ctx5.jsonl'
 need = [n for n in ('gemma_translate.py', 'sentences.jsonl') if not (BASE / n).exists()]
 if need or not OUT.exists():
@@ -71,7 +78,7 @@ if PREV.exists() and not OUT.exists():
     rows_prev = [json.loads(l) for l in open(PREV, encoding='utf-8') if l.strip()]
     assert all(r['mt_meta'].get('config') == 'ctx5' and r['mt_meta'].get('prompt_hash') == gt.PROMPT_HASH for r in rows_prev), \\
         '올린 1·3장 파일이 ctx5 결과가 아닙니다'
-    shutil.copy(PREV, OUT); print('1·3장 기존 결과', len(rows_prev), '문장을 이어 씀')
+    shutil.copy(PREV, OUT); print('기존 결과', len(rows_prev), '문장을 이어 씀')
 print('프롬프트', gt.PROMPT_HASH, '· 이미 번역된 문장', sum(1 for _ in open(OUT, encoding='utf-8')) if OUT.exists() else 0)
 """),
 md("## 2. 모델 불러오기 (약 5분)"),
