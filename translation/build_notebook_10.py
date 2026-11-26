@@ -16,35 +16,47 @@ funcs = funcs.split("# 시험 1문단")[0]
 load = load.replace("allb, idx = gt.blocks(rows, CHAPTERS)", "allb, idx = gt.blocks(rows, None)   # 책 전체")
 
 cells = [
-md("""# 위대한 개츠비 책 전체 번역 — Gemma 4 31B (학습 없음, A100 80GB)
+md("""# 위대한 개츠비 책 전체 번역 — Gemma 4 31B (학습 없음)
 
-설정은 11/17 `ctx5` 실험과 같음: 앞 문단 5개 문맥 · 생각 모드 끔 · greedy · bf16 원본 · 같은 지침.
-책 전체 2,954문장(끝의 표제·목차 중복 5줄 제외), 예상 2.5~3시간(1·3장 638문장에 34.6분 걸렸음. 1·3장 결과를 올리면 그만큼 줄어듦).
+설정은 11/17 `ctx5` 실험과 같음: 앞 문단 5개 문맥 · 생각 모드 끔 · greedy · 같은 지침.
+
+**GPU에 따라 자동으로 갈림**
+- 80GB급(A100 80GB, H100): 원본(bf16)으로 불러옴. 11/17 1·3장 결과를 이어 쓸 수 있음
+- 40GB급(A100 40GB)·24GB급(L4): **4비트로 압축**해 불러옴. 원본과 조건이 달라 1·3장도 다시 번역함(올린 1·3장 파일은 쓰지 않음). 결과 파일 이름은 `gemma_full_4bit_ctx5.jsonl`. L4는 한 문단씩 처리해서 많이 느림
+- T4(16GB)는 안 됨
+
+책 전체 2,954문장(끝의 표제·목차 중복 5줄 제외). 원본(bf16)은 예상 2.5~3시간(1·3장 638문장에 34.6분 걸렸음. 1·3장 결과를 올리면 그만큼 줄어듦). 4비트는 이 책으로 돌려 본 적이 없어 시간·품질 모두 미확인 — 원본보다 느림.
 
 **올릴 파일** (1번 셀 실행 시 파일 선택 창)
 - 필수: `gemma_translate.py`, `sentences.jsonl`
-- 권장: `gemma_ch1_3_bf16_ctx5.jsonl` (11/17 1·3장 결과) → 올리면 1·3장은 건너뜀. 이미 검증한 번역과 같은 문장을 유지하려면 꼭 올릴 것
+- 80GB급일 때 권장: `gemma_ch1_3_bf16_ctx5.jsonl` (11/17 1·3장 결과) → 올리면 1·3장은 건너뜀. 이미 검증한 번역과 같은 문장을 유지하려면 꼭 올릴 것. 4비트 실행에서는 올려도 쓰지 않음
 
 **실행**: ① 설치 셀 → '런타임 → 세션 다시 시작' → 1번 셀부터 끝까지.
 결과는 구글 드라이브 `MyDrive/bridgecore_gatsby/`에 계속 저장됨. 세션이 끊기면 1번부터 다시 실행(파일은 다시 안 올려도 됨) → 남은 문단만 이어서 번역.
 
-드라이브를 못 쓰는 계정이면 자동으로 세션 안(`/content/bridgecore_gatsby/`)에 저장함. 이 경우 세션이 끊기면 결과가 사라지므로, 왼쪽 파일 탭에서 `out/gemma_full_bf16_ctx5.jsonl`을 중간에 한두 번 내려받아 둘 것. 끊긴 뒤에는 그 파일을 `gemma_ch1_3_bf16_ctx5.jsonl` 대신 올리면 이어서 번역함.
+드라이브를 못 쓰는 계정이면 자동으로 세션 안(`/content/bridgecore_gatsby/`)에 저장함. 이 경우 세션이 끊기면 결과가 사라지므로, 왼쪽 파일 탭에서 `out/gemma_full_bf16_ctx5.jsonl`(4비트면 `gemma_full_4bit_ctx5.jsonl`)을 중간에 한두 번 내려받아 둘 것. 끊긴 뒤에는 그 파일을 1번 셀 파일 선택 창에서 같이 올리면 이어서 번역함.
 
-**결과 파일**: `gemma_full_bf16_ctx5.jsonl`, `run_info_full_ctx5.json` (끝나면 자동 다운로드)
+**결과 파일**: 원본이면 `gemma_full_bf16_ctx5.jsonl`·`run_info_full_ctx5.json`, 4비트면 `gemma_full_4bit_ctx5.jsonl`·`run_info_full_ctx5_4bit.json` (끝나면 자동 다운로드)
 """),
-code(install),
+code(install.replace('accelerate\n', 'accelerate\n!pip -q install -U "bitsandbytes>=0.46.1"\n!pip -q uninstall -y torchao\n', 1)),
 md("## 1. 설정·파일 올리기"),
 code("""import json, sys, time, platform, inspect, re, shutil
 from pathlib import Path
 import torch
 from google.colab import files, drive
 
-NAME = 'full_ctx5'
+GPU_GB = torch.cuda.get_device_properties(0).total_memory / 1e9
+print(torch.cuda.get_device_name(0), f'{GPU_GB:.0f}GB')
+assert GPU_GB > 20, 'GPU 메모리가 20GB보다 작습니다(T4 등) — 4비트로도 31B 모델이 올라가지 않습니다. L4·A100·H100으로 바꾸세요'
+LOAD_4BIT = GPU_GB < 70          # 80GB급이면 원본(bf16), 그보다 작으면 4비트 압축
+NAME = 'full_ctx5_4bit' if LOAD_4BIT else 'full_ctx5'
+RUNTIME = 'colab_transformers_4bit' if LOAD_4BIT else 'colab_transformers_bf16'
 CFG = dict(n_ctx=5, thinking=False)
 CONFIGS = {NAME: CFG}
 MODEL_ID = 'google/gemma-4-31B-it'
-BS = 4
+BS = 4 if GPU_GB > 35 else 1     # 24GB급은 한 문단씩
 THINK_BUDGET = 4096
+print('불러오는 방식:', '4비트 압축 — 1·3장도 다시 번역합니다(11/17 원본 결과와 조건이 달라서)' if LOAD_4BIT else '원본(bf16)')
 
 try:
     drive.mount('/content/drive')
@@ -53,7 +65,7 @@ except Exception as e:      # 드라이브를 못 쓰는 계정(공용 계정 �
     BASE = Path('/content/bridgecore_gatsby')
     print('드라이브 연결 안 됨 → 세션 안에 저장합니다. 세션이 끊기면 결과가 사라지니 4번 셀의 중간 저장 파일을 가끔 내려받으세요:', e)
 OUT_DIR = BASE / 'out'; OUT_DIR.mkdir(parents=True, exist_ok=True)
-OUT = OUT_DIR / 'gemma_full_bf16_ctx5.jsonl'
+OUT = OUT_DIR / ('gemma_full_4bit_ctx5.jsonl' if LOAD_4BIT else 'gemma_full_bf16_ctx5.jsonl')
 need = [n for n in ('gemma_translate.py', 'sentences.jsonl') if not (BASE / n).exists()]
 if need or not OUT.exists():
     print('파일 선택 창에서 고르기:', need or '(필수 파일은 이미 있음)', '+ 권장 gemma_ch1_3_bf16_ctx5.jsonl — 없으면 취소')
@@ -64,9 +76,6 @@ if need or not OUT.exists():
         else:
             (BASE / clean).write_bytes(data)
 
-GPU_GB = torch.cuda.get_device_properties(0).total_memory / 1e9
-print(torch.cuda.get_device_name(0), f'{GPU_GB:.0f}GB')
-assert GPU_GB > 70, '80GB GPU가 아닙니다 — 1·3장 결과와 같은 원본(bf16)으로 돌려야 합니다'
 assert (BASE / 'sentences.jsonl').exists() and (BASE / 'gemma_translate.py').exists(), '필수 파일 두 개를 올리세요'
 sys.path.insert(0, str(BASE))
 import gemma_translate as gt
@@ -76,15 +85,20 @@ assert gt.PROMPT_HASH == '4f5cbcadc8d7', f'지침이 11/17과 다릅니다({gt.P
 PREV = OUT_DIR / 'prev_ch1_3.jsonl'
 if PREV.exists() and not OUT.exists():
     rows_prev = [json.loads(l) for l in open(PREV, encoding='utf-8') if l.strip()]
-    assert all(r['mt_meta'].get('config') in ('ctx5', NAME) and r['mt_meta'].get('prompt_hash') == gt.PROMPT_HASH for r in rows_prev), \\
-        '올린 1·3장 파일이 ctx5 결과가 아닙니다'
-    shutil.copy(PREV, OUT); print('기존 결과', len(rows_prev), '문장을 이어 씀')
+    ok_cfg = (NAME,) if LOAD_4BIT else ('ctx5', NAME)    # 4비트 실행은 4비트 중간 저장본만 이어받음
+    if all(r['mt_meta'].get('config') in ok_cfg and r['mt_meta'].get('prompt_hash') == gt.PROMPT_HASH for r in rows_prev):
+        shutil.copy(PREV, OUT); print('기존 결과', len(rows_prev), '문장을 이어 씀')
+    else:
+        print('올린 jsonl은 이번 실행 조건과 달라 쓰지 않습니다(4비트 실행에 원본 1·3장 결과를 올린 경우 등) → 전부 새로 번역')
 print('프롬프트', gt.PROMPT_HASH, '· 이미 번역된 문장', sum(1 for _ in open(OUT, encoding='utf-8')) if OUT.exists() else 0)
 """),
 md("## 2. 모델 불러오기 (약 5분)"),
-code(load.replace("CHAPTERS", "None")),
+code(load.replace("CHAPTERS", "None")
+     .replace("from transformers import AutoProcessor, AutoModelForCausalLM", "from transformers import AutoProcessor, AutoModelForCausalLM, BitsAndBytesConfig")
+     .replace("model = AutoModelForCausalLM.from_pretrained(MODEL_ID, dtype=torch.bfloat16, device_map='cuda', token=HF_TOKEN).eval()",
+              "quant = BitsAndBytesConfig(load_in_4bit=True, bnb_4bit_quant_type='nf4', bnb_4bit_compute_dtype=torch.bfloat16,\n                           bnb_4bit_use_double_quant=True) if LOAD_4BIT else None\nmodel = AutoModelForCausalLM.from_pretrained(MODEL_ID, dtype=torch.bfloat16, device_map='cuda', token=HF_TOKEN,\n                                             quantization_config=quant).eval()")),
 md("## 3. 번역 함수 (06 노트북과 동일)"),
-code(funcs + """
+code(funcs.replace("'colab_transformers_bf16'", "RUNTIME") + """
 # 시험 1문단 — 형식 확인 (저장하지 않음)
 r = generate(idx[:1], CFG)[0]
 print('오류', r['err'], '· 출력 토큰', r['out_tokens'])
