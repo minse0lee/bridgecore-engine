@@ -76,7 +76,7 @@ assert gt.PROMPT_HASH == '4f5cbcadc8d7', f'지침이 11/17과 다릅니다({gt.P
 PREV = OUT_DIR / 'prev_ch1_3.jsonl'
 if PREV.exists() and not OUT.exists():
     rows_prev = [json.loads(l) for l in open(PREV, encoding='utf-8') if l.strip()]
-    assert all(r['mt_meta'].get('config') == 'ctx5' and r['mt_meta'].get('prompt_hash') == gt.PROMPT_HASH for r in rows_prev), \\
+    assert all(r['mt_meta'].get('config') in ('ctx5', NAME) and r['mt_meta'].get('prompt_hash') == gt.PROMPT_HASH for r in rows_prev), \\
         '올린 1·3장 파일이 ctx5 결과가 아닙니다'
     shutil.copy(PREV, OUT); print('기존 결과', len(rows_prev), '문장을 이어 씀')
 print('프롬프트', gt.PROMPT_HASH, '· 이미 번역된 문장', sum(1 for _ in open(OUT, encoding='utf-8')) if OUT.exists() else 0)
