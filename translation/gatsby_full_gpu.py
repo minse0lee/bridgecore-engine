@@ -6,7 +6,7 @@
 같은 폴더에 gemma_translate.py, sentences.jsonl, (있으면) gemma_ch1_3_bf16_ctx5.jsonl 을 둔다.
 
     python gatsby_full_gpu.py --download-only            # 모델만 내려받기(HF 토큰을 한 번 물어봄, 저장하지 않음)
-    python gatsby_full_gpu.py --limit 24                 # 속도 시험: 24문단만 번역하고 전체 예상 시간을 알려 줌
+    python gatsby_full_gpu.py --check-prev 20 --limit 24 # 시험: 1·3장 20문단을 다시 번역해 11/17 결과와 비교 + 24문단 속도 재기
     python gatsby_full_gpu.py                            # 책 전체(끊기면 같은 명령으로 다시 실행 → 이어서)
     python gatsby_full_gpu.py --merge                    # 결과 합치기 → out/gemma_full_bf16_ctx5.jsonl
 
@@ -267,6 +267,40 @@ def run(m, gt, allb, order, done, out_path, out_dir, tag, want):
     return info, gen_sec, n_sent
 
 
+def check_prev(m, gt, allb, idx, prev_rows, n, out_dir):
+    """1·3장 문단 n개를 이 머신에서 다시 번역해 11/17(A100) 결과와 나란히 본다. 본 결과 파일에는 쓰지 않는다."""
+    prev = {r["id"]: r["mt"] for r in prev_rows}
+    cands = [k for k in idx if all(s["id"] in prev for s in allb[k]["sents"] if s["translate"])]
+    if not cands:
+        print("[비교] 1·3장 기존 결과 파일이 없어 건너뜁니다"); return None
+    cands.sort(key=lambda k: len(gt.user_text(allb, k, n_ctx=CFG["n_ctx"])[1]))
+    ks = cands[::max(1, len(cands) // n)][:n]
+    t0, rows, bs, i = time.time(), [], m.bs, 0
+    while i < len(ks):
+        try:
+            res = m.generate(ks[i:i + bs])
+        except Exception as e:
+            if not m.is_oom(e) or bs == 1:
+                raise
+            m.free(); bs = max(1, bs // 2); print("  메모리 부족 → 묶음", bs); continue
+        for r in res:
+            for s in r["sents"]:
+                new = r["got"].get(s["id"])
+                rows.append({"id": s["id"], "en": s["en"], "a100": prev[s["id"]], "here": new, "same": new == prev[s["id"]], "err": r["err"]})
+        i += bs
+    with open(out_dir / "check_prev.jsonl", "w", encoding="utf-8") as f:
+        for r in rows:
+            f.write(json.dumps(r, ensure_ascii=False) + "\n")
+    same, bad = sum(r["same"] for r in rows), sum(1 for r in rows if not r["here"])
+    print(f"\n[비교] 1·3장 {len(ks)}문단 {len(rows)}문장 · {(time.time() - t0) / 60:.1f}분")
+    print(f"  11/17 결과와 글자까지 같음 {same} · 다름 {len(rows) - same} · 번역 안 나옴 {bad}")
+    print("  (GPU 종류와 묶음 구성이 달라 일부 문장은 표현이 달라질 수 있음 — 아래에서 뜻이 무너진 문장이 있는지 봄)")
+    for r in [r for r in rows if not r["same"]][:12]:
+        print(f"  {r['id']} EN   {r['en']}\n          A100 {r['a100']}\n          여기 {r['here']}")
+    print(f"  전체 비교표: {out_dir / 'check_prev.jsonl'}\n")
+    return rows
+
+
 def merge(gt, rows, allb, idx, prev_rows, out_dir):
     want_order = [s["id"] for k in idx for s in allb[k]["sents"] if s["translate"]]
     got, dup = {}, 0
@@ -303,6 +337,7 @@ def main(argv=None):
     ap.add_argument("--prev", default=None, help="11/17 1·3장 결과(기본: 폴더에 gemma_ch1_3_bf16_ctx5.jsonl이 있으면 씀)")
     ap.add_argument("--shard", default="0/1", help="i/n — 전체를 n몫으로 나눈 것 중 i번째만(0부터)")
     ap.add_argument("--limit", type=int, default=0, help="이 수만큼의 문단만 번역(속도 시험)")
+    ap.add_argument("--check-prev", type=int, default=0, help="1·3장 문단을 이 수만큼 다시 번역해 11/17 결과와 비교(결과 파일에는 쓰지 않음)")
     ap.add_argument("--bs", type=int, default=4, help="한 번에 번역할 문단 수(메모리 부족이면 자동으로 줄임)")
     ap.add_argument("--download-only", action="store_true")
     ap.add_argument("--merge", action="store_true")
@@ -336,10 +371,16 @@ def main(argv=None):
     done = {r["id"] for r in prev_rows} | {r["id"] for p in part_files(out_dir) for r in read_jsonl(p)}
     order = plan(gt, allb, idx, done, (si, sn), a.limit)
     print(f"문단 {len(idx)} · 문장 {len(want)} · 이미 번역된 문장 {len(done & want)}(1·3장 기존 결과 {len(prev_rows)}) · 이번에 할 문단 {len(order)}")
-    if not order:
+    if not order and not a.check_prev:
         print("이 몫에서 더 번역할 것이 없습니다 → 모든 몫이 끝났으면 --merge 를 실행하세요")
         return 0
     m = (Fake if a.fake else Gemma)(gt, allb, a.bs)
+    if a.check_prev:
+        check_prev(m, gt, allb, idx, prev_rows, a.check_prev, out_dir)
+        if not a.limit:          # 비교만 할 때는 본 번역을 시작하지 않음
+            return 0
+    if not order:
+        return 0
     before = len(done & want)
     info, sec, n_sent = run(m, gt, allb, order, done, out_dir / f"{tag}.jsonl", out_dir, tag, want)
     if a.limit and n_sent:

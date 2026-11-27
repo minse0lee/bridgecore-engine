@@ -82,3 +82,14 @@ def test_rejects_wrong_prev(work):
         f.write(json.dumps({"id": "S000001", "en": "x", "mt": "y", "mt_meta": {"config": "ctx5_think", "prompt_hash": "4f5cbcadc8d7"}}) + "\n")
     with pytest.raises(SystemExit):
         g.main(["--dir", str(work), "--fake"])
+
+
+def test_check_prev_only_compares(work, capsys):
+    _prev(work, n=120)
+    g.main(["--dir", str(work), "--fake", "--check-prev", "5"])
+    rows = _rows(work / "out/check_prev.jsonl")
+    assert rows and not any(r["same"] for r in rows) and all(r["here"].startswith("번역:") for r in rows)
+    assert not list((work / "out").glob("part_*.jsonl"))          # 비교만 하면 본 결과 파일은 만들지 않음
+    assert "[비교]" in capsys.readouterr().out
+    g.main(["--dir", str(work), "--fake", "--check-prev", "5", "--limit", "6"])
+    assert len(list((work / "out").glob("part_*.jsonl"))) == 1    # 비교 + 속도 시험
