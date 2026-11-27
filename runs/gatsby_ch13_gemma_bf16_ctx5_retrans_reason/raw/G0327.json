@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT7HMzcrG4H4NWbAKbGV",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0327\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"moving her hands like Frisco\",\"tgt_span\":\"프리스코처럼 손을 움직이며\",\"description\":\"Frisco는 1920년대 유행한 춤 'Frisco'(찰스턴 계열의 댄서 Joe Frisco 또는 그의 춤 스타일)를 가리키는데, 번역문은 이를 설명 없이 '프리스코'로 음역해 한국어 독자가 춤 양식임을 알기 어려움\"},{\"id\":\"E002\",\"src_span\":\"a cocktail\",\"tgt_span\":\"칵테일 잔\",\"description\":\"칵테일이 '칵테일 잔'으로 바뀌었으나 칵테일을 집어 마시는 행위가 유지되어 의미 변화는 아님\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"집시 한 명이 칵테일을 낚아채 마시고 손을 움직이며 홀로 무대로 춤추며 나가는 행위자·행위·수량·순서가 유지됩니다. '칵테일 잔'은 같은 사태를 가리키는 통상적 표현입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'용기를 내어'가 for courage의 목적 관계를 유지하고 행위의 순차 연결과 'her'의 지시 대상도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"파티 장면 서술 → 파티 장면 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 본문의 서술체 '~다'가 유지되며 화자·청자 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'프리스코'는 통용되는 음역으로, 대상을 다른 것으로 바꾸지 않았습니다. 설명이 없어 다소 불투명하지만 원문 자체도 이름만 제시해 같은 정도의 지시를 유지합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 947,
+    "output_tokens": 869,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
