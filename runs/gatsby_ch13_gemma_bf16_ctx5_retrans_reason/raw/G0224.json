@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT7AUqRQv74yXeyYBiAb",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0224\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"strolled back into the library\",\"tgt_span\":\"한가롭게 서재로 돌아갔고\",\"description\":\"'strolled'(천천히 걸어감)를 '한가롭게'로 옮기고 원문에 없는 한가로운 태도를 덧붙임. 서재로 걸어 돌아간 사실은 유지됨.\"},{\"id\":\"E002\",\"src_span\":\"trying to look pleasantly interested\",\"tgt_span\":\"적당히 흥미를 느끼는 척하면서도\",\"description\":\"'pleasantly interested'(호의적으로 흥미 있어 보임)를 '적당히 흥미를 느끼는 척'으로 옮겨 정도와 뉘앙스가 약간 달라짐. 흥미 있어 보이려는 시도는 유지됨.\"},{\"id\":\"E003\",\"src_span\":\"I followed Daisy around a chain of connecting verandas to the porch in front\",\"tgt_span\":\"앞쪽 포치로 향하는 데이지를 따라갔다\",\"description\":\"'베란다들을 지나'가 '포치로 향하는 데이지'를 수식하는 구조여서 원문의 따라가는 경로가 모호해짐. 따라간 대상과 도착지는 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰과 베이커 양이 서재로 돌아가고, 화자가 흥미 있는 척하며 데이지를 따라 베란다를 지나 포치로 갔다는 핵심 사태가 유지되며, 달라진 것은 묘사어의 정도와 뉘앙스뿐입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"while이 '그동안'으로 동시 진행 관계를 유지하고, 대명사와 소유 관계 및 초점 표현의 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 서술 기능이 그대로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설의 서술 문장으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술체와 '베이커 양' 호칭이 원문의 Miss Baker 호칭에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"feet를 '피트'로 그대로 옮겨 단위가 바뀌지 않았고 Miss는 '양'으로 통용되는 대응입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1026,
+    "output_tokens": 998,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

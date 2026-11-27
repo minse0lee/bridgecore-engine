@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT7Bq19po14npPxGp6Lb",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0224\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"trying to look pleasantly interested and a little deaf, I followed Daisy\",\"tgt_span\":\"적당히 흥미를 느끼는 척하면서도 약간은 귀가 먹은 듯한 표정을 지으며, 연결된 베란다들을 지나 앞쪽 포치로 향하는 데이지를 따라갔다\",\"description\":\"'흥미 있어 보이려' 애쓴 것이 '흥미를 느끼는 척'으로 바뀌어 의미가 약간 달라졌고, 'pleasantly'가 '적당히'로 옮겨졌다. 또한 'around a chain of connecting verandas to the porch in front'의 이동 대상이 데이지의 이동으로 읽히게 되어 화자와 데이지의 이동 관계가 달라졌다.\"},{\"id\":\"E002\",\"src_span\":\"strolled back into the library\",\"tgt_span\":\"서서히 서재로 돌아갔고\",\"description\":\"'strolled'(한가로이 거닐며)가 '서서히'로 바뀌어 걷는 방식이 약간 달라졌다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: '따라갔다'의 대상 수식 구조가 바뀌어 데이지가 앞쪽 포치로 향하는 것으로 읽히고, '척하면서'로 의도가 단정되었으나 핵심 사건(톰과 베이커 양은 서재로, 화자는 데이지를 따라 포치로)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"while이 '그동안'으로 시간적 동시성을 유지하고, 지시 대상이 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술 → 소설 서술. 장면을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범적 의미가 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술체와 '베이커 양' 호칭이 소설 서술 상황에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'feet'를 '피트'로, 'Miss'를 '양'으로 통용되게 옮겨 다른 제도로 바꾸지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1016,
+    "output_tokens": 965,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

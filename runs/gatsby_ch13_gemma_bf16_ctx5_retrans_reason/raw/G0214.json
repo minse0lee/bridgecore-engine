@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT7A3aeWnRNBMxoeqtEy",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0214\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"She might have the decency not to telephone him at dinner time.\",\"tgt_span\":\"그 여자도 저녁 식사 시간에는 전화를 안 하는 예의 정도는 갖춰야 하는 거 아닌가요?\",\"description\":\"'might have the decency'(예의 정도는 있을 법하다는 비꼬는 불만)가 '갖춰야 하는 거 아닌가요'로 옮겨져 당위·의무 어조가 더해지고 '도'(also)가 첨가됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"그 여자, 저녁 식사 시간에 전화하지 않는 예의, 불만의 내용이 모두 유지되어 같은 사태를 기술합니다. 당위 어조는 Deontic에서 다루며 '도'는 의미를 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 대상(그 여자, 그)과 두 문장의 연결이 유지되고 초점·범위 표현도 이동하지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"불만 섞인 비꼬는 의견 표명과 동의 구하기 → 불만 섞인 의견 표명과 동의 구하기. 같은 종류의 기능입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"원문의 might는 규범이 아니라 화자의 불평·기대를 나타내는 표현이며 의무·허가·금지를 정하는 문장이 아니므로 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 불쾌감과 상대에게 묻는 구어체 태도가 '-아닌가요?', '생각하시죠?'로 유지됩니다. 관계 정보가 부족하지만 존댓말 사용이 문맥상 어긋난다는 근거는 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 표현을 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 552,
+    "output_tokens": 850,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
