@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTUUjEJTne5gbdhko27T",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0051\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the white palaces of fashionable East Egg\",\"tgt_span\":\"상류층이 모여 사는 이스트에그의 하얀 궁전들\",\"description\":\"fashionable(세련된·유행을 따르는)이 '상류층이 모여 사는'으로 바뀜. 평가어가 거주 계층 서술로 달라졌으나 핵심 사실은 유지됨\"},{\"id\":\"E002\",\"src_span\":\"the courtesy bay\",\"tgt_span\":\"작은 만\",\"description\":\"courtesy bay(명목상 '만'이라 불리는 작은 물굽이)가 '작은 만'으로 옮겨져 courtesy의 뉘앙스가 약해졌으나 지시 대상은 같음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"차이는 fashionable의 평가어 정도와 courtesy bay의 뉘앙스뿐이며, 이스트에그의 하얀 궁전들이 반짝였다는 것과 화자가 톰 부부와 저녁을 먹으러 차로 갔다는 핵심 내용이 모두 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"and로 이어진 두 절의 연결이 '-는데'로 유지되고, 대명사 there는 '그곳'으로 이스트에그를 그대로 가리키며 초점 표현도 달라지지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 도입부의 배경 설명 → 서술 도입부의 배경 설명. 이야기의 출발점을 소개하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문이며 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 화자의 소설 서술체('~했다', '~시작된다')가 유지되며 호칭·관계 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명·지명 외에 East Egg의 사회적 함의는 '상류층이 모여 사는'으로 전달되어 한국어 독자가 이해할 수 있고, the Tom Buchanans도 '톰 뷰캐넌 부부'로 적절합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 3327,
+    "output_tokens": 925,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTUgcHgncCqGnmNcieqt",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0305\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"suggested that it was Mr. Gatsby himself\",\"tgt_span\":\"그는 제이 개츠비 씨임이 분명했다\",\"description\":\"'암시했다(suggested)'는 추측이 '분명했다'는 단정으로 바뀌어 확실성이 달라짐\"},{\"id\":\"E002\",\"src_span\":\"Mr. Gatsby himself\",\"tgt_span\":\"제이 개츠비 씨\",\"description\":\"원문에 없는 이름 '제이'가 첨가되고 강조 표현 himself가 번역되지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(확실성): 몸짓으로 미루어 짐작하는 추측이 '분명했다'는 단정으로 바뀌었고, '제이'가 첨가되었습니다. 핵심 사실(개츠비로 보이는 인물이 하늘의 자기 몫을 확인하러 나옴)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 3(초점): himself가 번역되지 않아 '개츠비 본인'이라는 강조 초점이 사라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(관찰에 따른 추정 묘사) → 서술. 화자가 인물을 알아보는 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 서술문으로 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체의 격식과 'Mr.'에 대응하는 '씨' 호칭이 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명만 있고 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2967,
+    "output_tokens": 795,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

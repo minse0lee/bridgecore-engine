@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTUdFsGP5iBfVfNpxPki",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0118\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"if you stay in the East\",\"tgt_span\":\"동부에 계속 계신다면\",\"description\":\"'stay'를 '계속 계신다'로 옮기며 '계속'과 높임을 더함. 머무는 조건 의미는 유지되어 의미 변화가 없고, 높임만 Register에서 검토 대상.\"},{\"id\":\"E002\",\"src_span\":\"대응 구간 없음(첨가)\",\"tgt_span\":\"분명\",\"description\":\"'분명'이 더해져 확실성이 약간 강해짐. 원문 'You will'도 단정이므로 의미 차이는 거의 없음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'동부에 머문다면 그 회사를 알게 될 것'이라는 조건과 단정이 유지됩니다. '계속'과 '분명'은 원문 단정을 풀어 쓴 정도로 핵심 사실이 같습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"if 조건 관계가 '-다면'으로 유지되고, 생략된 'You will'의 대상(앞 문장의 그 회사를 알게 됨)은 문단 맥락에서 동일하게 이어지며 초점 표현도 달라지지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰의 무시에 대한 퉁명스러운 반박 → 같은 반박. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 표현이 없는 예측 서술입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"닉이 톰에게 '계신다면…겁니다'로 높임을 쓰는데, 이 장면에서 톰은 닉에게 반말을 쓰고 두 사람은 먼 친척으로 같은 또래입니다. 높임이 관계에 맞는지 판단하려면 번역 전체의 화계 설정 기준이 필요합니다. 닉의 퉁명스러운 태도는 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'the East'는 미국 동부 지역을 가리키는 지명 성격이며, 판정할 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1509,
+    "output_tokens": 915,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

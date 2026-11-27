@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTUZQz5zhvphR7G9kB1V",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0434\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“What time?”\",\"tgt_span\":\"“몇 시에 갈까요?”\",\"description\":\"시간만 묻는 짧은 질문이 '갈까요'라는 동사와 제안형 어미를 더해 '몇 시에 갈까요?'로 옮겨졌고, 원문에 없는 '가다'라는 행위가 명시됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞 문장의 '함께 가시겠어요'에 대한 응답이므로 '몇 시에 (갈까요)'는 같은 사태를 가리키며, 묻는 내용(시각)이 유지됩니다. 보충된 '가다'는 문맥상 이미 전제된 내용입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞 제안에 대한 응답이라는 연결이 유지되고 대명사·연결·초점 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"동승 제안에 대해 시간을 되묻는 질문 → 시간을 되묻는 질문. 질문 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화 속 질문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"처음 만난 사이의 정중한 대화(앞서 '정중하게' 말함)에 '-ㄹ까요' 해요체가 무리 없이 어울립니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1416,
+    "output_tokens": 713,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

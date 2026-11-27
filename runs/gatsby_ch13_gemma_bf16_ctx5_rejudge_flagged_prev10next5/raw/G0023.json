@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTUfm9DVChBcQoMRtZ74",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0023\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"All my aunts and uncles\",\"tgt_span\":\"고모와 삼촌들\",\"description\":\"aunts and uncles(이모·고모·숙모, 삼촌·외삼촌·큰아버지 등 포괄)를 '고모와 삼촌'으로 좁혔으나 통상적 대응 범위로 보아 의미 변화는 경미함(오류로 보지 않을 수준)\"},{\"id\":\"E002\",\"src_span\":\"All\",\"tgt_span\":\"고모와 삼촌들은\",\"description\":\"'모든(All)'이 번역에서 빠짐. 전체성이 사라지나 복수형으로 일부 전달됨\"},{\"id\":\"E003\",\"src_span\":\"prep school\",\"tgt_span\":\"예비 학교\",\"description\":\"미국 사립 대학준비학교(prep school)를 '예비 학교'로 직역하여 한국 독자가 제도적 의미를 이해하기 어려움\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1(수량): 'All my aunts and uncles'의 '모두'가 빠져 일부가 아닌 전원이라는 수량 뉘앙스가 약해졌으나, 핵심 사태(친척들이 상의하고 망설이며 승낙)는 유지되어 minor입니다. aunts and uncles를 고모·삼촌으로 옮긴 것은 통상 대응으로 봅니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소유 관계(내 학교)와 '상의하더니 … 마침내 말했다'의 시간 순서 연결이 유지되고, 초점 표현도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"친척들의 반응을 묘사하는 서술(유머러스한 비유 포함) → 같은 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 같은 규범 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 친척들에 대한 서술 어조와 '글쎄, 그-렇지'의 머뭇거림이 유지되고 관계상 부적절한 높임·호칭이 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 2: 미국 상류층의 대학 진학 준비 사립학교인 prep school을 '예비 학교'로 옮겨 제도적 의미가 전달되지 않습니다. 다만 학교를 고르듯 신중하다는 비유의 요지는 읽히므로 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 3937,
+    "output_tokens": 1042,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

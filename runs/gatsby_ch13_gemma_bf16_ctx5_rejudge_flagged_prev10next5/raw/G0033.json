@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTUUQccxfQtCnxmaEYP6",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0033\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the freedom of the neighbourhood\",\"tgt_span\":\"이 동네의 주인 노릇을 할 수 있는 권한\",\"description\":\"'freedom of the neighbourhood'(동네를 자유롭게 다닐 자유, 'freedom of the city' 같은 명예 시민권 은유)가 '주인 노릇을 할 수 있는 권한'으로 바뀌어 내용이 달라지고 명예 시민권이라는 제도적 함의가 전달되지 않음\"},{\"id\":\"E002\",\"src_span\":\"casually\",\"tgt_span\":\"무심코\",\"description\":\"'casually'(대수롭지 않게, 무심하게)를 '무심코'(부지불식간에)로 옮겨 뉘앙스가 약간 달라졌으나 큰 의미 변화는 아님\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: '동네를 자유롭게 드나들 자유(명예 시민권)'가 '주인 노릇을 할 권한'으로 바뀌어 내용이 달라졌으나, 길을 알려줘서 이 동네에 대한 소속감·자격을 얻었다는 문단의 요지는 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'He'가 길을 물은 남자를 가리키는 관계와 앞 문장과의 이유 연결이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 감정·상황 설명 → 서술자의 감정·상황 설명. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"비유적 표현일 뿐 실제 의무·허가를 정하는 규범 문장이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체의 회고적 어조가 평서형 '~셈이었다'로 유지되고 관계상 문제될 호칭이 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 'freedom of the …'는 도시가 명예 시민에게 주는 자유권이라는 관습을 빗댄 표현인데, '주인 노릇을 할 수 있는 권한'으로 옮겨 그 제도적 함의가 전달되지 않습니다. 다만 문맥상 의미 이해는 가능해 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2874,
+    "output_tokens": 972,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

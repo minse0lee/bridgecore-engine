@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTUYv7X7vzvxD2aWArp5",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0390\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"she explained that we were going to find the host\",\"tgt_span\":\"조던은 집주인을 찾으러 가자고 했다\",\"description\":\"'집주인을 찾으러 가는 중이라고 설명했다'는 서술이 '찾으러 가자'는 제안으로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"it was making me uneasy\",\"tgt_span\":\"마음이 불편한 모양이라고\",\"description\":\"내가 불안해하고 있다는 사실이 추측('모양이라고')으로 바뀜. 조던이 '나'의 불편함을 짐작한 것처럼 읽혀 확실성이 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 우리가 집주인을 찾으러 가는 중이라는 설명이 가자는 제안으로, 불편함이 추측으로 바뀌어 행위 내용과 확실성이 달라졌으나 핵심 사실(주인을 찾으러 간다, 만난 적 없다, 불편하다)은 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'만난 적이 없어서 불편한' 인과 관계가 유지되고, 'I had never met him'이 말한 내용임을 나타내는 'she said'도 '그녀가 덧붙였다'로 남아 지시·연결·초점 관계가 보존됩니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"조던의 계획 설명(서술) → 상대에게 같이 가자고 권하는 제안. 발화 기능의 종류가 달라졌습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'never'는 경험 부정이며 의무·허가·금지 등 규범 표현이 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문의 평서체가 유지되고 인물 관계에 맞지 않는 높임이나 호칭 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2525,
+    "output_tokens": 890,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

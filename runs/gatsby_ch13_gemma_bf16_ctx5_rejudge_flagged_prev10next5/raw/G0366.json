@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTUYUj3Vey2ygVNECFKB",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0366\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"gas blue\",\"tgt_span\":\"연한 푸른색\",\"description\":\"'gas blue'(가스 불꽃 같은 푸른색)를 '연한 푸른색'으로 옮겨 색조 묘사가 달라짐. 색 묘사의 세부 차이로 핵심 사실에는 영향이 작음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'gas blue'가 '연한 푸른색'으로 옮겨져 색조 묘사가 달라졌지만, 드레스가 푸른 계열이라는 요지와 나머지 내용(입으려 했음, 가슴 부분이 큼, 수선, 라벤더 구슬, 265달러)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계는 유지됩니다. 'but'의 대조는 '-는데'로 남아 있고 'it'은 드레스를 가리킵니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 질문에 대한 답변 및 설명 → 답변 및 설명. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소녀가 조던에게 하는 정중한 구어체(-죠, -어요, -답니다)가 관계와 상황에 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"달러 금액 265달러를 그대로 유지했고 다른 통화나 제도로 바꾸지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2085,
+    "output_tokens": 735,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

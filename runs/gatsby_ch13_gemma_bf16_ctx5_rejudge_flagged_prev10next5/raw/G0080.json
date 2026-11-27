@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTUV5um7JbNz6RjHRdoT",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0080\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"gleaming white against the fresh grass outside\",\"tgt_span\":\"하얗게 빛났고, 그 너머로 … 싱그러운 잔디가 펼쳐져 있었다\",\"description\":\"창문이 잔디를 배경으로 하얗게 빛나는 대비 관계가, 창문 너머에 잔디가 펼쳐져 있다는 위치 서술로 바뀜. 창문과 잔디가 대조되는 시각적 구도는 사라지고 잔디가 '창문 너머'에 있는 것으로 읽힘.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"열린 창문, 하얗게 빛남, 집 안으로 뻗어 들어온 듯한 싱그러운 잔디라는 내용이 모두 유지됩니다. 'against'를 '너머'로 옮긴 변화는 아래 Textual에서 다룹니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(초점·범위): 'against the fresh grass'는 잔디를 배경으로 창문이 하얗게 두드러지는 대조·배경 관계인데, '그 너머로 … 잔디가 펼쳐져 있었다'로 바뀌어 창문과 잔디의 관계가 배경 대비에서 위치 서술로 달라졌습니다. 다만 문장의 요지와 독자의 행동은 바뀌지 않아 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사 → 장면 묘사. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가를 정하는 표현이 없는 묘사문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체('-었다')가 유지되며 화자·독자 관계에서 어긋나는 부분이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2680,
+    "output_tokens": 857,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

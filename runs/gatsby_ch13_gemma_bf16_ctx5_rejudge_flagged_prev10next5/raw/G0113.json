@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTUVkEMZsCUZqP3rMH57",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0113\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“Who with?”\",\"tgt_span\":\"“어디서 일하는데?”\",\"description\":\"'누구와(어느 회사와) 일하느냐'는 질문이 '어디서 일하느냐'로 바뀜. 그러나 뒤 문장에서 회사 이름을 말하는 맥락이므로 지시 대상은 사실상 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"판단 질문 1: 'Who with?'는 어느 회사와 일하는지(소속 회사)를 묻는데, '어디서 일하는데?'도 직장·회사를 묻는 같은 사태를 기술하며 이후 'I told him'과 '처음 들어보는 곳인데'로 이어져 의미가 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계가 바뀌지 않았고 앞 문장의 'I'm a bond man'에 이어지는 후속 질문 관계가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"직장 정보를 묻는 질문 → 직장 정보를 묻는 질문. 같은 종류의 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 질문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 닉에게 하는 허물없는 반말 질문이 '~는데?' 반말로 유지되어, 앞의 '닉, 여기서 뭐 해?'와 같은 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1234,
+    "output_tokens": 744,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

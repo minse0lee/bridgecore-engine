@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTUWqqF6SXeAZFyAYNZw",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0191\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Doesn’t he?\",\"tgt_span\":\"그렇지 않나요?\",\"description\":\"Miss Baker에게 'he(닉)'가 장미 같지 않느냐고 묻는 확인 질문인데, 번역문은 청자와 대상이 불분명한 '그렇지 않나요?'로 옮겨 닉이 아닌 앞 진술 전체에 대한 동의 요청으로 읽힘. 다만 뒤 문장에서 조던에게 돌아서는 것이 이어져 대상은 추론 가능.\"},{\"id\":\"E002\",\"src_span\":\"a—of a rose\",\"tgt_span\":\"어떤—장미\",\"description\":\"'a rose'의 더듬는 말이 '어떤—장미'로 옮겨져 부정관사 반복의 머뭇거림이 약간 달라졌으나 의미는 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"닉을 보는 기쁨, 장미를 닮았다는 말, 완벽한 장미라는 강조가 모두 유지되며 확인 질문도 같은 내용입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Doesn't he?'의 he가 닉을 가리키는 관계는 '그렇지 않나요?'가 앞 진술 전체에 대한 동의 요청으로 읽혀 흐려졌으나, 같은 문단에서 조던에게 동의를 구하는 장면이 이어져 지시 대상이 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"애정 표현과 동의 구하기 → 애정 표현과 동의 구하기. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"데이지가 닉에게 하는 다정하고 정중한 해요체가 관계에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2312,
+    "output_tokens": 879,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

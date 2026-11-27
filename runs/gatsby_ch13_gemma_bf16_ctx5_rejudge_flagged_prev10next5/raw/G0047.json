@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTUUaK2PBeDrScT36nBk",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0047\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"it was a factual imitation of some Hôtel de Ville in Normandy\",\"tgt_span\":\"노르망디의 어느 시청사를 그대로 모방한 듯한 모습이었는데\",\"description\":\"'factual imitation'(실제로 정확한 모방)이 '모방한 듯한 모습'으로 바뀌어 사실 단정이 추측으로 약화됨\"},{\"id\":\"E002\",\"src_span\":\"Hôtel de Ville\",\"tgt_span\":\"시청사\",\"description\":\"프랑스 시청 건물을 가리키는 고유 명칭을 일반 어휘 '시청사'로 옮김. 지시 대상은 통용되는 번역이라 유지됨\"},{\"id\":\"E003\",\"src_span\":\"spanking new under a thin beard of raw ivy\",\"tgt_span\":\"갓 자라난 담쟁이덩굴이 얇게 덮인 외벽은 아주 새것이었으며\",\"description\":\"'with a tower on one side, spanking new'에서 새것인 대상이 건물(탑 포함)인데 '외벽'으로 한정되고, 'raw ivy'(덜 자란 담쟁이)와 'beard' 비유가 평이하게 처리됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): 'factual imitation'이 '모방한 듯한'으로 바뀌어 단정이 추측으로 달라졌으나, 노르망디 시청사를 본뜬 거대한 저택이라는 핵심 사실은 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계에 변화가 없습니다. 문장 분할과 나열 구조는 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"저택 묘사 서술 → 저택 묘사 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설의 묘사 문장으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 문어체 평서 서술이 유지되며 특별한 관계·호칭 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Hôtel de Ville을 '시청사'로 옮겨 프랑스 시청 건물이라는 지시 대상이 통하고, 에이커 단위도 그대로 유지되어 제도·단위 변경이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 3946,
+    "output_tokens": 998,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

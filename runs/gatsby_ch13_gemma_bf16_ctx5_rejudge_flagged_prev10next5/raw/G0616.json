@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTUc2tPfQcgrCfAH4vfE",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0616\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a code\",\"tgt_span\":\"도덕적 규범\",\"description\":\"불특정 'a code'(행동 규약)가 '도덕적 규범'으로 구체화되어 범위가 한정됨. 단 문맥상 거의 같은 의미.\"},{\"id\":\"E002\",\"src_span\":\"on a plane\",\"tgt_span\":\"관계 속에서\",\"description\":\"'수준·차원(plane)'이 '관계'로 바뀜. 은유적 층위가 인간관계 영역으로 달라짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'a plane'(차원·수준)이 '관계'로, 'a code'가 '도덕적 규범'으로 바뀌어 내용이 약간 달라졌으나, 조던이 규범 이탈이 불가능하다고 여겨지는 곳에서 안전함을 느꼈다는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'this was because'가 '그것은…때문이었다'로 인과 관계를 유지하고 지시 대상도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 해석·설명 → 서술자의 해석·설명. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 속 인물 성향 설명이며 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 본문의 서술체가 유지되고 화자의 태도도 그대로입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2395,
+    "output_tokens": 754,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTUWYb9rpe5rtSuZNQVh",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0165\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Can’t you talk about crops or something?\",\"tgt_span\":\"농작물 같은 얘기는 안 하시나요?\",\"description\":\"'화제를 바꿔 달라'는 요청·권유 성격의 반어적 의문(Can't you ~?)이 '안 하시나요?'라는 습관·사실 확인 질문으로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"농작물 같은 이야기를 화제로 삼는 내용, 부정 의문의 대상과 행위는 유지됩니다. 문장 형식 변화에 따른 기능 차이는 Context에서만 판정합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'or something'이 '같은'으로 옮겨져 예시 범위가 유지되고 지시·연결·초점 관계에 변화가 없습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 원문 기능은 화제를 바꾸자는 요청·권유(농담조 제안) → 번역은 평소 안 하는지 묻는 단순 질문으로 읽힘. 다만 문맥상 직전 발언이 이어져 요지 전달에는 큰 영향이 없어 minor입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"Can't you는 규범적 의무·허가가 아니라 개인적 부탁·제안이므로 Deontic 적용 대상이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"닉은 데이지, 톰 부부와 사촌·지인 관계의 사교적 대화로, '-시나요?' 높임은 어색하지 않고 관계에 맞습니다. 직전 문장의 '데이지 양이랑'은 평가 대상 밖입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 이 문장에는 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2315,
+    "output_tokens": 810,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

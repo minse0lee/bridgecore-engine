@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTUZuf1aqQDyENpwqZHD",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0474\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I believed they didn’t\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"'~라고 나는 믿었다'는 믿음 표지가 사라지고 '있을 수 없는 일이었다'로 단정됨. 서술자의 한정된 믿음이 객관적 단정으로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"drift coolly out of nowhere\",\"tgt_span\":\"어느 날 갑자기 어디선가 나타나\",\"description\":\"coolly(태연하게)가 빠지고 '어느 날 갑자기'가 더해짐\"},{\"id\":\"E003\",\"src_span\":\"provincial inexperience\",\"tgt_span\":\"시골 출신인 나의 부족한 경험\",\"description\":\"provincial(촌스러운·좁은 견문)이 '시골 출신'이라는 출신 정보로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1·2: 'I believed'가 빠져 확실성이 단정으로 바뀌고, coolly 누락과 provincial의 '시골 출신' 변환이 있으나 핵심 사실(젊은이가 근거 없이 나타나 저택을 산다는 것은 있을 수 없다는 취지)은 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"But→'하지만'의 대조 관계와 삽입절의 범위(at least)가 '적어도'로 유지되어 지시·연결·초점 모두 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 의구심 설명 → 서술자의 의구심 설명. 평가 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 1인칭 서술체(~이었다)가 유지되며 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Long Island Sound를 '롱아일랜드 해협'으로 통용 표기에 맞게 옮겨 같은 대상을 가리킵니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2051,
+    "output_tokens": 921,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTUXkXXmDZ5xMYiwGFC1",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0321\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"By seven o’clock the orchestra has arrived\",\"tgt_span\":\"일곱 시가 되면 오케스트라가 도착한다\",\"description\":\"현재완료(이미 도착했다)가 '되면 도착한다'는 조건·반복 표현으로 바뀌어 완료 시점이 달라짐. 다만 소설의 현재형 서술 맥락이라 사실상 같은 사태를 기술하며 영향은 경미함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"7시, 오케스트라 도착, 다섯 명 규모가 아닌 대편성, 악기 목록이 모두 유지됩니다. '일곱 시가 되면'은 습관적 시간 서술로 읽혀 같은 사태를 기술하고, '초라한'은 thin의 평가어 정도 차이이며, '다섯 명'은 five-piece의 통상적 대응입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"no A, but B의 대조 구조가 '~가 아니라 ~이다'로 유지되고, 지시·초점 표현도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사 서술 → 장면 묘사 서술. 파티 준비의 규모를 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 묘사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술 문체의 평서형 '~다'체가 유지되고 화자·청자 관계상 문제되는 높임이나 호칭이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"오케스트라와 악기는 특정 문화·제도에 고유한 대상이 아니어서 별도로 판정할 문화 요소가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 3978,
+    "output_tokens": 804,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

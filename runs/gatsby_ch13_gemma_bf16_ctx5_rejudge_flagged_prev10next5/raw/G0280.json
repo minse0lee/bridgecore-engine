@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTUXW7MBmKSXU5hQcBoP",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0280\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Our white girlhood\",\"tgt_span\":\"순백의 소녀 시절\",\"description\":\"'white'가 인종적 함의(백인 소녀 시절)를 지닌 표현인데 '순백의'(순수함)로 옮겨 인종적 의미가 사라지고 순수함의 비유로 읽힘\"},{\"id\":\"E002\",\"src_span\":\"Our beautiful white—\",\"tgt_span\":\"우리의 아름답고 하얀—\",\"description\":\"'white'를 색깔 형용사 '하얀'으로 옮겨 백인(인종) 암시가 약해지고 이어지는 인종 담론(Nordic race)과의 연결이 흐려짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'white girlhood'의 '백인 소녀 시절'이라는 의미가 '순백의 소녀 시절'(순수함)로 달라져 평가 내용이 바뀌었으나, 출신지·함께 보냄이라는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현의 관계(우리, 함께, 중단된 문장)는 그대로 유지되어 세 질문 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"출신지 설명과 인종적 자부심을 드러내는 서술 → 같은 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"데이지의 친근한 반말 대화체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 2: 'white'가 지닌 백인 우월주의적 인종 함의가 '순백/하얀'으로 옮겨져 한국어 독자가 이를 이해하기 어렵고, 뒤의 'Nordic race' 대화와의 연결이 사라져 평가조건이 불허한 문화 함의가 변경되었습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1520,
+    "output_tokens": 884,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

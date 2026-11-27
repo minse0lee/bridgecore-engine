@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTUYuL8hKtsf2WtJNU7a",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0389\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"after a somehow wasteful and inappropriate half-hour\",\"tgt_span\":\"왠지 시간 낭비 같고 어울리지 않는 30분이 흐른 뒤\",\"description\":\"half-hour를 '30분'으로 옮긴 것은 통상적 대응이며 의미 변화가 없다. 다만 'wasteful and inappropriate'가 'half-hour'를 수식하는 구조는 유지됨. (참고용, 실제 오류 아님)\"},{\"id\":\"E002\",\"src_span\":\"this is much too polite for me\",\"tgt_span\":\"여긴 나한테 너무 정중해서 숨이 막히네요\",\"description\":\"'나에게 너무 정중하다'는 평가에 '숨이 막히네요'라는 원문에 없는 감정 결과가 덧붙음. 다만 too ... for me의 함의를 풀어 쓴 것으로 핵심은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"나가자는 제안, 30분 경과, 너무 정중하다는 평가가 유지되고 '숨이 막히네요'는 too polite for me의 함의를 풀어 쓴 정도라 내용이 바뀌지 않았습니다. 힌트의 수치 30은 half-hour의 통상적 대응입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'half-hour' 뒤에 속삭였다는 시간 관계와 'much too polite for me'의 정도·대상 관계가 유지되어 지시·연결·초점이 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"자리를 뜨자는 제안과 불만 표현 → 자리를 뜨자는 제안과 불만 표현으로 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 개인적 제안으로 의무·허가·금지 같은 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조던이 친구 닉에게 속삭이는 대화이며 '~요' 체의 부드러운 구어체가 관계와 상황에 어울리고 무례하거나 과하게 격식을 차리지 않았습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도에 고유한 대상이 없습니다. 30분은 단순한 시간 표현입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2413,
+    "output_tokens": 964,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

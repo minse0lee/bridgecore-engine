@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTUYRDx5JNBFrgyaEZnm",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0361\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“Wasn’t it for you, Lucille?”\",\"tgt_span\":\"“너도 그때 그랬지, 루실?”\",\"description\":\"'지난번 파티가 루실을 위한(루실이 초대받은) 파티였다'는 내용이 '너도 그때 그랬지'라는 모호한 표현으로 바뀌어, 'for you'가 가리키는 구체적 관계가 드러나지 않음. 다만 앞 문장 '뵀었죠'와 연결되어 해석은 가능.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'it(지난번 파티)이 루실을 위한 것이었나'가 '너도 그때 그랬지'로 바뀌어 대상(파티)과 'for you'의 내용이 불분명해졌으나, 직전 문맥으로 '루실도 그때 만났다'는 요지는 이해되므로 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 대명사 it이 가리키는 '지난번 파티'가 '그때 그랬지'로 흐려져 지시 대상이 명확히 유지되지 않습니다. 뒤 문장 '루실에게도 마찬가지였다'로 복원은 가능합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"동의를 구하는 확인 질문 → 동의를 구하는 확인 질문. 부가의문 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화 속 확인 질문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"젊은 여성이 친구 루실에게 말하므로 반말 '너도 ~했지'가 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명만 있고 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2150,
+    "output_tokens": 824,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

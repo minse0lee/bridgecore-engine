@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTUXuH8RdGUxJbop32Pg",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0323\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"floating rounds of cocktails permeate the garden outside\",\"tgt_span\":\"쟁반에 담긴 칵테일들이 정원을 가득 메운다\",\"description\":\"'rounds of cocktails'가 '쟁반에 담긴 칵테일'로 바뀌고 'floating'이 사라짐. 돌려지는 칵테일 한 순배가 쟁반에 담긴 칵테일로 바뀜. 정원을 채운다는 뜻은 'permeate'(스며들다)보다 강하지만 사태는 비슷함.\"},{\"id\":\"E002\",\"src_span\":\"introductions forgotten on the spot\",\"tgt_span\":\"소개하자마자 잊어버린 이름들\",\"description\":\"잊힌 대상이 '소개(introductions)'에서 '이름들'로 바뀜. 소개한 사실 자체가 잊히는 것과 이름이 잊히는 것은 약간 다르지만 거의 같은 사태로 읽힘.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'floating rounds of cocktails'(돌려지는 칵테일 순배)가 '쟁반에 담긴 칵테일'로 바뀌어 대상 서술이 약간 달라졌으나 핵심 사태(칵테일이 정원에 퍼져 흥청거림)는 유지되어 요지 이해에 큰 영향이 없고 행동도 관련 없음. 'introductions → 이름들'은 의미가 거의 같아 오류 수준이 아님.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'until'의 시간·결과 연결이 '이윽고'로 재구성되어 관계가 유지되고, 나열 구조와 지시 관계도 유지됨. 판단 질문 1·2·3 모두 아니오.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"파티 분위기를 묘사하는 서술 → 파티 분위기를 묘사하는 서술. 기능이 같음.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"never는 '서로의 이름을 알지 못한다'는 사실 서술이며 규범 의미가 없음.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 현재시제 문어체가 유지되며 화자·청자 간 높임이나 호칭 문제가 없음.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없음.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 3976,
+    "output_tokens": 1012,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTUUTN4mk3pk32g2zQ86",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0038\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"one year I wrote a series of very solemn and obvious editorials\",\"tgt_span\":\"한 해 동안은 '예일 뉴스'에 아주 엄숙하고 뻔한 사설들을 연재하기도 했다\",\"description\":\"'one year'(어느 한 해)가 '한 해 동안'(기간 1년)으로 바뀌어 사설 연재 기간이 1년간 지속된 것처럼 읽힘. 다만 'series'는 '연재'로 대응되어 큰 차이는 아님.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(시간): 'one year'(어느 한 해)가 '한 해 동안'으로 옮겨져 사설 연재가 1년간 이어진 것처럼 읽히는 시간 차이가 있으나, 핵심 사실(대학 시절 사설 연재)은 유지되어 요지와 독자의 행동에는 영향이 없어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대시 삽입절이 문장 분할로 재구성되었으나 시간·대조('now ... again') 연결 관계는 '이제'와 '다시'로 유지되고 지시·초점 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 과거 회고와 계획 서술 → 과거 회고와 계획 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술자의 회고체 '-다' 서술문과 약간 자조적인 태도('엄숙하고 뻔한', '가장 한계가 분명한')가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Yale News를 '예일 뉴스'로 통용 음역·표기하여 같은 대학 신문을 가리키며 제도적 대상이 유지됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 3299,
+    "output_tokens": 851,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

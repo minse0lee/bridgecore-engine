@@ -25,7 +25,7 @@ def chapter(r):
 def main(argv=None):
     p = argparse.ArgumentParser()
     p.add_argument("--items", required=True); p.add_argument("--all", required=True, nargs="+")
-    p.add_argument("--n", type=int, default=5); p.add_argument("--out", required=True)
+    p.add_argument("--n", type=int, default=5); p.add_argument("--next", type=int, default=0); p.add_argument("--out", required=True)
     a = p.parse_args(argv)
     allr = [r for f in a.all for r in rows(f)]
     allr.sort(key=lambda r: r["book_sentence_id"])
@@ -44,13 +44,28 @@ def main(argv=None):
             j -= 1
         prev.reverse()
         nprev.append(len(prev))
+        nxt = []
+        j = i + 1
+        while j < len(allr) and len(nxt) < a.next:
+            q = allr[j]
+            if chapter(q) != chapter(r):
+                break
+            if q["src_paragraph"] != r["src_paragraph"]:
+                nxt.append(q)
+            j += 1
+        sp, tp = r["src_paragraph"], r["tgt_paragraph"]
+        if prev or nxt:
+            sp = "(평가 대상 문장이 속한 문단)\n" + sp
+            tp = "(평가 대상 문장이 속한 문단의 번역)\n" + tp
         if prev:
-            sp = "(앞 문장)\n" + "\n".join(q["src"] for q in prev) + "\n\n(평가 대상 문장이 속한 문단)\n" + r["src_paragraph"]
-            tp = "(앞 문장의 번역)\n" + "\n".join(q["tgt"] for q in prev) + "\n\n(평가 대상 문장이 속한 문단의 번역)\n" + r["tgt_paragraph"]
-        else:
-            sp, tp = r["src_paragraph"], r["tgt_paragraph"]
+            sp = "(앞 문장)\n" + "\n".join(q["src"] for q in prev) + "\n\n" + sp
+            tp = "(앞 문장의 번역)\n" + "\n".join(q["tgt"] for q in prev) + "\n\n" + tp
+        if nxt:
+            sp = sp + "\n\n(뒤 문장)\n" + "\n".join(q["src"] for q in nxt)
+            tp = tp + "\n\n(뒤 문장의 번역)\n" + "\n".join(q["tgt"] for q in nxt)
         out.append({**r, "src_paragraph": sp, "tgt_paragraph": tp,
-                    "context_variant": {"prev_n": a.n, "prev_ids": [q["book_sentence_id"] for q in prev]}})
+                    "context_variant": {"prev_n": a.n, "next_n": a.next, "prev_ids": [q["book_sentence_id"] for q in prev],
+                                        "next_ids": [q["book_sentence_id"] for q in nxt]}})
     with open(a.out, "w", encoding="utf-8") as f:
         for r in out:
             f.write(json.dumps(r, ensure_ascii=False) + "\n")

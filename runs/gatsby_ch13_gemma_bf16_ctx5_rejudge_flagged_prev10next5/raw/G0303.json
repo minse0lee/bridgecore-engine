@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTUXXeNycfhsGzRd4e12",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0303\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"The wind had blown off\",\"tgt_span\":\"바람이 잦아들자\",\"description\":\"바람이 불어 지나가 버렸다(그쳤다)는 의미를 '잦아들자'로 옮김. 바람이 약해졌다는 뜻에 가까우나 같은 사태를 기술하므로 의미 차이는 미미함\"},{\"id\":\"E002\",\"src_span\":\"a persistent organ sound as the full bellows of the earth blew the frogs full of life\",\"tgt_span\":\"대지의 거대한 풀무가 개구리들에게 생명력을 불어넣는 듯 끊임없는 오르간 소리가 울려 퍼졌다\",\"description\":\"'as'(대지의 풀무가 개구리를 생명으로 부풀리는 동안)의 실제 진행을 '~하는 듯'이라는 비유로 바꿔, 확정된 서술이 추측·비유로 약해지고 오르간 소리와 풀무의 관계가 달라짐. 또한 'full of life'(생명으로 가득 채움)가 '생명력을 불어넣는'으로 옮겨져 의미가 근접함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1(확실성): 'as'절의 실제 사태가 '불어넣는 듯'이라는 추측·비유로 바뀌었으나 핵심 사실(소란스러운 밝은 밤, 날갯짓 소리, 지속적인 오르간 소리, 개구리)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2(연결 관계): 'as'가 나타내는 동시·인과 관계(풀무가 개구리를 부풀리는 동안/그래서 소리가 남)가 '~하는 듯'이라는 비유적 수식으로 바뀌어 오르간 소리와 풀무 사이의 연결이 달라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사 → 장면 묘사. 밤의 분위기를 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 풍경 묘사로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술자의 문어체 서술 어조가 '~다' 문체로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2983,
+    "output_tokens": 1032,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

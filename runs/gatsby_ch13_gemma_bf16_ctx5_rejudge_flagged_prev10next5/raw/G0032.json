@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTUUHPoA9UN3TVAuB76n",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0032\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"an original settler\",\"tgt_span\":\"이 땅의 원주민\",\"description\":\"'original settler'(최초 정착민)가 '원주민'(토착민)으로 바뀜. 새로 온 사람이 최초 정착자라는 뜻이 이미 살던 토착민이라는 뜻으로 달라짐\"},{\"id\":\"E002\",\"src_span\":\"I was a guide, a pathfinder, an original settler.\",\"tgt_span\":\"이 땅의 원주민이 된 기분이었다\",\"description\":\"사실 서술이 '~된 기분이었다'라는 주관적 느낌으로 바뀌어 확실성이 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'original settler'(최초 정착민)가 '원주민'으로 바뀌어 대상이 달라졌고, 화자의 자기 인식이 '~된 기분'으로 바뀌어 확실성도 달라졌습니다. 다만 안내자·개척자라는 핵심 서술은 유지되고 문맥상 요지는 크게 어긋나지 않아 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현이 없는 병렬 서술이며 병렬 구조는 '이자…, 그리고'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"자기 인식을 서술하는 설명 → 자기 인식을 서술하는 설명. 기능이 같은 종류입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술 본문의 평서체가 유지되며 관계·호칭상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"제도·단위·관습 같은 문화 고유 대상이 없습니다. 'original settler'를 '원주민'으로 옮긴 문제는 어휘 선택에 따른 의미 문제로 Semantic에서 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2859,
+    "output_tokens": 877,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

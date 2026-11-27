@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTUUGoaCtZHL9JLZ4sns",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0027\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"muttered Finnish wisdom to herself\",\"tgt_span\":\"핀란드어로 된 지혜로운 말들을 혼잣말로 중얼거리곤 했다\",\"description\":\"'Finnish wisdom'(핀란드식 지혜, 아이러니한 표현)을 '핀란드어로 된 지혜로운 말들'로 옮겨 지혜의 출처·성격이 언어 쪽으로 약간 바뀜. 다만 핵심 내용은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개, 닷지, 핀란드 여인, 침대 정리, 아침 식사, 혼잣말 중얼거림이 모두 유지되며, 'Finnish wisdom'의 '핀란드어로 된 지혜로운 말'은 같은 사태를 기술하는 허용 범위의 표현입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'at least'는 '정확히는'으로 정정 기능이 유지되고, 'until he ran away'의 시간 관계와 관계절 'who'의 지시 대상(핀란드 여인)도 '그녀'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 생활 환경 서술 → 생활 환경 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술자의 서술체 '~했다'가 유지되며 관계상 요구되는 높임·호칭의 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Dodge를 '닷지 자동차'로, Finnish를 '핀란드'로 같은 대상으로 옮겨 한국어 독자가 이해할 수 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 3004,
+    "output_tokens": 807,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

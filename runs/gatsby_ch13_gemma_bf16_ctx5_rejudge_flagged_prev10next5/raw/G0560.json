@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTUbGH1wm7oj5vMGN5Ai",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0560\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"But I wasn’t even trying\",\"tgt_span\":\"하지만 애초에 운전하려고 한 게 아니었어요\",\"description\":\"even(초점)이 빠지고 '운전하려고 하지도 않았다'는 의미가 '애초에 운전하려던 게 아니었다'로 바뀜. 맥락상 '노력조차 하지 않았다'는 뜻(운전 중이 아니었다는 암시)과 달라지고, 이후 '노력조차 안 하다니'와의 연결도 약해짐\"},{\"id\":\"E002\",\"src_span\":\"I wasn’t even trying\",\"tgt_span\":\"정말 그러고 싶어서 한 게 아니었다고요\",\"description\":\"'시도조차 하지 않았다'가 '그러고 싶어서 한 게 아니었다'(의도·희망 문제)로 바뀌고 even의 초점이 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: '시도조차 하지 않았다'가 '애초에 운전하려던 게 아니었다/그러고 싶어서 한 게 아니었다'로 바뀌어 행위(시도 여부)가 의도·희망 여부로 달라졌습니다. 다만 '운전할 의도가 없었다'는 핵심 취지는 비슷하게 남아 요지를 크게 바꾸지는 않습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 3: even이 붙던 초점(시도조차 하지 않음)이 번역에서 사라지고 '애초에'로 대체되어 초점·범위 표현이 달라졌습니다. 이 초점은 뒤 문장의 '노력조차 안 하다니' 반응과 이어집니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"분개하며 해명·항변 → 분개하며 해명·항변. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 같은 규범 표현이 없는 소설 속 항변입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"항의하는 화자의 어조가 '-어요/-다고요'로 유지되고 관계상 어색함이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1548,
+    "output_tokens": 974,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

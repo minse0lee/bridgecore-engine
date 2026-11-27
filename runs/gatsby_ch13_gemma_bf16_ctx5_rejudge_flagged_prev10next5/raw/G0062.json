@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTUUv5vVVuyxiYMi3SYe",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0062\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"burning gardens\",\"tgt_span\":\"활짝 핀 정원들\",\"description\":\"'불타오르는 듯한 정원'이라는 강렬한 이미지가 '활짝 핀 정원'이라는 일반적 개화 묘사로 바뀜. 다만 정원이 꽃으로 타오르는 듯하다는 비유 해석으로는 대체로 같은 사태를 가리킴.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"잔디밭의 시작점, 4분의 1마일, 해시계·벽돌 길·정원을 넘어 달리고 집에서 덩굴이 되어 오른다는 내용이 유지됩니다. 'burning gardens'를 '활짝 핀 정원'으로 옮긴 것은 표현 정도의 차이로 같은 사태를 기술합니다. 힌트의 수치 1, 4는 '4분의 1'의 표기 차이입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'it'이 잔디밭을 가리키는 관계, 'finally when it reached'의 시간 연결, 'as though from the momentum'의 비유 관계가 유지됩니다. 다만 '다다르자서는'은 어색할 뿐 연결을 바꾸지 않습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 풍경 묘사 → 풍경 묘사. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 '-었다'가 유지되며 화자·청자 관계상 문제되는 표현이 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"quarter of a mile을 '4분의 1마일'로 같은 단위·수치로 옮겨 다른 단위로 바꾸지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 3525,
+    "output_tokens": 827,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

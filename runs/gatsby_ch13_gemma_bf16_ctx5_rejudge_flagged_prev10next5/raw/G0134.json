@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTUWAUdH3qEcHrtGwr4n",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0134\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Her grey sun-strained eyes\",\"tgt_span\":\"햇볕에 그을린 회색 눈동자\",\"description\":\"'sun-strained'(햇빛에 찡그려 피로해진)를 '햇볕에 그을린'으로 옮겨 눈동자가 그을렸다는 어색한 뜻이 되었으나, 햇빛과 관련된 눈의 상태라는 큰 틀은 유지됨\"},{\"id\":\"E002\",\"src_span\":\"polite reciprocal curiosity\",\"tgt_span\":\"정중하면서도 호기심 어린 시선\",\"description\":\"'reciprocal'(서로 주고받는, 나도 그녀를 보듯 그녀도 나를 보는 호기심)이 번역에서 빠짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'sun-strained'가 '그을린'으로 바뀌고 'reciprocal'(상호적 호기심)이 누락되었으나 눈빛이 정중한 호기심을 띠고 나를 마주 본다는 핵심 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'her'가 베이커 양, 'me'가 화자를 가리키는 관계와 'out of ... face' 구조가 '표정 속에서'로 유지되며 연결·초점 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 외양·시선 묘사 → 인물 외양·시선 묘사. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 묘사문으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"출판물 서술체 '-다'가 유지되며 인물 관계나 태도 표현에 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1962,
+    "output_tokens": 845,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

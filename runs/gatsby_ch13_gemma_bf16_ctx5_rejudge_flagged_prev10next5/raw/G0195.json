@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTUWxvdgdVyRTCAkSjCo",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0195\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"She was only extemporizing\",\"tgt_span\":\"그녀는 그저 즉흥적으로 내뱉은 말이었겠지만\",\"description\":\"'그녀가 즉흥적으로 말하고 있었다'는 사실 서술이 '말이었겠지만'이라는 추측 표현으로 바뀌어 확실성이 달라짐. 주어 '그녀'와 서술어 '말'이 어긋나는 점은 어색함일 뿐 오류로 보지 않음\"},{\"id\":\"E002\",\"src_span\":\"one of those breathless, thrilling words\",\"tgt_span\":\"숨 가쁘고 전율 돋는 말들 속에\",\"description\":\"'그런 말 중 하나'라는 단수 표현이 복수 '말들'로 바뀜. 같은 사태를 기술하는 정도의 변화로 의미 변화는 미미함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): 단정적 서술(was only extemporizing)이 추측('~었겠지만')으로 바뀌었으나, 즉흥적으로 말했다는 핵심 사실과 온기가 흘러나왔다는 내용은 유지되어 minor입니다. 단수가 복수로 바뀐 E002는 사태를 바꾸지 않아 오류로 연결하지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'only'가 '그저'로 옮겨져 초점이 유지되고, but의 양보·대조 관계도 '~겠지만'으로 보존되며 her의 지시 대상도 그녀로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 인상·상황을 묘사하는 서술 → 같은 서술 기능으로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 서술 문장으로 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 화자의 서술체 문어가 '~했다'식 서술로 유지되며 관계에 따른 높임 문제는 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상(제도, 단위, 관습 등)이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2525,
+    "output_tokens": 943,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

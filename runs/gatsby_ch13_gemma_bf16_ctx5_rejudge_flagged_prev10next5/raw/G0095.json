@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTUVYDJicVwkcVMSA36B",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0095\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the object she was balancing had obviously tottered a little and given her something of a fright\",\"tgt_span\":\"턱 위에 올려둔 무언가가 분명 조금 흔들렸고, 그 바람에 그녀는 내심 깜짝 놀란 모양이었다\",\"description\":\"'obviously'(겉으로 보아 분명함)가 '분명'으로 옮겨져 대체로 유지되나, 'given her something of a fright'(약간 놀라게 함)가 '내심 깜짝 놀란 모양'으로 바뀌어 정도와 추측성이 조금 달라짐. 의미·기능을 바꾸지 않는 수준의 차이임.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"베이커 양의 입술 움직임, 고개 끄덕임, 고개를 뒤로 젖힘, 턱 위 물체가 흔들려 놀람이라는 인물·행위·인과가 모두 유지되며 달라진 것은 놀람의 정도 표현뿐입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 대상, 시간 순서(끄덕임 후 다시 젖힘), 흔들림과 놀람의 인과 연결이 문장 분할 후에도 '그 바람에'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 설명 → 서술 설명. 인물의 행동을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 인물 행동의 서술이며 의무·허가·금지 같은 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Miss Baker'가 '베이커 양'으로, 서술자의 담담한 서술체가 '-했다' 문어체로 유지되어 관계와 격식이 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Miss'를 '양'으로 옮긴 것은 미혼 여성에 대한 호칭으로 통용되는 대응이며 문화적 의미가 유지됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2921,
+    "output_tokens": 880,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTUeNhpDqDh5y3re38gz",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0328\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the Follies\",\"tgt_span\":\"'폴리스'\",\"description\":\"Ziegfeld Follies(지그펠드 폴리스)라는 브로드웨이 쇼를 '폴리스'로 음역해 따옴표로 표기했으며 쇼라는 설명이 없어 한국어 독자가 공연 이름임을 알기 어려움\"},{\"id\":\"E002\",\"src_span\":\"the orchestra leader varies his rhythm obligingly for her, and there is a burst of chatter as the erroneous news goes around\",\"tgt_span\":\"오케스트라 지휘자가 그녀를 위해 친절히 리듬을 바꾸자, 그녀가 … 잘못된 소문이 퍼지며 수다 소리가 터져 나왔다\",\"description\":\"'지휘자가 리듬을 바꿈'과 '소문이 돈다'는 원문의 병렬 연결이 '-자'로 지휘자의 행동이 소문의 원인처럼 읽히는 시간·인과 관계로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"정적, 지휘자가 리듬을 바꿈, 잘못된 소문, 길다 그레이의 대역, 수다 터짐이 모두 유지되며 '폴리스'는 통용 음역으로 지시 대상은 유지됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2(연결 관계): 병렬로 이어진 두 사건이 '바꾸자'로 이어져 지휘자의 행동이 소문과 수다의 원인처럼 읽힙니다. 다만 핵심 사실은 유지되어 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 파티 분위기를 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서사 묘사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문의 평서체 '-었다'가 유지되며 화자·청자 관계에서 달라진 점이 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(제도적 의미): 지그펠드 폴리스라는 1920년대 브로드웨이 쇼 문화가 '폴리스'라는 음역만으로는 전달되지 않습니다. 길다 그레이의 이름이 남아 있어 대략 짐작할 수 있으므로 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 3451,
+    "output_tokens": 1042,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
