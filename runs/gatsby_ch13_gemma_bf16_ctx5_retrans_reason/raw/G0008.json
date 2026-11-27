@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT6o4MSLYEXLqT3rPuhj",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0008\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a sense of the fundamental decencies is parcelled out unequally at birth\",\"tgt_span\":\"기본적인 예의범절이라는 것은 태어날 때부터 불평등하게 배분된다는 사실\",\"description\":\"'a sense of the fundamental decencies'(기본적 예의에 대한 감각)에서 '감각'이 빠져 예의범절 자체가 불평등하게 배분되는 것으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 불평등하게 배분되는 대상이 '기본적 예의에 대한 감각'에서 '예의범절' 자체로 바뀌었으나 핵심 사실(타고난 불평등)과 화자의 두려움은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"my father/I의 지시 관계와 if 조건 관계가 유지됩니다. '~지만'으로 삽입절을 앞에 두는 것은 자연스러운 재구성입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 서술·고백 → 서술·고백. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"아들이 자신의 아버지를 높여 '암시하셨고'로 쓰고 서술자의 회고체 평어가 유지되며, 스스로를 속물스럽다 하는 자조의 태도도 남아 있습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1623,
+    "output_tokens": 730,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

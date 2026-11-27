@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT6nBTJ4eveC6E7EVqBH",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0004\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"veteran bores\",\"tgt_span\":\"지독하게 지루한 인간들\",\"description\":\"'veteran'(노련한, 오랜 경력의 지루한 사람들)이 '지독하게'라는 정도 강조로 바뀌었고 '인간들'이라는 다소 거친 어휘를 썼으나, 지루한 사람들이라는 핵심 대상과 부정적 평가는 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"판단 유보 성향, 다양한 기이한 성격의 사람들을 접함, 많은 지루한 사람들의 희생양이 됨이 모두 유지된다. 'not a few'(적지 않은)가 명시되지 않았으나 희생양 맥락에서 수량 의미가 크게 달라지지 않고, 'veteran'이 '지독하게'로 바뀐 것은 평가어 정도의 차이일 뿐이다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'a habit'가 가리키는 '판단 유보'가 '이런 습관'으로 유지되고, 'and also'의 병렬·첨가 관계도 '~지만 동시에 ~도 했다'로 남아 있다. 'In consequence'의 인과도 '그 결과'로 유지된다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 성향과 그 결과를 서술하는 설명 → 설명. 기능이 유지된다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 문장이다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 화자의 회고적 서술체가 '~했다'로 유지되고, 지루한 사람들에 대한 다소 비꼬는 태도도 '인간들' 등으로 전달된다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 14219
+    },
+    "cache_creation_input_tokens": 14219,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1596,
+    "output_tokens": 835,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

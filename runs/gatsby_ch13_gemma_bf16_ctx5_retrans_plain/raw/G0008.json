@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT6oHLnEarprrw2R2EVQ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0008\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"missing something\",\"tgt_span\":\"무언가 중요한 것을 놓칠까 봐\",\"description\":\"'something'이 '무언가 중요한 것'으로 바뀌어 원문에 없는 '중요한'이 더해짐(정도 차이 수준의 첨가)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"아버지가 암시하고 화자가 되풀이한 내용, 예의범절의 불평등한 분배, 무언가 놓칠까 두렵다는 점이 유지됩니다. '중요한'은 문맥상 함의되는 정도의 보충이라 요지를 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"질문 1·2·3 모두 아니오: 'that'이 가리키는 불평등 분배 사실, if 조건 관계, 'as my father suggested' 삽입절과 'still'의 초점이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 태도·판단유보 이유를 서술하는 기능 → 같은 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범을 정하는 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회고 서술의 격식이 유지되고, 아버지에 대한 높임('암시하셨고')은 관계에 맞으며 'snobbishly'의 자기 아이러니 태도도 '속물스럽게'로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·단위·관습 대상이 없습니다. 'fundamental decencies'는 일반 어휘로 옮겨진 것입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1633,
+    "output_tokens": 769,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

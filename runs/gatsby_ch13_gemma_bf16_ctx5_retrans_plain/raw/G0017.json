@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT6pQ7cDauFsZYr3UwSm",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0017\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"sent a substitute to the Civil War\",\"tgt_span\":\"남북 전쟁 때는 대리인을 보냈고\",\"description\":\"전쟁에 나갈 '대역(병역 대체자)'을 보냈다는 뜻이 일반적인 '대리인'으로 바뀌어, 병역을 피하려 대체 병사를 보낸 의미가 전달되지 않음\"},{\"id\":\"E002\",\"src_span\":\"came here in fifty-one\",\"tgt_span\":\"51년도에\",\"description\":\"1851년이 '51년도'로 옮겨져 세기가 명시되지 않음(문맥상 통용 가능)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'substitute'(전쟁에 대신 나간 병사)가 '대리인'으로 바뀌어 행위 내용이 달라졌으나, 남북 전쟁에 사람을 대신 보냈다는 요지는 읽을 수 있어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'but'의 대조 관계와 'who' 관계절의 지시 대상(할아버지의 형제)이 유지되고, 문장 분할로 연결이 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"가문 내력 서술 → 가문 내력 서술. 화자의 설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회고 서술의 평서체 문체가 유지되며 특정 청자 관계의 높임 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 남북 전쟁 당시 돈을 주고 대체 병사를 보내던 징집 대체 관행이 '대리인'이라는 일반 어휘로 옮겨져 제도적 의미가 전달되지 않습니다. 남북 전쟁이라는 시점이 남아 요지는 읽을 수 있어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 972,
+    "output_tokens": 893,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

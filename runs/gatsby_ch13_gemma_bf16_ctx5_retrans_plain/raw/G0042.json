@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT6tC1D55yjFsoZPDppe",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0042\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"separated only by a courtesy bay\",\"tgt_span\":\"작은 만 하나를 사이에 두고\",\"description\":\"'only'(오직 ~로만 분리)의 초점이 사라지고, 'courtesy bay'의 '명목상의/형식적인 만'이라는 뜻이 '작은 만'으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'courtesy bay'(명목상 만)가 '작은 만'으로 바뀌어 내용이 달라졌으나, 두 땅과 사이의 만이라는 핵심 사실은 유지되어 요지 이해에는 큰 영향이 없습니다. 20마일, 두 개 등 수량은 일치하며 힌트의 숫자 '2'는 '두 개'(pair)의 번역으로 오경보입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3: 'only'가 붙던 초점·범위 표현(만으로만 분리됨)이 번역에서 사라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술적 묘사 → 서술적 묘사. 지형을 설명하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 '~있었다'로 서술 어조가 유지되며 특별한 높임·호칭 관계는 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"마일 단위와 롱아일랜드 해협, 서반구가 원문과 같은 대상·단위로 옮겨져 있고 다른 단위로 환산하지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1452,
+    "output_tokens": 774,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

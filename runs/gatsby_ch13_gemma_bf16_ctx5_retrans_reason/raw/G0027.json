@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT6qpMtr3mSSN8XxEVqM",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0027\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I had a dog\",\"tgt_span\":\"개 한 마리를 키웠는데\",\"description\":\"'가지고 있었다(had)'가 '키웠다'로 바뀌어 소유 관계가 사육 행위로 옮겨졌고, 'and an old Dodge and a Finnish woman'의 병렬 구조가 'had'를 공유하지 않고 '있었다'로 이어지나 동일 맥락의 통상 대응이라 의미 변화는 경미함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개, 낡은 닷지, 핀란드 여인, 침대 정리·아침 준비·혼잣말 등 인물·행위·수량이 모두 유지되며 '키웠다'는 개에 대한 had의 자연스러운 대응입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"he→생략된 개, who절→'그녀는'으로 지시 대상이 유지되고 'at least'의 정정 관계도 '정확히는'으로 남아 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 주변 상황 서술 → 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회고 서술의 평서체가 유지되고 관계상 문제 있는 호칭 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Dodge는 '닷지'로 통용 음역되고 Finnish는 '핀란드'로 같은 대상을 가리켜 문화적 지시가 유지됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1218,
+    "output_tokens": 732,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

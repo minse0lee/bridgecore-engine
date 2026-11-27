@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT6ssTFQroq3QjbKu6CL",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0042\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a pair of enormous eggs\",\"tgt_span\":\"거대한 달걀 모양의 땅 두 개\",\"description\":\"'달걀 모양의 땅'으로 풀어 옮겼으나 앞 문단에서 땅 모양(formations of land)이라고 했으므로 같은 대상을 가리켜 의미 변화가 없음(은유를 명시화한 통상적 번역). 오류로 보지 않을 수 있으나 기록상 차이만 표시.\"},{\"id\":\"E002\",\"src_span\":\"a courtesy bay\",\"tgt_span\":\"명목상의 만\",\"description\":\"courtesy bay(명목상 '만'이라 불릴 뿐인 작은 만)를 '명목상의 만'으로 옮겨 의미가 대체로 유지됨. 의미 변화 없음.\"},{\"id\":\"E003\",\"src_span\":\"the most domesticated body of salt water in the Western hemisphere, the great wet barnyard of Long Island Sound\",\"tgt_span\":\"서반구에서 가장 길들여진 바다인 롱아일랜드 해협이라는 거대하고 축축한 가축 우리 같은 바다\",\"description\":\"동격 구조가 '롱아일랜드 해협이라는 … 가축 우리 같은 바다'로 재구성되어 'the great wet barnyard of Long Island Sound'가 바다를 가리키는 은유라는 점은 유지되나 '바다'가 중복됨. 의미 변화 없음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"20마일, 윤곽이 같은 거대한 쌍둥이 땅, 명목상의 만, 서반구에서 가장 길들여진 바다, 거대하고 축축한 가축 우리 같은 롱아일랜드 해협이 모두 유지됩니다. 자동 힌트의 '2'는 'a pair'를 '두 개'로 옮긴 것이어서 오경보입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'only'가 만 하나만을 사이에 둔다는 초점으로 '단지…만'에 유지되고, 롱아일랜드 해협과 가축 우리의 동격 관계도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"풍경 묘사 서술 → 풍경 묘사 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가를 나타내는 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술 화자의 문어체 과거형 서술이 유지되고 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"마일 단위를 그대로 유지하고 롱아일랜드 해협 등 지명을 정확히 옮겼으며 다른 단위로 바꾸지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1468,
+    "output_tokens": 1137,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

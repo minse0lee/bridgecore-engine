@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT6nWsbaJdj4QrTfM6it",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0005\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"The abnormal mind\",\"tgt_span\":\"비정상적인 정신을 가진 이들\",\"description\":\"추상적 단수 'mind'(비정상적 정신 일반)를 '정신을 가진 이들'이라는 사람들로 풀어 옮김. 같은 사태를 기술하므로 의미 변화는 없는 통상적 표현 변환.\"},{\"id\":\"E002\",\"src_span\":\"wild, unknown men\",\"tgt_span\":\"정체를 알 수 없는 거친 이들\",\"description\":\"'unknown'을 '정체를 알 수 없는'으로 옮김. 알려지지 않은 사람들이라는 뜻과 대체로 일치하며 'men'을 '이들'로 옮겨 성별 정보가 약해졌으나 핵심 의미는 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"비정상적 정신이 정상인의 이 기질을 알아채고 달라붙는다는 점, 대학 시절 비밀스러운 슬픔을 알았다는 이유로 억울하게 정치꾼이라 비난받았다는 점이 모두 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'so it came about that'은 '그래서', 'because'는 '~는 이유로'로 인과 관계가 유지되고 'this quality'도 '이런 기질'로 같은 대상을 가리킵니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 경험 설명 → 서술자의 경험 설명. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 회고조 서술문체가 '~했다' 평서체로 유지되며 화자·청자 관계에 따른 높임 문제는 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'politician'은 여기서 책략가·모사꾼의 함의로 쓰이며 '정치꾼'이라는 부정적 뉘앙스의 통용 표현으로 옮겨 이해 가능합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1647,
+    "output_tokens": 897,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
