@@ -7,10 +7,10 @@ date: "2026-11-28"
 # 1. 이 문서가 무엇인가
 
 - 검증엔진이 문장을 판정할 때 함께 받는 작품 프로필의 **중간 판**입니다. 상세 판(약 4,500자)에서 단역 이름과 장별 줄거리를 뺐습니다.
-- 프로필은 모두 35줄입니다. 원문 문장을 근거로 댄 줄 31줄, 원문에서 계산하거나 미루어 본 **추정** 3줄, 사실이 아닌 안내 문장 1줄입니다.
+- 프로필은 모두 32줄입니다. 원문 문장을 근거로 댄 줄 31줄, 추정 0줄(v1에서 모두 뺌), 사실이 아닌 안내 문장 1줄입니다.
 - 줄마다 근거가 된 원문 문장의 번호와 원문, 현재 번역을 붙였습니다. 현재 번역은 읽기 편하라고 붙인 것이고, 번역이 틀렸을 수 있으니 근거는 원문입니다.
 - 엔진에는 프로필 줄만 들어갑니다. 문장 번호와 근거 문장은 들어가지 않습니다.
-- 엔진 입력 분량은 3,029자입니다.
+- 엔진 입력 분량은 2,979자입니다.
 
 # 2. 엔진에 들어가는 머리말
 
@@ -27,45 +27,42 @@ date: "2026-11-28"
 
 ## 3.2 인물과 관계
 
-3. 닉 캐러웨이(Nick Carraway): 화자. 중서부 출신, 1915년 뉴헤이븐(예일) 졸업, 참전 뒤 1922년 봄 동부로 와서 채권 일을 배운다. 웨스트에그의 작은 집에 세 들어 살고 개츠비의 옆집이다. 작중에 서른 살이 된다. [S000042, S000045, S000047, S000050, S000066, S000071, S000073, S000074, S000076, S002260]
+3. 닉 캐러웨이(Nick Carraway): 화자. 중서부 출신, 1915년 뉴헤이븐(New Haven) 졸업(대학 때 Yale News에 글을 썼다), 참전 뒤 1922년 봄 동부로 와서 채권 일을 배운다. 웨스트에그의 작은 집에 세 들어 살고 개츠비의 옆집이다. 작중에 서른 살이 된다. [S000042, S000045, S000064, S000047, S000050, S000066, S000071, S000073, S000074, S000076, S002260]
 4. 제이 개츠비(Jay Gatsby): 웨스트에그 대저택의 주인. 서른을 한두 살 넘겼다. 본명은 제임스 개츠(James Gatz)이고 노스다코타 출신이며, 열일곱 살에 이름을 바꿨다. 아버지는 그를 "지미(Jimmy)"라고 부른다. 주말마다 큰 파티를 연다. 지나치게 격식을 차린 말투를 쓴다. [S000074, S000725, S001530, S001531, S001532, S002766, S002776, S000587]
 5. 개츠비와 데이지: 1917년 루이빌에서 개츠비가 장교였을 때 사귀었다. 개츠비는 전쟁에서 소령까지 올랐고, 전쟁 뒤 1919년에 옥스퍼드에 다섯 달 머물렀다(본인 설명). [S001141, S001158, S001159, S002493, S002117]
-6. 데이지 뷰캐넌(Daisy Buchanan, 결혼 전 성 Fay): 닉의 먼 친척(second cousin once removed, 본문에서는 cousin이라고 부름). 루이빌 출신. 톰의 아내. [S000078, S000124, S000080, S001146, S001147, S001168]
-7. 데이지는 스물셋쯤으로, 닉보다 예닐곱 살 아래다. **(추정)** [S001141, S001147]
-8. 톰 뷰캐넌(Tom Buchanan): 데이지의 남편. 서른 살. 시카고의 큰 부잣집 출신으로 뉴헤이븐(예일)에서 미식축구 선수였고 닉과는 대학 때부터 아는 사이다. 이스트에그에 산다. 거만하고 위압적이다. 머틀과 내연 관계다. [S000080, S000091, S000081, S000078, S000077, S000168, S000347]
-9. 패미(Pammy): 톰과 데이지의 딸. 세 살. [S000131, S000133, S001871]
-10. 조던 베이커(Jordan Baker): 데이지의 루이빌 시절 친구(데이지보다 두 살 아래). 골프 선수. 닉과 가까워진다. 본문에서 "베이커 양(Miss Baker)"과 "조던"은 같은 사람이다. [S000121, S000287, S000286, S001142, S001147, S000880, S000882]
-11. 조지 윌슨(George Wilson): 재의 계곡에서 자동차 정비소를 한다. 머틀의 남편. [S000358, S000359, S000363, S000384]
-12. 머틀 윌슨(Myrtle Wilson): 조지의 아내, 서른 중반. 톰의 내연녀. "윌슨 부인(Mrs. Wilson)"은 머틀이다. [S000378, S000347, S000397, S000430, S002289]
-13. 캐서린(Catherine): 머틀의 자매(원문은 sister). 서른쯤. [S000432, S000451]
-14. 캐서린은 나이로 보면 머틀의 동생이다. **(추정)** [S000378, S000451]
-15. 맥키 부부(Mr. and Mrs. McKee): 뉴욕 아파트의 아래층 이웃. 남편 체스터 맥키는 사진가. 맥키 부인의 이름은 루실(Lucille)이다. 개츠비의 파티에 나오는 루실은 이름만 같은 다른 사람이다. [S000456, S000458, S000473, S000533, S000634]
-16. 마이어 울프심(Meyer Wolfshiem): 뉴욕의 도박사. 쉰 살. 1919년 월드 시리즈 승부 조작의 배후로 소개된다. 개츠비와 사업으로 얽힌 사이이고, 본인은 자기가 개츠비를 키웠다고 말한다. Oxford를 "Oggsford"라고 발음한다. [S001118, S001110, S001119, S002228, S002832, S001083]
-17. 댄 코디(Dan Cody): 광산으로 큰돈을 번 부자. 젊은 개츠비를 요트에 태워 곁에 두고 일을 시켰다. [S001550, S001551, S001549, S001559]
-18. 헨리 C. 개츠(Henry C. Gatz): 개츠비의 아버지. 본문의 "개츠 씨(Mr. Gatz)"는 아버지이고, "제임스 개츠"는 개츠비 본인의 옛 이름이다. [S002750, S002752, S002769, S001531]
-19. 클립스프링거(Ewing Klipspringer): 개츠비 집에 눌러사는 남자. 별명 '하숙생(the boarder)'. [S000930, S001487]
-20. 올빼미 눈(Owl Eyes): 개츠비의 서재에서 만난, 큰 안경을 쓴 남자. 이름이 나오지 않아 닉이 이렇게 부른다. [S000668, S000830, S002910]
-21. 미카엘리스(Michaelis): 윌슨의 정비소 옆에서 커피숍을 하는 젊은 그리스인. [S002269]
-22. 닉의 집에는 핀란드인 가정부가 있다("my Finn"). [S000053, S001789]
+6. 데이지 뷰캐넌(Daisy Buchanan, 결혼 전 성 Fay): 닉의 먼 친척(second cousin once removed, 본문에서는 cousin이라고 부름). 루이빌 출신. 톰의 아내. 1917년에 열여덟 살이었다. [S000078, S000124, S000080, S001141, S001146, S001147, S001168]
+7. 톰 뷰캐넌(Tom Buchanan): 데이지의 남편. 서른 살. 시카고의 큰 부잣집 출신으로 뉴헤이븐(New Haven)에서 미식축구 선수였고 닉과는 대학 때부터 아는 사이다. 이스트에그에 산다. 거만하고 위압적이다. 머틀과 내연 관계다. [S000080, S000091, S000081, S000078, S000077, S000168, S000347]
+8. 패미(Pammy): 톰과 데이지의 딸. 세 살. [S000131, S000133, S001871]
+9. 조던 베이커(Jordan Baker): 데이지의 루이빌 시절 친구(데이지보다 두 살 아래). 골프 선수. 닉과 가까워진다. 본문에서 "베이커 양(Miss Baker)"과 "조던"은 같은 사람이다. [S000121, S000287, S000286, S001142, S001147, S000880, S000882]
+10. 조지 윌슨(George Wilson): 재의 계곡에서 자동차 정비소를 한다. 머틀의 남편. [S000358, S000359, S000363, S000384]
+11. 머틀 윌슨(Myrtle Wilson): 조지의 아내, 서른 중반. 톰의 내연녀. "윌슨 부인(Mrs. Wilson)"은 머틀이다. [S000378, S000347, S000397, S000430, S002289]
+12. 캐서린(Catherine): 머틀의 자매(원문은 sister). 서른쯤. [S000432, S000451]
+13. 맥키 부부(Mr. and Mrs. McKee): 뉴욕 아파트의 아래층 이웃. 남편 체스터 맥키는 사진가. 맥키 부인의 이름은 루실(Lucille)이다. 개츠비의 파티에 나오는 루실은 이름만 같은 다른 사람이다. [S000456, S000458, S000473, S000533, S000634]
+14. 마이어 울프심(Meyer Wolfshiem): 뉴욕의 도박사. 쉰 살. 1919년 월드 시리즈 승부 조작의 배후로 소개된다. 개츠비와 사업으로 얽힌 사이이고, 본인은 자기가 개츠비를 키웠다고 말한다. Oxford를 "Oggsford"라고 발음한다. [S001118, S001110, S001119, S002228, S002832, S001083]
+15. 댄 코디(Dan Cody): 광산으로 큰돈을 번 부자. 젊은 개츠비를 요트에 태워 곁에 두고 일을 시켰다. [S001550, S001551, S001549, S001559]
+16. 헨리 C. 개츠(Henry C. Gatz): 개츠비의 아버지. 본문의 "개츠 씨(Mr. Gatz)"는 아버지이고, "제임스 개츠"는 개츠비 본인의 옛 이름이다. [S002750, S002752, S002769, S001531]
+17. 클립스프링거(Ewing Klipspringer): 개츠비 집에 눌러사는 남자. 별명 '하숙생(the boarder)'. [S000930, S001487]
+18. 올빼미 눈(Owl Eyes): 개츠비의 서재에서 만난, 큰 안경을 쓴 남자. 이름이 나오지 않아 닉이 이렇게 부른다. [S000668, S000830, S002910]
+19. 미카엘리스(Michaelis): 윌슨의 정비소 옆에서 커피숍을 하는 젊은 그리스인. [S002269]
+20. 닉의 집에는 핀란드인 가정부가 있다("my Finn"). [S000053, S001789]
 
 ## 3.3 장소와 반복되는 대상
 
-23. 웨스트에그(West Egg): 닉과 개츠비가 사는 곳. 이스트에그(East Egg): 뷰캐넌 부부가 사는 곳. 두 곳은 만을 사이에 두고 마주 본다. [S000068, S000071, S000074, S000077]
-24. "the Sound"는 롱아일랜드 해협이다. [S000068, S000072]
-25. 초록 불빛(green light): 만 건너 데이지 집 선착장 끝에 켜져 있는 불빛. 개츠비가 자기 집 쪽에서 바라본다. [S000334, S000335, S001459, S001460, S002994]
-26. 재의 계곡(valley of ashes): 웨스트에그와 뉴욕 사이의 잿더미 지대. 윌슨의 정비소와 T. J. 에클버그 박사(Doctor T. J. Eckleburg)의 안과 광고판이 있다. 에클버그는 사람이 아니라 광고판 속 눈이다. [S000338, S000339, S000341, S000342, S000344]
-27. 뉴욕: 톰과 머틀의 아파트(158번가), 플라자 호텔. [S000435, S001142]
-28. 루이빌(Louisville): 데이지와 조던의 고향. 캠프 테일러(Camp Taylor)의 장교들이 데이지를 찾아왔다. [S001147, S001148]
-29. "New Haven"은 예일 대학을 가리키는 말로 쓰인다. **(추정)** [S000045, S000064]
+21. 웨스트에그(West Egg): 닉과 개츠비가 사는 곳. 이스트에그(East Egg): 뷰캐넌 부부가 사는 곳. 두 곳은 만을 사이에 두고 마주 본다. [S000068, S000071, S000074, S000077]
+22. "the Sound"는 롱아일랜드 해협이다. [S000068, S000072]
+23. 초록 불빛(green light): 만 건너 데이지 집 선착장 끝에 켜져 있는 불빛. 개츠비가 자기 집 쪽에서 바라본다. [S000334, S000335, S001459, S001460, S002994]
+24. 재의 계곡(valley of ashes): 웨스트에그와 뉴욕 사이의 잿더미 지대. 윌슨의 정비소와 T. J. 에클버그 박사(Doctor T. J. Eckleburg)의 안과 광고판이 있다. 에클버그는 사람이 아니라 광고판 속 눈이다. [S000338, S000339, S000341, S000342, S000344]
+25. 뉴욕: 톰과 머틀의 아파트(158번가), 플라자 호텔. [S000435, S001142]
+26. 루이빌(Louisville): 데이지와 조던의 고향. 캠프 테일러(Camp Taylor)의 장교들이 데이지를 찾아왔다. [S001147, S001148]
 
 ## 3.4 헷갈리기 쉬운 점
 
-30. 대사에서 누가 누구에게 말하는지는 앞뒤 문장으로 정해진다. 한 줄짜리 대사만 보고 말 상대나 가리키는 대상을 단정하지 않는다. (안내 문장)
-31. 개츠비에 대해서는 작중 인물들이 소문(사람을 죽였다, 독일 스파이였다, 카이저의 친척이다, 밀주업자다)을 말한다. 소문을 전하는 대사인지, 서술자가 사실로 말하는 문장인지 구분한다. [S000646, S000649, S000498, S000914]
-32. 4장에서 개츠비가 닉에게 하는 자기소개(중서부 부잣집의 아들, 집안 대대로 옥스퍼드에서 공부)는 6장에 나오는 실제 내력과 다르다. 개츠비 본인의 말과 서술자가 밝히는 사실을 구분한다. [S000963, S001530, S001531]
-33. 7장의 차: 뉴욕으로 갈 때는 톰이 개츠비의 차를, 개츠비와 데이지가 톰의 쿠페를 탔다. 돌아올 때는 개츠비와 데이지가 개츠비의 노란 차를 탔고, 머틀을 친 것은 이 차다. [S001951, S001962, S002247, S002248, S002328, S002339]
-34. 개츠비는 닉에게 데이지가 운전했다고 말하면서 자기가 한 것으로 하겠다고 한다. 톰과 윌슨은 개츠비가 운전했다고 믿는다. 따라서 "개츠비가 머틀을 치었다"는 톰의 말은 그 인물의 믿음이다. [S002402, S002403, S002639, S002970, S002973]
-35. "old sport"는 개츠비가 닉, 톰 등 여러 상대에게 쓰는 말버릇이다. [S000706, S002160]
+27. 대사에서 누가 누구에게 말하는지는 앞뒤 문장으로 정해진다. 한 줄짜리 대사만 보고 말 상대나 가리키는 대상을 단정하지 않는다. (안내 문장)
+28. 개츠비에 대해서는 작중 인물들이 소문(사람을 죽였다, 독일 스파이였다, 카이저의 친척이다, 밀주업자다)을 말한다. 소문을 전하는 대사인지, 서술자가 사실로 말하는 문장인지 구분한다. [S000646, S000649, S000498, S000914]
+29. 4장에서 개츠비가 닉에게 하는 자기소개(중서부 부잣집의 아들, 집안 대대로 옥스퍼드에서 공부)는 6장에 나오는 실제 내력과 다르다. 개츠비 본인의 말과 서술자가 밝히는 사실을 구분한다. [S000963, S001530, S001531]
+30. 7장의 차: 뉴욕으로 갈 때는 톰이 개츠비의 차를, 개츠비와 데이지가 톰의 쿠페를 탔다. 돌아올 때는 개츠비와 데이지가 개츠비의 노란 차를 탔고, 머틀을 친 것은 이 차다. [S001951, S001962, S002247, S002248, S002328, S002339]
+31. 개츠비는 닉에게 데이지가 운전했다고 말하면서 자기가 한 것으로 하겠다고 한다. 톰과 윌슨은 개츠비가 운전했다고 믿는다. 따라서 "개츠비가 머틀을 치었다"는 톰의 말은 그 인물의 믿음이다. [S002402, S002403, S002639, S002970, S002973]
+32. "old sport"는 개츠비가 닉, 톰 등 여러 상대에게 쓰는 말버릇이다. [S000706, S002160]
 
 # 4. 줄별 근거 문장
 
@@ -97,6 +94,8 @@ date: "2026-11-28"
     - 현재 번역: 우리 가족은 이 중서부 도시에서 3대째 명망 있는 부유층으로 살아왔다.
 - S000045: I graduated from New Haven in 1915, just a quarter of a century after my father, and a little later I participated in that delayed Teutonic migration known as the Great War.
     - 현재 번역: 나는 아버지보다 정확히 25년 뒤인 1915년에 뉴헤이븐에서 졸업했고, 조금 지나 제1차 세계대전이라 불리는 그 지체된 게르만족의 이동에 참여했다.
+- S000064: I was rather literary in college—one year I wrote a series of very solemn and obvious editorials for the Yale News—and now I was going to bring back all such things into my life and become again that…
+    - 현재 번역: 대학 시절 나는 꽤 문학적인 편이었다. 한 해 동안은 '예일 뉴스'에 아주 엄숙하고 뻔한 사설들을 연재하기도 했다. 이제 나는 그런 면모를 다시 삶으로 불러들여, 모든 전문가 중에서도 가장 한계가 분명한 전문가인 …
 - S000047: Instead of being the warm centre of the world, the Middle West now seemed like the ragged edge of the universe—so I decided to go East and learn the bond business.
     - 현재 번역: 세상의 따뜻한 중심이었던 중서부는 이제 우주의 너덜너덜한 가장자리처럼 느껴졌고, 그래서 나는 동부로 가서 채권 사업을 배우기로 결심했다.
 - S000050: Father agreed to finance me for a year, and after various delays I came East, permanently, I thought, in the spring of twenty-two.
@@ -154,6 +153,8 @@ date: "2026-11-28"
     - 현재 번역: 나는 사촌을 다시 보았고, 그녀는 낮고 전율이 느껴지는 목소리로 내게 이것저것 묻기 시작했다.
 - S000080: Her husband, among various physical accomplishments, had been one of the most powerful ends that ever played football at New Haven—a national figure in a way, one of those men who reach such an acute…
     - 현재 번역: 그녀의 남편은 여러 신체적 재능을 갖추고 있었는데, 뉴헤이븐에서 미식축구를 했던 이들 중 가장 강력한 엔드 중 한 명이었다. 어떤 면에서는 전국적인 유명 인사였으며, 스물한 살에 이미 정점에 달하는 탁월함을 성취한…
+- S001141: One October day in nineteen-seventeen—
+    - 현재 번역: 1917년 어느 10월의 어느 날—
 - S001146: The largest of the banners and the largest of the lawns belonged to Daisy Fay’s house.
     - 현재 번역: 가장 커다란 깃발과 가장 넓은 잔디밭은 데이지 페이의 집 것이었다.
 - S001147: She was just eighteen, two years older than me, and by far the most popular of all the young girls in Louisville.
@@ -161,14 +162,7 @@ date: "2026-11-28"
 - S001168: In June she married Tom Buchanan of Chicago, with more pomp and circumstance than Louisville ever knew before.
     - 현재 번역: 6월에 그녀는 시카고의 톰 뷰캐넌과 결혼했는데, 루이빌 역사상 유례가 없을 정도로 성대하고 화려한 예식이었다.
 
-**7번 줄 (추정)**
-
-- S001141: One October day in nineteen-seventeen—
-    - 현재 번역: 1917년 어느 10월의 어느 날—
-- S001147: She was just eighteen, two years older than me, and by far the most popular of all the young girls in Louisville.
-    - 현재 번역: 그녀는 겨우 열여덟 살로 나보다 두 살 많았는데, 루이빌의 모든 소녀 중에서 단연 가장 인기가 많았다.
-
-**8번 줄**
+**7번 줄**
 
 - S000080: Her husband, among various physical accomplishments, had been one of the most powerful ends that ever played football at New Haven—a national figure in a way, one of those men who reach such an acute…
     - 현재 번역: 그녀의 남편은 여러 신체적 재능을 갖추고 있었는데, 뉴헤이븐에서 미식축구를 했던 이들 중 가장 강력한 엔드 중 한 명이었다. 어떤 면에서는 전국적인 유명 인사였으며, 스물한 살에 이미 정점에 달하는 탁월함을 성취한…
@@ -185,7 +179,7 @@ date: "2026-11-28"
 - S000347: There is always a halt there of at least a minute, and it was because of this that I first met Tom Buchanan’s mistress.
     - 현재 번역: 그곳에서는 항상 최소 1분 정도 정차가 이루어지는데, 내가 톰 뷰캐넌의 정부를 처음 만난 것도 바로 이 때문이었다.
 
-**9번 줄**
+**8번 줄**
 
 - S000131: Then she added irrelevantly: “You ought to see the baby.”
     - 현재 번역: 그러더니 그녀는 뜬금없이 덧붙였다. “당신도 아기를 봐야 하는데.”
@@ -194,7 +188,7 @@ date: "2026-11-28"
 - S001871: “Come, Pammy.”
     - 현재 번역: “이리 오렴, 패미.”
 
-**10번 줄**
+**9번 줄**
 
 - S000121: At any rate, Miss Baker’s lips fluttered, she nodded at me almost imperceptibly, and then quickly tipped her head back again—the object she was balancing had obviously tottered a little and given her…
     - 현재 번역: 어쨌든 베이커 양은 입술을 살짝 달싹이더니, 거의 보이지 않을 정도로 내게 고개를 끄덕였다가 다시 빠르게 뒤로 젖혔다. 턱 위에 올려둔 무언가가 분명 조금 흔들렸고, 그 바람에 그녀는 내심 깜짝 놀란 모양이었다.
@@ -211,7 +205,7 @@ date: "2026-11-28"
 - S000882: I wasn’t actually in love, but I felt a sort of tender curiosity.
     - 현재 번역: 실제로 사랑에 빠진 것은 아니었지만, 일종의 다정한 호기심 같은 것을 느꼈다.
 
-**11번 줄**
+**10번 줄**
 
 - S000358: One of the three shops it contained was for rent and another was an all-night restaurant, approached by a trail of ashes; the third was a garage—Repairs.
     - 현재 번역: 그곳에 있는 세 개의 상점 중 하나는 임대 중이었고, 또 다른 하나는 재가 날리는 길 끝에 있는 심야 식당이었다. 세 번째는 정비소였다.
@@ -222,7 +216,7 @@ date: "2026-11-28"
 - S000384: A white ashen dust veiled his dark suit and his pale hair as it veiled everything in the vicinity—except his wife, who moved close to Tom.
     - 현재 번역: 주변의 모든 것을 덮고 있는 하얀 재 같은 먼지가 그의 어두운 정장과 창백한 머리카락 위에도 내려앉아 있었다. 오직 톰에게 바짝 다가선 그의 아내만은 예외였다.
 
-**12번 줄**
+**11번 줄**
 
 - S000378: She was in the middle thirties, and faintly stout, but she carried her flesh sensuously as some women can.
     - 현재 번역: 서른 중반쯤 되어 보이는 그녀는 약간 풍만했지만, 일부 여성들이 그러하듯 자신의 몸매를 관능적으로 드러낼 줄 알았다.
@@ -235,21 +229,14 @@ date: "2026-11-28"
 - S002289: The other car, the one going toward New York, came to rest a hundred yards beyond, and its driver hurried back to where Myrtle Wilson, her life violently extinguished, knelt in the road and mingled h…
     - 현재 번역: 뉴욕 방향으로 가던 다른 차 한 대는 백 야드쯤 더 가서 멈춰 섰고, 운전자는 서둘러 되돌아왔다. 그곳에는 생명이 처참히 꺼져버린 머틀 윌슨이 도로 위에 무릎을 꿇은 채, 진하고 검붉은 피를 먼지와 섞고 있었다.
 
-**13번 줄**
+**12번 줄**
 
 - S000432: “I’ll telephone my sister Catherine. She’s said to be very beautiful by people who ought to know.”
     - 현재 번역: “제 여동생 캐서린에게 전화할게요. 잘 아는 사람들 말로는 정말 아름답다더라고요.”
 - S000451: The sister, Catherine, was a slender, worldly girl of about thirty, with a solid, sticky bob of red hair, and a complexion powdered milky white.
     - 현재 번역: 동생인 캐서린은 서른 살쯤 되어 보이는 날씬하고 세상 물정에 밝은 여자였다. 붉은 머리를 뭉툭하고 끈적하게 보브 컷으로 잘랐으며, 얼굴에는 우윳빛 분칠을 하얗게 해 놓았다.
 
-**14번 줄 (추정)**
-
-- S000378: She was in the middle thirties, and faintly stout, but she carried her flesh sensuously as some women can.
-    - 현재 번역: 서른 중반쯤 되어 보이는 그녀는 약간 풍만했지만, 일부 여성들이 그러하듯 자신의 몸매를 관능적으로 드러낼 줄 알았다.
-- S000451: The sister, Catherine, was a slender, worldly girl of about thirty, with a solid, sticky bob of red hair, and a complexion powdered milky white.
-    - 현재 번역: 동생인 캐서린은 서른 살쯤 되어 보이는 날씬하고 세상 물정에 밝은 여자였다. 붉은 머리를 뭉툭하고 끈적하게 보브 컷으로 잘랐으며, 얼굴에는 우윳빛 분칠을 하얗게 해 놓았다.
-
-**15번 줄**
+**13번 줄**
 
 - S000456: Mr. McKee was a pale, feminine man from the flat below.
     - 현재 번역: 맥키 씨는 아래층에 사는 창백하고 여성스러운 남자였다.
@@ -262,7 +249,7 @@ date: "2026-11-28"
 - S000634: She turned to her companion: “Wasn’t it for you, Lucille?”
     - 현재 번역: 그녀가 일행을 돌아보며 물었다. “너도 그때 그랬지, 루실?”
 
-**16번 줄**
+**14번 줄**
 
 - S001118: “Meyer Wolfshiem? No, he’s a gambler.”
     - 현재 번역: “마이어 울프심 씨요? 아뇨, 도박사입니다.”
@@ -277,7 +264,7 @@ date: "2026-11-28"
 - S001083: “He’s an Oggsford man.”
     - 현재 번역: “옥스퍼드 출신이라더군.”
 
-**17번 줄**
+**15번 줄**
 
 - S001550: Cody was fifty years old then, a product of the Nevada silver fields, of the Yukon, of every rush for metal since seventy-five.
     - 현재 번역: 당시 코디는 쉰 살이었는데, 네바다의 은광과 유콘, 그리고 75년 이후에 일어난 모든 광풍의 산물이었다.
@@ -288,7 +275,7 @@ date: "2026-11-28"
 - S001559: He was employed in a vague personal capacity—while he remained with Cody he was in turn steward, mate, skipper, secretary, and even jailor, for Dan Cody sober knew what lavish doings Dan Cody drunk m…
     - 현재 번역: 그는 모호한 개인 비서 격으로 고용되었다. 코디와 함께 지내는 동안 그는 때로는 집사로, 때로는 일등 항해사와 선장, 비서, 심지어 간수 역할까지 맡았다. 맨정신인 댄 코디는 술에 취한 자신이 곧 어떤 방탕한 짓을…
 
-**18번 줄**
+**16번 줄**
 
 - S002750: I think it was on the third day that a telegram signed Henry C. Gatz arrived from a town in Minnesota.
     - 현재 번역: 미네소타의 어느 마을에서 헨리 C. 개츠라는 이름의 전보가 도착한 것은 아마 셋째 날이었을 것이다.
@@ -299,14 +286,14 @@ date: "2026-11-28"
 - S001531: James Gatz—that was really, or at least legally, his name.
     - 현재 번역: 제임스 개츠. 그것이 그의 진짜 이름이자, 적어도 법적인 이름이었다.
 
-**19번 줄**
+**17번 줄**
 
 - S000930: A man named Klipspringer was there so often that he became known as “the boarder”—I doubt if he had any other home.
     - 현재 번역: 클립스프링거라는 남자는 하도 자주 드나들어 '하숙생'이라고 불릴 정도였는데, 그에게 다른 집이 있기는 했을지 의문이다.
 - S001487: He went out of the room calling “Ewing!” and returned in a few minutes accompanied by an embarrassed, slightly worn young man, with shell-rimmed glasses and scanty blond hair.
     - 현재 번역: 그는 “유잉!” 하고 부르며 방 밖으로 나갔고, 몇 분 뒤 뿔테 안경을 쓰고 금발 머리가 듬성듬성한, 쑥스러운 기색이 역력하고 다소 초라해 보이는 한 청년을 데리고 돌아왔다.
 
-**20번 줄**
+**18번 줄**
 
 - S000668: A stout, middle-aged man, with enormous owl-eyed spectacles, was sitting somewhat drunk on the edge of a great table, staring with unsteady concentration at the shelves of books.
     - 현재 번역: 부엉이 눈처럼 커다란 안경을 쓴 통통한 중년 남자가 커다란 탁자 가장자리에 약간 취한 채 앉아, 불안정한 집중력으로 책장을 뚫어지게 쳐다보고 있었다.
@@ -315,19 +302,19 @@ date: "2026-11-28"
 - S002910: It was the man with owl-eyed glasses whom I had found marvelling over Gatsby’s books in the library one night three months before.
     - 현재 번역: 그는 세 달 전 어느 날 밤, 서재에서 개츠비의 책들을 보며 감탄하고 있던 그 부엉이 눈의 안경 쓴 남자였다.
 
-**21번 줄**
+**19번 줄**
 
 - S002269: The young Greek, Michaelis, who ran the coffee joint beside the ash-heaps was the principal witness at the inquest.
     - 현재 번역: 재더미 옆에서 커피숍을 운영하던 젊은 그리스인 미카엘리스가 검시 조사에서 핵심 증인이 되었다.
 
-**22번 줄**
+**20번 줄**
 
 - S000053: I had a dog—at least I had him for a few days until he ran away—and an old Dodge and a Finnish woman, who made my bed and cooked breakfast and muttered Finnish wisdom to herself over the electric sto…
     - 현재 번역: 개 한 마리를 키웠는데—정확히는 도망가기 전까지 며칠 동안만 함께였다—낡은 닷지 자동차 한 대와 핀란드 여인 한 명이 있었다. 그녀는 내 침대를 정리하고 아침 식사를 차려주었으며, 전기레인지 앞에서 핀란드어로 된 …
 - S001789: My Finn informed me that Gatsby had dismissed every servant in his house a week ago and replaced them with half a dozen others, who never went into West Egg village to be bribed by the tradesmen, but…
     - 현재 번역: 내 정보원인 핀의 말로는, 개츠비 씨가 일주일 전 집안의 하인들을 모두 내쫓고 대여섯 명의 새 사람들을 들였다고 했다. 이들은 상인들에게 뇌물을 받으러 웨스트에그 마을에 나가는 일 없이, 전화로 적당한 물품들만 주…
 
-**23번 줄**
+**21번 줄**
 
 - S000068: Twenty miles from the city a pair of enormous eggs, identical in contour and separated only by a courtesy bay, jut out into the most domesticated body of salt water in the Western hemisphere, the gre…
     - 현재 번역: 도시에서 20마일 떨어진 곳에 윤곽이 똑같이 생긴 거대한 달걀 모양의 땅 두 개가 작은 만 하나를 사이에 두고 서반구에서 가장 길들여진 바다, 즉 롱아일랜드 해협이라는 거대하고 축축한 가축 우리 같은 바다를 향해 …
@@ -338,14 +325,14 @@ date: "2026-11-28"
 - S000077: Across the courtesy bay the white palaces of fashionable East Egg glittered along the water, and the history of the summer really begins on the evening I drove over there to have dinner with the Tom …
     - 현재 번역: 작은 만 너머로 상류층이 모여 사는 이스트에그의 하얀 궁전들이 물가에서 반짝였는데, 그해 여름의 이야기는 내가 톰 뷰캐넌 부부와 저녁 식사를 하기 위해 그곳으로 차를 몰고 갔던 그날 저녁부터 본격적으로 시작된다.
 
-**24번 줄**
+**22번 줄**
 
 - S000068: Twenty miles from the city a pair of enormous eggs, identical in contour and separated only by a courtesy bay, jut out into the most domesticated body of salt water in the Western hemisphere, the gre…
     - 현재 번역: 도시에서 20마일 떨어진 곳에 윤곽이 똑같이 생긴 거대한 달걀 모양의 땅 두 개가 작은 만 하나를 사이에 두고 서반구에서 가장 길들여진 바다, 즉 롱아일랜드 해협이라는 거대하고 축축한 가축 우리 같은 바다를 향해 …
 - S000072: My house was at the very tip of the egg, only fifty yards from the Sound, and squeezed between two huge places that rented for twelve or fifteen thousand a season.
     - 현재 번역: 내 집은 그 달걀 모양 지형의 맨 끝자락, 해협에서 불과 50야드 떨어진 곳에 있었는데, 한 시즌 임대료가 1만 2천에서 1만 5천 달러나 하는 거대한 저택 두 채 사이에 끼어 있었다.
 
-**25번 줄**
+**23번 줄**
 
 - S000334: But I didn’t call to him, for he gave a sudden intimation that he was content to be alone—he stretched out his arms toward the dark water in a curious way, and, far as I was from him, I could have sw…
     - 현재 번역: 하지만 나는 그를 부르지 않았다. 그가 갑자기 혼자 있고 싶다는 기색을 보였기 때문이다. 그는 묘한 자세로 어두운 바닷물을 향해 두 팔을 뻗었는데, 멀리 떨어져 있었음에도 그가 떨고 있다고 확신할 수 있을 정도였다.
@@ -358,7 +345,7 @@ date: "2026-11-28"
 - S002994: And as I sat there brooding on the old, unknown world, I thought of Gatsby’s wonder when he first picked out the green light at the end of Daisy’s dock.
     - 현재 번역: 그곳에 앉아 오래전의 미지의 세계를 곱씹으며, 나는 개츠비가 데이지의 선착장 끝에서 초록색 불빛을 처음 발견했을 때 느꼈을 경이로움을 생각했다.
 
-**26번 줄**
+**24번 줄**
 
 - S000338: About halfway between West Egg and New York the motor road hastily joins the railroad and runs beside it for a quarter of a mile, so as to shrink away from a certain desolate area of land.
     - 현재 번역: 웨스트에그와 뉴욕의 중간쯤에서 자동차 도로는 어느 황량한 땅을 피하려는 듯 서둘러 철길과 합쳐져 4분의 1마일 정도를 나란히 달린다.
@@ -371,28 +358,21 @@ date: "2026-11-28"
 - S000344: Evidently some wild wag of an oculist set them there to fatten his practice in the borough of Queens, and then sank down himself into eternal blindness, or forgot them and moved away.
     - 현재 번역: 보아하니 어떤 익살스러운 안과 의사가 퀸즈 구의 병원 영업을 확장하려고 저기에 세워 두었다가, 스스로 영원한 어둠 속에 잠겼거나, 아니면 저걸 잊어버린 채 떠나버린 모양이다.
 
-**27번 줄**
+**25번 줄**
 
 - S000435: At 158th Street the cab stopped at one slice in a long white cake of apartment-houses.
     - 현재 번역: 158번가에 이르자 택시는 하얀 케이크처럼 길게 늘어선 아파트 단지 중 한 건물 앞에 멈춰 섰다.
 - S001142: (said Jordan Baker that afternoon, sitting up very straight on a straight chair in the tea-garden at the Plaza Hotel)
     - 현재 번역: (그날 오후, 플라자 호텔의 티 가든에 있는 딱딱한 의자에 허리를 꼿꼿이 펴고 앉아 조던 베이커가 말했다)
 
-**28번 줄**
+**26번 줄**
 
 - S001147: She was just eighteen, two years older than me, and by far the most popular of all the young girls in Louisville.
     - 현재 번역: 그녀는 겨우 열여덟 살로 나보다 두 살 많았는데, 루이빌의 모든 소녀 중에서 단연 가장 인기가 많았다.
 - S001148: She dressed in white, and had a little white roadster, and all day long the telephone rang in her house and excited young officers from Camp Taylor demanded the privilege of monopolizing her that nig…
     - 현재 번역: 그녀는 흰 옷을 입고 작은 흰색 로드스터를 몰았으며, 집 전화기는 하루 종일 울려댔고 캠프 테일러에서 온 들뜬 젊은 장교들은 그날 밤 그녀를 독차지할 특권을 달라고 요구했다.
 
-**29번 줄 (추정)**
-
-- S000045: I graduated from New Haven in 1915, just a quarter of a century after my father, and a little later I participated in that delayed Teutonic migration known as the Great War.
-    - 현재 번역: 나는 아버지보다 정확히 25년 뒤인 1915년에 뉴헤이븐에서 졸업했고, 조금 지나 제1차 세계대전이라 불리는 그 지체된 게르만족의 이동에 참여했다.
-- S000064: I was rather literary in college—one year I wrote a series of very solemn and obvious editorials for the Yale News—and now I was going to bring back all such things into my life and become again that…
-    - 현재 번역: 대학 시절 나는 꽤 문학적인 편이었다. 한 해 동안은 '예일 뉴스'에 아주 엄숙하고 뻔한 사설들을 연재하기도 했다. 이제 나는 그런 면모를 다시 삶으로 불러들여, 모든 전문가 중에서도 가장 한계가 분명한 전문가인 …
-
-**31번 줄**
+**28번 줄**
 
 - S000646: “Somebody told me they thought he killed a man once.”
     - 현재 번역: “누가 그러는데, 그 사람이 예전에 사람을 죽였대요.”
@@ -403,7 +383,7 @@ date: "2026-11-28"
 - S000914: “He’s a bootlegger,” said the young ladies, moving somewhere between his cocktails and his flowers.
     - 현재 번역: “그 사람 밀주업자래.” 칵테일 잔과 꽃들 사이를 오가던 젊은 여성이 말했다.
 
-**32번 줄**
+**29번 줄**
 
 - S000963: “I am the son of some wealthy people in the Middle West—all dead now. I was brought up in America but educated at Oxford, because all my ancestors have been educated there for many years. It is a fam…
     - 현재 번역: “저는 중서부의 어느 부유한 집안 자제입니다. 부모님은 이제 모두 돌아가셨고요. 미국에서 자랐지만 교육은 옥스퍼드에서 받았습니다. 저희 조상들이 오랫동안 그곳에서 공부하셨거든요. 가문의 전통이죠.”
@@ -412,7 +392,7 @@ date: "2026-11-28"
 - S001531: James Gatz—that was really, or at least legally, his name.
     - 현재 번역: 제임스 개츠. 그것이 그의 진짜 이름이자, 적어도 법적인 이름이었다.
 
-**33번 줄**
+**30번 줄**
 
 - S001951: “Well, you take my coupé and let me drive your car to town.”
     - 현재 번역: “그럼, 당신은 내 쿠페를 타고 가세요. 내가 당신 차를 몰고 시내로 가겠소.”
@@ -427,7 +407,7 @@ date: "2026-11-28"
 - S002339: “I just got here a minute ago, from New York. I was bringing you that coupé we’ve been talking about. That yellow car I was driving this afternoon wasn’t mine—do you hear? I haven’t seen it all after…
     - 현재 번역: “난 방금 뉴욕에서 여기 도착했어. 우리가 얘기했던 그 쿠페를 가져다주려던 참이었다고. 오늘 오후에 내가 몰았던 그 노란 차는 내 게 아니야. 내 말 들려? 오후 내내 그 차는 구경도 못 했어.”
 
-**34번 줄**
+**31번 줄**
 
 - S002402: “Was Daisy driving?”
     - 현재 번역: “데이지가 운전하고 있었나요?”
@@ -440,7 +420,7 @@ date: "2026-11-28"
 - S002973: “What if I did tell him? That fellow had it coming to him. He threw dust into your eyes just like he did in Daisy’s, but he was a tough one. He ran over Myrtle like you’d run over a dog and never eve…
     - 현재 번역: “말해줬으면 좀 어때? 그놈은 자초한 일이야. 데이지를 속였던 것처럼 너까지 속이려 들었지만, 정말 지독한 놈이더군. 머틀을 마치 개라도 치인 것처럼 뭉개버리고는 차를 세우지도 않았어.”
 
-**35번 줄**
+**32번 줄**
 
 - S000706: “Want to go with me, old sport? Just near the shore along the Sound.”
     - 현재 번역: “함께 가시겠어요, 친구? 그냥 해협을 따라 해안가 근처로만 도는 겁니다.”
