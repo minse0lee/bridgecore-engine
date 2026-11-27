@@ -121,7 +121,7 @@ def main():
         sys.exit(f"근거 문장 번호가 원문에 없음: {missing}")
 
     # 1) 엔진 입력용
-    out = ["[작품 프로필] 위대한 개츠비 (F. Scott Fitzgerald, 1925) — 중간 판 v0, 사람 확인 전", "", HEADER, ""]
+    out = ["[작품 프로필] 위대한 개츠비 (F. Scott Fitzgerald, 1925)", "", HEADER, ""]
     for n, (title, ls) in enumerate(PROFILE, 1):
         out.append(f"{n}. {title}")
         for text, _, note in ls:
