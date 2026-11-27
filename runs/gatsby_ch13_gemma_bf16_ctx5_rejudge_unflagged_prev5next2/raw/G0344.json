@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTWGbSQEBZ5GYMaTqKXK",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0344\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"cordial remarks\",\"tgt_span\":\"정중한 인사\",\"description\":\"'다정한/친근한 말(remarks)'이 '정중한 인사'로 바뀌어 어조가 친근함에서 공손함으로 달라졌고 발화 유형도 말에서 인사로 좁아졌으나, 핵심 행위(말을 거는 것)는 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"누군가에게 붙어 있어야 한다고 느낀 것, 낯선 사람들에게 말을 걸기 전이라는 시간 관계, 환영 여부 불문이라는 양보가 모두 유지됩니다. cordial → '정중한', remarks → '인사'는 평가어와 표현 정도의 차이로 사태 자체는 같습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Welcome or not'의 양보와 'before'의 시간 순서 관계가 '-든 아니든', '-기 전에'로 유지되며, 'myself'와 'I'의 지시 관계도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 행동 이유와 계획을 서술하는 기능 → 같은 서술 기능. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"should는 'before I should begin'의 시간절 안에 쓰인 것으로 규범 의미가 아니며, 'necessary'도 화자의 개인적 필요를 말하는 서술이어서 규범을 정하는 문장이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술의 평서체가 유지되어 서술자와 독자의 관계에 맞습니다. 'cordial'이 '정중한'으로 옮겨진 정도 차이는 어휘 선택일 뿐 호칭·높임 관계를 바꾸지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1733,
+    "output_tokens": 868,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

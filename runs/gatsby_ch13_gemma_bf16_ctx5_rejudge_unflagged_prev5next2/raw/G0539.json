@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTWJZmVCjhgbS6KiPwRR",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0539\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Good night.\",\"tgt_span\":\"안녕히 가세요.\",\"description\":\"밤 작별 인사가 '안녕히 가세요'로 옮겨져 '밤'이라는 시간 표지가 사라지고 일반 작별 인사가 됨\"},{\"id\":\"E002\",\"src_span\":\"Tell them I’ll be right there…\",\"tgt_span\":\"곧 가겠다고 전해줘요…\",\"description\":\"개츠비가 집사에게 하는 말인데 '전해줘요'로 옮겨 집사와의 관계가 청자(닉)와의 관계에 비해 부적절하게 느껴질 수 있으나, 집사에게는 주인이 하는 말이라 반말·존댓말 혼용 여부가 문제됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"곧 가겠다, 전해달라, 작별 인사의 내용이 모두 유지됩니다. 'Good night'의 '밤'이 빠진 것은 관용 인사의 통상적 대응으로 봅니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 대상이나 연결·초점 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"전화를 받겠다는 응답과 집사에 대한 전달 지시, 작별 인사 → 같은 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없고 일상 대화의 지시입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"한 발화 안에서 닉에게 하는 말과 집사에게 하는 말이 섞여 있어 청자별 격식 판단이 어렵고, 평가조건의 관계 정보가 부족합니다. 앞 문장의 번역과 맞는 개츠비의 말투 기준 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 916,
+    "output_tokens": 841,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTWFsCuAYvAZ6zzVv4dV",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0267\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"See you anon.\",\"tgt_span\":\"곧 또 봐요.\",\"description\":\"고풍스럽고 다소 꾸민 투의 작별 인사 'anon'이 평범한 '곧 또 봐요'로 바뀌어 화자(조던)의 꾸민 듯한 말투가 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'I will'(깨어나겠다), 밤 인사, 곧 다시 보자는 내용이 모두 유지되며 'anon'의 '곧' 의미도 살아 있습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞 문장 'If you'll get up'에 대한 'I will'의 응답 관계가 '그럴게요'로 유지되고 지시·연결·초점 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"약속 응답과 작별 인사 → 약속 응답과 작별 인사. 발화 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 대화 속 개인적 응답과 작별 인사로, 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조던이 닉에게 'Mr. Carraway'로 격식 있게 말하는 관계가 '캐러웨이 씨'와 '~요' 체로 적절히 유지됩니다. 고풍스러운 'anon'의 장난스러운 꾸밈이 약해진 것은 어휘 수준의 차이로 관계·격식 판정에는 영향이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 호칭 외에 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1238,
+    "output_tokens": 769,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

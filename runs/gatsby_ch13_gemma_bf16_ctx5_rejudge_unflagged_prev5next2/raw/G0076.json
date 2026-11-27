@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTWEB5P9JVZF8pe88LL6",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0076\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"It belonged to Demaine\",\"tgt_span\":\"드메인 씨네 집이었지\",\"description\":\"소유 대상 'It'(앞 문장의 저택·부지 전체)이 '집'으로 좁혀지고 '씨네'가 더해졌으나, 문맥상 같은 대상(이 집)을 가리켜 의미·기능을 바꾸지 않음. 오류로 보지 않을 수준의 통상적 대응.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"드메인이라는 석유 사업가가 이전 소유자였다는 내용이 유지되며, '집'은 직전 문맥의 이 저택을 가리키는 통상적 표현입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'It'이 앞서 소개한 집과 정원을 가리키는 지시 관계가 '집'으로 유지되며 연결 관계도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"집의 이전 소유자를 알려 주는 설명 → 같은 설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소유 이력을 서술하는 문장으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 같은 대학 출신 지인에게 말하는 상황에서 '~었지' 반말체와 '드메인 씨'가 자연스러우며 관계를 바꾸지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명만 있고 별도로 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1557,
+    "output_tokens": 714,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

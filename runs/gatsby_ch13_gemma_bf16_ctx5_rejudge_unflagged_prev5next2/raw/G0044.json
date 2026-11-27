@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTWDRo8RZkjSbDwGYhTe",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0044\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"To the wingless\",\"tgt_span\":\"날개 없는 인간들에게\",\"description\":\"'인간들'이라는 명사를 덧붙임. 날개 없는 것(갈매기와 대비되는 존재)을 사람으로 풀어 옮긴 것으로, 문맥상 같은 대상을 가리켜 의미를 바꾸지 않음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"날개 없는 존재, 더 흥미로운 현상, 모양과 크기를 제외한 모든 면의 차이라는 내용이 동일합니다. '인간들'은 갈매기와 대비되는 날개 없는 존재를 풀어 쓴 것으로 같은 대상을 가리킵니다. 힌트의 숫자 2는 'two'를 '두 곳'으로 옮긴 것이 아니라 번역문의 '두 곳'이 'their'를 풀어 쓴 것으로 수량 변화가 아닙니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'their'가 앞 문단의 두 달걀 모양 땅을 가리키는데 '두 곳'으로 같은 대상을 지칭하고, 'except shape and size'의 범위도 '모양과 크기를 제외한'으로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술적 설명 → 서술적 설명. 두 땅의 차이를 소개하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 본문의 서술체 '-였다'가 유지되며 관계 표현이 따로 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화 고유의 제도·단위·관습 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2468,
+    "output_tokens": 807,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

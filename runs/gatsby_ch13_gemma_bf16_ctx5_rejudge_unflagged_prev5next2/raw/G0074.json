@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTWE5tqhwrMmmboJHvZV",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0074\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“I’ve got a nice place here,”\",\"tgt_span\":\"“여기 집 좋지,”\",\"description\":\"소유('I've got', 내가 가진 좋은 집)가 사라지고 '여기 집 좋지'로 옮겨 소유 표현이 없고 '좋은 집'이 '집이 좋다'는 서술이 됨. 통상적 구어 번역 범위로 의미 변화는 거의 없음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"좋은 집이 있다는 자랑의 내용과 눈을 이리저리 굴리며 말했다는 행위가 유지됩니다. 'restlessly'를 '불안하게'로 옮긴 것은 정도·뉘앙스 차이에 그칩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계가 바뀌지 않았고 'here'는 '여기'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"집을 자랑하는 평서 발화 → 집을 자랑하는 발화. '좋지'의 어미가 동의를 구하는 느낌을 주지만 기능 종류는 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 같은 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"거칠고 자신만만한 화자가 청자에게 하는 반말체가 소설 속 관계와 어울립니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1484,
+    "output_tokens": 699,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

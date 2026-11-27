@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTWJAifKBWg5BWmWp9yt",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0495\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I noticed that she wore her evening-dress, all her dresses, like sports clothes\",\"tgt_span\":\"그녀가 입은 이브닝드레스가 눈에 들어왔는데, 그녀는 모든 옷을 마치 운동복처럼 입었다\",\"description\":\"'그녀가 이브닝드레스를 운동복처럼 입는 것을 내가 알아챘다'는 관찰이 '이브닝드레스가 눈에 들어왔다'로 바뀌고, 이브닝드레스는 모든 옷의 한 예라는 동격 관계가 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 원문은 이브닝드레스를 포함한 모든 옷을 운동복처럼 입는다는 점을 알아챘다는 것인데, 번역은 이브닝드레스가 눈에 들어왔다고 한 뒤 모든 옷을 운동복처럼 입는다고 따로 서술했습니다. 다만 핵심 인상(운동복처럼 입음)은 유지되어 요지는 크게 달라지지 않았습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"질문 1~3 모두 아니오: 대명사 '그녀'의 지시와 as if 비교 연결이 '처럼'으로 유지됩니다. 동격 관계의 변화는 내용 변화로 Semantic에서 다룹니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 묘사 서술 → 인물 묘사 서술로 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체의 평서 어조가 유지되며 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"이브닝드레스, 운동복, 골프 코스가 같은 대상으로 옮겨져 한국어 독자가 이해할 수 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1327,
+    "output_tokens": 858,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

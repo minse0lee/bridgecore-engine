@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTWH6cLCs7KpcwNXhp1b",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0397\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"he demanded impetuously\",\"tgt_span\":\"그가 성급하게 물었다\",\"description\":\"demanded(다그치듯 요구함)가 '물었다'로 바뀌어 다그치는 강도가 약해졌으나, 문맥상 여전히 의견을 묻는 질문이며 '성급하게'로 충동적 태도는 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"의견을 묻는 내용, 화자(남자), 충동적 태도(impetuously→성급하게)가 유지되고 demanded→물었다는 발화 강도 차이에 그칩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현의 변화가 없으며 대명사 he도 같은 인물을 가리킵니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대의 의견을 묻는 질문 → 의견을 묻는 질문. 같은 종류의 기능이며 다그치는 강도만 약해졌습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화문입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-세요' 높임이 적절한지는 취한 낯선 남자와 조던의 관계 및 이 소설 속 발화 격식 확인이 필요합니다. 문맥상 처음 만난 사이로 보여 부자연스럽지는 않으나 단정할 정보가 부족합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1155,
+    "output_tokens": 716,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
