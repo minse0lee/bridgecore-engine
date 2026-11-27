@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT7fk3YD4ioF6yk8e9vG",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0535\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"held no more familiarity than the hand which reassuringly brushed my shoulder\",\"tgt_span\":\"내 어깨를 다독이던 손길만큼이나 전혀 친근하지 않았다\",\"description\":\"'no more A than B'(표현도 손길도 똑같이 친근함이 없다)를 '손길만큼이나 전혀 친근하지 않았다'로 옮겨 비교 구조는 대체로 유지되나 reassuringly(안심시키듯)가 '다독이던'으로 옮겨졌고, 손길이 친근하지 않다는 함의가 번역에서 다소 모호함. 의미 변화 없는 통상적 대응이므로 실질 오류 아님.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"친숙한 표현이 어깨를 쓰다듬던 손길과 마찬가지로 친밀함이 없었다는 내용이 유지되며, reassuringly도 '다독이던'에 반영됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'no more ... than' 비교 구조가 '~만큼이나 전혀 ~않았다'로 유지되어 두 대상이 같은 정도로 친밀하지 않다는 관계가 남아 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 관찰·평가 서술 → 서술자의 관찰·평가 서술로 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"평가대상 문장은 서술자의 지문이며 화자와 청자 사이의 높임·호칭이 드러나는 부분이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 697,
+    "output_tokens": 810,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

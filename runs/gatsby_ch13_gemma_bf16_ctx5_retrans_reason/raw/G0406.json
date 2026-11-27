@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT7QrixR8DgNC6oU7DAG",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0406\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"didn’t cut the pages\",\"tgt_span\":\"책장을 펴기 위해 자르지 않았거든요\",\"description\":\"책장을 자르지 않았다(페이지가 절단되지 않은 상태)는 사실이 '펴기 위해 자르지 않았다'는 목적·이유로 바뀌어 행위의 의미가 달라지고 인과가 덧붙음\"},{\"id\":\"E002\",\"src_span\":\"Knew when to stop, too—didn’t cut the pages.\",\"tgt_span\":\"멈춰야 할 때를 정확히 알았더라고요. 책장을 펴기 위해 자르지 않았거든요.\",\"description\":\"'too'(역시, 또한)의 첨가 관계가 사라지고, 앞 문장의 근거를 설명하는 '-거든요'가 되어 대시로 이어진 부연 관계가 이유 관계로 바뀜\"},{\"id\":\"E003\",\"src_span\":\"But what do you want? What do you expect?\",\"tgt_span\":\"하지만 뭘 원하시겠어요? 뭘 기대하시겠어요?\",\"description\":\"'원하시겠어요/기대하시겠어요'로 수사의문의 반문 기능은 대체로 유지되나 높임 '-시-'가 추가됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: '페이지를 자르지 않았다'가 '책장을 펴기 위해 자르지 않았다'로 바뀌어 행위의 목적이 덧붙고 의미가 흐려졌으나, 요지(자르지 않아 실감났다는 칭찬)는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: 'too'로 덧붙인 칭찬의 나열 관계가 '-거든요' 이유 관계로 바뀌어 연결 관계가 달라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"감탄과 칭찬, 반문하는 수사의문 → 감탄과 칭찬, 반문하는 수사의문으로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"술에 취한 화자의 구어체 흥분된 말투가 존댓말 구어체로 유지되며, 관계상 부적절한 높임이 아닙니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Belasco(미국 연극 연출가·극작가 데이비드 벨라스코)를 '벨라스코'로 통용 음역하여 같은 대상을 가리킵니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 904,
+    "output_tokens": 1083,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

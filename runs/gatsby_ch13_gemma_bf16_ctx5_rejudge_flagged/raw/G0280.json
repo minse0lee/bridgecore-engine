@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT845FYPKyuGoKJ3qzpH",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0280\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Our white girlhood was passed together there. Our beautiful white—\",\"tgt_span\":\"순백의 소녀 시절을 함께 보냈지. 우리의 아름답고 하얀—\",\"description\":\"white가 인종적 함의(백인 소녀 시절, 아름다운 백인)를 지니는데 '순백의'와 '하얀'으로 옮겨 순수·색채 의미로만 읽히고 인종 함의가 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: white girlhood의 '백인'이라는 내용이 '순백의'(순수함)로 바뀌어 의미가 달라졌으나, 루이빌 출신이며 어린 시절을 함께 보냈다는 핵심 사실은 유지되어 요지 이해와 행동에는 큰 영향이 없습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계가 유지됩니다. '우린', '거기서', '함께'가 원문과 같은 대상을 가리키고 미완의 말줄임도 그대로입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물의 과시적·감상적 대사 → 인물의 과시적·감상적 대사. 발화 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술적 대사입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"친구 사이의 구어체 대사가 '~이야', '~지' 반말로 자연스럽게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 1920년대 미국 상류층의 인종적 배타성을 드러내는 white의 문화적 함의가 '순백의', '하얀'으로 옮겨져 한국어 독자가 이해하기 어렵습니다. 평가조건이 문화 함의 변경을 불허하지만 장면의 전체 이해에는 영향이 제한적이라 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 536,
+    "output_tokens": 877,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

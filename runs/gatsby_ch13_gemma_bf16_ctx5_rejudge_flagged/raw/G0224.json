@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT836mJkJEEYMV6x38Q1",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0224\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"with several feet of twilight between them\",\"tgt_span\":\"서로 몇 걸음의 거리감을 둔 채\",\"description\":\"'several feet of twilight'(황혼빛이 드리운 몇 피트의 간격)에서 twilight(황혼·어스름)가 빠지고 '거리감'으로 바뀜. 몇 피트가 몇 걸음으로 바뀌었으나 대략적 거리 표현이라 영향은 작음\"},{\"id\":\"E002\",\"src_span\":\"strolled back into the library\",\"tgt_span\":\"서서히 서재로 돌아갔다\",\"description\":\"strolled(느긋하게 거닐다)가 '서서히 돌아갔다'로 바뀌어 거닐며 걷는 동작이 속도 표현으로 약해짐\"},{\"id\":\"E003\",\"src_span\":\"I followed Daisy around a chain of connecting verandas to the porch in front\",\"tgt_span\":\"연결된 베란다들을 지나 앞쪽 포치로 향하는 데이지를 따라갔다\",\"description\":\"화자가 데이지를 따라 베란다를 돌아 앞 포치로 간 것이 '포치로 향하는 데이지를 따라갔다'로 바뀌어 대상은 유지되나 around(돌아서)가 지나서로 바뀜. 화자의 이동 목적지 포치가 데이지의 목적지로만 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: twilight(황혼빛)가 빠지고 '거리감'으로 바뀌어 장면의 구체적 이미지가 달라졌으나, 톰과 베이커 양이 떨어져 걸었다는 핵심 사실과 화자가 데이지를 따라간 사실은 유지되어 요지는 크게 달라지지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그동안'이 while의 동시성을 유지하고, 지시·초점 관계 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(장면 묘사) → 서술. 소설 본문의 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 '~했다'가 유지되고 호칭 '조던 베이커 양'도 Miss Baker의 격식에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명과 'porch', 'veranda'의 통상 음역 외에 별도로 판정할 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1022,
+    "output_tokens": 1075,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

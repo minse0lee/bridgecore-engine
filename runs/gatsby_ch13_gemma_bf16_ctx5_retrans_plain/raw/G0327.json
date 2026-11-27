@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT7KcyKyqpxKBCX2a6a6",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0327\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"seizes a cocktail out of the air\",\"tgt_span\":\"누군가 들고 있던 칵테일 잔을 낚아채더니\",\"description\":\"공중에서 칵테일을 낚아챘다는 표현이 '누군가 들고 있던 잔'을 빼앗는 것으로 바뀜(원문에 없는 행위 대상 첨가)\"},{\"id\":\"E002\",\"src_span\":\"one of these gypsies, in trembling opal\",\"tgt_span\":\"오팔 빛 옷을 입고 가늘게 떨고 있던 집시 같은 여자\",\"description\":\"these gypsies(앞 문맥의 여자들)를 '집시 같은 여자'로, trembling opal을 '가늘게 떨고 있던' 사람으로 옮겨 수식 관계와 지시가 달라짐\"},{\"id\":\"E003\",\"src_span\":\"Frisco\",\"tgt_span\":\"프리스코\",\"description\":\"Frisco(당대 춤꾼 이름)를 음역만 하여 한국어 독자가 춤꾼·춤 스타일의 문화적 지시를 알기 어려움\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 공중에서 칵테일을 집은 행위가 남이 들고 있던 잔을 낚아챈 것으로 바뀌고, 떨리는 것이 옷이 아닌 사람으로 읽혀 대상·행위가 달라졌으나 장면의 요지(여자가 술을 들이켜고 춤추러 나감)는 유지됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: 'these gypsies'의 지시 표현이 '집시 같은 여자'로 바뀌어 앞서 언급된 무리 중 하나라는 지시 관계가 사라지고, 'in trembling opal'의 수식 대상이 달라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 파티 시작을 묘사하는 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사 묘사 문장으로 의무·허가·금지 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문 '-했다' 문체가 소설 본문에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 2: Frisco는 1920년대 재즈 시대의 실존 춤꾼을 가리키는데 설명 없는 음역만으로는 한국어 독자가 그 문화적 지시를 이해하기 어렵습니다. 다만 장면의 이해에는 큰 지장이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 969,
+    "output_tokens": 1101,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

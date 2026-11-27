@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT89xtEhFWSJT5getT17",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0527\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"here I am tantalizing you\",\"tgt_span\":\"이렇게 당신 애만 태우게 됐네요\",\"description\":\"'tantalizing'(감질나게 함)을 '애만 태우다'로 옮기면서 '만'이 붙어 초점이 생겼으나 핵심 의미(감질나게 약 올림)는 유지됨. 의미·기능을 바꾸지 않는 차이로 오류 아님에 가깝지만 추가된 '만'을 기록\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"말하지 않기로 맹세했다는 내용과 상대를 감질나게 하고 있다는 내용이 유지됩니다. '애만 태우게 됐네요'는 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"But의 대조를 '맹세했으니'의 원인 구조로 바꾸었으나 맹세와 감질나게 함 사이의 관계(맹세 때문에 이야기를 못 함)가 유지되며, '만'은 초점을 다른 대상으로 옮기지 않습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 해명·자조적 진술 → 해명·자조적 진술. 같은 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'I swore I wouldn't'는 과거에 한 맹세를 서술하는 것으로, 이 문장이 독자나 청자에게 의무·허가·금지를 정하지 않습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사교 자리에서 친근하게 말하는 화자의 어조가 '~네요' 체로 무리 없이 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 824,
+    "output_tokens": 792,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

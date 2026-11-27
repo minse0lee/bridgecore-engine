@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT81xc9BtKCnPUi5pNxU",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0157\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a great, big, hulking physical specimen of a—\",\"tgt_span\":\"덩치만 크고 무식한 이런 인간이랑\",\"description\":\"'physical specimen'(육체적 표본)에는 없는 '무식한'이 첨가되었고, 말이 끊기는 중단(대시)이 사라져 문장이 완결형으로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"That’s what I get\",\"tgt_span\":\"대가를 치르는 거겠지\",\"description\":\"단정적인 'That's what I get'(그게 내가 받는 것)이 추측 어미 '-겠지'로 바뀌어 확실성이 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 원문에 없는 '무식한'이 더해지고 단정이 추측('-겠지')으로 바뀌어 확실성이 달라졌으나 핵심 사실(결혼의 대가, 덩치 큰 남자 비난)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but 대조 관계('알지만, 어쨌든')와 '그게 결혼의 대가'라는 연결이 유지되고 지시·초점 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"아내가 톰을 비난·불평하는 발화 → 비난·불평 발화로 같은 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술 대화입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"부부 사이의 반말과 비난하는 경멸적 태도('짐승 같은', '인간')가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"판정할 문화 고유의 제도·단위·관습 표현이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 700,
+    "output_tokens": 802,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

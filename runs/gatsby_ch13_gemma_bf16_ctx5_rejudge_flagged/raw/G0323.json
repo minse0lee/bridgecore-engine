@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT84wTkyuExxUfCeWRbS",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0323\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"floating rounds of cocktails\",\"tgt_span\":\"쟁반에 담긴 칵테일들이\",\"description\":\"떠다니듯 돌려지는 칵테일 순배(rounds)가 '쟁반에 담긴 칵테일들'로 바뀌어 순환·확산하는 서빙의 모습이 약해지고 쟁반이라는 원문에 없는 세부가 더해짐\"},{\"id\":\"E002\",\"src_span\":\"permeate the garden outside\",\"tgt_span\":\"정원을 가득 메운다\",\"description\":\"스며든다(permeate)가 '가득 메운다'로 바뀌고 outside가 생략됨. 의미 차이는 작음\"},{\"id\":\"E003\",\"src_span\":\"until the air is alive with\",\"tgt_span\":\"이윽고 공기는 … 북적인다\",\"description\":\"until이 '이윽고'로 옮겨져 칵테일이 퍼져 공기가 활기를 띠는 시간적 진행이 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'floating rounds of cocktails'가 '쟁반에 담긴 칵테일들'로 바뀌어 원문에 없는 쟁반이 더해졌으나, 파티 장면의 핵심 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 2: 칵테일이 퍼지다가 마침내 공기가 활기로 가득 찬다는 'until'의 시간 진행 연결이 '이윽고'로 약해졌으나 순서 관계는 남아 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"파티 장면 묘사 → 파티 장면 묘사. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"never는 이름을 몰랐다는 서술 속 부정이며 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 문어체 현재형 서술이 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1366,
+    "output_tokens": 914,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

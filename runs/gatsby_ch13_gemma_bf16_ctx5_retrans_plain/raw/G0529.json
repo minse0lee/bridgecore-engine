@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT7eFFtU4FMXA9rtLH4y",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0529\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Mrs. Sigourney Howard\",\"tgt_span\":\"시구니 하워드 부인\",\"description\":\"Sigourney를 '시구니'로 옮김. 표준 음역은 '시그니/시고니' 계열이라 부정확하지만, 하워드 부인이라는 지시 대상은 식별 가능함\"},{\"id\":\"E002\",\"src_span\":\"My aunt…\",\"tgt_span\":\"제 고모님인데….\",\"description\":\"aunt를 '고모님'으로 옮겨 아버지 쪽 친척으로 한정하고 '님' 높임을 덧붙임. 원문은 이모·고모를 구분하지 않으며, 화자가 자기 친척을 높임\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: aunt가 부계 친척인 '고모'로 한정되어 친족 관계 정보가 달라졌으나, 요청의 핵심(찾아오라, 전화번호부의 이름)은 유지됩니다. 이름 음역(E001)은 지시 대상 식별이 가능하여 판정에 반영하지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'My aunt'가 앞의 Mrs. Sigourney Howard와 연결되는 지시 관계(부인이 고모)는 유지되며 초점·연결어 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"방문 요청과 연락 방법 안내 → 방문 요청과 연락 방법 안내. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"개인적 부탁으로 규범적 의무·허가·금지 의미가 없습니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: 화자가 자기 고모에게 '님'을 붙여 원문에 없는 높임을 덧붙였고, 가볍고 격식 없는 사교적 말투와 어울리지 않습니다. 호칭이 관계 태도를 약간 바꾸지만 요지에는 영향이 작습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명만 있고 판정할 문화·제도 고유 대상이 없습니다(전화번호부는 일반 대상).\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 856,
+    "output_tokens": 935,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

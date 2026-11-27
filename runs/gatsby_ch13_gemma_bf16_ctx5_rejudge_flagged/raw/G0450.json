@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT88A7N8b3Cwz3H53eTA",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0450\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the whole eternal world\",\"tgt_span\":\"온 세상\",\"description\":\"'eternal'(영원한)이 번역에서 빠짐. 미소의 'eternal reassurance'와 이어지는 수식어이나 핵심 사실은 유지됨.\"},{\"id\":\"E002\",\"src_span\":\"or seemed to face\",\"tgt_span\":\"혹은 온 세상과 마주하고 있는 것처럼 보이다가\",\"description\":\"'마주하는 것처럼 보였다'의 삽입 구조가 '온 세상을, 혹은 ~마주하고 있는 것처럼 보이다가'로 옮겨져 '온 세상을 (마주했다)'와 '마주하고 있는 것처럼 보이다가'가 병렬되어 확실성 구조가 흐려짐. 대체로 같은 사태를 기술함.\"},{\"id\":\"E003\",\"src_span\":\"concentrated on you … in your favour\",\"tgt_span\":\"오직 나만을 향했다\",\"description\":\"일반적 2인칭 'you'가 화자 '나'로 한정되고 '오직'이 첨가되어 초점이 좁아짐. 'irresistible prejudice in your favour'는 '거부할 수 없을 만큼 호의적인 태도로'로 옮겨져 편향(prejudice)의 뉘앙스가 약해짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E003\"],\"reason\":\"판단 질문 1: 'eternal'이 빠지고 일반 'you'가 '나'로 한정되며 '오직'이 더해졌으나 미소가 세상을 마주하다 한 사람에게 집중한다는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 3(초점·범위): 'concentrated on you'가 '오직 나만을 향했다'로 바뀌어 '오직'이라는 배타적 초점이 새로 붙었고 지시 대상이 일반 you에서 화자로 좁아졌습니다. 요지는 유지되어 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"미소에 대한 서술 → 미소에 대한 서술. 서사적 묘사 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 문체의 '~했다'가 소설 본문에 맞게 유지되며 화자와 청자 관계에서 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1238,
+    "output_tokens": 1085,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

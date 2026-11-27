@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT83gLeYpNXqQ9VfdoTM",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0252\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Inside, the crimson room bloomed with light.\",\"tgt_span\":\"안으로 들어가니 진홍색 방이 환한 빛으로 피어나고 있었다.\",\"description\":\"'Inside'(안쪽에서/안에서는)에 없던 '들어가니'라는 행위가 더해져 서술자가 안으로 들어간 것으로 읽힘. 원문은 장소 묘사. 다만 서술자가 밖에서 안을 바라보는 장면이므로 '들어가니'는 원문에 없는 행위 첨가.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위): 원문의 'Inside'는 안쪽의 상태를 묘사할 뿐인데, 번역은 '들어가니'라는 이동 행위를 덧붙여 서술자가 들어간 것으로 읽힌다. 방이 빛으로 가득하다는 핵심 묘사는 유지되어 minor.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현에서 바뀐 것이 없다(질문 1·2·3 모두 아니오). '들어가니'는 시간적 연결어처럼 쓰였으나 첨가된 내용이라 Semantic에서 다룬다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사(서술) → 장면 묘사. 기능이 같은 종류로 유지된다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가를 나타내는 표현이 없는 서술 문장이다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 평서 문체가 유지되며 화자·청자 관계상 어긋나는 높임·호칭이 없다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 828,
+    "output_tokens": 795,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

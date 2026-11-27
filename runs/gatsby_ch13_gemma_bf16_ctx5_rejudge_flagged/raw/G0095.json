@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT7zY9CV3t9uLK24Svic",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0095\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the object she was balancing\",\"tgt_span\":\"턱 위에 올려둔 무언가\",\"description\":\"원문에 없는 위치 '턱 위'를 덧붙임 (원문은 균형을 잡던 물체의 위치를 명시하지 않음)\"},{\"id\":\"E002\",\"src_span\":\"had obviously tottered a little and given her something of a fright\",\"tgt_span\":\"분명 조금 흔들렸고, 그 바람에 그녀는 내심 깜짝 놀란 모양이었다\",\"description\":\"obviously가 서술자의 추정 근거로 쓰였으나 '분명 흔들렸고'로 단정, 'fright'가 '내심 깜짝 놀란 모양'으로 약간 추측화·내심 첨가됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 원문에 없는 '턱 위'라는 물체의 위치가 첨가되었으나 핵심 사건(입술, 끄덕임, 고개 젖힘, 물체 흔들림, 놀람)은 유지되어 요지는 크게 달라지지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사·소유 관계와 연결(그리고 나서, 그 바람에 인과)이 유지되며 초점 표현의 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 행동·상황 서술 → 인물 행동·상황 서술로 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가를 정하는 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 소설 서술 문체와 '베이커 양' 호칭이 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Miss Baker'는 인명 호칭이며 별도로 판정할 문화 고유의 제도·관습 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 918,
+    "output_tokens": 832,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

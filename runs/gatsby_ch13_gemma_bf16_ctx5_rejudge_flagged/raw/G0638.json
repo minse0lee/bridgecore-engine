@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT8D3GyeyQQxBtRyRmFP",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0638\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"this is mine: I am one of the few honest people\",\"tgt_span\":\"내게는 이것이 그렇다. 나는 내가 아는 사람 중 드물게 정직한 편에 속한다.\",\"description\":\"'this is mine'(내가 가진 미덕은 이것이다)이 '내게는 이것이 그렇다'로 바뀌어 '내 미덕이 정직'이라는 지시 구조가 흐려짐. 'I am one of the few honest people'이 '드물게 정직한 편에 속한다'로 완화됨.\"},{\"id\":\"E002\",\"src_span\":\"suspects himself of\",\"tgt_span\":\"있다고 믿기 마련인데\",\"description\":\"'suspects(자신에게 ~이 있다고 의심/짐작)'가 '믿기 마련'으로 옮겨져 확신의 정도가 다소 달라짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1·2(확실성·정도): suspects가 '믿는다'로 바뀌고 '드물게 정직한 사람 중 하나'가 '드물게 정직한 편'으로 약해졌으나 핵심 사실(누구나 미덕을 자부하고 화자는 정직이 자신의 미덕이라 주장)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'this is mine'을 '내게는 이것이 그렇다'로 옮겨 '이것'이 가리키는 대상(미덕)과 뒤의 콜론 설명 관계가 흐려졌지만 뒷문장에서 정직이 설명되어 요지는 읽힙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 자기소개적 서술 → 자기소개적 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 화자의 회고적 서술체가 평서체로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 650,
+    "output_tokens": 909,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

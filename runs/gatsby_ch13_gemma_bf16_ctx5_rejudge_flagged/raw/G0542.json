@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT8AfFcS7xJ5dwQmwRCh",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0542\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"having been among the last to go\",\"tgt_span\":\"내가 마지막까지 남게 된 상황\",\"description\":\"'마지막에 떠난 사람들 중 하나'가 '마지막까지 남은 상황'으로 바뀌어 여러 명 중 하나라는 의미가 사라지고 화자 단독으로 마지막까지 남은 것처럼 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(수량·참여자): 'among the last'(마지막 무리 중 하나)가 단독으로 마지막까지 남은 것으로 읽혀 참여자 범위가 달라졌으나, 마지막까지 남았다는 핵심 사실과 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 모두 유지됩니다. '그러자'는 suddenly의 시간 연결을, '마치 ~처럼'은 as if 관계를 유지하며 질문 1·2·3 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(인물의 미소와 화자의 인상 묘사) → 서술. 기능이 같은 종류입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 서술로 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 평서체 '-다'가 유지되며 화자와 독자 관계에서 어긋나는 높임·호칭이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 712,
+    "output_tokens": 745,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT7VhoKeyRgwGcdN7GAB",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0470\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I just don’t think he went there\",\"tgt_span\":\"그냥 거기 다녔을 리 없다고 생각해요\",\"description\":\"'그가 거기 갔다고 생각하지 않는다'(단순 부정적 믿음)가 '다녔을 리 없다'(강한 부정 추측)로, 'went'(갔다)가 '다녔다'(재학·다님)로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성·행위): '갔다고 생각하지 않는다'가 '다녔을 리 없다'로 확신이 강해지고 went가 '다녔다'로 바뀌었으나, 그가 거기 가지 않았다고 믿는다는 핵심은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"he·there의 지시 대상과 'I don't know'–'just don't think' 연결이 유지되고 초점·범위 표현도 '그냥'으로 대응되어 질문 1·2·3 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물의 입장을 고집스럽게 밝히는 발화 → 같은 기능의 발화로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 청자의 관계 정보가 없으나 '-어요' 체의 평이한 대화체는 문맥상 무리가 없으며 고집스러운 태도도 서술로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 522,
+    "output_tokens": 749,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

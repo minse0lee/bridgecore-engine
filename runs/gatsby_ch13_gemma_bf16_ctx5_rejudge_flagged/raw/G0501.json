@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT89SnzS3fokqjenuDy1",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0501\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"she had decided, ineptly, that everything was very, very sad\",\"tgt_span\":\"갑자기 모든 것이 너무나도 슬프다는 생각에 사로잡혔는지\",\"description\":\"'decided'(판단을 내림, 확정적 서술)가 '사로잡혔는지'라는 추측형으로 바뀌어 확실성이 달라짐. 또한 '갑자기'가 첨가됨.\"},{\"id\":\"E002\",\"src_span\":\"ineptly\",\"tgt_span\":\"서투른 감정 과잉에 빠져\",\"description\":\"'decided'를 수식하던 ineptly(어설프게 판단함)가 '서투른 감정 과잉에 빠져'로 바뀌어 수식 대상과 내용이 달라지고 '감정 과잉'이 첨가됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(확실성·행위): 서술자가 단정한 'decided'가 '~했는지'라는 추측으로 바뀌고, '어설프게 판단했다'가 '서투른 감정 과잉에 빠졌다'로 달라졌지만 취한 상태, 모든 것이 슬프다는 생각, 노래뿐 아니라 우는 사실 등 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'not only … too'의 초점이 '노래뿐만 아니라 울음까지'로 유지되고, 대명사 '그녀'의 지시 대상도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 묘사 서술 → 인물 묘사 서술. 취한 가수의 과장된 슬픔을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"3인칭 서술의 문어체 '~했다'가 유지되며, 관계나 태도를 바꾸는 호칭이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"샴페인은 일반 음료로 문화 고유의 제도·관습·단위로서 별도로 판정할 대상이 아닙니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1337,
+    "output_tokens": 948,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

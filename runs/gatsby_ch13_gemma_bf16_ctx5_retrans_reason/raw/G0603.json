@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT7k7EcG9mNypiHCJWvz",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0603\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"lined five deep\",\"tgt_span\":\"다섯 줄이나 늘어섰을 때\",\"description\":\"'five deep'은 택시가 다섯 겹으로 겹겹이 늘어선 것을 뜻하나, '다섯 줄이나'로 옮겨 다섯 줄 병렬 정렬처럼 읽힐 여지가 있음. 다만 거리에 택시가 빽빽하게 늘어선 사태는 유지되어 의미 차이는 미미함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"여덟 시, 40번대 거리의 어두운 골목, 극장가로 향하는 택시, 가슴이 내려앉는 느낌이 모두 유지됩니다. 'five deep'의 '다섯 줄'은 어색하지만 택시가 빽빽이 늘어선 사태를 기술하므로 훼손으로 보지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"when 절의 시간 연결이 '-ㅆ을 때'로, 'I'의 지시 관계가 '나는'으로 유지되며 초점·범위 표현의 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 화자의 쓸쓸한 심정을 묘사하는 서사 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 소설 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 소설 서술의 평서체 '-다'가 유지되어 관계나 태도에 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴욕 맨해튼의 'the Forties'(40번가대 거리)를 '40번대 거리'로 옮겨 같은 지명 대상을 가리키며, 극장가도 theatre district에 해당하는 통용 표현으로 유지됩니다. 자동 점검의 숫자 불일치(5/40)는 각각 'five deep'과 'Forties'의 표기 차이로 오경보입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1097,
+    "output_tokens": 889,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

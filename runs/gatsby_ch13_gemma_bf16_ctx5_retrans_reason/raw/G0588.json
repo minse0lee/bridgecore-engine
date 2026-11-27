@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT7ij27BBA5TVzSuCao5",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0588\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"A wafer of a moon\",\"tgt_span\":\"얇은 조각 같은 달\",\"description\":\"wafer(얇은 원반형 과자)의 은유가 '얇은 조각 같은'으로 옮겨져 구체적 이미지는 약해졌으나 달이 얇고 작은 조각 모양이라는 뜻은 유지됨(의미 변화 아님)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"달이 개츠비 집 위에서 빛나고, 밤을 전과 같이 아름답게 하며, 정원의 웃음소리와 소리 속에서도 살아남는다는 내용이 유지됩니다. 'surviving'을 '빛을 잃지 않고'로 옮기고 소음·웃음소리 순서가 바뀐 것은 같은 사태 기술입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"주어 '달'과 'his garden'의 소유 관계(개츠비의 정원)가 유지되고, 현재분사구의 부대 상황 연결이 '-며'로 재구성되어 관계가 남아 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사 서술 → 장면 묘사 서술. 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술 문어체('-었다')가 유지되며 화자·청자 관계에서 특별한 태도 표현이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명·지명 외에 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 953,
+    "output_tokens": 737,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

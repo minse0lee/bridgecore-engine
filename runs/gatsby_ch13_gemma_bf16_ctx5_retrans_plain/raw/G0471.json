@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT7Yok6FaCpM1KqsNS8f",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0471\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“I think he killed a man,”\",\"tgt_span\":\"\\\"그 사람이 사람을 죽였을지도 몰라요\\\"\",\"description\":\"'I think he killed a man'(그가 사람을 죽였다고 생각한다)이 '죽였을지도 모른다'는 가능성 표현으로 바뀌어 화자의 확신 정도가 약해짐. 또한 'a man'(한 사람)이 '사람'으로 옮겨져 일반 명사처럼 읽힘.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): 'I think he killed a man'이 '죽였을지도 몰라요'로 바뀌어 믿음이 단순한 가능성으로 약해졌으나, 핵심 사실(그가 사람을 죽였다는 소문)은 유지되어 요지와 행동 이해는 달라지지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'her tone'과 'the other girl' 지시 관계 및 '그 덕분에'로 이어지는 인과 연결이 유지되며 초점 표현의 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 회상과 호기심 설명 → 동일한 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술체와 인용된 대화의 해요체가 문맥상 무리 없이 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 925,
+    "output_tokens": 749,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

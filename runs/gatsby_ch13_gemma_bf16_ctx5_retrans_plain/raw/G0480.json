@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT7ZdTzFnfcqWuQ4NLXe",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0480\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“Some sensation!”\",\"tgt_span\":\"\\\"정말 대단한 소동이었죠!\\\"\",\"description\":\"반어적·익살스러운 'Some sensation!'(앞서 말한 sensation을 비꼬아 소동·스캔들이었음을 암시)이 '정말 대단한 소동이었죠!'로 옮겨져 소동이라는 내용은 담았으나 과거형 평서·동의 구하는 어미로 바뀌었고, 앞 문장의 '대단한 반향'과 연결되는 말장난 효과는 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"미소 지으며 덧붙인 행위와 sensation이 '소동'이라는 대단한 사건이었다는 내용이 유지되며, 정도 표현의 차이만 있습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'덧붙였다'로 앞 발언에 이어지는 관계가 유지되고, 지시·초점 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞선 sensation을 받아 익살스럽게 비꼬는 덧붙임 → 같은 맥락에서 익살스럽게 덧붙이는 말. 청중이 웃는 후속 장면과 맞는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지휘자가 청중에게 하는 쾌활하고 거드름 섞인 태도가 '거드름 섞인 미소'와 '~죠' 어미로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 793,
+    "output_tokens": 790,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

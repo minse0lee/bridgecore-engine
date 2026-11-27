@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT7wRfBpyRUd1PqCJqL3",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0008\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"missing something\",\"tgt_span\":\"무언가 중요한 것을 놓칠까 봐\",\"description\":\"원문에 없는 '중요한'이 첨가되어 놓칠 대상이 한정됨\"},{\"id\":\"E002\",\"src_span\":\"a sense of the fundamental decencies is parcelled out unequally at birth\",\"tgt_span\":\"기본적인 예의범절이라는 것은 태어날 때부터 불평등하게 배분된다는 사실\",\"description\":\"'a sense of the fundamental decencies'(기본적 도리에 대한 감각)가 '기본적인 예의범절'로 옮겨져 '감각'이 빠지고 decencies가 예의범절로 좁혀짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 원문에 없는 '중요한'이 첨가되었고, 'a sense of'(감각)가 빠져 대상이 도리에 대한 감각에서 예의범절 자체로 바뀌었으나 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"if 조건 관계와 삽입절 as my father suggested의 소유·지시 관계가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 자기 성찰적 서술 → 자기 성찰적 서술로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"snobbishly를 '속물스럽게'로 옮겨 화자의 자기 풍자적 태도를 유지하고, 아버지에 대한 높임('암시하셨고')은 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1634,
+    "output_tokens": 808,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

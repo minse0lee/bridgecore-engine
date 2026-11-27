@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT81KDrRiqoAykLWt4LC",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0122\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"it surprised her as much as it did me\",\"tgt_span\":\"놀란 건 나뿐만이 아니었던 모양인지\",\"description\":\"'그녀도 나만큼 놀랐다'는 동등 비교가 '나뿐만이 아니다'로 바뀌었으나 두 사람 모두 놀랐다는 사실은 유지됨 (의미 차이 없는 통상적 대응)\"},{\"id\":\"E002\",\"src_span\":\"stood up into the room\",\"tgt_span\":\"자리에서 일어나 방 안으로 들어섰다\",\"description\":\"소파에 누워 있다가 일어나 자세를 바로 했다는 의미(stood up into the room)가 '자리에서 일어나 방 안으로 들어섰다'로 번역되어, 방에 있던 사람이 방 안으로 들어서는 이동 행위로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1(행위): 이미 방 안에 있던 베이커가 일어서는 동작이 '방 안으로 들어섰다'는 입장 행위로 바뀌어 행위 내용이 달라졌으나 하품·민첩한 동작·일어남이 유지되어 요지는 크게 다르지 않아 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"for의 이유 연결이 '-인지'와 '-더니'의 흐름으로 남아 있고 지시 대상(그 말, 그녀, 나)도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 인물의 반응과 동작을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문으로 화자와 청자 간 관계를 드러내는 높임·호칭 표현이 평가 대상이 아닙니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 743,
+    "output_tokens": 890,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

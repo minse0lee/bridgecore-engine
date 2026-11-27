@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT83amJAE82kXCQiJaif",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0242\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Tom was God knows where\",\"tgt_span\":\"톰이 어디 있었는지는 신만이 아시겠죠\",\"description\":\"'God knows where'(아무도 모르는 어딘가에 있었다는 관용적 표현)를 '신만이 아시겠죠'로 옮겨, 화자 자신도 모른다는 단정이 추측 어미로 약화되고 '신만이'라는 배타적 초점이 더해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"딸이 태어난 지 한 시간 미만이던 때와 톰의 소재를 아무도 모른다는 내용이 유지되며, 추측형 어미는 확실성을 크게 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그 애'는 갓 태어난 딸을 가리키고 두 사건의 동시성은 '~때였는데'로 유지되어 지시·연결·초점 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"회상 속 상황 서술(남편의 부재에 대한 불만 암시) → 회상 속 상황 서술로 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자 데이지의 회상 구어체가 '~죠' 어미로 유지되며 남편을 가볍게 비꼬는 태도도 남아 있습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"God knows where는 관용 표현이며 판정할 문화 고유의 제도·단위·관습이 없고 인명만 등장합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 930,
+    "output_tokens": 746,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT7i37W2ck2394z27yGA",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0579\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Wonder’ff tell me where there’s a gas’line station?\",\"tgt_span\":\"알려줄 사람 있나?\",\"description\":\"'(누가) 나에게 알려줄 수 있는지/알려 주겠는지' 묻는 요청이 '알려줄 사람 있나?'라는 불특정인 대상 질문이 되어 화자가 특정 청자에게 청하는 느낌이 약해짐. 또한 취한 듯한 발음(Wonder'ff, gas'line)의 표현 효과가 사라짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"주유소 위치를 알려 줄 수 있는 사람을 찾는다는 핵심 내용이 유지되며 행위·대상이 달라지지 않았습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현이 달라진 부분이 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"주유소 위치를 묻는 요청성 질문 → 위치를 알려줄 사람을 찾는 요청성 질문으로, 같은 종류의 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화 속 질문입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 청자의 관계 정보가 문장 안에 없어 반말의 적절성을 판단하려면 장면의 화자(취한 사람)와 청자의 관계 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 464,
+    "output_tokens": 728,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

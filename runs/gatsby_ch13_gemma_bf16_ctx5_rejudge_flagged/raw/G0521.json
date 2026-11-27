@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT89qGLji7bqGEkPj6tK",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0521\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"some last word\",\"tgt_span\":\"마지막 인사\",\"description\":\"'마지막으로 하는 말'이 '마지막 인사'로 좁혀짐. 다만 뒤에 작별 장면이 이어져 요지는 크게 바뀌지 않음\"},{\"id\":\"E002\",\"src_span\":\"several people approached him to say goodbye\",\"tgt_span\":\"작별 인사를 하러 사람들이 다가오자\",\"description\":\"'several'(몇몇)이 '사람들'로 바뀌어 수량 한정이 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(수량·대상): 'several people'이 '사람들'로 바뀌어 수량이 흐려졌고, 'some last word'가 '마지막 인사'로 좁혀졌습니다. 다만 장면의 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but의 대조와 as의 시간 연결이 '-는데', '-자'로 유지되고 지시 관계도 같습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 개츠비의 태도 변화를 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사 묘사 문장이며 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자·청자 사이의 높임이나 호칭이 문제 되는 문장이 아니고 서술 문체만 있습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 705,
+    "output_tokens": 728,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

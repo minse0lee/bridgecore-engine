@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT7guR8QYynAHJvUAnps",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0543\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"old sport\",\"tgt_span\":\"친구\",\"description\":\"개츠비 특유의 호칭 'old sport'(구식 상류층 말투의 친근한 호칭)를 일반적인 '친구'로 옮겨 말투의 특색과 허세·인위적 느낌이 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"작별 인사와 상대를 친근하게 부르는 호칭이라는 내용이 유지되며, 'old sport'가 '친구'로 대응되는 것은 통상적 범위입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현이 없으며 반복되는 인사 구조도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"작별 인사 → 작별 인사. 기능이 동일합니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"작별 인사로 규범적 의미가 없습니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3: 개츠비 특유의 허세 어린 친밀한 호칭 'old sport'가 평범한 '친구'로 바뀌어 화자의 태도 색채가 약해졌습니다. 다만 친밀함 자체는 유지되어 minor입니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'old sport'는 영국식 상류층 호칭의 말버릇이지만 제도·관습 고유 대상이 아니며 '친구'로 의미는 이해 가능해 문화적 대상의 변경은 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 593,
+    "output_tokens": 693,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

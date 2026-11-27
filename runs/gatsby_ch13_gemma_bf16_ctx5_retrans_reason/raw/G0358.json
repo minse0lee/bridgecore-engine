@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT7LC4tiXsHqRm74azr5",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0358\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the two girls in yellow\",\"tgt_span\":\"노란 드레스를 입은 두 소녀\",\"description\":\"'in yellow'(노란 옷)가 '노란 드레스'로 구체화됨. 문맥상 노란 드레스를 입은 소녀들이라 의미 차이는 거의 없음.\"},{\"id\":\"E002\",\"src_span\":\"each one introduced to us as Mr. Mumble\",\"tgt_span\":\"남자들은 모두 이름이 웅얼거림처럼 불분명한 ‘머블 씨’ 같은 식으로 소개되었다\",\"description\":\"'Mr. Mumble'(모두 같은 이름으로 소개됨)이 '머블 씨 같은 식으로'로 바뀌고 '이름이 불분명한'이라는 풀이가 더해짐. 모두 같은 이름이라는 내용이 흐려지고 아무도 이름이 기억나지 않는다는 풍자 의미가 설명으로 바뀜.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: 세 남자가 모두 'Mr. Mumble'로 소개되었다는 사실이 '머블 씨 같은 식으로'로 일반화되고 설명이 첨가됨. 다만 요지(이름을 알아듣지 못함)는 유지되어 minor.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계는 바뀌지 않았고 문장 분할만 이루어졌음. 'each one'은 '남자들은 모두'로 유지됨.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면·상황 서술 → 장면·상황 서술. 서술 기능은 유지됨.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등의 규범 의미가 없는 서술문임.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 '-었다'가 유지되며 화자·청자 관계상 문제가 없음.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"칵테일과 'Mr.' 호칭 외에 별도로 판정할 문화 고유의 제도·단위 표기는 없음.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1214,
+    "output_tokens": 906,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

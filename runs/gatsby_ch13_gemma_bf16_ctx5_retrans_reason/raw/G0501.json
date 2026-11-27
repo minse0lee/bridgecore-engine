@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT7ZSoHqxveLfwuxcUfQ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0501\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"she had decided, ineptly, that everything was very, very sad\",\"tgt_span\":\"모든 것이 너무나도 슬프다는 결론을 서투르게 내렸는지\",\"description\":\"단정적 서술(결정했다)이 '~내렸는지'라는 추측형으로 바뀌어 확실성이 달라짐. 또한 'very, very'의 반복 강조가 '너무나도'로 옮겨짐(정도 차이일 뿐 오류 아님).\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): 원문은 그녀가 그렇게 결정했다고 단정하는데 번역은 '내렸는지'로 추측하는 형태가 되어 확실성이 달라졌습니다. 핵심 사실(샴페인, 슬프다고 여김, 노래와 울음)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'not only…too'가 '노래뿐만 아니라 울음까지'로 초점 구조가 유지되고, 그녀 지시와 인과적 연결도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 행동 묘사 서술 → 인물 행동 묘사 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 소설 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체('~했다')가 유지되며 화자와 독자 관계에 맞는 어조이고, 서투르다는 서술자의 약간 비꼬는 태도도 '서투르게'로 남아 있습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"샴페인은 일반 음료이며 문화 고유의 제도·단위·관습으로 별도 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1299,
+    "output_tokens": 818,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

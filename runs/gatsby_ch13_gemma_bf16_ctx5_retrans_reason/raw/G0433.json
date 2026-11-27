@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT7SpGRBviiDDFBSYXxp",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0433\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"old sport\",\"tgt_span\":\"친구님\",\"description\":\"Gatsby 특유의 호칭 'old sport'(친근하고 격식 있는 상류층 말버릇)가 '친구님'으로 옮겨져 호칭의 뉘앙스가 달라짐. 다만 친구를 부르는 친근한 호칭이라는 기능은 대체로 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"함께 가자는 제안, 해협을 따라 해안가 근처만 간다는 내용이 모두 유지됩니다. 호칭은 친구를 부르는 말로 대응되어 내용이 바뀌지 않았습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Just'가 '그냥 … 만'으로 범위 한정을 유지하고, 두 문장의 연결(제안 후 부연)도 그대로입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"함께 가자는 권유 질문 → 함께 가자는 권유 질문. 기능이 같은 종류입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 제안·선택 질문으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-시겠어요'의 존대와 '친구님'의 친근한 호칭이 Gatsby의 정중하면서 친근한 말투와 대체로 맞습니다. 어색한 호칭 선택만으로 훼손을 주지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"제도·단위·관습 등 문화 고유 대상이 없고 지명 'the Sound'만 있어 평가 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 508,
+    "output_tokens": 740,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

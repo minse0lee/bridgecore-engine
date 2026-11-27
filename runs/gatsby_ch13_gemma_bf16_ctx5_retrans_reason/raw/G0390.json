@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT7QAhu5CZmhtTz89M7a",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0390\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I had never met him, she said, and it was making me uneasy.\",\"tgt_span\":\"내가 그를 한 번도 만난 적이 없어서 마음이 불편해하고 있다는 말과 함께.\",\"description\":\"'내가 그를 만난 적이 없어서 불편해한다'는 인과로 바뀜. 원문은 '만난 적 없음'과 '불편하게 만들고 있음'을 and로 병렬하고 it(그 상황)이 주어임.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"우리가 집주인을 찾으러 간다는 설명, 만난 적 없음, 불편함, 그녀의 말이라는 내용이 모두 유지됩니다. 인과 구조 변화는 Textual에서 다룹니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(연결 관계): 병렬 연결인 'and it was making me uneasy'가 '만난 적이 없어서 불편해하고 있다'는 인과로 바뀌었고, it(그 상황)이 가리키는 대상이 사라졌습니다. 다만 핵심 사실은 유지되어 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(간접화법 보고) → 서술(간접화법 보고). 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"never는 '만난 적 없음'이라는 경험을 나타내며 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설의 서술체 '~했다'가 유지되며 화자·청자 관계에 따른 높임 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 781,
+    "output_tokens": 783,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

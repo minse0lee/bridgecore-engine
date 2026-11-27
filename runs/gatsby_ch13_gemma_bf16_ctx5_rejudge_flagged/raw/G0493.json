@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT89BXiZvTpU52BWsyYn",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0493\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"madame\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"호칭 'madame'이 번역되지 않아 상대방을 높여 부르는 호칭이 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 긍정 응답은 유지되나 호칭 'madame'(상대 여성)이 누락되어 호칭 대상 정보가 빠졌습니다. 요지는 같고 행동·조건 이해에는 영향이 없어 minor입니다.\"},\"Textual\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현이 없는 짧은 응답입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"질문·지시에 대한 긍정 응답 → 긍정 응답. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"호칭은 빠졌지만 '그렇습니다'의 합쇼체가 상대를 높이는 공손한 응답 태도를 전달하므로 관계에 맞는 높임이 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"제도·단위·관습 등 문화 고유 대상이 없고 호칭은 일반 경칭입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 412,
+    "output_tokens": 633,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT7ynhXtuZPboEpDaEvv",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0085\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the rugs\",\"tgt_span\":\"양단 카펫\",\"description\":\"원문에 없는 '양단'(비단 직물)이라는 수식어가 첨가되어 카펫의 재질 정보가 더해짐\"},{\"id\":\"E002\",\"src_span\":\"the two young women ballooned slowly to the floor\",\"tgt_span\":\"두 젊은 여성은 풍선에서 바람이 빠지듯 천천히 바닥으로 가라앉았다\",\"description\":\"'풍선처럼 부풀었다가 내려앉다'를 '풍선에서 바람이 빠지듯'으로 옮겨 비유를 풀어 씀. 핵심 사태(천천히 바닥으로 내려앉음)는 유지\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 원문에 없는 '양단'이 카펫에 첨가되어 대상의 속성이 달라졌으나, 사건의 요지(톰이 창을 닫자 바람이 잦아들고 커튼·카펫·여성들이 내려앉음)는 유지되어 minor입니다. 'two'는 '두'로 정확히 옮겨져 수치 힌트는 오경보입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-자'로 창을 닫은 시간·인과 연결과 열거 관계가 유지되며 지시·초점 관계의 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 서술 기능이 그대로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설의 장면 서술로 규범적 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 '-았다'가 유지되며 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1220,
+    "output_tokens": 828,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

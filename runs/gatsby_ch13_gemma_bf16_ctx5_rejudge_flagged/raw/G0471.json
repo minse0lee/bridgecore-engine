@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT88bS7vLRUSQUwMmEis",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0471\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“I think he killed a man,”\",\"tgt_span\":\"\\\"그 사람이 사람을 죽였을지도 몰라요\\\"\",\"description\":\"화자의 믿음 표현 'I think he killed a man'(그가 사람을 죽였다고 생각한다)이 '죽였을지도 몰라요'라는 가능성 추측으로 약화되어 확실성이 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): 'I think he killed a man'이 '죽였을지도 몰라요'로 바뀌어 믿음이 막연한 가능성으로 약해졌으나, 누가 누구를 죽였다는 핵심 사실과 문장 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'her tone'과 'the other girl's'의 지시 관계, 앞뒤 사건의 연결이 유지되고 초점 표현의 이동도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 회상과 호기심 설명 → 회상과 호기심 설명. 같은 종류의 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술은 평서체로, 인용된 대사는 '-요' 구어체로 유지되어 문맥상 관계에 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 911,
+    "output_tokens": 730,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

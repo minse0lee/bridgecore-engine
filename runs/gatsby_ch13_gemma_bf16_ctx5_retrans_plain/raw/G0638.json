@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT7qL5f4sdQXhHt551YK",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0638\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"cardinal virtues\",\"tgt_span\":\"핵심적인 미덕\",\"description\":\"'cardinal virtues'(사추덕 등 기본 덕목)를 일반적인 '핵심적인 미덕'으로 옮겨 전통적 덕목 범주의 함의가 약해짐\"},{\"id\":\"E002\",\"src_span\":\"suspects himself of\",\"tgt_span\":\"자신에게 … 있다고 믿기 마련인데\",\"description\":\"'suspects'(자신이 그렇다고 은근히 여김)가 '믿는다'로 옮겨져 확신의 정도가 다소 강해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1(확실성): suspects의 막연한 추측이 '믿다'로 바뀌어 확신이 다소 강해졌으나 핵심 사실과 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"this is mine이 '내게는 이것이 그렇다'로 앞 절의 미덕을 가리키는 관계가 유지되고 콜론 이하 연결도 남아 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 자기 소개·진술 → 자기 소개·진술. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술자의 회고적 서술이 '~다' 체로 유지되어 관계와 태도에 어긋남이 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"cardinal virtues가 '핵심적인 미덕'으로 옮겨져 전통적 덕목의 명칭은 약해졌으나 한국어 독자가 '미덕'으로 이해할 수 있고 다른 제도로 바뀐 것은 아닙니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 662,
+    "output_tokens": 828,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

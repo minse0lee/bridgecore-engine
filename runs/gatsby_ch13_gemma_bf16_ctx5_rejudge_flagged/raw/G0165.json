@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT82H6NzLVUUWWRzUgwa",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0165\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Can’t you talk about crops or something?\",\"tgt_span\":\"농작물 같은 얘기는 안 하시나요?\",\"description\":\"'~ 좀 하면 안 돼요?'라는 제안·요청성 수사의문이 '안 하시나요?'라는 습관·사실 확인 질문처럼 읽혀, 화자가 화제를 바꿔 달라고 요청하는 기능이 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대(데이지)가 농작물 같은 화제를 이야기하는 내용이 유지되며 인물·대상·행위·부정 모두 동일하고, 'or something'도 '같은'으로 대응됩니다. 요청 대 질문의 차이는 Context에서 다룹니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계에 변화가 없으며 'or something'은 '같은'으로 범위가 유지됩니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"원문 기능: 불편함을 호소한 뒤 화제를 바꿔 달라는 부탁·제안(수사의문) → 번역 기능: '안 하시나요?'라는 습관이나 사실을 묻는 질문. 앞 문장의 맥락에서 요청의 기미는 남지만 실제 질문으로 읽힐 소지가 있어 기능이 달라졌습니다. 다만 앞 문장 덕분에 전체 의도는 비교적 전달되어 minor입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"Can't you는 개인적 부탁·바람이며 의무·허가·금지 등 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"닉이 사촌 데이지에게 하는 말로 '시나요'의 존댓말은 관계상 무리가 없고, 장난스러운 친근한 태도도 크게 훼손되지 않았습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도에 고유한 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 668,
+    "output_tokens": 869,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

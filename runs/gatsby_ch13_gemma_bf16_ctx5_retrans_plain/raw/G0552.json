@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT7i8mpFy5ymaM5vzukz",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0552\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the late patron of Gatsby’s library\",\"tgt_span\":\"바로 얼마 전 개츠비의 서재를 이용했던 그 사람이었다\",\"description\":\"'the late patron'은 '고(故) 단골/후원 이용객'(이미 사망한 사람)을 뜻하는데, 시간상 '얼마 전'에 이용한 사람으로 옮겨 '고인'이라는 의미가 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'late'(고인, 故)가 '얼마 전'으로 바뀌어 시간·상태 정보가 달라졌습니다. 다만 서재 이용자라는 인물 지시는 유지되어 요지는 크게 어긋나지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'first…and then'의 시간 순서가 '먼저…곧이어'로 유지되고, 'it was'의 지시 관계도 '바로…그 사람이었다'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 인물을 알아보는 장면을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미를 가진 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술체 평서문의 격식과 화자의 태도가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 720,
+    "output_tokens": 703,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

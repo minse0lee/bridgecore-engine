@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT7Sv4vJ7G25UCXCit9a",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0390\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"we were going to find the host\",\"tgt_span\":\"조던은 집주인을 찾으러 가겠다고 설명했다\",\"description\":\"'우리가 집주인을 찾으러 갈 것'이라는 참여자(우리)가 사라지고 조던 혼자 가겠다는 내용으로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"it was making me uneasy\",\"tgt_span\":\"마음이 불편해 보인다는 것이 그녀의 말이었다\",\"description\":\"화자가 실제로 불안해하던 사실이 '불편해 보인다'는 조던의 관찰·추측으로 바뀌어 확실성과 서술 방식이 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: '우리가 함께 찾으러 감'이 조던 혼자 가겠다는 것으로 바뀌어 행위 참여자가 달라졌고, 화자가 불안했다는 사실이 '불편해 보인다'는 추측으로 바뀌었습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1·2: 원문에서 '내가 그를 만난 적이 없다'는 말과 '그것이 나를 불편하게 한다'는 인과가 함께 조던의 말로 이어지는데, 번역은 '불편해 보인다'로 바꿔 주체와 지시 관계가 흐려졌습니다. 다만 핵심은 Semantic에서 이미 판정되어 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 속 설명(조던의 설명 전달) → 서술 속 설명. 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"never는 과거 경험의 부정이며 규범 표현이 아니고 의무·허가·금지가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 '~다'가 유지되며 관계에 맞지 않는 높임·호칭 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 779,
+    "output_tokens": 911,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

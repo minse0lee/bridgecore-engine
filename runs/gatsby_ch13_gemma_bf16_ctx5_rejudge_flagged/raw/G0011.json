@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT7wRdD8T875Aq1x5BX9",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0011\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the world to be in uniform and at a sort of moral attention\",\"tgt_span\":\"세상이 모두 제복을 입고 영원히 도덕적인 차렷 자세로 서 있기를\",\"description\":\"'in uniform'(획일적 통일 상태)이 문자 그대로 '제복을 입고'로 옮겨지고 'a sort of'(일종의) 한정이 빠짐. 비유적 의미가 다소 달라질 수 있으나 큰 의미 변화는 아님\"},{\"id\":\"E002\",\"src_span\":\"riotous excursions with privileged glimpses into the human heart\",\"tgt_span\":\"타인의 내면을 엿보는 특권을 누리며 떠났던 그 소란스러운 여정들\",\"description\":\"'the human heart'(인간의 마음 일반)가 '타인의 내면'으로 좁혀지고, 'excursions'가 '떠났던 여정'으로 옮겨져 과거에 실제 겪은 일처럼 한정됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: 'the human heart'가 '타인의 내면'으로 바뀌어 대상이 좁혀졌으나 핵심 사실과 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"세미콜론으로 이어진 두 절이 두 문장으로 나뉘었지만 병렬 관계와 '더는'의 대응이 유지되고 지시·초점 관계 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 심경 서술 → 화자의 심경 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'wanted'는 화자의 개인적 바람이며 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회고 서술의 문어체 평서가 유지되며 관계상 어긋남이 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'the East'를 '동부'로 옮겨 미국 동부를 가리키는 대응이 유지되고 다른 지역이나 제도로 바꾸지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1708,
+    "output_tokens": 911,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

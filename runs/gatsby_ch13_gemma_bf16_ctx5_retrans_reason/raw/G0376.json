@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT7NZiwmzc16Xh6DUGkP",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0376\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“It’s more that he was a German spy during the war.”\",\"tgt_span\":\"\\\"그보다는 전쟁 중에 독일 스파이였다는 쪽이 더 맞을 거예요.\\\"\",\"description\":\"단정적 진술이 '~일 거예요'(추측)로 바뀌어 확실성이 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): 'It's more that he was a German spy'라는 주장이 '더 맞을 거예요'라는 추측으로 바뀌어 확실성이 달라졌으나, 독일 스파이라는 핵심 사실과 앞 발언에 대한 반박은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'that'이 가리키는 앞 발언과 'more that'의 대조 관계가 '그건 … 그보다는'으로 유지되어 지시·연결·초점이 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물의 반박 발화 → 인물의 반박 발화. 앞 의견을 반박하며 다른 설명을 제시하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 소설 속 의견 진술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"파티 손님들 사이의 소문 대화이며 '~거예요' 존대체가 상황에서 어색하지 않고, 회의적 태도도 '회의적인 말투'로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'German spy during the war'는 일반 역사 표현이며 별도로 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 594,
+    "output_tokens": 776,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

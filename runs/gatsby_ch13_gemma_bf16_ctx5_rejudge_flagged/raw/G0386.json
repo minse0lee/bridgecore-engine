@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT86ohFHbaCZAzuGxKE7",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0386\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"The first supper—there would be another one after midnight—was now being served\",\"tgt_span\":\"자정 이후에 또 한 번 차려질 첫 번째 저녁 식사가 나오고 있었고\",\"description\":\"삽입절 'there would be another one after midnight'가 '첫 번째 저녁 식사'를 수식하는 관형절로 바뀌어, 자정 이후에 차려질 것이 두 번째 식사가 아니라 '첫 번째 식사'로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(시간·대상): 자정 이후의 또 다른 식사가 '첫 번째 저녁 식사'를 수식하는 관형절로 옮겨져, 지금 나오는 식사가 자정 이후에 차려질 식사처럼 읽힙니다. 다만 조던의 초대와 일행, 장소라는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(연결·범위): 'another one'이 첫 번째 식사와 대비되는 별개의 식사라는 관계가 사라지고, 삽입절이 앞 명사구를 꾸미는 관계로 바뀌었습니다. 이 때문에 'after midnight'가 지금 서빙되는 식사에 붙은 것으로 읽힙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 식사가 나오고 조던이 초대하는 서사 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문이며 의무·허가·금지 등의 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 평서체 '-다'가 유지되며 화자와 조던의 관계에 어긋나는 높임·호칭이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습이 없고 인명만 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1048,
+    "output_tokens": 877,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

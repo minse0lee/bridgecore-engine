@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT81Z9kfr7mHAPNn73xd",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0134\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"polite reciprocal curiosity\",\"tgt_span\":\"정중하면서도 호기심 어린 시선으로\",\"description\":\"'reciprocal'(서로 주고받는) 의미가 번역에서 빠짐. 나도 그녀를 보고 그녀도 호기심으로 마주 본다는 상호성이 사라짐\"},{\"id\":\"E002\",\"src_span\":\"sun-strained eyes\",\"tgt_span\":\"햇볕에 그을린 회색 눈동자\",\"description\":\"sun-strained(햇빛에 눈을 찡그려 피로해진/지친)를 '햇볕에 그을린'으로 옮겨 눈의 상태가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'reciprocal'의 상호적 호기심이 빠졌고 'sun-strained'가 '그을린'으로 바뀌어 묘사 내용이 달라졌으나, 눈이 마주 보는 핵심 장면은 유지되어 요지는 크게 바뀌지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계는 유지되며 'her'의 대상과 'out of … face'의 위치 관계도 보존됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 묘사 서술 → 인물 묘사 서술. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 서술 묘사로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 문어체 평서 서술이 유지되며 관계상 어긋나는 높임·호칭 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 938,
+    "output_tokens": 808,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

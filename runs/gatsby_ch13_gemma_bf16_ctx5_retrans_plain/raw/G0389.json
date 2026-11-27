@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT7SVxqZgbMmjyJrJdZo",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0389\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"this is much too polite for me\",\"tgt_span\":\"여긴 나한테 너무 정중해서 따분하네요\",\"description\":\"'나에게 너무 정중하다'는 평가에 '따분하다'는 원문에 없는 해석이 덧붙음. 다만 문맥상 함의가 같아 의미 변화는 작음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: '너무 정중해서 따분하네요'는 원문에 없는 '따분함'을 명시했으나, 핵심 사실(너무 정중함, 나가자는 제안, 30분, 속삭임)은 유지되어 요지와 행동 이해는 달라지지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'half-hour' 뒤 시간 연결과 'this is too polite for me'의 이유 관계가 '정중해서'로 유지되며 지시·초점 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"나가자는 제안과 불만 토로 → 나가자는 제안과 불만 토로. 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"Let's get out은 대화 속 제안이며 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"친구 사이의 격식 없는 대화에 맞는 '-요/-네요' 어투로 화자의 가벼운 불평 태도가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"판정할 문화 고유의 제도·관습·단위가 없습니다. 30분은 원문 half-hour의 정확한 대응입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 746,
+    "output_tokens": 738,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

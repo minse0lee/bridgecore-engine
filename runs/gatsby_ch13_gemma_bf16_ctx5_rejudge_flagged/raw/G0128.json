@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT81Prf1pt9zy4mf4yJj",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0128\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“You are!”\",\"tgt_span\":\"“정말?”\",\"description\":\"앞선 상대 발언을 되받아 확인·반응하는 감탄형 맞장구(\\\"You are!\\\")가 \\\"정말?\\\"이라는 의문형 되묻기로 바뀌어, 상대의 말(예: 자신이 어떤 상태라는 주장)을 인정·긍정하는 내용이 사라지고 반문하는 의문으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성·내용): \\\"You are!\\\"는 상대의 주장을 받아들이며 놀라워하는 단정적 반응인데, \\\"정말?\\\"은 사실 여부를 되묻는 말이라 내용이 달라졌습니다. 다만 문맥상 놀라움이라는 핵심 반응은 유지되어 요지 변화는 크지 않아 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 대상이나 연결 관계, 초점 표현이 이 짧은 감탄에서 바뀐 것이 없습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"원문 기능 → 번역 기능: 상대 말에 대한 반응(놀라움을 담은 확인/맞장구 감탄) → 사실 여부를 묻는 질문. 대화 속 반응 기능은 같은 종류의 반응 발화로 볼 수도 있으나, 단정적 감탄이 실제 질문으로 바뀌어 기능이 달라진 것으로 판단합니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화 반응입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"비격식 대화에서 친근한 태도를 나타내는 짧은 반응이 \\\"정말?\\\"로 유지되고 관계에 어긋나는 높임·호칭 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 500,
+    "output_tokens": 882,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

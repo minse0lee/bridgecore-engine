@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT8B27UoB1Y69BfYf154",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0552\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the late patron of Gatsby’s library\",\"tgt_span\":\"바로 얼마 전 개츠비의 서재를 찾았던 그 손님\",\"description\":\"'the late patron'은 문맥상 고인이 된 '고(故) 단골'(Owl Eyes)인데, '얼마 전 찾았던 손님'으로 옮겨 '고인'의 의미가 사라지고 단지 최근 방문객으로 읽힘. 또한 patron(서재의 단골/후원자) 의미가 일회성 방문객으로 약화됨.\"},{\"id\":\"E002\",\"src_span\":\"infinitely astonishing to him\",\"tgt_span\":\"무척이나 놀라운 모양이었다\",\"description\":\"'infinitely'(한없이)가 '무척이나'로 바뀌었고 '모양이었다'로 추측 표현이 됨. 정도·확실성이 약간 달라졌으나 핵심 사실은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'the late patron'(고인이 된 서재 단골)이 '얼마 전 서재를 찾았던 손님'으로 바뀌어 인물의 상태(사망)가 사라지고 독자가 인물 정체를 다르게 이해하게 됨. 또한 '모양이었다'로 확실성이 달라졌으나 이는 minor.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'먼저…곧이어'로 first/then의 시간 순서가 유지되고 지시 관계도 바뀌지 않음.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술(인물 알아봄 묘사) → 소설 서술. 기능이 유지됨.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술문임.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 과거 회상 서술체가 '-었다' 체로 유지됨.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·관습·단위가 없고 인명만 있음.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 706,
+    "output_tokens": 877,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

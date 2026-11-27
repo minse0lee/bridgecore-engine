@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT83595LPNT2BskUtvSf",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0214\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"She might have the decency not to telephone him at dinner time.\",\"tgt_span\":\"저녁 식사 시간에는 전화를 안 하는 예의 정도는 갖춰야 하는 거 아닌가요?\",\"description\":\"'she'(Myrtle)와 'him'(Tom)이 번역문에서 모두 생략되어 누가 누구에게 전화하는지 드러나지 않음. 또한 'might have the decency'(예의가 있을 법도 한데)라는 불만 표현이 '갖춰야 하는 거 아닌가요?'라는 당위적 의문으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"핵심 내용(저녁 식사 시간에 전화하지 않는 예의, 동의를 구함)은 유지되며, 주어·목적어 생략은 한국어에서 통상적이고 문맥상 복원 가능합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사 생략이 있으나 지시 대상이 문맥상 복원 가능하며 연결·초점 관계는 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"불만을 표하며 동의를 구하는 발화 → 불만을 표하며 동의를 구하는 발화. 기능이 같은 종류입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 상대에게 의무·금지를 거는 문장이 아니라 제3자에 대한 불만 표현이어서 평가할 규범이 없습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-시죠?' 높임이 적절한지 판단하려면 화자(Daisy)와 청자(Nick) 관계 및 대화 상황 정보가 필요하며, 제공된 문맥만으로는 확인할 수 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 544,
+    "output_tokens": 839,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

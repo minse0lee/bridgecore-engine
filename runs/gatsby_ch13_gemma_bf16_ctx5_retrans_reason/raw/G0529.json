@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT7c1YafG9NHqm2BaoHg",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0529\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Mrs. Sigourney Howard\",\"tgt_span\":\"시구니 하워드 양\",\"description\":\"Mrs.(기혼 여성 경칭)가 '양'(미혼 여성 호칭)으로 바뀌고, Sigourney가 '시구니'로 부정확하게 음역됨\"},{\"id\":\"E002\",\"src_span\":\"Under the name of\",\"tgt_span\":\"이라는 이름으로 되어 있을 거예요\",\"description\":\"'그 이름으로 찾아보라'는 안내가 '~로 되어 있을 거예요'라는 추측 서술로 바뀌어 확실성 표지 첨가\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'Mrs.'가 '양'으로 바뀌어 혼인 상태가 달라졌고, 이름이 '시구니'로 표기되어 있으며, 전화번호부에 '있을 거예요'라는 추측이 더해졌으나 핵심(숙모 이름으로 전화번호부에서 찾으라는 안내)은 유지되어 요지는 같습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계가 유지되며 말줄임으로 이어지는 단편적 구조와 'My aunt'의 소유 관계도 '제 숙모님'으로 보존됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"방문 요청과 연락 방법 안내 → 방문 요청과 연락 방법 안내. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"개인적 부탁·초대이므로 규범적 의무·금지 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"처음 만난 듯한 젊은 여성이 상대에게 정중하게 청하는 상황에 '~세요/~예요'체가 맞습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 'Mrs.'는 기혼 여성 경칭인데 '양'은 미혼 여성 호칭이라 호칭 관습이 다른 것으로 전달됩니다. 단순 오역은 아니고 호칭 체계 문제이나 영향은 작아 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 859,
+    "output_tokens": 941,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

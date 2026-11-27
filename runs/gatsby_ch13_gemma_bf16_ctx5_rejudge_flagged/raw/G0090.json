@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT7z5fytZCToVA4pfC9o",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0090\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I’m p-paralysed with happiness.\",\"tgt_span\":\"마-마비가 된 것 같아요\",\"description\":\"'마비되었다'는 단정이 '마비가 된 것 같아요'라는 추측형으로 바뀌어 확실성이 약해짐\"},{\"id\":\"E002\",\"src_span\":\"with happiness\",\"tgt_span\":\"너무 행복해서\",\"description\":\"'너무'는 원문에 없는 정도 부사 첨가이지만 의미 변화는 경미함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): 화자가 행복으로 마비되었다는 단정이 '~것 같아요'라는 추측으로 바뀌었으나 핵심 사실(행복 때문에 몸이 굳음)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인과 관계(with → '행복해서')가 유지되고 지시·초점 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"감정 토로 → 감정 토로. 화자가 느낌을 말하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"말을 더듬는 수줍은 화자의 대화체가 '~아요' 해요체로 자연스럽게 유지되고, 더듬음도 '마-마비'로 반영됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 456,
+    "output_tokens": 716,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
