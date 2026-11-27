@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnyQtA9kYM5hPz46Nxp",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0589\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"endowing with complete isolation the figure of the host\",\"tgt_span\":\"주인장의 모습은 완전히 고립되어 보였다\",\"description\":\"공허함이 주인의 모습에 완전한 고립감을 부여한다는 인과적 서술이, 주인이 고립되어 보였다는 단순 서술로 바뀜. 공허함의 작용이 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공허함, 창문·문, 현관의 주인, 격식 있는 작별 손짓, 완전한 고립이 모두 유지되며, 'from'을 '사이로'로 옮긴 것과 'endowing'을 '고립되어 보였다'로 바꾼 것은 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(연결 관계): 분사구문 'endowing'이 나타내던 공허함 → 주인의 고립이라는 인과·결과 관계가 번역에서 두 절의 병렬 나열로 바뀌었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사 서술 → 장면 묘사 서술로 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서사 묘사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술자의 서술체 문어가 유지되며 '주인장'도 host의 격식·거리감에 큰 어긋남이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 4824,
+    "output_tokens": 722,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

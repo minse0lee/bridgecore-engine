@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnxjsdV9AyAo6DyqBfv",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0539\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Good night\",\"tgt_span\":\"안녕히 가세요\",\"description\":\"Gatsby가 Nick에게 건네는 밤 인사 'Good night'가 '안녕히 가세요'로 옮겨져 작별 인사 기능은 유지되나, 격식 높임(합쇼체/해요체 혼용)이 Gatsby의 지나치게 격식 있는 말투와 어긋나지 않는지 확인이 필요한 경미한 차이\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'금방 가겠다', '곧 가겠다고 전해라', '잘 자라는 인사'의 내용이 모두 유지됩니다. 'in a minute'과 'right there'를 '금방/곧'으로 옮긴 것은 통상적 대응입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사 'them'은 전화 건 쪽(필라델피아)을 가리키는 것으로 생략·보충되어 지시 관계가 유지되고 연결·초점 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"집사에게 전언을 지시하고 닉에게 작별 인사를 하는 대화 기능 → 같은 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없고, 일상 대화 속 전언 지시와 인사입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개츠비가 집사에게는 '전해줘요', 손님 닉에게는 '안녕히 가세요'로 말하는 것이 각각 자연스러운 관계에 맞고, 정중하고 격식 있는 말투 범위 안에 있습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위 등 별도로 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 4214,
+    "output_tokens": 806,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

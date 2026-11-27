@@ -1,10 +1,10 @@
 {
-  "id": "msg_011ChTnryp7GFvFr5NdQGN9Y",
+  "id": "msg_011ChTo1Fyfs6iKsgfDoMZca",
   "container": null,
   "content": [
     {
       "citations": null,
-      "text": "{\"item_id\":\"G0591\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"they absorbed me infinitely less than my personal affairs\",\"tgt_span\":\"내 개인적인 일들에 비하면 전혀 중요하지 않았다\",\"description\":\"placeholder\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: '나를 몰두시킨 정도가 훨씬 덜했다'는 상대적 비교가 '전혀 중요하지 않았다'는 중요도의 절대 부정으로 바뀌어 달라졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"On the contrary의 '하지만'과 until much later의 시간 한정이 유지되어 지시·연결·초점이 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 정정·설명 → 서술자의 정정·설명으로 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회상 서술의 평서체 '~었다'가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"판정할 문화 고유 대상이 없습니다.\"}}}",
+      "text": "{\"item_id\":\"G0591\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"they absorbed me infinitely less than my personal affairs\",\"tgt_span\":\"내 개인적인 일들에 비하면 전혀 중요하지 않았다\",\"description\":\"'나를 몰두시킨 정도가 훨씬 덜했다'(비교급, 몰두의 정도)가 '전혀 중요하지 않았다'(객관적 중요도 부정)로 바뀌어, 정도 비교가 절대적 부정으로 과장되고 '몰두'가 '중요성'으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'absorbed me infinitely less'(몰두 정도의 비교)가 '전혀 중요하지 않았다'로 바뀌어 비교·정도가 단정적 부정으로, 몰두가 중요성으로 달라졌으나 사건이 개인사보다 덜 몰두시켰다는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'On the contrary'가 '하지만 사실'로 대조 관계를 유지하고, 'until much later'의 시간 범위와 'they'의 지시도 유지됩니다(질문 1·2·3 모두 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 서술 정정·설명 → 서술 정정·설명으로 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회고 서술의 평서체('~않았다')가 소설 본문 문체와 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
       "type": "text"
     }
   ],
@@ -24,7 +24,7 @@
     "cache_read_input_tokens": 14219,
     "inference_geo": "global",
     "input_tokens": 5054,
-    "output_tokens": 572,
+    "output_tokens": 791,
     "output_tokens_details": {
       "thinking_tokens": 0
     },

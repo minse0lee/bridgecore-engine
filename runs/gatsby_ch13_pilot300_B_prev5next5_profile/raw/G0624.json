@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnyYoeM7ZFrxRnvKvQC",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0624\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"you ought to be more careful, or you oughtn’t to drive at all\",\"tgt_span\":\"더 주의해서 운전하시든가, 아니면 아예 운전을 하지 마세요\",\"description\":\"닉이 조던에게 하는 규범적 권고(ought to / oughtn't to)가 '-하세요'라는 직접 명령형으로 바뀌어 권고 강도가 다소 강해졌으나, 통상적 대응 범위로 볼 수 있음. 또한 '더 주의해서 운전하시든가'는 be more careful을 운전 주의로 구체화함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"더 조심하든가 아예 운전하지 말라는 양자택일 내용, 대상(너)이 유지되며 '주의해서 운전하다'는 careful의 문맥상 같은 사태 기술입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Either…or의 택일 관계가 '-하시든가, 아니면'으로 유지되어 연결 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대의 운전 행동을 바로잡도록 촉구하는 충고 → 같은 종류의 충고·지시 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"ought to / oughtn't to의 규범적 권고가 '-하시든가 … 하지 마세요'의 권고·지시로 유지되며 주체·조건·범위가 바뀌지 않았습니다. 권고와 요청·지시는 통상적 대응 범위입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"닉이 조던에게 존대(-시-, -세요)로 말하는 설정이며, 이후 번역문에서 조던이 존댓말을 쓰는 것과 일관되어 관계상 어색하지 않습니다. 호칭·태도 변화도 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 4510,
+    "output_tokens": 866,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
