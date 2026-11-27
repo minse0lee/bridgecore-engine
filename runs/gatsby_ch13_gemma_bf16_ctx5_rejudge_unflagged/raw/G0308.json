@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9XwEkQ5GNuRo1ugpSx",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0308\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"he was content to be alone\",\"tgt_span\":\"혼자 있고 싶다는 기색\",\"description\":\"'혼자 있는 것에 만족해 한다'가 '혼자 있고 싶어 한다'로 바뀌어 만족과 바람의 뉘앙스가 약간 달라졌으나 핵심 사실은 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"부르지 않은 이유, 두 팔을 뻗은 행동, 떨고 있다고 확신한 내용이 모두 유지됩니다. 'content to be alone'과 '혼자 있고 싶다'의 차이는 정도·뉘앙스 수준이고 'could have sworn'도 '확신할 수 있을'으로 확실성이 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"for의 인과가 '때문이다'로 유지되고, 대시 이하의 부연 설명과 양보(far as I was)가 '멀리 떨어져 있었음에도'로 보존되며 지시 관계도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 관찰·서술 → 서술자의 관찰·서술. 장면 묘사와 이유 설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 소설 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술자의 소설 문체('-했다/-때문이다')가 유지되어 서술 상황에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1096,
+    "output_tokens": 760,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9ZZAzWRpNyUFzfH1BU",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0388\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Instead of rambling\",\"tgt_span\":\"여기저기 흩어지는 대신\",\"description\":\"rambling(무리 지어 돌아다니며 어울리다)을 '흩어지는'으로 옮겨 일행이 흩어지지 않았다는 취지로 바뀜. 다만 정원을 돌아다니는 다른 손님들과 대비되는 점은 대체로 유지됨\"},{\"id\":\"E002\",\"src_span\":\"spectroscopic gaiety\",\"tgt_span\":\"화려하고 다채로운 유쾌함\",\"description\":\"spectroscopic(스펙트럼처럼 색색의 번쩍이는)을 '화려하고 다채로운'으로 옮겨 정도·뉘앙스만 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: rambling(이리저리 돌아다님)이 '흩어지는'으로 바뀌어 행위가 약간 달라졌으나, 일행이 한데 모여 품위를 지켰다는 요지는 유지되어 minor입니다. 'spectroscopic'의 '화려하고 다채로운'은 평가어의 정도 차이로 보존입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'대신'으로 대조 관계가 유지되고, 대시 뒤 이스트에그/웨스트에그 관계도 별도 문장으로 이어져 지시·연결·초점이 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 집단 묘사·서술 → 집단 묘사·서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 '~했다' 문어체가 유지되며, 'condescending'의 얕보는 태도도 '얕보며'로 전달됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"East Egg·West Egg의 상류층/신흥 부유층 대비를 이스트에그/웨스트에그 음역으로 유지했고 '귀족 계급' 표현도 원문 취지와 같아 제도적 의미가 전달됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1123,
+    "output_tokens": 941,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

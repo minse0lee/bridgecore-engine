@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9auPh4G4xQ7VcbMsuL",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0456\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"old sport\",\"tgt_span\":\"친구\",\"description\":\"개츠비 특유의 호칭 'old sport'를 일반 호칭 '친구'로 옮겨 특유의 격식 있는 친근함·꾸민 말투의 어조가 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"원하는 것이 있으면 요청하라는 내용, 화자 he와 청자 me, 권유 행위가 유지됩니다. 호칭의 뉘앙스 차이는 Semantic이 아닌 Register·Cultural에서 다룹니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조건(if)과 요청 지시 관계, he/me 지시 대상이 모두 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"필요하면 말하라는 권유·제안 → 권유·제안. 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"호의적 제안이며 의무·허가·금지 같은 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(태도): 개츠비가 상대에게 쓰는 특유의 친근하면서 꾸민 듯한 호칭 'old sport'가 평범한 '친구'로 바뀌어 화자의 태도 표지가 약해졌습니다. 또한 '말씀하세요'의 높임이 친밀한 호칭과 어울리는지 관계상 다소 어긋나지만, 의미와 관계 자체는 크게 바뀌지 않았습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 'old sport'는 개츠비의 인물상을 드러내는 시대·계층적 호칭인데 일반 어휘 '친구'로 옮겨 그 문화적 함의가 전달되지 않습니다. 다만 이 장면의 요지와 행동은 유지되어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 530,
+    "output_tokens": 835,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

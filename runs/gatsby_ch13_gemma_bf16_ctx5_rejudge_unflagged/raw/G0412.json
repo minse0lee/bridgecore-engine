@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9eW8KwozvtGKEnsmvv",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0412\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I’ve been drunk for about a week now\",\"tgt_span\":\"한 일주일 전부터 계속 취해 있었는데\",\"description\":\"'지금까지 약 일주일째 취해 있다'는 기간 표현이 '일주일 전부터 계속 취해 있었다'로 바뀌었으나 사실상 같은 사태를 기술하며, 의미·기능 변화 없음. 다만 'now'의 현재 지속(지금도 취해 있음) 뉘앙스가 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"부인 이름, 아는지 질문, 어젯밤 어디선가 만남, 약 일주일간 취해 있음, 서재에서 술을 깨려는 의도가 모두 유지됩니다. '일주일 전부터 계속 취해 있었다'는 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'and I thought'의 병렬·목적 관계가 '-는데 … 싶어서요'로 자연스럽게 유지되며 지시 관계나 초점 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 소개와 질문, 상황 설명 → 동일한 소개·질문·설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술·대화 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"처음 만난 상대에게 말하는 서술 상황에서 '-인가요', '-죠', '-서요'의 부드러운 존댓말이 적절하며 '부인' 호칭도 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Mrs.'를 '부인'으로 옮겨 기혼 여성 경칭이 유지되며 별도 제도·단위 변경이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 743,
+    "output_tokens": 809,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

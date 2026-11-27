@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9e611Dy9U5YYrhNfmQ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0624\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Either you ought to be more careful, or you oughtn’t to drive at all.\",\"tgt_span\":\"더 주의해서 운전하시든가, 아니면 아예 운전을 하지 마세요.\",\"description\":\"ought to / oughtn't to(권고)가 '-하시든가'와 명령형 '-하지 마세요'로 바뀌어 권고가 직접적인 명령·금지 형식으로 옮겨짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"더 조심하거나 아예 운전하지 말라는 두 선택지와 행위자(상대)가 그대로 유지됩니다. 규범 강도 변화는 Deontic에서만 다룹니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"either…or의 택일 관계가 '-하시든가, 아니면'으로 유지되고 at all의 초점도 '아예'로 남아 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대의 운전을 항의하며 행동 변화를 촉구하는 말 → 같은 항의·촉구. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: ought to의 규범적 권고가 '-하지 마세요'라는 직접 금지 명령으로 바뀌어 강도가 세졌습니다. 다만 항의하는 화자의 택일적 요구라는 범주와 요지는 유지되어 독자가 행동 조건을 다르게 이해하지는 않으므로 minor입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 상대에게 높임('운전하시든가', '하지 마세요')을 쓴 것은 문맥상 관계에 어긋나지 않고, 질책하는 태도도 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 645,
+    "output_tokens": 821,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

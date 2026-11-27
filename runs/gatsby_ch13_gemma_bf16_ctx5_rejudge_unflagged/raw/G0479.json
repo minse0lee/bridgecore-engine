@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9bZ37VqXQKQrmNFCAw",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0479\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"If you read the papers you know there was a big sensation.\",\"tgt_span\":\"신문을 보신 분들은 아시겠지만, 정말 대단한 반향을 일으켰던 곡이죠.\",\"description\":\"'there was a big sensation'(큰 센세이션이 있었다)이 '그 곡이 대단한 반향을 일으켰다'로 바뀌었으나 같은 사태를 가리켜 의미 변화는 없음(오류 아님 확인용)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"요청, 연주 곡, 지난 5월 카네기 홀, 신문을 읽은 사람이 아는 큰 반향 등 내용이 모두 유지됩니다. 'last May'가 '지난 5월'로 옮겨진 것이 자동 힌트의 5이며 오류가 아닙니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"which 관계절이 수식절로, If 조건이 '보신 분들은 아시겠지만'으로 연결 관계를 유지하며 지시 대상도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"연주 소개 및 청중에게 하는 안내 발화 → 같은 소개·안내 발화로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 표현이 없고 연주 예고와 사실 진술뿐입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"청중 앞 사회자의 공손한 공식 발화가 '-해 드리겠습니다', '보신 분들' 등의 높임으로 적절히 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"카네기 홀과 인명이 통용 음역으로 표기되어 같은 대상을 가리킵니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1132,
+    "output_tokens": 782,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

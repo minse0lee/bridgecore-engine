@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9UfEUx7MJS1iHtQc7o",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0125\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"said Miss Baker to the four cocktails\",\"tgt_span\":\"칵테일 네 잔을 보며 조던 베이커 양이 말했다\",\"description\":\"'칵테일에게 말했다'가 '칵테일을 보며 말했다'로 바뀌고 '조던'이 첨가됨. 의인화된 거절 표현이 약해졌으나 거절 대상과 행위는 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"거절 발화, 칵테일 네 잔, 막 저장실에서 나온 상황이 유지됩니다. '조던'은 문단 문맥상 같은 인물이며 '~을 보며'는 같은 장면을 기술합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 거절 대상의 지시 관계가 유지되고 연결·초점 관계에 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"음료 권유를 거절하는 서술 → 같은 거절 서술. 칵테일에게 건네는 말의 해학적 기능도 읽힙니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사교 자리의 정중한 거절이 '괜찮아요'의 해요체로 유지되고 'Miss'는 '양'으로 옮겨졌습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Miss Baker의 호칭이 '양'으로 통용되는 방식으로 옮겨졌고 칵테일 등 문화 요소도 유지됩니다. 'pantry'를 '식료품 저장실'로 옮긴 것은 문제없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 579,
+    "output_tokens": 758,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
