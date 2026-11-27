@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT72Xr2MVmthhEvhAZDs",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0115\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Never heard of them\",\"tgt_span\":\"한 번도 들어본 적 없는 곳들이군\",\"description\":\"them(앞 문맥상 지칭 대상 불명)을 '곳들'로 한정해 옮김. 문맥상 지칭 대상이 장소인지 확인되지 않아 대상이 달라졌을 가능성이 있음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'them'이 장소를 가리키는지 사람이나 사물을 가리키는지 문단 문맥만으로 확인되지 않습니다. 앞 대화에서 them의 지시 대상 확인이 필요합니다.\"},\"Textual\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'them'의 선행어가 제시되지 않아 '곳들'이 같은 대상을 가리키는지 판단할 수 없습니다. 앞 문장의 지시 대상 확인이 필요합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"단정적으로 모른다고 답하는 진술 → 단정적으로 모른다고 답하는 진술. 발화 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"never는 경험 부정이며 의무·금지·허가 같은 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-군' 어미의 혼잣말투 단정이 단호한 태도를 유지하며 관계상 문제 되는 높임 변화는 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 581,
+    "output_tokens": 716,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

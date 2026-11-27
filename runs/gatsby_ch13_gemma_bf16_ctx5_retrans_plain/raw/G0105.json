@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT72eW8bF6bpujEs3zrz",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0105\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"You ought to see the baby.\",\"tgt_span\":\"당신도 아기를 봐야 해요.\",\"description\":\"'도'가 첨가되어 '아기도 봐야 한다'는 식의 추가·병렬 의미가 생기고, ought to(권고)가 '봐야 해요'로 다소 강해졌지만 통상 대응임. 핵심은 '도' 첨가\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 원문에 없는 '도'가 붙어 다른 것에 더하여 아기를 보라는 뜻으로 읽힐 수 있어 내용이 약간 달라졌으나, 아기를 보라는 핵심 내용은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3: 원문에 없는 초점 표현 '도'가 추가되어 '당신도'로 청자를 다른 사람과 견주는 초점이 생겼습니다. 다만 요지는 유지되어 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뜬금없이 덧붙이는 권유 → 뜬금없이 덧붙이는 권유. irrelevantly에 해당하는 '뜬금없이'가 유지되고 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 상대에게 거는 권고인 ought to가 '봐야 해요'로 통상적으로 대응되어 범주와 주체가 유지됩니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"부부 사이의 대화에서 아내가 남편에게 '-해요'체로 말하는 것은 관계에 맞고 앞 발화와도 일관됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 662,
+    "output_tokens": 809,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

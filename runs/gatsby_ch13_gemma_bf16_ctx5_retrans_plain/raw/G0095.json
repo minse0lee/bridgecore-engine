@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT71gfL5ugBugkPtYFvW",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0095\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"had obviously tottered a little and given her something of a fright\",\"tgt_span\":\"분명 조금 흔들렸고, 그 바람에 그녀는 내심 깜짝 놀란 모양이었다\",\"description\":\"obviously tottered(명백히 흔들림)는 유지되었으나 '깜짝 놀란 모양'으로 놀람이 추측처럼 표현되고 '내심'이 더해졌다. 서술자의 관찰 추론 구조상 큰 차이는 없어 의미 변화는 미미하다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"입술 떨림, 고개 끄덕임, 머리 젖힘, 물건이 흔들려 놀람이라는 행위자·행위·인과가 유지됩니다. '내심', '모양이었다'는 서술자 추정 어조에 가까운 미세한 차이로 핵심 사실을 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대시 뒤 설명이 '그녀가 … 무언가가 … 흔들렸고, 그 바람에'로 이유 관계를 유지하며 지시 대상(그녀, 무언가)도 동일합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 행동과 그 이유를 묘사하는 서술 → 서술. 기능이 같은 종류입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가를 나타내는 표현이 없는 서사 묘사입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술의 평서체 문어체가 유지되고 'Miss Baker'를 '베이커 양'으로 옮겨 호칭 관계도 맞습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Miss'를 '양'으로 옮긴 것은 통용되는 대응으로 문화적 함의가 유지됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 930,
+    "output_tokens": 816,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

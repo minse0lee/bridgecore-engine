@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT72w8zZtG8BTrYwvmko",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0118\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'동부에 계속 머문다면 알게 될 것'이라는 조건과 내용이 동일합니다. 앞 문장에서 가져온 'know'의 생략된 목적어도 '알게 될 겁니다'로 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"if 조건 관계가 '-신다면'으로 유지되고, 생략된 동사(알게 될 것)도 앞 문장과의 연결로 같게 복원됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조건을 달아 상대의 말에 답하는 서술 → 동일한 기능의 서술. 대화 속 응답 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없는 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'계신다면', '겁니다'는 화자 닉이 청자에게 하는 정중한 말투로, 같은 대화 상황의 관계에서 부적절하지 않습니다. 앞 문장의 '-거예요'와 종결어미가 달라도 관계를 바꾸는 오류는 아닙니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'the East'는 미국 동부를 가리키는 일반 지명이므로 평가할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 480,
+    "output_tokens": 640,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
