@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnRP5rsEufaRiYgEWjL",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0041\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"that slender riotous island\",\"tgt_span\":\"어느 가느다란 섬\",\"description\":\"지시어 that이 부정(不定)적 '어느'로 바뀌었으나 앞 문장의 장소를 이어받는 '그곳은'이 있어 지시 관계는 유지됨. 의미 변화 없음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴욕 정동쪽으로 뻗은 가늘고 소란스러운(화려한) 섬, 그곳의 특이한 지형 두 곳이라는 내용이 유지됩니다. riotous를 '무질서하리만치 화려한', curiosities를 '신비'로 옮긴 것은 평가어의 정도 차이 수준입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"that island의 지시와 where 관계절의 '그 섬에는' 연결, 'among other…'의 범위가 유지되어 판단 질문 1~3 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장소 묘사·설명 → 장소 묘사·설명. 서술 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 '~었다'가 유지되며 화자·독자 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴욕이라는 지명과 방위 표현뿐이며 제도·단위 등 문화 고유 대상은 별도 변형 없이 옮겨졌습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2782,
+    "output_tokens": 721,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

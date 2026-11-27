@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnRaZvGc2mDGHq6wQn4",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0051\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the courtesy bay\",\"tgt_span\":\"작은 만\",\"description\":\"courtesy bay(명목상 '예의상 만'이라 불리는 작은 만)가 '작은 만'으로 옮겨져 '명목상·예의상'의 뉘앙스가 빠졌으나 같은 만을 가리키며 핵심 지시 대상은 유지됨\"},{\"id\":\"E002\",\"src_span\":\"fashionable East Egg\",\"tgt_span\":\"상류층이 모여 사는 이스트에그\",\"description\":\"fashionable(유행을 따르는, 세련된)이 '상류층이 모여 사는'으로 바뀌어 평가 내용이 약간 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: 'fashionable'이 '상류층이 모여 사는'으로 바뀌어 평가 내용이 달라졌으나 핵심 사실(만 건너 이스트에그, 여름 이야기의 시작, 톰 뷰캐넌 부부와의 저녁 식사)은 유지되어 요지는 같습니다. 'courtesy bay'→'작은 만'은 같은 만을 가리키므로 별도 오류로 보지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'there'→'그곳', 두 절의 연결(and→'-는데'), 'really begins'의 강조 표현 '본격적으로'가 유지되어 지시·연결·초점 모두 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사 도입 서술 → 서사 도입 서술. 이야기의 시작을 알리는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 화자의 회고적 서술체가 '-다' 문어체로 유지되어 관계와 태도에 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"이스트에그, 톰 뷰캐넌 부부 등 인명·지명 중심이며 별도 제도·단위 변경이 없고 'the Tom Buchanans'를 '톰 뷰캐넌 부부'로 적절히 옮겼습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2494,
+    "output_tokens": 957,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

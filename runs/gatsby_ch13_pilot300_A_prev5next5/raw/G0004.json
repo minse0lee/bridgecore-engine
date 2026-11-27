@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnQWezmWuEG5NFrXv7d",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0004\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the victim of not a few veteran bores\",\"tgt_span\":\"지독한 지루함을 주는 이들에게 시달리는 희생양이 되기도 했다\",\"description\":\"'not a few'(적지 않은 수)가 수량 표현 없이 사라지고, 'veteran'(노련한, 상습적인)이 '지독한'으로 바뀜. 수량·정도 정보가 일부 달라졌으나 핵심 사실(지루한 사람들에게 시달림)은 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"판단 질문 1: 판단 유보 성향, 기이한 성격의 사람들을 많이 알게 됨, 지루한 사람들에게 시달림이라는 핵심이 유지됩니다. not a few의 수량 약화와 veteran→'지독한'은 평가어 정도 차이로 보아 보존입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"In consequence→'그 결과', 'a habit'→'이런 습관', also→'동시에/되기도'로 인과·추가 관계와 지시 대상이 유지됩니다(질문 1·2·3 모두 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 자기 서술·설명 → 자기 서술·설명으로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 성향을 서술하는 문장으로 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"일인칭 회고 서술의 격식 있는 평서체('-했다')가 유지되며 지루한 사람들에 대한 다소 비꼬는 태도도 남아 있습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 이 문장에 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 14219
+    },
+    "cache_creation_input_tokens": 14219,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2676,
+    "output_tokens": 794,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

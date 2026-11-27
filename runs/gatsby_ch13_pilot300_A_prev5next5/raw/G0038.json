@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnRP77AN8fSDurykJsm",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0038\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"one year I wrote a series of very solemn and obvious editorials for the Yale News\",\"tgt_span\":\"한 해 동안은 '예일 뉴스'에 아주 엄숙하고 뻔한 사설들을 연재하기도 했다\",\"description\":\"'one year'(한 해)가 '한 해 동안은'으로 바뀌어 1년간 연재한 것처럼 읽힐 여지가 있으나, 'a series of'를 '연재'로 옮긴 것과 함께 핵심 사실은 유지됨. 의미를 바꾸는 오류로 보기 어려움.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대학 시절 문학적이었고, 예일 뉴스에 사설 연작을 썼으며, 다재다능한 사람이 되려 했다는 내용이 모두 유지됩니다. '한 해 동안은'은 미세한 뉘앙스 차이일 뿐 사태가 달라지지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'now ... again'의 과거와 현재 대비가 '이제 ... 다시'로 유지되고, 'such things'는 '그런 면모'로 지시 대상이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 과거와 계획을 서술하는 기능 → 서술 기능 유지.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 1인칭 서술의 '~었다' 문어체가 유지되고 'most limited of all specialists'의 자조적 태도도 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Yale News를 '예일 뉴스'로 통용되는 음역으로 옮겨 같은 대상을 가리키며 별도의 제도 변환은 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2484,
+    "output_tokens": 814,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
