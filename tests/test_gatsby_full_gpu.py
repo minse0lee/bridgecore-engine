@@ -93,3 +93,37 @@ def test_check_prev_only_compares(work, capsys):
     assert "[비교]" in capsys.readouterr().out
     g.main(["--dir", str(work), "--fake", "--check-prev", "5", "--limit", "6"])
     assert len(list((work / "out").glob("part_*.jsonl"))) == 1    # 비교 + 속도 시험
+
+
+def test_retranslate_only_flagged(work):
+    """재번역: 짚인 문장만 다시 내고, 이어하기가 되고, 현재 번역과 다른 목록은 거부."""
+    from translation import gatsby_retranslate_gpu as r
+    prev_ids = sorted(_prev(work, n=60))
+    cur = {x["id"]: x["mt"] for x in _rows(work / "gemma_ch1_3_bf16_ctx5.jsonl")}
+    sent = {x["id"]: x for x in _rows(work / "sentences.jsonl")}
+    pick = prev_ids[::7]
+    with open(work / "flags.jsonl", "w", encoding="utf-8") as f:
+        for i in pick:
+            f.write(json.dumps({"id": i, "en": sent[i]["en"], "mt": cur[i], "top_severity": "minor",
+                                "flags": [{"axis": "Semantic", "severity": "minor", "reason": "이유"}],
+                                "errors": [{"src_span": "a", "tgt_span": "b", "description": "설명"}]}, ensure_ascii=False) + "\n")
+    d = ["--dir", str(work), "--flags", "flags.jsonl", "--fake"]
+    r.main(d + ["--cond", "reason", "--limit", "2"]); r.main(d + ["--cond", "reason"]); r.main(d + ["--cond", "reason"])
+    out = _rows(work / "out/retrans_reason.jsonl")
+    assert sorted(x["id"] for x in out) == pick and all(x["mt_prev"] == cur[x["id"]] and x["changed"] for x in out)
+    r.main(d + ["--cond", "plain"])
+    assert len(_rows(work / "out/retrans_plain.jsonl")) == len(pick)
+    assert r.prompt_hash(__import__("gemma_translate"), "reason") != r.prompt_hash(__import__("gemma_translate"), "plain")
+    # 검토 의견은 reason 조건에만 들어간다
+    import gemma_translate as gt
+    allb, idx = gt.blocks(_rows(work / "sentences.jsonl"), None)
+    fl = {x["id"]: x for x in _rows(work / "flags.jsonl")}
+    k = next(k for k in idx if any(s["id"] in fl for s in allb[k]["sents"]))
+    assert "검토 의견" in r.user_text(gt, allb, k, cur, fl, "reason", 5)[1]
+    assert "검토 의견" not in r.user_text(gt, allb, k, cur, fl, "plain", 5)[1]
+    # 다른 번역을 검증한 목록이면 멈춘다
+    bad = _rows(work / "flags.jsonl"); bad[0]["mt"] = "다른 번역"
+    with open(work / "flags_bad.jsonl", "w", encoding="utf-8") as f:
+        f.write("\n".join(json.dumps(x, ensure_ascii=False) for x in bad) + "\n")
+    with pytest.raises(AssertionError):
+        r.main(["--dir", str(work), "--flags", "flags_bad.jsonl", "--cond", "reason", "--fake", "--tag", "x"])
