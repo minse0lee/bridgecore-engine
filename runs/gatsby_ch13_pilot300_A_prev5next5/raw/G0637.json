@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnYMP7XDXmFf89FL9Vz",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0637\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a vague understanding\",\"tgt_span\":\"그 모호한 약속\",\"description\":\"'understanding'(암묵적 양해·합의)이 '약속'으로 옮겨져 명시적 약속처럼 읽혀 정도·성격이 다소 달라짐. 또한 'a'가 지시어 '그'로 바뀜.\"},{\"id\":\"E002\",\"src_span\":\"tactfully broken off\",\"tgt_span\":\"재치 있게 끊어내야만 했다\",\"description\":\"tactfully(조심스럽고 배려 있게)가 '재치 있게'로 옮겨져 뉘앙스가 다소 달라짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"모호한 양해를 자유로워지기 전에 요령 있게 끊어야 했다는 핵심 내용이 유지됩니다. 'understanding'→'약속', 'tactfully'→'재치 있게'는 의미 범위 내 표현 차이로 사태를 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Nevertheless의 양보 연결이 '그럼에도'로, before I was free의 시간·조건 관계가 '자유로워지려면'으로 유지됩니다. '그'는 앞 문맥의 관계를 가리켜 지시가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 상황·내적 사정 서술 → 동일한 서술 기능.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"had to는 화자의 내적 필요를 서술하는 소설 속 서술이며 독자나 인물에게 규범을 부과하는 문장이 아니므로 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회고 서술의 평서체 '~했다'가 유지되며 관계·격식상의 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 별도로 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1469,
+    "output_tokens": 849,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

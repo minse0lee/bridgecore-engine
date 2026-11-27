@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnd6eUxoNmEnTqFPgzT",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0456\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"old sport\",\"tgt_span\":\"친구\",\"description\":\"Gatsby 특유의 말버릇인 'old sport'(옛 친구, 격의 없는 친밀한 호칭이자 개츠비의 인물 특징)가 일반 명사 '친구'로 옮겨져 특유의 어투와 함의가 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"필요한 것이 있으면 요청하라는 내용, 말하는 사람과 듣는 사람, 권유 행위가 유지됩니다. 'old sport'의 '친구'는 호칭의 일반적 대응 범위 안에 있습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조건(if)과 그에 따른 권유의 연결이 '있으면 … 말씀하세요'로 유지되고, 지시 표현이나 초점 표현의 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"도움 제안·권유 → 도움 제안·권유. 필요하면 요청하라고 권하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"선택적 호의를 베푸는 대화 속 제안으로, 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(태도·호칭): 'old sport'는 개츠비가 쓰는 격식 있으면서도 친밀한 특유의 호칭인데 평범한 '친구'로 옮겨 그 말투의 인상이 약해졌습니다. 다만 친밀한 호칭이라는 기본 성격은 남아 있어 minor입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 별도로 판정할 대상이 없고, 호칭은 Register에서 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1497,
+    "output_tokens": 810,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

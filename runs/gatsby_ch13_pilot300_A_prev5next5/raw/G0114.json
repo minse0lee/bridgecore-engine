@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnSdZXc55negRn7M8Tq",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0114\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I told him.\",\"tgt_span\":\"나는 그에게 어디서 일하는지 말했다.\",\"description\":\"원문의 목적어 없는 'told him'(어느 회사인지 알려 주었다는 함의)을 '어디서 일하는지'로 풀어 명시함. 직전 질문 'Who with?'의 답을 가리키는 것이므로 의미 변화 없는 보충임.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"직전 'Who with?'에 대한 답으로 회사를 말했다는 내용이 그대로 전달되며 행위자·대상·행위가 같습니다. 문맥상 함의를 명시한 것일 뿐 사실 변화가 없습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞 질문에 대한 대답이라는 연결 관계가 유지되고 대명사 him은 톰으로 동일하게 가리킵니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"질문에 답했다는 서술 → 질문에 답했다는 서술. 서술 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자 서술문이며 높임·호칭·태도가 특별히 드러나지 않고 평서체 서술이 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 이 문장에 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1005,
+    "output_tokens": 683,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

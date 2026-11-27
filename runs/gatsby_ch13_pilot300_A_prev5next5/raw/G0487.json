@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnWPAxHWuVzb71DeoQn",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0487\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"no singing quartets were formed with Gatsby’s head for one link\",\"tgt_span\":\"개츠비를 끼워 넣은 노래 콰르텟 무리도 만들어지지 않았다\",\"description\":\"'개츠비의 머리가 한 고리(연결 고리)가 되어 노래 사중창이 만들어지는' 장면이 '개츠비를 끼워 넣은 무리'로 바뀌어 머리로 연결된다는 구체적 이미지가 사라짐\"},{\"id\":\"E002\",\"src_span\":\"even into groups\",\"tgt_span\":\"혹은 무리 속으로\",\"description\":\"'심지어 무리 속으로까지'라는 강조(even)가 '혹은'이라는 단순 병렬로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'Gatsby's head for one link'(개츠비의 머리가 연결 고리)가 '개츠비를 끼워 넣은'으로 바뀌어 머리라는 신체 요소와 연결 이미지가 빠졌으나, 개츠비가 어울림에 끼지 않았다는 요지는 유지됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 3: even이 붙은 초점('심지어 무리 속으로까지')이 '혹은'이라는 대등 선택으로 바뀌어 초점 표현이 사라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(대조 묘사) → 서술. 개츠비만 파티의 방종한 분위기에서 떨어져 있음을 보여 주는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 장면 묘사이며 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 청자 사이 관계가 드러나는 대화·호칭이 없는 서술문입니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"French bob(프렌치 봅 머리) 같은 1920년대 유행 헤어스타일을 통용 표기로 옮겨 같은 대상을 가리킵니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2381,
+    "output_tokens": 916,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

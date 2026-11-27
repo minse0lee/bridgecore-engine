@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnbbLLWguGaKRnR3M7G",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0315\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the ravages of the night before\",\"tgt_span\":\"전날 밤의 흔적\",\"description\":\"ravages(파괴·훼손의 피해)가 중립적인 '흔적'으로 바뀌어 파티가 남긴 난장판이라는 부정적 평가의 정도가 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"월요일, 정원사 포함 하인 여덟 명, 청소·수리 도구, 온종일, 전날 밤의 피해 복구가 모두 유지됩니다. 'ravages'가 '흔적'으로 바뀐 것은 평가어의 정도 변화에 그치고 뒤의 '복구 작업'이 파손을 암시하므로 보존입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'And on Mondays'가 '그러다 월요일이 되면'으로 이어지는 시간 연결이 유지되고, 지시·초점 관계의 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사적 묘사·설명 → 서사적 묘사·설명. 파티 뒤 월요일 풍경을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 서술 문장이며 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 서술하는 소설 본문의 문어체 평서 서술이 '~힘썼다'로 유지되며 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화·제도 고유 대상(제도명, 단위, 관습 등)이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2140,
+    "output_tokens": 749,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

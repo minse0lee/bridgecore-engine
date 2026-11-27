@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnRrda7VmP3nTK11jUL",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0067\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"he seemed to fill those glistening boots until he strained the top lacing\",\"tgt_span\":\"그는 반짝이는 부츠의 윗끈이 팽팽해질 정도로 발을 꽉 채우고 있었고\",\"description\":\"'seemed'(~처럼 보였다)의 추측·외양 표현이 단정적 사실 서술로 바뀌었고, 부츠를 채우는 주체인 몸(다리)이 '발'로 한정되어 의미가 약간 달라짐. 또한 '윗끈이 팽팽해질 정도로'가 원문의 strained the top lacing(윗끈을 팽팽하게 당김)과 거의 같은 내용으로 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): 'seemed to fill'(그렇게 보였다)이 '꽉 채우고 있었다'로 단정되어 확실성이 달라졌고, 부츠를 채우는 것이 다리인데 '발'로 한정되었으나 핵심 사실(몸이 부츠를 팽팽하게 채움)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'조차'가 not even의 초점을 승마복의 멋에 그대로 유지하고, 지시·연결 관계도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 외양 묘사 → 인물 외양 묘사. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 외양 묘사이며 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체가 유지되고 'effeminate'의 다소 경멸적인 어조도 '여성스러운 멋'으로 대체로 전달되어 관계·태도가 크게 달라지지 않았습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2706,
+    "output_tokens": 883,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnYz8hjUECmMJtFBDsZ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0055\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"His family were enormously wealthy\",\"tgt_span\":\"그의 집안은 엄청난 부자였다\",\"description\":\"현재와 대비되는 과거 사실의 시제 처리는 문제 없음(오류 아님)이나 'wealthy'가 과거형으로 옮겨져 의미 변화 없음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"집안의 큰 부, 대학 시절 돈 씀씀이에 대한 비난, 시카고에서 동부로 이주, 레이크 포레스트에서 폴로 포니 한 무리를 데려온 사실이 모두 유지됩니다. '압도적'은 평가어 정도 차이이고 '통째로'는 정도 강조일 뿐 핵심 사실은 같습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'but now'의 대비는 '이제'와 '~는데'로 유지되고, 'for instance'의 예시 관계는 '예를 들어'로 남아 있으며 '그의'가 가리키는 대상도 같습니다(질문 1·2·3 모두 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 서술·묘사 → 인물 서술·묘사. 화자가 톰의 부를 설명하는 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 인물 서술이며 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 독자에게 서술하는 문어체 평서 서술 '~했다'체가 유지되어 관계와 태도가 맞습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"레이크 포레스트 등 지명만 있고 별도 제도 요소는 없으며, 동부(East)와 폴로 포니 같은 부유층 문화 표지도 같은 대상을 가리킵니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2561,
+    "output_tokens": 818,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

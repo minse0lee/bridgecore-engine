@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnRno8RCsrnDTEMQHgQ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0062\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"burning gardens\",\"tgt_span\":\"활짝 핀 정원들\",\"description\":\"'타오르는(불타는 듯한) 정원'이라는 은유가 '활짝 핀 정원'으로 바뀌어 불타듯 선명한 색채·강렬함의 이미지가 약해지고 다른 평가가 됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'burning gardens'가 '활짝 핀 정원들'로 바뀌어 묘사 내용이 달라졌으나, 잔디밭의 뻗어나감과 덩굴로 오르는 핵심 사태와 1/4마일 수치는 유지되어 요지와 행동 이해는 바뀌지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"잔디밭을 가리키는 'it'과 'its run'의 지시 관계, 시작→달림→도달 시간 순서, '마침내…듯'의 연결이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"풍경 묘사 → 풍경 묘사. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 문어체 평서 서술체가 유지되고 관계·태도 표지가 따로 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"quarter of a mile을 '4분의 1마일'로 같은 단위 그대로 옮겨 단위 체계를 바꾸지 않았고 수치도 정확합니다. 해시계 등도 같은 대상을 가리킵니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2707,
+    "output_tokens": 758,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

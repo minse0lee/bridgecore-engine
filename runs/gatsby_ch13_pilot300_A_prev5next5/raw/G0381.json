@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnVM9PtZC6SCeL2svJM",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0381\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"You look at him sometimes when he thinks nobody’s looking at him.\",\"tgt_span\":\"가끔 그 사람이 아무도 안 본다고 생각할 때 표정을 한번 보세요.\",\"description\":\"'그 사람을 쳐다보다'가 '표정을 보세요'로 바뀌어 보는 대상이 '표정'으로 구체화됨. 또한 일반적 you(너희도 보면 알 수 있다)가 직접 권유로 읽힘\"},{\"id\":\"E002\",\"src_span\":\"I’ll bet he killed a man.\",\"tgt_span\":\"분명 사람을 죽였을 거예요.\",\"description\":\"'내기를 걸어도 좋다'는 추측이 '분명 ~했을 것'으로 확신 쪽에 가깝게 옮겨짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 보는 대상이 '그 사람'에서 '표정'으로 바뀌었고, I'll bet의 추측이 '분명'으로 확신이 다소 강해졌으나 핵심 사실(그가 사람을 죽였다는 추측)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'when'절의 시간 관계와 'he'의 지시 대상이 유지되며 연결·초점 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소문·추측으로 상대를 설득하는 발화 → 같은 설득·추측 제시 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 대화의 설득 발화이며 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"파티에서 일행에게 소문을 전하는 여성의 구어체 대화가 '-세요/-거예요' 체로 자연스럽게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1547,
+    "output_tokens": 873,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

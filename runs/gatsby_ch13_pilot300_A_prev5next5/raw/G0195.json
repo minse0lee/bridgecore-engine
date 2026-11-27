@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTng2X2NtG15daJ41KR3",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0195\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"She was only extemporizing\",\"tgt_span\":\"그녀는 그저 즉흥적으로 내뱉은 말이었겠지만\",\"description\":\"주어 '그녀'가 즉흥적으로 말한 행위자인데, 번역문은 '그녀는 … 말이었겠지만'으로 사람이 말과 동일시되는 구조가 되었고, 단정(was)이 추측('-었겠지만')으로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"her heart was trying to come out to you concealed in one of those breathless, thrilling words\",\"tgt_span\":\"숨 가쁘고 전율 돋는 말들 속에 마음을 숨겨 전하려는 듯\",\"description\":\"'one of those ... words'(그런 말 중 하나)가 '말들 속에'로 바뀌고, '마음이 숨겨진 채 나오려 한다'는 구조가 '마음을 숨겨 전하려는'으로 바뀌었으며 'you'가 빠짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): '즉흥적으로 말하고 있었을 뿐이다'라는 단정이 '-었겠지만'이라는 추측으로 바뀌어 확실성이 달라졌으나, 핵심 사실(즉흥적 발화, 마음을 흔드는 온기)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'but'의 양보 대조가 '-했겠지만'으로, 'as if'의 비유 연결이 '-려는 듯'으로 유지되고 지시 관계도 변하지 않았습니다. 'only'는 '그저'로 옮겨졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 상황 묘사·해석 → 서술자의 상황 묘사·해석. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술자의 소설 서술체 '-었다/-했다'가 유지되며 관계상 높임 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2076,
+    "output_tokens": 975,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

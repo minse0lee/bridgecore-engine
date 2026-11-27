@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnX98t78dseBRbhkoAY",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0529\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Sigourney\",\"tgt_span\":\"시구니\",\"description\":\"Sigourney(시고니)를 '시구니'로 음역했으나 인명 지시 대상은 식별 가능하여 의미 변화는 아님\"},{\"id\":\"E002\",\"src_span\":\"Under the name of Mrs. Sigourney Howard…\",\"tgt_span\":\"이름으로 되어 있을 거예요…\",\"description\":\"단편적 말투를 '되어 있을 거예요'로 보충하며 추측 표현이 추가됨(확실성 약화)\"},{\"id\":\"E003\",\"src_span\":\"Please come and see me\",\"tgt_span\":\"꼭 한번 보러 오세요\",\"description\":\"'꼭'이 더해져 권유가 약간 강조됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"방문 권유, 전화번호부, 하워드 부인 이름, 고모라는 핵심 내용이 모두 유지됩니다. '되어 있을 거예요'의 보충과 '꼭'은 문맥상 같은 사태이며, 시구니는 이름 음역 차이입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'My aunt'가 하워드 부인을 가리키는 관계와 단편적 연결이 '제 고모님인데'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"방문 권유와 연락 방법 안내 → 방문 권유와 연락 방법 안내로 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"개인적 초대와 정보 안내이며 의무·금지 같은 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조던이 닉에게 건네는 정중하고 우아한 말씨가 '-세요/-예요'체로 유지되며, '고모님'은 가까운 친족을 높여 부른 통상적 표현입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명만 있고 별도로 판정할 문화·제도적 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1691,
+    "output_tokens": 852,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

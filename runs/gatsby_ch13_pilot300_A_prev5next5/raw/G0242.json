@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnTptT9S2YfJMgiPjzT",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0242\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Tom was God knows where\",\"tgt_span\":\"톰이 어디 있었는지는 신만이 아시겠죠\",\"description\":\"'God knows where'는 톰이 어디에 있는지 전혀 모른다는 관용적 표현(톰의 부재에 대한 무관심·원망)인데, '신만이 아시겠죠'는 추측 어미가 붙어 확실성이 약해지고 화자의 모름이 다소 완화됨. 다만 핵심 사실(소재 불명)은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"아기가 태어난 지 한 시간 미만이고 톰의 소재를 알 수 없었다는 내용이 유지되며, '신만이 아시겠죠'는 God knows where의 통상적 대응입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Well'로 이어지는 시간 배경 제시와 'and'의 병렬 연결이 '-때였는데, ~'로 유지되고 지시 대상(she=아기, Tom)도 그대로입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"출산 당시 상황을 서술하는 설명 → 같은 상황 설명. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"데이지가 닉에게 이야기하는 대화체로, '-아시겠죠' 존댓말 구어체가 두 사람의 관계에 어긋나지 않으며 톰에 대한 무심한 태도도 전달됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1718,
+    "output_tokens": 779,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

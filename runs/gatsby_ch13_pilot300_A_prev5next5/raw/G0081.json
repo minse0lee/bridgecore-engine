@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnS2fZLLvxdviKyaHLi",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0081\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"blew curtains in at one end and out the other\",\"tgt_span\":\"양 끝의 커튼을 창백한 깃발처럼 안팎으로 펄럭이게 했고\",\"description\":\"한쪽 끝에서는 안으로, 다른 쪽 끝에서는 밖으로 커튼이 날린다는 대비가 '양 끝의 커튼을 안팎으로 펄럭이게 했다'로 뭉뚱그려짐. 경미한 차이.\"},{\"id\":\"E002\",\"src_span\":\"and then rippled over the wine-coloured rug\",\"tgt_span\":\"그러고는 와인색 카펫 위로 물결치듯 흘러가\",\"description\":\"카펫 위에서 물결친 주체가 바람인데, 번역문 문맥에서는 앞 절 주어인 '커튼'이 이어 받는 것으로 읽힘. 주체가 바뀐 해석 가능성.\"},{\"id\":\"E003\",\"src_span\":\"making a shadow on it as wind does on the sea\",\"tgt_span\":\"마치 바다 위의 바람처럼 그 위에 그림자를 드리웠다\",\"description\":\"바람이 바다에 그림자(물결무늬)를 만드는 것처럼이라는 비유가 '바다 위의 바람처럼'으로 되어 비교 대상이 '그림자를 드리운 것'에서 '바람'으로 바뀌어 읽힘.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 카펫 위로 물결친 행위자가 바람에서 커튼으로 읽히고, 바다 위에서 바람이 그림자를 만든다는 비교가 '바다 위의 바람처럼'으로 흐려졌습니다. 풍경의 큰 줄기는 유지되어 요지와 행동에는 영향이 적어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: 'rippled'의 주어(바람)가 번역문에서는 앞 절 주어인 '커튼'으로 이어져 읽히므로 지시 대상이 바뀌었습니다. 묘사 장면이라 독자의 이해에는 큰 영향이 없어 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사 → 장면 묘사. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 '~다'가 유지되며 화자·독자 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·관습·단위가 없습니다. 웨딩케이크 비유는 일반 비유로 옮겨졌습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2222,
+    "output_tokens": 1136,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

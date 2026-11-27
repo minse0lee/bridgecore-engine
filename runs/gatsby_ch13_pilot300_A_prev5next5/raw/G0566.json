@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnXeN3XhPaAXiWkXVMY",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0566\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"The shock that followed this declaration found voice in a sustained “Ah-h-h!”\",\"tgt_span\":\"그 말에 충격을 받은 사람들이 일제히 \\\"아-!\\\" 하고 탄성을 내뱉는 사이\",\"description\":\"충격이 소리로 표출되었다는 표현이 '사람들이 일제히 탄성을 내뱉는다'로 바뀌어 행위자(사람들)와 '일제히'가 첨가됨. 또한 'sustained'(길게 이어진 소리)가 짧은 '아-!'로 줄어듦. 다만 사태는 크게 다르지 않음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"선언 뒤의 충격이 군중의 탄성으로 터져 나오고 그동안 쿠페 문이 천천히 열렸다는 사태가 유지되며, '일제히'와 '아-!'의 길이 차이는 사태를 바꾸지 않는 표현상의 차이입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그 말'이 this declaration을 가리키고 'as'의 동시 관계가 '-는 사이'로 유지되어 지시·연결·초점이 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 군중의 반응과 문이 열리는 상황을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 장면 서술이며 의무·허가·금지 등의 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 평서체 문어 어조가 유지되며 화자·청자 관계에서 문제 되는 높임이나 호칭이 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"coupé를 '쿠페'로 통용 음역해 같은 차종을 가리키므로 문화적 지시 대상이 유지됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1611,
+    "output_tokens": 840,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

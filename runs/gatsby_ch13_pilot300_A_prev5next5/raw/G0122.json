@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnSqjXPGitRKp3bC4vu",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0122\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"stood up into the room\",\"tgt_span\":\"자리에서 일어나 방 안으로 들어섰다\",\"description\":\"'stood up into the room'(일어서서 방 안에 서 있게 됨)을 '일어나 방 안으로 들어섰다'로 옮겨, 이미 방 안에 있던 인물이 새로 들어온 것처럼 읽힘. 행위 내용이 달라짐\"},{\"id\":\"E002\",\"src_span\":\"for she yawned\",\"tgt_span\":\"그녀는 하품을 하더니\",\"description\":\"원인·이유를 나타내는 for(그녀가 놀랐다는 추측의 근거)가 '-더니'의 단순 순차로 바뀌어 근거 관계가 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위): 소파에서 일어나 방 안에 선 것이 '방 안으로 들어섰다'는 이동으로 바뀌었으나, 놀람과 하품, 일어남이라는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2(연결 관계): 놀랐다는 추측의 근거를 드는 for가 '-더니'의 시간 순서 연결로 바뀌어 인과·근거 관계가 달라졌습니다. 다만 '모양인지'가 추측을 이끌어 근거 관계가 일부 남아 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 인물의 반응과 동작을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"평서 서술체 '-었다'가 서술 문맥에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1504,
+    "output_tokens": 855,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

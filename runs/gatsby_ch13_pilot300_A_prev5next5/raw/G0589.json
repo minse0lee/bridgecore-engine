@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTneU6M9uZBpNBpFAN4Y",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0589\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"endowing with complete isolation the figure of the host\",\"tgt_span\":\"주인장의 모습은 완전히 고립되어 보였다\",\"description\":\"공허함이 주인의 모습에 완전한 고립을 부여했다는 인과적 작용이 '고립되어 보였다'는 단순한 서술로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"갑작스러운 공허함, 창문과 문에서 흘러나옴, 현관의 주인, 격식 있는 작별 손짓, 완전한 고립이 모두 유지됩니다. 'from'을 '사이로'로 옮긴 것은 같은 장면을 기술합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(인과·연결): 공허함이 주인에게 고립을 부여한다는 분사구문의 인과 관계가 두 절의 병렬 서술로 바뀌어 연결 관계가 달라졌습니다. 다만 핵심 사실은 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사 서술 → 장면 묘사 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술체 본문이 유지되며, 화자와 인물 사이의 관계에 따른 높임이 문제되지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도나 관습, 단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1778,
+    "output_tokens": 701,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

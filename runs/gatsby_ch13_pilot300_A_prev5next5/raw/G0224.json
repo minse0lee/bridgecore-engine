@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnTkxJfrbuhK7oot7pn",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0224\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"with several feet of twilight between them\",\"tgt_span\":\"서로 몇 걸음의 거리감을 둔 채\",\"description\":\"'several feet of twilight'(몇 피트의 황혼 빛)가 '몇 걸음의 거리감'으로 바뀌어 황혼이라는 시간·빛 요소가 빠지고 거리 단위도 달라짐\"},{\"id\":\"E002\",\"src_span\":\"Miss Baker\",\"tgt_span\":\"조던 베이커 양\",\"description\":\"원문에 없는 이름 '조던'을 덧붙임. 같은 소설의 등장인물을 가리키는 것으로 의미는 유지됨\"},{\"id\":\"E003\",\"src_span\":\"strolled back into the library, as if to a vigil beside a perfectly tangible body\",\"tgt_span\":\"마치 실재하는 시신 곁에서 밤샘 기도를 하는 사람들처럼 서서히 서재로 돌아갔다\",\"description\":\"'strolled'(천천히 거닐다)를 '서서히 … 돌아갔다'로 옮기고 'as if to a vigil'의 비유를 '밤샘 기도를 하는 사람들'로 풀어 옮김. 의미는 대체로 유지됨\"},{\"id\":\"E004\",\"src_span\":\"a chain of connecting verandas to the porch in front\",\"tgt_span\":\"연결된 베란다들을 지나 앞쪽 포치로 향하는 데이지를 따라갔다\",\"description\":\"'Daisy' 앞에 놓인 '향하는'으로 데이지가 포치로 가는 중이라는 구조로 옮김. 원문과 동일하게 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'twilight'(황혼 빛)가 번역에서 사라지고 'feet'가 '걸음'으로 바뀌어 대상·수량 표현이 달라졌으나, 두 사람이 떨어져 걸었다는 핵심 사태는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"while의 동시 진행 관계는 '그동안'으로 유지되고, 'them'과 'I'가 가리키는 대상도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 장면의 동작을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 장면 서술이며 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자 닉의 서술 어조가 평서 서술체로 유지되며 관계에 맞는 호칭 '양'이 쓰였습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명과 일상적 장소·사물만 나오며 문화·제도 고유 대상이 없습니다. 길이 단위 feet는 비유적 표현이라 Semantic에서만 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2335,
+    "output_tokens": 1182,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

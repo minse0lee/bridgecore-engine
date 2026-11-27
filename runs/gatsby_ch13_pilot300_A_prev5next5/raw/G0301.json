@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnUBL1QDgmDMpcgREp9",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0301\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Something was making him nibble at the edge of stale ideas as if his sturdy physical egotism no longer nourished his peremptory heart.\",\"tgt_span\":\"그의 강건한 육체적 이기심이 더 이상 독단적인 마음을 채워주지 못하는 것인지, 그는 무언가에 떠밀려 진부한 생각들의 끝자락을 조금씩 갉아먹고 있었다.\",\"description\":\"'as if'의 비교(마치 ~인 것처럼, 서술자의 추측)가 '~것인지'라는 의문·불확실 추측절로 바뀌고 원인 서술과 뒤섞여 연결 구조가 달라짐. 의미는 대체로 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"무언가가 그를 진부한 생각을 갉아먹게 한다는 내용과 이기심이 마음을 더 이상 채우지 못한다는 추측이 모두 유지되며, '떠밀려'와 '독단적인'은 같은 사태의 자연스러운 표현입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'as if'의 비유적 추측 관계가 '~것인지'로 재구성되어도 이유에 대한 추측이라는 연결이 남아 있어 지시·연결·초점이 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 상태에 대한 서술자의 묘사·추측 → 인물 상태에 대한 서술자의 묘사·추측으로 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 인물 묘사로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 평서체가 유지되며 화자·청자 관계상 훼손할 높임·호칭 요소가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2390,
+    "output_tokens": 839,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

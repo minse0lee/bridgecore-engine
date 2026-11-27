@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTndWxTzAYmdbEDv889A",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0495\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I noticed that she wore her evening-dress, all her dresses, like sports clothes\",\"tgt_span\":\"그녀가 입은 이브닝드레스가 눈에 들어왔는데, 그녀는 모든 옷을 마치 운동복처럼 입었다\",\"description\":\"'이브닝드레스를 포함한 모든 옷을 운동복처럼 입는다는 것을 알아챘다'는 내용이, 드레스가 눈에 들어왔다는 것과 모든 옷을 운동복처럼 입었다는 두 사실로 나뉘어 알아차린 내용의 범위가 달라졌고, 이브닝드레스와 모든 옷의 동격 관계가 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"드레스가 운동복 같다는 관찰, 모든 옷에 해당한다는 점, 경쾌한 몸짓과 골프 코스 비유가 모두 유지됩니다. 문장 분할과 '알아챘다'의 '눈에 들어왔다' 변환은 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"she·her의 지시 대상이 조던으로 유지되고, 'as if'의 비유 관계도 '처럼'으로 남아 있으며 연결·초점 관계는 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 관찰 묘사 → 서술자의 관찰 묘사. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 인물 묘사로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 서술체 평서문이 유지되며 화자·독자 관계에 영향을 주는 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"이브닝드레스, 운동복, 골프 코스가 같은 대상으로 옮겨져 한국어 독자가 이해할 수 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1625,
+    "output_tokens": 852,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

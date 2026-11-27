@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnXjZL4AdJkJ8m8xyae",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0573\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Half a dozen fingers\",\"tgt_span\":\"여섯 명 남짓한 사람들이\",\"description\":\"'손가락 여섯 개 정도(반 다스)'가 '여섯 명 남짓한 사람들'로 바뀜. 수량 단위가 손가락에서 사람으로 바뀌고 '남짓'(약간 초과)이 더해졌음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(수량·대상): half a dozen fingers(손가락 여섯 개 정도)가 '여섯 명 남짓한 사람들'로 바뀌어 수량 단위와 행위자 표현이 달라졌습니다. 다만 여럿이 바퀴를 가리켰다는 요지와 장면 흐름은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그는'이 술 취한 남자를 가리키는 지시가 유지되고, 시간 순서(바라봄→위를 올려다봄)와 as though 연결도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 사람들의 반응과 남자의 어리둥절한 행동을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가 의미가 없는 서사 묘사입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 평서체 문체가 유지되며 화자·청자 간 높임이나 호칭 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위로서 판정할 대상이 없습니다. 수량 오역은 Semantic에서만 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1530,
+    "output_tokens": 772,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

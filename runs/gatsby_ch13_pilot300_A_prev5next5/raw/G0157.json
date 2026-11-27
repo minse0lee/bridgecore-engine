@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnT9T7tgkUMW6ZX3YTJ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0157\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"That’s what I get for marrying a brute of a man\",\"tgt_span\":\"결혼한 대가를 치르는 거겠지\",\"description\":\"‘이게 짐승 같은 남자와 결혼한 대가다’라는 단정이 추측(‘-겠지’)으로 바뀌어 확실성이 약해짐\"},{\"id\":\"E002\",\"src_span\":\"a great, big, hulking physical specimen of a—\",\"tgt_span\":\"덩치만 크고 무식한 이런 인간이랑\",\"description\":\"‘physical specimen’(육체적 표본)이 ‘무식한’이라는 지적 평가로 바뀌고, 말이 끊기는 미완 문장이 완결된 문장으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: ‘physical specimen’이 ‘무식한’으로 바뀌어 평가 내용이 달라졌고, 단정이 ‘-겠지’ 추측으로 바뀌어 확실성이 달라졌습니다. 핵심 사실(톰이 그랬고 폭력적인 남자와 결혼한 대가)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 3(초점·범위): 원문은 ‘a—’에서 말이 끊기며 hulking을 데이지가 이어 말하는 구조(뒤 문장 ‘Hulking’ 반응의 근거)인데, 번역은 완결되어 이 연결이 약해지고 ‘hulking’이 ‘덩치만 크다’로 이어지는 흐름이 남아 있어 영향은 작습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"데이지의 장난스러운 비난·불평 서술 → 비난·불평 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 대화입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"부부 사이의 반말과 장난스러운 비난 어조가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1660,
+    "output_tokens": 931,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

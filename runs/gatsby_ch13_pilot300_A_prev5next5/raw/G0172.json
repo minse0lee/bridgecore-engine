@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnTQDNv1Vu28ihPfEpL",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0172\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"deep books with long words in them\",\"tgt_span\":\"어려운 단어들이 잔뜩 들어 있는 심오한 책들\",\"description\":\"long words(긴 단어)가 '어려운 단어'로, 'with long words in them'이 '잔뜩 들어 있는'으로 바뀜. 단어의 길이가 난이도·분량으로 바뀌었으나 책이 어려워 보인다는 요지는 유지되어 의미 변화는 경미함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(수량·대상): 'long words(긴 단어)'가 '어려운 단어들이 잔뜩'으로 바뀌어 속성과 수량 표현이 달라졌으나 핵심 사실(톰이 어려운 책을 읽는다)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'He'는 톰을, 'we'는 데이지와 톰 등을 가리키는 관계가 유지되고 끊긴 문장도 '—'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰을 놀리듯 설명하며 말을 잇다 끊는 서술 → 같은 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"데이지가 톰을 '읽으시거든요'로 높였는데, 부부 사이의 말투와 청자(닉)에 대한 높임이 적절한지는 화자와 청자의 관계 확인이 필요합니다. 데이지는 닉의 사촌이고 톰의 아내로, 앞 문장의 '톰 씨' 번역과 함께 보아야 합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1732,
+    "output_tokens": 829,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

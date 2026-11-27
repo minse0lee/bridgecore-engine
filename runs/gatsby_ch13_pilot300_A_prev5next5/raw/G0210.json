@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnauHZgHcwJuyyxmso4",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0210\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Tom’s got some woman in New York.\",\"tgt_span\":\"톰 씨가 뉴욕에 어떤 여자를 두고 있거든요.\",\"description\":\"원문의 평서문 공개가 '-거든요'로 앞 질문에 대한 이유 설명 어미가 되었으나 앞 '아니,'와 함께 대답 기능은 유지됨; 'got some woman'이 '여자를 두고 있다'로 옮겨져 'some'의 경멸적 뉘앙스는 '어떤'으로 유지되나 '톰 씨'로 높임이 더해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 뉴욕에 여자(관계 상대)를 두고 있다는 내용과 장소가 같고, '두고 있다'는 불륜 관계를 나타내는 같은 사태입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계에 변화가 없습니다. '-거든요'는 앞 질문에 대한 설명 연결로 자연스럽게 재구성되었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"비밀을 알려 주는 설명 → 사실을 알려 주는 설명. 같은 종류의 기능입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(태도): 'some woman'의 얕잡아 보는 태도가 '어떤 여자'로 어느 정도 남지만, 톰을 '톰 씨'로 높여 부른 것은 화자가 톰에게 쓰는 호칭이 맥락상 친구의 남편이자 대학 동창이라는 관계에 맞지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명·지명만 있고 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1067,
+    "output_tokens": 837,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

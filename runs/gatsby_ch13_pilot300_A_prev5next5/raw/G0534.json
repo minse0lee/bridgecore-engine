@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnXBXzyQpvYxGNhJnf5",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0534\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"old sport\",\"tgt_span\":\"친구\",\"description\":\"개츠비의 트레이드마크 호칭 'old sport'를 일반적인 '친구'로 옮김. 이 호칭이 지닌 특유의 격식 차린 친근함과 인위성이 약해짐. 뒤 문장 'The familiar expression'이 가리키는 표현의 특수성도 흐려짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'다시 생각하지 말라, 신경 쓰지 말라'는 내용과 친근한 호칭 사용이 유지되고, 수량·대상·부정 등에서 달라진 항목이 없습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현의 변화가 없습니다. 뒤 문장의 'familiar expression'이 호칭을 가리키는 관계도 '친근한 말투'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사과를 받아넘기며 안심시키는 말 → 사과를 받아넘기며 안심시키는 말. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 개인적 위로·안심의 말이며 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(태도): 개츠비 특유의 격식 차린 친밀 호칭 'old sport'가 평범한 '친구'로 바뀌어 화자의 인위적 친밀함이 약해졌습니다. 다만 친근한 호칭이라는 기본 태도는 남아 있어 minor입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'old sport'는 말투 특징일 뿐 제도·단위·관습 등 고유한 문화 대상이 아니므로 이 축에서 따로 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1421,
+    "output_tokens": 828,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

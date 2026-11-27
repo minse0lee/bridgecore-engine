@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnb8YY2LeCiLvHNd2fw",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0229\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"You didn’t come to my wedding.\",\"tgt_span\":\"제 결혼식에 안 오셨잖아요.\",\"description\":\"Daisy가 사촌 Nick에게 쓰는 말투가 높임(-셨잖아요)으로 옮겨져 친척 간 관계와 맞지 않을 수 있음(문단 앞의 '닉 씨' 호칭과 함께 거리감을 만듦)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사촌 관계임에도 서로 잘 모른다는 점과 결혼식에 오지 않았다는 사실이 그대로 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Even if의 양보 관계가 '비록 ~하지만요'로 유지되고, 앞 문장과의 연결도 보존됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서로 어색한 거리를 짚으며 결혼식 불참을 근거로 드는 진술 → 같은 진술 기능으로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술/대화 문장입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"Daisy와 Nick은 사촌이자 동년배 지인 관계인데 높임 수준(-요/-셨잖아요)의 적절성은 당시 두 사람의 거리감과 작품 전체 번역 정책 확인이 필요하여, 원문 격식 수준 자체는 대체로 유지되어 확정하지 못합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"평가할 문화 고유의 제도·단위·관습 대상이 없습니다(결혼식은 일반 사건).\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1474,
+    "output_tokens": 761,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnUGybSAFXnrB5X4dki",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0305\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"suggested that it was Mr. Gatsby himself\",\"tgt_span\":\"그는 제이 개츠비 씨임이 분명했다\",\"description\":\"추측(suggested)이 단정(분명했다)으로 바뀌어 확실성이 달라지고, 'Mr. Gatsby'에 없는 이름 '제이'가 첨가됨\"},{\"id\":\"E002\",\"src_span\":\"our local heavens\",\"tgt_span\":\"이 지역 하늘\",\"description\":\"our(화자와 이웃들이 함께 속한 지역)의 포괄적 소유가 '이 지역'으로 바뀜. 의미 차이는 거의 없음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): '~임을 시사했다'는 추측이 '분명했다'는 단정으로 바뀌었고, 원문에 없는 '제이'가 덧붙었지만 핵심 사실(개츠비가 하늘의 몫을 확인하러 나옴)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'come out to determine'의 목적 관계가 '확인하러 나온'으로 유지되고 지시·연결·초점 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(관찰 묘사) → 서술(관찰 묘사)로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 관찰·추측 문장으로 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 문어체 서술과 'Mr.'를 '씨'로 옮긴 호칭이 화자-대상 관계에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습이 없습니다(인명 표기만 있음).\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2618,
+    "output_tokens": 838,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

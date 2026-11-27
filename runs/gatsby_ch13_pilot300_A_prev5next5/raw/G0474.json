@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnWLHKpCy6znyCL7f5c",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0474\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"young men didn’t … drift coolly out of nowhere and buy a palace\",\"tgt_span\":\"젊은 남자가 … 어느 날 갑자기 어디선가 나타나 … 대저택을 산다는 것은 있을 수 없는 일이었다\",\"description\":\"'젊은 남자들은 그렇게 하지 않는다'는 서술자의 믿음이 '있을 수 없는 일'이라는 단정적 불가능 판단으로 바뀜. 'I believed they didn’t'의 믿음 표지가 사라져 확실성이 달라짐\"},{\"id\":\"E002\",\"src_span\":\"coolly\",\"tgt_span\":\"어느 날 갑자기\",\"description\":\"drift coolly(태연히 흘러들다)의 태연한 태도가 '갑자기'라는 시간적 급작스러움으로 바뀜\"},{\"id\":\"E003\",\"src_span\":\"in my provincial inexperience\",\"tgt_span\":\"시골 출신인 나의 부족한 경험으로는\",\"description\":\"'시골 사람 같은 좁은 식견'이 '시골 출신'이라는 출신 서술로 바뀌어 약간 달라짐. 의미 차이는 작음\"},{\"id\":\"E004\",\"src_span\":\"Long Island Sound\",\"tgt_span\":\"롱아일랜드 해협\",\"description\":\"Long Island Sound의 통용 번역은 '롱아일랜드 해협' 또는 '롱아일랜드 사운드'로, 대응 자체는 적절함. 오류 아님이나 palace → '대저택'은 통상적 대응\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(확실성): 'I believed they didn’t'라는 서술자의 믿음이 '있을 수 없는 일'이라는 단정으로 바뀌고, coolly(태연히)가 '갑자기'로 바뀌었으나 핵심 사실(출처 불명의 젊은이가 대저택을 산 것을 이상하게 여김)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"But의 대조 관계가 '하지만'으로 유지되고 삽입구 '적어도…'의 범위도 같은 부분에 걸려 지시·연결·초점 관계에 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 내면 설명(호기심의 이유) → 서술자의 내면 설명. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술 문장으로 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 회고적 서술체가 '~였다' 문어체로 유지되고 화자의 겸손한 자기평가 태도도 남아 있습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Long Island Sound를 '롱아일랜드 해협'으로 통용되는 지명 표기로 옮겨 같은 대상을 가리키며, 다른 제도나 단위로 바꾸지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1855,
+    "output_tokens": 1224,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

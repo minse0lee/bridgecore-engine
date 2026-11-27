@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnTPfPrV2ndUsVgqw1c",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0171\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“Tom’s getting very profound,”\",\"tgt_span\":\"“톰 씨가 아주 심오해지셨네요.”\",\"description\":\"아내가 남편 톰을 '톰 씨'로 부르고 '-셨네요'로 높여 말해 부부 관계에 맞지 않는 거리감·높임이 생김. 가볍게 놀리는 어조도 약해짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 매우 심오해지고 있다는 내용과 데이지의 아무 생각 없는 슬픈 표정이 유지됩니다. 지침상 '-해지셨네요' 같은 어미 차이는 Register에서 다룹니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 대상과 연결·초점 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰을 빈정대듯 평하는 발화 → 톰을 평하는 발화. 같은 종류의 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2: 데이지가 남편 톰을 '톰 씨'라 부르고 '-셨네요'로 높여 부부 관계에 맞지 않는 거리감과 격식이 생겼고, 놀리는 친밀한 태도도 약해졌습니다. 다만 문장의 요지나 독자의 행동 이해는 바뀌지 않아 minor입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명만 있고 별도로 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1738,
+    "output_tokens": 762,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
