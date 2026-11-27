@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT76FVdRQ2Wn2Vm6sqzf",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0157\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a great, big, hulking physical specimen of a—\",\"tgt_span\":\"덩치만 크고 육중한 이런 인간이랑\",\"description\":\"'physical specimen'(육체적 표본)이 '인간'으로 바뀌고, 'a great, big'이 '덩치만 크고'로 바뀌어 '덩치만 크다'는 부정적 한정이 더해졌으며, 말이 'of a—'에서 끊기는 중단이 사라지고 문장이 완결됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"알지만 일부러 아니었고 실제로 했다는 내용, 짐승 같은 남자와 결혼한 대가라는 내용이 유지됩니다. 'physical specimen'을 '인간'으로 옮기고 '덩치만'이 더해진 것은 평가어의 정도·표현 차이이며 사태는 같습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'but'의 대조 관계와 'That's what I get for'의 인과 관계가 '-지만', '대가라고'로 유지됩니다. 지시·초점 관계는 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"남편을 비난하는 발화 → 남편을 비난하는 발화. 말이 끊기는 중단은 사라졌지만 비난·푸념 기능은 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"아내가 남편에게 하는 친밀한 반말 비난조가 유지되고, 'brute'의 경멸적 태도도 '짐승 같은 남자'로 전달됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 676,
+    "output_tokens": 811,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
