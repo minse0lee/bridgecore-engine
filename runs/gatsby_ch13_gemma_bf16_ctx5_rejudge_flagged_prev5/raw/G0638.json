@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTKa4X1i1avTAoDU7G4c",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0638\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Everyone suspects himself of at least one of the cardinal virtues\",\"tgt_span\":\"사람들은 누구나 자신에게 적어도 한 가지 정도의 핵심적인 미덕은 있다고 믿기 마련인데\",\"description\":\"suspects(막연히 짐작·의심함)가 '믿기 마련'(확신)으로 바뀌어 확실성이 달라짐. cardinal virtues(기본 4덕)가 '핵심적인 미덕'으로 일반화되어 제도적·전통적 개념 의미가 약해짐\"},{\"id\":\"E002\",\"src_span\":\"I am one of the few honest people that I have ever known.\",\"tgt_span\":\"나는 내가 아는 사람 중 드물게 정직한 편에 속한다.\",\"description\":\"'정직한 편에 속한다'로 정도가 약간 완화되었으나 핵심 내용은 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): suspects가 '믿기 마련'으로 단정적 믿음이 되어 확실성이 달라졌으나, 핵심 사실(누구나 한 가지 미덕이 있다고 여김, 화자는 정직함)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'this is mine'이 '내게는 이것이 그렇다'로 앞의 미덕과 이어지는 지시 관계와 콜론의 설명 연결이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 자기 서술(자기소개) → 자기 서술. 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 화자의 회고적 서술이 '~한다' 문어체 서술로 유지되어 관계와 태도에 맞습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"cardinal virtues(기본 덕목)가 '핵심적인 미덕'으로 옮겨져 독자가 기본적 덕이라는 의미를 이해할 수 있어 제도적 의미 손실로 보지 않습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1315,
+    "output_tokens": 931,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

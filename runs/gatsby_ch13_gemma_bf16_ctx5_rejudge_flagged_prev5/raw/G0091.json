@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTKTtEE1Pd9aabuoSKcu",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0091\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"promising that there was no one in the world she so much wanted to see\",\"tgt_span\":\"세상에 나만큼 보고 싶었던 사람은 없었다는 듯한 표정이었다\",\"description\":\"'she so much wanted to see'의 주어가 Daisy(그녀)인데 '나만큼 보고 싶었던 사람은 없었다'로 옮겨 '나'가 보고 싶어 한 사람이 없다는 뜻으로 읽혀 보고 싶어 하는 주체와 대상이 뒤바뀜. 또한 promising(약속하듯 암시)이 '~듯한 표정'으로 바뀜.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위자·대상): 원문은 그녀가 세상에서 가장 보고 싶었던 사람이 화자라는 뜻인데, 번역은 '나만큼 보고 싶었던 사람은 없었다'로 화자 쪽이 보고 싶어 한 것처럼 읽혀 보고 싶어 하는 주체와 대상이 달라졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'again', 'as if' 등 연결·초점 표현과 분사구문 관계가 한국어로 자연스럽게 재구성되어 지시·연결·초점 관계는 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 행동·태도 서술 → 인물 행동·태도 서술. 서술 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 서술문으로 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 '~다'가 유지되어 화자와 독자의 관계에 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1573,
+    "output_tokens": 835,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

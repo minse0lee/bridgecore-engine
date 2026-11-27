@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTKXSPppEjWitRbBrdjE",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0418\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"By midnight\",\"tgt_span\":\"자정이 가까워지자\",\"description\":\"'자정까지는/자정쯤에는'이라는 시점 표현이 '자정이 가까워지자'로 옮겨져 시점이 자정 이전으로 약간 달라짐\"},{\"id\":\"E002\",\"src_span\":\"the hilarity\",\"tgt_span\":\"흥분\",\"description\":\"'떠들썩한 흥겨움(hilarity)'이 '흥분'으로 옮겨져 즐거움·웃음의 뉘앙스가 다소 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"판단 질문 1: 'By midnight'를 '자정이 가까워지자'로 옮겨 시점이 근사하게 달라졌으나 파티 분위기가 고조되었다는 핵심 사실은 같습니다. 판단 질문 2: hilarity와 '흥분'은 평가어의 정도·결 차이에 그쳐 보존입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 관계, 연결 관계, 초점 표현이 바뀌지 않았고 앞 문장에 이어지는 시간 흐름도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(분위기 변화 설명) → 서술. 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 과거형 서술체('-었다')가 유지되며 관계·격식 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1726,
+    "output_tokens": 762,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

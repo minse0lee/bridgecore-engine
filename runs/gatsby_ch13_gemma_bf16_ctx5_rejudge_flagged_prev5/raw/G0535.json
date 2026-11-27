@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTKYsBcHnhXzaruqBHGJ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0535\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"held no more familiarity than the hand which reassuringly brushed my shoulder\",\"tgt_span\":\"내 어깨를 다독이던 손길만큼이나 낯설게 느껴졌다\",\"description\":\"'친근함이 손길보다 더할 것 없다(둘 다 실질적 친밀함이 없음)'는 비교가, 말투와 손길 모두 '낯설다'는 서술로 바뀜. 원문의 familiarity(친밀함 없음)가 '낯설게 느껴졌다'는 화자의 느낌으로 바뀌고, 손길이 안심시키는(reassuringly) 성격은 '다독이던'으로만 남음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"친근한 표현이 손길 이상의 친밀함을 담지 못했다는 핵심 평가가 '손길만큼이나 낯설게'로 같은 사태를 기술하며, 표현 방식 차이일 뿐 내용 변화로 보기 어렵습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"no more … than의 동등 비교 구조가 '~만큼이나'로 유지되어 비교 대상(말투·손길) 관계가 같습니다(질문 1~3 모두 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 관찰·평가 설명 → 서술자의 관찰·평가 설명으로 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장은 서술자의 지문이며 화자와 청자 사이의 높임·호칭이 드러나는 대상이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1238,
+    "output_tokens": 816,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTKVmp4axNu58L82GRoj",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0280\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Our white girlhood\",\"tgt_span\":\"순백의 소녀 시절\",\"description\":\"white의 인종적 함의(백인 소녀 시절)가 '순백'(순수함)으로 바뀌어 인종·계층 함의가 약해짐. 이어지는 '하얀—'과 합쳐 중의성은 일부 남음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'white girlhood'의 white가 '백인'이라는 의미를 함께 지니는데 '순백'으로 옮겨 순수함 쪽으로 기울었으나, 장소·시기·함께 보냄 등 핵심 사실은 유지되고 뒤의 '하얀—'이 중의성을 일부 보완합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현의 변화가 없고, 'Our beautiful white—'의 반복과 끊김도 그대로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"질문에 대한 답변과 회상 서술 → 답변과 회상 서술. 발화 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"친구 사이의 편한 대화체가 '~야/~지' 반말로 자연스럽게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 1910년대 미국 상류층 남부 사회의 백인 정체성·우월의식을 드러내는 white의 문화적 함의가 '순백'으로 옮겨져 한국어 독자가 인종적 의미를 파악하기 어렵습니다. 다만 '하얀—'이 남아 있어 완전히 사라지진 않아 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 929,
+    "output_tokens": 809,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

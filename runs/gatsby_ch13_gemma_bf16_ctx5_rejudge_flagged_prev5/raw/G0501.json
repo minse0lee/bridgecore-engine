@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTKYHY3j3jMDFCPxnbaF",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0501\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"she had decided, ineptly, that everything was very, very sad\",\"tgt_span\":\"갑자기 모든 것이 너무나도 슬프다는 생각에 사로잡혔는지 서투른 감정 과잉에 빠져\",\"description\":\"'decided'(스스로 그렇게 판단·결정함)와 'ineptly'(어설프게)가 '생각에 사로잡혔는지'(추측)와 '서투른 감정 과잉에 빠져'로 바뀌어 확실성이 추측으로 달라지고 '서투른' 수식 대상이 판단에서 감정 상태로 이동함\"},{\"id\":\"E002\",\"src_span\":\"during the course of her song\",\"tgt_span\":\"노래를 부르는 도중 갑자기\",\"description\":\"원문에 없는 '갑자기'가 첨가됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(확실성): 서술자가 단정한 'decided'가 '사로잡혔는지'라는 추측으로 바뀌었고 '갑자기'가 더해졌으나, 샴페인·노래 도중 슬프다고 여기고 울기 시작했다는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(초점·범위): 'ineptly'가 수식하던 '판단하다' 행위가 '서투른 감정 과잉'이라는 상태로 옮겨 수식 범위가 달라졌습니다. 'not only…too'는 '뿐만 아니라…까지'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 상황 서술 → 인물 상황 서술. 서술 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설의 서술 문장으로 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 약간 비꼬는 거리감이 서술체('-했다')로 대체로 유지되며, 대화 관계 문제는 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"샴페인 등 일반 어휘만 있고 별도로 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1988,
+    "output_tokens": 952,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

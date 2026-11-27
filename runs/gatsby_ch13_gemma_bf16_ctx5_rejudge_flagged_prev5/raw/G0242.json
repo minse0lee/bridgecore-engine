@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTKVRH39rujQeWSqM2gF",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0242\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Tom was God knows where\",\"tgt_span\":\"톰이 어디 있었는지는 신만이 아시겠죠\",\"description\":\"'God knows where'는 아무도 알 수 없을 만큼 어디에 있는지 모르는 상태를 나타내는 관용 표현인데, '신만이 아시겠죠'는 문자 그대로 옮기고 추측 어조도 덧붙였다. 짜증과 비난의 태도가 약해졌다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"아이가 태어난 지 한 시간도 안 됐을 때 톰이 어디 있었는지 알 수 없었다는 사태가 그대로 유지된다. 시간·인물·행위도 같다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그 애'는 아이를 가리키고 '톰'과의 병렬 연결도 유지된다. 지시·연결·초점이 바뀌지 않았다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"회상 서술(톰의 부재 진술) → 회상 서술. 서술 기능이 같다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 과거 사실 서술이다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3: 톰의 부재에 대한 데이지의 원망 섞인 경멸 어조가 '신만이 아시겠죠'라는 점잖은 추측으로 약해졌다. 화자의 태도가 약해진 것이다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 대상이 없다. 인명만 등장한다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1198,
+    "output_tokens": 741,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

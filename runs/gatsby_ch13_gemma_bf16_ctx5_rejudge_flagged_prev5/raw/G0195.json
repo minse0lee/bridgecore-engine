@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTKVHN3Td6j48BSVPGnr",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0195\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"She was only extemporizing\",\"tgt_span\":\"그녀는 그저 즉흥적으로 내뱉은 말이었겠지만\",\"description\":\"'그녀가 즉흥적으로 말하고 있었다'는 사실 서술이 '그녀는 … 말이었겠지만'으로 바뀌어 주어와 서술어가 어긋나고, 단정이 추측('-였겠지만')으로 약해짐\"},{\"id\":\"E002\",\"src_span\":\"her heart was trying to come out to you concealed in one of those breathless, thrilling words\",\"tgt_span\":\"숨 가쁘고 전율 돋는 말들 속에 마음을 숨겨 전하려는 듯\",\"description\":\"'그런 숨 가쁘고 전율적인 말 중 하나에 숨겨져 나오려는 그녀의 마음'이 '말들 속에 마음을 숨겨 전하려는'으로 바뀌고, 'to you'(청자에게 다가옴)가 사라지고 'one of'가 복수로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'was only extemporizing'이라는 단정이 '-였겠지만'이라는 추측으로 바뀌어 확실성이 달라졌습니다. 다만 즉흥적으로 말했다는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(초점·범위): 'only'가 '그저'로 남았으나 '말이었겠지만'으로 이어지며 즉흥적으로 말했다는 행위에 걸리지 않고 말 자체에 붙어 초점이 어긋났습니다. 'but' 대조는 '-지만'으로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 인물 묘사·설명 → 서술자의 인물 묘사·설명. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체('-었다')가 유지되며 화자·청자 관계상 훼손할 격식 요소가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1595,
+    "output_tokens": 978,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

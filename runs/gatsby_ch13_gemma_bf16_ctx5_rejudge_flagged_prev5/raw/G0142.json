@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTKUcArKi9EpnZLRExUA",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0142\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a checker\",\"tgt_span\":\"체스 말\",\"description\":\"checker(체커/드래프트 게임의 말)가 체스 말로 바뀜. 다른 보드게임의 말이지만 '말을 칸으로 옮긴다'는 비유 기능은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상): checker가 체스 말로 바뀌어 지시 대상이 달라졌으나, 말을 옮기는 비유의 요지와 나머지 행위·인물·시간 관계는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그가'는 Gatsby를 가리키고 '내 이웃'과의 관계가 유지되며, '~기도 전에'의 시간 관계와 'as though'의 비유 관계도 남아 있습니다(질문 1·2·3 모두 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사적 묘사 → 서사적 묘사. 장면을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 화자의 서술체('-었다')가 소설 본문에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"checker를 체스 말로 바꾸었으나 이는 보드게임 말이라는 점에서 같은 범주이며, 제도·단위·관습 같은 문화 고유 대상이 달라진 것은 아닙니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1003,
+    "output_tokens": 725,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

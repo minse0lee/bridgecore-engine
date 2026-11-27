@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTKaWSUw4SJf5LsGLYmK",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0356\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“You’ve dyed your hair since then,”\",\"tgt_span\":\"“그때보다 머리색이 바뀌었네요.”\",\"description\":\"'머리를 염색했다(dyed)'가 '머리색이 바뀌었다'로 바뀌어 염색이라는 행위와 행위자의 의도가 사라짐. 다만 같은 사태를 기술하므로 경미한 차이.\"},{\"id\":\"E002\",\"src_span\":\"her remark was addressed to the premature moon\",\"tgt_span\":\"그녀의 말은 그저 일찍 뜬 달을 향한 혼잣말이었을 뿐이다\",\"description\":\"'달을 향해 던져진 말'이 '혼잣말'로, '그저…뿐'이 더해져 해석이 가미됨. 달에 말을 건넸다는 아이러니한 표현이 혼잣말로 풀어짐.\"},{\"id\":\"E003\",\"src_span\":\"produced like the supper, no doubt, out of a caterer’s basket\",\"tgt_span\":\"저녁 식사처럼, 분명 출장 요리사의 바구니에서 뚝딱 만들어져 나온 것 같은 저 달을 말이다.\",\"description\":\"'no doubt'의 확신이 '같은'이라는 추측으로 약해지고 '뚝딱'이 첨가됨. caterer를 '출장 요리사'로 옮겨 출장 뷔페 업체의 의미가 개인 요리사로 바뀜.\"},{\"id\":\"E004\",\"src_span\":\"and I started\",\"tgt_span\":\"조던이 말하자 나는 깜짝 놀랐지만\",\"description\":\"'remarked Jordan, and I started'가 '조던이 말하자 나는 놀랐다'로 시간·인과 관계가 더해짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E003\"],\"reason\":\"판단 질문 1: 'dyed'의 염색 행위가 '바뀌었다'로, 'no doubt'의 확신이 '같은'이라는 추측으로 달라지고 caterer가 '출장 요리사'로 바뀜. 핵심 사건(조던의 말, 소녀들이 떠남, 달 비유)은 유지되어 요지는 같으므로 minor.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'and I started, but'의 대조 관계가 '놀랐지만'으로 유지되고 her remark의 지시 대상도 조던의 말로 유지됨. 세 질문 모두 아니오.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술(조던의 말과 화자의 관찰·아이러니 묘사) → 소설 서술. 서술 기능이 유지됨.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서사 문장임.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조던이 소녀들을 향해 던지는 발화와 서술의 평이한 어조가 유지되며 관계에 어긋나는 높임·호칭이 없음. '~네요'는 조던의 말투로 무리 없음.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 별도로 판정할 문화 고유의 제도·단위·관습이 없음.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1430,
+    "output_tokens": 1261,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

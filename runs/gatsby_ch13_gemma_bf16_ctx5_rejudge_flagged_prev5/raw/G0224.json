@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTKVL2XxfnSQjtQcekBw",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0224\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"trying to look pleasantly interested\",\"tgt_span\":\"적당히 흥미를 느끼는 척하면서도\",\"description\":\"'pleasantly interested(유쾌하게 관심 있는 표정)'가 '적당히 흥미를 느끼는 척'으로 바뀌어 태도의 성격이 달라졌으나, 흥미 있는 척한다는 핵심은 유지됨\"},{\"id\":\"E002\",\"src_span\":\"with several feet of twilight between them\",\"tgt_span\":\"서로 몇 걸음의 거리감을 둔 채\",\"description\":\"'several feet of twilight(몇 피트의 황혼)'가 '몇 걸음의 거리감'으로 바뀌어 황혼이라는 시간적 배경이 사라지고 단위가 바뀜\"},{\"id\":\"E003\",\"src_span\":\"strolled back into the library\",\"tgt_span\":\"서서히 서재로 돌아갔다\",\"description\":\"strolled(느긋하게 거닐다)가 '서서히 ~ 돌아갔다'로 옮겨져 걷는 방식의 뉘앙스가 조금 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: 'twilight'(황혼)가 번역에서 사라지고 '거리감'만 남아 시간적 배경 정보가 빠졌으나, 두 사람 사이의 간격과 핵심 사건은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"while로 이어지는 동시 진행 관계가 '그동안'으로 유지되고 지시 대상과 초점 표현에도 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문이며 의무·허가·금지 같은 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 지문의 서술체가 유지되고 '조던 베이커 양'이라는 호칭도 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명과 일반 사물만 있고 별도로 판정할 제도나 관습이 없습니다. 'feet'를 '걸음'으로 바꾼 것은 단위 환산 오류가 아니라 비유적 거리 표현의 변화여서 Semantic에서만 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1903,
+    "output_tokens": 1002,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

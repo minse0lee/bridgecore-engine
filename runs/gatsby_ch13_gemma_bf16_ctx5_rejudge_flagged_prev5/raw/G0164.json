@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTKUqrNCmqQyaqMZ5Nnq",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0164\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Daisy\",\"tgt_span\":\"데이지 양\",\"description\":\"호칭 없는 이름 호명이 '양'을 붙인 호칭으로 바뀌어 원문에 없는 호칭·거리감이 더해짐\"},{\"id\":\"E002\",\"src_span\":\"uncivilized\",\"tgt_span\":\"야만인이 된 기분\",\"description\":\"'교양 없는/문명화되지 않은' 느낌이 '야만인'이라는 더 강한 표현으로 바뀜(정도 차이)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자, 데이지, 두 번째 잔, 코르크 냄새 나지만 인상적인 클라레 등 내용이 유지되고 uncivilized가 '야만인'으로 정도만 달라졌으며, '두 잔째'는 second glass의 정상 대응입니다(힌트의 수치는 오경보).\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but의 양보 관계가 '~났지만'으로 유지되고 지시·초점 관계 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"고백하는 발화(자신의 세련되지 못함을 털어놓는 말) → 같은 기능의 고백으로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 원문에서 '나'(닉)가 동년배 친척 데이지를 이름으로 부르는데 번역은 '데이지 양'이라는 호칭을 덧붙여 관계를 더 거리 있고 격식 있게 바꿨습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명과 와인 이름 외에 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1506,
+    "output_tokens": 810,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

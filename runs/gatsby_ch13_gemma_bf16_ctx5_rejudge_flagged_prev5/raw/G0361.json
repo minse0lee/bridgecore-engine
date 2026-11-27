@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTKWfjidoQkaBxEo7zJd",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0361\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“Wasn’t it for you, Lucille?”\",\"tgt_span\":\"“너도 그때 그랬지, 루실?”\",\"description\":\"원문은 '(지난 파티가) 너를 위한 파티였지 않니?'라는 질문인데, 번역은 '너도 그때 그랬지'로 바뀌어 'for you'(루실을 위한 파티)의 의미가 사라지고 '너도 (나처럼) 그때 있었다/만났다'는 뜻으로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위·대상): 'it(파티)이 루실을 위한 것이었나'라는 내용이 '너도 그때 그랬지'라는 모호한 동조 확인으로 바뀌어 핵심 내용이 달라졌고, 독자가 질문의 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(지시): 'it'이 가리키는 지난 파티와 'for you'의 관계가 사라지고 '너도'라는 포함 표현이 새로 붙어 지시·초점 관계가 달라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"동료에게 확인을 구하는 질문 → 동료에게 확인을 구하는 질문. 기능의 종류는 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화 속 확인 질문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"친구 사이로 보이는 일행에게 하는 반말('너도 ~지')은 관계에 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명(Lucille)만 있고 문화 고유의 제도·관습·단위는 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1332,
+    "output_tokens": 803,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTKXyNu79GnCAQTwsx2C",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0474\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I believed they didn’t\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"'~라고 믿었다'는 화자의 믿음 표현이 사라지고 '있을 수 없는 일이었다'는 단정으로 바뀜. 화자가 순진하게 그렇게 믿었다는 확실성 정보가 없어짐\"},{\"id\":\"E002\",\"src_span\":\"drift coolly out of nowhere\",\"tgt_span\":\"어느 날 갑자기 어디선가 나타나\",\"description\":\"drift coolly(태연하게 떠돌다/흘러들다)의 '태연히'가 빠지고 '어느 날 갑자기 나타나'로 바뀜\"},{\"id\":\"E003\",\"src_span\":\"in my provincial inexperience\",\"tgt_span\":\"시골 출신인 나의 부족한 경험으로는\",\"description\":\"provincial(촌스러운, 세상 물정 모르는)이 '시골 출신'으로 옮겨져 출신 사실처럼 읽힘. 경미한 의미 이동\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: '믿었다'는 화자의 믿음이 사라져 확실성이 단정으로 바뀌고 'coolly'도 빠졌으나, 핵심 사실(젊은 남자가 불쑥 나타나 대저택을 산다)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"But이 '하지만'으로 앞 문장과의 대조를 유지하고, at least가 '적어도'로 초점을 유지하며 지시·연결 관계는 변하지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 회상·설명 → 서술자의 회상·설명. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문의 '~었다' 문어체 서술 어조가 유지되며 관계 표지는 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"롱아일랜드 해협은 같은 지명·대상을 가리키며 다른 제도·단위로 바꾸지 않았고, 이 문장에서 판정할 별도 문화 제도 대상은 지명 정도입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1254,
+    "output_tokens": 984,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

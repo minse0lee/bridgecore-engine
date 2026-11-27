@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTKZDtngFeAEmFbK8Z3J",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0552\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"The fact was infinitely astonishing to him\",\"tgt_span\":\"그는 이 사실이 무척이나 놀라운 모양이었다\",\"description\":\"사실이 그에게 무한히 놀라웠다는 단정적 서술이 '모양이었다'라는 추측 표현으로 바뀌어 확실성이 달라짐\"},{\"id\":\"E002\",\"src_span\":\"the late patron of Gatsby’s library\",\"tgt_span\":\"바로 얼마 전 개츠비의 서재를 찾았던 그 손님\",\"description\":\"'the late patron'(최근 서재에 왔던 단골/후원자)을 '찾았던 손님'으로 옮겨 patron의 성격이 약해졌으나 같은 인물을 가리켜 의미 변화는 경미함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): 서술자가 단정한 놀라움이 '모양이었다'라는 추측으로 바뀌었으나 핵심 사실과 인물은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'first … and then'의 시간 순서가 '먼저 … 곧이어'로, 'the man'과 'it was …'의 동격 관계가 '바로 …였다'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 서술 → 서술. 인물 인식 장면을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 문장으로 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술자의 담담한 서술체가 '~였다' 평서체로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1270,
+    "output_tokens": 811,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

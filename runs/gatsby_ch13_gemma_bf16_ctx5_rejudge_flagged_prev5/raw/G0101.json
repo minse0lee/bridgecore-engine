@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTKUC8jbjZoavaNRQJt7",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0101\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a dozen people\",\"tgt_span\":\"많은 이들이\",\"description\":\"구체적 수량 'a dozen(12명)'이 막연한 '많은 이들'로 바뀌어 수량 정보가 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(수량): 'a dozen people'의 12명이라는 구체적 수량이 '많은 이들'로 바뀌었습니다. 다만 안부를 전한 사람이 여럿이라는 핵심 사실과 나머지 행위는 유지되어 요지는 달라지지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'her'와 '그녀', 'me'와 '나'의 지시 대상이 유지되고, 두 개의 how절은 '~하며'로 병렬 연결이 유지되며 초점 표현의 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 사촌에게 근황과 안부를 전했다고 서술 → 같은 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 1인칭 서술의 평서체 '~했다'가 유지되며 관계나 태도의 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"시카고와 동부는 지명이며, 별도로 판정할 문화·제도 고유 대상이 없습니다. 수량 변화는 Semantic에서만 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1465,
+    "output_tokens": 716,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

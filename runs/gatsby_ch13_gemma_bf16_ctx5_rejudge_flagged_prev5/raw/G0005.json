@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTKSd586B8KU3HWGHBUj",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0005\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I was privy to the secret griefs of wild, unknown men\",\"tgt_span\":\"은밀한 슬픔을 공유했다는 이유로\",\"description\":\"'privy to'(알고 있다/알게 되었다)가 '공유했다'로 바뀌어 비밀을 알게 된 것이 슬픔을 함께 나눈 것처럼 읽히며, 비난의 근거 의미가 약간 달라짐\"},{\"id\":\"E002\",\"src_span\":\"unjustly accused of being a politician\",\"tgt_span\":\"정치꾼이라는 억울한 오해를 받기도 했다\",\"description\":\"'accused'(비난·고발)가 '오해를 받다'로 바뀌어 비난의 성격이 약해짐. '기도 했다'도 단정적 사실에 소폭 완화 첨가\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'privy to'가 '공유했다'로, 'accused'가 '오해를 받다'로 달라졌으나 핵심 사실(비밀을 알아서 부당하게 정치꾼으로 의심받음)은 유지되어 요지는 크게 다르지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'and so'의 인과('그래서')와 'because'의 이유('~했다는 이유로') 연결이 유지되고, 'this quality' 지시도 '이런 기질'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 경험 설명 → 서술자의 경험 설명으로 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술자의 회고체 평서문 어조가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·단위·관습 대상이 없습니다('politician'은 일반 어휘로 취급).\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1965,
+    "output_tokens": 860,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

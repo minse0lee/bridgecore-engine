@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTKTrZ24VyFCWXCjLCyq",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0088\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"If she saw me out of the corner of her eyes she gave no hint of it\",\"tgt_span\":\"곁눈질로 나를 보았을지도 모르겠으나 전혀 내색하지 않았다\",\"description\":\"조건절 'If she saw me'(보았더라도)가 '보았을지도 모르겠으나'로 옮겨져, 서술자의 추측으로 읽히며 조건·양보 관계가 약해짐. 핵심 사실(내색하지 않음)은 유지됨.\"},{\"id\":\"E002\",\"src_span\":\"I was almost surprised into murmuring an apology\",\"tgt_span\":\"사과라도 해야 할 것 같아 당혹스러울 정도였다\",\"description\":\"'거의 깜짝 놀라 중얼거리며 사과할 뻔했다'가 '사과해야 할 것 같아 당혹스러웠다'로 바뀌어, 사과를 중얼거릴 뻔한 행위가 사라지고 심리 상태 서술로 바뀜.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'almost ... murmuring an apology'(사과를 중얼거릴 뻔함)가 '사과해야 할 것 같아 당혹'으로, 'If she saw me'가 추측('보았을지도')으로 달라져 확실성과 행위 내용이 바뀌었으나, 그녀가 내색하지 않았고 서술자가 사과할 뻔했다는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'곁눈질로 보았더라도 내색하지 않았다'는 양보적 관계가 '-을지도 모르겠으나'로 남아 있고 indeed는 '정말이지'로 유지되어 연결 관계와 초점은 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 관찰·인상 서술 → 서술자의 관찰·인상 서술로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문이며 의무·허가·금지를 정하는 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술자의 소설 서술체(~다)가 유지되며 관계나 태도 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1734,
+    "output_tokens": 1007,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

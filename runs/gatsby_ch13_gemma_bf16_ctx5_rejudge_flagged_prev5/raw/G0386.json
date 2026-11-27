@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTKcCscWGtBvEMXCNnAp",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0386\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"The first supper—there would be another one after midnight—was now being served\",\"tgt_span\":\"자정 이후에 또 한 번 차려질 첫 번째 저녁 식사가 나오고 있었고\",\"description\":\"'자정 이후에 또 한 번의 식사가 있을 것'이라는 삽입 설명이 '첫 번째 저녁 식사'를 수식하는 관형절로 바뀌어, 자정 이후 차려질 것이 첫 번째 식사처럼 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(시간·대상): 자정 이후에 또 하나의 식사가 있다는 사실이 '첫 번째 저녁 식사'가 자정 이후에 차려진다는 뜻으로 바뀌었으나, 식사가 나오고 조던이 초대한 핵심 사건은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2(지시·시간 순서): '또 하나(another one)'가 가리키는 대상과 시간 순서 관계가 바뀌어, 자정 이후 식사의 지시 관계가 첫 번째 식사와 뒤섞였습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 파티 장면에서 식사가 나오고 초대받는 상황을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체의 '~했다' 평서체가 유지되고 관계에 맞지 않는 높임이나 호칭 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1458,
+    "output_tokens": 819,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

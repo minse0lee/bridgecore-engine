@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTKZFp97mzWbqx33eYWQ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0559\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"you oughtn’t to try driving at night\",\"tgt_span\":\"밤에는 운전하지 말았어야죠\",\"description\":\"현재·일반적 권고(밤에 운전을 시도하지 않는 편이 좋다)가 과거 사건에 대한 비난·후회('말았어야죠')로 바뀌어 규범의 시제와 성격이 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서툰 운전자, 밤 운전, 하지 말아야 한다는 내용이 유지됩니다. 규범 표현의 시제 변화는 Deontic에서만 기록합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"if 조건과 주절의 조건 관계가 '-다면'으로 유지되며 지시·초점 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조언·훈계 → 조언·훈계. 서툰 운전자에게 밤 운전을 삼가도록 하는 말하기 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: oughtn't to try는 일반적 규범 권고인데 '말았어야죠'는 이미 일어난 일에 대한 과거 비난으로 읽혀 규범의 적용 시점과 성격이 달라졌습니다. 다만 밤에 운전하지 않아야 한다는 규범의 방향·강도는 유지되고 독자가 해야 할 행동을 다르게 이해하게 될 정도는 아니어서 minor입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"낯선 사람에게 하는 말로 '-죠' 체의 존대 어조가 어울리며 화자의 훈계 태도도 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 888,
+    "output_tokens": 814,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

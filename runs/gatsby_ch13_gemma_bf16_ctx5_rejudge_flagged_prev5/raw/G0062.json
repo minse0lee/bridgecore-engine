@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTKTT1un8VRLDPFX1H8e",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0062\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"burning gardens\",\"tgt_span\":\"활짝 핀 정원들\",\"description\":\"'타오르는(불타는 듯한) 정원'이 '활짝 핀 정원'으로 바뀌어 원문의 은유적 이미지(불꽃 같은 꽃빛)가 단순한 개화 묘사로 달라짐\"},{\"id\":\"E002\",\"src_span\":\"a quarter of a mile\",\"tgt_span\":\"4분의 1마일\",\"description\":\"원문 수치와 단위를 그대로 옮긴 것으로 의미 변화 없음(힌트의 수치 경보는 오경보). 오류 아님으로 참고만 기록\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'burning gardens'(타오르는 듯한 정원)가 '활짝 핀 정원'으로 옮겨져 묘사 내용이 달라졌으나, 잔디밭이 달려 올라가 덩굴이 되는 문장 요지와 독자가 할 행동에는 영향이 없어 minor입니다. 4분의 1마일은 정확합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"잔디밭을 가리키는 지시, '달려가다 마침내 …에 다다르자'의 시간 순서와 '그 탄력으로'의 인과적 연결이 유지되어 1·2·3 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"풍경 묘사 서술 → 풍경 묘사 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가를 나타내는 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 '-었다'가 유지되어 서술자의 태도와 격식이 맞습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"마일 단위를 그대로 유지하고 다른 단위로 바꾸지 않았으며 해시계·벽돌 길 등 대상도 같은 것을 가리킵니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2142,
+    "output_tokens": 872,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

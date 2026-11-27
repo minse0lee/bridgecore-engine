@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTKX5h7jdQDknCyj4bA4",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0389\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"this is much too polite for me\",\"tgt_span\":\"여긴 나한테 너무 정중해서 숨이 막히네요\",\"description\":\"'나에게 너무 정중하다'는 불평에 없는 결과 '숨이 막히네요'가 덧붙었음. 다만 지루함·답답함이라는 취지는 유지되어 의미 변화는 경미함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 원문에 없는 '숨이 막히네요'라는 결과 서술이 첨가되었으나, 핵심(너무 정중해서 맞지 않아 나가자는 취지)은 유지되어 minor입니다. 'half-hour'→'30분'은 같은 시간이므로 오류가 아닙니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계가 바뀐 곳이 없습니다. 'too ... for me'는 '너무 ... 나한테'로 대응되고, after 시간 관계도 '흐린 뒤'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"자리를 떠나자는 제안과 불평 → 떠나자는 제안과 불평으로 기능이 같은 종류입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 개인적 제안이고 의무·허가·금지 같은 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조던이 화자에게 하는 친근한 대화체이며, 번역의 '-요' 체는 상황에 어울리고 정중함에 대한 냉소적 태도도 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 문화 고유의 제도·관습·단위로 판정할 대상이 없습니다. 힌트의 숫자 30은 half-hour의 번역이라 오경보입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1551,
+    "output_tokens": 812,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

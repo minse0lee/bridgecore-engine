@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTKVHeeaTfPYzR8fuAuV",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0214\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"She might have the decency not to telephone him at dinner time.\",\"tgt_span\":\"저녁 식사 시간에는 전화를 안 하는 예의 정도는 갖춰야 하는 거 아닌가요?\",\"description\":\"'그녀(톰의 여자)'라는 주어와 'him(톰에게)'이라는 전화 대상이 번역문에서 모두 사라짐. 누가 누구에게 전화하는지 드러나지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물·대상): 전화하는 사람(그녀)과 전화받는 사람(him=톰)이 번역문에서 빠져 누가 누구에게 전화하는지가 표현되지 않습니다. 다만 앞 문맥으로 복원 가능하고 핵심 요지(저녁 시간에 전화하지 않는 예의)는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(지시): 대명사 'him'이 가리키는 톰이 번역문에서 사라져 지시 대상을 알 수 없게 되었습니다. 문맥으로 추론 가능해 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"못마땅함을 표하며 동의를 구하는 평가·불평 발화 → 같은 종류의 불평·동의 구하는 발화. 수사적 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"might have the decency는 화자의 불만 섞인 평가로, 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자(조던 베이커)가 닉에게 말하는 상황에서 존대 '-ㄴ가요', '-시죠'는 관계에 무리가 없고 불만의 태도도 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 768,
+    "output_tokens": 860,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

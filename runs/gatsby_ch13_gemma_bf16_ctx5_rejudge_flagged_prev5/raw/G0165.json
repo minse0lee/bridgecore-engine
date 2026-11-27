@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTKUsyNJamA1B64b4587",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0165\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Can’t you talk about crops or something?\",\"tgt_span\":\"농작물 같은 얘기는 안 하시나요?\",\"description\":\"'~에 대해 이야기하면 안 되나요?'라는 부탁·제안성 수사의문이 '농작물 같은 얘기는 안 하시나요?'라는 습관 여부 질문으로 읽혀, 이야기 주제를 바꿔 달라는 요청이라는 발화 기능이 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"말하는 행위, 대상(농작물 같은 것), 상대(데이지 등)가 유지되어 원문이 표현한 내용 전체가 달라지지 않았습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 표현, 연결 관계, 초점·범위 표현이 바뀌지 않았고 'or something'도 '같은'으로 유지됩니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 화제를 바꿔 달라는 부탁·반어적 요청 → 상대의 평소 대화 습관을 묻는 단순 질문으로 읽혀 기능이 달라졌습니다. 다만 핵심 내용은 유지되어 minor입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"Can't you는 능력·가능성을 묻는 대화 속 부탁이며 의무·허가·금지 같은 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자(닉)와 데이지는 친척이지만 평가조건에 호칭·높임의 기준이 없어 '~하시나요?'가 맞는지 판단하려면 두 사람의 관계 설정 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1400,
+    "output_tokens": 812,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

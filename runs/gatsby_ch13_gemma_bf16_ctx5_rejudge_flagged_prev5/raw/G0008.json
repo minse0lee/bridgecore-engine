@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTKSd967sCu9ouXGghN3",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0008\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a sense of the fundamental decencies is parcelled out unequally at birth\",\"tgt_span\":\"기본적인 예의범절이라는 것은 태어날 때부터 불평등하게 배분된다\",\"description\":\"'a sense of the fundamental decencies'(기본적 예의에 대한 감각)에서 'a sense of'가 빠져, 예의 감각이 아닌 예의범절 자체가 불평등하게 배분되는 것으로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"I am still a little afraid of missing something if I forget that, as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies is parcelled out unequally at birth\",\"tgt_span\":\"아버지가 속물스럽게 암시하셨고 나 또한 속물스럽게 되풀이하는 말이지만, … 사실을 잊는다면, 나는 여전히 무언가 중요한 것을 놓칠까 봐 조금 두렵다\",\"description\":\"'if I forget that…'의 조건절과 삽입절 'as my father… suggested'를 '~말이지만'이라는 양보 표현으로 재구성하여 아버지가 암시하고 나도 되풀이한다는 내용이 사실의 내용을 이끄는 근거에서 양보절로 바뀜\"},{\"id\":\"E003\",\"src_span\":\"missing something\",\"tgt_span\":\"무언가 중요한 것을 놓칠까\",\"description\":\"원문에 없는 '중요한'이 첨가됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E003\"],\"reason\":\"판단 질문 1: 'a sense of'가 빠져 예의 감각이 예의범절 자체로 바뀌었고 '중요한'이 첨가됐지만, 불평등한 분배와 놓칠까 두려움이라는 핵심 요지는 유지됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: 'as my father… suggested' 삽입절이 '~말이지만'이라는 양보 연결로 바뀌어 연결 관계가 달라졌습니다. 다만 요지는 크게 바뀌지 않아 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 자기 고백 → 서술자의 자기 고백. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 회고체와 아버지에 대한 높임('암시하셨고')이 유지되며 'snobbishly'의 자조적 태도도 '속물스럽게'로 살아 있습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"판정할 문화 고유의 제도·단위·관습 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1949,
+    "output_tokens": 1140,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

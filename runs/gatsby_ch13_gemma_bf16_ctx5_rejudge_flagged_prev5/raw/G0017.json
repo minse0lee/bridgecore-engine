@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTKSd8bihYCCaNmwVyvQ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0017\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"came here in fifty-one\",\"tgt_span\":\"1851년에 이곳으로 건너와\",\"description\":\"'fifty-one'을 '1851년'으로 옮김. 소설 맥락상 1851년이 맞아 오류가 아닌 통상적 보충이지만, 확인 결과 변경 없음으로 판단하여 오류로 보지 않음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'fifty-one'은 남북 전쟁 이전의 1851년을 가리키므로 '1851년'은 같은 시점입니다. 가문, 시조, 대리인 파견, 철물 도매업 등 나머지 내용도 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but의 대조 관계(전설 대 실제 시조)와 who 관계절의 지시 대상(할아버지의 형제)이 '그는'으로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"가문 배경 서술 → 가문 배경 서술로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 자기 가족을 서술하는 문어체이며 '형제분', '운영하고 계신'은 조상과 아버지에 대한 높임으로 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Dukes of Buccleuch는 '버클루 공작가'로, Civil War는 '남북 전쟁'으로 통용되는 대응이며 대체되지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2115,
+    "output_tokens": 723,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
