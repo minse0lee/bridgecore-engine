@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnog4gqWSbWxNikeXJQ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0356\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"You’ve dyed your hair since then,”\",\"tgt_span\":\"“그때보다 머리색이 바뀌었네요.”\",\"description\":\"'머리를 염색했다'는 행위가 '머리색이 바뀌었다'는 상태 변화로 바뀜. 행위자가 하지 않은 염색이라는 행위가 드러나지 않음(경미).\"},{\"id\":\"E002\",\"src_span\":\"her remark was addressed to the premature moon\",\"tgt_span\":\"그녀의 말은 그저 일찍 뜬 달을 향한 혼잣말이었을 뿐이다.\",\"description\":\"달을 향해 던진 말이 '혼잣말'로 바뀌고 '그저…뿐'이 더해짐. 말의 수신 대상은 달로 유지됨.\"},{\"id\":\"E003\",\"src_span\":\"produced like the supper, no doubt, out of a caterer’s basket\",\"tgt_span\":\"저녁 식사처럼, 분명 출장 요리사의 바구니에서 뚝딱 만들어져 나온 것 같은 저 달을 말이다.\",\"description\":\"'caterer'(출장 요리 업체)를 '출장 요리사'로, 'no doubt'를 '분명…같은'으로 옮김. 달이 저녁 식사처럼 바구니에서 나왔다는 비유는 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"염색이 머리색 변화로 바뀌었으나 같은 사태를 가리키고, 조던의 말, 닉의 놀람, 소녀들이 지나간 일, 달을 향한 말, 바구니에서 나온 달 비유가 모두 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'but'의 대조가 '-지만'으로, 달에 대한 비유 부연이 별도 문장으로 이어져 지시·연결 관계가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조던의 발언을 전하며 서술자가 상황을 묘사하는 서술 → 같은 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조던이 소녀들 곁을 지나치며 하는 말을 '-네요'로, 서술은 평서체로 옮겨 소설 서술 상황에 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"고유한 제도·관습·단위 등 별도로 판정할 문화 대상이 없습니다(인명만 등장).\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 4778,
+    "output_tokens": 1059,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

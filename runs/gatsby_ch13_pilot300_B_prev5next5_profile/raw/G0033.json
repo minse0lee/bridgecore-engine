@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnkEWSvYo7ouHB2QETM",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0033\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the freedom of the neighbourhood\",\"tgt_span\":\"이 동네의 주인 노릇을 할 수 있는 권한\",\"description\":\"'동네를 자유롭게 다닐 자유(명예 시민권 같은 자유)'가 '주인 노릇을 할 수 있는 권한'으로 바뀌어 내용이 달라지고 '주인'이라는 소유·지위 개념이 덧붙음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'freedom of the neighbourhood'(동네에 자유롭게 속하는 자격·자유)가 '주인 노릇을 할 권한'으로 바뀌어 내용이 달라졌으나, 안내해 준 덕에 동네의 일원이 된 기분이라는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'He'가 길을 물은 남자를 가리키는 지시 관계와 앞 문장과의 연결이 유지되며 초점 표현도 달라지지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 심경 서술 → 서술자의 심경 서술. 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 아니라 비유적 서술이므로 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 소설 서술체('~셈이었다')가 유지되며 관계상 어긋남이 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'freedom of the city' 같은 명예 시민권 관습을 암시하는 비유이지만 특정 제도를 다른 제도로 바꾸지는 않았으며, 의미 변화는 Semantic에서 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 5349,
+    "output_tokens": 805,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnmgqGDNqXrS6WRT32F",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0128\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“You are!”\",\"tgt_span\":\"“정말?”\",\"description\":\"Tom의 놀란 감탄·확인('(훈련 중이라니) 그렇단 말이지!')이 의문부호가 붙은 '정말?'로 옮겨져 확실성·태도가 약간 달라졌으나 핵심 내용(조던이 훈련 중이라는 말에 대한 반응)은 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞 발화 'I'm absolutely in training'을 되받아 놀라며 확인하는 내용이 '정말?'로 같은 사태를 나타내며 인물·행위·수량·부정 등에 달라진 항목이 없습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞 발화를 되받는 반응이라는 연결이 유지되며 지시·초점 표현이 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"믿기지 않는다는 반응 표현 → 믿기지 않는다는 반응 표현. 앞 문장의 '믿기지 않는다는 표정'과 함께 읽히므로 실제 질문이 아니라 놀라 되묻는 기능으로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화 속 반응입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 조던에게 하는 허물없는 반응이 반말 '정말?'로 유지되며 관계에 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 4452,
+    "output_tokens": 742,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

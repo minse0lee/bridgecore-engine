@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnszQ7gA2CccAWFCuj8",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0055\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a string of polo ponies\",\"tgt_span\":\"폴로 포니 한 무리를 통째로\",\"description\":\"'한 줄(string)'의 폴로용 조랑말이 '한 무리를 통째로'로 옮겨져 수량 표현이 달라졌으나 '다수의 말'이라는 핵심 내용은 유지됨(의미 변화 없는 통상적 대응으로 봄).\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"집안의 부, 대학 시절 돈 씀씀이에 대한 비난, 시카고에서 동부로의 이주, 레이크 포레스트에서 폴로 포니 무리를 데려온 사례가 모두 유지됩니다. '압도적'은 took your breath away의 평가어 정도 차이이고 '통째로'는 수사적 보강입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'but now'의 대조 관계가 '이제 ~왔는데'로 유지되고, for instance 예시 관계와 대명사 '그'의 지시 대상(톰)도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 배경 서술 → 인물 배경 서술. 문장 분할만 있고 서술 기능은 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 서술체 회고 어조가 평서 서술로 유지되며 관계상 어긋나는 호칭이나 높임이 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"레이크 포레스트 같은 지명만 있고 별도 제도·단위는 없으며 폴로 포니도 같은 대상을 가리켜 문화적 의미가 유지됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 5607,
+    "output_tokens": 795,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

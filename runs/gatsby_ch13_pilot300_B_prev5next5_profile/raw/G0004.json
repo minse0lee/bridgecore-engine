@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnjJWnQdjSs3APKv2T9",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0004\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"not a few veteran bores\",\"tgt_span\":\"지독한 지루함을 주는 이들\",\"description\":\"'not a few'(적지 않은 수)의 수량 표현이 빠지고, 'veteran'(상습적·노련한)의 뜻이 '지독한'으로 바뀜. 지루한 사람들이 '많다'는 수량 정보가 사라짐.\"},{\"id\":\"E002\",\"src_span\":\"I'm inclined to reserve all judgements\",\"tgt_span\":\"나는 어떤 판단도 유보하는 경향이 생겼는데\",\"description\":\"현재의 성향('I'm inclined')이 '경향이 생겼다'로 바뀌어 생성 시점이 덧붙었으나 핵심 의미는 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(수량): 'not a few'(적지 않은)가 번역에서 사라져 지루한 사람들의 수량 정보가 빠졌습니다. 'veteran'도 '지독한'으로 약해졌으나 핵심 사실(지루한 이들에게 시달림)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'In consequence'는 '그 결과'로 인과 관계가 유지되고, 'a habit'이 앞의 판단 유보를 가리키는 관계도 '이런 습관'으로 유지됩니다. 'and also'의 병렬도 '동시에 …도'로 남아 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 자기 서술 → 자기 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자 닉이 회상하며 쓰는 문어체 서술('-했다')이 유지되고, 이 문장에 높임이나 호칭 문제는 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 5722,
+    "output_tokens": 882,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

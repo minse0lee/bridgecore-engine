@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnrd8AMunoq1V3eNnrA",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0566\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"The shock that followed this declaration found voice in a sustained “Ah-h-h!”\",\"tgt_span\":\"그 말에 충격을 받은 사람들이 일제히 \\\"아-!\\\" 하고 탄성을 내뱉는 사이\",\"description\":\"'선언 뒤에 이어진 충격'이 목소리를 얻은 것이라는 서술이 '충격을 받은 사람들이 일제히 탄성을 내뱉는' 행위로 바뀌어 행위자(사람들)가 첨가되었고, 'sustained'(길게 이어진)가 '일제히'로 바뀌었으며 길게 끈 소리가 짧은 '아-!'로 옮겨짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'sustained'(길게 이어진)가 '일제히'로 바뀌고 소리도 짧게 표기되었으며, 충격이 소리로 터져 나왔다는 서술이 사람들이 충격받아 탄성을 낸다는 서술로 바뀌었습니다. 다만 군중이 놀라 소리를 냈다는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시어 'this declaration'은 '그 말'로 유지되고, 'as'가 만드는 동시 관계도 '-는 사이'로 남아 있으며, 초점·범위 표현의 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 군중의 반응과 쿠페 문이 열리는 상황을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문의 평서 종결이 유지되고 평가할 높임·호칭 관계상의 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 4657,
+    "output_tokens": 893,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

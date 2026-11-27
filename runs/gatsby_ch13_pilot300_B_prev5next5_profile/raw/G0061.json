@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnkdRbRMFNbwAd99kTi",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0061\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"overlooking the bay\",\"tgt_span\":\"해협이 내려다보이는 곳에\",\"description\":\"bay(만)가 '해협'으로 바뀜. 프로필상 해협(the Sound)은 별개의 대상이며, 이스트에그와 웨스트에그는 만을 사이에 두고 마주 봄.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상): 저택이 내려다보는 대상이 bay(만)에서 '해협'으로 바뀌어 다른 지형을 가리키게 되었으나 저택의 묘사라는 요지는 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 관계, 연결 관계, 초점 표현에 변화가 없습니다. 문장 분할과 동격 구조의 풀이는 허용 범위입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"저택 묘사 서술 → 저택 묘사 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 '-었다' 문어체가 소설 본문의 어조에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Georgian Colonial을 '조지안 콜로니얼 양식'으로 통용되는 음역과 함께 건축 양식임이 드러나게 옮겼습니다. bay와 해협의 혼동은 지명이 아닌 지형 어휘의 오역이어서 Semantic에서만 판정합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 5546,
+    "output_tokens": 720,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

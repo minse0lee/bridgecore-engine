@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnsatFKzrPkNFZ42jEd",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0029\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"he asked helplessly\",\"tgt_span\":\"그가 막막한 표정으로 물었다\",\"description\":\"부사 helplessly(어찌할 바 모르는 상태)가 '막막한 표정으로'로 바뀜. 표정이라는 구체적 묘사가 덧붙었으나 당황·막막함이라는 평가·태도 내용은 유지됨(오류 아님 수준의 경미한 차이).\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"웨스트에그 마을로 가는 길을 묻는 내용, 질문자(그), 묻는 행위가 유지되며 helplessly는 '막막한'으로 정도·평가가 거의 같아 달라진 항목이 없습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그'가 앞 문단의 어떤 남자를 가리키는 지시 관계가 유지되고 연결·초점 표현의 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"길을 묻는 질문 → 길을 묻는 질문. 낯선 사람이 길을 묻는 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 길 묻기 질문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"처음 만난 낯선 사람 사이의 정중한 질문이 '~죠?'의 해요체로 적절하게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"웨스트에그는 지명뿐이며 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 4848,
+    "output_tokens": 728,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnpMWkXq3SKVnZjdkgq",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0389\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"this is much too polite for me\",\"tgt_span\":\"여긴 나한테 너무 정중해서 숨이 막히네요\",\"description\":\"'나에게 너무 정중하다'는 평가에 없던 '숨이 막히네요'라는 결과 서술이 덧붙음. 답답함이라는 감정 반응이 첨가되어 평가 내용이 달라짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 원문의 '너무 정중하다'는 평가에 '숨이 막힌다'는 감정 반응이 첨가되었으나 핵심 내용(나가자는 제안, 정중함에 대한 불만, 반 시간 경과)은 유지되어 요지는 크게 달라지지 않습니다. 'half-hour'를 '30분'으로 옮긴 것은 수치 변화가 아닙니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사·연결·초점 관계가 바뀌지 않았습니다. 'much too'는 '너무'로 대응되고 인용 구조와 시간 표현의 연결도 유지됩니다(질문 1·2·3 모두 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"자리를 뜨자는 제안과 불만 표현 → 자리를 뜨자는 제안과 불만 표현. 발화 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"Let's get out은 대화 속 제안이며 의무·허가·금지를 정하는 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"친구인 닉에게 속삭이는 조던의 대화가 부드러운 해요체로 유지되어 관계와 태도에 어긋남이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 별도로 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 5121,
+    "output_tokens": 831,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

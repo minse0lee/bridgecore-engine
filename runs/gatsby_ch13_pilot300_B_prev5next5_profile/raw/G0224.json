@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnnYL4j1dv598uW8XSb",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0224\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"with several feet of twilight between them\",\"tgt_span\":\"서로 몇 걸음의 거리감을 둔 채\",\"description\":\"'several feet of twilight'(몇 피트 폭의 황혼 빛)이 '몇 걸음의 거리감'으로 바뀌어 황혼 이미지가 사라지고 거리 단위가 '걸음'으로 달라짐\"},{\"id\":\"E002\",\"src_span\":\"strolled back\",\"tgt_span\":\"서서히 서재로 돌아갔다\",\"description\":\"strolled(한가로이 거닐다)가 '서서히 돌아갔다'로 옮겨져 걷는 방식의 뉘앙스가 약해짐\"},{\"id\":\"E003\",\"src_span\":\"trying to look pleasantly interested and a little deaf\",\"tgt_span\":\"적당히 흥미를 느끼는 척하면서도 약간은 귀가 먹은 듯한 표정을 지으며\",\"description\":\"'흥미로워 보이려 애쓰는' 것이 '흥미를 느끼는 척'으로, 'a little deaf'가 '귀가 먹은 듯한 표정'으로 옮겨져 약간 달라졌으나 큰 의미 차이는 아님\"},{\"id\":\"E004\",\"src_span\":\"I followed Daisy around a chain of connecting verandas to the porch in front\",\"tgt_span\":\"연결된 베란다들을 지나 앞쪽 포치로 향하는 데이지를 따라갔다\",\"description\":\"내가 데이지를 따라 베란다를 돌아 포치로 간 것인데, 번역은 '포치로 향하는 데이지'를 따라간 것으로 읽혀 목적지가 데이지의 움직임에 걸리고 닉의 이동 경로가 불분명해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E004\"],\"reason\":\"판단 질문 1: 'twilight'(황혼 빛)가 '거리감'으로 바뀌어 대상이 달라졌고, 이동 경로가 약간 흐려졌으나 누가 누구를 따라갔는지와 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계는 유지됩니다. while은 '그동안'으로 동시 관계가 보존됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술체 '~다'가 유지되고 'Miss Baker'가 '베이커 양'으로 격에 맞게 옮겨졌습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명과 일반 장소 외에 문화 고유 제도·단위 대상이 없습니다(feet는 비유적 거리 표현이며 숫자 오류가 아닌 Semantic 사안).\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 5381,
+    "output_tokens": 1185,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

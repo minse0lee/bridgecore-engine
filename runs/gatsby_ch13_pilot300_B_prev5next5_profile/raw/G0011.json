@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnjoKt35m2iEQdJwqA4",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0011\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a sort of moral attention\",\"tgt_span\":\"도덕적인 차렷 자세로 서 있기를\",\"description\":\"'a sort of'(일종의)가 번역에서 빠졌으나 의미 변화는 미미함\"},{\"id\":\"E002\",\"src_span\":\"riotous excursions with privileged glimpses into the human heart\",\"tgt_span\":\"타인의 내면을 엿보는 특권을 누리며 떠났던 그 소란스러운 여정들\",\"description\":\"'특권을 누리며 떠났던'으로 옮겨 여정 자체와 엿봄이 결합됨. 원문은 여정에 특권적 엿봄이 수반된다는 뜻인데, 번역은 '여정'을 이전에 떠났던 것으로 한정하고 '타인의 내면'으로 구체화함. 의미는 대체로 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"동부에서 돌아온 시점, 세상이 제복·도덕적 차렷 상태이길 바람, 인간 내면을 엿보는 소란스러운 여정을 더는 원치 않음이라는 내용이 모두 유지됩니다. 'a sort of' 누락과 '떠났던'은 사태를 바꾸지 않는 표현 차이입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계가 바뀌지 않았고, 세미콜론 앞뒤의 병렬 관계도 문장 분할로 자연스럽게 유지됩니다. 'no more'는 '더는'으로 옮겨졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 회고적 심경 서술 → 회고적 심경 서술. 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자 개인의 바람을 서술하는 문장이며 의무·허가·금지를 정하는 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 화자의 회고 서술 문체가 '~했다' 평서체로 유지되며 관계상 어긋남이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·단위·관습이 없습니다. 'the East'는 지명 성격의 표현입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 6458,
+    "output_tokens": 960,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

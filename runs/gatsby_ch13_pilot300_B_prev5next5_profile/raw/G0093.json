@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnm6vpZqy6AHNxMBwDQ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0093\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the balancing girl\",\"tgt_span\":\"곁에 누워 있던 여자\",\"description\":\"'균형을 잡고 있는 여자'라는 지시 표현이 '곁에 누워 있던 여자'로 바뀌어 균형 잡기 묘사가 빠짐. 같은 인물을 가리키므로 지시 대상은 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"E001은 같은 인물(베이커)을 가리키는 지시어의 표현 차이이고, 누가 무엇을 속삭였는지(데이지가 그 여자의 성이 베이커라고 속삭임)는 유지됩니다. hinted는 '속삭였다'로 옮겨 정도 차이만 있습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'곁에 누워 있던 여자'가 앞 문맥의 더 젊은 여자(베이커)를 가리켜 지시 대상이 유지되고, 연결·초점 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 데이지가 베이커의 성을 알려 주었다는 서사 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문이며 화자·청자 사이의 높임·호칭이 문제 되는 문장이 아닙니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명(성)만 있고 판정할 문화 고유 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 5103,
+    "output_tokens": 714,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

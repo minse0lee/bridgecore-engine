@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnmUPQrwVhigtkUR3C9",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0113\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“Who with?”\",\"tgt_span\":\"“어디서 일하는데?”\",\"description\":\"'누구와(어느 회사와 함께) 일하는가'라는 질문이 '어디서 일하는가'로 옮겨져 사람·회사 대상이 장소 표현으로 바뀜. 뒤 문장(I told him / Never heard of them)이 회사를 가리키므로 의미 차이는 작음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'Who with'는 어느 회사·사람과 일하느냐는 뜻인데 '어디서 일하는데'로 바뀌어 질문 대상이 약간 달라졌습니다. 다만 직장·회사를 묻는 요지는 유지되어 독자의 이해와 행동에는 영향이 작아 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현이 바뀌지 않았고 직전 '채권 일' 발언에 이어지는 질문 관계가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"직장에 대한 질문 → 직장에 대한 질문. 후속 대답을 요구하는 실제 질문 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화 속 질문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 닉에게 거만하게 반말로 묻는 관계(앞에서 '닉, 여기서 뭐 해?')와 일관된 반말이며 태도가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 3922,
+    "output_tokens": 760,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

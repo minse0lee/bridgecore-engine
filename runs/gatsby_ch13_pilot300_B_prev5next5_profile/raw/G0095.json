@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnmAsTd9nUte2YaeDm7",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0095\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the object she was balancing\",\"tgt_span\":\"턱 위에 올려둔 무언가\",\"description\":\"원문에 없는 위치 정보('턱 위에')가 첨가됨. 원문은 균형을 잡고 있던 물건의 위치를 밝히지 않음\"},{\"id\":\"E002\",\"src_span\":\"given her something of a fright\",\"tgt_span\":\"그녀는 내심 깜짝 놀란 모양이었다\",\"description\":\"'something of a fright'(약간의 겁/놀람)가 '내심 깜짝 놀란 모양'으로 바뀌어 정도와 내면 추측의 뉘앙스가 약간 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 균형을 잡던 물건의 위치가 원문에 없는 '턱 위'로 특정되었으나, 베이커 양이 물건의 균형을 잡다 흔들려 놀란 핵심 사실은 유지되어 minor입니다. '내심 깜짝 놀란 모양'은 정도 차이로 보아 오류 판정에서 제외합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그녀', '내게' 등 지시 대상이 유지되고 열거 순서와 '그 바람에'의 인과 연결도 유지되며 초점 표현의 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 인물의 동작과 상황을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설의 동작 묘사 문장으로 규범적 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 서술체와 '베이커 양' 호칭이 유지되어 관계와 태도가 달라지지 않았습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 호칭 외에 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 5233,
+    "output_tokens": 840,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

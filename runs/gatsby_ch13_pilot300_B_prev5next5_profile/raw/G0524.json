@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnqqWGS11W9UaG3giyz",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0524\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"in there\",\"tgt_span\":\"안에\",\"description\":\"'서재 안에'를 가리키는 in there가 '우리 안에'로 옮겨져 장소(서재)가 아니라 '우리 안'(우리 집단·우리 내부)으로 읽힘. 장소 지시가 모호해짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상·장소): '서재 안'을 뜻하는 in there가 '우리 안에'로 옮겨져 어디에 있었는지가 불분명하고 '우리 안'으로 읽힐 수 있습니다. 다만 얼마나 오래 있었는지 묻는 핵심 질문은 유지되고 문맥으로 장소를 복원할 수 있어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 장소 부사 there가 앞 문맥의 서재를 가리키는 지시 표현인데, '우리 안에'에서는 '우리'에 붙어 지시 대상이 불분명해졌습니다. 독자는 문맥으로 복원 가능해 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"시간 경과를 묻는 질문 → 시간 경과를 묻는 질문. 질문 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화 속 질문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조던이 닉에게 건네는 친근한 존댓말 질문 어조가 '-죠?'로 무리 없이 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 4442,
+    "output_tokens": 770,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

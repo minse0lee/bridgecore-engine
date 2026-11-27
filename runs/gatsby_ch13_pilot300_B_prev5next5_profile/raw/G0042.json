@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnkErXycdN23qWrQFqh",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0042\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a pair of enormous eggs\",\"tgt_span\":\"거대한 달걀 모양의 땅 두 개\",\"description\":\"eggs가 달걀 모양의 땅으로 풀어 옮겨졌으나 앞 문맥의 두 지형(formations of land)과 일치하며 의미는 유지됨. 'two'는 pair의 대응으로 통상적임.\"},{\"id\":\"E002\",\"src_span\":\"separated only by a courtesy bay\",\"tgt_span\":\"작은 만 하나를 사이에 두고\",\"description\":\"only(오직)가 사라지고 courtesy(형식적인)가 '작은'으로 바뀜. 만이 두 땅을 가르는 정도가 형식적일 뿐이라는 뉘앙스가 약해짐.\"},{\"id\":\"E003\",\"src_span\":\"the most domesticated body of salt water in the Western hemisphere, the great wet barnyard of Long Island Sound\",\"tgt_span\":\"서반구에서 가장 길들여진 바다, 즉 롱아일랜드 해협이라는 거대하고 축축한 가축 우리 같은 바다\",\"description\":\"동격 구조가 '즉'과 '-라는'으로 재구성되었으나 지시 관계는 유지됨. 오류 아님 수준.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: 'courtesy bay'의 '형식적인(명목상의)'이 '작은'으로 바뀌어 의미가 달라졌고, 20마일·쌍둥이 지형·해협 등 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 3: 'separated only by'의 초점 표현 only가 번역에서 사라져 범위·초점이 약해졌으나 문장의 지시·연결 관계는 유지되어 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지형 묘사(서술) → 지형 묘사(서술). 발화 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가를 나타내는 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체('-었다')가 유지되고 관계·호칭 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"마일 단위를 그대로 두고 롱아일랜드 해협 등 지명을 유지해 다른 단위나 제도로 바꾸지 않았습니다. 자동 힌트의 '2'는 'a pair'를 '두 개'로 옮긴 데서 생긴 것으로 수량 오류가 아닙니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 6032,
+    "output_tokens": 1080,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

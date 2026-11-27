@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnn5sLxa1QNEJop9vRz",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0165\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Can’t you talk about crops or something?\",\"tgt_span\":\"농작물 같은 얘기는 안 하시나요?\",\"description\":\"'Can't you ~?'(농작물 같은 얘기라도 좀 해 보지 그래, 라는 제안·불평조의 반어적 요청)가 단순히 평소 그런 얘기는 안 하는지 묻는 질문으로 읽힘. 또한 데이지를 포함한 상대에 대한 존대('하시나요')로 옮김.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"판단 질문 1: 농작물이나 그런 화제를 이야기하라는 내용, 대상, 행위가 유지되며 달라진 항목이 없습니다. 발화 기능 차이는 Context에서 다룹니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'or something'이 '같은'으로 유지되고 지시·연결·초점 관계에 변화가 없습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 원문 기능(화제를 바꿔 달라는 반쯤 농담조의 요청·제안) → 번역 기능(평소 안 하는지 묻는 단순 질문). 다만 앞 문장 '야만인이 된 기분'과 이어져 요청 뉘앙스가 어느 정도 읽히므로 minor입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"Can't you는 사교적 대화 속 개인적 부탁이며 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"닉이 데이지(친척, 동년배 손윗사람에 가까운 사이)와 같은 자리에서 점잖게 말하는 상황에서 '~하시나요' 존대는 어색하지 않으며 관계에 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 4974,
+    "output_tokens": 848,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

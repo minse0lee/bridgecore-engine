@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnjoKe8bNkAZ4fKAccn",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0017\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"started the wholesale hardware business that my father carries on today\",\"tgt_span\":\"현재 아버지가 이어받아 운영하고 계신 철물 도매업을 시작하셨다\",\"description\":\"아버지가 지금도 계속 운영한다는 내용이 '이어받아 운영'으로 바뀌어 승계 관계가 덧붙음. 의미상 큰 차이는 없어 경미함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: carries on(계속 운영)이 '이어받아 운영'으로 바뀌어 승계라는 내용이 덧붙었으나, 아버지가 지금도 운영한다는 핵심 사실은 유지되어 요지와 행동 이해에는 영향이 없습니다. 'fifty-one'→1851년은 1800년대 중반 맥락에 맞는 보충이고 'sent a substitute'→'대리인을 보냈고'도 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'but'의 양보·대조가 '-지만'으로, 'who' 관계절의 주어(할아버지의 형제)가 '그는'으로 유지되고 지시 관계도 바뀌지 않았습니다. 문장 분할은 오류가 아닙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"가문 내력 서술 → 가문 내력 서술. 설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 가족을 높여 서술하는 회고체로 소설 서술 상황에 맞고, 관계상 부적절한 높임이나 태도 변화는 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Dukes of Buccleuch가 '버클루 공작가', Civil War가 '남북 전쟁'으로 같은 대상을 가리키며 한국어 독자가 이해할 수 있습니다. 1851년 표기는 연도 맥락에 맞습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 5761,
+    "output_tokens": 886,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

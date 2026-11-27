@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnnFwb18n2wUhMmTiQm",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0172\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"What was that word we—\",\"tgt_span\":\"우리가 말했던 그 단어가 뭐였죠—\",\"description\":\"'우리가 (찾던/얘기하던) 그 단어'가 '우리가 말했던 그 단어'로 구체화됨. 문장이 끊긴 상태라 의미 차이는 미미함.\"},{\"id\":\"E002\",\"src_span\":\"He reads deep books\",\"tgt_span\":\"심오한 책들을 읽으시거든요\",\"description\":\"'-시-'와 '-거든요'로 톰을 높이고 이유를 설명하는 어조가 더해짐. 앞 문장 '심오해지셨네요'와 이어지는 데이지의 말투 선택임.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 긴 단어가 든 어려운 책을 읽는다는 내용과 데이지가 단어를 떠올리려다 말을 잇지 못하는 내용이 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'he'가 톰, 'we'가 데이지와 상대방을 가리키는 관계가 바뀌지 않았고, 연결·초점 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰의 독서를 아무 생각 없이 비꼬듯 설명하고 단어를 떠올리려는 말 → 동일한 기능으로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술과 대화입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"데이지가 남편 톰을 '톰 씨', '-시-'로 높이는 말투가 부부 관계에 맞는지 판단하려면, 작품에서 데이지가 톰에게 쓰는 말투(반말·존댓말) 기준이 필요합니다. 프로필에는 이 정보가 없고, 빈정거림이 담긴 거리감 표현일 수도 있습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 4778,
+    "output_tokens": 876,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

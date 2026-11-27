@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnkaSm8MrjhL2bV4QYH",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0052\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"my second cousin once removed\",\"tgt_span\":\"나와 촌수로 따지면 재종질녀뻘이었고\",\"description\":\"'second cousin once removed'(재종 형제자매의 자녀/부모 항렬, 먼 친척)를 '재종질녀'(재종 형제의 딸, 6촌 조카뻘 항렬)로 옮겨 항렬 관계가 달라지고 한국 친족 용어로 대체됨. 프로필상 데이지는 닉보다 예닐곱 살 아래의 먼 친척(cousin)이며 닉의 조카뻘으로 읽힘.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물 관계): 영어 호칭은 '재종 형제의 자녀 항렬 한 단계 차이'를 뜻하는 먼 친척인데, '재종질녀'는 구체적 한국식 친족 관계로 달라졌다. 그러나 데이지가 닉의 먼 친척이라는 핵심 사실은 유지되고 데이지의 나이도 닉보다 어려 큰 오독은 아니므로 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계 모두 유지됨. '나와'로 소유 관계 my가 보존되고 'and'의 병렬 연결도 유지됨.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자 배경 설명 → 화자 배경 설명. 인물 관계를 소개하는 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 화자의 회고 서술이 '~었다' 평서체로 유지되며 비하·친밀 등 특별한 태도 표현이 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2: 영어식 친족 호칭(second cousin once removed)을 한국 친족 체계의 '재종질녀'로 바꾸어 다른 친족 관계 체계로 대체했다. 다만 먼 친척이라는 점은 전달되어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 5423,
+    "output_tokens": 937,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

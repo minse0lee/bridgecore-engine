@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnoQdzMjhm4SPu9dPDh",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0327\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"one of these gypsies\",\"tgt_span\":\"집시 같은 여자 하나\",\"description\":\"앞 문단의 'confident girls'를 가리키는 비유적 지칭 'these gypsies'가 '집시 같은 여자'로 옮겨져 직유가 되었고, 지칭하는 대상(떠도는 소녀들 중 하나)의 연결이 약해짐\"},{\"id\":\"E002\",\"src_span\":\"in trembling opal\",\"tgt_span\":\"오팔 빛 드레스를 떨며 입은\",\"description\":\"'dress'가 원문에 없는데 첨가되었고, 'trembling'이 입는 동작을 꾸미는 말처럼 읽혀 흔들리는 오팔빛 옷차림이라는 묘사가 어긋남\"},{\"id\":\"E003\",\"src_span\":\"seizes a cocktail\",\"tgt_span\":\"칵테일 잔을 낚아채더니\",\"description\":\"'칵테일'이 '칵테일 잔'으로 바뀜. 의미 차이는 거의 없음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"여자가 칵테일을 낚아채 단숨에 마시고 프리스코처럼 손을 움직이며 홀로 무대에서 춤춘다는 핵심 사건이 유지되어 달라진 항목을 특정할 수 없습니다. '드레스' 첨가와 '집시 같은'은 묘사의 미세한 차이입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(지시 표현): 'one of these gypsies'의 'these'가 앞 문단의 소녀들을 가리키는 지시인데, 번역은 '집시 같은 여자 하나'로 옮겨 앞의 'confident girls'와 연결되는 지시 관계가 사라졌습니다. 다만 같은 장면의 여자로 읽히므로 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 파티의 한 순간을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 서술 문장이며 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 청자의 관계가 드러나는 대화나 호칭이 없는 서술문입니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Frisco'(샌프란시스코식 춤)를 '프리스코'로 음역해 통용 표기로 옮겼고 다른 제도나 대상으로 바꾸지 않았습니다. 'gypsies'는 비하 비칭이 아니라 비유적 지칭이므로 문화적 의미 변화가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 5649,
+    "output_tokens": 1111,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

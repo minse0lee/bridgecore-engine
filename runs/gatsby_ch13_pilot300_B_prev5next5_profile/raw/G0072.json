@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTntC1MqsW2JWtbEQRNz",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0072\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"wanted me to like him with some harsh, defiant wistfulness of his own\",\"tgt_span\":\"내가 자신을 좋아해주길 바란다는 인상을 늘 주었는데, 거기에는 그 나름의 거칠고 반항적인 갈망 같은 것이 섞여 있었다\",\"description\":\"'with … wistfulness'는 톰이 닉이 자기를 좋아해 주기를 바라는 방식을 나타내는데, 번역은 별도 절로 나누어 갈망이 섞여 있었다고 옮겼습니다. 다만 사태는 같아서 의미나 기능이 달라지지 않으므로 오류가 아닌 구조 차이로 봅니다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"같은 상급생 모임, 친밀하지 않았다는 점, 톰이 닉을 인정하고 호감을 바란다는 인상, 거칠고 반항적인 갈망이 모두 유지되었습니다. wistfulness를 '갈망'으로 옮긴 것은 정도 차이 범위입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'while'의 양보 관계가 '~지만'으로 유지되고, 'his own'은 '그 나름의'로 톰을 가리키는 소유 관계가 유지됩니다. 문장 분할은 오류가 아닙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 회상 서술 → 회상 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'never'는 친밀하지 않았다는 사실을 서술할 뿐 규범 표현이 아니므로 평가할 대상이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 화자가 과거를 회고하는 서술체 '-었다'가 유지되고 관계나 태도의 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'senior society'를 '상급생 사교 모임'으로 옮겨 대학 내 비밀 사교 모임이라는 의미가 이해 가능하게 전달되며 다른 제도로 바뀌지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 5210,
+    "output_tokens": 910,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

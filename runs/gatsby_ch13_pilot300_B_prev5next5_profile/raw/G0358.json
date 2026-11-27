@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnoqPm4Xs23Re2dfC3y",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0358\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"each one introduced to us as Mr. Mumble\",\"tgt_span\":\"남자들은 모두 이름조차 가물가물한 ‘어느 씨’ 정도로 소개되었다\",\"description\":\"세 남자가 모두 'Mr. Mumble'이라는 웅얼거리는 듯한 이름으로 소개되었다는 내용이, 이름이 기억나지 않는 '어느 씨' 정도로 소개되었다는 내용으로 바뀜. 소개된 방식(웅얼거린 이름)과 기억의 문제가 섞여 의미가 달라지고, 고유 이름처럼 쓰인 Mumble의 언어유희가 사라짐.\"},{\"id\":\"E002\",\"src_span\":\"A tray of cocktails floated at us\",\"tgt_span\":\"칵테일 쟁반 하나가 우리 쪽으로 다가왔고\",\"description\":\"floated(떠다니듯 다가옴)가 '다가왔고'로 옮겨져 부유하는 느낌이 약해짐. 같은 사태를 기술하므로 의미 변화는 없음(오류 아님에 가까움).\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'each one introduced to us as Mr. Mumble'이 '이름조차 가물가물한 어느 씨 정도로 소개'로 바뀌어, 소개된 이름의 성격이 달라지고 화자의 기억 문제처럼 읽힙니다. 다만 남자들이 제대로 된 이름 없이 소개됐다는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사·연결·초점 관계가 유지되며 문장 분할은 허용 범위입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술체가 유지되며 관계상 어긋나는 높임·호칭 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화·제도 고유 대상이 없습니다. 숫자 '2'는 '두 소녀'로 옮겨져 힌트는 오경보입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 4841,
+    "output_tokens": 979,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

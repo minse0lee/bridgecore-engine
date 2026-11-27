@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTnrajneZ4tNgiDJgiq4",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0564\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the criminal\",\"tgt_span\":\"가해자\",\"description\":\"사고를 낸 운전자를 가리키는 반어적 지칭 'the criminal'이 '가해자'로 옮겨져, 범죄자라는 어감이 사고 가해자라는 중립적 지칭으로 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'You don't understand'를 '오해하신 겁니다'로 옮겨 상대가 상황을 이해하지 못한다는 내용이 유지되고, 설명하는 사람도 사고 운전자로 같아 핵심 내용이 달라지지 않았습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현이 바뀌지 않았고 뒤의 '제가 운전한 게 아니에요'로 이어지는 관계도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대의 오해를 바로잡으며 해명을 시작하는 말 → 같은 기능의 해명 시작. 설명·반박 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"구경꾼에게 해명하는 사고 운전자의 말로서 '-ㅂ니다'체 높임이 상황에 어울리고 화자의 태도도 크게 달라지지 않았습니다. 'the criminal'은 서술자의 지칭이고 대사의 말투가 아닙니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 4547,
+    "output_tokens": 734,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
