@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9GfdiWevBVqfzxHCa9",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0211\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the man came after it one day when he was out: ‘Oh, is that your suit?’ I said.\",\"tgt_span\":\"옷 주인이 찾아왔지 뭐야. 내가 ‘어머, 이게 그쪽 옷이었어요? 처음 듣는 소리네요’라고 했어.\",\"description\":\"'came after it'(옷을 찾으러 옴)의 목적이 '찾아왔다'로만 옮겨져 옷을 가지러 왔다는 내용이 직접 드러나지 않음. 다만 뒤의 '옷은 돌려줬고'로 복원 가능하여 의미 변화는 경미함\"},{\"id\":\"E002\",\"src_span\":\"He borrowed somebody’s best suit to get married in\",\"tgt_span\":\"남의 제일 좋은 정장을 빌려 입었는데\",\"description\":\"결혼식 때 입으려고 빌렸다는 내용이 '빌려 입었는데'로 옮겨졌으나 의미는 유지됨\"},{\"id\":\"E003\",\"src_span\":\"lay down and cried to beat the band\",\"tgt_span\":\"엎드려서 정말 서럽게 울었어\",\"description\":\"'lay down'(드러누워)이 '엎드려서'로 바뀌어 자세가 달라지고, 'to beat the band'(요란하게)가 '서럽게'로 바뀌어 울음의 양상이 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 1: 'lay down'(드러누움)이 '엎드려서'로 행위 자세가 달라졌고 'cried to beat the band'(요란하게 울다)가 '서럽게'로 바뀌었으나, 핵심 사실(오후 내내 울었다)은 유지되어 요지는 같으므로 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사·소유 관계(그 사람, 옷 주인)와 시간·인과 연결이 유지되며 초점 표현의 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물의 회고 진술 → 회고 진술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"never는 '말도 안 했다'는 사실 서술의 부정이며 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 친근하게 회고하는 구어체가 반말로 유지되고, 옷 주인에게 한 말은 존댓말로 적절합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1212,
+    "output_tokens": 1073,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

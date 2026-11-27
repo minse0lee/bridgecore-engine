@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAghtRdfBeBYHL9J4Wf",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF2160\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"he was at Oggsford\",\"tgt_span\":\"옥스퍼드 출신이라는 말\",\"description\":\"Oggsford는 Gatsby가 Oxford를 잘못 발음한 것을 암시하는 화자(Wolfsheim)의 사투리/오발음 표기인데, 번역문은 이를 표준 표기 '옥스퍼드'로 바꾸어 오발음 표지가 사라짐\"},{\"id\":\"E002\",\"src_span\":\"He held up two bulbous fingers\",\"tgt_span\":\"그는 뭉툭한 손가락 두 개를 맞붙여 보였다\",\"description\":\"두 손가락을 들어 올린 동작이 '맞붙여 보였다'로 바뀌어 동작의 세부가 달라짐(손가락이 나란히 붙은 모양은 'thick'의 의미를 시각화하므로 의미는 크게 변하지 않음)\"},{\"id\":\"E003\",\"src_span\":\"Right off he did some work for a client of mine up to Albany.\",\"tgt_span\":\"곧바로 내 고객 중 한 명의 일을 처리하러 올버니까지 가기도 했고.\",\"description\":\"'did some work'가 '일을 처리하러 … 가기도 했고'로 옮겨져 일을 했다는 사실이 가는 행위로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 1: 올버니의 고객 일을 했다는 내용이 '일을 처리하러 올버니까지 가기도 했다'로 옮겨져 행위가 일부 달라졌으나, 핵심 사실(고객 일을 해 줌)은 유지되어 독자의 이해와 행동에 큰 영향이 없습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계가 유지됩니다. '게다가' 첨가는 연결 관계를 바꾸지 않습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 자랑·회상 서술 → 인물 자랑·회상 서술. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미를 정하는 표현이 없는 서술입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3: 화자의 교양 없는 말투와 오발음(Oggsford)이 표준 표기로 정리되어 화자 특성을 드러내는 태도 표지가 사라졌습니다. 다만 전체적으로 반말 구어체는 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"American Legion을 '미국 퇴역군인회'로 옮겨 같은 단체를 가리키며, 한국어 독자가 이해할 수 있는 통용 번역입니다. Oggsford의 오발음 표지 소실은 Register에서 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1232,
+    "output_tokens": 1159,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

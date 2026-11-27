@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAQhYPn8CsJTRLotoHC",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1781\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"they’ll trace your car\",\"tgt_span\":\"차를 추적해서 당신을 찾아낼 게 뻔하니까요\",\"description\":\"'차를 추적할 것'이 '차를 추적해 당신을 찾아낼 것'으로 바뀌어 '당신을 찾아낸다'는 결과가 첨가됨. 앞 문장의 '떠나시는 게 좋겠어요'와 이어지는 연결어 '-니까요'도 추가됨(의미 변화 없음).\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 원문은 차를 추적할 것이라는 사실만 말하는데 번역은 '당신을 찾아낼' 것이라는 결과를 덧붙였습니다. 다만 맥락상 함의가 같고 요지는 유지되어 minor입니다. '뻔하다'는 pretty certain과 확실성이 대응합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-니까요'가 앞 문장의 떠나라는 권고에 대한 이유 관계를 표현해 원문의 문맥상 인과 연결을 유지합니다. 지시·초점 관계는 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"권고의 근거 설명 → 권고의 근거 설명. 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장은 추측·사실 진술이며 의무·허가·금지 등의 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 상대(개츠비)에게 하는 존대 표현 '~요'가 두 사람의 관계와 대화 상황에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 512,
+    "output_tokens": 807,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9S5XuBvvdKYypFk1oc",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0424\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I made the pleasure of his acquaintance\",\"tgt_span\":\"운 좋게 알게 되었죠\",\"description\":\"'그와 안면을 트는 영광/즐거움을 누렸다'는 격식 차린 과장 표현이 '운 좋게 알게 되었다'로 바뀜. 평가어의 정도·종류 차이이며 핵심 사실(전쟁 직후 알게 됨)은 유지됨.\"},{\"id\":\"E002\",\"src_span\":\"after I talked with him an hour\",\"tgt_span\":\"한 시간 정도 대화를 나눠보니\",\"description\":\"'an hour'가 '한 시간 정도'로 바뀌어 근사치 표현이 더해짐. 의미 차이는 미미함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"전쟁 직후 알게 됨, 한 시간 대화 후 교양 있는 사람임을 알아봄, 어머니와 누이에게 소개하고 싶다는 속말이 모두 유지됩니다. 달라진 것은 평가어의 정도('안면의 영광' → '운 좋게')뿐이고 '정도'도 사태를 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'하지만'이 대조 관계를, '대화를 나눠보니'가 시간·인과 관계를 유지하며 '그'와 '속으로 생각했죠'의 지시 관계도 같습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물에 대한 경험 서술과 자기 평가 인용 → 같은 서술 기능. 화자가 자신의 안목을 과시하며 설명하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 서술로 의무·허가·금지 등 규범 의미가 없습니다. 'you'd like to'는 바람 표현입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개츠비가 닉에게 격식 있게 말하는 관계가 '~죠' 존대체로 유지됩니다. 원문의 과장된 격식은 다소 약해졌지만 관계에 맞는 높임은 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 956,
+    "output_tokens": 951,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

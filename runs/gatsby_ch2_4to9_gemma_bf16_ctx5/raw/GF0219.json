@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9HAkfWGvseDGbz68Rc",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0219\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"pulled her chair close to mine\",\"tgt_span\":\"내 의자를 자기 쪽으로 바짝 끌어당기더니\",\"description\":\"머틀이 자기 의자를 화자 의자 가까이 끌어당긴 것이 화자의 의자를 자기 쪽으로 끌어당긴 것으로 대상이 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상·행위): 머틀이 자기 의자(her chair)를 화자 의자 곁으로 옮긴 행위가 화자의 의자를 끌어당기는 행위로 바뀌어 무엇을 움직였는지가 달라졌습니다. 번역문만 읽으면 장면 묘사를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(소유 관계): her chair의 소유가 머틀이고 mine이 화자 의자인데, 번역문은 '내 의자'를 끌어당긴 것으로 소유 관계가 어긋났습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(장면 묘사와 이야기 전개) → 서술. 서술 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체('~했다')가 유지되며, 등장인물 간 호칭·높임 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명만 있고 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 631,
+    "output_tokens": 747,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

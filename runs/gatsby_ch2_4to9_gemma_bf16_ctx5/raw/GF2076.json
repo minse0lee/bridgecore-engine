@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAdE5GVeh2oT84YwXqd",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF2076\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a telegram signed Henry C. Gatz\",\"tgt_span\":\"헨리 C. 개츠라는 이름의 전보\",\"description\":\"전보에 '헨리 C. 개츠'라고 서명되어 있었다는 내용이 '이름의 전보'로 옮겨져 서명자(발신인)라는 관계가 모호해졌으나 발신인으로 읽힘\"},{\"id\":\"E002\",\"src_span\":\"I think it was\",\"tgt_span\":\"아마 셋째 날이었을 것이다\",\"description\":\"화자의 기억에 기댄 '내 생각에는'이 '아마 ~ 것이다'라는 추측 표현으로 바뀌어 화자 주체가 사라짐. 불확실성은 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"셋째 날, 미네소타 마을에서 헨리 C. 개츠 서명의 전보가 도착, 화자의 불확실한 기억이라는 내용이 모두 유지됩니다. '이름의 전보'는 어색하나 발신인으로 이해되고, '아마'도 I think의 불확실성에 대응합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'~한 것은 ~이었을 것이다'로 'it was on the third day that' 분열문의 초점이 셋째 날에 유지되고 지시·연결 관계 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(회상 속 사건 설명) → 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술자의 평서 문어체 '~이었을 것이다'가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명·지명 외에 별도로 판정할 문화 고유의 제도·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 644,
+    "output_tokens": 830,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

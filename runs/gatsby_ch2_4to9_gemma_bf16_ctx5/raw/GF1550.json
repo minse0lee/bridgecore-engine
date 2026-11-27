@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAEvvXvdCaDhV42sLiG",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1550\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Certainly not\",\"tgt_span\":\"갈 리가 없지\",\"description\":\"'Certainly not'이 '갈 리가 없지'로 옮겨져 단정의 강조어가 약해짐. 확신은 유지되며, 문맥상 앞 문장의 생략된 'She's not leaving me'를 잇는 어구라 의미 변화는 사실상 없음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'확실히 아니다, 반지까지 훔쳐야 할 천박한 사기꾼에게는'이라는 내용·인물·확실성이 유지됩니다. common이 '천박한'으로 옮겨진 것은 평가어 정도 차이입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'for a common swindler'가 '사기꾼 따위에게'로 앞 문장과의 연결을 유지하고, 관계절의 소유 관계(자기가 끼워준 반지)도 가리키는 대상이 같으며, 초점 표현이 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"경멸하며 단언하는 발화 → 경멸하며 단언하는 발화. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"have to는 사기꾼이 처한 상황을 가정하는 표현이지 의무·허가·금지를 정하는 규범이 아니므로 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 개츠비를 깔보는 경멸적 태도가 '천박한 사기꾼 따위'와 반말체로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 727,
+    "output_tokens": 777,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

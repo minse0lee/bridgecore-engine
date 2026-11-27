@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAmzaRSNZZdcJi4tTp1",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF2285\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"He ran over Myrtle like you’d run over a dog\",\"tgt_span\":\"머틀을 마치 개라도 치인 것처럼 뭉개버리고는\",\"description\":\"'you'd run over a dog'(네가 개를 치듯, 행위자가 가해자)가 '개라도 치인 것처럼'(피동, 개가 치이는 것)으로 바뀌어 비유의 구조가 달라지고, 'ran over'가 '뭉개버리고'로 과장됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'run over a dog'의 비유가 '개라도 치인 것처럼'(피동)으로 바뀌고 '뭉개버리고'로 정도가 달라졌으나, 머틀을 치고 멈추지 않았다는 핵심 사실은 유지되어 요지 변화는 작습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 대상과 'but', 'just like' 비교·대조 연결이 유지되고 초점 표현 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"수사의문으로 자기 행동 정당화 → 수사의문으로 자기 정당화. '말해줬으면 좀 어때?'가 반문 기능을 유지합니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"never는 과거 사실 서술이며 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 가까운 상대에게 격앙되어 말하는 반말과 '그놈', '지독한 놈'의 경멸적 태도가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1164,
+    "output_tokens": 780,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

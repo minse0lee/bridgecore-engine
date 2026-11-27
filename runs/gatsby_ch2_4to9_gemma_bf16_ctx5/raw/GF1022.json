@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9ryCMFS8xJv1xY3zzb",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1022\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Doctor Civet\",\"tgt_span\":\"시벳 씨\",\"description\":\"직함 Doctor(의사/박사)가 '씨'로 바뀌어 직업·직함 정보가 사라짐\"},{\"id\":\"E002\",\"src_span\":\"leave it alone\",\"tgt_span\":\"술을 끊으셔야겠네요\",\"description\":\"it(앞 문맥의 술을 가리키는 대명사)을 '술'로 명시하고 leave alone을 '끊다'로 옮김. 문맥상 대응이면 의미 변화 아님\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: Doctor라는 직함이 '씨'로 바뀌어 인물의 직업 정보가 빠졌으나 인물 지시와 발화 내용은 유지되어 요지 이해에는 큰 영향이 없습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Then의 '그럼'이 조건적 연결을 유지하고, it은 앞 문맥의 술을 가리키는 것으로 문맥상 일치해 지시 대상이 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"의사의 권고·반박 → 권고·반박. 'countered'가 '맞받아쳤다'로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"ought to의 규범적 권고가 '끊으셔야겠네요'로 옮겨져 의무·권고 범주가 유지됩니다. 추측형 어미로 다소 부드러워졌으나 통상적 대응 범위입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"의사가 상대(화자)에게 말하는 관계에서 '-시-'와 '-요' 높임이 적절한지 판단하려면 대화 상대의 신분·관계(예: 손님, 친구 등) 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: Doctor라는 직함(의사·직업적 권위를 나타내는 호칭)이 일반 호칭 '씨'로 바뀌어 직함의 제도적·사회적 의미가 전달되지 않습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 603,
+    "output_tokens": 919,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

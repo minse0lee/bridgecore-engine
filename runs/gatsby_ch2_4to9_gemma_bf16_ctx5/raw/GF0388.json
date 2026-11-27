@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9QbXdSr5mv4YtusZ4Y",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0388\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Did he go?\",\"tgt_span\":\"결국 나갔나요?\",\"description\":\"원문에 없는 '결국'이 첨가되어 어떤 경위를 거친 끝의 결과를 묻는 뉘앙스가 더해짐. 다만 질문 내용(그가 갔는가)은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"그가 갔는지를 묻는 내용이 유지됩니다. '결국'은 부가 뉘앙스일 뿐 인물·행위·시간·부정·조건 등 핵심 항목은 달라지지 않았습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 대상('he'가 생략된 주어)과 연결·초점 관계가 바뀌지 않았고, 세 질문 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"짐짓 순진한 척 던지는 질문 → 같은 종류의 질문. 질문 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 질문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-나요?'의 부드러운 존댓말이 문맥상 무난하며 관계에 어긋나지 않습니다. 화자의 태도가 훼손되지 않았습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 436,
+    "output_tokens": 663,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

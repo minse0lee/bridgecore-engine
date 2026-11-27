@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9dzNfv2xhGkKCMt6Zu",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0716\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"just as Gatsby had when he had made his nervous circuit of the house half an hour before\",\"tgt_span\":\"30분 전 개츠비가 초조하게 집 안을 한 바퀴 돌았을 때 그랬던 것처럼\",\"description\":\"원문에서 개츠비가 뒷문으로 나갔던 행위(just as Gatsby had [walked out the back way])가 번역문에서는 '개츠비가 집 안을 돌았을 때 그랬던 것처럼'으로 읽혀, 비교 대상 행위가 불분명해짐. 다만 '그랬던 것처럼'이 뒷문으로 나간 것을 가리키는 것으로도 읽힘.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뒷문으로 나감, 개츠비가 30분 전 초조하게 집을 한 바퀴 돎, 거대하고 검은 옹이진 나무로 달려감, 잎이 비를 막음 등 인물·행위·시간이 모두 유지됩니다. 문장 분할은 허용 범위입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그랬던 것처럼'이 앞 문장의 뒷문으로 나간 행위를 받는 비교 관계를 유지하고, 'whose'는 '무성한 잎을 가진'으로 소유 관계가 유지되어 지시·연결·초점이 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 화자의 행동을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 소설 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술체 '-했다/달려갔다'가 소설 본문의 관계와 격식에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1506,
+    "output_tokens": 842,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

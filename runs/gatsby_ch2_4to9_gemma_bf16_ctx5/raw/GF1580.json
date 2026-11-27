@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAGK4LBEjP7TZzXrSS5",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1580\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I think he realizes\",\"tgt_span\":\"본인도 깨달았을 테니까요\",\"description\":\"'I think'(화자의 추측)가 '~했을 테니까요'로 옮겨져 확실성은 약간 달라졌으나 추측 표지는 유지됨. 또 앞 문장의 근거를 이유로 연결하는 표현이 되었으나 의미 변화는 미미함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"가라는 말, 괴롭히지 않을 것, 주제넘은 추파가 끝났다고 그가 깨달았다는 내용이 모두 유지되며 'little'의 경시 뉘앙스만 빠진 정도의 평가어 차이입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'He'가 '저 사람/본인'으로 같은 대상을 가리키고, 앞 문장의 근거 연결이 '-테니까요'로 자연스럽게 재구성되어 지시·연결·초점이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대를 안심시키며 가도록 재촉하는 말 → 상대를 안심시키며 가도록 재촉하는 말로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없고 'Go on'은 대화 속 개인적 권유입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 해요체가 가벼운 존대 관계에 맞고, 'presumptuous'의 경멸적 태도도 '주제넘게 굴며 … 짓'으로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"판정할 문화 고유의 제도·단위·관습 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 614,
+    "output_tokens": 778,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

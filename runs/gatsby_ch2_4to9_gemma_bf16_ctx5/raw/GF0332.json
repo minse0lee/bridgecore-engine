@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9N7rvyuFwapjvaiByM",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0332\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Miss Baker\",\"tgt_span\":\"조던 베이커 양\",\"description\":\"원문에 없는 이름 '조던'이 첨가됨. 같은 인물을 가리키므로 지시 대상은 달라지지 않음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"판단 질문 1: 'Miss Baker'가 『위대한 개츠비』의 조던 베이커이므로 '조던'을 덧붙여도 인물·행위·내용이 달라지지 않습니다. 사랑에 빠졌다는 말씀이냐는 확인 질문 내용도 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현에 변화가 없습니다. 이름 첨가는 같은 인물을 지칭하는 데 그칩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대의 말을 확인하는 질문 → 확인하는 질문. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 확인 질문입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'사랑하신다는 말씀인가요?'의 높임이 화자와 청자의 관계에 맞는지 판단하려면 화자와 청자가 누구인지 확인해야 하는데, 해당 문장만으로는 알 수 없습니다. 이 문단에 화자와 청자 정보가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Miss'를 '양'으로 옮긴 것은 한국어에서 통용되는 호칭 표기이며, 원문과 같은 대상을 가리킵니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 466,
+    "output_tokens": 748,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

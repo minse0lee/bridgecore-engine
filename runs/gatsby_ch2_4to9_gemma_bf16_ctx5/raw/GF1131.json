@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9wY1RMWKA7qZNafPks",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1131\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Miss Baker would be there.\",\"tgt_span\":\"베이커 양도 함께 있을 예정이었다.\",\"description\":\"'there'(데이지의 집, 점심 자리)라는 장소가 번역문에서 '함께'로 바뀌어 베이커 양이 점심 자리에 참석한다는 내용이 누구와 함께 있다는 것인지 불분명해짐. 첨가된 '도'는 초점 표지로 작용함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 장소 'there'(데이지 집의 점심 자리)가 '함께'로 바뀌어 장소 정보가 사라졌으나, 베이커 양이 그 자리에 있을 예정이라는 핵심 요지는 문맥상 유지됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3: 원문에 없는 '도'가 붙어 'as well' 같은 초점이 생겼고, 지시어 'there'의 장소 지시가 '함께'로 바뀌어 누구와 함께인지 모호해졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"정보 설명 → 정보 설명. 베이커 양의 참석을 알리는 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 '~였다'가 유지되며 '베이커 양' 호칭도 원문 Miss Baker에 대응합니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Miss를 '양'으로 옮긴 것은 통용되는 호칭 대응으로 문화적 의미가 유지됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 777,
+    "output_tokens": 784,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

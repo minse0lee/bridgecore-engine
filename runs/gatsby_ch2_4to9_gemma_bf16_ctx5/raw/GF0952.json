@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9p4PYoA8tCsyMhaeFe",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0952\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"have you\",\"tgt_span\":\"두 분 다 오셨으면\",\"description\":\"원문의 you(상대방)가 '두 분 다'로 옮겨져 수량(두 사람)이 더해짐. 원문 문장에는 두 사람이라는 명시가 없고, 문단 문맥만으로는 청자가 둘인지 확인되지 않음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"판단 질문 1: '두 분 다'가 you를 두 사람으로 한정했는데, 청자가 실제로 두 사람인지 주어진 문맥만으로 확인되지 않습니다. 앞뒤 장면에서 초대받는 사람이 누구인지 확인해야 합니다. 자동 점검 힌트의 [2]는 이 표현에서 생긴 것입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'집이 넓거든요'가 '-거든요'로 앞 문장에 대한 이유 관계를 유지하며, 지시·초점 관계의 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"초대·환대의 말 → 초대·환대의 말. 오라고 권하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 표현이 없고 개인적인 바람과 초대를 말하는 대화입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-어요'체와 '분'이 화자와 청자의 관계에 맞는지 판단하려면 두 인물의 관계(나이·친밀도·사회적 위치) 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위 등 별도로 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 623,
+    "output_tokens": 779,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

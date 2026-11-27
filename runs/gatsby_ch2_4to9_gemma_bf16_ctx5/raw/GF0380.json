@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9QEmxa3KBvbaP5bn3b",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0380\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Filled with faces dead and gone.\",\"tgt_span\":\"이제는 죽어 사라진 얼굴들로 가득했던 곳이죠.\",\"description\":\"'이제는'과 '곳'(장소 명사)이 보충되었으나 문맥상 the old Metropole을 가리키는 해석으로, 의미·기능을 바꾸지 않는 통상적 보충입니다. 'dead and gone'을 '죽어 사라진'으로 옮겨 내용은 유지됩니다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"죽어 사라진 얼굴들로 가득했다는 내용이 유지되며, '이제는'과 '곳'은 문맥에 따른 보충으로 사태를 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"생략된 주어(the old Metropole)를 '곳'으로 이어받아 지시 관계가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"회고적 서술(독백) → 회고적 서술. 발화 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"울프심이 청자(닉)에게 말하는 정중한 구어체 '~죠'가 상황에 어울리며 태도 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 908,
+    "output_tokens": 693,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

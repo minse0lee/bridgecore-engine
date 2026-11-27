@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9NvHgv9X8HmWSDBXS4",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0350\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"and he sends me a Christmas card every year\",\"tgt_span\":\"예전에 경찰청장님께 도움을 드린 적이 좀 있어서, 매년 크리스마스 카드를 보내주시거든요\",\"description\":\"원문은 병렬 접속(and)으로 두 사실을 나란히 제시하나, 번역은 '-어서'로 인과 관계를 만듦. 또한 보내는 주체가 바뀌지는 않으나 'once'가 '예전에'로, 'a favour'가 '좀'과 함께 옮겨져 약간 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"경찰청장에게 한 번 도움을 준 일과 매년 크리스마스 카드를 받는 사실이 유지됩니다. '좀'은 구어적 완화일 뿐 내용을 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(연결 관계): and로 나란히 놓인 두 사실이 '-어서'로 옮겨져 병렬이 인과 관계로 바뀌었습니다. 요지는 유지되므로 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 자신의 인맥을 자랑하는 서술 → 같은 기능의 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"번역은 존대('청장님께', '드린', '보내주시거든요')를 쓰는데, 화자(Gatsby)와 청자(Nick)의 관계에서 어떤 격식이 맞는지 문맥 정보가 부족해 판단을 보류합니다. 필요한 정보: 화자와 청자의 관계와 대화 어조.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"commissioner는 '경찰청장'으로 옮겨져 같은 직위를 가리키며, 크리스마스 카드 관습도 유지됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 540,
+    "output_tokens": 878,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

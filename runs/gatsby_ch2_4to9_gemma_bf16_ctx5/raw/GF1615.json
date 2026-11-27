@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAHrSVPXdjPm9SvhPpt",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1615\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Throw me down and beat me\",\"tgt_span\":\"나를 밀쳐내고 때려보라고\",\"description\":\"'throw me down'(넘어뜨려 내던지다)이 '밀쳐내고'로 바뀌고 '때려보라고'로 도전하는 어조가 됨. 행위·대상은 유사하여 의미 변화는 미미함\"},{\"id\":\"E002\",\"src_span\":\"dirty little coward\",\"tgt_span\":\"비겁하고 더러운 인간아\",\"description\":\"'little'(경멸적 지소사)이 대응 없이 빠지고 '인간'이 추가됨. 경멸 태도는 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"여성이 상대를 쓰러뜨려 때리라고 요구하며 비겁하고 더러운 자라 욕하는 내용이 같고, 'throw down'→'밀쳐내고'는 같은 사태의 표현 차이 범위입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'나'와 '비겁하고 더러운 인간'이 가리키는 대상이 유지되고 연결 관계(and)도 '-고'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"도발하며 때리라고 요구하는 발화와 욕설 → 도발과 욕설. 기능이 같은 종류입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없고 감정적 도발 발화입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"격한 반말과 '비겁하고 더러운 인간아'로 경멸의 태도가 유지되며 'little'의 약간의 경멸감 감소는 어색함 수준입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 524,
+    "output_tokens": 801,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

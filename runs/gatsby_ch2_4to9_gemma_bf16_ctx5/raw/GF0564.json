@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9XiH8AtdXiJGf2RSr9",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0564\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"대응 구간 없음(첨가)\",\"tgt_span\":\"그냥\",\"description\":\"원문에 없는 '그냥'이 첨가되었으나 '특별한 일 없이 곁에서 보고 싶다'는 취지와 어울려 의미를 바꾸지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 바로 옆집에서 그녀를 보고 싶다는 행위·대상·장소가 동일합니다. '그냥'은 앞 문장의 취지와 맞아 내용을 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'her'는 '그녀'로, 'right next door'는 '바로 옆집'으로 유지되어 지시·초점 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물의 바람을 말하는 서술(대화) → 바람을 말하는 서술(대화). 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"개인적 바람을 말하는 문장으로 의무·허가·금지 같은 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-습니다' 격식체가 화자와 청자의 관계에 맞는지 판단하려면 화자(전달자)와 청자의 관계 확인이 필요합니다. 인용된 말이라 관계 정보가 부족합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 평가할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 523,
+    "output_tokens": 700,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

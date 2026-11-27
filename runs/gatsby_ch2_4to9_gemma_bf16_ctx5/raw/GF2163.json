@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAgmmMLB2qriJThwnRN",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF2163\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I know you’ll want to come\",\"tgt_span\":\"오고 싶어 하실 거라 생각합니다\",\"description\":\"'알고 있다(know)'라는 확신이 '생각합니다'라는 추측으로 약해져 확실성이 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): 'I know'의 확신이 '생각합니다'라는 추측으로 바뀌었으나 핵심 사실(가장 가까운 친구, 오늘 오후 장례식, 오고 싶어 할 것)은 유지되어 요지와 행동 이해는 달라지지 않으므로 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'so'의 인과 관계가 '-니'로 유지되고, 대명사 his가 가리키는 대상과 초점·범위 표현도 달라지지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대의 심정을 짐작해 장례식 참석을 권하는 말 → 같은 기능. 장례식 참석을 이끄는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없고, 'want to'는 상대의 바람을 짐작하는 말입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 상대(개츠비의 친구)에게 정중히 말하는 상황이며 '친구분이셨으니', '하실', '~습니다'의 높임이 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 580,
+    "output_tokens": 752,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

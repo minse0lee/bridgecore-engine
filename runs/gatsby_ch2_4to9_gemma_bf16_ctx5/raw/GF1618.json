@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAHy8ZuyMeGvhddZDq4",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1618\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"he told the first policeman\",\"tgt_span\":\"처음 마주친 경찰에게\",\"description\":\"'the first policeman'(처음 도착한/첫 번째 경찰)이 '처음 마주친 경찰'로 바뀌었으나 같은 경찰을 가리키며 사태가 동일하여 의미를 바꾸지 않음. 오류로 보지 않을 수준.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"마이클리스가 차 색깔을 확신하지 못했고 첫 경찰에게 연녹색이라고 말했다는 내용, 인물·행위·확실성이 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'even'이 '조차'로 옮겨져 초점이 색깔에 유지되고, 대시로 이어진 두 절은 두 문장으로 분할되었으나 지시·연결 관계(its→차)가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사건 서술 → 사건 서술. 목격자 증언의 불확실성을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사 서술 문장으로 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문의 평서체 격식이 유지되며 화자·청자 관계상 문제되는 높임·호칭 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명만 있고 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 941,
+    "output_tokens": 699,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9ymEi5tEormqhdoZMd",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1181\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"your own mother\",\"tgt_span\":\"엄마\",\"description\":\"'own'이 강조하는 '네 친엄마'라는 뉘앙스가 사라졌으나, 한국어에서 '엄마'로 충분히 전달되어 내용·기능을 바꾸지 않는 통상적 차이\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"아이에게 자신을 사랑하는 엄마에게 오라는 내용이 그대로 유지되며, 'own'의 생략은 사태를 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'that loves you'가 '널 사랑하는'으로 엄마를 수식하는 관계가 유지되고 지시 대상이 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"아이를 부르는 권유·지시 → 아이를 부르는 권유·지시. 기능이 동일합니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"아이를 다정하게 부르는 대화 속 말로, 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"어머니가 아이에게 하는 다정한 말투가 '널', '~오렴'의 친근한 어투로 관계에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습·비칭 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 505,
+    "output_tokens": 663,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

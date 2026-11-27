@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAg142gdCd1bApBJouX",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF2144\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"slide her hands indignantly up and down her hips\",\"tgt_span\":\"분이 풀리지 않는다는 듯 양손으로 골반을 훑어 내리기 시작했다\",\"description\":\"'up and down'(위아래로 오르내림)이 '훑어 내리기'(아래로 내림)로 바뀌어 왕복 동작이 한 방향으로 축소됨. 또한 'indignantly'(분개하여)가 '분이 풀리지 않는다는 듯'으로 옮겨져 분개의 표출이 약간 달라짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'up and down'의 왕복 동작이 '훑어 내리기'라는 하향 동작으로 바뀌었으나, 그녀가 분개하며 손으로 엉덩이를 쓰는 핵심 사태는 유지되어 요지 이해나 행동 이해에는 큰 영향이 없습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-더니'로 한 걸음 다가온 뒤 동작을 시작하는 시간 순서가 유지되고, 지시·초점 관계 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 동작 서술 → 인물 동작 서술. 서술 기능이 그대로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 청자 사이의 높임·호칭이 문제되는 문장이 아니라 3인칭 서술문입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 별도로 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 552,
+    "output_tokens": 786,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

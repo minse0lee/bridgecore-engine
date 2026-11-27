@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTACq2mQ9trVfDWgFL1G",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1499\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"You’re revolting\",\"tgt_span\":\"정말 끔찍해요.\",\"description\":\"2인칭 주어 'You'(상대인 톰을 향한 직접 비난)가 번역문에서 주어 없이 '정말 끔찍해요'로 옮겨져, 상대를 가리키는 말인지 상황·사물에 대한 감탄인지 불분명해짐. '정말'이 첨가되었고 revolting(역겨운, 혐오스러운)이 '끔찍한'으로 바뀌어 혐오·역겨움의 의미가 약해짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'You're revolting'은 상대를 '역겨운 사람'이라고 평가하는데, 번역문은 주어 없이 '끔찍해요'로 옮겨 평가 대상이 불분명해졌고 '역겨움'이 '끔찍함'으로 달라졌습니다. 다만 부정적 평가 내용은 유지되고 데이지의 말이라는 점과 대화 문맥에서 상대에 대한 말로 읽히므로 요지는 크게 달라지지 않아 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계에 변화가 없습니다. 한국어의 주어 생략은 어색함일 뿐 지시 대상을 바꾸지 않습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대에 대한 비난·혐오 표현 → 비난·혐오 표현. 문맥상 비난하는 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"데이지가 남편 톰에게 하는 말을 '~해요'체로 옮겨 관계에 어긋나지 않고, 화자의 경멸하는 태도도 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 656,
+    "output_tokens": 893,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

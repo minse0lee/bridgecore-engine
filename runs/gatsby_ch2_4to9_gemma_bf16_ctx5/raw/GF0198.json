@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9GAR45F3DrvLqqnRkS",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0198\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I know I didn’t.\",\"tgt_span\":\"그건 나도 알죠.\",\"description\":\"화자가 자신이 하지 않았다(didn’t)는 사실을 안다는 내용이 '그건 나도 알죠'로 바뀌어, 부정된 행위와 '나는 하지 않았다'는 자기 진술이 사라지고 상대 말에 동의하는 것으로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위·부정): 원문은 화자가 자신이 하지 않았음을 안다는 진술인데, 번역은 '그건 나도 안다'는 동의·인지 표현이어서 부정된 행위가 사라지고 요지가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"문맥상 앞 발화를 받는 생략 표현이며, 지시·연결·초점 관계가 번역에서 따로 바뀌었다고 보기 어렵습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 평서 발화 → 대화 속 평서 발화. 상대 말에 대한 응답 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 문장입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-죠' 말투가 화자와 청자의 관계에 맞는지 판단하려면 대화 상대와의 관계 정보가 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 요소가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 415,
+    "output_tokens": 723,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

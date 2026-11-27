@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9m5hbgRykNy2YziciE",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0881\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"every rush for metal since seventy-five\",\"tgt_span\":\"75년 이후에 일어난 모든 광풍\",\"description\":\"'rush for metal'(금속 채굴 열풍, 골드러시류)이 '광풍'으로 옮겨져 금속 채굴이라는 대상이 사라지고, 'seventy-five'(1875년)가 '75년'으로 세기가 불명확해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'rush for metal'의 '금속 채굴 열풍'이 일반적인 '광풍'으로 바뀌어 대상이 흐려졌습니다. 다만 앞의 은광·유콘이 문맥을 보완하고 핵심 사실(쉰 살, 광산 지대 출신)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'a product of'의 병렬 나열과 시간 연결('당시', '이후')이 유지되어 지시·연결·초점 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 배경 서술 → 인물 배경 서술. 서술 기능이 그대로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체의 객관적 어조가 '~이었다' 평서체로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"네바다 은광, 유콘 등 지명·역사적 광산 열풍 배경을 같은 대상으로 옮겼고, 다른 제도·단위로 바꾸지 않았습니다. 광풍 표현은 Semantic에서 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1041,
+    "output_tokens": 785,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

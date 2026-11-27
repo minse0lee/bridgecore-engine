@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9MKQgtgsWuvdKDAYz8",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0314\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"It appreciated fully\",\"tgt_span\":\"온전히 헤아리는 듯한 미소였다\",\"description\":\"확정적 서술('그 미소는 온전히 이해했다')이 '헤아리는 듯한'이라는 추측성 표현으로 바뀌어 확실성이 달라짐\"},{\"id\":\"E002\",\"src_span\":\"this tribute\",\"tgt_span\":\"이런 훈장까지 수여하게 되었는지\",\"description\":\"'tribute'(헌사·경의 표시)가 '훈장 수여'로 구체화되고 '까지'가 덧붙어 대상과 뉘앙스가 달라짐\"},{\"id\":\"E003\",\"src_span\":\"the chain of national circumstances which had elicited this tribute\",\"tgt_span\":\"어떻게 이런 훈장까지 수여하게 되었는지, 그 국가적 상황의 흐름을\",\"description\":\"'헌사를 이끌어낸 일련의 국가적 사정'이 '어떻게 수여하게 되었는지'와 '그 국가적 상황의 흐름'으로 나뉘어 의미 관계가 약간 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 확실성이 단정에서 '~듯한'으로 약해졌고 tribute가 훈장으로 구체화되었으나, 미소가 국가적 사정을 이해했다는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'또한'이 앞 문장과의 병렬 관계를 유지하고 지시·초점 관계도 바뀌지 않았으며 which 관계절 연결도 남아 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물의 미소를 묘사하는 서술 → 인물의 미소를 묘사하는 서술로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 소설 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 본문의 서술체('~였다')와 약간 풍자적인 어조가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화·제도 고유 대상이 없습니다(국가 지칭은 지명에 해당). '훈장'이라는 단어 선택의 문제는 Semantic에서 다루었습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 912,
+    "output_tokens": 1002,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

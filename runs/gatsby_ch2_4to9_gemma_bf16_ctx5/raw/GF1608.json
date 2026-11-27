@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAHRz5cHELgctbSjGQC",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1608\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"He was his wife’s man and not his own.\",\"tgt_span\":\"그는 자기 주관 없이 아내에게 휘둘리는 사람이었다.\",\"description\":\"'아내의 사람이지 자기 자신의 사람이 아니다'라는 소유·귀속 관계의 관용 표현이 '주관 없이 휘둘리는 사람'이라는 성격·행동 묘사로 풀이되어 의미가 일부 달라지고 원문의 대조 구조가 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"아내에게 종속되어 자기 뜻대로 살지 못한다는 핵심 사태가 '주관 없이 아내에게 휘둘리는 사람'으로 같게 전달되어 의역이지만 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'his wife's … not his own'의 대조 구조가 '자기 주관 없이 아내에게'로 한국어에 맞게 재구성되었고 그 대조 관계가 남아 있습니다(판단 질문 2 아니오). 소유 관계의 지시 대상도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 성격 서술 → 인물 성격 서술. 설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자·청자 관계가 드러나는 서술이 아니라 3인칭 서술문이며 호칭·높임 평가 대상이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 783,
+    "output_tokens": 763,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

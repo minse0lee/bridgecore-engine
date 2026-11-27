@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9DK1eAw9P3fGi2SbER",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0130\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Mrs. Eberhardt\",\"tgt_span\":\"에버하르트 씨라는 분이야\",\"description\":\"Mrs.(기혼 여성 경칭)가 성별·혼인 여부가 드러나지 않는 '씨'로 옮겨짐. 여성 정보가 '분'으로 중립화됨\"},{\"id\":\"E002\",\"src_span\":\"looking at people’s feet\",\"tgt_span\":\"발을 봐주는\",\"description\":\"단순히 사람들의 발을 살펴본다는 서술이 '봐주는'(진료·관리해 주는) 서비스 행위로 바뀜. 다소 해석이 더해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'Mrs.'의 여성·기혼 정보가 '씨'로 약해지고, 'looking at'이 '봐주는'으로 돌봐주는 행위처럼 읽히게 되었으나, 에버하르트라는 인물이 집을 돌며 발을 본다는 핵심 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'She'를 '분'으로 이어받아 지시 대상이 유지되고 연결·초점 관계도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 인물 소개·설명 → 인물 소개·설명으로 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 청자의 관계가 문단 정보만으로 드러나지 않아 반말 '~야/~지'의 적절성을 판단하려면 대화 당사자의 관계 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Mrs.는 호칭 형식이고 인명이 중심이므로 문화 고유 제도 문제는 없으며, 변경된 제도나 단위도 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 519,
+    "output_tokens": 863,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

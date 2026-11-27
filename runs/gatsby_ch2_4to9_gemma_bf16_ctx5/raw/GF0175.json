@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9FBxJ5gs1AFNzp8v32",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0175\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Can’t they?\",\"tgt_span\":\"그래요?\",\"description\":\"'Can’t they?'(그들은 못 하나요?)라는 부가의문 형식의 되물음이 '그래요?'로 옮겨져 능력·가능(can)의 내용이 사라지고 직전 발화의 내용에 대한 일반적인 맞장구로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위·확실성): 'can't'가 나타내는 능력·가능 내용이 빠지고 '그래요?'라는 일반 되물음이 되었습니다. 다만 대화 맥락상 직전 발화에 대한 반응이라는 요지는 유지되고 원문 문단에 앞 발화가 없어 독자의 이해나 행동이 달라질 근거는 약해 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞 발화를 받아 되묻는 지시 관계는 '그래요?'로 유지되며, 대명사·연결·초점 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞 발화에 대한 되묻기·반응 → 앞 발화에 대한 되묻기·반응. 같은 종류의 기능입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 can은 의무·허가·금지를 정하는 규범 표현이 아니라 대화 속 능력·가능 되물음이므로 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-요' 체가 쓰였으나 화자와 청자의 관계를 알 수 없어 적절성을 판단할 수 없습니다. 화자와 청자의 관계 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 504,
+    "output_tokens": 825,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

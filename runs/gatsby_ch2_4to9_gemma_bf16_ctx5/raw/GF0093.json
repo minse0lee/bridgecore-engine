@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9BchiM45JT2SsMhdZA",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0093\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"if you don’t come up to the apartment\",\"tgt_span\":\"닉 씨가 아파트에 같이 안 올라가면\",\"description\":\"원문의 2인칭 you(닉)를 '닉 씨'라는 3인칭 호칭으로 옮기고 '씨'를 덧붙임. 문맥상 청자가 닉이므로 지시 대상은 같지만, 톰이 닉에게 직접 말하는 장면에서 3인칭 호칭과 '씨'가 쓰여 관계 표현이 달라짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"머틀이 서운해할 것이라는 조건·결과와 머틀에게 동의를 구하는 내용이 유지되며, 'you'는 문맥상 닉이므로 대상이 같습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'you'가 가리키는 닉이 '닉 씨'로 명시되어 지시 대상이 유지되고, 조건 연결도 '-면'으로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"닉을 설득하고 머틀에게 동의를 구하는 발화 → 동일한 설득과 동의 구하기 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없고, 머틀의 감정을 예측하는 설득 발화입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2: 톰이 닉에게 직접 반말로 말하는 친밀한 상황에서 닉을 3인칭 '닉 씨'로 부르며 높임 호칭을 덧붙여, 원문에 없는 거리감이 생기고 앞 문장의 반말 어조와도 어긋납니다. 다만 내용과 행동 이해에는 영향이 없어 minor입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명만 있을 뿐 별도로 판정할 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 592,
+    "output_tokens": 869,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

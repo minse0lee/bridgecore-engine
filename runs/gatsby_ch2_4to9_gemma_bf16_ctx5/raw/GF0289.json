@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9LFnsFaQai6K2dt1gC",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0289\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"anyhow\",\"tgt_span\":\"솔직히 말해서\",\"description\":\"'어쨌든/도대체'의 화제 전환·강조 표지가 '솔직히 말해서'라는 솔직함 표지로 바뀌어 약간의 뉘앙스 변화가 생김\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"그가 갑자기 상대에게 자신에 대한 의견을 묻는 핵심 내용이 유지됩니다. anyhow가 '솔직히 말해서'로 바뀐 것은 부가어 뉘앙스 차이이고 인물·행위·수량·부정·조건·확실성이 바뀌지 않았습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사·연결 관계가 유지되며 초점 표현(only, even 등)의 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대의 평가를 묻는 질문 → 상대의 평가를 묻는 질문. 의문 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화 속 질문입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'이보세요'와 '~나요' 높임이 두 인물의 관계에 맞는지 판단하려면 Gatsby와 화자(Nick)의 관계와 격식 수준에 대한 정보가 필요합니다. 'old sport'의 친근한 태도가 '친구'로 유지되는지도 관계 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"제도·단위·관습 등 문화 고유 대상이 없습니다. 호칭 'old sport'는 Register에서 다루는 영역입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 572,
+    "output_tokens": 772,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

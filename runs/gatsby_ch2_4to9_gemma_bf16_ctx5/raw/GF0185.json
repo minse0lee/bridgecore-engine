@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9FdwVCjwLWFBXM37mQ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0185\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Daisy was not a Catholic, and I was a little shocked\",\"tgt_span\":\"데이지는 가톨릭 신자가 아니었기에, 나는 … 조금 놀랐다\",\"description\":\"원문의 병렬 연결 'and'가 인과를 나타내는 '-기에'로 바뀌어, 데이지가 가톨릭이 아니라는 사실이 화자가 놀란 원인으로 읽힘. 원문에서는 거짓말(결혼식 전 가톨릭 의식 언급)의 정교함이 놀란 대상.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"데이지가 가톨릭이 아님, 화자가 거짓말의 정교함에 조금 놀람 등 인물·행위·정도가 모두 유지됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(연결 관계): 병렬적 덧붙임의 'and'가 인과 '-기에'로 바뀌어 연결 관계가 달라졌습니다. 핵심 사실은 유지되어 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 반응 서술 → 서술자의 반응 서술. 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 소설 서술체 '-았다'가 유지되며 관계·태도 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Catholic'이 '가톨릭 신자'로 통용 표기에 맞게 옮겨져 같은 대상을 가리킵니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 547,
+    "output_tokens": 756,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

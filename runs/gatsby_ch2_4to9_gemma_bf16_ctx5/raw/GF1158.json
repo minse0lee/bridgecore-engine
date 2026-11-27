@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9xsGpEMwcTRuyu9U7K",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1158\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"muffled\",\"tgt_span\":\"뭉툭하며\",\"description\":\"목소리가 먹먹하게 잘 안 들리는 상태(muffled)를 '뭉툭하다'로 옮겨 소리의 특성이 달라짐. 다만 목소리 묘사 형용사 범위 내의 변화임.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"동시에, 복도 전화기, 그의 목소리를 들었다는 핵심 사태가 유지되고, 목소리 묘사 형용사 세 개도 모두 대응합니다. 'muffled'→'뭉툭하며'는 어색한 어휘 선택이나 목소리를 묘사하는 범위 안의 차이라 훼손으로 보지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그의 목소리'의 지시 관계가 유지되고, 문장 분할 후에도 뒤 문장이 앞 목소리를 묘사하는 관계가 남아 있습니다. 시간 연결 'Simultaneously'도 '그와 동시에'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 소설 속 상황을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"출판물의 서술체 '-였다/-왔다'가 유지되고 화자·청자 관계에 따른 높임 문제는 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 564,
+    "output_tokens": 749,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

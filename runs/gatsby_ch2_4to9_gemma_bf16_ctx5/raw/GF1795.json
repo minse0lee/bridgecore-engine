@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTARNVx7NxZKHLtqCfVE",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1795\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"romances that were not musty and laid away already in lavender but fresh and breathing\",\"tgt_span\":\"로맨스는 곰팡내 나는 라벤더 향 속에 갇혀 오래된 유물이 아니라\",\"description\":\"'곰팡내 나는 라벤더 향 속에 갇혀 오래된 유물이 아니라'로 옮겨, 이미 라벤더 속에 치워져 보관된(laid away in lavender) 낡은 것이 아니라는 부정 대상이 '유물'이라는 새 명사로 바뀜. 다만 핵심 대비(낡음 vs 생생함)는 유지됨.\"},{\"id\":\"E002\",\"src_span\":\"redolent of this year’s shining motorcars and of dances whose flowers were scarcely withered\",\"tgt_span\":\"올해의 반짝이는 자동차들과 꽃이 채 시들지 않은 무도회처럼 생생하게 살아 숨 쉬며 향기를 풍기고 있었다\",\"description\":\"로맨스가 올해의 자동차와 무도회의 향기를 풍긴다는 내용이 '자동차들과 무도회처럼 생생하게'로 바뀌어, 향이 나는 대상(of)이 비교 대상(처럼)으로 바뀜.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 로맨스가 올해의 자동차·무도회의 기운을 풍긴다는 내용이 '무도회처럼 생생하게'라는 비교로 바뀌고 '유물'이 첨가되었으나, 신선하고 생생한 로맨스라는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계는 유지되며, 'of'의 병렬 구조가 '~와 ~처럼'으로 바뀐 것은 내용 변화로 Semantic에서만 판정합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"집의 분위기 묘사 → 집의 분위기 묘사. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 소설의 묘사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 문어체 평서 어조가 유지되며 관계나 태도 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1757,
+    "output_tokens": 1020,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

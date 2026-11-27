@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT98TpqjCvDQfw5CRTg4",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0021\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"approached by a trail of ashes\",\"tgt_span\":\"재가 날리는 길 끝에 있는\",\"description\":\"재가 흩어져 난 길(자취)로 접근한다는 내용이 '재가 날리는 길 끝'으로 바뀌어 접근 경로가 아니라 길의 끝 위치로 읽힘. 다만 재로 덮인 길 옆의 식당이라는 요지는 유지됨.\"},{\"id\":\"E002\",\"src_span\":\"—Repairs.\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"간판 문구 'Repairs'(수리)가 평가대상 번역문에서 빠짐. 다만 '정비소'라는 말로 수리 업종은 전달되고, 이후 간판 문구가 문단 번역에 이어짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'approached by a trail of ashes'가 '재가 날리는 길 끝에 있는'으로 바뀌어 접근 경로가 위치 서술로 달라졌고, 간판의 'Repairs'가 빠졌습니다. 그래도 세 상점의 구성과 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"One of…, another…, the third…의 열거 구조가 '하나는…, 또 다른 하나는…, 세 번째는'으로 유지되고 지시 관계와 초점도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장소 묘사 서술 → 장소 묘사 서술. 황무지 가장자리 상점들을 설명하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 장소를 묘사하는 문장으로 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 담담한 문체가 '~였다' 평서체로 유지되며 화자와 청자 관계에 드러나는 격식 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 998,
+    "output_tokens": 925,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

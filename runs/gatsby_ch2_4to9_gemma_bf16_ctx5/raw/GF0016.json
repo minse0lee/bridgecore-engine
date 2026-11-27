@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT98EMi2LxgnPsdwUuM1",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0016\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I want you to meet my girl\",\"tgt_span\":\"내 여자 좀 소개해 주고 싶거든\",\"description\":\"'너'(청자)가 내 여자를 만나기를 바란다는 구조에서 '(내가) 소개해 주고 싶다'로 바뀌어 청자가 만나는 행위가 사라지고 소개하는 화자의 행위가 부각됨. 다만 같은 사태를 기술하는 자연스러운 한국어 표현일 수 있어 오류로 보기 어려움.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'내 여자를 소개해 주고 싶다'는 화자가 청자에게 여자친구를 만나게 하고 싶다는 같은 사태를 나타내며, 행위자·대상·소망이 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞 문장 '내릴 거야'에 대한 이유를 '-거든'으로 이어 인과 연결이 유지되며 지시·초점 관계 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"하차를 고집하는 이유 설명(바람 표명) → 바람 표명으로 같은 종류의 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"개인적 바람을 말하는 대화문으로 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"동행자에게 반말로 말하는 친근한 대화 상황에 '-거든' 반말체가 어울리며 '내 여자'도 원문 'my girl'의 투와 부합합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 474,
+    "output_tokens": 778,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

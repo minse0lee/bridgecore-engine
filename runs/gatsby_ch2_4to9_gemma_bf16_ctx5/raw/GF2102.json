@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAeFzPfFix6DeNrGM5v",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF2102\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"He rose up to his position in the East.\",\"tgt_span\":\"동부에서 자수성가해서 그 자리까지 올라갔지요.\",\"description\":\"'자수성가'가 원문에 없는 정보로 첨가됨. 원문은 동부에서 지위에 올랐다는 것만 말하고 스스로 일으켰다는 함의는 없음\"},{\"id\":\"E002\",\"src_span\":\"Mr.—?\",\"tgt_span\":\"○○ 씨—?\",\"description\":\"이름을 알지 못해 말을 멈춘 미완성 호칭이 '○○'라는 자리표시자로 바뀜. 호칭 형식과 미완의 기능은 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: '자수성가'는 원문에 없는 내용의 첨가로, 지위에 오른 경위가 달라졌으나 핵심 사실(동부에서 지위에 오름)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사·연결·초점 관계가 유지되며 지시 대상이 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"아버지의 회상·서술과 친구 여부를 묻는 질문 → 회상·서술과 질문. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"노년의 아버지가 낯선 조문객에게 정중하게 말하는 관계에 '~답니다/~지요/씨' 체가 어울립니다. 친구 여부를 묻는 '~였나요'도 무리가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"East는 지명성 표현으로 제도·단위 등 판정할 문화 고유 대상이 없습니다. 'Mr.'를 '씨'로 옮긴 것은 통용 대응입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 614,
+    "output_tokens": 853,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

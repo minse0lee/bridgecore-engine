@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9CrPFrMYNRicepKWPj",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0120\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"He had just shaved, for there was a white spot of lather\",\"tgt_span\":\"광대뼈에 하얀 면도 거품이 묻어 있는 것으로 보아 방금 면도를 한 모양이었는데\",\"description\":\"화자가 거품을 보고 방금 면도했다고 추론하는 구조는 유지되나, 확정적 서술(He had just shaved)이 '모양이었는데'라는 추측 표현으로 바뀌어 확실성이 약간 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): 원문은 'He had just shaved'라고 단정하는데 번역은 '한 모양이었는데'라는 추측으로 바뀌었으나, 면도 직후라는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"for의 근거 관계가 '~로 보아'로 유지되고 '그는'의 지시 대상도 맥키 씨로 같으며, 접속 관계와 초점 표현에 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 묘사 서술 → 인물 묘사 서술. 발화 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무 표현이 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 '~였다/건넸다'(문맥상 번역문) 수준의 평서 서술이 유지되고 정중한 인사라는 태도도 '매우 정중하게'로 보존됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1018,
+    "output_tokens": 763,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

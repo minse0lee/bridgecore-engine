@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTA2QNvAddMK7qugqvjM",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1247\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Like this?\",\"tgt_span\":\"이런 분위기에서요?\",\"description\":\"'Like this'(이런 식으로)가 '이런 분위기에서'로 옮겨져 약간 구체화·해석이 더해졌으나 핵심 의미는 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Like this'를 '이런 분위기에서'로 옮겼지만 같은 사태(이런 식으로 갑자기 가는 것)를 가리키며, 담배 한 대와 first(먼저)의 취지도 '피울 시간도 안 주시는 거예요'로 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Like this'가 앞선 'go'를 받는 관계와 first가 나타내는 '가기 전에'라는 시간 순서가 '시간도 안 주시는'에 남아 있어 질문 1·2·3 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"항의하는 수사의문 → 항의하는 수사의문. 번역문도 반문 형태로 불만 제기 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없고 대화 속 불만 표현입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-요' 해요체로 화자의 불만스러운 태도가 유지되며, 관계 정보상 부적절한 높임이라고 볼 근거가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"담배 한 대는 일반 어휘이며 별도로 판정할 문화 고유의 제도·단위·관습 표현이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 550,
+    "output_tokens": 745,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

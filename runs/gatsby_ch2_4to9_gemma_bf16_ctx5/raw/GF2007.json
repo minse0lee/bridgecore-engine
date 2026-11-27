@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAaKB2dg1ML69GGrfNC",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF2007\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"was the first thing that alarmed anyone\",\"tgt_span\":\"사람들은 처음으로 경계심을 가졌다\",\"description\":\"'누군가를 불안하게 한 첫 번째 일'이 '사람들이 처음으로 경계심을 가졌다'로 바뀌어 alarmed(놀라고 불안해짐)가 '경계심'으로 옮겨지고, 첫 번째 사건이라는 서술이 시점 서술로 바뀜. 다만 사태는 대체로 동일하게 읽힘.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"차를 몰고 곧장 간 일, 불안하게 계단을 뛰어오른 일, 그것이 처음으로 사람들을 놀라게 한 일이라는 내용이 유지되며 '경계심'은 alarm의 정도·표현 차이 수준입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'my rushing…'이 '내가 … 올라가는 모습에'로 옮겨져 원인-반응 관계가 유지되고 first의 초점도 '처음으로'로 남아 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 회상 서술 → 회상 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 1인칭 서술의 평서체 '-었다'가 유지되며 관계·호칭 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명만 있고 별도로 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 897,
+    "output_tokens": 752,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

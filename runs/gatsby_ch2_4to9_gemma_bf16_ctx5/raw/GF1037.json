@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9sbzAuQGp2DVxp69fQ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1037\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Some big bootlegger'가 '큰 밀주업자'로 옮겨져 대상과 추측 내용이 유지됩니다. '-라도 되나?'는 추측 질문의 어조로 확실성도 단정으로 바뀌지 않았습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 표현이나 연결, 초점 표현의 관계가 바뀌지 않았고, 앞 질문에서 이어지는 개츠비에 대한 추측이라는 관계도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개츠비의 정체를 떠보며 의심하는 추측성 질문 → 같은 추측성 질문. 어떤 의도를 가진 질문이라는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화 속 추측 질문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 혼잣말처럼 던지는 거친 반말 의문이 '-되나?'의 반말로 유지되어 화자의 태도가 맞게 전달됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"bootlegger를 '밀주업자'로 옮겨 금주법 시대의 불법 주류 거래업자라는 같은 대상을 가리키며, 한국어 독자도 그 의미를 이해할 수 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 499,
+    "output_tokens": 661,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

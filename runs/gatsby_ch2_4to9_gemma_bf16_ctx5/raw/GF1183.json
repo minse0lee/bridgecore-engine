@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9yqtkT8jM5cNEUWSgQ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1183\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Stand up now, and say—How-de-do.\",\"tgt_span\":\"자, 이제 일어나서 인사해야지.\",\"description\":\"명령형 지시가 '인사해야지'라는 당위 서술로 바뀜(발화 기능은 아이에게 행동을 이끄는 말로 유지, 규범 강도는 일상적 대응 수준)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"아이를 달래는 호칭, 파우더가 머리에 묻었는지 묻는 내용, 일어서서 인사하라는 내용이 모두 유지됩니다. 'old yellowy hair'의 애칭적 표현은 '노란 머리'로 옮겨져 사태는 같습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'now'가 '자, 이제'로, 'and say'가 '일어나서 … 인사해야지. 안녕하세요, 하고'로 연결되어 순서 관계와 지시 대상이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"아이에게 애정 어린 말을 건네고 인사를 시키는 발화 → 같은 기능 유지. 명령형이 '-해야지'로 바뀌었어도 행동을 이끄는 같은 종류의 기능입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"아이를 달래며 인사를 시키는 일상 대화로, 규범·의무를 정하는 문장이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"어른이 아이에게 하는 말이므로 반말·애칭이 적절하고, 아기에게 말하듯 하는 유아어적 친밀한 태도가 '내 강아지', '우리 아기', '-니'로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 608,
+    "output_tokens": 810,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

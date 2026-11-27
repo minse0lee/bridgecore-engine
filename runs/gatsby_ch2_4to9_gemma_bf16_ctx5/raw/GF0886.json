@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9mLJvddDRNUai66ppf",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0886\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"he had probably discovered that people liked him when he smiled\",\"tgt_span\":\"아마도 웃을 때 사람들이 자신을 좋아한다는 사실을 이미 깨달았을 테니까\",\"description\":\"'사람들이 좋아했다는 것을 아마 알아냈을 것'이라는 추측이 '좋아한다는 사실'을 깨달았다는 서술로 바뀌어 '사실'로 단정되고, 'probably'는 '아마도'로 문두에 옮겨졌으나 'liked'(과거)가 현재형으로 바뀜. 확실성 변화는 미미하며 핵심 사실은 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"미소를 지었다는 추측과 웃으면 사람들이 좋아한다는 것을 깨달았다는 추측이 모두 유지됩니다. '아마도'와 '-ㄹ 테니까'로 확실성도 보존되어 있고, 시제 차이는 의미를 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대시로 이어진 앞 문장의 추측 근거 관계가 '-ㄹ 테니까'로 유지되고, he·him·자신의 지시 대상도 같습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 추측 제시 → 서술자의 추측 제시. 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체의 평서 어조가 유지되며 관계상 문제되는 높임·호칭이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없고 인명만 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1001,
+    "output_tokens": 808,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAfnCcDZYfq6S2iJzdF",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF2139\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"him\",\"tgt_span\":\"가신 분\",\"description\":\"'him'(Gatsby 등 특정 남성)을 높임 표현 '가신 분'으로 옮겨, 화자가 대상에게 갖는 관계·태도에 대한 판단이 필요한 차이가 생김\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"시카고에서 그를 데려올 수 없다는 내용과 부정·행위·대상이 유지됩니다. '어떻게 …하겠어요'는 불가능을 뜻하는 수사의문으로 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'him'이 '가신 분'으로 대응되어 지시 대상이 유지되고, 연결·초점 관계의 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대답을 바라지 않는 부정 확인 수사의문(불가능 항변) → 불가능을 말하는 수사의문. 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"can't는 능력·가능성의 뜻이고 의무·허가·금지를 정하는 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'가신 분'과 '-어요' 높임이 화자와 청자, 그리고 'him'으로 지칭되는 인물 사이의 관계에 맞는지 판단하려면 이 대사의 화자·청자와 지칭 대상이 누구인지 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"시카고는 지명뿐이고 별도로 판정할 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 571,
+    "output_tokens": 748,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

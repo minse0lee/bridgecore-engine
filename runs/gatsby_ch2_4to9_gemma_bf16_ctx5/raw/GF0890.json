@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9mYTAgdmoybkcycXti",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0890\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"in a vague personal capacity\",\"tgt_span\":\"모호한 개인 비서 격으로\",\"description\":\"막연한 '개인적 직무'가 '개인 비서 격'으로 구체화되어, 뒤에 나열되는 비서(secretary) 역할과 중복되고 직무의 모호함이 달라짐\"},{\"id\":\"E002\",\"src_span\":\"steward, mate, skipper, secretary, and even jailor\",\"tgt_span\":\"집사로, 때로는 일등 항해사와 선장, 비서, 심지어 간수 역할까지\",\"description\":\"in turn(차례로)이 '때로는'으로 옮겨졌으며, mate가 '일등 항해사'로 구체화됨. 역할의 순차 교대 뉘앙스가 약해졌으나 핵심 내용은 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: '모호한 개인적 직무'가 '개인 비서 격'이라는 구체적 직책으로 바뀌어 달라졌으나, 핵심 사실(고용 및 여러 역할 수행, 신뢰를 통한 대비)은 유지되어 요지와 독자의 행동에는 영향이 작습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'맨정신인 코디…잘 알고 있었기에 … 대비한 것이다'의 인과 연결과 지시 관계가 유지되며 초점 표현의 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 설명 → 서술 설명. 인물의 역할과 배경을 설명하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 소설 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 평서체 문체가 유지되며 화자·청자 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 문화·제도 고유 대상이 없습니다. 선박 직책은 일반 어휘로 옮겨져 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1172,
+    "output_tokens": 897,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

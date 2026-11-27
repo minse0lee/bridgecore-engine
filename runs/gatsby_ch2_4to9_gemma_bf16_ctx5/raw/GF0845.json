@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9jSShxRuc5Lmuo7f2S",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0845\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"every bright feather that drifted his way\",\"tgt_span\":\"눈에 띄는 화려한 것들이 보일 때마다 그것을 가져다\",\"description\":\"'bright feather'(밝은 깃털)의 비유가 '화려한 것들'로 일반화되었고, 우연히 자기 쪽으로 흘러온 것을 장식에 쓴다는 내용이 '보일 때마다 가져다'라는 능동적 수집으로 바뀜. 다만 핵심 행위(환상을 꾸밈)는 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'bright feather'가 '화려한 것들'로 바뀌어 구체적 이미지가 사라졌고, '흘러온(drifted his way)' 우연성이 '보일 때마다 가져다'라는 능동적 수집으로 달라졌습니다. 그러나 환상에 몰두해 계속 덧붙이고 장식했다는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그는…그 환상'의 지시 관계와 병렬된 행위들의 연결이 유지되며, 초점·범위 표현의 이동도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(인물의 행동 묘사) → 서술. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 과거 행위 서술로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"출판물 본문의 서술체 '-했다'가 유지되며 화자·독자 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화 고유의 제도·관습·단위 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1088,
+    "output_tokens": 797,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9eLrTyhkcPsiCK19Xj",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0723\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I felt sure he wouldn’t eat a spoonful\",\"tgt_span\":\"정작 개츠비 본인은 한 숟가락도 먹지 않을 것 같다는 확신이 들었다\",\"description\":\"'정작 … 본인은'이 더해져 하인들의 식사와 대비되는 뉘앙스가 생겼으나 핵심 내용은 유지됨(의미를 바꾸지 않는 차이)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"30분 후 해가 뜸, 식료품점 차가 하인들의 저녁 재료를 싣고 진입로로 들어옴, 개츠비가 한 숟가락도 먹지 않을 것이라는 확신 모두 유지됩니다. '정작 본인은'은 의미를 바꾸지 않는 보충입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'he'가 개츠비를 가리키는 지시 관계와 앞 사건에 이어지는 시간·덧붙임 연결이 유지됩니다. '정작'은 초점을 다른 대상으로 옮기지 않습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 상황 묘사와 심리 진술 → 서술 묘사와 심리 진술. 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 문장으로 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술자의 담담한 서술체가 '~다' 문어체로 유지되며 관계상 어긋남이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 제도·단위·관습 등 문화 고유 대상이 없습니다. 30분은 통상적 시간 표현입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1112,
+    "output_tokens": 785,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

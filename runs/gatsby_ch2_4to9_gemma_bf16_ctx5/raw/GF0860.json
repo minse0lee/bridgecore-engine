@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9k6Tx6vUbYu2PWY3S4",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0860\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"underground pipeline to Canada\",\"tgt_span\":\"비밀 지하 통로\",\"description\":\"'pipeline'(송유관·파이프라인)이 '통로'로 바뀌고 '비밀'이 더해졌으나, 지하의 은밀한 연결로 읽히는 점은 같아 핵심 의미는 유지됨\"},{\"id\":\"E002\",\"src_span\":\"was moved secretly up and down the Long Island shore\",\"tgt_span\":\"몰래 이동한다\",\"description\":\"배가 (누군가에 의해) 옮겨진다는 수동 표현이 '그가 살며 이동한다'로 바뀌어 이동 주체가 배에서 개츠비로 읽힘. 다만 배에 산다는 전제상 함께 이동하는 것으로 읽혀 사태는 크게 다르지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"전설들이 그에게 붙었고, 집이 아닌 집처럼 생긴 배에서 살며 해안을 따라 몰래 이동한다는 끈질긴 소문이라는 내용이 유지됩니다. 'pipeline'→'통로'와 수동→능동 변화는 같은 사태를 기술하며 지시 대상이나 행위 내용이 달라지지 않았습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'such as'의 예시 관계는 '같은'으로, 'one persistent story that'의 소문 내용 연결은 '~다는 소문'으로 유지됩니다. 'not in a house at all, but in a boat'의 대조는 '집이 아니라 배에'로 남고 'attached to him'의 지시 대상도 '그에게'로 같습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개츠비를 둘러싼 소문 서술 → 소문 서술. 서술 기능이 그대로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 소문을 서술하는 문장으로 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"출판물 본문의 서술체 평서문이 '~돌았다'로 유지되며 특정 청자와의 관계나 태도 표현이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"캐나다, 롱아일랜드는 지명이고 이 문장에 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1088,
+    "output_tokens": 1006,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

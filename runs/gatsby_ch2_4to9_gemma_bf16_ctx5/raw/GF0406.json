@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9RHMWey82b78csPDa3",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0406\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I think that\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"화자의 추측 표지 'I think that'이 번역에서 빠져 추측이 단정적 서술로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"except for my presence\",\"tgt_span\":\"내가 없었더라면\",\"description\":\"'내가 있었기 때문에 하지 않았다'는 의미의 '내 존재 때문에 제외'가 '내가 없었더라면'으로 옮겨졌으나 반사실 구조상 의미는 유지됨\"},{\"id\":\"E003\",\"src_span\":\"one short glance beneath our own table\",\"tgt_span\":\"우리가 앉은 테이블 아래까지 힐끗 훔쳐보았을 것이다\",\"description\":\"'한 번 짧게 흘끗 봄'이 '훔쳐보다'로 바뀌어 몰래 본다는 뉘앙스가 더해지고, '까지'가 더해져 범위 확장 의미가 첨가됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E003\"],\"reason\":\"판단 질문 1(확실성): 'I think that' 누락으로 화자의 추측이 단정으로 바뀌었고, '훔쳐보다'로 행위 성격이 약간 달라졌으나 핵심 사실(테이블 아래를 흘끗 봤을 것)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 3(초점·범위): '테이블 아래까지'의 '까지'가 앞 문장의 방 전체 훑기에 이어 범위를 확장하는 초점 표지로 새로 붙었으나, 원문에는 even 같은 표현이 없고 원문 흐름과도 크게 어긋나지 않아 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 추측 서술 → 추측 서술. 인물의 행동을 설명하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 소설 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 '~았을 것이다'로 서술자의 어조가 유지되며 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 797,
+    "output_tokens": 1000,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

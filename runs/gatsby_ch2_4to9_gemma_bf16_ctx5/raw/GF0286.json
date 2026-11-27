@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9L7zZSvTg9557Ydvpc",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0286\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the proprietor of an elaborate roadhouse next door\",\"tgt_span\":\"옆집에 화려한 저택을 가진 주인\",\"description\":\"roadhouse(길가 술집·여관 같은 유흥업소)가 '저택'으로 바뀌어 업소 주인이 개인 저택 소유자로 읽힘\"},{\"id\":\"E002\",\"src_span\":\"a person of some undefined consequence\",\"tgt_span\":\"정체를 알 수 없는 대단한 인물일 것\",\"description\":\"'어떤 막연한 중요성을 지닌 사람'이 '정체를 알 수 없는 대단한 인물'로 바뀌고, 확신을 나타내는 과거 인상이 '~일 것'이라는 추측으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: roadhouse(영업장)가 '저택'으로 바뀌어 그의 정체가 업소 주인에서 저택 소유자로 달라졌고, '막연한 중요성'은 '대단한 인물'로 다소 바뀌었습니다. 번역문만 읽으면 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"So의 인과 연결이 '그래서'로 유지되고, 첫인상과 he의 지시 관계, simply의 초점('그저 ~일 뿐')도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(화자의 인상 변화 설명) → 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술자의 평서체 서술이 '~었다'체로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: roadhouse는 1920년대 미국의 길가 술집·여관 등 특정 유형의 업소인데 '저택'이라는 일반 어휘로 옮겨져 그 문화적 대상이 전달되지 않습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 742,
+    "output_tokens": 895,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

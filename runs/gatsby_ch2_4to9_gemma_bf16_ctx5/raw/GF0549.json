@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9X6aYBVc2fxkPHoB5W",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0549\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Daisy\",\"tgt_span\":\"데이지 양\",\"description\":\"원문에 없는 호칭 '양'이 덧붙음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개츠비가 알고 싶어 하는 내용, 데이지 초대, 어느 날 오후, 자신이 들르게 해 달라는 요청이 모두 유지됩니다. '양'은 내용 변화가 아닙니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그분'은 원문의 he와 같은 대상을 가리키고, '초대하고 그때 들르게 해 줄 수 있는지'는 and then의 순서 관계를 유지합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"간접 의문 형식의 부탁 전달 → 간접 의문 형식의 부탁 전달. 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 아니라 부탁을 전하는 대화문입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(호칭): 원문에 없는 '양'을 덧붙여 조던이 데이지를 부르는 호칭 관계가 바뀌었습니다. 다만 '그분'과 '해 줄 수 있는지 말이야'의 반말 사용은 조던과 닉의 친한 관계에 맞아 문제 삼지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명만 있고 별도로 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 636,
+    "output_tokens": 720,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

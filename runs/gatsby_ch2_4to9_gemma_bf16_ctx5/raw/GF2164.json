@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAgohgEJuJbtJaktze7",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF2164\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“I’d like to come.”\",\"tgt_span\":\"“가고 싶군요.”\",\"description\":\"come(화자 쪽으로/장소에 '오다·참석하다')이 '가다'로 바뀌어 이동 방향이 달라지고, '-군요' 감탄형 어미로 화자의 발화 태도가 새로 더해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"가고 싶다는 소망의 주체·행위가 유지됩니다. come을 '가다'로 옮긴 것은 한국어에서 통상적인 대응이며 내용이 달라졌다고 보기 어렵습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 표현, 연결 관계, 초점 표현이 없는 짧은 문장이며 관련 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"참석 의사 표현 → 참석 의사 표현. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"개인적 바람을 말하는 대화로 의무·허가·금지 같은 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-군요'는 존대 어미이므로 화자와 청자의 관계에 맞는지 판단하려면 대화 장면의 화자(닉)와 청자(개츠비)의 관계·격식 정보가 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 410,
+    "output_tokens": 695,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

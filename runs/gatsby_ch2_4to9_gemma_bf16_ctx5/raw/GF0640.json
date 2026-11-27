@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9avVvHCRy4eCDUaYhg",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0640\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"in the shape of—of tea\",\"tgt_span\":\"차 준비하는 데 필요한 건\",\"description\":\"말을 더듬는 중단(—of)이 사라지고 'in the shape of'가 '차 준비'로 의역됨. 대상은 차로 유지되어 의미 변화는 없음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"신문 보도, 비가 4시쯤 그친다는 예상, 저널지라는 추측, 차에 필요한 것을 다 갖췄는지 묻는 내용이 모두 유지됩니다. 'in the shape of'를 '차 준비'로 옮긴 것은 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'it'이 가리키는 신문, 'they thought'의 추측 관계, 문장 간 연결이 유지되어 지시·연결·초점이 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"어색한 화제 전환 후 차 준비를 확인하는 질문 → 같은 질문 기능. 의문 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"정중하고 어색한 화자의 말투가 '-더군요', '-셨나요' 존댓말로 유지되어 관계에 맞습니다. 더듬는 어색함이 줄어든 것은 어색함의 문제일 뿐 관계나 태도 변화는 아닙니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"The Journal을 '저널지'로 옮겨 신문 이름임이 전달되며, 차 문화 관련 제도적 의미도 바뀌지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 659,
+    "output_tokens": 781,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT981pA2KonovZkdr3dN",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0011\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"was insisted upon wherever he was known\",\"tgt_span\":\"그를 아는 사람들이라면 어디서든 입을 모아 말하는 일이었다\",\"description\":\"'one'(mistress)의 존재가 알려진 곳 어디서나 강조·주장되었다는 내용을, '아는 사람들이 입을 모아 말하는 일'로 옮김. 행위 주체(사람들)가 명시되고 '입을 모아'가 더해졌으나 핵심 사태(어디서나 그 사실이 강조됨)는 유지되어 의미를 바꾸지 않음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'정부가 있다는 사실'이 그를 아는 곳 어디서나 강조되었다는 내용이 유지됩니다. 암시된 행위자(사람들)를 드러낸 것은 같은 사태를 기술하는 표현 방식 차이입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'one'이 mistress를 가리키는 것을 '정부'로 명확히 옮겼고, 'wherever he was known'의 범위도 '그를 아는 사람들이라면 어디서든'으로 유지됩니다. 지시·연결·초점이 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 설명 → 서술 설명. 정부의 존재가 널리 알려졌음을 전하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범적 의무·허가·금지 의미가 없는 소설 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문의 평서체('~였다')가 유지되며 인물 간 호칭·관계 표현이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 919,
+    "output_tokens": 818,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

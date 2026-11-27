@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAikzWjBx2QEsSiL1Mf",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF2209\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"It just shows you, don’t it?\",\"tgt_span\":\"그냥 딱 보여주지 않나, 안 그래?\",\"description\":\"'It just shows you'는 '그것 참 많은 걸 알려주지/세상 이치를 보여주지'라는 관용적 동의 구하기 표현인데, 목적어 없이 '보여주지 않나'로 직역되어 무엇을 보여준다는 것인지 불분명해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 관용적으로 '(인생사 등을) 깨닫게 해준다'는 의미가 '그냥 딱 보여준다'로 직역되어 내용이 불분명해졌으나, 상대의 동의를 구하는 요지는 대체로 남아 독자의 행동 이해에는 영향이 없어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계는 'it'이 앞의 상황을 가리키는 정도로 유지되며 질문 1·2·3 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"동의를 구하는 부가의문 → 동의를 구하는 '안 그래?' 부가의문으로 같은 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 노인의 감탄성 발화로 의무·허가·금지 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"노인이 청자에게 하는 구어체 말투가 '~나, 안 그래?'로 어울리게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 485,
+    "output_tokens": 765,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

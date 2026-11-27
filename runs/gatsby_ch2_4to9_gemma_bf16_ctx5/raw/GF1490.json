@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTACRe6N1hbjgr6SfDxS",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1490\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"all that time, old sport, and you didn’t know\",\"tgt_span\":\"그 시간 동안 우린 서로 사랑했죠, 친구. 당신은 전혀 모르셨겠지만요.\",\"description\":\"'you didn't know'가 사실 진술에서 추측·양보의 '모르셨겠지만요'로 바뀌어 확실성이 약해짐. 'all that time'의 '내내'(전 기간) 뉘앙스도 '그 시간 동안'으로 다소 약해짐.\"},{\"id\":\"E002\",\"src_span\":\"old sport\",\"tgt_span\":\"친구\",\"description\":\"개츠비의 말버릇 'old sport'가 일반 호칭 '친구'로 바뀜(통상적 대응 범위로 볼 수 있어 경미).\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): 'you didn't know'라는 사실이 '모르셨겠지만요'라는 추측·양보 어조로 달라졌으나 핵심 사실(서로 사랑했으나 상대가 몰랐음)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 관계, '하지만'의 대조 연결, 초점 표현이 유지되며 삽입절 'but there was no laughter in his eyes'와 인용의 이어짐도 '하지만 그의 눈에는…'으로 대조가 남아 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"고백·회상하는 서술/대화 → 고백·회상하는 서술/대화. 웃음 뒤의 씁쓸함을 보여주는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없습니다('couldn't meet'은 능력·상황상 불가능을 나타냄).\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개츠비가 데이지에게 정중하게 말하는 관계에 맞는 '-습니다/-죠' 체가 유지되고, 'old sport' 호칭은 '친구'로 친근함을 전달합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정할 대상이 없으며 'old sport'는 호칭 표현일 뿐입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 815,
+    "output_tokens": 964,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

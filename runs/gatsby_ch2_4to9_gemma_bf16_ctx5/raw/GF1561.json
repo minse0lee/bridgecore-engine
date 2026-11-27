@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAFQoaG76vU7Wm9i8fY",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1561\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"left him in the lurch\",\"tgt_span\":\"그를 곤경에 빠뜨려 버렸지\",\"description\":\"'곤경에 처한 그를 버려두고 떠났다'는 방치·저버림이 '곤경에 빠뜨렸다'는 가해 행위로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위): '곤경에 처한 그를 저버렸다'는 행위가 '곤경에 빠뜨렸다'는 다른 행위로 바뀌어 누가 무엇을 했는지가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그러고는', '안 그래?', '-잖아'로 연결과 지시 관계가 유지되며 초점 표현의 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대를 비난하며 따지는 발화 → 상대를 비난하며 따지는 발화. 부가의문문과 감탄도 같은 기능으로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'ought to hear'는 월터의 말을 들어 보라는 권유 표현으로, 규범적 의무·허가·금지를 정하지 않으므로 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"반말 사용 여부는 화자와 청자의 관계 정보가 없어 판단하기 어렵습니다. 필요한 정보: 화자와 청자의 관계와 말투의 격식 수준.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴저지는 지명일 뿐이며 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 799,
+    "output_tokens": 756,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9aDpwQSFSi3LXEGCfw",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0624\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Don’t bring Tom\",\"tgt_span\":\"톰 씨는 데려오지 마세요\",\"description\":\"원문에 없는 호칭 '씨'를 덧붙이고 높임 종결어미를 써서, 닉(화자)과 톰의 관계 및 청자(데이지)와의 관계 설정이 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰을 데려오지 말라는 경고 내용, 행위자와 대상이 동일하게 유지됩니다. '주의를 주었다'도 warned와 같은 사태입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'톰'과 '내가'가 가리키는 대상이 유지되고 연결 관계나 초점 표현의 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"경고·금지 지시 → 경고·금지 지시. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 상대에게 거는 금지 'Don't bring'이 '데려오지 마세요'로 금지 범주 그대로 유지됩니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 원문에 없는 '씨'를 덧붙여 톰을 높이는 호칭을 만들었습니다. 소설에서 닉이 데이지의 남편 톰을 가리키는 관계에 맞지 않고, 청자에게 높임말을 쓰는 설정도 원문 관계에서 지지되지 않습니다. 다만 요지와 행동 이해는 바뀌지 않아 minor입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명만 있고 별도로 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 465,
+    "output_tokens": 767,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

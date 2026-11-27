@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTA7rGY4W6eZ1kvWNMCu",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1382\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I think he was afraid\",\"tgt_span\":\"그들은 어느 골목으로 휙 꺾어 들어가 … 두려움을 느꼈던 것 같다\",\"description\":\"번역문에 주어 '그는'이 없고 문두의 '그들은'이 주제어로 놓여, 두려움을 느낀 사람(he)이 그들로 읽힐 수 있음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물·행위자): 번역문만 보면 '그들은 … 두려움을 느꼈던 것 같다'로 읽혀 두려워한 사람이 그(개츠비)에서 그들로 바뀐 것처럼 이해되어 누가 두려워했는지가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(지시 대상): 두려움의 주체 he가 번역에서 사라지고 'their/they'에 해당하는 '그들은'이 문두 주어가 되어, 대명사가 가리키는 대상이 불분명해지고 바뀌어 읽힙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 추측성 서술 설명 → 추측성 서술 설명. 서술 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등의 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술자의 평서체 '-다'가 유지되어 관계와 태도에 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 673,
+    "output_tokens": 759,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

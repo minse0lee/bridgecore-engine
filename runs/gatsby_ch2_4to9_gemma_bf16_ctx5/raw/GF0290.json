@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9LHN8B97d8Bh3BQxJm",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0290\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the generalized evasions which that question deserves\",\"tgt_span\":\"그런 질문을 받았을 때 흔히 하게 되는 두루뭉술한 회피성 답변\",\"description\":\"질문이 그런 회피를 받을 만하다는 평가가 '그런 질문을 받았을 때 흔히 하게 되는'이라는 일반적 관행 서술로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"A little overwhelmed\",\"tgt_span\":\"약간 당황한\",\"description\":\"overwhelmed(압도된)가 '당황한'으로 바뀐 정도 차이\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'that question deserves'(그 질문이 그런 회피를 받을 만하다는 화자의 평가)가 '흔히 하게 되는' 관행 서술로 바뀌어 평가 내용이 달라졌으나, 화자가 회피성 답변을 시작했다는 핵심 사실은 유지됩니다. 'overwhelmed'→'당황한'은 정도 차이로 보존입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'약간 당황한'이 '나'를 수식하는 관계와 'which'의 수식 관계가 유지되어 지시·연결·초점 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 화자의 행동과 반응을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 의무·허가·금지 등 규범 표현이 없습니다. 'deserves'는 평가어이며 규범 의무가 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술체 '-했다'가 소설 본문의 서술 태도와 일치하며 호칭·높임 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 532,
+    "output_tokens": 858,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

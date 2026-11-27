@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9x5zFz8hCmzXJuL7o2",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1142\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Some weather!\",\"tgt_span\":\"날씨 한번 끝내주네요!\",\"description\":\"'Some weather!'는 더위가 대단하다는 감탄(반어적·구어적)인데, '끝내주네요'는 긍정적 평가로 읽혀 평가 방향이 약간 달라질 수 있으나 감탄 기능은 유지됨. 사소한 뉘앙스 차이.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"날씨가 대단하다는 감탄, 반복되는 'Hot', 더위 확인 질문이 모두 유지됩니다. 평가어의 정도·뉘앙스 차이(끝내주네요)만 있어 보존으로 봅니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계에 변화가 없습니다. 반복과 말줄임 구조가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"차장이 낯익은 승객들에게 더위를 두고 건네는 상투적 인사·감탄과 질문 → 동일한 기능(상투적 말 걸기와 감탄, 질문)이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"차장이 낯익은 승객들에게 건네는 친근하고 구어적인 존대 말투(~네요, ~죠)가 관계에 어울리며 '덥다!·더워!'의 혼잣말투 반복도 구어 느낌을 살립니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 649,
+    "output_tokens": 758,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

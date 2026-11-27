@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAXHj8J2eKGYUvTdeBX",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1937\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Don’t belong to any.\",\"tgt_span\":\"다니는 곳 없어요.\",\"description\":\"'소속된 곳(교회 등)이 없다'는 뜻이 '다니는 곳 없어요'로 옮겨져 교회에 다니지 않는다는 뜻으로 좁아졌으나, 직전 문맥(교회 질문)이 있다면 같은 사태를 기술함. 문맥상 대상은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'어디에도 속하지 않는다'는 내용이 '다니는 곳 없어요'로 같은 사태를 기술하며, 문맥상 교회 질문에 대한 답으로 대상·부정이 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"any가 가리키는 앞선 질문의 대상(교회)에 대응하는 '곳'이 유지되어 지시 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 대답(진술) → 대화 속 대답(진술). 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 소속 여부의 진술입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 청자의 관계 정보(상대에 대한 적절한 높임 수준)가 문맥에 없어 '-어요'체의 적절성을 판단하려면 대화 당사자 관계 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장 자체에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 421,
+    "output_tokens": 744,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAw4hxhR32vxMkhxXoF",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1818\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"than when she brushed silent lips against his coat’s shoulder\",\"tgt_span\":\"이보다 더 가까웠던 적이 없었으며, 그녀가 그의 코트 어깨에 말없이 입을 맞추거나\",\"description\":\"brushed(스치듯 닿음)를 '입을 맞추거나'로 옮겨 가볍게 스친 접촉이 입맞춤으로 바뀜. 원문에서 입맞춤(kissed)은 앞 문장의 머리카락 장면에만 쓰임\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위): brushed silent lips against를 '입을 맞추거나'로 옮겨 스치듯 닿은 동작이 입맞춤으로 바뀌었으나, 입술과 어깨의 접촉이라는 핵심 장면과 문장의 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"never…nor의 이중 부정 비교가 '적이 없었으며…적도 없었다'로 유지되고, '이보다'가 가리키는 대상이나 연결·초점 관계에도 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 두 사람의 친밀감을 묘사하는 서사 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"never는 과거 경험의 부정이며 규범 의미가 아니므로 평가할 대상이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체('~었다')가 유지되며 화자·독자 관계에 어긋나는 높임이나 태도 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1265,
+    "output_tokens": 787,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9PtdkqGyJ6PNhHicJZ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0372\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the presbyterian nymphs on the ceiling\",\"tgt_span\":\"천장에 그려진 장로교도 같은 님프들\",\"description\":\"'presbyterian'은 님프들의 점잖고 단정한 모습을 가리키는 표현인데, 번역은 '장로교도 같은'으로 직역해 그 함의를 풀지 않았고, 원문에 없는 '그려진'을 첨가함. 다만 님프들이 천장에 있다는 사실은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"식당이 좋다는 발언, 울프심 씨가 천장의 님프들을 바라보며 말한 행위가 유지됩니다. '그려진'은 천장 장식이라는 통상적 해석 범위입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'바라보며 말했다'가 동시 동작 관계를 유지하고 지시·초점 관계의 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물의 말과 상황을 서술하는 기능 → 동일. 뒤에 이어지는 반어적 대조를 준비하는 서술 기능도 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"울프심 씨의 정중한 말투('좋군요')는 관계 정보가 부족해도 문맥상 부적절하지 않으며 화자의 태도가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 'presbyterian'은 장로교의 엄격하고 단정한 이미지를 빗댄 문화적 함의인데, '장로교도 같은'이라는 직역만으로는 한국어 독자가 점잖고 정숙하다는 함의를 이해하기 어렵습니다. 다만 서술 요지는 유지되어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 607,
+    "output_tokens": 844,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

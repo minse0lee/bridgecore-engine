@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTA9ET4Tk9Y1yzLeEgRB",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1414\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'두 집 건너'(two doors)를 포함해 사람들이 그를 옮긴 일, 3주 체류, 아빠가 나가라고 한 일, 떠난 다음 날 아빠의 사망이 모두 유지됩니다. 자동 힌트의 숫자 '2'는 '두 집'으로 옮겨져 있어 오경보입니다. 원문 'They carried'의 주어는 '옮겨 왔어요'로 일반화됐지만 의미는 같고, '3주 동안이나'의 '이나'는 평가어 정도 차이에 그칩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"because의 인과는 '-였어서'로, until의 시간 한정은 '나가라고 하실 때까지'로, 시간 순서는 '그러고는'과 '다음 날'로 유지되며 지시 대상도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"회상·서술 → 회상·서술. 인물이 지난 일을 설명하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없고, 'told him he had to get out'은 과거 사건을 전하는 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조던이 청자에게 말하는 구어체가 '~어요'체로 유지되고, 'Daddy'는 '아빠'로, 돌아가신 것에 대한 존대('하실', '돌아가셨고')도 자연스럽습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명과 일반 어휘 외에 판정할 문화 고유의 제도·단위·관습이 없습니다. 'two doors'는 수치 환산이 필요한 단위가 아닙니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 985,
+    "output_tokens": 792,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

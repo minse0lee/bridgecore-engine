@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9Rfn9jnWkGc3yn6ZoV",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0415\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“Yes.”\",\"tgt_span\":\"“그렇더군요.”\",\"description\":\"단순 긍정 응답이 '-더군요'(경험·관찰 회상)로 바뀌고 높임 종결 '-요'가 더해짐. 긍정 내용은 유지되나, 직접 보거나 겪어서 알게 되었다는 뉘앙스와 존대가 첨가됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"판단 질문 1·2: 긍정 응답이라는 핵심 내용은 유지되며, 확실성이나 사실 내용이 바뀌지 않았습니다. 회상 어미는 뉘앙스 차이에 그칩니다.\"},\"Textual\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"한 단어 응답이라 지시 표현, 연결 관계, 초점 표현이 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"질문에 대한 긍정 응답 → 질문에 대한 긍정 응답. 같은 종류의 기능입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 단순 응답입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-더군요' 존대가 화자와 청자의 관계에 맞는지 판단하려면 대화 상대와 두 사람의 관계 정보가 필요합니다. 제공된 문단에는 이 대사만 있습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 없는 단순 응답입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 402,
+    "output_tokens": 706,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

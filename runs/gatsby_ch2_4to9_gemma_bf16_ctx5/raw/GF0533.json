@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9WSSr6vgojhykkEqnX",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0533\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"so that everybody else is so blind that they don’t see or care\",\"tgt_span\":\"다른 이들이 보지 못하거나 신경 쓰지 않을 때에 맞춰\",\"description\":\"'모두가 눈이 멀어 보지도 신경 쓰지도 않게 되도록'이라는 결과·목적 구조가 '그들이 보지 못하거나 신경 쓰지 않을 때'라는 기존 시점 조건으로 바뀌어, 일탈 시점을 조절해 남들을 눈멀게 만든다는 관계가 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"입을 다물 수 있음, 작은 일탈의 시점 조절, 남들이 보지 못하거나 신경 쓰지 않음이 모두 유지되어 같은 사태를 기술합니다. 'so blind'의 정도 표현이 줄었으나 평가어 정도 차이입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(연결 관계): 'so that'의 결과·목적 관계가 '-ㄹ 때에 맞춰'라는 시간 조건으로 바뀌어 논리 관계가 달라졌습니다. 'moreover'는 '뿐 아니라'로 유지됩니다. 핵심 요지는 유지되므로 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 술을 안 마시는 것의 이점을 설명 → 이점 설명. 같은 종류의 기능입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"can은 일반적 가능·능력의 의미이며 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 서술 어조가 소설 본문 평서체로 유지되며 관계상 맞지 않는 높임·호칭 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1284,
+    "output_tokens": 873,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTASTuf1dQquGyixf8ho",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1820\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the Argonne battles\",\"tgt_span\":\"아르곤 숲 전투\",\"description\":\"'Argonne battles'(복수의 아르곤 전투)가 '아르곤 숲 전투'로 바뀌어 '숲'이 첨가됨. 아르곤 숲은 해당 전투가 벌어진 실제 지역이므로 같은 대상을 가리키며 의미·기능은 바뀌지 않음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"전선 투입 전 대위, 아르곤 전투 이후 소령 진급, 사단 기관총 지휘라는 인물·행위·시간 순서가 모두 유지됩니다. '숲' 첨가는 같은 전투를 가리키는 통용 표기라 내용 변화가 아닙니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'he'가 '그'로 유지되고, 전선 투입 전과 아르곤 전투 이후의 시간 순서 연결이 '이전'과 '이후'로 남아 있으며, 초점·범위 표현은 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물의 군 경력 서술 → 인물의 군 경력 서술. 서사 설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문의 평서체 '~했다/되었다'가 유지되며 관계 표현이 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"captain·major 계급을 '대위·소령'으로 통용 대응하고, 아르곤 전투와 사단 기관총 부대도 같은 대상을 가리켜 제도적 의미가 전달됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 987,
+    "output_tokens": 786,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

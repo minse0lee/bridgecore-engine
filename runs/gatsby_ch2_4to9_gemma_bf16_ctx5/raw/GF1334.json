@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTA5ohCo25Ay3wZsyRCK",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1334\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"left the shade and support of the doorway\",\"tgt_span\":\"몸을 일으켜 문가에 기대어 있던 그늘에서 벗어났고\",\"description\":\"문간의 그늘과 지지물에서 벗어났다는 내용이 '몸을 일으켜'(앉아 있다 일어남)와 '기대어 있던 그늘'로 바뀌어 윌슨의 이전 자세가 첨가되고 '지지(support)'가 '기대어 있던'으로 재구성됨. 다만 핵심 사태는 유사함\"},{\"id\":\"E002\",\"src_span\":\"the cap of the tank\",\"tgt_span\":\"연료 탱크 캡\",\"description\":\"'연료'가 원문에 없으나 문맥상 자동차 연료 탱크를 가리키므로 의미 변화 없는 보충\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 문간의 그늘과 지지를 떠났다는 내용이 '몸을 일으켜'라는 원문에 없는 동작(앉았다가 일어남)으로 바뀌었으나, 문가를 떠나 탱크 캡을 연다는 요지와 행동은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"행위 순서(벗어남 → 숨 몰아쉬며 캡을 엶)와 연결이 유지되고 지시·초점 관계 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사 묘사 → 서사 묘사. 인물의 힘겨운 동작을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체('~했다')가 유지되며 화자·독자 관계에 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 655,
+    "output_tokens": 856,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

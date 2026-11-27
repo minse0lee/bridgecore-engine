@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTA6kVWJYzVvcFeVU3u7",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1356\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I had a bad moment there before I realized\",\"tgt_span\":\"나는 잠시 당혹감에 휩싸였다가, 다행히 아직 그의 의심이 톰에게까지는 미치지 않았다는 사실을 깨달았다\",\"description\":\"'bad moment'(불안·불쾌한 순간)가 '당혹감'으로 바뀌고, 원문에 없는 '다행히'가 첨가됨. 다만 핵심 사실(톰에게 의심이 미치지 않음을 깨달음)은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"무더위로 혼미해짐, 잠시 불안했다가 의심이 아직 톰에게 미치지 않았음을 깨달은 핵심 내용이 같고, '당혹감'과 '다행히'는 감정 표현의 정도·뉘앙스 차이에 그칩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'before I realized'의 시간 순서가 '-다가 … 깨달았다'로 유지되고 'his'는 윌슨을 가리키며 'so far'도 '아직'으로 남아 있어 세 질문 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 상황·심리 서술 → 상황·심리 서술. 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술자의 문어체 서술이 '-다' 평서체로 자연스럽게 유지되며 호칭 관계 문제도 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명(톰)만 있고 문화 고유의 제도·관습·단위는 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1112,
+    "output_tokens": 800,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

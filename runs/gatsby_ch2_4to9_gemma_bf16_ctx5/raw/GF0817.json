@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9iLCtjFEqaTURu6iwU",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0817\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"my presence made them feel more satisfactorily alone\",\"tgt_span\":\"내가 곁에 있어 주어야 오히려 더 안심하고 둘만 있는 기분을 느꼈던 모양이다\",\"description\":\"'내 존재가 오히려 둘만 있는 기분을 더 만족스럽게 해 주었다'는 역설이 '내가 곁에 있어 주어야 더 안심한다'는 의미로 바뀜. 원문에 없는 '있어 주어야'라는 필요조건과 '안심'이라는 감정이 더해졌고, 'satisfactorily alone'의 만족스러운 고립감이 안심으로 바뀜.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 원문은 화자의 존재가 두 사람이 더 만족스럽게 둘만 있는 느낌을 갖게 했다는 추측인데, 번역은 '곁에 있어 주어야' 안심한다는 조건과 '안심'으로 바꿨습니다. 다만 붙잡는 상황과 추측이라는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but의 대조 관계가 '했지만'으로 유지되고 perhaps 이하가 앞 상황의 이유 추측으로 이어지며, 대명사 지시와 초점 표현에도 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 화자가 상황을 서술하고 이유를 추측하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미를 가진 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 소설 서술체 '~했다'가 유지되며 높임이나 호칭 관계가 문제되지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위 등 판정할 대상이 없습니다. 힌트의 숫자 2는 '두 사람'으로 they에 대응하는 것이어서 오경보입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 751,
+    "output_tokens": 917,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

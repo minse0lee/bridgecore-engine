@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAfRYdvbgLPk9CX3fQs",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF2131\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"on the courage of Gatsby’s liquor\",\"tgt_span\":\"개츠비가 제공하는 술 기운을 빌려\",\"description\":\"개츠비의 술이 준 용기(술 덕분에 생긴 배짱) 때문에 비웃는다는 의미가, 술 기운을 빌려 개츠비를 비웃는다는 표현으로 바뀜. 개츠비 술을 마시고 얻은 용기로 비웃는 것으로 읽혀 대체로 유지되나 '개츠비가 제공하는'이 추가된 해석이 있음. 이 차이는 의미를 실질적으로 바꾸지 않아 minor 수준임.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"판단 질문 1: 내 잘못이라는 평가, 그가 개츠비 술의 힘을 빌려 가장 신랄하게 비웃던 부류라는 점, 전화하지 말았어야 했다는 후회가 모두 유지되어 달라진 항목을 특정할 수 없습니다. '술 기운을 빌려'는 courage of liquor의 통상적 풀이입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"However는 '하지만', for는 '-었으니'로 대조와 이유 관계가 유지되며, he가 가리키는 대상도 같고 초점 표현도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 자기 반성적 서술 → 자기 반성적 서술. 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'I should have known better'는 과거 행동에 대한 화자의 후회이며 규범·의무를 정하는 문장이 아니므로 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 회고적 어조와 상대를 비웃던 사람이라는 경멸적 태도가 '신랄하게 비웃던 부류'로 유지되고, 평서체 서술도 적절합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 916,
+    "output_tokens": 917,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

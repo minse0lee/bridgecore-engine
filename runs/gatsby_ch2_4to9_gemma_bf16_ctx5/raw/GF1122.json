@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9w8jC1DotsR2BJTkfe",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1122\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“Going away?”\",\"tgt_span\":\"“어디 가시나요?”\",\"description\":\"'떠나는가'를 묻는 예/아니오 질문이 '어디 가는가'를 묻는 의문사 질문으로 바뀜(‘away’의 떠남 의미가 ‘어디’로 대체됨)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 떠나는지 여부를 확인하는 질문이 행선지를 묻는 질문으로 바뀌어 묻는 내용이 달라졌습니다. 다만 '가시나요'에 떠남의 의미가 남아 있고 맥락상 요지가 크게 어긋나지 않아 minor입니다.\"},\"Textual\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 표현, 문장 간 연결, 초점·범위 표현이 없는 짧은 질문입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대의 떠남에 대한 확인 질문 → 상대의 행선지 질문. 둘 다 질문 기능이라 같은 종류이며 서술자가 묻는 발화로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화 속 질문입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'가시나요'의 높임이 적절한지 판단하려면 화자 닉과 청자(대화 상대)의 관계 정보가 필요합니다. 제공된 문맥만으로는 청자를 알 수 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위 등이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 417,
+    "output_tokens": 746,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

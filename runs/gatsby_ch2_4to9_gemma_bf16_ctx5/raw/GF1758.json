@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAPhbbd5QNE42Q1DNWh",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1758\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"They weren’t happy\",\"tgt_span\":\"행복해 보이지 않았고\",\"description\":\"서술자의 단정(행복하지 않았다)이 '행복해 보이지 않았다'라는 외견 판단으로 바뀌어 확실성이 약간 달라짐\"},{\"id\":\"E002\",\"src_span\":\"they weren’t unhappy either\",\"tgt_span\":\"딱히 불행해 보이지도 않았다\",\"description\":\"'불행하지도 않았다'가 '딱히 불행해 보이지도 않았다'로 바뀌어 외견 판단과 정도 완화('딱히')가 더해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(확실성): 단정적 서술이 '~해 보이지 않았다'는 외견 추정으로 바뀌었으나, 두 사람이 손도 대지 않았고 행복도 불행도 아니었다는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그렇다고'가 and yet의 양보·대조 연결을 유지하고, neither…or 부정 범위와 either의 추가 부정도 '~지도'로 유지됩니다(질문 1·2·3 모두 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사 서술 → 장면 묘사 서술. 발화 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서사 묘사입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술자의 평서 문체('~았다')가 유지되며 관계·태도 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"치킨·에일은 일반 음식 명칭으로 문화 고유의 제도·단위·관습 판정 대상이 아니며, 힌트의 숫자 [2]는 '두 사람'의 번역 표현에 따른 오경보입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 827,
+    "output_tokens": 856,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

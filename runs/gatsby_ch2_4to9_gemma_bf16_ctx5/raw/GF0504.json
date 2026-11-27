@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9VPPmLxNV4n1hydQz3",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0504\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I came into her room\",\"tgt_span\":\"그녀의 방에 들어갔을 때\",\"description\":\"주어 '나'(화자)가 번역문에서 드러나지 않으나 앞 문장 '나는 신부 들러리를 섰다'의 주어가 이어져 한국어에서 자연스러운 생략이므로 의미 변화 없음(오류 아님으로 판단되어 사용하지 않음)\"},{\"id\":\"E002\",\"src_span\":\"as drunk as a monkey\",\"tgt_span\":\"완전히 만취해 있었다\",\"description\":\"원숭이 비유가 사라지고 '완전히 만취'로 옮겨 구어적·익살스러운 비유 표현이 평범한 표현으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"들어간 시점, 방, 침대에 누운 모습, 6월 밤 같은 아름다움, 만취 상태가 모두 유지되고 만취의 정도만 '완전히'로 표현되어 평가어 정도 차이에 그칩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'as lovely as…—and as drunk as'의 대조적 병렬이 '그리고 완전히 만취해 있었다'로 이어져 지시·연결 관계가 유지되며 문장 분할은 오류가 아닙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(장면 묘사) → 서술. 아름다움과 만취를 대비해 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 평서체가 유지되며 화자와 대상의 관계에서 요구되는 격식 변화가 없습니다. 비유가 평이해진 어조 차이는 어휘 선택 수준입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"제도·단위·관습 등 문화 고유 대상이 없으며 'as drunk as a monkey'는 관용 비유로 문화 고유 항목이 아닙니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 789,
+    "output_tokens": 896,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

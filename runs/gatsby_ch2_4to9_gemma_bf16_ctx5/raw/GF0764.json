@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9g45DvNyePcRabqswN",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0764\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"admired the gardens, the sparkling odour of jonquils and the frothy odour of hawthorn and plum blossoms and the pale gold odour of kiss-me-at-the-gate\",\"tgt_span\":\"향기에 취해 있었다\",\"description\":\"데이지가 정원과 향기를 '감탄/감상했다(admired)'는 행위가 '향기에 취해 있었다'로 바뀌고, 정원 자체에 대한 감탄이 향기 취함으로 흡수됨\"},{\"id\":\"E002\",\"src_span\":\"enchanting murmurs\",\"tgt_span\":\"황홀한 감탄사를 연신 내뱉으며\",\"description\":\"매혹적인 속삭임/중얼거림이 '감탄사를 연신 내뱉음'으로 바뀜 (정도·양태 차이)\"},{\"id\":\"E003\",\"src_span\":\"feudal silhouette\",\"tgt_span\":\"중세 성곽 같은 집\",\"description\":\"봉건 시대 풍의 실루엣을 '중세 성곽 같은 집'으로 옮김 (대상 구체화)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 원문은 데이지가 정원과 향기들을 감탄(admired)한 것인데 번역은 향기에 취해 있었다고 하여 행위가 달라졌으나, 핵심 장면(데이지가 정원과 향기를 즐김)은 유지되어 minor입니다. E002·E003은 표현 정도·구체화 차이로 별도 훼손으로 보지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계는 유지되며 admired의 병렬 나열이 문장 분할 후에도 이어집니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술(장면 묘사) → 소설 서술(장면 묘사)로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 평서 문체가 유지되며 인물 관계에 따른 높임이 문제되지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 제도·단위·관습 등 문화 고유 대상이 없습니다. 식물명 번역은 지시 대상 문제로 Semantic 범주입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1036,
+    "output_tokens": 991,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

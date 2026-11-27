@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9tVU3Db3sqJovpsuk2",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1058\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"He owned some drugstores\",\"tgt_span\":\"약국을 몇 군데 가지고 있대요\",\"description\":\"과거형 owned(소유했다)가 현재 소유 '가지고 있대요'로 바뀌고, 전달 어미 '-대요'가 붙어 화자가 직접 아는 사실이 전해 들은 이야기로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"He built them up himself.\",\"tgt_span\":\"직접 일궈낸 거래요.\",\"description\":\"'그가 약국들을 키웠다'가 주어·목적어 없이 '직접 일궈낸 거래요'로 옮겨졌고 전달 어미 '-거래요'가 붙음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(시간·확실성): 과거 owned가 현재 '가지고 있대요'로 바뀌고 '-대요/-거래요'로 전해 들은 정보처럼 읽혀 확실성이 달라졌으나, 약국을 여러 개 소유하고 직접 키웠다는 핵심 사실은 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그'를 생략했지만 앞뒤 문맥상 같은 인물이 이어지고, '직접'의 초점과 두 문장의 연결 관계도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"질문에 대한 정보 제공 → 정보 제공. 같은 종류의 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-요' 체가 대화 상대와의 관계에 맞는지 판단하려면 화자(그녀)와 청자의 관계 정보가 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"drugstore는 일반 업종이고 별도로 판정할 문화 고유의 제도·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 554,
+    "output_tokens": 863,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9eFG88eyZK8NxChqSB",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0721\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the black wreath\",\"tgt_span\":\"상조 화환\",\"description\":\"검은 조화(상중을 알리는 검은 화환)를 '상조 화환'으로 옮겨 '검은' 색이 빠지고 '상조'라는 낯선 표현이 쓰임. 상중 표지라는 의미는 대체로 전달됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"자식들, 집 매각, 문에 화환이 아직 걸려 있다는 상태가 모두 유지됩니다. '검은' 수식이 빠지고 '상조'로 옮겨 어색하지만 상중 표지로 읽혀 사태는 같습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'his'가 가리키는 양조업자와 still의 시간 초점이 '그대로'로 유지되어 지시·연결·초점 모두 변하지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 양조업자의 죽음 직후 자식들이 서둘러 집을 팔았음을 보여 주는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체의 평서문이 유지되고 '팔아치웠다'로 자식들의 서두름·무심한 태도도 남아 있습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"문에 화환을 거는 상중 관습이라는 문화적 대상을 같은 대상으로 옮겼고, 한국 독자도 상(喪) 표지로 이해할 수 있습니다. 검은 색 누락은 Semantic 수준의 미세한 차이로 제도적 의미 전달을 막지 않습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1385,
+    "output_tokens": 789,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

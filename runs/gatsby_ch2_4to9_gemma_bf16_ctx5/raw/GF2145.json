@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAg72T2crBj9gQyWVFQ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF2145\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"You young men\",\"tgt_span\":\"요즘 젊은 사람들은\",\"description\":\"'young men'(젊은 남자들)이 성별 없는 '젊은 사람들'로 바뀌고 '요즘'이 첨가됨. 다만 문맥상 대상 집단은 유지되어 의미 변화는 크지 않음.\"},{\"id\":\"E002\",\"src_span\":\"think you can force your way in here\",\"tgt_span\":\"생각하나 본데\",\"description\":\"단정적 질책('think')이 추측성 어미('-나 보다')로 약화되어 확실성이 다소 달라짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'young men'이 '젊은 사람들'로 일반화되고 '요즘'이 첨가되었으며, 화자의 단정적 'think'가 '생각하나 본데'라는 추측형으로 바뀌어 확실성이 달라졌습니다. 핵심 사실(젊은이들이 마음대로 들어올 수 있다고 여김)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현이 바뀌지 않았습니다. '-ㄴ데'는 뒤따르는 말을 잇는 연결로 자연스럽게 재구성된 것입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"질책하는 발화 → 질책하는 발화. '꾸짖듯'과 평서형 비난이 유지되어 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"can은 가능성·능력의 의미로 쓰였고 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"하녀 또는 집안 여성이 방문한 젊은 남자들을 나무라는 장면에서 반말 섞인 비난조 말투와 짜증 섞인 태도가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 716,
+    "output_tokens": 885,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

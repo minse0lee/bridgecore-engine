@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAfGQyR9BDVbfFrHnDZ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF2128\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I'm sort of helpless without them\",\"tgt_span\":\"없으면 정말 곤란하거든\",\"description\":\"'sort of helpless'의 완화·머뭇거림 표현이 '정말 곤란하다'로 강화됨. 의미 정도 변화이며 핵심 사실은 유지됨.\"},{\"id\":\"E002\",\"src_span\":\"care of B. F.—\",\"tgt_span\":\"B. F. 씨 댁으로—\",\"description\":\"'care of'(~ 앞, 우편 수신 방식)를 '댁으로'로 옮기고 '씨'를 덧붙임. 수신지 의미는 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"신발 한 켤레, 집사에게 보내 달라는 부탁, 테니스화, 주소 전달의 내용이 모두 유지됩니다. 'sort of helpless'가 '정말 곤란하다'로 바뀐 것은 정도 차이에 해당합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'they're tennis shoes'가 앞 문장의 신발을 가리키는 관계와 이유를 설명하는 연결('테니스화라서')이 유지됩니다. 지시·연결·초점 관계에 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"전화 용건 설명 및 신발 발송 부탁 → 전화 용건 설명 및 신발 발송 부탁. 'I wonder if'의 완곡한 요청이 의문문 형태로 유지되어 요청 기능이 읽힙니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"개인적인 부탁이며 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 격의 없이 말하는 구어체 대화이며 번역문의 반말체가 이 상황과 어울립니다. 'B. F. 씨'의 '씨'는 주소에 붙은 통상 표현이라 관계를 바꾸지 않습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'care of'는 우편 주소 관습이며 '댁으로'로 옮겨 수신처를 가리킨다는 의미가 이해됩니다. 집사 등 제도적 대상은 같은 것을 가리킵니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 742,
+    "output_tokens": 953,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9xCQjG3d1CyDctTquw",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1144\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"That anyone should care in this heat whose flushed lips he kissed, whose head made damp the pyjama pocket over his heart!\",\"tgt_span\":\"이런 무더위에 대체 누가 누구의 달아오른 입술에 입을 맞추고, 누구의 머리를 품어 가슴팍 파자마 주머니를 적신단 말인가!\",\"description\":\"'그런 일에 신경 쓰는 사람이 있다는 것'(anyone should care)에 대한 감탄이 '누가 누구의…'라는 의문형으로 바뀌어, 상관하다(care)라는 핵심 행위가 사라지고 who/whose의 용법도 간접의문절에서 직접 의문으로 바뀜. 입맞춘 사람이 누구인지 신경 쓰는 사람이 있다는 내용이 사라지고, 입맞춘 주체(he)와 대상이 불분명해짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위·참여자): '누구의 입술에 입을 맞췄는지 상관하는 사람이 있다니'라는 내용에서 care가 빠지고, he가 입맞춘 주체라는 점이 사라져 '누가 누구에게 입을 맞추는가'로 읽혀 요지가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(지시): whose가 he가 입맞춘 입술·머리의 주인을 가리키는 관계가 번역에서 불분명해지고, '누구의 머리를 품어'로 주체가 바뀌어 가리키는 대상이 달라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"비꼬는 감탄(그런 일에 누가 신경 쓰랴) → 반어적 수사의문/감탄. 같은 종류의 정서적 논평 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"should는 놀람·감정을 나타내는 용법(putative should)으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 내면 독백 어조가 문학적 문어체로 유지되며 청자와의 관계 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 762,
+    "output_tokens": 984,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

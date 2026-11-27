@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9xZAe3MT1ukdZWFmFG",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1153\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"like silver idols weighing down their own white dresses against the singing breeze of the fans\",\"tgt_span\":\"하얀 드레스를 입은 그들의 모습은 마치 은빛 조각상처럼 보였다\",\"description\":\"은빛 우상들이 자신의 흰 드레스를 눌러 고정하는 이미지가, 드레스를 입은 모습이 조각상처럼 보인다는 서술로 바뀜. weighing down(드레스를 누름)이 사라짐.\"},{\"id\":\"E002\",\"src_span\":\"idols\",\"tgt_span\":\"조각상\",\"description\":\"idols(우상·신상)가 일반적인 '조각상'으로 바뀌어 숭배 대상이라는 함의가 약해짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(행위·대상): 두 사람이 은빛 우상처럼 자기 드레스를 눌러 누르고 있다는 묘사가 단순히 드레스 입은 모습이 조각상처럼 보인다는 것으로 바뀌어 'weighing down' 행위가 빠지고 idols도 일반 조각상으로 바뀌었습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(소유 관계): 'their own white dresses'를 누르는 주체와 드레스 사이의 관계가 사라지고, 비유 대상이 '두 사람의 모습'으로 바뀌어 직유의 연결 구조가 달라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사 → 장면 묘사. 서술 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체('-었다/보였다')가 유지되며 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 문화·제도 고유 대상이 없습니다. idols의 의미 변화는 Semantic에서 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 711,
+    "output_tokens": 879,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

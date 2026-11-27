@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT99NNCmo5DwFJ8oCcV2",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0041\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"She was in the middle thirties\",\"tgt_span\":\"서른 중반쯤 되어 보이는 그녀는\",\"description\":\"단정적 서술(was)이 '되어 보이는'이라는 외견상 추측으로 바뀌어 확실성이 달라짐. 핵심 사실(서른 중반)은 유지됨\"},{\"id\":\"E002\",\"src_span\":\"as some women can\",\"tgt_span\":\"일부 여성들이 그러하듯\",\"description\":\"'some women can(carry their flesh sensuously)'의 능력 표현이 '일부 여성들이 그러하듯'으로 바뀌어 능력의 뜻이 약해지고, 일부 여성이 하는 일로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): '서른 중반이었다'는 서술이 '서른 중반쯤 되어 보이는'으로 바뀌어 확실성이 달라졌으나 핵심 사실(나이대, 약간 풍만함, 관능적 몸가짐)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but의 대조 관계가 '-했지만'으로 유지되고, 대명사·초점 관계도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 묘사 서술 → 인물 묘사 서술. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"can은 일부 여성의 능력을 나타내는 것이지 규범 의미가 아니며, 이 문장은 인물 묘사입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장은 화자·청자 관계에서 높임이나 호칭을 평가할 대상이 없는 서술문입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1259,
+    "output_tokens": 831,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

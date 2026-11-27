@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9bywpNoeEGz4J2XNzk",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0667\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"affect his nose\",\"tgt_span\":\"코가 마비된 걸까요\",\"description\":\"'코에 영향을 주는가'라는 일반적 영향이 '코가 마비된 것인가'라는 구체적 상태(마비)로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"Does the gasoline affect\",\"tgt_span\":\"가솔린 냄새 때문에\",\"description\":\"gasoline(가솔린)이 '가솔린 냄새'로 바뀌고, 영향 여부를 묻는 질문이 원인을 추측하는 형태로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: '코에 영향을 주나'가 '냄새 때문에 코가 마비된 건가'로 구체화되어 영향의 내용과 원인(가솔린→냄새)이 달라졌으나, 가솔린이 코에 미치는 영향을 묻는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현이 없으며 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"질문 → 질문. 상대에게 답을 구하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 의문문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 질문의 태도가 '~요' 체로 무리 없이 유지되며 관계와 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 455,
+    "output_tokens": 743,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

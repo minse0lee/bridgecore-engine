@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTA9Hb5Kifhn5s7qhKoV",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1416\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I used to know a Bill Biloxi from Memphis\",\"tgt_span\":\"저도 멤피스 출신의 빌 빌록시라는 사람을 알았어요\",\"description\":\"원문에 없는 '저도'(also)가 첨가되어 화자가 앞 화자와 같은 경험을 했다는 비교 의미가 더해짐. 다만 'used to know'의 과거 습관·지속 상태 뉘앙스는 '알았어요'로 대체로 전달됨.\"},{\"id\":\"E002\",\"src_span\":\"I remarked\",\"tgt_span\":\"내가 한마디 했다\",\"description\":\"'remarked'(논평하듯 말하다)를 '한마디 했다'로 옮김. 통상적 대응 범위로 오류 아님.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 원문에 없는 '저도'가 첨가되어 앞 화자의 경험과 같다는 의미가 더해졌으나, 핵심 사실(멤피스 출신 빌 빌록시를 알았다)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(초점·범위): '저도'라는 'also'류 초점 표현이 원문에 없이 추가되어 앞 발언과의 병렬 관계가 새로 생겼습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물에 대해 언급하는 대화 발화 → 같은 종류의 발화로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-어요' 존대와 '저'가 화자·청자 관계에 맞는지 판단하려면 청자(톰/게츠비 등)와 화자의 관계 및 장면 정보가 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명과 지명만 있고 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 512,
+    "output_tokens": 880,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

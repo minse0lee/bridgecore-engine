@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9tRtyNXXJfebFL2DXe",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1056\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I think I’ll\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"'I think'(~라고 생각한다)가 번역되지 않아 완화된 어조가 사라지고 단정적 결의로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"And\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"추가 연결어 'And'가 생략됨. 앞 문장에 이어 덧붙이는 관계는 문장 배열로 유지되므로 의미·기능을 바꾸지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): 'I think I'll make a point of'(~할 작정이라고 생각한다)가 '반드시 알아내고 말겠어'로 단정적 의지가 되어 확실성이 달라졌으나, 핵심 사실(알아내겠다는 결의)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현의 대상이 바뀌지 않았고, And의 덧붙임 관계는 앞 문장 뒤에 이어지는 배열로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 의지 선언 → 의지 선언. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 개인적 결의 표현이며 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 혼잣말처럼 또는 아내에게 하는 단호한 반말체 '~겠어'가 대화 상황에 맞고 태도도 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화 고유의 제도·관습·단위 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 505,
+    "output_tokens": 810,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

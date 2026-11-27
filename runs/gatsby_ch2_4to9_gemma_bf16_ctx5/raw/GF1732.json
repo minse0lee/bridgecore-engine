@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTANbC6o3zkncXfPSeGv",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1732\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"It ripped her open—\",\"tgt_span\":\"몸이 완전히 찢겨 나갔어요—\",\"description\":\"'her open'(그녀를 갈라 열었다)이 '몸이 완전히 찢겨 나갔다'로 바뀌어 대상 'her'이 몸으로 일반화되고 'open'의 의미가 약해졌으나, 핵심 사태(충격으로 몸이 찢어짐)는 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"무언가가 그녀의 몸을 찢어 열었다는 사태가 '몸이 완전히 찢겨 나갔다'로 같은 사건을 기술하며 행위자 'It'이 생략되었으나 사건의 요지는 같습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사 It의 생략으로 지시 대상이 혼동되지 않고, 연결·초점 관계도 바뀌지 않았습니다. 말줄임 대시도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사고 상황 설명(서술) → 사고 상황 설명(서술). 대화 속 증언 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"흥분한 화자의 구어체 증언이 '~어요'체로 자연스럽게 유지되며 관계에 맞는 말투입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 432,
+    "output_tokens": 718,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

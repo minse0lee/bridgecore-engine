@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAgBovs7djX5Q9YrDqz",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF2150\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Will you just—\",\"tgt_span\":\"잠시만요—\",\"description\":\"'Will you just—'은 상대에게 무언가를 해 달라는 중단된 요청인데, '잠시만요'라는 관용적 요청으로 바뀌어 요청 내용이 구체화되고 약간 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"말을 하다 만 요청 뒤에 이름을 묻는 내용이 유지되며, 인물·행위·시제 정보가 같고 '잠시만요'는 중단된 말투를 자연스럽게 옮긴 것으로 사실 내용은 바뀌지 않았습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사·연결어·초점 표현에 변화가 없고, 대시로 말을 끊고 질문으로 바꾸는 구조도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"말을 끊고 상대에게 이름을 다시 묻는 질문 → 상대 이름을 다시 묻는 질문. 같은 종류의 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없고, 대화 속 개인적 부탁·질문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"낯선 사람에게 하는 공손한 말투로, '잠시만요'와 '성함이 어떻게 되신다고요'의 높임이 상황에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 484,
+    "output_tokens": 726,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

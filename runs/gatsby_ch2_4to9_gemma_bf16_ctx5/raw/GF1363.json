@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTA6xQrr18ecrgzhV84r",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1363\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"less than twenty feet away\",\"tgt_span\":\"6미터도 안 되는 가까운 거리에서\",\"description\":\"피트를 미터로 환산함. 20피트는 약 6.1미터이므로 '6미터도 안 되는'은 사실상 같은 거리로, 수치 오류가 아니라 통상적 단위 환산임. 오류로 보기 어렵지만 단위 표기가 바뀐 점만 기록함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"에클버그 박사의 눈이 지켜봄, 잠시 후 다른 눈들이 우리를 강렬하게 응시함, 20피트 미만이라는 거리가 모두 유지됩니다. 20피트(약 6.1m)를 '6미터도 안 되는'으로 옮긴 것은 거의 같은 거리이며 의미 변화가 아닙니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but의 대조 관계가 '-었지만'으로 유지되고 after a moment의 시간 순서와 'other eyes'의 지시 대상도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술 → 소설 서술. 장면을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술의 문어체 평서 서술이 유지되며 특별한 관계나 높임 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"피트를 미터로 바꾼 단위 환산이 있으나 한국어 독자에게 통용되는 단위이고 거리가 거의 같아 평가조건상 문제가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1043,
+    "output_tokens": 780,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTA1KesVo5vwWrygReDV",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1221\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"and the day after that\",\"tgt_span\":\"그리고 내일은요?\",\"description\":\"'오늘 오후 다음 날(that 다음 날 = 내일)'로 읽히므로 대체로 대응하나, 원문의 'the day after that'(오늘 오후 이후의 그다음 날)이 '내일'로 옮겨져 시점이 사실상 같음. 의미를 바꾸지 않는 통상적 대응이라 실질 오류 아님\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"오후, 그다음 날, 앞으로 30년이라는 시간 항목과 '무엇을 하며 보낼까'라는 내용이 유지됩니다. 'the day after that'을 '내일'로 옮긴 것은 오늘 오후 이후의 날을 가리키는 통상적 대응입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"and로 이어진 오후, 그다음 날, 30년의 나열 관계가 '그리고 … 또'로 유지되며 지시·초점 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"권태와 초조함을 드러내는 수사적 의문·외침 → 같은 기능의 의문형 외침. 대답을 구하지 않는 탄식조 질문으로 읽혀 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 제안·선택 질문일 뿐 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"데이지가 톰, 개츠비 등 일행에게 하는 대화에서 '~까요, ~죠' 해요체는 부드러운 대화 상황에 무리가 없고 관계상 부적절한 높임으로 볼 근거가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 별도로 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 596,
+    "output_tokens": 834,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

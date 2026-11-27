@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAnM7BjWv8qeEnfCHif",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF2293\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the grass on his lawn had grown as long as mine\",\"tgt_span\":\"정원의 풀은 내 집만큼이나 길게 자라 있었다\",\"description\":\"'his lawn'(개츠비의 잔디밭)이 소유 표시 없는 '정원'으로, 'mine'(내 잔디밭의 풀)이 '내 집'으로 바뀌어 풀의 길이를 비교하는 대상이 달라짐. 번역문만 보면 풀을 집과 비교하는 것으로 읽히고 '정원'이 누구의 것인지도 불분명함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 개츠비 잔디밭의 풀이 화자 잔디밭의 풀만큼 자랐다는 내용이 풀이 '내 집'만큼 자랐다는 내용으로 비교 대상이 바뀌었습니다. 다만 집이 비어 방치되었다는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: his lawn/mine의 소유 관계가 사라져 '정원'이 누구의 것인지 알 수 없고, mine이 가리키는 대상(내 잔디밭)이 '내 집'으로 바뀌었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(집이 방치된 상태 묘사) → 서술. 문장의 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사 묘사 문장으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 화자의 서술체 '~었다'가 유지되어 관계와 격식에 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 879,
+    "output_tokens": 824,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

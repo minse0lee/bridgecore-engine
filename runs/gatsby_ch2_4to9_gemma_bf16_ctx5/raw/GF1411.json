@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTA91p3zYZRGWcLHiZJS",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1411\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Somebody fainted.\",\"tgt_span\":\"누군가 기절까지 했었죠.\",\"description\":\"원문에 없는 '까지'가 첨가되어 기절이 더해진 극단적 사례처럼 읽힘(초점 표지 첨가)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"6월의 루이빌, 누군가 기절, 누가 기절했는지 묻는 내용이 모두 유지되며 '까지'는 사실 내용을 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(초점·범위): 원문에 없는 '까지'가 붙어 '기절'이 '더해진 사건'이라는 초점이 생겼으나, 핵심 사실은 유지되어 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"회상하며 감탄·질문하는 발화 → 회상하며 감탄·질문하는 발화. 톰에게 묻는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"부부 사이의 대화에서 데이지가 톰에게 '~죠' 해요체로 말하며, 호칭 '톰'도 유지되어 관계에 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"루이빌은 지명뿐이며 별도로 판정할 문화·제도적 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 580,
+    "output_tokens": 690,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

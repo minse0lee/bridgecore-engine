@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAk8hGk5zFCqyFVy29r",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF2241\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"When we pulled out into the winter night\",\"tgt_span\":\"기차가 겨울 밤 속으로 미끄러져 나가고\",\"description\":\"행위자 'we'(우리, 화자 일행)가 '기차'로 바뀜. 단, 문맥상 기차가 출발한 상황이어서 사태는 크게 달라지지 않음\"},{\"id\":\"E002\",\"src_span\":\"the dim lights of small Wisconsin stations moved by\",\"tgt_span\":\"위스콘신주의 작은 역들이 내뿜는 희미한 불빛들이 뒤로 밀려나자\",\"description\":\"'역들의 불빛이 지나감'에 '내뿜는'이라는 행위가 더해지고, 'moved by'가 '뒤로 밀려나자'로 옮겨짐. 같은 사태를 가리킴\"},{\"id\":\"E003\",\"src_span\":\"a sharp wild brace\",\"tgt_span\":\"날카롭고 거친 생동감\",\"description\":\"'brace'(활력을 주는 상쾌함)를 '생동감'으로 옮김. 통상적 대응 범위\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"판단 질문 1: 'we pulled out'이 '기차가 미끄러져 나가고'로 옮겨졌으나 문맥상 같은 출발 장면이고, 눈·불빛·공기의 변화 등 핵심 사태와 시간 관계가 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'our snow'가 '우리의 고향 눈'으로 동격 관계가 유지되고, When 절들과 주절의 시간 연결이 '-고, -자'로 유지되며 초점 표현의 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 문어체 평서문이 유지되며 화자와 청자의 관계에서 문제 되는 부분이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"위스콘신 지명 외에 별도로 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1026,
+    "output_tokens": 962,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

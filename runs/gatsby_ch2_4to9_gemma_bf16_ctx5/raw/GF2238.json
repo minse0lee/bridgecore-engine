@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAk14t95ePWCWUenbiU",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF2238\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"six o’clock\",\"tgt_span\":\"6시쯤\",\"description\":\"정확한 시각이 '쯤'이 붙은 근사치로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"Those who went farther than Chicago would gather\",\"tgt_span\":\"가는 이들은 … 모였다\",\"description\":\"반복·습관을 나타내는 would(그때마다 모이곤 했다)가 일회적 과거로 옮겨짐\"},{\"id\":\"E003\",\"src_span\":\"a few Chicago friends, already caught up into their own holiday gaieties, to bid them a hasty goodbye\",\"tgt_span\":\"시카고 친구 몇몇과 서둘러 작별 인사를 나누기 위해서였다\",\"description\":\"작별 인사의 주체가 친구들(이미 자기들 휴일 기분에 빠진 이들이 와서 인사함)에서 모인 이들로 옮겨져 분리됨; 'to bid them'의 'them'(떠나는 이들)에 대한 친구들의 행위가 모인 이들의 목적으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 'six o’clock'이 '6시쯤'으로 수량이 근사치가 되고 습관의 would가 일회성으로 바뀌었으며, 작별의 주체·대상이 달라졌으나 모여서 작별한다는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"문장 분할 후에도 목적 연결('~기 위해서였다')과 '이미 ~ 젖어 있는' 수식 관계가 유지되어 지시·연결·초점이 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"회상 서술 → 회상 서술. 기억 속 장면을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범적 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회상의 서술체('~했다')가 유지되며 관계상 어긋남이 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"유니언역(Union Station)은 통용되는 표기로 옮겨졌고 12월·6시 표기도 다른 제도로 바뀌지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1303,
+    "output_tokens": 973,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

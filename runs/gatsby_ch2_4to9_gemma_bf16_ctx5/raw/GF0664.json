@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9bshnQfZikGe2AwSNY",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0664\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"캐슬 랙런트의 비밀, 운전기사에게 멀리 가서 한 시간 보내라고 말하라는 내용이 모두 유지됩니다. 'spend an hour'를 '쉬다 오라'로 옮긴 것은 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그게'가 가리키는 대상과 두 문장 간의 설명-지시 연결이 유지되며, 대명사·초점·연결 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"비밀 설명 후 운전기사를 보내라고 요청·지시하는 기능 → 동일한 지시 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"개인적 부탁·제안이며 의무·허가·금지 등 규범 표현이 없어 Deontic은 평가 대상이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 화자가 청자에게 말하는 정중한 어조가 '-이죠', '-하세요'로 유지되며, '운전기사 씨'도 관계를 바꾸지 않는 호칭입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"고유명사(Castle Rackrent)와 시간 표현 외에 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 577,
+    "output_tokens": 652,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

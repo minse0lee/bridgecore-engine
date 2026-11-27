@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9bCLg7DghrJdsAh8s8",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0647\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the Finnish tread\",\"tgt_span\":\"핀란드인 하인의 발소리\",\"description\":\"원문의 'Finnish tread'(핀란드인의 발걸음)에 없는 '하인'이라는 역할이 덧붙여짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물): 원문에 없는 '하인'이라는 신분이 첨가되어 인물 정보가 달라졌습니다. 다만 소설 앞뒤 맥락상 그 핀란드인은 하인(가정부)이라 핵심 사건과 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그 사이로', '~처럼' 등 지시·연결·초점 관계가 유지되고 대조·인과 관계 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물의 불안한 행동 서술 → 인물의 불안한 행동 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 묘사 문장으로 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문이며 화자와 청자 사이의 높임·호칭 관계가 드러나는 대상이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"핀란드인과 책 제목(Clay's Economics) 외에 판정할 제도·관습·단위 등 문화 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1008,
+    "output_tokens": 695,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

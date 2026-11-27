@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9KkMZmH7zBLgREuxu7",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0278\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"old sport\",\"tgt_span\":\"친구\",\"description\":\"개츠비 특유의 말버릇인 호칭 'old sport'(격식 있고 인위적인 친근함)가 일반적인 '친구'로 바뀌어 어투의 특색이 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"예쁘다는 평가와 상대에게 동의를 구하는 내용이 유지되며, 호칭도 친근한 상대 지칭으로 같은 대상을 가리킵니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 관계, 연결 관계, 초점 표현에 바뀐 것이 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"동의를 구하는 부가의문 → 동의를 구하는 '~지?' 질문. 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화문입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3: 'old sport'는 개츠비가 인위적이고 친근한 어투로 쓰는 말버릇 호칭인데, '친구'로 옮겨 그 특유의 태도와 격식 있는 친밀감이 약해졌습니다. 친밀한 관계 설정 자체는 유지되어 minor입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"제도·단위·관습 등 문화 고유 대상이 없습니다. 호칭의 태도 변화는 Register에서 판정합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 527,
+    "output_tokens": 699,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9gGBzboFXjNTexhGy7",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0768\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"vivid with new flowers\",\"tgt_span\":\"생생한 꽃향기가 풍기는\",\"description\":\"새 꽃으로 생생하다는 시각적 묘사가 꽃향기가 풍긴다는 후각 묘사로 바뀌고, 'new'(새로 들여온 꽃)가 빠짐\"},{\"id\":\"E002\",\"src_span\":\"intruding into one chamber\",\"tgt_span\":\"그러다 우연히 어느 방에 들어섰는데\",\"description\":\"'침입하듯 들어갔다(intruding)'가 '우연히 들어섰다'로 바뀌어 무단 침입의 뉘앙스가 사라지고 우연성이 더해짐\"},{\"id\":\"E003\",\"src_span\":\"poolrooms\",\"tgt_span\":\"당구실\",\"description\":\"poolroom(당구장)을 '당구실'로 옮긴 것은 대응이 가능하므로 의미 차이는 없으나, 참고로 점검함(오류 아님)\"},{\"id\":\"E004\",\"src_span\":\"doing liver exercises\",\"tgt_span\":\"간 건강 체조를 하고 있었다\",\"description\":\"'liver exercises'(간 운동)를 '간 건강 체조'로 풀어 옮김; 의미 대체로 유지\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'new flowers'가 향기 묘사로 바뀌고 'intruding'이 '우연히'로 바뀌어 행위의 성격이 달라졌으나, 핵심 사태(위층 방들을 지나 한 방에 들어가 남자를 봄)는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계는 바뀌지 않았고 문장 분할 후에도 시간적 연결이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 저택을 지나가는 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 '-었다' 평서체가 유지되며 인물 간 관계 표현은 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1194,
+    "output_tokens": 999,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

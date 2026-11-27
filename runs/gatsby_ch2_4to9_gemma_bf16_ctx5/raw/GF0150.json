@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9ECLLnFJEUZLZTsozS",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0150\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a dozen chefs\",\"tgt_span\":\"수십 명의 요리사\",\"description\":\"a dozen(12명)이 '수십 명'으로 바뀌어 수량이 달라짐\"},{\"id\":\"E002\",\"src_span\":\"implying that a dozen chefs awaited her orders there\",\"tgt_span\":\"마치 부엌에 수십 명의 요리사가 자신의 명령만을 기다리고 있다는 듯이\",\"description\":\"'her orders'를 기다린다는 내용에 '만'이 더해져 초점이 추가됨(첨가)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(수량): a dozen(12명)이 '수십 명'으로 바뀌어 수량이 달라졌으나, 과장된 허세를 암시하는 요지와 행위는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 3(초점·범위): 원문에 없는 '명령만을'의 한정 초점이 추가되어 초점 표현이 달라졌습니다. 다만 요지와 행동 이해에는 영향이 없어 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 행동 묘사 및 허세 암시 서술 → 인물 행동 묘사 및 허세 암시 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 인물 행동 서술이며 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 다소 냉소적인 서술 태도가 '짐짓 뽐내며', '위풍당당하게'로 유지되며 서술체도 적절합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다. 수치 오류는 Semantic에서만 판정합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 855,
+    "output_tokens": 842,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

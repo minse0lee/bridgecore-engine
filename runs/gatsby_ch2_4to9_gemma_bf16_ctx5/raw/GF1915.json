@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAWTirz8i5N7tT2vZ8T",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1915\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"and Myrtle Wilson’s tragic achievement was forgotten\",\"tgt_span\":\"머틀 윌슨의 비극적인 최후도 잊히고 말 것이다\",\"description\":\"과거 시점에서 추측한 사건('잊혔다'로 이어지는 추측)이 미래 단정('잊히고 말 것이다')으로 바뀌고, 'achievement'(성취, 반어적 표현)가 '최후'로 바뀌어 의미가 달라짐. 또한 '도'가 덧붙어 초점이 이동함\"},{\"id\":\"E002\",\"src_span\":\"I supposed\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"'I supposed' 추측 표지는 '것만 같았다'로 일부 반영되나, 두 번째 문장에서는 단정적 '것이다'로 확실성이 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'achievement'(성취, 반어)가 '최후'로 바뀌어 평가 내용이 달라졌고, 마지막 절의 추측이 '잊히고 말 것이다'라는 단정으로 확실성이 달라졌으나, 핵심 사실(구경꾼·남자·잊힘)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"until의 시간·결과 연결은 '그러다 결국 … 되면'으로 재구성되어 관계가 남아 있고, 'even to him'은 '그 남자조차'로 초점이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 추측 서술 → 추측 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 평서체 문어체가 유지되며 관계·태도 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1111,
+    "output_tokens": 898,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

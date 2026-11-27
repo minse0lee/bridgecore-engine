@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTA9yae6NEjzF9C25PuS",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1430\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"president of your class at Yale\",\"tgt_span\":\"예일대 시절에 과 대표였다고\",\"description\":\"'your class'(청자의 동기/학년)가 '과 대표'로 바뀌어 '동기 학년의 회장'이라는 의미가 사라지고 청자와의 연결도 없어짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: '네 학년(동기)의 회장'이 '과 대표'로 바뀌어 직책의 범위와 청자 관련성이 달라졌으나, 핵심 사실(예일에서 대표였다고 말함)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'your class'의 소유 관계(청자의 학년)가 사라져 '저한테는'만 남고 청자와의 연결이 끊겼습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대의 지인을 의심하며 설명하는 진술 → 동일한 진술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가를 나타내는 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'bumming'의 경멸적 태도가 '빌붙어 다녔나 보죠'로 유지되고 존대 어조도 대화 상황에 무리가 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2: 미국 대학의 학년(class) 회장이라는 제도가 한국식 '과 대표'로 바뀌어 다른 제도로 읽힙니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 558,
+    "output_tokens": 734,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

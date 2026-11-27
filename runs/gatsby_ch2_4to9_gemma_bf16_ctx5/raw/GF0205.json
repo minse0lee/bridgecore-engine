@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9GUzkKeta9YABsQZbw",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0205\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"he knew something about breeding\",\"tgt_span\":\"교양 있는 사람인 줄 알았는데\",\"description\":\"'가문·혈통·양육에 관한 지식이 있다고 생각했다'가 '교양 있는 사람'이라는 일반적 평가로 바뀌어 breeding의 계급적 함의가 약해지고 knew something about의 구조도 사라짐\"},{\"id\":\"E002\",\"src_span\":\"he wasn’t fit to lick my shoe\",\"tgt_span\":\"알고 보니 내 구두 핥을 자격조차 없는 사람이더라고\",\"description\":\"'알고 보니'가 첨가되어 발견·깨달음의 뉘앙스가 더해졌고, '자격조차'로 even 초점이 덧붙었으나 비하의 내용은 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: breeding(가문·혈통·예법에 대한 앎)이 '교양 있는 사람'이라는 일반 평가로 바뀌었으나 핵심 사실(그를 신사로 기대했으나 실망함)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but의 대조 관계가 '-는데, 알고 보니'로 유지되고 지시 대상도 동일하며 초점이 다른 대상에 붙지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"전 남편에 대한 경멸적 회고 서술 → 경멸적 회고 서술로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 회고적 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 남편을 경멸하는 반말 구어체가 유지되고 비하 태도도 '구두 핥을 자격조차 없는'으로 보존됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'구두 핥을 자격도 없다'는 비하 관용 표현이 같은 의미로 이해되며, breeding의 계급적 함의는 Semantic에서 다루었고 제도적 대상의 오역은 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 599,
+    "output_tokens": 916,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

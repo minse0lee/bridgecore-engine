@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAZ3m3HgTZ1b9MHWh5F",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1979\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I told her she might fool me but she couldn’t fool God.\",\"tgt_span\":\"나야 속일 수 있어도 하느님은 못 속인다고 했죠.\",\"description\":\"주어 'I told her'의 청자 '그 여자'(her)가 빠졌으나 앞 문장과 이어져 문맥상 복원 가능. 의미 변화는 거의 없음(오류 아님에 가까움).\"},{\"id\":\"E002\",\"src_span\":\"God knows what you’ve been doing, everything you’ve been doing.\",\"tgt_span\":\"그 모든 걸 하느님은 다 알고 계셔\",\"description\":\"'you've been doing'의 진행·지속 의미가 '했는지'로 단순 과거화되었으나 핵심 사실은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"속이려 해도 하느님은 속일 수 없다는 경고, 창가로 데려감, 몸을 일으켜 뒷창문에 얼굴을 대고 기댐 등 인물·행위·내용이 모두 유지됩니다. 'I told her'의 '그 여자' 생략과 진행 시제의 단순 과거화는 사태를 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'나야 … 하느님은'의 대조 관계가 유지되고, 'but'의 양보·대조 연결과 지시 대상도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"과거 대화를 회상하며 상대에게 한 경고를 전하는 서술 → 같은 기능의 서술·인용이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"may/can은 속일 수 있는 가능·능력의 의미이고 의무·허가·금지를 정하는 규범 표현이 아니므로 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 청자에게 한 말에는 반말('알고 계셔', '못 속여'), 서술에는 존댓말('했죠', '말했어요')을 써서 소설 속 상황과 크게 어긋나지 않습니다. 하느님에 대한 존칭도 적절합니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"God을 '하느님'으로 옮겨 종교적 함의가 전달되므로 문화적 의미가 유지됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1122,
+    "output_tokens": 977,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAR4fQM7hvHwvwhuiHU",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1787\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“Jay Gatsby” had broken up like glass\",\"tgt_span\":\"'제이 개츠비'라는 허상은 유리처럼 산산조각 났고\",\"description\":\"'제이 개츠비'라는 이름이 '허상'으로 풀어 옮겨짐. 이름이 깨졌다는 표현이 가공된 인물상이라는 해석으로 구체화됨. 다만 문맥상 같은 사태를 가리킴.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물·행위·인과가 모두 유지됩니다. '허상'은 가공된 정체성이라는 같은 사태를 풀어 쓴 해석 차이이고 'hard malice'의 '완고한'은 평가어 정도의 차이입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'because'의 인과가 '-었기에'로 유지되고 'he/me/it'의 지시 대상도 그대로이며 초점 구조(It was this night that)도 '바로 그날 밤이었다'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"회상 서술 → 회상 서술. 이야기를 하게 된 계기를 설명하는 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 평서 문어체 '-었다'로 화자의 담담한 회고 태도가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명만 있고 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 927,
+    "output_tokens": 728,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

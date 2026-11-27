@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9KDxDLTwRHgooVKgAU",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0268\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the melodious names of flowers and months or the sterner ones of the great American capitalists\",\"tgt_span\":\"꽃이나 달의 이름처럼 감미롭거나, 아니면 미국의 거물 자본가들의 성처럼 딱딱했는데\",\"description\":\"성이 꽃·달의 이름 자체이거나 자본가들의 성 자체라는 서술이 '~처럼'이라는 비유로 바뀜. 사실상 같은 사태를 기술하므로 의미를 바꾸는 오류는 아님.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"이름을 잊음, 후보 이름들, 성의 두 부류, 자본가의 사촌이라고 고백함 등 핵심 내용이 모두 유지됩니다. 힌트의 수치 6은 원문 June의 오경보로 보이며 '준'으로 옮겨졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"either…or의 선택 관계, whose cousins의 소유 관계, if pressed의 조건 관계가 '아니면', '사촌쯤', '끈질기게 물어보면'으로 유지되어 세 질문 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 서술·회상(은근한 풍자 포함) → 서술·회상. 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 회상조 서술체가 '~했다' 평서체로 유지되며 비꼬는 태도도 약해지지 않았습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'great American capitalists'가 '미국의 거물 자본가들'로 같은 대상을 가리키며, 이름은 통용 음역입니다. 한국 대응물로 바꾸지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1157,
+    "output_tokens": 832,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

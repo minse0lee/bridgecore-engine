@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9sWBAzc831B1HSBhBR",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1034\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the bright door\",\"tgt_span\":\"환하게 켜진 문틈으로만\",\"description\":\"밝은 '문'(열린 출입구)이 '문틈'으로 바뀌어 빛이 나오는 대상이 달라졌고, '남짓한'이 덧붙어 'ten square feet'의 정확한 수치가 '약 10 이상'으로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 빛을 내보내는 밝은 문이 '문틈'으로 바뀌고 수량에 '남짓한'이 붙어 세부가 달라졌으나, 집 앞은 어둡고 문에서 빛이 쏟아진다는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"only의 초점이 '오직 …로만'으로 문에서 나오는 빛에 그대로 붙어 있고, 세미콜론으로 이어진 대조 관계도 두 문장으로 나뉘었지만 유지됩니다(질문 1·2·3 모두 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사 → 장면 묘사. 서술 기능이 동일하게 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 지문의 서술체('-었다')가 유지되며 특별한 관계·호칭 표현이 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"제곱피트라는 원문 단위를 그대로 유지하여 다른 단위로 바꾸지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 830,
+    "output_tokens": 748,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

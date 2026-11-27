@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9a5wBVEScAvKd9m4vP",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0622\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"whether or not Gatsby went to Coney Island\",\"tgt_span\":\"개츠비가 정말 코니 아일랜드에 갔는지\",\"description\":\"원문에 없는 '정말'이 첨가되어 갔는지 여부에 대한 화자의 의구심이 약간 강조됨. 의미·기능을 바꾸지 않는 사소한 차이.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개츠비가 코니 아일랜드에 갔는지, 아니면 집에 불을 밝혀둔 채 몇 시간 동안 방들을 훑어보았는지 화자가 모른다는 내용이 유지됩니다. '정말'은 의미를 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그래서'가 앞 문장의 인과를 유지하고, 두 가지 가능성의 선택 관계도 '~는지, 아니면 ~는지'로 남아 있으며 'while'의 동시 관계도 '둔 채'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 서술(모른다는 진술) → 서술. 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 화자의 서술체 '~않는다/알지 못한다'가 소설 본문의 어조에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"코니 아일랜드를 '코니 아일랜드'로 정확히 음역해 같은 장소를 가리킵니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 824,
+    "output_tokens": 736,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAnNtrEkMEEQC1y7gJA",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF2294\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"never took a fare past the entrance gate without stopping for a minute\",\"tgt_span\":\"손님을 태우고 정문 앞을 지날 때마다 반드시 잠시 멈춰 서서\",\"description\":\"never…without(이중부정)의 습관적 서술을 '반드시'로 옮김. 지나갈 때마다 멈췄다는 사실은 유지되고 '반드시'는 강조 표현으로 읽힘. 의미 변화 없는 통상적 대응.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"택시 기사의 습관적 행동, 데이지와 개츠비를 태웠을 가능성, 자기 나름의 이야기를 지어냈을 가능성 모두 원문과 같습니다. never…without을 '지날 때마다 반드시'로 옮긴 것은 같은 사태입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"세미콜론 뒤 perhaps 절과 이어지는 관계가 '어쩌면…지도 모르고'로 유지되고, 'he'가 택시 기사를 가리키는 지시 관계도 '그'로 유지됩니다. 문장 분할은 오류가 아닙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 상황 묘사와 추측 → 서술자의 상황 묘사와 추측. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"never는 택시 기사의 습관적 행동을 서술할 뿐 의무·금지 등 규범을 정하지 않습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문의 평서체('~곤 했다', '~모를 일이다')가 서술 상황에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명·지명(이스트에그) 외에 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1148,
+    "output_tokens": 815,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

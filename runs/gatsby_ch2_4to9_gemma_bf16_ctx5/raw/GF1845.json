@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTATRtA3FkcamfedWF5i",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1845\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"some intensity in his conception of the affair that couldn’t be measured\",\"tgt_span\":\"그가 이 관계에 부여한 감정의 깊이가 가늠할 수 없을 만큼 강렬했다는 의심\",\"description\":\"측정할 수 없는 '어떤 강렬함(intensity)'이 있다는 의심이, '감정의 깊이가 헤아릴 수 없을 만큼 강렬했다'는 의심으로 바뀜. some(막연함)이 빠지고 '강렬함'이 '감정의 깊이'로 바뀜. 다만 핵심 내용은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"측정할 수 없는 강렬함을 의심하는 것 외에 달리 해석할 수 없다는 내용이 유지되며, 'intensity'를 '감정의 깊이…강렬'로 풀어 쓴 것은 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'except to'의 예외 관계가 '의심을 품는 것 외에'로 유지되고 his/that의 지시 대상도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대답이 불가능함을 암시하는 수사의문 → 수사의문('무엇을 더 할 수 있었겠는가')으로 같은 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 회상적 어조가 문어체 평서·의문으로 유지되며 관계상 문제될 호칭이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"판정할 문화 고유의 제도·단위·관습 표현이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 641,
+    "output_tokens": 796,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

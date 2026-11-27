@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9DHeJCyuT24CXRnGKk",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0128\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"look at my feet\",\"tgt_span\":\"발 치료를 받으려고\",\"description\":\"발을 '살펴보다'가 '치료를 받다'로 바뀌어 행위가 구체화됨. 다만 문맥상 발 관리 서비스로 읽혀 핵심 사태는 유사함\"},{\"id\":\"E002\",\"src_span\":\"she told her sister in a high, mincing shout\",\"tgt_span\":\"가늘고 콧소리 섞인 높은 목소리로 언니에게 외쳤다\",\"description\":\"mincing(점잔 빼는 교태 어조)이 '가늘고 콧소리 섞인'으로 옮겨져 어조 뉘앙스가 약간 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'look at my feet'(발을 봐 달라고 부름)가 '발 치료를 받으려고'로 바뀌어 행위 내용이 약간 달라졌으나, 부른 여자와 청구서 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 관계와 'when' 시간 연결, 'you'd of thought'의 비교 구조가 '~보니 ~줄 알았다니까'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물이 언니에게 불평·험담을 늘어놓는 서술 → 같은 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"자매 사이의 반말 '얘', '~거야'가 관계에 맞고, 과장된 점잔 빼는 어조도 크게 훼손되지 않았습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 883,
+    "output_tokens": 822,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

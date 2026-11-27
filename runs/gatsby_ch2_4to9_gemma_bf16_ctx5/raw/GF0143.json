@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9DtL867CsnbcaGcvLD",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0143\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Her husband\",\"tgt_span\":\"남편이\",\"description\":\"Her(앞서 언급된 여성 McKee 부인)의 남편이라는 소유 관계가 '남편'으로만 옮겨져 누구의 남편인지 명시되지 않음. 한국어에서 문맥상 추론 가능한 생략으로 의미 변화는 없음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"남편이 쉿 하고 말함, 모두가 다시 대상(모델)을 봄, 톰이 하품하고 일어남이 모두 유지되며 subject를 '모델'로 옮긴 것도 문맥상 같은 대상입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'her'의 소유 관계가 '남편'으로 생략되었으나 문맥상 같은 인물로 읽히고, whereupon의 시간·인과적 연결은 '그 순간'으로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사 묘사 → 서사 묘사. 장면을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 같은 규범 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 평서체가 유지되고, 톰의 무례한 태도는 '들으라는 듯'으로 전달되며 관계·호칭 변화는 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명만 있고 별도로 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 631,
+    "output_tokens": 711,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

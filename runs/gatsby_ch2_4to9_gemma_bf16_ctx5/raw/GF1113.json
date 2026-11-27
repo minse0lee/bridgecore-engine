@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9vpwNEbiDotn5D4W3w",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1113\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“sir”\",\"tgt_span\":\"“손님”\",\"description\":\"경칭 'sir'(상대에게 붙이는 존칭 호칭)가 '손님'이라는 다른 호칭으로 바뀌어, 상대를 높이는 호칭이 고객 역할 호칭으로 읽히고 원문에 없는 역할이 덧붙음\"},{\"id\":\"E002\",\"src_span\":\"in a dilatory, grudging way\",\"tgt_span\":\"마지못해 억지로\",\"description\":\"'dilatory'(꾸물거리며 늦장 부리는 태도)에 해당하는 의미가 빠지고 '마지못해 억지로'로 옮겨져 grudging만 남음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'sir'가 '손님'으로 바뀌어 덧붙인 호칭이 달라졌고, dilatory(늦장)의 뜻이 약화되었으나 '잠시 후 호칭을 마지못해 덧붙였다'는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그'의 지시 대상, 시간 순서(잠시 후 덧붙임) 연결, 초점 표현 모두 유지되었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물의 마지못한 태도를 묘사하는 서술 → 같은 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 'sir'는 상대를 높이는 경칭인데 '손님'은 고객 역할을 덧붙이는 호칭이어서 관계에 없는 역할이 생겼습니다. 다만 마지못한 존대 표시라는 서술 요지는 남아 minor입니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 영어권 경칭 'sir'의 호칭 관습이 '손님'이라는 다른 의미로 바뀌어 독자가 경칭 관습을 이해하기 어렵습니다. 의미 전달에는 큰 영향이 없어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 501,
+    "output_tokens": 953,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9hmy9qECGfR1Db6xUg",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0804\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"He’s dead now.\",\"tgt_span\":\"지금은 돌아가셨어요.\",\"description\":\"주어 'He'를 생략하고 '돌아가셨어요'라는 높임 표현을 썼다. 죽은 사람은 화자의 가장 친한 친구인데 존대 대상으로 높여, 화자와 고인의 관계에 맞지 않는 높임이 되었다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"그는 이제 죽었고 오래전 가장 친한 친구였다는 내용, 시간(now, years ago)과 과거 습관(used to)이 유지됩니다. 높임 표현은 의미 내용이 아닙니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'He'가 생략됐지만 앞 문맥상 같은 인물을 가리키고, 두 문장의 연결(죽음 → 과거의 관계)은 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물에 관한 사실 진술 → 사실 진술. 대화 속 설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 고인은 화자와 친구 사이로 높임 대상이 아닌데 '돌아가셨어요'로 높여 관계에 맞지 않습니다. 독자가 요지를 다르게 이해하거나 행동에 영향을 받지는 않아 minor입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 481,
+    "output_tokens": 752,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

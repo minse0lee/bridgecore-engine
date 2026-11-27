@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9LKSPYYWnod2Ta3TT9",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0291\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"something about my life\",\"tgt_span\":\"내 인생에 대해 몇 가지 이야기를\",\"description\":\"'something'(불특정한 어떤 것)이 '몇 가지 이야기'로 옮겨져 수량 표현이 다소 달라졌으나 핵심 사실은 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'something'을 '몇 가지 이야기'로 옮긴 것은 통상적인 대응 범위이며, 화자(he)가 자기 인생에 대해 말하려 한다는 내용과 말을 가로챘다는 행위가 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Well'이 '저기'로 옮겨져 화제 전환 기능이 남아 있고, 'my'·'you'의 지시 대상과 연결 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 상대의 말을 끊고 자기 이야기를 시작하겠다고 알리는 서술 → 동일한 기능입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 소설 속 의사 표명입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'해줄게요' 해요체는 Gatsby가 Nick에게 정중하면서 친근하게 말하는 상황과 맞고, 문단 번역의 '원치 않거든요'와도 일관됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 573,
+    "output_tokens": 713,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

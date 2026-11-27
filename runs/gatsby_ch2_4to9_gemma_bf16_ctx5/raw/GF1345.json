@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTA6F7Rb6ZCtdErbC4Qh",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1345\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"My wife and I want to go West.\",\"tgt_span\":\"아내와 함께 서부로 가려고요.\",\"description\":\"'want to go'(바람)가 '가려고요'(의도·계획)로 옮겨져 확실성이 약간 높아짐. 핵심 사실은 유지되어 경미함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): 'want to go'의 바람이 '가려고요'라는 의도·계획 표현으로 옮겨져 확실성이 약간 달라졌으나, 화자 부부가 서부로 간다는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현의 대상이 바뀌지 않았습니다. 질문 1·2·3 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 떠나고 싶다는 심정과 계획 진술 → 같은 심정과 계획 진술로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없고 개인의 바람을 말하는 대화입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"번역문이 '요/습니다'를 섞은 존댓말을 쓰는데, 화자와 청자의 관계와 격식 수준을 확인해야 적절성을 판정할 수 있습니다. 이 문장만으로는 청자의 신분을 알 수 없으므로 화자·청자 관계 정보가 필요합니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'West'를 '서부'로 옮겨 같은 지역을 가리키며 한국어 독자가 이해할 수 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 530,
+    "output_tokens": 778,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

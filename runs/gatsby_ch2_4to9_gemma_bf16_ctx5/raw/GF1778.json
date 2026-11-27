@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAQZGKj7JWzKLVGzd61",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1778\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"stale, dry cigarettes\",\"tgt_span\":\"눅눅하고 마른 담배\",\"description\":\"stale(오래되어 신선함을 잃은)을 '눅눅하고'로 옮겨 dry와 함께 '눅눅하고 마른'이라는 모순된 표현이 됨. 오래되고 마른 담배라는 상태가 달라짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: stale(오래되어 퀴퀴한)이 '눅눅한'으로 바뀌어 dry와 모순되는 상태 묘사가 되었으나, 담배 두 개비가 든 보관함을 찾았다는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사·연결·초점 표현의 대상이 바뀌지 않았고, with 구문이 '안에는 ~ 들어 있었다'로 자연스럽게 이어집니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 장면을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술의 소설 본문 문체가 평서형 서술체로 유지되며 특별한 높임·호칭 관계가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"humidor를 '시가 보관함'으로 옮겨 같은 대상을 가리키며 독자가 이해할 수 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1006,
+    "output_tokens": 727,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

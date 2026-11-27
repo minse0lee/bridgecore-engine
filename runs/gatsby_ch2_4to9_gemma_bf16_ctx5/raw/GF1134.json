@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9wk3xvk75ko5sGaXK2",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1134\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the rather harrowing scene that Gatsby had outlined in the garden\",\"tgt_span\":\"개츠비가 정원에서 묘사했던 그 끔찍한 상황이 벌어질 리는 더더욱 없었다\",\"description\":\"'scene'(소란·언쟁 장면)이 '상황'으로 바뀌어 앞의 '소란을 피우는 장소'와의 연결이 약해졌고, 'rather harrowing'의 정도('꽤')가 '끔찍한'으로 강해짐. 의미 변화는 경미함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"믿기 어려웠다는 내용, 그들이 이 자리를 택한다는 가정, 개츠비가 정원에서 설명한 장면이 모두 유지되며, 달라진 것은 평가어의 정도(rather harrowing → 끔찍한)뿐입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"And yet는 '그렇지만', especially는 '특히'로 대조·초점이 유지되고 'that scene'을 '그 끔찍한 상황'으로 지시하는 관계도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 의구심과 판단을 서술 → 서술. 같은 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 소설 서술체가 '-었다' 서술체로 유지되며 관계나 태도가 바뀌지 않았습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 897,
+    "output_tokens": 767,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

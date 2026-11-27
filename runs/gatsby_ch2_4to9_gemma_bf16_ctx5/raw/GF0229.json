@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9HZ5bg3TnUjnuHw4Gh",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0229\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Mrs. Wilson\",\"tgt_span\":\"머틀 윌슨 씨\",\"description\":\"'Mrs. Wilson'(윌슨 부인)이 '머틀 윌슨 씨'로 바뀜: 원문에 없는 이름 'Myrtle'이 첨가되고, 기혼 여성 경칭 Mrs.가 성별 중립 호칭 '씨'로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"데이지를 세 번 외친 행위와 화자(윌슨 부인)가 유지되며, 이름 첨가는 같은 인물을 가리키므로 내용 변화로 보지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현의 변화가 없고 화자 지시 대상도 동일합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 데이지의 이름을 외치며 도발하는 발화 → 동일한 외침 발화.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(호칭): 'Mrs.'가 '씨'로 바뀌어 기혼 여성이라는 호칭의 성격이 사라지고, 원문에 없는 이름 '머틀'이 덧붙었습니다. 다만 지칭 대상이 같고 서술문 속 호칭이라 독자의 이해와 행동에는 영향이 작아 minor입니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(관습): 'Mrs.'라는 영미권의 기혼 여성 호칭 관습이 성별 중립적인 '씨'로 바뀌어 기혼 여성이라는 문화적 함의가 사라졌습니다. 같은 인물을 가리키므로 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 565,
+    "output_tokens": 827,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

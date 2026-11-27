@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9AiWgRCHXppnAL6YtN",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0074\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“That’s no police dog,”\",\"tgt_span\":\"\\\"경찰견은 아니네요,\\\"\",\"description\":\"원문에 없는 높임 종결어미 '-네요'가 쓰여 톰의 말투가 존대로 바뀌고 감탄·발견의 뉘앙스가 덧붙음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그것은 경찰견이 아니다'라는 부정 판단과 발화자 톰이 동일하게 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 대상, 연결, 초점 표현에서 달라진 것이 없습니다. '-은'은 부정 대조의 통상적 대응입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물의 단정적 평가 발화 → 평가 발화. 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 같은 규범 의미가 없는 문장입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·3: 톰은 이 장면에서 거칠고 단정적으로 말하는 인물인데 '-네요' 존대체로 옮겨 말투와 태도가 달라졌습니다. 다만 요지와 행동에는 영향이 없어 minor입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'경찰견'은 일반 어휘이며 문화 고유의 제도·관습·단위로 판정할 대상이 아닙니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 443,
+    "output_tokens": 690,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

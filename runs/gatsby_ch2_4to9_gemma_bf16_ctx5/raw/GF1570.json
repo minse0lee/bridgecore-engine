@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAFphkSkAtBRkga1Evm",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1570\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"this is said in all contempt for the babbled slander of his garden\",\"tgt_span\":\"그의 정원에서 떠돌던 근거 없는 헛소문들을 완전히 무시하고 말하자면 그랬다\",\"description\":\"화자가 헛소문에 대한 경멸을 표하며 삽입구로 말한다는 뜻이 '헛소문을 완전히 무시하고 말하자면'으로 바뀌어, 경멸(태도)이 무시(행위)로 약화·변경됨. 또한 헛소문이 비유(killed a man)와 관련된다는 점이 불분명해짐.\"},{\"id\":\"E002\",\"src_span\":\"He looked—and this is said … —as if he had “killed a man.”\",\"tgt_span\":\"그는 마치 '사람을 죽인' 사람처럼 보였다. … 말하자면 그랬다.\",\"description\":\"삽입구가 문장 뒤로 옮겨져 '그랬다'가 앞의 서술을 단서 붙여 확인하는 방식으로 바뀜. 헛소문을 경멸하면서도 이 비유를 쓴다는 양보적 단서가 사라짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: '헛소문에 대한 경멸을 담아 말한다'가 '헛소문을 완전히 무시하고 말하자면'으로 바뀌어 화자의 태도 내용이 달라졌으나, 핵심 사실(사람을 죽인 듯한 표정)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: 삽입구가 '헛소문을 경멸하면서도 이 비유가 이 순간엔 맞는다'는 양보적 연결을 맺는데, 번역은 이를 단순한 부연 '그랬다'로 바꿔 연결 관계가 달라졌습니다. 다만 요지는 크게 달라지지 않아 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 표정 묘사 서술(삽입 논평 포함) → 표정 묘사 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 소설 서술입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3: 헛소문에 대한 화자의 경멸·비하 태도가 '무시하고'로 약해져 태도가 사라졌습니다. 서술 이해에는 큰 영향이 없어 minor입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 881,
+    "output_tokens": 1098,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

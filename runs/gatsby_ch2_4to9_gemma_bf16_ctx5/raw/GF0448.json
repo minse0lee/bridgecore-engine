@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9T577x9nSQiiJP1TeK",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0448\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Who is he\",\"tgt_span\":\"그분은 대체 뭐 하시는 분이죠?\",\"description\":\"'그가 누구인가(정체)'를 '뭐 하시는 분인가(직업·하는 일)'로 바꾸고 '그분'·'하시는'으로 높임을 더함. 다만 뒤의 '배우인가요?'가 이어져 질문의 요지는 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'누구인가'가 '뭐 하시는 분인가'로 표현이 달라졌지만, 뒤따르는 '배우인가요?'와 함께 읽으면 그의 정체·직업을 묻는 같은 사태를 기술하며 anyhow도 '대체'로 반영됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'he'가 '그분'으로 같은 인물을 가리키고, 두 질문의 연결 관계와 anyhow의 화제 전환 기능('그런데')이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물의 정체를 묻는 질문 → 인물의 정체를 묻는 질문. 의문문 기능이 그대로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 질문입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[\"E001\"],\"reason\":\"번역은 '그분', '하시는 분', '-요'로 높임을 쓰는데, 화자와 개츠비의 관계·화자의 태도(존대 대상인지, 경멸 섞인 어조인지)를 알 수 없어 적절성을 판단하기 어렵습니다. 화자와 청자·대상 인물 간 관계 정보가 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 470,
+    "output_tokens": 805,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

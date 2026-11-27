@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAvVJnHi9bR8muKcm3Y",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1684\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Self-consciously, with his authoritative arms breaking the way\",\"tgt_span\":\"톰이 위압적인 팔로 길을 터주자, 우리는 남들의 시선을 의식하며\",\"description\":\"자의식적으로(어색해하며) 행동한 주체가 불분명한 원문을, 우리가 남들의 시선을 의식한 것으로 옮김. 해석이 한정되고 '톰'이 첨가됨(문단 문맥상 톰은 타당한 지시 대상).\"},{\"id\":\"E002\",\"src_span\":\"passing a hurried doctor\",\"tgt_span\":\"서두르는 의사와 마주쳤는데\",\"description\":\"passing(스쳐 지나감)이 '마주쳤다'로 바뀌어 약간의 뉘앙스 차이가 있으나 사태는 유사함.\"},{\"id\":\"E003\",\"src_span\":\"sent for in wild hope\",\"tgt_span\":\"누군가의 간절한 희망 속에 호출된\",\"description\":\"'누군가의'가 첨가되고 wild hope의 절박함이 '간절한'으로 옮겨짐. 정도 차이.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰의 팔로 길을 열고 군중을 밀치며 의사를 지나쳤고 의사가 30분 전 호출되었다는 핵심 내용이 유지됩니다. 'Self-consciously'의 해석 차이, '누군가의' 첨가, '마주쳤는데'는 정도·표현 차이로 사태가 바뀌지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그 과정에서'와 관계절이 길을 트는 일, 군중을 통과하는 일, 의사를 지나치는 일의 연결과 의사에 대한 수식 관계를 유지하며 지시·초점 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 소설 속 사건 묘사 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체의 '~했다' 평서체가 유지되며 인물 간 호칭·높임 관계가 특별히 문제되지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 판정할 문화 고유의 제도·단위·관습 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 782,
+    "output_tokens": 1012,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9d1hX6zpFLAF16HZ2c",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0693\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"out of the thousand in my head\",\"tgt_span\":\"머릿속에 수천 가지 이야기가 떠돌았지만\",\"description\":\"'머릿속 천 개의 상투적인 말 중 하나'라는 포함 관계가 '머릿속에 수천 가지 이야기가 떠돌았다'는 별개의 서술로 바뀌고, thousand(천)가 '수천'으로 바뀌었다. 그러나 핵심 사태(할 말이 떠오르지 않음)는 유지된다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(수량): 천 개(thousand)가 '수천 가지'로 바뀌고, 머릿속 상투적 말들이 '이야기'로 바뀌었다. 평범한 말 한마디도 떠올리지 못했다는 요지는 유지되어 minor이다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'out of the thousand'의 포함 관계가 '-지만' 대조로 재구성되었으나 많은 것 중 하나도 못 떠올렸다는 대비 관계는 남아 있어 질문 1·2·3 모두 아니오이다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(말문이 막힌 상태 묘사) → 서술. 기능이 유지된다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 소설 서술이다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술의 평서체 '-었다'가 유지되며 특별한 호칭이나 격식 문제가 없다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"판정할 문화 고유의 제도나 관습, 단위가 없다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 614,
+    "output_tokens": 755,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

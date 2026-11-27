@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAHjUXmeybug8Fo6EQM",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1612\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"He supposed he forgot to\",\"tgt_span\":\"잊어버린 모양이었다\",\"description\":\"주어 '그(미카엘리스)'가 번역문에서 생략되었고, '잊은 것은 돌아오기'라는 대상도 명시되지 않았다. 또한 '그가 그렇게 생각했다'는 서술이 서술자의 추측 '모양이었다'로 읽힐 수 있다. 다만 앞 문맥상 주체와 대상은 복원 가능하여 의미 변화는 작다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"판단 질문 1: 주체(미카엘리스)와 대상(돌아오기)은 앞 문장에서 복원되며, '잊어버린 모양이었다'가 추측의 확실성도 유지하므로 달라진 항목이 없습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그저'가 that's all의 한정 초점을 유지하고 생략된 주어·목적어는 앞 문장 '돌아오지 않았다'로 이어져 지시 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물의 추측·자기 합리화 서술 → 추측 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 '~었다'로 유지되며 화자·청자 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 955,
+    "output_tokens": 743,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9DxAo6beV9qdvdSQAR",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0146\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"told that boy about the ice\",\"tgt_span\":\"그 애한테 얼음 가져오라고 말했는데요\",\"description\":\"'얼음에 관해 말했다'가 '얼음을 가져오라고 말했다'로 구체화됨. 요청 내용이 원문보다 한정되어 표현됨. 문맥상 같은 사태를 가리키는 자연스러운 보충으로 보이며 의미·기능은 크게 달라지지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자, 그 소년, 얼음에 관해 말했다는 사태가 유지되며, '가져오라고'는 문맥상 자연스러운 구체화로 핵심 내용을 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 대상(그 애, 얼음)과 연결 관계가 유지되고 초점 표현의 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"하인 같은 소년에게 일을 시켰다고 불평하는 진술 → 같은 불평 진술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"과거에 말했다는 서술일 뿐 의무·허가·금지를 정하는 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그 애'와 '~했는데요'가 하층민을 낮춰 보는 화자의 태도와 구어체 말투를 유지합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 571,
+    "output_tokens": 718,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9cmu3kui49tp1JfMVN",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0686\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"stared down at Daisy\",\"tgt_span\":\"눈을 내려뜨려 … 바라보았다\",\"description\":\"stared down(내려다보며 응시함)이 '눈을 내려뜨려 바라보았다'로 바뀌어 응시의 강도가 약해짐. 다만 아래쪽의 데이지를 바라보는 사태는 유지됨.\"},{\"id\":\"E002\",\"src_span\":\"a defunct mantelpiece clock\",\"tgt_span\":\"멈춰버린 벽난로 시계\",\"description\":\"defunct(작동하지 않는)를 '멈춰버린'으로 옮김. 통상적 대응이며 의미 차이가 없음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"고개를 젖혀 멈춘 시계에 기대고, 초조한 눈으로 의자 끝에 앉은 데이지를 내려다보는 내용이 유지됩니다. 'stared'의 응시 강도가 약해졌으나 정도 차이에 그칩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'his'는 '그'(개츠비)로, 'who'절은 데이지를 수식하는 관계로 유지되며, so far that 결과 구문도 '너무 젖힌 나머지'로 보존됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사 서술 → 장면 묘사 서술. 기능이 동일합니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 인물의 자세를 묘사하는 문장이며 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 문체의 평서 종결로 유지되며 인물 간 관계 표현은 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없고 인명만 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 907,
+    "output_tokens": 812,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

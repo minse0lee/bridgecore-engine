@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTA116AebftKvFr1wrcp",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1213\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I’m right across from you.\",\"tgt_span\":\"바로 저 건너편에 살고 있습니다.\",\"description\":\"원문에 없는 '살고 있다'(거주)가 더해지고 'from you'(당신 맞은편)의 기준이 '저'(막연한 건너편)로 바뀜. 위치 진술이 거주 진술로 구체화되었고 기준점이 흐려짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'right across from you'의 위치 진술에 '살고 있다'라는 거주 행위가 더해졌습니다. 다만 이 장면에서 화자가 건너편 집에 산다는 뜻으로 읽혀 요지는 크게 다르지 않아 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'from you'가 가리키는 기준 대상(청자)이 번역문에서 사라지고 '저 건너편'으로 바뀌어 지시 관계가 흐려졌습니다. 다만 대화 상황에서 청자 기준임을 짐작할 수 있어 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"자신의 위치 설명(대화 속 정보 제공) → 자신의 위치 설명. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 평서문입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'~습니다' 합쇼체가 두 화자의 관계에 맞는지 판단하려면 화자와 청자의 관계(관계 및 대화 장면) 정보가 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 432,
+    "output_tokens": 790,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

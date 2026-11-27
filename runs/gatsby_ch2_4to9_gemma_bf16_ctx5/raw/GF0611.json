@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9ZfS2bL1M6cRABD8rg",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0611\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I thought you didn’t\",\"tgt_span\":\"그렇지 않을 것 같아서 말이죠\",\"description\":\"didn't 뒤에 생략된 내용(앞 맥락상 돈을 많이 벌지 못한다는 취지)이 '그렇지 않을 것 같아서'로 옮겨져 무엇이 아닌지 불분명해지고, 생각의 내용이 모호해짐\"},{\"id\":\"E002\",\"src_span\":\"old sport\",\"tgt_span\":\"친구\",\"description\":\"Gatsby 특유의 호칭 'old sport'가 일반 호칭 '친구'로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"판단 질문 1: 부업 사업, 수입이 많지 않다면, 채권을 파는지 묻는 내용이 유지됩니다. 'didn't'의 생략된 내용은 원문도 모호하며 번역도 같은 정도로 모호하게 남깁니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"중단·생략된 발화와 'if you don't make very much'의 조건 연결이 '많지 않으시다면'으로 유지되어 세 질문 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조심스럽게 상대의 직업을 떠보는 확인 질문 → 조심스럽게 떠보는 확인 질문. 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 대화입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 3: Gatsby 특유의 친밀하고 과시적인 호칭 'old sport'가 평범한 '친구'로 바뀌어 화자의 태도가 약해졌습니다. 다만 존댓말 사용 자체는 관계에 맞아 영향이 작습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 795,
+    "output_tokens": 856,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

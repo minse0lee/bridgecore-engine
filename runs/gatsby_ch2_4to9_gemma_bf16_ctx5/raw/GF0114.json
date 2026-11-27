@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9CVuDFw9CRc9VCew6f",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0114\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"about thirty\",\"tgt_span\":\"서른 살쯤 되어 보이는\",\"description\":\"실제 나이 추정(약 서른)이 '서른 살쯤 되어 보이는'이라는 외모 기반 판단으로 바뀜. 핵심 정보는 유지되어 확실성만 약간 달라짐\"},{\"id\":\"E002\",\"src_span\":\"The sister\",\"tgt_span\":\"동생인 캐서린\",\"description\":\"sister를 '동생'으로 옮겨 원문에 없는 손아래 관계를 특정함. 문맥상 Myrtle의 언니이므로 관계가 반대로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\",\"E001\"],\"reason\":\"판단 질문 1(인물·관계): sister를 '동생'으로 옮겨 원문에 없는 손아래 관계를 단정했고, 실제 나이를 외모 추정('되어 보이는')으로 바꿔 확실성도 달라졌습니다. 독자가 인물 관계를 다르게 이해하게 되므로 major입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현이 바뀌지 않았고 문장 분할로 관계가 변하지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 묘사 서술 → 인물 묘사 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 외양을 묘사하는 문장으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 평서체 문어 어조가 유지되며 화자와 대상 사이의 태도 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1209,
+    "output_tokens": 791,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

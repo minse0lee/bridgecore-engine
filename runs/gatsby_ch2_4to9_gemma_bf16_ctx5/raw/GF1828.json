@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTASnBGCrFRibUdbLZdo",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1828\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"half a dozen dates a day with half a dozen men\",\"tgt_span\":\"하루에 대여섯 명의 남자와 대여섯 번의 데이트\",\"description\":\"half a dozen(6)을 '대여섯'(5~6)으로 옮겨 정확한 수량이 근사치로 바뀜. 통상적인 관용 대응에 가까워 영향은 작음\"},{\"id\":\"E002\",\"src_span\":\"keeping half a dozen dates a day\",\"tgt_span\":\"데이트를 즐겼고\",\"description\":\"'약속을 지키다/소화하다'가 '즐겼다'로 바뀌어 화자의 태도·평가가 달라짐\"},{\"id\":\"E003\",\"src_span\":\"drowsing asleep at dawn\",\"tgt_span\":\"새벽녘이면 … 잠이 들곤 했다\",\"description\":\"'drowsing asleep'(꾸벅꾸벅 졸며 잠듦)이 일반적인 '잠이 들곤 했다'로 바뀌고 반복 표현이 추가되었으나 의미 변화는 미미함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(수량): half a dozen(6)이 '대여섯'으로 근사화되었고, keeping dates(약속을 소화함)가 '데이트를 즐겼다'로 바뀌어 항목이 달라졌으나 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'suddenly … again'의 시간 연결과 '다시', 시간·장소 지시 관계가 '어느덧', '다시' 등으로 유지되며 지시·연결·초점의 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사 묘사 → 서사 묘사. 데이지의 생활을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문의 '-했다' 평서체가 유지되고 화자·청자 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 문화·제도 고유의 대상이 없습니다. 수량 표현은 Semantic에서 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1255,
+    "output_tokens": 967,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9sn8rhaLTCbH7R7dK9",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1040\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"are just big bootleggers\",\"tgt_span\":\"밀주업자로 돈을 번 사람이 수두룩하거든\",\"description\":\"'big bootleggers'(큰 규모의 밀주업자)에서 'big'과 'just'의 뉘앙스가 약해지고, 'bootleggers'가 '밀주업자로 돈을 번 사람'으로 풀어 옮겨짐. 핵심 내용은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"짐작이었다는 점과 벼락부자 중 상당수가 밀주업자라는 내용이 유지됩니다. 'big'과 'just'의 정도 차이는 평가어 수준의 차이에 그칩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'들은 게 아니라 짐작한 거야'로 대조 관계가 유지되고, '~거든'으로 뒤 문장이 근거를 제시하는 관계도 남아 있습니다. 지시·초점 관계의 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"추측임을 밝히고 근거를 덧붙이는 대화 설명 → 같은 설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등의 규범 의미가 없는 대화 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'you know'가 드러내는 구어적·친근한 대화 태도가 반말 종결 '~거야', '~거든'으로 유지됩니다. 화자와 청자의 정확한 관계 정보는 없으나 훼손을 판단할 근거는 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"금주법 시대 'bootleggers'가 '밀주업자'로 옮겨져 같은 대상을 가리키며, 한국어 독자가 의미를 이해할 수 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 570,
+    "output_tokens": 817,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

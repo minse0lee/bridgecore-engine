@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9YtKAJhdfzgo5nVPSw",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0591\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Miss Baker\",\"tgt_span\":\"조던 베이커 양\",\"description\":\"원문에 없는 이름 'Jordan'(조던)이 첨가됨. 같은 인물을 가리키므로 의미 변화는 없는 명시화.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 잠시 후 베이커 양과 이야기를 나눴다는 내용이 유지됩니다. '조던'은 소설 속 같은 인물을 명시한 것으로 지시 대상이 바뀌지 않았습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'after a moment'가 '잠시 후'로, 화자 지시 'I said'가 '내가 말했다'로 유지되어 지시·시간 연결이 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 대화 보고 → 대화 보고. 화자가 상대에게 사실을 알리는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-어요'체와 '양' 호칭이 화자가 Miss Baker를 존중해 부르는 태도와 정중한 대화 상황에 맞습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"호칭 'Miss'가 '양'으로 대응되어 미혼 여성에 대한 경칭의 의미가 전달됩니다. 인명 자체만 있는 것이 아니라 호칭이 있어 N/A가 아닙니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 560,
+    "output_tokens": 716,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

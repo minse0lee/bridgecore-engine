@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTATKPjQnz81WDBuLvon",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1840\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"that made it look as if I was some kind of cheap sharper\",\"tgt_span\":\"내가 마치 싸구려 사기꾼이라도 되는 것처럼 보였을 겁니다\",\"description\":\"사실로 서술된 '(그가 말한 방식이) 나를 사기꾼처럼 보이게 만들었다'가 추측('보였을 겁니다')으로 바뀌어 확실성이 달라짐. 또한 '보이게 만든 것'의 주어가 불분명해짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): 원문은 그가 그렇게 보이게 만들었다는 사실 진술인데 번역은 '보였을 겁니다'라는 추측이 되었으나, 핵심 사실(겁을 줌, 사기꾼처럼 보임, 제대로 몰랐음)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사 지시(그녀·그 사람·내가)와 '그래서'의 결과 연결, 겁을 주는 방식과 사기꾼으로 보임의 인과 연결이 유지됩니다(질문 1·2·3 모두 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대에게 상기시키며 Daisy의 말을 해명하는 설명·변명 → 같은 기능의 설명·변명. '잊지 마세요'로 상기 요청 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"must는 '기억해 두라'는 강한 권유이지만 규범·자격·안전 규칙을 정하는 문장이 아니라 대화 속 개인적 당부이므로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개츠비가 닉에게 'old sport'로 부르는 정중하고 친근한 말투가 '~세요/~어요'체와 '친구'로 유지되어 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'old sport'는 호칭이지만 비칭이나 제도·단위·관습 같은 문화 고유 대상이 아니며 판정할 문화적 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1029,
+    "output_tokens": 928,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

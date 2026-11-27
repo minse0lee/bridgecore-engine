@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAnGk1gKb76mFDPpD11",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF2292\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"rid of my provincial squeamishness forever\",\"tgt_span\":\"나는 내 안의 촌스러운 결벽증을 영원히 떨쳐버렸다.\",\"description\":\"'그(Tom)가 나의 촌스러운 결벽증에서 벗어난 상태로 보석 가게에 들어갔다'는 분사구문(행위자 he, Nick의 결벽증을 그가 없앰/그에게서 벗어남)이 '나는 ... 떨쳐버렸다'로 바뀌어 주어가 he에서 I로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"or perhaps only a pair of cuff buttons\",\"tgt_span\":\"아니면 그저 커프스 단추 한 쌍이라도\",\"description\":\"'아마도 그저 커프스 단추 한 쌍(을 사러)'라는 추측이 '이라도'로 바뀌어 뉘앙스가 약간 달라짐(대안 제시 vs 최소 양보)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물·행위): 원문은 분사구문 'rid of my provincial squeamishness forever'가 he를 수식해 '내 촌스러운 결벽증에서 영원히 벗어난 채(그의 행동)' 또는 문맥상 서술자가 떨쳐낸 상태를 말하나, 번역은 별도 문장 '나는 ... 떨쳐버렸다'로 행위자와 관계를 바꾸어 서술했습니다. 다만 번역문만으로 요지를 다르게 이해할 수 있어 major로 봅니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2: 분사구문이 문장 내에서 앞 행위와 맺는 부대 상황 연결이 독립 문장으로 분리되어 시간·상황 연결이 약해지고 지시 관계(누가 벗어났는가)가 흐려졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사 기술 → 서사 기술. 소설 본문에서 사건과 서술자의 심경을 전하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 '-다'가 유지되며 관계에 맞는 격식입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 783,
+    "output_tokens": 1052,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

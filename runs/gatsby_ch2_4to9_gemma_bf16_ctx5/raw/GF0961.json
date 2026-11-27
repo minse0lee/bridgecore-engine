@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9pSPdkMfSif974ovfo",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0961\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"The rest of us walked out on the porch, where Sloane and the lady began\",\"tgt_span\":\"나머지 일행이 현관 테라스로 나가자, 슬론 씨와 그 여인은\",\"description\":\"원문은 화자(us)를 포함한 나머지 사람들이 포치로 나갔고 그곳(where)에서 슬론과 여인이 대화를 시작했다고 서술. 번역은 슬론과 여인도 나가는 흐름이 불분명하며 '나가자'로 시간 관계로 바꿈. 단, 장소 관계(where)가 약해짐. 의미 변화는 크지 않아 오류로 보기 어려움.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"나머지 일행의 이동, 슬론과 여인이 열띤 대화를 시작한 내용이 유지됩니다. '일행'은 화자 포함 의미로 읽히고 '물러나'는 aside를 옮긴 것입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"where의 장소·시간 연결이 '나가자'로 재구성되어 순서 관계가 남아 있고, 지시·초점 관계는 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사 진행 서술 → 서사 진행 서술. 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 '-했다'가 유지되고 '슬론 씨'는 서술 상황에 무리가 없는 호칭입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 566,
+    "output_tokens": 774,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9coVYjykvPG2NtzfuY",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0689\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"tilt dangerously at the pressure of his head\",\"tgt_span\":\"머리에 눌려 있던 시계가 위태롭게 기울어졌고\",\"description\":\"시계가 그의 머리 압력에 기울어진 것인데, 번역은 '머리에 눌려 있던 시계'로 옮겨 시계가 이미 머리에 눌려 있던 상태로 읽힘. 다만 머리를 기댄 압력으로 기울어졌다는 인과가 '눌려 있던'으로 대체로 유지되어 의미 변화는 경미함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"시계가 기울어짐, 그가 몸을 돌려 붙잡음, 제자리에 놓음의 행위자·행위·순서가 유지됩니다. '머리에 눌려 있던'은 압력에 의한 기울어짐을 같은 사태로 전달합니다. 'turned'를 '얼른'으로 부가한 정도는 평가어 수준입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"whereupon의 '그러자'에 해당하는 시간·인과 연결이 '기울어졌고, 그는 … 붙잡아'로 순서대로 유지되고, 대명사 it·his의 지시도 시계와 개츠비로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사 묘사 → 서사 묘사. 개츠비의 어색함과 긴장을 보여 주는 장면 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 서술 문장으로 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 청자 사이의 높임·호칭 관계가 드러나는 대화가 아니라 서술문이며 평가할 대상이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 876,
+    "output_tokens": 851,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

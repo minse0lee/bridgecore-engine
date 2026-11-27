@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAH5VnJieq3CVEyxbx6",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1600\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"pale as his own pale hair\",\"tgt_span\":\"머리카락만큼이나 안색이 창백했고\",\"description\":\"'his own pale hair'의 소유자(윌슨)가 번역문에서 명시되지 않았고, 앞 문장 '그는 정말로 아픈 상태였다'의 '그'가 직전 문장에서 미카엘리스와 윌슨 중 누구인지 모호해져 지시 대상이 불분명해짐\"},{\"id\":\"E002\",\"src_span\":\"slept through the heat\",\"tgt_span\":\"무더위에 지쳐 … 잠을 자다가\",\"description\":\"더위 동안 내내 잤다는 내용이 '무더위에 지쳐' 잤다는 원인 서술로 바뀜(첨가된 인과)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1(인과): 더위 내내 잤다는 서술이 '무더위에 지쳐' 잤다는 원인으로 바뀌었으나 핵심 사실(다섯 시까지 잠, 윌슨 발견)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(지시): 분할된 '그는 정말로 아픈 상태였다'와 '머리카락만큼이나'의 소유 관계가 모호해져, 직전 문장 주어인 '그(미카엘리스)'가 아픈 것으로 읽힐 수 있으나 문맥상 복원 가능해 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사 묘사 → 서사 묘사. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 평서체 격식이 유지되며 관계상 문제 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 판정할 문화 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1047,
+    "output_tokens": 853,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

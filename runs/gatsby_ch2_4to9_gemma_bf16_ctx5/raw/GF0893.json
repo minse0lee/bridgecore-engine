@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9mkVUSgN7E6783ns96",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0893\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a grey, florid man with a hard, empty face\",\"tgt_span\":\"창백하면서도 붉은 기가 도는 얼굴에, 딱딱하고 공허한 표정을 지은 남자였다\",\"description\":\"회색(머리) 및 혈색 좋은 남자로 묘사된 것이 '창백하면서도 붉은 기가 도는 얼굴'로 바뀜. grey는 머리색 또는 안색으로 읽힐 수 있으나 번역은 창백한 얼굴로 한정함. 경미한 묘사 변화.\"},{\"id\":\"E002\",\"src_span\":\"American life\",\"tgt_span\":\"미국 역사\",\"description\":\"'미국의 삶(생활)'이 '미국 역사'로 바뀌어 범위가 약간 달라짐. 의미 영향은 작음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'grey, florid man'이 '창백하면서도 붉은 기가 도는 얼굴'로, 'American life'가 '미국 역사'로 바뀌어 세부 묘사가 달라졌으나 초상화 속 인물과 핵심 서술은 유지되어 요지와 행동 이해에는 영향이 작습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사 him, who 관계절의 선행사(the pioneer debauchee)와 연결 관계가 문장 분할 후에도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 회상·묘사 서술 → 인물 회상·묘사 서술로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가를 정하는 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자 회상의 서술체 문어 톤이 유지되며 '방탕아'로 인물에 대한 비판적 태도도 전달됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"frontier brothel and saloon, Eastern seaboard가 '개척지 사창가와 술집', '동부 해안'으로 같은 대상을 가리키며 한국어 독자가 이해할 수 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1022,
+    "output_tokens": 920,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

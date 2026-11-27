@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9VqQCDM9yJdvoxjKwM",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0516\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"squeezed it up in a wet ball\",\"tgt_span\":\"그것을 젖은 공처럼 꽉 쥐고 있었다\",\"description\":\"편지를 움켜쥐어 젖은 공 모양으로 구겨 뭉쳤다는 결과 변화가 '공처럼 꽉 쥐고 있었다'는 쥐는 상태로 바뀜. 경미한 의미 차이.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: squeezed it up in a wet ball(구겨 젖은 뭉치로 만듦)이 '공처럼 꽉 쥐고 있었다'로 바뀌어 대상의 상태 변화가 약해졌으나, 편지를 놓지 않고 젖은 채 뭉쳤다는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"only…when의 초점('보고서야 비로소')과 시간 연결, 대명사 it의 지시 대상(편지)이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사 기술 → 서사 기술. 장면을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 행동 서술이며 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 서술 어조가 소설 본문 문체(~했다)로 유지되며 관계·호칭 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 896,
+    "output_tokens": 725,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

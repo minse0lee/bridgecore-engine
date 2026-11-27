@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAewzgucj5J6TUUnDMf",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF2120\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"but if I do.\",\"tgt_span\":\"혹시라도 만나게 되면 꼭 전하겠습니다.\",\"description\":\"원문은 'if I do'에서 끊긴 미완결 문장인데, 번역은 '꼭 전하겠습니다'라는 약속 내용을 덧붙여 완결함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위): 원문에 없는 '꼭 전하겠다'는 행위와 확약이 첨가되었습니다. 다만 앞선 문맥(Oh, I will)에서 전달 약속이 이미 함축되어 요지는 크게 달라지지 않아 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'but'의 양보·대조 연결과 'if I do'의 조건 관계가 '~지만, 혹시라도 ~되면'으로 유지되며 지시·초점 관계도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞선 요청에 서둘러 응답·다짐하는 발화 → 응답·다짐하는 발화. 기능의 종류는 같고 말을 맺는 방식만 달라졌습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 아니라 화자의 개인적 다짐·응답이므로 평가할 대상이 없습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'제가', '~겠습니다'의 높임이 맞는지 판단하려면 화자와 청자의 관계와 화자의 어조(허둥대는 태도)를 확인해야 하는데 해당 문장만으로는 알 수 없습니다. 필요한 정보는 화자·청자 관계입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 564,
+    "output_tokens": 814,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

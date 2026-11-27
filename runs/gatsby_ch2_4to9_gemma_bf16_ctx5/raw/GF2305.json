@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAnrfSYuudo5sD5E754",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF2305\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"had once pandered in whispers\",\"tgt_span\":\"한때 인류의 마지막이자 가장 위대한 꿈에 속삭이며 영합했을 것이다\",\"description\":\"과거 사실로 서술된 'had once pandered'가 추측 표현('-했을 것이다')으로 바뀌어 확실성이 달라짐. 같은 사실로 서술된 문장이 추측 표현과 단정 표현으로 뒤섞임.\"},{\"id\":\"E002\",\"src_span\":\"compelled into an aesthetic contemplation he neither understood nor desired\",\"tgt_span\":\"이해하지도 갈망하지도 않았던 미적 관조에 빠진 채\",\"description\":\"'must have held'의 추론 범위에 속한 상태가 추측 없이 사실로 서술되었고, 'compelled(강제됨)'의 강제 의미가 '빠진 채'로 약해짐.\"},{\"id\":\"E003\",\"src_span\":\"face to face for the last time in history with something commensurate to his capacity for wonder\",\"tgt_span\":\"인간의 경이로움이라는 능력에 걸맞은 무언가와 역사상 마지막으로 마주했던 것이다\",\"description\":\"'경이를 느끼는 능력(capacity for wonder)'이 '경이로움이라는 능력'으로 바뀌어 무엇의 능력인지 달라짐. 또한 앞 절의 추론('must have')이 단정('마주했던 것이다')으로 바뀜.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1·2(확실성): 'had once pandered'는 사실 서술인데 '영합했을 것이다'로 추측이 되었고, 'must have held'의 추론 범위 안의 'compelled…face to face'는 단정으로 바뀌었습니다. 'capacity for wonder'도 '경이로움이라는 능력'으로 달라졌지만, 핵심 사실(사라진 나무, 숨죽인 인간, 마지막 마주침)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'his'가 가리키는 man은 '인간의'로 유지되고, 세미콜론으로 이어진 연결은 문장 분할 후에도 자연스럽게 이어지며 초점 표현 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술적 묘사·성찰 → 서술적 묘사·성찰. 소설 속 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'must have held'는 과거에 대한 추론이고, 소설 서술에 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 문어체 격식(-다)이 유지되며, 화자와 청자의 관계가 드러나는 표현은 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명(개츠비)만 있고 판정할 문화 고유의 제도·단위·관습은 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1431,
+    "output_tokens": 1197,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

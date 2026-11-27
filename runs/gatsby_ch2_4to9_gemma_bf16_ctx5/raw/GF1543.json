@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAEXe4PKHx19bK7WLL9",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1543\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"He could afford to control himself now.\",\"tgt_span\":\"이제 그는 여유롭게 평정심을 되찾은 상태였다.\",\"description\":\"'자제할 여유가 있다'(자제하는 것이 이제 가능·허용됨)가 '평정심을 되찾은 상태'로 바뀌어 능력·여유의 의미가 이미 평정심을 회복했다는 결과 상태 서술로 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'could afford to control himself'(자제할 여유가 있음)가 '평정심을 되찾은 상태'로 바뀌어 여유의 이유와 상태가 일부 달라졌으나, 톰이 이제 침착하다는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'now'가 '이제'로 유지되고 지시·연결·초점 관계에 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문 → 서술문. 톰의 상태를 설명하는 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 could afford는 능력·여유를 나타내며 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문으로 화자·청자 간 높임이나 호칭 관계가 드러나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 538,
+    "output_tokens": 703,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT97iEUUk66QeNqKacnA",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0007\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"sank down himself into eternal blindness\",\"tgt_span\":\"스스로 영원한 어둠 속에 잠겼거나\",\"description\":\"'eternal blindness'(영원한 실명)가 '영원한 어둠'으로 바뀌어 실명이라는 구체적 의미가 흐려짐. 눈·안과 의사 모티프와 연결되는 표현이나 '어둠'으로도 실명 또는 죽음의 의미를 읽을 수 있음.\"},{\"id\":\"E002\",\"src_span\":\"in the borough of Queens\",\"tgt_span\":\"퀸즈 구의 병원 영업\",\"description\":\"borough를 '구'로, practice를 '병원 영업'으로 옮김. 통용되는 대응이며 의미는 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'eternal blindness'가 '영원한 어둠'으로 바뀌어 실명이라는 구체 내용이 일반화되었으나, 안과 의사가 시력을 잃거나 죽었다는 요지는 읽혀 핵심 사실은 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'them'은 '저걸'로 이어지고 'and then'의 시간 순서와 'or'의 선택 관계가 '-다가', '-거나 아니면'으로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 추측성 서술 → 추측성 서술. 간판의 유래를 추정하며 설명하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 문어체 서술과 가벼운 조롱 어조가 '~모양이다' 서술체와 '익살스러운'으로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"borough of Queens를 '퀸즈 구'로 옮겨 뉴욕의 행정구역을 가리키는 통용 표기로 이해 가능하며 다른 제도로 바꾸지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1143,
+    "output_tokens": 904,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

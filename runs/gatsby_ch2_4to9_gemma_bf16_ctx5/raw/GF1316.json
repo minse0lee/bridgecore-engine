@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTA52tgT6UPxQhUdSRNF",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1316\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Listen, Tom.\",\"tgt_span\":\"글쎄요, 톰 씨.\",\"description\":\"주의를 환기하는 명령 'Listen'이 망설임·완곡을 나타내는 '글쎄요'로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"demanded Jordan crossly\",\"tgt_span\":\"조던이 짜증스럽게 물었다\",\"description\":\"추궁하듯 따져 묻는 'demanded'가 단순히 묻는 '물었다'로 바뀜\"},{\"id\":\"E003\",\"src_span\":\"Tom\",\"tgt_span\":\"톰 씨\",\"description\":\"친구 사이 호칭에 존칭 '씨'를 덧붙이고 존댓말(~초대하신 거예요?)을 사용함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'Listen'(들어봐)이 '글쎄요'로 바뀌어 다른 표현이 되었으나 핵심 질문 내용은 유지되어 요지 변화는 작습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'속물적이면서 왜'가 양보·모순 관계를 유지하고 대명사 '그분'도 him에 대응해 지시·연결·초점이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"짜증 섞인 추궁성 질문 → 짜증스러운 추궁성 질문. '왜 초대하신 거예요?'가 모순을 따지는 기능으로 읽혀 같은 종류입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 1·2: 조던과 톰은 친구 사이의 대등한 대화인데 '톰 씨'와 '초대하신 거예요'로 거리감 있는 존대를 써 관계가 바뀌었습니다. 다만 조던의 짜증과 질책 태도는 남아 있어 minor입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 590,
+    "output_tokens": 911,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

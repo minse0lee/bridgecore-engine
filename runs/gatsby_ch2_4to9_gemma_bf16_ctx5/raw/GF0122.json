@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9Cw3JXWsvFDH8BpfZg",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0122\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"handsome\",\"tgt_span\":\"아름다우면서도\",\"description\":\"handsome(맵시 있고 풍채 좋은, 단정한 외모)을 '아름다운'으로 옮겨 평가어의 결이 약간 달라졌으나 외모가 좋다는 평가 내용은 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"아내의 특성 네 가지(shrill, languid, handsome, horrible)가 모두 유지되고, handsome→'아름다운'은 평가어의 정도·결 차이일 뿐 긍정적 외모 평가라는 내용은 같습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'His wife'가 '그의 아내'로 대응되어 소유 관계가 유지되고, 나열 및 handsome과 horrible의 대조 관계도 '-면서도'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 인물 묘사 → 인물 묘사. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 묘사 문장으로 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 신랄한 평가 태도가 '끔찍한 여자'로 유지되고, 소설 서술체('-었다')도 적절합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 961,
+    "output_tokens": 684,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

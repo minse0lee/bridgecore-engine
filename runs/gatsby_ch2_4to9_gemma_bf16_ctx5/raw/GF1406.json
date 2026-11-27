@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTA8pQhoFm39yuwRgRDT",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1406\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"‘old sport’\",\"tgt_span\":\"‘이보게’\",\"description\":\"Gatsby의 특징적인 호칭 'old sport'(친근한 영국식 호칭)가 일반적인 호칭 '이보게'로 바뀌어 'sport'의 의미와 영국식 뉘앙스가 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'old sport'라는 말버릇을 지적하며 어디서 배웠느냐고 묻는 내용이 유지되며, 호칭 단어의 구체적 의미 차이는 지시 대상을 잃을 정도가 아닙니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'that'이 'old sport' 말투를 가리키는 지시 관계가 '그런 말투'로 유지되고 연결 관계도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"말버릇을 지적하며 출처를 캐묻는 발화 → 같은 기능의 지적과 질문으로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Tom이 Gatsby의 말버릇을 얕보며 따지는 태도가 '~말이야', '~건가?'의 평어체와 약간 고풍스러운 어투로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 'old sport'는 Gatsby가 꾸며낸 영국 상류층식 호칭이라는 문화적 함의가 있는데, '이보게'는 일반적 호칭이라 그 함의가 전달되지 않습니다. 다만 문장의 요지는 유지되므로 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 508,
+    "output_tokens": 780,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

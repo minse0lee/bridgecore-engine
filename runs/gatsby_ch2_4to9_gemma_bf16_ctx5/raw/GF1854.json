@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTATxGG2ZKCRHoXV7RAh",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1854\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"as if to snatch only a wisp of air, to save a fragment of the spot that she had made lovely for him\",\"tgt_span\":\"그녀가 아름답게 가꾸어 놓은 그곳의 조각이라도 붙잡으려는 듯, 혹은 그저 한 줌의 공기라도 낚아채려는 듯\",\"description\":\"원문은 '한 줌의 공기만이라도 낚아채려는 듯' 손을 뻗어 '그곳의 조각을 지키려' 한다는 하나의 동작(목적 부연)인데, 번역은 두 개의 병렬 대안('혹은')으로 나누고 순서도 바꿈. 'only'의 초점이 '공기'가 아닌 '조각이라도'/'그저 한 줌의 공기라도' 두 곳으로 분산됨\"},{\"id\":\"E002\",\"src_span\":\"for him\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"'그를 위해' 아름답게 만들어 주었다는 수혜자 표현이 누락됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: '그를 위해'가 빠졌고, 공기를 낚아채는 동작과 그곳의 조각을 지키려는 목적의 관계가 '혹은'으로 이어진 두 가지 대안 동작처럼 바뀌었으나 핵심 장면(절박하게 손을 뻗음)과 요지는 유지됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(초점·범위): only가 '한 줌의 공기'에 걸리는 초점이 '조각이라도'와 '그저 … 공기라도'로 나뉘고, 'to save'의 목적 관계가 '혹은'의 병렬 선택 관계로 바뀌었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"절박한 행동 묘사 서술 → 절박한 행동 묘사 서술로 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 행동 묘사로 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"3인칭 서사체 '~뻗었다'로 문학 서술의 격식이 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 936,
+    "output_tokens": 996,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

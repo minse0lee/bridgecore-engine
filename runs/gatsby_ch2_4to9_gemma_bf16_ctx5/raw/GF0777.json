@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9gaVKdTSBFNuD2XERM",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0777\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"It’s the funniest thing\",\"tgt_span\":\"정말 웃기지 않나요\",\"description\":\"평서문(가장 웃긴 일이다)이 청자에게 동의를 구하는 부정 의문문으로 바뀌고, 최상급 평가가 '정말'로 약해짐\"},{\"id\":\"E002\",\"src_span\":\"old sport\",\"tgt_span\":\"친구\",\"description\":\"Gatsby 특유의 호칭 'old sport'가 일반적인 '친구'로 옮겨져 호칭의 특유한 어감이 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"웃기다는 평가와 화자·청자·말하는 행위가 유지되고, 최상급이 '정말'로 바뀐 것은 평가어의 정도 차이에 그칩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현이 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 감상 진술 → 동의를 구하는 수사적 의문으로, 모두 감상을 표현하는 같은 종류의 기능으로 읽힙니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: 'old sport'는 Gatsby가 상대를 부르는 특유의 격식 있는 친밀 호칭인데 일반적인 '친구'로 옮겨져 어감이 약해졌고, 청자에게 '~나요' 존댓말을 써서 같은 호칭 관계가 달라졌습니다. 다만 요지와 행동 이해에는 영향이 없어 minor입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 508,
+    "output_tokens": 805,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

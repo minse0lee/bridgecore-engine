@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT97iGTyjB7Z64gF2SUo",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0008\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"But his eyes\",\"tgt_span\":\"그 눈은\",\"description\":\"문장 첫머리의 But(앞 문장과의 대조 연결어)가 번역문에서 빠졌고, 'his'(안과 의사의 눈)가 '그'로 바뀌어 소유 관계가 드러나지 않음\"},{\"id\":\"E002\",\"src_span\":\"dimmed a little by many paintless days\",\"tgt_span\":\"칠이 벗겨진 채 조금 희미해진\",\"description\":\"'수많은 칠 안 한 날들'로 인한 퇴색이 '칠이 벗겨진'으로 바뀌고 many(오랜 기간)가 사라짐. 희미해진 원인과 기간의 표현이 약간 달라짐\"},{\"id\":\"E003\",\"src_span\":\"brood on\",\"tgt_span\":\"가만히 내려다보고 있다\",\"description\":\"brood on(음울하게 계속 지켜봄)이 '가만히 내려다보고 있다'로 옮겨져 음울한 어감이 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"눈이 햇빛·비바람 속에서 오래 칠하지 않아 조금 희미해진 채 쓰레기 매립지를 계속 지켜본다는 사태는 유지되며, 달라진 것은 brood의 어감과 'many'의 표현 정도뿐입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2: But이 앞 문장(의사는 사라졌지만 눈은 남아 있음)과의 대조 연결을 나타내는데 번역에서 연결어가 빠졌고, his가 가리키는 안과 의사와의 소유 관계가 '그 눈'으로 흐려져 대조·지시 관계가 사라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"묘사적 서술 → 묘사적 서술. 장면을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가를 나타내는 표현이 없는 소설 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 '-ㄴ다'가 유지되며 화자·독자 관계에서 어긋남이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1086,
+    "output_tokens": 996,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

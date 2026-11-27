@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9oV6aDcBxS9AzVicBC",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0937\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"after two highballs\",\"tgt_span\":\"하이볼을 두 잔쯤 마셨을 무렵\",\"description\":\"정확한 수량 'two'가 '두 잔쯤'으로 근사 표현이 되고, 'after'가 '마셨을 무렵'으로 옮겨져 시점이 다소 느슨해짐. 사태의 핵심은 유지되어 의미를 바꾸지 않는 사소한 차이.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"슬론 씨의 침묵과 거만한 자세, 여자의 침묵, 하이볼 두 잔 뒤 뜻밖에 상냥해진 변화가 모두 유지됩니다. '두 잔쯤'의 근사 표현은 사태를 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"질문 2: 'either'는 '역시'로, 'until'은 '그러다 ~ 무렵'으로 옮겨져 대비와 시간 순서가 유지됩니다. 지시 대상도 그대로입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 장면의 분위기 변화를 설명하는 서사 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문 평서체 유지이며, 'haughtily'는 '거만한 태도로', 'cordial'은 '상냥하게'로 인물의 태도를 유지합니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"highball은 '하이볼'로 통용 표기로 옮겨 같은 음료를 가리키며 제도·단위를 바꾸지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 736,
+    "output_tokens": 780,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

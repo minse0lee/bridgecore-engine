@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9fRDSCtvxh5C8h7cFU",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0749\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"His eyes went over it\",\"tgt_span\":\"그는 … 찬찬히 훑어보았다\",\"description\":\"'it'(저택)에 해당하는 대상이 번역문에 명시되지 않고, 'every arched door and square tower'만 시선의 대상으로 남음. 또한 '찬찬히'가 첨가됨. 다만 문맥상 의미는 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"그가 저택의 아치형 문과 사각형 탑 하나하나를 훑어봤다는 사태가 같고, '찬찬히'는 방식의 미세한 덧붙임이라 핵심 내용이 바뀌지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'it'을 따로 옮기지 않았지만 'every arched door and square tower'가 그 부분을 가리키는 동격 관계는 유지되어 지시 대상이 바뀌지 않습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물의 시선 행동을 묘사하는 서술 → 서술. 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 지문의 서술체 '-았다'가 유지되며 관계·격식 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 543,
+    "output_tokens": 660,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

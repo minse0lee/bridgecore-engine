@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTALxjLrdVsSRuDVv1Gm",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1690\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Tom stopped beside the porch\",\"tgt_span\":\"톰은 현관 옆에 차를 세우고\",\"description\":\"원문의 'stopped'(멈춰 섰다)가 '차를 세우고'로 구체화됨. 차량 정지를 가리키는 표현이 첨가되었으나 장면상 차로 도착한 상황이라 사태는 유지됨.\"},{\"id\":\"E002\",\"src_span\":\"where two windows bloomed with light among the vines\",\"tgt_span\":\"덩굴식물 사이로 두 개의 창문이 환하게 불을 밝히고 있었다.\",\"description\":\"관계절 'where'가 별개 문장으로 분할되고 'bloomed with light'(빛으로 피어났다)가 '불을 밝히고 있었다'로 옮겨짐. 위치 관계(2층의 창문)는 앞 문장의 연속으로 읽혀 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 현관 옆에서 멈춰 2층을 올려다봄, 덩굴 사이 두 창문의 불빛이 모두 유지됩니다. '차를 세우고'는 장면상 같은 사태이고 'bloomed'의 은유가 평이해진 것은 표현 차이입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"where 관계절이 문장 분할되었으나 '2층'을 올려다본 곳의 창문이라는 연결이 문맥상 남아 있어 지시·연결 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 행동과 풍경을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 서술문으로 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"3인칭 서술의 문어체 '-다' 종결이 유지되며 화자·독자 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없고 인명만 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 662,
+    "output_tokens": 919,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

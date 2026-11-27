@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9fmCE9r2ZqyThRNYCJ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0757\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the other night\",\"tgt_span\":\"지난밤에\",\"description\":\"'the other night'(며칠 전 어느 날 밤)이 '지난밤'(어젯밤)으로 바뀌어 시점이 좁혀짐\"},{\"id\":\"E002\",\"src_span\":\"대응 구간 없음(첨가)\",\"tgt_span\":\"그나저나\",\"description\":\"원문에 없는 화제 전환 표지 '그나저나'가 첨가됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(시간): 'the other night'(일전의 밤)이 '지난밤'(바로 어젯밤)으로 바뀌어 시점이 달라졌으나, 제안을 생각해 봤다는 핵심 내용은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그나저나'는 앞 발화에서 화제를 되돌리는 연결로 읽히며, 대명사·연결·초점 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"제안에 대한 숙고 여부를 확인하는 질문 → 같은 확인 질문. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화 속 확인 질문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개츠비가 닉에게 정중하게 묻는 말투가 '제가 … 생각해보셨다는 말씀인가요'의 높임체로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 678,
+    "output_tokens": 754,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAXwZhJMpRGVoc1Gzzc",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1952\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"She had it wrapped in tissue paper on her bureau.\",\"tgt_span\":\"화장대 위에 습자지로 포장된 채 놓여 있더군요.\",\"description\":\"행위자(She)와 대상(it)이 번역문에서 드러나지 않아, 그녀가 그것을 포장해 두었다는 행위가 단순히 놓여 있는 상태로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'She had it wrapped'에서 그녀(행위자)와 그것(대상)이 사라지고 '포장된 채 놓여 있더군요'라는 상태 서술로 바뀌었으나, 포장된 물건이 화장대 위에 있었다는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 주어 She와 대명사 it이 번역문에 나타나지 않아 소유 관계(her bureau)와 지시 대상이 알 수 없게 되었으나, 앞 문맥에서 복원할 수 있어 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"과거 사실 회상 서술 → 과거 사실 회상 서술. 목격한 사실을 전하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화문의 회상 어조가 '-더군요'로 자연스럽게 유지되며, 평가조건상 관계 정보와 충돌하지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 별도로 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 473,
+    "output_tokens": 785,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

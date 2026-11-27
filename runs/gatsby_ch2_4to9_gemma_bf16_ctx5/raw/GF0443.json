@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9StEH1LCJnas3sDXtv",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0443\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"on you\",\"tgt_span\":\"젊은이들에게\",\"description\":\"'you'(대화 상대인 두 사람)가 '젊은이들'로 바뀌어 일반화됨. 같은 대상을 가리키며 의미 변화는 거의 없음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"쉰 살이라는 나이와 더 이상 폐를 끼치지 않겠다는 내용이 유지됩니다. 'you'가 '젊은이들'로 옮겨졌으나 문맥상 같은 청자를 가리킵니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'As for me'의 화제 전환은 '난'으로, 이유와 결과의 연결은 '-니'로 유지되며 지시 대상은 문맥상 같습니다(판단 질문 1·2·3 모두 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"자리를 뜨겠다는 퇴장 선언 → 자리를 뜨겠다는 퇴장 선언. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자 자신의 의지 표명이며 의무·허가·금지를 거는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"나이 많은 화자가 젊은이들에게 말하는 '-네' 하게체가 관계와 어울리며 엄숙하고 약간 빈정대는 태도도 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"나이 표현 외에 판정할 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 701,
+    "output_tokens": 714,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

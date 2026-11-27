@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9ns6cp3AvvM4xnCNkn",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0921\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a nice ride\",\"tgt_span\":\"말 타는 건\",\"description\":\"ride를 '말 타기'로 한정함. 원문은 승마인지 드라이브인지 구체화되지 않은 ride인데, 번역이 말 타기로 특정함. 문맥상 승마일 가능성이 높아 의미 훼손은 아니고 해석 선택으로 봄.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대에게 즐거운 탈것 이동(ride)이었는지 묻는 내용이 유지됩니다. 'ride'를 '말 타는 것'으로 옮긴 것은 『위대한 개츠비』 6장의 승마 장면 문맥에 맞는 구체화로 보아 오류로 보지 않습니다.\"},\"Textual\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 지시·연결·초점 표현이 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"안부·인사성 질문 → 안부·인사성 질문. 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화 속 질문입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-셨나요?'라는 높임이 화자와 청자의 관계에 맞는지 판단하려면 이 대사의 화자와 청자가 누구인지 확인해야 합니다. 평가조건과 문맥에는 이 정보가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 등장하지 않습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 432,
+    "output_tokens": 729,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

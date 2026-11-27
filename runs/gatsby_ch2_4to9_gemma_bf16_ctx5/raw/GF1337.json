@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTA5sJkL3D5AuvLEio6m",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1337\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I was wondering what you were going to do with your old car\",\"tgt_span\":\"타시던 낡은 차를 어떻게 하실 생각인지 궁금해서 왔습니다\",\"description\":\"'궁금해서 왔습니다'로 방문 목적이 덧붙었으나, 원문의 완곡한 간접 질문 기능과 내용은 유지되어 의미를 바꾸지 않는 사소한 표현 차이임\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"돈이 몹시 급하다는 것과 상대의 낡은 차를 어떻게 할 계획인지 궁금하다는 내용이 그대로 유지됩니다. '왔습니다'는 의미를 바꾸지 않는 어조 표현입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"But의 대조 연결이 '하지만'으로, 이유 관계가 '급해서요'로 유지되고 지시 대상도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"차를 팔 의향을 떠보는 완곡한 간접 요청·문의 → 같은 종류의 간접 문의로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 같은 규범 표현이 없는 대화 속 개인적 발화입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"돈이 급해 부유한 상대에게 조심스럽게 부탁하는 관계에 맞게 '-요', '타시던', '하실' 등 높임이 적절히 쓰였습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"판정할 문화 고유의 제도·단위·관습 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 597,
+    "output_tokens": 747,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

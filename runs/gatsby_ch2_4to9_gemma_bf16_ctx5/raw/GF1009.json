@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9rUqHDgv7FztygzEkL",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1009\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"That was my fault—Gatsby had been called to the phone, and I’d enjoyed these same people only two weeks before.\",\"tgt_span\":\"내 잘못이었다. 개츠비가 전화를 받으러 간 사이, 불과 2주 전 이 사람들과 즐겁게 보냈던 기억에 젖어 분위기를 그렇게 몰고 갔기 때문이다.\",\"description\":\"원문은 개츠비가 전화로 불려 가 자리를 비웠고 화자가 이 사람들을 2주 전에 즐겼기 때문에 이 테이블에 앉은 것이 자기 잘못이라는 내용이다. 번역문은 화자가 지난 기억에 젖어 분위기를 몰고 갔다는 원문에 없는 행위와 인과를 만들었다.\"},{\"id\":\"E002\",\"src_span\":\"Gatsby had been called to the phone\",\"tgt_span\":\"개츠비가 전화를 받으러 간 사이\",\"description\":\"원문의 'had been called'는 개츠비가 불려 갔다는 수동 표현이지만 번역은 스스로 전화를 받으러 간 것으로 옮겨 행위 주체와 방식이 약간 달라졌다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(행위·인과): 화자가 분위기를 몰고 갔다는 원문에 없는 행위가 더해졌고 '잘못'의 원인이 달라졌다. 그래서 독자는 문장의 요지를 다르게 이해하게 된다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(인과 연결): 원문은 대시 뒤에 개츠비의 부재와 과거 즐김을 잘못의 배경으로 나열했다. 번역은 이를 '기억에 젖어 분위기를 몰았기 때문'이라는 다른 인과로 재구성했다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 자기 책임 서술 → 서술자의 자기 책임 서술. 서술 기능은 유지된다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 같은 규범 표현이 없는 소설 서술이다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술자의 담담한 서술체가 '~했다'로 유지된다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·관습·단위가 없다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 727,
+    "output_tokens": 1024,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

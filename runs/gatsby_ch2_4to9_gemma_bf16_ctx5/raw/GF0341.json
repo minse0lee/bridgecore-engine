@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9NWPmCM5Kyj6CZ5ucA",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0341\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"With fenders spread like wings we scattered light\",\"tgt_span\":\"날개처럼 펼쳐진 펜더가 아스토리아 거리 절반에 빛을 흩뿌렸다\",\"description\":\"행위 주체 'we'(화자 일행)가 사라지고 펜더가 빛을 흩뿌린 것으로 바뀜. 다만 'we'는 이후 절에서 차를 몰았다는 서술로 복원됨\"},{\"id\":\"E002\",\"src_span\":\"I heard the familiar “jug-jug-spat!” of a motorcycle\",\"tgt_span\":\"익숙한 오토바이의 '두두두-팍!' 하는 소리가 들리더니\",\"description\":\"화자 'I'가 생략되고 소리가 들렸다는 서술로 바뀜. 경험 주체는 문맥상 유지되며 의미 변화는 미미함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위자): 'we scattered light'가 '펜더가 빛을 흩뿌렸다'로 바뀌어 행위자가 달라졌지만, 이어지는 절에서 일행이 차를 몬 내용이 유지되어 요지와 행동 이해는 거의 같아 minor입니다. 'I heard'의 화자 생략은 의미 변화가 아닙니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'only half, for ...'의 이유 연결이 '하지만 절반뿐이었다 … 때문이다'로 인과 관계가 유지되고 지시 대상과 초점('절반뿐')도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술(사건 묘사) → 소설 서술(사건 묘사). 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서사 묘사입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술의 소설 본문 문체가 '-었다' 평서체로 유지되며 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"아스토리아(지명)와 고가 철도, 경찰이 같은 대상을 가리키며 별도 제도나 단위 변경이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 866,
+    "output_tokens": 953,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

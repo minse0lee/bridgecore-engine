@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAkGYJ3fQrnro1fcQPH",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF2244\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a little complacent\",\"tgt_span\":\"약간의 자부심도 갖게 되었다\",\"description\":\"complacent(자기만족·안주하는, 다소 부정적 뉘앙스)가 '자부심'(긍정적 평가)으로 바뀜. 평가의 방향이 달라졌는지 여부가 쟁점이나 정도 차이에 가까워 minor로 봄\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2: complacent(자기만족, 안일함)가 '자부심'으로 바뀌어 부정적 평가가 긍정적·중립적 평가로 달라졌으나, 핵심 사실(캐러웨이 집에서 자란 데서 비롯된 감정)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그 일부', 인과('때문에', '덕분에'), 'a little ... a little'의 병렬 구조가 유지되어 지시·연결·초점이 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 자기 서술 → 자기 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가를 정하는 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회고 서술의 문어체 '-다' 어조가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"집을 가족 이름으로 부르는 관습을 그대로 옮겼고 '캐러웨이 가문 집'도 같은 대상을 가리켜 인명만 있는 경우가 아니며 의미가 전달됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1171,
+    "output_tokens": 756,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAbCetNUFkmGtRsuyxF",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF2027\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I was surprised and confused\",\"tgt_span\":\"당혹스럽고 혼란스러웠다\",\"description\":\"surprised(놀람)가 '당혹스럽고'로 바뀜. 평가어의 정도·뉘앙스 차이로 뜻은 유지되어 오류로 보지 않음(참고).\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"처음의 놀람과 혼란, 시신이 누운 채 시간이 흐름, 책임감이 커짐, 아무도 관심이 없었다는 이유, 마지막에 누구나 갖는 막연한 권리라는 내용이 모두 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"then→'하지만', as→'-자', because→'-때문이다' 등 시간·인과 연결이 유지되고, '내 말은'으로 interested를 바로잡는 보충 관계도 남아 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 심경 변화와 책임 인식을 서술하는 기능 → 같은 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없습니다. '책임을 져야 한다'는 화자의 내적 인식 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회상 서술의 문어체 '-다'체가 유지되며 관계상 어긋남이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1173,
+    "output_tokens": 716,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

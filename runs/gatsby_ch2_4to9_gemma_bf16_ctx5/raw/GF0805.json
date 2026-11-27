@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9hnCZHNakFBC2NgHeC",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0805\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"also in yachting costume\",\"tgt_span\":\"그 역시 요트 복장을 하고 있었다\",\"description\":\"'사진 속 개츠비도 요트 복장'이 '그(사진/개츠비) 역시 요트 복장을 하고 있었다'로 옮겨져 사진 속 인물이라는 점이 모호해졌으나 같은 사태로 읽혀 의미 변화는 아님(경미한 표현 차이)\"},{\"id\":\"E002\",\"src_span\":\"defiantly\",\"tgt_span\":\"당당하게\",\"description\":\"반항적·도전적인 태도가 '당당하게'로 평가어 정도만 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서랍장 위 개츠비의 작은 사진, 요트 복장, 고개를 젖힌 모습, 열여덟 살쯤 추정 등 내용이 유지되며 defiantly→'당당하게'는 평가어 정도 차이입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'also'의 초점이 '그 역시'로 유지되고 taken의 수식 대상(사진)도 '찍은 사진'으로 유지되어 지시·연결·초점 관계가 보존됩니다(문장 분할은 허용).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사 서술 → 장면 묘사 서술로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 묘사문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체('-었다', '-듯했다')가 유지되며 화자·청자 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 721,
+    "output_tokens": 791,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

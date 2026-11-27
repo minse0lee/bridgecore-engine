@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9N6qf6nB16xcEi5jqe",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0331\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"you’re taking Miss Baker to tea\",\"tgt_span\":\"당신이 베이커 양과 티타임을 갖기로 했다는\",\"description\":\"'당신이 베이커 양을 차에 데려가다(초대하다)'가 '함께 티타임을 갖기로 했다'로 바뀌어 초대·동반 주체의 비대칭이 약해졌으나 사태는 거의 같음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"오늘 오후, 우연히 알게 됨, 베이커 양을 티타임에 데려가는 일이라는 내용이 유지되며, 'with'로 옮긴 차이는 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 대상이 유지되고 '-거든요'로 이유 연결도 남아 있어 질문 1~3 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞선 질문에 대한 답과 알게 된 경위 설명 → 같은 답변·설명 기능.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술·대화입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"정중한 대화체 '-요'와 '베이커 양'이 문맥의 격식 있는 관계와 어울립니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Miss를 '양'으로, tea를 '티타임'으로 옮겨 호칭과 차 마시는 관습이 이해 가능하게 유지됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 552,
+    "output_tokens": 699,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

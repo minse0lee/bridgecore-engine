@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9AcZztsw48ghAaG4EH",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0071\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"All kinds.\",\"tgt_span\":\"잡종입니다.\",\"description\":\"'모든 종류(다 있다)'를 '잡종입니다'로 옮겨, 여러 종류가 있다는 내용이 잡종이라는 특정 종류의 개로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상·수량): 'All kinds'(온갖 종류가 있다)가 '잡종입니다'라는 특정 대상 서술로 바뀌어, 번역문만 읽으면 요지를 다르게 이해합니다. 뒤의 '어떤 걸로'와도 모순됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현의 대상이 바뀌지 않았고 두 문장의 응답-질문 연결도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"판매 응대(답변 후 선택 질문) → 판매 응대(답변 후 선택 질문). 발화 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 판매 대화입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"점원이 손님인 여성에게 하는 말로 'lady'가 '아주머니'와 '~하시겠어요'의 높임으로 무리 없이 대응됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도에 고유한 대상이 없습니다. 'lady' 호칭은 Register에서 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 467,
+    "output_tokens": 715,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

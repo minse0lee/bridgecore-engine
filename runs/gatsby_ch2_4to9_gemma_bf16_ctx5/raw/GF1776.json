@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAQVTNn394LsapmMsQL",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1776\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"curtains that were like pavilions\",\"tgt_span\":\"천막처럼 드리워진 커튼\",\"description\":\"pavilions(큰 천막·정자형 건축물)를 '천막'으로 옮겨 규모감이 줄었으나 비유 대상은 대체로 유지됨(의미 변화 아님, 참고용)\"},{\"id\":\"E002\",\"src_span\":\"innumerable feet of dark wall\",\"tgt_span\":\"어두운 벽면을 한참이나\",\"description\":\"'셀 수 없이 많은 피트 길이의 벽'이 '한참이나'로 바뀌어 수량 표현이 길이 개념이 아닌 시간·정도 표현으로 바뀜\"},{\"id\":\"E003\",\"src_span\":\"I tumbled with a sort of splash upon the keys\",\"tgt_span\":\"털썩 주저앉기도 했다\",\"description\":\"'I'(화자 혼자)가 '우리'로 이어지는 문맥에서 주어가 명시되지 않아 한 사람의 행동임이 흐려졌고, 'tumbled'(넘어짐)가 '주저앉음'으로, 'a sort of splash'(철벅거리는 듯한 소리)가 '털썩'으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\",\"E003\"],\"reason\":\"판단 질문 1: innumerable feet(셀 수 없이 많은 길이)가 '한참이나'로 바뀌어 수량 표현이 달라졌고, tumbled(넘어짐)가 '주저앉음'으로 바뀌어 행위가 약간 달라졌으나 장면의 요지와 독자의 이해는 크게 바뀌지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사·연결·초점 표현에 해당 변화가 없고, 대시 뒤 'once'는 '그러다 한 번은'으로 자연스럽게 이어져 시간 순서 관계가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 어둠 속에서 스위치를 더듬다 피아노 위로 넘어진 사건을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 행동 서술이며 의무·허가·금지 같은 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 회상하는 서술체의 평서 어조가 '~했다' 문체로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'feet'는 길이 단위이나 구체적 수치가 아닌 과장된 수량 표현 속에 쓰여 별도로 판정할 문화 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1083,
+    "output_tokens": 1098,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

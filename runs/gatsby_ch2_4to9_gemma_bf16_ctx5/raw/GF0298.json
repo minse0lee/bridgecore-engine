@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTApYfX2fWYdLJVBwcSV",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0298\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"or choked on it\",\"tgt_span\":\"혹은 목이 메어 헐떡였는데\",\"description\":\"'그 구절에 목이 막힌 듯 말을 잇지 못함'이 '목이 메어 헐떡였다'로 바뀌어 구절에 걸려 더듬거리는 모습이 호흡 곤란처럼 읽힘. 다만 어색한 표현 수준으로 핵심 사태(말을 얼버무림)는 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서둘러 말함·삼킴·목이 막힘이라는 세 가지 행동과 '전에도 그를 괴롭힌 듯'이라는 비교가 유지됩니다. '헐떡였다'는 어색하지만 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'마치 ~처럼'이 앞 행동을 비유하는 관계를 유지하고, 'it'은 구절을 가리키며 '그 말'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물의 거짓 가능성을 암시하는 서술 → 같은 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체의 '~었다' 평서체가 유지되며 화자·청자 관계상의 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"옥스퍼드라는 대학 명칭이 그대로 옮겨져 같은 기관을 가리키며 '교육받았다'도 유지됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 857,
+    "output_tokens": 749,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

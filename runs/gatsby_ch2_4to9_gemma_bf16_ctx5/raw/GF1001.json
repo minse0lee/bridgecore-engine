@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9r59kXaTgr9pSg8U4g",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1001\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"conservative foxtrot\",\"tgt_span\":\"절제된 폭스트롯 춤사위\",\"description\":\"conservative(보수적·전통적인)가 '절제된'으로 옮겨져 평가어의 정도·뉘앙스가 약간 달라졌으나 춤의 점잖은 성격은 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"나, 놀랐던 기억, 그의 우아한 폭스트롯, 전에 본 적 없음이 모두 유지되며, conservative→'절제된'은 평가어 정도의 차이뿐입니다. '꽤'는 정도 보충으로 사태를 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그의'가 개츠비를 가리키는 관계가 유지되고, 대시 뒤 이유 설명이 '~때문이었다'로 인과 관계를 유지합니다(질문 1·2·3 모두 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 회상 서술 → 회상 서술. 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"never는 경험의 부정일 뿐 규범 표현이 아니므로 평가할 당위 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술자의 회상 서술체('~기억이 난다', '~때문이었다')가 문맥상 적절하게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"폭스트롯은 일반적 춤 명칭으로 번역에서 통용 음역으로 유지되어, 별도로 판정할 제도·단위·관습상의 문화 쟁점은 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 957,
+    "output_tokens": 755,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

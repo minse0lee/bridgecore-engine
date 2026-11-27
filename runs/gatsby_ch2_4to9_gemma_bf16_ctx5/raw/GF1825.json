@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTASdBmiXeTuCoGNkWEp",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1825\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"For Daisy was young\",\"tgt_span\":\"데이지는 젊었고\",\"description\":\"For가 나타내는 앞 서술에 대한 이유·설명 연결이 번역에서 표시되지 않음. 다만 문맥상 설명 관계는 대체로 유지되어 오류로 보기 어려우므로 판정에는 반영하지 않음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"데이지의 젊음, 난초·속물근성·오케스트라, 한 해의 리듬, 삶의 슬픔과 암시를 새로운 선율로 요약한다는 내용이 모두 유지됩니다. redolent of를 '가득했다'로 옮긴 것은 같은 사태 기술입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"판단 질문 2: 'For'의 이유 연결어는 표면에 없지만 데이지가 젊었다는 설명과 세계 묘사의 관계가 병렬로 이어져 읽히며, 관계 자체가 바뀌지는 않았습니다. 'which ... summing up'은 오케스트라를 수식하는 구조로 유지되고 지시 대상도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 서술(묘사) → 서술(묘사). 배경을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서사 묘사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"문학적 서술체의 '-했다' 문어체가 유지되며 화자·독자 관계상 어긋남이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없고 인명만 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1081,
+    "output_tokens": 806,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

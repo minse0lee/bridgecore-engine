@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9JFN2DSmAcgvFfoR6p",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0246\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the world and its mistress\",\"tgt_span\":\"세상과 그 여주인들\",\"description\":\"단수 'its mistress'(세상과 그 정부/애인)가 복수 '여주인들'로 바뀌고, 'mistress'의 '정부(情婦)' 의미가 '여주인'(안주인)으로 오역되어 파티 손님의 성격이 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물·수량): 단수 mistress(정부)가 복수 '여주인들'로 바뀌어 수량과 지시 대상의 의미가 달라졌고, 독자는 '세상과 그 정부'라는 요지를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"its가 world를 가리키는 소유 관계는 '세상과 그'로 유지되고, 시간 부사절 연결(교회 종소리가 울리던 일요일 아침)도 그대로 남아 있어 세 질문 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 파티 손님들이 몰려오는 상황을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 문어체 평서문이 유지되고 관계·격식 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"mistress의 오역은 단어 의미 문제로 Semantic에서 판정하며, 이 문장에는 별도로 판정할 제도·단위·관습 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 664,
+    "output_tokens": 764,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

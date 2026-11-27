@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9SjFXk4iZ1iJbvCFHY",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0441\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"You sit here and discuss your sports and your young ladies\",\"tgt_span\":\"여기 앉아서 스포츠니, 젊은 여자들이니\",\"description\":\"주어 'You'(두 청자)가 번역문에서 생략됨. 한국어 주어 생략으로 청자 지시는 문맥상 유지되어 의미·기능을 바꾸지 않으므로 오류로 보지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"여기 앉아 스포츠와 젊은 여자들(과 말을 잇지 못한 또 다른 대상)을 논한다는 내용이 유지됩니다. 주어 생략은 문맥상 청자로 읽혀 의미가 달라지지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'your'의 소유 관계는 한국어 생략 방식으로 처리됐고, 나열 구조와 말끝 끊김(—)이 유지되어 지시·연결·초점 모두 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"젊은이들의 화제를 비꼬듯 나열하며 자리를 떠나려는 서술 → 같은 기능으로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"50세 화자가 젊은이들에게 다소 빈정대며 말하는 태도가 '-니, -니' 나열과 문단의 '-네' 말투로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 685,
+    "output_tokens": 749,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

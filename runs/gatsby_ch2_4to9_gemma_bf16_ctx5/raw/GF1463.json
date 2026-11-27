@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTABGcrCqANJnHWGCrjx",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1463\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"make love to your wife\",\"tgt_span\":\"제 아내와 바람피우는 걸\",\"description\":\"'당신 아내에게 구애/성적으로 접근하다'가 '아내와 바람피우다'로 바뀌고, your(청자의 아내)가 '제 아내'로 바뀌어 아내가 톰의 아내처럼 읽힘\"},{\"id\":\"E002\",\"src_span\":\"Nowadays people begin by sneering at family life and family institutions, and next they’ll throw everything overboard and have intermarriage between black and white.\",\"tgt_span\":\"요즘 사람들은 가정생활이니 가정 제도니 하는 것들을 비웃기 시작하더니, 다음번엔 모든 걸 내팽개치고 흑백 간의 혼인까지 하겠어.\",\"description\":\"'흑백 간의 혼인까지'에서 인종 간 혼인에 대한 인종차별적 경멸과 사회 붕괴 우려의 함의가 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물·행위): your wife(청자 톰의 아내가 아닌 '당신'의 아내)가 '제 아내'로 바뀌어 누구의 아내인지 달라졌고, make love to도 단순 불륜으로 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(소유 관계): 일반화된 청자 지시 'your wife'가 '제 아내'로 바뀌어 소유 관계가 가리키는 대상이 달라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"비꼬며 비난·항의하는 발언 → 비꼬며 비난·항의하는 발언으로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'count me out'은 화자의 개인적 선언이고 의무·허가·금지를 정하는 규범 표현이 아니며 can은 규범 의미가 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 비꼬며 분개하는 구어체 어조가 반말·구어적 종결로 유지되며 관계에 맞는 태도입니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: 1920년대 미국 사회의 인종 간 혼인 금기와 인종차별적 함의가 '흑백 간의 혼인'으로 중립화되어 독자가 문화적 의미를 파악하기 어렵습니다. 다만 대상 자체는 같아 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1061,
+    "output_tokens": 1047,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

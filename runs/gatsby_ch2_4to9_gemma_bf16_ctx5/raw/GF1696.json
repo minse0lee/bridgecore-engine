@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAMAjQVFsFM31Qz8kgp",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1696\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"have them get you some supper\",\"tgt_span\":\"저녁이라도 좀 챙겨 먹게\",\"description\":\"부엌의 하인들에게 저녁을 내오게 하라는 사동 구조가 '직접 챙겨 먹으라'는 표현으로 바뀌어 행위자가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위자): 부엌 사람들에게 저녁을 준비시키라는 내용이 청자가 직접 챙겨 먹는 것으로 바뀌었으나, 부엌에 가서 저녁을 먹는다는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-테니, 기다리는 동안'으로 시간·목적 연결이 유지되고 지시 대상과 초점 표현이 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"호의적 제안·권유 → 호의적 제안·권유. 택시를 부르고 부엌에서 저녁을 들라고 권하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'better'는 개인적인 권유이며 의무·금지·자격을 정하는 규범 표현이 아니므로 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"손윗사람이 손아랫사람에게 건네는 '-게' 하게체와 '조던 양'이 소설 속 상황에 어울립니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 문화·제도적 고유 대상이 없어 평가할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 663,
+    "output_tokens": 738,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

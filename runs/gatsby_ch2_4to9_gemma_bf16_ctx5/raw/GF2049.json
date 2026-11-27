@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAc6cHePGEzXu5ATxx6",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF2049\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"urged him to come out on the next train\",\"tgt_span\":\"다음 열차로 즉시 와달라는 내용\",\"description\":\"'즉시'가 원문에 없이 첨가되었으나, 다음 열차로 오라는 재촉의 뜻 안에서 이해되는 범위라 의미·기능을 바꾸지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"다음 날 아침, 집사, 울프심에게 보낸 편지, 뉴욕, 정보 요청, 다음 열차로 오도록 재촉함이 모두 유지됩니다. '즉시'는 next train을 재촉하는 뜻에 포함되는 정도의 풀이입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"which가 편지를 가리키는 관계가 '편지에는'으로 유지되고, 요청과 재촉의 병렬 관계도 남아 있습니다. 초점 표현의 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(편지를 보낸 사건 설명) → 서술. 서사 진행 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 의무·허가·금지를 정하는 규범 표현이 없습니다. 편지 내용에서 오라고 재촉한 것은 규범 설정이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 화자의 서술체(~다)가 유지되고 울프심 씨라는 호칭도 관계에 맞습니다. 태도 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴욕이라는 지명과 인명만 등장하고 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1043,
+    "output_tokens": 769,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

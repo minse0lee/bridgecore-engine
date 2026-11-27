@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9X6JB1a2CcJXCiYvoP",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0548\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"delivered suddenly from the womb of his purposeless splendour\",\"tgt_span\":\"목적 없는 화려함이라는 자궁 속에서 갑작스럽게 태어난 그는\",\"description\":\"'자궁에서 갑자기 해방·분만되었다'는 의미가 '자궁 속에서 태어난'으로 바뀌어 화려함에서 벗어난다는 방향이 흐려지고 화려함이 출생지처럼 읽힘\"},{\"id\":\"E002\",\"src_span\":\"He came alive to me\",\"tgt_span\":\"비로소 내게 살아있는 실체로 다가왔다\",\"description\":\"'비로소'와 '실체'가 더해졌으나 '내게 생생하게 살아났다'는 핵심은 유지됨. 의미를 바꾸지 않는 부가 표현\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'delivered from the womb'(자궁에서 풀려나 태어남)이 '자궁 속에서 태어난'으로 옮겨져 화려함에서 벗어난다는 점이 모호해졌으나, 갑작스러운 탄생 은유와 내게 생생해졌다는 핵심은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"He·his 지시 대상이 유지되고 분사구문이 관형절로 자연스럽게 재구성되어 연결·초점 관계는 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 인물 묘사 서술 → 인물 묘사 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문이며 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 회고적 문어체 서술이 '~다' 서술체로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 618,
+    "output_tokens": 863,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9Lx91JhtVSr85NCc3b",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0307\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"in all the capitals of Europe—Paris, Venice, Rome\",\"tgt_span\":\"파리, 베네치아, 로마 같은 유럽의 모든 수도를 돌며\",\"description\":\"Paris, Venice, Rome이 'all the capitals'의 예시 나열이 되어 '~같은'으로 옮겨짐. 베네치아는 수도가 아니지만 원문 구조를 그대로 따른 것이며 의미 변화는 미미함. 또한 'lived in'이 '돌며'로 바뀌어 거주가 이동으로 읽힐 수 있음.\"},{\"id\":\"E002\",\"src_span\":\"hunting big game\",\"tgt_span\":\"큰 짐승들을 사냥하고\",\"description\":\"big game(대형 사냥감)이 '큰 짐승들'로 옮겨져 사냥 대상의 의미는 유지되나 표현이 다소 일반화됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"유럽 수도들에서의 삶, 보석(주로 루비) 수집, 대형 사냥, 약간의 그림, 자기만을 위한 일, 오래전 슬픈 일을 잊으려는 시도가 모두 유지됩니다. '돌며'와 '큰 짐승'은 같은 사태를 기술하는 표현 차이입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'things for myself only'는 앞 활동 전체를 받는 동격이며 '오직 저만을 위한 일들이었습니다'로 같은 지시 관계를 유지하고, '잊어보려고 말입니다'도 목적 관계를 유지합니다. 문장 분할은 오류가 아닙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개브츠비의 과거 서술(자기소개) → 과거 서술. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서사적 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 청자(닉)에게 정중하게 이야기하는 상황에 '~습니다/~죠' 체가 어울리며 태도 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"rajah를 '라자'로 음역해 인도 군주 칭호를 가리키며, 유럽 도시 지명은 그대로 유지되어 문화적 지시 대상이 보존됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 882,
+    "output_tokens": 1005,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT99GWiLnWGSHmvCQRAf",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0040\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Then I heard footsteps\",\"tgt_span\":\"그때 계단을 오르는 발소리가 들리더니\",\"description\":\"1인칭 화자 'I heard'가 주어 없는 '발소리가 들리더니'로 바뀜. 한국어 자연스러운 표현이며 의미 변화는 없어 실질 오류 아님\"},{\"id\":\"E002\",\"src_span\":\"blocked out the light from the office door\",\"tgt_span\":\"사무실 문에서 새어 나오는 빛을 가로막으며 나타났다\",\"description\":\"문에서 들어오는 빛을 가로막았다는 서술이 '새어 나오는 빛'으로 옮겨졌고 '나타났다'가 첨가됨. 사태 묘사는 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"발소리를 듣고 곧 통통한 여성이 문의 빛을 가로막았다는 내용이 유지되며, '나타났다'는 같은 사태의 자연스러운 표현입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Then과 and in a moment의 시간 순서 연결이 '그때…들리더니, 곧'으로 유지되며 지시·초점 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 인물 등장을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 청자 사이의 높임·호칭 관계가 드러나는 대화가 아닌 서술 문장이며, 문체는 서술체로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1157,
+    "output_tokens": 809,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

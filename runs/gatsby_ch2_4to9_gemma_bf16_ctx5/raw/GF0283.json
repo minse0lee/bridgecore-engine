@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9KxDhVTH1UnniXrBko",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0283\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a dozen suns\",\"tgt_span\":\"수십 개의 태양\",\"description\":\"a dozen(열두 개 안팎)이 '수십 개'로 바뀌어 수량이 달라짐\"},{\"id\":\"E002\",\"src_span\":\"a rich cream colour\",\"tgt_span\":\"진한 크림색\",\"description\":\"rich(풍부한·짙은)를 '진한'으로 옮김. 색조 표현의 통상적 대응이라 의미 변화는 아니므로 오류 아님\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(수량): a dozen(12)이 '수십 개'(최소 20~30 이상)로 바뀌어 수량이 달라졌습니다. 다만 과장된 이미지의 묘사이고 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계가 유지되며 나열 구조와 수식 관계가 그대로 남아 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"차의 외관 묘사 → 차의 외관 묘사. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체(~었다/있었다)가 유지되며 화자의 과장된 감탄 어조도 크게 달라지지 않았습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다. 수량 오류는 Semantic에서만 판정합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1048,
+    "output_tokens": 722,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

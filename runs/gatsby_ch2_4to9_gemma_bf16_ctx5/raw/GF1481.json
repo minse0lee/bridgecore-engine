@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTABzzmwUAnqzbY4SxHY",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1481\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"in her heart she never loved anyone except me\",\"tgt_span\":\"그녀의 마음속엔 나 말고는 그 누구도 없었습니다\",\"description\":\"'나 말고는 누구도 사랑한 적이 없다'(사랑의 대상·행위)가 '마음속에 나 말고는 아무도 없다'(존재·점유)로 바뀌어 loved 행위와 과거 부정(never)이 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위·부정): '사랑한 적이 없다'가 '마음속에 없었다'로 바뀌어 사랑이라는 행위와 never의 의미가 직접 표현되지 않았으나, 앞 문맥상 그녀의 마음에 나뿐이었다는 요지는 대체로 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"only→'것뿐', because→'-서', but→'-지만' 등 초점·인과·대조 관계가 유지되고 지시 대상도 동일합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대에게 감정적으로 주장하는 외침 → 같은 주장·외침 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"never는 과거 감정의 부정이며 의무·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"흥분한 화자가 연적에게 하는 말로 '~요/~습니다' 혼용이 문맥상 관계에서 크게 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화 고유의 제도·단위·관습 등 별도로 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 814,
+    "output_tokens": 770,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

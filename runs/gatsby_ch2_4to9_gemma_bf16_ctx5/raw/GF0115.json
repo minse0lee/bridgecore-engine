@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9CXBMWsaH3GtJHYF1E",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0115\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"more rakish angle\",\"tgt_span\":\"좀 더 세련된 각도로\",\"description\":\"rakish(건들거리는·방탕한 느낌의, 다소 도발적인)가 '세련된'으로 바뀌어 평가 내용이 달라짐. 부정적·도발적 함의가 중립적·긍정적 평가로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"had been plucked\",\"tgt_span\":\"다 뽑아낸 뒤\",\"description\":\"'다'가 덧붙어 눈썹을 전부 뽑았다는 뜻으로 읽힘. 원문은 뽑았다는 사실만 말함\"},{\"id\":\"E003\",\"src_span\":\"the efforts of nature toward the restoration of the old alignment\",\"tgt_span\":\"원래 모양대로 되돌아가려는 본능 탓인지\",\"description\":\"자연의 작용을 '본능'으로 옮기고 단정을 '-탓인지'라는 추측으로 바꿈. 원문은 자연이 원래 배열로 되돌리려 한 결과로 흐려졌다고 단정함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: rakish가 '세련된'으로 바뀌어 평가 내용이 달라졌고, '다 뽑아낸'은 범위를 덧붙였으며, 인과 단정이 추측('-탓인지')으로 바뀌어 확실성이 달라졌습니다. 다만 눈썹을 뽑고 다시 그렸으며 원래 모양으로 돌아가려 해 번져 보인다는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-ㄴ 뒤', '-지만'이 순서 관계와 대조 관계를 유지하고, '얼굴'의 소유 관계도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 외양 묘사 → 인물 외양 묘사. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 청자 사이의 관계나 격식을 평가할 대상이 없는 서술 문장입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1200,
+    "output_tokens": 989,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

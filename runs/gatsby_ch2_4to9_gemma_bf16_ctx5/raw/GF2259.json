@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAkzPEC62j3kb3E5GWQ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF2259\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"without comment\",\"tgt_span\":\"아무런 군더더기 없이\",\"description\":\"'논평 없이'가 '군더더기 없이'로 바뀌어, 아무 언급·반응 없이 말했다는 뜻이 불필요한 말 없이 간결하게 말했다는 뜻으로 달라짐\"},{\"id\":\"E002\",\"src_span\":\"I doubted that, though there were several she could have married at a nod of her head\",\"tgt_span\":\"고개만 끄덕여도 결혼할 남자가 여럿 있었을 테지만, 나는 그 말을 믿지 않았고\",\"description\":\"'그 말을 의심했다(doubted)'가 '믿지 않았다'로 바뀌어 확신 정도가 달라지고, 양보절의 '많은 구혼자가 있었음에도'라는 대비 구조가 '있었을 테지만'으로 옮겨져 약혼 사실을 믿지 않는 이유와의 관계가 흐려짐. 다만 대비 관계 자체는 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'without comment'(논평 없이)가 '군더더기 없이'로 바뀌어 그녀가 말하는 방식의 내용이 달라졌으나, 약혼했다고 말한 핵심 사실은 유지되어 minor입니다. 'doubted'를 '믿지 않았고'로 옮긴 것은 통상적 범위의 확실성 차이로 보아 오류로 두지 않았습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 질문 모두 아니오: '그 말'이 약혼 발언을 가리키고, 'though'의 양보 관계는 '-ㄹ 테지만'으로 유지되며 but의 대비도 남아 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 회고 서술 → 회고 서술. 인물의 반응과 속마음을 기술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술자의 소설 서술체(평서 '-다')가 유지되며 특별한 높임이나 호칭 관계 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1016,
+    "output_tokens": 1029,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

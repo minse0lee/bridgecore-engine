@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAb92cAmzLQ7gJc15mx",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF2026\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"telephoned news of the catastrophe to West Egg village\",\"tgt_span\":\"웨스트에그 마을에 이 비극적인 소식을 전화로 알린\",\"description\":\"'참사(catastrophe)에 관한 소식'이 '이 비극적인 소식'으로 바뀌어 사건 명칭이 평가어로 대체됨. 지시어 '이'가 첨가되었으나 직전 문맥(개츠비의 죽음)과 맞아 지시 대상은 유지됨.\"},{\"id\":\"E002\",\"src_span\":\"every practical question, was referred to me\",\"tgt_span\":\"현실적인 문제들은 전부 나에게로 쏠렸다\",\"description\":\"'모든 실무적 문제가 나에게 넘겨졌다(referred)'가 '나에게로 쏠렸다'로 바뀌어 누군가 맡겼다는 의미가 자연스러운 쏠림으로 바뀜. 핵심 사실(나에게 오게 됨)은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"전화로 알린 시점, 모든 추측과 실무적 문제가 화자에게 넘어옴이라는 핵심 내용이 유지됩니다. catastrophe가 '비극적인 소식'이 되고 '쏠렸다'로 옮긴 것은 같은 사태를 기술하는 표현 차이입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'순간부터'의 시간 기점과 '나'를 가리키는 관계가 유지되고, 지시·연결·초점 관계에 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 사건 이후 화자에게 책임이 몰리게 된 경위를 설명하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회고 서술의 평서체('-었다')가 유지되며 특정 청자와의 관계 표지는 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"웨스트에그는 지명뿐이며 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1005,
+    "output_tokens": 950,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

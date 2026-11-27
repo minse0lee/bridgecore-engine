@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9LbXX8ympuJfFxPeR1",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0296\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"all my ancestors have been educated there for many years\",\"tgt_span\":\"저희 조상들이 오랫동안 그곳에서 공부하셨거든요\",\"description\":\"'all my ancestors'의 '모든'이 빠져 '조상들'로 옮겨짐. 전체 범위가 약해졌으나 핵심 사실은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(수량): 'all my ancestors'의 '모든'이 빠져 전체성이 약해졌으나, 조상들이 오래 옥스퍼드에서 교육받았다는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"because의 인과가 '-거든요'로 유지되고, 지시 대상과 초점 관계에도 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"자기 신상 설명 → 자기 신상 설명. 화자가 출신을 밝히는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 신상 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개츠비가 닉에게 격식 있게 말하는 태도가 '-입니다', '-셨거든요' 체로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Middle West를 중서부로, Oxford를 옥스퍼드로 통용 표기로 옮겼고 가문 전통의 함의도 유지됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 840,
+    "output_tokens": 701,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

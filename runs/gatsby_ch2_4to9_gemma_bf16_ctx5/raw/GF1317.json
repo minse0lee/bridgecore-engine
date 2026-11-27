@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTA57SXiA1qTmwicLEJ5",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1317\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"she knew him before we were married\",\"tgt_span\":\"우리가 결혼하기 전부터 알던 사이라더군\",\"description\":\"화자 톰이 직접 단정한 사실이 '~라더군'이라는 전해 들은 말로 바뀌어 확실성이 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): 직접 안다는 단정이 전언('~라더군')으로 바뀌었으나 데이지가 결혼 전부터 그를 알았다는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'him', 'she', 'we'가 각각 가리키는 대상이 유지되고, 세미콜론으로 이어진 보충 설명 관계도 문장 분할 후에 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"불만 섞인 설명·푸념 → 불만 섞인 설명·푸념. 감탄문의 비꼬는 기능도 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰의 구어체 반말 발화와 불만 섞인 태도가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명만 있고 문화·제도 고유의 대상이 없으며 'God knows'는 관용적 표현으로 '신만이 아시겠지'로 통용 가능한 대응입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 546,
+    "output_tokens": 699,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

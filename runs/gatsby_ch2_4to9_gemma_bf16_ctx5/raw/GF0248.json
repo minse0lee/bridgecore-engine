@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9JL538YF6rBCR2Co1r",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0248\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"One time he killed a man who had found out\",\"tgt_span\":\"한번은 자기가 … 알아챈 사람을 죽였다더라고\",\"description\":\"원문은 그가 사람을 죽였다고 단정하는 서술이나, 번역은 '죽였다더라고'로 전해 들은 말처럼 바꾸어 확실성이 약해짐(앞 문장의 '밀주업자래'와 이어진 소문 맥락에서는 자연스러운 구어 처리이나 단정→전언의 차이가 있음)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"죽인 사건, 폰 힌덴부르크의 조카·악마의 재종형제라는 비밀, 장미 한 송이, 마지막 한 방울 등 내용이 유지됩니다. '-더라고'는 소문 전언을 나타내는 구어 종결로, 이 장면은 젊은 여성들이 소문을 퍼뜨리는 말이므로 핵심 사실이 달라지지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'who had found out that he was…'의 관계절이 '자기가 … 알아챈 사람'으로 유지되고, 대명사 he가 죽인 사람이 아닌 밀주업자를 가리키는 관계도 '자기'로 유지됩니다. 이어지는 요청 두 개도 '그리고'로 연결됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소문 전달 → 소문 전달, 장미와 술을 달라는 요청 → 요청. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 개인적 부탁과 소문 서술로, 의무·허가·금지 같은 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"파티에서 친밀하게 말하는 젊은 여성의 말투가 'honey'의 '자기야'와 반말체로 유지됩니다. 'that there'의 속된 태도도 '저'로 크게 훼손되지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"폰 힌덴부르크는 인명이고 그 외 문화·제도 고유의 대상이 없으므로 별도로 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 810,
+    "output_tokens": 944,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

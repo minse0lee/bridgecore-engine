@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAZMcqKDoF5J79VbbzN",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1985\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"By six o’clock\",\"tgt_span\":\"여섯 시가 될 무렵\",\"description\":\"'six o'clock까지는/무렵에는 이미'라는 시점이 '여섯 시가 될 무렵'으로 옮겨져 시간 표현이 약간 달라졌으나 핵심 사태는 유지됨\"},{\"id\":\"E002\",\"src_span\":\"and grateful for the sound\",\"tgt_span\":\"고마운 마음까지 들었다\",\"description\":\"'까지'가 첨가되어 고마움이 지친 상태에 더해지는 초점 표현이 생김\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"미카엘리스의 지친 상태와 차 소리에 대한 고마움이라는 내용이 유지되며, 시점 표현의 미세한 차이는 사태를 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 3(초점): 원문에 없는 '까지'가 붙어 '고마움도 들었다'는 추가 초점이 생겼으나, 핵심 인과 연결은 유지되어 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(인물 상태 설명) → 서술. 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 본문의 서술체 '-다'가 유지되며 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명과 시각 외에 판정할 문화 고유 제도나 관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 865,
+    "output_tokens": 728,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

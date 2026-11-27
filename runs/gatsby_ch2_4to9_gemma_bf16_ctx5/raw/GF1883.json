@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAV7RhYKCh1YCSi4EHP",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1883\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"gorgeous pink rag of a suit\",\"tgt_span\":\"화려한 분홍색 옷가지\",\"description\":\"'rag of a suit'(누더기 같은 양복, 정장)가 '옷가지'로 바뀌어 양복(suit)이라는 구체적 대상이 일반적인 옷으로 일반화됨. 'rag'의 비하·경시 뉘앙스도 약해짐\"},{\"id\":\"E002\",\"src_span\":\"his ancestral home\",\"tgt_span\":\"그의 저택\",\"description\":\"'ancestral home'(조상 대대의 집)이 '저택'으로 바뀌어 가문 대대로 내려온 집이라는 의미가 빠짐\"},{\"id\":\"E003\",\"src_span\":\"a bright spot of colour\",\"tgt_span\":\"선명한 색채를 띠었고\",\"description\":\"'밝은 색의 한 점(spot)'이 '선명한 색채를 띠었다'로 바뀌어 하얀 계단 위의 점 같은 색 대비가 약해짐. 뜻은 대체로 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'suit'가 '옷가지'로 일반화되고 'ancestral home'이 '저택'이 되어 대상 의미가 달라졌습니다. 다만 장면의 요지(분홍 옷이 흰 계단에서 눈에 띔, 석 달 전 처음 방문한 밤을 떠올림)는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'his'가 개츠비를 가리키는 지시 관계, 두 절의 연결, 'first' 시간 표지 모두 유지됩니다(질문 1·2·3 모두 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사·서술 → 장면 묘사·서술. 같은 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서사 묘사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 화자의 소설 서술체가 유지되며 평가할 관계상의 격식 변화가 없습니다. 'rag'의 비하 뉘앙스는 서술 묘사 수준이라 Semantic에서만 봅니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다. 'ancestral home'은 Semantic에서 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1088,
+    "output_tokens": 1052,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

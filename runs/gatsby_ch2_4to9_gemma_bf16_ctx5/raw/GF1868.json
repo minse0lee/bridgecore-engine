@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAUXH87J8MjneMpT4jN",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1868\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"대응 구간 없음(첨가)\",\"tgt_span\":\"나중에\",\"description\":\"원문에 없는 '나중에'가 추가되었으나, 전화하겠다는 약속의 의미와 시간적 함의를 크게 바꾸지 않아 사소한 첨가임\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 상대에게 전화하겠다는 내용과 마침내 말했다는 서술이 유지됩니다. 전화는 말하는 시점 이후의 일이므로 '나중에'는 사태를 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인용문과 서술부 'I said finally'의 연결 및 지시 관계가 유지되며 초점·범위 표현의 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 중 전화하겠다는 약속·작별 발화 → 같은 약속·작별 발화로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 단순한 의지 표명으로, 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-ㄹ게요' 존댓말이 화자와 청자의 관계에 맞는지 판단하려면 화자(닉)와 청자(조던) 사이의 관계 및 장면 정보를 확인해야 합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 451,
+    "output_tokens": 686,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

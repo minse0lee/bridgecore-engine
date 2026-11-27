@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9XCCt5sWahDBp2oac2",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0553\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"he’s regular tough underneath it all\",\"tgt_span\":\"그 사람, 꽤나 무뚝뚝하고 고집 센 구석이 있거든요\",\"description\":\"'regular tough'(속은 영락없이 거친 사람, 즉 겉과 달리 본래 투박하고 억센 사람)가 '무뚝뚝하고 고집 센 구석이 있다'로 옮겨져 성향 묘사가 다소 달라지고 'underneath it all'의 '겉과 속' 대비가 약해짐\"},{\"id\":\"E002\",\"src_span\":\"He thought you might be offended.\",\"tgt_span\":\"당신이 불쾌해할지도 모른다고 생각했나 봐요.\",\"description\":\"'생각했나 봐요'가 추측 표현을 덧붙여 화자의 단정(그가 그렇게 생각했다)을 추측으로 약화시킴\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'regular tough'가 '무뚝뚝하고 고집 센'으로 바뀌어 성격 묘사가 달라졌고, '생각했나 봐요'로 확실성이 약해졌으나 핵심 사실(두려움, 오래 기다림, 불쾌할까 걱정)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'거든요'로 이유 관계와 'You see'의 설명 연결이 유지되며 지시·초점 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대를 이해시키려는 설명·변호 → 설명·변호. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 대화 설명입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"친근하게 설명하는 대화체 '-요'체가 문맥상 어색하지 않고 화자의 태도도 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 658,
+    "output_tokens": 878,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

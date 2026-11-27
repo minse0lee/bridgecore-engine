@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9gPNLbTZz63ohzTQp1",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0771\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a cupboard in the wall\",\"tgt_span\":\"벽장 속에서\",\"description\":\"벽에 붙박이로 설치된 수납장(찬장)이 '벽장'으로 옮겨졌으나 같은 붙박이 수납 공간을 가리키므로 의미·기능을 바꾸지 않는 통상적 대응이어서 실제 오류로 보지 않음(참고용)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개츠비의 개인 공간 도착, 침실·욕실·아담 양식 서재, 앉아서 샤르트뢰즈 한 잔을 마심, 그가 벽 속 수납장에서 꺼냄이 모두 유지됩니다. 'some Chartreuse'의 막연함 정도 차이와 '꺼내 준'의 약간 첨가는 핵심 사실을 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"where 관계절을 문장 분할로 '그곳에'로 옮겨 장소 지시와 시간 순서(도착 → 앉아 마심)가 유지됩니다. 'we', 'he'의 지시 대상도 그대로입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 서사 속 이동과 장면을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 회고 서술체인 '~했다'가 유지되며 높임·호칭이 문제 되는 부분이 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Chartreuse는 '샤르트뢰즈'로 통용되는 정확한 음역이고 Adam's study는 '아담 스타일의 서재'로 양식을 가리키는 점이 유지되어 같은 대상을 이해할 수 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1105,
+    "output_tokens": 839,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

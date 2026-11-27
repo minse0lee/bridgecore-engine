@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTANX5JKJJ6ZzLKQHU31",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1731\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"she thought it would steady her to drive\",\"tgt_span\":\"데이지 양이 무척 불안해해서 직접 운전하면 마음이 좀 진정될 거라고 생각했거든요\",\"description\":\"생각한 주체가 원문에서는 데이지(she)인데, 번역문에서는 화자인 '그'가 생각한 것으로 읽힘. 행위자·인지 주체가 바뀜\"},{\"id\":\"E002\",\"src_span\":\"she was very nervous\",\"tgt_span\":\"데이지 양이 무척 불안해해서\",\"description\":\"'데이지 양'은 원문에 없는 호칭 첨가(Daisy는 유부녀). 대명사 she를 이름 호칭으로 풀면서 '양'을 덧붙임\"},{\"id\":\"E003\",\"src_span\":\"this woman rushed out at us just as we were passing a car coming the other way\",\"tgt_span\":\"반대편에서 오는 차를 지나치던 바로 그 순간, 이 여자가 우리 쪽으로 갑자기 뛰어들었어요\",\"description\":\"주체 'we'가 사라져 대조적 연결은 유지되나 의미 변화는 거의 없음. 단, 'rushed out at us'는 우리 쪽으로 달려 나온 것으로 대체로 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물·행위): '운전하면 진정될 거라고 생각한' 주체가 데이지에서 화자로 읽혀 누가 생각했는지가 달라졌고, 이 서술은 누가 운전했는지에 관한 맥락이라 요지 이해에 영향을 줍니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(지시 관계): 원문에서 she thought의 she는 데이지를 가리키는데, 번역문의 '데이지 양이 … 생각했거든요'는 생각의 주체와 '직접 운전하면'의 주체 관계가 바뀌어 읽혀 지시 관계가 달라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사건 경위 설명·해명 → 사건 경위 설명·해명. 발화 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"must have killed는 추론의 must이며 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2(호칭): 원문에 없는 '양'이라는 호칭이 덧붙어 기혼 여성인 데이지에 대한 관계·역할이 달라졌습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없고 인명만 나옵니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1585,
+    "output_tokens": 1120,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

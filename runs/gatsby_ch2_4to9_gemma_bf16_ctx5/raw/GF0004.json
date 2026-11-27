@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAoVmMvL3WVzaGQD6U7",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0004\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"above the grey land and the spasms of bleak dust\",\"tgt_span\":\"잿빛 땅과 그 위를 끝없이 떠도는 황량한 먼지 바람 너머로\",\"description\":\"above(위쪽)가 '너머로'로 옮겨졌고 spasms of dust(경련하듯 일어나는 먼지)가 '먼지 바람'이 됨. 같은 장면을 묘사하며 관찰자가 보는 대상과 위치 관계는 유지되므로 의미를 바꾸지 않는 차이임.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"잿빛 땅, 끝없이 떠도는 황량한 먼지, 잠시 후 에클버그 박사의 눈이 보인다는 내용이 모두 유지됩니다. '너머로'와 '먼지 바람'은 같은 사태를 기술하는 표현 차이입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"But이 '하지만'으로 유지되고 which가 이끄는 수식 관계도 '그 위를 끝없이 떠도는'으로 먼지를 정확히 수식합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"풍경 묘사 서술 → 풍경 묘사 서술. 에클버그 박사의 눈을 소개하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설의 서술 문장으로 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 평서체('보인다')가 유지되며 화자와 독자 관계에 어긋나는 표현이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명(T. J. 에클버그 박사)만 있고 별도로 판정할 문화 고유의 제도·단위·관습은 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1108,
+    "output_tokens": 806,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

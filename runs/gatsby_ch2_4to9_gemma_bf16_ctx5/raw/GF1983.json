@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTAZJzLBNLbqgy1dPd2c",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1983\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Something made him turn away from the window and look back into the room.\",\"tgt_span\":\"마이클리스는 왠지 모를 기분에 창가에서 몸을 돌려 방 안쪽을 바라보았다.\",\"description\":\"원문은 'him'이 가리키는 대상이 불분명하고, 문맥상 Michaelis이므로 번역문의 주어 '마이클리스'는 문맥에 맞음. 'Something'(무언가)이 '왠지 모를 기분'으로 바뀌어 외부 원인일 수도 있는 것이 내적 기분으로 해석됨. 'look back into the room'의 'back'(다시 되돌아봄) 뉘앙스는 약해짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 원인인 'Something'(미지의 무언가)이 '왠지 모를 기분'이라는 내적 상태로 좁혀졌습니다. 몸을 돌려 방 안을 보았다는 핵심 사실은 유지되어 요지는 크게 바뀌지 않고 독자의 행동·대상 이해에도 영향이 없어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'him'이 마이클리스를 가리키는 지시 관계가 유지되고 연결·초점 표현의 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사 진행 서술 → 서사 진행 서술. 인물의 행동을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 서술문으로 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문이며 화자·청자 사이의 높임·호칭 관계가 문제 되는 대화가 아닙니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 658,
+    "output_tokens": 848,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9br7XUqAyWMaQnny87",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0663\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"why did I have to come alone?\",\"tgt_span\":\"왜 나만 혼자 오게 했어요?\",\"description\":\"'내가 왜 혼자 와야 했나'(필연·상황)가 '왜 나만 혼자 오게 했느냐'(상대의 사역 행위)로 바뀌고, 상대가 그렇게 했다는 전제와 '나만'이라는 초점이 더해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 원문은 화자가 왜 혼자 와야 했는지를 묻지만 번역은 상대가 화자만 혼자 오게 했다는 사역 행위로 바꿨습니다. 다만 이유를 따지는 핵심 취지는 유지되어 독자의 요지 이해는 크게 달라지지 않습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3: 원문에 없는 '나만'이 추가되어 초점·범위가 '나 혼자'에서 '다른 사람은 오고 나만'이라는 대조로 이동했습니다. 앞 질문과 'or'의 선택 관계는 '아니면'으로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"속삭이며 상대의 속뜻을 떠보는 수사적 질문 → 같은 종류의 떠보는 질문. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"have to는 화자가 왜 혼자 올 수밖에 없었느냐는 상황적 필연을 묻는 것으로, 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"연인 사이의 친밀한 대화이며 '~어요' 체가 관계에 무리 없이 맞고, 낮게 속삭이는 태도도 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위 등 별도로 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 655,
+    "output_tokens": 871,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT98n8RTm6zTsPXHg7i2",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF0029\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"old man\",\"tgt_span\":\"오랜만이야\",\"description\":\"친근한 호칭 'old man'이 '오랜만이야'라는 오랜만에 만났다는 인사말로 바뀌어 없던 정보(오랜만의 만남)가 더해지고 호칭이 사라짐\"},{\"id\":\"E002\",\"src_span\":\"Wilson\",\"tgt_span\":\"윌슨 씨\",\"description\":\"톰이 허물없이 부르는 'Wilson'에 존칭 '씨'가 덧붙어 관계의 격식이 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 호칭 'old man'이 '오랜만이야'로 바뀌어 원문에 없는 '오랜만에 만났다'는 내용이 생겼으나, 인사하고 어깨를 치며 말하는 핵심 사건은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 대상, 연결 관계, 초점 표현이 바뀌지 않았습니다(그의 어깨 = 윌슨의 어깨).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"친근한 인사와 서술 → 친근한 인사와 서술. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범적 의미를 가진 표현이 없습니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2·3: 톰이 윌슨에게 허물없이 친근하게 부르는 호칭이 '윌슨 씨'로 격식 있는 존칭이 되고 'old man'의 친밀한 태도가 호칭에서 사라졌습니다. 반말 종결은 유지되어 minor입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 문화 고유의 제도·단위·관습 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 560,
+    "output_tokens": 820,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

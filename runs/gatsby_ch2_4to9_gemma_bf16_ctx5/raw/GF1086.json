@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT9uaXfFoqu5GceYdEPf",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1086\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I wouldn’t ask too much of her\",\"tgt_span\":\"그녀에게 너무 많은 걸 바라지는 마세요\",\"description\":\"완곡한 개인 의견·조심스러운 조언('나라면 ~하지 않을 텐데')이 직접적인 부정 명령('바라지 마세요')으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"그녀에게 지나치게 많은 것을 기대하지 말라는 내용, 화자(나), 'ventured'의 조심스러운 말 꺼내기가 '조심스럽게 말을 꺼냈다'로 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인용문과 서술부의 연결, 대명사 her(그녀)와 I(내)의 지시 관계가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대에게 조심스럽게 조언·만류함 → 상대에게 조심스럽게 조언·만류함. 같은 종류의 기능입니다. 말투 강도 차이는 Context 훼손이 아닙니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"I wouldn't는 의무·허가·금지를 거는 규범 표현이 아니라 화자 개인의 조심스러운 조언(가정법)이므로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 상대를 조심스럽게 타이르는 태도가 '조심스럽게' 및 '-세요' 존댓말로 전달되어 관계에 어긋나지 않으며, 완곡함도 서술부가 유지합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 544,
+    "output_tokens": 777,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
