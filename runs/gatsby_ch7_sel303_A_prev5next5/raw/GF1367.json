@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChToZvZJ4QKa7jNYcwNPw",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1367\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the hot whips of panic\",\"tgt_span\":\"당혹감에 휩싸여 안절부절못했다\",\"description\":\"'panic'(공황·극심한 공포)이 '당혹감'(당황)으로 바뀌고 '뜨거운 채찍'의 이미지가 사라져 감정의 종류와 강도가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: panic(공포·공황)이 '당혹감'으로 바뀌어 감정 내용이 달라졌으나, 톰이 동요했다는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'there is no confusion like…'와 'as we drove away'의 연결과 지시 관계가 문장 분할 후에도 시간 관계('떠나는 동안')로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물의 심리 서술 → 인물의 심리 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문의 '~다' 문어체가 유지되며 화자·청자 관계에서 문제되는 높임·호칭이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없고 인명만 등장합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2386,
+    "output_tokens": 689,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

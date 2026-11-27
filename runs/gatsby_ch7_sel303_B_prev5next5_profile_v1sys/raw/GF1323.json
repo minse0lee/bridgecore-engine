@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTooCMBYrW99LzEyJe2b",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1323\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"we slid to an abrupt dusty stop\",\"tgt_span\":\"차는 윌슨의 간판 아래에서 먼지를 일으키며 급정거했다\",\"description\":\"'우리(we)'가 '차'로 바뀌어 화자를 포함한 일행이 멈췄다는 표현이 사라짐. 다만 차가 멈추면 일행도 함께 멈추므로 사태는 같음\"},{\"id\":\"E002\",\"src_span\":\"both brakes\",\"tgt_span\":\"브레이크를 꽉\",\"description\":\"양쪽 브레이크(both brakes)를 '브레이크를 꽉'으로 옮김. 차량 조작의 세부 표현 차이로 사태 서술은 유사\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 짜증스럽게 브레이크를 밟았고 차가 윌슨의 간판 아래에서 먼지를 일으키며 급정거했다는 사태가 유지됩니다. 'we'가 '차'로 바뀌고 both brakes가 '꽉'으로 바뀐 것은 같은 사건 서술 범위 안의 표현 차이입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞 절의 브레이크 조작과 뒤 절의 정지가 '-고'로 이어져 원문의 and 연결(시간·결과)이 유지되며, 지시·초점 관계의 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 소설 속 사건 진행을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 '-했다' 평서체가 소설 서술 문체로 적절하며 인물 간 호칭·높임 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명(Wilson)만 있고 판정할 문화·제도·단위 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 17198,
+    "inference_geo": "global",
+    "input_tokens": 1341,
+    "output_tokens": 875,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

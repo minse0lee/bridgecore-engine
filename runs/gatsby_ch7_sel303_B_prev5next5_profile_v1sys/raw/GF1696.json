@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTovfp7dmXTGrauCUtPG",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1696\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"you and Jordan better go in the kitchen and have them get you some supper\",\"tgt_span\":\"조던 양과 함께 부엌에 가서 저녁이라도 좀 챙겨 먹게\",\"description\":\"'have them get you some supper'(그들이 저녁을 차려 내오게 하라)가 '저녁을 챙겨 먹게'로 바뀌어 하인에게 시키는 행위가 사라지고, 'you and Jordan'의 두 사람이 닉에게만 말하는 것으로 읽힘\"},{\"id\":\"E002\",\"src_span\":\"better go in the kitchen\",\"tgt_span\":\"부엌에 가서 저녁이라도 좀 챙겨 먹게\",\"description\":\"'better'(~하는 편이 낫다)가 '-게'로 옮겨져 권고 강도가 약해졌으나 하게체 권유로 통상 범위 안임\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'have them get you some supper'의 사환·하인에게 저녁을 내오게 시키는 행위가 '챙겨 먹게'로 바뀌어 참여자(them)가 빠지고 행위가 달라졌으나, 부엌에서 저녁을 먹으라는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'while you're waiting'의 시간 관계가 '기다리는 동안'으로 유지되고 지시·초점 관계도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"행동 권유·지시 → 행동 권유·지시. 택시를 부르고 부엌에서 저녁을 먹으라는 권유 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"개인적인 대화 속 권유와 선택 제안(if you want any)으로 의무·허가를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 닉에게 하는 격의 없는 윗사람 어조가 하게체('챙겨 먹게')로 유지되고 '조던 양'도 적절합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 17198,
+    "inference_geo": "global",
+    "input_tokens": 1330,
+    "output_tokens": 948,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

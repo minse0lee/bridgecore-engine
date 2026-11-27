@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTopQTDnakmz5AQe7G9V",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1349\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"she’s going whether she wants to or not\",\"tgt_span\":\"가게 될 겁니다\",\"description\":\"주어 'she'(윌슨의 아내)가 번역문에서 생략됨. 앞 문장의 '그 사람'이 아내라는 맥락상 복원은 가능하며, 'is going'이 '가게 될 겁니다'로 옮겨져 확정된 사실이 다소 완곡한 예상처럼 읽힘.\"},{\"id\":\"E002\",\"src_span\":\"I’m going to get her away.\",\"tgt_span\":\"제가 어떻게든 데리고 떠날 생각이에요.\",\"description\":\"'어떻게든'이 첨가되어 의지가 강조됨. 'going to'가 '생각이에요'로 옮겨져 확정적 결심이 의도로 표현됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"아내가 원하든 원하지 않든 간다는 것, 윌슨이 아내를 데리고 떠난다는 핵심 내용이 모두 유지됩니다. 주어 생략과 '어떻게든' 첨가는 의미를 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'And now'가 '이제는'으로 시간 대비 연결을 유지하고, 생략된 주어는 앞 문장의 '그 사람'(아내)으로 이어져 지시 대상이 바뀌지 않았습니다(질문 1·2·3 모두 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"윌슨이 자신의 결심을 밝히는 진술 → 결심을 밝히는 진술. 발화 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 계획·결심을 서술하는 문장으로 의무·허가·금지의 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"윌슨이 부유한 톰에게 정중한 존댓말(~입니다, ~에요)로 말하는 관계에 맞고 앞뒤 대화와도 일관됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 17198,
+    "inference_geo": "global",
+    "input_tokens": 1334,
+    "output_tokens": 917,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

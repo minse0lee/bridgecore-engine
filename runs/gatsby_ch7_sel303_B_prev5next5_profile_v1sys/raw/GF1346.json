@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTopEsFjbDnW1WaA1RpU",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1346\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“Your wife does,”\",\"tgt_span\":\"\\\"당신 부인이 그렇다는 거겠지,\\\"\",\"description\":\"놀란 톰이 윌슨의 말(아내도 서부로 가고 싶어 한다)을 되받아 확인하는 진술이 '그렇다는 거겠지'라는 추측으로 바뀌어 확실성이 달라지고 'want to go West'의 내용도 '그렇다'로 흐려짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): 톰이 윌슨의 말을 되받아 확인하는 진술이 '그렇다는 거겠지'라는 추측 어조로 바뀌었으나 핵심 사실(부인이 서부행을 원함)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'does'가 앞의 'want to go West'를 받는 대용 관계가 '그렇다는'으로 남아 있고 지시·연결·초점 관계는 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"놀라며 되받는 반응 → 놀라며 되받는 반응. 같은 종류의 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 윌슨에게 '당신 부인'이라고 말하는 반존대 없는 평서형 대화가 두 사람의 관계(상류층 톰과 정비소 주인 윌슨)에 크게 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 17198,
+    "inference_geo": "global",
+    "input_tokens": 1157,
+    "output_tokens": 786,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

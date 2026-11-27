@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTosReVEdmVD1fifEnLM",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1616\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"rushed out into the dusk, waving her hands and shouting\",\"tgt_span\":\"손을 휘저으며 소리를 지르고는 어스름 속으로 뛰쳐나왔다\",\"description\":\"원문은 뛰쳐나오면서 손을 흔들고 소리치는 동시 동작인데, 번역은 손을 휘저으며 소리를 지른 뒤 뛰쳐나온 순서로 읽혀 동작 순서가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"그녀가 어스름 속으로 뛰쳐나오며 손을 휘젓고 소리쳤고, 그가 움직이기 전에 상황이 끝났다는 내용이 유지됩니다. 동작 순서 차이는 사태를 바꿀 만큼 크지 않습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(시간 순서): 원문의 동시 동작이 '-고는'으로 연결되어 소리친 뒤 뛰쳐나온 순차 관계로 바뀌었습니다. 핵심 사실은 유지되어 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체가 '-ㅆ다'로 유지되며 관계나 태도 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 17198,
+    "inference_geo": "global",
+    "input_tokens": 1797,
+    "output_tokens": 735,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

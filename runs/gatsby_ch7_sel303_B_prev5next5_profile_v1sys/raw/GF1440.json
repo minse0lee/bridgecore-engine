@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChToqp164hPGoFS266wEM",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1440\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"incredulous and insulting\",\"tgt_span\":\"믿기지 않는다는 듯 무시하는 투로\",\"description\":\"insulting(모욕적인)이 '무시하는 투'로 옮겨져 모욕의 강도가 다소 약해짐. 다만 부정적·적대적 평가라는 내용은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰의 목소리, 불신, 모욕적 태도라는 내용이 모두 유지되고 insulting→'무시하는 투'는 평가어의 정도 차이일 뿐입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Then→'그러자'로 시간 순서 연결이 유지되고, 콜론 뒤 대사로 이어지는 구조도 다음 문장과 이어집니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰의 말투를 알리는 서술 → 말투를 알리는 서술. 뒤에 나올 대사를 예고하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 개츠비를 비꼬며 무례하게 대하는 태도가 '무시하는 투'로 전달되어 약화되었다고 보기 어렵습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 17198,
+    "inference_geo": "global",
+    "input_tokens": 1164,
+    "output_tokens": 685,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

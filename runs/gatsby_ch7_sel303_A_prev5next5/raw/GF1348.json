@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChToZ8jFrdHk2ESAg56Sm",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1348\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"shading his eyes\",\"tgt_span\":\"손으로 눈을 가린 채\",\"description\":\"원문에 없는 '손으로'(수단)가 첨가됨. 눈을 가리는 행위 자체는 유지되고 햇빛을 가리는 정황과도 부합하며 의미를 바꾸지 않는 사소한 보충이므로 실질 오류로 보지 않음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"주어(그), 잠시 펌프에 기대어 쉼, 눈을 가림이 모두 유지됩니다. '손으로'는 shading his eyes의 통상적 구체화로 사태를 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그'가 윌슨을 가리키는 관계와 두 동작의 동시 상태 연결('~한 채')이 유지되며 초점·범위 표현은 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 동작 서술 → 인물 동작 서술로 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서사 묘사 문장입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 청자의 관계나 높임이 드러나는 서술 부분이 아니라 3인칭 동작 묘사 문장이어서 평가할 대상이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1315,
+    "output_tokens": 686,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

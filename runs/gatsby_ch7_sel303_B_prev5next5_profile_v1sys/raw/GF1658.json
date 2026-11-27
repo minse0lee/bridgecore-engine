@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTou9UhZDByybVoTxZUh",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1658\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Going fifty, sixty.\",\"tgt_span\":\"50마일, 60마일은 됐을 겁니다.\",\"description\":\"단정적 서술(속도가 50, 60이었다)이 추측('됐을 겁니다')으로 바뀌어 확실성이 약해짐\"},{\"id\":\"E002\",\"src_span\":\"going faster’n forty\",\"tgt_span\":\"시속 40마일보다 훨씬 빠르게요\",\"description\":\"'faster than forty'를 '훨씬 빠르게'로 옮겨 정도 표현('훨씬')을 덧붙임. 속도 수치와 방향은 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): 목격자가 본 속도를 단정하던 말이 '됐을 겁니다'라는 추측으로 바뀌었으나, 40마일 초과, 50·60마일이라는 핵심 사실은 유지되어 minor입니다. '훨씬'의 첨가는 평가어의 정도 차이로 보아 별도 훼손으로 보지 않습니다. 자동 점검 힌트의 숫자 불일치는 오경보로, 원문의 forty, fifty, sixty가 모두 정확히 옮겨져 있습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'No, but'의 대조가 '아뇨, 하지만'으로 유지되고 지시 대상('그 차')과 초점 관계도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"경찰의 질문에 대한 목격 증언 → 목격 증언. 부정 답변과 차의 속도를 진술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 목격 진술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"행인이 경찰에게 하는 대답이 '~어요/~습니다' 체의 공손한 구어체로 유지되어 관계에 어울립니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"mph 속도 단위를 '시속 ~마일'로 그대로 옮겨 다른 단위로 환산하거나 바꾸지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 17198,
+    "inference_geo": "global",
+    "input_tokens": 1538,
+    "output_tokens": 936,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

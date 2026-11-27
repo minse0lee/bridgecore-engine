@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTopin39crxfdkNUTLBC",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1358\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"there was no difference between men, in intelligence or race, so profound as the difference between the sick and the well\",\"tgt_span\":\"지능이나 인종의 차이보다 더 깊은 인간 사이의 격차는 바로 아픈 자와 건강한 자의 차이라는 생각이 들었다\",\"description\":\"'지능·인종에 따른 사람 간 차이 가운데 병자와 건강한 자의 차이만큼 깊은 것은 없다'는 비교가 '지능·인종의 차이보다 아픈 자와 건강한 자의 차이가 더 깊다'로 바뀜. 비교 대상이 '남자들 사이의 지능·인종상 차이 전체'에서 '지능·인종이라는 두 차이'로 좁아지고, 'men'은 '인간'으로 일반화됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"병자와 건강한 자의 차이가 가장 깊다는 요지, 톰의 비슷한 발견, 한 시간 이내라는 시간이 유지됩니다. 비교 구문의 재구성은 같은 사태를 기술하므로 훼손이 아닙니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(범위): 'no difference … so profound as'가 지능·인종의 차이 전체를 아우르는 최상급적 범위인데, 번역은 지능과 인종의 두 차이만을 비교 대상으로 삼아 비교 범위가 달라졌습니다. 다만 요지는 유지되어 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 관찰·성찰 서술 → 서술자의 관찰·성찰 서술.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 소설 서술체 '~다'가 유지되며 인물 간 호칭이나 격식의 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 이 문장에 없습니다. 'race'는 일반 어휘로 번역되었습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 17198,
+    "inference_geo": "global",
+    "input_tokens": 2032,
+    "output_tokens": 922,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

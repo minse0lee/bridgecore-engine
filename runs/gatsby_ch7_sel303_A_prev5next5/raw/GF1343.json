@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChToYrPVr6a7Bd4B2Xg5G",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1343\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I could make some money on the other\",\"tgt_span\":\"다른 차를 팔면 돈을 좀 만질 수 있을 것 같아서요\",\"description\":\"'could'의 가능성은 '수 있을 것 같아서요'로 유지되나, 문장 끝이 '~아서요'로 이유를 나타내는 형태가 되어 대화 상대의 질문에 대한 답이 아니라 이유 설명처럼 읽힘. 의미 변화는 아님(참고용).\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사지는 않지만 다른 차(the other)로 돈을 벌 수 있다는 내용이 유지됩니다. '팔면'은 make money on의 통상적 구체화이고 'could'의 가능성도 '있을 것 같아서요'로 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'No, but'의 대조 연결이 '아뇨, 하지만'으로 유지되고 'the other'가 다른 차를 가리키는 지시도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"구매 제안에 대한 완곡한 거절과 설명 → 거절과 설명. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없고 could는 가능성을 나타냅니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"정비소 주인 윌슨이 손님 톰에게 말하는 상황에 맞는 '~요' 해요체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1145,
+    "output_tokens": 735,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

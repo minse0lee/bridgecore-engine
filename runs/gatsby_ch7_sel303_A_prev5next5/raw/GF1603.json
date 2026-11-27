@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTobZrf2iFQYQ9R2qnbg",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1603\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I’ve got my wife locked in up there\",\"tgt_span\":\"아내가 저 위에 갇혀 있어서 그래요\",\"description\":\"아내를 가둔 행위자(윌슨)가 사라져 아내가 어떤 사정으로 갇혀 있는 상태로 바뀌고, 윌슨이 직접 가두었다는 사실이 전달되지 않음. 또한 '있어서 그래요'가 앞선 소음에 대한 이유 설명처럼 읽힘.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위자·행위): 윌슨이 아내를 가두었다는 행위가 '갇혀 있다'는 상태로 바뀌어 누가 가두었는지가 사라졌고, 독자는 윌슨의 행위가 아닌 다른 사정으로 읽을 수 있습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(연결 관계): 원문은 소음의 원인을 직접 설명하는 진술이지만, 번역의 '-어서 그래요'는 이유를 말하는 인과 연결을 새로 만들어 연결 관계가 달라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소음에 대한 설명 → 소음에 대한 설명. 윌슨이 상황을 설명하는 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"윌슨이 이웃 미카엘리스에게 차분히 말하는 상황에 '-요' 체가 맞고, 화자의 태도도 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1776,
+    "output_tokens": 815,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

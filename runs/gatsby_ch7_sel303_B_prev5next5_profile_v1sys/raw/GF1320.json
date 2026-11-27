@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChToo8Wz8Wo4h1D2Ei9JT",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1320\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"to town\",\"tgt_span\":\"마을까지\",\"description\":\"뉴욕 시내로 가는 맥락의 'town'을 '마을'로 옮겨 도시(뉴욕)가 작은 마을로 읽힐 수 있음. 다만 뉴욕으로 향한다는 큰 흐름과 목적지 개념은 유지되어 의미 변화는 경미함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상): 뉴욕 시내를 가리키는 'town'이 '마을'로 옮겨져 목적지의 성격이 달라졌지만, 톰이 목적지까지 갈 연료가 충분하다는 요지는 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현이 없고 'we'의 포함 관계도 '갈 정도는'에서 자연스럽게 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰의 주장 서술 → 톰의 주장 서술. 정비소에 들르지 않으려는 반박 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 상황 진술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 친구들에게 하는 거만하고 단정적인 반말체가 '충분해'로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 없습니다. 'town'의 번역 차이는 의미 문제로 Semantic에서 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 17198,
+    "inference_geo": "global",
+    "input_tokens": 1424,
+    "output_tokens": 728,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

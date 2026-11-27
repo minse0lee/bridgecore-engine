@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChToYguEPB6S4oF4BF9QT",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1339\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'지난주에 샀어'는 구매 행위와 시점(지난주)을 그대로 옮겼고, 목적어 it은 한국어 생략으로 처리되어 문맥상 같은 차를 가리킵니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"it이 가리키는 차는 앞 문장 '이 차는 어때?'에서 이어져 지시 관계가 유지되고, 연결·초점 표현의 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"차를 산 사실을 알리는 설명 → 설명. 발화 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 윌슨에게 하는 반말 '샀어'는 앞뒤 문맥에서 톰이 윌슨에게 반말을 쓰는 양상과 일치합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1124,
+    "output_tokens": 544,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

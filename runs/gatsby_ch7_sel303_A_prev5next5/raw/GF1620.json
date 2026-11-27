@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTocRozWEyjHPHA2HAbf",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1620\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"her shirtwaist\",\"tgt_span\":\"셔츠\",\"description\":\"소유 표지(her)가 번역문에서 빠졌으나 문맥상 그녀의 옷으로 읽혀 의미 변화는 없음. shirtwaist를 '셔츠'로 옮긴 것은 통상적 대응으로 오류 아님.\"},{\"id\":\"E002\",\"src_span\":\"like a flap\",\"tgt_span\":\"덜렁거리고 있어\",\"description\":\"'덮개처럼 헐렁하게 늘어진'이라는 비유가 '덜렁거리고 있어'로 옮겨져 직유는 사라졌으나 늘어져 흔들리는 상태라는 같은 사태를 기술함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"먼저 도착한 두 사람, 셔츠를 찢어 열기, 왼쪽 가슴이 늘어져 흔들림, 심장 소리를 들을 필요 없음이 모두 유지됩니다. 직유의 생략과 'her' 생략은 같은 사태를 기술하므로 의미 변화가 아닙니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but과 when의 시간·대조 관계가 '~자, ~어서'로 재구성되어 남아 있고, 지시 대상(그녀)과 인과 연결('있어 ~ 필요조차 없다')도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사건 장면 서술 → 사건 장면 서술. 머틀의 죽음을 확인하는 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'no need to listen'은 규범이 아니라 상황상 불필요함을 서술하는 표현이므로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문의 평서체 문어체가 유지되며 인물 간 관계나 호칭 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없고 인명만 등장합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2131,
+    "output_tokens": 893,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

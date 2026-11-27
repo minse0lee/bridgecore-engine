@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTobWG78kAHqEf9aYqSU",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1601\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"advised him to go to bed\",\"tgt_span\":\"그에게 가서 좀 쉬라고 권했지만\",\"description\":\"'go to bed'(자러 가다/누워 쉬다)가 '가서 좀 쉬라고'로 옮겨져 '가서'의 대상이 불분명해지고 침대에 가는 구체적 행위가 일반적인 휴식으로 바뀜. 다만 아픈 사람에게 쉬라고 권한 사태는 유지되어 의미 차이는 경미함.\"},{\"id\":\"E002\",\"src_span\":\"a lot of business\",\"tgt_span\":\"손님을 너무 많이 놓친다며\",\"description\":\"'business'(영업·매출)가 '손님'으로, 'a lot of'가 '너무 많이'로 바뀌었으나 영업 손실이라는 내용은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"행위자(미카엘리스·윌슨), 쉬라고 권함, 윌슨의 거절, 영업 손실을 이유로 듦이 모두 유지됩니다. 'go to bed'→'쉬라고', 'business'→'손님'은 같은 사태를 기술하는 표현 차이입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'but'의 대조는 '-지만'으로, 'if he did'의 조건은 '그렇게 했다가는'으로 유지되고 'he'와 'him'의 지시 대상도 그대로입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사 속 권유와 거절 보고 → 서사 속 권유와 거절 보고. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술 속 간접 인용된 권유이며 규범·의무를 정하는 표현이 아니므로 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 본문의 서술체 '-했다'가 유지되고 인물 간 관계나 태도에 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2091,
+    "output_tokens": 910,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

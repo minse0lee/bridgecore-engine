@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTosS8mHVV3bP3WQrZmg",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1617\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"신문이 부른 '죽음의 자동차'가 멈추지 않고, 어둠 속에서 나와 잠시 비극적으로 흔들리다 다음 모퉁이 너머로 사라진 내용이 모두 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 대상(그 차)이 유지되고 문장 분할 뒤에도 순차적 연결(나와→흔들리고→사라짐)이 남아 있어 질문 1~3 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사고 차량의 행적을 서술하는 기능 → 같은 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문의 평서체 '~다'가 유지되며 관계나 태도 표현이 따로 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다. 신문이 붙인 별칭은 일반 표현으로 옮겨졌을 뿐 판정할 문화 요소가 아닙니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 17198,
+    "inference_geo": "global",
+    "input_tokens": 1973,
+    "output_tokens": 592,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

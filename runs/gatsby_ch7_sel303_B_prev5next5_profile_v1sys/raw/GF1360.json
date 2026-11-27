@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTopnkQXK59AgpNfvS3X",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1360\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I’ll let you have that car\",\"tgt_span\":\"그 차, 당신이 가져요.\",\"description\":\"화자(톰)가 차를 주겠다고 하는 허락·제안(I'll let you have)이 상대에게 '가지라'는 명령형 표현으로 바뀜. 화자의 약속 성격이 약해졌으나 차를 넘겨주겠다는 핵심 내용은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 윌슨에게 그 차를 갖게 해 주겠다는 내용(행위자·대상·수혜자)이 유지됩니다. 문형 차이는 뜻을 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그 차'가 같은 대상을 가리키고 연결·초점 표현의 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"차를 넘기겠다는 제안·약속 → 차를 가지라는 제안·허락. 같은 종류의 기능으로 읽힙니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소유를 허락하는 대화 속 개인적 제안이며 의무·금지·자격을 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"거만하고 위압적인 톰이 정비소 주인 윌슨에게 하는 말로 반말에 가까운 '가져요'와 '당신'은 상하 관계의 태도를 해치지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습이 없고 인명만 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 17198,
+    "inference_geo": "global",
+    "input_tokens": 2110,
+    "output_tokens": 737,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

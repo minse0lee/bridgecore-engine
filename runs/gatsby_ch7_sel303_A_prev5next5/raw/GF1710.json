@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTog8WJdVCWcCZcVWnEj",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1710\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"between two bushes\",\"tgt_span\":\"덤불 사이에서\",\"description\":\"'두 덤불'에서 수량 'two'가 사라져 '덤불 사이'로 옮겨짐. 위치 묘사의 세부 수량이 빠졌으나 장면의 핵심 사실은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(수량): 'two bushes'가 '덤불'로 옮겨져 수량이 사라졌습니다. 숫자 20야드는 '스무 걸음'으로 통상적으로 대응되어 문제없고, 요지와 독자의 행동 이해는 달라지지 않아 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'내 이름이 들렸고'와 '개츠비가 … 드러냈다'의 시간적 연결(when)이 유지되고 지시·초점 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사 묘사 → 서사 묘사. 장면을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 청자 사이의 높임·호칭이 드러나는 대화가 아니라 서술문입니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"20 yards를 '스무 걸음'으로 옮겨 거리 감각을 통상적으로 전달하며 제도적 의미가 달라지지 않았습니다. 인명·거리 표현뿐이라 문제없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1653,
+    "output_tokens": 735,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChToodynh8z6LiYKNxfLz",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1331\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Well, shall I help myself?\",\"tgt_span\":\"그래서, 내가 직접 넣으면 되겠어?\",\"description\":\"'Well'이 상황을 재촉하는 감탄사에서 '그래서'라는 연결어로 바뀌고, 'shall I'(내가 해도 되나?)가 '내가 넣으면 되겠어?'로 옮겨져 뉘앙스가 약간 달라졌으나 행위와 의미는 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 직접 연료를 넣겠다는 행위·행위자가 동일하며, 'help myself'를 '직접 넣으면'으로 옮긴 것은 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Well'을 '그래서'로 옮겨 앞의 윌슨의 반응에 이어지는 연결이 대체로 유지되며, 지시·초점 관계의 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"윌슨이 움직이지 않자 비꼬며 재촉하는 수사적 질문 → 같은 종류의 비꼬며 재촉하는 질문으로 읽힙니다(뒤에 '쏘아붙였다'가 있음).\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 제안·허락을 구하는 질문으로 의무·허가를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 윌슨에게 반말로 거만하게 말하는 관계가 '-겠어?' 반말체로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 17198,
+    "inference_geo": "global",
+    "input_tokens": 1228,
+    "output_tokens": 774,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTox5ShpVpzXeNgvLRCQ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1732\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"It ripped her open—\",\"tgt_span\":\"몸이 완전히 찢겨 나갔어요—\",\"description\":\"'her open'(그녀를 갈라 열었다)이 '몸이 완전히 찢겨 나갔다'로 바뀌어 '완전히'가 추가되고 부위·정도가 확대됨. 다만 같은 사태를 기술하는 범위여서 의미는 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"충격이 그녀의 몸을 찢어 열었다는 사태가 같고, 원문의 주어 'It'은 번역에서 생략됐으나 사고의 충격으로 읽혀 행위자·대상이 달라지지 않았습니다. '완전히'는 정도 표현의 차이에 그칩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'her'는 '몸'으로 옮겨져 머틀을 가리키는 소유 관계가 유지되고, 대시로 끊기는 문장 형태도 같으며 연결·초점 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사고 상황 묘사(서술) → 사고 상황 묘사(서술). 개츠비의 말을 닉이 끊는 흐름도 대시로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"사고 결과를 묘사하는 서술로 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개츠비가 닉에게 하는 말로, 번역의 '~어요' 체가 앞뒤 대사와 같은 정중한 어조를 유지합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 17198,
+    "inference_geo": "global",
+    "input_tokens": 1503,
+    "output_tokens": 782,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

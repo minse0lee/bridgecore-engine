@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTorrqnU78AspSe5Wj5n",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1604\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"She’s going to stay there\",\"tgt_span\":\"거기 있게 한 다음\",\"description\":\"'그녀가 거기 머물 것이다'라는 예정·진술이 '(내가) 거기 있게 한다'는 사역으로 바뀌고, 주어(아내)가 번역문에서 사라짐\"},{\"id\":\"E002\",\"src_span\":\"we’re going to move away\",\"tgt_span\":\"같이 떠날 생각입니다\",\"description\":\"'우리가 이사 간다'가 '같이 떠날 생각'으로 바뀌어 이사(move away)의 의미가 약해지고 계획의 확실성이 의향으로 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 아내를 가두어 둔다는 핵심 사실과 이사 계획은 앞뒤 문맥으로 읽혀 유지되지만, 'she stays'가 사역으로, 'move away'가 '떠날 생각'으로 바뀌어 확실성과 표현 내용이 조금 달라졌습니다. 요지는 같아 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'다음'으로 시간 순서 연결이 유지되고, 생략된 주어는 앞 문장 '아내'로 복원되어 지시 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"윌슨의 상황 설명 → 상황 설명. 자기 계획을 밝히는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물이 자기 계획을 밝히는 서술이며 의무·허가·금지 같은 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"윌슨이 이웃 미카엘리스에게 차분하게 설명하는 말투로 '-습니다'체가 무난하며 관계나 태도가 바뀌지 않았습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 없습니다. '내일모레'는 the day after tomorrow의 통상적 대응입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 17198,
+    "inference_geo": "global",
+    "input_tokens": 1773,
+    "output_tokens": 898,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

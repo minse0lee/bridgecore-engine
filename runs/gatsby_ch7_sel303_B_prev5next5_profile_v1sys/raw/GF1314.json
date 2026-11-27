@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTonmooM1ibuyg2G9EnQ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1314\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“Nevertheless he’s an Oxford man.”\",\"tgt_span\":\"“그렇다 해도 그는 옥스퍼드 출신이에요.”\",\"description\":\"화자(조던)가 톰에게 하는 말에 해요체를 썼음. 문맥상 조던은 톰에게 반말 또는 평어체에 가까운 동년배 말투(앞 문장에서는 존댓말)이므로 관계 적합성은 판단 보류 수준이며, 의미상 차이는 없음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"그럼에도 그는 옥스퍼드 출신이라는 내용이 그대로 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Nevertheless의 양보·대조 관계가 '그렇다 해도'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞선 반박에 맞서는 주장 → 반박에 맞서는 주장. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 평서문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조던은 앞 대사에서 톰에게 존댓말(해요체)을 쓰고 있어 번역문 해요체가 문맥의 관계와 일치합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"옥스퍼드 출신이라는 표현 외에 별도 판정할 문화 고유의 제도·단위가 없고 대학명만 해당합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 17198,
+    "inference_geo": "global",
+    "input_tokens": 1341,
+    "output_tokens": 684,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

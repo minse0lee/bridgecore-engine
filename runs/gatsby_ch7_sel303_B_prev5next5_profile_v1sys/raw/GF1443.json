@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChToqwGeYMyYhE1UzY2ck",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1443\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"his “thank you”\",\"tgt_span\":\"그에게 건넨 \\\"고맙습니다\\\"라는 인사\",\"description\":\"원문은 웨이터의 \\\"thank you\\\"(his)인데, 번역은 웨이터에게 건넨 인사로 옮겨 말한 사람이 웨이터에서 다른 사람으로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"but the silence was unbroken by his “thank you” and the soft closing of the door\",\"tgt_span\":\"…와 부드럽게 닫히는 문소리조차 이 정적을 깨지는 못했다\",\"description\":\"원문에 없는 초점 표현 '조차'가 추가됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위자): 웨이터가 한 \\\"thank you\\\"가 웨이터에게 건넨 인사로 바뀌어 누가 말했는지가 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(소유 관계): his가 가리키는 웨이터가 인사의 수신자로 바뀌어 소유·지시 관계가 달라졌습니다. '조차'의 추가는 정적이 깨지지 않았음을 강조하는 정도로 읽혀 초점 훼손으로는 보지 않습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 장면의 정적을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무 표현이 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 평서체 서술이 유지되며 관계에 따른 높임 문제가 없습니다. \\\"고맙습니다\\\"는 인용된 인사말로 무난합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습을 평가할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 17198,
+    "inference_geo": "global",
+    "input_tokens": 1326,
+    "output_tokens": 833,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

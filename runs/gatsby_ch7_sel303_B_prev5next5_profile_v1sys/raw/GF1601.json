@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTori6RJAiYgdV41c9Jc",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1601\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"advised him to go to bed\",\"tgt_span\":\"그에게 가서 좀 쉬라고 권했지만\",\"description\":\"'go to bed'가 '가서 좀 쉬라고'로 바뀜. 침대에 가서 눕는 것이 '쉬다'라는 일반적 행위로 일반화됨(의미 변화는 경미).\"},{\"id\":\"E002\",\"src_span\":\"he’d miss a lot of business\",\"tgt_span\":\"손님을 너무 많이 놓친다며\",\"description\":\"'a lot of business'(많은 장사·영업)가 '손님을 너무 많이'로 바뀜. 대상이 사업에서 손님으로 약간 달라졌으나 맥락상 같은 취지.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"권유·거절의 행위자와 조건이 유지됩니다. 'go to bed'→'쉬라고', 'business'→'손님'은 같은 사태를 기술하는 통상적 표현 차이로 의미를 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'but'의 대조가 '-지만'으로, 'if he did'가 '그렇게 했다가는'으로 조건·지시 관계가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사건 서술 → 사건 서술. 간접화법으로 권유와 거절을 전하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 서술이며 의무·허가·금지를 정하는 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 문장은 평서체 서술이며 이웃 간 대화의 태도에 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문장에 문화 고유의 제도·단위·관습이 없고 인명만 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 17198,
+    "inference_geo": "global",
+    "input_tokens": 2091,
+    "output_tokens": 802,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTogqJEm4CCYRd9cwt4Y",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1727\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the garage\",\"tgt_span\":\"정비소\",\"description\":\"'the garage'(앞서 언급된 Gatsby의 차고와 같은 건물/장소를 가리키는 정관사 지시)를 '정비소'로 옮김. 의미(차고/자동차 정비소)는 통상적 대응 범위이나 지시 연결이 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"이름이 윌슨, 남편이 차고(정비소)를 소유, 어떻게 일이 일어났는지 묻는 내용이 모두 유지됩니다. 'garage'를 '정비소'로 옮긴 것은 윌슨의 자동차 정비업을 가리키는 통상적 대응입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Her'가 '남편'의 소유 관계로 이어져 여자와 남편의 관계가 유지되고, 문장 간 연결과 초점 표현에 변화가 없습니다(질문 1·2·3 모두 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"정보 제공 및 감정이 실린 질문 → 정보 제공 및 감정이 실린 질문. 'How the devil'의 강한 의문 기능이 '도대체'로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술과 질문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자(Tom)가 청자(Nick)에게 '-요'체로 말하는 것은 이 문단 앞뒤 번역의 대화 관계와 크게 어긋나지 않으며, 'the devil'의 거친 감정도 '도대체'로 어느 정도 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명(Wilson)만 있고 별도로 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1796,
+    "output_tokens": 822,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

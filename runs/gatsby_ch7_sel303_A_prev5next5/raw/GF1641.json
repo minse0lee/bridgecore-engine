@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTodKJMc3BGgTbxxtbh9",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1641\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“No, r—” corrected the man\",\"tgt_span\":\"“아니요, r—” 그 남자가 정정해 주었다.\",\"description\":\"앞 문장 번역의 철자 '마-브—'와 달리 'r—'을 알파벳 그대로 두어 철자 정정 장면의 연결이 흐려짐. 의미·기능은 유지되어 오류 목록 외 사소한 표기 차이.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"남자가 'No, r—'이라 정정하고 철자 'M-a-v-r-o'를 말하는 내용이 그대로 전달됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞선 경찰의 철자 읽기를 정정하는 연결 관계가 유지되며 지시·초점 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"경찰이 철자를 부르는 것을 바로잡는 정정 발화 → 정정 발화로 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"낯선 사람이 경찰에게 하는 '아니요' 정도의 공손한 대답으로 관계에 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 철자만 있고 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1363,
+    "output_tokens": 662,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChToZgWSrbBx4SSvNxKax",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1362\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"as though I had been warned of something behind\",\"tgt_span\":\"마치 뒤에서 무슨 일이라도 일어날 것 같다는 경고라도 받은 것처럼\",\"description\":\"'뒤에 있는 무언가(something behind)에 대해 경고받음'이 '뒤에서 무슨 일이 일어날 것 같다는 경고'로 바뀌어 경고 내용이 사물·존재에서 장차 일어날 사건으로 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 뒤에 있는 무언가에 대한 경고가 뒤에서 일어날 일에 대한 경고로 바뀌었으나, 불안해 고개를 돌렸다는 핵심 장면은 유지되어 요지는 크게 달라지지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"even in의 양보 관계와 now/as though의 연결이 유지되어 지시·연결·초점 모두 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면·분위기 서술 → 장면·분위기 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 서술문으로 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 화자의 서술체 '-었다'가 유지되어 관계와 격식에 어긋남이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2246,
+    "output_tokens": 730,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

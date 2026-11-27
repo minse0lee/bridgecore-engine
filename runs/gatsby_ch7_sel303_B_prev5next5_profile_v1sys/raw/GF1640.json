@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTotMx1j9dTB79gz1vp5",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1640\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“M-a-v—”\",\"tgt_span\":\"“마-브—”\",\"description\":\"이름 철자 'M-a-v'를 하나씩 불러 주는 알파벳 낭독이 한글 음절 '마-브'로 바뀌어 철자 부르기라는 성격이 약해지고 'a'가 빠짐. 뒤 문장에서 알파벳을 그대로 쓴 'r—', 'M-a-v-r-o—'와 표기가 어긋남.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 경찰이 Mavro의 철자를 한 글자씩 말하는 내용이 '마-브'라는 음절 표기로 바뀌어 'M-a-v'의 글자 구성이 달라졌습니다. 다만 경찰이 이름 철자를 받아 적고 있다는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사·연결·초점 관계는 바뀌지 않았고, '—오—'로 이어지는 철자 낭독의 연속성도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"경찰의 철자 확인 발화 서술 → 경찰의 철자 확인 발화 서술. 기능은 같은 종류입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 같은 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"경찰의 사무적인 낭독 어조에 높임이나 호칭이 관여하지 않아 관계와 격식이 바뀌지 않았습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 없습니다. 이름 철자 표기 문제는 Semantic에서 판정했습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 17198,
+    "inference_geo": "global",
+    "input_tokens": 1520,
+    "output_tokens": 792,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

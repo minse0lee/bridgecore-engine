@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChToX7CfnMX4JEjw87SeF",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1301\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"pulled him back from the edge of theoretical abyss\",\"tgt_span\":\"그는 이론적인 심연의 가장자리에서 다시 끌려 나왔다\",\"description\":\"원문에서는 immediate contingency가 주어로 이어져 그를 끌어당긴 것인데, 번역은 '그는 … 끌려 나왔다'로 피동 처리해 주어가 바뀌었다. 다만 누가 끌어냈는지는 앞 절에서 이어지므로 의미 변화는 없다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"눈앞의 급한 상황이 그를 덮쳐 이론적 심연의 가장자리에서 끌어냈다는 내용이 유지되며, 능동에서 피동으로 바뀐 것은 같은 사태를 기술한다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그를'과 '그는'이 같은 인물을 가리키고 앞 절과의 순차 연결이 '-고'로 유지된다(질문 1·2 모두 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문(인물의 사고 흐름이 끊기는 장면 묘사) → 서술문. 기능이 유지된다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 소설 서술이다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"3인칭 소설 서술체 '-었다'가 유지되며 화자·인물 관계상 문제가 없다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1226,
+    "output_tokens": 719,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

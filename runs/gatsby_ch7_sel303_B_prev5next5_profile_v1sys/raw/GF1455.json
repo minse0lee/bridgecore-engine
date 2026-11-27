@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTorPB8vCHbRa6cmCABe",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1455\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Then you won’t seem so stupid to yourself\",\"tgt_span\":\"그러면 스스로가 그렇게 멍청하게 느껴지진 않을 거야\",\"description\":\"'너 자신에게 그렇게 멍청해 보이지 않을 것'이 '스스로 그렇게 멍청하게 느껴지진 않을 것'으로 바뀌어 seem의 뉘앙스가 조금 달라졌고, 여기서 종결어미가 반말 '-을 거야'로 바뀜(같은 발화 안의 어미 불일치)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"위스키를 열라는 요구, 민트 줄렙을 만들어 주겠다는 약속, 스스로에게 덜 멍청해 보일 것이라는 내용, 민트를 보라는 말이 모두 유지됩니다. 'seem'을 '느껴지다'로 옮긴 것은 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'and'의 순차 연결과 'Then'의 결과 관계가 '그러면'으로 유지되고, 'yourself'가 가리키는 대상(톰)도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰에게 위스키를 따르라고 명령하며 긴장을 누그러뜨리려는 발화 → 같은 종류의 지시·제안 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 개인적 부탁과 제안이며 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"부부 사이인 데이지가 톰에게 명령하는 말투로, '따줘요', '봐요'의 해요체가 관계에 맞고 'ordered'의 명령조도 '시켰다'로 전달됩니다. 끝의 '-을 거야'는 어미 불일치일 뿐 관계를 바꾸지 않습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"mint julep을 '민트 줄렙'으로 통용되는 음역으로 옮겨 같은 음료를 가리킵니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 17198,
+    "inference_geo": "global",
+    "input_tokens": 1386,
+    "output_tokens": 917,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

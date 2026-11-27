@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChToe3Ji7Bz3Tai4bQh7j",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1658\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Going fifty, sixty.\",\"tgt_span\":\"50마일, 60마일은 됐을 겁니다.\",\"description\":\"사실을 진술하는 'Going fifty, sixty'(시속 50, 60마일로 달리고 있었다)가 추측형 '됐을 겁니다'로 바뀌어 확실성이 약해짐\"},{\"id\":\"E002\",\"src_span\":\"faster’n forty\",\"tgt_span\":\"시속 40마일보다 훨씬 빠르게요\",\"description\":\"'faster'n forty'에 없는 '훨씬'이 더해지고 '시속'과 '마일' 단위가 명시됨(통상적 보충이며 의미는 같음)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): 속도를 단정한 진술이 '됐을 겁니다'라는 추측으로 바뀌었으나 핵심 사실(시속 40마일 초과, 50~60마일)은 유지되어 minor입니다. 힌트의 수치 불일치는 원문의 'fifty, sixty'를 숫자로 옮긴 것이라 오경보입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'No, but'의 대조 관계가 '아뇨, 하지만'으로 유지되고 지시 대상(차, 나)도 그대로입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"목격 정황 진술 → 목격 정황 진술. 경찰 질문에 답하는 증언 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 증언 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"경찰에게 답하는 일반 시민의 대화체가 '~요' 체로 자연스럽게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"마일 단위를 환산하지 않고 그대로 유지해 원문과 같은 단위를 가리킵니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1538,
+    "output_tokens": 851,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

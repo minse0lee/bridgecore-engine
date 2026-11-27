@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChToxXMvntrJGWkq5FADb",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1743\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"How long are you going to wait?\",\"tgt_span\":\"얼마나 더 기다리실 건가요?\",\"description\":\"원문에 없는 '더'가 덧붙었으나 기다리는 기간을 묻는 내용은 유지됨(의미 변화 없는 통상적 표현). 높임 '-시-'는 닉이 개츠비에게 하는 말에 대한 선택이며 관계 위반이 아님.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기다릴 기간을 묻는 내용이 동일하며 '더'는 자연스러운 표현 차이로 의미를 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현이 바뀌지 않았고 앞 대화의 기다린다는 내용에 그대로 이어집니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기간을 묻는 질문 → 기간을 묻는 질문. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없는 단순 질문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"닉이 격식을 차리는 연상의 개츠비에게 하는 말이므로 '-실 건가요'의 존대가 관계에 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 17198,
+    "inference_geo": "global",
+    "input_tokens": 1260,
+    "output_tokens": 662,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChToh6wKQmn7S9YTePVDR",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1733\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Don’t tell me\",\"tgt_span\":\"말하지 말아요\",\"description\":\"'나에게 (그 이야기를) 말하지 마라'에서 '나에게'(청자 대상)가 빠지고 '말하지 말아요'로 옮겨, 상세한 묘사를 듣고 싶지 않다는 뜻이 약해짐. 다만 문맥상 의미는 거의 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'나에게'가 생략됐지만 앞 문장(몸이 찢겨 나갔다는 묘사)의 맥락상 '그 얘기를 하지 말라'는 내용이 그대로 읽히고 행위자·대상 관계도 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현이 바뀐 것이 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대의 말을 제지하는 요청·지시 → 제지하는 요청·지시. 같은 종류의 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 대화 속 개인적 제지·부탁이며 규범·의무를 정하는 문장이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"old sport는 친근한 호칭이고 '친구'와 '~요'체가 앞뒤 대화의 격식 및 친밀한 관계와 어울립니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"old sport는 개츠비의 말버릇인 친근한 호칭으로, 별도로 판정할 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1799,
+    "output_tokens": 723,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

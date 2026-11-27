@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChToon9B9qzyHqfKCs29P",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1337\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I was wondering what you were going to do with your old car\",\"tgt_span\":\"타시던 낡은 차를 어떻게 하실 생각인지 궁금해서 왔습니다\",\"description\":\"'궁금하던 참이었다'는 내적 호기심 서술이 '궁금해서 왔습니다'로 방문 목적 진술로 바뀜(통상적 대응 범위로 보아 의미 변화 미미). 아래 축 판정 참조.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"돈이 몹시 필요하다는 점과 낡은 차를 어떻게 할 계획인지 궁금하다는 내용이 유지되며, '왔습니다'는 문맥상 이미 찾아온 상황과 어긋나지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'But'의 대조 연결이 '하지만'으로 유지되고 '돈이 급해서'와 '궁금해서'의 이유 관계가 자연스럽게 재구성되었으며 지시 관계도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"차를 팔 의향이 있는지 넌지시 떠보는 간접 요청 → 같은 종류의 간접 요청. 차의 처분을 묻는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없는 대화 속 개인적 사정과 바람의 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"가난한 정비소 주인 윌슨이 부유하고 위압적인 톰에게 하는 말이므로 '-해서요', '타시던', '하실' 같은 높임은 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 17198,
+    "inference_geo": "global",
+    "input_tokens": 1146,
+    "output_tokens": 817,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

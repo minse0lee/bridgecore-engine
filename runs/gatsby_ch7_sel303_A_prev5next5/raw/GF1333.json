@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChToYRTocBTPgcDVZXTPz",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1333\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"well enough\",\"tgt_span\":\"아주 멀쩡하게\",\"description\":\"'well enough'(그럭저럭 괜찮은 정도)가 '아주 멀쩡하게'로 정도가 강해졌으나, 평가어의 정도 차이에 그침\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"전화로 통화할 때 멀쩡하게 들렸다는 내용이 유지되고 달라진 것은 'enough'와 '아주'의 정도뿐이므로 판단 질문 2에 따라 보존입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'전화로는'의 '는'이 지금(직접 만난 상태)과의 대조를 나타내어 지시·연결·초점 관계가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"아프다는 윌슨의 말을 따지듯 반박하는 진술 → 같은 종류의 반박·추궁 진술로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 수리공 윌슨에게 반말로 쏘아붙이는 관계와 태도가 '들리던데' 반말체로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 표현이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1124,
+    "output_tokens": 655,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

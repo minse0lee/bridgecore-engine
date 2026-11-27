@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChToiUHjXwXJBqySUK5Fx",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1767\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Good night, old sport.\",\"tgt_span\":\"잘 가요, 친구.\",\"description\":\"밤 인사 'Good night'이 일반적인 작별 인사 '잘 가요'로, 개츠비의 고유 호칭 'old sport'가 '친구'로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"데이지가 잠들 때까지 여기서 기다리겠다는 내용과 작별 인사 기능이 유지되며, 인사말과 호칭의 차이는 내용 변화로 보지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'till'이 '때까지'로 시간 관계를 유지하고 지시·초점 관계의 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기다리겠다는 의사 표명과 작별 인사 → 의사 표명과 작별 인사. 기능이 같은 종류입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 개인적 바람과 인사말이며 의무·허가·금지 같은 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(태도): 개츠비 특유의 격식 있고 친밀한 호칭 'old sport'가 평범한 '친구'로 바뀌어 화자의 말투와 태도가 약해졌습니다. 존댓말 자체는 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'old sport'를 1920년대 상류층 영국식 호칭 습관이라는 문화적 표지로 볼지, 단순한 호칭으로 볼지 평가 기준이 불명확해 Cultural 적용 여부를 정해야 합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 973,
+    "output_tokens": 763,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

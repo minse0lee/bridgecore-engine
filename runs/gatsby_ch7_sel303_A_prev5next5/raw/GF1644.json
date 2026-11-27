@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTodUgexsFaqsBrDJPtN",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1644\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"fell sharply on his shoulder\",\"tgt_span\":\"어깨를 세게 내리치자\",\"description\":\"손이 어깨 위로 '떨어졌다'는 서술이 톰이 어깨를 '내리쳤다'는 타격 행위로 바뀜. 정도(sharply→세게)는 유지되나 톰이 때린 것처럼 읽힘.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위): 손이 어깨에 '세차게 떨어졌다'가 '내리쳤다'로 바뀌어 타격 행위가 되었으나, 톰의 손이 어깨에 닿고 그가 고개를 든다는 핵심 사건은 유지되어 요지 변화는 작습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'as'의 동시·시간 관계가 '-자'로 유지되고 지시 관계(his=그, 어깨)도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 사건을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설의 서술문으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장은 서술문으로 화자·청자 사이의 높임이나 호칭, 태도를 드러내는 요소가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없고 인명만 등장합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1278,
+    "output_tokens": 696,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

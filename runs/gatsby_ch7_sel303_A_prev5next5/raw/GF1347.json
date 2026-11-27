@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChToYzKjStSKKtgyK8Jpn",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1347\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"for ten years\",\"tgt_span\":\"10년 전부터\",\"description\":\"기간(10년 동안)이 시점(10년 전부터)으로 바뀌었으나 지속 기간은 사실상 동일하게 읽힘. 통상적 대응이라 훼손 아님\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"그녀가 10년간 그 이야기를 해왔다는 내용이 '10년 전부터 해왔다'로 같은 사태를 기술하므로 인물·행위·수량이 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'She'는 '그 사람'(윌슨의 아내)으로, 'it'은 '그 이야기'(서부로 가는 것)로 지시 대상이 유지되고 '-거든요'는 앞 발화의 근거 관계를 유지합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰의 놀람에 대한 근거 설명 → 근거 설명. 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"윌슨이 부유한 톰에게 공손하게 말하는 관계에서 '-거든요' 해요체가 맞으며, 아내를 '그 사람'이라 한 것도 관계를 바꾸지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1301,
+    "output_tokens": 688,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

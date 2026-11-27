@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTof8RpALe2q6N6pBfxt",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1685\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"until we were beyond the bend\",\"tgt_span\":\"굽이진 길을 벗어날 때까지\",\"description\":\"'우리(화자와 톰)'가 굽이를 지났다는 주어가 번역문에서 생략되었으나, 문맥상 톰의 차 안 동행으로 읽혀 의미 변화는 거의 없음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 굽이를 지날 때까지 천천히 운전하다 세게 밟아 쿠페가 밤에 질주했다는 내용이 유지됩니다. 'we'의 생략은 한국어에서 자연스러운 주어 생략이며, 'foot came down hard'를 '가속 페달을 세게 밟았다'로 옮긴 것도 같은 사태입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"until과 then의 시간 순서 연결이 '벗어날 때까지 … 이내'로 유지되며 지시·초점 관계 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 본문의 서술체 '~했다'가 유지되며 관계·태도 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·단위·관습이 없습니다. coupé의 '쿠페' 표기는 통용 표기입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1632,
+    "output_tokens": 723,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

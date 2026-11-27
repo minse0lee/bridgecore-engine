@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTooShtEwToruUs81Rzm",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1327\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'I'm sick'을 '몸이 안 좋아서요'로, 'without moving'을 '움직이지 않은 채'로 옮겨 인물·행위·상태가 같습니다. 'sick'의 정도 차이는 평가어 수준이라 보존입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인용문과 서술 'said Wilson'의 연결, 주어(윌슨)가 유지되고 지시·연결·초점 관계가 바뀌지 않았습니다. '-서요'의 이유 뉘앙스는 앞 문장(기름을 달라는 요구)에 대한 대답으로 자연스럽습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기름을 넣으라는 요구에 대한 자기 상태 설명(핑계) → 같은 설명 기능. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 상태 진술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"주유소 주인 윌슨이 부유한 손님 톰에게 하는 말로, 공손한 '-요' 체가 관계에 맞습니다. 이후 대사의 '-습니다' 혼용은 어색함 정도라 훼손이 아닙니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 17198,
+    "inference_geo": "global",
+    "input_tokens": 1094,
+    "output_tokens": 669,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

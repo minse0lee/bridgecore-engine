@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTod9Kayc8RzSJd1jUYL",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1636\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Wilson neither heard nor saw\",\"tgt_span\":\"윌슨은 듣지도 보지도 못하는 듯했다\",\"description\":\"윌슨이 듣지도 보지도 못했다는 단정적 서술이 '못하는 듯했다'라는 추측으로 바뀌어 확실성이 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): 단정이던 '듣지도 보지도 못했다'가 '못하는 듯했다'로 추측이 되었으나, 남자의 말 걸기와 손 얹기 시도, 윌슨이 반응하지 않는다는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-했지만'이 but의 대조 관계를 유지하고, him·his가 가리키는 대상(윌슨)도 그대로이며 초점 표현도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 윌슨의 상태를 묘사하는 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설의 장면 묘사로 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문으로 화자와 청자 사이의 높임·호칭 관계를 평가할 대상이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명만 있고 문화·제도에 고유한 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2254,
+    "output_tokens": 701,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

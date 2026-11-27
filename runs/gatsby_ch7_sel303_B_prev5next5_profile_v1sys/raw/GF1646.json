@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTotaqQcrwDoSiZ5pq9U",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1646\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"that’s what I want to know\",\"tgt_span\":\"그것만 알면 돼\",\"description\":\"'알고 싶다'는 바람·요구가 '알기만 하면 된다'는 최소 조건으로 바뀌고 '만'이라는 초점 표지가 더해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: '알고 싶다'는 욕구가 '알면 된다'는 충분조건으로 바뀌어 내용이 달라졌으나, 무슨 일이 있었는지 알려 달라는 핵심 사실은 유지되어 요지 이해는 크게 다르지 않습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3: 원문에 없는 초점 표현 '만'이 추가되어 '그것만 알면 된다'는 한정 범위가 생겼습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"경찰에게 사건 경위를 설명하라고 요구하는 발화 → 사건 경위를 알려 달라는 요구. 같은 종류의 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 경찰에게 거칠고 위압적으로 말하는 상황에서 반말체가 관계와 태도에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 17198,
+    "inference_geo": "global",
+    "input_tokens": 1102,
+    "output_tokens": 696,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

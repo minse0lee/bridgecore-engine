@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTotjTpkQCsACNskYBkT",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1648\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“Instantly killed,”\",\"tgt_span\":\"“즉사했다고요,”\",\"description\":\"톰이 경찰의 말을 되풀이하는 대사가 존댓말 종결어미 '-고요'로 옮겨져, 앞선 대사에서 톰이 반말을 쓰는 것과 말투가 어긋남(어조 차이)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"즉사했다는 내용, 톰이 되뇐 행위, 멍하니 바라봄이 모두 유지됩니다. 'staring'을 '멍하니 바라보며'로 옮겨 응시의 정도 차이만 있습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"경찰의 말을 톰이 되풀이하는 관계가 '되뇌었다'로 유지되고, 지시·연결·초점 관계의 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"경찰이 한 말을 충격 속에 반복하는 발화 → 경찰이 한 말을 충격 속에 반복하는 발화. 기능이 같은 종류입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 톰은 앞 대사에서 경찰에게 반말로 말하는 위압적인 인물인데, 이 대사는 '-고요'라는 존댓말 종결어미로 옮겨져 관계에 맞는 말투에서 벗어났습니다. 다만 반복·확인의 요지에는 영향이 없어 minor입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도에 고유한 대상이 이 문장에 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 17198,
+    "inference_geo": "global",
+    "input_tokens": 1280,
+    "output_tokens": 783,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

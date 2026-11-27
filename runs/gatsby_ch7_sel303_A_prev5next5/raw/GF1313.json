@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChToXY87QdPyYpj6m2vZA",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1313\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Like hell he is!\",\"tgt_span\":\"말도 안 되는 소리!\",\"description\":\"비속한 강한 부정('절대 아니다')이 점잖은 표현으로 바뀌어 거친 어조가 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"옥스퍼드 출신이라는 것을 강하게 부정하고 핑크색 정장을 입는다는 근거를 드는 내용이 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"핑크색 정장이 부정의 근거라는 관계가 '무슨!'으로 유지되며 지시·연결·초점 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대 주장에 대한 격한 반박 → 격한 반박. 같은 기능입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범적 의무·허가·금지를 정하는 표현이 없습니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(태도): 'Like hell'의 비속하고 거친 어조가 '말도 안 되는 소리'로 순화되어 톰의 거친 태도가 약해졌습니다. 반말 반박 자체는 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1320,
+    "output_tokens": 644,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

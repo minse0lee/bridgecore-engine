@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChToy8ZFvraY7JZrxwy2H",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1758\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"They weren’t happy\",\"tgt_span\":\"두 사람은 행복해 보이지 않았고\",\"description\":\"서술자의 단정(행복하지 않았다)이 '행복해 보이지 않았다'라는 외관 판단으로 바뀌어 확실성이 약간 달라짐\"},{\"id\":\"E002\",\"src_span\":\"they weren’t unhappy either\",\"tgt_span\":\"딱히 불행해 보이지도 않았다\",\"description\":\"'불행하지 않았다'가 '딱히 불행해 보이지 않았다'로 바뀌어 단정이 외관 판단과 완화 표현으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(확실성): 서술자의 단정이 '~해 보이지 않았다'는 외관 판단으로 바뀌었으나 핵심 사실(행복도 불행도 아닌 상태, 닭고기·에일에 손대지 않음)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그렇다고'가 and yet의 양보·대조 관계를 유지하고 neither of them의 범위도 '두 사람'으로 유지됩니다. 문장 분할은 오류가 아닙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사 서술 → 장면 묘사 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체의 평서 어조가 '~았다' 서술체로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"치킨과 에일은 문화 고유의 제도·관습·단위로 판정할 대상이 아니며 이 문장에는 별도 판정 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 17198,
+    "inference_geo": "global",
+    "input_tokens": 1630,
+    "output_tokens": 816,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

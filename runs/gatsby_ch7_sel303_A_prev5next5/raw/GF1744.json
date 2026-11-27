@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTohYu2U9CXP8AyVYuj9",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1744\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“All night, if necessary. Anyhow, till they all go to bed.”\",\"tgt_span\":\"“필요하다면 밤새도록요. 어쨌든 다들 잠들 때까지는 있을 겁니다.”\",\"description\":\"화자가 Gatsby인데 앞 문장 번역에서는 반말('기다릴 생각이야')을, 이 문장에서는 '-요/-ㅂ니다'체를 써서 청자(Nick)에 대한 말투가 일관되지 않음. 의미 변화는 아님.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"필요하면 밤새도록, 어쨌든 모두 잠들 때까지 기다린다는 내용이 유지되며 '있을 겁니다'는 기다림을 뜻하는 문맥 내 표현입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'필요하다면'의 조건, '어쨌든'의 양보적 하한 관계, '때까지'의 시간 한계가 모두 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"질문에 대한 답변(설명) → 답변(설명). 기다리는 기간을 알려 주는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 기다리겠다는 의사 진술이며 의무·허가·금지를 정하는 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"번역문의 존댓말('-요', '-ㅂ니다')이 Gatsby와 Nick의 관계에 맞는지 확인하려면 두 인물의 관계 설정과 전체 번역의 말투 기준이 필요합니다. 앞 문장은 반말이라 일관되지 않으나 적절성을 단정할 정보가 부족합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1277,
+    "output_tokens": 819,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

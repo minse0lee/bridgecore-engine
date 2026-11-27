@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTorsqYsRFHagx7eA7wG",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1605\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Wilson had never seemed faintly capable of such a statement\",\"tgt_span\":\"윌슨이 그런 말을 할 수 있는 사람이라고는 조금도 생각지 못했기 때문이다\",\"description\":\"'윌슨이 그런 말을 할 수 있는 사람처럼 보인 적이 없었다'는 서술이 '미카엘리스가 그렇게 생각하지 못했다'는 미카엘리스의 생각으로 바뀌었고, 인과 접속 '때문이다'가 더해졌다. 다만 사태의 핵심은 유지되어 정도 차이로 본다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"놀람, 4년간의 이웃 관계, 윌슨이 그런 말을 할 사람으로 보인 적이 없다는 내용이 모두 유지됩니다. 'seemed'가 미카엘리스의 인식으로 옮겨진 것은 같은 사태를 기술하는 어순·표현 차이입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(연결 관계): 원문은 세미콜론으로 놀람과 그 배경을 나란히 두고 'they had been neighbours … and … never seemed'로 병렬 연결했는데, 번역은 '지냈지만 … 때문이다'로 양보와 인과 관계로 재구성했습니다. 다만 이유 관계는 문맥상 자연스럽게 읽혀 요지를 바꾸지 않아 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 인물 반응 설명 → 서술자의 인물 반응 설명. 같은 종류의 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"never는 윌슨이 그런 말을 할 사람으로 보인 적이 없다는 서술일 뿐 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문의 평서체 '~다'가 유지되며 인물 관계상 문제되는 높임·호칭이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다. '4년'은 숫자가 그대로 옮겨졌습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 17198,
+    "inference_geo": "global",
+    "input_tokens": 2131,
+    "output_tokens": 983,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

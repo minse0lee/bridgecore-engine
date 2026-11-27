@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTopSGrrd5f2DfJJ7CHJ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1351\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"demanded Tom harshly\",\"tgt_span\":\"톰이 퉁명스럽게 물었다\",\"description\":\"demanded(다그치듯 요구함)가 '물었다'로, harshly(거칠게)가 '퉁명스럽게'로 바뀌어 말하는 태도의 강도가 약해짐. 평가어의 정도 차이.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'얼마를 주면 되겠나'로 지불할 금액을 묻는 내용이 같고, harshly가 '퉁명스럽게'로 바뀐 것은 평가어의 정도 차이뿐입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 관계, 연결 관계, 초점 표현에 달라진 부분이 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지불액을 묻는 질문 → 지불액을 묻는 질문. 같은 종류의 기능이며 다그치는 정도만 약해졌습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없고 대금을 묻는 질문일 뿐입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"부유하고 거만한 톰이 정비소 주인 윌슨에게 하는 말이므로 '~나' 하대체가 관계에 맞고, 퉁명스러운 태도도 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 17198,
+    "inference_geo": "global",
+    "input_tokens": 1257,
+    "output_tokens": 695,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

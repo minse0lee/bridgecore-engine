@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChToox2jdQyWQgJXPWN8d",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1340\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"It’s a nice yellow one\",\"tgt_span\":\"노란색이 아주 멋지네요\",\"description\":\"'멋진 노란 차(one은 차를 가리킴)'가 '노란색이 아주 멋지다'로 바뀌어 차 자체에 대한 평가가 색깔 평가로 옮겨짐. 정도(nice→아주 멋지다)도 강해짐. 지시 대상은 문맥상 이해 가능.\"},{\"id\":\"E002\",\"src_span\":\"as he strained at the handle\",\"tgt_span\":\"손잡이를 힘겹게 돌리며\",\"description\":\"strained at(힘껏 잡아당기다/애쓰다)를 '돌리며'로 옮겨 동작이 달라짐. 핸들 대상은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: 'strained at the handle'의 힘주어 당기는 동작이 '돌리며'로 바뀌었으나 윌슨이 손잡이에 힘쓴다는 핵심 사태는 유지됩니다. 'a nice yellow one'은 노란색 차에 대한 호평을 '노란색이 멋지다'로 옮겼으나 지시 대상은 이해 가능하고 평가어 정도 변화이므로 별도 훼손으로 보지 않습니다. 요지와 행동 이해에는 영향이 작아 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사·연결·초점 표현 중 바뀐 것이 없습니다. 'one'은 차를 가리키는 문맥이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"차에 대한 칭찬·논평 → 칭찬·논평. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"윌슨이 부유한 톰에게 공손하게 말하는 관계에 '-네요' 해요체가 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 17198,
+    "inference_geo": "global",
+    "input_tokens": 1099,
+    "output_tokens": 922,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

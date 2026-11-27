@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTowSNznohwmSWnYpwXX",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1716\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"For all I knew he was going to rob the house in a moment\",\"tgt_span\":\"어쩌면 그는 당장이라도 집을 털 생각일지도 몰랐다\",\"description\":\"'내가 아는 한 그가 곧 집을 털려는 참이었을 수도 있다'는 화자의 아는 범위 한정 표현이 '어쩌면 ~일지도'라는 추측으로 바뀜. 핵심 내용(강도 가능성)은 유지되어 확실성 차이는 미미함.\"},{\"id\":\"E002\",\"src_span\":\"behind him in the dark shrubbery\",\"tgt_span\":\"어두운 덤불 뒤로\",\"description\":\"'그의 뒤쪽 어두운 덤불 속'에서 '그'와의 위치 관계(behind him)가 빠지고 '덤불 뒤'로 옮겨짐. 얼굴들이 나타날 위치가 약간 달라지나 사태는 같음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): 'For all I knew'(내가 아는 한 가능성을 배제할 수 없음)가 '어쩌면 ~일지도 몰랐다'로 옮겨져 거의 같은 불확실한 추측을 나타내며, 핵심 사실(집을 털려 한다고 의심)은 유지되어 minor입니다. E002는 위치 표현의 차이로 사태를 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'him'이 개츠비를 가리키는 관계와 세미콜론으로 이어진 두 절의 병렬 연결은 문장 분할 후에도 유지되고, '그러니까'로 동격 관계도 보존됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 의심·불안을 서술하는 기능 → 같은 서술 기능. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 화자의 회고 서술에 맞는 '~었다' 문어체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 없고 인명(울프심)만 나옵니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 17198,
+    "inference_geo": "global",
+    "input_tokens": 1250,
+    "output_tokens": 975,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

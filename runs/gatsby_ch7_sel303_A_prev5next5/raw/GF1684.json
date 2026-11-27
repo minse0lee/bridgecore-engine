@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTof5hMgD7fT7NLnGg3n",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1684\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Self-consciously\",\"tgt_span\":\"남들의 시선을 의식하며\",\"description\":\"자의식을 느끼며(어색해하며) 행동하는 주체가 'we'(화자와 톰)인데, '남들의 시선을 의식하며'로 해석을 더해 옮김. 뜻은 크게 어긋나지 않음\"},{\"id\":\"E002\",\"src_span\":\"passing a hurried doctor, case in hand\",\"tgt_span\":\"서두르는 의사와 마주쳤는데\",\"description\":\"'지나치다(passing)'가 '마주쳤다'로 바뀜. 군중 사이를 밀치고 나가며 의사 곁을 스쳐 지나간 것이 만남으로 읽힘\"},{\"id\":\"E003\",\"src_span\":\"who had been sent for in wild hope\",\"tgt_span\":\"누군가의 간절한 희망 속에 호출된 사람\",\"description\":\"'누군가의 간절한 희망 속에'는 주체를 더한 표현이나 sent for in wild hope의 취지는 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1(행위): 의사를 '지나쳐 갔다'가 '마주쳤다'로 바뀌어 행위가 약간 달라졌으나, 핵심 장면(군중을 뚫고 나가며 의사를 스침)은 유지되어 요지 이해에는 영향이 작습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그 과정에서'로 분사구문의 동시 진행 관계가 유지되고, 'his authoritative arms'는 톰을 가리키는 것으로 지시 대상이 바르게 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사 묘사 → 서사 묘사. 사건 현장을 빠져나가는 장면을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 나타내는 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체(~했다)가 유지되며 화자와 독자 관계에 어긋나는 높임·호칭 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1682,
+    "output_tokens": 977,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

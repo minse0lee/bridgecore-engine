@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTocNLPSG9dNYbrJARwj",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1619\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"its driver hurried back to where Myrtle Wilson … knelt in the road\",\"tgt_span\":\"운전자는 서둘러 되돌아왔다. 그곳에는 생명이 처참히 꺼져버린 머틀 윌슨이 도로 위에 무릎을 꿇은 채\",\"description\":\"운전자가 머틀이 무릎 꿇은 곳으로 서둘러 돌아왔다는 서술이 '되돌아왔다'로만 옮겨져 도착 지점이 '그곳'이라는 별도 문장으로 분리됨. 문장 분할이므로 의미 변화는 거의 없고 지점 지시는 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"다른 차의 정지 위치(백 야드), 운전자의 복귀, 머틀의 상태와 행위가 모두 유지되었고 수치 100은 '백'으로 옮겨져 힌트는 오경보입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'its driver'는 '운전자'로, 'where'는 '그곳에는'으로 재구성되어 지시와 연결 관계가 유지되었습니다(질문 1·2·3 모두 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사고 장면 서술 → 사고 장면 서술로 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 서술문으로 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"출판물 본문의 서술체가 '~다' 평서 서술체로 유지되었고 대화 관계가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"야드 단위와 뉴욕이 그대로 유지되어 다른 단위로 바뀌지 않았고 독자가 이해할 수 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2164,
+    "output_tokens": 806,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

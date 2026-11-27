@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTor82oFdTpyhmCc2h3k",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1447\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I can’t really call myself an Oxford man\",\"tgt_span\":\"제가 옥스퍼드 출신이라고 당당히 말하지 못하는 겁니다\",\"description\":\"'Oxford man'(옥스퍼드에 다닌 사람)을 '옥스퍼드 출신'으로, 'really'를 '당당히'로 옮겨 '진짜로는 그렇게 부를 수 없다'는 뜻이 '떳떳하게 말하지 못한다'는 심리 상태로 약간 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1919년, 다섯 달 체류, 옥스퍼드 졸업생이라 하기 어렵다는 내용이 유지됩니다. '출신'과 '당당히'는 같은 사태를 기술하는 표현 차이로 봅니다. 힌트의 수치 불일치는 'nineteen-nineteen'을 '1919년'으로 옮긴 표기 차이일 뿐 오경보입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'That's why'가 '그래서 …겁니다'로 인과 관계를 유지하고, only는 '다섯 달밖에'로 초점이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개츠비의 해명·설명 → 해명·설명. 발화 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"can't는 규범이 아니라 자기 호칭의 적절성을 말하는 서술이므로 평가할 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개츠비가 톰 등 앞에서 격식을 차려 말하는 설정에 '-어요/-ㅂ니다'체가 어울립니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Oxford를 옥스퍼드로 정확히 음역했고 영국 대학을 가리키는 대상이 유지됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 17198,
+    "inference_geo": "global",
+    "input_tokens": 1466,
+    "output_tokens": 830,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

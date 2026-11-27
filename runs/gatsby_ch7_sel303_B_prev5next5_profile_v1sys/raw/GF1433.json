@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChToqW5qdupVn7JHAxaxB",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1433\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"we didn’t have any president\",\"tgt_span\":\"우리 과에는 회장 같은 거 없었어\",\"description\":\"'우리 반(class)'이 '우리 과'로, 'any president'가 '회장 같은 거'로 바뀜. 'class'는 같은 학년 동기를 가리키는데 '과'는 학과로 읽혀 범위가 달라짐. 'president'(학급·학년 회장)는 '회장'으로 옮겨져 대체로 대응함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'we'가 가리키는 단위가 같은 학년·동기(class)에서 학과('과')로 바뀌었다. 다만 '그런 직책이 없었다'는 핵심 부정은 유지되어 요지는 크게 다르지 않다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'First place'가 '우선'으로 열거의 첫 항목 기능을 유지하고, 대시로 이어지는 구조도 같다. 지시·연결·초점의 변화는 없다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조던의 말을 반박하는 설명 → 반박하는 설명. 발화 기능이 같다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술이다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰의 대화로, 거만한 친구 사이의 반말이 '없었어' 반말체로 유지되었다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"예일대 학급 회장이라는 제도적 대상이 '과'로 옮겨져 약간 달라졌으나 한국어 독자가 이해할 수 있는 범위이고, 문화적 의미 전달이 막히지 않는다. 다른 제도로 대체한 정도는 아니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 17198,
+    "inference_geo": "global",
+    "input_tokens": 1127,
+    "output_tokens": 801,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

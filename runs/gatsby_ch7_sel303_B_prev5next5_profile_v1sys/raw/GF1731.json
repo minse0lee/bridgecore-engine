@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChTox4Fkqsw2Z7rnGCfz2",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1731\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"she thought it would steady her to drive\",\"tgt_span\":\"데이지 양이 무척 불안해해서 직접 운전하면 마음이 좀 진정될 거라고 생각했거든요\",\"description\":\"원문의 'she thought'(데이지의 생각)를 유지했으나, 번역은 '그런데…제가 핸들을 잡는 순간'으로 이어져 운전자 관련 서술이 흐려지는지 확인했으나 의미는 유지됨(오류 아님 후보)\"},{\"id\":\"E002\",\"src_span\":\"The second my hand reached the wheel I felt the shock\",\"tgt_span\":\"제가 핸들을 잡는 순간 충격이 느껴졌습니다\",\"description\":\"원문은 데이지가 운전 중이던 핸들에 개츠비의 손이 닿는 순간(손을 뻗어 닿음)인데, 번역은 '핸들을 잡는 순간'으로 옮겨 통상적 대응이며 의미 차이는 작음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"데이지가 운전했고 개츠비가 자기가 했다고 말하겠다는 것, 여자가 뛰어든 상황, 충격, 즉사 추정이 모두 유지됩니다. 'rushed out at us'를 '뛰어들었어요'로, 'my hand reached the wheel'을 '핸들을 잡는 순간'으로 옮긴 것은 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"she=데이지, 그 여자 등 지시 관계와 'first…then' 시간 순서, 'but' 대조 연결이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사고 경위 설명(진술) → 사고 경위 설명(진술). 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'must have killed'는 추론의 must이며 규범 의미가 없습니다. 'I'll say'는 화자의 의지 표현으로 의무·허가를 정하지 않습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개츠비가 닉에게 하는 정중한 말투가 '~요/~습니다' 체로 유지되어 관계에 맞습니다. '데이지 양' 호칭은 어색할 수 있으나 관계를 바꾸지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없고 인명·지명만 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 17198,
+    "inference_geo": "global",
+    "input_tokens": 2107,
+    "output_tokens": 1031,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChToZ9PByXZ6vrVWwK3rc",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1349\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"she’s going whether she wants to or not\",\"tgt_span\":\"가게 될 겁니다\",\"description\":\"주어 she(윌슨의 아내)가 번역문에서 생략되었고, 'she's going'이 '가게 될 겁니다'로 옮겨져 단정적 진행·결정이 약간 수동적·예측적 어감이 되었으나 같은 사태를 기술함. 의미 변화로 보기 어려워 경미한 차이로만 기록.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"이제 아내가 원하든 원하지 않든 가게 되고, 화자가 어떻게든 데리고 떠나겠다는 내용이 유지됩니다. 'get her away'의 '어떻게든'은 결의 강조일 뿐 사태를 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"주어 생략이 있으나 앞 문장의 '그 사람(아내)'으로 지시 대상이 분명하고, 'And now'의 시간적 연결과 whether…or not의 양보 관계가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"윌슨의 결의·계획 진술 → 결의·계획 진술. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 의지와 계획을 서술하는 문장으로 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"윌슨이 부유한 고객 톰에게 말하는 상황에 맞게 '~겁니다', '~이에요'의 존대체가 쓰여 관계에 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1334,
+    "output_tokens": 795,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
