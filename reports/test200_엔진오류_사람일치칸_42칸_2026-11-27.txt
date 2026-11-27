@@ -1,0 +1,260 @@
+## P103 Textual | 오탐 | 실행 한 번만 | None
+EN: Trump said he would "prefer not" to fire Rosenstein but then the meeting was delayed to avoid a clash with the Senate judiciary committee hearing in which Kavanaugh and one of the women who have accused him of sexual misconduct, Dr Christine Blasey Ford, both testified.
+KO: 트럼프 대통령은 로젠스타인 판사를 해임하지 않겠다고 밝혔지만, 카바노 판사와 그를 성폭행 혐의로 고발한 여성 중 한 명인 크리스틴 블레이시 포드 박사가 증언하는 상원 사법위원회 청문회와의 충돌을 피하기 위해 회의가 연기됐다.
+ 엔진r2: 훼손 minor | 판단 질문 2: 'but then'의 번복·유보 관계에서, 해임하지 않겠다고 단정한 뒤 회의가 연기된 것으로 읽혀 앞뒤 연결의 성격이 달라졌습니다.
+
+## P107 Semantic | 놓침 | 실행 한 번만 | None
+EN: In partnership with: Spatial Information Management Unit, Office of the Premier, Eastern Cape, South Africa.
+KO: 파트너 : 공간 정보 관리 단위, 프리미어 사무실, 이스턴 케이프, 남아프리카 공화국.
+ 엔진r2: 보존 None | 협력 기관 목록의 구성(부서, 기관, 주, 국가)이 유지되고 지시 대상을 파악할 수 있으며, 제도명 번역 문제는 Cultural에서 판정합니다.
+  R001: minor | E001: Unit(부서)을 단위로 옮김. / E002: Office of the Premier(주 총리실)를 프리미어 사무실로 음역해서 무슨 기관인지 모름. 협력 기관을 밝히는 요지는 남아 minor.
+  R002: minor | 남아프리카공화국 이스턴케이프주의 행정기관을 가리키는 명칭인데, 프리미어를 음역해 기관의 성격이 명확하게 전달되지 않음.
+  R003: minor | 주정부 수반의 공식 사무처인 기관 명칭이 일반적인 사무실로 읽힙니다.
+
+## P110 Semantic | 오탐 | 실행 둘 다 | None
+EN: On February 21, 2010, Vadim Karastelyov, a non-governmental activist and supporter of Dymovskiy, was detained for seven days for organizing a support rally for Dymovskiy that was not endorsed by the local authorities.
+KO: 2010년 2월 21일, 비정부 활동가이자 디모프스키의 지지자인 바딤 카라스텔료프(Vadim Karastelyov)는 지역 당국의 승인을 받지 않은 디모프스키 지지 집회를 조직한 혐의로 7일간 구금되었다.
+ 엔진r1: 훼손 minor | 판단 질문 1(확실성): 집회를 조직했다는 사실 진술이 '혐의'로 바뀌어 확실성이 달라졌습니다. 구금, 7일, 집회 조직이라는 핵심 사실은 유지되어 minor입니다.
+ 엔진r2: 훼손 minor | 판단 질문 1(확실성): 집회를 조직했기 때문에 구금되었다는 사실 진술이 '혐의로'라는 표현으로 바뀌었으나, 날짜·인물·7일 구금·승인받지 않은 집회 등 핵심 사실은 유지되어 minor입니다.
+
+## P114 Textual | 오탐 | 실행 둘 다 | None
+EN: Even if your dependencies are not supporting Python 3 yet that does not mean you can't modernize your code now to support Python 3.
+KO: 여러분의 종속성이 파이썬 3을 지원하지 않더라도 파이썬 3을 지원하도록 코드를 현대화할 수 있다는 것을 의미하지 않습니다.
+ 엔진r1: 훼손 major | 판단 질문 2(연결 관계): '-더라도'의 양보 관계가 이중 부정의 소실로 뒤집혀, 종속성이 미지원이어도 현대화할 수 있다는 관계가 성립하지 않습니다.
+ 엔진r2: 훼손 major | 판단 질문 2(연결 관계): 양보절 'Even if…'과 주절의 관계가 뒤집혀, 종속성이 지원하지 않더라도 현대화할 수 있다는 원문의 양보 논리가 '지원하지 않으면 현대화할 수 없다'는 쪽으로 읽힙니다.
+
+## P117 Textual | 오탐 | 실행 둘 다 | None
+EN: Distribution includes, but is not limited to, the delivery, transfer, sale, exchange, barter, gift, or sharing of a prohibited substance defined in Regulation 735-1, “Prohibited Substances,” including related paraphernalia.
+KO: 배포는 규정 735-1, "금지 물질"에 정의 된 금지 된 물질의 배달, 이전, 판매, 교환, 물물 교환, 선물 또는 공유를 포함하지만 이에 국한되지 않습니다.
+ 엔진r1: 훼손 minor | 판단 질문 1(지시·범위): 'including related paraphernalia'가 금지 물질 배포 정의에 붙지 않고 다음 문장으로 넘어가 수식 범위가 바뀌었습니다.
+ 엔진r2: 훼손 minor | 판단 질문 1·3(지시·범위): 'including related paraphernalia'는 배포 대상 범위를 넓히는 표현인데 다음 문장의 '마약 … 수령' 쪽에 붙어 범위 대상이 바뀌었습니다.
+
+## P120 Cultural | 놓침 | 실행 둘 다 | None
+EN: Create a 1 km buffer around your school and then go and see if there would be any bottle stores too close to your school.
+KO: 학교 주변에 1km 완충 지대를 만들고 학교에 너무 가까운 병 가게가 있는지 확인하십시오.
+ 엔진r1: N/A None | 1 km는 그대로 옮겨졌고 별도로 판정할 문화·제도 고유 대상이 없습니다.
+ 엔진r2: N/A None | 1 km는 원문과 같은 단위로 표기되었고, 별도로 판정할 문화·제도 고유 대상이 없습니다.
+  R001: minor | 남아공에서 주류 소매점을 가리키는 지역 고유 표현을 직역해서 한국 독자가 술 파는 가게로 이해하지 못함.
+  R002: minor | bottle store는 특정 영어권 지역에서 주류 판매점을 가리키는 표현이다. 해당 지역의 상업적·문화적 용례가 번역에 반영되지 않아 원문의 지역적 맥락이 손실되었다.
+  R003: major | 주류 소매업소를 가리키는 지역 고유의 상업시설 용어가 병 판매점으로 변하여 지역 규제의 대상 시설을 잘못 이해하게 합니다.
+
+## P122 Textual | 오탐 | 실행 한 번만 | None
+EN: The project also provides code which you can integrate into your test suite so that you will have a failing test when you no longer have dependencies blocking you from using Python 3.
+KO: 이 프로젝트는 또한 테스트 스위트에 통합할 수 있는 코드를 제공합니다. 이 코드를 사용하면 파이썬 3을 사용하지 못하게 하는 의존성이 더 이상 없을 때 실패 테스트를 수행할 수 있습니다.
+ 엔진r1: 훼손 minor | 판단 질문 2: so that의 목적·결과 연결이 '-면 ~할 수 있습니다'의 조건 관계로 바뀌어 연결 관계가 달라졌으며, 요지 이해와 독자의 행동에는 큰 영향이 없어 minor입니다.
+
+## P123 Cultural | 놓침 | 실행 둘 다 | None
+EN: Imagine that the city wants to introduce a law stipulating that no bottle stores may be within a 1000 meter buffer zone of a school or a church.
+KO: 도시가 학교나 교회의 1000 미터 완충 지대 내에 병 가게가 있을 수 없다는 법을 도입하고 싶다고 상상해 보십시오.
+ 엔진r1: 보존 None | 미터법 단위(1000미터)와 학교·교회라는 대상이 그대로 유지되어 다른 단위나 제도로 바뀌지 않았습니다.
+ 엔진r2: 보존 None | 미터 단위와 법 제정이라는 제도적 개념이 같은 대상으로 옮겨져 독자가 이해할 수 있고, 다른 단위나 제도로 바뀌지 않았습니다.
+  R001: minor | 남아공의 주류 소매점을 가리키는 지역 표현이 직역돼서 무엇을 규제하는 법인지 한국 독자가 알기 어려움.
+  R002: minor | 특정 영어권 지역에서 사용하는 주류 판매점의 명칭과 지역적 용례가 번역에 반영되지 않아 해당 법률의 지역적·상업적 맥락이 손실되었다.
+  R003: major | 지역 규제에서 쓰이는 주류 판매업소의 의미를 보존하지 못해 금지 시설의 제도적 분류를 바꿉니다.
+
+## P123 Semantic | 놓침 | 실행 둘 다 | None
+EN: Imagine that the city wants to introduce a law stipulating that no bottle stores may be within a 1000 meter buffer zone of a school or a church.
+KO: 도시가 학교나 교회의 1000 미터 완충 지대 내에 병 가게가 있을 수 없다는 법을 도입하고 싶다고 상상해 보십시오.
+ 엔진r1: 보존 None | 도시, 법 도입 희망, 학교·교회 1000미터 완충 지대, 병 가게(bottle stores) 금지의 내용이 모두 유지됩니다.
+ 엔진r2: 보존 None | 도시, 법 도입 의사, 학교·교회 1000미터 완충 지대 안 병 가게 금지, 상상하라는 내용이 모두 유지됩니다. 'bottle stores'를 '병 가게'로 직역한 것은 같은 대상을 가리킵니다.
+  R001: minor | bottle store(주류 판매점)를 병 가게로 직역함. 금지 거리 법을 가정하는 요지는 남아 minor.
+  R002: minor | bottle stores는 주류 판매점을 의미하지만 번역문은 이를 병을 판매하는 가게처럼 직역했다. 따라서 법률이 규제하려는 업종이 정확하게 전달되지 않는다.
+  R003: major | 학교·교회 주변 배치 금지 대상인 주류 판매점이 병을 파는 가게로 바뀌어 법률의 핵심 대상이 달라집니다.
+
+## P124 Deontic | 오탐 | 실행 한 번만 | None
+EN: For example contour lines may touch (e.g. at a cliff face) but should never cross over each other.
+KO: 예를 들어 윤곽선이 닿을 수 있지만 (예를 들어 절벽 면에서) 서로를 가로지르지 않아야 합니다.
+ 엔진r2: 훼손 minor | 판단 질문 1: 'should never cross'(절대 교차하면 안 됨)가 '가로지르지 않아야 합니다'로 옮겨져 never의 금지 강도가 약해졌으나, 규범 범주는 여전히 당위로 읽히고 독자의 이해와 행동에 큰 차이가 없습니다.
+
+## P135 Semantic | 오탐 | 실행 한 번만 | None
+EN: “Don’t try, my dear,” he answered.
+KO: “내 사랑, 그렇게 하지 마세요.” 그는 대답했다.
+ 엔진r2: 훼손 minor | 판단 질문 1: 'try'(시도)가 '그렇게 하지 마세요'로 바뀌어 시도의 의미가 빠졌으나, 앞 문맥상 하지 말라는 핵심 요지는 유지되어 minor입니다.
+
+## P135 Textual | 오탐 | 실행 한 번만 | None
+EN: “Don’t try, my dear,” he answered.
+KO: “내 사랑, 그렇게 하지 마세요.” 그는 대답했다.
+ 엔진r2: 훼손 minor | 판단 질문 1: '그렇게'가 가리키는 대상이 불분명해졌으나, 앞 문맥으로 추론 가능해 minor입니다.
+
+## P138 Textual | 오탐 | 실행 둘 다 | None
+EN: And by a group of 300 women in Colombia who had the courage to create a moving 4 hour performance piece to protest their missing and murdered loved ones in the main square in Bogota.
+KO: 또한 콜롬비아의 300여 명의 여성들이 용기를 내어 보고타의 주요 광장에서 실종되거나 살해당한 사랑하는 이들에 대한 항의의 표시로 4시간 동안 퍼포먼스를 선보였습니다.
+ 엔진r1: 훼손 major | 판단 질문 2: 'And by'가 앞 문장의 'inspired by'를 이어받는 영감의 원천 나열 관계인데, '또한 …선보였습니다'로 독립 서술이 되어 연결 관계가 바뀌었습니다.
+ 엔진r2: 훼손 major | 판단 질문 2: 'And by'가 앞의 'was inspired by'에 이어지는 영감의 원천 관계인데, '또한'만 남아 그 연결이 사라지고 독립 문장이 되었습니다.
+
+## P139 Textual | 오탐 | 실행 둘 다 | None
+EN: He has also been charged with a Class B misdemeanour, punishable by a day in jail and a $2,000 fine.
+KO: 그는 또한 클래스 B 미성년자, 감옥에서 하루와 $ 2,000의 벌금에 의해 처벌 혐의를 받고있다.
+ 엔진r1: 훼손 major | 판단 질문 2: 혐의에 대한 처벌 가능 형량을 덧붙이는 수식 관계가 깨져 '벌금에 의해 처벌 혐의를 받는다'로 연결되고, 형량이 혐의의 부가 설명으로 읽히지 않습니다.
+ 엔진r2: 훼손 minor | 판단 질문 2: 'punishable by' 관계절이 앞 혐의를 수식하는 관계가 사라지고, 처벌 혐의가 별개 술어로 연결되어 연결 관계가 바뀌었습니다.
+
+## P144 Context | 오탐 | 실행 한 번만 | None
+EN: Equitable and consistent implementation of rules and regulations shall occur across school sites and within all student groups.
+KO: 규칙과 규정의 공정하고 일관된 구현은 학교 사이트 및 모든 학생 그룹 내에서 발생한다.
+ 엔진r2: 훼손 minor | 판단 질문 1: 규정 의무 선언 → 현상 서술. 다만 규정 안내문 안에서 규칙 시행을 알리는 기능은 여전히 남아 있어 minor입니다.
+
+## P148 Textual | 오탐 | 실행 둘 다 | None
+EN: Students shall not engage in hazing. “Hazing” is defined as recklessly or intentionally endangering the health or safety of a student or students or inflicting bodily harm on a student or students.
+KO: 학생들은 괴롭힘에 참여해서는 안된다. "괴롭힘"은 무모하거나 의도적으로 학생이나 학생의 건강이나 안전을 위험에 빠뜨리거나 학생이나 학생에게 신체적 상해를 입히는 것으로 정의됩니다.
+ 엔진r1: 훼손 minor | 판단 질문 1(소유 관계): '학생이나 학생의 건강이나 안전'으로 옮겨져 '학생(들)의 건강 또는 안전'이라는 소유·범위 관계가 불분명해졌습니다.
+ 엔진r2: 훼손 minor | 판단 질문 1(소유 관계): '학생이나 학생의 건강이나 안전'으로 옮겨져 건강·안전이 누구의 것인지, 첫 '학생이나'가 무엇에 걸리는지 불분명해졌습니다. 다만 학생에 관한 내용이라는 요지는 남아 minor입니다.
+
+## P149 Semantic | 놓침 | 실행 한 번만 | None
+EN: Use of cell phones and personal electronic communication devices during extracurricular and co-curricular activities held outside of the bell-to-bell school day will be determined by the coach, sponsor, or instructor.
+KO: 학교 종소리가 울리지 않는 시간 외에 열리는 과외 활동 및 공동 과외 활동 중 휴대전화 및 개인 전자 통신 장치의 사용은 코치, 스폰서 또는 강사에 의해 결정됩니다.
+ 엔진r1: 보존 None | 휴대전화·전자기기 사용을 코치·후원자·강사가 결정한다는 내용과 정규 수업일 밖의 활동이라는 범위가 유지되며, 번역이 어색해도 같은 사태를 기술합니다.
+  R001: major | E001: 정규 수업일(시작종~끝종) 밖의 활동이라는 조건이 종이 안 울리는 시간 외에로 꼬여서 오히려 수업 시간 중처럼 읽힘. / E002: co-curricular(교과 연계 활동)를 공동 과외 활동, sponsor(지도교사)를 스폰서로 옮김.
+  R002: minor | 원문에서 별도로 명시한 휴대전화가 번역에서 빠졌다. 개인 전자 통신 장치에 포함될 수는 있지만, 원문의 구체적인 열거 정보가 축소되었다.
+  R003: major | E001: 정규 수업시간 밖이라는 조건이 '종소리가 울리지 않는 시간의 바깥'이라는 불명확한 시간 표현으로 바뀌었습니다. / E002: 방과후·정규 교육 연계 활동이 사교육·공동 과외처럼 옮겨져 휴대전화 사용을 결정하는 활동 유형이 달라집니다.
+
+## P151 Textual | 오탐 | 실행 한 번만 | None
+EN: For example, to sort by grade then by age:
+KO: 예를 들어, 학년, 그리고 나이로 정렬하려면:
+ 엔진r2: 훼손 minor | 판단 질문 2(연결 관계): then이 나타내는 순차적 관계(학년 먼저, 다음 나이)가 '그리고'라는 단순 나열로 바뀌었습니다. 다만 앞 문단의 multiple levels of sorting과 '학년, 나이' 순서로 우선순위를 추론할 수 있어 minor입니다.
+
+## P160 Textual | 오탐 | 실행 둘 다 | None
+EN: "I couldn't help but think that if a woman had ever performed that way, they would say 'hysterical,'" Pelosi said about her reaction to Kavanaugh's testimony before the Senate Judiciary Committee on Thursday.
+KO: 펠로시 상원의원은 목요일 상원 사법위원회 앞에서 카바노 변호사의 증언에 대한 자신의 반응에 대해 "나는 여성이 그렇게 행동했다면 '히스테리'라고 말할 것이라고 생각할 수밖에 없었다"고 말했다.
+ 엔진r1: 훼손 minor | 판단 질문 1(지시 대상): 'they'가 가리키는 불특정 다수가 번역에서 사라져 '말할 것'의 주체가 화자 자신으로 읽힙니다.
+ 엔진r2: 훼손 major | 판단 질문 1(지시): 'they'(타인들)가 번역문에서 화자 '나'로 읽혀 지시 대상이 바뀌었습니다.
+
+## P163 Semantic | 오탐 | 실행 한 번만 | None
+EN: You can then integrate tox with your continuous integration system so that you never accidentally break Python 2 or 3 support.
+KO: tox를 지속적인 통합 시스템과 통합하여 실수로 파이썬 2나 3의 지원을 끊지 않을 수 있습니다.
+ 엔진r2: 훼손 minor | 판단 질문 1(확실성): 'never accidentally break'(결코 실수로 깨지 않도록 보장)가 '끊지 않을 수 있습니다'로 바뀌어 확실성이 달라졌으나, tox와 CI 통합으로 지원을 유지한다는 핵심 사실은 남아 있습니다.
+
+## P163 Textual | 오탐 | 실행 둘 다 | None
+EN: You can then integrate tox with your continuous integration system so that you never accidentally break Python 2 or 3 support.
+KO: tox를 지속적인 통합 시스템과 통합하여 실수로 파이썬 2나 3의 지원을 끊지 않을 수 있습니다.
+ 엔진r1: 훼손 minor | 판단 질문 2(연결 관계): 'so that'의 목적 관계가 '통합하여…않을 수 있습니다'로 옮겨져 목적이 아닌 단순 결과·가능으로 읽혀 연결 관계가 달라졌습니다. 다만 독자가 요지를 다르게 이해하지는 않아 minor입니다.
+ 엔진r2: 훼손 minor | 판단 질문 2(연결 관계): so that의 목적 관계가 '통합하여 … 않을 수 있습니다'의 수단-가능 관계로 바뀌어, 통합의 목적이 통합으로 얻는 가능성으로 읽힙니다.
+
+## P167 Deontic | 오탐 | 실행 한 번만 | None
+EN: “I do not know,” said the Head; “but that is my answer, and until the Wicked Witch dies you will not see your uncle and aunt again. Remember that the Witch is Wicked—tremendously Wicked—and ought to be killed. Now go, and do not ask to see me again until you have done your task.”
+KO: "모르겠어요," 머리가 말했습니다, "그러나 그것이 제 대답입니다, 그리고 나쁜 마녀가 죽을 때까지 당신은 다시는 당신의 삼촌과 이모를 보지 못할 것입니다. 마녀가 악하다는 것을 기억하십시오, 끔찍하게 악하다는 것을, 그리고 그녀는 죽어야만 합니다. 이제 가서 당신의 임무를 완수할 때까지 다시는 나를 만나지 말아 주십시오."
+ 엔진r2: 훼손 minor | 판단 질문 1: 'do not ask to see me again'은 오즈가 도로시에게 거는 금지인데 '말아 주십시오'는 부탁처럼 읽혀 금지의 강도가 약해졌습니다. 다만 'ought to be killed'는 '죽어야만 합니다'로 유지되고 요지와 행동 조건은 그대로입니다.
+
+## P168 Textual | 오탐 | 실행 둘 다 | None
+EN: However, sufficient cause for suspensions cannot include only instances of truancy.
+KO: 그러나, 충분한 이유는 단지 부재의 경우를 포함 할 수 없습니다.
+ 엔진r1: 훼손 minor | 판단 질문 3: only가 '무단결석 사례만으로는 충분한 사유가 될 수 없다'는 범위를 정하는데, '단지 … 포함할 수 없다'로 초점이 불분명해졌습니다.
+ 엔진r2: 훼손 major | 판단 질문 3: only가 '결석 사례만으로는 사유가 될 수 없다'는 초점에서 '단지 부재의 경우'라는 수식어로 바뀌어 초점·범위가 달라졌습니다. However를 '그러나'로 옮긴 연결은 유지됩니다.
+
+## P171 Context | 오탐 | 실행 한 번만 | None
+EN: Note that the coordinate system used in curses is unusual.
+KO: curses에서 사용하는 좌표계는 흔치 않습니다.
+ 엔진r2: 훼손 minor | 판단 질문 1: 원문 기능 '주의 환기 → 번역 기능 단순 사실 설명'. 독자가 주의해야 한다는 환기 기능이 사라졌습니다. 다만 핵심 내용은 그대로 전달되므로 minor입니다.
+
+## P172 Textual | 오탐 | 실행 둘 다 | None
+EN: PWCS intends for its Code of Behavior as well as related policies and regulations to be fully consistent with applicable state and federal law.
+KO: PWCS는 행동강령과 관련된 정책 및 규정을 적용 가능한 주 및 연방 법률과 완전히 일치시키기 위해 노력하고 있습니다.
+ 엔진r1: 훼손 minor | 판단 질문 3(범위): as well as의 병렬 범위가 '행동강령과 관련된'이라는 수식 관계로 바뀌어 행동강령이 대상에서 분리되었습니다.
+ 엔진r2: 훼손 minor | 판단 질문 3(초점·범위): 'as well as'의 병렬 부가 관계가 '관련된'이라는 수식 관계로 바뀌어 범위 표현이 달라졌습니다.
+
+## P177 Deontic | 오탐 | 실행 한 번만 | None
+EN: filter(predicate, iter) returns an iterator over all the sequence elements that meet a certain condition, and is similarly duplicated by list comprehensions. A predicate is a function that returns the truth value of some condition; for use with filter, the predicate must take a single value.
+KO: filter(predicate, iter) 는 특정 조건을 만족하는 모든 시퀀스 요소에 대한 반복자를 반환하며, 이는 리스트 이해에 의해 비슷하게 복제됩니다. predicate 는 어떤 조건의 진리값을 반환하는 함수입니다. filter 와 함께 사용하려면, predicate 는 단일 값을 가져야 합니다.
+ 엔진r1: 훼손 minor | 판단 질문 2: filter와 쓰려면 predicate가 단일 인자를 받아야 한다는 요건(자격 조건)이 '단일 값을 가져야 한다'로 바뀌어 조건 대상이 흐려졌습니다. '해야 합니다'로 의무는 유지되어 minor입니다.
+
+## P179 Textual | 오탐 | 실행 한 번만 | None
+EN: Inner suburbs must also evolve, with a swing to more affordable apartment living at heights below the tree tops on key sites.
+KO: 교외의 중심부 역시 주요 지역의 나무 꼭대기 아래의 높이에서 더 저렴한 아파트로 진화해야 합니다.
+ 엔진r2: 훼손 minor | 판단 질문 1·3: with a swing…on key sites의 수식 범위가 '주요 지역의 나무 꼭대기 아래의 높이'로 붙어 소유·범위 관계가 어색하게 바뀌었으나 큰 변화는 아닙니다.
+
+## P187 Cultural | 오탐 | 실행 한 번만 | None
+EN: Students have a responsibility to consult with a school administrator to determine if the activity will be allowed during the school day, the time and place, and the type of supervision required.
+KO: 학생들은 학교 행정부와 상의하여 학교 내에서 활동이 허용될지 여부, 시간과 장소, 필요한 감독의 유형을 결정할 책임이 있습니다.
+ 엔진r2: 훼손 minor | 판단 질문 2(제도 용어): school administrator(학교 행정 담당자)를 '학교 행정부'로 옮겨 한국어 독자가 학교 행정 담당 교직원이라는 제도적 의미를 이해하기 어렵습니다. 다만 상의 대상이 학교 행정 쪽임은 짐작할 수 있어 minor입니다.
+
+## P192 Semantic | 놓침 | 실행 한 번만 | None
+EN: A student may not interrupt others who are participating in patriotic exercises.
+KO: 학생은 애국 운동에 참여하는 다른 사람을 방해해서는 안된다.
+ 엔진r1: 보존 None | 학생이 애국 행사에 참여하는 다른 사람을 방해하지 않는다는 행위자·행위·대상이 유지됩니다. 'exercises'를 '운동'으로 옮긴 것은 어색한 어휘 선택이지만 참여 대상 활동이라는 요지는 바뀌지 않아 오류로 보지 않습니다.
+  R001: major | patriotic exercises(국기에 대한 맹세 같은 학교 애국 의식)를 애국 운동으로 옮겨서 정치 운동처럼 읽힘.
+  R002: major | 원문은 폭우로 발생할 수 있는 돌발 홍수, 토석류 및 산사태 가능성을 설명합니다. 번역문은 flash flooding과 debris flows를 각각 플래시 홍수, 잔해 흐름으로 직역하여 재해의 종류를 정확하게 전달하지 못합니다. possibility landslides 역시 산사태 발
+  R003: major | 학교에서 실시하는 국가 경례 등 애국 의식 활동이 정치적 애국 운동으로 옮겨 방해 금지의 대상 행동이 달라집니다.
+
+## P194 Semantic | 오탐 | 실행 둘 다 | None
+EN: First life: 3.7 billion years, we'll just say life.
+KO: 첫 번째 생명: 37억 년 전, 우리는 그냥 생명이라고 말할 것입니다.
+ 엔진r1: 훼손 major | 판단 질문 1(수량): 3.7 billion(37억)이 '37억'으로 잘못 옮겨져 수치가 10배 달라졌고, 독자가 생명의 출현 시기를 다르게 이해하게 됩니다.
+ 엔진r2: 훼손 major | 판단 질문 1(수량): 3.7 billion years가 37억 년으로 바뀌어 연대 수치가 10배 달라졌고, 독자가 생명 출현 시기를 다르게 이해합니다.
+
+## P206 Textual | 오탐 | 실행 한 번만 | None
+EN: We must not allow incompetent politicians to lull us into complicity in the demise of that great British institution, the National Health Service.
+KO: 우리는 무능한 정치인이 그 위대한 영국의 기관, 국가 건강 서비스의 죽음에 공범으로 우리를 졸리게 허용해서는 안된다.
+ 엔진r1: 훼손 minor | 판단 질문 2(인과 연결): 'lull us into complicity'의 결과 관계(정치인이 우리를 방조에 이르게 함)가 '공범으로 졸리게'로 불분명해져 연결 관계가 바뀌었습니다.
+
+## P230 Semantic | 놓침 | 실행 한 번만 | None
+EN: Now I wonder if a million meters in 2024 might be possible? 🤔 #peloton
+KO: 이제 2024년에 100만 미터를 달리는 것이 가능할지 궁금합니다. 🤔 #peloton
+ 엔진r1: 보존 None | 100만 미터, 2024년, 가능할지 궁금하다는 내용과 추측의 불확실성(might)이 유지됩니다. '달리는'은 peloton 문맥의 운동 거리를 풀어 쓴 것으로 사태가 달라지지 않습니다.
+  R001: minor | 원문에 없는 달리는이 붙음. 펠로톤은 자전거·로잉 기록일 수 있어 활동이 특정돼 버림. 목표 거리라는 요지는 남아 minor.
+  R002: minor | 원문의 기한은 달력상의 3일이 아니라 학교가 운영되는 날을 기준으로 한 3일입니다. 번역문에서 school이 빠져 일반적인 3일로 해석될 수 있습니다. 따라서 제출 기한을 계산하는 기준이 달라질 수 있습니다.
+  R003: minor | 운동 종목이 특정되지 않은 거리 목표에 '달리기'라는 운동 방식을 추가하여 활동 유형을 임의로 정했습니다.
+
+## P239 Context | 오탐 | 실행 한 번만 | None
+EN: They spat out, pushing the crown prince away from them.
+KO: 그들은 침을 뱉으며 왕세자를 그들에게서 멀리 밀어냈다.
+ 엔진r2: 훼손 minor | 원문 기능 → 번역 기능: 앞선 대사를 분노하며 쏘아붙이는 발화 표지 → 침 뱉기라는 동작 서술. 대사를 이어받는 서술 기능이 사라져 다른 종류의 기능으로 바뀌었습니다.
+
+## P241 Semantic | 오탐 | 실행 둘 다 | None
+EN: Rosa, still at hurricane strength Sunday morning with maximum winds of 85 miles per hour, is 385 miles south of Punta Eugenia, Mexico and moving north at 12 miles per hour.
+KO: 로사는 아직도 허리케인 강도로 시속 85마일의 최대 바람을 동반하고 있으며, 멕시코 푼타에우헤니아(Punta Eugenia)에서 남쪽으로 385마일 떨어져 있으며 시속 12마일로 북쪽으로 움직이고 있다.
+ 엔진r1: 훼손 minor | 판단 질문 1(시간): 'Sunday morning'이 누락되어 허리케인 강도와 위치가 어느 시점의 상태인지가 사라졌습니다. 핵심 수치와 위치는 유지되어 요지는 같으므로 minor입니다.
+ 엔진r2: 훼손 minor | 판단 질문 1(시간): 'Sunday morning'이 누락되어 허리케인 강도 유지 시점이 사라졌으나, 핵심 사실(강도·풍속·위치·이동)은 유지되어 minor입니다.
+
+## P243 Textual | 오탐 | 실행 둘 다 | None
+EN: Addressing the UN General Assembly, Foreign Minister Walid al-Moualem also called on Syrian refugees to come home, even though the country's war is now in its eighth year.
+KO: 유엔 총회 연설에서 외무부 장관 왈리드 알 무알렘(Walid al-Moualem)은 시리아 난민들에게 전쟁이 8년째 이어지고 있음에도 불구하고 고향으로 돌아오라고 호소했다.
+ 엔진r1: 훼손 minor | 판단 질문 3(초점·범위): 'also'가 사라져 앞서 한 말에 더해 난민 귀환도 촉구했다는 추가의 초점 표현이 없어졌습니다. 양보 관계('-에도 불구하고')와 대명사 지시는 유지됩니다.
+ 엔진r2: 훼손 minor | 판단 질문 3(초점·범위): 'also'가 빠져 '난민에게도 호소했다'는 추가 관계가 사라졌습니다. 양보 관계(even though→'-에도 불구하고')는 유지됩니다. 문장 단독으로는 요지가 크게 달라지지 않아 minor입니다.
+
+## P244 Deontic | 오탐 | 실행 둘 다 | None
+EN: Build positive and supportive relationships with students and staff, demonstrating the acceptance of differences, with regards to, but not limited to, race/ethnicity, gender, gender identity, socioeconomic status, sexual orientation, language, culture, religion/beliefs, mental and physical ability, disability, age, and national origin.
+KO: 인종/민족, 성별, 성 정체성, 사회경제적 지위, 성적 지향, 언어, 문화, 종교/신념, 정신적, 신체적 능력, 장애, 나이, 국적 등과 관련하여 차이를 인정하고 긍정적이고 지지적인 관계를 형성합니다.
+ 엔진r1: 훼손 major | 판단 질문 2(적용 범위): 행동 기대가 적용되는 관계 대상(학생과 교직원)이 사라져 규범의 적용 범위가 달라졌습니다. 원문의 명령형을 '-합니다'로 옮긴 것 자체는 강도 훼손이 아닙니다.
+ 엔진r2: 훼손 major | 판단 질문 2(적용 범위·대상): 학생 행동 규범에서 관계를 형성해야 하는 상대(학생과 교직원)가 사라져 규범의 적용 범위가 달라졌습니다. 평가조건이 조건·담당 주체 변경을 불허합니다.
+
+## P246 Semantic | 오탐 | 실행 한 번만 | None
+EN: We want to build a large farm, so we select only large (> 100 ha) contiguous areas:
+KO: 우리는 큰 농장을 구축하고 싶어, 그래서 우리는 큰 (> 100 헥타르) 인접 지역을 선택합니다 :
+ 엔진r2: 훼손 minor | 판단 질문 1: only의 누락으로 큰 면적의 인접 지역만 고른다는 배타적 선택이 단순한 선택으로 바뀌었으나, 농장 건설 목적, 100ha 초과 조건, 인접 지역이라는 핵심 사실은 유지되어 minor입니다.
+
+## P259 Context | 놓침 | 실행 둘 다 | None
+EN: He talked about his breakup with his ex-wife and family, and he had some fallout from it, so here we go.
+KO: 그는 그의 전 아내와 가족과 그의 헤어짐에 대해 이야기, 그는 그것에서 몇 가지 낙진을했다, 그래서 여기 우리가 간다.
+ 엔진r1: 보존 None | 영상 소개 진행 설명 → 영상 소개 진행 설명. 발화 기능이 유지됩니다.
+ 엔진r2: 보존 None | 영상 소개 설명 → 영상 소개 설명. 영상을 보기 전에 배경을 알리고 영상으로 넘어가는 기능은 유지됩니다.
+  R001: minor | 영상에서 본론을 시작하자고 넘어가는 말이 우리가 간다는 이동 서술처럼 읽혀서 진행 신호 기능이 흐려짐.
+  R002: minor | so here we go는 실제로 어디론가 이동한다는 뜻이 아니라, 이야기를 이어가거나 본격적으로 시작할 때 사용하는 담화 표현입니다. 번역문은 이를 문자 그대로 옮겨 화자가 이야기를 시작하거나 이어가려는 기능을 전달하지 못합니다.
+  R003: minor | 이야기를 시작하거나 다음 내용으로 넘어간다는 구어체 진행 신호가 실제 이동 서술처럼 바뀌어 발화 전환 기능이 흐려졌습니다.
+
+## P265 Textual | 오탐 | 실행 둘 다 | None
+EN: The United States has moved rapidly to develop its North Slope petroleum fields in Alaska. Some oil producers paid well over $1 billion just for the right to search for oil in the region.
+KO: 미국은 알래스카의 노스 슬로프 석유 매장지를 개발하기 위해 빠르게 움직였다. 몇몇 석유 생산자들은 이 지역에서 석유를 찾을 권리를 얻기 위해 10억 달러 이상을 지불했다.
+ 엔진r1: 훼손 minor | 판단 질문 3(초점): 'just for the right'의 초점 표현 'just'가 번역에서 사라져, 탐사 권리만을 위해 큰 금액을 냈다는 초점이 약해졌습니다.
+ 엔진r2: 훼손 minor | 판단 질문 3(초점): 'just for the right'의 '오직 권리만을 위해'라는 초점 표현이 사라져, 탐사권 자체에 막대한 금액을 냈다는 강조가 번역문에 남지 않았습니다.
+
+## P268 Deontic | 오탐 | 실행 둘 다 | None
+EN: Our policy needs to, but so does each and everyone of us.
+KO: 우리의 정책이 필요하지만, 우리 각자도 그렇습니다.
+ 엔진r1: 훼손 major | 판단 질문 2(주체·범위): 정책과 각 개인이 행동해야 한다는 당위가 '정책이 필요하다'는 필요 진술로 바뀌어 규범의 주체와 내용이 달라졌습니다.
+ 엔진r2: 훼손 major | 판단 질문 1·2: 정책과 각자가 답을 찾아야 한다는 당위(needs to)가 '필요하다'는 서술로 바뀌어 의무의 내용과 주체가 달라졌습니다.
+
+## P283 Textual | 오탐 | 실행 둘 다 | None
+EN: The Indolent Indio has also uploaded what he calls "a fund exploitable" photo of the three officials and encouraged his readers to join the "DPWH meme":
+KO: 인돌렌트 인디오(Indolent Indio) 는 세 명의 공무원의 "기금 착취용" 사진을 올렸고, 독자들에게 "DPWH 밈"에 참여하도록 독려했다:
+ 엔진r1: 훼손 minor | 판단 질문 3(초점·범위): also가 나타내는 추가 관계('또한 올렸다')가 번역문에서 사라졌습니다. 다만 핵심 사실은 유지되어 minor입니다.
+ 엔진r2: 훼손 minor | 판단 질문 3(초점·범위 표현): 'also'가 사라져 부가·첨가 초점 표현이 없어졌으나, 두 행위의 연결과 대상은 유지되어 minor입니다.
+
+## P300 Semantic | 놓침 | 실행 둘 다 | None
+EN: Only supported for unsigned integers. The native integer value of this Python argument will be written to the parameter without any range checking, even for negative values.
+KO: 기호가 없는 정수에 대해서만 지원됩니다. 이 파이썬 인자의 네이티브 정수 값은 음수에 대해서도 범위 검사 없이 매개변수에 기록됩니다.
+ 엔진r1: 보존 None | 부호 없는 정수 한정, 범위 검사 없이 기록, 음수 포함 등 내용이 모두 유지됩니다. '기호가 없는 정수'는 어색하지만 뜻은 같습니다.
+ 엔진r2: 보존 None | 부호 없는 정수만 지원, 네이티브 정수 값이 범위 검사 없이 매개변수에 기록, 음수도 동일하다는 내용이 모두 유지됩니다. '기호가 없는 정수'는 어색하지만 뜻은 같습니다.
+  R001: minor | unsigned(부호 없는)를 기호가 없는으로 옮김. 짐작은 돼서 minor.
+  R002: major | unsigned integers”는 프로그래밍에서 부호 없는 정수를 의미합니다. 그러나 번역문의 “기호가 없는 정수”는 일반적으로 숫자에 기호가 붙어 있지 않은 정수처럼 해석될 수 있습니다. 프로그래밍의 자료형을 가리키는 정확한 의미인 “부호 없는 정수”가 전달되지 않았습니다.
+  R003: major | 프로그래밍의 부호 없는 정수(unsigned integer)를 단순히 기호가 없는 정수로 옮겨 형식 제약을 이해하기 어렵게 만들었습니다.
+
+cells 42
