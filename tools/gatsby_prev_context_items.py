@@ -27,6 +27,7 @@ def main(argv=None):
     p.add_argument("--items", required=True); p.add_argument("--all", required=True, nargs="+")
     p.add_argument("--n", type=int, default=5); p.add_argument("--next", type=int, default=0); p.add_argument("--out", required=True)
     p.add_argument("--profile", help="작품 프로필 파일. 주면 [문서정보] 칸 끝에 덧붙인다(프롬프트는 그대로).")
+    p.add_argument("--profile-system", help="작품 프로필 파일. 주면 문항의 system_extra에 넣어 시스템 프롬프트 뒤에 캐시되는 블록으로 붙인다.")
     a = p.parse_args(argv)
     allr = [r for f in a.all for r in rows(f)]
     allr.sort(key=lambda r: r["book_sentence_id"])
@@ -72,6 +73,11 @@ def main(argv=None):
         for r in out:
             r["doc_info"] = r["doc_info"].rstrip() + "\n\n" + prof
             r["context_variant"]["profile"] = a.profile
+    if a.profile_system:
+        prof = open(a.profile_system, encoding="utf-8").read().strip()
+        for r in out:
+            r["system_extra"] = prof
+            r["context_variant"]["profile_system"] = a.profile_system
     with open(a.out, "w", encoding="utf-8") as f:
         for r in out:
             f.write(json.dumps(r, ensure_ascii=False) + "\n")

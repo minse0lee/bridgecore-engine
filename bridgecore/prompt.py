@@ -132,6 +132,11 @@ def build_messages(item: dict, version: str = "v0",
                    screen: bool = False) -> tuple[list[dict], list[dict]]:
     system = [{"type": "text", "text": system_text(version, screen),
                "cache_control": {"type": "ephemeral"}}]
+    # 문항에 system_extra(예: 작품 프로필)가 있으면 시스템 프롬프트 뒤에 따로 붙이고 캐시한다.
+    # 같은 책의 모든 문항에서 같은 글이므로 반복 비용이 캐시 읽기 값으로 줄어든다. 없으면 이전과 똑같다.
+    if (item.get("system_extra") or "").strip():
+        system.append({"type": "text", "text": item["system_extra"].strip(),
+                       "cache_control": {"type": "ephemeral"}})
     content = []
     fig = item.get("figure")
     if fig:
