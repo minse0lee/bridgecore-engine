@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChT6yPxg2gfkc1y7j8QDj",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0088\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"If she saw me out of the corner of her eyes she gave no hint of it\",\"tgt_span\":\"곁눈질로 나를 보았을지도 모르겠으나 전혀 내색하지 않았다\",\"description\":\"조건절 'If she saw me'(그녀가 곁눈으로 나를 보았더라도)가 화자의 추측 '보았을지도 모르겠으나'로 바뀌어, 조건·양보 관계와 확실성이 달라지고 곁눈질 주체가 흐려짐\"},{\"id\":\"E002\",\"src_span\":\"I was almost surprised into murmuring an apology for having disturbed her by coming in\",\"tgt_span\":\"내가 들어와서 방해했다며 사과라도 중얼거려야 할 것 같아 당혹스러울 정도였다\",\"description\":\"'놀라서 거의 사과를 중얼거릴 뻔했다'가 '사과를 중얼거려야 할 것 같아 당혹스러울 정도'로 바뀌어, 거의 ~할 뻔한 행위가 의무감·당혹감으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'almost surprised into murmuring'(놀라 사과를 중얼거릴 뻔함)이 '중얼거려야 할 것 같아 당혹스럽다'로 바뀌고, 조건 'If she saw me'가 추측으로 바뀌어 확실성이 달라졌습니다. 다만 핵심 사실(그녀가 내색 없음, 화자가 사과할 뻔함)은 유지되어 요지는 크게 다르지 않습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 'If she saw me … she gave no hint'의 조건·양보 관계가 '~지도 모르겠으나'라는 화자의 추측과 대조로 바뀌었습니다. 연결 관계는 남아 있어 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(화자의 관찰·심리 묘사) → 서술. 발화 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술로 규범적 의무·허가·금지 표현이 없습니다. '해야 할 것 같아'는 화자의 심리 묘사입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술 문체가 '~다' 평서체로 유지되고 인물 관계에 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 867,
+    "output_tokens": 1074,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
