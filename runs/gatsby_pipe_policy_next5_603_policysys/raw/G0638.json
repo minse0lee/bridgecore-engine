@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8g5iM1ToLmeQW27zxH",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0638\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"cardinal virtues\",\"tgt_span\":\"핵심적인 미덕\",\"description\":\"'cardinal virtues'(사추덕 등 기본 덕목이라는 전통적 개념)를 일반적인 '핵심적인 미덕'으로 옮겨 고정된 덕목 체계의 함의가 약해짐\"},{\"id\":\"E002\",\"src_span\":\"suspects himself of\",\"tgt_span\":\"믿기 마련인데\",\"description\":\"'suspects'(자기 자신에게 혐의를 두듯 은근히 생각한다)를 '믿는다'로 옮겨 약간 단정적인 확신 쪽으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1(확실성): suspects(짐작·의심 섞인 자부)가 '믿다'로 바뀌어 확신 정도가 달라졌으나, 모두가 자기에게 미덕이 있다고 여긴다는 핵심 사실과 '내가 아는 몇 안 되는 정직한 사람'이라는 주장은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계가 유지됩니다. 'this is mine'이 '내게는 이것이 그렇다'로 옮겨져 콜론 뒤 설명으로 이어지는 연결이 남아 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 자기 성격 서술 → 자기 성격 서술. 설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"닉의 1인칭 서술체 '~다' 문어체가 유지되며 관계·호칭 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'cardinal virtues'는 서양 전통의 덕목 개념이나, '핵심적인 미덕'으로 옮겨도 한국어 독자가 덕목을 가리킨다는 점을 이해할 수 있어 제도·문화 대상의 변경은 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 1322,
+    "output_tokens": 909,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

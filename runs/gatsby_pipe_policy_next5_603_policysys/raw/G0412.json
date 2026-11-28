@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8bJvSvDB5PXNWpidqf",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0412\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“Mrs. Claud Roosevelt.\",\"tgt_span\":\"“클로드 루스벨트 부인이라는 분이죠.\",\"description\":\"원문 \\\"Mrs. Claud Roosevelt\\\"는 앞 문장의 \\\"a woman named Roosevelt\\\"를 구체화하는 명사구인데, '~라는 분이죠'라는 서술문으로 옮겨 문장 형태가 달라짐. 내용은 같아 의미·기능 변화는 없음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"클로드 루스벨트 부인, 어젯밤 어딘가에서 만남, 약 일주일째 취함, 서재에 앉으면 술이 깰 것 같다는 생각이 모두 유지됩니다. '한 일주일 전부터 계속 취해 있었는데'는 'for about a week now'의 통상적 대응입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"I met her의 her, '술을 깨게 할 것(it)'의 지시 관계와 '~했는데, ~아서요'의 이유 연결이 유지되어 판단 질문 1~3 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"자신이 온 경위를 설명하고 상대가 아는지 묻는 서술·질문 → 같은 서술·질문. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"부엉이 눈은 처음 보는 사람들에게 말하는 상황이며 번역의 '-요' 존댓말이 어울립니다. 방침 13번의 하게체도 없고, Mrs.가 원문에 있어 '부인'은 방침 10번에도 맞습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Mrs. Claud Roosevelt는 인명과 호칭뿐이며 '부인'으로 옮겨 원문 호칭이 유지됩니다. 별도의 문화·제도 대상은 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 1887,
+    "output_tokens": 891,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

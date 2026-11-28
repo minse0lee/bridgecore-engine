@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8qHXzk6EwtxE4APGfH",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1682\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"shut the door on them\",\"tgt_span\":\"그들을 뒤로하고 문을 닫은 뒤\",\"description\":\"톰이 문 안의 사람들을 뒤에 두고 문을 닫았다는 뜻으로 읽혀, 톰이 방 밖에 있는 위치 관계가 불분명해졌으나 핵심 행위(문을 닫음)는 유지됨. 의미 변화로 보지 않을 정도의 표현 차이.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 문을 닫고, 탁자를 피해 시선을 돌린 채 한 계단 내려왔다는 행위·대상·수량이 모두 유지됩니다. '그들을 뒤로하고'는 shut the door on them을 자연스럽게 옮긴 표현입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Then의 시간 순서가 '그러고는'으로, 'his eyes avoiding the table'의 동시 상황이 '눈길도 주지 않은 채'로 유지되고 대명사 them도 두 남자를 가리킵니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사 묘사 → 서사 묘사. 장면의 행동을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 서술 문장으로 대화 말투 방침이 적용되지 않으며, 문어체 서술이 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 1710,
+    "output_tokens": 757,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

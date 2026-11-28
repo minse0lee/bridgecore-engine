@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8Z5yWxnQzMZfJnenQJ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0321\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"By seven o’clock the orchestra has arrived\",\"tgt_span\":\"일곱 시가 되면 오케스트라가 도착한다\",\"description\":\"도착한 시점(완료, 현재완료)이 '일곱 시가 되면'이라는 조건·반복 표현으로 읽힘. 다만 현재시제 서사 전체가 습관적 장면을 그리는 문맥이라 의미 변화는 미미함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"일곱 시, 오케스트라 도착, 다섯 명 규모가 아니라 여러 악기로 구성된 큰 규모라는 내용이 유지됩니다. '다섯 명'은 five-piece의 정확한 대응이고 '일곱 시가 되면'은 현재시제 서술의 통상적 번역입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'no thin five-piece affair, but …'의 대조 구조가 '~가 아니라 ~이다'로 유지되어 연결 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사(서술) → 장면 묘사(서술). 기능이 동일합니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 장면 묘사이며 의무·허가·금지 등의 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 평서체 '-다'가 유지되며 인물 간 말투 방침이 적용되는 대화문이 아닙니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"악기와 오케스트라 구성은 별도로 판정할 문화 고유의 제도·단위·관습이 아닙니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 3297,
+    "output_tokens": 750,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

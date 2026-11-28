@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8Y44f4DZDdwLDckAz5",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0262\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I knew now why her face was familiar\",\"tgt_span\":\"그녀의 얼굴이 왜 낯익었는지 이제 알 것 같았다\",\"description\":\"'알았다(knew)'라는 확정적 인식이 '알 것 같았다'라는 추측으로 바뀌어 확실성이 약해짐\"},{\"id\":\"E002\",\"src_span\":\"the sporting life\",\"tgt_span\":\"사교계 생활\",\"description\":\"스포츠 활동(sporting life)이 '사교계 생활'로 바뀌어 대상 영역이 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'the sporting life'(운동·스포츠 생활)가 '사교계 생활'로 바뀌어 사진이 다루는 내용이 달라졌고, 'knew'가 '알 것 같았다'로 바뀌어 확실성도 약해졌습니다. 조던이 골프 선수라는 맥락에서 독자가 요지를 다르게 이해할 수 있어 major입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'왜 낯익었는지'와 '~때문이다'로 이유 관계가 유지되고, 'her/its' 지시 대상도 조던의 얼굴·표정으로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 회상·설명 → 회상·설명. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가를 정하는 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문의 '~다' 문어체가 유지되며 인물 간 말투가 개입하지 않습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Asheville, Hot Springs, Palm Beach는 지명이고 rotogravure는 '그라비아 사진'으로 통용되는 대응이라 문화적 의미가 이해 가능합니다. 'sporting life'의 변화는 Semantic에서만 판정합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 1453,
+    "output_tokens": 874,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

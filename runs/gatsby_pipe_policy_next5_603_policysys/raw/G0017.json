@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8Sf1Bur5qbBf69zJZ5",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0017\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the Dukes of Buccleuch\",\"tgt_span\":\"버클루 공작 가문\",\"description\":\"방침 9의 고유명사 표기 목록에 Buccleuch가 없어 방침 위반은 아니며 원칙 7을 따른 음역으로 보이므로 오류로 보지 않음. 다만 'the Dukes'를 '공작 가문'으로 옮겨도 내용은 유지됨(차이 없음).\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"캐러웨이 가문, 공작 가문 후손이라는 전설, 할아버지의 형제인 시조, 51년 도착, 남북전쟁 대리인, 철물 도매업, 아버지의 현재 운영이 모두 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but의 양보·대조 관계(전설 vs 실질적 시조)와 who 관계절의 주어('그')가 할아버지의 형제를 가리키는 지시 관계가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"가문 내력 설명 → 가문 내력 설명으로 서술 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가를 정하는 표현이 없는 서사 설명문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"닉의 1인칭 서술체(-다)가 유지되고 방침 호칭 규정에 어긋나는 부분이 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"버클루 공작 가문과 남북 전쟁(Civil War)이 같은 대상을 가리키며 한국어 독자가 이해할 수 있는 통용 표기입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 2582,
+    "output_tokens": 749,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8aSqupHNe8noNjuo8k",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0375\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"The three Mr. Mumbles\",\"tgt_span\":\"웅얼거리는 세 남자도\",\"description\":\"'세 명의 Mr. Mumbles'라는 별명 호칭이 '웅얼거리는 세 남자'로 풀려 옮겨져 이름 형식의 호칭이 사라졌고, 앞서 언급된 남자들을 가리키는 별명이라는 점이 약해짐(방침상 별도 표기 지정 없음)\"},{\"id\":\"E002\",\"src_span\":\"listened eagerly\",\"tgt_span\":\"귀를 기울였다\",\"description\":\"eagerly(열심히, 간절히)에 해당하는 부사가 번역되지 않아 열의의 정도 표현이 빠짐\"},{\"id\":\"E003\",\"src_span\":\"대응 구간 없음(첨가)\",\"tgt_span\":\"도\",\"description\":\"원문에 없는 '도'(포함)가 첨가됨. 앞 문장과의 연결 때문에 자연스럽지만 초점 조사가 추가됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: eagerly의 정도 표현이 빠졌으나 평가어 정도 차이로 핵심 사실(세 남자가 앞으로 몸을 숙이고 귀를 기울임)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'도'는 앞 문장의 '우리 모두'와 같은 반응임을 나타내므로 원문 문맥의 연결을 해치지 않았고, 지시·연결·초점 관계가 달라지지 않았습니다(질문 1·2·3 모두 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 인물들의 반응을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 평서체 '-었다'가 유지되며 관계·격식상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없고 별명 표현뿐이어서 별도 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 1345,
+    "output_tokens": 931,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

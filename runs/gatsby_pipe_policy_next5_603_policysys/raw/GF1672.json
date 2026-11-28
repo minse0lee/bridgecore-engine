@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8pqaXwNedhCQJsnGma",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1672\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"He says he knows the car that did it\",\"tgt_span\":\"사고를 낸 차를 안다고 하네요\",\"description\":\"'did it'(그 일을 저지른)을 '사고를 낸'으로 구체화했으나 문맥상 같은 사태이며 의미를 바꾸지 않음. 톰이 경찰에게 하는 말투가 퉁명스러운 존댓말(-요)로 유지되어 방침과 일치함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"그가 사고를 낸 차를 안다고 하고 그것이 노란색 차였다는 내용이 유지되며, 'did it'을 '사고를 낸'으로 옮긴 것은 같은 사태를 가리킵니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'he'가 윌슨을 가리키는 관계와 두 절의 연결(안다→노란 차였다)이 유지되며 지시·연결·초점이 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"경찰 질문에 대한 상황 설명(답변) → 상황 설명(답변). 같은 종류의 기능입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 사실 전달 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 경찰(처음 보는 사람)에게 하는 말이므로 방침 13번의 퉁명스러운 존댓말(-요/-습니다)에 맞고 말투가 일관됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 1477,
+    "output_tokens": 750,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

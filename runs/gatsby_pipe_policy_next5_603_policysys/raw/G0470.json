@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8cV8szmJZEeqZcbMYk",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0470\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I just don’t think he went there.\",\"tgt_span\":\"그냥 거기 다녔을 것 같지 않아서요.\",\"description\":\"'그가 거기에 다녔다고 생각하지 않는다'가 '다녔을 것 같지 않아서요'로 바뀌어 확신이 추측으로 약해지고, 주어 '그'가 빠졌으며, 연결어미 '-아서요'로 끝나 앞 질문에 대한 이유로 읽힘. 다만 앞 대화의 맥락상 이유 설명으로 읽혀도 대응은 가능.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그가 거기(옥스퍼드)에 다녔다고 생각하지 않는다'는 내용이 '다녔을 것 같지 않다'로 유지됩니다. 주어 생략은 한국어에서 자연스럽고, 'don't think'와 '것 같지 않다'는 통상적 대응입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'거기'가 옥스퍼드를 가리키는 지시 관계가 유지되고, just의 초점도 '그냥'으로 옮겨져 있어 지시·연결·초점 질문에 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"근거 없이 믿지 않는 이유를 고집스럽게 밝히는 진술 → 같은 진술 기능으로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 같은 규범 의미가 없는 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조던이 닉에게 말하므로 방침 13번의 '-요' 존댓말에 맞고, 고집스러운 태도도 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장 자체에는 판정할 문화 고유의 제도·단위·관습이 없습니다(옥스퍼드는 대명사 there로만 지칭됨).\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 1405,
+    "output_tokens": 845,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

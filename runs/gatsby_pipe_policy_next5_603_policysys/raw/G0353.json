@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8ZpLDTNHST9j63Wh3y",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0353\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"That was for the golf tournament.\",\"tgt_span\":\"골프 대회 이야기였다.\",\"description\":\"앞선 'Sorry you didn't win'이 골프 대회에서 우승하지 못한 것에 대한 말이었다는 설명이, '골프 대회 이야기였다'로 바뀌어 '~에 대한 것이었다'는 지시 관계가 느슨해짐. 다만 같은 사태를 기술함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞 발언이 골프 대회와 관련된 것이었다는 내용이 '골프 대회 이야기였다'로 같은 사태를 기술하며 인물·행위·수량·시간·부정의 변화가 없습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"That이 앞의 '우승 못 하셔서 아쉬워요'라는 발언을 가리키는 관계가 '골프 대회 이야기였다'에서도 유지되어 지시·연결·초점 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 설명 → 서술자의 설명. 앞 대사의 배경을 풀이하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 평서 서술이 '-였다' 서술체로 유지되며 인물 간 말투 방침과 관련된 대사가 아닙니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"골프 대회는 일반 어휘이며 문화·제도 고유의 대상이 아닙니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 1540,
+    "output_tokens": 737,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

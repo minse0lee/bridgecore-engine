@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8aTNAHaL5k248Ppcmy",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0376\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"It’s more that he was a German spy during the war.\",\"tgt_span\":\"전쟁 중에 독일 스파이였다는 얘기가 더 많더라고요.\",\"description\":\"'그가 독일 스파이였다는 쪽이 더 맞다'는 화자의 견해가 '그런 얘기가 더 많다'는 전해 들은 소문의 빈도로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"I don’t think it’s so much that\",\"tgt_span\":\"그건 아닐 거예요.\",\"description\":\"'그것이 그렇게까지 (사실)은 아니라고 생각한다'는 정도 표현이 '그건 아닐 거예요'라는 추측성 단정적 부정으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: '독일 스파이였다는 쪽이 더 그럴듯하다'는 화자의 판단이 '그런 얘기가 더 많다'는 소문 빈도로 바뀌어 내용이 달라졌고, 앞 문장도 정도(so much)가 사라지고 '아닐 거예요'라는 추측 부정이 되었습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞 소문과 대비되는 'more that' 비교 연결은 '더 많더라고요'로 남아 있고 지시·초점 관계는 바뀌지 않았습니다. (비교 대상이 '그럴듯함'에서 '빈도'로 바뀐 것은 Semantic에서 판정)\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞 소문에 대한 회의적 반박과 대안 제시 → 반박과 대안 제시. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가를 정하는 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"루실이 닉이 있는 자리에서 하는 말이며 방침 13번상 그 밖의 사람에게는 -요가 맞아 말투 규칙에 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·관습·단위가 없습니다(고유명사만 있음).\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 1317,
+    "output_tokens": 939,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8W7VDdsoFQ1zQhkucL",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0142\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a checker\",\"tgt_span\":\"체스 말\",\"description\":\"checker(체커/서양장기 말)가 체스 말로 바뀌어 다른 게임의 말을 가리킴\"},{\"id\":\"E002\",\"src_span\":\"compelled me from the room\",\"tgt_span\":\"나를 방 밖으로 밀어냈다\",\"description\":\"'강제로 방에서 나가게 했다'가 '밀어냈다'로 바뀌어 물리적으로 밀치는 행위로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: checker가 체스 말로 바뀌었고, compelled가 '밀어냈다'로 바뀌어 행위의 양상이 달라졌으나 장면의 요지(톰이 닉을 억지로 방에서 끌어냄)는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-기도 전에'로 시간 순서가 유지되고 'as though'의 비유 관계도 '-듯'으로 남아 있으며 지시 대상도 그대로입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 톰의 강압적 행동을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 의무·허가·금지 같은 규범 표현이 없는 서사 서술입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 간 대화가 아니라 닉의 서술문이며 호칭·높임 관계가 쓰이지 않았습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"checker를 체스 말로 옮긴 것은 게임 종류의 오역이므로 Semantic에서 다루며, 이 문장에는 별도로 판정할 제도·관습·단위의 문화 고유 요소가 없어 Cultural 훼손은 아닙니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 1415,
+    "output_tokens": 822,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

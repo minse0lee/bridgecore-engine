@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8rGs5kFkNVnGwuvCBH",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1706\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I’d had enough of all of them for one day, and suddenly that included Jordan too\",\"tgt_span\":\"하루 동안 그 사람들에게 진저리가 났고, 갑자기 조던까지 그 부류로 느껴졌다\",\"description\":\"'that included Jordan too'(조던도 '그들 모두'에 포함된다는 것)가 '그 부류로 느껴졌다'로 옮겨져 약간 달라졌으나, 핵심 내용은 유지됨. 또한 'for one day'를 '하루 동안'으로 옮겨 '하루치로 충분하다'는 뜻이 약간 흐려졌으나 뜻은 같음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"들어가지 않겠다는 결심, 하루 동안 그들에게 질렸다는 것, 갑자기 조던도 포함된다는 내용이 모두 유지되며, '죽어도 ~없다'는 I'd be damned if의 강한 거부와 대응합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'조던까지'가 too의 추가 초점을 유지하고, 'that'이 가리키는 '그들 모두에게 질렸다'는 관계와 앞뒤 연결이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 심정 서술 → 심정 서술. 기능이 동일합니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 개인적 결심과 감정 서술로 의무·허가·금지를 정하는 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"닉의 1인칭 서술문으로 서술체 '-다'가 유지되며 관계·호칭 문제가 없고 거친 어조의 태도도 '죽어도'로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없고 인명만 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 1448,
+    "output_tokens": 844,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8SqoKBfD5xxqmtBwoT",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0023\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"All my aunts and uncles\",\"tgt_span\":\"고모와 삼촌들\",\"description\":\"aunts(이모·고모·숙모 포함)를 '고모'로 한정해 옮겼으나 통상적 대응 범위로 보아 의미 변화는 아님. 오류로 보지 않음(참고용).\"},{\"id\":\"E002\",\"src_span\":\"Why—ye-es,\",\"tgt_span\":\"\\\"글쎄, 그-렇지\\\"\",\"description\":\"망설이며 마지못해 동의하는 'Why—ye-es'가 '글쎄'(유보)와 '그렇지'(단정적 동의)로 옮겨져 망설이는 승낙의 뉘앙스가 약간 달라짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"친척들이 상의하고 마침내 엄숙하고 망설이는 표정으로 동의를 말했다는 내용, 예비학교를 고르듯 한다는 비유가 유지됩니다. 'Why—ye-es'의 번역은 망설이는 동의로 읽혀 핵심 내용이 같습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'마치 ~처럼 ... 상의하더니, 마침내 ... 말했다'로 비유·시간 순서 연결이 유지되고 대명사·초점 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 설명·묘사 기능 → 서술문의 설명·묘사 기능. 친척들의 마지못한 승낙을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 지문은 평서체 서술이 유지되고, 인물 간 말투 방침이 적용되는 대사는 반말·존댓말 지정 관계가 아니라 혼잣말식 짧은 대답이며 하게체나 불필요한 호칭이 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"prep school을 '예비 학교'로 옮겨 같은 대상을 가리키며 미국 사립 예비학교라는 제도를 다른 제도로 대체하지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 3187,
+    "output_tokens": 944,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

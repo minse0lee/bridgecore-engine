@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8qQNFW7jtdRdPY8zTR",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1684\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Self-consciously\",\"tgt_span\":\"톰은 위세를 떨며\",\"description\":\"어색해하며(self-consciously)라는 태도가 '위세를 떨며'로 바뀌어 톰의 태도 묘사가 달라짐. 'authoritative arms'의 권위적 속성은 별도 반영되어 있어 '위세'가 중복 표현됨.\"},{\"id\":\"E002\",\"src_span\":\"passing a hurried doctor\",\"tgt_span\":\"서두르는 의사와 마주쳤는데\",\"description\":\"스쳐 지나감(passing)이 '마주쳤다'로 바뀜. 경미한 차이.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'Self-consciously'(어색해하며, 의식하며)가 '위세를 떨며'로 바뀌어 태도 평가 내용 자체가 달라졌으나, 핵심 사건(팔로 길을 내며 군중을 헤치고 의사를 지나침)은 유지되어 minor입니다. 'passing'→'마주쳤다'는 같은 사태로 보아 오류로 보지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 관계('우리', '그', '그는 ... 부른 사람')와 'who had been sent for' 관계절의 연결이 유지되며 초점·연결 관계에 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사건 서술 → 사건 서술. 서사 진행을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화가 아닌 서술문이며 화자·청자 관계에 따른 말투 판정 대상이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다. 'half an hour'를 '30분'으로 옮긴 것은 통상적 대응입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 1685,
+    "output_tokens": 871,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

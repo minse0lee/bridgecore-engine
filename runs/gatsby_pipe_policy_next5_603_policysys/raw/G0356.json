@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8ZscfKKzBXADzHdV5V",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0356\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"You’ve dyed your hair since then,” remarked Jordan\",\"tgt_span\":\"“그때보다 머리색이 바뀌었네,” 조던이 말하는 바람에\",\"description\":\"'염색했다'가 '머리색이 바뀌었네'로 바뀌어 행위(염색)와 행위자가 사라짐. 또 단순 발언 보고(remarked)가 '말하는 바람에'라는 인과로 바뀌어 조던의 말이 닉이 놀란 원인으로 읽힘\"},{\"id\":\"E002\",\"src_span\":\"her remark was addressed to the premature moon\",\"tgt_span\":\"그녀의 말은 이른 달을 향한 혼잣말이었는데\",\"description\":\"'달을 향해 건넨 말'이 '혼잣말'로 바뀌어 발화 대상이 달이라는 점이 약화됨. 소녀들에게 한 말이 아니라 달에 한 말이라는 아이러니는 유지됨\"},{\"id\":\"E003\",\"src_span\":\"I started, but the girls had moved casually on\",\"tgt_span\":\"소녀들은 이미 무심하게 가버린 뒤였다\",\"description\":\"'but'이 대조(놀랐지만 소녀들은 이미 가버렸다)로 유지되나 '이미 가버린 뒤'는 had moved on에 대응하며 큰 문제 없음. 다만 'casually'는 소녀들의 무심한 움직임으로 옮겨져 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'dyed your hair'가 '머리색이 바뀌었네'로 바뀌어 염색이라는 행위가 사라졌고, '말하는 바람에'로 조던의 발언이 닉이 놀란 원인인 것처럼 인과가 달라져 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 'remarked Jordan, and I started'의 단순 병렬·시간 연결이 '말하는 바람에 놀랐다'는 인과 관계로 바뀌었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":\"minor\",\"error_ids\":[],\"reason\":\"조던의 발언 서술 → 발언 서술. 발화 보고와 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조던이 소녀들에게 건넨 말로 반말이 쓰였고 말투 표상 조던이 닉·톰에게는 -요, 데이지에게는 반말인데, 여기서는 소녀들에게 하는 말이므로 표에 없는 관계이며 '-네' 반말은 관계상 큰 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 1694,
+    "output_tokens": 1160,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

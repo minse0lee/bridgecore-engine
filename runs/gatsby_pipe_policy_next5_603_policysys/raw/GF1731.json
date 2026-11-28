@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8sJQ8wf4TJDrWczn2m",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1731\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"she thought it would steady her to drive\",\"tgt_span\":\"데이지가 무척 불안해해서 직접 운전하면 마음이 진정될 거라고 생각했거든요\",\"description\":\"'she thought'(데이지가 생각함)의 생각 주체가 번역문에서 불명확해졌으나 문맥상 데이지로 읽힘. 의미 변화 없음으로 오류 아님 처리 가능하여 목록 제외 검토 후, 실제 차이로는 아래 항목만 기록\"},{\"id\":\"E002\",\"src_span\":\"this woman rushed out at us just as we were passing a car coming the other way\",\"tgt_span\":\"반대편에서 오는 차를 지나치던 바로 그 순간에 이 여자가 우리 쪽으로 갑자기 뛰어들었습니다\",\"description\":\"rushed out(뛰쳐나옴)을 '뛰어들었습니다'로 옮겨 큰 의미 차이는 없으나, 이는 통상적 대응임\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"데이지의 불안, 운전, 여자의 돌진, 핸들 꺾기, 충격, 즉사 추정 등 핵심 사건과 행위자가 유지됩니다. 'turned back'을 '핸들을 다시 돌렸다'로 옮긴 것도 같은 사태입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"질문 1·2·3 모두 아니오: 'when we left New York', 'just as we were passing', 'first… and then' 등 시간·연결 관계와 지시 대상이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사고 경위 설명(해명) → 사고 경위 설명(해명). 발화 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'must have killed'는 추론의 must이며 규범 의미가 아니고, 'I'll say I was'는 의무·허가를 정하는 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개츠비가 닉에게 격식 있는 존댓말(-습니다, -요)을 쓰라는 방침 13번에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명·지명만 있고 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 2067,
+    "output_tokens": 965,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

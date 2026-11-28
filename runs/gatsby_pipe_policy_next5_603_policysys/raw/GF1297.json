@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8hKtuRepCJT7PSYnnB",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1297\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"realizing that Jordan and I must have known all along\",\"tgt_span\":\"조던과 내가 처음부터 다 알고 있었으리라는 생각에\",\"description\":\"'realizing'(깨닫고 있었다는 사실 인식)이 '~라는 생각에'로 옮겨져 톰의 추론 내용이 인식에서 막연한 생각으로 약간 달라짐. 다만 must have known의 추론은 '-었으리라'로 유지되어 핵심 사실은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 닉을 날카롭게 보며 조던과 닉이 처음부터 알았으리라 추론했다는 행위자·대상·시간·추론의 확실성이 유지되며, realizing을 '생각에'로 옮긴 차이는 요지를 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Jordan and I'의 I는 닉(화자)으로 유지되고, 시선과 깨달음의 동시·인과 관계도 '생각에'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 톰의 시선과 인식을 설명하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"must have known은 과거 사실에 대한 추론이며 규범 의미가 아니므로 평가할 대상이 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 간 대화가 아닌 서술문이며 호칭·높임으로 평가할 관계 표현이 없습니다. 조던과 닉은 이름만 쓰여 방침 10번에도 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명만 있고 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 1438,
+    "output_tokens": 794,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

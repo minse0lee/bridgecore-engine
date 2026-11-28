@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8fVSaC6y6pEoTWQyT7",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0597\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a few rioters\",\"tgt_span\":\"소란스러운 사람들이 몇몇\",\"description\":\"rioters(떠들썩하게 노는 사람들, 난봉꾼)를 '소란스러운 사람들'로 옮겨 의미가 약간 넓어졌으나 핵심 지시 대상은 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"주변에 보통 몇몇 소란스러운 사람들이 있었고 도서관엔 들어오지 않아 공부하기 좋았다는 내용이 유지됩니다. rioters를 '소란스러운 사람들'로 옮긴 것은 같은 사태를 기술하는 통상적 대응입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but의 대조와 so의 인과가 '-지만', '-기에'로 유지되고, '도서관 안까지'의 they 지시도 소란스러운 사람들로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상황 서술 → 상황 서술. 닉이 도서관을 공부 장소로 삼은 이유를 설명하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"never는 규범이 아닌 사실 서술의 부정이며 의무·금지·허가를 정하는 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"닉의 회상 서술체('-었다')가 유지되며 대화나 호칭 관계가 없고 말투 방침 위반도 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 2619,
+    "output_tokens": 741,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

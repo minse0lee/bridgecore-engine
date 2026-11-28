@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8jtPa3UnGvAqwCDyRp",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1357\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the shock had made him physically sick\",\"tgt_span\":\"그 충격으로 몸져누울 만큼 앓고 있었다\",\"description\":\"충격 때문에 몸이 아프게 되었다는 내용이 '몸져누울 만큼 앓고 있었다'로 바뀌어 병세의 정도가 덧붙여짐(실제로 앓아누울 정도라는 의미 첨가). 핵심 인과(충격→신체적 병)는 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'physically sick'(몸이 아프게 됨)이 '몸져누울 만큼 앓고 있었다'로 바뀌어 원문에 없는 정도(앓아누움)가 더해졌으나, 윌슨이 충격으로 몸이 아프다는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그 충격으로'가 앞 절의 발견과 인과로 이어지는 관계를 유지하고, 지시 대상과 초점도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 윌슨의 상태를 설명하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범적 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술부의 평서체(-다)가 유지되고, 대화가 아니므로 말투 표 적용 대상이 아닙니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명만 있고 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 1936,
+    "output_tokens": 744,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

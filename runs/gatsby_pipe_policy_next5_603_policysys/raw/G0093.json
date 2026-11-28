@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8Uv66RZv7H23v5D3qK",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0093\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"She hinted in a murmur\",\"tgt_span\":\"그녀는 … 나지막이 속삭였다\",\"description\":\"hinted(넌지시 알림)가 단순한 '속삭였다'로 바뀌어 암시의 뉘앙스가 약해짐. 다만 속삭여 알려 준 핵심 사실은 유지됨\"},{\"id\":\"E002\",\"src_span\":\"the balancing girl\",\"tgt_span\":\"턱을 치켜들고 있던 그 여자\",\"description\":\"균형을 잡던 여자를 '턱을 치켜들고 있던 여자'로 풀어 옮김. 같은 인물을 가리키는 맥락상 통상적 대응\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"속삭이는 행위, 성이 베이커라는 내용, 지시 대상(균형 잡던 여자)이 모두 유지됩니다. hinted의 암시 정도 차이는 표현의 정도 차이이며 핵심 사실이 같습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그녀'는 데이지, '그 여자'는 균형 잡던 여자를 가리켜 지시 관계가 유지되고, 연결·초점 표현의 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(인물 소개) → 서술(인물 소개). 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문이며 화자와 청자 사이의 높임·호칭이 드러나는 대화가 아니고, 번역 방침 말투 표에도 해당 사항이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명(Baker)만 있고 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 2061,
+    "output_tokens": 817,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

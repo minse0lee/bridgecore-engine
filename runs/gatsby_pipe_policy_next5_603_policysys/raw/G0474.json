@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8cderJmm9LcibPbH89",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0474\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"my provincial inexperience\",\"tgt_span\":\"시골 출신인 나의 부족한 경험\",\"description\":\"'시골 사람 같은 세상 물정 모름(경험 부족)'이 '시골 출신'이라는 출신 배경 정보로 구체화·변경됨. 핵심 내용은 대체로 유지됨.\"},{\"id\":\"E002\",\"src_span\":\"drift coolly out of nowhere\",\"tgt_span\":\"어느 날 갑자기 정체불명의 곳에서 나타나\",\"description\":\"coolly(태연하게)가 번역에 없고 '어느 날 갑자기'가 첨가되며, out of nowhere가 '정체불명의 곳'으로 옮겨짐.\"},{\"id\":\"E003\",\"src_span\":\"young men didn’t … drift … and buy a palace\",\"tgt_span\":\"산다는 것은 있을 수 없는 일이었다\",\"description\":\"'그렇게 하지 않는다'는 닉의 믿음이 '있을 수 없는 일'이라는 단정적 불가능 판단으로 바뀜.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 'coolly'(태연히) 누락, '어느 날 갑자기' 첨가, 경험 부족이 '시골 출신'으로 바뀌고, 믿음/경험상 그렇지 않다는 진술이 '있을 수 없는 일'로 확실성이 높아졌으나 핵심 사실(출처 불명의 젊은이가 대저택을 산다는 점에 대한 의아함)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"But이 '하지만'으로 앞 문장과의 대조 관계를 유지하고, at least 삽입절의 범위도 '적어도'로 유지되며 지시 관계 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 의아함을 설명하는 서술 → 서술자의 의아함을 설명하는 서술로 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"닉의 1인칭 서술이며 특정 청자에 대한 높임·호칭이 드러나지 않아 평가할 대상이 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Long Island Sound를 '롱아일랜드 해협'으로 통용 표기로 옮겨 같은 지명 대상을 유지하며, provincial의 시골 함의도 전달됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 1884,
+    "output_tokens": 1063,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

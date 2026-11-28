@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8qXQBJ1XGDXBtA1PiT",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1688\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"He didn’t even stop his car.\",\"tgt_span\":\"차를 세우지도 않고 그냥 가버렸어.\",\"description\":\"'그냥 가버렸어'라는 원문에 없는 행위('가버렸다')가 덧붙음. 다만 앞 맥락(뺑소니)상 함축된 내용이어서 의미 변화는 미미함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그가 차를 세우지도 않았다'는 핵심 내용이 유지됩니다. '그냥 가버렸어'는 맥락상 함축된 내용을 풀어 쓴 것으로 사태가 달라지지 않습니다. 주어 생략도 문맥상 복원됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"even의 초점('세우지도 않고')이 '-지도'로 유지되며 소유 관계(his car)도 '차'로 가리키는 대상이 같습니다(질문 1·3 모두 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대 운전자의 행위를 비난·한탄하는 서술 → 같은 비난·한탄 서술. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 사실 진술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 화자이며 혼잣말처럼 닉에게 하는 말인데, 말투 표상 톰은 닉에게 반말이므로 '-어'체가 방침에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 1545,
+    "output_tokens": 744,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

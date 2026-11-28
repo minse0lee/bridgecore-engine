@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8TMMKFUu5k1ZGED4h2",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0035\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"so much to read\",\"tgt_span\":\"읽어야 할 책이 너무 많았고\",\"description\":\"'읽을 것(독서 대상)'이 '읽어야 할 책'으로 좁혀지고 '의무' 뉘앙스가 더해졌으나, 맥락상 읽을 책이 많다는 뜻이 유지되어 의미 변화는 경미함\"},{\"id\":\"E002\",\"src_span\":\"to be pulled down out of the young breath-giving air\",\"tgt_span\":\"젊은 공기를 들이마시며 누릴 수 있는 건강한 활력 또한 가득했다\",\"description\":\"공기에서 건강을 끌어내려야/끌어낼 수 있다는 내용이 '건강한 활력이 가득했다'로 바뀌어, 얻을 수 있는 건강이 많다는 가능성이 이미 가득하다는 상태 서술로 약간 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: '공기에서 얻어낼 수 있는 좋은 건강이 많다'는 뜻이 '활력이 가득했다'는 상태로 바뀌어 약간 달라졌으나 핵심 요지(읽을 것도 건강도 많다)는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"for one thing을 '우선'으로, and so much를 '또한'으로 옮겨 나열 연결이 유지됩니다(질문 2 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"이유 설명 서술 → 이유 설명 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문이며 의무·허가·금지 등 규범 의미가 없습니다. '읽어야 할'은 대상 수식일 뿐입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회상 서술의 평서체('-었다')가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 2316,
+    "output_tokens": 877,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

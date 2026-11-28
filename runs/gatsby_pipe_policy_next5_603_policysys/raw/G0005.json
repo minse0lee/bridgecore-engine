@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8SeZ9T4BY5QUbzKuU2",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0005\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I was privy to the secret griefs of wild, unknown men\",\"tgt_span\":\"은밀한 슬픔을 공유했다는 이유로\",\"description\":\"'비밀을 알고 있었다(privy to)'가 '슬픔을 공유했다'로 바뀌어 단순히 알게 된 것이 정서적 공감·공유로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위): 'privy to'(은밀한 슬픔을 알고 있음)가 '공유했다'로 바뀌었으나, 은밀한 슬픔을 접했다는 핵심 사실과 정치꾼 오해의 이유 구조는 유지되어 요지는 크게 달라지지 않아 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'this quality'는 '이런 기질'로 앞의 지시 대상을 유지하고, 'and so it came about'은 '그래서'로 인과 연결이 유지되며 because 절도 '이유로'로 남아 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 경험 설명 → 서술자의 경험 설명. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술자의 회고 서술체('-다')가 유지되며 대화 관계에 따른 말투 방침에 해당하지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다. 'politician'은 일반 어휘로 별도 제도 판정 대상이 아닙니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 2707,
+    "output_tokens": 763,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

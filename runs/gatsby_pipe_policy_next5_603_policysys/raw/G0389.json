@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8aoCmxWbefK3dMxrFR",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0389\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"this is much too polite for me\",\"tgt_span\":\"여긴 나한테 너무 정중하네요\",\"description\":\"조던이 혼잣말처럼 불평하는 말이 '-네요' 어미를 써서 감탄·평가를 전하는 말투로 바뀌었고, 조던이 닉에게 쓰는 -요 말투는 유지됨(오류 아님). 다만 '정중하네요'는 polite의 의미를 유지하므로 의미 차이는 없음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'half-hour'가 '30분'으로 옮겨진 것은 수치 오류가 아니라 통상적 대응이며, 나가자는 제안, 시간 낭비 같고 어울리지 않는 30분, 너무 정중하다는 불평 등 내용이 모두 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'after … half-hour'의 시간 관계와 인용문과 서술의 연결이 유지되고, '나한테 너무 정중하네요'도 초점이 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"함께 자리를 뜨자는 제안과 파티 분위기에 대한 불평 → 같은 제안과 불평.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"자리를 뜨자는 대화 속 제안이며 의무·금지·허가를 정하는 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조던이 닉에게 -요체로 말한다는 말투 표(방침 13번)와 일치합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 2071,
+    "output_tokens": 762,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

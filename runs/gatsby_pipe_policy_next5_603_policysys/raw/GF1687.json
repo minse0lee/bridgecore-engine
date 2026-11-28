@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8qUXYFPA9SN9AL6ENa",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1687\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"he whimpered\",\"tgt_span\":\"그가 훌쩍이며 중얼거렸다\",\"description\":\"whimpered(낑낑대듯 흐느끼며 말함)가 '훌쩍이며 중얼거렸다'로 옮겨졌으나 울먹이는 발화라는 핵심은 유지되어 의미를 바꾸지 않는 통상적 대응이므로 실제 오류는 아님\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 비열한 겁쟁이라고 욕하며 울먹이는 내용이 유지되고 whimpered도 '훌쩍이며 중얼거렸다'로 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'he'가 '그'로 같은 인물을 가리키며 지시·연결·초점 표현의 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"분노와 비난의 감탄 발화 → 분노와 비난의 감탄 발화로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없는 감정적 욕설입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 혼잣말처럼 내뱉는 거친 욕설의 태도가 '빌어먹을 겁쟁이 같으니'로 유지되며 방침의 말투 위반도 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 1564,
+    "output_tokens": 697,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

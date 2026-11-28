@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8dGgp24SA94VEhxgZs",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0501\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"she had decided, ineptly, that everything was very, very sad\",\"tgt_span\":\"모든 것이 너무나도 슬프다는 생각에 서툴게 빠져들었는지\",\"description\":\"'decided(결정/단정했다)'가 '생각에 빠져들었는지'로 바뀌고, 서술이 추측형 '-는지'로 바뀌어 확실성이 약해짐. ineptly(서툴게)가 '빠져들다'를 수식하도록 옮겨져 '어설프게 단정함'이라는 뜻과 달라짐. 'very, very'는 '너무나도'로 유지.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성·행위): 화자가 서술하는 사실인 'decided'가 '빠져들었는지'라는 추측형으로 바뀌어 확실성이 달라졌고, 결정 행위도 생각에 빠지는 것으로 달라졌습니다. 핵심 사실(술에 취해 슬픔에 잠겨 노래하며 울었다)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'not only … too'가 '노래뿐만 아니라 울음까지'로 초점·범위가 유지되고 지시·연결 관계도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 상황 서술 → 인물 상황 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 인물 묘사 문장으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 '-었다' 문체가 유지되며 인물 간 말투 방침이 적용될 대화문이 아닙니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"샴페인 외에 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 2488,
+    "output_tokens": 829,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

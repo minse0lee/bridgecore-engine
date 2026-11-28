@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8YDCZisywYmmyZVBNL",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0269\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I think I’ll arrange a marriage\",\"tgt_span\":\"제가 결혼 상대를 좀 알아봐 드릴까 해요\",\"description\":\"'결혼을 주선하겠다'는 말이 '결혼 상대를 알아봐 드리겠다'로 바뀌어, 닉과 조던 두 사람을 맺어 주려는 의도가 닉 한 사람에게 상대를 찾아 주는 일로 읽힐 수 있음\"},{\"id\":\"E002\",\"src_span\":\"fling you together\",\"tgt_span\":\"두 분을 어떻게—아—엮어 드릴게요\",\"description\":\"'두 분'이 추가되어 닉과 조던이 함께 지칭되었고, '엮어 드릴게요'로 옮겨 던져 맺어 준다는 뜻이 완화됨. 대체로 문맥상 허용되는 범위\"},{\"id\":\"E003\",\"src_span\":\"lock you up accidentally in linen closets\",\"tgt_span\":\"실수인 척 리넨 보관함에 가둬 버린다거나\",\"description\":\"accidentally를 '실수인 척'으로 옮겨 우연을 가장한다는 의도를 명시함. linen closets를 '보관함'으로 옮겨 방 크기의 벽장이라는 성격이 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: '결혼을 주선하다'가 '결혼 상대를 알아봐 드리다'로 바뀌어 두 사람을 엮는 행위의 대상이 흐려졌으나, 뒤따르는 문장에서 두 분을 엮는다는 점이 드러나 요지는 크게 다르지 않아 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계가 바뀌지 않았습니다(질문 1~3 모두 아니오). '두 분'이 지시하는 대상은 닉과 조던으로 문맥상 이어집니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장난스러운 계획 제안·권유 → 장난스러운 계획 제안·권유. 자주 오라고 권하며 짝지을 계획을 말하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 아니라 개인적 계획과 권유를 말하는 대화입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"방침상 데이지는 닉에게 -요체를 쓰므로 '-해요', '-세요'가 맞고, 닉을 이름만으로 불러 호칭 방침도 지켰습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에 별도로 판정할 문화 고유의 제도·관습·단위는 없습니다. linen closet은 일상 가구·공간이라 제도적 의미가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 1587,
+    "output_tokens": 1157,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

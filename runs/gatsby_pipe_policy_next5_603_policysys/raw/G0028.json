@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8T2jtYPGQissMsUgta",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0028\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"It was lonely for a day or so until one morning\",\"tgt_span\":\"하루 이틀 정도는 외로웠는데, 어느 날 아침\",\"description\":\"'until'(외로움이 아침의 사건으로 끝남)이 '-는데'라는 단순 연결로 바뀌어 외로움이 그 만남으로 끝났다는 시간 한계 관계가 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"하루 이틀 외로움, 어느 날 아침, 나보다 늦게 온 남자, 길에서 불러 세움 등 인물·행위·시간이 모두 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-는데, 어느 날 아침'이 외로운 시기 뒤에 일어난 일이라는 시간 순서를 유지하고, 뒤 문장의 '더 이상 외롭지 않았다'와 이어져 until의 종결 관계도 문맥에서 복원됩니다. 질문 2에 해당하지 않습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 상황을 설명하는 서사 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"닉의 서술체 '-었다'가 출판물 본문 서술 문체로 적절하게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 1812,
+    "output_tokens": 694,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

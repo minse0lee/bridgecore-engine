@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8YAtB1qEkiconHEScc",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0267\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Mr. Carraway\",\"tgt_span\":\"닉 캐러웨이 씨\",\"description\":\"원문의 성(Carraway)만 있는 호칭에 이름 '닉'이 첨가됨. 방침 10번 위반(호칭)\"},{\"id\":\"E002\",\"src_span\":\"Good night\",\"tgt_span\":\"안녕히 주무세요\",\"description\":\"조던이 닉에게 -요 체를 쓰는 것은 맞으나, 방침상 조던의 말투는 닉에게 -요이므로 문제 없음. 같은 문장 내 데이지 말투와 혼동 없음(참고용 비오류)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물): 원문 'Mr. Carraway'에 없는 이름 '닉'이 덧붙어 호칭 대상 표현이 달라졌으나 같은 인물을 가리키고 요지는 같아 minor입니다.\"},\"Textual\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 지시·연결·초점 표현이 두드러지지 않습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"작별 인사 및 응답 → 작별 인사 및 응답. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 대화 속 응답과 인사입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"방침 10번: 원문에 없는 이름 '닉'을 덧붙여 'Mr. Carraway'의 격식 있는 성+Mr. 호칭을 '닉 캐러웨이 씨'로 바꿨습니다. 뜻은 달라지지 않아 minor입니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Mr.를 '씨'로 옮긴 것은 통용되는 대응이며 문화적 의미가 유지됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 1385,
+    "output_tokens": 818,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

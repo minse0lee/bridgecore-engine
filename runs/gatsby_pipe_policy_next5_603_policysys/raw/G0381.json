@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8aVb7bLZkY4gbngwiA",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0381\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"You look at him sometimes\",\"tgt_span\":\"그 사람 표정을 한번 보세요\",\"description\":\"'가끔 그를 바라본다'는 서술이 '표정을 한번 보라'는 명령으로 바뀌고, 대상(him)이 '표정'으로 좁혀지며 sometimes가 '한번'으로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"I'll bet he killed a man\",\"tgt_span\":\"분명 사람을 죽였을 거예요\",\"description\":\"내기를 거는 어조의 추측('I'll bet')이 '분명 ~ 거예요'로 확신 쪽으로 강해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'sometimes 그를 본다'가 '표정을 한번 보라'로 바뀌어 대상과 빈도가 달라지고, 'I'll bet'의 추측이 '분명'으로 확실성이 높아졌으나 핵심 사실(아무도 안 볼 때 보면 살인했을 것 같다)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'when he thinks nobody's looking'의 시간 조건 연결이 '생각할 때'로 유지되고 지시·초점 관계 변화는 없습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 원문 기능은 일반적 관찰을 근거로 제시하는 설명(주장의 근거 서술) → 번역 기능은 상대에게 직접 보라고 시키는 지시로, 발화 기능의 종류가 바뀌었습니다. 다만 상대를 설득하려는 전체 의도는 유지되어 minor입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 아니라 대화 속 추측과 관찰 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"첫 번째 여자가 닉 일행에게 말하는 -요체 존댓말로, 말투 표에 없는 관계이며 부적절하지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 1543,
+    "output_tokens": 954,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

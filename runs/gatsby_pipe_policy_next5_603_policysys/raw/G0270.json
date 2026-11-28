@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8YEtmrr35P5mG1C7Kq",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0270\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Miss Baker\",\"tgt_span\":\"조던 베이커 양\",\"description\":\"원문에는 Miss Baker라고만 되어 있는데 번역은 이름 '조던'을 덧붙임. 또 번역 방침 10번은 원문에 Miss·Mr.·Mrs.가 없을 때 '양'을 붙이지 말라고 하지만, 여기서는 원문에 Miss가 있으므로 '양'은 방침 위반이 아님.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 원문에 없는 이름 '조던'이 덧붙었으나 Miss Baker가 가리키는 인물은 동일하고 외치는 행위·장소도 유지되어 요지는 바뀌지 않으므로 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계는 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"계단에서 밤 인사를 외침 → 밤 인사를 외침. 기능이 동일합니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 인사말입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조던이 데이지에게 하는 반말 방침에 맞는 '잘 자요'가 쓰였는지는 청자가 데이지·닉·톰 일행이라 불분명하나, 이 장면에서 조던은 모두에게 외치며 닉·톰에게는 -요를 쓰므로 방침과 어긋나지 않습니다. '양'은 원문 Miss에 대응합니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Miss는 '양'으로 옮겨 호칭 의미가 전달되었고, 별도의 제도·단위 문제는 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 1383,
+    "output_tokens": 799,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

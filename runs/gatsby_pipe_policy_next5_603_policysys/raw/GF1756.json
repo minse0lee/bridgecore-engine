@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8tKi3w2HvhVvkTqqQX",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1756\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"talking intently\",\"tgt_span\":\"열정적으로 말을 건네고 있었는데\",\"description\":\"intently(골똘히·진지하게)가 '열정적으로'로 바뀌어 정도·성격이 약간 달라졌으나 평가어 수준의 차이임\"},{\"id\":\"E002\",\"src_span\":\"his hand had fallen upon and covered her own\",\"tgt_span\":\"그의 손이 데이지의 손 위를 덮고 있었다\",\"description\":\"fallen upon(우연히 내려앉음)과 covered가 '덮고 있었다'로 합쳐져 동작의 뉘앙스가 약해짐. 사태는 동일함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 식탁 너머로 데이지에게 말하고 있고 간절함에 그의 손이 그녀의 손을 덮은 사태가 유지됩니다. intently→'열정적으로'는 평가어 정도의 차이일 뿐입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"He→톰, her→데이지로 지시 대상이 정확하며 in his earnestness의 원인 관계가 '그 간절함에'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문이며 화자·청자 간 높임·호칭이 문제 되는 대화문이 아닙니다. 방침의 호칭 규정도 위반하지 않았습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 1652,
+    "output_tokens": 781,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

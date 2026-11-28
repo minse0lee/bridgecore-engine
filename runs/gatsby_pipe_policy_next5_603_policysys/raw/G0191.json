@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8X2EVfGybkuhvQYmos",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0191\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Doesn’t he?”\",\"tgt_span\":\"그렇지 않나요?”\",\"description\":\"조던에게 묻는 문장인데 번역문에서는 ‘그렇지 않나요?’로 되어 있어 대상이 불분명하고, 바로 앞 ‘당신을 보면’(닉에게 하는 말)에 이어져 닉에게 묻는 말처럼 읽힘. 원문의 3인칭 he(닉)와 청자(조던)가 구분되지 않음.\"},{\"id\":\"E002\",\"src_span\":\"Doesn’t he?\",\"tgt_span\":\"그렇지 않나요?\",\"description\":\"데이지는 조던에게 반말을 써야 하는데(방침 13번) 조던을 청자로 하는 이 질문이 존댓말(-요)로 옮겨짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"닉을 보니 좋다는 말, 장미를 닮았다는 말, 동의를 구하는 질문의 내용이 모두 유지됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'Doesn't he?'의 he(닉)와 청자(조던)가 번역에서 드러나지 않아 질문이 닉에게 향하는 것처럼 읽혀 지시 관계가 흐려졌으나, 뒤따르는 서술에서 조던에게 묻는 것으로 복원되므로 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"애정 표현과 동의를 구하는 말 → 애정 표현과 동의를 구하는 질문. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등의 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"방침 13번: 데이지는 닉에게 -요, 조던에게 반말인데 조던에게 묻는 'Doesn't he?'가 '그렇지 않나요?'로 존댓말입니다. 뜻은 달라지지 않아 minor입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없고 인명만 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 1803,
+    "output_tokens": 917,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

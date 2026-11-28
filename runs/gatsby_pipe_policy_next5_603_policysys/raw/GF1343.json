@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8jL1uZUpirFxaSG2Mb",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1343\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I could make some money on the other\",\"tgt_span\":\"다른 차를 팔면 돈을 좀 만질 수 있을 것 같아서요\",\"description\":\"'could'의 가능성을 '-을 것 같아서요'로 옮기며 이유 표현이 붙어 문장이 완결되지 않는 형태가 됨. 다만 '다른 차를 팔면'은 문맥상 타당한 보충으로 내용 변화는 아님.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사지 않겠다는 부정과 다른 차로 돈을 벌 수 있다는 내용이 유지됩니다. '-것 같아서요'의 추측 어감은 could의 가능성과 대체로 맞아 확실성 변화가 크지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"No와 but의 대조 연결이 '아니요, 하지만'으로 유지되고 the other가 다른 차를 가리키는 지시 관계도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"구매 제안에 대한 거절과 이유 설명 → 거절과 이유 설명. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"윌슨이 톰에게 존댓말(-요)을 쓰는 말투 표에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 1124,
+    "output_tokens": 699,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

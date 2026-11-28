@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8mjgkYqtqSS3mF3E7M",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1459\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"They were out in the open at last\",\"tgt_span\":\"마침내 모든 것이 수면 위로 드러났고\",\"description\":\"'They'(Gatsby와 Tom 사이의 갈등·감정 등 당사자들)가 '모든 것'으로 바뀌어 주어 지시 대상이 일반화됨. 다만 '드러났다'는 문맥상 같은 사태를 기술하므로 의미 변화는 경미함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'They were out in the open'은 문맥상 숨겨졌던 사안들이 마침내 공개되었다는 뜻이며 '모든 것이 수면 위로 드러났다'가 같은 사태를 기술하고, at last와 Gatsby의 만족도 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"They를 '모든 것'으로 옮겨 지시 대상이 다소 넓어졌으나 문맥상 같은 사안을 가리키며, 'and' 연결과 시간 부사 '마침내'가 유지되어 질문 1·2·3 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문(상황 설명) → 서술문. 갈등이 공개되어 개츠비가 만족했다는 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문의 '-었다'체(평서 서술)가 유지되며 인물 간 말투가 나타나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 1502,
+    "output_tokens": 756,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

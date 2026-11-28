@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8U6kGFEHMxYVZ1aTrb",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0062\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"burning gardens\",\"tgt_span\":\"활짝 핀 정원들\",\"description\":\"'불타는 듯한(색이 선명한) 정원'이 '활짝 핀 정원'으로 바뀌어 비유적 이미지가 사라지고 단순 묘사가 됨(방향 정도 차이)\"},{\"id\":\"E002\",\"src_span\":\"drifting up the side in bright vines as though from the momentum of its run\",\"tgt_span\":\"그 기세 그대로 벽을 타고 화사한 덩굴 식물처럼 올라가 있었다\",\"description\":\"잔디가 밝은 덩굴이 되어 벽을 타고 올라간다는 은유가 '덩굴 식물처럼'이라는 직유로 바뀜. 의미는 대체로 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"잔디밭의 출발점, 4분의 1마일, 해시계·벽돌길·정원 가로지름, 집에 닿아 덩굴로 벽을 오르는 내용이 유지됩니다. burning을 '활짝 핀'으로 옮긴 것은 정원의 선명함을 나타내는 표현 차이로 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'finally when it reached the house'의 시간 연결이 '마침내 집에 다다랐을 때는'으로, 'as though from momentum'의 인과적 비유가 '그 기세 그대로'로 유지되며 지시 대상(잔디밭)도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"저택 풍경 묘사 → 저택 풍경 묘사. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 풍경 묘사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 문체 '-었다'가 문학 서술에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"quarter of a mile을 '4분의 1마일'로 단위와 수치를 그대로 유지했고 다른 단위로 바꾸지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 2696,
+    "output_tokens": 906,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

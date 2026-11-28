@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8m4fjDPt7XKMYgq5Mk",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1443\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the silence was unbroken by his “thank you” and the soft closing of the door\",\"tgt_span\":\"그가 건넨 \\\"감사합니다\\\"라는 인사와 부드럽게 닫히는 문소리조차 그 정적을 깨지는 못했다\",\"description\":\"원문에 없는 '조차'를 덧붙여 초점 표현이 추가됨. 다만 침묵이 깨지지 않았다는 사실과 의미는 유지되어 경미함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"웨이터의 노크·입장, 으깬 민트와 얼음, 감사 인사와 문 닫는 소리에도 침묵이 깨지지 않았다는 내용이 모두 유지됩니다. '조차'는 의미 변화 없이 강조만 더한 것입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(초점·범위): 원문에 없는 '조차'가 붙어 '이런 소리들마저도 깨지 못했다'는 초점 표현이 추가되었습니다. 'but'의 대조 관계는 '-지만'으로 유지되어 요지와 행동 이해에는 영향이 없어 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사 묘사 → 서사 묘사. 긴장된 침묵을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 간 관계나 격식이 드러나는 발화가 아닌 서술문입니다. 웨이터의 '감사합니다'는 인용된 인사일 뿐 관계 판정 대상이 아닙니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 1326,
+    "output_tokens": 825,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

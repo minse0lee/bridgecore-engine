@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8pRf84eDHqCSRbkNgW",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1659\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Look out now.\",\"tgt_span\":\"자, 조심하고.\",\"description\":\"경찰이 군중이나 증인에게 하는 말을 '조심하고'로 옮겼고, 이어지는 '저 사람 이름 알아내야겠어'는 반말이라 같은 화자 말투가 장면 안에서 바뀜. 다만 말투표에 경찰이 없어 원칙 4를 따름.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"이름을 대라는 요구, 조심하라는 말, 그 사람 이름을 알아내겠다는 의지가 모두 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'his'는 '저 사람'으로 옮겨 지시 대상이 유지되고, 'now'와 문장 간 연결도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"경찰의 지시와 의도 표명 → 지시와 의도 표명. 발화 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 현장 지시이며 의무·금지·자격을 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"말투표에 경찰의 말투 규정이 없어 원칙 4를 따르며, 같은 화자 말 안에서 '대세요'와 '알아내야겠어'가 섞였지만 혼잣말에 가까운 의도 표명이라 관계에 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화나 제도에 고유한 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 1356,
+    "output_tokens": 733,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

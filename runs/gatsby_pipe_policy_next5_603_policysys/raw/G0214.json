@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8XYcMczBHTdcDq2iTK",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0214\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"She might have the decency not to telephone him at dinner time.\",\"tgt_span\":\"저 여자도 예의가 있다면 저녁 식사 시간에는 전화를 안 했겠죠.\",\"description\":\"'예의를 갖추어 전화하지 말았어야 한다'는 불만·비난이 '예의가 있다면 전화를 안 했을 것'이라는 조건·추측 서술로 바뀜. 현재 상황에서 전화한 사실은 암시만 됨. 또한 '도'가 첨가되어 초점이 생김.\"},{\"id\":\"E002\",\"src_span\":\"Don’t you think?\",\"tgt_span\":\"안 그래요?\",\"description\":\"동의를 구하는 부가의문이 유지되어 의미 차이는 없음(참고용).\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(조건·확실성): 'might have the decency'가 '예의가 있다면 …안 했겠죠'로 바뀌어 조건과 추측이 생겼으나, 핵심 사실(예의 없이 저녁 시간에 전화함)은 읽혀 요지가 크게 달라지지는 않습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(초점)과 2(연결): 원문에 없는 '도'가 붙어 초점이 생기고, 원문에 없던 조건 연결('-다면')이 만들어졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"전화한 여자에 대한 불만을 표하며 동의를 구함 → 불만을 표하며 동의를 구함. 기능은 같은 종류입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 불만 표현이며 의무·금지를 거는 규범 문장이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조던이 닉에게 말하므로 -요체가 맞고(방침 13번), 여자를 가리키는 태도도 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 1581,
+    "output_tokens": 884,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

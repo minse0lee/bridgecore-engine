@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8VkyvjVMiRfrYsKP48",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0129\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"as if it were a drop in the bottom of a glass\",\"tgt_span\":\"잔 바닥에 남은 마지막 한 방울까지 털어 넣듯\",\"description\":\"원문은 술을 마치 잔 바닥의 한 방울인 듯 아주 적은 양처럼 단숨에 들이켠다는 비유인데, 번역은 잔 바닥에 남은 마지막 한 방울까지 남김없이 털어 넣는다는 뜻으로 바뀌어 '마지막'과 '까지'가 더해지고 비교 대상(술의 양이 한 방울 같다)이 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 원문은 술이 한 방울인 듯 가볍게 단숨에 마신다는 비유인데, 번역은 마지막 한 방울까지 남김없이 마신다는 뜻으로 읽혀 비유 내용이 달라졌습니다. 다만 단숨에 술을 들이켠다는 핵심 사실은 유지되어 요지 이해가 크게 달라지지 않으므로 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현의 관계는 바뀌지 않았습니다. as if 비유 구조는 '-듯'으로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(행동 묘사) → 서술(행동 묘사). 기능이 같은 종류입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 문어체 어조가 유지되며 인물 간 말투가 관여하지 않는 지문입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 1467,
+    "output_tokens": 817,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

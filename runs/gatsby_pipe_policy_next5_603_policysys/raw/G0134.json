@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8VyUmK4nm7UCd1keSQ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0134\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"polite reciprocal curiosity\",\"tgt_span\":\"정중하고도 호기심 어린 시선으로\",\"description\":\"reciprocal(서로 주고받는, 나도 그를 호기심으로 보듯 그녀도 나를 본다는 뜻)이 번역에서 빠졌으나, '마주 보았다'로 상호성이 어느 정도 남아 있어 의미 변화는 경미함\"},{\"id\":\"E002\",\"src_span\":\"sun-strained\",\"tgt_span\":\"햇볕에 그을린\",\"description\":\"sun-strained(햇빛에 눈을 찡그려 지친)가 '햇볕에 그을린'으로 바뀌어 눈이 피로하고 찡그려진 상태가 피부·눈동자가 탄 것으로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: sun-strained(햇빛에 지친·찡그린 눈)가 '햇볕에 그을린'으로 바뀌어 눈의 상태 묘사가 달라졌으나, 눈 묘사라는 핵심 사실과 요지는 유지되어 minor입니다. reciprocal은 '마주 보았다'로 상호성이 남아 있어 오류로 보지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"her가 베이커 양을 가리키는 관계와 '얼굴 위로/눈동자가 … 마주 보았다'의 구조 연결이 유지되며 지시·연결·초점 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 외양 묘사(서술) → 인물 외양 묘사(서술)로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가를 나타내는 표현이 없는 묘사 문장입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 간 대화나 호칭이 없는 서술 문장으로 높임·호칭 관계를 판정할 대상이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없는 외양 묘사입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 1409,
+    "output_tokens": 904,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

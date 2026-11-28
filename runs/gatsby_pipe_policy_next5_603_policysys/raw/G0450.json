@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8c2q6skXunuFKWLyNG",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0450\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"or seemed to face—the whole eternal world\",\"tgt_span\":\"영원한 세상 전체를, 혹은 그렇게 보이는 무언가를 마주했다가\",\"description\":\"'or seemed to face'(마주하는 듯했다)가 삽입 구조에서 'the whole eternal world'를 가리키는 것이 아니라 '그렇게 보이는 무언가'라는 새 대상으로 바뀌어, 세상 전체를 마주하는 것이 아니라 세상 전체 또는 무언가를 마주한 것처럼 읽힘. 대상의 불확실성이 대상 자체의 불확정으로 이동함\"},{\"id\":\"E002\",\"src_span\":\"concentrated on you\",\"tgt_span\":\"당신에게만 집중했다\",\"description\":\"'only'가 원문에 없는데 '당신에게만'으로 초점 표지가 첨가됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 원문은 영원한 세상 전체를 마주하는 것(또는 그렇게 보이는 것)인데, 번역은 '세상 전체' 또는 '그렇게 보이는 무언가'로 대상이 달라지고 '당신에게만'이 첨가되어 내용이 달라졌습니다. 다만 미소가 세상을 마주했다가 당신에게 집중한다는 핵심 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 3: 원문에 없는 '만'이 붙어 초점·범위 표현이 새로 생겼고, 세상 전체에서 당신 한 사람으로 옮겨가는 대조가 '당신에게만'으로 배타적 초점이 되었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"미소의 효과를 묘사하는 서술 → 서술. 발화 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가를 나타내는 표현이 없는 묘사 문장입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문이며 화자와 청자 사이의 호칭·높임이 문제되는 대화가 아닙니다. 'you'를 '당신'으로 옮긴 것은 일반 독자를 가리키는 서술 방식으로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 1891,
+    "output_tokens": 1024,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

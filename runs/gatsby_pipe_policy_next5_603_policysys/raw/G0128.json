@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8VjE1kqKDef7NZy2s5",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0128\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“You are!”\",\"tgt_span\":\"“정말요!”\",\"description\":\"톰이 조던의 말(I'm absolutely in training)을 믿지 못해 되받는 감탄 \\\"You are!\\\"를 \\\"정말요!\\\"로 옮김. 방침 13번상 톰은 조던에게 퉁명스러운 존댓말을 쓰는 인물이 아니므로 '-요' 말투가 방침과 다름.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조던의 훈련 중이라는 말을 놀라며 되받는 내용이 \\\"정말요!\\\"로 유지되어 달라진 항목이 없습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞 문장의 \\\"I'm in training\\\"을 받는 응답 관계가 유지되고 지시·연결·초점 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"의심스러워하며 되받는 놀란 반응 → 놀라며 되받는 반응. 기능이 같은 종류입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화 반응입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"방침 13번 위반: 판단 질문 1(관계에 맞는 높임). 톰의 말투 표에 조던에 대한 규정이 없어 원칙 4를 따라야 하는데, 장면상 허물없는 사이의 반응을 \\\"정말요!\\\"로 옮긴 높임이 맞지 않습니다. 뜻은 달라지지 않아 minor입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 없는 감탄 표현입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 1413,
+    "output_tokens": 763,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

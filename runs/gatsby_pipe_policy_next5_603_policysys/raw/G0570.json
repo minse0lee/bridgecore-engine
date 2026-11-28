@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8euux6jFCrpEyVX8E6",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0570\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“Wha’s matter?”\",\"tgt_span\":\"“무슨 일이죠?”\",\"description\":\"술 취한 듯 뭉개진 발음(Wha’s)의 구어체 표기가 사라지고 또박또박한 존댓말 문장으로 바뀜. 방침의 말투 표에는 이 인물(차에서 내린 취객)의 말투가 지정되어 있지 않아 원칙 4에 따라 처리됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"무슨 일이냐고 차분하게 물었다는 내용(질문 내용, 화자, 태도 부사)이 모두 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 관계, 연결, 초점 표현이 달라진 곳이 없고 'he'는 '그'로 같은 대상을 가리킵니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상황을 묻는 질문 → 상황을 묻는 질문. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 문장입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"방침의 말투 표에 이 인물(군중에게 말하는 취한 낯선 사람)에 대한 지정이 없고 청자가 구경꾼 일반이라, 존댓말 '-죠'가 맞는지 판단하려면 번역자 기본 지침의 원칙 4 내용이 필요합니다. 발음 뭉개짐의 구어체 표시가 사라진 점은 어색함 수준으로 보고 훼손으로 두지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 1474,
+    "output_tokens": 790,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

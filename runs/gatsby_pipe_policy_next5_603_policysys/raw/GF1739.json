@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8sdoSYBTBNEj6uWkkn",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1739\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"she’s going to turn the light out and on again\",\"tgt_span\":\"전등을 껐다 켰다 하며 신호를 보내기로 했거든요\",\"description\":\"불을 껐다 켜겠다는 행동에 '신호를 보내기로 했다'는 원문에 없는 약속·신호 의미가 첨가되고, 미래 행동이 사전 합의로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"She’s locked herself into her room\",\"tgt_span\":\"그녀는 방에 들어가 문을 잠갔습니다\",\"description\":\"'스스로 방에 가두었다'를 '들어가 문을 잠갔다'로 옮겨 방 안에 잠가 두었다는 뉘앙스는 유지되나 거의 동일; 의미 변화 없음으로 오류 아님이지만 참고용\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 원문에 없는 '신호를 보내기로 했다'(사전 합의·신호 기능)가 첨가되어 데이지가 스스로 하겠다는 행동의 성격이 달라졌으나 핵심 사실(불을 껐다 켬)은 남아 요지는 크게 바뀌지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 대상(그/그녀)과 조건('만약…하면')의 연결 관계가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상황 설명(개츠비의 대기 이유) → 상황 설명. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개츠비가 닉에게 격식 있는 존댓말(-요, -습니다)로 말하는 방침 13번에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 1408,
+    "output_tokens": 849,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

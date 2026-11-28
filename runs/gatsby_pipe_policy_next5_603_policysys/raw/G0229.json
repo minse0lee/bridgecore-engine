@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8Xn6xWb3tyCNRnuJ1G",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0229\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"You didn’t come to my wedding.\",\"tgt_span\":\"제 결혼식에도 안 오셨잖아요.\",\"description\":\"원문에 없는 '도'(첨가)가 붙어 결혼식 불참이 다른 불참에 더해진 것처럼 읽힘. 다만 앞 문장의 '서로 잘 모른다'는 이유의 하나로 읽힐 수 있어 의미 변화는 경미함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사촌 관계(방침상 '친척')에도 서로 잘 모른다는 양보와 결혼식에 오지 않았다는 사실이 그대로 유지됩니다. '도'는 의미를 바꾸지 않는 통상적 표현으로 봅니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(초점·범위): 원문에 없는 '도'가 붙어 결혼식 불참이 다른 불참과 함께 나열된 것처럼 읽혀 초점 표현이 추가되었습니다. 핵심 사실은 유지되어 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서로 잘 모르는 이유를 설명하며 불참을 상기시키는 진술 → 같은 기능의 진술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"데이지가 닉에게 -요체를 쓰는 말투 방침에 맞게 '-요', '-셨잖아요'로 옮겼습니다. 닉에 대한 존대가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·단위·관습이 없습니다. 결혼식은 일반 어휘입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 1459,
+    "output_tokens": 812,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

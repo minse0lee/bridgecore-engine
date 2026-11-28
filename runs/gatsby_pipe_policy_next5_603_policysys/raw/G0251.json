@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8Xvn6zLXQzXwq1QpPj",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0251\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a secret society to which she and Tom belonged\",\"tgt_span\":\"자신과 톰만이 속한 꽤나 고결한 비밀 결사\",\"description\":\"원문에 없는 '만'이 추가되어 비밀 결사의 구성원이 그녀와 톰으로 한정되었고, 초점이 달라짐\"},{\"id\":\"E002\",\"src_span\":\"a rather distinguished secret society\",\"tgt_span\":\"꽤나 고결한 비밀 결사\",\"description\":\"distinguished(저명한·뛰어난)를 '고결한'(도덕적으로 고상한)으로 옮겨 평가어의 성격이 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: '자신과 톰만이 속한'으로 원문에 없는 배타적 한정이 더해졌으나, 핵심 사실(그녀와 톰이 속한 비밀 결사의 회원임을 과시)은 유지되어 minor입니다. distinguished→'고결한'은 평가어의 정도·결 차이로 보아 오류로 판정하지 않습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(초점·범위): 원문에 없는 '만'이 붙어 '그녀와 톰이 속한'이 '그녀와 톰만 속한'으로 범위가 한정되었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 인상·관찰 서술 → 서술자의 인상·관찰 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"닉의 회고 서술체(-다)가 유지되고, 그녀의 비웃는 태도(smirk)도 '비웃음'으로 전달됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 2258,
+    "output_tokens": 870,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8d7PxUjT3chXnjgTAD",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0495\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I noticed that she wore her evening-dress, all her dresses, like sports clothes\",\"tgt_span\":\"그녀는 이브닝드레스를 입고 있었는데, 모든 옷을 마치 운동복처럼 입는다는 느낌을 받았다\",\"description\":\"'I noticed'의 주어 '나'가 사라지고 '느낌을 받았다'로 바뀌어 관찰자의 인지 주체가 불분명해짐. 또한 '이브닝드레스를 포함한 모든 옷을 운동복처럼 입는다'는 앞뒤 관계가 '이브닝드레스를 입었는데 모든 옷을…'으로 풀려 약간 달라짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"판단 질문 1: 이브닝드레스를 비롯한 모든 옷을 운동복처럼 입고, 골프 코스에서 걸음마를 배운 듯한 경쾌함이 있다는 내용이 유지됩니다. '느낌을 받았다'는 화자의 인지를 나타내므로 관찰 내용이 달라지지 않았고, 주어 생략은 한국어에서 자연스러운 생략입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계가 유지됩니다. 'she'는 조던을 가리키고, 'as if'는 '처럼'으로 비유 관계가 남아 있으며, 문장 분할은 오류가 아닙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(인물 묘사) → 서술(인물 묘사). 화자가 관찰한 인상을 기술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 같은 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 평서체('-았다')가 유지되며 대화 관계나 호칭 문제가 없습니다. 방침 말투 표는 대화에 해당합니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"이브닝드레스, 운동복, 골프 코스는 통용되는 표현으로 옮겨져 한국어 독자가 같은 대상을 이해할 수 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 1586,
+    "output_tokens": 939,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

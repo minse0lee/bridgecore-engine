@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8WcunJjFo9fSTF7o7X",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0176\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Miss Baker\",\"tgt_span\":\"조던 베이커 양\",\"description\":\"원문에는 이름 Jordan 없이 Miss Baker만 있는데 번역문이 '조던'을 덧붙이고 '양'을 썼다. Miss가 원문에 있으므로 '양'은 방침 10번 위반이 아니지만, 'Miss Baker'를 '조던 베이커 양'으로 옮겨 이름이 첨가됨. 방침 9·10에는 Baker 표기 규정이 없어 방침 위반은 아님.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조언 내용(캘리포니아에서 살기), 말을 꺼냄, 톰이 의자에서 몸을 뒤척여 말을 끊음 등 인물·행위·방식이 유지되며 'Jordan'은 문맥상 같은 인물을 가리키는 통상적 보충이라 의미를 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'but'의 대조 관계가 '-지만'으로 유지되고 'her'가 조던을 가리키는 관계도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조던의 권고 발화와 톰이 끼어드는 서술 → 같은 기능의 권고 발화와 서술로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"ought to는 대화 속 개인적 조언·제안으로 규범적 의무·자격을 정하는 문장이 아니므로 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조던은 닉에게 -요를 쓰는 방침에 맞게 '사시는 게 좋겠어요'로 존댓말을 썼으며 'Miss'를 '양'으로 옮긴 것도 원문에 Miss가 있어 방침 10번에 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명·지명(캘리포니아)과 호칭 Miss뿐이며 판정할 문화 고유의 제도·단위는 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 1825,
+    "output_tokens": 887,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

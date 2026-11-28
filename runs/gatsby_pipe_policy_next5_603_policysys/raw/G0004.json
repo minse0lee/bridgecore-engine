@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8SDJ75b9DJPDHhojsh",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0004\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"not a few veteran bores\",\"tgt_span\":\"웬만한 지루한 인간들\",\"description\":\"'not a few'(적지 않은 수)가 '웬만한'(보통 수준의)으로 바뀌어 수량 표현이 정도 표현으로 바뀌고, 'veteran'(노련한, 오랜 경력의)의 의미가 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(수량): 'not a few'(적지 않은 수)가 '웬만한'(보통 수준)으로 바뀌어 수량이 정도로 달라졌고 'veteran'의 뜻도 빠졌습니다. 다만 지루한 사람들에게 시달렸다는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"In consequence가 '그 결과'로, a habit이 '이런 습관'으로 옮겨져 인과·지시 관계가 유지되고, also도 '동시에 … 되기도 했다'로 남아 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 습관과 그 결과를 서술하는 설명 → 설명. 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없는 서술문입니다. 'inclined to'는 성향을 나타냅니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 화자의 회고 서술체('-했다')가 유지되어 관계와 격식에 맞고, 'bores'를 '지루한 인간들'로 옮겨 경멸적 태도도 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 별도로 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 15670
+    },
+    "cache_creation_input_tokens": 15670,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2659,
+    "output_tokens": 794,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8T1CNgLKNYudhPwsJe",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0027\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"muttered Finnish wisdom to herself\",\"tgt_span\":\"핀란드어로 혼잣말을 중얼거리곤 했다\",\"description\":\"'핀란드의 지혜(Finnish wisdom)'를 중얼거린 것이 '핀란드어로 혼잣말'로 바뀌어, 지혜·격언이라는 내용과 유머가 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상·행위): 가정부가 중얼거린 내용이 '핀란드의 지혜'에서 '핀란드어로 된 혼잣말'로 달라졌으나 나머지 사실(개, 닷지, 가정부의 일)은 유지되어 요지는 크게 다르지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계가 유지됩니다. 'at least … for a few days'의 한정도 '며칠 동안만'으로 남아 있고 문장 분할은 오류가 아닙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(화자의 생활 여건 설명) → 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 서술이며 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 독자에게 서술하는 문장으로, 특별히 판정할 호칭이나 인물 간 말투 관계가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Dodge를 '닷지 자동차'로 옮겨 같은 대상을 가리키고, Finnish woman은 방침 9번대로 '핀란드인 가정부'로 옮겼습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 2166,
+    "output_tokens": 762,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

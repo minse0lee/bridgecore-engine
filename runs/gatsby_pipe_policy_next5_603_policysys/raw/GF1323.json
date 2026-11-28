@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8iYA7ewPykuD9Ww68J",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1323\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"threw on both brakes\",\"tgt_span\":\"브레이크를 꽉 밟았고\",\"description\":\"'both brakes'(양쪽 브레이크, 즉 풋브레이크와 비상브레이크)가 단수 '브레이크'로 옮겨져 둘이라는 수량이 사라짐. 다만 '꽉'이 힘주어 급히 밟는 동작을 보완하며 핵심 사태(급제동)는 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(수량): both brakes가 단수 '브레이크'로 바뀌어 수량이 사라졌습니다. 톰이 짜증 속에 급제동해 윌슨의 간판 아래에서 먼지를 일으키며 섰다는 요지와 독자의 행동·조건 이해는 달라지지 않아 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-고'로 제동과 정차의 순차·인과 연결이 유지되고, 'we'와 'Wilson's'의 지시 관계도 그대로이며 초점·범위 표현의 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사 묘사 → 서사 묘사. 장면의 사건을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 사건 서술이며 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문이라 인물 간 말투 문제가 없고, 방침의 고유명사 표기와 호칭 규칙에도 어긋나지 않으며 윌슨에 '씨'를 붙이지 않았습니다. 서술 문체도 평서체로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 윌슨 외에 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 1334,
+    "output_tokens": 828,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8TJwhs3qqA5opV19Qf",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0033\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the freedom of the neighbourhood\",\"tgt_span\":\"이 동네를 제집처럼 드나들 수 있는 자유\",\"description\":\"'동네의 자유(자유 시민권 같은 명예로운 자격)'를 '제집처럼 드나들 수 있는 자유'로 풀어 옮겼으나 의미는 대체로 유지됨. 오류로 보지 않을 수준이라 실질 차이 없음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"그가 무심코 나에게 동네의 자유를 부여했다는 행위자·행위·대상이 유지되고, '제집처럼 드나들 수 있는'은 freedom of the neighbourhood의 풀이로 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그'는 길을 물은 남자를 가리키고 '나'도 유지되며, 앞 문장과의 연결 관계(길을 알려줘 안내자가 된 것)도 '셈이었다'로 남아 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 심경을 설명하는 서술 → 같은 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 청자에게 말하는 대화가 아니라 서술문이며, 번역 방침 말투표가 적용되는 대화 장면이 아닙니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"고유한 제도·단위·관습 표기가 판정 대상으로 나타나지 않으며, freedom of the neighbourhood는 비유적 표현입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 2267,
+    "output_tokens": 764,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

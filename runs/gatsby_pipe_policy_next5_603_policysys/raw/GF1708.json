@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV8rNMjKWfbibXoxXWaF",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1708\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I heard the phone taken up inside\",\"tgt_span\":\"전화기를 드는 소리\",\"description\":\"'전화기가 집 안에서 들렸다(누군가 수화기를 든 것)'가 '전화기를 드는 소리'로 옮겨져 수화기를 든 행위가 소리로 바뀌었으나, 뜻은 크게 달라지지 않음. 의미 변화 없음으로 판단하여 오류로 보지 않음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앉아 있던 시간, 두 손에 머리를 묻은 행동, 집 안에서 전화기를 드는 소리와 택시를 부르는 집사의 목소리를 들은 내용이 모두 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"until이 '그러다'로 나뉘었으나 앉아 있다가 소리를 듣는 시간 순서 관계가 남아 있어 연결 질문 2에 해당하지 않습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상황 서술 → 상황 서술. 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"닉의 서술체가 유지되며 인물 간 말투 방침과 충돌하는 대화나 호칭이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 15670,
+    "inference_geo": "global",
+    "input_tokens": 1466,
+    "output_tokens": 676,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
