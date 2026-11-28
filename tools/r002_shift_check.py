@@ -1,3 +1,4 @@
+"""R002 평가 파일의 행 밀림 점검과 시험 200 지표(Fleiss kappa, 갈린 칸, 평가자 한 명 대 나머지 F1). 2026-11-27·28."""
 import sys,json,collections
 sys.path.insert(0,'tools'); sys.path.insert(0,'.')
 import golden_labels as gl
@@ -26,14 +27,13 @@ def stats(R2,name):
     kb=gl.fleiss([["훼손" if v(R[x][k]) else "아님" for x in R] for k in full],["훼손","아님"])
     split=sum(1 for k in keys if len({v(R[x][k]) for x in R})>1)
     res={}
-    for x in R:
-        others=[y for y in R if y!=x]
-        # 정의 후보: 나머지 둘 각각과의 F1 평균
-        f=[]
-        for y in others:
-            tp=sum(v(R[x][k]) and v(R[y][k]) for k in keys); fp=sum(v(R[x][k]) and not v(R[y][k]) for k in keys); fn=sum((not v(R[x][k])) and v(R[y][k]) for k in keys)
-            f.append(prf(tp,fp,fn))
-        res[x]=round(sum(f)/2,3)
+    for x in R:      # 한 명 대 나머지: 나머지 둘의 훼손 여부가 일치한 칸만 놓고 본 F1 (11/27 보고와 같은 정의)
+        o=[y for y in R if y!=x]; tp=fp=fn=0
+        for k in keys:
+            g1,g2=v(R[o[0]][k]),v(R[o[1]][k])
+            if g1!=g2: continue
+            m=v(R[x][k]); tp+=m and g1; fp+=m and not g1; fn+=(not m) and g1
+        res[x]=round(prf(tp,fp,fn),3)
     print(f'{name}: kappa {kb} · 갈린 칸 {split} · 한 명 대 나머지 F1 {res}')
     return R
 if __name__=='__main__':
