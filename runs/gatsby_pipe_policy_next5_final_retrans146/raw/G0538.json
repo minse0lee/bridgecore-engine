@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUzsurAL2SeiYzipvhrw",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0538\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"sir\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"집사가 주인에게 붙인 호칭 'sir'가 번역되지 않았고, 이로 인해 '당신에게 전화가 왔다'는 수신자 표시도 명시되지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"필라델피아에서 전화가 왔다는 핵심 내용이 유지됩니다. 수신자(you)는 문맥상 개츠비로 복원되고, 호칭 누락은 Register에서 다룹니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'you'가 생략되었으나 앞 문맥상 수신자가 개츠비로 분명하고 지시 대상이 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"전화가 왔음을 알리는 보고 → 전화가 왔음을 알리는 보고. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 전화 알림입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2: 집사가 주인에게 하는 말이므로 'sir'가 나타내는 종속적 존대 호칭이 필요한데 누락되었습니다. 다만 '왔습니다' 합쇼체가 존대를 일부 유지하고, 호칭 하나의 누락이라 minor입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"필라델피아는 지명뿐이며 별도로 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1131,
+    "output_tokens": 730,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

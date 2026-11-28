@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUzsFtQLLgfZzPG4WSgM",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0479\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개츠비의 요청, 토스토프의 최신곡, 지난 5월 카네기 홀에서의 큰 주목, 신문을 읽었다면 아는 대단한 센세이션이라는 내용이 모두 유지됩니다. 5월은 last May의 번역이며 '큰 화제'와 '대단한 반향'은 정도 표현 차이에 그칩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'신문을 보신 분들은 아시겠지만'이 조건 관계를 유지하고 '곡'이 앞의 최신곡을 가리키며 초점 표현도 달라지지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지휘자가 곡을 소개하고 청중에게 센세이션을 상기시키는 공지·소개 → 같은 소개·공지 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없습니다. 'are going to'는 예정이고 힌트의 may 후보는 원문에 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지휘자가 청중에게 공연을 알리는 상황에 맞게 '~드리겠습니다', '~보신 분들은' 같은 정중한 높임이 쓰였습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"카네기 홀을 통용 음역으로 옮겨 같은 기관을 가리키며, 5월 표기도 맞습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2328,
+    "output_tokens": 683,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

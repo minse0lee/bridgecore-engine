@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUzp4kqR5y8aHGeykAux",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0035\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"so much to read\",\"tgt_span\":\"읽어야 할 책이 너무 많았고\",\"description\":\"'읽을 것'이 '읽어야 할 책'으로 좁혀지고 의무 뉘앙스가 더해졌으나, 맥락상 독서 대상이므로 핵심 의미는 유지됨\"},{\"id\":\"E002\",\"src_span\":\"so much fine health to be pulled down out of the young breath-giving air\",\"tgt_span\":\"생동감 넘치는 젊은 공기로부터 얻어낼 수 있는 건강 또한 무궁무진했다\",\"description\":\"'so much fine health'(넉넉한 좋은 건강)가 '무궁무진한 건강'으로 정도가 과장되고 breath-giving(숨을 불어넣는)이 '생동감 넘치는'으로 바뀜. 평가어·수식의 정도 차이\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"읽을 거리가 많고 젊은 공기에서 얻을 건강이 많다는 내용이 유지되며, '무궁무진'과 '생동감 넘치는'은 정도·평가어 차이에 그칩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'for one thing'이 '우선'으로, 두 항목의 병렬이 '또한'으로 유지되어 연결 관계가 남아 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(화자의 계획 이유 설명) → 서술. 기능이 동일합니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없는 서술문입니다. '읽어야 할'은 대상 수식일 뿐입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회고 서술의 문어체 평서체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2310,
+    "output_tokens": 839,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

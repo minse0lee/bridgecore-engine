@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUzrNFMgd6mM65dLv6BZ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0356\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"remarked Jordan\",\"tgt_span\":\"조던이 말했고\",\"description\":\"remarked(논평·언급)가 단순한 '말했고'로 옮겨져 논평의 뉘앙스가 약해짐. 의미는 대체로 유지되므로 오류 수준이 아님.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조던의 말, 놀람, 소녀들이 무심히 가버림, 달에게 건넨 말, 출장 요리사 바구니에서 나온 듯한 달 등 핵심 내용이 모두 유지됩니다. remarked→'말했고'는 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"질문 1~3 모두 아니오. 'her remark'가 조던의 말을 가리키고, 'but'의 대조와 'like the supper'의 비교 관계가 '하지만', '저녁 식사처럼'으로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술과 조던의 논평 인용 → 서술과 조던의 논평 인용. 소설 본문에서 장면을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조던이 처음 만난 소녀들에게 한 말이 아니라 혼잣말처럼 흘린 말이므로 반말 '염색했네'가 관계상 자연스럽고, 서술 문체도 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 별도로 판정할 문화 고유의 제도·단위·관습이 없습니다. 출장 요리사는 일반 어휘로 옮겨졌습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1683,
+    "output_tokens": 783,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

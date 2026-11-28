@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUzs1gdHGbntbDxWV6LG",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0433\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"old sport\",\"tgt_span\":\"친구\",\"description\":\"Gatsby의 시그니처 호칭 'old sport'(격식 있으면서 친근한 상류층 말투)가 일반 호칭 '친구'로 바뀌어 화자 특유의 어조가 약해짐\"},{\"id\":\"E002\",\"src_span\":\"Just near the shore along the Sound.\",\"tgt_span\":\"그냥 해협을 따라 해안가 근처로 가는 겁니다.\",\"description\":\"the Sound(롱아일랜드 해협)가 일반 명사 '해협'으로 옮겨져 고유 지명이 약해졌으나 대상은 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"함께 가자는 제안, 해협을 따라 해안 근처로 간다는 내용이 유지되며 old sport는 호칭이라 내용 변화가 아닙니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Just가 '그냥'으로 옮겨져 초점이 유지되고 대명사·연결 관계 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"동행 제안(의문형) → 동행 제안. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 제안·선택 질문으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(태도): 'old sport'는 개츠비의 격식 있는 친근한 말투를 드러내는 호칭인데 '친구'로 옮겨져 그 특유의 태도가 약해졌습니다. 다만 초면에 '가시겠어요'로 높이면서 친근한 호칭은 유지되어 관계는 대체로 맞습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"the Sound를 '해협'으로 옮겨 같은 지형을 가리키며 독자가 이해할 수 있고, 인명·지명 수준의 대상으로 제도적 의미 손실은 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1142,
+    "output_tokens": 860,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUzpQcg2m5DGHrqE3fiW",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0047\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a factual imitation of some Hôtel de Ville in Normandy\",\"tgt_span\":\"노르망디의 어느 시청사를 그대로 모방한 듯한 모습이었는데\",\"description\":\"'사실상/실제로 모방한 것'이라는 단정이 '모방한 듯한'이라는 추측 표현으로 바뀌어 확실성이 달라짐\"},{\"id\":\"E002\",\"src_span\":\"raw ivy\",\"tgt_span\":\"갓 심은 담쟁이덩굴\",\"description\":\"raw(아직 덜 자란, 거친)가 '갓 심은'이라는 구체적 행위로 바뀜. 새것임을 강조하는 취지는 유사하나 정확한 의미는 다름\"},{\"id\":\"E003\",\"src_span\":\"Hôtel de Ville\",\"tgt_span\":\"시청사\",\"description\":\"프랑스어 Hôtel de Ville(시청사)을 일반 어휘 '시청사'로 옮김. 의미는 같음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(확실성·대상): a factual imitation(실제 모방)이 '모방한 듯한'이라는 추측으로 바뀌었고, raw ivy가 '갓 심은'으로 바뀌었으나 핵심 사실(거대한 저택, 시청사 모방, 탑·수영장·40에이커)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"문장 분할로 연결이 나뉘었으나 대명사·연결 관계·초점 표현의 변화는 없습니다(질문 1~3 모두 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"저택 묘사 서술 → 저택 묘사 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 서술적 어조가 '~했다' 평서체로 유지되며 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Hôtel de Ville을 '시청사', 노르망디, 40에이커를 그대로 유지하여 같은 대상·단위를 가리키며 독자가 이해할 수 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 3176,
+    "output_tokens": 952,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

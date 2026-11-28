@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUzr5VJNigwxpuMd4Wj5",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0323\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"floating rounds of cocktails permeate the garden outside\",\"tgt_span\":\"칵테일 쟁반들이 야외 정원 곳곳으로 퍼져 나간다\",\"description\":\"'rounds of cocktails'(돌려지는 칵테일 한 순배)가 '칵테일 쟁반들'로 바뀜. 칵테일 자체가 아니라 쟁반이 퍼진다는 뜻으로 읽힘(경미한 대상 변화).\"},{\"id\":\"E002\",\"src_span\":\"until the air is alive with\",\"tgt_span\":\"이윽고 공기는 … 생동감 있게 들끓는다\",\"description\":\"'~할 때까지'(until)의 결과·정도 연결이 '이윽고'라는 시간 부사로 바뀜.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 돌려지는 칵테일 '한 순배'가 '쟁반들'로 바뀌어 대상이 달라졌으나, 칵테일이 정원으로 퍼진다는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"질문 2: 'until'의 도달·결과 관계가 '이윽고'로 시간 순서의 연결로 재구성되었으나, 칵테일이 퍼지고 그 결과 공기가 활기로 가득 찬다는 선후·인과 관계는 남아 있어 보존입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"파티 장면 묘사 → 파티 장면 묘사. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"never는 '이름을 몰랐다'는 사실 서술의 부정이며 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자·청자 관계나 높임이 드러나는 대화가 아닌 서술문입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 3304,
+    "output_tokens": 866,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

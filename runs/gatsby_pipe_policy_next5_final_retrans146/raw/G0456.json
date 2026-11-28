@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUzs9pmWvi6tvbcDhmum",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0456\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"old sport\",\"tgt_span\":\"친구\",\"description\":\"개츠비의 특징적 호칭 'old sport'(상류층 영국식 친밀 호칭, 어딘가 꾸민 듯한 말투)가 일반적인 '친구'로 옮겨져 격식 차린 특유의 어조와 화자의 인공적 태도가 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"원하는 것이 있으면 말하라는 내용, 화자(그)와 청자(나), 권유(urged)의 행위가 유지되며 호칭의 뉘앙스 차이는 Register·Cultural에서 다룹니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조건(if)과 결과의 연결, 대명사 관계가 유지되고 초점·범위 표현의 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"호의적 제안·권유 → 호의적 제안·권유. 'urged'가 '권했다'로 옮겨져 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 호의적 제안으로, 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3: 개츠비의 과장되게 격식을 차린 친밀 호칭 'old sport'가 평범한 '친구'로 바뀌어 화자의 인공적이고 격식 있는 태도가 약해졌습니다. 다만 친밀한 호칭이라는 기본 관계는 유지되어 minor입니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'old sport'는 1920년대 상류층의 호칭 관습으로 한국어 독자에게 친밀한 호칭이라는 기본 의미가 전달되며, 다른 제도·단위로 바뀌지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1492,
+    "output_tokens": 822,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

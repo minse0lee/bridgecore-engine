@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUzpsZfiM1KRVFTJSk1C",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0090\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I’m p-paralysed with happiness.\",\"tgt_span\":\"행복해서 마-마비가 됐어요.\",\"description\":\"'paralysed with happiness'(행복에 몸이 마비될 듯하다는 과장·비유)를 '마비가 됐어요'로 옮겨 비유 표지 없이 문자 그대로의 마비로 읽힐 소지가 있으나, 행복해서 마비되었다는 인과 구조는 유지됨. 의미를 바꾸는 수준은 아님.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자, 행복이라는 원인, 마비라는 상태가 모두 유지되어 같은 사태를 기술하며 달라진 항목이 없습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'행복해서'가 원인 관계를 유지하고, 지시·초점 표현이 바뀌지 않았으며 더듬는 'p-'도 '마-'로 대응됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"데이지의 과장된 재치 있는 인사말 → 과장된 인사말. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"첫 만남의 여성 화자가 쓰는 부드러운 '-요'체로 소설 대화 상황에 맞고, 장난스러운 태도도 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1855,
+    "output_tokens": 713,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUzp4jbGJEkkVptzombT",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0023\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"All my aunts and uncles\",\"tgt_span\":\"고모와 삼촌들\",\"description\":\"aunts(고모·이모·숙모 등 이모·고모 구분 없는 통칭)를 '고모'로 한정하여 옮김. 지시 범위가 약간 좁아졌으나 통상적 대응에 가까움\"},{\"id\":\"E002\",\"src_span\":\"a prep school\",\"tgt_span\":\"내 대학 진학 준비학교\",\"description\":\"prep school(대학 진학 준비 사립학교)을 '대학 진학 준비학교'로 풀어 옮김. 미국 사립 예비학교라는 제도적 성격은 일부 전달되나 '대학'이 덧붙고 사립 기숙 예비학교 함의가 약함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"친척들이 상의하고, 학교를 고르듯 진지하게 논의하다 망설이는 표정으로 '글쎄, 그렇지'라고 답한 내용이 모두 유지되며, 'aunts'를 '고모'로 옮긴 것은 통상적 대응 범위입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'as if' 비유 관계와 '상의하더니 마침내 말했다'의 시간 순서 연결이 유지되고 지시·초점 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(친척들의 반응을 약간 풍자적으로 묘사) → 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 서술 문장으로 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 담담하고 약간 아이러니한 서술 태도와 친척의 망설이는 말투가 '글쎄, 그-렇지'로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"prep school을 '대학 진학 준비학교'로 옮겨 미국 대학 예비교육 기관이라는 제도적 의미를 한국 독자가 이해할 수 있고, 한국 제도로 대체하지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 3201,
+    "output_tokens": 908,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

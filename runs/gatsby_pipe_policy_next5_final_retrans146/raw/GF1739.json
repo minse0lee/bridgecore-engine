@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUzvFeb8nxvY8tNeX6c9",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1739\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"She’s locked herself into her room\",\"tgt_span\":\"그녀는 방에 들어가 문을 잠갔습니다\",\"description\":\"'스스로 방에 틀어박혀 문을 잠갔다'는 재귀적 의미가 '방에 들어가 문을 잠갔다'로 옮겨져 큰 차이는 없으나 의미는 유지됨. 오류로 보지 않을 수준이므로 실질 오류 아님\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기다림, 그가 괴롭히려 하는지 지켜봄, 방에 문을 잠금, 폭력 시 불을 껐다 켬이라는 내용이 모두 유지됩니다. '들어가 문을 잠갔다'는 locked herself into her room과 같은 사태입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그 사람'과 '그녀'의 지시 관계, 조건(만약 ~하면)과 목적 연결이 유지되며 초점 표현의 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"자신의 계획과 상황을 설명하는 대화 발화 → 같은 설명 발화로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없고 화자의 계획과 예상을 서술합니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자는 닉에게 말하는 대화에서 존댓말 '~에요/~습니다'로 번역되어 앞뒤 문맥의 존대 말투와 일관되며 관계에 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이나 단위, 표기가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1375,
+    "output_tokens": 772,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

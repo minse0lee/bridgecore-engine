@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUzsTxRvPKLqWjqBb2jf",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0495\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"she wore her evening-dress, all her dresses, like sports clothes\",\"tgt_span\":\"그녀가 입은 이브닝드레스뿐만 아니라 모든 옷을 마치 운동복처럼 입는다는 사실\",\"description\":\"이브닝드레스를 포함한 모든 옷을 운동복처럼 입는다는 내용이 '이브닝드레스뿐만 아니라 모든 옷'으로 바뀌어 이브닝드레스가 별개 항목으로 읽힘. 다만 '운동복처럼 입는다'는 핵심은 유지되어 의미 변화는 미미함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"판단 질문 1·2: 이브닝드레스를 포함해 모든 옷을 운동복처럼 입는다는 내용과 골프 코스에서 걸음마를 배운 듯한 경쾌함 묘사가 모두 유지되며, 'A뿐만 아니라 B'는 A 포함 의미로 읽혀 사실 변화가 없습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 관계(그녀의 옷·움직임), 대시로 이어진 연결, as if의 비유 관계가 문장 분할 후에도 유지됩니다. 질문 1·2·3 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 관찰 서술 → 관찰 서술. 인물 묘사 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 화자의 소설 서술체 '~다'가 유지되고 관계·태도 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"이브닝드레스, 운동복, 골프 코스 같은 대상을 같은 것으로 옮겨 한국어 독자가 이해할 수 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1600,
+    "output_tokens": 848,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

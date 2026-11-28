@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUzreXeD19ubG79cNmsJ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0381\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I’ll bet he killed a man.\",\"tgt_span\":\"분명 사람을 죽였을걸요.\",\"description\":\"'I'll bet'(내기를 걸 만큼 확신하는 추측)이 '분명 ~ㄹ걸요'로 옮겨져 확신이 다소 강해졌고, 'a man'이 '사람'으로 옮겨져 한 남자라는 성별 정보가 사라짐\"},{\"id\":\"E002\",\"src_span\":\"You look at him sometimes\",\"tgt_span\":\"그 사람을 한번 보세요\",\"description\":\"일반적 'you'가 포함된 습관적 서술('가끔 보면 ~')이 상대에게 한번 보라는 명령형으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): 'I'll bet'의 추측이 '분명 ~ㄹ걸요'로 확신이 강해졌고 'a man'이 '사람'으로 바뀌었으나, 아무도 안 볼 때 보면 그가 살인했을 거라는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'when he thinks nobody's looking'의 시간·조건 연결이 '~ㄹ 때'로 유지되고 지시 대상과 초점 관계도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"근거를 들어 소문을 주장하는 발화 → 근거를 들어 소문을 주장하는 발화. 일반적 서술이 권유형으로 바뀌었으나 상대(청자)가 직접 관찰해 보게 하며 자기 주장을 뒷받침하는 기능은 같은 종류입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 소문 이야기이며 의무·허가·금지를 정하는 규범 표현이 없습니다. 번역의 '보세요'도 규범이 아닌 권유입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"파티에서 일행에게 속삭이듯 말하는 구어체가 '~보세요', '~ㄹ걸요'의 해요체로 자연스럽게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1554,
+    "output_tokens": 977,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

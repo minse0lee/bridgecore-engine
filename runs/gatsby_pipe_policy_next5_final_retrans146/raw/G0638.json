@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUztbtCc3NAKHTvqsJPZ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0638\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"cardinal virtues\",\"tgt_span\":\"기본 덕목\",\"description\":\"cardinal virtues(전통적 4주덕: 지혜·정의·용기·절제)가 '기본 덕목'이라는 일반 어휘로 옮겨져 사덕이라는 고유한 분류가 드러나지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"누구나 덕목 하나쯤은 자신에게 있다고 여기며, 화자는 자신의 덕목이 정직이라고 말하는 내용이 유지됩니다. '기본 덕목'은 cardinal의 정도·범주 차이이고 사태는 같습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"this is mine의 '이것'이 가리키는 대상과 콜론 뒤 설명 관계가 '내게는 이것이 그렇다. 나는…'으로 유지됩니다. 지시·연결·초점 관계는 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 자기 서술(자기소개) → 자기 서술. 발화 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 화자의 회고적 서술 어조가 '~다' 평서체로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: cardinal virtues는 서구 전통의 사추덕(지혜·정의·용기·절제)이라는 고유한 분류인데 '기본 덕목'이라는 일반 어휘로 옮겨져 그 제도적·전통적 의미가 전달되지 않습니다. 다만 문장의 요지와 독자의 행동 이해에는 영향이 작아 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1328,
+    "output_tokens": 808,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

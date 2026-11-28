@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUzth3FfAhTkZW4f2c5a",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1313\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Like hell he is!\",\"tgt_span\":\"웃기지 마요!\",\"description\":\"'절대 그럴 리 없다'는 강한 부정(속어)이 '웃기지 마요'라는 일반적 일축 표현으로 바뀌고 존댓말 '마요'가 쓰임. 뒤 문장의 '어디 옥스퍼드 출이야'는 반말이어서 높임이 일관되지 않음\"},{\"id\":\"E002\",\"src_span\":\"Oxford man\",\"tgt_span\":\"옥스퍼드 출\",\"description\":\"'출신'의 오기/탈자로 보이나 의미는 해석 가능\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 개츠비가 옥스퍼드 출신일 리 없다며 분홍색 정장을 입는다는 근거를 드는 내용이 유지됩니다. '웃기지 마요'는 강한 부정의 일축으로 통하며, '출'은 오타성 표기로 의미는 같습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"부정 주장 뒤에 이유(분홍색 정장)를 덧붙이는 연결이 '어디 ~출이야'로 유지되며 지시·초점 관계도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"믿지 못하겠다는 반박 → 반박. 근거를 들어 부정하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 대화 반박입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 톰이 친구들(닉, 조던)에게 하는 격한 반박인데 '웃기지 마요'는 존댓말 '-요'를 써서 같은 화자의 반말 '출이야'와 섞이고, 거친 비속어 'Like hell'의 무례하고 거친 태도가 약해졌습니다. 의미 전달에는 영향이 작아 minor입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에서 별도로 판정할 문화 고유의 제도·단위·관습은 없고 분홍색 정장은 일반 대상입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1336,
+    "output_tokens": 934,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

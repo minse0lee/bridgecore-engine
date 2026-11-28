@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUztmwwiGC2D6HfyxPrQ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1317\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"she knew him before we were married\",\"tgt_span\":\"우리가 결혼하기 전부터 알던 사이거든\",\"description\":\"'데이지가 그를 알았다'가 '(데이지와 그가) 알던 사이'로 바뀌어 행위자는 유지되나 상호 관계로 표현됨. 의미 변화는 없는 통상적 재구성이라 실질 오류 아님\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"데이지가 초대했고, 결혼 전부터 그를 알았으며, 어디서인지는 모른다는 내용이 모두 유지됩니다. '알던 사이'는 같은 사태의 자연스러운 표현입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"세미콜론 연결을 '-거든'으로 이유를 설명하는 관계로 재구성했으며, 지시 관계와 연결 관계가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조던의 질문에 대한 해명·답변 → 해명·답변. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 같은 규범 의미가 없는 대화 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 부부 사이인 아내의 친구 조던에게 하는 평어체 말투이며, 앞선 대사의 경멸적·퉁명스러운 태도와도 어울립니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"God knows where는 관용 표현이며 판정할 제도·단위 등 문화 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1353,
+    "output_tokens": 717,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

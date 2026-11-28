@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUzroXdHitkk41zDFnpT",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0390\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"it was making me uneasy\",\"tgt_span\":\"내가 그를 한 번도 만난 적이 없어서 마음이 불편해하고 있다는 것이었다\",\"description\":\"'내가 그를 만난 적이 없다는 사실이 나를 불편하게 한다'는 인과 주어가 '내가 그를 만난 적이 없어서 (내가) 불편해하고 있다'로 바뀜. 문법상 어색하나 행위자(나)·인과 내용은 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"일어남, 집주인을 찾으러 감, 한 번도 만난 적 없음, 불편함이 모두 유지되고 '내가 불편해함'이라는 동일한 사태를 기술합니다. 어색한 표현은 훼손이 아닙니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'만난 적이 없어서 불편해하고'로 인과 관계가 유지되고, she/him/me 등의 지시 대상(조던, 집주인, 나)도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(조던의 설명 전달) → 서술(조던의 설명 전달). 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"never는 경험 부정이며 의무·금지·허가를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 평서체 '~했다/~이었다'가 유지되어 화자·독자 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2257,
+    "output_tokens": 747,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUzsufFS7ConjsUoG4JC",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0535\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"held no more familiarity than the hand which reassuringly brushed my shoulder\",\"tgt_span\":\"내 어깨를 다독이듯 스친 손길 이상의 친밀함이 담겨 있지 않았다\",\"description\":\"'the hand'(손)가 '손길'로, 'reassuringly brushed'가 '다독이듯 스친'으로 옮겨졌으나 비교 구조와 의미는 유지됨. 차이는 있으나 의미·기능을 바꾸지 않는 통상적 대응이므로 실질 오류 아님\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"친근한 표현이 어깨를 안심시키듯 스친 손만큼의 친밀함 이상을 담지 않았다는 내용이 유지됩니다. '손길', '다독이듯 스친'은 같은 사태를 기술하는 표현입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'no more ... than' 비교 구조가 '이상의 ... 않았다'로 유지되고 '내 어깨'의 소유 관계도 같습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 관찰·묘사 → 서술자의 관찰·묘사. 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자·청자 관계가 드러나는 높임·호칭이 없는 서술문 문장입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1441,
+    "output_tokens": 737,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUzr6jD8HsBmcGyCyZkZ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0324\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the opera of voices pitches a key higher\",\"tgt_span\":\"사람들의 목소리는 오페라처럼 한 음 더 높아진다\",\"description\":\"'목소리들의 오페라'라는 은유가 '오페라처럼'이라는 직유로 바뀌고, 목소리의 합창이 한 음 높아진다는 내용이 사람들의 목소리가 높아진다는 표현으로 조정됨. 같은 사태를 기술하므로 의미·기능 변화는 미미함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조명이 밝아지고 오케스트라가 노란빛 칵테일 음악을 연주하며 목소리가 한 음 높아진다는 내용이 모두 유지됩니다. 은유가 직유로 바뀐 것은 같은 사태를 기술하므로 오류로 보지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"as절은 '-자'로 시간·인과적 연결이 유지되고, 'and now'로 이어지는 나열도 '이제 … 연주하며, …'로 남아 있어 지시·연결·초점 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"파티 분위기를 묘사하는 서술 → 파티 분위기를 묘사하는 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 장면 묘사이며 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"문학 서술의 평서체가 유지되며 화자·청자 관계가 드러나는 호칭이나 높임 표현이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2827,
+    "output_tokens": 800,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

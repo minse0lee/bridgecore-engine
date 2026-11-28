@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUzppVckvW3EWDQ58M9F",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0081\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the frosted wedding-cake of the ceiling\",\"tgt_span\":\"웨딩케이크처럼 하얗게 장식된 천장\",\"description\":\"천장 자체가 서리 입힌 웨딩케이크 같다는 은유가 직유로 바뀌고, 'frosted'(당의를 입힌 듯한 장식)가 '하얗게 장식된'으로 옮겨져 약간 달라짐. 의미는 대체로 유지됨.\"},{\"id\":\"E002\",\"src_span\":\"making a shadow on it as wind does on the sea\",\"tgt_span\":\"마치 바다 위의 바람처럼 그 위에 그림자를 드리웠다\",\"description\":\"'as wind does on the sea'(바람이 바다 위에 그림자를 만들듯)가 '바다 위의 바람처럼'으로 바뀌어, 바람이 바다에 그림자를 만드는 비교 구조가 '바람 같은 그림자'로 읽혀 비교 대상이 흐려짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: 바람이 바다 위에 그림자(물결무늬)를 만들 듯이라는 비교가 '바다 위의 바람처럼 그림자를 드리웠다'로 달라져 행위·비교 내용이 일부 바뀌었으나, 핵심 사실(바람이 카펫 위에 그림자를 만듦)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: 'as wind does on the sea'에서 비교되는 대상(카펫 위 그림자 ↔ 바다 위 바람이 만드는 그림자)이 '바다 위의 바람처럼'으로 바뀌어 비교 관계의 지시 대상이 달라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사 서술 → 장면 묘사 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"문학 서술체 '-했다'가 유지되며 관계·태도 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"웨딩케이크와 와인색 같은 비유 대상은 한국어 독자가 이해할 수 있게 유지되었고 제도·단위 변경은 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2272,
+    "output_tokens": 1005,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

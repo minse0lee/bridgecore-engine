@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUzpr3P1PkdAjEHPPz6d",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0088\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"for having disturbed her by coming in\",\"tgt_span\":\"그녀를 방해하며 들어왔다며\",\"description\":\"'들어와서 그녀를 방해한 것에 대한 사과'가 '방해하며 들어왔다며 사과'로 옮겨져 사과의 이유가 다소 모호해졌으나 행위자·행위는 유지됨. 의미를 바꾸는 차이는 아님.\"},{\"id\":\"E002\",\"src_span\":\"I was almost surprised into murmuring an apology\",\"tgt_span\":\"무심코 사과를 중얼거릴 뻔했을 정도였다\",\"description\":\"'놀라서 (거의) 사과를 중얼거릴 뻔했다'가 '무심코 … 뻔했다'로 옮겨져 surprised의 뉘앙스가 약간 달라짐. 핵심 사실은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"그녀가 곁눈으로 보았어도 내색하지 않았고, 화자가 방해한 것을 사과할 뻔했다는 핵심 내용이 모두 유지됩니다. '무심코'와 '방해하며 들어왔다며'는 표현 차이일 뿐 행위자·행위·대상이 달라지지 않았습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'indeed'는 '사실'로 앞 내용을 강조·부연하는 연결을 유지하고, 'she/her/I'의 지시 대상이 유지되며 양보 조건('보았더라도')도 보존됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 관찰·회상 서술 → 서술자의 관찰·회상 서술로 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술자의 담담한 서술체('-었다')가 유지되며 관계상 어긋나는 높임이나 호칭 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2232,
+    "output_tokens": 921,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

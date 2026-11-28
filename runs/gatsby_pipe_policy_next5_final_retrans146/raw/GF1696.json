@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUzv1fikJ689D9aWK8x4",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1696\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"you and Jordan better go in the kitchen and have them get you some supper\",\"tgt_span\":\"조던이랑 같이 부엌에 가서 저녁을 좀 내오라고 해\",\"description\":\"'you and Jordan'이 함께 가서 '(너희 둘이) 저녁을 달라고 하라'는 내용이, 닉 혼자 조던과 같이 가서 닉이 시키는 것처럼 읽히며 주어가 단수로 바뀌고 'better'의 권고가 명령으로 읽힘. 다만 '조던이랑 같이'로 두 사람이 함께 가는 의미는 유지되어 행위자는 대체로 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"택시를 불러주고, 기다리는 동안 조던과 함께 부엌에 가서 저녁을 달라고 하라는 내용이 유지되며 'if you want any'도 '원한다면'으로 옮겨졌습니다. 저녁이 두 사람 몫이라는 점도 문맥상 읽힙니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'while you're waiting'의 시간 관계와 'if you want any'의 조건 관계가 '기다리는 동안', '원한다면'으로 유지되어 지시·연결·초점 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"행동을 권하는 제안·지시 → 행동을 권하는 제안·지시. 같은 종류의 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'better'는 소설 속 인물의 편의 제안이며 선택 가능한 권유라서 의무·금지·규범적 권고를 정하는 문장이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개츠비 같은 화자가 닉에게 반말로 말하는 친근한 태도는 앞뒤 대화에서 '자네'로 닉을 부르는 어투와 일관되어 관계에 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1305,
+    "output_tokens": 906,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

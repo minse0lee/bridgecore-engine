@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUzq1okjU24LeZnnfhJ8",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0101\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a dozen people\",\"tgt_span\":\"열두 명 정도 되는 사람들\",\"description\":\"정확한 수량 a dozen(열둘)이 '열두 명 정도'로 어림 표현이 되어 수량의 정확성이 약해짐\"},{\"id\":\"E002\",\"src_span\":\"had sent their love through me\",\"tgt_span\":\"나를 통해 안부를 전해달라고 했다고\",\"description\":\"이미 사랑(안부)을 보냈다는 완료된 행위가 '안부를 전해달라고 했다'는 부탁으로 바뀜. 전달 방향이 청자에게 전하는 것인지 불분명하나 대체로 같은 사태를 기술함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(수량): a dozen(열두 명)이 '열두 명 정도'로 어림 표현이 되어 정확한 수량이 약간 달라졌으나 핵심 사실은 유지되어 minor입니다. 안부를 전해달라고 한 것은 send love through me와 같은 사태로 보아 훼손으로 기록하지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"how 절 두 개의 병렬 관계가 '들렀으며 … 했다고'로 유지되고 지시·초점 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(화자가 데이지에게 말한 내용 보고) → 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 지문의 서술체 '-했다'가 유지되며 관계상 어긋나는 높임이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"시카고, 동부 등 지명만 있고 별도로 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1719,
+    "output_tokens": 837,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

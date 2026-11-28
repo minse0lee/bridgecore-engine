@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUzuxN2Z1Pw9GbFk2H17",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1684\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"with his authoritative arms breaking the way, we pushed through\",\"tgt_span\":\"위세를 띤 팔을 휘둘러 길을 내는 톰을 따라 우리는 … 밀치고 나갔다\",\"description\":\"원문은 톰의 팔이 길을 트는 가운데 '우리'가 밀치고 나간 것인데, 번역은 '톰을 따라'로 바꾸어 톰이 앞장서고 화자가 뒤따르는 것으로 읽힘. 행위 참여 구조는 대체로 같으나 원문에 없는 '따라'가 추가됨.\"},{\"id\":\"E002\",\"src_span\":\"Self-consciously\",\"tgt_span\":\"남들의 시선을 의식하는 기색으로\",\"description\":\"원문은 주어(우리)의 자의식 어조인데, 번역은 문맥상 톰의 기색으로 읽혀 주체가 달라질 수 있음. 또한 '남들의 시선'이 덧붙음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(행위자): 'we'의 자의식이 톰의 기색으로 읽히고 '톰을 따라'가 더해졌으나, 군중을 밀치고 나아가 의사를 지나친 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계는 유지되며, 의사에 대한 관계절도 '그는 … 사람이었다'로 재구성되어 보존됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 서술의 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자·청자 관계가 드러나는 대화나 호칭이 없는 서술문입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 없습니다. half an hour를 30분으로 옮긴 것은 통상적 대응입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1719,
+    "output_tokens": 901,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
