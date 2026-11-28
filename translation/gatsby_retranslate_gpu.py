@@ -51,8 +51,15 @@ REVISE = {
 }
 
 
+EXTRA = ""      # --policy 를 주면 번역 쪽 시험의 추가 방침(gatsby_policy_gpu.POLICY)이 들어간다. 없으면 이전과 같다.
+
+
+def system_text(gt, cond):
+    return gt.SYSTEM + EXTRA + REVISE[cond] + gt.FORMAT
+
+
 def prompt_hash(gt, cond):
-    return hashlib.sha256((gt.SYSTEM + REVISE[cond] + gt.FORMAT).encode()).hexdigest()[:12]
+    return hashlib.sha256(system_text(gt, cond).encode()).hexdigest()[:12]
 
 
 def opinion(fl):
@@ -87,7 +94,7 @@ def gen(m, gt, packs, cond, sample=False):
     torch = m.torch
     with torch.inference_mode():
         texts = [m.processor.apply_chat_template(
-            [{"role": "system", "content": gt.SYSTEM + REVISE[cond] + gt.FORMAT}, {"role": "user", "content": u}],
+            [{"role": "system", "content": system_text(gt, cond)}, {"role": "user", "content": u}],
             tokenize=False, add_generation_prompt=True, enable_thinking=G.CFG["thinking"]) for _, u in packs]
         enc = m.processor(text=texts, return_tensors="pt", padding=True).to(m.model.device)
         n_in = enc["input_ids"].shape[1]
@@ -115,6 +122,7 @@ def main(argv=None):
     ap.add_argument("--cond", required=True, choices=sorted(REVISE))
     ap.add_argument("--cur", default=None, help="현재 번역 jsonl(기본: out/gemma_full_bf16_ctx5.jsonl 이 있으면 그것, 없으면 gemma_ch1_3_bf16_ctx5.jsonl)")
     ap.add_argument("--tag", default="", help="결과 파일 이름 뒤에 붙일 말(예: full)")
+    ap.add_argument("--policy", action="store_true", help="번역 쪽 시험의 추가 방침(용어·호칭·말투)을 재번역 지침에도 넣는다(gatsby_policy_gpu.py 필요)")
     ap.add_argument("--bs", type=int, default=4)
     ap.add_argument("--limit", type=int, default=0, help="이 수만큼의 문단만(시험)")
     ap.add_argument("--show", type=int, default=0, help="프롬프트를 이 수만큼 출력하고 끝냄(모델을 올리지 않음)")
@@ -125,6 +133,10 @@ def main(argv=None):
     sys.path.insert(0, str(base))
     import gemma_translate as gt
     assert gt.PROMPT_HASH == G.PROMPT_HASH, "gemma_translate.py가 처음 번역 때와 다릅니다"
+    if a.policy:
+        global EXTRA
+        import gatsby_policy_gpu as P
+        EXTRA = P.POLICY
     out_dir = base / "out"; out_dir.mkdir(exist_ok=True)
     rows = G.read_jsonl(base / "sentences.jsonl")
     allb, idx = gt.blocks(rows, None)
@@ -154,7 +166,7 @@ def main(argv=None):
     m = (G.Fake if a.fake else G.Gemma)(gt, allb, a.bs)
     run_gen = gen_fake if a.fake else gen
     meta = {**m.meta, "config": "retrans_ctx5", "retrans_cond": a.cond, "retrans_prompt_hash": prompt_hash(gt, a.cond),
-            "flags_file": Path(a.flags).name, "cur_file": cur_path.name}
+            "flags_file": Path(a.flags).name, "cur_file": cur_path.name, "policy": bool(a.policy)}
     raw_log = open(out_dir / f"raw_fail_{tag}.jsonl", "a", encoding="utf-8")
     n_same = n_sent = 0
 
