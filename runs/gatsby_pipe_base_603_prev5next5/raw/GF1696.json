@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3XWoshhdCiAozF8wBj",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1696\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"you and Jordan better go in the kitchen and have them get you some supper\",\"tgt_span\":\"조던 양과 함께 부엌에 가서 저녁이라도 좀 챙겨 먹게\",\"description\":\"'have them get you some supper'(하인들에게 저녁을 가져다 달라고 시키라)가 '저녁이라도 좀 챙겨 먹게'로 바뀌어 하인에게 시키는 행위와 참여자(them)가 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위자·행위): 부엌 사람들에게 저녁을 내오게 하라는 내용이 직접 챙겨 먹으라는 것으로 바뀌었으나, 택시, 부엌, 저녁, 원하면이라는 핵심은 유지되어 요지 변화는 작습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'테니, 기다리는 동안'으로 시간·순서 관계가 유지되고 지시·초점 관계의 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"행동 권유·지시 → 행동 권유·지시. 택시를 부르고 저녁을 먹으라는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"선택 가능한 제안(원하면 먹으라)이며 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개츠비가 닉에게 하는 'ー게/-게' 하게체 말투는 앞뒤 번역의 '자네'와 일관되어 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 판정할 문화 고유의 제도·단위·관습이 없습니다. '조던 양'은 호칭 처리일 뿐입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1330,
+    "output_tokens": 808,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

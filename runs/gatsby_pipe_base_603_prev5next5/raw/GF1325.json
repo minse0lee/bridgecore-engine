@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3QKbF2DnQWUQjDEqg1",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1325\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“Let’s have some gas!”\",\"tgt_span\":\"“기름 좀 넣어 줘!”\",\"description\":\"청유형(let's have some gas, 우리가 기름을 넣자)이 상대(윌슨)에게 기름을 넣어 달라는 명령·요청으로 바뀜. 원문의 발화 기능과 화자의 어조는 크게 바뀌지 않음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"주유를 요구하는 내용, 톰이 거칠게 외쳤다는 서술 모두 유지됩니다. 'Let's have'가 '넣어 줘'로 바뀐 것은 같은 상황에서 주유를 요구하는 통상적 표현으로, 행위자 차이가 있으나 사태는 같습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 대상, 연결 관계, 초점 표현에 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"주유를 요구하는 말 → 주유를 요구하는 말. 상대가 행동하도록 이끄는 같은 종류의 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 대화에서 규범적 의무·허가·금지를 거는 표현이 아니라 개인의 요구이므로 평가 대상이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 정비소 주인에게 거칠고 고압적으로 말하는 태도가 반말 명령형과 '거칠게'로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다. 미국식 gas(휘발유)를 '기름'으로 옮긴 것은 통상적 대응입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1136,
+    "output_tokens": 792,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

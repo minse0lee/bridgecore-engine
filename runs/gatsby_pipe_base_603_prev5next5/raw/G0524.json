@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3KWzCbH9sEAwxRoxdP",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0524\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"in there\",\"tgt_span\":\"우리 안에\",\"description\":\"'in there'(서재 안, 저기 안에)가 '우리 안에'로 옮겨져 장소 표현이 '우리 안'(우리 자신의 내부 또는 우리(cage))으로 읽힐 수 있으며 장소 지시가 불명확해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상·장소): 'in there'가 서재를 가리키는 장소인데 '우리 안에'는 '우리'가 we의 번역 '우리'와 겹쳐 장소가 서재라는 점이 드러나지 않고 다르게 읽힐 수 있습니다. 다만 묻는 핵심(머문 시간)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사·연결·초점 표현의 대상이 바뀌지 않았고, 'we'는 '우리'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"시간 경과를 묻는 질문 → 시간 경과를 묻는 질문. 발화 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 질문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 사교적 관계에 맞는 '~죠' 해요체로 무리가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1396,
+    "output_tokens": 694,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

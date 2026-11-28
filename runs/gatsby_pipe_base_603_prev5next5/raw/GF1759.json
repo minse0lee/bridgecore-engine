@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3Zx5THVWBFr7E69p1n",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1759\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"There was an unmistakable air of natural intimacy about the picture, and anybody would have said\",\"tgt_span\":\"그 모습에는 부정할 수 없는 자연스러운 친밀함이 배어 있었기에, 누구라도 … 생각했을 것이다\",\"description\":\"'and'로 이어진 병렬 관계가 '-었기에'라는 인과(원인-결과) 관계로 바뀜. 친밀함이 공모라는 인상의 근거가 되는 것으로 읽힘.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"틀림없는 자연스러운 친밀함의 분위기와 '누구라도 공모한다고 말했을 것'이라는 내용이 모두 유지됩니다. say를 '생각했을 것'으로 옮긴 것은 의미를 바꾸지 않는 통상적 대응입니다. 힌트의 숫자 [2]는 '두 사람'을 센 것이어서 오경보입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"질문 2: 병렬 연결이 '-었기에'로 바뀌었으나, 친밀한 분위기 때문에 공모하는 것처럼 보였다는 관계는 문맥상 자연스러운 재구성 범위입니다. 지시 대상과 초점 표현은 유지됩니다. 연결 관계가 바뀌었다고 보기는 어렵습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사·서술 → 장면 묘사·서술. 관찰자의 인상을 전하는 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등의 규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문의 평서체(~했을 것이다)가 유지되며 관계·태도 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1632,
+    "output_tokens": 861,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

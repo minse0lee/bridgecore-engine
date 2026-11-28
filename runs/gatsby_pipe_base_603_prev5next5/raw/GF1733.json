@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3YuMyPdpHznDMT74No",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1733\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Don’t tell me\",\"tgt_span\":\"말하지 말아요\",\"description\":\"'내게 (그 내용을) 말하지 마라'에서 목적어 'me'(청자)가 빠져 '말하지 말아요'만 남아, 앞 대사의 끔찍한 묘사를 더 듣고 싶지 않다는 뜻이 약해지고 일반적 입막음처럼 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위·참여자): 'tell me'의 수신자 '나'가 빠졌으나, 앞의 '찢겨 나갔어요' 묘사를 더 이상 말하지 말라는 핵심 요지는 문맥상 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계가 바뀐 부분이 없어 세 질문 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대의 말을 제지하는 요청·지시 → 제지하는 요청·지시. 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 대화 속 개인적 제지·부탁으로 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'old sport'의 친근한 호칭이 '친구'로, 존댓말 '-아요'와 어우러져 앞뒤 번역의 화자 관계 설정과 어긋나지 않게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'old sport'는 친근한 호칭일 뿐 별도의 제도·관습·단위 같은 문화 고유 대상으로 판정할 대상이 아닙니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1803,
+    "output_tokens": 769,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

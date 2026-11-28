@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV39tUW32xNd7h7Vojge",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0055\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a string of polo ponies\",\"tgt_span\":\"폴로 포니 한 무리를 통째로\",\"description\":\"'a string of'(일련의 말 한 줄)이 '한 무리를 통째로'로 옮겨져 '통째로'라는 뉘앙스가 더해졌으나 핵심 사실은 유지됨(의미 변화 없음)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"집안의 부, 대학 시절 돈 씀씀이에 대한 비난, 시카고에서 동부로 이주, 레이크 포레스트에서 폴로 포니 무리를 데려옴이 모두 유지됩니다. 'took your breath away'를 '가히 압도적'으로 옮긴 것은 정도 차이입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"even in college의 초점은 '대학 시절에도'로, but now의 대조는 '그런데 이제'로, for instance의 예시 관계는 '예를 들어'로 유지되어 지시·연결·초점이 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물의 부와 이주 방식을 서술하는 설명 → 같은 서술 기능으로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술자의 평서 서술체가 '-였다'로 유지되어 관계와 태도가 맞습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"레이크 포레스트, 시카고, 폴로 포니 등 대상이 그대로 유지되어 다른 제도로 바뀌지 않았고 통용되는 표기입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2561,
+    "output_tokens": 768,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

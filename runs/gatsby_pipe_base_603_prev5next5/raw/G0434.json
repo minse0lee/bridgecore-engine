@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3HbYjvSFeo98U6nMXD",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0434\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“What time?”\",\"tgt_span\":\"“몇 시에 갈까요?”\",\"description\":\"원문에 없는 동사 '가다'와 제안형 어미가 더해짐. 다만 앞 문장 'Want to go with me'에서 이미 함께 가는 상황이므로 의미·기능은 바뀌지 않는 통상적 보충임(오류 아님으로 판단 가능)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞의 '함께 가자'는 제안에 대해 시각을 묻는 내용이며, '몇 시에 갈까요'는 같은 사태를 기술하므로 인물·행위·시간 질문이 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계에 변화가 없고 앞 제안에 대한 응답이라는 연결이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"제안 수락 후 시각을 묻는 질문 → 시각을 묻는 질문. 같은 종류의 기능입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 대화 속 질문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"새로 만난 사이의 정중한 대화로서 '-ㄹ까요' 해요체가 앞뒤 대사의 격식과 어울립니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1104,
+    "output_tokens": 680,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

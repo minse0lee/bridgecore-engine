@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3L8AnWdMVtQiyWj1pS",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0543\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"old sport\",\"tgt_span\":\"친구\",\"description\":\"Gatsby의 고유한 말버릇이자 상류층 풍의 친근한 호칭 'old sport'가 일반적인 '친구'로 바뀌어 특유의 어투와 인물 표지가 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"작별 인사와 친근한 호칭이라는 내용이 유지되며, 호칭의 뉘앙스 차이는 의미 내용 변화로 보기 어렵습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현이 없고 반복되는 작별 인사 구조가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"작별 인사 → 작별 인사. 같은 종류의 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 작별 인사입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(화자의 태도): 개츠비 특유의 격식 있고 친밀한 호칭 'old sport'가 평범한 '친구'로 바뀌어 인물의 말투 표지가 약해졌습니다. 관계 자체는 유지되어 minor입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인사말과 호칭만 있고 별도로 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1515,
+    "output_tokens": 673,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

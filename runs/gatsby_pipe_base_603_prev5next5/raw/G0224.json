@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3DkC2XhT2UbiL7gDuR",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0224\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"with several feet of twilight between them\",\"tgt_span\":\"서로 몇 걸음의 거리감을 둔 채\",\"description\":\"'several feet of twilight'(황혼이 깔린 몇 피트의 간격)가 '몇 걸음의 거리감'으로 바뀌어 twilight(황혼·저녁 어스름)가 누락됨. 거리 단위(피트→걸음)도 달라짐.\"},{\"id\":\"E002\",\"src_span\":\"strolled back\",\"tgt_span\":\"서서히 서재로 돌아갔다\",\"description\":\"'strolled'(느긋하게 거닐다)가 '서서히 … 돌아갔다'로 옮겨져 거닐며 걷는 방식이 약해짐. 의미 변화는 경미함.\"},{\"id\":\"E003\",\"src_span\":\"I followed Daisy around a chain of connecting verandas to the porch in front\",\"tgt_span\":\"연결된 베란다들을 지나 앞쪽 포치로 향하는 데이지를 따라갔다\",\"description\":\"데이지를 따라 베란다를 돌아 포치로 갔다는 내용이, 데이지가 포치로 향하고 화자가 그녀를 따라갔다는 구조로 바뀜. 누가 어디로 갔는지는 대체로 유지되나 'around'의 경로 의미가 약해짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'several feet of twilight'의 '황혼(twilight)'이 사라지고 '몇 걸음의 거리감'으로 바뀌어 시간·분위기 요소가 빠지고 거리 단위도 달라졌지만, 두 사람이 거리를 두고 돌아갔다는 핵심 사실과 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사·소유 관계, 'while'의 동시 진행 연결('그동안'), 초점 표현 모두 유지되어 질문 1·2·3 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사 묘사 → 서사 묘사. 인물들의 행동과 분위기를 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 행동 서술이며 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술체와 '조던 베이커 양' 호칭이 소설 본문의 격식에 맞게 유지되며 화자의 태도도 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명과 일반 장소 어휘만 있고 별도로 판정할 문화·제도 고유 대상이 없습니다. 'feet'의 단위 변화는 Semantic에서만 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2317,
+    "output_tokens": 1128,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

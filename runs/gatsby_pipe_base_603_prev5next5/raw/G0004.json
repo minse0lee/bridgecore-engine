@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3843f1jn8KFFKgaxib",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0004\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"reserve all judgements\",\"tgt_span\":\"웬만한 일에는 판단을 유보하는 편이 되었는데\",\"description\":\"'모든(all)' 판단 유보가 '웬만한 일에는'으로 범위가 좁혀지고, 현재의 성향(I'm inclined)이 '~하는 편이 되었다'는 변화의 서술로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"not a few veteran bores\",\"tgt_span\":\"지독한 지루함을 주는 이들\",\"description\":\"'not a few'(적지 않은 수)의 수량 표현과 'veteran'(노련한, 상습적인)의 뜻이 빠지고 '지독한'으로 바뀜\"},{\"id\":\"E003\",\"src_span\":\"many curious natures\",\"tgt_span\":\"기이한 성격의 사람들을 많이\",\"description\":\"curious(호기심을 끄는, 흥미로운)가 '기이한'으로 바뀌어 평가 뉘앙스가 약간 달라짐(정도·평가어 차이)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'all judgements'가 '웬만한 일에는'으로 범위가 축소되고 'not a few'의 수량과 'veteran'의 뜻이 사라졌으나, 핵심 사실(판단 유보 습관 덕에 다양한 사람을 알게 되고 지루한 사람들에게 시달림)은 유지되어 요지는 크게 달라지지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그 결과', '덕분에…지만 동시에…'로 인과·양보·병렬 연결과 'a habit'의 지시 관계가 유지되며 초점 표현의 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 자기 성향 서술 → 자기 성향 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 소설 서술자의 평서체 회고 어조가 유지되며 '희생양' 등 자조적 태도도 남아 있습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 14219
+    },
+    "cache_creation_input_tokens": 14219,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2688,
+    "output_tokens": 988,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

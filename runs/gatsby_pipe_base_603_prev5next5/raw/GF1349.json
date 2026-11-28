@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3RKkSvU4Y7UruzfqFR",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1349\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I’m going to get her away.\",\"tgt_span\":\"제가 어떻게든 데리고 떠날 생각이에요.\",\"description\":\"원문에 없는 '어떻게든'이 첨가되어 결의의 강도가 다소 강해짐. 핵심 사실(아내를 데리고 떠남)은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"아내가 원하든 말든 간다는 내용과 아내를 데리고 떠나겠다는 의지가 유지되며, '어떻게든'은 평가어 정도의 차이에 그칩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'And now'는 '이제는'으로 시간적 연결이 유지되고 whether…or not의 양보 관계도 '원하든 원하지 않든'으로 유지됩니다. 주어 '그 사람'은 앞 문장에서 이어져 지시 대상이 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"윌슨이 아내를 데려가겠다는 결심을 밝히는 진술 → 같은 결심 진술. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없고 화자의 의지·계획을 서술한 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"윌슨이 톰에게 공손하게 말하는 관계가 '~예요' 해요체로 무리 없이 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1339,
+    "output_tokens": 737,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

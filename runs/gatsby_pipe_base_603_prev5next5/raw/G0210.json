@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3DcZ9YuguWUfjZarpL",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0210\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Tom’s got some woman in New York.\",\"tgt_span\":\"톰 씨가 뉴욕에 어떤 여자를 두고 있거든요.\",\"description\":\"'got some woman'(여자가 있다)이 '여자를 두고 있다'로 옮겨져 첩·내연 관계의 함의가 더해지고, '-거든요'로 앞 발화의 이유를 설명하는 연결이 생김. 다만 문맥상 둘 다 외도 사실을 알리는 것이라 의미·기능을 바꾸는 차이로 보기 어려움.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰, 뉴욕, 여자가 있다는 내용이 유지되며, '두고 있다'는 외도 상대가 있다는 같은 사태를 기술합니다. 'some'은 '어떤'으로 대응됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-거든요'는 앞의 '아니,'(모른다는 말에 대한 답)와 자연스럽게 이어지며 대조·인과 등 연결 관계를 바꾸지 않고, 지시·초점 표현도 변하지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰의 외도 사실을 알려 주는 설명 → 같은 사실을 알려 주는 설명. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자 조던이 아직 친하지 않은 닉에게 존대하는 '-요' 체이고 톰에 대한 '씨' 호칭도 관계에 어색하지 않습니다. 'some woman'의 약간 폄하하는 어조도 '어떤 여자'로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명·지명(뉴욕) 외에 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1067,
+    "output_tokens": 856,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

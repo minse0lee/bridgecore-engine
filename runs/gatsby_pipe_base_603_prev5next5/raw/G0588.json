@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3MGsgqoPHYXxRWF4BY",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0588\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"surviving the laughter and the sound of his still glowing garden\",\"tgt_span\":\"여전히 환한 정원에서 들려오는 웃음소리와 소음 속에서도 그 자리를 지키고 있었다\",\"description\":\"'his still glowing garden'(개츠비의 아직 빛나는 정원)의 소유 관계가 사라지고, 'laughter and the sound'가 '웃음소리와 소음'으로 옮겨져 'sound'가 부정적 '소음'으로 바뀜. 정원이 '환한' 것과 웃음소리가 '정원에서 들려오는' 것으로 구조가 재편됨.\"},{\"id\":\"E002\",\"src_span\":\"A wafer of a moon\",\"tgt_span\":\"얇은 조각 같은 달\",\"description\":\"wafer(얇은 과자/성체 조각)의 비유가 '얇은 조각 같은'으로 옮겨져 초승달의 가늘고 하얀 모양 이미지가 약해짐. 의미는 대체로 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'the sound of his still glowing garden'의 소리가 중립적 '소음'으로 바뀌어 평가 내용이 달라졌으나, 핵심 사실(달이 웃음과 소리 속에서도 남아 밤을 아름답게 함)은 유지되어 요지는 크게 다르지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계는 유지됩니다. 'his' 소유 관계는 '정원'이 문맥상 개츠비의 것으로 읽혀 지시 대상이 바뀌지 않았고, 달이 주어인 병렬 분사 구조도 이어집니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사 서술 → 장면 묘사 서술. 같은 종류의 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가를 나타내는 표현이 없는 묘사문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술자의 문어체 서술('-었다')이 유지되며 인물 간 관계나 태도 표현이 문제되지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습이 없고 인명만 등장합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1804,
+    "output_tokens": 1000,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

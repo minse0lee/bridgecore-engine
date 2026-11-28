@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3U9uvmRL5js3dE2S3w",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1614\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"he heard her cry\",\"tgt_span\":\"그녀가 외치는 소리가 들렸다\",\"description\":\"청취 주체 'he'(Michaelis)가 명시되지 않고 피동형 '들렸다'로 바뀜. 문맥상 청자가 유지되어 의미 변화는 없음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"그녀가 외치는 내용('때려봐!')과 그것이 들렸다는 사태가 유지됩니다. 'Beat me'를 '때려봐'로 옮긴 것은 같은 요구이며, 청자가 앞 문맥의 미카엘리스로 이어지므로 행위자 변화가 아닙니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'her'가 윌슨 부인을 가리키는 관계가 '그녀'로 유지되고 연결·초점 관계의 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"윌슨 부인의 도발적 외침을 서술 → 도발적 외침 서술. '때려봐!'가 상대를 도발하는 말로 읽혀 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 감정적 외침으로, 의무·허가·금지·규범을 정하는 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"부부 사이의 격한 다툼에서 쓰는 반말 명령이 '때려봐!'로 유지되어 관계와 태도에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1934,
+    "output_tokens": 734,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3ZKvaxEpDkXFpwB5ar",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1744\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“All night, if necessary. Anyhow, till they all go to bed.”\",\"tgt_span\":\"“필요하다면 밤새도록요. 어쨌든 다들 잠들 때까지는 있을 겁니다.”\",\"description\":\"화자(Gatsby)가 번역문 안에서 '~요', '있을 겁니다'로 상대에게 높임말을 쓴 것은 앞 문장의 번역(Gatsby는 반말, Nick은 높임말)과 어긋남. 원문에는 높임 요소 없음. 앞 문장 번역에서는 Gatsby가 반말을 쓰고 Nick이 존댓말을 쓰므로 관계 설정과 불일치.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"필요하면 밤새도록, 어쨌든 모두 잠자리에 들 때까지 기다린다는 내용이 유지됩니다. '있을 겁니다'는 기다림을 이어받은 표현으로 의미 변화가 없습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'어쨌든'이 앞 구절에 대한 최소 기한 제시라는 연결 관계를 유지하며, 'till'이 '때까지는'으로 대응됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"질문에 대한 답변 → 질문에 대한 답변. 기다릴 시간을 알려 주는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없는 대화 속 답변입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 문맥상 화자 Gatsby와 청자 Nick의 관계에서 앞 번역은 Gatsby가 반말, Nick이 높임말을 쓰는 설정인데, 이 문장은 '-요', '-ㅂ니다' 높임체로 옮겨져 관계 설정과 맞지 않습니다. 내용과 행동에는 영향이 없어 minor입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1277,
+    "output_tokens": 920,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

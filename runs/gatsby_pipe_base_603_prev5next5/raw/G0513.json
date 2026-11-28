@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3KRMNQR13NyTCUUAhF",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0513\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"he wants to go home\",\"tgt_span\":\"저 사람은 집에 가자고 난리예요\",\"description\":\"'집에 가고 싶어 한다'가 '집에 가자고 난리'로 과장되어 강도와 평가적 뉘앙스가 더해짐. 핵심 사실은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"판단 질문 2: 남편이 아내가 즐거워할 때마다 집에 가고 싶어 한다는 내용이 같고, '난리'는 정도·평가어의 차이에 그칩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"he가 '저 사람'으로, I가 '내가'로 같은 대상을 가리키며, Whenever의 조건·반복 관계도 '~보이면'으로 남아 있습니다. '모습만'의 '만'은 원문에 없지만 초점 변화로 보기는 어렵습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"남편에 대한 불평 → 남편에 대한 불평. 같은 종류의 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"wants to는 규범이 아닌 바람이며 의무·허가·금지를 정하는 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"아내들이 서로 푸념하는 친근한 대화 장면에 '~예요' 해요체가 어울리고, 남편에 대한 짜증도 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1367,
+    "output_tokens": 718,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

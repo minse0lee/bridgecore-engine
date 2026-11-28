@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3Gj1AnWe9PRnMVBAHv",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0387\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"obviously under the impression\",\"tgt_span\":\"굳게 믿는 눈치였다\",\"description\":\"'분명히 ~라는 인상을 받고 있는 것이 보인다'(화자의 추정)가 '굳게 믿는 눈치'로 바뀌어 확신 정도가 다소 강해짐. 핵심 사실은 유지됨.\"},{\"id\":\"E002\",\"src_span\":\"yield him up her person to a greater or lesser degree\",\"tgt_span\":\"어느 정도까지는 되었든 자신에게 몸을 허락할 것\",\"description\":\"'많든 적든 어느 정도'의 정도 표현이 '어느 정도까지는 되었든'으로 어색하게 옮겨졌으나 뜻은 통함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"세 쌍의 부부, 조던의 동반자, 끈질기고 노골적 암시를 즐기는 대학생, 조던이 언젠가 몸을 허락하리라는 그의 기대가 모두 유지됩니다. 'obviously'가 '굳게 믿는 눈치'로 바뀐 것은 정도 차이에 그칩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그는'이 대학생을, '자신에게'가 대학생을 가리켜 지시 관계가 유지되며, 문장 분할 후에도 부가 설명 관계가 남아 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 상황 서술 → 인물 상황 서술. 설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 인물 묘사로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 문어체 서술 태도가 유지되며, 대학생에 대한 다소 냉소적 묘사도 약화되지 않았습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명만 있고 별도로 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2133,
+    "output_tokens": 859,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

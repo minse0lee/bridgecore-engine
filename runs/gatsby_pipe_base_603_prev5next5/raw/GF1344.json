@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3R77B4sTM8wdGM1SaD",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1344\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"갑자기 돈이 왜 필요한지 묻는 내용이 인물·행위·시간 면에서 동일하게 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'all of a sudden'이 '갑자기'로, 초점인 '돈'이 '돈은'으로 유지되어 지시·연결·초점 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"돈이 필요한 이유를 묻는 질문 → 돈이 필요한 이유를 묻는 질문. 기능이 같은 종류입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화 속 질문이라 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자 톰이 윌슨에게 말하는 높임 수준이 적절한지 판단하려면 두 사람의 관계(손님과 정비소 주인)와 원문 대화의 격식 수준 확인이 필요합니다. 번역문은 '필요하신 거죠?'로 높임을 사용했는데, 앞 문장에서 톰은 반말('사고 싶나?')을 쓰고 있어 문맥상 일관성 검토가 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1089,
+    "output_tokens": 661,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

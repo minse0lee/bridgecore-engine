@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3FxyXZ1GiDhA5GG5v9",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0356\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"remarked Jordan\",\"tgt_span\":\"조던이 말했다\",\"description\":\"remarked(논평·언급함)가 단순한 '말했다'로 바뀜. 의미 변화는 거의 없는 통상적 대응이라 사소함.\"},{\"id\":\"E002\",\"src_span\":\"the premature moon, produced like the supper, no doubt, out of a caterer’s basket\",\"tgt_span\":\"하늘에 떠 있던 이른 달을 향한 것이었다. 저녁 식사처럼, 그 달 역시 분명 출장 뷔페 바구니에서 뚝딱 꺼내 놓은 듯했다\",\"description\":\"'no doubt'(분명)이 달이 꺼내졌다는 추측 부분에 걸리는 것은 유지되나, '그 달 역시'로 바뀌어 'produced like the supper'(저녁 식사가 그렇듯 만들어진 달)이 '달도 저녁처럼 꺼내진 듯'으로 확실성이 소폭 달라짐. 해석상 의미는 유지.\"},{\"id\":\"E003\",\"src_span\":\"“You’ve dyed your hair since then,”\",\"tgt_span\":\"“그사이에 머리를 염색하셨네요.”\",\"description\":\"조던이 소녀들에게 건넨 말투를 존댓말로 옮김. 관계상 낯선 사이의 대화로 허용 범위 내.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"염색 발언, 조던의 발화, 내가 놀람, 소녀들이 이미 자리를 뜸, 말이 달을 향한 것, 달이 케이터러 바구니에서 나온 듯하다는 내용이 모두 유지되며 'remarked'→'말했다'는 통상적 대응입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'but'의 대조('놀랐지만')와 'her remark'의 지시 대상(조던의 말), 'like the supper'의 비유 관계('저녁 식사처럼')가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술 → 소설 서술. 말이 엉뚱한 곳을 향한 어색한 상황을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"낯선 사이의 사교적 말투가 존댓말로 자연스럽게 유지되어 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 별도로 판정할 문화 고유의 제도·단위·관습이 없습니다('caterer’s basket'은 일반 어휘).\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1716,
+    "output_tokens": 1100,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

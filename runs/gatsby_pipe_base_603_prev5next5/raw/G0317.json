@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3F9s6Pvud2U5Ee7jyk",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0317\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"in half an hour\",\"tgt_span\":\"30분 만에\",\"description\":\"'half an hour'를 '30분'으로 옮긴 것은 같은 시간이라 의미 차이가 없고, 이 오류 항목은 정정 대상이 아닌 확인용 기록임\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"주방의 기계, 오렌지 200개의 즙, 30분, 버튼 200번, 집사의 엄지손가락이라는 수량과 조건이 모두 유지됩니다. '만'은 약간의 뉘앙스일 뿐 사실을 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"if 조건 관계가 '누르면'으로 유지되고 지시·초점 관계도 바뀌지 않았습니다. '이백 번만'의 '만'은 원문의 서술 초점을 크게 바꾸지 않습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"주방 기계 설명(서술) → 주방 기계 설명(서술). 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 설비를 묘사하는 문장이며 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문의 평서체 '-었다'가 유지되며 관계나 태도를 바꾸는 표현이 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"butler를 '집사'로 옮겨 저택 고용인이라는 의미가 통용 표현으로 전달됩니다. 시간·수량도 변환 없이 유지됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2601,
+    "output_tokens": 735,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

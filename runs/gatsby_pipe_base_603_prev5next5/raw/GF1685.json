@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3WyVT3khufDR2r4bDg",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1685\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"until we were beyond the bend\",\"tgt_span\":\"굽이진 길을 벗어날 때까지\",\"description\":\"'우리가 커브를 지날 때까지'에서 주어 'we'가 빠지고 'the bend'(특정 모퉁이)가 일반적인 '굽이진 길'로 바뀜. 다만 누가 벗어났는지는 문맥상 차가 벗어난 것으로 읽혀 사태는 동일함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 천천히 운전하다 모퉁이를 벗어난 뒤 가속해 쿠페가 밤에 질주했다는 사태가 유지됩니다. 'we'의 생략과 'bend'를 '굽이진 길'로 옮긴 것, foot을 '가속 페달을 밟았고'로 옮긴 것은 같은 사태를 기술하는 자연스러운 표현입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'until'의 시간 한계와 'then'의 순차 관계가 '~때까지 … 이내'로 유지되며 지시·초점 관계 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사적 상황 설명 → 서사적 상황 설명. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 서술문으로 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"출판물 본문의 서술체('-했다' 평서체)가 유지되며 화자·청자 관계 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 별도로 판정할 문화·제도 고유 대상이 없습니다. 쿠페(coupé)는 통용되는 음역입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1632,
+    "output_tokens": 789,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

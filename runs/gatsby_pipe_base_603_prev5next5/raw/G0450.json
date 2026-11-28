@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3J6eT8EaFkMPpoSFZR",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0450\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"or seemed to face\",\"tgt_span\":\"혹은 온 세상과 마주하고 있는 것처럼 보이다가\",\"description\":\"'마주했다—아니 마주하는 듯 보였다'는 자기 정정 구조가 '온 세상을, 혹은 온 세상과 마주하고 있는 것처럼'으로 바뀌어 대상(온 세상을 마주함)이 흐려지고 목적어와 동사 관계가 어긋남\"},{\"id\":\"E002\",\"src_span\":\"concentrated on you\",\"tgt_span\":\"오직 나만을 향했다\",\"description\":\"일반 2인칭 'you'가 화자 '나'로 한정되고 '오직'이 첨가되어 초점이 좁아짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 일반 독자를 가리키는 you가 '나'로 바뀌고 '오직'이 더해졌으며, 자기 정정 구조가 약간 달라졌으나 미소의 핵심 묘사(온 세상을 잠깐 마주하다 상대에게 집중)는 유지되어 요지는 크게 바뀌지 않습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 3(초점·범위): 일반 'you'에 대한 집중이 '오직 나만'으로 배타적 초점이 붙어 범위가 바뀌었고 앞 문단의 일반 you 연결도 달라졌으나 요지는 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술적 묘사 → 서술적 묘사. 미소의 특성을 설명하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가를 나타내는 표현이 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 '-했다'가 유지되며 화자·청자 관계상 문제가 되는 높임이나 호칭 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1883,
+    "output_tokens": 897,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

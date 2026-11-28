@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3AcETvtoMWhSbNRvP4",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0081\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"blew curtains in at one end and out the other\",\"tgt_span\":\"양 끝의 커튼을 … 안팎으로 펄럭이게 했고\",\"description\":\"한쪽 끝에서는 안으로, 다른 쪽 끝에서는 밖으로 불어 넣는 구체적 움직임이 '양 끝 커튼이 안팎으로 펄럭임'으로 일반화됨\"},{\"id\":\"E002\",\"src_span\":\"and then rippled over the wine-coloured rug, making a shadow on it\",\"tgt_span\":\"그러고는 와인색 카펫 위로 물결치듯 흘러가, 마치 바다 위의 바람처럼 그 위에 그림자를 드리웠다\",\"description\":\"카펫 위에서 물결치며 그림자를 만든 주체인 바람이 문장 흐름상 커튼으로 읽혀 주체가 바뀜\"},{\"id\":\"E003\",\"src_span\":\"as wind does on the sea\",\"tgt_span\":\"마치 바다 위의 바람처럼\",\"description\":\"바람이 바다 위에 그림자를 만드는 비유가 바람이 바다 위의 바람처럼 되는 어색한 구조로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 카펫 위로 물결치며 그림자를 만든 주체가 바람에서 커튼으로 읽혀 행위자가 달라졌고, 커튼 움직임의 방향과 비유 구조도 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: '그러고는' 이하의 생략된 주어가 앞 절의 주어인 커튼으로 이어져 and then rippled의 주어(breeze)가 가리키는 대상이 바뀌었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사 → 장면 묘사. 서술 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 청자 관계가 드러나는 높임·호칭이 평가 대상이 아닙니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2225,
+    "output_tokens": 960,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

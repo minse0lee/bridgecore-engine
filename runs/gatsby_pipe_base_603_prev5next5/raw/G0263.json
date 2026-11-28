@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3EEdZNz77wDkSbfn69",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0263\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"some story of her too\",\"tgt_span\":\"그녀에 관한 소문을 들은 적이 있었다\",\"description\":\"'too'(앞 문장의 그녀 얼굴을 알아본 것에 더해)에 해당하는 표현이 없고 'story'가 '소문'으로 옮겨졌으나 핵심 사실은 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"그녀에 관한 비판적이고 불쾌한 이야기를 들었으나 내용은 오래전에 잊었다는 사실이 유지됩니다. story→소문은 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(초점·범위): 'too'가 가진 '얼굴이 낯익은 것에 더해 이야기도 들었다'는 첨가 초점이 번역에서 사라졌습니다. 다만 두 문장이 이어져 읽혀 핵심 지시 관계는 유지되므로 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 회상 서술 → 회상 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범적 의미가 없는 소설 속 회상 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술자의 담담한 서술체가 '~었다' 문체로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1367,
+    "output_tokens": 704,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3ZJN4nqCCtZBKcHP9R",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1742\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“I don’t trust him, old sport.”\",\"tgt_span\":\"“그 사람을 믿을 수 없어요, 친구.”\",\"description\":\"Gatsby의 'old sport' 호칭을 '친구'로 옮기고, 화자(Gatsby)가 Nick에게 쓰는 말투를 '~어요'로 처리함. 문맥상 앞 대사는 Gatsby가 반말이고 Nick은 존댓말인데, 번역은 같은 화자의 말투가 일관되지 않음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그 사람을 믿지 못한다'는 내용과 부정, 대상(Tom)이 유지됩니다. '믿을 수 없어요'는 불신을 나타내는 통상적 대응입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사 him은 '그 사람'으로 앞 문맥의 Tom을 그대로 가리키고, 연결·초점 표현의 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"불신을 표명하는 진술 → 불신을 표명하는 진술. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범적 의미가 없는 개인적 심정 표현입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 번역 전체에서 Gatsby는 '~야', '~지' 같은 반말을 쓰는데 이 문장만 '~어요'로 말해 화자와 청자의 관계에 맞지 않고, 이 구간은 Gatsby의 격식 있는 호칭 'old sport'의 특색도 '친구'로 평범해졌습니다. 다만 의미 이해에는 영향이 작습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1207,
+    "output_tokens": 824,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

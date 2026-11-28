@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3UAFmvqPiMN8BYDYCR",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1615\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"you dirty little coward\",\"tgt_span\":\"이 비겁하고 더러운 인간아\",\"description\":\"'little'(비하·경멸의 뉘앙스)에 대응하는 표현이 없고, 'coward'가 '인간'이라는 호칭으로 바뀌어 비겁함이 수식어로 옮겨짐. 경멸 정도가 다소 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"밀쳐 넘어뜨리고 때리라는 도발과 '더럽고 비겁한 자'라는 욕설 내용이 유지되며, little은 평가어의 정도 차이에 그칩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 대상과 연결 관계(밀쳐내고 → 때림)가 유지되며 초점 표현이 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"분노에 찬 도발·욕설 → 분노에 찬 도발·욕설. 명령형 외침의 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·금지·허가를 거는 규범 표현이 아니라 감정적 도발이므로 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"남편에게 퍼붓는 격한 반말 욕설의 태도가 '인간아' 호칭과 함께 유지되며, 경멸의 강도가 약간 달라진 정도입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1950,
+    "output_tokens": 704,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

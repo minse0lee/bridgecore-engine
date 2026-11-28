@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3LaZHxfKMBNiaWKk9R",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0559\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"you oughtn’t to try driving at night\",\"tgt_span\":\"밤에는 운전하지 말았어야죠\",\"description\":\"현재·일반적 조언(밤에 운전을 시도하지 말아야 한다)이 과거 사실에 대한 후회·질책('말았어야죠')으로 바뀌어 시제와 규범의 성격이 달라짐. 'try'도 빠짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(시간): 일반적 조언이 이미 일어난 일에 대한 과거형 질책으로 바뀌고 'try'가 빠졌으나, 서툰 운전자가 밤에 운전하면 안 된다는 핵심 내용은 읽혀 요지는 크게 다르지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"if 조건 관계가 '-다면'으로 유지되고 지시·초점 관계의 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"운전자에게 훈계·충고하는 말 → 훈계·질책하는 말. 같은 종류의 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 서툰 운전자가 밤에 운전을 시도해서는 안 된다는 규범적 조언이 이미 한 행동에 대한 후회·비난('말았어야죠')으로 바뀌어 규범의 시점이 달라졌으나, 권고 취지 자체는 남아 독자의 행동 이해는 크게 바뀌지 않습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"구경꾼이 낯선 사람에게 하는 말로 '-요/죠' 체가 적절하며, 훈계하는 태도도 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1205,
+    "output_tokens": 833,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

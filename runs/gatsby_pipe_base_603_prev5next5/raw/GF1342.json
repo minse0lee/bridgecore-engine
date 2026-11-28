@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3Qyaji1V7Vxxn8TVvL",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1342\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“Big chance,”\",\"tgt_span\":\"“그럴 리가 있겠어요.”\",\"description\":\"윌슨이 차를 살 가능성을 비꼬아 말한 반어('큰 기회네요', 살 돈이 없다는 뜻)가 '그럴 리가 있겠어요'라는 수사의문형 부정으로 바뀌어, 반어적 평가가 직접적 부정으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"윌슨이 자신이 차를 살 기회·가능성은 거의 없다고 말하는 핵심 내용이 유지되고, 희미하게 미소 짓는 행위도 같습니다. 반어의 문자적 내용('큰 기회')이 사라진 점은 발화 기능(Context)에서 판단합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뒤의 'No, but…'과 이어지는 대조 연결이 유지되고 지시·초점 변화도 없습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 원문은 '살 수 있겠냐'는 질문에 대한 비꼬는 반어 → 번역은 '그럴 리가 있겠어요'라는 수사의문형 부정 답변으로 바뀌었으나 둘 다 구매 가능성을 부정하는 같은 종류의 응답 기능이므로 보존에 가깝지만, 'Big chance'의 비꼬는 감탄이 직접적 부정으로 바뀌어 반어 기능이 약해졌습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"수리공 윌슨이 부유한 톰에게 하는 존대 해요체가 관계에 맞고, 'Big chance'의 씁쓸한 자조적 태도도 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1144,
+    "output_tokens": 872,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

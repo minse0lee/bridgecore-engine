@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3MYt6zgTS5CeJdV8Kc",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0603\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the dark lanes of the Forties\",\"tgt_span\":\"40번가 어두운 골목\",\"description\":\"'the Forties'(40번대 거리들, 즉 40번가부터 49번가까지의 여러 거리)를 단일 도로 '40번가'로 옮겨 범위가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상·수량): 40번대 거리들이 단일 '40번가'로 바뀌어 장소의 범위가 달라졌으나, 어두운 골목에 택시가 줄지어 서고 화자가 가슴이 내려앉았다는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"시간 부사절 'when'이 '-ㄹ 때면'으로 유지되고 지시·초점 관계의 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 화자의 감정을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술 평어체가 소설 본문에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2: 뉴욕 맨해튼의 40번대 거리 구역(극장가 인근)을 가리키는 'the Forties'가 단일 거리 '40번가'로 바뀌어 지명 체계의 의미가 달라졌습니다. 극장가로 향하는 택시라는 맥락은 남아 있어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2536,
+    "output_tokens": 752,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

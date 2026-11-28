@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3MKtkuqkQYTaYJBQoe",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0589\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"endowing with complete isolation the figure of the host\",\"tgt_span\":\"주인장의 모습은 완전히 고립되어 보였다\",\"description\":\"공허함이 주인의 모습에 완전한 고립감을 부여한다는 인과적 작용이, 그의 모습이 고립되어 보였다는 단순 서술로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"from the windows and the great doors\",\"tgt_span\":\"창문과 커다란 문들 사이로\",\"description\":\"'~에서(from)'가 '~사이로'로 바뀌어 공허함이 흘러나오는 출처가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 공허함이 주인의 모습에 고립을 부여하는 작용이 단순한 '고립되어 보임'으로, 출처 'from'이 '사이로'로 달라졌으나 핵심 장면과 인상은 유지되어 요지 이해에는 큰 영향이 없습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 공허함이 주인을 고립되게 만든다는 분사구문의 인과 연결이 병렬된 두 서술로 바뀌어 연결 관계가 달라졌으나 영향은 작습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사 서술 → 장면 묘사 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 장면 묘사로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 문어체와 화자의 관조적 태도가 유지됩니다. '주인장'은 다소 구어적이나 관계를 바꾸지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1801,
+    "output_tokens": 838,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3CJtVXNcNdc18A5hBa",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0157\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a great, big, hulking physical specimen of a—\",\"tgt_span\":\"덩치만 크고 무식한 이런 인간이랑\",\"description\":\"'hulking physical specimen'(덩치 크고 육중한 육체적 표본)이 '덩치만 크고 무식한'으로 바뀌어 '무식한'이라는 원문에 없는 지적 평가가 첨가됨. 다만 비하·조롱의 어조는 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 육체적 거구라는 묘사에 '무식한'이라는 원문에 없는 속성이 더해져 평가 내용이 달라졌으나, 핵심 사실(톰이 짐승 같은 거구라는 것)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'you did do it'의 강조는 '어쨌든 당신이 그랬어'로, 'That's what I get for'의 인과는 '결혼한 대가'로 유지되며 지시·연결·초점이 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장난기 섞인 비난·불평 → 장난기 섞인 비난·불평. 같은 종류의 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 대화문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"부부 사이의 반말과 장난스러운 비하·애정 섞인 비난의 태도가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1655,
+    "output_tokens": 748,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

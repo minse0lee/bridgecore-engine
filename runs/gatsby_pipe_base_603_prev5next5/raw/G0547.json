@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3LH55Mo2aXDxUNSgGe",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0547\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"accounted for the detachment of the wheel\",\"tgt_span\":\"바퀴가 빠진 모양이었는데\",\"description\":\"벽의 돌출부가 바퀴 분리를 설명해 준다는 서술이 '~한 모양이었다'라는 추측으로 바뀌어 확실성이 낮아짐(핵심 인과는 유지)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2(확실성): 서술자가 단정한 원인(accounted for)이 '모양이었다'라는 추측으로 바뀌었으나 핵심 사실(벽의 돌출부가 바퀴가 떨어진 원인)은 유지되어 minor입니다. half a dozen은 '대여섯 명'으로 통상 범위 내이며, 힌트의 숫자 12는 평가대상 밖 문장의 수치입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"which가 가리키는 바퀴가 '그 바퀴를'로 유지되고 원인→결과 및 now의 시간 관계도 남아 있어 질문 1·2·3 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 사고 현장을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술자의 서술체가 '~었다'로 유지되며 특별한 높임이나 호칭 관계가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1991,
+    "output_tokens": 762,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

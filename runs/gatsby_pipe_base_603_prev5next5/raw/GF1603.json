@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3TcucanSEDNtCNb3R4",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1603\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I’ve got my wife locked in up there\",\"tgt_span\":\"아내가 위층에 갇혀 있어서 그래요\",\"description\":\"'내가 아내를 가둬 두었다'는 행위 주체(윌슨)의 행위가 '아내가 갇혀 있다'는 상태로 바뀌어 가둔 사람이 드러나지 않음. 또한 '~어서 그래요'로 앞 대화(자러 가라는 권유 거절)의 이유를 설명하는 인과 표지가 첨가됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위자·행위): 윌슨이 아내를 가둔 행위가 단순히 아내가 갇혀 있는 상태로 바뀌어 누가 가두었는지가 사라지고 의도적 감금이라는 핵심 사실이 약해졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(연결 관계): 원문은 인과 표지 없이 놀라운 사실을 선언하듯 말하지만 번역은 '~어서 그래요'를 덧붙여 앞 상황의 이유를 설명하는 인과 관계를 만들었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상황 설명(대화 속 진술) → 상황 설명. 윌슨이 위층 소음에 대해 설명하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"윌슨이 이웃에게 차분히 말하는 상황에서 '~요' 체는 관계에 어울리며 태도 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1777,
+    "output_tokens": 807,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

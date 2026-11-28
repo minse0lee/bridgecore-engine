@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3dBPEgqAdqgrSRrXc6",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1346\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“Your wife does,”\",\"tgt_span\":\"\\\"당신 부인이 그렇다는 거겠지,\\\"\",\"description\":\"놀라서 되묻는 확인(당신 아내가 그렇다고요?)이 '그렇다는 거겠지'라는 추측·단정 어조로 바뀌고, 'does'가 가리키는 '서부로 가고 싶어 한다'는 내용이 '그렇다'로 모호해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): Tom이 놀라 상대 말을 되받는 표현이 '~겠지'라는 추측으로 바뀌어 확실성이 달라졌으나, 아내가 그렇다는 핵심 사실과 놀람은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'does'가 앞 발화의 'want to go West'를 받는 대용 관계가 '그렇다'로 남아 있어 지시 관계가 유지됩니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 놀라서 되묻는 확인 반응 → 상대 말을 추측·단정하는 진술로 바뀌어 발화 기능이 달라졌으나, 놀람 표지('깜짝 놀라')가 남아 있어 영향은 작습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Tom이 Wilson에게 하는 말로, 앞뒤 문맥(Tom의 해라체/하게체 어조)과 맞는 평어체 반응이 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1162,
+    "output_tokens": 795,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

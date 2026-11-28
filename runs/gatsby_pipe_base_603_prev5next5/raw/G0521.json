@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3KVxCQgA3jQz8HKNtT",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0521\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"some last word to her\",\"tgt_span\":\"마지막 인사를 건네고 있었는데\",\"description\":\"'마지막으로 하는 말'이 '마지막 인사'로 바뀌어 내용이 작별 인사로 한정되고, 뒤의 작별 인사를 하러 오는 사람들과 겹침\"},{\"id\":\"E002\",\"src_span\":\"several people approached him\",\"tgt_span\":\"사람들이 다가오자\",\"description\":\"'several'(몇몇)이 수량 표시 없이 '사람들'로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'some last word'(마지막으로 건넨 말)가 '마지막 인사'로 좁혀지고 'several'이 '사람들'로 바뀌었으나, 개츠비가 조던에게 말하다 사람들이 오자 태도가 격식으로 바뀌는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but의 대조는 '-는데'로, as의 시간 관계는 '-자'로 유지되고 대명사 지시도 같습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 개츠비의 태도 변화를 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"3인칭 서술문이라 화자와 청자 사이 관계에 따른 높임·호칭을 따질 대상이 없고, 서술체 '-었다'가 쓰였습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1424,
+    "output_tokens": 787,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

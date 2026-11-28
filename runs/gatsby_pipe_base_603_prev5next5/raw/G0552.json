@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3LLJYEW9Hp55qeJX9u",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0552\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the late patron of Gatsby’s library\",\"tgt_span\":\"바로 얼마 전 개츠비의 서재를 방문했던 그 손님이었다\",\"description\":\"late는 '고인이 된'이 아니라 '최근의/얼마 전의' 의미로 옮겨졌으며 이는 적절함. 다만 patron(서재 이용객)이 '손님'으로 옮겨져 있어 의미 변화 없음 — 오류 아님으로 판단되나, 아래 E001은 'infinitely astonishing'이 '무척이나 놀라운 모양'으로 확실성이 추측으로 바뀐 점을 기록하기 위해 사용하지 않음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): '놀라웠다'는 단정이 '놀라운 모양이었다'로 추측화되었으나 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'he/him'과 'the man'의 지시 관계, first–then의 순서('먼저…곧이어')가 유지되고 초점·범위 표현도 변하지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 인물을 알아보는 장면 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 평서 문어체가 유지되며 화자·청자 관계상 문제되는 높임이나 호칭 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명(개츠비)만 있고 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1559,
+    "output_tokens": 790,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

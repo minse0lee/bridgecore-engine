@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3VEvM9NN8zyahxVFgX",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1640\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“M-a-v—”\",\"tgt_span\":\"“마-브—”\",\"description\":\"철자를 한 글자씩 불러 주는 알파벳 M-a-v를 한글 음절 '마-브'로 바꿈. 철자를 하나씩 말하는 장면의 성격이 흐려지고, 뒤 문장의 'r—', 'M-a-v-r-o—'와 표기가 어긋남\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 경찰이 이름 철자를 한 글자씩 부르는 내용이 '마-브'라는 음절 읽기로 바뀌어 말한 내용이 달라졌습니다. 다만 경찰이 이름을 받아 적으며 말하고 있다는 요지와 행위자는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2: 앞뒤 문장이 'M-a-v-r-o'를 한 글자씩 이어 부르는 구조인데, 한글 '마-브'로 바뀌어 이어지는 'r—', 'M-a-v-r-o—'와 연결이 맞지 않습니다. 같은 철자를 이어 가는 연속 관계가 끊겼습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"경찰이 이름을 받아 적으며 철자를 말하는 서술 → 같은 서술. 발화 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 청자 사이의 높임·호칭이 드러나는 표현이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"판정할 문화 고유의 제도·관습·단위가 없습니다. 철자 표기 문제는 Semantic에서 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1520,
+    "output_tokens": 827,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

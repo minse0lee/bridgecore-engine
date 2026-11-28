@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3DDwMwispFr9btLWoK",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0195\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"She was only extemporizing\",\"tgt_span\":\"그녀는 그저 즉흥적으로 내뱉은 말이었겠지만\",\"description\":\"'그녀가 즉흥적으로 말하고 있었을 뿐'이라는 사실 단정이 '말이었겠지만'이라는 추측으로 바뀌고, 행위(즉흥으로 말하기)가 '그녀는 … 말이었다'로 어긋남\"},{\"id\":\"E002\",\"src_span\":\"her heart was trying to come out to you concealed in one of those breathless, thrilling words\",\"tgt_span\":\"숨 가쁘고 전율 돋는 말들 속에 마음을 숨겨 전하려는 듯\",\"description\":\"마음이 말 속에 숨겨진 채 '밖으로 나와 당신에게 닿으려' 한다는 서술이, 그녀가 마음을 숨겨 전하려 한다는 의도적 행위로 바뀌고, 'one of those'(그런 말들 중 하나)가 복수 '말들'로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: '즉흥적으로 말했을 뿐'이 '말이었겠지만'이라는 추측으로 확실성이 달라졌고, 마음이 말에 실려 나오려 한다는 내용이 그녀가 마음을 숨겨 전한다는 것으로 바뀌었으나, 따뜻한 기운이 흘러나왔다는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'but'의 대조가 '-겠지만'으로, 'as if'의 비유 관계가 '-듯'으로 유지되고 'only'에 해당하는 '그저'도 같은 대상에 붙어 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 상황 묘사 → 서술자의 상황 묘사. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문이며 화자와 청자의 관계를 드러내는 높임·호칭 표현이 평가 대상이 아닙니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2078,
+    "output_tokens": 986,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

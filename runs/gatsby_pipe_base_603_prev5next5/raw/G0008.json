@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV38bC9VFoChznrjs3EU",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0008\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"something\",\"tgt_span\":\"무언가 중요한 것\",\"description\":\"'무언가(something)'에 원문에 없는 '중요한'이 덧붙음. 다만 놓치는 대상의 의미는 크게 바뀌지 않는 미세한 첨가.\"},{\"id\":\"E002\",\"src_span\":\"I am still a little afraid of missing something if I forget that, as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies is parcelled out unequally at birth\",\"tgt_span\":\"아버지가 속물스럽게 암시하셨고 … 잊는다면, 나는 여전히 무언가 중요한 것을 놓칠까 봐 조금 두렵다\",\"description\":\"원문은 '~라는 사실을 잊으면 무언가 놓칠까 두렵다'로 읽혀 두려움이 잊는 일에 걸리는데, 번역은 삽입절과 '잊는다면'의 배치가 바뀌었을 뿐 같은 조건 관계를 유지함. 구조는 자연스러운 재배열 범위.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"판단 질문 1: 아버지의 암시, 나의 되풀이, 예의범절의 불평등한 배분, 잊으면 놓칠까 두렵다는 내용이 모두 유지됩니다. '중요한'은 정도 수준의 미세한 첨가로 요지를 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'잊는다면 … 두렵다'의 조건 관계와 'as my father…' 삽입절의 지시 관계(아버지/나)가 유지되고 초점 표현도 달라지지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 자기 성찰적 진술 → 서술자의 자기 성찰적 진술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없는 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"아들인 서술자가 아버지를 '암시하셨고'로 높이고 서술 부분은 '~다' 문어체를 유지하며, 'snobbishly'의 자조적 태도도 '속물스럽게'로 전달됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"제도·단위·관습 등 문화 고유의 대상이 없습니다. 'fundamental decencies'는 일반적인 도덕적 예의 개념입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2720,
+    "output_tokens": 1034,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

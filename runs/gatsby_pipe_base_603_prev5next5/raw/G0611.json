@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3MkKhRVfjac9z6TDd2",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0611\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"up in Warwick\",\"tgt_span\":\"워윅에서 열린 홈 파티에\",\"description\":\"'워윅에 있는 곳에서 열린 하우스파티에 함께 있었다'는 의미가 '워윅에서 열린 홈 파티'로 옮겨졌으나 의미는 거의 유지됨(통상적 대응이므로 오류 아님으로 간주 가능). 단 house-party(숙박 동반 모임)가 '홈 파티'로 옮겨져 집에서 여는 파티로 읽힐 수 있음.\"},{\"id\":\"E002\",\"src_span\":\"the story about her that had eluded me that night at Daisy’s\",\"tgt_span\":\"데이지의 집에서 보냈던 그날 밤 내 기억 속에서 빠져나갔던 그녀에 관한 이야기\",\"description\":\"'데이지의 집에서 그날 밤 기억나지 않던 이야기'를 '데이지의 집에서 보냈던 그날 밤'으로 옮겨 의미는 유지되나 '보냈던'이 첨가됨. 의미 변화는 없음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: house-party(손님들이 며칠 머무는 모임)를 '홈 파티'로 옮겨 모임의 성격이 집에서 여는 파티로 약간 달라졌으나 핵심 사건(차를 빗속에 방치하고 거짓말, 이야기 회상)은 유지되어 요지는 같습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그 순간'이 and suddenly의 시간적 연결을 유지하고, '그녀에 관한 이야기'와 '그날 밤' 등 지시 관계가 원문과 같습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(회상 계기 설명) → 서술. 발화 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 소설 서술의 평서체 과거형이 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"하우스파티는 별도 제도 단위가 아닌 관습으로, 지명·인명은 음역으로 유지되어 문화적 대상이 바뀌지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 3117,
+    "output_tokens": 985,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

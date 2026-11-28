@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3E19T7mG6R6gsmunrA",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0242\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Tom was God knows where\",\"tgt_span\":\"톰이 어디 있었는지는 신만이 아시겠죠\",\"description\":\"'God knows where'는 톰이 어디 있는지 알 수 없다는 관용 표현(어딘가에 가 있었다는 비난 어조)인데, '신만이 아시겠죠'로 옮기면서 '신만이 아신다'는 문자적 표현이 되고 추측형 어미가 붙어 화자의 확정적 서술이 추측처럼 읽힘. 의미는 대체로 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"태어난 지 한 시간이 안 됐다는 시간과 톰의 소재를 알 수 없다는 내용이 유지됩니다. '신만이 아시겠죠'는 'God knows where'의 통상적 대응이며 사태가 달라지지 않았습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'and'의 병렬 연결이 '-는데'로 자연스럽게 재구성되어 시간적 배경과 톰의 부재 관계가 유지되고, 대명사 she는 '그 애'로 같은 대상(딸)을 가리킵니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"출산 당시 상황 서술 → 출산 당시 상황 서술. 톰의 부재를 암시하는 설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 같은 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"데이지가 닉에게 털어놓는 회상체 대화가 존댓말 구어체로 유지되고, 톰에 대한 냉소적 태도도 '신만이 아시겠죠'로 남아 있습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·관습·단위가 없고 인명만 등장합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1717,
+    "output_tokens": 838,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

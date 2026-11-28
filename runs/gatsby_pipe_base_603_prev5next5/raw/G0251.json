@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3E51NiMfxDRmvAPSHY",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0251\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"an absolute smirk\",\"tgt_span\":\"완전히 만족스러운 미소\",\"description\":\"smirk(잘난 척하는 능글맞은 웃음)가 중립적·긍정적인 '만족스러운 미소'로 바뀌어 부정적 태도 평가가 사라짐\"},{\"id\":\"E002\",\"src_span\":\"to which she and Tom belonged\",\"tgt_span\":\"자신과 톰만이 속한\",\"description\":\"'she and Tom belonged'(그녀와 톰이 속한)에 없는 '만'(only)이 더해져 초점이 추가됨\"},{\"id\":\"E003\",\"src_span\":\"a rather distinguished secret society\",\"tgt_span\":\"어느 아주 특별한 비밀 결사\",\"description\":\"distinguished(명망 있는, 저명한)가 '특별한'으로 바뀌어 평가 내용이 약간 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1·2: smirk의 부정적 평가가 '만족스러운 미소'라는 중립·긍정적 표현으로 바뀌었고, '만'이 더해져 배타성이 생겼으며 distinguished가 '특별한'으로 달라졌으나 핵심 사실(속임수 같은 불편함, 기다림, 비밀 결사 회원임을 과시하는 표정)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 3(초점·범위): 원문에 없는 '만'이 붙어 소속 범위가 '그녀와 톰'에서 '그녀와 톰뿐'으로 한정되는 초점 표현이 더해졌습니다. 다만 원문도 secret society의 성격상 배타성이 암시되어 영향은 작습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(화자의 불편함과 상대의 태도 묘사) → 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3: smirk에 담긴 화자의 비꼬는 태도(그녀의 우쭐하고 능글맞은 기색에 대한 못마땅함)가 '완전히 만족스러운 미소'로 중립화되어 약해졌습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"비밀 결사는 일반적 비유 표현이며 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2297,
+    "output_tokens": 1072,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV38xgyfsBSUFAwrGUUZ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0024\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"after various delays\",\"tgt_span\":\"몇 차례 지체된 끝에\",\"description\":\"'various delays'(여러 가지 지연)를 '몇 차례'(횟수)로 옮겨 수량 뉘앙스가 약간 달라졌으나 핵심 사실은 유지됨\"},{\"id\":\"E002\",\"src_span\":\"permanently, I thought\",\"tgt_span\":\"영구히 정착할 생각으로\",\"description\":\"'영구히 왔다고 생각했다'(나중에 틀렸음을 암시하는 회고적 판단)가 '정착할 생각으로'라는 의도 표현으로 바뀌어 회고적 아이러니가 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1(확실성): 'permanently, I thought'의 회고적 판단이 '정착할 생각으로'라는 의도로 바뀌어 그 생각이 틀렸다는 함의가 약해졌으나 아버지의 1년 지원, 지연, 22년 봄, 동부행이라는 핵심 사실은 유지되어 minor입니다. 'various delays'→'몇 차례'는 정도 차이로 오류 수준이 아닙니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 관계, 연결 관계(1년 지원 후 지체 끝에 도착), 초점 표현이 모두 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 화자가 자신의 경위를 설명하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회고 서술의 평서체가 유지되고 아버지에 대한 높임('하셨고')도 부자 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'twenty-two'를 '22년'으로 옮겼고 1922년을 가리키는 통용 표기로 이해 가능하며 다른 제도로 바꾸지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 3306,
+    "output_tokens": 897,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

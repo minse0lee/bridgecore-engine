@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3TgxhHU7LR1cKiFwN1",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1604\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"then we’re going to move away\",\"tgt_span\":\"같이 떠날 생각입니다\",\"description\":\"'we're going to move away'(우리가 이사 간다는 확정된 계획)가 '같이 떠날 생각입니다'로 바뀌어, 이사(move away)의 의미가 단순한 떠남으로 일반화되고 확정된 계획이 의향으로 약해짐. 또한 '같이'가 첨가됨.\"},{\"id\":\"E002\",\"src_span\":\"She’s going to stay there\",\"tgt_span\":\"거기 있게 한 다음\",\"description\":\"주어 She가 번역문에서 생략되고 '있게 한'이라는 사동 표현으로 바뀌어, 아내가 머무른다는 서술이 윌슨이 가두어 둔다는 행위로 옮겨짐. 앞 문장이 갇혀 있다고 말하므로 문맥상 의미는 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위·확실성): 'move away'(이사)가 '떠날'로 일반화되고 계획이 '생각'으로 약해졌으나, 핵심 사실(모레까지 아내를 두고 그 후 함께 떠남)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'and then'의 시간 순서가 '한 다음'으로 유지되고 지시·초점 관계의 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물의 계획 설명(진술) → 계획 설명(진술). 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 계획을 진술하는 문장으로 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"윌슨이 이웃에게 차분히 설명하는 상황에서 '-입니다' 존댓말이 관계상 무리가 없고 앞 문장 '그래요'와도 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1775,
+    "output_tokens": 907,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

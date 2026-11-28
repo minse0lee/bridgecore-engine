@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3GY75nqCmbxZf6fzFH",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0376\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"It’s more that he was a German spy during the war.\",\"tgt_span\":\"전쟁 중에 독일 스파이였다는 얘기가 더 많더라고요.\",\"description\":\"'그가 독일 스파이였다는 쪽이 더 그럴듯하다'는 루실의 견해·추측이 '그런 얘기가 더 많다'는 소문의 빈도 보고로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성·내용): 화자 개인의 판단이 소문의 많고 적음으로 바뀌었습니다. 다만 개츠비가 전쟁 중 독일 스파이였다는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞선 살인설에 대해 다른 설을 대조적으로 제시하는 연결이 '그건 아닐 거예요'와 '더 많더라고요'로 유지되며 지시·초점도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞의 소문을 반박하며 다른 설을 제시하는 발화 → 반박하며 다른 설을 제시하는 발화. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"일반 대화 상황에서 '~요' 체의 정중하고 부드러운 말투가 자연스럽게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·단위·관습이 없습니다. 인명만 등장합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1325,
+    "output_tokens": 756,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

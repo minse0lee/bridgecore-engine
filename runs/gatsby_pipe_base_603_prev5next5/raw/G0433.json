@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3HbRYCmeRQFBRKLYjh",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0433\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"old sport\",\"tgt_span\":\"친구\",\"description\":\"Gatsby의 시그니처 호칭 'old sport'(친근하면서 다소 꾸민 듯한 호칭)가 일반 호칭 '친구'로 바뀌어 낯선 사이에서의 친근한 어투와 호칭의 특색이 약해짐\"},{\"id\":\"E002\",\"src_span\":\"the Sound\",\"tgt_span\":\"해협\",\"description\":\"Long Island Sound라는 특정 지명이 일반명사 '해협'으로 옮겨져 고유 지명 정보가 줄었으나 맥락상 같은 수역을 가리킴\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"함께 가자는 제안, 해안 근처를 따라간다는 내용, 'Just'의 한정이 유지되고 'the Sound'가 '해협'으로 일반화된 것은 같은 대상을 가리켜 의미 변화로 보지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Just'의 한정 초점이 '그냥…로만'으로 유지되고 지시·연결 관계도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"함께 가자는 제안(권유 질문) → 함께 가자는 제안(권유 질문). 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 제안·선택 질문으로 의무·허가·금지의 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2·3: 'old sport'는 Gatsby 특유의 친근하면서 격식 있는 호칭인데 '친구'로 바뀌어 낯선 사람을 부르는 호칭의 특색과 태도가 약해졌고 높임('가시겠어요')과 '친구'가 어울리지 않아 관계 설정이 달라졌습니다. 다만 친근한 호칭이라는 기본 기능은 남아 minor입니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'the Sound'는 Long Island Sound를 가리키는 지명으로 '해협'으로 옮겨도 같은 수역으로 이해되며 제도·단위의 변경은 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1155,
+    "output_tokens": 947,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

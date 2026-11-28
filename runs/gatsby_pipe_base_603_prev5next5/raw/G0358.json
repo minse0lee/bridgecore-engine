@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3G4PDLbRHdzLoUxCcF",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0358\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"each one introduced to us as Mr. Mumble\",\"tgt_span\":\"남자들은 모두 이름조차 가물가물한 ‘어느 씨’ 정도로 소개되었다.\",\"description\":\"모두 'Mr. Mumble'이라는 같은 이름(웅얼거려 알아들을 수 없는 이름)으로 소개되었다는 내용이 '이름이 가물가물한 어느 씨 정도'로 바뀌어, 소개된 이름과 소개 방식이 달라지고 '정도로'가 추측성 뉘앙스를 더함\"},{\"id\":\"E002\",\"src_span\":\"the two girls in yellow\",\"tgt_span\":\"노란 드레스를 입은 두 소녀\",\"description\":\"원문에 없는 '드레스'가 더해짐(문맥상 앞 문장 번역에서도 쓰였고 의미 변화는 미미함)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 남자들이 모두 'Mr. Mumble'이라는 동일한 호칭으로 소개된 사실이 '이름이 가물가물한 어느 씨 정도'로 바뀌어 소개된 이름이 달라졌고 '정도로'가 추측성을 더했습니다. 다만 이름을 제대로 알 수 없었다는 취지는 유지되어 핵심 사건(소개됨, 동석)은 같으므로 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'each one'이 '남자들은 모두'로 이어지고 문장 분할로 연결이 유지되며 지시·연결·초점 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술(풍자적 서술) → 장면 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문이며 화자·청자 간 높임이나 호칭 관계가 문제 되는 대화가 아닙니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1787,
+    "output_tokens": 932,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

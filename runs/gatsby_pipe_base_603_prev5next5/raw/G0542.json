@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3L7EizyMfj6SJm4CPK",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0542\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"as if he had desired it all the time\",\"tgt_span\":\"마치 처음부터 바랐던 것처럼\",\"description\":\"'he had desired it'의 주어(개츠비)가 번역문에서 명시되지 않아, 마치 '나'가 처음부터 바랐던 것처럼 읽힘. 소망의 주체가 바뀜\"},{\"id\":\"E002\",\"src_span\":\"having been among the last to go\",\"tgt_span\":\"내가 마지막까지 남게 된 상황\",\"description\":\"'마지막에 떠난 사람들 중 하나'가 '마지막까지 남게 된 상황'으로 바뀌고 'among'(여럿 중 하나)이 사라졌으며 '내가'가 첨가됨. 다만 문맥상 화자가 마지막 손님 중 하나였으므로 핵심 사태는 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물·행위): as if절의 주체가 개츠비인데 번역문에서는 '내가' 바랐던 것처럼 읽혀 바람의 주체가 달라졌습니다. 핵심 사건(미소, 마지막까지 남음의 의미)은 유지되므로 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(지시): 'he had desired it'의 he가 가리키는 개츠비가 번역문에서는 문맥상 '내가'로 연결되어 지시 대상이 바뀌었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(인물 묘사와 화자의 인상) → 서술. 소설 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 서술문에는 화자·청자 관계를 드러내는 호칭이나 높임 표현이 없어 평가할 대상이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1611,
+    "output_tokens": 893,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

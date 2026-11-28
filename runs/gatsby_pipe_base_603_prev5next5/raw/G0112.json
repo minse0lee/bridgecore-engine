@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3BKqFrqQzwrKbgFU7W",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0112\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'bond man'(채권 판매·거래 일을 하는 사람)이 '채권 매매 일을 합니다'로 직업 내용이 같게 옮겨졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현이 없고 앞의 질문에 대한 직업 응답이라는 관계가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"직업 질문에 대한 응답(정보 제공) → 직업 질문에 대한 응답(정보 제공)으로 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 평서 응답입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"닉이 톰에게 '합니다'체로 답하는데, 이는 뒤 문장의 '알게 될 거예요'와도 일관되며 번역문 안에서 관계 설정이 어긋나지 않습니다. 새로운 호칭이나 태도 변화도 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상, 단위, 표기가 별도로 판정할 만큼 나오지 않으며 직업 명칭의 의미는 Semantic에서 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 903,
+    "output_tokens": 609,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

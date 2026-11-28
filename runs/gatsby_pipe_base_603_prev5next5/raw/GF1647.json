@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3VYTY6EYN7UYiQCL6n",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1647\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Auto hit her.\",\"tgt_span\":\"차가 쳤습니다.\",\"description\":\"목적어 'her'(피해 여성)가 번역문에 드러나지 않아 누구를 쳤는지 명시되지 않음. 다만 문맥상 복원 가능하고 사태는 같음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"차가 (그 여자를) 쳤고 즉시 사망했다는 사태가 유지됩니다. 목적어 생략은 한국어에서 자연스러운 생략이고 문맥상 대상이 분명합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"생략된 대상은 앞뒤 문맥에서 바로 복원되어 지시 관계가 바뀌지 않았고, 연결·초점 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"경찰의 질문에 사고 경위를 알리는 답변 → 사고 경위를 알리는 답변. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"사고 상황 서술이며 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"마이클리스가 경찰과 톰에게 하는 말로 존댓말 '-습니다/-어요'가 쓰여 관계에 맞습니다. 원문의 사투리·축약은 말투 자연스러움 문제로 훼손으로 보지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1264,
+    "output_tokens": 703,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

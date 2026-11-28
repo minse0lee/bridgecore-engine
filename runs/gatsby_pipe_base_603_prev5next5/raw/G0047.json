@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV39jje27ripkG7jsfvU",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0047\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"it was a factual imitation of some Hôtel de Ville in Normandy\",\"tgt_span\":\"노르망디의 어느 시청사를 그대로 모방한 듯한 모습이었는데\",\"description\":\"Hôtel de Ville(프랑스 시청사 건물의 명칭·유형)을 일반 어휘 '시청사'로 옮김. 다만 '노르망디'와 '시청사'로 지시 대상은 이해 가능. 또한 'factual imitation'(실제로 모방한 것)을 '모방한 듯한'으로 옮겨 단정이 추측으로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"spanking new under a thin beard of raw ivy\",\"tgt_span\":\"갓 자라난 담쟁이덩굴이 얇게 덮인 외벽은 아주 새것이었으며\",\"description\":\"'spanking new'의 주어는 건물인데 번역은 '외벽'으로 한정함. 'raw ivy'를 '갓 자라난'으로 옮김. 의미는 대체로 유지\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): 'factual imitation'이 '모방한 듯한'으로 바뀌어 단정이 추측으로 달라졌으나 핵심 사실(노르망디 시청사를 본뜬 저택, 탑, 담쟁이, 수영장, 40에이커)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계가 유지됩니다. 문장 분할과 나열 구조는 자연스러운 재구성으로 오류가 아닙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"저택 묘사 → 저택 묘사. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 평서체('-했다')가 유지되고 관계·태도 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"노르망디 시청사로 같은 대상을 가리키며 에이커 단위도 그대로 유지되어 한국어 독자가 이해할 수 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 3203,
+    "output_tokens": 954,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

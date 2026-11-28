@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3D54p1Vz3hLRbLbszX",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0186\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Things went from bad to worse,” suggested\",\"tgt_span\":\"상황이 점점 더 나빠졌겠네요,” … 거들었다\",\"description\":\"단정적 과거 서술(went)을 추측 표현 '-었겠네요'로 옮겨 확실성이 달라지고, 'suggested'가 제안하다는 뜻에서 '거들었다'로 옮겨져 약간 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2(확실성): 원문은 상황이 악화되었다고 단정하는 서술인데 번역은 '나빠졌겠네요'라는 추측으로 바뀌었습니다. 핵심 사실(상황 악화)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현이 바뀐 곳이 없고 앞 문장에 이어지는 관계도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"이야기에 끼어들어 거드는 말 → 이야기에 끼어들어 거드는 말. 기능의 종류가 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 상대와 일반 서술 관계에 맞는 '-네요' 해요체와 '조던 베이커 양' 호칭이 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Miss Baker'는 인명과 호칭뿐이며 별도 판정할 문화 고유 제도·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1793,
+    "output_tokens": 742,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

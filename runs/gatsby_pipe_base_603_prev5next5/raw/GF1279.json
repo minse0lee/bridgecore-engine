@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3NShZcQjLTNpZW1jXd",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1279\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"demanded Tom\",\"tgt_span\":\"톰이 물었다\",\"description\":\"demanded(다그치듯 묻다)가 중립적인 '물었다'로 바뀌어 다그치는 어조가 약해짐. 질문 내용과 기능은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 차가 수동 변속기인지 묻는다는 인물·행위·대상이 같고, demanded의 어조 차이는 발화 동사의 정도 차이로 내용 변화가 아닙니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 대상(it=개츠비의 차)과 뒤 문장과의 연결이 유지되며 초점·연결 표현의 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"차량 변속기 여부를 묻는 질문 → 같은 질문. 이어서 톰이 운전하자고 제안하는 흐름이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 질문입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3: demanded가 보이는 톰의 다그치고 권위적인 태도가 중립적인 '물었다'로 약해졌습니다. 반말 질문 자체는 톰의 태도에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1257,
+    "output_tokens": 673,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

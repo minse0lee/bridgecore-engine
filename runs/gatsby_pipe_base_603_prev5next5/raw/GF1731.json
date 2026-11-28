@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3YqBwQvQ8FiupehQpD",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1731\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"she thought it would steady her to drive\",\"tgt_span\":\"데이지 양이 무척 불안해해서 직접 운전하면 마음이 좀 진정될 거라고 생각했거든요\",\"description\":\"원문의 she thought it would steady her to drive에서 '생각한' 사람은 데이지인데 번역문은 주어가 모호하여 화자가 생각한 것으로도 읽힐 수 있으나, 대체로 유지됨(의미 차이 거의 없음)\"},{\"id\":\"E002\",\"src_span\":\"this woman rushed out at us just as we were passing a car coming the other way\",\"tgt_span\":\"반대편에서 오던 차를 지나치던 바로 그 순간, 이 여자가 우리 쪽으로 갑자기 뛰어들었어요\",\"description\":\"rushed out at us(우리 쪽으로 달려 나옴)가 '뛰어들었어요'로 옮겨져 약간 달라졌으나 같은 사태\"},{\"id\":\"E003\",\"src_span\":\"Daisy turned away from the woman toward the other car, and then she lost her nerve and turned back\",\"tgt_span\":\"데이지 양이 그 여자에게서 고개를 돌려 반대편 차 쪽을 봤는데, 그러다 갑자기 겁이 났는지 다시 고개를 돌렸어요\",\"description\":\"차의 방향을 돌린 것(turned, 운전 조작)이 '고개를 돌린 것'으로 바뀜. 핸들 조작이 시선 동작으로 바뀌어 사고 경위가 달라짐\"},{\"id\":\"E004\",\"src_span\":\"it must have killed her instantly\",\"tgt_span\":\"즉사했겠지요\",\"description\":\"추론의 must have killed가 '즉사했겠지요'로 유지됨(차이 없음)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 1(행위): 데이지가 차를 반대편 차 쪽으로 틀었다가 다시 돌린 운전 동작이 '고개를 돌렸다'는 시선 동작으로 바뀌어 사고 경위를 다르게 이해하게 됩니다. 뒤에 나오는 핸들을 잡는 내용과도 어긋납니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 관계와 시간·대조 연결(just as, but, first…then)이 유지되며 질문 1·2·3 모두 해당하지 않습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사고 경위 설명(진술) → 사고 경위 설명(진술). 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"must have killed는 추론의 must이고 I'll say I was는 의지 표현이므로 규범적 의무·허가·금지가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"게츠비가 닉에게 공손하게 말하는 관계에 '~어요/~습니다' 혼용 어조가 무리 없이 맞습니다. '데이지 양' 호칭은 어색할 수 있으나 관계를 바꾸지는 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명·지명 외에 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2115,
+    "output_tokens": 1272,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

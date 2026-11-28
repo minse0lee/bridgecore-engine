@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3SEyyXDPoyE85bQdpe",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1370\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"are cool\",\"tgt_span\":\"좋더라고요\",\"description\":\"'시원하다(냉방이 된다)'는 뜻의 cool이 '좋다'로 옮겨져 무더운 여름 오후에 영화관이 시원하다는 이유가 사라짐. 다만 '좋다'는 모호한 상위 표현이라 같은 사태를 가리킬 여지도 있음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: cool은 더운 날 영화관이 시원하다는 뜻인데 '좋다'로 바뀌어 평가 내용이 달라졌습니다. 다만 영화관을 제안한다는 핵심 사실은 유지되고 뒤 문장의 더위 맥락 덕에 요지 이해에는 큰 영향이 없어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현의 변화가 없고 'suggested'의 인용 구조도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"영화관 제안 → 영화관 제안. 제안하는 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 개인적 제안으로 의무·허가·금지 등의 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조던이 톰 등에게 하는 평이한 대화체이며, '-더라고요'의 부드러운 존댓말도 관계에 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Fiftieth Street를 '50번가'로 통용되는 방식으로 옮겼고 숫자도 정확합니다. 힌트의 수치 [50]은 'Fiftieth'의 표기 차이로 인한 오경보입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2103,
+    "output_tokens": 794,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

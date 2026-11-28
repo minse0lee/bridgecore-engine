@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3JyrwSj7uUTVu6Wb89",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0495\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I noticed that she wore her evening-dress, all her dresses, like sports clothes\",\"tgt_span\":\"그녀가 이브닝드레스를 입고 있다는 점이 눈에 띄었는데, 그녀는 모든 옷을 마치 운동복처럼 입었다\",\"description\":\"화자가 이브닝드레스를 포함해 모든 옷을 운동복처럼 입는다고 알아차렸다는 내용이 '이브닝드레스를 입고 있다는 점이 눈에 띄었다'와 '모든 옷을 운동복처럼 입었다'로 갈라져, 눈에 띈 내용이 이브닝드레스 착용 자체로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"as if she had first learned to walk upon golf courses\",\"tgt_span\":\"처음 배웠을 법한\",\"description\":\"'as if' 비유가 '-했을 법한'으로 옮겨져 약간 다르게 표현됨(의미는 대체로 유지)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 화자가 알아차린 것은 이브닝드레스를 포함한 모든 옷을 운동복처럼 입는다는 점인데, 번역은 이브닝드레스를 입고 있다는 사실이 눈에 띄었다고 하여 인식 내용이 달라졌습니다. 다만 모든 옷을 운동복처럼 입는다는 핵심은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(초점·범위): 'all her dresses'가 이브닝드레스를 포함한 동격 확장인데, 번역은 별개 절로 나누어 이브닝드레스에서 모든 옷으로 이어지는 관계가 흐려지고 눈에 띈 대상이 달라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 묘사 서술 → 인물 묘사 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 '~다'가 유지되며 화자 태도도 달라지지 않았습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"이브닝드레스, 운동복, 골프 코스가 같은 대상으로 옮겨져 문화적 의미가 유지됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1628,
+    "output_tokens": 1009,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

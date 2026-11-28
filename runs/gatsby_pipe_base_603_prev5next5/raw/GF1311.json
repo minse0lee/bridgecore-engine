@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3PioE8ASWH5wk58X18",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1311\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"An Oxford man\",\"tgt_span\":\"옥스퍼드 출이라고요\",\"description\":\"'출신'이 '출'로 오기되었으나 문맥상 옥스퍼드 출신으로 복원 가능하여 의미는 유지됨. 표기 오류이므로 의미 변화로 보지 않음\"},{\"id\":\"E002\",\"src_span\":\"“An Oxford man!”\",\"tgt_span\":\"“옥스퍼드 출이라고요!”\",\"description\":\"톰이 조던(동년배 지인)에게 놀라 되묻는 말에 '-요' 존대 어미가 사용됨. 평가조건상 관계가 불명확하나 뒤 문장에서 톰은 반말을 쓰므로 어미 선택이 다소 어긋날 수 있음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'옥스퍼드 출'은 오탈자지만 '옥스퍼드 출신'으로 명확히 복원되며 대상·내용이 같습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞의 '옥스퍼드 출신이라는 걸 알아내셨군요'를 되받는 지시 관계가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"믿기지 않아 되묻는 놀람의 감탄 → 믿기지 않아 되묻는 놀람의 감탄으로 같은 기능입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 감탄 문장입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 조던과 닉 중 누구에게, 어떤 격식으로 말하는지(뒤 문장에서 톰은 반말, 조던은 존대) 판단하려면 화자·청자 관계 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"옥스퍼드는 지명이며 'Oxford man'이 지닌 대학 출신이라는 의미가 유지되어 제도적 의미가 전달됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1291,
+    "output_tokens": 867,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

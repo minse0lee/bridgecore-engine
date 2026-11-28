@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3QeBRvT4SkGBdyw1VP",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1334\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the shade and support of the doorway\",\"tgt_span\":\"문가에 기대어 있던 그늘에서 벗어났고\",\"description\":\"'문간의 그늘과 지지(기댈 곳)'를 떠난다는 내용이 '문가에 기대어 있던 그늘'로 바뀌어, 그늘과 기댈 곳 두 가지가 하나로 합쳐짐. 기대어 있던 상태는 암시되어 의미 변화는 경미함.\"},{\"id\":\"E002\",\"src_span\":\"left\",\"tgt_span\":\"몸을 일으켜 … 벗어났고\",\"description\":\"'떠났다'가 '몸을 일으켜 벗어났다'로 옮겨져 일어나는 동작이 덧붙음. 기대어 있던 상태에서 벗어나는 맥락상 동작이라 의미 변화는 미미함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상): 문간의 '그늘과 기댈 곳(support)'이 '기대어 있던 그늘'로 합쳐져 두 대상 중 하나가 약화됐으나, 윌슨이 힘겹게 문간을 벗어나 탱크 캡을 연 핵심 사태는 같아 요지 변화는 없어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계가 바뀌지 않았고, 'and'로 이어지는 동작 연쇄가 '-고'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 서술 기능이 그대로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문이며 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장은 화자 간 관계가 드러나는 대화가 아닌 지문 서술이며, 높임·호칭·태도를 따질 대상이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1155,
+    "output_tokens": 889,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

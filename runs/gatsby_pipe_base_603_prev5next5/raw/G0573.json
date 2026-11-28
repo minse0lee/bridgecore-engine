@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3Lyf6gHmXEBzmZzhZ8",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0573\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Half a dozen fingers\",\"tgt_span\":\"여섯 명 남짓한 사람들이\",\"description\":\"'여섯 개의 손가락'이 '여섯 명 남짓한 사람들'로 바뀌어 수량의 단위·대상이 달라졌고 '남짓'이 더해짐. 손가락 수와 사람 수는 같지 않음.\"},{\"id\":\"E002\",\"src_span\":\"stared at it for a moment\",\"tgt_span\":\"잠시 그것을 멍하니 바라보더니\",\"description\":\"'멍하니'가 첨가되어 응시하는 태도를 덧붙임.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(수량·대상): 'half a dozen fingers'(손가락 여섯 개)가 '여섯 명 남짓한 사람들'로 바뀌어 수량의 대상이 달라졌고 '남짓'으로 수량이 부정확해졌습니다. '멍하니'도 더해졌으나 장면의 요지는 같고 독자의 행동에도 영향이 없어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사 'it'은 바퀴를, 'he'는 같은 인물을 가리키고 'and then'의 시간 순서와 'as though'의 추측 관계도 '-더니', '듯'으로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 상황을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 장면 묘사이며 의무·허가·금지 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술 문체의 평서 종결이 유지되며 관계나 태도 변화는 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'half a dozen'은 수량 표현으로 별도의 문화·제도적 대상이 아니며, 수량 변화는 Semantic에서만 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1531,
+    "output_tokens": 864,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

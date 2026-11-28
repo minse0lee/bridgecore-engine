@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3KvUahmoDyjH1C3jBz",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0537\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Then the butler, behind his shoulder:\",\"tgt_span\":\"그때 집사가 그의 어깨 너머에서 말을 건넸다.\",\"description\":\"원문의 콜론으로 이어지는 도입(뒤따르는 대사를 이끎)이 '말을 건넸다'로 명시되었으나 의미·기능은 유지됨. 차이는 사소하여 오류 아님\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"집사가 그의 어깨 뒤에서 말한다는 행위자·위치·시간 순서가 유지됩니다. 생략된 동사 'spoke'를 '말을 건넸다'로 보충한 것은 문맥상 같은 사태입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그'(his)가 가리키는 개츠비 대상과 Then의 시간 연결('그때')이 유지되며 지시·연결·초점이 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뒤따르는 집사의 대사를 이끄는 서술 → 대사를 이끄는 서술. 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 의무·허가·금지 등의 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문이며 '-했다' 평서체로 소설 서술 어조가 유지되고 화자·청자 관계가 드러나는 표현이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 표현이 없습니다. 'butler'를 '집사'로 옮긴 것은 통상 대응입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1179,
+    "output_tokens": 741,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

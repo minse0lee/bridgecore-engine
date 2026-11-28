@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV3JrUhUrBjeaz7NBX2x",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0491\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"speak to you alone\",\"tgt_span\":\"양분과 따로 이야기를 나누고 싶어 하십니다\",\"description\":\"2인칭 'you'(집사가 말을 거는 Miss Baker 본인)가 '양분'이라는 3인칭 지칭으로 바뀌어 대화 상대에게 직접 말하는 형식이 달라짐. '양분'은 '양'과 '분'이 합쳐진 비관용적 표현이며, 화자가 청자 본인에게 하는 말이 제3자를 가리키는 말처럼 읽힘.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사과, 개츠비가 베이커 양과 단둘이 이야기하고 싶다는 내용과 'alone'의 의미가 유지됩니다. '양분'은 어색한 지칭일 뿐 같은 인물(Miss Baker)을 가리킵니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'but'의 대조·양보 연결이 '-만'으로 유지되고 지시 대상도 바뀌지 않았습니다. 'alone'은 '따로'로 같은 대상에 붙어 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"정중하게 용건을 전달하며 자리를 요청하는 기능 → 같은 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"개츠비의 바람을 전하는 말로, 의무·허가·금지를 정하는 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"집사가 손님에게 하는 말로 '실례합니다만', '개츠비 씨께서', '하십니다'의 높임이 관계에 맞게 유지됩니다. '양분'은 어색하지만 높임의 방향을 바꾸지는 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·단위·관습이 없습니다. 인명만 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1716,
+    "output_tokens": 853,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
