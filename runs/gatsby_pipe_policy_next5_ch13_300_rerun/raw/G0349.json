@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV49GHkDFPTrd2At4m14",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0349\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"lived next door to—\",\"tgt_span\":\"그 옆집에 산다는 게\",\"description\":\"'next door to'(…의 옆집) 뒤에서 끊긴 미완의 문장인데, 번역은 '그 옆집'이라는 특정 대상을 가리키는 표현으로 바꿔 '누구/어디의 옆집인지'가 빠진 채 지시 대상이 불분명해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 원문은 'next door to' 뒤에서 대상이 끊긴 미완의 말인데, 번역은 '그 옆집'이라는 특정 장소를 가정해 내용이 약간 달라졌습니다. 다만 문맥상 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: '~의 옆집'이라는 소유·위치 관계가 '그 옆집'이라는 지시 표현으로 바뀌어, 무엇의 옆집인지 가리키는 대상이 알 수 없게 되었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기억을 말하다 끊기는 대화 서술 → 기억을 말하다 끊기는 대화 서술. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조던과 화자 사이의 평이한 대화체가 '~서' 형태로 무리 없이 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1300,
+    "output_tokens": 763,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

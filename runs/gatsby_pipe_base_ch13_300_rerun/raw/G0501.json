@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4JHcNTZPKeso8UE89L",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0501\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"she had decided, ineptly, that everything was very, very sad\",\"tgt_span\":\"갑자기 모든 것이 너무나도 슬프다는 생각에 사로잡혔는지 서투르게 노래하며\",\"description\":\"'ineptly'가 '그렇게 결정한 것이 서투르다(어리석다)'는 서술자의 평가에서 '서투르게 노래하며'로 바뀌어 수식 대상이 decided에서 노래하는 행위로 이동함. 또한 '결정했다(decided)'가 '사로잡혔는지'라는 추측으로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"she was not only singing, she was weeping too\",\"tgt_span\":\"노래하며 울기까지 했다\",\"description\":\"'not only A, but B too'가 '울기까지'로 옮겨졌으나 의미는 유지됨(통상적 대응)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: '슬프다고 어리석게/어설프게 단정했다'는 결정이 '사로잡혔는지'라는 추측으로 바뀌어 확실성과 행위(decided)가 달라졌으나, 취한 상태에서 모든 것이 슬프다 여겨 노래하며 운다는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(초점·범위): 부사 ineptly가 결정(decided)을 수식하던 것이 '서투르게 노래하며'로 노래 행위에 붙어 수식 범위가 다른 대상으로 이동했습니다. 'not only…too'는 '울기까지'로 초점이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사 묘사 → 서사 묘사. 인물의 상태를 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 '~했다'가 유지되며 특별한 관계 표지나 호칭이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"샴페인은 문화 고유의 제도·관습·단위로 판정할 대상이 아닙니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2501,
+    "output_tokens": 968,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

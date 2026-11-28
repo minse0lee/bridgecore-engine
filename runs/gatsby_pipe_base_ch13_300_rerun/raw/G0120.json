@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV44vH7giSjZQVzuWhGP",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0120\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a God damned fool\",\"tgt_span\":\"정말 멍청이\",\"description\":\"욕설·저주 표현 'God damned'가 강조 부사 '정말'로 바뀌어 거친 욕설의 태도와 신성모독적 뉘앙스가 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"다른 곳에서 살면 바보라는 내용과 가정 관계가 유지되며, 달라진 것은 평가어의 정도뿐입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'anywhere else'가 '여기 말고 다른 데'로, 'to live' 조건이 '산다면'으로 옮겨져 지시·연결·초점 관계가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"동부에 머물겠다는 입장을 강조하는 단언 → 단언. 발화 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(화자의 태도): 'God damned'의 거친 욕설 어조가 '정말 멍청이'로 약해져 화자의 거친 태도가 완화되었습니다. 반말 사용은 대화 맥락에 맞습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'God damned'는 종교적 함의를 지닌 욕설이므로 평가 대상이 되지만, 한국어에서 같은 대상을 가리키는 비칭으로 옮겨 문화적 의미 전달에 지장이 없어 보존으로 봅니다. 태도 약화는 Register에서 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1426,
+    "output_tokens": 752,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

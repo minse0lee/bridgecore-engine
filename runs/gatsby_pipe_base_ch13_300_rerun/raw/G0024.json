@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV42GP1vBDnXKnjG37pV",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0024\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"after various delays\",\"tgt_span\":\"몇 차례 지체된 끝에\",\"description\":\"'various delays'(여러 가지 지연)를 '몇 차례'로 옮겨 종류의 다양성이 횟수로 바뀌었으나, 지연이 있었다는 핵심 사실은 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1년간의 자금 지원, 여러 번의 지연, 22년 봄 동부행, 영구 정착 의도('I thought'의 추측성)가 모두 유지됩니다. '몇 차례'는 various의 통상적 대응 범위로 보며, 자동 힌트의 수치 [1]은 원문의 'a year'에 대응하므로 오류가 아닙니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"주어 '아버지'와 '나'의 지시 관계가 유지되고, 지원 결정 뒤 지체 끝에 동부로 왔다는 시간 순서 연결도 그대로입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 경위 서술 → 경위 서술. 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술체 '~다'가 유지되고, 아버지에 대한 '하셨고' 높임은 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'twenty-two'는 연도를 나타내는 통상적 약식 표기일 뿐, 별도로 판정할 문화 고유의 제도·단위·관습은 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 3306,
+    "output_tokens": 746,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

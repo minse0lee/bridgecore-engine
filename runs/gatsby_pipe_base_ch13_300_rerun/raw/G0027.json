@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV42GMHGu4aJnAW2G1Ko",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0027\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"an old Dodge and a Finnish woman\",\"tgt_span\":\"낡은 닷지 자동차 한 대와 핀란드 여인 한 명이 있었다\",\"description\":\"I had a dog…and an old Dodge… 구조에서 'had'가 공통 동사인데, 번역은 개만 '키웠다'로 옮기고 닷지와 핀란드 여인은 '있었다'로 옮겨 소유(보유)가 존재로 바뀜. 핀란드 여인이 화자가 고용한 사람이라는 관계가 약해짐\"},{\"id\":\"E002\",\"src_span\":\"Finnish wisdom\",\"tgt_span\":\"핀란드어로 된 지혜로운 말들\",\"description\":\"'Finnish wisdom'(핀란드식 지혜)을 '핀란드어로 된 지혜로운 말들'로 옮겨 언어 지정과 평가 성격이 약간 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 닷지와 핀란드 여인이 화자의 소유·고용 대상이라는 관계가 '있었다'로 약해졌으나, 누가 무엇을 했는지 요지는 대체로 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사 '그녀'의 지시 대상(핀란드 여인), 'at least'에 대응하는 '정확히는'의 정정 관계가 유지되어 세 질문 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 서술 → 서술. 화자의 생활을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회고 서술의 문어체 어조가 유지되며 관계상 어긋나는 높임이나 호칭이 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Dodge는 '닷지 자동차'로 통용되는 표기로 옮겨 같은 대상을 가리키며, 핀란드 여인도 같은 대상입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2177,
+    "output_tokens": 919,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

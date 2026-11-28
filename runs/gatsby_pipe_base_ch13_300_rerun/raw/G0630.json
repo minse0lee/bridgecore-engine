@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4F8YawBVtW4fKqcZiN",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0630\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"It takes two to make an accident.\",\"tgt_span\":\"사고라는 건 양쪽 다 잘못이 있어야 나는 법이니까요.\",\"description\":\"'사고가 나려면 두 당사자(두 사람)가 필요하다'는 속담을 '양쪽 다 잘못이 있어야 난다'로 옮겨 과실 개념을 덧붙였고, 'because'라는 이유 연결어를 더했다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 원문은 사고에 두 당사자가 관여한다는 것인데 번역은 양쪽 다 '잘못'이 있어야 한다고 하여 내용이 달라졌습니다. 다만 화자가 상대방 책임을 말하는 핵심 취지는 유지되어 요지 변화는 크지 않아 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 원문은 앞 문장 \\\"They'll keep out of my way\\\"와 독립된 일반 속담이지만 번역은 '-니까요'로 앞 발언의 이유로 연결해 인과 관계를 만들었습니다. 다만 문맥상 뒷받침 기능과 가깝고 요지 변화는 작아 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"자기 운전을 정당화하는 주장 → 자기 운전을 정당화하는 주장. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 속담형 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"젊은 여성이 지인에게 가볍게 말하는 구어체가 '-요' 체로 자연스럽게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 없고 일반적인 속담 표현입니다. 숫자 2는 단위·수량 오류가 아닙니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1367,
+    "output_tokens": 860,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

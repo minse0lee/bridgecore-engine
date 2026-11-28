@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4BqtPuJ72woQNqzo3c",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0479\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개츠비의 요청, 연주 곡, 지난 5월 카네기 홀에서의 화제, 신문을 읽었다면 아는 큰 반향이 모두 유지됩니다. 'last May'를 '지난 5월'로 옮긴 것은 정확하며 힌트의 수치 5는 오경보입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"which 관계절이 '-했던 …곡'으로, 'If you read the papers you know'가 '신문을 보신 분들은 아시겠지만'으로 조건·지시 관계가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지휘자의 연주 소개·공지 → 연주 소개·공지. 청중에게 곡을 알리고 기대를 높이는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'are going to play'는 예정된 행위를 나타내며 의무·허가·금지 같은 규범 의미가 없습니다. 힌트의 may 후보는 이 문장에 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지휘자가 청중에게 말하는 공식적 안내인 점에 맞게 '-드리겠습니다', '-신 분들은'의 높임체가 쓰였습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Carnegie Hall을 '카네기 홀'로 통용되는 음역으로 옮겨 같은 공연장을 가리키며, 월 표기도 '5월'로 정확합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2342,
+    "output_tokens": 691,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

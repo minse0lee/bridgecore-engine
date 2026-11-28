@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4BH2xNgwDM7GBdusRy",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0452\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"an elegant young roughneck\",\"tgt_span\":\"세련된 차림의 젊은 건달\",\"description\":\"elegant(우아한/세련된 인상)가 '세련된 차림'으로 한정되어 복장 묘사로 좁혀짐. roughneck(거친 사내)이 '건달'로 옮겨져 뉘앙스가 약간 다름.\"},{\"id\":\"E002\",\"src_span\":\"whose elaborate formality of speech just missed being absurd\",\"tgt_span\":\"그의 지나치게 격식을 차린 말투는 하마터면 우스꽝스럽게 들릴 뻔했다\",\"description\":\"elaborate(공들인, 정교한)를 '지나치게'로 옮겨 정도가 달라진 표현이나 핵심 의미는 유지됨. 오류로 보기 어려운 수준의 차이.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: elegant가 '세련된 차림'으로 한정되어 외모·태도 전반의 우아함이 복장 묘사로 좁혀졌으나, 사라짐·젊은 남자·서른 넘은 나이·말투가 거의 우스꽝스러울 뻔했다는 핵심은 유지되어 요지는 같습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'하지만'으로 미소가 사라지는 시점 전환과 관계절 whose의 소유 관계(그의 말투)가 유지되고 초점 표현 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(인물 묘사) → 서술(인물 묘사). 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술 문장으로 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 청자에게 말하는 대화가 아니라 서술문이며 평가할 높임·호칭 관계가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습이 없습니다. 나이 수치(서른, 한두 살)는 정확하게 옮겨졌습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2054,
+    "output_tokens": 924,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

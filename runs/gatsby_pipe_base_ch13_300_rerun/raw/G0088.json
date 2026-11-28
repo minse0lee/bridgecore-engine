@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV446yn1WbLqjFsH3gLW",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0088\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"If she saw me\",\"tgt_span\":\"곁눈질로 나를 보았을지도 모르겠으나\",\"description\":\"조건절(그녀가 나를 보았더라도)이 보았을지도 모른다는 추측 표현으로 바뀌어 사실 여부의 불확실성 표현이 달라짐. 다만 '내색하지 않았다'는 핵심 사실은 유지됨.\"},{\"id\":\"E002\",\"src_span\":\"I was almost surprised into murmuring an apology\",\"tgt_span\":\"사과라도 해야 할 것 같아 당혹스러울 정도였다\",\"description\":\"'놀라서 거의 사과를 중얼거릴 뻔했다'가 '사과해야 할 것 같아 당혹스러울 정도'로 바뀌어, 사과를 중얼거릴 뻔한 행위의 근접성이 약해지고 감정이 놀람에서 당혹으로 바뀜.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 조건(If she saw)이 추측('보았을지도')으로, '사과를 중얼거릴 뻔함'이 '사과해야 할 것 같아 당혹'으로 달라졌으나 핵심 사실(내색 없음, 사과하고 싶을 만큼 압도됨)은 유지되어 요지는 크게 다르지 않아 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 'If'의 조건 관계가 '~지도 모르겠으나'의 양보·추측 구조로 바뀌어 연결 관계가 달라졌으나 전체 맥락은 유지되어 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(관찰 묘사) → 서술(관찰 묘사). 상대의 무관심한 태도를 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술로 의무·허가·금지를 정하는 규범 표현이 없습니다. '해야 할 것 같아'는 화자의 심리 묘사입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 화자의 소설 서술체('~다')가 유지되어 관계와 태도가 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화 고유의 제도·관습·단위 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2220,
+    "output_tokens": 1002,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV47ApnAAguCTHcu4pyQ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0214\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"She might have the decency not to telephone him at dinner time.\",\"tgt_span\":\"저 여자도 예의가 있다면 저녁 식사 시간에는 전화를 안 했겠죠.\",\"description\":\"'예의라도 지켜 저녁 시간엔 전화하지 말았어야 한다'는 불만·비난이 '예의가 있다면 전화를 안 했을 것'이라는 가정적 추측으로 바뀌었고, 실제로 전화한 사실에 대한 비난 어조가 약해짐\"},{\"id\":\"E002\",\"src_span\":\"Don’t you think?\",\"tgt_span\":\"안 그래요?\",\"description\":\"동의를 구하는 부가의문문이 대응되어 큰 차이는 없음(오류 아님에 가까우나 위 오류와 연동)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성·조건): '예의 있는 태도를 보였어야 한다'는 불만이 '예의가 있다면 안 했을 것'이라는 조건적 추측으로 바뀌었고, 전화했다는 사실을 전제로 한 비난의 핵심은 남아 요지는 대체로 유지됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(연결): 원문의 단순 서술(might have the decency)이 '~다면' 조건 관계로 바뀌어 조건 연결이 새로 생겼고, '저 여자도'의 '도'가 원문에 없는 초점 표현을 더합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대의 동의를 구하며 불만을 표하는 발화 → 동의를 구하며 불만을 표하는 발화. 기능은 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"might have the decency는 규범적 의무·금지를 정하는 표현이 아니라 화자의 불만 표현이므로 적용 대상이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조던이 닉에게 편하게 말하는 대화로, '~죠, ~요' 체가 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화 고유의 제도·관습·단위가 등장하지 않습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1581,
+    "output_tokens": 956,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

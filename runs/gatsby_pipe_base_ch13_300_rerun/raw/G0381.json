@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4Ha5YXxibxuLrkgXeB",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0381\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"You look at him sometimes when he thinks nobody’s looking at him.\",\"tgt_span\":\"가끔 그 사람이 아무도 안 본다고 생각할 때 표정을 한번 보세요.\",\"description\":\"'바라보다(look at him)'가 '표정을 보라'로 바뀌어 '표정'이 첨가됨. 평서문('you look at him')이 명령형('보세요')으로 바뀜. 둘 다 문맥상 의미는 유지됨.\"},{\"id\":\"E002\",\"src_span\":\"I’ll bet he killed a man.\",\"tgt_span\":\"분명 사람을 죽였을 거예요.\",\"description\":\"'내기를 걸 만큼 확신한다'는 추측 표현이 '분명 ~했을 거예요'로 옮겨져 확신 정도가 다소 강해지고 내기(bet) 어감이 사라짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"누가 누구를 보는지, 죽였다는 추측의 핵심 사실이 유지됩니다. '표정'은 바라본다는 행위의 자연스러운 구체화이고, '분명 ~했을 거예요'는 I'll bet의 강한 확신을 대체로 담아 확실성이 크게 달라지지 않았습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그 사람'이 개츠비를 가리키는 관계와 when절의 시간 조건 연결이 유지되며, 초점 표현의 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대에게 관찰해 보라고 권하며 자기 추측을 주장하는 발화 → 같은 종류의 권유와 주장 기능이 유지됩니다. 원문 'You look at him'은 일반적 2인칭 용법으로 권유처럼 읽히는 기능이며 명령형 변환은 기능 변화가 아닙니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 대화로, 의무·허가·금지를 정하는 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"파티에서 청중에게 신나게 소문을 이야기하는 젊은 여성의 구어체가 '~세요/~거예요' 해요체로 자연스럽게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1545,
+    "output_tokens": 995,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

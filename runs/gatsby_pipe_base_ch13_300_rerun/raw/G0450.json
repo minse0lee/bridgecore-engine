@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4BGwzsWGUhD5Mm2r8u",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0450\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"or seemed to face\",\"tgt_span\":\"혹은 온 세상과 마주하고 있는 것처럼 보이다가\",\"description\":\"'마주했다—아니 마주하는 듯했다'라는 자기 정정이 '온 세상을, 혹은 온 세상과 마주하고 있는 것처럼'으로 옮겨져 목적어와 서술어의 구조가 흐트러짐. 다만 마주함과 마주하는 듯함의 의미는 대체로 유지됨.\"},{\"id\":\"E002\",\"src_span\":\"concentrated on you with an irresistible prejudice in your favour\",\"tgt_span\":\"오직 나만을 향했다\",\"description\":\"'you'(일반적 2인칭)가 '나'로 바뀌고, 'only'에 해당하는 '오직 ~만'이 첨가됨. 초점 표현이 더해졌고 일반화된 청자가 서술자 개인으로 좁혀짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1(인물·대상): 일반적 'you'가 화자 '나'로 바뀌고 '오직'이 더해졌으나 미소가 세상을 향하다 한 사람에게 집중하는 핵심 사태는 유지되어 요지 변화는 작음.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 3(초점): 원문에 없는 '오직 ~만'이 붙어 초점이 배타적으로 바뀌었고, 일반 'you'가 '나'로 바뀌어 지시 대상이 좁아짐.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"묘사 서술 → 묘사 서술. 미소의 효과를 서술하는 기능이 유지됨.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 소설 속 묘사 문장임.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 문어체 평서 어조가 유지되고 관계상 문제될 호칭·높임이 없음.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 이 문장에 없음.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1883,
+    "output_tokens": 898,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

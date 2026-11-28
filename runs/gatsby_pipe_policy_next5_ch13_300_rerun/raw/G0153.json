@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV45mvMpNWdaB9BUiH1s",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0153\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"her eyes fastened with an awed expression on her little finger\",\"tgt_span\":\"그녀의 시선이 경악한 표정으로 자신의 새끼손가락에 꽂혔다\",\"description\":\"'awed'(경외·경탄 섞인 놀람)가 '경악한'(충격·공포 섞인 놀람)으로 바뀌고, 표정의 주체가 눈(her eyes)에서 그녀로 옮겨짐. 놀라는 감정의 성격이 달라짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'awed'가 경외·경탄 계열의 놀람인데 '경악한'은 충격·공포를 뜻해 감정의 내용이 달라졌습니다. 다만 손가락을 응시하는 핵심 사건은 유지되어 독자의 이해와 행동에는 큰 영향이 없어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'her'가 데이지를 가리키는 지시 관계와 'Before I could answer'의 시간 순서 연결이 '자신의', '대답하기도 전에'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 데이지가 갑자기 손가락에 주의를 돌리는 장면을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서사 묘사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문의 평서 문체가 유지되며 높임·호칭 관계가 문제 되지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1370,
+    "output_tokens": 789,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV43uQFssCrCztJZvma5",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0081\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"blew curtains in at one end and out the other\",\"tgt_span\":\"양 끝의 커튼을 … 안팎으로 펄럭이게 했고\",\"description\":\"한쪽 끝에서는 안으로, 다른 쪽 끝에서는 밖으로 불어넣는 구체적 동작이 '양 끝 커튼을 안팎으로 펄럭이게 함'으로 일반화됨\"},{\"id\":\"E002\",\"src_span\":\"and then rippled over the wine-coloured rug\",\"tgt_span\":\"그러고는 와인색 카펫 위로 물결치듯 흘러가\",\"description\":\"rippled의 주어(바람)가 번역문에서 직전 주어인 '커튼'으로 읽혀 행위자가 바뀜\"},{\"id\":\"E003\",\"src_span\":\"the frosted wedding-cake of the ceiling\",\"tgt_span\":\"웨딩케이크의 프로스팅처럼 장식된 천장\",\"description\":\"천장 자체를 웨딩케이크에 빗댄 은유가 '프로스팅처럼 장식된 천장'이라는 직유로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 커튼이 한쪽에서 들어와 다른 쪽으로 나가는 동작이 일반화되었고, 카펫 위를 물결치는 행위자가 바람에서 커튼으로 읽혀 누가 무엇을 했는지가 달라졌으나 장면의 요지는 유지됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: 'and then rippled'의 암묵적 주어(바람)가 번역문에서 직전 주어 '커튼'으로 바뀌어 지시 대상이 달라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사 → 장면 묘사. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설의 묘사 문장으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 청자 사이의 관계를 드러내는 높임·호칭이 없는 서술 묘사입니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"웨딩케이크와 프로스팅은 한국 독자도 이해할 수 있는 대상이며 제도적 의미의 변화는 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2225,
+    "output_tokens": 991,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

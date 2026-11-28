@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV439GQjLsaswHSd4eqE",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0055\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a string of polo ponies\",\"tgt_span\":\"폴로 포니 한 무리를 통째로\",\"description\":\"'a string of'(일련의 말 무리)를 '한 무리를 통째로'로 옮기며 '통째로'를 덧붙임. 핵심 사실(폴로 말 여러 마리를 데려옴)은 유지되어 경미한 차이임.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"집안의 부, 대학 시절 돈 씀씀이에 대한 비난, 시카고에서 동부로 이주, 레이크 포레스트에서 폴로 말 무리를 데려온 내용이 모두 유지됩니다. '통째로'는 수량·사실을 바꾸지 않는 강조 정도의 차이이고 'took your breath away'의 '압도적'은 평가어 정도 차이입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"질문 1~3 모두 아니오: 'his'는 톰을 그대로 가리키고, 'but now'는 '그런데 이제'로 대조 관계가 유지되며, 'for instance'는 '예를 들어'로 예시 관계가 유지됩니다. 'even in college'는 '대학 시절에도'로 초점이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 묘사·서술 → 인물 묘사·서술. 톰의 재력과 과시적 이주를 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 의무·허가·금지 등 규범 의미가 없습니다. 'a matter for reproach'는 과거 사실로서의 비난을 서술한 것입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 서술하는 소설 본문의 문어체 서술 어조가 '-였다' 체로 유지되며 특정 화자-청자 관계의 높임 문제는 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"시카고, 레이크 포레스트, 동부 등 지명과 폴로 포니가 같은 대상을 가리키며, 문화적 제도·단위의 변경이나 오역이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2561,
+    "output_tokens": 915,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

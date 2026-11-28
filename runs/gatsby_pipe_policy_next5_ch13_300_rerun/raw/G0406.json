@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4AkZ9Ad2dse5rHFUiu",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0406\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"But what do you want? What do you expect?\",\"tgt_span\":\"하지만 뭘 더 바라겠어요? 당연한 결과죠.\",\"description\":\"두 번째 수사의문 'What do you expect?'가 대응 없이 사라지고 원문에 없는 단정 서술 '당연한 결과죠'로 바뀜(번역 첨가)\"},{\"id\":\"E002\",\"src_span\":\"It’s a bona-fide piece of printed matter.\",\"tgt_span\":\"진짜로 인쇄된 책이에요.\",\"description\":\"'piece of printed matter'(인쇄물)를 '책'으로 옮김. 문맥상 책을 가리키므로 의미 차이는 미미함\"},{\"id\":\"E003\",\"src_span\":\"This fella’s a regular Belasco.\",\"tgt_span\":\"이 친구는 정말 벨라스코 수준이라니까요.\",\"description\":\"Belasco(무대 사실주의로 유명한 연출가 데이비드 벨라스코)를 주석 없이 인명만 음역하여 문화적 함의가 전달되지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'What do you expect?'의 내용이 사라지고 원문에 없는 '당연한 결과죠'라는 단정이 더해졌으나, 핵심 평가와 사실은 유지되어 요지 변화는 크지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 관계와 'But'의 대조 연결('하지만')이 유지되고, too의 초점('멈춰야 할 때를 알았다')도 남아 있어 세 질문 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"수사의문 마지막 부분(But what do you want?)은 '뭘 더 바라겠어요?'로 반어 기능이 유지되고 감탄·찬탄 기능도 같은 종류로 이어집니다. 원문 기능(찬탄·반어적 항변) → 번역 기능(찬탄·반어적 항변).\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 인물의 감탄 발화입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"들뜬 화자가 낯선 손님들에게 말하는 상황에서 '~어요' 해요체는 관계에 맞고, 'fella'의 친근한 태도도 '이 친구'로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 2: Belasco가 사실적 무대 연출로 유명한 미국 연출가라는 문화적 지시가 '벨라스코 수준'이라는 음역만으로는 한국 독자에게 전달되지 않습니다. 음역 자체는 정확하고 문맥상 '사실적 연출가'로 추론할 여지가 있어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1726,
+    "output_tokens": 1158,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV474EeqgEaSWYyBXoe6",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0209\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“Why—”\",\"tgt_span\":\"“아니—”\",\"description\":\"망설임을 나타내는 감탄사 Why를 부정 응답 '아니'로 옮겨, 앞선 'I don't.'에 대한 부정·반박처럼 읽히게 함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"그녀가 망설이며 말했다는 내용은 유지되고, 머뭇거리는 감탄사의 어휘 선택 차이는 내용이나 행위를 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(연결 관계): 머뭇거리며 말문을 여는 Why가 '아니'로 바뀌어 앞의 'I don't.'에 대한 부정·반박 관계처럼 읽힙니다. 다만 뒤따르는 내용 이해에는 영향이 작아 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"머뭇거리며 사실을 털어놓기 시작하는 서술 → 머뭇거리며 말을 꺼내는 서술. 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"친구 사이의 대화체이고 번역문도 격식 면에서 관계에 어긋나지 않으며 망설이는 태도가 '망설이며'로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 표현이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1034,
+    "output_tokens": 719,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

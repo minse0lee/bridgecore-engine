@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV44meCpErJ6GS6jZoW3",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0118\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"if you stay in the East\",\"tgt_span\":\"동부에 계속 계신다면\",\"description\":\"'stay'가 '계속 계신다면'으로 높임 표현이 붙어 옮겨졌고, 상대는 Tom Buchanan으로 화자 닉과 대등한 지인 관계인데 높임이 쓰임. 같은 문단의 앞 대화에서 톰은 반말, 닉은 존댓말을 쓴 것으로 번역되어 있으나 원문 관계상 일관성이 문제임.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'동부에 머문다면 알게 될 것'이라는 조건·결과가 유지되고, '분명'은 앞서 'You will'로 확신을 나타낸 것과 맞아 확실성도 보존됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"if 조건 관계가 '-ㄴ다면'으로 유지되고, 생략된 'know of them'은 앞 문맥의 '알게 될'로 이어져 지시 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰의 단정에 맞받아 반박하는 진술 → 반박하는 진술. 퉁명스러운 반박 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없고 미래 예측만 있습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"닉과 톰은 예일 동창 지인 관계인데, 번역은 닉에게 존댓말, 톰에게 반말을 배정해 높임이 이 관계에 맞는지 판단하려면 문서 전체에서 두 인물의 번역 말투 설정과 장면의 거리감에 대한 정보가 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'the East'는 지역 명칭일 뿐 별도로 판정할 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1266,
+    "output_tokens": 848,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV47zpoZZHWU5my1o1na",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0280\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Our white girlhood\",\"tgt_span\":\"순백의 소녀 시절\",\"description\":\"white가 인종적 함의(백인 소녀 시절)를 지닌 말인데 '순백'(순결·깨끗함)으로 옮겨 인종 의미가 사라지고 순수함으로 바뀜. 뒤의 'Nordic race' 대화와의 연결 단서도 약해짐\"},{\"id\":\"E002\",\"src_span\":\"Our beautiful white—\",\"tgt_span\":\"우리의 아름다운 순백의—\",\"description\":\"같은 white가 '순백의'로 옮겨져 인종적 함의 상실\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'white girlhood'(백인 소녀 시절)이 '순백의 소녀 시절'로 바뀌어 인종 정체성이라는 내용이 순결·깨끗함이라는 다른 의미로 달라져 독자가 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'there'→'거기서', 'Our'→'우리의' 등 지시 관계와 중단된 문장 구조가 유지되며 연결·초점 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"루이빌 출신이라는 답변과 회상 서술 → 같은 답변과 회상 서술로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가를 정하는 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"데이지가 일상 대화에서 쓰는 구어체 '-에요/-죠'가 상황에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 2: 'white'가 지닌 백인우월주의적·인종적 문화 함의가 '순백'이라는 일반 어휘로 바뀌어 한국어 독자가 그 문화적 의미(뒤의 Nordic race 대화로 이어지는 인종 의식)를 이해할 수 없게 됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1290,
+    "output_tokens": 890,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

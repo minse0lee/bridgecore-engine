@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV45qoGE7tdKwGbaJUjU",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0165\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Can’t you talk about crops or something?\",\"tgt_span\":\"농작물 같은 얘기는 안 하시나요?\",\"description\":\"'Can't you talk about…?'은 '~얘기라도 해 보면 안 되나?'라는 반어적 제안·청유인데, 번역은 평소 그런 얘기를 안 하는지 묻는 단순한 사실 질문처럼 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"질문 1·2: 화자가 청자에게 농작물 같은 (시시한) 화제를 이야기하라는 내용과 대상·행위가 유지됩니다. 기능 변화는 Context에서 다룹니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'or something'은 '같은'으로 범위가 유지되고 지시·연결·초점 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 평범한 화제로 바꿔 보자는 완곡한 제안(투정 섞인 요청) → 평소 그런 얘기를 하지 않는지 묻는 사실 확인 질문. 다만 앞 문장 '야만인이 된 기분'과 이어져 제안으로 읽힐 여지가 있어 minor입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 개인적 부탁·제안이며 의무·허가·금지를 정하는 규범 표현이 아닙니다. can은 규범 의미가 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"닉이 데이지 일행에게 정중하게 말하는 상황에 '하시나요?' 존댓말이 어울리며 격식과 태도가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1927,
+    "output_tokens": 814,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

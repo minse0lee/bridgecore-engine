@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4FDbSmNbj5rnS63rB7",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0630\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"It takes two to make an accident.\",\"tgt_span\":\"양쪽 다 잘못해야 나는 법이니까요\",\"description\":\"'사고가 나려면 두 당사자가 필요하다'는 속담형 문장에 '잘못해야'라는 과실 조건이 더해지고, 수량 two가 '양쪽'으로 옮겨짐. 또한 원문에 없는 이유 어미 '-니까요'가 붙음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사고에는 두 당사자가 관여한다는 핵심은 '양쪽 다 … 나는 법'으로 유지되며, 숫자 2는 '양쪽'으로 대응되어 수량 변화가 없습니다. '잘못해야'는 사고의 책임 맥락을 풀어 쓴 해석 범위 안입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞 문장 '사람들이 알아서 피하겠죠'에 대한 근거로 이어지는 관계가 '-니까요'로 자연스럽게 유지되며 지시·초점 관계는 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"자기 운전을 정당화하는 주장 → 자기 운전을 정당화하는 주장. 발화 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없는 일반 속담형 진술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞 대화에서 그녀가 존댓말로 말하는 상황에 맞게 '-요' 체로 유지되어 관계와 태도가 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도에 고유한 대상, 단위, 표기가 없으며 속담형 일반 진술입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1358,
+    "output_tokens": 802,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

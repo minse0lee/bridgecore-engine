@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4Ckagto9AhVjapK6tL",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0513\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"he wants to go home\",\"tgt_span\":\"이 사람은 집에 가자고 해요\",\"description\":\"'집에 가고 싶어 한다'(자기 욕구)가 '집에 가자고 한다'(상대에게 제안·요구)로 바뀌어 욕구가 발화 행위로 달라짐. 핵심 사실(집에 가려 함)은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: '집에 가고 싶어 한다'가 '집에 가자고 한다'로 바뀌어 행위가 욕구에서 발화로 달라졌으나, 남편이 즐거운 아내를 보면 귀가하려 한다는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Whenever의 조건·반복 관계가 '-면'으로 유지되고, he와 I의 지시 대상('이 사람', '내가')도 바뀌지 않았습니다. '만'은 약간 초점을 더하나 연결·범위 관계를 바꾸지 않습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"아내의 불평·진술 → 아내의 불평·진술. 남편에 대한 불만을 토로하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없고 개인적 불평 진술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"아내들끼리 나누는 대화로서 '해요체'가 어울리며, 남편을 '이 사람'이라 부르는 것도 관계에 맞고 불만의 태도가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1353,
+    "output_tokens": 799,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

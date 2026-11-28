@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4AoyGdkEbtU4e4F1fY",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0421\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a triangle of silver scales\",\"tgt_span\":\"은빛 비늘 같은 삼각형의 달빛\",\"description\":\"'은빛 비늘로 이루어진 삼각형'이 '비늘 같은 삼각형의 달빛'으로 바뀌고 '달빛'이 첨가됨. 다만 달빛이 해협에 비친 모습이라는 해석은 맥락상 타당하여 의미 차이는 미미함\"},{\"id\":\"E002\",\"src_span\":\"trembling a little\",\"tgt_span\":\"가늘게 떨리고 있었다\",\"description\":\"'조금 떨리는' 것이 '가늘게 떨리는'으로 옮겨져 뉘앙스가 약간 다름. 뜻은 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"달이 더 높이 뜸, 해협 위의 은빛 비늘 같은 삼각형, 밴조 소리에 맞춰 떨림이라는 내용이 모두 유지됩니다. '달빛' 첨가와 '가늘게'는 같은 사태를 기술하는 해석 범위의 차이입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'달은 더 높이 떴고'와 해협 위 장면의 병렬 연결, '밴조 소리에 맞춰'의 대응 관계가 유지되어 지시·연결·초점 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"풍경 묘사 → 풍경 묘사. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 '~었다'가 유지되며 화자·청자 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"The Sound는 지명 성격이고 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2253,
+    "output_tokens": 852,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

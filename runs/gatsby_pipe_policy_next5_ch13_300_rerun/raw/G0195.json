@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV46nNAgjcZTiKUhz2vq",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0195\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"She was only extemporizing\",\"tgt_span\":\"그녀는 그저 즉흥적으로 내뱉은 말이었지만\",\"description\":\"주어 '그녀'가 즉흥적으로 말한 행위자인데, 번역은 '그녀는 … 말이었지만'으로 그녀 자신을 말과 동일시하는 구조라 행위(즉흥적으로 말함)의 주체 관계가 어긋남. 다만 의미는 해석 가능.\"},{\"id\":\"E002\",\"src_span\":\"her heart was trying to come out to you concealed in one of those breathless, thrilling words\",\"tgt_span\":\"숨 가쁘고 전율 돋는 말들 속에 마음을 숨겨 전하려는 듯\",\"description\":\"마음이 말 하나에 숨겨져 나오려 한다는 내용이 '말들 속에 마음을 숨겨 전하려는' 것으로 바뀌어 주체가 마음에서 그녀로 이동하고 'one of those'(그런 말 중 하나)가 '말들'로 바뀜. 'to you'(청자 지향)는 누락.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: 'her heart ... trying to come out to you'가 그녀가 마음을 숨겨 전하려 한다는 것으로 바뀌고 'one of those words'가 '말들'로 바뀌었으나, 즉흥적 말·마음을 흔드는 온기·마음이 말에 실려 전해지려 한다는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but의 양보·대조 관계와 'as if'의 비유 연결이 '-지만', '-듯'으로 유지되며 지시 대상과 초점 표현도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 해설·묘사 → 서술자의 해설·묘사. 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가를 정하는 표현이 없는 소설 서술입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"평가대상 문장은 서술자의 지문이며 화자와 청자 사이의 높임·호칭 관계를 판정할 대상이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 이 문장에는 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2066,
+    "output_tokens": 1004,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

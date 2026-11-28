@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4DxseAz7zrXtJQCnXH",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0559\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"you oughtn’t to try driving at night\",\"tgt_span\":\"밤에는 운전하지 말았어야죠\",\"description\":\"일반적 충고(밤에 운전하려 하지 말아야 한다)가 과거 시점의 비난('말았어야죠')으로 바뀌고, 'try'(시도)가 반영되지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(시간·행위): 'oughtn't to try driving'이 과거 사건에 대한 '운전하지 말았어야죠'로 읽혀 시제가 바뀌고 'try'가 빠졌으나, 가난한 운전 실력이면 밤 운전을 피하라는 핵심 내용은 유지되어 요지는 크게 달라지지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"if 조건('형편없으면')과 결과('운전하지 말았어야죠')의 조건 연결이 유지되고 지시·초점 표현의 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"구경꾼의 훈계·비난성 충고 → 훈계·비난성 충고. 상대의 잘못을 지적하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"oughtn't의 규범적 권고(하지 말아야 함)가 '말았어야죠'로 금지·부당함의 범주를 유지합니다. 과거형으로의 변화는 Semantic에서 다룹니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"낯선 구경꾼이 사고 낸 사람에게 하는 말로 '-죠' 해요체가 무난하며 훈계 태도도 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1198,
+    "output_tokens": 800,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

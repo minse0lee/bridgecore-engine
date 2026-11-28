@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV45NnZm9rrX4U82945u",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0138\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I don’t know a single—\",\"tgt_span\":\"전 한 분도—\",\"description\":\"'know'에 해당하는 동사 '모른다/안다'가 빠져 있고 '한 분도'로 끝나 부정이 문장에 드러나지 않음. 이는 말이 끊기는 원문의 미완결 구조를 반영한 것이며 의미 변화로 보기 어려움. 또한 'a single'이 '한 분도'로 옮겨져 사람이라는 대상이 보충됨(통상적 보충).\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'아는 사람이 한 명도 없다'는 중단된 발화를 '한 분도—'로 옮겨 화자·수량·부정의 방향이 유지되며, '분'은 뒤 문맥상 사람을 가리키는 통상적 대응입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'single'의 강조(한 명도)와 말줄임의 중단이 '한 분도—'로 유지되어 지시·연결·초점이 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"웨스트에그에 아는 사람이 없다고 말하다 끊기는 대화 → 같은 중단된 대화 발화로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 같은 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'분'이라는 높임 표현과 '전'이라는 겸양이 화자와 청자(닉과 대화 상대 조던) 관계에 맞는지 판단하려면 두 사람의 사회적 관계와 말투 설정이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1452,
+    "output_tokens": 799,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

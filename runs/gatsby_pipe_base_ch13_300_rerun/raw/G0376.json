@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV49jVcb1MjEJpEYQjMK",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0376\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"It’s more that he was a German spy during the war.\",\"tgt_span\":\"전쟁 중에 독일 스파이였다는 얘기가 더 많더라고요.\",\"description\":\"루실의 개인적 견해('그가 독일 스파이였다는 쪽이 더 그럴듯하다')가 '그런 얘기가 더 많다'는 소문의 빈도에 대한 보고로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성·인과): 원문은 화자의 판단('~쪽이 더 그럴듯하다')인데 번역은 그런 얘기가 더 많이 돈다는 빈도 보고로 바뀌었습니다. 핵심 사실(독일 스파이설)은 유지되고 독자가 행동을 다르게 이해하지는 않으므로 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞 소문('사람을 죽였다')에 대한 반박·대조 관계가 '그건 아닐 거예요'와 '더 …'로 유지되며 지시·초점 관계도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소문에 대한 반박·대체 주장 → 반박·대체 주장. 발화 기능은 같은 종류입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 소설 속 대화입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"파티 손님들 사이의 대화에 맞는 '~요' 체가 유지되고 회의적인 태도도 '회의적인 말투로'로 전달됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명과 일반적인 역사적 배경(전쟁) 외에 별도로 판정할 문화 고유의 제도·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1325,
+    "output_tokens": 808,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

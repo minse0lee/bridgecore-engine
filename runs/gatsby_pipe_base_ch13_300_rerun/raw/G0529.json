@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4CsBJarQ4raFHQX8P8",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0529\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Mrs. Sigourney Howard\",\"tgt_span\":\"시구니 하워드 부인\",\"description\":\"Sigourney를 '시구니'로 옮겨 음역이 부정확하나 같은 인물을 가리키는 것으로 식별 가능함\"},{\"id\":\"E002\",\"src_span\":\"My aunt…\",\"tgt_span\":\"제 고모님인데….\",\"description\":\"aunt를 '고모님'(아버지 쪽 친족)으로 한정했고 '-인데'로 문장을 이었으며 높임 '님'을 덧붙임\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1(인물): aunt가 '고모'로 한정되어 외가 쪽 이모일 가능성이 배제되었으나 요지와 행동 안내는 같아 minor입니다. 이름 음역 '시구니'는 같은 인물로 식별되어 오류로 보지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'My aunt'가 Mrs. Howard를 가리키는 지시 관계가 '제 고모님인데'로 유지되고 연결·초점 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"방문 요청과 전화번호부 안내 → 방문 요청과 전화번호부 안내. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"개인적 부탁·초대이며 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조던이 닉에게 하는 정중한 부탁이 '-세요' 해요체로 유지되고 '고모님'은 어색하나 관계를 바꾸지 않습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"전화번호부와 Mrs.+남편 이름 호칭이 '부인'으로 통용되게 옮겨졌고 다른 제도로 바뀌지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1694,
+    "output_tokens": 832,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

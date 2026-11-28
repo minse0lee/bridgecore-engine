@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4ExAGCm9JjWmvziMf9",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0611\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"house-party\",\"tgt_span\":\"홈 파티\",\"description\":\"여러 날 묵는 하우스 파티를 '홈 파티'로 옮겨 숙박을 동반한 시골 저택 모임이라는 뉘앙스가 약해짐. 다만 같은 종류의 사교 모임을 가리키므로 의미 훼손으로 보지 않음.\"},{\"id\":\"E002\",\"src_span\":\"up in Warwick\",\"tgt_span\":\"워윅에서\",\"description\":\"'up in'(북쪽 지방)의 방향 뉘앙스가 사라짐. 의미나 기능을 바꾸지 않음.\"},{\"id\":\"E003\",\"src_span\":\"suddenly I remembered\",\"tgt_span\":\"그 순간, … 갑자기 떠올랐다\",\"description\":\"'그 순간'이 덧붙었으나 앞 문장 상황과 같은 시점을 가리켜 내용이 달라지지 않음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"파티 동행, 빌린 차의 뚜껑을 열어둔 채 빗속에 둠, 거짓말, 데이지 집에서 놓쳤던 이야기가 갑자기 기억남 등 행위자·행위·대상이 모두 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'and then lied'의 시간 순서와 'suddenly'로 이어지는 연결이 '-고는', '그 순간'으로 유지되고, 'her story that had eluded me'의 소유·지시 관계도 같습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사건을 서술하며 기억을 환기하는 서사 → 같은 서사 기능.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 화자의 회고 서술체(-었다)가 유지되며 호칭·태도 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"하우스 파티가 '홈 파티'로 옮겨졌지만 사교 모임이라는 대상이 통용되는 표기로 전달되며, 지명 외에 바뀐 제도·단위는 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 3117,
+    "output_tokens": 929,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

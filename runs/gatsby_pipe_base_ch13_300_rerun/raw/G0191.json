@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV46JmVK7NkU9GKowEme",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0191\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Doesn’t he?\",\"tgt_span\":\"그렇지 않나요?\",\"description\":\"원문은 제3자(Nick)를 지칭하며 Miss Baker에게 동의를 구하는 'he'인데, 번역문은 지시 대상이 없는 '그렇지 않나요?'로 옮겨 Nick을 가리키는 대상이 불분명해짐\"},{\"id\":\"E002\",\"src_span\":\"a—of a rose\",\"tgt_span\":\"어떤—장미가 생각나요\",\"description\":\"'a—of a rose'는 말을 더듬으며 'a rose'로 정정하는 표현인데 '어떤—장미'로 옮겨 '무엇과 닮았다'는 비유가 '장미가 생각난다'로 약간 달라짐 (의미는 대체로 유지됨)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"식탁에서 닉을 보는 기쁨, 닉이 장미를 연상시킨다는 말, 'absolute'의 강조가 모두 유지되며 'remind me of'를 '생각나요'로 옮긴 것은 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'Doesn’t he?'의 he는 닉을 가리키며 조던에게 동의를 구하는 말인데, 번역문의 '그렇지 않나요?'는 무엇에 대한 동의인지 지시 대상이 흐려지고, 앞 문장의 2인칭 '당신'과 달리 3인칭 지칭이 사라졌습니다. 다만 문맥(뒤 문장 번역)에서 대상이 복원되어 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"애정 표현과 동의를 구하는 수사적 질문 → 애정 표현과 동의를 구하는 질문. 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 대화로 의무·허가·금지 같은 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"데이지가 닉에게 친근하지만 예의 있게 말하는 관계가 '~네요/~나요'로 자연스럽게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1806,
+    "output_tokens": 989,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4CHaUnxBXzFZgnUrvf",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0491\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"to speak to you alone\",\"tgt_span\":\"양하와 단둘이 이야기하고 싶어 하십니다\",\"description\":\"청자를 가리키는 you가 '양하'라는 무의미한 말로 옮겨져 누구와 이야기하려는지 알 수 없게 됨(앞 문장의 '조던 베이커 양'을 잘못 처리한 것으로 보임)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물·대상): 'you'가 '양하'라는 의미 불명의 말로 바뀌어 개츠비가 이야기하려는 상대가 특정되지 않고, 번역문만 읽으면 요지를 다르게 이해할 수 있습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(지시 대상): 직전 호칭 'Miss Baker'를 받는 you가 '양하'로 옮겨져 무엇을 가리키는지 알 수 없게 되었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"집사가 개츠비의 면담 요청을 전달하는 기능 → 동일한 전달 기능. 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"개츠비의 바람을 전하는 말로, 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"집사가 손님에게 하는 공손한 말투가 '실례합니다만', '께서', '하십니다'로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·관습·단위가 없고 인명만 있습니다. 호칭 오류는 Semantic에서 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1674,
+    "output_tokens": 773,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

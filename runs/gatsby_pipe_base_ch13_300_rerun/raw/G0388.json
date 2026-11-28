@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4A1dxzjJnEwcyTNbs4",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0388\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"East Egg condescending to West Egg and carefully on guard against its spectroscopic gaiety\",\"tgt_span\":\"이스트에그가 웨스트에그를 얕보며, 그곳의 화려하고 다채로운 유쾌함을 경계하는 모습 그대로였다\",\"description\":\"동격으로 앞의 '시골 귀족 대표'를 부연하던 구절이 '그 모습 그대로였다'라는 별도 평서 서술로 바뀜. 의미 자체는 유지되며 오류 수준이 아닌 구조 재구성이어서 심각도 판단 대상 아님.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"흩어지지 않고 동질성을 유지한 것, 시골 귀족 대표 역할을 자임한 것, 이스트에그가 웨스트에그를 얕보며 경계하는 내용이 모두 유지됩니다. 'spectroscopic'을 '다채로운'으로 옮긴 것은 평가어의 표현 차이입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Instead of'가 '대신'으로 대조 관계를 유지하고, 대시 뒤 동격 부연은 '이스트에그가 …하는 모습 그대로였다'로 앞 내용과의 연결이 남아 있어 지시·연결·초점이 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술(인물 무리 묘사) → 소설 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서사 묘사입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체의 '~했다' 평서문이 유지되고 '얕보며'로 이스트에그의 은근한 우월감도 전달됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"East Egg와 West Egg를 '이스트에그', '웨스트에그'로 통용 음역해 같은 대상을 가리키며 계급적 대비도 이해 가능합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2020,
+    "output_tokens": 888,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4Bkn4Q7SXyfx2qKQzK",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0474\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"drift coolly out of nowhere\",\"tgt_span\":\"어디선가 불쑥 나타나\",\"description\":\"'coolly'(태연하게, 침착하게)의 태도 의미가 '불쑥'(갑작스러움)으로 바뀌고, 'drift'의 표류하듯 흘러드는 느낌이 사라짐\"},{\"id\":\"E002\",\"src_span\":\"in my provincial inexperience\",\"tgt_span\":\"시골 출신인 나의 부족한 경험으로는\",\"description\":\"'provincial'(세상 물정에 어두운 촌스러움)이 '시골 출신'이라는 출신 정보로 옮겨져 화자의 출신지를 단정하는 내용이 추가됨\"},{\"id\":\"E003\",\"src_span\":\"buy a palace\",\"tgt_span\":\"대저택을 산다는 것은\",\"description\":\"'palace'(궁전)가 '대저택'으로 옮겨져 규모와 과장의 정도가 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'coolly'의 태연한 태도가 '불쑥'이라는 갑작스러움으로 바뀌었고, 'provincial inexperience'가 '시골 출신'이라는 출신 정보로 바뀌었습니다. 다만 젊은 남자가 어디선가 나타나 저택을 산다는 사태와 그것을 믿기 어려워한다는 요지는 유지되어 minor입니다. 'palace'→'대저택'은 평가어의 정도 차이로 봅니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'But'이 '하지만'으로 앞 문장과의 대조 관계를 유지하고, 삽입절 '적어도 … 믿었다'의 범위와 초점도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 의문·판단 서술 → 서술자의 의문·판단 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없는 소설 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 1인칭 회고 서술체('-었다')가 유지되고 화자와 독자의 관계에 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Long Island Sound를 '롱아일랜드 해협'이라는 통용 표기로 옮겨 같은 지명을 가리키므로 문화적 대상은 보존됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1865,
+    "output_tokens": 1034,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

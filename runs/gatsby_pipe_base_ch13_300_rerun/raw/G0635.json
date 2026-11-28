@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4FA5s2tYfsLeyeX6bx",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0635\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"But I am slow-thinking and full of interior rules that act as brakes on my desires, and I knew\",\"tgt_span\":\"하지만 나는 생각이 느린 데다 욕망에 제동을 거는 내면의 규칙들이 많았기에, … 알고 있었다\",\"description\":\"'and I knew'의 대등 연결이 '~했기에'라는 인과 구조로 바뀌어, 자신의 성격이 정리해야 한다는 앎의 원인이 되는 것처럼 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"느린 사고, 욕망에 제동을 거는 내면 규칙, 고향의 얽힌 관계를 먼저 확실히 정리해야 한다는 인식이 모두 유지됩니다. 'full of'를 '많았기에'로 옮긴 것은 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(연결 관계): 원문의 'and' 병렬 연결이 '~했기에' 인과 연결로 바뀌어 연결 관계가 달라졌습니다. 다만 핵심 사실은 유지되어 독자의 이해와 행동에는 큰 영향이 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 내면 서술·설명 → 내면 서술·설명. 기능이 동일합니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'had to'는 화자 스스로의 내적 필요를 서술한 소설 속 서술이며, 독자에게 의무·허가·금지를 정하는 규범 표현이 아니므로 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회고 서술의 담담한 문어체 평서문이 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1535,
+    "output_tokens": 838,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

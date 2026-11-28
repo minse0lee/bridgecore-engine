@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV48itd8EPkG1TnbXdgD",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0323\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"floating rounds of cocktails permeate the garden outside\",\"tgt_span\":\"쟁반에 담긴 칵테일들이 정원을 가득 메우며 돌아다닌다\",\"description\":\"칵테일 라운드가 정원에 스며들듯 퍼진다는 뜻이 '쟁반에 담긴 칵테일이 정원을 가득 메우며 돌아다닌다'로 바뀜. 쟁반은 첨가이고 칵테일의 향이 퍼진다는 함의가 약해짐\"},{\"id\":\"E002\",\"src_span\":\"introductions forgotten on the spot\",\"tgt_span\":\"소개하자마자 잊어버리는 이름들\",\"description\":\"그 자리에서 잊힌 소개가 소개하자마자 잊어버리는 이름들로 바뀜. 소개가 이름으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: '쟁반'이 첨가되고 칵테일 라운드가 퍼진다는 표현이 바뀌었으며, 잊힌 소개가 이름으로 바뀌었습니다. 그러나 파티가 무르익어 소란스러워지는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"until이 '이윽고'로 시간 순서 연결이 남아 있고, 지시·초점 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"파티 분위기 묘사 → 파티 분위기 묘사. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 묘사 문장으로 규범 의미가 없습니다. never는 규범 의미가 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 문체의 평서형 현재 시제가 유지되며 화자와 청자의 관계에 따른 높임 문제는 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도나 단위 등 별도로 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 3312,
+    "output_tokens": 885,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

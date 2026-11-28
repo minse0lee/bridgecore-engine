@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV47nkmDHtCueQ2bGJPm",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0269\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I think I’ll arrange a marriage\",\"tgt_span\":\"제가 결혼 상대를 좀 알아봐 드릴까 해요\",\"description\":\"'결혼을 주선하겠다'는 말이 '결혼 상대를 알아봐 드린다'로 옮겨졌고, 닉 한 사람에게 해 주는 일로 읽혀 닉과 조던 두 사람을 맺어 주려는 취지가 약해졌다. 다만 뒤 문장의 '두 분을 엮어 드릴게요'로 보완되어 핵심 사태는 유지된다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"결혼을 주선하겠다는 계획, 자주 오라는 말, 리넨 장에 가두고 배에 태워 보낸다는 예시가 모두 유지된다. '결혼 상대를 알아봐 드린다'는 표현은 달라 보이나 바로 뒤의 '두 분을 엮어 드릴게요'로 같은 사태가 전달된다. 힌트의 숫자 [2]는 '두 분'에서 나온 것으로, 원문 fling you together의 두 사람(닉과 조던)을 가리켜 수량 오류가 아니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 대상과 연결 관계가 유지된다. 'Come over often … and I'll fling you together'의 조건·결과 연결은 한국어에서 자연스럽게 재구성되었다. 초점 표현의 변화도 없다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 제안과 농담조 장난 → 제안과 농담조 장난. 발화 기능이 같은 종류로 유지된다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 아니라 개인적 제안과 농담이다. 'Come over often'은 초대이므로 규범으로 보지 않는다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"데이지가 친구인 닉에게 말하는 상황에서 '~해요' 체의 정중하고 친근한 말투가 유지된다. 가볍고 장난스러운 태도도 그대로 전달된다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"linen closets를 '리넨 보관함'으로 옮겼고 그 뜻을 이해할 수 있다. 제도나 단위, 통화 같은 문화 고유 요소의 변경은 없다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1587,
+    "output_tokens": 1007,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV42esrpeRuXw5wC7r4x",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0027\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"muttered Finnish wisdom to herself\",\"tgt_span\":\"핀란드어로 혼잣말을 중얼거리곤 했다\",\"description\":\"'핀란드의 지혜(Finnish wisdom)'를 중얼거린다는 내용이 '핀란드어로 하는 혼잣말'로 바뀌어 'wisdom'이 사라짐\"},{\"id\":\"E002\",\"src_span\":\"an old Dodge\",\"tgt_span\":\"낡은 닷지 자동차 한 대\",\"description\":\"Dodge를 '자동차'로 보충해 옮긴 것이며, 의미를 바꾸지 않는 통상적 설명 보충\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'Finnish wisdom'이 '핀란드어로 된 혼잣말'로 바뀌어 중얼거린 내용(지혜)이 언어로 대체되었으나 핵심 사실(가정부가 중얼거림)은 유지되고, 독자가 행동을 다르게 이해하지는 않아 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'at least … until he ran away'의 한정은 '며칠 동안만 … 도망가기 전까지'로 유지되고 지시·연결·초점 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술(소지품·주변 인물 묘사) → 소설 서술로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범적 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술의 평서체 '~다'가 유지되며 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Dodge는 '닷지'로 정확히 음역되고 '자동차'가 보충되어 같은 대상을 가리키며 핀란드인 가정부도 유지됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2166,
+    "output_tokens": 839,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

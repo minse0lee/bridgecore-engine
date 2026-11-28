@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV498J3bdnGTnWxdsNVQ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0356\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"remarked Jordan\",\"tgt_span\":\"조던이 말했다\",\"description\":\"remarked(논평하듯 던진 말)가 중립적인 '말했다'로 바뀜. 평가 정도의 차이에 가까워 의미 변화는 경미함. 오류로 보지 않을 수준이나 기록함.\"},{\"id\":\"E002\",\"src_span\":\"the premature moon\",\"tgt_span\":\"하늘에 떠 있던 이른 달\",\"description\":\"premature(때 이르게 떠오른 달)를 '이른 달'로 옮겨 의미는 유지되나, '하늘에 떠 있던'이 첨가됨. 의미 변화 없음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"판단 질문 1·2: 염색 발언, 놀람, 소녀들이 떠남, 달에게 건넨 말, 달이 뷔페 바구니에서 나온 듯하다는 내용이 모두 유지되며 remarked→'말했다', '뚝딱' 등은 표현 정도의 차이에 그칩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'but'의 대조가 '-지만'으로, 'her remark'의 소유가 '그녀의 말'로 유지되고 'like the supper'도 '저녁 식사처럼 그 달 역시'로 비교 관계가 남아 있습니다. 문장 분할은 허용됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 장면 묘사와 아이러니한 논평 → 같은 서술·논평 기능. 이미 가버린 소녀들 대신 달에게 말한 꼴이 된 상황이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술 문장으로 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조던이 낯선 소녀들에게 하는 말이므로 '염색하셨네요'의 존대가 관계에 맞고 서술문체도 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"caterer's basket을 '출장 뷔페 바구니'로 옮겨 같은 대상을 가리키며 한국어 독자가 이해할 수 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1716,
+    "output_tokens": 934,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

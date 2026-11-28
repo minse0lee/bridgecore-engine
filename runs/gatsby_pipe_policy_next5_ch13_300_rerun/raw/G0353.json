@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV49HgLa3BJNDQof4H7E",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0353\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"That was for the golf tournament.\",\"tgt_span\":\"골프 대회 이야기였다.\",\"description\":\"'그 말(Sorry you didn't win)이 골프 대회(에서 우승하지 못한 것)에 대한 것이었다'는 설명이 '골프 대회 이야기였다'로 바뀌어 'for'의 대상 관계가 약간 달라졌으나 핵심 사실은 유지됨(오류 아님 수준)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞의 '우승 못 해서 아쉽다'는 말이 골프 대회에 관한 것이었다는 내용이 '골프 대회 이야기였다'로 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'That'이 앞 소녀들의 말을 가리키는 관계가 '(그것은) 골프 대회 이야기였다'로 유지되고 연결·초점 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 배경 설명 → 배경 설명. 앞 발화의 맥락을 설명하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술자의 평서 문체가 '-였다' 서술체로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"골프 대회는 별도로 판정할 문화 고유의 제도·관습·단위가 아닙니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1540,
+    "output_tokens": 702,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

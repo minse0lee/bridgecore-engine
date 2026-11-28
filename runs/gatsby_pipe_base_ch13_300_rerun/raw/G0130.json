@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV45Ey1nWDh2EtKwWwuA",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0130\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"is beyond me\",\"tgt_span\":\"모르겠군\",\"description\":\"'내 이해 범위를 넘어선다'는 관용 표현이 '모르겠다'로 옮겨져 뉘앙스가 다소 약해졌으나 핵심 의미(이해 불가)는 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"어떻게 아무 일도 해내는지 이해할 수 없다는 내용이 유지됩니다. 'anything'이 '일을 다'로 옮겨졌으나 같은 사태를 기술하고, 'beyond me'를 '모르겠군'으로 옮긴 것은 통상적 대응이므로 오류로 보지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현의 관계가 바뀌지 않았습니다. 'ever'의 강조는 '도대체'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"믿기지 않는다는 감탄·의아함을 표현하는 서술 → 같은 기능의 감탄·의아함 표현. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 같은 규범 의미가 없는 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"집주인 톰이 손님에게 하는 혼잣말에 가까운 어조의 '-군'체가 관계에 무리 없이 맞고 놀라움의 태도도 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 등장하지 않습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1431,
+    "output_tokens": 723,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

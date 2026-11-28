@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4DYAbKi89s4HNpisGP",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0542\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"having been among the last to go\",\"tgt_span\":\"내가 마지막까지 남은 것\",\"description\":\"'마지막에 떠난 사람들 중 하나'가 '마지막까지 남은 (유일한) 나'로 바뀌어 '일부 중 하나'라는 복수 맥락이 사라지고 주체가 단수 '나'로 한정됨. 다만 원문 주어는 생략되어 있고 화자 자신을 가리키는 해석은 가능함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물·수량): 'among the last to go'(마지막에 떠난 이들 중 하나)가 '마지막까지 남은 나'로 바뀌어 참여자 범위가 단수로 좁혀졌으나, 핵심 사태(마지막까지 남은 것에 의미가 있는 듯함)는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'as if he had desired it'의 he는 '그'로, 대시 뒤 연결은 '그러자'로 유지되어 지시·연결·초점 질문 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 인상 묘사 → 서술자의 인상 묘사. 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체('-다')가 유지되며 서술자와 독자 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1642,
+    "output_tokens": 766,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

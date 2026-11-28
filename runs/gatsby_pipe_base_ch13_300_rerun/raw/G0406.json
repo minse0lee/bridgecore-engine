@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4AUXjmVNTXi1HNHyB7",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0406\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"But what do you want? What do you expect?\",\"tgt_span\":\"하지만 뭘 더 바라겠어요? 당연한 결과죠.\",\"description\":\"두 번째 수사의문 'What do you expect?'가 '당연한 결과죠.'라는 평서문으로 바뀌어 원문에 없는 단정(그럴 만하다는 결론)이 첨가되고 의문이 사라짐\"},{\"id\":\"E002\",\"src_span\":\"didn’t cut the pages\",\"tgt_span\":\"책장 끝을 자르지 않았거든요\",\"description\":\"'Knew when to stop, too'의 근거를 밝히는 대시 설명이 '-거든요'로 이유 관계가 명시됨(의미 변화 아님, 경미한 해석)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'What do you expect?'(무엇을 기대하겠느냐)가 '당연한 결과죠'라는 단정으로 바뀌어 내용이 달라졌으나 핵심 사실과 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현에 변화가 없으며 '-거든요'는 앞 문장의 근거를 설명하는 관계로 원문의 대시 연결과 합치합니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"원문 기능 → 번역 기능: 'What do you expect?'는 대답을 기대하지 않는 수사의문으로 반문하며 항변하는 기능인데, '당연한 결과죠.'는 평서문 결론으로 단정하는 기능이 되어 수사의문의 반문 효과가 사라졌습니다. 단, 앞의 '뭘 더 바라겠어요?'가 수사의문으로 남아 전체 요지는 유지되어 minor입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 소설 대화입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"술에 취한 낯선 남성이 처음 만난 사람들에게 말하는 상황에 맞는 존대 구어체가 유지되며 들뜬 태도도 전달됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'벨라스코'(데이비드 벨라스코, 사실적 무대 연출로 유명한 연출가)를 정확히 음역해 같은 대상을 가리키며 한국어 독자가 통용 표기로 이해할 수 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1730,
+    "output_tokens": 1036,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

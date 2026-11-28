@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV492EA5vMXR9cc8ZL7f",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0349\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"next door to—\",\"tgt_span\":\"그 옆집에 사신다고\",\"description\":\"'next door to—'는 이름이 나오다 끊긴 미완결 구문이고 '옆집'의 대상이 뒤에 올 말인데, 번역은 '그 옆집'이라는 특정 지시어를 덧붙여 이미 알려진 집을 가리키는 것처럼 바꿈. 이야기 속 Jordan이 Nick을 이웃으로 기억한다는 요지는 크게 달라지지 않음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'당신이 옆집에 산다고 기억했다'는 내용이 유지되고, 끊긴 문장도 '—'로 이어져 행위자·행위·대상이 같습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(지시): 'next door to—'의 미완결 대상이 '그 옆집'이라는 특정 지시어로 바뀌어, 앞에 언급된 집을 가리키는 것처럼 읽힙니다. 다만 요지 이해에는 영향이 작습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기억을 말하며 닉을 알아본 이유를 설명하는 서술 → 같은 설명 기능. 말이 끊기는 효과도 '—'로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조던이 닉에게 존대하는 '사신다고'는 서로 격식 있게 인사하는 장면과 어긋나지 않으며 관계를 바꾸지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1305,
+    "output_tokens": 794,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

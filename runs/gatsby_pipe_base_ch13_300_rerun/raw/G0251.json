@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV47GNuLY69fkzzLvWiA",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0251\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"an absolute smirk\",\"tgt_span\":\"완전히 만족스러운 미소\",\"description\":\"smirk(능글맞고 자기만족적인 비웃음)가 긍정적인 '만족스러운 미소'로 바뀌어 부정적 평가·태도가 중립/긍정으로 변함\"},{\"id\":\"E002\",\"src_span\":\"to which she and Tom belonged\",\"tgt_span\":\"자신과 톰만이 속한\",\"description\":\"'she and Tom belonged'에 없는 '만'(only)이 첨가되어 배타성 초점이 생김\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: smirk가 '만족스러운 미소'로 바뀌어 화자가 읽어내는 부정적 표정이 호의적/중립적 표정으로 달라졌고, '만'의 첨가로 소속 범위도 한정되었습니다. 독자가 인물의 표정 의미를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 3: 원문에 없던 초점 표현 '만'이 첨가되어 소속 범위가 '그녀와 톰'에게 한정되는 배타적 초점이 생겼습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(화자의 인상과 관찰 묘사) → 서술. 문장의 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3: 화자가 느끼는 비꼬는 듯한 자기만족적 태도(smirk, 불쾌감)가 '만족스러운 미소'로 약해져 경멸·불신의 태도가 사라졌습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"secret society는 비유로 쓰였고 별도로 판정할 문화 고유의 제도·단위가 없으며 인명만 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2297,
+    "output_tokens": 865,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

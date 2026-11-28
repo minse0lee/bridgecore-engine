@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4DGhAqvz8xnu2STifh",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0539\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Good night\",\"tgt_span\":\"안녕히 가세요\",\"description\":\"밤 작별 인사 Good night를 '안녕히 가세요'로 옮겨 작별 인사 기능은 유지되나, 이 인사는 가는 사람(닉)에게 하는 말로서 남는 사람이 하는 '안녕히 계세요' 식 방향성이 아니라 통상 작별 인사 대응이라 의미 변화는 없음. 다만 Gatsby가 손님을 보내는 상황에서 '안녕히 가세요'는 합당함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"곧 가겠다는 응답, 전해달라는 요청, 작별 인사의 내용이 모두 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 관계나 연결 관계가 바뀐 곳이 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"집사에게 답하는 말과 작별 인사 → 같은 기능으로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개츠비가 집사에게 '전해줘요'로, 손님 닉에게 '안녕히 가세요'로 말하는 것은 상황에 어긋나지 않는 정중한 말투입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1150,
+    "output_tokens": 678,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

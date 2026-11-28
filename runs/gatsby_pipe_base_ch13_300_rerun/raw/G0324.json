@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV48X9h5ZFhQzppF2W8P",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0324\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the opera of voices pitches a key higher\",\"tgt_span\":\"사람들의 목소리는 오페라처럼 한 옥타브 더 높아진다\",\"description\":\"'목소리들의 오페라'라는 은유가 '오페라처럼'이라는 직유로 바뀌었고, a key(한 음 정도)가 '한 옥타브'로 과장됨. 표현 방식과 정도의 변화이며 같은 사태를 기술함\"},{\"id\":\"E002\",\"src_span\":\"as the earth lurches away from the sun\",\"tgt_span\":\"멀어지며 어둠이 내릴수록\",\"description\":\"'어둠이 내릴수록'이 원문에 없는 내용으로 첨가됨. 해가 지는 상황을 풀어 쓴 것으로 문맥상 함의된 내용임\"},{\"id\":\"E003\",\"src_span\":\"yellow cocktail music\",\"tgt_span\":\"화사한 칵테일 음악\",\"description\":\"yellow가 '화사한'으로 바뀌어 색채 이미지가 약해짐. 공감각적 평가어의 변화\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"판단 질문 1: 조명, 지구가 태양에서 멀어짐, 오케스트라 연주, 목소리의 고조 등 핵심 내용은 유지됩니다. 판단 질문 2: '어둠이 내릴수록' 첨가, '화사한', '한 옥타브'는 문맥상 함의 또는 평가어·정도의 차이로 사태 자체는 바뀌지 않았습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"질문 1·2·3 모두 아니오. 지시 관계, 'as'의 시간·인과 연결('-ㄹ수록'), 초점 표현에 변화가 없고 나열 구조도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사 → 장면 묘사. 파티가 무르익는 분위기를 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 문어체 평서문이 유지되며 화자·청자 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2816,
+    "output_tokens": 993,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

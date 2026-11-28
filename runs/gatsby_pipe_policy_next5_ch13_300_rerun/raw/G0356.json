@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV49RfKHSQc6EoDL48zF",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0356\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"You’ve dyed your hair since then\",\"tgt_span\":\"그때보다 머리색이 바뀌었네\",\"description\":\"'머리를 염색했다'가 '머리색이 바뀌었다'로 바뀌어 염색이라는 행위가 사라지고 단순한 상태 변화로 읽힘. 다만 머리색이 달라졌다는 핵심 사실은 유지됨\"},{\"id\":\"E002\",\"src_span\":\"remarked Jordan, and I started\",\"tgt_span\":\"조던이 말하는 바람에 나는 깜짝 놀랐지만\",\"description\":\"'조던이 말했고 나는 놀랐다'는 병렬 관계가 '말하는 바람에 놀랐다'는 인과 관계로 바뀜\"},{\"id\":\"E003\",\"src_span\":\"her remark was addressed to the premature moon\",\"tgt_span\":\"그녀의 말은 이른 달을 향한 혼잣말이었는데\",\"description\":\"달을 향해 던진 말이 '혼잣말'로 옮겨져 대상이 달이라는 점은 유지되나 '혼잣말'이라는 해석이 더해짐\"},{\"id\":\"E004\",\"src_span\":\"produced like the supper, no doubt, out of a caterer’s basket\",\"tgt_span\":\"저녁 식사처럼 분명 출장 요리사의 바구니에서 뚝딱 만들어져 나온 것 같았다\",\"description\":\"'no doubt'(분명히 그렇다는 화자의 단정적 추측)가 '~것 같았다'로 확실성이 약해지고 '뚝딱'이 더해짐. 'caterer'를 '출장 요리사'로 옮겨 업체의 의미가 개인으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E004\"],\"reason\":\"판단 질문 1: 염색이라는 행위가 단순한 색 변화로 바뀌고, 'no doubt'의 확실성이 '~것 같았다'로 약해졌으며 caterer가 출장 요리사 개인으로 옮겨졌습니다. 핵심 사실은 유지되어 요지는 크게 달라지지 않으므로 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: 'and I started'의 병렬 연결이 '말하는 바람에 놀랐다'는 인과 관계로 바뀌었습니다. 놀란 이유가 조던의 말이라는 해석이 더해져 연결 관계가 달라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술·논평 → 서술·논평. 조던의 발언과 화자의 비꼬는 묘사라는 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조던이 화자와 가까운 사이에서 건네는 평어체 발화가 유지되고, 서술문은 소설 문체로 자연스럽습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화·제도 고유의 대상이 없습니다. 인명만 등장하고 caterer는 일반 직업 어휘입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1694,
+    "output_tokens": 1289,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

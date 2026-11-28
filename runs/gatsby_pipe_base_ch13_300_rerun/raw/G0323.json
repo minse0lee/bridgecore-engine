@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV48VVTuAtPNXbBTRybQ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0323\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"floating rounds of cocktails permeate the garden outside\",\"tgt_span\":\"정원 곳곳으로 칵테일 쟁반들이 돌아다닌다\",\"description\":\"칵테일 한 순배가 정원 전체에 퍼진다는 내용이 '쟁반들이 돌아다닌다'로 바뀌어 'permeate'의 스며들고 가득 찬다는 뜻이 약해지고, 'outside'도 빠짐. 의미 변화는 경미함.\"},{\"id\":\"E002\",\"src_span\":\"introductions forgotten on the spot\",\"tgt_span\":\"소개하자마자 잊어버린 이름들\",\"description\":\"잊힌 '소개'가 '이름'으로 바뀜. 소개 직후 이름을 잊는 상황이라 같은 사태를 기술하며 의미 변화는 거의 없음.\"},{\"id\":\"E003\",\"src_span\":\"women who never knew each other’s names\",\"tgt_span\":\"서로 이름조차 모르는 여자들\",\"description\":\"'never knew'(끝내 몰랐던)가 현재형 '모르는'으로 바뀜. 의미 변화는 거의 없음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'floating rounds of cocktails permeate the garden'이 정원 전체에 칵테일이 퍼진다는 뜻인데, 번역은 쟁반이 돌아다닌다는 행위로 바뀌어 '스며든다'는 뜻이 약해졌습니다. 핵심 사태(칵테일이 정원에 돌고 사람들이 어울림)는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"until이 '이윽고'로 옮겨져 앞 장면에서 공기가 활기로 가득 차기까지의 시간·결과 연결이 유지되며, 지시·초점 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"파티 장면 묘사 → 파티 장면 묘사. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"never는 '이름을 몰랐다'는 사실을 나타낼 뿐 규범 의미가 없어 Deontic 적용 대상이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체(현재형 '-한다')가 유지되고 호칭·관계 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 3277,
+    "output_tokens": 1049,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

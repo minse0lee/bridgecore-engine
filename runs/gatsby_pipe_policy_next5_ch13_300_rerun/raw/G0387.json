@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4A3yMfXRTjt1MnuaLg",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0387\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a persistent undergraduate given to violent innuendo\",\"tgt_span\":\"대학생 한 명이 있었다. 그는 노골적인 암시를 즐겨 쓰는 끈질긴 성격이었는데\",\"description\":\"'persistent'가 대학생의 구애·접근에서의 끈질김인데 '끈질긴 성격'으로 옮겨졌고, 'violent innuendo'의 '격렬하고 거친' 뉘앙스가 '노골적인'으로 약해졌으나 평가어 정도의 차이에 그침\"},{\"id\":\"E002\",\"src_span\":\"to a greater or lesser degree\",\"tgt_span\":\"어느 정도까지는 되었든\",\"description\":\"'많든 적든 어느 정도'의 뜻이 '어느 정도까지는 되었든'으로 어색하게 옮겨졌으나 의미는 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"세 쌍의 부부, 조던의 동행인 대학생, 암시를 즐기는 끈질김, 조던이 조만간 몸을 허락하리라 믿는 눈치라는 내용이 모두 유지되며 달라진 것은 평가어의 정도뿐입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그는'이 대학생을 가리키고 'obviously under the impression'이 '굳게 믿는 눈치'로 이어져 지시·연결·초점 관계가 유지되며 문장 분할은 허용됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 묘사·서술 → 인물 묘사·서술로 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 같은 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술 문어체('~었다')가 유지되고 화자의 약간 냉소적인 태도도 전달됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2128,
+    "output_tokens": 871,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

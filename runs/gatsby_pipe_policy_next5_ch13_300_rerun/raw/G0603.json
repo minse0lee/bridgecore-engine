@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4EtTkrEv88nu8fxy8n",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0603\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the dark lanes of the Forties\",\"tgt_span\":\"40번가 어두운 골목\",\"description\":\"'the Forties'(맨해튼 40번대 거리들, 40번가~49번가)가 단일 거리인 '40번가'로 바뀌어 지시 범위가 달라짐\"},{\"id\":\"E002\",\"src_span\":\"five deep\",\"tgt_span\":\"다섯 줄이나 늘어설\",\"description\":\"'five deep'(다섯 겹으로 겹겹이)은 도로 위에서 택시가 다섯 겹으로 늘어선 깊이를 뜻하는데, '다섯 줄'로 옮겨 배열 방식이 약간 달라지고 '-이나'가 더해져 강조가 붙음. 대체로 같은 사태를 기술하므로 경미함\"},{\"id\":\"E003\",\"src_span\":\"throbbing taxicabs\",\"tgt_span\":\"택시들이 요동치며\",\"description\":\"엔진 소리로 '고동치는' 택시가 '요동치며'로 바뀌어 움직임의 성격이 달라짐. 정도 차이 수준\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상): 'the Forties'(40번대 거리들)가 '40번가' 한 거리로 바뀌어 장소가 달라졌으나, 문장의 요지(저녁 여덟 시 극장가행 택시 행렬 앞에서 가슴이 내려앉음)는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Again…when' 시간 연결이 '다시 여덟 시가 되어…때면'으로 유지되고 지시·초점 관계도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 감정 묘사 → 서술자의 감정 묘사. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 소설 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술자의 소설 서술체 '~았다'가 유지되어 관계·격식상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 맨해튼 극장가 인근의 40번대 거리 구역(the Forties)이 단일 거리 '40번가'로 바뀌어 같은 지명 구역을 가리키지 못하지만, 한국 독자가 뉴욕 거리 번호 체계를 어느 정도 이해할 수 있어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2521,
+    "output_tokens": 1062,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

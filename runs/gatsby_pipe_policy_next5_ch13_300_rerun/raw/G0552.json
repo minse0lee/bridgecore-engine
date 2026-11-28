@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4DhdrwYKQU8JS2WT12",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0552\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the late patron of Gatsby’s library\",\"tgt_span\":\"얼마 전 개츠비의 서재에서 보았던 그 사람\",\"description\":\"'late patron'(최근까지 서재를 이용하던 손님, 또는 이미 고인이 된 손님이라는 이중 함의)이 '서재에서 보았던 그 사람'으로 바뀌어 단골/방문객이라는 역할이 사라지고 단순히 본 사람이 됨\"},{\"id\":\"E002\",\"src_span\":\"infinitely astonishing\",\"tgt_span\":\"무척이나 놀라운 모양이었다\",\"description\":\"'infinitely'(한없이)가 '무척이나'로 정도가 약화되고 '모양이었다'로 추측 표현이 더해졌으나 핵심 내용은 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'patron'(서재 이용객)이 '서재에서 보았던 사람'으로 바뀌어 대상의 역할이 달라졌으나, 누구인지는 식별 가능해 요지는 유지됩니다. E002의 정도 변화는 평가어 정도 차이로 보존입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'first…and then' 시간 순서가 '먼저…곧이어'로 유지되고, 대시 뒤 지시(그 사람=앞의 남자)도 유지되어 질문 1·2·3 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(인물 인식 묘사) → 서술. 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문으로 화자·청자 사이의 높임·호칭 관계를 평가할 대상이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명(Gatsby)만 있고 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1552,
+    "output_tokens": 856,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

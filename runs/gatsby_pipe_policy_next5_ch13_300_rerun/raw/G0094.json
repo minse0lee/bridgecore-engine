@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV44YvEHdFghN4hcyt4P",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0094\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Daisy’s murmur was only to make people lean toward her\",\"tgt_span\":\"데이지가 그렇게 속삭이는 건 그저 사람들이 자기 쪽으로 몸을 기울이게 하려는 수법일 뿐이라는 말\",\"description\":\"'수법'이라는 단어가 추가되어 속임수라는 부정적 함의가 더해졌으나, 핵심 의미(사람들을 끌어당기려는 목적)는 유지됨. 오류로 보기 어려운 수준의 뉘앙스 차이.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"들은 말의 내용(데이지의 속삭임은 사람들을 기울이게 하려는 것뿐), 무관한 비평, 매력이 줄지 않음이 모두 유지됩니다. '수법'은 표현 선택 차이로 사태를 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'only'는 '그저…일 뿐'으로, 'an irrelevant criticism that made it no less charming'은 '하지만 그런 무관한 비평이…'로 대조·초점 관계가 유지되며, 'it'은 '그녀의 매력'으로 지시 대상이 보존됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 부연 설명(괄호 속 논평) → 부연 설명. 기능이 동일합니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 화자의 회고적 서술체가 '~다' 문어체로 유지되며 태도도 동일합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2149,
+    "output_tokens": 796,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

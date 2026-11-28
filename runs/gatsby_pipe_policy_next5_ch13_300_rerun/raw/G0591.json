@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4Emnv1XHkbp2fvRXfM",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0591\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"they absorbed me infinitely less than my personal affairs\",\"tgt_span\":\"내 개인적인 일들에 비해 훨씬 덜 중요했다\",\"description\":\"'나를 사로잡았다(몰두하게 했다)'는 서술이 '덜 중요했다'로 바뀌고, 'infinitely'가 '훨씬'으로 약화됨. 다만 비교 구조와 핵심 사태는 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'absorbed'가 '덜 중요했다'로 바뀌고 infinitely가 '훨씬'으로 약해졌으나, 사건들이 개인적 일보다 훨씬 덜 마음을 차지했다는 핵심 사태와 정도 차이는 유지됩니다. 달라진 것은 평가어의 정도 수준입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"On the contrary가 '하지만 사실'로 앞 문장과의 대조 관계를 유지하고, until much later의 시간 범위와 '그 일들'의 지시도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 서술 정정·설명 → 서술 정정·설명. 기능이 동일합니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회고 서술의 '-했다' 문어체가 유지되어 화자와 독자 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1981,
+    "output_tokens": 731,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

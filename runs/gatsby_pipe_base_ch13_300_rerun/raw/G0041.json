@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV42hZLrFaCc4bo1Y94M",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0041\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"among other natural curiosities, two unusual formations of land\",\"tgt_span\":\"여러 자연의 신비 중에서도 특히 특이한 지형 두 곳\",\"description\":\"'other natural curiosities'(다른 자연의 진기한 것들 중)가 '여러 자연의 신비 중에서도 특히'로 바뀌어 'other'의 의미가 약해지고 'curiosities'가 '신비'로 옮겨졌으며 '특히'가 첨가됨. 두 지형이 자연의 진기한 것 중 하나라는 핵심 사실은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"섬의 위치(뉴욕 정동쪽), 가늘고 무질서한 성격, 특이한 지형 두 곳이 있다는 내용이 유지됩니다. curiosities→'신비', '특히' 첨가는 평가어의 정도 차이에 그쳐 사태가 달라지지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'where there are'가 '그 섬에는'으로 지시 대상이 유지되고, 앞 문장 연결도 '그곳은…섬이었는데'로 이어져 지시·연결·초점 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장소 설명(서술) → 장소 설명(서술). 이야기 배경을 소개하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가 표현이 없는 서술문이라 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회고 서술의 평서체가 '~었다'로 유지되어 관계·격식에 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장의 평가 대상은 지명(뉴욕)뿐이며 별도로 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2758,
+    "output_tokens": 838,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4CzmDnGYGRKMM2kXiq",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0527\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"But I swore I wouldn’t tell it and here I am tantalizing you.\",\"tgt_span\":\"하지만 말하지 않기로 맹세했으니, 이렇게 당신 애만 태우게 되네요.\",\"description\":\"'and'의 병렬 연결이 인과('맹세했으니')로 바뀌고, '애만'의 '만'이 원문에 없는 초점을 더함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"맹세, 말하지 않음, 상대를 애태움이라는 행위자·행위·대상이 모두 유지됩니다. 원인 관계와 '만'의 첨가는 Textual에서 판정합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2·3: 원문의 대등한 병렬(and)이 '맹세했으니'라는 인과로 바뀌고, '애만'이 원문에 없는 한정 초점을 붙였습니다. 핵심 사실은 유지되어 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 자기 처지 설명(이야기를 못 해 미안해하는 말) → 같은 기능의 자기 처지 설명으로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'wouldn't tell'은 화자 자신의 과거 맹세 내용을 서술한 것이며 의무·허가·금지를 새로 정하는 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-네요' 해요체의 가벼운 사교적 어투가 상류층 젊은 여성의 대화 상황에 맞고, 장난스러운 태도도 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1648,
+    "output_tokens": 788,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV44HPLcPEivu9CokHXd",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0095\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the object she was balancing\",\"tgt_span\":\"턱 위에 올려두었던 무언가\",\"description\":\"원문에 없는 위치 정보('턱 위')가 추가됨. 원문은 균형을 잡고 있던 물건이라고만 함(소설 속 장면상 실제로 턱 위일 수 있으나 이 문장에는 명시되지 않음).\"},{\"id\":\"E002\",\"src_span\":\"had obviously tottered a little and given her something of a fright\",\"tgt_span\":\"그 바람에 그녀는 내심 깜짝 놀란 모양이었다\",\"description\":\"obviously의 확실성이 '분명'으로 유지되나, 'given her something of a fright'가 '내심 놀란 모양'으로 바뀌어 추측성 표현이 되고 '내심'이 추가됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: '턱 위에'라는 위치가 첨가되고, 놀람이 '내심 ~한 모양'이라는 추측으로 바뀌어 확실성이 약간 달라졌으나 핵심 사실(물건이 흔들려 놀람)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대시 뒤 이유 설명이 '그 바람에'로 인과 관계를 유지하고, 지시 관계도 바뀌지 않았습니다(질문 1·2·3 모두 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 서술문으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술체 '~했다/~모양이었다'로 소설 본문 문체가 유지되며 'Miss Baker'는 '베이커 양'으로 적절히 옮겼습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Miss'를 '양'으로 옮긴 것은 통용되는 대응이며 다른 제도나 단위로 바꾸지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2217,
+    "output_tokens": 891,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

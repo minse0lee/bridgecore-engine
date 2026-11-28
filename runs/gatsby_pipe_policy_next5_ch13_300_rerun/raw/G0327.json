@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV48pMnfgFoRChRXDFAb",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0327\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"one of these gypsies\",\"tgt_span\":\"집시 같은 여자 하나\",\"description\":\"앞 문장에서 소개된 '자신만만한 소녀들'(wanderers)을 가리키는 'these gypsies'가 '집시 같은 여자'로 옮겨져, 방랑하는 파티 참석자들 중 한 명이라는 지시 관계가 약해지고 일반적인 집시 닮은 여자로 읽힘\"},{\"id\":\"E002\",\"src_span\":\"in trembling opal\",\"tgt_span\":\"오팔 빛 옷을 입고 몸을 잘게 떨던\",\"description\":\"오팔 색 옷의 흔들림(떨림)이 몸을 떠는 동작으로 바뀜. 또한 '옷을 입고'가 첨가됨\"},{\"id\":\"E003\",\"src_span\":\"seizes a cocktail out of the air\",\"tgt_span\":\"공중에 떠다니던 칵테일 잔을 낚아채더니\",\"description\":\"'공중에서 칵테일을 낚아챔'이 '떠다니던 칵테일 잔'으로 풀이됨. 앞 문단의 floating rounds of cocktails와 연결되므로 큰 차이는 아님\"},{\"id\":\"E004\",\"src_span\":\"moving her hands like Frisco\",\"tgt_span\":\"프리스코처럼 손을 움직이며\",\"description\":\"Frisco(1920년대 유명 춤꾼 Frisco)가 지명이나 인물 정보 없이 '프리스코'로 음역되어 한국어 독자가 무엇을 가리키는지 알기 어려움\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: 'in trembling opal'(떨리는 오팔 빛 옷)이 '몸을 잘게 떨던'으로 바뀌어 떨리는 주체가 옷에서 몸으로 달라졌으나 핵심 사건은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'these gypsies'가 앞 문장의 소녀들(wanderers)을 가리키는 지시 관계인데 '집시 같은 여자'로 옮겨져 앞 문장과의 연결이 사라졌으나 장면 이해에는 큰 영향이 없어 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 파티 분위기를 묘사하는 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사 묘사 문장으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체('-했다')가 유지되며 화자·독자 관계에 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E004\"],\"reason\":\"판단 질문 2: 1920년대 재즈 시대 유명 춤꾼 Frisco(역사적 인물·춤 스타일)를 설명 없이 '프리스코'로만 옮겨 한국어 독자가 그 문화적 함의를 이해하기 어려우나, 음역은 통용 표기이므로 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2641,
+    "output_tokens": 1254,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

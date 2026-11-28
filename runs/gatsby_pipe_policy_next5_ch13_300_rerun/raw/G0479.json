@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4C6G5ig5WUs9uUT6kb",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0479\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Mr. Gatsby\",\"tgt_span\":\"제이 개츠비 씨\",\"description\":\"원문에 없는 이름 'Jay'(제이)가 첨가됨\"},{\"id\":\"E002\",\"src_span\":\"attracted so much attention\",\"tgt_span\":\"큰 화제를 모았던\",\"description\":\"'so much attention'(많은 주목)이 '큰 화제'로 바뀌어 정도가 약간 달라졌으나 같은 사태를 기술함. 정도 차이로 오류 목록에는 넣지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 원문에 없는 이름 '제이'가 첨가되어 지칭 대상 표기가 달라졌으나(문맥상 같은 인물), 문장의 요지와 독자의 행동에는 영향이 없어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 대상, 'If you read the papers'의 조건 연결('신문을 보신 분들은 아시겠지만'), 초점 관계가 모두 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공연 곡 소개 안내 → 공연 곡 소개 안내. 요청에 따른 연주 예고와 청중의 기억 환기 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"곡 연주를 알리는 안내로 의무·허가·금지 등 규범 의미가 없습니다. 힌트의 may 후보는 이 문장에 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"청중에게 말하는 사회자의 공손한 공식 어조가 '연주해 드리겠습니다', '아시겠지만'으로 적절하게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Carnegie Hall이 '카네기 홀'로 통용 표기로 옮겨졌고 'last May'는 '지난 5월'로 정확합니다. 힌트의 수치 5는 May의 월 표기로 오경보입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2350,
+    "output_tokens": 866,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

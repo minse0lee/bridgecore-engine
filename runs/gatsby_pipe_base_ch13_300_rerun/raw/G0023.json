@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV42659TJTKP2qW8t28t",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0023\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"All my aunts and uncles\",\"tgt_span\":\"고모와 삼촌들\",\"description\":\"aunts and uncles(이모·고모·숙모, 삼촌·외삼촌·큰아버지 등 포괄)를 '고모와 삼촌'으로 옮겨 범위가 좁아짐. 한국어 친족어휘 대응상 통상적 선택에 가까워 실질적 의미 변화는 미미함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"친척 어른들이 진학 상담하듯 상의하고, 엄숙하고 망설이는 표정으로 'Why—ye-es'라고 말했다는 내용이 유지됩니다. '고모와 삼촌들'은 aunts and uncles의 통상적 대응으로 보아 오류로 보지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'마치 ~처럼', '상의하더니 마침내 ~말했다'로 비유와 시간 순서 연결이 유지되고 지시·초점 관계 변화가 없습니다(판단 질문 1·2·3 모두 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문으로 친척들의 반응을 묘사하는 기능 → 동일한 서술 기능으로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회고 서술의 문어체 평서문이 유지되고, 대사 '글쎄, 그-렇지'도 친척 어른이 젊은 조카 문제를 논하는 상황에 어긋나지 않으며 아이러니한 어조가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"prep school은 일반 어휘 수준의 '예비 학교'로 옮겼고, 이 문장에서 별도로 판정할 제도·단위·관습 고유 대상은 부각되지 않아 평가 대상이 없다고 봅니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 3208,
+    "output_tokens": 868,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

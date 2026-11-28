@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4AoDdZa7s6FJzwbLhb",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0419\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"vacuous bursts of laughter\",\"tgt_span\":\"멍청한 웃음소리\",\"description\":\"vacuous(공허한, 알맹이 없는)가 '멍청한'(어리석은)으로 바뀌어 평가어의 성격이 달라짐. 다만 부정적 평가라는 방향은 유지되고 정도·뉘앙스 차이에 가까움.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"테너·콘트랄토의 노래, 곡 사이의 묘기, 웃음소리 등 인물·행위·시간·장소가 모두 유지됩니다. vacuous가 '멍청한'으로 바뀐 것은 부정적 평가어의 뉘앙스 차이일 뿐 평가 방향은 같습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"병렬 연결과 between the numbers의 시간 관계, while의 동시 진행 관계가 문장 분할 후에도 '곡 사이사이'와 연결 어미로 유지됩니다. 지시·초점 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"파티 장면 서술 → 파티 장면 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설의 장면 묘사로 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 화자의 서술체 '~다'가 유지되고 관계상 격식 문제가 없습니다. 웃음에 대한 화자의 냉소적 태도도 부정적 평가어로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습이 없습니다. 이탈리아어·재즈는 일반 어휘입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2297,
+    "output_tokens": 798,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

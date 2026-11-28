@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4AYkUiRbu5u8QAWZG2",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0417\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"dancing individually or relieving the orchestra for a moment of the burden of the banjo or the traps\",\"tgt_span\":\"홀로 춤을 추거나, 잠시 오케스트라를 대신해 밴조나 드럼을 연주하며 그들의 짐을 덜어주고 있었다\",\"description\":\"독신 여자들이 홀로 춤추거나 오케스트라의 악기 연주 부담을 잠시 덜어주던 것이, 여자들이 춤추거나 연주하며 '그들'(여자들 자신)의 짐을 덜어주는 것으로 읽혀 짐의 주인(오케스트라)이 바뀜\"},{\"id\":\"E002\",\"src_span\":\"on the canvas in the garden\",\"tgt_span\":\"정원의 천막 위에서는\",\"description\":\"canvas(천막 아래/캔버스 천 바닥)를 '천막 위'로 옮겨 장소 관계가 달라짐\"},{\"id\":\"E003\",\"src_span\":\"holding each other tortuously, fashionably\",\"tgt_span\":\"구부정한 자세로 유행을 따르며 서로를 붙잡은 채\",\"description\":\"tortuously(뒤틀린 듯 불편하게 서로를 안음)를 '구부정한 자세'로 옮겨 의미가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 짐을 덜어주는 대상이 오케스트라에서 '그들'로 바뀌고, 천막 '위'와 '구부정한 자세' 등 세부 내용이 달라졌으나 춤판 장면의 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: '그들의 짐'이 가리키는 대상이 오케스트라에서 여자들 자신으로 읽혀 소유 관계가 바뀌었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사 → 장면 묘사. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 장면 묘사로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 청자 사이 관계가 드러나는 대화가 아닌 서술 문장이며 평가할 높임·호칭 요소가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'독신녀', 밴조, 드럼 등이 같은 대상을 가리키며 제도·단위 대체나 이해 불가는 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2413,
+    "output_tokens": 1046,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

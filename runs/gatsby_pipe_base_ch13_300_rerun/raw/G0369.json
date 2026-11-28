@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV49cUwBXykck54yrPNk",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0369\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“Who doesn’t?”\",\"tgt_span\":\"“안 그러는 사람이 어디 있겠어요?”\",\"description\":\"앞 문장 'He doesn't want any trouble with anybody'의 주어를 묻는 실제 질문(누가 그렇지 않다는 건가요?)이 '안 그러는 사람이 어디 있겠어요?'라는 반문(수사의문)으로 바뀌어, 묻는 내용이 '그가 누구인가'에서 '모두 그렇다'는 주장으로 달라지고 뒤의 답 'Gatsby'와도 연결되지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위자·대상): 원문은 'he'가 누구인지 묻는데, 번역은 '그렇지 않은 사람은 없다'는 취지의 진술로 바뀌어 묻는 내용이 달라졌습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(지시 대상): 앞의 'he'(그 사람)가 누구인지 되묻는 지시 관계가 사라지고, 뒤의 '개츠비 씨요'라는 대답과의 연결도 끊깁니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"원문 기능(정보를 구하는 실제 질문, 뒤에서 'Gatsby'로 응답) → 번역 기능(반어적 반문으로 상대 말을 일반화하며 반박).\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가를 정하는 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 초면의 사교 자리 사람들에게 말하는 상황에서 '-요' 체의 정중한 어투가 적절하며 관계를 해치지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1358,
+    "output_tokens": 837,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

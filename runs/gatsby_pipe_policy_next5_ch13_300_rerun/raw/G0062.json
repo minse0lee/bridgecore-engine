@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV43dDAsvFUkBbfnyrga",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0062\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"burning gardens\",\"tgt_span\":\"활짝 핀 정원들\",\"description\":\"'타오르는 듯한(불타는) 정원'이 '활짝 핀 정원'으로 바뀌어 비유의 내용이 달라짐(색감·열기 이미지 약화, 꽃이 만개했다는 다른 서술)\"},{\"id\":\"E002\",\"src_span\":\"drifting up the side in bright vines as though from the momentum of its run\",\"tgt_span\":\"그 기세 그대로 벽을 타고 화사한 덩굴 식물처럼 올라가 있었고\",\"description\":\"잔디밭이 밝은 덩굴이 되어 옆면을 타고 오른다는 은유가 '덩굴 식물처럼'이라는 직유로 바뀜(의미는 유지되는 표현 변화)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'burning gardens'(불타는 듯한 정원)가 '활짝 핀 정원'으로 바뀌어 묘사 내용이 달라졌으나, 잔디밭이 해변에서 현관까지 뻗어 집 벽을 타고 오르는 핵심 사태는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'finally when it reached the house'와 '마침내 집에 다다랐을 때는', 'as though from the momentum'과 '그 기세 그대로'의 시간·인과 연결과 'it'(잔디밭)의 지시가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 장면 묘사 → 서술문의 장면 묘사. 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장은 의무·허가·금지 등 규범 의미가 없는 풍경 묘사입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술자의 문어체 평서 서술이 '~었다'체로 유지되며 화자·청자 관계 표현은 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'a quarter of a mile'를 '4분의 1마일'로 같은 단위·수치로 옮겨 다른 단위로 바꾸지 않았고, 자동 점검 힌트의 숫자 불일치는 '4분의 1' 표기 차이로 인한 오경보입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2696,
+    "output_tokens": 983,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

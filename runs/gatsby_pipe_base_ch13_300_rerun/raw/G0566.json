@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4Dw4W8crvDtnW6dGvU",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0566\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"The shock that followed this declaration found voice in a sustained “Ah-h-h!”\",\"tgt_span\":\"그 말에 충격을 받은 사람들이 일제히 \\\"아-!\\\" 하고 탄성을 내뱉는 사이\",\"description\":\"'sustained'(길게 이어진) 소리가 일회성 '아-!'로 바뀌고, 충격이 소리로 표출되었다는 표현이 '충격받은 사람들이 일제히' 탄성을 낸 것으로 바뀜. 군중이라는 행위자는 문맥상 추론되는 것이고 핵심 사태는 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"선언 뒤의 충격이 탄성으로 터져 나오고 그 사이 쿠페 문이 천천히 열린다는 핵심 사태가 유지됩니다. 'sustained'가 약해진 것은 소리의 지속 정도 차이로 사태를 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"as절의 동시 관계가 '-는 사이'로 유지되고, '그 말'이 this declaration을 가리키는 지시 관계도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 충격 반응과 문이 열리는 상황을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가를 나타내는 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체('-었다')가 유지되며 특별한 관계·호칭 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'쿠페'는 차종을 나타내는 통용 음역으로, 별도로 판정할 문화·제도적 대상이 아닙니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1612,
+    "output_tokens": 806,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

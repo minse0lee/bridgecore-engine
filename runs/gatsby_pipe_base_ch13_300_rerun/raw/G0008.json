@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV41uj3xPfH4D8tz2EMo",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0008\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I am still a little afraid of missing something if I forget that\",\"tgt_span\":\"사실을 잊는다면, 나는 여전히 무언가 중요한 것을 놓칠까 봐 조금 두렵다\",\"description\":\"'무언가'(something)를 '무언가 중요한 것'으로 바꾸어 원문에 없는 '중요한'을 덧붙임. 의미 변화는 경미함.\"},{\"id\":\"E002\",\"src_span\":\"a sense of the fundamental decencies is parcelled out unequally at birth\",\"tgt_span\":\"기본적인 예의범절이라는 것은 태어날 때부터 불평등하게 배분된다는 사실\",\"description\":\"'a sense of the fundamental decencies'(기본적 예의에 대한 감각)가 '기본적인 예의범절'로 옮겨져 '감각' 개념이 빠짐.\"},{\"id\":\"E003\",\"src_span\":\"as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies\",\"tgt_span\":\"아버지가 속물스럽게 암시하셨고 나 또한 속물스럽게 되풀이하는 말이지만, 기본적인 예의범절이라는 것은\",\"description\":\"'as ...'(~하듯이)로 삽입된 구가 '~하는 말이지만'이라는 양보 관계로 바뀜.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: '무언가'에 '중요한'이 더해지고 '예의에 대한 감각'이 '예의범절'로 바뀌었으나, 두려움·망각 조건·불평등한 배분 등 핵심 사실은 유지되어 요지가 달라지지 않으므로 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 2: as 삽입절의 '~하듯이' 관계가 '~하는 말이지만'이라는 양보 연결로 바뀌었습니다. 다만 아버지와 화자가 속물스럽게 말한다는 점이 그대로 이어져 요지는 유지되므로 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 자기 고백적 서술 → 화자의 자기 고백적 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없고, 서술자의 두려움을 말하는 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자가 독자에게 회고하는 '-다' 문어체가 유지되고, 아버지에 대한 '말씀/암시하셨고' 높임이 관계에 맞으며 'snobbishly'의 자조적 태도도 '속물스럽게'로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 같은 판정 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2720,
+    "output_tokens": 1170,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

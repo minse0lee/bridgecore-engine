@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV47izoPrsFG359fUr5M",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0280\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Our white girlhood\",\"tgt_span\":\"순백의 소녀 시절\",\"description\":\"인종적 의미의 'white'가 '순백(순결)'이라는 비유적 의미로 바뀌어, 백인 정체성·인종 함의가 사라짐. 뒤의 '하얀'은 그대로 남음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'white girlhood'의 white가 '순백'(순결·깨끗함)으로 읽혀 평가 내용이 달라졌습니다. 다만 루이빌 출신, 함께 보낸 소녀 시절이라는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계는 바뀌지 않았고, 'Our beautiful white—'의 중단도 '우리의 아름답고 하얀—'으로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"질문에 대한 답변·회상 서술 → 답변·회상 서술. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"데이지가 닉에게 하는 친근한 반말체 대화가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 'white'가 지닌 1920년대 미국 상류층의 인종적 우월의식이라는 문화적 함의가 '순백'이라는 일반 어휘로 바뀌어 전달되지 않습니다. 이어지는 '노르딕 인종' 대화의 복선이 약해지나, 뒤의 '하얀'이 일부 단서를 남겨 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1283,
+    "output_tokens": 792,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

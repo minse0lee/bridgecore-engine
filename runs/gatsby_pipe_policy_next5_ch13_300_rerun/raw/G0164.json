@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV463HL3moK5Wia7uN3x",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0164\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"uncivilized\",\"tgt_span\":\"야만인이 된 기분\",\"description\":\"'문명화되지 않은/교양 없는 느낌'이 '야만인이 된 기분'으로 바뀌어 상태 형용이 사람 범주로 과장됨. 뒤의 'Civilization' 주제와 연결되는 어휘가 약해짐.\"},{\"id\":\"E002\",\"src_span\":\"You make me feel\",\"tgt_span\":\"당신이랑 있으면 제가\",\"description\":\"'당신이 나를 ~하게 만든다'가 '당신과 있으면 내가 ~'로 바뀌어 사역 구조가 상황 조건으로 바뀜. 대상·행위는 통상 대응 범위.\"},{\"id\":\"E003\",\"src_span\":\"corky\",\"tgt_span\":\"코르크 냄새가 났지만\",\"description\":\"corky(코르크 마개 냄새가 밴 와인)를 '코르크 냄새가 났지만'으로 옮김. 의미는 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"판단 질문 2: uncivilized가 '야만인'으로 평가어 정도만 강해졌고, 나·데이지·두 잔째·코르크 냄새 나는 인상적인 클라레 등 사실 내용은 유지됩니다. '두 잔째'의 숫자 힌트는 second glass의 대응이라 오경보입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 관계, 'but rather'의 양보 연결('냄새가 났지만 꽤 인상적인'), 초점 표현이 모두 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"자기 비하적 농담조 불평·고백 서술 → 같은 고백 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"닉은 데이지에게 존대하는 관계(친척이지만 정중한 대화)이고 '~이에요'체 존댓말이 이에 맞으며 호칭도 바뀌지 않았습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"클라레는 와인 종류의 통용 표기이고 문장에서 별도로 판정할 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2005,
+    "output_tokens": 969,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

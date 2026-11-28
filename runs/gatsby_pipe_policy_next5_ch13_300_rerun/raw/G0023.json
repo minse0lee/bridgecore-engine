@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV42VejP8pBweWPuRJLV",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0023\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"All my aunts and uncles\",\"tgt_span\":\"고모와 삼촌들\",\"description\":\"aunts(고모·이모·숙모 등 친척 아주머니 전체)가 '고모'로 한정되고 uncles는 '삼촌들'로 옮겨져 All·범위가 줄어듦. 다만 친족 범위 차이가 작아 핵심 행위자(친척 어른들)는 유지됨\"},{\"id\":\"E002\",\"src_span\":\"a prep school\",\"tgt_span\":\"내 예비 학교\",\"description\":\"prep school(대학 진학 준비 사립학교)이 '예비 학교'로 옮겨져 제도적 의미가 약해지고 한국 독자가 학교 종류를 이해하기 어려움\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"친척 어른들이 상의하고 망설이는 표정으로 '글쎄, 그렇지'라고 말한 내용이 유지되며, '고모와 삼촌들'은 통상적 대응 범위입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'as if'의 비유 관계, 상의한 뒤 마침내 말했다는 시간 순서가 '-처럼', '-더니 마침내'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 친척들의 반응을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술의 평서체와 친척들의 격식 없는 대사 어조가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: 미국의 prep school(명문 사립 진학준비학교)을 '예비 학교'라는 일반 어휘로 옮겨 제도적 의미가 전달되지 않습니다. 핵심 요지는 유지되므로 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 3187,
+    "output_tokens": 839,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

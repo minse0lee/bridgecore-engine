@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4Eie9rPfgQngPadCb5",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0589\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"endowing with complete isolation the figure of the host\",\"tgt_span\":\"주인의 모습은 완전히 고립되어 보였다\",\"description\":\"공허함이 주인의 모습에 완전한 고립감을 부여한다는 인과적 작용이 '고립되어 보였다'는 단순한 외양 서술로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"from the windows and the great doors\",\"tgt_span\":\"창문과 커다란 문들 사이로\",\"description\":\"'~로부터(from)' 흘러나오는 방향이 '사이로'로 바뀌어 출처가 통로로 달라짐. 의미 변화는 작음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 공허함이 인물에게 고립을 부여한다는 작용이 '고립되어 보였다'로 바뀌고, from이 '사이로'로 바뀌었으나 핵심 장면(공허함, 홀로 선 주인, 작별 손짓)은 유지되어 요지는 크게 다르지 않습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 분사구문 endowing이 나타내던 '공허함→고립'의 인과·결과 연결이 단순 병렬 '-했고'로 바뀌어 연결 관계가 달라졌으며, 핵심 사실은 남아 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사 서술 → 장면 묘사 서술. 같은 종류의 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문으로 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술의 문어체 '-했다' 서술체가 유지되며 화자의 태도도 변하지 않았습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1753,
+    "output_tokens": 862,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

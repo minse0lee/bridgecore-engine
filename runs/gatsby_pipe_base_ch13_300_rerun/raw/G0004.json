@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4Fon12UM8P2SgXv9db",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0004\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"reserve all judgements\",\"tgt_span\":\"웬만한 일에는 판단을 유보하는 편이\",\"description\":\"모든 판단(all)을 유보한다는 전칭 범위가 '웬만한 일에는'으로 한정되어 범위가 좁아짐\"},{\"id\":\"E002\",\"src_span\":\"not a few veteran bores\",\"tgt_span\":\"지독한 지루함을 주는 이들에게\",\"description\":\"'not a few'(상당수)의 수량과 'veteran'(노련한, 상습적인)의 뉘앙스가 사라지고 '지독한'으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'all judgements'가 '웬만한 일에는'으로 한정되고 'not a few'의 수량이 빠졌지만, 판단 유보 습관과 그로 인한 득실이라는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'습관'이 앞 절 전체를 받는 지시 관계와 '~지만 동시에'의 병렬·부가 연결이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 성향과 그 결과를 설명하는 서술 → 같은 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회고 서술의 평서체(~했다)가 유지되며 관계·태도상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2688,
+    "output_tokens": 756,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

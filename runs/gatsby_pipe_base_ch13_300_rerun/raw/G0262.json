@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV47Nw3QJGQqkv3uNNCa",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0262\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the sporting life\",\"tgt_span\":\"사교계 생활\",\"description\":\"스포츠 활동(sporting life)이 사교계 생활로 바뀌어 사진의 주제가 달라짐\"},{\"id\":\"E002\",\"src_span\":\"its pleasing contemptuous expression had looked out at me\",\"tgt_span\":\"그녀는 특유의 매력적이면서도 오만한 표정으로 나를 바라보고 있었다\",\"description\":\"주어가 '표정'에서 '그녀'로 바뀌고 '특유의'가 덧붙었으며, contemptuous(경멸적인)가 '오만한'으로 바뀜. 구조 변화와 평가어 정도 차이로 의미 변화 아님\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 사진의 주제가 스포츠 활동(sporting life)에서 사교계 생활로 바뀌어 대상이 달라졌으나, 지명과 '많은 사진 속에서 얼굴을 보았다'는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'왜 낯익었는지'와 사진 속 표정의 설명 관계가 유지되고 지시 대상(그녀)도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 낯익은 이유를 밝히는 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술자의 서술체가 유지되고, contemptuous의 태도는 '오만한'으로 대체로 전달됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지명(애슈빌, 핫스프링스, 팜비치)은 인명·지명이며, 그라비아(rotogravure) 사진은 통용되는 표기로 옮겨 같은 대상을 가리킵니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1447,
+    "output_tokens": 862,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

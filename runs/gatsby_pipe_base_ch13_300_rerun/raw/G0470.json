@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4BiG17GcDxL7FDa1Am",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0470\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I just don’t think he went there.\",\"tgt_span\":\"그냥 거기 다녔을 것 같지 않아서요.\",\"description\":\"'그가 거기 다녔다고 생각하지 않는다'는 현재의 믿음이 '다녔을 것 같지 않아서요'라는 추측으로 바뀌고 주어(he)가 생략됨. 확실성 약화는 미미하며 핵심 사실은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'모르겠다, 그냥 거기 다녔다고 생각하지 않는다'는 내용과 고집스럽게 말한다는 서술이 유지되며, 주어 생략과 '~것 같지' 표현은 통상적 대응입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'거기'가 옥스퍼드를, 생략된 주어가 개츠비를 가리키는 문맥이 유지되고 just의 초점도 '그냥'으로 남아 있으며, 앞 질문('왜?')에 대한 이유 연결('~서요')도 자연스럽습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"근거 없는 불신을 고집스럽게 진술하는 설명 → 같은 종류의 설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 인물의 개인적 의견 진술이며 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조던이 닉에게 말하는 사교적 대화체로 '~요' 해요체가 무난하며 고집스러운 태도도 '고집스럽게'로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없고, 'there'는 앞서 나온 옥스퍼드를 가리킬 뿐입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1396,
+    "output_tokens": 826,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

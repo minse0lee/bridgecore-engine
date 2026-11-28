@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV434Ri7PjtBDzrwsuWf",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0042\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a pair of enormous eggs\",\"tgt_span\":\"거대한 달걀 모양의 땅 두 개\",\"description\":\"비유적으로 표현된 '거대한 달걀 한 쌍'이 '달걀 모양의 땅 두 개'로 풀어 옮겨졌으나, 앞뒤 문맥상 같은 대상을 가리키므로 의미 변화는 없는 통상적 풀이임\"},{\"id\":\"E002\",\"src_span\":\"separated only by a courtesy bay\",\"tgt_span\":\"작은 만 하나를 사이에 두고\",\"description\":\"only(오직)에 해당하는 초점 표현과 'courtesy bay'(명목상의 만)의 뉘앙스가 '작은 만'으로 바뀜. 만의 크기가 작다는 점은 원문에 직접 없으나 'only … courtesy'의 의미와 유사하게 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"20마일, 윤곽이 똑같은 거대한 달걀 한 쌍, 만을 사이에 둠, 롱아일랜드 해협으로 돌출 등 핵심 내용이 유지됩니다. '작은 만'은 courtesy bay의 '명목상의 만' 뉘앙스를 약간 달리 옮겼으나 사태는 같고 평가어 수준의 차이입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'사이에 두고'가 only의 분리 의미를 유지하며, 'the great wet barnyard'를 '즉 … 같은 바다'로 동격 관계로 이어 지시 관계가 유지됩니다(질문 1·2·3 모두 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지형·장면 묘사 → 지형·장면 묘사. 서술 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 '-었다'로 서술자의 어조가 유지되며 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"마일 단위와 롱아일랜드 해협, 서반구가 그대로 유지되어 다른 단위나 제도로 바뀌지 않았고 독자가 이해할 수 있습니다. 자동 점검 힌트의 '2'는 '20마일'이 아니라 '두 개'에서 나온 것으로 수치 오류가 아닙니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2935,
+    "output_tokens": 1031,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

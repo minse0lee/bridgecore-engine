@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV43vffUPEFrbLvhZxUD",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0072\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I always had the impression that he approved of me and wanted me to like him\",\"tgt_span\":\"그는 나를 좋게 여기며 자신이 가진 특유의 거칠고 반항적인 갈망으로 내가 자신을 좋아해주길 바란다는 인상을 항상 주었다\",\"description\":\"인상을 가진 주체가 화자('나')인데 번역문은 '그가 인상을 주었다'로 옮겨 구조가 바뀜. 다만 '그가 나를 인정하고 호감을 바랐다는 인상'이라는 내용은 유지되어 의미 변화는 거의 없음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"같은 상급생 모임, 친밀하지 않았음, 그가 인정하고 호감을 바란다는 화자의 인상, 거칠고 반항적인 갈망이 모두 유지됩니다. 인상의 주체 표현 차이는 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'while'의 양보 관계가 '~했지만'으로 유지되고, 'his own'은 '자신이 가진 특유의'로 소유 관계가 유지되어 질문 1·2·3 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 관계에 대한 화자의 서술·설명 → 서술·설명으로 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'never intimate'는 규범이 아닌 사실 서술이며 의무·허가·금지가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 평서체 '~했다' 어조가 유지되며 호칭이나 태도 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'senior society'를 '상급생 사교 모임'으로 옮겨 대학 내 모임이라는 의미가 이해 가능하고 다른 제도로 바꾸지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2138,
+    "output_tokens": 838,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV42a4PKqSumxEc2DbFF",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0033\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the freedom of the neighbourhood\",\"tgt_span\":\"이 동네의 주인이라도 된 듯한 자유로움\",\"description\":\"'동네를 자유롭게 드나들 권리(freedom of the city 관용구)'가 '동네 주인이 된 듯한 자유로움'이라는 비유적 감각으로 바뀌고, '주인'이라는 소유 함의가 더해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 부여된 것이 '동네의 자유(자유로이 다닐 권리·허용)'에서 '주인이 된 듯한 자유로움'이라는 다른 내용으로 달라졌으나, 누가 무엇을 해 주었다는 핵심 사실(그가 무심코 나에게 자유를 부여함)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사(그/나)의 지시 대상이 유지되고, 연결·초점 표현의 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(화자의 감정 변화 설명) → 서술. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 의무·허가·금지 같은 규범 표현이 없습니다. 'freedom'은 비유적 표현입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 회상조 서술체가 '~했다'로 유지되며 관계·호칭 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'freedom of the neighbourhood'는 'freedom of the city'(명예시민권)를 연상시키는 표현이나, 번역이 '주인이라도 된 듯한 자유로움'으로 풀어 의미가 크게 어긋나지 않아 문화적 제도가 다른 제도로 대체되지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2279,
+    "output_tokens": 822,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

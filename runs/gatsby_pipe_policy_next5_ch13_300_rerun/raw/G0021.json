@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV42CjFP6JM7jEruRTDm",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0021\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Instead of being the warm centre of the world, the Middle West now seemed like the ragged edge of the universe\",\"tgt_span\":\"세상의 따뜻한 중심이었던 중서부는 이제 우주의 너덜너덜한 가장자리처럼 느껴졌고\",\"description\":\"'Instead of being'은 중서부가 따뜻한 세상의 중심이 아니라 가장자리로 느껴졌다는 대조(기대와 달라짐)인데, 번역은 '중심이었던'으로 과거의 사실처럼 옮겨 대조 구조가 약화됨. 다만 '이제'가 변화를 나타내 대조 관계는 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"중서부, 따뜻한 세상의 중심, 우주의 너덜너덜한 가장자리, 동부로 가서 채권 사업을 배우기로 결심한 내용이 모두 유지됩니다. '중심이었던'은 이전 인식의 변화를 나타내는 자연스러운 표현입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Instead of의 대조는 '중심이었던 … 이제 가장자리처럼'으로 남아 있고, 'so'의 인과도 '그래서'로 유지됩니다(판단 질문 2 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 심정 변화와 결심을 서술하는 기능 → 동일한 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술자의 회고체 평서문이 '-했다/-다' 계열로 유지되어 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'중서부'와 '동부'는 지명·지역 표현이며 별도로 판정할 제도나 관습 요소가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 3177,
+    "output_tokens": 848,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

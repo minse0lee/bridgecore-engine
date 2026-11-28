@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4DZQkQePE5D23ikTSu",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0552\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the late patron of Gatsby’s library\",\"tgt_span\":\"바로 얼마 전 개츠비의 서재를 방문했던 그 손님\",\"description\":\"'the late patron'은 '고(故) 후원자/이전의 단골 이용객'으로 읽힐 수 있는 표현으로 앞선 서재 장면의 손님을 가리킴. 번역은 '얼마 전 방문했던 손님'으로 옮겨 같은 인물을 지칭하며 의미 변화는 경미함. 다만 'late'의 '최근/이전'의 뜻은 유지되어 오류로 보기 어려움.\"},{\"id\":\"E002\",\"src_span\":\"The fact was infinitely astonishing to him\",\"tgt_span\":\"그는 이 사실이 무척이나 놀라운 모양이었다\",\"description\":\"'infinitely astonishing'(한없이 놀라운)이 '무척이나 놀라운 모양'으로 정도가 약해지고 '모양이었다'라는 추측 표현이 더해져 확실성이 소폭 달라짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1(확실성): 서술자가 단정한 '그에게 한없이 놀라운 사실'이 '놀라운 모양이었다'라는 추측으로 바뀌었으나 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그'와 '그 남자'의 지시 관계, 'first…then'의 순서 관계가 '먼저…곧이어'로 유지되며 '바로'로 이어지는 동격 관계도 남아 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 인물 인식 과정을 묘사하는 서사 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술자의 서술체 '~했고/~이었다'가 소설 본문의 관계와 격식에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명(Gatsby) 외에 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1559,
+    "output_tokens": 945,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
