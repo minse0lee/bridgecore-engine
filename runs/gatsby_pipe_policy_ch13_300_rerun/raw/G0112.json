@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4oFsFk7misLpAATSg8",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0112\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I’m a bond man.\",\"tgt_span\":\"채권 매매 일을 해요.\",\"description\":\"닉이 톰(친구이자 동년배)에게 하는 말인데 해요체로 옮겨, 이어지는 대화에서 닉이 톰에게 쓰는 반말('뭐 하고 있어?'에 대한 대답, '알게 될 거야')과 어긋나는 높임 어조가 됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'bond man'을 '채권 매매 일을 한다'로 옮겨 채권 업계 종사라는 직업 내용이 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사·연결·초점 표현이 없어 지시·연결 관계의 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"직업을 묻는 질문에 대한 대답 → 직업을 알리는 대답. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 단순 진술입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 닉과 톰은 동년배 지인 사이이고 번역문 문맥에서도 톰은 반말, 닉도 '알게 될 거야'로 반말을 쓰는데, 이 문장만 해요체여서 관계에 맞지 않는 높임이 됩니다. 내용과 기능에는 영향이 없어 minor입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 표현이 없습니다. 'bond man'은 직업 표현이어서 별도 문화 판정 대상이 아닙니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 893,
+    "output_tokens": 762,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

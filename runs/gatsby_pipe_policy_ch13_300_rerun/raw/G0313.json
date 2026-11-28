@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4s4PZBZfZhVszSxCt2",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0313\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"drawing aquaplanes over cataracts of foam\",\"tgt_span\":\"아쿠아플레인을 끌고 거품 폭포를 일으켰다\",\"description\":\"모터보트가 아쿠아플레인을 거품 폭포 위로 끌고 간다는 내용이 '거품 폭포를 일으켰다'로 바뀌어, 아쿠아플레인이 지나가는 장소·경로 관계가 사라지고 거품을 일으키는 행위가 더해짐(경미한 의미 변화)\"},{\"id\":\"E002\",\"src_span\":\"the tower of his raft\",\"tgt_span\":\"뗏목 탑\",\"description\":\"'그의 뗏목의 탑'에서 소유 관계(his)가 번역에서 빠졌으나 문맥상 그의 것으로 읽힘(의미 영향 거의 없음)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 아쿠아플레인을 거품 폭포 '위로' 끄는 행위가 '거품 폭포를 일으켰다'로 바뀌어 행위 내용이 일부 달라졌으나, 모터보트가 아쿠아플레인을 끌며 물을 가른다는 핵심 사태는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그사이'가 while의 동시 관계를 유지하고, 지시·소유 관계와 or의 선택 관계도 문맥상 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(묘사) → 서술(묘사). 화자가 이웃집 파티 풍경을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 평서 문체가 '~했다'로 유지되며 관계·격식상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"제도·관습·단위 등 문화 고유 대상이 없습니다. aquaplane은 수상 스포츠 용구의 음역으로 지시 대상을 이해할 수 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2327,
+    "output_tokens": 922,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

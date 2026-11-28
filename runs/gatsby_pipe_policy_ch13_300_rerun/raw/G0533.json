@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4xAERbpuuXumH7AfEX",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0533\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"he enjoined me eagerly\",\"tgt_span\":\"그가 간절하게 말을 가로막았다\",\"description\":\"enjoined(열심히 당부·권함)가 '말을 가로막았다'로 바뀌어 발화 행위가 달라졌고, 그가 말을 끊었다는 없던 사건이 생김. eagerly는 '간절하게'로 대응.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위): '당부하다/권하다'가 '말을 가로막다'로 바뀌어 화자의 행위가 달라졌습니다. 다만 \\\"Don't mention it\\\"의 내용과 인물은 유지되어 요지는 크게 바뀌지 않아 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계는 바뀌지 않았습니다(질문 1·2·3 모두 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사과를 받아넘기는 말 → 사과를 받아넘기는 말. 사과를 만류하는 기능은 '별 말씀을 다 하십니다'로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"사과를 만류하는 사교적 응답으로, 의무·허가·금지 같은 규범을 정하는 문장이 아닙니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"개츠비가 닉에게 '하십니다'라는 격식체 높임을 쓰는 것이 관계에 맞는지는 번역문의 다른 발화(친구, 마세요)와도 섞여 있어 판단하기 어렵습니다. 화자·청자 사이에 설정하려는 존대 수준(예: 개츠비의 격식 있는 말투 설정) 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1439,
+    "output_tokens": 836,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4zV4ZfZy1Tbt7vUP6H",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0638\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"cardinal virtues\",\"tgt_span\":\"핵심적인 미덕\",\"description\":\"'cardinal virtues'(기본 덕목, 사추덕 등 고전적 덕목 체계)를 '핵심적인 미덕'이라는 일반 어휘로 옮겨 덕목 범주의 전통적 함의가 약해짐\"},{\"id\":\"E002\",\"src_span\":\"suspects himself of\",\"tgt_span\":\"믿기 마련인데\",\"description\":\"'suspects'(스스로 ~일 것이라 의심하다)가 '믿다'로 바뀌어 확신 정도가 다소 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1(확실성): '의심하다'가 '믿다'로 바뀌어 확신 정도가 달라졌으나 핵심 사실은 유지되어 minor입니다. 나머지 인물·수량(few, one of)은 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'this is mine'의 지시 대상(그 미덕)과 콜론 뒤 설명 관계가 '이것이 그렇다. 나는…'으로 유지되며 초점·연결 관계도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 자기 서술·성찰 → 자기 서술·성찰. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 1인칭 서술의 평서체('~다')가 유지되며 화자의 태도 변화도 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'cardinal virtues'가 '핵심적인 미덕'으로 옮겨져 고전적 덕목 개념의 전문 용어성은 약해졌으나, 독자가 다른 제도·대상으로 이해하게 되지는 않고 일반 독자에게 의미 이해가 가능합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1316,
+    "output_tokens": 867,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

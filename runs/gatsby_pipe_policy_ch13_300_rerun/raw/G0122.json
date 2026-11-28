@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4ob1C6XmiQjMEqP8Vm",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0122\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"it surprised her as much as it did me\",\"tgt_span\":\"그 말에 놀란 건 나뿐만이 아니었던 모양인지\",\"description\":\"'그녀도 나만큼 놀랐다'는 정도 비교가 '나뿐 아니라 그녀도 놀랐다'로 바뀌었으나 핵심 사실은 유지됨\"},{\"id\":\"E002\",\"src_span\":\"for she yawned\",\"tgt_span\":\"그녀는 하품을 하더니\",\"description\":\"원문의 근거를 나타내는 for(그녀가 놀랐다고 추정하는 근거=하품)가 '-더니'의 단순 순차로 옮겨져 근거 관계가 약해짐\"},{\"id\":\"E003\",\"src_span\":\"stood up into the room\",\"tgt_span\":\"자리에서 일어나 방 안으로 들어섰다\",\"description\":\"방 안에서 일어선 동작이 '방 안으로 들어섰다'로 옮겨져 위치 이동(들어옴)이 첨가됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 1(행위): 이미 방 안 소파에 누워 있던 그녀가 일어선 것이 '방 안으로 들어섰다'는 다른 행위(출입)로 바뀌어 독자가 장면을 다르게 이해합니다. 'Evidently'를 '모양인지'로 옮긴 확실성과 놀람 정도 변화는 경미합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2(연결 관계): for가 하품을 놀람의 근거로 제시하는 인과·근거 연결인데 '-더니'는 시간 순서·단순 연속으로 읽혀 연결 관계가 달라졌습니다. 다만 '모양인지'가 추측 구조를 일부 유지해 요지 변화는 작습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(인물 동작 묘사) → 서술(인물 동작 묘사). 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설의 동작 서술로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 독자에게 서술하는 문장이며 높임·호칭 등 관계 표현이 문제되는 대상이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 등장하지 않습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1489,
+    "output_tokens": 1014,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

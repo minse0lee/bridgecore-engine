@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4mxZvvGfYU4Y59gXKs",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0062\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"burning gardens\",\"tgt_span\":\"활짝 핀 정원들\",\"description\":\"불타는 듯한 빛깔의 정원(은유)이 '활짝 핀 정원'으로 바뀌어 은유 이미지가 일반적 개화 묘사로 약해짐\"},{\"id\":\"E002\",\"src_span\":\"drifting up the side in bright vines\",\"tgt_span\":\"밝은 빛깔의 덩굴이 되어 외벽을 타고 흘러내렸다\",\"description\":\"위로 떠올라 올라가는 방향(drifting up)이 '흘러내렸다'로 바뀌어 덩굴의 이동 방향이 반대가 됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 덩굴이 벽을 타고 올라가는 방향이 '흘러내렸다'로 반대가 되었고, '불타는 듯한 정원'도 '활짝 핀 정원'으로 달라졌습니다. 다만 잔디밭이 집까지 이어져 덩굴로 이어지는 장면의 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'finally when it reached the house'와 '마침내 집에 다다랐을 때'의 시간 연결, 'it'이 잔디밭을 가리키는 관계가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"풍경 묘사 서술 → 풍경 묘사 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범적 의미가 없는 묘사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 '-았다'가 유지되며 특별한 관계·호칭 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"a quarter of a mile을 '4분의 1마일'로 단위와 수치를 그대로 유지했습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2696,
+    "output_tokens": 832,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

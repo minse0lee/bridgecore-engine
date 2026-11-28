@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4nYW76aGnNb98Pk7qK",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0080\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"gleaming white against the fresh grass outside\",\"tgt_span\":\"하얗게 빛났고, 그 너머로 … 싱그러운 잔디가 펼쳐져 있었다\",\"description\":\"흰 창문이 바깥 푸른 잔디와 대비되어 빛난다는 대조 배경이 사라지고, 잔디가 창문 '너머'에 펼쳐진 별개의 서술로 바뀜. 'against'의 대조 관계와 '바깥(outside)' 위치가 약화됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"창문이 살짝 열려 흰색으로 빛나고, 바깥 잔디가 집 안까지 조금 자라는 듯하다는 내용이 모두 유지됩니다. '너머'는 위치를 약간 다르게 보이게 하지만 같은 장면을 기술합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(연결 관계): 'against'가 나타내는 흰 창문과 푸른 잔디의 시각적 대조·배경 관계가 '빛났고, 그 너머로 … 펼쳐져 있었다'의 병렬 서술로 바뀌었습니다. 핵심 사실은 유지되어 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사 → 장면 묘사. 서술 기능이 그대로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가를 나타내는 표현이 없는 묘사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체의 문어적 어조가 '~했다' 평서체로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2066,
+    "output_tokens": 795,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

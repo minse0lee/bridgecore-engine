@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4y6mbPhmXejaaAZiPZ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0566\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"The shock that followed this declaration found voice in a sustained “Ah-h-h!”\",\"tgt_span\":\"사람들은 충격에 휩싸여 길게 \\\"아-!\\\" 하는 비명을 질렀고\",\"description\":\"충격이 소리로 표출되었다는 서술이 '사람들이 충격에 휩싸여 비명을 질렀다'로 바뀜. 또한 'Ah-h-h!'(탄성·놀람의 소리)가 '비명'으로 바뀌어 반응의 성격이 강해짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 놀라 내뱉은 길게 끄는 'Ah-h-h!' 탄성이 '비명'으로 바뀌어 반응의 성격이 달라졌으나, 충격 후 군중이 소리를 내고 문이 열린다는 핵심 사건은 유지되어 요지는 크게 달라지지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'this declaration'은 '이 말'로, as로 연결된 동시 사건은 '그와 동시에'로 시간 관계가 유지되며 초점 표현도 변하지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 군중의 반응과 문이 열리는 사건을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 평서체 '-었다'가 유지되며 화자·청자 관계상 문제될 점이 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"쿠페(coupé)는 통용되는 음역·표기로 같은 차종을 가리키므로 제도적 의미가 유지됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1635,
+    "output_tokens": 818,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

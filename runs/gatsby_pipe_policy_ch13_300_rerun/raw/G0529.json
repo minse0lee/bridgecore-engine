@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4x2YpbLYrReuChmiqg",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0529\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Under the name of Mrs. Sigourney Howard…\",\"tgt_span\":\"시고니 하워드 부인이라는 이름으로 되어 있을 거예요…\",\"description\":\"'Sigourney'를 '시고니'로 옮겨 음역이 부정확하고, 'Under the name of'를 '이름으로 되어 있을 거예요'로 옮기면서 추측 어미('-을 거예요')를 더함. 다만 지시 대상은 식별 가능함.\"},{\"id\":\"E002\",\"src_span\":\"My aunt…\",\"tgt_span\":\"제 고모인데…\",\"description\":\"'aunt'를 '고모'(부계 이모)로 한정하여 옮김. 'aunt'는 이모·고모 모두 가능하므로 친족 관계가 특정되고 '인데'가 연결 어미로 덧붙음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"저를 보러 오라는 요청, 전화번호부, 하워드 부인 이름, 고모(aunt)라는 내용이 모두 유지됩니다. '고모'와 '-을 거예요'는 세부 차이이며 핵심 사실을 바꾸지 않고, 시고니는 음역이 다소 달라도 지시 대상을 알 수 있습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'My aunt'의 소유 관계가 '제 고모'로 유지되고, 말줄임표로 이어지는 단편적 연결도 그대로 보존되어 지시·연결·초점 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"방문 요청과 연락 방법 안내 → 방문 요청과 연락 방법 안내. 같은 종류의 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"개인적인 초대·부탁이며 의무·허가·금지 등 규범적 표현이 아니므로 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조던이 닉에게 건네는 정중하고 친밀한 사교적 말투가 '~세요/~예요' 해요체로 자연스럽게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Mrs.'를 '부인'으로, 전화번호부를 그대로 옮겨 기혼 여성 호칭과 당시 연락 수단이 이해 가능하게 전달되며 다른 제도로 대체되지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1681,
+    "output_tokens": 1007,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

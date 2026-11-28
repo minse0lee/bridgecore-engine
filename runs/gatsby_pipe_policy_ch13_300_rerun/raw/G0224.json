@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4qiyyDeUrTabgsjzhJ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0224\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"with several feet of twilight between them\",\"tgt_span\":\"서로 몇 걸음의 거리감을 둔 채\",\"description\":\"'several feet of twilight'(몇 피트의 황혼)이 '몇 걸음의 거리감'으로 바뀌어 황혼 이미지가 사라지고 단위가 달라짐. 두 사람 사이에 거리가 있다는 핵심 내용은 유지됨\"},{\"id\":\"E002\",\"src_span\":\"a little deaf\",\"tgt_span\":\"약간 귀가 먹은 척\",\"description\":\"'조금 귀가 안 들리는(듯한)' 태도를 '귀가 먹은 척'으로 옮겼으나 의미는 거의 같음. 의미 차이는 없음\"},{\"id\":\"E003\",\"src_span\":\"strolled back\",\"tgt_span\":\"서서히 서재로 돌아갔다\",\"description\":\"'거닐듯 천천히'가 '서서히'로 바뀌어 산책하듯 걷는 모습이 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'several feet of twilight'가 '몇 걸음의 거리감'으로 바뀌어 황혼이라는 요소가 빠지고 수량 단위가 달라졌습니다. 다만 두 사람이 떨어져 걸었다는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'while'이 '그동안'으로 이어져 두 장면의 동시 진행 관계가 유지되고, 지시·초점 관계도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 인물들의 움직임과 분위기를 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 장면 묘사로 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 문어체 평서문과 '양' 호칭이 유지되며 관계에 어긋나는 높임·태도 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명과 일반적인 장소 표현만 있고 고유한 제도·관습·단위 판정 대상이 없습니다. 'feet'는 비유적 거리 표현이며 로케일 요구도 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2301,
+    "output_tokens": 983,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

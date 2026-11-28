@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4tQmSAqV2t8DpfMhjT",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0366\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Two hundred and sixty-five dollars.\",\"tgt_span\":\"265달러나 했답니다\",\"description\":\"가격만 말하던 문장에 '나'(많다는 평가)가 더해짐. 가격 수치와 통화는 유지되어 의미 변화는 미미함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"가졌다, 오늘 밤 입으려 했음, 가슴 부분이 커서 수선, 가스 블루에 연보라 구슬, 265달러 등 모든 내용이 유지됩니다. '나'는 평가어 수준의 첨가일 뿐 사실을 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'but'의 대조 관계가 '-는데'로 유지되고 'it'의 지시 대상(드레스)도 유지됩니다. 초점 표현의 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조던의 질문에 대한 대답·서술 → 대답·서술. 발화 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 사건 서술입니다. 'had to be altered'는 수선이 필요했다는 사실 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"파티에서 사교적으로 말하는 여성의 대화체가 '-요/-답니다'로 자연스럽게 유지되며 앞 번역의 어조와 일관됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"달러 금액을 그대로 265달러로 유지하여 통화·금액이 보존됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1381,
+    "output_tokens": 728,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

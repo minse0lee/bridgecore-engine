@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4xyscfSjmvVFgLLXV1",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0560\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"But I wasn’t even trying\",\"tgt_span\":\"하지만 운전하려고 한 게 아니었어요\",\"description\":\"even이 붙은 초점('시도조차 하지 않았다')이 사라지고 단순 부정('운전하려는 게 아니었다')으로 바뀌고, 생략된 목적어 '운전'이 첨가됨\"},{\"id\":\"E002\",\"src_span\":\"I wasn’t even trying\",\"tgt_span\":\"정말 그러려고 한 게 아니었다고요\",\"description\":\"반복 문장에서도 even의 초점이 '정말'로 바뀌어 '시도조차 안 했다'는 강조가 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: '운전 실력이 서툴면 밤에 운전하지 말라'는 말에 대한 응답이므로 '운전하려고 한 게 아니었다'는 해석은 맥락상 가능하지만, '시도조차 하지 않았다'는 정도·강조 의미가 단순 부정으로 약해졌습니다. 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 3: even이 만드는 초점·범위 표현이 번역에서 사라지고 '정말'로 대체되어 '시도조차'라는 극단 강조 관계가 없어졌습니다. 독자가 이해할 핵심 요지는 유지되어 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"항변하는 설명 → 항변하는 설명. 분개하며 해명하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술적 대화입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"행인들에게 항변하는 화자의 구어체 '~어요'가 상황에 맞고, 분개하는 태도도 '분개하며'로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1238,
+    "output_tokens": 893,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

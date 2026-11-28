@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4uY51JPRhap7n22H8e",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0417\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"pushing young girls backward\",\"tgt_span\":\"젊은 여자들을 밀어내며\",\"description\":\"젊은 여자들을 뒤로 밀며 춤추는 동작이 '밀어내며'(멀리 떨어뜨림)로 바뀌어 춤 동작이 달라짐\"},{\"id\":\"E002\",\"src_span\":\"holding each other tortuously\",\"tgt_span\":\"구부정한 자세로 … 서로를 붙잡은 채\",\"description\":\"'비비 꼬듯 어색하게 껴안다'가 '구부정한 자세'로 바뀜. 서로 안은 방식의 묘사가 다소 달라짐\"},{\"id\":\"E003\",\"src_span\":\"the canvas\",\"tgt_span\":\"천막 위에서는\",\"description\":\"canvas는 천막 천으로 만든 댄스 플로어(또는 천막)를 가리키는데, '천막 위'로 옮겨 장소 해석이 흔들림. 통상 대응 범위 내라 경미함\"},{\"id\":\"E004\",\"src_span\":\"single girls\",\"tgt_span\":\"독신녀들\",\"description\":\"파티에서 파트너 없이 온 여자들이 '독신녀'(미혼 여성 신분)로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\",\"E004\"],\"reason\":\"판단 질문 1: 젊은 여자들을 뒤로 밀며 도는 동작이 '밀어내며'로, 어색하게 껴안는 모양이 '구부정한 자세'로, 파트너 없는 여자들이 '독신녀'로 바뀌어 세부 내용이 달라졌으나 전체 장면의 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계가 유지되며, 문장 분할과 접속은 자연스럽게 재구성되었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"파티 장면 묘사 → 파티 장면 묘사. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범적 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 '~었다'가 유지되며 'superior' 같은 비꼬는 태도도 '잘난 체하는'으로 전달됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에서 별도로 판정할 문화 고유의 제도·단위·관습은 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2379,
+    "output_tokens": 1013,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

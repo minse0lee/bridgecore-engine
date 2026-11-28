@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4vEiW2PLjxpTKbxydt",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0447\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"old sport\",\"tgt_span\":\"친구\",\"description\":\"Gatsby 특유의 말버릇 호칭 'old sport'가 일반적인 '친구'로 옮겨져 구어체 호칭의 고유한 어감이 약해짐\"},{\"id\":\"E002\",\"src_span\":\"I’m afraid I’m not a very good host.\",\"tgt_span\":\"제가 그리 좋은 호스트가 아닌 모양이군요.\",\"description\":\"겸손한 사과의 'I'm afraid'가 '~인 모양이군요'로 옮겨져 화자 자신의 사과·유감 표현이 추측 어조로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'알고 있는 줄 알았다'와 '좋은 호스트가 아닌 듯하다'는 내용이 유지되며, 'I'm afraid'의 완곡한 추측 정도도 '모양이군요'로 대응되어 핵심 사실이 같습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현의 변화가 없고 두 문장의 관계가 그대로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"오해를 해명하며 완곡하게 사과하는 발화 → 오해를 해명하며 완곡하게 사과하는 발화. 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 대화입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Gatsby가 처음 만난 Nick에게 격식 있게 말하는 인물이라는 점(뒤 문장의 'elaborate formality of speech')에 '알고 계신', '~습니다'가 맞고, '친구'도 친근한 호칭으로 태도를 전달하므로 관계에 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화·제도 고유 대상이 없습니다. 'old sport'는 호칭 어감의 문제로 Register에서 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1421,
+    "output_tokens": 887,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4op8ECYN5sKyi8jNdw",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0128\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“You are!”\",\"tgt_span\":\"“정말요!”\",\"description\":\"'You are!'은 직전 Miss Baker의 'I'm absolutely in training'을 되받아 '훈련 중이라고?' 하며 놀라는 반응인데, '정말요!'는 놀라는 감탄이라는 점은 유지하지만 '훈련 중이다'를 되받는 내용이 명시되지 않고, 존댓말('요')로 옮겨져 주인 톰의 말투가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'You are!'은 상대의 주장('훈련 중')에 대한 놀람·불신 표현이고 '정말요!'도 같은 놀람을 나타내므로 내용이 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"직전 발화를 되받는 응답이라는 지시 관계가 '정말요!'에서도 남아 있고 연결·초점 관계는 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"믿기지 않는다는 놀람 반응 → 놀람 반응. 같은 종류의 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 감탄 문장입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 화자(집주인 톰)가 지인인 조던에게 하는 말인데 '정말요!'는 존댓말이라 관계에 비해 격식이 높고, 앞뒤 대화의 존댓말 사용 맥락에 맞춰 큰 어긋남은 아니나 친밀·허물없는 태도가 약해졌습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 없는 감탄 문장입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1409,
+    "output_tokens": 807,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4mfSnupAJ6xbcNRR2Q",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0047\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"some Hôtel de Ville in Normandy\",\"tgt_span\":\"노르망디의 어느 시청사\",\"description\":\"Hôtel de Ville은 프랑스 도시의 시청 건물을 가리키는 고유 명칭인데, 일반 어휘 '시청사'로 옮겨 프랑스식 건축 유형의 문화적 의미가 약해졌다.\"},{\"id\":\"E002\",\"src_span\":\"a factual imitation\",\"tgt_span\":\"그대로 모방한 듯한 모습\",\"description\":\"'사실상의/정확한 모방'이 '그대로 모방한 듯한'으로 바뀌어 모방의 확실성이 약해졌다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1(확실성): '정확한 모방'이 '모방한 듯한'으로 바뀌어 단정이 추측처럼 읽히지만, 모방한 건물이라는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'it'의 지시 대상인 오른쪽 집, 'with' 이하의 나열 관계가 유지됩니다. 문장 분할은 오류가 아닙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 건물 묘사 → 건물 묘사. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 1인칭 회고체 서술이 '-했다' 평서체로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 프랑스의 Hôtel de Ville(시청 건물 유형)이 일반 어휘 '시청사'로 옮겨져 프랑스 건축 전통의 함의가 약해졌습니다. 다만 시청 건물이라는 지시와 노르망디 위치는 유지되어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 3163,
+    "output_tokens": 853,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

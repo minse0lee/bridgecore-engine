@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4twbb19CTTSUGG5AF1",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0388\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Instead of rambling\",\"tgt_span\":\"여기저기 흩어지는 대신\",\"description\":\"rambling(이리저리 돌아다니며 어울림)을 '흩어지는'으로 옮겨 일행의 행동이 달라졌으나 핵심 대비(결속 유지)는 남음\"},{\"id\":\"E002\",\"src_span\":\"the staid nobility of the countryside—East Egg condescending to West Egg\",\"tgt_span\":\"즉, 이스트에그가 웨스트에그를 얕보며\",\"description\":\"대시 뒤 구를 '즉,'으로 풀어 일행이 대표하는 것을 이스트에그의 태도로 설명하는 형태로 바꿈. 일행 자체가 이스트에그 쪽 사람이라는 동격 관계가 약해졌으나 의미는 통함\"},{\"id\":\"E003\",\"src_span\":\"spectroscopic gaiety\",\"tgt_span\":\"화려하고 소란스러운 유쾌함\",\"description\":\"spectroscopic(스펙트럼처럼 다채로운)을 '화려하고 소란스러운'으로 옮겨 수식어의 의미가 일부 달라졌으나 평가어 수준의 차이\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"일행이 흩어지지 않고 품위를 유지하며 귀족 계층을 자처하고, 이스트에그가 웨스트에그를 얕보고 경계한다는 핵심 내용이 유지됩니다. rambling과 spectroscopic의 뉘앙스 차이는 정도·표현 수준의 차이입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Instead of 대비와 대시 뒤 동격 설명 관계가 '대신'과 '즉,'으로 남아 있고 지시·초점이 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 묘사 → 서술 묘사. 일행의 태도를 설명하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 문어체 평서 어조가 유지되고 화자의 약간 풍자적인 태도도 전달됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"East Egg와 West Egg가 '이스트에그', '웨스트에그'로 통용 음역되어 같은 대상을 가리키며 귀족 계층 대비도 이해됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2011,
+    "output_tokens": 1033,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4qBEGEwWaNswZFuHPs",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0195\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"She was only extemporizing\",\"tgt_span\":\"그녀는 그저 즉흥적으로 내뱉은 말이었지만\",\"description\":\"주어 '그녀'(Daisy)가 즉흥적으로 말하고 있었다는 행위가 '그녀는 … 말이었지만'으로 바뀌어 사람이 말과 동일시됨. 행위 주체가 행위 자체로 읽힘(문법적 어색함이나 의미 훼손 가능성이 있으나 즉흥적으로 말했다는 의미는 해석 가능)\"},{\"id\":\"E002\",\"src_span\":\"one of those breathless, thrilling words\",\"tgt_span\":\"숨 가쁘고 전율 돋는 말들 속에\",\"description\":\"'그런 말들 중 하나'(단수)가 복수 '말들'로 바뀜. 마음이 하나의 말 속에 숨겨져 나오려는 것이 여러 말 속으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그녀는 … 말이었지만'은 어색하나 즉흥적으로 말하고 있었다는 뜻과 온기가 흘러나왔다는 내용이 해석 가능하게 유지됩니다. 'one of'의 단수가 복수로 바뀐 것은 수량상 사소한 차이로 사태를 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but의 대조 관계와 as if의 비유 연결이 유지되며 '그녀', '마음'의 지시 대상도 바뀌지 않았습니다. 'to you'의 대상은 번역에서 생략되었으나 지시 관계를 바꾸지는 않습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 상황 묘사·설명 → 상황 묘사·설명. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술 문장으로 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문으로 화자·청자 간 높임이나 호칭이 문제 되는 대상이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2061,
+    "output_tokens": 957,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

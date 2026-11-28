@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4tdyvgMyTEojJ6ASNJ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0375\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"The three Mr. Mumbles\",\"tgt_span\":\"웅얼거리는 세 남자\",\"description\":\"\\\"Mr. Mumbles\\\"는 이름을 모르는 남자들에게 붙인 별칭(Mumble 씨)인데 '웅얼거리는 남자'라는 묘사로 바뀌어 이름처럼 쓰인 호칭의 성격이 사라짐. 수량 '세'와 대상은 유지됨\"},{\"id\":\"E002\",\"src_span\":\"listened eagerly\",\"tgt_span\":\"귀를 기울였다\",\"description\":\"'eagerly'(열심히, 간절히)에 해당하는 표현이 빠져 열의의 정도가 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"세 남자가 몸을 숙이고 귀를 기울였다는 행위자·수량·행위가 유지되며, 'eagerly'가 약해진 것은 정도 차이에 불과합니다. 별칭의 형식 변화도 지시 대상은 같습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'세 남자'가 앞 문맥의 같은 인물들을 가리키며, 두 동작의 연결도 '숙인 채 귀를 기울였다'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 소문에 사람들이 반응하는 장면을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서사 묘사입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 독자 사이의 서술체가 유지되며, 별칭에 담긴 가벼운 놀림 태도도 '웅얼거리는'으로 어느 정도 전달됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없고, 'Mr. Mumbles'는 인명 성격의 별칭이라 별도로 판정할 문화 대상이 아닙니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1347,
+    "output_tokens": 869,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

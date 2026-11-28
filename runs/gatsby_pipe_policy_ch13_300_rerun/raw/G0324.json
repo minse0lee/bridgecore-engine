@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4sUDGrQuRoYgJm8fou",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0324\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"as the earth lurches away from the sun\",\"tgt_span\":\"지구가 태양으로부터 멀어지며 어둠이 내릴수록\",\"description\":\"'어둠이 내릴수록'이 원문에 없는 내용으로 더해짐. 또한 '~할수록'으로 조명이 밝아지는 정도가 어둠에 비례하는 관계로 서술되어 'as'의 동시 진행 관계가 약간 달라짐\"},{\"id\":\"E002\",\"src_span\":\"the opera of voices pitches a key higher\",\"tgt_span\":\"사람들의 목소리는 오페라처럼 한 옥타브 더 높아진다\",\"description\":\"'목소리들의 오페라'라는 은유가 '오페라처럼'이라는 직유로 바뀌고, 'a key'(음정 한 단계)가 '한 옥타브'로 수치가 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 원문에 없는 '어둠이 내릴수록'이 더해지고, 'a key'가 '한 옥타브'로 수량이 바뀌었으나 조명이 밝아지고 음악이 연주되며 목소리가 높아지는 핵심 장면은 유지되어 요지 변화는 크지 않습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: as가 나타내는 동시 진행 관계가 '어둠이 내릴수록 조명이 더 밝아진다'는 어둠에 따른 인과·비례 관계로 바뀌었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"파티 장면 묘사 → 파티 장면 묘사. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 장면 묘사로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 문어체 격식이 유지되고 화자·청자 관계상 문제될 호칭·높임이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2798,
+    "output_tokens": 916,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

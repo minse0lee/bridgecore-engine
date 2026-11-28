@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4nqwM4x41YYXPw7JRX",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0091\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"promising that there was no one in the world she so much wanted to see\",\"tgt_span\":\"세상에 나보다 더 보고 싶었던 사람은 없었다는 듯한 표정이었다\",\"description\":\"'약속하듯 (말로/태도로) 전달함'이 '그런 표정이었다'로 바뀌고, 현재 시제의 'wanted to see'가 과거 '보고 싶었던'으로 바뀜. 핵심 내용(세상에 그만큼 보고 싶은 사람이 없다는 인상)은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"다시 웃음, 손을 잡음, 올려다봄, 세상에 그보다 보고 싶은 사람이 없다는 인상 모두 유지됩니다. 'promising'을 '듯한 표정'으로 옮긴 것은 같은 사태를 기술하는 표현 차이입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"주어 'she'와 'my'의 지시 대상이 유지되고, 분사구문 연결도 문장 분할 후 동시 동작 관계로 남아 있습니다. 문장 분할 자체는 오류가 아닙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 데이지의 매력적인 태도를 묘사하는 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 소설 속 묘사 문장입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 독자 사이에 별도로 판정할 높임·호칭 관계가 드러나지 않는 서술문입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2142,
+    "output_tokens": 795,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

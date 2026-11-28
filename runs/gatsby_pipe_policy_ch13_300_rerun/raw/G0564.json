@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4y39ojZjc92vdhiKh9",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0564\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the criminal\",\"tgt_span\":\"가해자\",\"description\":\"'criminal'(범죄자라는 반어적·과장된 지칭)이 '가해자'로 바뀌어 지칭의 뉘앙스가 달라짐. 다만 사고를 낸 사람이라는 지시 대상은 유지됨.\"},{\"id\":\"E002\",\"src_span\":\"You don’t understand\",\"tgt_span\":\"오해하신 거예요.\",\"description\":\"'이해하지 못한다'가 '오해하고 있다'로 바뀌고 높임 표현이 더해짐. 같은 상황을 가리켜 의미 차이는 작음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'You don't understand'를 '오해하신 거예요'로, 'the criminal'을 '가해자'로 옮겼으나 말하는 사람, 말의 내용, 지시 대상이 같아 사태가 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계에 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대의 오해를 바로잡는 해명 → 상대의 오해를 바로잡는 해명. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'criminal'은 사고를 낸 운전자를 과장해 부르는 서술자의 어조로 읽을 수 있어 '가해자'로 바꿔도 그 태도가 유지되는지 판단하기 어렵고, 화자(사고 낸 사람)와 구경꾼의 관계도 불분명해 '오해하신 거예요' 높임의 적절성도 확정하기 어렵습니다. 서술자의 어조 해석 기준과 인물 관계 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1502,
+    "output_tokens": 848,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

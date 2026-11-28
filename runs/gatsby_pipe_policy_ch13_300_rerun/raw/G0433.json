@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4usnfmox1qZZH83cxd",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0433\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"old sport\",\"tgt_span\":\"친구\",\"description\":\"Gatsby의 특징적인 호칭 'old sport'(친근하면서 다소 격식 차린 상류층 말버릇)가 일반적인 '친구'로 옮겨져 어조와 문화적 색채가 약해짐\"},{\"id\":\"E002\",\"src_span\":\"Just near the shore along the Sound.\",\"tgt_span\":\"해협을 따라 해안가 근처에서만 탈 겁니다.\",\"description\":\"원문의 단순 위치 제시를 '탈 겁니다'라는 서술로 바꿔 주어·행위를 보충했으나 같은 사태이고 초점 'Just'가 '만'으로 유지되어 의미 변화는 거의 없음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"함께 가자는 제안과 해협 따라 해안 근처만 간다는 내용이 유지되며, 'old sport'의 호칭 의미도 친근한 호칭으로 전달됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Just near the shore'의 한정 초점이 '해안가 근처에서만'으로 유지되어 초점 범위가 보존됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"함께 가자는 제안·권유 → 제안·권유. 의문형 권유 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"개인적 제안·선택 질문으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(태도): Gatsby의 독특한 상류층식 친근한 호칭 'old sport'가 평범한 '친구'로 바뀌어 화자 특유의 태도·말투가 약해졌습니다. 다만 친근함 자체는 전달되어 minor입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"평가할 문화 고유의 제도·단위·관습이 없으며 'Sound'는 지명입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1140,
+    "output_tokens": 848,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

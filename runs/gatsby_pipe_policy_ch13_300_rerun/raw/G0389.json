@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4u1xXDvLgFxjZzn5RQ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0389\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"after a somehow wasteful and inappropriate half-hour\",\"tgt_span\":\"왠지 시간 낭비 같고 부적절하게 느껴지는 30분이 흐른 뒤\",\"description\":\"half-hour를 '30분'으로 옮긴 것은 통상적 대응이므로 수량 오류가 아님. 다만 '시간 낭비 같고 부적절하게 느껴지는'은 half-hour를 꾸미는 표현으로 유지됨. 의미 변화 없음(참고용).\"},{\"id\":\"E002\",\"src_span\":\"this is much too polite for me\",\"tgt_span\":\"여긴 나한테 너무 정중하네요\",\"description\":\"'this'(파티·일행 분위기)를 '여긴'(장소)으로 옮김. 평서 불평이 약간 장소 지시로 좁아졌으나 사태는 대체로 같음(경미).\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"나가자는 제안, 어색한 30분 뒤 속삭임, 지나치게 정중해 불편하다는 평가가 모두 유지됩니다. half-hour의 '30분'은 정확한 대응이라 힌트의 수치는 오경보입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 대상(this→여긴)이 같은 파티 상황을 가리키고, 시간 연결(after→뒤)과 정도 표현(much too→너무)이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"자리를 뜨자고 권하며 불만을 말하는 대화 → 같은 기능으로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 개인적 제안이며 의무·금지·허가를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조던이 동행인 화자에게 하는 말로, 친근하면서 예의 있는 '-요' 체가 어울리며 정중함에 대한 은근한 비꼬는 태도도 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2067,
+    "output_tokens": 908,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

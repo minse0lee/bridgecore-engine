@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4vuQRSANF7bhRX3qw8",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0474\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"drift coolly out of nowhere\",\"tgt_span\":\"어느 날 갑자기 어디선가 나타나\",\"description\":\"'coolly'(태연하게, 침착하게)가 번역에서 빠지고 '어느 날 갑자기'(시간적 돌발성)가 더해져 서술 방식이 달라짐\"},{\"id\":\"E002\",\"src_span\":\"Long Island Sound\",\"tgt_span\":\"롱아일랜드 해협\",\"description\":\"Long Island Sound는 통용 표기상 '롱아일랜드 사운드'(해협)이며 '해협'은 통상적 대응으로 허용됨. 의미 변화 없음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'coolly'가 누락되고 원문에 없는 '어느 날 갑자기'가 첨가되어 태연하게 흘러들어온 태도가 돌발적 출현으로 바뀌었으나 핵심 사실(출처 불명의 젊은이가 대저택을 산 것)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"But의 대조('하지만'), 삽입절의 한정 범위, 지시 관계가 모두 유지되며 초점 표현의 이동도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 놀라움과 의구심을 서술하는 기능 → 같은 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 의무·허가·금지를 정하는 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 1인칭 회고 서술체가 '~였다' 문어체로 유지되고 'provincial'의 자조적 태도도 '시골뜨기'로 전달됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Long Island Sound를 '롱아일랜드 해협'으로 옮겨 같은 지리 대상을 가리키며 통용되는 번역입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1846,
+    "output_tokens": 862,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

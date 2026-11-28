@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4nFWQH2vr1hR5ohYKi",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0072\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the same senior society\",\"tgt_span\":\"대학 시절 같은 상급생 사교 모임\",\"description\":\"senior society(예일 등 대학의 졸업반 비밀 모임)를 '상급생 사교 모임'으로 옮겨 졸업반 선발 모임이라는 제도적 성격이 약해지고 '대학 시절'이 덧붙음. 다만 대학 맥락의 모임이라는 핵심은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"같은 모임 소속, 친밀하지 않았음, 그가 나를 인정하고 호감을 바랐다는 인상, 거칠고 반항적인 갈망 등 인물·행위·부정·확실성이 유지됩니다. '대학 시절'은 문맥(New Haven)상 타당한 보충입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"while의 양보 관계가 '~이었지만'으로, with 이하의 갈망이 '거기에는 그 나름의'로 이어져 지시·연결·초점 관계가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 관계에 대한 화자의 서술 → 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"never는 친밀한 사이가 아니었다는 사실 서술의 부정이며 의무·허가·금지 같은 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술자의 회상적 서술체 '~다'가 유지되며 관계에 맞는 격식입니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[\"E001\"],\"reason\":\"senior society를 '상급생 사교 모임'으로 옮겨 대학 비밀 학생단체라는 성격은 다소 약해지지만, 대학의 상급생 모임이라는 대상은 이해 가능하여 다른 제도로 바꾸거나 이해를 막은 것은 아닙니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2158,
+    "output_tokens": 841,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

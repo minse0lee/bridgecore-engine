@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4tEhTVHEpHa4uqXKCa",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0361\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Wasn’t it for you, Lucille?\",\"tgt_span\":\"너도 그때 그랬지, 루실?\",\"description\":\"'it(지난 파티)이 너를 위한 것이었지?'가 '너도 그때 그랬지(그때 만났지)?'로 바뀌어 'for you'(루실을 위한/루실 때문에 연 파티, 즉 루실이 초대받은 것)의 의미가 흐려짐. 다만 뒤 문장 'It was for Lucille, too'와 문맥상 같은 취지로 읽혀 핵심은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'it was for you'(파티가 루실을 위한 것/루실이 초대된 파티였다)가 '너도 그때 그랬지'로 막연해져 구체 내용이 약해졌지만, 앞 문장과 이어 읽으면 '그때 너도 그 파티에서 만났지' 정도로 요지는 이해되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'너도'가 앞 소녀의 상황에 대한 병렬을 나타내어 'too'로 이어지는 뒤 문장과의 관계가 유지되고, 지시·연결·초점 관계는 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"동료에게 확인을 구하는 질문 → 동료에게 확인을 구하는 질문. 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가 의미가 없는 대화 속 확인 질문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"친구 사이로 보이는 일행에게 하는 반말 확인 질문으로, 관계에 어울립니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없고 인명만 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1815,
+    "output_tokens": 824,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

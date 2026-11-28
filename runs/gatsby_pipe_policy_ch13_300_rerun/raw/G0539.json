@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4xNgmqNRWFeadDCfUZ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0539\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Good night.\",\"tgt_span\":\"안녕히 가세요.\",\"description\":\"밤 작별 인사 Good night를 '안녕히 가세요'로 옮김. 통상적 대응이며 의미 변화 없음(오류 아님으로 간주 가능)이나 말투가 높임으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"곧 가겠다, 그렇게 전해 달라, 작별 인사라는 내용이 모두 유지됩니다. 'Good night'의 '안녕히 가세요'는 통상적 작별 인사 대응입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현이 달라지지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"전화 응답 및 요청과 작별 인사 → 같은 기능(응답·요청·작별 인사)으로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없고 개인적 부탁에 해당합니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 개츠비가 닉에게 'old sport'로 부르는 친근한 관계에서 '알겠습니다'와 '전해주세요'는 집사에게 쓸 수 있으나 작별 인사 '안녕히 가세요'는 손님을 보내는 높임으로 읽혀 화자 관계(주인이 손님에게)와 어긋나는 면이 있습니다. 다만 앞뒤 번역과 일관되고 의미 영향은 작아 minor입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 이 문장에 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1187,
+    "output_tokens": 765,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

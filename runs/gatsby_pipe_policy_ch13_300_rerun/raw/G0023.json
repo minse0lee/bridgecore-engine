@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4knySXw2R7KoHXydF4",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0023\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"All my aunts and uncles\",\"tgt_span\":\"고모와 삼촌들은\",\"description\":\"'aunts'가 고모로, 'uncles'가 삼촌으로 옮겨져 이모·외숙모 등 다른 친척이 빠지고 부계 쪽 친척으로 좁혀졌으나, 영어 원문의 중립적 범주(aunts and uncles)에 대한 통상적 대응이며 의미·기능에 영향이 없어 오류로 보지 않음(참고용)\"},{\"id\":\"E002\",\"src_span\":\"a prep school\",\"tgt_span\":\"예비 학교\",\"description\":\"미국의 사립 대학 진학 준비학교(prep school)를 '예비 학교'로 옮겨 제도적 의미가 충분히 전달되지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"친척들이 상의하고 학교를 고르듯 진지했으며 엄숙하고 망설이는 표정으로 '글쎄, 그렇지'라고 말했다는 내용이 모두 유지됩니다. 판단 질문 1·2 모두 아니오입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'it'의 지시 대상(동부로 가 채권업을 배우는 일)과 '마치 ~처럼', '마침내'의 연결·시간 순서가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 친척들의 반응을 묘사하는 아이러니한 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자 서술의 평서체와 친척들의 머뭇거리는 구어 말투가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: prep school은 미국 상류층의 명문대 진학 준비 사립학교라는 제도적 의미가 있는데 '예비 학교'로 옮겨 일반 어휘처럼 읽혀 제도적 의미가 전달되지 않습니다. 다만 비유의 핵심(신중한 상의)은 이해되어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 3202,
+    "output_tokens": 936,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

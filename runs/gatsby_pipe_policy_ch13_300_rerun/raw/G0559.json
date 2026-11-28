@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4xwo6SZ2RuFz8vnWnD",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0559\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"you oughtn’t to try driving at night\",\"tgt_span\":\"밤에는 운전하지 말았어야죠\",\"description\":\"현재·미래 지향의 조언(밤에 운전을 시도하지 말아야 한다)이 과거 사건에 대한 후회·비난('말았어야죠')으로 바뀌고, 'try'(시도하다)가 빠짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(시간): 일반적 조언 'oughtn’t to try driving'이 과거 사건을 가리키는 '운전하지 말았어야죠'로 바뀌고 'try'도 빠졌으나, 서툰 운전자는 밤에 운전하지 말라는 핵심은 유지되어 요지 이해는 크게 다르지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"if 조건('서툴다면')과 결과의 연결이 유지되고 지시·초점 관계 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"구경꾼의 훈계·질책 → 훈계·질책. 번역도 상대의 잘못을 나무라는 기능으로 읽혀 같은 종류입니다.\"},\"Deontic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"oughtn’t to(해서는 안 된다는 규범적 권고)가 '말았어야죠'로 옮겨져 하지 말아야 한다는 규범 범주와 대상이 유지됩니다. 과거 시제 변화는 Semantic에서만 다룹니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"구경꾼이 낯선 사람에게 하는 말로 '-죠' 정중체가 무난하며 비꼬는 태도도 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 표현이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1185,
+    "output_tokens": 805,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4mKp6BgWAc3EauFhhk",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0041\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"among other natural curiosities, two unusual formations of land\",\"tgt_span\":\"여러 자연의 경이로움 중에서도 특히 특이한 지형 두 곳\",\"description\":\"'other natural curiosities' 가운데 두 지형이 있다는 부가적 나열이 '그중에서도 특히 특이한'이라는 강조로 바뀌고, 'curiosities'(진기한 것)가 '경이로움'으로 옮겨짐. 핵심 사실(섬에 특이한 지형 두 곳이 있음)은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴욕 정동쪽의 가늘고 무질서한 섬과 그곳의 특이한 지형 두 곳이라는 내용이 유지되며, '특히'와 '경이로움'은 평가어 정도의 차이에 그칩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'It'과 'where there are'가 '그곳'으로 이어지는 지시·연결 관계가 유지됩니다. 'among other'가 '특히'로 바뀐 것은 초점어(only·even 유형)를 옮긴 차이가 아니라 내용상의 미세한 차이입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 장소 서술 → 장소 서술. 서술 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체('-었다')가 유지되며 화자와 독자의 관계상 어긋남이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"뉴욕이라는 지명만 있고 별도로 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2751,
+    "output_tokens": 788,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

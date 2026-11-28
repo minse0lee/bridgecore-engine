@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4yzowbrJFNLU2NZSa5",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0603\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the dark lanes of the Forties\",\"tgt_span\":\"40번가 어두운 골목\",\"description\":\"'the Forties'(40번대 번가들, 즉 40번가부터 49번가까지의 여러 거리)가 단일 '40번가'로 바뀌어 범위가 축소됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상·수량): 복수의 40번대 거리 골목이 하나의 '40번가'로 바뀌었으나, 저녁 8시에 극장가로 가는 택시 행렬이 늘어선 장면과 화자의 감정은 유지되어 요지는 같습니다. 'five deep'을 '다섯 줄'로 옮긴 것은 통상적 대응입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Again과 시간절·주절의 연결이 유지되고 지시·초점 관계도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면·심리 서술 → 장면·심리 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범적 의미를 지닌 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설의 1인칭 서술체 '~다'가 유지되며 관계 표현이 따로 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 뉴욕 맨해튼 거리 체계에서 'the Forties'는 40번대 번가 전체를 가리키는데 단일 '40번가'로 바꾸어 다른 지리 대상을 가리키게 되었습니다. 다만 극장가라는 맥락이 남아 있어 독자의 이해에는 큰 피해가 없어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2536,
+    "output_tokens": 787,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

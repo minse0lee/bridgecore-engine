@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4xiYPFXeVLRk5uUAW8",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0552\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"The fact was infinitely astonishing to him\",\"tgt_span\":\"그는 이 사실이 무척이나 놀라운 모양이었다\",\"description\":\"'놀라운 사실이었다'는 단정이 '놀라운 모양이었다'는 추측으로 바뀌어 확실성이 달라짐\"},{\"id\":\"E002\",\"src_span\":\"the late patron of Gatsby’s library\",\"tgt_span\":\"얼마 전 개츠비의 서재를 이용했던 그 사람\",\"description\":\"'late'(고인이 된)를 '얼마 전'(최근의 의미)으로 옮겼으며, 'patron'을 단순 이용자로 옮김\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 확실성이 단정에서 추측('모양')으로 바뀌었고, 'late'는 원문에서 '고인'이 아닌 '최근'이라는 해석도 가능해 '얼마 전'은 큰 의미 변화로 보기 어렵습니다. 핵심 사실(놀라움, 서재의 후원자)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'먼저…곧이어' 순서와 'it was…' 지시 관계가 유지되며 문장 분할은 오류가 아닙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(인물 인식 묘사) → 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 소설 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체의 평서 어조가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화·제도적 대상이 없고 인명만 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1555,
+    "output_tokens": 784,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

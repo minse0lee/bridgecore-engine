@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4mni6FLrHvuJbqDSGR",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0052\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"my second cousin once removed\",\"tgt_span\":\"나의 먼 친척\",\"description\":\"'second cousin once removed'라는 구체적 친족 관계(6촌의 자녀/부모 세대 차이 1)가 모호한 '먼 친척'으로 일반화됨\"},{\"id\":\"E002\",\"src_span\":\"I’d known Tom in college\",\"tgt_span\":\"톰은 대학 시절부터 알고 지낸 사이였다\",\"description\":\"대학 시절에 알았다는 시점이 '대학 시절부터' 알고 지낸 사이(이후 계속)로 바뀌어 관계의 지속 범위가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(인물·대상·시간): 정확한 친족 관계가 '먼 친척'으로 일반화되고, '대학 시절에 알았다'가 '대학 시절부터 알고 지냈다'로 바뀌었으나 핵심 사실(친척이고 대학에서 알게 됨)은 유지되어 요지는 크게 다르지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현의 대상이나 관계가 바뀌지 않았고 두 절의 병렬 연결이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 관계 소개(설명) → 인물 관계 소개(설명)로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 평서체 문체가 유지되며 호칭이나 태도 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"친족 명칭의 정밀도 차이는 Semantic에서 다루며, 별도로 판정할 제도·관습·단위 등의 문화 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2330,
+    "output_tokens": 830,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

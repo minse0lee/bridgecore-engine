@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4kUmKhQW5UJwSbfxAP",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0021\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Instead of being the warm centre of the world\",\"tgt_span\":\"세상의 따뜻한 중심이었던 중서부는 이제\",\"description\":\"'따뜻한 중심이 되는 대신'이라는 대조·기대 구문이 '중심이었던'이라는 과거 사실로 바뀌어, 돌아온 뒤에도 중심이어야 할 곳이었다는 대조 관계가 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"중서부, 따뜻한 중심에서 너덜너덜한 가장자리로의 인식 변화, 동부행 결심, 채권업 배우기 등 인물·행위·시간·인과가 모두 유지됩니다. '중심이었던'은 과거 인식을 나타내는 자연스러운 재구성입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'이제'가 이전과 현재의 대조를 나타내고, '그래서'가 so의 인과를 유지하며 대명사나 초점 표현의 변화도 없습니다(판단 질문 1·2·3 모두 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 심경 변화와 결심을 서술 → 서술. 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회고 서술의 '-다' 평서체가 유지되고 관계상 부적절한 높임이나 호칭이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"중서부와 동부는 일반 지역명으로, 별도 판정할 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 3192,
+    "output_tokens": 757,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

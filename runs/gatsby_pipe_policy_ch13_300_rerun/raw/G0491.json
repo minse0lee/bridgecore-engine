@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4wJ2hpUfzMGnAmDbnk",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0491\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"you\",\"tgt_span\":\"양하와\",\"description\":\"청자(Miss Baker)를 가리키는 'you'가 '양하'라는 의미 불명의 말로 옮겨져, 누구와 이야기하고 싶은지 지시 대상을 알 수 없게 됨. 앞 문장의 '조던 베이커 양'의 '양'이 '양하'로 잘못 이어진 것으로 보임.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물·대상): 이야기 상대인 'you'가 '양하와'로 옮겨져 무엇을 가리키는지 알 수 없는 어휘가 되어 대상이 불분명해졌고, 독자가 문장의 요지를 다르게 이해할 수 있습니다. 문단 앞 번역의 '조던 베이커 양'으로 추정은 되지만 이 문장만으로는 상대가 지시되지 않습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(지시 표현): 대명사 'you'가 가리키는 대상이 '양하'라는 불명확한 표현으로 바뀌어 누구를 가리키는지 알기 어렵게 되었습니다. 앞 문장에서 호명된 인물이므로 문맥으로 복원할 수 있어 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"집사가 정중히 호출·전달 → 집사가 정중히 전달. 개츠비가 단둘이 말하고 싶어 한다는 전언 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 집사의 전언이며 의무·허가·금지를 정하는 규범 표현이 아니라 단순한 바람의 전달입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"집사가 손님에게 하는 정중한 말투가 '실례합니다만 … 하십니다'로 유지되고 주인에 대한 높임도 적절합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다. 'Mr.'의 '씨'는 통상적 대응입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1663,
+    "output_tokens": 934,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4mUrJEc7V46ynifPvD",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0046\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"twelve or fifteen thousand a season\",\"tgt_span\":\"1만 2천에서 1만 5천 달러\",\"description\":\"'twelve or fifteen thousand'(12,000 또는 15,000, 달러 표기 없음)를 '1만 2천에서 1만 5천 달러'로 옮김. '또는'이 범위 '~에서'로 바뀌고 통화 단위 '달러'가 첨가되었으나 문단 후반의 달러 맥락상 의미는 유지됨. 수치는 같고 자동 힌트의 수치 불일치는 표기 차이에 따른 오경보임.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"집의 위치(끝자락, 해협에서 50야드), 두 저택 사이에 끼임, 시즌당 1만 2천~1만 5천이라는 수치가 유지됩니다. '달러' 추가와 '또는→에서'는 맥락상 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'only fifty yards'의 초점이 '겨우 50야드'로 유지되고 'My house'와 'two huge places' 사이의 위치 관계, 연결 구조가 보존됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자 위치 묘사 서술 → 위치 묘사 서술. 설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술자의 회고체 평서문이 '~었다' 서술체로 유지되어 관계·격식이 맞습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"야드와 달러 단위를 그대로 유지하고 한국 단위로 바꾸지 않았으며, 'a season'(임대 시즌)도 '한 시즌'으로 같은 개념을 가리킵니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 3202,
+    "output_tokens": 832,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

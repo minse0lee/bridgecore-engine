@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV4pGjcwkDFvdDSS87V3",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0157\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a great, big, hulking physical specimen\",\"tgt_span\":\"덩치만 크고 무식한 육체적 표본\",\"description\":\"'great, big, hulking'(거대하고 덩치 큰)이 '덩치만 크고 무식한'으로 바뀌어 원문에 없는 '무식한'(지적 평가)이 더해지고 단순한 체격 묘사가 부정적 평가로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"a brute of a man\",\"tgt_span\":\"야만적인 남자\",\"description\":\"'짐승 같은 남자'(brute)가 '야만적인 남자'로 옮겨져 뉘앙스가 약간 다르나 부정적 평가는 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'great, big, hulking'이 체격 묘사인데 번역은 '무식한'이라는 원문에 없는 지적 평가를 덧붙이고 '덩치만'으로 한정해 내용이 달라졌으나, 핵심 사실(톰을 야만적이고 덩치 큰 남자라고 비난)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'but'의 대조 연결과 'That's what I get for'의 인과 관계, 대시로 끊긴 미완의 문장 구조가 유지되며 지시·초점 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장난스러운 비난·불평 → 장난스러운 비난·불평. 톰을 탓하며 투덜대는 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 대화문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"부부 사이의 격의 없는 존대 말투('~어요')로 농조의 비난 태도가 유지되며 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1641,
+    "output_tokens": 866,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
