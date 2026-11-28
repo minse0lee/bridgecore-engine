@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuSoJjrQfHzaQuY1KBu",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0115\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Never heard of them\",\"tgt_span\":\"처음 들어보는 곳이군\",\"description\":\"'them'(복수, 앞서 말한 채권 회사들/그들)을 '곳'으로 옮기고, 'Never heard of'(들어본 적 없다)를 '처음 들어보는'으로 바꿈. 대상 지시와 경험 부정이 미세하게 달라지나 핵심 의미는 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'들어본 적 없다'와 '처음 들어보는'은 같은 사태(그 회사를 모른다)를 기술하고, 회사를 '곳'으로 옮긴 것도 같은 대상을 가리켜 달라진 항목을 특정할 수 없습니다. decisively도 '단정적으로'로 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"them이 앞서 Nick이 말한 회사를 가리키는데 '곳'이 같은 대상을 가리키므로 지시 관계(질문 1)가 유지되고, 연결·초점 표현도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"모른다고 단정하는 대화 발화 → 모른다고 단정하는 대화 발화. 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"never는 경험의 부정이며 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 닉에게 하는 단정적이고 낮추는 듯한 반말 어조가 '-군' 어미로 유지되어 관계와 태도에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1130,
+    "output_tokens": 782,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

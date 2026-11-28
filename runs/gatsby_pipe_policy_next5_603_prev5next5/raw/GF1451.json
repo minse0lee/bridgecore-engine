@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuiSypANA2CUPxHz3pf",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1451\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"We could go to any of the universities in England or France.\",\"tgt_span\":\"영국이나 프랑스에 있는 대학이라면 어디든 갈 수 있었거든요.\",\"description\":\"'-거든요'가 앞 문장(휴전 후 기회)의 이유·부연 설명으로 읽히게 하나, 원문은 별도 문장으로 내용을 덧붙임. 다만 앞 문장을 설명하는 관계가 한국어로 자연스럽게 재구성된 수준이라 의미를 바꾸지 않음(오류 아님으로 간주하여 기록하지 않음).\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"영국이나 프랑스의 어느 대학이든 갈 수 있었다는 행위자·대상·가능성·시제가 동일합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-거든요'가 앞 문장의 기회를 부연하는 관계를 나타내며 원문 문맥(기회의 구체적 내용 설명)과 어긋나지 않고, any of의 범위도 '어디든'으로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"자신의 옥스퍼드 경위 설명 → 경위 설명. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"could는 과거의 가능성·기회를 서술하며 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개츠비가 톰 등에게 정중히 말하는 상황에서 '-거든요' 해요체는 앞의 '-습니다'와 섞이지만 관계에 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"영국·프랑스의 대학을 그대로 가리키며 다른 제도로 바꾸지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1366,
+    "output_tokens": 804,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

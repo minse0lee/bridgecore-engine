@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUujXHJQEjBcoym69UGi",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1614\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"he heard her cry\",\"tgt_span\":\"그녀가 외치는 소리가 들렸다\",\"description\":\"청자인 미카엘리스(he)가 주어에서 사라지고 '들렸다'로 바뀌었으나 문맥상 인물이 유지되어 의미 변화는 없음. 오류 아님으로 처리 예정이었으나 목록에서 제외 불가한 차이를 기록.\"},{\"id\":\"E002\",\"src_span\":\"“Beat me!”\",\"tgt_span\":\"“때려봐!”\",\"description\":\"'나를 때려라'라는 명령이 '때려봐'라는 도전·도발형으로 바뀌고 목적어 '나를'이 생략됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"누가 누구에게 때리라고 외치는지가 유지되며 '때려봐'도 자신을 때리라는 뜻으로 읽힙니다. 목격자 he의 생략은 '들렸다'로 충분히 복원됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사 her와 '그녀', 외침과 들림의 연결이 유지되며 지시·연결·초점 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"윌슨 부인이 남편에게 소리치며 도발하는 외침 → 도발하는 외침. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 감정적 외침으로 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"격한 부부 싸움에서 아내가 남편에게 하는 반말 외침으로 관계와 태도에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1954,
+    "output_tokens": 803,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

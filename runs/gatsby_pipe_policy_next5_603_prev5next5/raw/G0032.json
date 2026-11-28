@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuQa3D6mxZAGkzZmc9B",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0032\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I was a guide, a pathfinder, an original settler.\",\"tgt_span\":\"…가 된 기분이었다\",\"description\":\"서술자가 안내자·개척자·첫 정착자였다는 단정이 '~가 된 기분이었다'라는 주관적 느낌으로 바뀌어 확실성이 약해짐. 서술자의 과장된 자기인식은 이미 원문에 담겨 있어 핵심 사실은 유지됨.\"},{\"id\":\"E002\",\"src_span\":\"an original settler\",\"tgt_span\":\"이 땅의 첫 정착자\",\"description\":\"'이 땅의'가 첨가되어 정착 장소가 한정됨. 문맥상 이웃 지역을 가리키므로 의미 차이는 작음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2(확실성): 'I was ~'의 단정이 '~된 기분이었다'로 바뀌어 확실성이 달라졌으나, 안내자·개척자·첫 정착자라는 핵심 내용은 유지되고 독자의 이해나 행동에는 영향이 없어 minor입니다. '이 땅의' 첨가는 문맥상 이웃 지역을 가리켜 오류로 보지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현이 바뀌지 않았고, 세 명사의 나열과 앞 문장(길을 알려줌)과의 인과적 연결도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 자기 인식 서술(다소 과장된 자기 인식) → 같은 종류의 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 같은 규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술자의 회고체가 '~었다' 서술체로 유지됩니다. 화자·청자 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2257,
+    "output_tokens": 917,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuffkS3agsyTySeK5Xd",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1325\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“Let’s have some gas!”\",\"tgt_span\":\"“기름 좀 넣어!”\",\"description\":\"청유형(let's, 화자 포함)이 상대에게 하는 명령형으로 바뀜. 주유 요구 기능은 유지되며 주유 행위자만 불명확해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기름(gas)을 넣자는 요구와 톰이 거칠게 소리쳤다는 내용이 유지됩니다. '넣어!'는 화자 포함 여부만 달라졌고 같은 사태를 기술하므로 보존입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 대명사·연결어·초점 표현의 변화가 없습니다. 지시, 연결, 초점 모두 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"주유를 요구하는 지시 → 주유를 요구하는 지시. 같은 종류의 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 주유 요구는 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 정비소 주인에게 거칠게 소리치는 상황에서 반말 명령과 '거칠게 소리쳤다'가 퉁명스러운 태도를 유지합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"gas는 일반 어휘이고 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1099,
+    "output_tokens": 703,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

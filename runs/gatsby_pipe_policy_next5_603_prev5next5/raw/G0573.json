@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUucHbqD882zBDdtedot",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0573\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Half a dozen fingers\",\"tgt_span\":\"여섯 명 남짓한 사람들이\",\"description\":\"'six fingers'(손가락 여섯 개 정도)가 '여섯 명 남짓한 사람들'로 바뀌어, 수량 단위가 손가락에서 사람으로 달라졌고 '남짓'이 추가됨. 'half a dozen'(=6)이라는 수치 자체는 맞음.\"},{\"id\":\"E002\",\"src_span\":\"stared at it for a moment\",\"tgt_span\":\"잠시 그것을 멍하니 바라보더니\",\"description\":\"'멍하니'라는 방식 표현이 원문에 없이 첨가됨. 응시하는 행위는 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(수량·대상): 가리킨 것이 '손가락 여섯 개'에서 '여섯 명 남짓한 사람들'로 바뀌어 수량의 대상이 달라졌고 '남짓'도 추가됐으나, 여러 사람이 바퀴를 가리켰다는 핵심 사태는 유지되어 minor입니다. 힌트의 12는 dozen의 절반인 6이므로 수치 오류가 아닙니다. '멍하니'는 방식 첨가에 그쳐 별도 훼손으로 보지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그는'과 '그것'(바퀴), '바퀴가'의 지시 관계가 유지되고, '~더니'로 순차 관계도 유지되어 세 질문 모두 아니오입니다. 대시로 이은 구조를 두 문장으로 나눈 것은 허용됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 사고 현장에서 사람들이 가리키고 인물이 반응하는 모습을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문의 평서체('~했다')가 유지되며 화자·청자 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없고, 'half a dozen'은 수치로 정확히 옮겨져 Cultural 판정 대상이 아닙니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1544,
+    "output_tokens": 1010,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUumSGV9UygcoJkXBzCK",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1660\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"for suddenly a new theme found voice among his grasping cries\",\"tgt_span\":\"갑자기 새로운 이야기가 섞여 나왔다\",\"description\":\"'for'가 이끄는 근거(들어갔다고 추정하는 이유)가 '-는지' 추측 구조로 재구성되어 앞뒤 관계가 일부 바뀜. 다만 추정의 근거 관계는 남아 있어 의미 변화는 경미함.\"},{\"id\":\"E002\",\"src_span\":\"grasping cries\",\"tgt_span\":\"무언가를 붙잡으려 울부짖던 그의 외침\",\"description\":\"'grasping'(탐욕스러운/움켜쥐려는)이 '무언가를 붙잡으려'로 옮겨져 뉘앙스가 다소 달라짐. 의미는 해석 가능한 범위.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"윌슨이 대화 일부를 들었으리라는 추정, 비틀거림, 외침 속에 새 주제가 나타남이 모두 유지됩니다. 'grasping'의 뉘앙스 차이는 표현 정도의 차이로 사태 자체는 같습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'must have reached'의 추정과 'for'의 근거 관계가 '-는지, … 갑자기 …'로 재구성되어 연결이 남아 있습니다. 지시·초점 변화는 없습니다(질문 1·2·3 모두 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 윌슨이 대화를 듣고 반응하게 된 경위를 설명하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'must have reached'는 과거 사실에 대한 추론의 must이며 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자·청자 관계가 드러나는 대화가 아닌 서술문이며 평가할 높임·호칭이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1647,
+    "output_tokens": 899,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

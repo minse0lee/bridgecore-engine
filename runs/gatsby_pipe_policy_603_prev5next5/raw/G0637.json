@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUudGWP34qJHfWG8QrHQ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0637\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a vague understanding\",\"tgt_span\":\"그 모호한 약속\",\"description\":\"막연한 양해·암묵적 합의(understanding)가 '약속'으로 바뀌어 공식적 구속력이 있는 것처럼 읽힘. 정도 차이가 있는 소폭 변화.\"},{\"id\":\"E002\",\"src_span\":\"tactfully\",\"tgt_span\":\"재치 있게\",\"description\":\"'눈치 있게·조심스럽게'의 뜻이 '재치 있게'(위트 있게)로 옮겨져 뉘앙스가 약간 달라짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'understanding'(막연한 양해)이 '약속'으로, 'tactfully'(조심스럽게)가 '재치 있게'로 달라졌으나 끊어내야 할 관계와 그 필요성이라는 핵심 사실은 유지되어 요지를 다르게 이해하게 하지는 않으므로 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Nevertheless의 양보 연결이 '그럼에도'로 유지되고, before I was free의 시간 조건도 '자유로워지려면'으로 조건 관계가 남아 있으며 지시 대상과 초점도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 상황 서술 → 상황 서술. 서술 기능이 그대로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"had to는 화자 자신의 내적 필요를 서술하는 소설 서술이며 독자에게 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 화자의 회고 서술체가 '~했다'로 유지되며 관계·태도 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1473,
+    "output_tokens": 865,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

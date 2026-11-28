@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuXvYgyDco8VvJ3w58g",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0387\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a persistent undergraduate given to violent innuendo\",\"tgt_span\":\"한 대학생 … 노골적인 암시를 즐겨 쓰는 끈질긴 성격\",\"description\":\"'persistent'는 조던에게 끈질기게 구는 태도인데 '끈질긴 성격'으로 바뀌었고, 'violent innuendo'가 '노골적인 암시'로 옮겨져 폭력적이고 거친 느낌이 약해졌다. 다만 핵심 사실은 유지된다.\"},{\"id\":\"E002\",\"src_span\":\"to a greater or lesser degree\",\"tgt_span\":\"어느 정도까지는 되었든\",\"description\":\"정도 표현이 어색하게 옮겨졌지만 '어느 정도든'의 뜻은 읽혀 의미 변화는 없다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"세 쌍의 부부, 조던의 동행 대학생, 끈질김, 암시를 즐겨 씀, 조던이 언젠가 몸을 허락할 것이라는 그의 믿음이 모두 유지된다. 달라진 것은 평가어의 정도('violent'→'노골적인')뿐이다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그'가 대학생을, '자신'과 '조던'의 관계가 원문과 같게 이어지며, 문장 분할과 연결 관계에도 변화가 없다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 묘사·서술 → 인물 묘사·서술. 기능이 동일하다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없는 서술문이다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 평서체가 유지되며, 대학생을 얕보는 서술 태도도 '눈치였다' 등으로 전달된다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 판정할 문화 고유의 제도·단위·관습이 없다. 'undergraduate'를 '대학생'으로 옮긴 것은 통상적 대응이다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2125,
+    "output_tokens": 889,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

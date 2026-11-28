@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuvDsMjvdnAWMaCRmmb",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0591\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"they absorbed me infinitely less than my personal affairs\",\"tgt_span\":\"내 개인적인 일들에 비하면 전혀 중요하지 않았다\",\"description\":\"'나를 사로잡은 정도가 개인사보다 훨씬 덜했다'(비교)가 '전혀 중요하지 않았다'로 바뀌어 비교 정도와 서술 초점(몰두 → 중요성)이 달라짐\"},{\"id\":\"E002\",\"src_span\":\"casual events in a crowded summer\",\"tgt_span\":\"분주했던 여름날의 그저 우연한 사건들\",\"description\":\"'crowded summer'(일 많고 북적이던 여름 전체)가 '여름날'로 옮겨져 기간이 하루처럼 읽힐 수 있음. 의미 변화는 경미함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: '나를 사로잡은 정도가 훨씬 덜했다'는 비교가 '전혀 중요하지 않았다'로 바뀌어 정도·초점이 달라졌으나, 개인사가 더 중요했다는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'하지만'이 앞 문장과의 대조 관계를 유지하고, 'until much later'와 비교 구조도 유지되어 지시·연결·초점 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 자기 해명 → 서술자의 자기 해명. 앞서 준 인상을 바로잡는 설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회고 서술의 평서체 문어 문체가 유지되어 관계·격식에 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1982,
+    "output_tokens": 872,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

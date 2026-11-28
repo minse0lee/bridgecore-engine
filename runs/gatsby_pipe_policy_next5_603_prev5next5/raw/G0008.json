@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuQ3WAuUsqWHVYUTwvL",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0008\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a sense of the fundamental decencies is parcelled out unequally at birth\",\"tgt_span\":\"기본적인 예의범절이라는 것은 태어날 때부터 불평등하게 배분된다\",\"description\":\"'a sense of the fundamental decencies'(기본적 예의·도리에 대한 감각)가 '기본적인 예의범절'로 바뀌어 '감각'이 빠짐. 불평등하게 나뉘는 대상이 감각에서 예의범절 자체로 달라짐.\"},{\"id\":\"E002\",\"src_span\":\"I am still a little afraid of missing something if I forget that\",\"tgt_span\":\"이 사실을 잊어버려 무언가 놓치게 될까 봐 나는 여전히 조금 두렵다\",\"description\":\"'if I forget that'의 조건·초점이 달라졌는지 확인 필요하나, 문장 분할과 어순 재구성으로 '잊으면 놓칠까 두렵다'는 관계가 유지됨. 의미를 바꾸지 않는 차이.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 불평등하게 배분되는 대상이 '예의에 대한 감각'에서 '예의범절' 자체로 바뀌어 내용이 약간 달라졌으나, 문장의 요지(태어날 때부터 불평등하다는 생각, 잊으면 놓칠까 두려움)는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'that'이 가리키는 내용을 '이 사실'로 받고 조건 관계(잊으면 놓칠까 두려움)도 한국어로 재구성되어 지시·연결·초점이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 서술적 고백 → 서술적 고백. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 같은 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"아버지에 대한 높임('암시하셨고')과 화자 자신의 속물적 태도('속물스럽게')가 유지되어 소설 서술 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2693,
+    "output_tokens": 966,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

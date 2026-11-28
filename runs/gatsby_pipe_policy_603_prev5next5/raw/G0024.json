@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuQNzh3tqT6hXh8eEwZ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0024\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"permanently, I thought\",\"tgt_span\":\"영구히 정착할 생각으로\",\"description\":\"'permanently, I thought'는 영구히 왔다고 당시 생각했지만 결과적으로 아니었다는 뉘앙스인데, 번역은 '영구히 정착할 생각으로'로 옮겨 의도의 서술로 바뀌었다. 다만 '생각했다'의 과거 시점 암시가 약해졌을 뿐 핵심 사실(당시 영구 정착 의도)은 유지된다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"아버지의 1년 자금 지원, 몇 차례 지연, 동부행, 영구 정착 의도, 22년 봄이 모두 유지됩니다. '정착할 생각으로'는 'I thought'를 자연스럽게 옮긴 것으로 사태가 같습니다. 힌트의 숫자 '1'은 'a year'의 '1년'에 해당하는 오경보입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계가 유지되고, 두 절의 시간 순서 연결이 '-고, ...끝에'로 남아 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 경위를 서술하는 기능 → 경위 서술. 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회고 서술의 평서체가 유지되고, 아버지에 대한 '하셨고'는 가족 관계에 맞는 높임입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·관습·단위가 없습니다. 연도 표기 'twenty-two'는 '22년'으로 통상적으로 대응됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 3300,
+    "output_tokens": 826,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

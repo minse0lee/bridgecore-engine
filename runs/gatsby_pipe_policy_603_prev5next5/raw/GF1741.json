@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUupb4Pz2mpTN78QDYdD",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1741\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"He’s not thinking about her.\",\"tgt_span\":\"지금 데이지 생각은 전혀 안 하고 있을 겁니다.\",\"description\":\"단정적 사실 진술이 추측('-을 겁니다')으로 바뀌어 확실성이 약해짐. 'her'를 '데이지'로 명시하고 '전혀'를 더함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): 화자의 단정이 추측으로 바뀌었으나 핵심 사실(그가 그녀를 생각하지 않음)은 유지되어 minor입니다. 인물 지시 명시와 '전혀' 추가는 의미를 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'her'를 '데이지'로 옮겨 지시 대상(데이지)이 정확히 유지되고, 연결·초점 관계도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대를 안심시키는 진술 → 안심시키는 진술. 추측형이어도 같은 기능으로 읽힙니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞뒤 대화에서 같은 상대에게 '~요/~습니다' 체를 쓰는 문맥과 어울리며 관계와 태도가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1266,
+    "output_tokens": 714,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

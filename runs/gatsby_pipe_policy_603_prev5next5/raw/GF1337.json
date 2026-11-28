@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUug1Wp5m2ixZi4BgomY",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1337\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"But I need money pretty bad, and\",\"tgt_span\":\"“돈이 정말 급해서요.\",\"description\":\"앞 문장(점심을 방해할 의도는 아니었다)과 이어지는 대조 연결어 But이 번역되지 않음. 다만 이 연결 관계는 같은 문단의 앞 번역문과 이어져 한국어에서 대조가 유지됨.\"},{\"id\":\"E002\",\"src_span\":\"I was wondering what you were going to do with your old car.\",\"tgt_span\":\"궁금해서 여쭤봅니다.\",\"description\":\"'궁금해서 여쭤봅니다'가 이유 접속 형태이나 발화 기능(차의 처분 문의)은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"돈이 몹시 필요하다는 것과 상대의 낡은 차를 어떻게 할 계획인지 궁금하다는 내용이 모두 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"But은 번역되지 않았지만 같은 문단의 앞 문장 '방해하려던 건 아니었습니다만' 뒤에 이어져 '돈이 급해서요'로 이유가 제시되는 연결이 남아 있고, 지시·초점 관계도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"차의 처분 계획을 완곡하게 묻는 말 → 차의 처분 계획을 묻는 말. 같은 종류의 기능입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 대화 속 개인적 사정과 문의입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"윌슨이 부유한 톰에게 돈 문제로 조심스럽게 말하는 관계에서 '-요', '타시던', '여쭤봅니다'의 높임체는 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1144,
+    "output_tokens": 872,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

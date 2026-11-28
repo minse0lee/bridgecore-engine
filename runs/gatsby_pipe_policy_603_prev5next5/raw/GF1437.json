@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuhoTq7YLMJWkAVLReZ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1437\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"you went to Oxford\",\"tgt_span\":\"옥스퍼드 대학을 나오셨다고\",\"description\":\"'옥스퍼드에 다녔다/갔다'가 '졸업했다(나오셨다)'로 바뀜. 앞에서 Gatsby가 'Not exactly'라고 답한 맥락에서 '다녔다'와 '졸업했다'의 차이는 의미가 있음. 다만 한국어 '나오다'는 '다니다'의 뜻으로도 쓰이므로 차이가 작음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'나오셨다'는 '졸업했다'와 '다녔다'를 모두 포괄하는 통상적 표현이고 앞 문장 번역도 같은 표현을 써서 내용이 달라졌다고 보기 어렵습니다. 톰이 들은 바를 확인하는 내용은 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계가 바뀌지 않았습니다. 'Oh, yes'를 '아, 맞아요'로 옮겨 앞 응답을 받는 연결도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"들은 바를 확인하며 떠보는 발화 → 들은 바를 확인하는 발화. 기능이 같은 종류입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 개츠비를 정중하게 대하는 듯한 표면적 태도가 '-셨다고 들었습니다'로 유지됩니다. 비꼬는 어조는 앞 문장 번역과 일관됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Oxford를 '옥스퍼드 대학'으로 옮겨 같은 기관을 가리키고 통용 표기를 씁니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 998,
+    "output_tokens": 834,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

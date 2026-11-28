@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUukmUrGUfJbEiE1mzWd",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1645\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"What you want, fella?\",\"tgt_span\":\"뭐 하는 거예요, 당신?\",\"description\":\"'원하는 게 뭐냐'는 질문이 '뭐 하는 거냐'는 행동 추궁으로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"fella\",\"tgt_span\":\"당신\",\"description\":\"친근하고 허물없는 호칭 'fella'가 거리감 있는 2인칭 '당신'으로 바뀌고 존댓말(-예요)이 쓰임\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위): 'What you want'(무엇을 원하느냐)가 '뭐 하는 거예요'(무슨 짓이냐)로 바뀌어 질문 내용이 달라졌습니다.\"},\"Textual\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 대명사 지시, 연결 관계, 초점 표현이 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰에게 용건을 묻는 질문 → 톰의 행동을 따지는 질문. 둘 다 상대에게 답을 요구하는 질문 기능이므로 같은 종류입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2·3: 허물없는 호칭 'fella'가 '당신'으로 바뀌고 '-예요'가 붙어 화자의 투박하고 친근한 태도가 약해졌습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 표현이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1232,
+    "output_tokens": 759,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

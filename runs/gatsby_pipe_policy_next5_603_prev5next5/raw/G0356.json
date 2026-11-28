@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUutDxFibnk2gmoYmK5Y",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0356\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"You’ve dyed your hair since then\",\"tgt_span\":\"그때보다 머리색이 바뀌었네\",\"description\":\"'염색했다'가 '머리색이 바뀌었다'로 바뀌어 염색이라는 행위와 행위자(상대가 직접 염색함)가 사라지고, 단순한 상태 변화로 읽힘\"},{\"id\":\"E002\",\"src_span\":\"her remark was addressed to the premature moon\",\"tgt_span\":\"그녀의 말은 이른 달을 향한 혼잣말이었는데\",\"description\":\"달을 향해 건넨 말이 '혼잣말'로 바뀌어 대상이 달인 점이 흐려지고 발화 방식이 달라짐; 'premature'가 '이른'으로 옮겨져 너무 일찍 뜬 달이라는 뜻이 약해짐\"},{\"id\":\"E003\",\"src_span\":\"produced like the supper, no doubt, out of a caterer’s basket\",\"tgt_span\":\"그 달은 저녁 식사처럼 분명 출장 요리사의 바구니에서 뚝딱 만들어져 나온 것 같았다\",\"description\":\"'no doubt'(분명하다는 서술자의 단정)가 '것 같았다'라는 추측 표현으로 바뀌어 확실성이 약해짐\"},{\"id\":\"E004\",\"src_span\":\"the girls had moved casually on\",\"tgt_span\":\"소녀들은 이미 무심하게 가버린 뒤였다\",\"description\":\"'moved on'의 과거완료가 '가버린 뒤였다'로 옮겨져 대체로 유지됨(내용 차이 없음); 'I started'가 '말하는 바람에 깜짝 놀랐지만'으로 인과 구조 변경\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 'dyed your hair'가 '머리색이 바뀌었다'로 바뀌어 염색 행위가 사라졌고, 달을 향한 말이 혼잣말로, 'no doubt'가 '것 같았다'로 바뀌어 확실성이 달라졌습니다. 다만 핵심 사건과 장면의 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E004\"],\"reason\":\"판단 질문 2: 'remarked Jordan, and I started'의 시간적 병렬이 '말하는 바람에 깜짝 놀랐지만'이라는 인과 관계로 바뀌어 연결 관계가 달라졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술·묘사(조던의 말과 서술자의 풍자적 관찰) → 서술·묘사. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조던이 친구에게 하는 반말과 서술자의 소설 문체가 유지되어 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"판정할 문화 고유의 제도·단위·관습이 없습니다. 'caterer’s basket'은 일반 어휘입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1694,
+    "output_tokens": 1267,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

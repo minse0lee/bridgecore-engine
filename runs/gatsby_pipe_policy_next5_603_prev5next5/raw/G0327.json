@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUusXF2zttdnxV2p1Nyf",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0327\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"one of these gypsies\",\"tgt_span\":\"집시 같은 여자 하나\",\"description\":\"앞 문장에서 묘사된 'confident girls'(자신만만한 소녀들)를 가리키는 'these gypsies'가 '집시 같은 여자'로 옮겨져, 방랑하는 소녀들 가운데 한 명이라는 지시 관계가 약해짐\"},{\"id\":\"E002\",\"src_span\":\"in trembling opal\",\"tgt_span\":\"오팔 빛 옷을 입고 몸을 잘게 떨던\",\"description\":\"'떨리는 오팔색 옷(드레스)'이 '옷을 입고 몸을 잘게 떨던'으로 바뀌어, 옷의 흔들림이 사람이 몸을 떠는 동작으로 읽힘\"},{\"id\":\"E003\",\"src_span\":\"dumps it down for courage\",\"tgt_span\":\"용기를 내어 단숨에 들이켜고는\",\"description\":\"용기를 얻으려고 마신다는 목적이 '용기를 내어' 마신다는 방식으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\",\"E003\"],\"reason\":\"판단 질문 1: 오팔색 옷이 떨린다는 묘사가 몸을 떠는 동작으로, '용기를 얻으려고'가 '용기를 내어'로 달라졌으나 핵심 사건(칵테일을 낚아채 마시고 혼자 춤추러 나감)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'these gypsies'가 앞 문장의 소녀들을 가리키는 지시 관계가 '집시 같은 여자'로 약해져 지시 대상이 불분명해졌으나, 한 여자의 행동이라는 요지는 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 파티 분위기의 한 순간을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문이며 의무·허가·금지 같은 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 과거형 평서체가 유지되며 관계상 어긋나는 높임이나 호칭 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Frisco'와 'canvas platform'을 음역하거나 직역했을 뿐 다른 제도나 단위로 바꾸지 않았고, 문화적 의미 전달에 지장이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2641,
+    "output_tokens": 1058,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

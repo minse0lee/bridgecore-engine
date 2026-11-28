@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuU8BaELBJkJXusxyx1",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0176\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Miss Baker\",\"tgt_span\":\"조던 베이커 양\",\"description\":\"원문은 'Miss Baker'로 이름 없이 성만 쓰였으나 번역문은 '조던'이라는 이름을 덧붙임. 다만 같은 소설의 같은 인물(Jordan Baker)을 가리키므로 의미·기능을 바꾸지 않는 통상적 보충으로 볼 수 있어 훼손 근거로 삼지 않음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"베이커 양이 캘리포니아에서 사는 게 좋겠다고 말을 꺼냈고 톰이 의자에서 몸을 뒤척여 말을 끊었다는 행위자·행위·대상이 모두 유지됩니다. '조던' 보충은 같은 인물을 가리키는 통상적 표기입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'but'의 대조가 '-지만'으로, 'by shifting'의 수단 관계가 '뒤척이며'로 유지되고 지시 관계도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물의 제안과 그것을 끊는 행동을 서술하는 기능 → 같은 서술 기능. 베이커 양의 권고 발화와 톰의 가로막기가 그대로 전달됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"ought to는 파티 대화 속에서 거주지를 권하는 개인적 제안에 해당하며, 규범적 의무나 자격 조건을 정하는 표현이 아니므로 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"베이커 양이 손위·동년배의 청자에게 권하는 말투로 '사시는 게 좋겠어요'의 높임 해요체는 사교 자리의 공손한 대화에 어울리며 관계를 바꾸지 않습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Miss'를 '양'으로, California를 '캘리포니아'로 통용 표기에 맞게 옮겼고 호칭의 제도적 의미가 유지됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1825,
+    "output_tokens": 911,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

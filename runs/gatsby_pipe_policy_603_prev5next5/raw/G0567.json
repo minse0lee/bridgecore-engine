@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuc3oseJ5N8pgv2ZHue",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0567\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"it was now a crowd\",\"tgt_span\":\"이제는 완전히 무리가 된\",\"description\":\"'이제는 (비로소) 군중이 되었다'는 삽입 설명이 '완전히 무리가 된'으로 바뀌어 'now'의 시간 의미는 남았으나 'crowd'가 '구경꾼들'과 '무리'로 나뉘어 강조 정도가 약간 달라짐. 의미 차이는 미미함\"},{\"id\":\"E002\",\"src_span\":\"involuntarily\",\"tgt_span\":\"무의식적으로\",\"description\":\"'본의 아니게, 자기도 모르게'를 '무의식적으로'로 옮김. 통상적 대응으로 뜻이 거의 같음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"군중이 뒤로 물러섰고, 문이 활짝 열리자 으스스한 정적이 흘렀다는 내용이 유지됩니다. 'crowd'를 '무리'로 옮기고 'involuntarily'를 '무의식적으로'로 옮긴 것은 통상적 대응 범위입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"삽입구의 'now'(이제 군중이 됨)가 '이제는'으로 남고, 'when ... there was'의 시간 연결도 '-자'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사 서술 → 장면 묘사 서술. 서술 기능이 그대로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술 부분의 평서 서술체('-했고, -흘렀다')가 유지되며 관계·격식에 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1626,
+    "output_tokens": 842,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

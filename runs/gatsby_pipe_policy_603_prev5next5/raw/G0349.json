@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuX85hVQxLiGYgAKTsG",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0349\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"next door to—\",\"tgt_span\":\"그 옆집에 산다는\",\"description\":\"끊긴 문장에서 'next door to'(…의 이웃에)의 대상이 미완인데, 번역은 '그 옆집'이라는 지시 표현을 넣어 특정 대상이 있는 것처럼 읽히게 함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'네가 …의 옆집에 산다는 걸 기억했다'는 내용과 미완 상태가 유지되며, 기억 주체·시점·행위도 같습니다. '그'의 첨가는 의미를 바꾸지 않는 표현 차이입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 원문은 next door to 뒤의 대상이 말줄임으로 끊겨 있는데, '그 옆집'은 이미 언급된 특정 집을 가리키는 지시 표현이 되어 가리키는 대상 구조가 달라졌습니다. 다만 요지는 같아 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"말을 건네다 끊기는 대화 서술 → 말을 건네다 끊기는 대화 서술. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조던이 닉에게 건네는 무심한 어조가 '당신이 …기억나서'의 예사 존댓말 말투로 문맥에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1300,
+    "output_tokens": 752,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

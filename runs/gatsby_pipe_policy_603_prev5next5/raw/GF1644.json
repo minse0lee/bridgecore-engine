@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUukka37URQ29unBVeYf",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1644\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"fell sharply on his shoulder\",\"tgt_span\":\"어깨를 세게 내리치자\",\"description\":\"톰의 손이 어깨 위에 세게 떨어졌다는 서술이 어깨를 세게 내리쳤다는 능동적 가격 행위로 바뀜. 다만 어깨에 손이 닿는 사태는 유지됨.\"},{\"id\":\"E002\",\"src_span\":\"as Tom’s broad hand fell sharply on his shoulder\",\"tgt_span\":\"톰의 큼지막한 손이 어깨를 세게 내리치자 그는 고개를 들어 올렸다\",\"description\":\"원문은 손이 닿는 것과 동시에 고개를 들었다는 동시성이고, 번역은 '-자'로 손이 닿은 뒤 고개를 든다는 선후·인과 관계로 읽힘.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 손이 어깨 위로 '떨어졌다(fell)'가 '내리치다'라는 타격 행위로 바뀌어 행위 양상이 달라졌으나, 누가 누구의 어깨에 손을 댔고 그가 고개를 들었다는 핵심 사실은 유지되어 요지 이해는 크게 바뀌지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-자'는 as의 동시·시간 관계를 한국어로 자연스럽게 재구성한 것으로 시간 연결이 남아 있고, 지시 관계(톰의 손, 그의 어깨)도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 소설 속 동작을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자·청자 간 높임이나 호칭 관계가 드러나는 표현이 없는 서술문입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다. 인명만 등장합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1253,
+    "output_tokens": 914,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

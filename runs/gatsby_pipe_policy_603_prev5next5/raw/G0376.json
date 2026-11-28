@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuXo9TVeN6pP6S8imR2",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0376\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"It’s more that he was a German spy during the war.\",\"tgt_span\":\"전쟁 중에 독일 스파이였다는 얘기가 더 많더라고요.\",\"description\":\"'그가 독일 스파이였다는 쪽이 더 그럴듯하다'는 화자의 견해가 '그런 얘기가 더 많이 들린다'는 소문의 빈도로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 화자 자신의 판단·추측(그쪽이 더 가깝다)이 들리는 이야기의 양('얘기가 더 많더라')으로 바뀌어 확실성·근거가 달라졌으나, 개츠비가 전쟁 중 독일 스파이였다는 핵심 사실과 앞 주장에 대한 반박 구도는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그건 아닐 거예요'와 '더 ~'가 앞 주장(살인)에 대한 대안 제시의 대조 관계를 유지하고, 지시 대상과 초점에도 변화가 없습니다(질문 1·2·3 모두 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞 소문에 반박하며 다른 소문을 제시하는 서술/대화 기능 → 동일한 반박·소문 제시 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 소문 대화입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"파티 손님들 사이의 일상적 대화에 맞는 '~요' 체로 유지되며, 'sceptically'의 회의적 태도도 '회의적인 말투'로 전달됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에서 별도로 판정할 문화 고유의 제도·단위·관습은 없고 'German spy'는 일반 표현입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1321,
+    "output_tokens": 848,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

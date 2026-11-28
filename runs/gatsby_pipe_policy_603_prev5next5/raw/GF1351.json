@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUugeRaYrvcuna3R9Pae",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1351\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"What do I owe you?” demanded Tom harshly.\",\"tgt_span\":\"얼마를 주면 되겠나?\\\" 톰이 퉁명스럽게 물었다.\",\"description\":\"'demanded'(다그치듯 요구함)가 '물었다'로, 'harshly'(거칠게)가 '퉁명스럽게'로 바뀌어 다그치는 태도가 약해짐. 평가어 정도 변화이므로 Semantic은 보존, Register에서만 약화 기록.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 얼마를 빚졌는지 묻는 내용·화자·대상은 같고, harshly→'퉁명스럽게'는 평가어 정도 차이뿐입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사·연결·초점 표현의 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"금액을 요구하는 질문 → 금액을 묻는 질문. 같은 종류의 기능이며 문맥상 값을 치르려는 질문으로 읽힙니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 아니라 대금을 묻는 대화입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(태도): 톰이 거칠고 다그치듯 말하는 태도가 'demanded'를 '물었다'로 옮기면서 약해졌습니다. 다만 '퉁명스럽게'로 무례한 태도는 일부 남아 있어 minor입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1244,
+    "output_tokens": 757,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

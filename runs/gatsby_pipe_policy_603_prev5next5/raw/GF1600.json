@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUutqFY78r5TtFpoBQZm",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1600\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"He had slept through the heat\",\"tgt_span\":\"그는 무더위에 지쳐 … 잠을 자다가\",\"description\":\"더위를 자면서 넘겼다는 내용이 더위에 지쳐 잤다는 원인 서술로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"pale as his own pale hair\",\"tgt_span\":\"본인의 머리카락만큼이나 창백한 얼굴로\",\"description\":\"머리카락이 창백하다는 비교 기준이 머리카락의 창백함이 아닌 머리카락 자체로 옮겨져 단순화됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: '더위 내내 잠을 잤다'가 '더위에 지쳐 잤다'로 바뀌어 잠의 원인이 새로 생겼으나, 핵심 사실(다섯 시까지 자고 정비소에서 윌슨을 발견)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사와 시간·순서 연결(until after five, when he strolled)이 유지되고 문장 분할은 오류가 아닙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 사건 서술 → 사건 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술체 평서문이 유지되며 화자·청자 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2196,
+    "output_tokens": 745,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

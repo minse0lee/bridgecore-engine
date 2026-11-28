@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUucbBWNj4fHMXHNwKrZ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0589\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"endowing with complete isolation the figure of the host\",\"tgt_span\":\"주인의 모습은 완전히 고립되어 보였다\",\"description\":\"공허함이 주인의 모습에 완전한 고립감을 부여한다는 인과적 작용이 '고립되어 보였다'는 단순 서술로 바뀜\"},{\"id\":\"E002\",\"src_span\":\"from the windows and the great doors\",\"tgt_span\":\"창문과 커다란 문들 사이로\",\"description\":\"공허함이 흘러나오는 출처(창문과 큰 문 '에서')가 '사이로'로 바뀌어 약간 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 공허함이 인물에게 고립을 부여한다는 작용이 '고립되어 보였다'로 바뀌고 '에서'가 '사이로'가 되었으나, 핵심 장면과 인물의 고립 이미지는 유지되어 독자의 요지 이해는 크게 달라지지 않습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 'endowing'이 보여주는 앞의 공허함과 뒤의 주인의 고립 사이의 인과·부여 관계가 '~고, ~보였다'의 단순 나열로 약해져 연결 관계가 바뀌었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사 서술 → 장면 묘사 서술. 기능이 동일합니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 장면 묘사이며 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체가 '~듯했고, ~보였다'로 유지되며 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 별도 판정 대상이 없습니다. 'porch'를 '포치'로 옮긴 것은 통용 표기입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1766,
+    "output_tokens": 872,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuf1V4RGks1X8N7w7MS",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1311\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"An Oxford man!\",\"tgt_span\":\"옥스퍼드 출이라고요!\",\"description\":\"'옥스퍼드 출신'의 '출신'이 '출'로 잘못 쓰여 오기가 생겼으나, 문맥상 '옥스퍼드 출신이라고요'로 복원 가능하여 의미는 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'출'은 '출신'의 오기로 읽히며 옥스퍼드 출신이라는 내용과 놀라 되묻는 의미가 유지됩니다. 오타만으로는 훼손을 주지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞 문장 조던의 말을 받아 되묻는 지시·연결 관계가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"믿기지 않아 되묻는 놀람의 반문 → 놀람의 반문. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 조던에게 놀라 되묻는 장면에서 '-라고요' 존댓말은 문맥상 큰 무리가 없고 놀란 태도도 느낌표로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Oxford man이 옥스퍼드 대학 출신을 뜻하는 대상을 가리키며 '옥스퍼드'로 통용 음역되어 같은 대상이 유지됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1273,
+    "output_tokens": 707,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

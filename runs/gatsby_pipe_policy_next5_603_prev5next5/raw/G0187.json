@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuUS66NedmR5Tb612BX",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0187\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"he had to give up his position\",\"tgt_span\":\"결국 직장을 그만둬야 했대요\",\"description\":\"'그만둬야 했다'를 '그만둬야 했대요'로 옮겨 전언(hearsay) 어미가 첨가됨. 다만 화자가 전해 들은 이야기를 하는 맥락이라 의미 변화는 미미함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상황 악화 후 결국 자리(직장)를 그만둬야 했다는 내용이 유지됩니다. '-대요'는 전해 들은 이야기라는 문맥과 어긋나지 않아 핵심 사실을 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'until finally'의 시간·결과 연결이 '-더니, 결국'으로 유지되고 Yes의 앞 발화 수긍 관계도 '맞아요'로 남습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞 발화를 받아 이야기를 이어가는 서술 → 같은 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"had to는 이야기 속 사건의 서술이며 규범을 정하는 표현이 아니므로 평가할 대상이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"친근한 대화체의 해요체가 사교적 대화 관계에 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1771,
+    "output_tokens": 691,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

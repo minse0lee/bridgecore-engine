@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuuDP4UUZUGV89kGmzw",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1359\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Wilson was so sick that he looked guilty\",\"tgt_span\":\"윌슨은 너무나 쇠약해 보여서 마치 죄를 지은 사람처럼\",\"description\":\"'sick'(병들어 앓는 상태)이 '쇠약해 보여서'로 바뀌고, 'looked guilty'가 '마치 죄를 지은 사람처럼'으로 옮겨져 단정이 비유로 바뀜. 의미 차이는 작음\"},{\"id\":\"E002\",\"src_span\":\"as if he had just got some poor girl with child\",\"tgt_span\":\"마치 가엾은 소녀를 임신시키고 내팽개친 사람 같은 모습이었다\",\"description\":\"원문에 없는 '내팽개친'(버렸다)이 추가됨. 'just'(방금)의 시간 의미도 반영되지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: 임신시킨 행위에 원문에 없는 '내팽개친'(버렸다)이 더해지고 'just'도 빠져 내용이 달라졌으나, 윌슨이 죄책감 어린 사람처럼 보였다는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"so…that의 인과 관계와 as if 비유 연결이 '너무나…보여서', '마치…같은'으로 유지되며 지시·초점 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 상태 묘사 서술 → 인물 상태 묘사 서술. 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자 닉의 서술체 평어('-었다')가 유지되며 관계에 맞는 태도입니다. 'poor girl'의 동정적 태도도 '가엾은 소녀'로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1972,
+    "output_tokens": 901,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

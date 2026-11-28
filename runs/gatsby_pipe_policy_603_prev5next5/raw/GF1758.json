@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuqE4Nyp87BrscBVLbK",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1758\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"They weren’t happy\",\"tgt_span\":\"두 사람은 행복해 보이지 않았고\",\"description\":\"서술자가 관찰한 사실('행복하지 않았다')이 '행복해 보이지 않았다'라는 외견 판단으로 바뀜. 큰 의미 차이는 아니며 문맥상 서술자 관찰 시점이라 거의 동일하게 읽힘.\"},{\"id\":\"E002\",\"src_span\":\"they weren’t unhappy either\",\"tgt_span\":\"딱히 불행해 보이지도 않았다\",\"description\":\"'unhappy'가 '불행해 보이지'로, 'either'가 '딱히'로 옮겨져 약화·외견 표현으로 바뀜. 부정의 의미와 연결은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"행복하지도 불행하지도 않았고 치킨과 에일에 손대지 않았다는 내용이 유지됩니다. '~해 보이지'는 서술자가 관찰한 장면이라 문맥상 같은 사태로 읽혀 오류로 보지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'and yet'의 대조 관계가 '그렇다고'로 유지되고 'either'의 병렬 부정도 '불행해 보이지도'로 남아 있어 지시·연결·초점 모두 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사 서술 → 장면 묘사 서술로 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문이며 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체의 평서문 '~았다' 체가 유지되고 특별한 호칭이나 태도 표현은 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"평가할 문화 고유의 제도·관습·단위 표현이 없으며, 치킨과 에일 맥주는 일반 음식 명칭입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1629,
+    "output_tokens": 865,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

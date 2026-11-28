@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuScfGuf9eip8Zzq5TN",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0112\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I’m a bond man.\",\"tgt_span\":\"채권 매매 일을 해요.\",\"description\":\"닉이 톰에게 하는 대답을 존댓말 '-해요'로 옮겨, 톰이 닉에게 반말을 쓰고 닉도 뒤에서 반말로 답하는 동년배 친구·인척 관계와 맞지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'bond man'을 '채권 매매 일을 한다'로 옮겨 직업 내용이 같고 달라진 항목이 없습니다.\"},\"Textual\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 표현, 연결어, 초점 표현이 없는 단문입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'뭐 하냐'는 질문에 대한 직업 답변 → 직업 답변. 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 문장입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 톰은 닉에게 반말(\\\"뭐 하고 있어?\\\")을 쓰고 닉도 뒤에서 반말로 답하는데, 이 문장만 존댓말이라 대화 관계와 맞지 않습니다. 의미·행동 이해에는 영향이 없어 minor입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상으로 따로 판정할 것이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 893,
+    "output_tokens": 686,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

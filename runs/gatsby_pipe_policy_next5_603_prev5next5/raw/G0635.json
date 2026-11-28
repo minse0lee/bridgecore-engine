@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUudHuDXnfizhyrebeKN",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0635\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I am slow-thinking and full of interior rules\",\"tgt_span\":\"나는 생각이 느린 데다 … 내면의 규칙들이 많았기에\",\"description\":\"현재형 자기 서술(성격 일반)이 과거형으로 옮겨졌고, 'and'의 병렬이 '~기에' 인과로 바뀜. 다만 핵심 내용은 유지되어 의미를 바꾸지 않음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"생각이 느림, 욕망의 브레이크 역할을 하는 내면 규칙, 고향의 얽힌 관계를 먼저 정리해야 한다는 인식이 모두 유지됩니다. 'full of'를 '많았기에'로, 'brakes'를 '억제'로 옮긴 것은 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"But→'하지만' 대조 연결이 유지되고, '우선…부터'가 first의 시간 순서를 유지합니다. '~기에'는 and 병렬을 인과로 재구성했지만 앞 문맥상 내면 규칙이 먼저 해결을 요구하는 관계로 자연스럽게 읽혀 연결 관계가 바뀌었다고 보지 않습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 자기 서술·내면 설명 → 자기 서술·내면 설명. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술자의 내면 설명이며 'had to'는 상황적 필요를 나타낼 뿐, 독자나 타인에게 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술자의 회고적 서술체가 '~았다' 문어체로 유지되며 청자 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습 표현이 없습니다. 'back home'은 일반 지명 표현입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1534,
+    "output_tokens": 896,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

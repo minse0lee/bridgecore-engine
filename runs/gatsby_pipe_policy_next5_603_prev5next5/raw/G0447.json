@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuZPm5ua1z4LnhHFJBM",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0447\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"old sport\",\"tgt_span\":\"친구\",\"description\":\"Gatsby 특유의 구어적 호칭 'old sport'가 일반 호칭 '친구'로 바뀌어 특유의 말버릇과 격식 어린 친밀함이 약해짐\"},{\"id\":\"E002\",\"src_span\":\"I’m afraid I’m not a very good host\",\"tgt_span\":\"제가 호스트로서 그리 소질이 없는 모양이군요\",\"description\":\"'I'm afraid'(유감스러운 완곡 표현)가 추측 '모양이군요'로 옮겨져 사과의 뉘앙스가 약해지고, 'not a very good host'가 '소질이 없는' 것으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'알 줄 알았다'와 '좋은 주인이 못 되는 듯하다'는 내용이 유지됩니다. 'host'를 '호스트'로, 'good'을 '소질'로 옮긴 것은 평가어 정도 차이에 해당합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"해명과 완곡한 사과 → 해명과 완곡한 사과. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등의 규범 의미가 없는 대화문입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(화자 태도): 직후 서술에서 Gatsby의 '지나치게 격식을 차린 말투'가 언급되는데, 'old sport'의 특유한 친근한 격식체가 평범한 '친구'로 바뀌어 태도 표지가 약해졌습니다. 다만 높임 수준은 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다. 'old sport'는 호칭 표현이며 비하·제도적 의미가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1449,
+    "output_tokens": 876,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

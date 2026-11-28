@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuiBpjdrtXAB7oeZ5Rv",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1447\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I can’t really call myself an Oxford man\",\"tgt_span\":\"제가 옥스퍼드 출신이라고 당당히 말하지 못하는 겁니다\",\"description\":\"'really'(정말로, 사실상)가 '당당히'로 바뀌어 화자가 자신을 옥스퍼드 출신이라 부르기 어려운 이유(짧은 체류로 온전한 출신이 아님)가 '떳떳하지 못함'이라는 태도 쪽으로 약간 옮겨짐. 핵심 사실은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'can't really call myself'(엄밀히는 그렇게 부를 수 없다)가 '당당히 말하지 못한다'로 바뀌어 뉘앙스가 달라졌으나 1919년, 다섯 달, 옥스퍼드 출신이라 못 부른다는 핵심은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'That's why'가 '그래서 ~ 겁니다'로 인과 관계를 유지하며 지시·초점 관계도 바뀌지 않았습니다. 'only'는 '밖에 ~ 않았죠'로 초점이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물의 해명·설명 → 해명·설명. 같은 종류의 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"can't는 능력·자격에 대한 서술이며 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개츠비가 톰 일행에게 말하는 정중한 구어체가 '~어요, ~죠, ~ㅂ니다'로 관계에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Oxford man이 '옥스퍼드 출신'으로 옮겨져 같은 대학 소속 의미가 전달되고 연도 표기도 적절합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1473,
+    "output_tokens": 877,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

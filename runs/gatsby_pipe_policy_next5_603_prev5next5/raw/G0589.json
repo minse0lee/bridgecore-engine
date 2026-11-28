@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuci8xx85WC6bWhKNjP",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0589\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"endowing with complete isolation the figure of the host\",\"tgt_span\":\"주인의 모습은 완전히 고립되어 보였다\",\"description\":\"공허함이 주인의 모습에 완전한 고립감을 부여한다는 인과적 작용이 '고립되어 보였다'는 단순 서술로 바뀜. 핵심 사실(주인이 고립되어 보임)은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"공허함이 흘러나옴, 포치에 선 주인, 손을 든 격식 있는 작별 몸짓, 완전한 고립이 모두 유지되며 같은 사태를 기술합니다. 'from'을 '사이로'로, 'his hand up'을 '손짓'으로 옮긴 것은 통상적 범위입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(연결 관계): 'endowing'이 나타내는 공허함 → 고립감 부여의 인과 관계가 '-고 … 보였다'의 나열로 바뀌어 관계가 약해졌습니다. 다만 공허함과 고립이 함께 제시되어 요지는 유지되므로 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사(서술) → 장면 묘사(서술). 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 '-ㅆ다' 평서체가 유지되며 관계상 어긋나는 높임이나 호칭이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'porch'의 '포치' 음역은 통용 표기이고 별도로 판정할 문화 고유의 제도·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1753,
+    "output_tokens": 811,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

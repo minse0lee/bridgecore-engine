@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUucVLXRfTd2eJDF6bbu",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0585\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“No harm in trying,”\",\"tgt_span\":\"“밑져야 본전이잖아요,”\",\"description\":\"'No harm in trying'을 한국어 관용구 '밑져야 본전이잖아요'로 옮기고 '-잖아요' 어미(공유 지식 확인 어조)와 존댓말을 더함. 시도해도 해될 것 없다는 뜻은 같아 의미 변화는 없으나 어조 차이가 있음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"시도해도 손해 볼 것이 없다는 내용과 말한 사람(he)이 '밑져야 본전'이라는 통상적 대응으로 동일하게 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사·연결·초점 표현이 바뀌지 않았고 'he said'가 '그가 말했다'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"차를 후진시켜 보라는 시도를 권하는 말 → 같은 시도 권유의 말로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없고 대화 속 시도 권유입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-요' 존댓말이 쓰였으나 말하는 사람(운전자 곁에서 말하는 인물)과 듣는 사람(주변의 남자들)의 관계에 맞는지 판단하려면 화자와 청자의 관계·나이·친밀도 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 대상이 없고 관용 표현의 통상적 대응일 뿐입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1329,
+    "output_tokens": 768,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

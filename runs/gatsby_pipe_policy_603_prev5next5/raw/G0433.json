@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuYuyz8hvYUVVuELSUa",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0433\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"old sport\",\"tgt_span\":\"친구\",\"description\":\"Gatsby 특유의 호칭 'old sport'(상류층 흉내의 격식 있는 친근 호칭)가 일반적인 '친구'로 바뀌어 호칭의 특징이 약해짐\"},{\"id\":\"E002\",\"src_span\":\"Just near the shore along the Sound.\",\"tgt_span\":\"해협을 따라 해안가 근처에서만 탈 겁니다.\",\"description\":\"'Sound'(롱아일랜드 해협)가 일반 명사 '해협'으로 옮겨졌고, 'Just'가 '~에서만'으로 옮겨져 단순한 근거리 코스를 알리는 초점이 장소 한정으로 읽힘. 대체로 의미는 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"함께 가자는 제안, 해안가를 따라 근처에서만 탄다는 내용이 유지됩니다. 'old sport'의 뉘앙스 변화는 호칭의 태도 문제이고 지시 대상은 같습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Just'의 초점이 '근처에서만'으로 같은 대상(해안 근처)에 붙어 있어 초점·범위가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"탑승 제안(권유 질문) → 탑승 제안. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"개인적인 제안이며 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(화자 태도): 개츠비의 습관적이고 인위적으로 격식 있는 친근 호칭 'old sport'가 평범한 '친구'로 바뀌어 화자 특유의 태도가 약해졌습니다. 높임 '가시겠어요'는 초면의 관계에 맞아 문제 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"the Sound를 '해협'으로 옮겨 같은 지리적 대상을 가리키며 제도적 의미를 잃지 않았습니다. 'old sport'는 호칭 태도 문제로 Register에서 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1140,
+    "output_tokens": 943,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

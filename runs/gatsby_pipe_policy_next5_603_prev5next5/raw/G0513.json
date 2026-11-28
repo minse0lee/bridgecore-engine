@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuajzmZVwney5gZ72q7",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0513\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"he wants to go home\",\"tgt_span\":\"이 사람은 집에 가자고 해요\",\"description\":\"'집에 가고 싶어 한다'는 희망이 '집에 가자고 한다'는 제안·요구 행위로 바뀜. 그에 따라 'he'가 '이 사람'으로 옮겨져 지시 대상이 남편으로 유지되는지 문맥 의존.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위): 남편의 '가고 싶어 함'이 '가자고 말함'으로 바뀌어 내용이 달라졌으나, 남편이 집에 가려 한다는 핵심 사태와 독자 이해는 크게 달라지지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'이 사람'은 문맥상 남편을 가리키고 Whenever의 조건 관계는 '~보이면'으로 유지됩니다. 판단 질문 1·2·3 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"아내의 불평 진술 → 아내의 불평 진술. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 소설 속 불평 대사입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"아내가 다른 아내에게 하는 격의 없는 대화에 '~해요'체와 '이 사람'이 어울리며 불평하는 태도가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1353,
+    "output_tokens": 740,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

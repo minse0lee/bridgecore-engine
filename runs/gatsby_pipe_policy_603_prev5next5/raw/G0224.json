@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuV22GGRM2CT52Q6CMq",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0224\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Miss Baker\",\"tgt_span\":\"조던 베이커 양\",\"description\":\"원문에 없는 이름 'Jordan'(조던)이 첨가됨. 같은 인물을 가리키므로 지시 대상은 유지됨\"},{\"id\":\"E002\",\"src_span\":\"several feet of twilight\",\"tgt_span\":\"몇 걸음의 거리감\",\"description\":\"'several feet'(몇 피트)가 '몇 걸음'으로 바뀌고 'twilight'(황혼의 어스름)가 '거리감'으로 대체되어 황혼의 이미지가 사라짐\"},{\"id\":\"E003\",\"src_span\":\"strolled back\",\"tgt_span\":\"서서히 돌아갔다\",\"description\":\"느긋하게 거닐며 돌아갔다는 방식이 '서서히'로 바뀜. 이동 방식의 미세한 차이\"},{\"id\":\"E004\",\"src_span\":\"a perfectly tangible body\",\"tgt_span\":\"실재하는 시신\",\"description\":\"'body'는 시신으로 읽히는 문맥이므로 유지되나, 'perfectly'가 빠지고 정도가 약해짐\"},{\"id\":\"E005\",\"src_span\":\"pleasantly interested\",\"tgt_span\":\"적당히 흥미로운 표정\",\"description\":\"'pleasantly'(유쾌하게)가 '적당히'로 바뀜. 평가어의 정도·결이 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: 'several feet of twilight'에서 황혼(시간·빛)이 사라지고 '몇 피트'가 '몇 걸음의 거리감'으로 바뀌어 대상과 수량 표현이 달라졌으나, 두 사람 사이에 거리가 있다는 핵심 사실은 유지되어 minor입니다. 조던 첨가, 'strolled'→'서서히', 'pleasantly'→'적당히'는 평가어·정도 차이로 보아 보존 범위입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'while'의 동시 진행 관계가 '그동안'으로 유지되고, 대명사·지시 관계와 초점 표현에도 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 서술 기능이 그대로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 장면 서술이며 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술자의 문어체 서술이 유지되며 호칭 관계도 적절합니다. 'Miss Baker'를 '조던 베이커 양'으로 옮겨 원문의 격식 호칭을 살렸습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명과 일반 장면 묘사 외에 문화·제도 고유의 대상이 없습니다. 'feet'가 '걸음'으로 바뀐 점은 수량 표현이므로 Semantic에서만 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2301,
+    "output_tokens": 1218,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

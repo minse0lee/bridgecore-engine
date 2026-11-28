@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuj2F4VQn5b4Yhe869o",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1605\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Wilson had never seemed faintly capable of such a statement\",\"tgt_span\":\"윌슨이 그런 말을 할 수 있는 사람이라고는 조금도 생각지 못했기 때문이다\",\"description\":\"미카엘리스의 인상(윌슨이 …처럼 보인 적이 없다)이 미카엘리스 자신이 생각하지 못했다는 서술로 바뀜. 경미한 변화.\"},{\"id\":\"E002\",\"src_span\":\"they had been neighbours for four years, and Wilson had never seemed\",\"tgt_span\":\"4년 동안 이웃으로 지냈지만, … 생각지 못했기 때문이다\",\"description\":\"'and'의 단순 병렬 연결이 '지냈지만 … 때문이다'로 바뀌어 놀란 이유 설명으로 재구성됨. 4년 이웃이라는 사실의 기능은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"미카엘리스의 놀람, 4년간의 이웃 관계, 윌슨이 그런 말을 할 사람으로 보인 적이 없다는 내용이 모두 유지됩니다. '처럼 보이다'가 '생각하다'로 바뀐 것은 같은 사태를 기술하는 표현 차이입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"질문 2: 놀람의 이유를 밝히는 관계로 재구성되었지만 원문 문맥에서도 이유 설명으로 읽혀 연결 관계가 유지됩니다. '조금도'가 never/faintly의 부정 범위를 유지합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물의 놀람과 그 이유를 서술 → 같은 서술. 서사 설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"never는 윌슨의 인상에 대한 부정일 뿐 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자·청자 관계를 드러내는 대화나 호칭이 없는 소설 서술문이며, 서술체는 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명과 기간 수치만 있고 별도로 판정할 문화 고유의 제도·관습이 없으며, 4년은 정확히 옮겨졌습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2143,
+    "output_tokens": 985,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

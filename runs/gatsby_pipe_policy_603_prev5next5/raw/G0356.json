@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuXDyfK1JhDpxn2yBCK",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0356\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“You’ve dyed your hair since then,”\",\"tgt_span\":\"“그때보다 머리색이 바뀌었네,”\",\"description\":\"'머리를 염색했다(dyed)'가 '머리색이 바뀌었다'로 바뀌어 염색이라는 행위가 사라지고 단순 상태 변화로 표현됨(경미)\"},{\"id\":\"E002\",\"src_span\":\"I started\",\"tgt_span\":\"나는 깜짝 놀랐다\",\"description\":\"started(깜짝 놀라 움찔함)를 '깜짝 놀랐다'로 옮김. 대체로 같은 뜻이라 오류로 보지 않을 수 있으나 기록함\"},{\"id\":\"E003\",\"src_span\":\"the premature moon\",\"tgt_span\":\"이른 저녁부터 떠오른 달\",\"description\":\"'너무 일찍 뜬 달'이 '이른 저녁부터 떠오른 달'로 바뀌어 달이 일찍 떴다는 뜻이 시간대 수식어로 옮겨짐. 의미는 대체로 유지됨\"},{\"id\":\"E004\",\"src_span\":\"produced like the supper, no doubt, out of a caterer’s basket\",\"tgt_span\":\"저 달 역시 저녁 식사처럼 분명 출장 뷔페 바구니에서 꺼내 놓은 것일 터였다\",\"description\":\"caterer's basket을 '출장 뷔페 바구니'로 옮겨 케이터링 업체의 바구니라는 의미가 일부 변형됨. 문장 분할로 달이 주어가 됨. 의미는 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'dyed your hair'(염색함)가 '머리색이 바뀌었네'로 바뀌어 염색이라는 행위가 단순 변화로 일반화되었으나, 핵심 사실(머리색 변화)과 문장 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'since then'가 '그때보다'로 옮겨져 지시·시간 관계는 유지되고, 'her remark was addressed to'와 'produced like the supper'의 지시 관계(조던의 말→달, 달→바구니에서 나온 것)도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 및 비꼬는 묘사 → 서술 및 비꼬는 묘사. 조던의 말이 소녀들에게 닿지 않고 달에게 향한 듯한 아이러니한 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 의무·허가·금지 같은 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조던이 소녀들에게 건네는 반말 투의 말이 소설 서술 맥락에서 허용 범위 안이며, 화자의 태도와 관계가 크게 바뀌지 않았습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없고 인명만 등장합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1691,
+    "output_tokens": 1249,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

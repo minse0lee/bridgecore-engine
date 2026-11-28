@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuUXaywHci29f1MLVdM",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0195\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"She was only extemporizing\",\"tgt_span\":\"그녀는 그저 즉흥적으로 내뱉은 말이었지만\",\"description\":\"주어 '그녀'가 하는 행위(즉흥적으로 말함)가 '그녀는 … 말이었지만'으로 되어 주어와 서술어가 어긋남. 다만 행위자·행위는 읽어 낼 수 있어 의미 변화는 미미함.\"},{\"id\":\"E002\",\"src_span\":\"to come out to you concealed in one of those breathless, thrilling words\",\"tgt_span\":\"숨 가쁘고 전율 돋는 말들 속에 마음을 숨겨 전하려는 듯\",\"description\":\"'one of those words'(그런 말 중 하나)가 복수 '말들'로 바뀌고, 'come out to you'(너에게 나오려 함)가 '숨겨 전하려'로 옮겨져 약간의 뉘앙스 차이가 있음. 핵심 내용은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"즉흥적 발언, 마음을 흔드는 온기, 숨 가쁜 말에 마음을 담아 전하려는 듯한 비유가 모두 유지되며, 'one of those words'와 '말들'의 차이는 사태를 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but의 양보·대조 관계가 '-지만'으로, as if 비유 연결이 '-듯'으로 유지되고 her/she 지시도 같은 대상을 가리킵니다. only의 초점은 '그저'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 묘사·해석 → 서술자의 묘사·해석. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술 문장으로 의무·허가·금지 같은 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 회고적 서술체가 '-았다/-었다' 평서체로 유지되며 대화 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 별도로 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2061,
+    "output_tokens": 938,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

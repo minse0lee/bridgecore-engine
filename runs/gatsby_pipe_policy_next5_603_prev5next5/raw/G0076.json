@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuRwYYuRtCgGCgEBtZe",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0076\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Demaine, the oil man\",\"tgt_span\":\"석유 사업을 하는 드메인 씨네 집\",\"description\":\"'the oil man'(석유업자)이 '석유 사업을 하는'으로, 'belonged to Demaine'이 '드메인 씨네 집이었어'로 옮겨졌으나, 소유 관계와 직업 정보는 유지됨. 'oil man'은 석유 업계 사람으로 통용되는 표현이라 의미를 바꾸지 않음. 추가된 '씨'와 '집'은 문맥상 자연스러운 보충.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 집(앞 문단의 'place')이 석유업자 드메인의 소유였다는 내용이 그대로 전달되며, 달라진 항목을 특정할 수 없습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'It'이 앞에서 소개한 집을 가리키는 관계가 '드메인 씨네 집'으로 유지되고 동격 관계도 '석유 사업을 하는'으로 남아 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"집의 이전 소유자를 알려 주는 설명 → 같은 설명 기능.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"친구에게 하는 구어체 말투가 '~었어' 반말로 유지되며 '씨'도 제3자에 대한 무난한 표현입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명만 있고 판정할 문화 고유의 제도·단위·관습은 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2040,
+    "output_tokens": 748,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

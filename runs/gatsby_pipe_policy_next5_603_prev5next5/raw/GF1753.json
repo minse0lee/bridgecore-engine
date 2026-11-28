@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuqB8GWGQK9FMfREoMD",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1753\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I came to a small rectangle of light\",\"tgt_span\":\"작은 사각형의 빛이 보였다\",\"description\":\"화자가 작은 사각형의 빛에 다가가 이르렀다는 이동·도달 행위가 빛이 보였다는 지각으로 바뀜. 다만 앞 문장의 '지나자' 이동 맥락상 핵심 사태는 유사하여 경미한 차이임.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위): 'came to'(도달)가 '보였다'(지각)로 바뀌어 행위가 달라졌지만, 포치를 지나 창문 불빛에 이르는 장면의 요지와 독자가 이해할 행동·조건은 크게 달라지지 않아 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Crossing ... ,'의 시간적 선후 관계가 '지나자'로 유지되고, 'which I guessed'의 수식 관계도 '짐작되는'으로 남아 지시·연결·초점이 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 화자의 이동과 관찰을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"출판물 서술문의 평서 문어체가 유지되며 화자·청자 관계상 문제될 호칭이나 태도 표현이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습이 없습니다. 'porch', 'pantry'는 일상 사물이며 'three months', 'June'는 통상 표기로 옮겨졌습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1742,
+    "output_tokens": 810,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

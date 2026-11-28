@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuaJsvZD7VXd5YyVAkx",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0493\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"madame\",\"tgt_span\":\"부인\",\"description\":\"집사가 미혼인 Miss Baker를 부르는 호칭 madame이 '부인'(기혼 여성)으로 옮겨져 혼인 여부의 함의가 생김. 다만 이 호칭은 한국어에서 '아가씨' 등으로 옮길 수 있는 경어 호칭이며, 앞 문장 번역의 '조던 베이커 양'과 어긋남.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"집사가 상대의 물음에 '네'라고 긍정하며 정중하게 호칭하는 내용이 유지되며, 행위자·대상·긍정 응답이 달라지지 않았습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현이 없는 짧은 응답이며 앞 질문에 대한 긍정 응답 관계가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"질문에 대한 긍정 응답 → 긍정 응답. 발화 기능이 그대로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 짧은 응답입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(호칭): 집사가 젊은 미혼 여성 Miss Baker에게 쓴 공손한 호칭 madame이 '부인'으로 옮겨져 기혼 여성을 가리키는 역할을 덧붙였습니다. 집사의 정중한 태도 자체는 유지되므로 minor입니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"madame은 집사의 경어 호칭 관습이며 '부인'은 한국어 독자가 정중한 호칭으로 이해할 수 있는 통용 대응입니다. 혼인 함의 문제는 Register에서 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1257,
+    "output_tokens": 825,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

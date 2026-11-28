@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUupYGyZNkWQZfufCFjq",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1739\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"she’s going to turn the light out and on again\",\"tgt_span\":\"그녀가 전등을 껐다 켰다 하며 신호를 보내기로 했거든요\",\"description\":\"원문에 없는 '신호를 보내기로 했다'는 합의·신호 의미를 첨가하고, 조명 조작을 단순한 예정 행위에서 사전에 정한 신호 행위로 바꿈\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위·확실성): 불을 껐다 켜겠다는 행위에 '신호를 보내기로 했다'는 원문에 없는 합의·목적이 더해졌으나, 핵심 사실(위협 시 불을 껐다 켬)은 유지되어 요지는 크게 달라지지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그녀', '그 사람'의 지시 대상과 조건('만약 …하면')·병렬 관계가 유지되며 초점 표현도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 대화 속 상황 설명·계획 진술 → 상황 설명·계획 진술. 발화 기능은 같은 종류입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 계획과 상황 서술이며 의무·허가·금지를 정하는 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 닉(청자)에게 하는 대화체이며 '~이에요/~습니다/~거든요'의 존대체가 앞뒤 대화의 존대 설정과 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1408,
+    "output_tokens": 770,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

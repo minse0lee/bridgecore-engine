@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuT5QbyA49vafatsBxM",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0122\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Evidently it surprised her as much as it did me, for she yawned\",\"tgt_span\":\"그 말에 놀란 건 나뿐만이 아니었던 모양인지, 그녀는 하품을 하더니\",\"description\":\"'놀란 정도가 같았다'(as much as)가 '나뿐만이 아니었다'로 바뀌어 비교 정도가 약해지고, 하품이 놀람의 증거라는 for 인과가 '-인지'로 약하게 표현됨. 의미·기능은 대체로 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'나뿐만이 아니었던 모양'은 그녀도 나만큼 놀랐다는 추정을 같은 사태로 전달하고, 하품하고 재빨리 일어선 행위도 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"for의 근거 관계가 '모양인지, ~하더니'로 남아 있어 연결 관계가 유지되고, 대명사 it은 '그 말'로 올바르게 지시합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 인물의 반응과 동작을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 서술 문장으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 청자 사이의 높임·호칭이 드러나는 대화문이 아니라 서술문입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1485,
+    "output_tokens": 727,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

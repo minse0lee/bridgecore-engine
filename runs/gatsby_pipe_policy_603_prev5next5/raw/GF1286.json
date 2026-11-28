@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUue22WsYwv1tEass7JN",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1286\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기름이 떨어지면 약국에 들르고 요즘 약국에서는 뭐든 살 수 있다는 내용, 행위자, 조건이 모두 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'And if'의 조건 관계가 '떨어지면'으로, 두 번째 문장의 근거 관계가 '-거든요'로 유지되고 지시 대상도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기름 걱정을 일축하는 안심·반박 발화 → 같은 기능의 발화. 뒤 문장이 '아무 의미 없는 말'로 받는 점도 그대로 이어집니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"can은 화자의 가능성·능력을 나타내며 의무·허가·금지 등 규범 의미가 없고 선택 가능한 대처 방안을 말하는 대화입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 개츠비에게 허세 부리듯 말하는 대화에서 '-고요', '-거든요'의 구어체 존댓말이 앞의 '해요체' 번역 및 관계와 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"약국에서 뭐든 판다는 것은 당시 미국 drugstore의 특성을 가리키지만, 번역 '약국'은 같은 대상을 가리키며 별도의 제도·단위·관습 표기를 판정할 대상은 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1428,
+    "output_tokens": 697,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

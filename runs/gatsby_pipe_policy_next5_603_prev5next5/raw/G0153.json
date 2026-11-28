@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuTiF9y71NfEdJqmTtQ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0153\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"with an awed expression\",\"tgt_span\":\"경악한 표정으로\",\"description\":\"awed(경외·경탄 섞인 놀람)가 '경악한'(충격·공포에 가까운 놀람)으로 바뀌어 감정 내용이 달라짐. 새끼손가락의 사소한 상처를 보는 장면의 과장된 경탄(아이러니)이 사라지고 충격으로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: awed(경탄 어린 놀람)가 '경악한'(충격·공포)으로 바뀌어 감정 내용이 달라졌으나, 핵심 사건(대답 전에 시선이 새끼손가락에 고정됨)은 유지되어 요지는 같습니다. 평가어의 정도 차이를 넘어 감정 종류가 달라져 훼손이나 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"her의 지시 대상(데이지)과 '대답하기도 전에'의 시간 관계가 유지되며 초점·범위 표현 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 인물의 행동과 반응을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 청자에게 말하는 대화가 아니라 서술문이며, 판정할 높임·호칭 관계가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1370,
+    "output_tokens": 764,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

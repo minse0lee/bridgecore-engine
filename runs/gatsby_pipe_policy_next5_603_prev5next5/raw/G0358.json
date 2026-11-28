@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuXPsUdRwHpWjXB3Svw",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0358\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"each one introduced to us as Mr. Mumble\",\"tgt_span\":\"이름조차 가물가물한 ‘어느 씨’ 정도로 소개되었다\",\"description\":\"'Mr. Mumble'(웅얼거리듯 불분명하게 들린 이름이라는 암시의 가칭)이 '이름조차 가물가물한 어느 씨'로 바뀌고, 화자가 이름을 기억 못 한다는 식의 해석과 '정도로'라는 첨가가 더해짐\"},{\"id\":\"E002\",\"src_span\":\"A tray of cocktails floated at us\",\"tgt_span\":\"칵테일 쟁반 하나가 우리 쪽으로 다가왔고\",\"description\":\"floated(떠다니듯 다가옴)가 '다가왔고'로 옮겨져 부유하는 뉘앙스가 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'Mr. Mumble'이라는 호칭의 의미(웅얼거린 이름이라 알아들을 수 없었음)가 '이름조차 가물가물한 어느 씨'로 바뀌어 내용이 달라졌으나, 남자들이 모두 같은 가칭으로 소개되었다는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계가 유지됩니다. 문장 분할은 오류가 아니며 각 남자가 그렇게 소개된 관계도 남아 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 파티 분위기와 사람들이 익명처럼 소개되는 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 장면 서술이며 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문이며 화자와 청자의 관계에 따른 높임·호칭 판정 대상이 없습니다. 가칭의 의미 차이는 Semantic에서 다뤘습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·단위·관습이 없습니다. 'Mr.'는 가칭의 일부로 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1771,
+    "output_tokens": 970,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

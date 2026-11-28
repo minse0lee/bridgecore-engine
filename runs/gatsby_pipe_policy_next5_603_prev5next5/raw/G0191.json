@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuUXQZt23Z5hDzwrvsB",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0191\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Doesn’t he?”\",\"tgt_span\":\"그렇지 않나요?”\",\"description\":\"원문은 제3자(Miss Baker)에게 닉을 가리켜 묻는 'he'인데, 번역은 대상이 불분명한 '그렇지 않나요?'로 옮겨 닉을 가리키는 지시가 사라지고 청자가 닉으로도 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"닉이 식탁에 있어 기쁘다, 장미 같다는 내용과 동의를 구하는 질문이 유지되고, 문단 번역에서 조던에게 묻는 상황도 드러납니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(지시): 'Doesn’t he?'의 he(닉, 제3자 지칭)가 '그렇지 않나요?'로 옮겨져 지시 대상이 드러나지 않고 닉에게 묻는 말로도 읽힙니다. 다만 직후 문단에서 조던에게 되묻는 장면이 이어져 요지는 유지되므로 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"호감 표현과 동의 구하기 → 호감 표현과 동의 구하기. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"데이지가 닉에게 하는 다정한 존댓말('~요')이 사교적 관계에 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 없고 인명만 나옵니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1803,
+    "output_tokens": 758,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

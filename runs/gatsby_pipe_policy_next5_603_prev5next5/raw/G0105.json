@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuSd9o2aQkZPKaw4bUu",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0105\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"You ought to see the baby.\",\"tgt_span\":\"아기도 봐야 해요.\",\"description\":\"'아기를 보러 와야/봐야 한다'는 상대에게 아기를 만나 보라는 권유가 '아기도'로 바뀌어 앞의 '다시 가자'에 덧붙이는 추가 항목으로 읽히고, 보는 주체가 화자 자신(톰과 함께)인지 청자인지 모호해짐. 원문에 없는 초점 표지 '도' 첨가.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 상대(닉)가 아기를 만나 봐야 한다는 내용이 '아기도 봐야 해요'로 바뀌어, 누가 아기를 봐야 하는지 불분명해지고 '도'가 더해졌으나 아기를 본다는 핵심 내용은 유지되어 요지 변화는 제한적입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3: 원문에 없는 '도'가 붙어 '다시 가자'에 더해지는 추가 항목처럼 초점·범위가 달라졌고, 'irrelevantly'(앞 내용과 무관)라는 전환의 성격과도 어긋납니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대에게 아기를 보도록 권하는 말 → 아기를 보도록 이끄는 말로 같은 종류의 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"ought to는 소설 속 대화에서 개인적 권유일 뿐 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"데이지가 닉에게 하는 친근한 대화체가 '~해요'로 관계에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1765,
+    "output_tokens": 861,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuS3ppk3vnR4jU9816p",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0085\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the rugs\",\"tgt_span\":\"양단 카펫\",\"description\":\"'rugs'(깔개·러그)가 '양단 카펫'(양단은 비단 직물)으로 바뀌어 원문에 없는 재질·종류 정보가 더해짐. 다만 같은 대상(카펫류)을 가리킴.\"},{\"id\":\"E002\",\"src_span\":\"the caught wind died out about the room\",\"tgt_span\":\"방 안에 갇혀 있던 바람이 잦아들었고\",\"description\":\"'caught wind'(붙잡힌 바람)를 '갇혀 있던 바람'으로 옮겼고 'about the room'이 '방 안에'로 처리됨. 의미상 대체로 동일.\"},{\"id\":\"E003\",\"src_span\":\"ballooned slowly to the floor\",\"tgt_span\":\"풍선에서 바람이 빠지듯 천천히 바닥으로 가라앉았다\",\"description\":\"'ballooned'(부풀어 오른 채 내려앉음)를 '풍선에서 바람이 빠지듯'이라는 비유로 풀어 씀. 하강 이미지는 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'rugs'가 '양단 카펫'으로 바뀌어 원문에 없는 재질 정보(비단 직물)가 더해졌으나, 같은 대상을 가리키고 사건의 요지(톰이 창문을 닫자 바람이 잦아들고 모두 천천히 내려앉음)는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 대상, 시간·인과 연결('그때…닫자', '잦아들었고…')과 초점 표현이 유지되었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 서술 기능이 그대로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가를 나타내는 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체('-았다')가 유지되며 화자·독자 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명(톰 뷰캐넌)만 있고 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2440,
+    "output_tokens": 975,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuprAzWqsK2jsUMTCpB",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1747\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"he might think anything\",\"tgt_span\":\"무슨 생각이라도 할 수 있을 것이다\",\"description\":\"'무슨 생각이든 할지도 모른다'는 추측이 '할 수 있을 것이다'로 옮겨져 추측·가능성이 능력·가능 쪽으로 약간 바뀌었으나 핵심 의미는 유지됨\"},{\"id\":\"E002\",\"src_span\":\"—\",\"tgt_span\":\"아니,\",\"description\":\"대시 뒤 보충 진술에 '아니,'라는 정정 표지가 더해져 앞말을 취소하는 듯한 연결로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 연관성을 찾았다고 생각하거나 무엇이든 생각할지 모른다는 추측 내용이 유지되며, '할 수 있을 것이다'도 추측으로 읽혀 확실성이 크게 달라지지 않았습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2(연결 관계): 대시로 이어진 첨가·확장 관계가 '아니,'라는 정정·번복 관계로 바뀌어 앞 추측을 취소하는 것처럼 읽힙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 추측·불안 서술 → 추측 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"might는 가능성의 의미이며 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 지문의 평서체가 유지되며 높임·호칭 관계가 문제되지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1407,
+    "output_tokens": 776,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

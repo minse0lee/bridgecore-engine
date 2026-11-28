@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuSh7ushJRsEDuxqXAZ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0112\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“I’m a bond man.”\",\"tgt_span\":\"“채권 매매 일을 해요.”\",\"description\":\"닉이 톰에게 하는 말이 존댓말(해요체)로 옮겨져, 뒤 문장의 반말 대화와 어긋나며 두 사람의 친근한 관계에 맞지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 채권 거래 일을 한다는 내용이 유지되며, 'bond man'을 '채권 매매 일을 해요'로 옮긴 것은 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"짧은 단문으로 지시 표현, 연결 관계, 초점·범위 표현이 없어 평가할 대상이 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"질문에 대한 직업 응답(설명) → 직업 응답(설명). 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 닉과 톰은 오랜 지인 사이이고 톰은 닉에게 반말을 쓰며 닉 역시 뒤에서 반말로 답하는데, 이 문장만 해요체여서 관계에 맞지 않는 높임입니다. 다만 내용과 기능에는 영향이 없어 minor입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 895,
+    "output_tokens": 712,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

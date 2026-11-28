@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUusQvHRt5ArE79WuZwc",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0388\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Instead of rambling\",\"tgt_span\":\"여기저기 흩어지는 대신\",\"description\":\"rambling(이리저리 돌아다님)을 '흩어지는'으로 옮겨 일행이 모여 있었다는 대조는 유지되나 약간 달라짐. 의미 차이는 미미함\"},{\"id\":\"E002\",\"src_span\":\"its spectroscopic gaiety\",\"tgt_span\":\"그 화려하고 소란스러운 유쾌함\",\"description\":\"spectroscopic(분광적인, 다채로운 빛깔의)을 '화려하고 소란스러운'으로 풀어 옮김. 평가어 수준의 차이\"},{\"id\":\"E003\",\"src_span\":\"—East Egg condescending to West Egg\",\"tgt_span\":\"즉, 이스트에그가 웨스트에그를 얕보며\",\"description\":\"대시 뒤 부연 설명을 '즉'으로 연결함. 부연 관계는 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"일행이 돌아다니지 않고 품위 있는 동질성을 유지하며 시골 귀족층을 대표하는 역을 자처했고, 이스트에그가 웨스트에그를 얕보며 경계한다는 내용이 유지됩니다. 달라진 것은 rambling과 spectroscopic의 표현 정도뿐입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Instead of'의 대조가 '대신'으로, 대시 뒤 부연이 '즉'으로 유지되어 지시·연결·초점 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 집단 묘사·서술 → 인물 집단 묘사·서술로 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술 문장으로 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 아이러니한 거리감 있는 어조가 서술체로 대체로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"East Egg와 West Egg가 지명 그대로 음역되었고 계층적 대비도 전달되어 문화적 의미가 유지됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2011,
+    "output_tokens": 938,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

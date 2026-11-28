@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuiFCtYP3VMJcuPKJoa",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1447\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I can’t really call myself an Oxford man\",\"tgt_span\":\"제가 옥스퍼드 출신이라고 당당히 말하지 못하는 겁니다\",\"description\":\"'really'(사실상 ~라 하기 어렵다는 뜻)가 '당당히'로 바뀌어 평가어의 뉘앙스가 달라졌으나, 핵심 의미(옥스퍼드 출신이라 부르기 어려움)는 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1919년, 다섯 달 체류, 옥스퍼드 출신이라 하기 어렵다는 내용이 유지되며 'really'가 '당당히'로 바뀐 것은 정도·평가어의 차이에 그칩니다. 자동 힌트의 수치 불일치는 nineteen-nineteen을 1919로 옮긴 표기 차이로 오경보입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'That's why'가 '그래서 ~ 겁니다'로 인과 관계를 유지하고, only는 '다섯 달밖에'로 초점이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개츠비의 설명·해명 → 설명·해명으로 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"can't는 규범이 아닌 능력·자격 판단을 나타내므로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개츠비가 톰 등에게 정중하게 말하는 상황이며, 번역문의 '-어요/-죠/-ㅂ니다' 체가 이에 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Oxford man을 '옥스퍼드 출신'으로 옮겨 같은 대학 출신이라는 의미를 이해할 수 있고 연도 표기도 적절합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1473,
+    "output_tokens": 820,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

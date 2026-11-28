@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuXy7isoKY2gwQE2yvu",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0387\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a persistent undergraduate given to violent innuendo\",\"tgt_span\":\"대학생 한 명이 있었다. 그는 노골적인 암시를 즐겨 쓰는 끈질긴 성격이었는데\",\"description\":\"'persistent'가 일을 끈질기게 밀어붙이는 태도에서 성격 전반의 '끈질긴 성격'으로 바뀌었고, 'violent innuendo'가 '노골적인 암시'로 옮겨져 폭력적이고 거친 느낌이 약해졌다. 다만 핵심 내용은 유지된다.\"},{\"id\":\"E002\",\"src_span\":\"sooner or later Jordan was going to yield him up her person to a greater or lesser degree\",\"tgt_span\":\"조던이 조만간 어느 정도까지는 되었든 자신에게 몸을 허락할 것이라고\",\"description\":\"'to a greater or lesser degree'(많든 적든)가 '어느 정도까지는 되었든'으로 어색하게 옮겨졌으나 의미는 통한다. 오류로 보지 않을 수도 있는 사소한 차이다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"세 쌍의 부부, 조던의 동행인 대학생, 끈질김, 암시, 조던이 조만간 몸을 허락하리라는 믿음 등 핵심 내용이 모두 유지된다. 달라진 것은 평가어의 정도('violent'→'노골적인')와 어색한 표현뿐이다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'he'와 '그'의 지시 대상이 같고, 'and obviously'의 부가 관계가 문장 분할 후에도 이어지며, 초점 표현의 이동도 없다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 상황 서술 → 인물 상황 서술. 기능이 같은 종류로 유지된다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가를 정하는 표현이 없는 서사 문장이다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자가 대학생의 태도를 약간 비꼬듯 묘사하는 어조가 평서 서술체로 유지된다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습을 판정할 대상이 없고 인명만 등장한다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2128,
+    "output_tokens": 971,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

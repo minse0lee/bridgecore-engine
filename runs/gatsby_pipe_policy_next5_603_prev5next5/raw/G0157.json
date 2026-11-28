@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuTiT4h8GXnpRSSrMDQ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0157\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a great, big, hulking physical specimen of a—\",\"tgt_span\":\"덩치만 크고 투박한 육체적 표본 같은 남자랑\",\"description\":\"'a great, big, hulking'(크고 거대하고 우람한)이 '덩치만 크고 투박한'으로 바뀌어 부정적 뉘앙스가 더해졌고, 미완결 문장이 '남자랑'으로 완결됨. 단 뒤 문장의 '덩치만 크다'와 연결되어 의미 범위 안의 변화로 봄.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'알지만 당신이 그랬다', '짐승 같은 남자와 결혼한 대가'라는 내용이 유지되며, 달라진 것은 평가어의 정도(hulking → 덩치만 크고 투박한) 정도입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but의 대조('알지만, 어쨌든')와 인과('That's what I get for' → '~해서 꼴이 이렇다니까요') 관계가 유지되어 질문 1~3 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장난스러운 비난·투정 → 장난스러운 비난·투정. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"부부 사이의 격의 없는 투정이 '~어요' 체로 유지되어 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1660,
+    "output_tokens": 737,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuXqpwFLZa7aDCu13hs",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0375\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"The three Mr. Mumbles\",\"tgt_span\":\"웅얼거리는 세 남자도\",\"description\":\"'Mr. Mumbles'는 이름 없이 웅얼거리듯 말하는 남자들을 가리키는 별명성 표현인데, '웅얼거리는 세 남자'로 풀어 옮겼다. 지시 대상은 유지된다. 또한 원문에 없는 '도'가 붙었다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"세 남자, 몸을 앞으로 숙임, 열심히 귀를 기울임이 모두 유지된다. 수치 3은 '세'로 옮겨져 힌트는 오경보다. 'eagerly'는 '귀를 기울였다'에 담겨 있고 정도 차이만 있다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'도'는 앞 문장의 '우리 모두'와 이어지는 자연스러운 연결로 읽히며, 지시·연결·초점 관계는 바뀌지 않는다(질문 1~3 모두 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(인물 반응 묘사) → 서술(인물 반응 묘사). 기능이 동일하다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가를 나타내는 표현이 없는 서술문이다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"출판물 서술문의 평서체('-었다')가 유지된다. 'Mr. Mumbles'가 지닌 장난스러운 별명의 태도는 '웅얼거리는'으로 대체로 전달된다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"제도·단위·관습 등 문화 고유 대상이 없고, 별명은 인명 성격이어서 판정 대상이 아니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1345,
+    "output_tokens": 790,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUupiPS9hze1AJ3eSzcz",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1742\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"old sport\",\"tgt_span\":\"친구\",\"description\":\"개츠비 특유의 호칭 'old sport'(친밀하고 다소 격식 있는 애칭)가 일반 호칭 '친구'로 옮겨짐. 호칭 기능은 유지되나 개츠비의 말버릇이라는 특색은 약해짐.\"},{\"id\":\"E002\",\"src_span\":\"I don’t trust him\",\"tgt_span\":\"믿지 못하겠습니다\",\"description\":\"화자(개츠비)가 닉에게 하는 말이 '-습니다' 합쇼체로 옮겨짐. 문맥상 닉도 이후 존댓말로 응답하나 앞뒤 번역과 어투가 일관되는지는 관계상 큰 문제는 없음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그 사람(him)을 믿지 않는다'는 내용과 부르는 말이 유지되며, 인물·부정·행위가 달라지지 않았습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"him이 톰을 가리키는 지시 관계가 '그 사람'으로 유지되고 연결·초점 표현이 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"불신을 표명하는 진술 → 불신을 표명하는 진술. 발화 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 개인적 진술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개츠비가 닉에게 친밀하면서도 정중하게 말하는 관계에 '-습니다'체와 '친구'가 어울리며, 호칭이 관계를 바꾸거나 역할을 덧붙이지 않았습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"제도·단위·관습 등 문화 고유 대상이 없고 호칭 'old sport'는 비칭이 아닌 애칭입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1231,
+    "output_tokens": 837,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

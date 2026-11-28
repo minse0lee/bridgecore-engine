@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUummdoTfyvVZgM9zooF",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1669\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"he demanded\",\"tgt_span\":\"경찰이 따져 물었다\",\"description\":\"대명사 'he'를 문맥상 지시 대상인 '경찰'로 명시화함. 앞 문장의 policeman을 가리키므로 지시 대상은 동일하여 의미 변화 없음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'What's all that?'을 '무슨 일입니까?'로 옮겨 묻는 내용이 같고, he를 경찰로 명시한 것은 문맥상 올바른 지시 대상이며 demanded도 '따져 물었다'로 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"he가 앞 문장의 policeman을 가리키는데 번역의 '경찰'이 같은 대상을 지시하여 지시 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"경찰의 추궁성 질문 → 경찰의 추궁성 질문. '따져 물었다'로 다그치는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"권위 있는 경찰이 낯선 사람들에게 하는 말로 '~입니까?'의 격식체가 관계와 상황에 맞고 다그치는 태도도 서술로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1362,
+    "output_tokens": 706,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

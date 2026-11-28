@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuQkbTsTC9myWzYPDsb",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0034\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"just as things grow in fast movies\",\"tgt_span\":\"마치 빠른 화면의 영화처럼\",\"description\":\"'fast movies'(빨리 돌려 보는 영화, 즉 빠른 속도로 성장하는 장면이 담긴 영화)가 '빠른 화면의 영화'로 옮겨져 비유 내용이 다소 흐려졌으나 뜻은 통함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"햇살, 무성하게 돋아나는 잎, 빠른 영화 같은 성장 비유, 인생이 여름과 함께 다시 시작된다는 익숙한 확신이 모두 유지됩니다. '빠른 화면의 영화'는 어색하지만 같은 비유를 가리킵니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"So의 연결은 '그렇게'로, with 구문은 '-자'의 시간·인과 관계로 재구성되어 관계가 유지됩니다. 지시·초점 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 심경 서술 → 서술자의 심경 서술. 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미(의무·허가·금지)가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회고 서술의 '-했다' 문어체가 유지되며 관계상 어긋남이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화 고유의 제도·관습·단위 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1731,
+    "output_tokens": 730,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

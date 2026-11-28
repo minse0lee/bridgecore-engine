@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuqgCjgEDKK3THGFM87",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1767\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Good night, old sport.\",\"tgt_span\":\"안녕히 가세요, 친구.\",\"description\":\"밤 작별 인사 'Good night'이 일반 작별 인사 '안녕히 가세요'로 바뀌었고, 개츠비 특유의 호칭 'old sport'가 '친구'로 단순화됨\"},{\"id\":\"E002\",\"src_span\":\"I want to wait here\",\"tgt_span\":\"여기서 기다리고 싶어요\",\"description\":\"개츠비가 화자(닉)에게 존댓말('~어요')을 써서, 친밀한 위치의 화자가 쓰는 말투와 호칭 태도가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"데이지가 잠들 때까지 여기서 기다리겠다는 내용과 작별 인사가 모두 전달됩니다. 'Good night'이 '안녕히 가세요'로 바뀐 것은 같은 밤 작별 인사 범위의 표현 차이이고, 'old sport'의 '친구'는 호칭의 뉘앙스 차이일 뿐 대상·행위·수량이 달라지지 않았습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'till'의 시간 범위와 두 문장의 연결이 유지되며 지시·연결·초점 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"자신의 의지를 밝히고 작별 인사를 하는 대화 → 같은 기능의 대화. 닉에게 돌아가라고 권하는 말에 거절하며 작별하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"개인적 바람과 작별 인사로 의무·허가·금지 같은 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"개츠비와 닉 사이의 말투 관계(서로 존댓말인지 반말인지)가 번역서 전체에서 어떻게 설정되었는지 확인이 필요합니다. 앞 문장의 닉도 존댓말을 쓰고 있어 일관은 하지만, 'old sport'의 친근한 태도가 '친구'로 유지되는지는 관계 설정 기준이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다. 'old sport'는 개츠비 특유의 호칭 습관이지만 이 문장에서는 호칭 태도의 문제로 Register에서 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 982,
+    "output_tokens": 1043,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

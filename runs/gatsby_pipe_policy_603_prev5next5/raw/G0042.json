@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuQodGmVqHL1RvNc8A1",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0042\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a pair of enormous eggs\",\"tgt_span\":\"거대한 달걀 모양의 땅 두 개\",\"description\":\"비유적 '달걀'이 '달걀 모양의 땅'으로 풀어 옮겨졌으나 같은 대상을 가리키며 의미는 유지됨(오류 아님 후보)\"},{\"id\":\"E002\",\"src_span\":\"separated only by a courtesy bay\",\"tgt_span\":\"작은 만 하나를 사이에 두고\",\"description\":\"only(오직 ~로만 분리)의 초점이 사라지고, courtesy(명목상의 만)의 함의가 '작은'으로 바뀜\"},{\"id\":\"E003\",\"src_span\":\"the most domesticated body of salt water in the Western hemisphere, the great wet barnyard of Long Island Sound\",\"tgt_span\":\"서반구에서 가장 길들여진 바다, 즉 롱아일랜드 해협이라는 거대하고 축축한 가축 우리 같은 바다\",\"description\":\"동격 구조가 '즉 ~라는 … 바다'로 옮겨져 해협의 비유 표현이 약간 중복되나 같은 대상을 가리킴(오류 아님 후보)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: 'courtesy bay'(명목상의 작은 만)가 단순히 '작은 만'으로 바뀌어 내용이 일부 달라졌으나, 두 땅이 만으로 나뉜다는 핵심 사실은 유지되어 요지는 같습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 3: 'only'가 걸리던 초점·범위 표현이 번역에서 사라져 두 땅이 오직 작은 만 하나로만 나뉜다는 한정이 약해졌습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술적 묘사 → 서술적 묘사. 지리 설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 지리 묘사로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 평서체 '~었다'가 유지되며 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"마일 단위와 롱아일랜드 해협 등 지명·단위를 그대로 유지했고 다른 제도로 바꾸지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2962,
+    "output_tokens": 1008,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuSzJ2srqhEGskUUSbC",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0122\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"it surprised her as much as it did me, for she yawned\",\"tgt_span\":\"그 말에 놀란 건 나뿐만이 아니었던 모양인지, 그녀는 하품을 하더니\",\"description\":\"'그녀도 나만큼 놀랐다는 것이 분명했다. 하품을 했으니까'라는 근거(for) 관계가 '놀란 건 나뿐만이 아니었던 모양인지 하품을 하더니'로 바뀌어, 하품이 놀람의 근거가 아니라 놀람 다음에 이어지는 동작으로 읽힘. 확실성(Evidently)은 '모양'으로 유지됨.\"},{\"id\":\"E002\",\"src_span\":\"stood up into the room\",\"tgt_span\":\"자리에서 일어나 방 안으로 들어섰다\",\"description\":\"방 안에서 일어선 동작이 '방 안으로 들어섰다'로 바뀌어 방 밖에서 들어온 것처럼 읽힘. 'stood up into the room'은 소파에서 일어나 방 안에 서는 동작인데 입장 행위가 덧붙음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1(행위): 소파에서 일어나 방 안에 선 동작이 '방 안으로 들어섰다'로 바뀌어 위치 이동이 생겼으나, 요지(그녀가 일어났다)는 유지되어 minor입니다. '나만큼 놀랐다'는 '나뿐만이 아니었던'으로 같은 내용입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(연결 관계): for가 이끄는 인과·근거 관계(하품이 놀람의 증거)가 '-인지 ~하더니'의 단순 시간 순서로 바뀌어 연결 관계가 달라졌습니다. 다만 독자의 요지 이해는 크게 바뀌지 않아 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 동작 서술 → 인물 동작 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"과거형 서술체가 유지되고 화자와 청자 간 높임·호칭 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1489,
+    "output_tokens": 1043,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

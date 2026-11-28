@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuWV7DDPKSWKmSAx7o3",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0322\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the halls and salons and verandas are gaudy with primary colours, and hair bobbed in strange new ways, and shawls beyond the dreams of Castile\",\"tgt_span\":\"홀과 살롱, 베란다는 원색의 화려함으로 물들고, 기묘하고 새로운 방식으로 짧게 자른 머리칼과 카스티야의 꿈조차 뛰어넘을 만큼 화려한 숄들이 눈에 띈다\",\"description\":\"원문은 홀·살롱·베란다가 원색, 새 유행의 단발머리, 숄로 '화려하다(gaudy)'는 병렬 구조인데, 번역은 머리칼과 숄이 '눈에 띈다'는 별도 서술로 바꿈. 내용과 장면은 유지되므로 의미·기능을 바꾸는 차이는 아님.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"마지막 수영객, 위층에서 옷 갈아입음, 뉴욕에서 온 차 다섯 줄 주차, 원색·단발머리·숄 등 인물·수량·행위가 원문과 같은 사태를 기술합니다. 'shawls beyond the dreams of Castile'의 '카스티야의 꿈조차 뛰어넘을' 표현도 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"세미콜론 앞뒤의 병렬 연결과 'already'의 '이미'가 유지되며, 지시·연결·초점 관계가 바뀌지 않았습니다. 문장 분할은 허용됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"파티 장면 서술 → 파티 장면 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 장면 묘사입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 본문의 서술체 현재형이 '-한다' 서술체로 유지되며 특정 화자·청자 관계는 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Castile을 '카스티야'로 통용되게 음역했고 다른 제도·단위로 바꾸지 않았습니다. 'five deep'의 수치도 '다섯 줄'로 유지되어 힌트는 오경보입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 3344,
+    "output_tokens": 960,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

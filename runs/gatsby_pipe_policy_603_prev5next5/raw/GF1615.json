@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUujVpkBYPDZrwyp3ip2",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1615\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Throw me down and beat me\",\"tgt_span\":\"나를 밀쳐서 때려보라고\",\"description\":\"'Throw me down'(내동댕이쳐 넘어뜨리다)이 '밀쳐서'로, 명령이 도전·반어조의 '때려보라고'로 바뀜. 행위의 격렬함이 약해지고 도발 어조가 더해짐\"},{\"id\":\"E002\",\"src_span\":\"you dirty little coward\",\"tgt_span\":\"이 더러운 겁쟁이 자식아\",\"description\":\"'little'이 대응되지 않고 '자식'이 덧붙음. 경멸 어조는 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위): 'throw down'(던져 쓰러뜨림)이 '밀쳐서'로 바뀌어 행위가 달라졌으나, 때려 달라는 핵심 요구는 유지되어 요지는 같습니다. 'little'의 누락과 '자식'의 첨가는 경멸 어조의 변화일 뿐 내용 변화로 보지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'me'가 화자 자신을, 'you'가 상대를 가리키는 지시 관계가 유지되고 연결·초점 표현의 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대에게 폭력을 도발하는 외침 → 상대를 도발하는 외침. 발화 기능은 같은 종류이며 '때려보라고'는 도발의 강도 차이일 뿐입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 의무·금지를 거는 규범 표현이 아니라 감정적 도발이므로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"부부 사이의 격한 다툼에서 아내가 남편을 경멸하는 상황에 맞게 반말과 욕설 어조가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1948,
+    "output_tokens": 898,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

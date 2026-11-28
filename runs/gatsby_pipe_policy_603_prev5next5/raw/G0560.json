@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuss3AHRCmMnGSMdwNU",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0560\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"But I wasn’t even trying\",\"tgt_span\":\"하지만 운전하려고 한 게 아니었어요\",\"description\":\"even trying(시도조차 하지 않았음)의 초점어 even이 빠지고, 시도의 대상이 '운전하려고'로 명시되어 평서적 부정이 됨\"},{\"id\":\"E002\",\"src_span\":\"I wasn’t even trying\",\"tgt_span\":\"정말 그러려고 한 게 아니었다고요\",\"description\":\"even이 '정말'로 바뀌어 '시도조차 안 했다'는 극단 강조가 단순 강조로 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'운전하려고 한 게 아니었다'는 문맥상 운전 시도를 하지 않았다는 같은 사태를 기술하고, 행위자와 부정이 유지되어 달라진 항목이 없습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 3(초점·범위 표현): even이 번역에서 사라지거나 '정말'로 바뀌어 '시도조차 안 했다'는 극단 초점이 약해졌습니다. 뒤 문장의 'not even trying' 반응과의 연결에도 영향을 주지만 핵심 사실은 유지되어 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"분개하며 변명·항변 → 분개하며 변명·항변. 발화 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"구경꾼 앞에서 분개하여 말하는 상황에 맞는 '-어요' 체이며 분개하는 태도도 '분개하며'로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1238,
+    "output_tokens": 845,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

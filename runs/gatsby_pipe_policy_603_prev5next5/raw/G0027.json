@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuQRXVmBjuzsMNXWRWQ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0027\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"muttered Finnish wisdom to herself\",\"tgt_span\":\"핀란드어로 혼잣말을 중얼거리며 삶의 지혜를 읊조리곤 했다\",\"description\":\"'Finnish wisdom'(핀란드식 지혜)이 '핀란드어로'와 '삶의 지혜'로 나뉘어 번역됨. 핀란드 고유의 지혜라는 한정이 약해졌으나 핵심 내용은 유지됨\"},{\"id\":\"E002\",\"src_span\":\"a Finnish woman\",\"tgt_span\":\"핀란드인 가정부\",\"description\":\"'woman'이 '가정부'로 옮겨져 직업 역할이 명시됨. 침대를 정리하고 식사를 준비하는 일을 하므로 문맥상 같은 대상을 가리킴\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개, 닷지 자동차, 핀란드 여성, 잠자리 정리·아침 준비·혼잣말 등 인물·행위·수량이 유지됩니다. 'Finnish wisdom'을 '핀란드어로…삶의 지혜'로 푼 것은 같은 사태를 기술하는 표현 차이이고, '가정부'도 문맥상 같은 역할입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그녀'가 가정부를 가리키고, 'at least ... until he ran away'의 정정 관계가 '정확히는 ~까지만'으로 유지되어 지시·연결·초점 질문에 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 서술(소유물과 가정부 소개, 유머러스한 묘사) → 같은 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 회고 서술체('~했다')가 유지되며 호칭이나 화자 태도의 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Dodge(닷지 자동차)와 핀란드인이 같은 대상으로 옮겨져 문화·제도적 의미를 이해할 수 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2188,
+    "output_tokens": 939,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

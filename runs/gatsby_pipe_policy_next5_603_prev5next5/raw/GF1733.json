@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUupFLVo95rLX58fT2Dq",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1733\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Don’t tell me\",\"tgt_span\":\"말하지 마세요\",\"description\":\"'(그 얘기를) 내게 말하지 마라'가 목적어(me)와 대상 없이 '말하지 마세요'로 옮겨져 '더 이상 자세히 말하지 말라'는 뜻이 흐려졌으나, 문맥상 같은 요청으로 읽힘\"},{\"id\":\"E002\",\"src_span\":\"old sport\",\"tgt_span\":\"친구\",\"description\":\"Gatsby의 호칭 'old sport'가 일반적인 '친구'로 옮겨져 특유의 어투가 중립화됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 상대에게 더 이상 말하지 말라고 하는 내용과 호칭 대상이 유지되며, 'me'의 생략은 문맥상 뜻을 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현이 없고 바로 앞 '찢어졌다' 발언에 대한 반응이라는 연결이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대의 끔찍한 묘사를 멈추게 하는 요청 → 말을 멈추라는 요청. 같은 종류의 기능입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 대화 속 개인적 부탁이며 의무·금지 같은 규범을 정하는 문장이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개츠비가 닉에게 존대하며 친근하게 부르는 관계가 앞뒤 번역의 '-세요/-습니다' 체와 '친구' 호칭으로 일관되게 유지됩니다. 'old sport' 특유의 어투가 약해진 점은 어색함 수준입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없고 호칭 'old sport'는 비칭이 아닌 친근한 호칭입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1799,
+    "output_tokens": 858,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

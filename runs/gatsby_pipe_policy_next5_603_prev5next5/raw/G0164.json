@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuTrs57eyWA2W4uSJYh",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0164\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"uncivilized\",\"tgt_span\":\"야만인이 된 기분\",\"description\":\"'문명화되지 않은/세련되지 못한' 느낌이 '야만인'이라는 훨씬 강한 표현으로 바뀜. 이어지는 문명 담론과의 연결은 유지되므로 정도 변화가 중심.\"},{\"id\":\"E002\",\"src_span\":\"Daisy\",\"tgt_span\":\"데이지, 당신이랑 있으면 제가\",\"description\":\"화자(닉)가 데이지에게 쓰는 말투가 '당신', '제가', '~해요'로 옮겨짐. 사촌 사이 관계에 비해 다소 거리감이 있으나 의미를 바꾸지는 않음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'두 잔째'는 second glass와 일치하고, 자동 점검 힌트의 수치 [2]는 오경보입니다. uncivilized를 '야만인'으로 옮겨 정도는 세졌으나 평가어의 정도 차이이고 평가 내용 자체는 같습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'데이지'(호격)와 '내가 고백했다'의 지시 관계가 유지되고 연결·초점 표현의 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"농담 섞인 불평·고백 → 농담 섞인 불평·고백. 발화 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"닉과 데이지는 사촌이라는 정보가 이 문항 자료에는 없습니다. '당신', '제가', '~해요'가 관계에 맞는지 가리려면 화자와 청자 관계 및 이 소설의 기대 격식 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"claret(클라레 와인)를 그대로 음역해 같은 대상을 가리키며 한국어 독자도 와인 종류로 이해할 수 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2005,
+    "output_tokens": 902,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

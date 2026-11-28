@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuZUJRwySzX4Rp7pP9L",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0456\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"old sport\",\"tgt_span\":\"친구\",\"description\":\"개츠비의 트레이드마크인 'old sport'(영국식 상류층 말투의 친근한 호칭)가 일반 호칭 '친구'로 바뀌어 특유의 격식 차린 인공적 말투와 시대·계층적 함의가 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"필요한 것이 있으면 요청하라고 권한다는 행위자·내용·조건이 유지되고, 호칭은 친근한 상대 호칭이라는 점에서 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조건 연결(if → -으면)과 'just'의 강조('언제든')가 유지되고 지시 관계도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"필요하면 말하라고 권하는 제안 → 필요하면 말하라고 권하는 제안으로 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 호의적 제안으로 의무·허가·금지를 정하는 규범 표현이 아니라 평가할 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'말씀하세요'의 높임과 친근한 호칭 '친구'가 호스트가 손님에게 격식을 갖추면서 친근하게 말하는 관계에 맞습니다. 'old sport'의 특유한 느낌이 약해진 점은 Cultural에서 다룹니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 'old sport'는 개츠비 특유의 영국식 상류층 흉내 말투로서 서술자가 '격식 차린 말투'로 주목하는 시대·계층적 표지인데, 일반 호칭 '친구'로 옮겨 그 문화적 함의가 전달되지 않습니다. 다만 친근한 호칭이라는 기본 의미는 유지되어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1486,
+    "output_tokens": 861,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

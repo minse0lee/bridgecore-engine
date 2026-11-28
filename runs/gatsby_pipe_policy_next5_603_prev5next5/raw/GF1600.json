@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuisJXzJMeQavgJE97S",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1600\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"He had slept through the heat\",\"tgt_span\":\"그는 무더위에 지쳐 … 잠을 자다가\",\"description\":\"더위 속에서 계속 잤다는 내용이 '무더위에 지쳐' 잤다는 원인 서술로 바뀌어 원문에 없는 이유가 첨가됨\"},{\"id\":\"E002\",\"src_span\":\"pale as his own pale hair\",\"tgt_span\":\"본인의 머리카락만큼이나 안색이 창백했고\",\"description\":\"'본인의 머리카락'에서 '본인'이 윌슨이 아니라 미카엘리스로 읽힐 수 있으나, 문맥상 윌슨으로 해석 가능하고 'pale hair'의 '창백한' 수식이 빠짐(대응은 유지)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인과): 더위 속에서 계속 잤다는 서술이 '무더위에 지쳐' 잤다는 원인으로 바뀌어 원문에 없는 인과가 더해졌으나, 핵심 사건과 윌슨의 상태는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1(지시): '본인의'가 직전 주어 미카엘리스를 가리키는 것으로 읽힐 소지가 있어 소유 관계의 지시 대상이 흐려지나, 바로 앞뒤 문맥상 윌슨으로 복원 가능하여 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"증언 서사 서술 → 서사 서술. 사건을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 평서체 '~했다'가 유지되어 관계·격식에 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2204,
+    "output_tokens": 888,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

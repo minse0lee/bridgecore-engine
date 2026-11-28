@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuQVXMaMbfqnnQjZZ45",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0027\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"muttered Finnish wisdom to herself\",\"tgt_span\":\"핀란드어로 혼잣말을 중얼거리곤 했다\",\"description\":\"'핀란드의 지혜(Finnish wisdom)'를 중얼거렸다는 내용이 '핀란드어로 혼잣말'로 바뀌어 wisdom의 의미(아이러니한 지혜 암시)가 사라짐\"},{\"id\":\"E002\",\"src_span\":\"at least I had him for a few days until he ran away\",\"tgt_span\":\"도망가기 전까지 며칠 동안만 내 곁에 있었을 뿐이다\",\"description\":\"'at least'의 수정·한정 기능을 '-만 …뿐'으로 옮겼으나 의미는 유지됨; 'had a dog'를 '키웠다'로 옮김\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'Finnish wisdom'(핀란드식 지혜)이 '핀란드어로 혼잣말'로 바뀌어 중얼거린 내용의 성격이 달라졌으나, 가정부가 혼잣말을 중얼거렸다는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"at least의 수정 초점은 '며칠 동안만'으로 유지되고, 열거 연결 및 관계절 대응도 유지되며 지시 관계 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(소유물과 가정부 묘사) → 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범적 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술체 '-다'가 유지되며 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Dodge를 '닷지 자동차'로 통용 표기하여 같은 대상을 가리키며 핀란드인도 동일하게 옮겼습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2166,
+    "output_tokens": 867,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

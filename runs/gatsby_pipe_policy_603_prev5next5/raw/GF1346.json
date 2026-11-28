@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUugTXz6YDHUNaKyJTUy",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1346\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“Your wife does,”\",\"tgt_span\":\"\\\"네 부인이 그렇다는 거지,\\\"\",\"description\":\"놀라서 되받는 반응이 '그렇다는 거지'라는 확인 어투로 바뀌어 'does(=want to go West)'의 내용(서부로 가고 싶어 한다)이 모호해졌다. 다만 '그렇다'가 앞 문맥의 '떠나고 싶다'를 가리키므로 의미는 복원 가능하다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'네 부인이 그렇다(떠나고 싶어 한다)'는 does의 대용 내용을 유지하고, 톰이 놀라 외쳤다는 서술도 같다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그렇다'가 앞 문장의 '서부로 가고 싶다'를 가리키는 대용 관계를 유지해 지시 대상이 바뀌지 않았다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"원문의 놀라움을 담은 되받는 반문 → 번역문은 '~거지'로 상대 말을 확인·정리하는 평서에 가까워져 기능이 달라졌다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 문장이다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 윌슨에게 하는 반말과 '네 부인'이 둘의 관계(톰이 우위)에 어울리며, 번역문 전체에서 톰의 말투도 일관된다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화·제도 고유의 대상이 없다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1139,
+    "output_tokens": 753,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

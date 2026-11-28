@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUunr1WVEGU3ZFrWbRZh",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1696\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"have them get you some supper\",\"tgt_span\":\"저녁이라도 좀 먹어\",\"description\":\"하인들에게 저녁을 가져다 달라고 시키라는 내용이 직접 저녁을 먹으라는 말로 바뀜. 시키는 대상('them')과 사역 구조가 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위자·행위): 'have them get you some supper'(하인들에게 저녁을 내오게 하라)가 '저녁을 먹어'로 바뀌어 누가 무엇을 하는지가 달라졌습니다. 다만 부엌에 가서 저녁을 먹는다는 핵심 사태와 택시 호출은 유지되어 요지는 크게 달라지지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'while you're waiting'이 '기다리는 동안'으로 시간 관계를 유지하고, 'if you want any'도 '원한다면 말이야'로 조건 연결이 남아 있습니다. 지시·연결·초점 관계는 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대에게 행동을 권하는 제안·지시 → 상대에게 행동을 권하는 제안·지시. 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 대화 속 개인적 제안·권유이며 규범적 의무·허가·금지를 정하는 표현이 아니므로 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"게츠비류 인물이 친구 닉에게 하는 격의 없는 말투가 '-줄게', '-먹어'의 반말로 유지되어 관계와 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 문화·제도 고유의 대상이 없어 평가할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1308,
+    "output_tokens": 828,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

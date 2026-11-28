@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuWmjqH9x6zTtkSAJ5N",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0328\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the Follies\",\"tgt_span\":\"'폴리스'\",\"description\":\"Ziegfeld Follies(지그펠드 폴리스)라는 공연 이름이 설명 없이 '폴리스'로만 음역되어, 한국어 독자가 이를 브로드웨이 공연 쇼로 알아보기 어려움(police로 오독할 여지).\"},{\"id\":\"E002\",\"src_span\":\"there is a burst of chatter as the erroneous news goes around\",\"tgt_span\":\"잘못된 소문이 퍼지며 수다 소리가 터져 나왔다\",\"description\":\"인과·시간 관계를 '퍼지며'로 옮겨 동시 진행으로 읽히지만 소문과 수다의 연결은 유지됨(의미 변화 아님).\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"잠시의 정적, 지휘자의 친절한 리듬 변화, 수다 터짐, 길다 그레이의 대역이라는 잘못된 소문 등 인물·행위·내용이 모두 유지됩니다. 'Follies'의 음역은 지시 대상이 완전히 사라진 정도는 아니고 Cultural에서 다룹니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'she'가 앞의 여자를 가리키는 지시 관계와 소문-수다의 연결이 '~자', '~며'로 유지되어 세 질문 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"파티 장면 묘사 서술 → 파티 장면 묘사 서술. 서술 기능이 그대로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서사 묘사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문의 평서 종결 '-했다'체가 유지되며 화자·청자 관계상 어긋나는 높임이나 호칭이 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 1920년대 뉴욕 브로드웨이 레뷰 쇼 'Ziegfeld Follies'가 '폴리스'로만 옮겨지고 따옴표 처리되어 한국어 독자가 공연 제도·기관명으로 이해하기 어렵습니다. 다만 길다 그레이의 대역이라는 요지는 전달되어 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2620,
+    "output_tokens": 1001,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

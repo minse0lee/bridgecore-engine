@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuQ3bt61TUsARjWZXR2",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0021\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Instead of being the warm centre of the world\",\"tgt_span\":\"세상의 따뜻한 중심이었던 중서부는\",\"description\":\"'Instead of being'은 중서부가 더 이상 세상의 따뜻한 중심으로 느껴지지 않는다는 대조를 나타내지만, 번역문은 중서부가 과거에 따뜻한 중심이었다는 사실로 옮겨 화자의 지각 변화가 달라짐\"},{\"id\":\"E002\",\"src_span\":\"learn the bond business\",\"tgt_span\":\"채권 사업을 배우기로\",\"description\":\"bond business(채권 업계·증권업)를 '채권 사업'으로 옮김. 의미는 대체로 통하므로 사소한 용어 차이\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'Instead of being'이 '중심이었던'으로 바뀌어, 중서부가 따뜻한 중심으로 여겨졌던 과거의 인식이 사실처럼 서술됐으나 핵심 사실(중서부가 이제 변두리처럼 느껴져 동부로 가기로 결심)은 유지되어 요지는 이해됩니다. 'bond business'→'채권 사업'은 통상적 대응입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2: 'Instead of'가 나타내는 대조 관계(따뜻한 중심 대신 변두리)가 '이었던 … 이제'라는 시간적 변화로 재구성되어 대조가 시간 순서로 바뀌었습니다. 다만 '이제'로 대비가 남아 있어 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 회고 설명 → 회고 설명. 동부로 가게 된 이유를 설명하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술자의 회고체 서술이 '~했다' 서술체로 유지되어 관계와 격식에 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"Middle West는 지역명이며 별도로 판정할 문화 고유의 제도·단위·관습은 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 3177,
+    "output_tokens": 974,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuTHHje6usRSjt5kkX7",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0129\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"as if it were a drop in the bottom of a glass\",\"tgt_span\":\"잔 바닥에 남은 마지막 한 방울까지 털어 넣듯\",\"description\":\"원문은 술이 잔 바닥의 한 방울 정도로 적은 양처럼 가볍게 들이켰다는 비유인데, 번역은 마지막 한 방울까지 남김없이 털어 넣는다는 동작 묘사로 바뀜. 남은 마지막 한 방울이라는 내용이 첨가되고 '적은 양처럼 대수롭지 않게 여김'의 함의가 약해짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'a drop in the bottom of a glass'(적은 양이라 부담 없이 마신다는 비유)가 '마지막 한 방울까지 털어 넣는' 동작으로 바뀌었으나, 단숨에 술을 들이켠다는 핵심 사실은 유지되어 요지는 크게 다르지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현의 변화가 없고 'as if'의 비유 관계는 '듯'으로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 인물의 행동을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장은 화자가 청자에게 말하는 대화가 아니라 서술문이며 높임·호칭이 관여하지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1467,
+    "output_tokens": 773,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

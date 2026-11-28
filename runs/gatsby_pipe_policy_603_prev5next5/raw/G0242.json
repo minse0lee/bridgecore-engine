@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuVHmJzoNbXAQDiqCxT",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0242\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Tom was God knows where\",\"tgt_span\":\"톰이 어디 있었는지는 신만이 아시겠죠\",\"description\":\"'God knows where'는 톰이 어디 있는지 알 수 없다(어디 가 있었는지 모르겠다)는 관용적 표현인데, 번역은 '신만이 아시겠죠'로 옮겨 톰의 소재가 불명이라는 뜻은 유지하나 추측형 종결로 데이지의 비난·냉소 어조가 다소 약해짐. 의미·기능을 바꾸지는 않음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"딸이 태어난 지 한 시간도 안 됐고 톰은 어디 있는지 알 수 없었다는 내용이 모두 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'she'는 '그 애'로 같은 대상(딸)을 가리키고, and의 병렬 관계는 '-였는데'로 자연스럽게 이어져 연결 관계가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"출산 당시 상황 서술(톰의 부재에 대한 냉소) → 같은 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"데이지가 닉에게 구어체 존댓말로 이야기하는 상황에 '-겠죠' 종결이 어울리고 톰에 대한 냉소적 태도도 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없고 인명만 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1682,
+    "output_tokens": 772,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

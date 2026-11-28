@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUunLBt8pb8GFy65oRSv",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1684\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Self-consciously\",\"tgt_span\":\"톰은 위세를 떨며\",\"description\":\"'Self-consciously'(어색해하며, 남의 시선을 의식하며)가 '위세를 떨며'로 바뀌어 태도의 내용이 달라지고, 주어와 연결되는 대상이 불분명해짐. 수식 대상이 톰으로 한정됨\"},{\"id\":\"E002\",\"src_span\":\"with his authoritative arms breaking the way\",\"tgt_span\":\"팔을 휘둘러 길을 냈고\",\"description\":\"'authoritative'(권위 있는)가 '위세를 떨며'로 옮겨지고 'arms'가 '팔을 휘둘러'로 바뀜. 대체로 의미가 유지되어 이 항목은 경미한 변이임\"},{\"id\":\"E003\",\"src_span\":\"a hurried doctor\",\"tgt_span\":\"서두르는 의사와 마주쳤는데\",\"description\":\"'passing'(스쳐 지나감)이 '마주쳤는데'로 바뀌어 단순히 지나친 것이 만남으로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E003\"],\"reason\":\"판단 질문 1: 'Self-consciously'(남의 시선을 의식하며)가 '위세를 떨며'로 바뀌어 태도 내용이 달라졌고, 'passing'이 '마주쳤는데'로 바뀌어 행위가 달라졌으나 핵심 사건(군중을 밀치고 나감, 의사를 지나침)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계는 유지됩니다. '그를 따라'는 'his arms breaking the way'의 관계를 자연스럽게 재구성한 것이고 '그 과정에서'도 시간 관계를 유지합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 사건을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장은 서술문으로 화자와 청자의 관계가 드러나는 높임·호칭 표현이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·관습·단위가 없습니다. 'half an hour'는 30분으로 정확히 옮겼습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1685,
+    "output_tokens": 1028,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

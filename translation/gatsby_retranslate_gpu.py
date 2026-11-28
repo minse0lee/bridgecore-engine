@@ -72,14 +72,16 @@ def opinion(fl):
     return "\n".join(lines)
 
 
-def user_text(gt, allb, k, cur, flags, cond, n_ctx):
-    """cur: 문장 id → 현재 번역, flags: 문장 id → 짚인 내용. 돌려주는 sents는 다시 번역할 문장만."""
+def user_text(gt, allb, k, cur, flags, cond, n_ctx, n_next=0):
+    """cur: 문장 id → 현재 번역, flags: 문장 id → 짚인 내용. 돌려주는 sents는 다시 번역할 문장만. n_next>0이면 뒤 문단 원문도 문맥으로 준다."""
     b = allb[k]
     ctx = [x["para"] for x in allb[max(0, k - n_ctx):k]]
+    nxt = [x["para"] for x in allb[k + 1:k + 1 + n_next]] if n_next else []
     para = [s for s in b["sents"] if s["translate"]]
     sents = [s for s in para if s["id"] in flags]
     text = ("[앞 문단 원문 — 문맥 참고용, 번역하지 마세요]\n" + ("\n\n".join(ctx) if ctx else "(없음)") +
             "\n\n[이번 문단 원문 전체]\n" + b["para"] +
+            (("\n\n[뒤 문단 원문 — 문맥 참고용, 번역하지 마세요]\n" + "\n\n".join(nxt)) if nxt else "") +
             "\n\n[이번 문단의 현재 번역 — 참고용]\n" + "\n".join(f'{s["id"]}\t{cur.get(s["id"], "")}' for s in para) +
             "\n\n[다시 번역할 문장 — id마다 하나씩]")
     for s in sents:
@@ -123,6 +125,7 @@ def main(argv=None):
     ap.add_argument("--cur", default=None, help="현재 번역 jsonl(기본: out/gemma_full_bf16_ctx5.jsonl 이 있으면 그것, 없으면 gemma_ch1_3_bf16_ctx5.jsonl)")
     ap.add_argument("--tag", default="", help="결과 파일 이름 뒤에 붙일 말(예: full)")
     ap.add_argument("--policy", action="store_true", help="번역 쪽 시험의 추가 방침(용어·호칭·말투)을 재번역 지침에도 넣는다(gatsby_policy_gpu.py 필요)")
+    ap.add_argument("--next", type=int, default=0, help="뒤 문단 원문을 이 수만큼 문맥으로 준다(처음 번역을 policy_next5로 했을 때 5)")
     ap.add_argument("--bs", type=int, default=4)
     ap.add_argument("--limit", type=int, default=0, help="이 수만큼의 문단만(시험)")
     ap.add_argument("--show", type=int, default=0, help="프롬프트를 이 수만큼 출력하고 끝냄(모델을 올리지 않음)")
@@ -151,7 +154,7 @@ def main(argv=None):
     done = {r["id"] for r in G.read_jsonl(out_path)} if out_path.exists() else set()
     ks = [k for k in idx if any(s["translate"] and s["id"] in flags and s["id"] not in done for s in allb[k]["sents"])]
     todo_flags = {i: f for i, f in flags.items() if i not in done}
-    packs = {k: user_text(gt, allb, k, cur, todo_flags, a.cond, G.CFG["n_ctx"]) for k in ks}
+    packs = {k: user_text(gt, allb, k, cur, todo_flags, a.cond, G.CFG["n_ctx"], a.next) for k in ks}
     order = sorted(ks, key=lambda k: len(packs[k][1]))
     if a.limit:
         order = order[::max(1, len(order) // a.limit)][:a.limit]
@@ -166,7 +169,7 @@ def main(argv=None):
     m = (G.Fake if a.fake else G.Gemma)(gt, allb, a.bs)
     run_gen = gen_fake if a.fake else gen
     meta = {**m.meta, "config": "retrans_ctx5", "retrans_cond": a.cond, "retrans_prompt_hash": prompt_hash(gt, a.cond),
-            "flags_file": Path(a.flags).name, "cur_file": cur_path.name, "policy": bool(a.policy)}
+            "flags_file": Path(a.flags).name, "cur_file": cur_path.name, "policy": bool(a.policy), "n_next": a.next}
     raw_log = open(out_dir / f"raw_fail_{tag}.jsonl", "a", encoding="utf-8")
     n_same = n_sent = 0
 

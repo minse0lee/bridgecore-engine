@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuiYE54qkiHnR4Ubjtd",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1453\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I had one of those renewals of complete faith in him that I’d experienced before\",\"tgt_span\":\"전에도 몇 번 겪었던 것처럼, 그에 대한 전적인 신뢰가 다시금 솟구쳤다\",\"description\":\"'이전에 경험했던 것과 같은 종류의 신뢰 회복'이 '전에도 몇 번 겪었던 것처럼'으로 바뀌어 '몇 번'이라는 횟수가 더해지고, 화자 '나'가 번역문에서 드러나지 않는 것은 문맥상 자연스러움\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(수량): 원문은 전에 경험한 적이 있다고만 하는데 번역문은 '몇 번'이라는 횟수를 덧붙였습니다. 다만 핵심 사실(전적인 신뢰가 되살아남)은 유지되어 요지는 다르게 이해되지 않으므로 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그'가 개츠비를 가리키는 지시 관계와 '전에도 ~처럼'의 시간·비교 연결이 유지되어 질문 1·2·3 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 심경 서술 → 화자의 심경 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술자의 소설 서술체('~했다')가 유지되며 특별한 높임이나 태도 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1387,
+    "output_tokens": 802,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

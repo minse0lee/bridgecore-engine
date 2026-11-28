@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuXfpBNq495DiGCXvkW",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0369\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“Who doesn’t?”\",\"tgt_span\":\"“누가 안 그러겠어요?”\",\"description\":\"'누가 (누구와도) 골치 아픈 일을 원하지 않는가?'라는 실제 질문이 '누가 안 그러겠어요?'라는 반어적 수사의문(모두 그렇다는 뜻)으로 바뀜. 직후 '개츠비 씨요'라는 대답과 맞지 않고, 묻는 대상이 특정 인물에서 일반 대중으로 달라짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물·행위): 원문은 앞 문장의 'he'가 누구인지 묻는 질문인데, 번역은 '누구나 그렇다'는 뜻의 반문이 되어 묻는 대상·내용이 달라져 요지를 다르게 이해하게 됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(지시): 원문은 앞의 'He'가 가리키는 인물을 묻는데, 번역의 '안 그러겠어요'는 지시 대상을 묻지 않아 뒤의 '개츠비 씨요'와 이어지지 않습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"원문 기능 → 번역 기능: 앞 발언의 'he'가 누구인지 묻는 정보 질문 → 모두 그렇다는 뜻의 반어적 수사의문(동의·반박). 다른 종류의 기능으로 바뀌었습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 질문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"일상 대화에서 '-어요' 체의 평이한 말투를 쓴 것으로 화자 관계와 격식에 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1324,
+    "output_tokens": 876,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

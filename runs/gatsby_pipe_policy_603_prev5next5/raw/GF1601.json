@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuis8sBYAK9qpuX9nTC",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1601\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"advised him to go to bed\",\"tgt_span\":\"그에게 가서 좀 쉬라고 권했지만\",\"description\":\"'go to bed'(잠자리에 들다/자리에 눕다)가 '가서 좀 쉬라고'로 바뀌어 눕거나 자러 가라는 구체적 행위가 일반적인 휴식 권유로 일반화됨. 뜻은 크게 다르지 않음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"권유하는 사람, 거절하는 사람, 손님을 놓칠 것이라는 이유가 모두 유지됩니다. '쉬라'는 'go to bed'를 일반화했지만 병든 사람에게 쉬라는 같은 사태를 기술하므로 오류로 보지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'but'은 '권했지만'으로 대조가 유지되고, 'if he did'는 '그렇게 했다가는'으로 조건 관계와 지시 대상이 유지됩니다(판단 질문 1·2·3 모두 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 상황 서술 → 상황 서술. 권유와 거절을 전하는 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문 속 개인적 권유와 거절을 전달하는 문장이며 규범을 정하는 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"3인칭 서술문의 평서체이며 등장인물 간 관계에 어긋나는 높임이나 호칭 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없고 인명만 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2104,
+    "output_tokens": 788,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

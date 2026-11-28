@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuobUgK5drArmSTPmzU",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1716\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"For all I knew he was going to rob the house in a moment\",\"tgt_span\":\"어쩌면 그는 당장이라도 집을 털 생각이었을지도 모른다\",\"description\":\"'내가 아는 한(알 수 없는 상황에서) 그가 곧 털려 한다는 화자의 추측'이 '어쩌면 ~했을지도 모른다'로 옮겨져, 화자의 인지 범위(알지 못함) 표지가 사라지고 확실성은 유사한 수준의 추측으로 남음. 핵심 사실은 유지됨\"},{\"id\":\"E002\",\"src_span\":\"behind him in the dark shrubbery\",\"tgt_span\":\"어두운 덤불 뒤로\",\"description\":\"'그의 뒤쪽 어두운 덤불'에서 '그의 뒤'가 빠지고 덤불 뒤로 표현됨. 위치가 약간 달라짐\"},{\"id\":\"E003\",\"src_span\":\"I wouldn’t have been surprised to see sinister faces\",\"tgt_span\":\"흉측한 얼굴들 … 나타났더라도 나는 놀라지 않았을 것이다\",\"description\":\"sinister(불길한/음흉한)가 '흉측한'(외모가 흉한)으로 바뀌어 위협적 성격이 외형 묘사로 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 1: sinister(불길한·음흉한)가 '흉측한'(생김새가 흉한)으로 바뀌어 평가 내용이 달라졌으나 핵심 장면(집을 털려 한다는 의심, 울프심 일당이 나타나도 놀라지 않음)은 유지되어 minor입니다. 'For all I knew'의 확실성 차이와 '그의 뒤' 위치는 요지를 바꾸지 않아 오류로 보지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계는 유지됩니다. 세미콜론으로 이어진 두 절이 두 문장으로 나뉘었으나 병렬 관계가 남아 있고 'Wolfshiem's people'이 faces를 설명하는 동격 관계도 '그러니까'로 보존됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 불안한 추측을 서술하는 기능 → 화자의 불안한 추측을 서술하는 기능으로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 독백적 서술에 맞는 평서체 '~다'가 유지되며 관계 표지가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명(Wolfshiem)만 있고 별도로 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1238,
+    "output_tokens": 1168,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuRsSVtKtgtwsfzasCd",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0075\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"a snub-nosed motorboat that bumped the tide offshore\",\"tgt_span\":\"해안가에서는 뭉툭한 모양의 모터보트 한 척이 조류에 밀려 출렁이고 있었다\",\"description\":\"모터보트가 조수를 들이받듯 부딪치는 능동적 행위가 조류에 밀려 출렁이는 수동적 움직임으로 바뀜. 가벼운 의미 차이\"},{\"id\":\"E002\",\"src_span\":\"the front vista\",\"tgt_span\":\"앞마당의 전경\",\"description\":\"vista(경관)가 앞마당의 전경으로 한정됨. 통상적 대응 범위 내이므로 오류 아님으로 간주하되 기록만 함\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위): 보트가 조수에 부딪치는(bumped the tide) 행위가 조류에 밀려 출렁이는 것으로 바뀌었으나 장면의 요지와 핵심 사실(정원, 장미, 보트)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계가 유지됩니다. 'including in its sweep'은 문장 분할과 '손끝이 가리키는 곳에는'으로 재구성되었으나 포함 관계가 남아 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사 서술 → 장면 묘사 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서사 묘사입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문으로 화자와 청자의 관계가 드러나는 높임·호칭이 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'half acre'를 '반 에이커'로 원 단위 그대로 옮기고 이탈리아식 정원도 같은 대상을 가리켜 보존됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1879,
+    "output_tokens": 851,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

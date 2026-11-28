@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuQ3b97BR2VU6E8gPCc",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0017\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the Dukes of Buccleuch\",\"tgt_span\":\"버클루 공작 가문\",\"description\":\"Buccleuch의 한국어 표기가 통용 표기(버클루/벅클루)와 다소 다르나 공작 가문임은 전달됨. 의미 변화 없음으로 오류 아님에 가까우나 표기 차이로 기록\"},{\"id\":\"E002\",\"src_span\":\"fifty-one\",\"tgt_span\":\"51년\",\"description\":\"1851년을 '51년'으로 옮겨 세기가 드러나지 않음. 원문도 축약 표기이므로 통상적 대응\"},{\"id\":\"E003\",\"src_span\":\"sent a substitute to the Civil War\",\"tgt_span\":\"남북 전쟁 때는 대리인을 보냈고\",\"description\":\"대리인을 전쟁에 보냈다는 의미 유지. 차이 없음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"가문의 전설, 할아버지 형제인 시조, 51년 도착, 대리 징집, 철물 도매업 계승의 내용이 모두 유지됩니다. 'something of a clan'이 '씨족 같은 분위기'로 옮겨진 것은 표현 차이에 그칩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but의 대조(전설 vs 실제 시조)와 who 관계절의 지시 대상(할아버지의 형제)이 문장 분할 후에도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"가문 내력 서술 → 가문 내력 서술. 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 담담하고 약간 아이러니한 서술 태도가 서술체로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"버클루 공작 가문, 남북 전쟁, 대리 징집이라는 역사적 대상을 같은 대상으로 옮겼고 한국 제도로 대체하지 않았습니다. 51년은 원문 축약 표기를 따른 것으로 독자가 맥락에서 이해할 수 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2582,
+    "output_tokens": 930,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

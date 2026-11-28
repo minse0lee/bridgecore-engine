@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuh9R6q2PN3Q4JPzHZ6",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1363\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"less than twenty feet away\",\"tgt_span\":\"6미터도 안 되는 가까운 거리에서\",\"description\":\"피트를 미터로 환산함. 20피트는 약 6.1미터이므로 '6미터도 안 되는'은 사실상 '20피트 미만'과 같은 범위이며 수치 오류가 아님. 단위 표기만 달라짐.\"},{\"id\":\"E002\",\"src_span\":\"Over the ash-heaps\",\"tgt_span\":\"재더미 너머로\",\"description\":\"'위로(위쪽에서)'를 '너머로'로 옮겼으나 에클버그의 눈이 재더미 위쪽에서 지켜본다는 사태와 크게 어긋나지 않음. 의미 차이로 보기 어려움.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"에클버그의 눈이 계속 지켜보고, 20피트 미만(약 6미터 미만)에서 다른 눈이 강렬하게 우리를 응시함을 알아챘다는 내용이 모두 유지되며, 환산도 정확하고 '너머로'도 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but의 대조 연결이 '-지만'으로 유지되고 'other eyes'의 지시 관계도 '또 다른 눈'으로 유지됩니다(질문 1·2·3 모두 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 관찰과 인지를 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 본문의 서술체 '-았다/-었다'가 유지되며 관계·호칭 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"피트를 미터로 환산한 것은 올바른 단위 환산이며 한국어 독자가 이해할 수 있습니다. 'less than twenty feet'를 '6미터도 안 되는'으로 옮긴 것은 평가조건이 로케일 표기를 문제 삼지 않는 한 통상적 대응입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2411,
+    "output_tokens": 929,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

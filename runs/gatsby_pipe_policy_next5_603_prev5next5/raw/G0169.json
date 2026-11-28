@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuU46G2rRbcpHw7o73y",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0169\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“Why, no,”\",\"tgt_span\":\"“아니요, 안 읽었습니다.”\",\"description\":\"놀람의 감탄사 Why가 번역되지 않았고, 원문에 없는 '안 읽었습니다'가 보충됨(생략된 내용의 보충이며 의미는 같음). 화자(닉)가 톰에게 쓰는 높임 '-습니다' 격식체가 다소 딱딱함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"읽지 않았다는 대답, 그의 말투에 조금 놀랐다는 내용이 모두 유지됩니다. '안 읽었습니다'는 앞 질문에서 복원되는 생략 내용입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'his tone'이 톰의 말투를 가리키는 관계와 앞 질문에 대한 응답 연결이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"질문에 대한 부정 응답 → 부정 응답. 서술 기능이 동일합니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"닉과 톰은 사촌 사이의 친구 관계로 높임말 사용이 가능하며, 앞서 닉이 데이지에게 존댓말로 말한 번역과도 일관됩니다. 어색함만으로 훼손이 아닙니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1542,
+    "output_tokens": 714,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

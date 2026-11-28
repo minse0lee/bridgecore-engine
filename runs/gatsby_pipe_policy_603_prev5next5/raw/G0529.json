@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuaxFibGv5GEfzC8n35",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0529\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Under the name of Mrs. Sigourney Howard…\",\"tgt_span\":\"시고니 하워드 부인이라는 이름으로 되어 있을 거예요…\",\"description\":\"'~라는 이름으로' 뒤에 '되어 있을 거예요'를 덧붙여 전화번호부 등재가 추측으로 읽히게 함. 파편적 발화를 보충한 것으로 핵심 정보(전화번호부, 이름)는 유지됨\"},{\"id\":\"E002\",\"src_span\":\"Please come and see me\",\"tgt_span\":\"꼭 저를 보러 오세요\",\"description\":\"'꼭'이 추가되어 요청 강도가 다소 강해짐\"},{\"id\":\"E003\",\"src_span\":\"My aunt…\",\"tgt_span\":\"제 고모인데…\",\"description\":\"'aunt'를 '고모'로 한정함. 이모 등 다른 이모·숙모 가능성이 배제됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E003\"],\"reason\":\"판단 질문 1: 'aunt'를 '고모'(아버지 쪽)로 특정하고, 전화번호부 등재에 '되어 있을 거예요'라는 추측을 덧붙여 확실성이 달라졌으나 핵심 사실(방문 요청, 전화번호부, 부인 이름, 숙모/고모 관계)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사·연결·초점 관계가 바뀐 곳이 없고 '제 고모'의 소유 관계도 유지됩니다. 파편적인 문장 구조도 그대로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"방문 요청과 연락 방법 안내 → 방문 요청과 연락 방법 안내. 같은 종류의 기능입니다. '꼭'은 강도만 바꿉니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"개인적인 부탁이므로 규범적 의무·허가·금지 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조던이 닉에게 정중하게 부탁하는 관계로 보이며, '-세요/-예요' 해요체가 그 상황에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Mrs. Sigourney Howard'는 인명이고 '전화번호부'는 일반 사물이어서 별도로 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1681,
+    "output_tokens": 1011,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

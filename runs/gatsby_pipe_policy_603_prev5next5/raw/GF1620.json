@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUujijNcAzJGSkqubr7D",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1620\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"they had torn open her shirtwaist, still damp with perspiration\",\"tgt_span\":\"땀에 젖어 축축한 셔츠를 찢어 열자\",\"description\":\"'they'(미카엘리스와 그 남자)가 찢었다는 행위자가 생략되고, shirtwaist(여성용 블라우스)가 일반 '셔츠'로 바뀜. 행위자는 앞 문장에서 복원 가능하고 의미 차이는 작음.\"},{\"id\":\"E002\",\"src_span\":\"there was no need to listen for the heart beneath\",\"tgt_span\":\"그 아래에서 심장 소리를 들어볼 필요조차 없었다\",\"description\":\"'필요조차'로 'even'의 뜻이 더해졌으나 이미 죽었음이 분명하다는 의미는 유지됨. 의미를 바꾸지 않는 사소한 차이.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"먼저 도착한 인물, 옷을 찢어 가슴이 늘어져 있음을 본 것, 심장 소리를 들을 필요가 없었다는 내용이 모두 유지됩니다. shirtwaist를 '셔츠'로, 행위자 생략은 같은 사태를 기술하므로 오류로 보지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"시간 연결(when→'-자')과 앞 문장과의 연결이 유지되고, 지시 대상(그녀, 심장)도 바뀌지 않았습니다. 생략된 행위자는 앞 문장에서 복원 가능합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사건 장면 서술 → 사건 장면 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'no need to listen'은 규범이 아니라 상황상 불필요함을 서술하는 표현이므로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문의 평서체 문어체가 유지되며 화자·독자 관계에 어긋남이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 별도로 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2115,
+    "output_tokens": 933,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

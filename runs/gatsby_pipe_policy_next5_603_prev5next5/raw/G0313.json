@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuWL2GqVuWwuxbJDbDL",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0313\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the Sound\",\"tgt_span\":\"해협\",\"description\":\"Long Island Sound라는 특정 지명 '(롱아일랜드) 사운드'를 일반 명사 '해협'으로 옮김. 지시 대상은 대체로 통하므로 경미함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"손님들의 다이빙·일광욕, 모터보트 두 척이 물살을 가르며 아쿠아플레인을 끄는 내용이 유지됩니다. '해협'은 the Sound를 일반어로 옮긴 통상적 대응으로 지시 대상이 달라지지 않아 의미 훼손으로 보지 않습니다. 힌트의 수치 104는 번역문 전체에 없는 오경보입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"while이 이끄는 동시 관계가 '그동안'으로 재구성되어 시간 관계가 남아 있고, 지시·초점 관계 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 회상적 장면 묘사 → 회상적 장면 묘사. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체의 '~했다' 평서문이 유지되며 화자·청자 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"the Sound를 '해협'으로 옮겨 지명 고유성은 줄었지만 제도·관습·단위 같은 문화 대상은 아니고 지시 대상도 크게 달라지지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2333,
+    "output_tokens": 755,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

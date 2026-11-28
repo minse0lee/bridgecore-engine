@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuaDHpYdEPHXebtS1mS",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0487\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"even into groups\",\"tgt_span\":\"혹은 무리 속으로\",\"description\":\"even(심지어 ~에게까지)의 강조가 '혹은'이라는 선택 접속으로 바뀌어 초점이 사라짐\"},{\"id\":\"E002\",\"src_span\":\"with Gatsby’s head for one link\",\"tgt_span\":\"개츠비를 끼워 넣은\",\"description\":\"개츠비의 머리가 사슬의 한 고리가 된다는 구체적 이미지가 '개츠비를 끼워 넣은'으로 일반화됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"파티가 끝난 뒤 여자들의 행동과 개츠비만 제외된다는 내용이 유지됩니다. 'even'과 'head for one link'의 변화는 뉘앙스 수준이고 사태는 같습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(초점·범위): even이 '혹은'으로 옮겨져 '심지어 무리 속으로까지'라는 초점 표현이 사라지고 단순한 선택 대안으로 바뀌었습니다. 대조 구조 'but no one'은 '하지만'으로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(개츠비의 절제와 거리감을 보여주는 묘사) → 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 간 대화나 높임·호칭이 드러나는 문장이 아니라 서술 지문입니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"French bob(프랑스식 단발머리)을 같은 대상으로 옮겼고 문화적 지시 대상이 유지됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2359,
+    "output_tokens": 800,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

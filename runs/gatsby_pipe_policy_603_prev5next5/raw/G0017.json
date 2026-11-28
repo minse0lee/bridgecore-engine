@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUur2WdJ4TbQKPLdnRSD",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0017\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"in fifty-one\",\"tgt_span\":\"1851년에\",\"description\":\"'fifty-one'을 1851년으로 명시했다. 문맥상 1851년으로 해석하는 것이 타당하므로 의미 변화는 없다(힌트는 오경보).\"},{\"id\":\"E002\",\"src_span\":\"a tradition that we’re descended from the Dukes of Buccleuch\",\"tgt_span\":\"버클루 공작 가문의 후손이라는 가문의 전설도 내려오지만\",\"description\":\"'tradition'을 '전설'로 옮겼다. 사실 여부가 불확실한 구전이라는 뉘앙스는 유지되어 의미를 바꾸지 않는다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"가문의 실질적 시조인 할아버지의 형제, 1851년 도래, 남북 전쟁 대리인 파견, 철물 도매업 창업과 아버지의 계승이 모두 유지된다. 'fifty-one'은 1851년으로 해석하는 것이 맞아 달라진 항목이 없다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but이 만드는 전설과 실제 시조의 대조, 'who'가 가리키는 할아버지의 형제, 'my father carries on'의 소유 관계가 모두 유지된다(질문 1·2·3 모두 아니오). 문장 분할은 오류가 아니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 가문 내력 서술 → 가문 내력 서술. 설명 기능이 그대로 유지된다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서사 서술이다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 화자의 회고체 서술이 '-다' 평서체로 유지되며 관계상 어긋나는 높임이나 호칭이 없다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Dukes of Buccleuch를 '버클루 공작 가문'으로, Civil War를 '남북 전쟁'으로 통용 표기에 맞게 옮겼고, 대리인을 보내는 관행(substitute)도 같은 대상을 가리킨다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2709,
+    "output_tokens": 925,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

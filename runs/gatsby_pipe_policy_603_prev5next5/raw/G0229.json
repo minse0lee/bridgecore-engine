@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuV4Zokv3nqzu2x2YxN",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0229\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"cousins\",\"tgt_span\":\"친척 사이\",\"description\":\"cousins(사촌)가 상위어 '친척'으로 바뀌어 관계의 구체성이 줄어듦. 다만 핵심 사실(친족 관계)은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: cousins(사촌)가 '친척'이라는 넓은 범주로 바뀌어 대상의 구체성이 달라졌습니다. 친족이라는 핵심 사실과 결혼식에 오지 않았다는 내용은 유지되어 요지가 다르게 읽히지 않으므로 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Even if의 양보 관계가 '비록 ~하지만요'로 유지되고, 이어지는 결혼식 불참 언급과의 연결도 보존됩니다(질문 2).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서로 잘 모른다는 이유를 들어 서운함을 표하는 서술/대화 → 같은 기능의 서술/대화로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 소설 속 대화입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"데이지가 사촌 닉에게 하는 대화로, 정중하고 친근한 '~요' 체가 관계에 맞습니다. '당신'은 다소 어색할 수 있으나 훼손은 아닙니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다. 인명만 있고 cousins는 일반 친족어입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1463,
+    "output_tokens": 749,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

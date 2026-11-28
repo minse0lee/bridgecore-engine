@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuXeKt3kod8N1CecytE",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0369\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“Who doesn’t?”\",\"tgt_span\":\"“누가 안 그러겠어요?”\",\"description\":\"‘누가 (누구와도) 문제를 원하지 않는가?’라는 실제 질문이 ‘누가 안 그러겠어요?’라는 수사의문(누구나 그렇다)으로 바뀌어, 다음 대사 ‘Gatsby’의 답과 어긋남\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물·행위): 앞 대사의 ‘He’가 누구인지 묻는 내용이 ‘누가 안 그러겠어요?’로 바뀌어 ‘아무도 없다/모두 그렇다’는 다른 명제가 되었고, 독자가 문장의 요지를 다르게 이해합니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: ‘Who doesn’t?’는 앞 문장의 ‘He’(원하지 않는 사람)를 되묻는 지시 관계인데, 번역은 ‘그렇지 않은 사람’이 일반인을 가리키는 것처럼 읽혀 지시 대상이 흐려지고 뒤의 ‘개츠비 씨요’와 연결되지 않습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"major\",\"error_ids\":[\"E001\"],\"reason\":\"원문 기능 → 번역 기능: 대상 확인을 요청하는 실제 질문 → 대답을 기대하지 않는 반어적 수사의문으로 바뀌어, 뒤의 ‘Gatsby’라는 대답과 이어지는 대화 기능이 달라졌습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 소설 속 질문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자(닉)가 파티 손님에게 하는 대화체이며 ‘-요’체가 무난합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1321,
+    "output_tokens": 879,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

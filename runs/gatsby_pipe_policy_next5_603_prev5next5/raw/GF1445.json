@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUui7t6s2HfcaEfmwJjL",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1445\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I told you I went there\",\"tgt_span\":\"갔다고 말씀드렸잖아요\",\"description\":\"'there'(옥스퍼드)에 해당하는 장소가 번역문에 명시되지 않고 생략되었으나, 앞선 문맥으로 복원 가능하여 의미·기능을 바꾸지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개츠비가 이미 그곳에 갔다고 말했다는 행위자·행위·시제가 유지됩니다. 장소 생략은 한국어에서 통상적인 생략이며 앞 문맥에서 복원됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'there'가 가리키는 옥스퍼드는 문맥상 복원되고, '말씀드렸잖아요'로 이미 말했다는 관계도 유지되며 연결·초점의 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"이미 말했음을 상기시키는 항변 → 이미 말했음을 상기시키는 항변. '-잖아요'로 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 같은 규범 의미가 없는 대화 속 진술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개츠비가 톰에게 정중하지만 단호하게 말하는 관계에서 '말씀드렸잖아요'는 공손하면서도 항변하는 태도를 유지합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1201,
+    "output_tokens": 727,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

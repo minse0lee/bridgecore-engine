@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuaH5mUBSDYjdpDSjgf",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0491\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"to speak to you alone\",\"tgt_span\":\"양하와 단둘이 이야기하고 싶어 하십니다\",\"description\":\"청자를 가리키는 you가 '양하'라는 의미 불명의 말로 바뀌어 지시 대상이 사라짐. 같은 문단 앞부분의 '조던 베이커 양'에서 '양'이 남은 파편으로 보임.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(인물·대상): 'you'가 '양하'라는 의미 불명의 표현으로 바뀌었으나, 문단 앞에서 호명된 Miss Baker 맥락과 '개츠비 씨', '단둘이', '이야기하고 싶어 하십니다'가 유지되어 요지는 복원된다. 따라서 minor이다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(지시 표현): 'you'가 '양하'로 바뀌어 대명사가 가리키는 대상이 불분명해졌다. 그러나 직전 호명으로 대상이 복원되므로 minor이다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"집사의 정중한 전언 → 정중한 전언. 개츠비가 따로 이야기하고 싶어 한다는 용건을 전달하는 기능이 유지된다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 아니라 상대의 희망을 전하는 말이므로 평가할 대상이 없다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"집사가 손님에게 하는 말로서 '실례합니다만'과 '~께서 ~하십니다'의 높임이 관계에 맞는다. 호칭 오류는 Semantic·Textual에서 판정했다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없다. '양하'는 호칭이 아니라 지시 대상의 오역이므로 Semantic에서 판정했다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1674,
+    "output_tokens": 866,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

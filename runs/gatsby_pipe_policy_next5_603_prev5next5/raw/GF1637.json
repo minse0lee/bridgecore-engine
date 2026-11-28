@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUukTug8bDGcTso8Kh5d",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1637\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the laden table\",\"tgt_span\":\"시신이 놓인 작업대\",\"description\":\"'짐이 실린 탁자(laden table)'가 '시신이 놓인 작업대'로 풀어 옮겨짐. 문맥상 같은 대상이므로 의미 변화는 없음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"눈이 전등에서 탁자로 천천히 내려갔다가 다시 전등으로 돌아오기를 반복하고, 높고 끔찍한 외침이 끊임없이 나온다는 내용이 유지됩니다. 'laden table'을 시신이 놓인 작업대로 구체화했지만 문맥상 같은 대상이고, 'call'을 '비명'으로 옮긴 것도 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그의'가 윌슨을 가리키는 관계가 유지되고, 'and then'의 시간 순서와 반복 구조가 '내려갔다가 다시 … 돌아오기를 반복했고'로 유지되며, 초점 표현의 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물의 행동과 외침을 묘사하는 서술 → 같은 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 묘사 문장으로 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 문어체 평서 어조가 유지되고 관계나 태도의 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2262,
+    "output_tokens": 762,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

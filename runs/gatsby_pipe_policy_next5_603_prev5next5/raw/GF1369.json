@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuhQCqjDE76MKGG8kxV",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1369\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"we came in sight of the easygoing blue coupé\",\"tgt_span\":\"유유히 달리는 파란색 쿠페가 보였다\",\"description\":\"'우리가 ~이 보이는 지점에 이르렀다'는 시야에 들어온 사건이 '쿠페가 보였다'로 바뀌었으나 같은 사태를 기술하며 의미 변화는 없음(참고용). 'easygoing'을 '유유히 달리는'으로 옮겨 의미 유지.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"본능에 따른 가속, 데이지 추월·윌슨 뒤로 따돌림의 이중 목적, 시속 50마일, 아스토리아, 파란 쿠페 발견이 모두 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"문장 분할 후 '그러다'로 until의 시간 순서 연결이 유지되고 지시 관계도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 사건 서술 → 사건 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문으로 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 '~했다'가 유지되며 관계상 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"마일 단위와 아스토리아 지명을 그대로 유지했고 숫자도 정확하며 'elevated'를 '고가 철도'로 이해 가능하게 옮겼습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2512,
+    "output_tokens": 719,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

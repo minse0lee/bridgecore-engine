@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuToipK9nHMxfyxvu2X",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0164\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"You make me feel uncivilized, Daisy\",\"tgt_span\":\"데이지, 당신들 곁에 있으니 제가 야만인이 된 기분이에요\",\"description\":\"원문은 데이지 한 사람이 '나'를 uncivilized하게 느끼게 한다고 했는데, 번역은 '당신들 곁에 있으니'로 대상을 복수로 넓히고 원인도 '곁에 있음'으로 바꿈. uncivilized(문명화되지 않은)도 '야만인'이라는 존재 규정으로 강해짐.\"},{\"id\":\"E002\",\"src_span\":\"my second glass\",\"tgt_span\":\"두 잔째\",\"description\":\"수량 표현이 유지됨(힌트의 숫자 2는 'second glass'의 번역으로 오경보). 실제 오류 아님.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 원문의 'You'(데이지)가 '당신들'로 바뀌어 대상 참여자가 달라졌고, '야만인이 된 기분'으로 정도·범주가 약간 달라졌으나 핵심 사실(문명화되지 않은 느낌을 받음)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현의 관계 변화가 없고 'on my second glass'의 시간·동반 관계도 '마시며'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"불평·고백 → 불평·고백. 자신의 열등감을 털어놓는 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"닉이 데이지에게 하는 대화로, 존대 '~에요'와 호칭 '데이지'는 친밀하면서도 예의 있는 관계에 맞고 이 문장 안에서 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"클라레 와인을 그대로 음역해 같은 대상을 가리키며 한국어 독자가 이해할 수 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2005,
+    "output_tokens": 913,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

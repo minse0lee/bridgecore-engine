@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuXn4hvxNzYYQgsnHnd",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0375\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"The three Mr. Mumbles\",\"tgt_span\":\"웅얼거리는 세 남자\",\"description\":\"'Mr. Mumbles'는 이름을 알 수 없어 붙인 별명인데, 번역문은 이를 '웅얼거리는 세 남자'라는 서술로 풀었다. 별명(호칭)이라는 지위가 사라졌고 '웅얼거린다'는 행동 묘사처럼 읽힌다. 다만 세 명이라는 수와 '웅얼거리는'이라는 뜻은 남아 있다.\"},{\"id\":\"E002\",\"src_span\":\"listened eagerly\",\"tgt_span\":\"귀를 기울였다\",\"description\":\"'eagerly'(열심히, 간절히)에 해당하는 표현이 없다. 평가어의 정도만 약해졌다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'세 명'이라는 수, 몸을 앞으로 숙이는 행위, 귀를 기울이는 행위가 모두 유지된다. 달라진 것은 별명의 표현 방식과 eagerly의 정도뿐이어서 판단 질문 2에 따라 보존으로 본다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계가 모두 유지된다. '숙인 채'는 두 동작의 동시성을 자연스럽게 나타내며 연결 관계를 바꾸지 않는다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 소문에 반응하는 인물들의 모습을 묘사하는 기능이 유지된다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 서술문이며 의무·허가·금지 같은 규범 표현이 없다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 청자의 관계에서 판정할 높임·호칭이 드러나지 않는 서술문이다. 'Mr. Mumbles'는 서술자가 붙인 별칭의 지위 문제이므로 Semantic에서 보았고 Register 판정 대상으로 삼지 않는다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"평가할 문화 고유의 제도·단위·관습이 없다. 'Mr. Mumbles'는 인명이 아닌 별명이며 제도적 의미를 지니지 않는다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1347,
+    "output_tokens": 964,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

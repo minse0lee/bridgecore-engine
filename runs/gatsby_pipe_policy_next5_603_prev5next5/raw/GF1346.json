@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUugScRNvhTR4Js4o8R9",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1346\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“Your wife does,”\",\"tgt_span\":\"\\\"부인께서 원하신다구요,\\\"\",\"description\":\"톰이 윌슨의 아내를 가리켜 '부인께서 ~신다'로 높여 말해, 톰이 윌슨을 대하는 거만하고 반말 섞인 태도(앞뒤 대사에서 '사고 싶어?', '필요한 거야?', '얼마나 주면 되겠어?')와 어긋남. 윌슨의 아내를 높이고 존댓말로 확인하는 어조로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"윌슨의 아내가 서부로 가고 싶어 한다는 내용, 톰이 놀라 외쳤다는 내용이 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"생략된 'wants to go West'가 '원하신다구요'로 이어지며 앞 문장과의 연결이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"놀라 되묻는 반응 → 놀라 되묻는 반응. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술·대화입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 톰은 앞뒤 대사에서 윌슨에게 반말을 쓰는 우월한 위치인데, 번역은 '부인께서 원하신다구요'로 존대해 관계에 맞지 않습니다. 다만 요지나 행동 이해에는 영향이 없어 minor입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1135,
+    "output_tokens": 776,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

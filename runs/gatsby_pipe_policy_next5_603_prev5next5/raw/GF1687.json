@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUunPseGYx6R5bKbR1YW",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1687\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"whimpered\",\"tgt_span\":\"훌쩍이며 중얼거렸다\",\"description\":\"울먹이며 낑낑대듯 말하는 whimpered가 '훌쩍이며 중얼거렸다'로 옮겨져 뉘앙스가 약간 달라졌으나 울먹이는 발화 방식은 유지됨(의미 차이는 경미하여 오류로 보지 않을 수 있음)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 도망친 운전자를 '빌어먹을 겁쟁이'라 욕하며 훌쩍이며 말한다는 내용이 동일하고, whimpered도 '훌쩍이며 중얼거렸다'로 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"he가 '그'로 같은 인물(톰)을 가리키며 지시·연결·초점 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"분노와 비난의 감정 표출 → 분노와 비난의 감정 표출. 같은 종류의 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 감탄과 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 혼잣말처럼 내뱉는 욕설의 거친 태도가 '빌어먹을 겁쟁이 같으니'로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1564,
+    "output_tokens": 712,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

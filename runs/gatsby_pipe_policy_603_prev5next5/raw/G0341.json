@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuWwvmQWoFzsP6pbNE8",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0341\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the easy money in the vicinity\",\"tgt_span\":\"주변에 널린 셈이 좋은 돈\",\"description\":\"'easy money'(쉽게 벌 수 있는 돈)가 '셈이 좋은 돈'으로 옮겨져 '쉽게 손에 들어오는 돈'이라는 의미가 흐려짐. 다만 '널린'과 뒤 문맥('몇 마디만 건네면 자기 것')으로 쉽게 얻는 돈이라는 취지는 어느 정도 전달됨.\"},{\"id\":\"E002\",\"src_span\":\"convinced that it was theirs\",\"tgt_span\":\"확신하는 듯했다\",\"description\":\"'convinced'(확신하고 있었다)가 '확신하는 듯했다'로 바뀌어 단정이 추측으로 약해짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'easy money'가 '셈이 좋은 돈'으로 바뀌어 의미가 흐려졌고, 'convinced'가 '확신하는 듯했다'로 바뀌어 확실성이 달라졌습니다. 다만 핵심 사실(젊은 영국인들이 쉬운 돈을 의식하고 얻을 수 있다고 믿음)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'they'가 젊은 영국인들을 가리키는 관계, 'at least' → '적어도'의 초점, 'and'로 이어진 병렬 구조가 유지되고 'that it'이 돈을 가리키는 관계도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 관찰·묘사 → 관찰·묘사. 인물의 속내를 풍자적으로 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술자의 평서 서술체('-했다')가 유지되고 특정 청자에 대한 높임 관계가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2517,
+    "output_tokens": 950,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

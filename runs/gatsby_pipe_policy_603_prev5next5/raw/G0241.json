@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuVHk58VnvcoAG1rGdh",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0241\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"It’ll show you how I’ve gotten to feel about—things.\",\"tgt_span\":\"제가 세상—일들에 대해 어떻게 생각하게 됐는지 알게 될 거예요.\",\"description\":\"주어 It(앞으로 말할 일화)이 번역문에서 생략되어 '알게 될 거예요'의 근거가 불분명해졌고, 'about—things'에 없던 '세상'이 첨가됨. 다만 일화가 보여 준다는 핵심 내용은 읽어 낼 수 있음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 원문에 없는 '세상'이 첨가되어 말을 흐리는 대상이 'things'에서 '세상—일들'로 달라졌지만, 이야기가 화자의 감정을 보여 준다는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시어 It이 생략되었으나 앞 문맥의 일화를 가리키는 관계는 읽히고, 연결·초점 관계는 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"일화를 도입하는 설명 → 일화를 도입하는 설명. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"데이지가 닉에게 존댓말로 말하는 관계와 격식이 문맥상 무리 없이 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1668,
+    "output_tokens": 744,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

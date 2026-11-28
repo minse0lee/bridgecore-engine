@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuns1Y3QZU2BufcDXoo",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1696\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"have them get you some supper\",\"tgt_span\":\"저녁이라도 좀 챙겨 먹어\",\"description\":\"하인들이 저녁을 내오게 하라는 내용이 직접 챙겨 먹으라는 말로 바뀌어 행위 주체(하인)가 빠지고 청자 본인이 행위자가 됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위자): 'have them get you some supper'는 하인들에게 저녁을 내오게 시키라는 뜻인데 번역은 직접 챙겨 먹으라고 해 행위자가 달라졌습니다. 다만 부엌에 가서 저녁을 먹으라는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'기다리는 동안'의 시간 관계와 조던과 함께 가는 지시 관계가 유지되며 지시·연결·초점의 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"제안·권유 → 제안·권유. 택시를 부르고 저녁을 권하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"better는 친구 사이의 개인적 권유이며 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개츠비가 친구 닉에게 하는 격의 없는 말투가 '자네…불러줄게…먹어' 반말체로 맥락상 적절하게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습이 없습니다(인명만 등장).\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1323,
+    "output_tokens": 757,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

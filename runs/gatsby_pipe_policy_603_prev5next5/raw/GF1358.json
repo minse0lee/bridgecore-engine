@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUugyeEXza47NtWKrEVy",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1358\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I stared at him and then at Tom, who had made a parallel discovery less than an hour before\",\"tgt_span\":\"나는 그를 보았다가, 한 시간도 채 되지 않아 비슷한 사실을 깨달은 톰을 보았다.\",\"description\":\"'less than an hour before'(톰이 발견한 시점이 이전 한 시간 미만)가 '한 시간도 채 되지 않아'로 옮겨져, 톰이 깨달은 시점이 바라보는 시점 이전이 아니라 이후 또는 경과 시간처럼 읽힐 수 있음. 다만 관계절의 과거완료 의미는 대체로 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"윌슨과 톰을 차례로 보았다는 행위, 톰의 비슷한 발견, 지능·인종보다 병자와 건강한 자의 차이가 더 깊다는 주장이 모두 유지됩니다. '한 시간도 채 되지 않아'는 시점이 다소 모호하나 같은 사태로 읽혀 내용이 달라졌다고 보기 어렵습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그러자'로 관찰과 생각의 연결이 유지되고, 비교 구조(no difference … so profound as)는 '더 깊은 격차는 …차이'로 재구성되어 있습니다. 대명사와 초점 관계는 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 관찰과 성찰을 서술하는 기능 → 같은 서술·성찰 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 화자의 서술체 평서문이 출판물 본문의 격식에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1998,
+    "output_tokens": 874,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

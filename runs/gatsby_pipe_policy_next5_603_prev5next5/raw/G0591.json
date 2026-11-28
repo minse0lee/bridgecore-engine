@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUucokJPA1sd8zYVqG4h",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0591\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"they absorbed me infinitely less than my personal affairs\",\"tgt_span\":\"내 개인적인 일들에 비해 훨씬 덜 중요했다\",\"description\":\"'나를 사로잡았다(몰두시켰다)'는 서술이 '중요했다'로 바뀌고, infinitely less가 '훨씬 덜'로 약해짐\"},{\"id\":\"E002\",\"src_span\":\"casual events\",\"tgt_span\":\"일시적인 사건들\",\"description\":\"casual(우연한·대수롭지 않은)이 '일시적인'으로 옮겨져 뉘앙스가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1: 'absorbed me(나를 몰두시킴)'가 '덜 중요했다'로 바뀌어 서술 대상이 마음의 몰입에서 중요도로 달라졌고, casual도 '일시적인'으로 달라졌으나 핵심 대조(사소한 사건 대 개인사)는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"On the contrary가 '하지만 사실'로 앞 문장의 인상과 대조하는 관계를 유지하고, until much later의 시간 범위와 비교 대상도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞선 인상을 바로잡는 서술자의 설명 → 같은 설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 의무·허가·금지 같은 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술자의 회고 서술에 맞는 평서 문어체('-했다')가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1981,
+    "output_tokens": 819,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

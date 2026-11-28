@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUuZTHf9xnN81xceRaf9",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"G0452\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"an elegant young roughneck\",\"tgt_span\":\"우아한 차림의 젊은 건달 하나\",\"description\":\"elegant(우아한/세련된 인상)가 '우아한 차림'으로 좁혀지고 '건달'로 옮겼으나, 모두 대체로 같은 대상을 가리키며 평가어의 정도 차이 수준임. 의미 변화로 보기 어려워 훼손 근거로 쓰지 않음.\"},{\"id\":\"E002\",\"src_span\":\"whose elaborate formality of speech just missed being absurd\",\"tgt_span\":\"그의 지나치게 격식을 차린 말투는 하마터면 우스꽝스럽게 들릴 뻔했다\",\"description\":\"elaborate(공들인, 정교한)를 '지나치게'로 옮겨 평가어 정도가 다소 달라졌으나 핵심 내용은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"미소가 사라짐, 서른을 한두 살 넘긴 젊은 건달, 격식 차린 말투가 하마터면 우스꽝스러울 뻔함 등 모든 항목이 유지되며, 달라진 것은 평가어의 정도뿐입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'it'이 가리키는 미소와 'whose'의 소유 관계(그의 말투), 앞뒤 시간·전환 연결이 유지되며 문장 분할은 오류가 아닙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 인상 묘사 → 서술자의 인상 묘사. 발화 기능이 같은 종류입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 '~다'로 유지되며 인물 간 호칭·높임이 나타나지 않고 서술자의 관찰 태도도 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다. 나이 수치는 그대로 옮겨져 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2061,
+    "output_tokens": 905,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

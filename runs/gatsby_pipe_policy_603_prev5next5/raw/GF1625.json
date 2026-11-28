@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChUujwVprZ2qgSXGtPSCs",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1625\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the hushed, intent faces of the people\",\"tgt_span\":\"사람들이 숨을 죽인 채 집중하고 있는 표정\",\"description\":\"'숨죽인 집중된 얼굴'이라는 표정 서술이 '사람들이 숨을 죽인 채 집중하고 있는 표정'으로 옮겨져 구조가 달라졌으나 같은 사태를 기술하며 의미는 유지됨(의미·기능 변화 없음)\"},{\"id\":\"E002\",\"src_span\":\"the garage door\",\"tgt_span\":\"정비소 문\",\"description\":\"garage를 '정비소'로 옮김. 뒤 문장 번역은 '차고'를 쓰지만 윌슨의 정비소를 가리키는 통상적 대응이라 의미 변화 없음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 속도를 줄였으나 멈출 생각이 없다가, 사람들의 숨죽인 표정에 자동적으로 브레이크를 밟았다는 행위자·행위·인과가 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'but still'의 대조는 '-지만 여전히'로, 'until'의 시간 전환은 '그러다 …때'로 유지되고 'him'은 톰으로 명시되어 지시 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 서술 기능이 그대로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장은 서술문이며 화자·청자 사이의 높임·호칭·태도가 드러나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1843,
+    "output_tokens": 835,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
