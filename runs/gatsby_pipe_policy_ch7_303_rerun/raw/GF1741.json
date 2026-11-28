@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5yfftMrHRRuRT4uuT3",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1741\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"He’s not thinking about her.\",\"tgt_span\":\"지금 데이지 생각은 전혀 안 하고 있을 겁니다.\",\"description\":\"원문의 단정적 서술이 추측('-을 겁니다')으로 바뀌어 확실성이 약해짐. 'her'를 '데이지'로 명시하고 'at all'에 해당하는 '전혀'가 더해졌으나 의미 변화는 거의 없음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2(확실성): 화자의 단정('생각하고 있지 않다')이 추측('안 하고 있을 겁니다')으로 바뀌었으나 핵심 사실(톰이 데이지를 생각하지 않음)은 유지되어 minor입니다. 독자의 요지 이해나 행동에는 영향이 없습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'her'가 '데이지'로 명시되어 지시 대상이 유지되고, 연결·초점 관계에 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞 문장을 안심시키는 진술 → 안심시키는 진술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 닉이 개츠비에게 하는 말로, '-ㅂ니다' 체가 문맥상 관계에 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1266,
+    "output_tokens": 734,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

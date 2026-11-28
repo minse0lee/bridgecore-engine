@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5uSWzviz6tvt274JYz",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1659\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I want to get his name.\",\"tgt_span\":\"이 사람 이름 알아내야 하니까.\",\"description\":\"'~하고 싶다'는 바람이 '~해야 한다'는 필요로 바뀌고, 'Look out now'와의 인과 관계('하니까')가 새로 생겼다. 다만 경찰이 이름을 받아 적으려는 상황이라 핵심 사실은 유지되어 영향은 작다.\"},{\"id\":\"E002\",\"src_span\":\"Come here and let’s have your name.\",\"tgt_span\":\"이리 와서 이름 대세요.\",\"description\":\"'let's have your name'(이름을 알려 달라)이 '이름 대세요'로 옮겨졌다. 같은 요청이라 의미는 유지된다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"이름을 대라는 요청, 조심하라는 말, 그의 이름을 알아내려는 의도가 모두 유지된다. 'want'가 '해야 한다'로 바뀐 정도는 사태를 바꾸지 않는다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 대상(your/his)이 유지되고, '하니까'는 이름을 받으려는 이유를 뒤에 붙인 연결로 읽혀 연결 관계가 크게 바뀌지 않는다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"경찰의 이름 요청·주의 지시 → 이름 요청·주의 지시. 같은 종류의 기능이 유지된다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 개인적 요청과 바람이며 의무·허가·금지를 정하는 규범 표현이 아니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"경찰이 구경꾼에게 하는 말로, '이름 대세요'(존대)와 '조심해'(반말)의 혼용은 경찰의 직설적 말투와 어울리며 관계를 바꾸지 않는다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 표현이 없다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1375,
+    "output_tokens": 872,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

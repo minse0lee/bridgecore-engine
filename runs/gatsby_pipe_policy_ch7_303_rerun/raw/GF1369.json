@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5pHZc5kHNBgGf9m2jh",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1369\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"we came in sight of the easygoing blue coupé\",\"tgt_span\":\"유유히 달리는 파란색 쿠페가 보였다\",\"description\":\"'we came in sight of'(우리가 보게 되었다)의 주어 '우리'가 사라지고 쿠페가 보였다고만 표현됨. 다만 행위자 정보가 문맥상 복원 가능하여 영향은 미미함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"본능, 가속 페달, 데이지 추월·윌슨 따돌림의 이중 목적, 시속 50마일, 아스토리아, 고가 철도 들보, 느긋한 파란 쿠페가 모두 유지됩니다. '보였다'는 시야에 들어왔다는 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'until'이 '마침내'로 시간적 도달 관계를 유지하고, '톰은'이 him을 가리키는 지시 관계도 맞습니다(질문 1·2·3 모두 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 인물의 행동과 추격 진행을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"출판물 서술체 '~다'가 유지되며 인물 간 관계나 태도 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"mph 단위 'miles'를 '마일'로 그대로 옮기고 수치를 바꾸지 않았으며 아스토리아 등 지명은 통용 음역입니다. 'elevated'는 고가 철도로 통용 표현입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2479,
+    "output_tokens": 788,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

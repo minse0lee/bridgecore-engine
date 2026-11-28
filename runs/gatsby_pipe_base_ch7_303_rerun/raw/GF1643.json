@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5tpHuWTdVw7xKz58v7",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1643\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“r—” said the policeman, “o—”\",\"tgt_span\":\"“ㄹ—” 경찰이 말했다. “ㅗ—”\",\"description\":\"알파벳 철자 r, o(이름 Mavro의 철자)가 한글 자모 ㄹ, ㅗ로 바뀌어, 영어 이름을 철자로 확인하는 장면의 지시 대상이 불명확해짐. 앞뒤 번역은 '마-브', 'r—', 'M-a-v-r-o—'로 표기가 섞여 있음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 경찰이 말하는 철자가 알파벳 r, o에서 한글 자모 ㄹ, ㅗ로 바뀌어 철자 대상이 달라졌지만, 경찰이 철자를 말한다는 핵심 사태와 화자는 유지되어 요지 이해에는 큰 영향이 없습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 앞 문장 'r—' 정정, 'M-a-v-r-o—'와 이어지는 철자 지시가 '마-브', 'ㄹ', 'ㅗ'로 달라져 같은 철자를 가리키는 연결이 끊겼습니다. 다만 철자 확인 흐름은 대체로 읽힙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"경찰의 철자 확인 발화 → 철자 확인 발화. 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무 의미가 없는 철자 발화입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"철자를 읽는 짧은 발화이며 관계나 격식에 영향을 주는 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화·제도적 대상이 없습니다(철자 변환 문제는 Semantic에서 판정).\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1149,
+    "output_tokens": 859,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

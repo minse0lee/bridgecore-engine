@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5pCRHa6p7U45WuC4pS",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1367\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the hot whips of panic\",\"tgt_span\":\"당혹감에 휩싸여 안절부절못했다\",\"description\":\"panic(공황·극심한 공포)이 '당혹감'(embarrassment/bewilderment)으로 바뀌고, 채찍질의 은유가 사라짐\"},{\"id\":\"E002\",\"src_span\":\"as we drove away\",\"tgt_span\":\"차를 몰고 떠나는 동안\",\"description\":\"'we drove away'(우리가 차를 몰고 떠남)가 행위자 없이 '차를 몰고 떠나는 동안'으로 옮겨져 우리 일행이 함께 떠난 것이 흐려짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: panic(공황)이 '당혹감'으로 바뀌어 감정의 종류와 강도가 달라졌고 hot whips 은유도 사라졌으나, 톰이 불안·동요를 느꼈다는 핵심 사실은 유지되어 minor입니다. 행위자 생략은 문맥상 같은 사태로 읽혀 오류로 보지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"첫 절과 둘째 절의 시간 관계('동안')가 유지되고 지시·초점 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(인물의 심리 묘사) → 서술. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술문의 문어체 평서체가 유지되며 관계상 문제되는 높임·호칭이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다(인명만 등장).\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2384,
+    "output_tokens": 817,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

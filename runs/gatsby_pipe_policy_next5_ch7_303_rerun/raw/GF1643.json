@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5thjkzMu19REppgjnT",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1643\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“r—” said the policeman, “o—”\",\"tgt_span\":\"“ㄹ—” 경찰이 말했다. “ㅗ—”\",\"description\":\"영어 철자 낱글자 r, o를 한글 자모 ㄹ, ㅗ로 바꿔, 경찰이 Mavro라는 영어 이름을 철자로 불러 확인하는 내용이 한글 자모를 말하는 것으로 바뀜. 앞뒤의 알파벳 철자(M-a-v-r-o)와도 어긋남\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상): 경찰이 말하는 알파벳 r, o가 한글 자모 ㄹ, ㅗ로 바뀌어 말하는 대상이 달라졌습니다. 그러나 이름의 철자를 확인하는 행위와 화자는 유지되고 독자가 장면의 요지를 이해하는 데 지장이 없어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(지시): 앞 문장의 알파벳 철자 'M-a-v-r-o'와 이어지는 철자 낭독이 한글 자모로 바뀌어 같은 이름을 가리키는 연결이 끊겼습니다. 다만 문맥상 이름 철자 확인이라는 흐름은 읽힙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"이름의 철자를 불러 주는 서술 → 철자를 불러 주는 서술. 발화 기능은 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"짧은 철자 낭독뿐이어서 높임·호칭·격식·태도로 판정할 대상이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다. 알파벳을 한글 자모로 바꾼 것은 지시 대상의 변화로 Semantic에서 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1147,
+    "output_tokens": 895,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

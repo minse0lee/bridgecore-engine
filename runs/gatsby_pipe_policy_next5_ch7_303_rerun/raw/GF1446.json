@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5qQwdVf43tgQjYEDjM",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1446\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I’d like to know when\",\"tgt_span\":\"정확히 언제였는지 알고 싶군요\",\"description\":\"'정확히'가 원문에 없이 더해졌고, 원문의 정중한 바람 'I'd like to know'가 '알고 싶군요'라는 감탄형 종결로 바뀌어 약간 퉁명스러운 어조가 됨. 다만 요구하는 내용은 같음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'들었지만 언제인지 알고 싶다'는 내용이 유지됩니다. '정확히'는 질문의 정밀도를 약간 더할 뿐 사실 내용을 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but의 양보·대조 관계가 '-습니다만'으로 유지되고, 대명사·초점 관계도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 개츠비에게 옥스퍼드에 간 시기를 캐묻는 추궁 → 같은 추궁. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"개인적 바람을 말하는 문장이어서 의무·허가·금지 같은 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 개츠비에게 격식을 갖추되 쌀쌀하게 묻는 태도가 '-습니다만', '-군요'로 유지되며 관계에 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1203,
+    "output_tokens": 739,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

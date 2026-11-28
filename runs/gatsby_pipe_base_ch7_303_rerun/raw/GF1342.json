@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5no64erHba9coJ2QgR",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1342\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“Big chance,”\",\"tgt_span\":\"“그럴 리가 있겠어요.”\",\"description\":\"Wilson의 반어적 대꾸 'Big chance'(그럴 기회가 어디 있겠어요 → 살 형편이 못 된다는 뜻)가 '그럴 리가 있겠어요'로 옮겨져 구매 가능성이나 의사 자체를 부정하는 것으로 읽힘. 원문의 '큰 기회/가능성이 없다'는 반어 의미와 대략 일치하나 '그럴 리 없다'는 일어날 가능성 부정으로 다소 달라짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Big chance'는 '살 가능성은 거의 없다'는 반어이며, '그럴 리가 있겠어요'가 같은 사태(살 수 없다는 취지)를 전달하고 이어지는 'No, but...'과도 맞습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계가 바뀌지 않았고, 뒤의 '아뇨, 하지만'과 대조 연결도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"반어적 거절·부정 응답 → 반어적 거절·부정 응답. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술·대화문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"수리공 윌슨이 부유한 톰에게 하는 말로 '-어요'체의 공손한 말투가 관계에 맞고 반어적 태도도 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1144,
+    "output_tokens": 771,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

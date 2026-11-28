@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5qh2ks2vsqRXcK28eX",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1451\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"We could go to any of the universities in England or France.\",\"tgt_span\":\"영국이나 프랑스에 있는 대학이라면 어디든 갈 수 있었거든요.\",\"description\":\"'-거든요'가 앞 문장의 이유를 설명하는 연결을 새로 만들었으나, 앞 문장(기회였다)을 뒷받침하는 설명 관계로 읽히며 원문의 연결 관계를 바꾸지는 않음(오류 아님 확인용)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"영국이나 프랑스의 어느 대학이든 갈 수 있었다는 행위자·대상·가능성이 그대로 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-거든요'는 앞 문장의 기회 설명을 구체화하는 관계로 자연스럽게 읽히며 지시·연결·초점이 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기회의 내용을 설명하는 서술 → 같은 설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"could는 과거의 가능성·기회를 서술할 뿐 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개츠비가 일행에게 설명하는 정중한 말투가 '-요' 체로 유지되어 상황에 맞습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"영국·프랑스의 대학이라는 대상이 그대로 옮겨졌고 다른 제도로 바뀌지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1366,
+    "output_tokens": 728,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

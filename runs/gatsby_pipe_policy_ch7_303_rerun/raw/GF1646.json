@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5tjqWqgbSQDCzkT4GH",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1646\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"that’s what I want to know\",\"tgt_span\":\"그것만 알면 돼요\",\"description\":\"'알고 싶다'는 화자의 욕구·요구가 '알면 된다'는 충분조건으로 바뀌고, 원문에 없는 '만'(only) 초점이 추가됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'what I want to know'(알고 싶은 것)가 '그것만 알면 돼요'(그것만 알면 충분)로 바뀌어 화자의 욕구 표현이 충족 조건으로 달라졌으나, 무슨 일이 있었는지 알려 달라는 핵심 내용은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3: 원문에 없는 '만'이 붙어 '그것만'이라는 한정 초점이 새로 생겼고, 질문 'What happened?'를 받는 that의 지시 관계도 '그것만'으로 한정되어 초점·범위가 달라졌습니다. 다만 영향은 작습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"경찰에게 사건 경위를 설명하라고 촉구하는 요구 → 경위 설명을 요구하는 말. 기능의 종류는 같고 강도만 다소 달라졌습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없고 개인적 바람의 표현입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 경찰에게 따지듯 다그치는 상황에서 '~요'체 반말에 가까운 구어체는 과도하지 않게 어울리며, 앞뒤 번역의 말투와도 일관됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도에 고유한 대상이 이 문장에 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1087,
+    "output_tokens": 828,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5qU3QfsEg6wazVbLGJ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1447\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I can’t really call myself an Oxford man\",\"tgt_span\":\"제가 옥스퍼드 출신이라고 당당히 말하지 못하는 겁니다\",\"description\":\"'정말(실제로) ~라고 부를 수 없다'가 '당당히 말하지 못한다'로 바뀌어, 사실상 자격이 안 된다는 뜻에 심리적 위축의 뉘앙스가 더해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'really'(실제로 ~라 할 수 없다)가 '당당히'로 바뀌어 화자의 판단 내용이 약간 달라졌으나, 1919년·다섯 달·옥스퍼드 출신이라 하기 어렵다는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'That's why'가 '그래서'로 옮겨져 앞의 짧은 체류 기간과 결론 사이 인과 관계가 유지되고, 지시·초점 표현도 달라지지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"질문에 대한 해명·설명 → 해명·설명. 발화 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"can't는 능력·자격 판단을 나타내는 서술이며 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개츠비가 톰과 일행에게 하는 정중한 구어체가 '-어요/-죠/-입니다'로 유지되어 대화 상황에 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'nineteen-nineteen'을 '1919년'으로, 'Oxford man'을 '옥스퍼드 출신'으로 옮겨 같은 연도와 대학 소속 관념을 가리키며 한국어 독자도 이해할 수 있습니다. 자동 힌트의 수치 불일치는 표기 차이로 인한 오경보입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1473,
+    "output_tokens": 890,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

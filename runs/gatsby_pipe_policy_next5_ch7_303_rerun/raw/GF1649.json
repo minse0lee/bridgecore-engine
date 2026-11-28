@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5u8YkpZEJ91Vh5hTCu",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1649\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"She ran out ina road.\",\"tgt_span\":\"도로로 갑자기 뛰어들었어요.\",\"description\":\"주어 She가 번역문에서 생략됨. 앞 대화 맥락상 사고를 당한 여자로 복원 가능하며, '갑자기'가 첨가됨. 의미는 유지됨.\"},{\"id\":\"E002\",\"src_span\":\"didn’t even stopus car\",\"tgt_span\":\"차를 세우지도 않고 그냥 갔고요\",\"description\":\"'그냥 갔고요'가 첨가되었으나 멈추지 않고 떠났다는 함의로 읽혀 의미 변화는 없음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"여자가 도로로 뛰어들었고 차 운전자가 멈추지 않았다는 내용이 유지됩니다. 주어 생략과 '갑자기', '그냥 갔고요'는 문맥상 같은 사태를 기술하므로 의미를 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"주어가 생략되었으나 앞 문맥에서 같은 인물(사고 당한 여자)로 복원되어 지시 관계가 바뀌지 않았고, even의 초점도 '세우지도'로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"목격자가 사고 경위를 진술하는 설명 → 사고 경위를 진술하는 설명. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"비속어 Son-of-a-bitch가 '개자식'으로 옮겨져 경멸 태도가 유지되고, 구어체 진술의 격식도 목격자 화자에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 별도로 판정할 대상이 없습니다. 욕설의 비하 태도는 Register에서 판정했습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1286,
+    "output_tokens": 872,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

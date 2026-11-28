@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5smnp2ojCZDjc4fVat",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1624\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Wilson’ll\",\"tgt_span\":\"윌슨 씨가\",\"description\":\"원문에 없는 호칭 '씨'가 덧붙어 톰이 윌슨을 가볍게 여기는 태도가 약해지고 존중하는 말투로 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"좋다는 평가, 윌슨, 드디어(at last), 약간의 일거리(a little business)가 모두 유지됩니다. '씨'는 호칭이라 Register에서 다룹니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'드디어'가 at last의 시간적 연결을 유지하고, 지시·초점 관계도 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰의 논평(서술·평가) → 논평. 사고를 반기는 냉소적인 발언 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등의 규범 의미가 없는 대화 속 논평입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2·3: 톰이 윌슨을 낮춰 보는 태도인데 번역문에서 '윌슨 씨'라는 존칭이 붙어 그 경멸·무시가 약해졌습니다. 다만 '좋아/생기겠군'의 반말 어투로 가벼운 태도는 남아 있어 minor입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명만 있고 문화·제도적으로 고유한 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1984,
+    "output_tokens": 712,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

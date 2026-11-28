@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5pfZgpJe1biQbBVXqC",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1433\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"we didn’t have any president\",\"tgt_span\":\"우리 과에는 회장 같은 거 없었어\",\"description\":\"president의 범위가 '우리 (학년·학급)'에서 '우리 과'로 좁아졌고, 'any'가 '같은 거'로 옮겨져 학년 회장이 아닌 일반적 회장 직위를 가리키는 듯 읽힘\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 앞 문맥의 '예일대 학년(class) 회장'이 '과의 회장'으로 바뀌어 대상 범위가 달라졌습니다. 다만 '회장이 없었다'는 부정의 핵심은 유지되고 독자가 요지를 크게 다르게 이해하지는 않아 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"First place를 '우선'으로 옮겨 반박 항목을 나열하는 연결이 유지되었고 지시·초점 관계의 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대 주장에 대한 부인·반박 → 부인·반박. 같은 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Tom이 동급생 관계에서 하는 구어체 반박이 반말로 유지되어 관계에 맞고 태도도 보존됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1122,
+    "output_tokens": 736,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

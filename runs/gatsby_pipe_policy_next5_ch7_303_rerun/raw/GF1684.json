@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5vxaHpifXrtttTrHN1",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1684\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Self-consciously\",\"tgt_span\":\"대응 구간 없음(누락)\",\"description\":\"'어색하게, 남의 시선을 의식하며'라는 부사가 번역되지 않고 사라짐\"},{\"id\":\"E002\",\"src_span\":\"with his authoritative arms breaking the way\",\"tgt_span\":\"톰은 위세를 떨며 팔을 휘둘러 길을 냈고\",\"description\":\"'authoritative arms'(권위 있는 팔)가 '위세를 떨며 팔을 휘둘러'로 바뀌어 뜻이 달라짐. 원문 주체 'his'(Tom)를 '톰'으로 풀어 쓴 것은 오류 아님.\"},{\"id\":\"E003\",\"src_span\":\"passing a hurried doctor\",\"tgt_span\":\"서두르는 의사와 마주쳤는데\",\"description\":\"스쳐 지나감(passing)이 마주침으로 바뀜\"},{\"id\":\"E004\",\"src_span\":\"who had been sent for in wild hope half an hour ago\",\"tgt_span\":\"그는 30분 전 헛된 희망을 품고 급히 부른 사람이었다\",\"description\":\"'wild hope'의 헛된 희망 해석과 'half an hour' 환산은 대체로 일치하나, 'had been sent for'의 주체가 불명확해지고 '급히'가 더해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E003\"],\"reason\":\"판단 질문 1: 'Self-consciously'가 누락되고, 의사를 '지나치다(passing)'에서 '마주쳤다'로 바꿔 행위가 약간 달라졌으나 핵심 사건(군중을 헤치고 나가며 의사를 지나침)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계가 유지됩니다. 'with ... arms breaking the way'가 'we pushed'와 이어지는 부대 상황은 '길을 냈고 ... 밀치고 나갔다'로 재구성되어 있습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사 묘사 → 서사 묘사. 장면을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체('~했다')가 유지되며 인물 간 관계에 어긋나는 높임·호칭 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 없습니다. 'half an hour'의 '30분' 환산은 통상적 대응입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1685,
+    "output_tokens": 1094,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

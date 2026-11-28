@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5m5tYJyP6BnhEsXnJk",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1313\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"He wears a pink suit.\",\"tgt_span\":\"분홍색 정장을 입고 다니는 사람이요.\",\"description\":\"평서문 'He wears a pink suit'가 명사구 '…사람이요'로 바뀌어 문장이 끝나지 않고 근거를 대는 서술 형태가 약해짐. 다만 '분홍색 정장을 입는 사람'이라는 내용과 '그러니 옥스퍼드 출신일 리 없다'는 근거 기능은 유지되어 의미·기능을 바꾸지 않는 통상적 표현 변화임\"},{\"id\":\"E002\",\"src_span\":\"Like hell he is!\",\"tgt_span\":\"말도 안 돼요!\",\"description\":\"강한 욕설 섞인 부정('절대 아니다')이 '말도 안 돼요'로 순화됨. 강한 부정과 거친 태도가 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그가 옥스퍼드 출신일 리 없다'는 강한 부정과 '분홍색 정장을 입는다'는 근거가 모두 유지되며, 달라진 것은 표현 강도뿐입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"부정 뒤에 이유를 덧붙이는 연결이 '~요'로 이어져 유지되며, 지시·초점 관계 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"믿지 못하며 반박하는 발화 → 믿지 못하며 반박하는 발화. 같은 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 대화문입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 3(태도): 톰의 거칠고 경멸 섞인 속된 표현 'Like hell'이 '말도 안 돼요'라는 순한 표현으로 바뀌어 화자의 거친 태도가 약해졌습니다. 또한 톰이 조던에게 존댓말을 쓰는 것은 관계상 어색할 수 있으나 판단 근거가 약해 이 오류로만 봅니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1299,
+    "output_tokens": 954,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

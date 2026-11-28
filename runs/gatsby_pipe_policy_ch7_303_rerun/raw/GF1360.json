@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5opo2ZwynaznBNX2tR",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1360\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I’ll let you have that car\",\"tgt_span\":\"그 차, 자네가 가져가게\",\"description\":\"톰이 차를 넘겨주겠다는 약속·제안(I'll let you have)이 상대에게 '가져가라'는 지시·명령으로 바뀜. 화자의 행위(허락·제공)가 상대의 행위로 이동함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위): 톰이 차를 주겠다는 내용이 상대가 가져가라는 말로 바뀌어 행위자 초점이 달라졌으나, 차를 상대에게 넘긴다는 핵심 사실과 이어지는 '보내주지'로 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 대상(that car, you)이 유지되고 연결·초점 표현의 변화가 없습니다.\"},\"Context\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"원문 기능 약속·제안(내가 주겠다) → 번역 기능 지시·명령(가져가라). 다른 종류의 발화 기능으로 바뀌었으나 뒤 문장 '내일 오후에 보내주지'로 거래 맥락은 유지되어 minor입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 아니라 대화 속 개인적 제안·약속입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 윌슨에게 하는 대화에서 '자네…가져가게' 하게체는 우월한 화자의 태도를 유지해 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2069,
+    "output_tokens": 776,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

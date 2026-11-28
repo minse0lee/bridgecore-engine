@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5oD7gKiLoUQdhdqaFC",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1349\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I’m going to get her away.\",\"tgt_span\":\"제가 어떻게든 데리고 떠날 생각이에요.\",\"description\":\"원문에 없는 '어떻게든'이 첨가되어 결의의 방식·정도가 덧붙음. 핵심 사실(아내를 데리고 떠남)은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"아내가 원하든 원하지 않든 가게 되며 화자가 데리고 떠난다는 내용이 유지됩니다. '어떻게든'은 결의 강조의 정도 차이로 내용을 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그 사람'을 쓰지 않고 주어를 생략했지만 지시 대상이 아내로 읽히고, 'And now'의 시간·귀결 연결은 '이제는'으로 유지됩니다. 초점 표현의 이동도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"자신의 결심 표명 → 자신의 결심 표명. 발화 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 아니라 화자의 계획·결심을 서술한 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"윌슨이 톰에게 하는 말로 '~할 겁니다', '~이에요' 존댓말이 앞뒤 대화의 격식과 어울립니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1339,
+    "output_tokens": 724,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

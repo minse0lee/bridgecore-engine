@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5yDku7wK74LULGReva",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1727\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"여자의 이름이 윌슨이라는 것, 남편이 차고(정비소)를 소유·운영한다는 것, 사고 경위를 묻는 내용이 모두 유지됩니다. 'owns'가 '운영하고 있고'로 바뀐 것은 같은 사태를 기술하는 범위 안의 차이이며, 'garage'를 '정비소'로 옮긴 것도 통상적 대응입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'Her'가 '이름'과 '남편'의 소유 관계로 자연스럽게 옮겨졌고, 문장 간 연결 관계도 유지됩니다. 대명사 지시, 연결 관계, 초점 표현 모두 달라진 점이 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"정보 제공 후 사고 경위를 캐묻는 질문 → 정보 제공 후 사고 경위를 묻는 질문. 'the devil'이 들어간 강조 의문의 기능은 '도대체'로 유지되어 같은 종류의 기능입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범적 의미가 없는 서술과 질문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞 문장의 번역에서 이 화자는 존댓말('~어요')을 쓰고 있어 이 번역문의 '~어요/~죠' 어투와 맞습니다. 'the devil'의 격한 태도도 '도대체'로 전달되어 문맥상 관계와 태도에 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명(윌슨)만 있고 별도로 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1765,
+    "output_tokens": 784,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

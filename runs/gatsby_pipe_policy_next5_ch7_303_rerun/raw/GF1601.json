@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5rKPntU6RcscubJv33",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1601\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"advised him to go to bed\",\"tgt_span\":\"그에게 가서 좀 쉬라고 권했지만\",\"description\":\"'go to bed'(잠자리에 들다/자리에 눕다)가 '가서 좀 쉬라고'로 바뀜. 장소·행위가 다소 일반화되고 '가서'가 첨가되었으나 병든 사람에게 쉬라고 권한 요지는 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"권유 행위자(미카엘리스)와 대상(윌슨), 거절, 장사를 많이 놓치게 된다는 이유가 모두 유지됩니다. 'go to bed'를 '쉬라고'로 옮긴 것은 같은 사태를 가리키는 자연스러운 표현으로 의미를 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but의 대조('지만')와 'if he did'의 조건('그렇게 하면')이 유지되고, he/him의 지시 대상도 올바릅니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 사건 서술 → 사건 서술. 권유와 거절을 전달하는 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물의 행동을 서술하는 문장으로, 의무·허가·금지를 정하는 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"간접화법 서술문으로 직접 발화의 높임·호칭이 드러나지 않으며 평가할 화자 태도 표현이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2111,
+    "output_tokens": 770,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5rMo9koE3sFGUXNv8z",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1601\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"go to bed\",\"tgt_span\":\"가서 좀 쉬라고\",\"description\":\"'go to bed(잠자리에 들다)'가 '가서 좀 쉬라고'로 바뀌어 행위가 불명확해지고 '가서'가 첨가됨. 다만 아픈 사람에게 눕거나 쉬라는 권유로 읽혀 같은 사태를 기술함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"누가 권하고 누가 거절했는지, 권유 내용(쉬러 감), 거절 이유(장사를 많이 놓침)가 유지됩니다. '가서 좀 쉬라'는 병든 사람에게 눕거나 자라는 권유와 같은 사태이고, 'a lot of business'는 '장사를 너무 많이'로 정도만 소폭 달라졌습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but의 대조 관계가 '권했지만'으로, if he did의 조건 관계가 '그렇게 했다가는'으로 유지되고 지시 대상(him=윌슨, he=윌슨)도 맞습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사건 서술 → 사건 서술. 권유와 거절을 전하는 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 사건을 서술하는 문장으로, 의무·허가·금지를 정하는 규범 표현이 아닙니다. 간접 화법의 권유는 개인적 조언으로 규범 판정 대상이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 평서체('권했지만', '거절했다')가 유지되며, 인물 간 높임·호칭 판정이 필요한 대화 인용이 아닙니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명만 등장하고 별도로 판정할 문화 고유의 제도·관습·단위는 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2096,
+    "output_tokens": 840,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5wES2y4jGXXW4YZdrQ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1693\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"There’s nothing we can do tonight.\",\"tgt_span\":\"오늘 밤 우리가 할 수 있는 건 아무것도 없으니까.\",\"description\":\"독립된 평서문이 이유를 나타내는 '-니까'로 끝나, 앞 문장과 인과 관계로 연결됨(원문에는 명시적 인과 연결 없음)\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"웨스트에그에 내려줬어야 했다는 후회와 오늘 밤 할 수 있는 것이 없다는 내용이 모두 유지됩니다. '-니까'는 내용을 바꾸지 않는 연결 표현입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(연결 관계): 병렬적인 두 진술이 '내려줬어야 했어 ← 할 수 있는 게 없으니까'라는 인과 관계로 바뀌었습니다. 다만 핵심 사실은 유지되어 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"후회·상황 설명 → 후회·상황 설명. 발화 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"ought to have dropped는 과거에 하지 않은 행동에 대한 후회이고, can은 능력·가능성의 뜻이므로 규범 의미가 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 친구 닉에게 하는 대화이며, 반말 '-어'체가 친한 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"웨스트에그는 지명뿐이므로 별도로 판정할 문화 고유 제도나 관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1396,
+    "output_tokens": 769,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

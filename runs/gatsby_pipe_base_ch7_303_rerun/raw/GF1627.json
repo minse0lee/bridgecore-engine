@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5sxKKg66rzvPAU4NEr",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1627\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I became aware now of\",\"tgt_span\":\"그제야 차고에서 끊임없이 흘러나오는 공허하고 통곡 섞인 소리가 들려왔다\",\"description\":\"화자가 소리를 알아차렸다는 인식 표현이 '들려왔다'로 바뀌어 화자의 주체적 인식이 약해짐. 의미 변화는 거의 없음.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"차고에서 끊임없이 나는 공허한 통곡 소리, 쿠페에서 내려 문 쪽으로 걸어가며 소리가 'Oh, my God!'라는 말로 구분되는 사태가 유지됩니다. 'aware'가 '들려왔다'로 바뀐 것은 같은 사태를 기술하는 표현 차이입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'a sound which ... resolved itself into the words'의 지시 관계와 '내리고 걸어가자'라는 시간 연결이 유지됩니다. 문장 분할은 오류가 아닙니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 소리의 정체를 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 소설 서술체('-다')가 유지되며 특별한 관계·격식상의 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유 대상이 없습니다. 'coupé'를 '쿠페'로 옮긴 것은 통용 음역입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1791,
+    "output_tokens": 758,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5tXDFoN61PnnCGDzeu",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1638\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"my Ga-od\",\"tgt_span\":\"세상에\",\"description\":\"신(God)을 부르는 외침이 '세상에'라는 일반 감탄사로 바뀌어 신을 부르는 종교적 지시가 사라졌고, 늘여 발음한 'Ga-od'의 울부짖는 느낌도 옮겨지지 않음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"극심한 충격 속에서 반복해 외치는 감탄 내용이 같고, 수량·행위자·확실성 변화가 없습니다. 달라진 것은 표현 방식뿐입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 대상이나 연결 관계, 초점 표현이 없고 반복 구조도 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"고통스러운 절규 → 고통스러운 절규. 발화 기능이 같은 종류로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 같은 규범 의미가 없는 감탄문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"충격에 빠진 화자의 격한 감탄이 구어체 감탄으로 유지되며, 청자 대상 높임이나 호칭이 없습니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1·2: 기독교 문화권에서 신을 부르는 관용적 외침 'my God'이 종교적 지시가 없는 '세상에'로 바뀌어 신을 부르는 문화적 함의가 약해졌습니다. 다만 한국어에서 통용되는 대응 감탄사이고 장면 이해에는 영향이 작아 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1755,
+    "output_tokens": 760,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

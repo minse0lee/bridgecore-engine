@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5xcNuuw1Ktbtqxmwgw",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1716\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"For all I knew he was going to rob the house in a moment\",\"tgt_span\":\"어쩌면 그는 당장이라도 집을 털 생각일지도 몰랐다\",\"description\":\"'내가 아는 한 그가 …할 참이었을지 모른다'는 화자의 지식 한계 표현이 '어쩌면 …일지도'라는 가능성 추측으로 바뀜. 핵심 사실(강도 가능성)은 유지되어 확실성 차이는 경미함\"},{\"id\":\"E002\",\"src_span\":\"behind him in the dark shrubbery\",\"tgt_span\":\"어두운 덤불 뒤로\",\"description\":\"'그의 뒤, 어두운 덤불 속'에서 '그 뒤'라는 위치가 '덤불 뒤'로 바뀌어 개츠비 뒤라는 관계가 빠짐. 장면상 큰 차이는 아님\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(확실성·위치): 'For all I knew'가 '어쩌면 …일지도'로 바뀌고 '그의 뒤'가 '덤불 뒤'로 바뀌었으나 핵심 사실과 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"세미콜론으로 이어진 두 절이 문장 분할로 나뉘었으나 의심과 그에 따른 놀라지 않음이라는 관계는 유지되고, 지시·초점 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 의심을 서술 → 화자의 의심을 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"1인칭 서술체 '~았을 것이다' 평서문이 유지되고 관계상 문제되는 높임·호칭 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명(Wolfshiem)만 있고 별도로 판정할 문화·제도적 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1248,
+    "output_tokens": 913,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

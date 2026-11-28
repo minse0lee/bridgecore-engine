@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5vccjytui6DNee6cyw",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1682\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"shut the door on them\",\"tgt_span\":\"그들을 뒤로하고 문을 닫은 뒤\",\"description\":\"문을 닫아 두 남자를 방 안에 남겨 두었다는 행위가 '그들을 뒤로하고 문을 닫은' 것으로 표현되어, 문을 닫은 행위와 두 남자와의 관계가 약간 달라 보임. 다만 두 남자가 방 안에 남았다는 사태는 읽힘.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 두 남자를 방 안에 두고 문을 닫은 뒤 탁자를 외면하며 한 계단 내려왔다는 행위자·행위·대상이 모두 유지됩니다. '그들을 뒤로하고'는 같은 사태를 달리 표현한 것입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Then의 시간 순서가 '그러고는 … 뒤'로 유지되고, 'his eyes avoiding'의 동시 상태도 '눈길도 주지 않은 채'로 유지되며 '그들'과 '그'의 지시 대상도 바뀌지 않았습니다. 판단 질문 1·2·3 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 톰의 행동을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 행동 묘사 문장으로 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 평서체 문체가 유지되며 화자·청자 관계상 훼손된 높임이나 태도 표현이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없고 인명만 있습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1702,
+    "output_tokens": 828,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

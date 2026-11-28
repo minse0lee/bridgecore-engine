@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5uZgc8ZqYshW9RCMJS",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1658\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"going faster’n forty\",\"tgt_span\":\"시속 40마일보다 훨씬 빨랐죠\",\"description\":\"'forty보다 빨리'가 '시속 40마일보다 훨씬 빨랐다'로 바뀌어 '훨씬'이 더해지고 속도 단위(시속 마일)가 명시됨. 다만 원문 문맥상 mph 의미이고 이어지는 '50, 60'과 함께 읽히므로 내용 변화는 미미함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"40 초과, 50~60 속도, 길 아래쪽에서 화자 옆을 지나감, 사고는 보지 못함이 모두 유지됩니다. '훨씬'과 '마일'은 문맥상 통상적 보완이며, 자동 힌트의 숫자 불일치는 110이 아니라 원문에 없는 50·60 표기 차이로 오경보입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'No, but'의 대조가 '아니요, 하지만'으로 유지되고 지시·초점 관계 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"경찰 질문에 대한 증언 → 증언. 목격 진술의 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 진술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"경찰관에게 답하는 목격자의 말을 '~요' 체로 옮겨 상황에 맞는 공손한 구어체가 유지됩니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"mph 단위를 '마일'로 그대로 유지하고 km로 환산하지 않아 다른 단위로 바꾸지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1511,
+    "output_tokens": 784,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

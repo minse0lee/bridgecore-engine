@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5uEVhbbPicj4hCEt4J",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1653\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"demanded the officer\",\"tgt_span\":\"경찰관이 물었다\",\"description\":\"demanded(다그치듯 요구함)가 중립적인 '물었다'로 바뀌어 권위적·추궁하는 어조가 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 장소의 이름을 묻는 내용과 경찰관이라는 화자가 동일하며, 어조 동사의 정도 차이는 평가어 수준의 변화입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시어 here와 발화 귀속 관계가 '여기'와 '경찰관이'로 유지되고 연결·초점 관계에 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장소 이름을 요구하는 질문 → 장소 이름을 묻는 질문. 같은 종류의 기능이며 압박의 강도만 약해졌습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 단순 질문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"경찰관이 현장 사람들에게 묻는 공적인 말투가 '~습니까' 격식체로 적절히 유지됩니다. demanded의 다그침이 다소 약해졌으나 관계에 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"별도로 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1348,
+    "output_tokens": 671,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

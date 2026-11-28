@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5ku9snK2JahjVioXhm",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1308\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Gatsby\",\"tgt_span\":\"개츠비 씨\",\"description\":\"원문에 없는 존칭 '씨'가 첨가되어 화자(톰)가 개츠비를 가리키는 태도가 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'개츠비에 대해서'라는 내용이 그대로 유지되며 '씨'는 지시 대상이나 사실 내용을 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞 질문 '영매'에 대한 답으로 '개츠비에 대해'를 제시하는 지시·연결 관계가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"앞 발화에서 말을 이어 조사 대상을 밝히는 응답 → 같은 응답 기능.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2·3: 원문에 없는 호칭 '씨'가 첨가되었고, 톰이 개츠비를 경멸하는 태도(뒤 문장에서 'Like hell he is', 같은 대사 속 '개츠비에 대해서요!'에서는 '씨' 없음)와 어긋나 존중을 담은 호칭이 됩니다. 번역문 안에서도 바로 뒤 대사와 호칭이 불일치합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명만 있고 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 986,
+    "output_tokens": 712,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

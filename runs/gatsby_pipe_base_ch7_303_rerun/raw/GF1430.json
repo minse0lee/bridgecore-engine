@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5pWnLUiptPgyx66gaT",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1430\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"president of your class at Yale\",\"tgt_span\":\"예일대 시절에 과 대표였다고\",\"description\":\"'your class'(당신의 학년/동기)가 '과 대표'로 바뀌어 학년 단위 대표(학급 회장)가 학과 대표로 달라지고, 'your'(톰의 동기라는 소유 관계)가 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(대상): 'president of your class'(톰의 학년 회장)가 '과 대표'로 바뀌어 조직 단위와 톰과의 관계가 달라졌습니다. 다만 학생 대표를 자칭했다는 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(소유 관계): 'your class'의 your가 번역에서 사라져 톰의 동기였다는 관계가 드러나지 않습니다. 뒤 문장 '우리 과에는 회장 같은 거 없었어'와의 연결은 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"추측과 전언으로 상대 주장의 허구성을 암시하는 서술 → 같은 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조던이 톰에게 하는 말로 '~보죠', '~하더라고요'의 존댓말이 관계에 맞습니다. 'bumming'의 가볍고 얕잡는 태도도 '빌붙어'로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 미국 대학의 학년 단위(class) 회장이 한국식 '과 대표'(학과 대표)로 바뀌어 다른 제도로 이해됩니다. 예일대는 유지되고 요지는 크게 달라지지 않아 minor입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1208,
+    "output_tokens": 859,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

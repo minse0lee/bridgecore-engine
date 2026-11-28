@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5sDiGJBTrBQB5XWQ3k",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1615\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"you dirty little coward\",\"tgt_span\":\"이 비겁하고 더러운 인간아\",\"description\":\"'little'(비하·경멸의 뉘앙스)에 대응하는 표현이 없고 'coward'가 '인간'이라는 일반 명사 위에 얹힌 형용사로 바뀌어 비하 호칭의 강도가 약해짐\"},{\"id\":\"E002\",\"src_span\":\"Throw me down and beat me\",\"tgt_span\":\"나를 밀쳐내고 때려보라고\",\"description\":\"'throw me down'(내던져 쓰러뜨리다)이 '밀쳐내고'로 바뀌어 동작의 강도·방향이 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1(행위): 'throw me down'이 '밀쳐내고'로 바뀌어 쓰러뜨리는 동작이 사라졌으나 때리라는 도발의 핵심은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'나를 밀쳐내고 때려보라고'의 두 동작 연결과 호격 대상이 유지되어 지시·연결·초점 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"격분한 도발·욕설 → 격분한 도발·욕설. 기능의 종류가 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 아니라 감정적 도발 발화입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(태도): 'dirty little coward'의 경멸적 태도가 '이 비겁하고 더러운 인간아'로 옮겨져 대체로 유지되나 'little'의 얕잡아 보는 뉘앙스가 빠져 경멸이 약해졌습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없는 일반적인 욕설입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1950,
+    "output_tokens": 856,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

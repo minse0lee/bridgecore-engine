@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5sA1m9raVffiRY4x2g",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1615\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Throw me down and beat me\",\"tgt_span\":\"나를 밀쳐서 때려보라고\",\"description\":\"'Throw me down'(나를 쓰러뜨리고/내동댕이치고)이 '밀쳐서'로 옮겨져 동작의 강도가 약해졌고, 도발하는 명령이 '때려보라고'(해볼 테면 해 봐)로 옮겨졌으나 의미는 대체로 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"쓰러뜨려 때리라는 행위와 대상, 'dirty little coward'(더러운 겁쟁이)가 유지됩니다. 'down'의 강도 차이와 'little'의 생략은 정도·평가어 차이에 그칩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"두 명령 행위의 연결('밀쳐서 때려')과 호격 지시 관계가 유지되며 초점·지시가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"분노에 찬 도발·외침 → 분노에 찬 도발·외침. '때려보라고'가 맥락상 도발로 읽혀 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물이 감정적으로 도발하는 외침으로, 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"아내가 남편에게 퍼붓는 경멸 섞인 반말 욕설이 '이 더러운 겁쟁이 자식아'로 비하 태도와 함께 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1970,
+    "output_tokens": 773,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

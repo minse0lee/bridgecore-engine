@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5z2iArFvsBheu3eirF",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1742\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“I don’t trust him, old sport.”\",\"tgt_span\":\"“그 사람을 믿을 수 없어요, 친구.”\",\"description\":\"Gatsby의 호칭 'old sport'를 '친구'로 옮겼고 존댓말 '-어요'를 썼음. 개츠비 특유의 호칭 효과는 약해졌고, 문맥상 Gatsby가 Nick에게 존댓말을 쓰는지 불분명함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'나는 그를 믿지 않는다'는 내용과 지시 대상(Tom)이 유지됩니다. '믿을 수 없어요'는 불신의 표현으로 같은 사태를 기술합니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'him'이 앞 맥락의 Tom을 가리키는 관계가 '그 사람'으로 유지되며 연결·초점 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"불신을 밝히는 진술 → 불신을 밝히는 진술. 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 개인적 진술입니다.\"},\"Register\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[\"E001\"],\"reason\":\"Gatsby가 Nick에게 쓰는 호칭과 말투('old sport'의 친근함, 존댓말 사용 여부)를 판단하려면 원작에서 두 인물의 관계 설정과 앞뒤 번역의 말투 일관성 확인이 필요합니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'old sport'는 개츠비의 말버릇이지만 제도·단위·관습 같은 문화 고유 대상이 아니며 평가할 문화 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1207,
+    "output_tokens": 786,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

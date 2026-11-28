@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5pSrCV7JM3b7KiuRoa",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1370\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"are cool\",\"tgt_span\":\"좋더라고요\",\"description\":\"시원하다(에어컨이 나와 시원하다)는 뜻의 cool이 '좋다'로 바뀌어, 더운 날 영화관을 제안하는 이유가 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 문맥상 더운 날씨에 '시원하다'는 뜻인 cool이 막연한 '좋다'로 바뀌어 평가 내용이 달라졌습니다. 영화관을 제안한다는 핵심 사실은 유지되어 요지와 행동 이해는 크게 바뀌지 않아 minor입니다. 'Fiftieth Street'의 50번가는 정확하고 수치 힌트는 오경보입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계에 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"영화관 제안 → 영화관 제안. suggested가 '제안했다'로 유지되고 제안 기능도 남아 있습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화 속 제안입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조던이 톰 등에게 하는 말로, 정중한 존대(-더라고요)가 관계에 크게 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Fiftieth Street를 50번가로 옮겨 뉴욕의 거리 지칭이 유지되고 다른 제도로 바뀌지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2103,
+    "output_tokens": 734,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5r5QftKwzZvsk5VtT6",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1459\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"They were out in the open at last\",\"tgt_span\":\"마침내 모든 것이 수면 위로 드러났고\",\"description\":\"주어 They(개츠비와 데이지의 관계/사람들)가 '모든 것'으로 바뀌고 'out in the open'이 '드러났다'로 옮겨져, 감춰진 관계가 드러났다는 취지는 유지되나 지시 대상이 일반화됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"They를 '모든 것'으로 옮겼으나 문맥상 감춰 온 관계·상황이 공개되었다는 사태와 개츠비가 만족했다는 내용이 같아 핵심 의미가 유지됩니다.\"},\"Textual\":{\"judgment\":\"판단보류\",\"severity\":null,\"error_ids\":[],\"reason\":\"They의 지시 대상(문맥상 개츠비·데이지·톰의 삼각관계 등)이 불명확한데 번역은 '모든 것'으로 바꿨으므로, 대명사 지시 대상 보존 여부는 해당 They가 가리키는 대상에 대한 확인이 필요합니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 상황 전개를 설명하는 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 지문의 서술문으로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문의 평서체 '-했다' 어조가 유지되며 인물 관계에 따른 높임 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1502,
+    "output_tokens": 724,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

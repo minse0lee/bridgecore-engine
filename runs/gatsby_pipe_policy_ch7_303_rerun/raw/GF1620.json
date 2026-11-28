@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV61umm6e9rqVJcNY6Vr",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1620\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"torn open her shirtwaist, still damp with perspiration\",\"tgt_span\":\"땀에 젖어 축축한 셔츠를 찢어 열자\",\"description\": \"소유 관계(her)와 '땀에 젖은' 수식 대상이 약해짐: 'her shirtwaist'가 '셔츠'로, shirtwaist(여성용 블라우스)가 일반 셔츠로 옮겨져 구체성이 줄었으나 같은 의복을 가리킴\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"두 사람이 먼저 도착, 옷을 찢어 열자 왼쪽 가슴이 덜렁거림, 심장 소리를 들을 필요 없음이 모두 유지되며 shirtwaist→셔츠는 같은 의복을 가리키는 통상적 대응입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'when ... they saw'의 시간 관계가 '찢어 열자'로 유지되고, 소유(her)는 앞 문맥상 '그녀'로 이어져 지시 관계가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사고 현장 묘사 서술 → 사고 현장 묘사 서술로 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'no need to listen'은 심장 소리를 확인할 이유가 없다는 사실 묘사이며 규범·의무를 정하는 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체 '~다' 문어체가 유지되며 대화 관계상 높임 문제가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2115,
+    "output_tokens": 775,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

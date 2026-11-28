@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5ysrNBHQ236uPh1Mca",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1740\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"her\",\"tgt_span\":\"데이지\",\"description\":\"대명사 her를 '데이지'라는 명시적 이름으로 옮김. 문맥상 같은 인물을 가리키므로 의미·지시 변화 없는 통상적 명시화.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"그가 그녀를 건드리지 않을 것이라는 예측과 화자 '내가 말했다'가 유지됩니다. her를 데이지로 명시한 것은 같은 인물을 가리켜 내용이 달라지지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"질문 1: he는 '그', her는 '데이지'로 지시 대상이 문맥과 같게 유지되고 연결·초점 표현의 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대의 걱정을 달래는 안심시키는 예측 진술 → 같은 안심시키는 예측 진술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없고, won't는 미래 예측입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자 닉과 개츠비 사이의 대화에서 '~거예요' 해요체는 관계에 어긋나지 않으며 태도 변화도 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화·제도 고유의 대상이 없고 인명만 나옵니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1270,
+    "output_tokens": 682,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

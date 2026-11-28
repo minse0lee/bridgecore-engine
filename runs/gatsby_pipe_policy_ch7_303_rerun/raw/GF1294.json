@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5k2yuN1zbGVXSD76j6",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1294\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Tom pushed the unfamiliar gears tentatively, and we shot off\",\"tgt_span\":\"톰이 낯선 기어를 조심스레 밀어 넣자, 우리는 … 빠르게 달려 나갔다\",\"description\":\"'~하자'로 옮겨 시간·인과 관계가 약간 강해졌으나, 순차적 사건 서술로 읽히므로 의미나 기능이 바뀌지 않음. 오류로 보기 어려움(참고용).\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조던·톰·나가 앞좌석에 탔고, 톰이 낯선 기어를 조심스레 밀었으며, 더위 속으로 달려가며 두 사람을 뒤로했다는 내용이 모두 유지됩니다. 'out of sight'가 명시되지 않은 점은 '뒤로한 채'로 충분히 전달됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'them'이 '두 사람'(데이지와 개츠비)으로 유지되고, 사건의 시간 순서 연결도 '-자'로 자연스럽게 재구성되어 지시·연결·초점 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사 진행 서술 → 서사 진행 서술. 같은 종류의 기능입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 지문의 서술체가 '-했다'체로 유지되며 화자와 인물의 관계에 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·관습·단위가 없고, 인명만 등장합니다. 자동 힌트의 숫자 '2'는 '두 사람'에서 나온 오경보로 수량 오류가 아닙니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1777,
+    "output_tokens": 844,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

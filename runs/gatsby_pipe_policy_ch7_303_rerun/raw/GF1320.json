@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5mWthQS8pT9G9MCqGW",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1320\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"to get us to town\",\"tgt_span\":\"마을까지 갈 정도는\",\"description\":\"'우리를 시내/도시까지 데려다 줄' 에서 목적어 us와 town(도시)이 '마을까지 갈'로 바뀜. 다만 행위자는 문맥상 일행으로 읽히고 'town'을 '마을'로 옮긴 것은 통상적 대응 범위이므로 의미·기능에 영향이 없는 차이임\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"연료가 일행이 읍내까지 가기에 충분하다는 내용이 유지되며, 'us'가 생략되었어도 문맥상 일행이 가는 것으로 읽힙니다. town을 '마을'로 옮긴 것은 통상적 대응입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현이 바뀌지 않았으며 앞 문장의 가솔린 문제에 대한 응답이라는 연결이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기름이 충분하다고 안심시키는 서술 → 같은 종류의 서술. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 평서문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 친구들에게 하는 대화체 반말이 '충분해'로 자연스럽게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1408,
+    "output_tokens": 726,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

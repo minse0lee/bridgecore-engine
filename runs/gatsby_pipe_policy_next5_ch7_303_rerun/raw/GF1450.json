@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5qgvpSKPW7JCDbUvqR",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1450\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"they gave\",\"tgt_span\":\"준 기회였습니다\",\"description\":\"'they gave'의 주어(they, 기회를 준 쪽)가 번역에서 드러나지 않아 주체가 생략됨. 한국어에서 자연스러운 생략으로 읽히고 행위 내용은 유지되므로 오류로 보지 않을 수 있으나 기록해 둠.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"휴전 후, 일부 장교에게 주어진 기회라는 내용이 유지됩니다. 'some of the officers'를 '장교 몇 명'으로 옮긴 것은 일부라는 의미에 부합하고, they의 생략은 자연스러운 한국어 생략입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"기회, 장교, 휴전 후의 시간 관계와 'he continued'의 화자 지시가 유지되어 지시·연결·초점이 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"옥스퍼드에 간 경위를 설명하는 서술 → 같은 설명 서술. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개츠비가 톰 등에게 정중하게 설명하는 상황에 '~습니다'체가 어울리며, 앞 문장 번역의 정중한 말투와도 이어집니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"휴전(armistice)을 제1차 세계대전 종전 후의 휴전으로 이해할 수 있게 옮겼으며 제도·역사적 대상이 바뀌지 않았습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1380,
+    "output_tokens": 775,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

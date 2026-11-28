@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5kum6TZRZEtSt31k5X",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1310\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'you found he was an Oxford man'이 '옥스퍼드 출신이라는 걸 알아내셨군요'로, 발화자 조던과 helpfully의 '거들었다'도 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'And'가 '그래서'로 옮겨져 앞의 조사 발언을 이어받는 연결이 유지되고, he와 you의 지시 대상도 '그 사람'과 생략된 청자로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조던이 상대의 조사 결과를 거들어 말하는 서술·확인 → 같은 기능으로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"친구 사이 대화에서 '알아내셨군요'의 존댓글체가 문맥상 어색하지 않고, 태도 차이가 생기지 않습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Oxford man을 '옥스퍼드 출신'으로 옮겨 대학 출신이라는 의미가 통용 표기로 전달되며, 이어지는 뉴멕시코 농담의 전제도 유지됩니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1059,
+    "output_tokens": 615,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

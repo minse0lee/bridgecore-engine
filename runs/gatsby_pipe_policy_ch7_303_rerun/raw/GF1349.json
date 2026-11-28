@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5o9gJTNHQw9AaH8zuB",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1349\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I’m going to get her away.\",\"tgt_span\":\"제가 어떻게든 데리고 나갈 거예요.\",\"description\":\"'어떻게든'이 원문에 없이 더해져 수단을 가리지 않는 결의의 뉘앙스가 추가됨. 핵심 사실(아내를 데리고 떠남)은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성·정도): '어떻게든'이 첨가되어 단호함이 다소 강해졌지만 누가 무엇을 하는지는 같아, 요지나 행동을 다르게 이해하게 되지는 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'And now'의 시간 연결이 '이제는'으로 유지되고, 'she'와 'her'가 모두 아내로 이어지며, whether~or not 양보 구조도 '원하든 원하지 않든'으로 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"자신의 결심·계획을 밝히는 진술 → 결심·계획을 밝히는 진술. 기능이 같은 종류입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'going to'는 미래 의지·계획을 나타내며 의무·허가·금지 같은 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"윌슨이 부유한 톰에게 하는 공손한 말투가 '~요' 해요체로 문맥상 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화·제도에 고유한 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1317,
+    "output_tokens": 733,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

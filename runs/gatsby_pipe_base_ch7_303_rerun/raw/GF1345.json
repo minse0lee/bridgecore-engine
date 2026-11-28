@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5nwwcWKSPYiThjEvPx",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1345\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"My wife and I want to go West.\",\"tgt_span\":\"아내와 함께 서부로 가려고요.\",\"description\":\"'아내와 나 둘 다 서부로 가기를 원한다'가 화자의 계획·의도 진술로 바뀌어, 아내도 원한다는 점이 약해짐. 이는 뒤 문장의 Tom의 반응('Your wife does')과 관련된 내용이나, 핵심 사실(부부가 서부로 감)은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"오래 머물렀다, 벗어나고 싶다, 아내와 함께 서부로 가겠다는 내용이 유지되며 달라진 것은 want의 어감 정도뿐입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현의 변화가 없고 '아내와 함께'로 동반 관계가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자의 바람·계획 진술 → 바람·계획 진술. 발화 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 개인의 바람 표현이며 의무·허가·금지 같은 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"윌슨이 손님 톰에게 하는 말로 '~요/~습니다' 체가 앞뒤 번역과 어울리는 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'West'는 방향·지명 수준이며 별도로 판정할 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1202,
+    "output_tokens": 717,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

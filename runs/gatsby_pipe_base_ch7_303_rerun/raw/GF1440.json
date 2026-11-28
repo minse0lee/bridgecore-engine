@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5qAWxg9fuZozMc3NHu",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1440\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"incredulous and insulting\",\"tgt_span\":\"믿기지 않는다는 듯 무시하는 투로\",\"description\":\"insulting(모욕적인)이 '무시하는 투'로 옮겨져 모욕의 강도가 다소 약해졌으나 같은 부정적 태도를 가리킴\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 불신과 모욕이 담긴 목소리로 말한다는 내용이 유지되며, 달라진 것은 평가어의 정도(모욕적인 → 무시하는)뿐입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Then의 시간 순서가 '그러자'로 유지되고 지시·초점 관계의 변화가 없으며, 콜론 뒤 대사로의 연결도 '말했다'와 다음 대사로 이어집니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 톰의 대사를 도입하고 말투를 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문 평서체이며, 톰의 불신과 모욕적 태도가 '무시하는 투'로 유지되어 태도가 사라지지 않았습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화·제도 고유의 대상이 없고 인명만 등장합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1160,
+    "output_tokens": 684,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

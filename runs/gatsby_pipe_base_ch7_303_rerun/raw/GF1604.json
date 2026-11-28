@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5rWZk3c9qCbdpdxaxK",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1604\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"then we’re going to move away\",\"tgt_span\":\"같이 떠날 생각입니다\",\"description\":\"'we'(윌슨 부부)가 '같이'로 옮겨졌는데 주어가 생략되어 불분명하고, 'She's going to stay'의 '그녀' 주어도 '있게 한'(사역)으로 바뀌어 윌슨이 아내를 가두는 행위로 읽힘. 다만 '같이 떠날'은 'we'를 전달함.\"},{\"id\":\"E002\",\"src_span\":\"She’s going to stay there\",\"tgt_span\":\"거기 있게 한 다음\",\"description\":\"'그녀가 머물 것이다'가 사역 표현 '있게 한'으로 바뀌어 행위 주체가 아내에서 윌슨으로 이동함. 아내를 가둔 것은 앞 문장에서 이미 밝혀져 사실관계는 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"아내가 모레까지 위층에 머물고 그 뒤 부부가 이사 간다는 내용이 유지되며, 사역 표현은 앞 문장의 '갇혀 있다'는 맥락과 같은 사태를 기술합니다. 'move away'를 '떠나다'로 옮긴 것도 통상적 대응입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'다음'으로 시간 순서 연결이 유지되고 'we'는 '같이'로 지시 관계가 남아 있으며 초점·범위 표현의 변화도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"계획·상황 설명 → 계획·상황 설명. 윌슨이 차분하게 사정을 설명하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없고 단순한 계획 진술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"윌슨이 이웃 미카엘리스에게 하는 대화로, '~입니다' 존대체는 평범한 이웃 사이 대화로서 관계상 무리가 없고 태도 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정 대상이 없습니다. '내일모레'는 the day after tomorrow의 통상적 대응입니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1775,
+    "output_tokens": 980,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

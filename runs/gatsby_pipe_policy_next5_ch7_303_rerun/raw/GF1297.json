@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5kDdMd4q4bxrUKmQHS",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1297\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"realizing that Jordan and I must have known all along\",\"tgt_span\":\"조던과 내가 처음부터 다 알고 있었으리라는 생각에\",\"description\":\"원문은 톰이 '깨달았다(realizing)'는 서술인데, 번역은 '생각에'로 옮겨 깨달음이 단순한 추측으로 바뀜. 확실성이 약간 달라졌으나 핵심 사실(조던과 화자가 처음부터 알고 있었다는 추론)은 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(확실성): 원문의 realizing(깨달음)이 '생각에'로 바뀌어 확실성이 약해졌으나, 누가 누구를 보고 무엇을 추론했는지라는 핵심 사실은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'조던과 내가'의 지시 관계와 '처음부터 다'(all along)의 범위, 보는 행위와 추론의 연결이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(톰의 반응 묘사) → 서술. 문장의 기능이 동일합니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"must have known은 과거에 대한 추론의 must이며 규범 의미가 아니므로 평가 대상이 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"지문 서술이라 화자·청자 사이의 높임이나 호칭 관계가 문제되지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1438,
+    "output_tokens": 740,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

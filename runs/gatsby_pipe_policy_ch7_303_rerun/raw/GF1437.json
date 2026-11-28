@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5pt4WfVZu6WnC55RvT",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1437\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"you went to Oxford\",\"tgt_span\":\"옥스퍼드 대학을 나오셨다고\",\"description\":\"'옥스퍼드에 다녔다/갔다'가 '졸업했다(나오셨다)'로 바뀜. 앞 문맥의 'Oxford man'을 '나오셨다'로 옮긴 것과 일관되지만, 원문 went to보다 졸업 의미가 강해지고 뒤의 'I went there'의 '다녀왔습니다'와도 어긋남.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 'went to Oxford'(옥스퍼드에 다녔다)가 '나오셨다'(졸업/수료)로 바뀌어 행위 내용이 달라졌습니다. 다만 옥스퍼드와 관련 있다고 들었다는 핵심은 유지되고 문맥상 요지 이해가 크게 바뀌지 않아 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 표현의 대상이 바뀌지 않았습니다. 'Oh, yes'는 '아, 맞아요'로 앞 대답에 이어지는 관계가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대의 부정적 대답에 이어 이미 들은 바를 다시 확인하며 압박하는 발화 → 같은 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 대화 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 개츠비를 'Mr. Gatsby'로 부르며 격식을 차리는 상황에서 '~셨다고 들었습니다'의 존대는 앞 문장 번역과 일관되어 관계에 맞습니다. 문맥상 이 정중함은 빈정거리는 태도와도 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"옥스퍼드 대학이라는 기관을 정확히 가리키며 다른 제도로 바꾸지 않았습니다. 졸업 여부의 변화는 Semantic에서 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 998,
+    "output_tokens": 930,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

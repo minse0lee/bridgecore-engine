@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5o7bYpUx822zTVdSf4",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1347\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"for ten years\",\"tgt_span\":\"10년 전부터\",\"description\":\"기간(10년 동안)이 시작 시점(10년 전부터)으로 표현되었으나 '해왔어요'와 함께 쓰이면 10년간 지속된 의미가 유지되어 실질적 차이 없음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'10년 전부터 ~해왔어요'는 현재완료 진행의 10년 지속 기간과 같은 사태를 기술하므로 인물·행위·수량이 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'She'는 문맥상 윌슨의 아내이며 '아내'로 옮겨 지시 대상이 유지되고 'it'은 '그 이야기'로 서부로 가는 일을 가리켜 연결됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"아내가 오래 원했다는 사실을 밝히는 설명 → 같은 설명 기능.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"윌슨이 톰에게 하는 말로 '~어요' 해요체가 앞뒤 대화의 존대 어조와 어울려 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1280,
+    "output_tokens": 659,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

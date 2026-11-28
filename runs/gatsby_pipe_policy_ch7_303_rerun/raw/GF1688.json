@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5vx9z8iwnDwNavBbe6",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1688\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"his car\",\"tgt_span\":\"차를\",\"description\":\"소유 표현 'his'가 번역에서 생략되었으나, 문맥상 '그(차를 친 운전자)의 차'로 자연스럽게 읽히며 의미 변화는 없음. 오류 아님으로 처리 가능하나 참고 기록.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"차를 친 운전자가 멈추지 않았다는 내용이 그대로 유지됩니다. 'his'의 생략은 한국어에서 통상적이며 의미를 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"even의 초점이 '세우지도'로 옮겨져 '멈추는 것조차 하지 않았다'는 범위가 유지되고, 생략된 소유 관계도 문맥상 같은 운전자로 복원됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 운전자를 비난하며 분개하는 서술 → 같은 비난·분개의 발화로 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 사실 진술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"친구 사이의 사적 대화에서 톰이 하는 반말 평서체가 관계에 맞게 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1531,
+    "output_tokens": 683,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

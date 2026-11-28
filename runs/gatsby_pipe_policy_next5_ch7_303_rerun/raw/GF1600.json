@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5rJTEvnsWMsPEkA6Ht",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1600\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"He had slept through the heat\",\"tgt_span\":\"그는 무더위에 지쳐 … 잠을 자다가\",\"description\":\"더위 속에서도 계속 잤다는 내용이 '더위에 지쳐' 잤다는 원인 서술로 바뀜(원문에 없는 인과 첨가)\"},{\"id\":\"E002\",\"src_span\":\"pale as his own pale hair\",\"tgt_span\":\"본인의 머리카락만큼이나 안색이 창백했고\",\"description\":\"'his own pale hair'의 pale(색이 옅은 머리카락)이 번역에서 사라져 머리카락의 옅은 색 정보가 빠지고 비교 대상이 머리카락 자체로만 남음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(인과): 더위 속에서 계속 잤다는 내용이 '더위에 지쳐' 잤다는 원인으로 바뀌었고, 머리카락의 옅은 색(pale hair)도 사라졌습니다. 다만 핵심 사건(잠, 정비소 방문, 윌슨 발견, 창백함과 떨림)은 유지되어 요지는 크게 다르지 않습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(연결 관계): 'slept through the heat'의 통과·지속 관계가 '더위에 지쳐'라는 인과 관계로 바뀌었습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 목격 증언을 전하는 서사 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범·의무·허가를 정하는 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술체('-었다')가 유지되며 관계·태도 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 판정할 문화·제도 고유 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2204,
+    "output_tokens": 856,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5nJkV8zqB3cAKh7E3R",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1335\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"his face was green\",\"tgt_span\":\"그의 얼굴은 창백했다\",\"description\":\"원문의 '초록빛(green)' 안색이 '창백했다'로 바뀌어 구체적인 색 묘사가 사라지고 일반적인 안색 묘사로 대체됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 얼굴색이 green(초록빛)에서 '창백한'으로 달라졌습니다. 병색이 짙다는 요지는 이어져 독자의 이해나 행동이 크게 달라지지는 않으므로 minor입니다.\"},\"Textual\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 지시·연결·초점 표현이 없습니다. 'In the sunlight'를 '햇빛 아래 드러난'으로 옮긴 것은 같은 관계입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"인물 상태 묘사(서술) → 인물 상태 묘사(서술). 발화 기능은 같은 종류입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 서술문에는 화자와 청자 사이의 관계나 태도를 드러내는 표현이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1055,
+    "output_tokens": 665,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

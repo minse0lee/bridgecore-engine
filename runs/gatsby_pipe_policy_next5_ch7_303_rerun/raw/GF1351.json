@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5oE3EqhnrGVChjKcZt",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1351\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"What do I owe you?\",\"tgt_span\":\"얼마나 주면 되겠어?\",\"description\":\"이미 진 빚의 액수를 묻는 말(얼마를 빚졌는가)이 앞으로 얼마를 주면 되겠느냐는 말로 바뀌었고, 청자에게 반말을 사용함\"},{\"id\":\"E002\",\"src_span\":\"demanded Tom harshly\",\"tgt_span\":\"톰이 퉁명스럽게 물었다\",\"description\":\"demanded(다그쳐 요구함)와 harshly(거칠게)가 '퉁명스럽게 물었다'로 약화됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"판단 질문 1: 액수를 묻는 내용과 화자(톰)는 유지됩니다. 'owe'가 '주면 되겠어'로 바뀐 뉘앙스 차이는 있으나 같은 사태를 가리킵니다. demanded→물었다, harshly→퉁명스럽게는 평가어와 말하는 방식의 정도 변화입니다(질문 2).\"},\"Textual\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 지시·연결·초점 표현이 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"계산 액수를 묻는 질문(다그치듯 요구) → 액수를 묻는 질문. 같은 종류의 기능이며 강도만 약해졌습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 아니라 대금 액수를 묻는 대화입니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 3: 거칠게 다그치는 톰의 적대적 태도가 '퉁명스럽게 물었다'로 약해졌습니다. 질문 1: 톰이 윌슨에게 하는 반말은 관계에 부합하므로 이 점은 문제가 되지 않으며, 훼손은 태도 약화에 한정됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1236,
+    "output_tokens": 898,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

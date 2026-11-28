@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5pFKAZjR728ynnWDAV",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1368\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"mistress\",\"tgt_span\":\"정부\",\"description\":\"'mistress'를 '정부'로 옮김. 한국어 독자에게 '정부'는 '政府'와 혼동될 수 있으나 '情婦'의 통용 표기로 같은 대상(애인·내연녀)을 가리킴. 의미 차이는 없어 오류로 보기 어려움.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"아내와 정부(mistress), 한 시간 전까지의 안정, 통제에서 급격히 벗어남이 모두 유지되어 달라진 항목이 없습니다. 'inviolate'를 '견고했던'으로 옮긴 것은 평가어 정도의 차이입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'until an hour ago'의 시간 한정이 '한 시간 전까지만 해도'로 유지되고, 'his'가 가리키는 톰도 앞 문장의 맥락으로 이어집니다. 지시·연결·초점 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(톰의 상황 설명) → 서술. 소설 본문의 설명 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문 '-었다' 문체가 소설 본문의 서술 상황에 맞고, 화자의 태도 변화도 없습니다.\"},\"Cultural\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'mistress'가 '정부(情婦)'로 통용되는 표기로 옮겨져 같은 대상을 가리키며 제도적 의미 손실이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2368,
+    "output_tokens": 768,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

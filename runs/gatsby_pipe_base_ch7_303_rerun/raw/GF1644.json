@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5tv997oG6RgbioEhvL",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1644\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"his shoulder\",\"tgt_span\":\"어깨를\",\"description\":\"소유 대상 'his'(경찰관)가 번역에서 드러나지 않아 누구의 어깨인지 불명확해짐. 다만 앞 문맥상 '그'로 추론 가능하여 의미는 유지됨.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰의 넓은 손이 갑자기 어깨에 떨어지자 그가 고개를 든 사건이 유지됩니다. fell sharply를 '세게 내리치자'로 옮긴 것은 같은 사태 기술의 범위입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'그'가 경찰관을 가리키고 톰의 손이 그의 어깨를 친다는 관계가 문맥상 유지되며, 'as'의 시간 관계도 '-자'로 남아 있습니다. 소유어 생략은 지시 대상을 바꾸지 않습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 톰의 행동에 반응하는 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 서술문으로 의무·허가·금지 등 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"3인칭 서술문으로 화자와 청자 사이의 높임·호칭 관계가 드러나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1273,
+    "output_tokens": 710,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV61xG5eXczDhj2n3WvP",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1359\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"so sick that he looked guilty\",\"tgt_span\":\"너무나 쇠약해 보여서 마치 죄를 지은 사람처럼\",\"description\":\"'아파서 죄지은 듯 보인다'는 인과가 유지되나 'looked guilty'가 '죄를 지은 사람처럼 보였다'로 옮겨져 병색의 의미(sick)가 '쇠약'으로 약간 달라짐. 의미 변화는 미미.\"},{\"id\":\"E002\",\"src_span\":\"as if he had just got some poor girl with child\",\"tgt_span\":\"마치 가난한 처녀를 임신시키고 내팽개친 남자 같은 모습이었다\",\"description\":\"'방금 임신시킨(just got)' 상황에 없는 '내팽개치고(abandoned)'가 첨가되었고, 'poor'가 연민의 의미가 아닌 '가난한'으로 옮겨져 의미가 달라짐.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 1: 'just got ... with child'에 없는 '내팽개치고'가 첨가되고 'poor girl'이 '가난한 처녀'로 바뀌었으나, 죄책감 어린 모습이라는 핵심 요지는 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'so sick that' 인과 구조와 'as if' 비유 관계가 '쇠약해 보여서 ... 처럼'과 '마치 ... 같은 모습'으로 유지되며 지시·초점 변화는 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 묘사 → 서술자의 묘사. 인물의 모습을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 소설 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 평서체 문체가 유지되며 화자·청자 관계상 문제되는 높임·호칭이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1993,
+    "output_tokens": 928,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

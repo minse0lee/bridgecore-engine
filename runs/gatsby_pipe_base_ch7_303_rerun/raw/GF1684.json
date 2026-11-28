@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5vuy2PcPtdQcdxdpLM",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1684\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"with his authoritative arms breaking the way, we pushed through\",\"tgt_span\":\"톰이 위압적인 팔로 길을 터주자, 우리는 … 밀치고 나갔다\",\"description\":\"'his'가 가리키는 Tom이 번역에서 명시되었고 '길을 터주자'로 시간·인과 관계가 부여되었으나, 팔로 길을 터 주며 함께 나아갔다는 동시 상황은 유지되어 의미를 바꾸지 않음(차이 기록)\"},{\"id\":\"E002\",\"src_span\":\"Self-consciously\",\"tgt_span\":\"남들의 시선을 의식하며\",\"description\":\"'어색해하며/자의식 때문에 거북하게'가 '남들의 시선을 의식하며'로 구체화되었으나 같은 상태를 나타냄(차이 기록)\"},{\"id\":\"E003\",\"src_span\":\"passing a hurried doctor, case in hand, who had been sent for in wild hope\",\"tgt_span\":\"서두르는 의사와 마주쳤는데\",\"description\":\"passing(지나치며)이 '마주쳤는데'로 바뀌어 그냥 스쳐 지나간 것이 아니라 대면한 것처럼 읽힘\"},{\"id\":\"E004\",\"src_span\":\"who had been sent for in wild hope half an hour ago\",\"tgt_span\":\"30분 전 누군가의 간절한 희망 속에 호출되어 온 사람이었다\",\"description\":\"half an hour ago는 유지되나 'wild hope'가 '간절한'으로 바뀌고 '누군가의'가 첨가됨. 의사가 무익하게 불려온 아이러니는 유지됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E003\"],\"reason\":\"판단 질문 1(행위): 의사를 '지나치며(passing)'가 '마주쳤는데'로 바뀌어 행위가 약간 달라졌으나 핵심 사실(군중을 헤치고 나가며 의사 곁을 지남)은 유지되어 요지는 같습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"대명사 his는 톰으로 명확히 해소되었고 연결 관계(길을 터주며 나아감, 의사를 지나침)가 유지되며 초점 표현도 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문으로 화자·청자 사이의 높임이나 호칭 관계를 판정할 대상이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상(제도, 단위, 관습 등)이 없고 half an hour는 30분으로 정확히 옮겼습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1685,
+    "output_tokens": 1158,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

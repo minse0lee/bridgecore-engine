@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5qLBdt1YU5wjeGWNX7",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1443\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the silence was unbroken by his “thank you” and the soft closing of the door\",\"tgt_span\":\"그가 건넨 “감사합니다”라는 인사와 조용히 닫히는 문소리조차 그 정적을 깨지는 못했다\",\"description\":\"원문에 없는 초점 표현 '조차'가 첨가되어 정적이 깨지지 않았다는 사실에 '심지어'라는 강조 초점이 더해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"웨이터의 노크와 입실, 민트와 얼음, 인사와 문 닫는 소리에도 정적이 깨지지 않았다는 사실이 모두 유지됩니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3(초점): 원문에 없는 '조차'가 인사와 문소리에 붙어 '심지어 ~도'라는 초점이 새로 생겼습니다. but의 대조 관계와 his의 지시 대상은 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"긴장된 침묵을 묘사하는 서술 → 같은 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술 문장이며 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 문장에 대응하는 평서 서술체 '~했다'로 옮겨졌고, 인용된 '감사합니다'도 웨이터의 공손한 인사로 자연스럽습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1318,
+    "output_tokens": 756,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

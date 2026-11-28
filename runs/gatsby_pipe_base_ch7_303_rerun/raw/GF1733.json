@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5yXguV9J35fk4ix5Rt",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1733\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Don’t tell me\",\"tgt_span\":\"말하지 말아요\",\"description\":\"'내게 (그 얘기를) 말하지 마라'가 목적어(me)가 빠져 '말하지 말아요'로 옮겨져 청자에게 하는 말이 아니라 일반적 침묵 요구로 읽힐 수 있음. 다만 문맥상 같은 요구로 이해 가능.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자에게 (끔찍한 세부를) 말하지 말라는 내용이 유지되며, 'me'의 생략은 문맥상 의미를 바꾸지 않습니다. 'old sport'는 '친구'로 통상 대응됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 표현이나 연결·초점 관계가 바뀌지 않았고 앞 발화에 대한 반응이라는 연결이 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대의 말을 제지하는 요청 → 상대의 말을 제지하는 요청. 기능이 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 대화 속 개인적 부탁·제지로 규범·의무를 정하는 문장이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"Gatsby가 Nick에게 쓰는 'old sport' 특유의 친근한 호칭이 '친구'로 유지되고, 존댓말 '-아요'도 이 대화에서 쓰인 말투와 맞아 관계에 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다. 'old sport'는 호칭 표현이며 고유한 제도나 비칭이 아닙니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1803,
+    "output_tokens": 778,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

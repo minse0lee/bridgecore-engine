@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5oLnZ4xb27d7xdNv7w",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1351\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"demanded Tom harshly\",\"tgt_span\":\"톰이 퉁명스럽게 물었다\",\"description\":\"demanded harshly(거칠고 다그치듯 요구함)가 '퉁명스럽게 물었다'로 바뀌어 요구하는 태도가 약해지고 단순한 질문 동사로 옮겨짐. 평가어의 정도 차이 수준.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"얼마를 지불해야 하는지 묻는 내용과 화자 톰이 유지되며, harshly가 '퉁명스럽게'로 바뀐 것은 평가어의 정도 차이에 그칩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 관계, 연결 관계, 초점 표현에 변화가 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지불액 질문(재촉하는 어조) → 지불액 질문. 같은 종류의 기능이며 어조 강도만 약간 달라졌습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'owe'는 금액을 묻는 표현일 뿐 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 수리공 윌슨에게 거칠게 말하는 태도가 '~나?' 하대와 '퉁명스럽게'로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1257,
+    "output_tokens": 701,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

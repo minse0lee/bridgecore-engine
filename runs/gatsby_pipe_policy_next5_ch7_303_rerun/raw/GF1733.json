@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5yYuaXo98ztfzkzcRf",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1733\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Don’t tell me\",\"tgt_span\":\"말하지 마세요\",\"description\":\"'(그 얘기를) 내게 말하지 마라'가 목적어 'me'와 대상 없이 '말하지 마세요'로 옮겨져, 상대의 발언 중단 요구가 모호해짐(뜻은 대체로 유지)\"},{\"id\":\"E002\",\"src_span\":\"old sport\",\"tgt_span\":\"친구\",\"description\":\"개츠비 특유의 호칭 'old sport'가 일반적인 '친구'로 옮겨져 특유의 어투가 약해짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"질문 1: 상대가 더 말하지 말라는 내용과 호칭이 유지되며, 'me'의 생략은 사태를 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 연결·초점 표현이나 지시 관계가 거의 없어 평가할 대상이 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대의 말을 제지하라는 요청 → 상대의 말을 제지하라는 요청. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"대화 속 개인적 부탁으로, 의무·허가·금지를 정하는 규범 표현이 아닙니다.\"},\"Register\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"질문 3: 개츠비의 특유한 친근하고 격식 있는 호칭 'old sport'가 평범한 '친구'로 바뀌어 화자의 태도 색채가 약해졌습니다. '말하지 마세요'의 존대는 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유 대상이 없고 호칭은 인물 특유의 말투이므로 Register에서 다룹니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1799,
+    "output_tokens": 805,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

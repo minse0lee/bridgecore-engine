@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5tk2Rj1yPNSVrw276h",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1644\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"fell sharply on his shoulder\",\"tgt_span\":\"어깨를 세게 내리치자\",\"description\":\"어깨 위에 '떨어졌다/얹혔다'는 동작이 '내리치다'라는 타격 행위로 바뀌어 거칠기와 동작의 성격이 달라짐\"},{\"id\":\"E002\",\"src_span\":\"He looked up as Tom’s broad hand fell\",\"tgt_span\":\"톰의 큼지막한 손이 … 내리치자 그는 고개를 들어 올렸다\",\"description\":\"원문에서는 고개를 드는 것과 손이 떨어지는 것이 동시에 일어나는데, 번역은 손이 먼저 내리친 뒤 그가 고개를 든 것으로 읽혀 인과·선후 관계가 생김\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 손이 어깨에 '세게 떨어졌다'는 동작이 '내리쳤다'로 바뀌어 행위의 성격이 다소 달라졌으나, 톰의 손이 경찰관 어깨에 닿았고 그가 고개를 들었다는 핵심 사실은 유지되어 요지는 크게 다르지 않습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E002\"],\"reason\":\"판단 질문 2: 'as'가 나타내는 동시적 시간 관계가 '-자'의 직후·인과 관계로 바뀌어, 손이 내리친 것에 반응해 고개를 든 것처럼 읽힙니다. 사건 자체는 유지되어 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 서술 → 장면 서술. 톰이 경찰관에게 다가가 주의를 끄는 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장은 서술문으로 화자와 청자 관계가 드러나는 높임·호칭이 없어 평가 대상이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1273,
+    "output_tokens": 930,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

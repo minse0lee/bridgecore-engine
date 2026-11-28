@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5nNJJoUX4NmpLk4BeN",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1334\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"left the shade and support of the doorway\",\"tgt_span\":\"몸을 일으켜 문가에 기대어 있던 그늘에서 벗어났고\",\"description\":\"'문간의 그늘과 지지(기댈 곳)를 떠났다'는 내용이 '몸을 일으켜 … 기대어 있던 그늘에서 벗어났다'로 바뀌어, 원문에 없는 '몸을 일으킴'이 첨가되고 문간이 '지지'를 제공한다는 내용이 '기대어 있던' 동작 서술로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 원문에 없는 '몸을 일으켜'가 더해지고 '지지'가 '기대어 있던'으로 바뀌었으나, 윌슨이 힘겹게 문간의 그늘과 기댈 곳을 벗어나 탱크 캡을 연다는 핵심 사태는 유지되어 요지가 크게 달라지지 않습니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시 관계, 연결(그리고 순차 동작), 초점 표현이 모두 유지되며 세 질문 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 인물의 동작을 묘사하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 청자의 관계가 드러나는 대화나 호칭이 없는 지문 서술입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"인명 외에 문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1150,
+    "output_tokens": 775,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

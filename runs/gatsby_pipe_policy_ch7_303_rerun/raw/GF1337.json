@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5nUQAQHpmaKwwRDKxJ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1337\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"But I need money pretty bad, and I was wondering\",\"tgt_span\":\"돈이 정말 급해서요. 타시던 낡은 차를 어떻게 하실 생각인지 궁금해서 여쭤봅니다.\",\"description\":\"'But'에 해당하는 연결어가 번역되지 않았다. 문장이 둘로 나뉘면서 앞 문장(점심 방해 의도 없음)과의 대조는 이웃 문장에 걸쳐 있다. 의미·기능이 바뀌지 않아 사소한 차이이다.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"돈이 몹시 급하다는 것과 낡은 차를 어떻게 할 생각인지 궁금하다는 내용, 인물·시제가 모두 유지된다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"But은 번역되지 않았지만, 앞 문장 '방해하려던 건 아니었습니다만'과 이어지는 양보 관계는 문맥상 남아 있고 '돈이 정말 급해서요'에서 이유 관계도 유지된다. 지시 대상과 초점도 바뀌지 않았다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"차를 팔 의향을 떠보는 간접 타진 → 같은 타진. 'wondering' 구조의 간접성이 '궁금해서 여쭤봅니다'로 유지된다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 표현이 없는 개인적 사정과 궁금증을 서술한 문장이다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"가난한 윌슨이 부유한 톰에게 조심스럽게 말하는 관계에 맞게 '-요', '타시던', '여쭤봅니다'로 높임이 적절히 표현되었다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 문화·제도에 고유한 대상이 없다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1144,
+    "output_tokens": 836,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

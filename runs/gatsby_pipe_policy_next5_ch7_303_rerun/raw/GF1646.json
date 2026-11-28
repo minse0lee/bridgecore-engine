@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5tsRAuiqL7wxhMpao6",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1646\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"that’s what I want to know\",\"tgt_span\":\"그것만 말해요\",\"description\":\"'내가 알고 싶은 것'이라는 화자의 바람을 서술하는 말이 상대에게 '말하라'는 명령으로 바뀌고, 'only'에 해당하는 '만'이 첨가됨\"},{\"id\":\"E002\",\"src_span\":\"What happened?\",\"tgt_span\":\"무슨 일이 있었는지\",\"description\":\"직접 의문문이 간접 의문절로 바뀌어 질문 형태가 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: '알고 싶다'는 화자의 욕구 진술이 '말해요'라는 행위 요구로 바뀌고 '그것만'이라는 한정이 더해졌으나, 알고 싶은 대상(무슨 일이 있었는지)은 유지되어 요지는 크게 다르지 않습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 3: 원문에 없는 '그것만'이 추가되어 초점·범위를 한정하는 표현이 생겼습니다(only 의미). 대명사 '그것'이 가리키는 대상 자체는 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"경찰에게 사건 경위를 추궁·요구하는 발화 → 경위를 말하라는 요구. 상대가 답하도록 이끄는 같은 종류의 기능입니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지를 정하는 규범 표현이 없는 대화 속 정보 요구입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"톰이 경찰에게 거칠게 다그치는 장면에서 '말해요'는 관계상 수용 가능한 어조이며 화자의 거친 태도가 크게 약해지지 않았습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습 등 판정할 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1100,
+    "output_tokens": 872,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

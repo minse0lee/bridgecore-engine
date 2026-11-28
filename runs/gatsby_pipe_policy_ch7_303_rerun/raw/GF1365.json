@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5p8vhWx9Ymd5fRRepQ",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1365\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"one emotion after another crept into her face\",\"tgt_span\":\"여러 가지 감정이 그녀의 얼굴에 차례로 스쳐 지나갔다\",\"description\":\"'crept into'(서서히 스며들어 자리 잡음)가 '스쳐 지나갔다'(순간 지나감)로 바뀌어 감정이 얼굴에 떠오르는 방식이 달라짐. 다만 '차례로'로 연속성은 유지되고 핵심 사실은 같아 경미함.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1: 감정이 서서히 얼굴에 스며드는(crept into) 동작이 '스쳐 지나갔다'로 바뀌어 동작의 양상이 달라졌지만, 감정이 차례로 얼굴에 나타난다는 요지와 독자의 행동 이해에는 영향이 없어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'So… that' 결과 구문이 '너무 몰두한 나머지'로, 비유 연결이 '~듯'으로 유지되고 지시·연결·초점 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술(인물의 상태 묘사) → 서술. 발화 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 묘사 문장으로 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자와 청자 사이의 관계를 드러내는 호칭·높임이 있는 대화가 아니라 서술문입니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다. 인명만 문맥에 있고 이 문장에는 나오지 않습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2388,
+    "output_tokens": 803,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

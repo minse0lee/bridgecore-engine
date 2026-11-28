@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5zW6hEnfG7dFPeqqUF",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1758\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"They weren’t happy\",\"tgt_span\":\"두 사람은 행복해 보이지 않았고\",\"description\":\"'행복하지 않았다'는 서술이 '행복해 보이지 않았다'로 바뀌어 화자의 관찰에 근거한 인상으로 확실성이 달라짐(경미한 변화)\"},{\"id\":\"E002\",\"src_span\":\"they weren’t unhappy either\",\"tgt_span\":\"딱히 불행해 보이지도 않았다\",\"description\":\"'불행하지 않았다'가 '불행해 보이지 않았다'로 바뀌고 '딱히'가 더해져 단정이 외양 인상으로 약화됨\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\",\"E002\"],\"reason\":\"판단 질문 1(확실성): 'weren't happy/unhappy'가 '행복해/불행해 보이지 않았다'로 바뀌어 상태 단정이 외양 판단이 되었으나 핵심 사실(손대지 않음, 행복도 불행도 아님)은 유지되어 minor입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'and yet'의 양보·대조 관계가 '그렇다고'로 유지되고 neither…nor의 범위도 '치킨이나 에일에는 손도 대지 않은'으로 유지됩니다(질문 1·2·3 모두 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"장면 묘사(서술) → 장면 묘사(서술). 서술 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 같은 규범 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 지문의 평서 서술체(~었다)가 유지되며 관계·태도 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"치킨과 에일은 일반 음식 지칭이며 별도로 판정할 문화·제도 고유 대상이 아닙니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1629,
+    "output_tokens": 849,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

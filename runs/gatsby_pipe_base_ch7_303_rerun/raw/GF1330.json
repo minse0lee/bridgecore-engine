@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5n6dEYJGt7eMuF437m",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1330\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"“I’m all run down.”\",\"tgt_span\":\"“기운이 하나도 없어서요.”\",\"description\":\"독립 서술 'I'm all run down'이 이유를 나타내는 연결어미 '-어서요'로 옮겨져 앞 질문(What's the matter?)에 대한 직접 답이 아니라 앞 발화의 이유처럼 읽히는 경향이 있으나, 의미는 유지됨. 존댓말 '-요' 사용은 윌슨이 톰에게 쓴 말투로 관계에 부합.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'all run down'(몹시 지쳐 기운이 없음)이 '기운이 하나도 없다'로 같은 상태를 나타내며 행위자·정도가 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'-어서요'는 앞 대화의 '몸이 안 좋다'를 보충하는 이유 설명으로 자연스럽게 이어지며 지시·연결·초점 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'What's the matter?'에 대한 상태 설명 → 상태 설명. 같은 종류의 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"의무·허가·금지 등 규범 의미가 없는 상태 서술입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"윌슨이 손님 톰에게 쓰는 말로 '-요' 존대체가 앞뒤 번역의 '몸이 안 좋아서요'와 일관되고 관계에 맞습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 984,
+    "output_tokens": 760,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

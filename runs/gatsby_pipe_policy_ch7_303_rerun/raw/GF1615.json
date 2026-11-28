@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5s5rV8WSNePFYHk62f",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1615\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"Throw me down and beat me\",\"tgt_span\":\"나를 밀쳐서 때려보라고\",\"description\":\"'Throw me down'(쓰러뜨려 내던지라)이 '밀쳐서'로, 명령이 '때려보라고'(도전·시험조)로 바뀌어 도발 어조가 더해졌으나 핵심 행위는 유지됨\"},{\"id\":\"E002\",\"src_span\":\"you dirty little coward\",\"tgt_span\":\"이 더러운 겁쟁이 자식아\",\"description\":\"'little'이 번역되지 않았고 '자식'이 첨가되어 비하 표현이 다소 달라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"쓰러뜨려 때리라는 행위, 대상, 더러운 겁쟁이라는 호칭이 모두 유지되며 'down'을 '밀쳐서'로 옮긴 것은 같은 사태 기술로 볼 수 있고 달라진 것은 평가어의 정도 수준입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"지시·연결·초점 관계가 바뀌지 않았습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"상대에게 폭력을 도발하는 외침 → 폭력을 도발하는 외침. 기능 종류가 같습니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자가 상대에게 의무·금지를 거는 것이 아니라 감정적인 도발 발화이므로 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"부부 사이의 격한 반말과 경멸·모욕 태도가 '이 더러운 겁쟁이 자식아'로 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 판정할 문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1948,
+    "output_tokens": 799,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

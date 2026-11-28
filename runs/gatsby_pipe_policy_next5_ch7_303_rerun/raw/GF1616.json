@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5sFRh37Dfkbp8CdYzN",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1616\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"rushed out into the dusk, waving her hands and shouting\",\"tgt_span\":\"손을 흔들며 소리를 지르고는 어스름 속으로 달려 나갔다\",\"description\":\"뛰쳐나가면서 손을 흔들고 소리친 동시 동작이 소리지른 뒤 달려 나간 순차 동작으로 바뀜\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"그녀, 잠시 후, 어스름 속으로 달려 나감, 손짓과 고함, 그가 움직이기 전에 끝남이 모두 유지되어 사태가 같습니다. 동작 순서의 차이는 사건 내용을 바꾸지 않습니다.\"},\"Textual\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 2(시간 순서): 달려 나가면서 동시에 손을 흔들고 소리친 관계가 '-고는'으로 소리친 뒤 달려 나간 순차 관계로 바뀌었습니다. 핵심 사건은 유지되어 minor입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"사건 서술 → 사건 서술. 서사 진행 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범 의미가 없는 서사 문장입니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 서술의 평서체가 유지되며 관계나 태도의 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·관습·단위가 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1814,
+    "output_tokens": 698,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

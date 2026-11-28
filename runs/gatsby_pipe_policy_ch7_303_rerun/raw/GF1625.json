@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5siAHX2Mrk4pGnggWk",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1625\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"the hushed, intent faces of the people at the garage door\",\"tgt_span\":\"정비소 문 앞에 모여 있던 사람들이 숨을 죽인 채 집중하고 있는 표정을 보자\",\"description\":\"원문의 'garage'를 '정비소'로 옮김(뒤 문장 번역은 '차고'). 같은 장소를 가리키며 Wilson's garage는 정비소이므로 의미 변화는 없음. 오류 아님이나 일관성 차이만 존재.\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"속도를 줄임, 멈출 생각 없음, 사람들의 숨죽인 집중한 얼굴을 보고 자동적으로 브레이크를 밟음이 모두 유지됩니다. 'garage'를 '정비소'로 옮긴 것은 같은 장소를 가리킵니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"but still의 대조와 until의 시간 관계가 '그러나/그러다'로 유지되며, 'him'은 톰으로 명확히 지시됩니다. 판단 질문 1·2·3 모두 아니오입니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서사 서술 → 서사 서술. 장면 묘사 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"규범적 의무·허가·금지 표현이 없는 서술문입니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"화자·청자 관계가 드러나는 대화나 호칭이 없는 서술문이며 서술 문체는 유지됩니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화 고유의 제도·단위·관습이 없습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1843,
+    "output_tokens": 751,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

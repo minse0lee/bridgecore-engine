@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5wh89KBS57qg7aKhWo",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1696\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"have them get you some supper\",\"tgt_span\":\"저녁이라도 좀 먹어\",\"description\":\"하인들에게 저녁을 가져오게 시킨다는 사역 구조가 직접 먹으라는 말로 바뀜. 행위자 'them'이 사라짐\"}],\"axes\":{\"Semantic\":{\"judgment\":\"훼손\",\"severity\":\"minor\",\"error_ids\":[\"E001\"],\"reason\":\"판단 질문 1(행위자·행위): 부엌의 사람들에게 저녁을 내오게 한다는 내용이 직접 저녁을 먹으라는 말로 바뀌어 행위 구조가 달라졌으나, 부엌에 가서 저녁을 먹는다는 핵심 사태와 대화 흐름은 유지됩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"택시를 부르는 것, 기다리는 동안이라는 시간 연결, 'if you want any' 조건이 '원한다면 말이야'로 이어져 지시·연결·초점 관계가 유지됩니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"조언·제안 → 조언·제안. 택시를 불러주고 부엌에서 저녁을 먹으라고 권하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"'better'는 소설 속 대화에서 개인적으로 권하는 말이며 의무·금지 같은 규범을 정하지 않습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"개츠비 같은 인물이 닉에게 하는 친근한 말투를 '-줄게', '-먹어' 반말로 옮긴 것은 주고받는 관계에 맞고, 앞 문장 '자네'와도 어긋나지 않습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없고 인명만 나옵니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1308,
+    "output_tokens": 806,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

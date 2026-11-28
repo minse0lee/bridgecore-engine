@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5oiYErdowkMYmN1azB",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1358\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"I stared at him and then at Tom\",\"tgt_span\":\"나는 그를 보았다가, … 톰을 보았다\",\"description\":\"stared(응시)가 '보았다'로 바뀌어 뚫어지게 보는 행위의 정도가 약해짐. 평가어/행위 정도 차이로 의미 변화는 미미함\"},{\"id\":\"E002\",\"src_span\":\"there was no difference between men, in intelligence or race, so profound as the difference between the sick and the well\",\"tgt_span\":\"지능이나 인종의 차이보다 더 깊은 인간 사이의 격차는 바로 아픈 자와 건강한 자의 차이라는 생각이 들었다\",\"description\":\"'어떤 차이도 깊지 않다'는 부정 비교가 '가장 깊은 격차는 아픈 자와 건강한 자의 차이'라는 긍정 최상급 취지로 바뀜. 지능·인종 차이를 아예 비교 대상으로 삼는 점은 유지됨. 핵심 주장은 같음\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"판단 질문 1·2: 윌슨과 톰을 차례로 본 행위, 한 시간 미만 전의 유사한 발견, 아픈 자와 건강한 자의 차이가 가장 크다는 주장이 모두 유지됩니다. 'stared'가 '보았다'로 약해진 것은 정도 차이에 그칩니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'who'의 선행사가 톰으로 유지되고 '그러자'로 시간·인과 연결이 자연스럽게 재구성되었으며, 초점 표현의 이동이 없습니다.\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 관찰과 성찰 서술 → 서술자의 관찰과 성찰 서술. 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"소설 속 서술자의 관찰과 생각으로, 의무·허가·금지 등 규범 표현이 없습니다.\"},\"Register\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술자의 1인칭 회고 서술이 '~했다' 평서체 서술로 유지되어 관계나 태도에 변화가 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"이 문장에는 별도로 판정할 문화 고유의 제도·관습·단위가 없고, 'race'는 일반 어휘 '인종'으로 옮겨져 대응 대상이 같습니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 2010,
+    "output_tokens": 1024,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

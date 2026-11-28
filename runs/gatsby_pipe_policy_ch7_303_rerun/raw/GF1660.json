@@ -1,0 +1,35 @@
+{
+  "id": "msg_011ChV5uXwwBoB57VjYoDdcM",
+  "container": null,
+  "content": [
+    {
+      "citations": null,
+      "text": "{\"item_id\":\"GF1660\",\"evaluable\":true,\"evaluable_note\":null,\"errors\":[{\"id\":\"E001\",\"src_span\":\"his grasping cries\",\"tgt_span\":\"무언가를 붙잡으려 울부짖던 그의 외침\",\"description\":\"grasping(탐욕스러운·움켜쥐려는 듯한 절규)을 '무언가를 붙잡으려 울부짖던'으로 풀어 옮겼으나 대체로 같은 사태를 가리킴. 의미·기능을 바꾸지 않는 차이라 사실상 오류 아님\"}],\"axes\":{\"Semantic\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"일부 대화가 윌슨에게 들렸을 것이라는 추측, 비틀거리는 윌슨, 외침 속에 새로운 화제가 나타남이 모두 유지됩니다. grasping의 표현 차이는 정도·뉘앙스 수준입니다.\"},\"Textual\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"'for' 이하의 이유 관계가 '~는지, ~했다'로 재구성되어 남아 있고 지시 관계와 초점도 바뀌지 않았습니다(질문 1·2·3 모두 아니오).\"},\"Context\":{\"judgment\":\"보존\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술 → 서술. 윌슨이 대화를 듣고 새 주제로 외치기 시작하는 상황을 서술하는 기능이 유지됩니다.\"},\"Deontic\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"must have reached는 과거 사실에 대한 추론이며 규범 의미가 없습니다.\"},\"Register\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"서술문이며 화자·청자 사이의 높임·호칭 관계가 드러나는 표현이 없습니다.\"},\"Cultural\":{\"judgment\":\"N/A\",\"severity\":null,\"error_ids\":[],\"reason\":\"문화·제도 고유의 대상이 없고 인명만 등장합니다.\"}}}",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 14219,
+    "inference_geo": "global",
+    "input_tokens": 1660,
+    "output_tokens": 753,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}
